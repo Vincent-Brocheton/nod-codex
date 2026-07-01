@@ -1,10 +1,24 @@
 import { BookOpen } from "lucide-react";
 import stringifyValue from "../utils/stringifyValue";
 import BlockRenderer from "./BlockRenderer";
+import LoadingState from "./LoadingState";
+import PageNotFoundState from "./PageNotFoundState";
+import EmptyState from "./EmptyState";
 function DetailPanel({
     wiki
 }) {
-    const { activeCollection, activeItem } = wiki.collections.computed;
+    const { activeCollection, activeItem, pageNotFound } = wiki.collections.computed;
+    if (wiki.loading) {
+        return <LoadingState />;
+    }
+
+    if (pageNotFound) {
+        return <PageNotFoundState />;
+    }
+
+    if (!activeItem) {
+        return <EmptyState />;
+    }
     return (<article className="detailPane">
         {activeItem ? (
             <>
@@ -33,7 +47,7 @@ function DetailPanel({
         ) : (
             <div className="placeholder">
                 <BookOpen aria-hidden="true" size={34} />
-                <p>SÃ©lectionne une fiche pour l'afficher ici.</p>
+                <p>Sélectionne une fiche pour l'afficher ici.</p>
             </div>
         )}
     </article>);

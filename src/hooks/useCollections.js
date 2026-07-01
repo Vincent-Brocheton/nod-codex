@@ -117,6 +117,9 @@ export default function useCollections(manifest, route, query) {
     function openPage(page) {
         setActiveItemId(page.id);
     }
+
+    const pageNotFound =
+    Boolean(route.slug) && !activeItem;
     const actions = {
         selectCollection,
         openPage,
@@ -129,7 +132,8 @@ export default function useCollections(manifest, route, query) {
         activeCollection,
         activeItem,
         groupedCollections,
-        visibleItems
+        visibleItems,
+        pageNotFound,
     };
 
     return {
