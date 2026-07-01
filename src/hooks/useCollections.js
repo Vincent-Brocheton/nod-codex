@@ -117,9 +117,14 @@ export default function useCollections(manifest, route, query) {
     function openPage(page) {
         setActiveItemId(page.id);
     }
+    const sectionExists =
+        !route.section ||
+        manifest.collections.some(
+            collection => collection.key === route.section
+        );
 
     const pageNotFound =
-    Boolean(route.slug) && !activeItem;
+        Boolean(route.slug) && !activeItem;
     const actions = {
         selectCollection,
         openPage,
@@ -134,6 +139,7 @@ export default function useCollections(manifest, route, query) {
         groupedCollections,
         visibleItems,
         pageNotFound,
+        sectionExists,
     };
 
     return {

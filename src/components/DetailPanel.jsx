@@ -1,9 +1,9 @@
 import { BookOpen } from "lucide-react";
 import stringifyValue from "../utils/stringifyValue";
 import BlockRenderer from "./BlockRenderer";
-import LoadingState from "./LoadingState";
-import PageNotFoundState from "./PageNotFoundState";
-import EmptyState from "./EmptyState";
+import LoadingState from "./States/LoadingState";
+import PageNotFoundState from "./States/PageNotFoundState";
+import EmptyState from "./States/EmptyState";
 function DetailPanel({
     wiki
 }) {

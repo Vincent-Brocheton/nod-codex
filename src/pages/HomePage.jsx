@@ -4,6 +4,7 @@ import ItemList from "../components/ItemList";
 import DetailPanel from "../components/DetailPanel";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
+import NotFoundPage from "./NotFoundPage";
 
 function HomePage() {
     const { section, slug } = useParams();
@@ -12,7 +13,12 @@ function HomePage() {
         section,
         slug,
     });
-
+    if (
+        !wiki.loading &&
+        !wiki.collections.computed.sectionExists
+    ) {
+        return <NotFoundPage />;
+    }
     return (
         <main className="wikiShell">
             <Sidebar wiki={wiki} />
