@@ -1,0 +1,83 @@
+{
+  "generatedAt": "2026-07-01T19:30:37.211Z",
+  "collections": [
+    {
+      "key": "disciplines",
+      "label": "Disciplines",
+      "group": "Disciplines et Pouvoirs",
+      "file": "/data/collections/disciplines.json"
+    },
+    {
+      "key": "pouvoirs",
+      "label": "Pouvoirs",
+      "group": "Disciplines et Pouvoirs",
+      "file": "/data/collections/pouvoirs.json"
+    },
+    {
+      "key": "pouvoirs-anciens",
+      "label": "Pouvoirs d'Anciens",
+      "group": "Disciplines et Pouvoirs",
+      "file": "/data/collections/pouvoirs-anciens.json"
+    },
+    {
+      "key": "clans",
+      "label": "Clans",
+      "group": "Clans et Lignées",
+      "file": "/data/collections/clans.json"
+    },
+    {
+      "key": "lignees",
+      "label": "Lignées",
+      "group": "Clans et Lignées",
+      "file": "/data/collections/lignees.json"
+    },
+    {
+      "key": "atouts",
+      "label": "Atouts",
+      "group": "Atouts et Handicaps",
+      "file": "/data/collections/atouts.json"
+    },
+    {
+      "key": "handicaps",
+      "label": "Handicaps",
+      "group": "Atouts et Handicaps",
+      "file": "/data/collections/handicaps.json"
+    },
+    {
+      "key": "techniques",
+      "label": "Techniques",
+      "group": "Techniques",
+      "file": "/data/collections/techniques.json"
+    },
+    {
+      "key": "thaumaturgie",
+      "label": "Thaumaturgie",
+      "group": "Rituels",
+      "file": "/data/collections/thaumaturgie.json"
+    },
+    {
+      "key": "abysse",
+      "label": "Abysse",
+      "group": "Rituels",
+      "file": "/data/collections/abysse.json"
+    },
+    {
+      "key": "necromancie",
+      "label": "Nécromancie",
+      "group": "Rituels",
+      "file": "/data/collections/necromancie.json"
+    },
+    {
+      "key": "attributs",
+      "label": "Attributs",
+      "group": "Attributs et Compétences",
+      "file": "/data/collections/attributs.json"
+    },
+    {
+      "key": "competences",
+      "label": "Compétences",
+      "group": "Attributs et Compétences",
+      "file": "/data/collections/competences.json"
+    }
+  ]
+}

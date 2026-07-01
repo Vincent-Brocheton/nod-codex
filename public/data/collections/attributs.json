@@ -1,0 +1,229 @@
+{
+  "key": "attributs",
+  "label": "Attributs",
+  "group": "Attributs et Compétences",
+  "notionDatabaseId": "38188b48-e48e-8055-9c50-ce87cf7642a3",
+  "generatedAt": "2026-07-01T19:30:28.678Z",
+  "items": [
+    {
+      "id": "38188b48-e48e-8019-9e06-e16a9b966f28",
+      "slug": "mental",
+      "title": "Mental",
+      "notionUrl": "https://app.notion.com/p/Mental-38188b48e48e80199e06e16a9b966f28",
+      "lastEditedTime": "2026-06-17T10:41:00.000Z",
+      "properties": {
+        "Name": "Mental"
+      },
+      "content": [
+        {
+          "type": "heading_3",
+          "text": "Description :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attributs Mentaux indiquent les aptitudes d’un personnage en matière de résolution de problèmes, d’apprentissage, de déduction et de vigilance générale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage avec des attributs Mentaux élevés est attentif, logique ou intuitif."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l’inverse, un personnage avec des attributs Mentaux faibles est moins capable. Il peut être peu instruit, naïf ou lent d’esprit."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nixx le Tremere enquête sur une scène de crime, espérant découvrir des indices sur l’identité d’un voleur habile ayant pénétré dans la chantrie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon son niveau d’attributs, son focus Mentale et ses rangs dans une compétence appropriée, Nixx peut mener son enquête de différentes manières."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut examiner attentivement la pièce, en utilisant le focus en Perception et la compétence Investigation pour remarquer tout élément déplacé."
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il a un focus en Astuce, il peut utiliser la compétence Connaissances académiques pour se souvenir de tout ce qui se trouvait dans la pièce et déterminer ce qui manque."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si Nixx a un focus en Intelligence, il peut utiliser la compétence Science : Criminalistique et examiner la pièce à la recherche d’empreintes digitales, de follicules pileux ou d’autres indices."
+        },
+        {
+          "type": "heading_3",
+          "text": "Focus :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Mentaux sont Perception, Intelligence et Astuce."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pouvoirs Mentaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Mental de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme traduire un texte ancien en anglais, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action."
+        }
+      ]
+    },
+    {
+      "id": "38188b48-e48e-80a9-a896-c28b0ea8e401",
+      "slug": "physique",
+      "title": "Physique",
+      "notionUrl": "https://app.notion.com/p/Physique-38188b48e48e80a9a896c28b0ea8e401",
+      "lastEditedTime": "2026-06-17T10:41:00.000Z",
+      "properties": {
+        "Name": "Physique"
+      },
+      "content": [
+        {
+          "type": "heading_3",
+          "text": "Description :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attributs Physiques mesurent la force, l’agilité et la résistance générales de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant des attributs Physiques modestes n’est pas très athlétique, tandis qu’un personnage ayant des attributs Physiques élevés est exceptionnellement fort, agile ou endurant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et uniquement leurs attributs Physiques) pendant une courte durée."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vincent le Nosferatu affronte un chasseur de vampires mortel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon le niveau de ses attributs, son orientation d’attribut et ses rangs dans une compétence appropriée, il peut combattre de différentes manières."
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il a le focus en Force, il peut tenter de saisir son adversaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il a le focus en Dextérité, il peut essayer de tirer sur le chasseur."
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il a le focus en Vigueur, il peut tenter de résister aux attaques suffisamment longtemps pour s’échapper."
+        },
+        {
+          "type": "heading_3",
+          "text": "Focus :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Physiques sont Force, Dextérité et Vigueur."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un personnage avec un Focus en Force est vigoureux et musclé. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Force sans coût (Désarmer, Saisir, Renverser ou Transpercer le cœur)."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un personnage avec un Focus en Dextérité est rapide et agile. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Dextérité sans coût (Accélération, Désarmer, Combattre à l’aveugle ou Dégainer rapidement)."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un personnage avec un Focus en Vigueur est résistant et robuste. Ces personnages ne subissent pas de pénalités de blessures. De plus, ils ne peuvent pas être Assommés ni Renversés par une manœuvre de combat, sauf si l’attaquant possède un attribut Physique supérieur à celui de votre personnage."
+        }
+      ]
+    },
+    {
+      "id": "38188b48-e48e-80df-a01b-e5c5054378d3",
+      "slug": "social",
+      "title": "Social",
+      "notionUrl": "https://app.notion.com/p/Social-38188b48e48e80dfa01be5c5054378d3",
+      "lastEditedTime": "2026-06-17T10:41:00.000Z",
+      "properties": {
+        "Name": "Social"
+      },
+      "content": [
+        {
+          "type": "heading_3",
+          "text": "Description :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vampires sont des créatures manipulatrices, utilisant les humains (et les uns les autres) comme des instruments pour faire avancer leurs ambitions personnelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attributs Sociaux décrivent l’apparence, le charme et la capacité d’un personnage à interagir avec autrui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage possède peu d’attributs Sociaux, il est maladroit, timide ou simplement banal d’apparence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage avec une valeur élevée dans ses attributs Sociaux est attirant, convaincant et à l’aise, plus apte à persuader les autres d’agir selon sa volonté."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rose la Toreador doit trouver un moyen de passer devant les videurs de la boîte de nuit la plus populaire de la ville : un défi à dominante Sociale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon son niveau d’attributs, son focus Sociale et ses rangs dans une compétence appropriée, Rose peut tenter différentes approches."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut flirter avec les videurs, en s’appuyant sur une orientation en Apparence et la compétence Représentation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si elle a le focus en Charisme, elle peut séduire les videurs grâce à son esprit vif, en utilisant Empathie pour déterminer ce qu’ils souhaitent entendre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si Rose a le focus en Manipulation, elle peut tenter de convaincre les videurs qu’elle fait partie du groupe qui joue ce soir, en utilisant Subterfuge pour rendre ses mensonges aussi crédibles que possible."
+        },
+        {
+          "type": "heading_3",
+          "text": "Focus :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Sociaux sont Charisme, Manipulation et Apparence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pouvoirs Sociaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Social de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme convaincre tous les avocats de la ville, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action."
+        }
+      ]
+    }
+  ]
+}
