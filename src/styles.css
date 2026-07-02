@@ -22,7 +22,8 @@ input {
 .wikiShell {
   display: grid;
   grid-template-columns: 280px minmax(230px, 340px) 1fr;
-  min-height: 100vh;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .sidebar {
@@ -32,6 +33,8 @@ input {
   flex-direction: column;
   gap: 22px;
   padding: 22px;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .brand {
@@ -129,6 +132,8 @@ input {
   flex-direction: column;
   min-width: 0;
   padding: 24px 18px;
+  height: 100%;
+  overflow-y: auto;
 }
 
 .listPane header {
@@ -202,6 +207,8 @@ input {
   min-width: 0;
   overflow: auto;
   padding: clamp(28px, 6vw, 72px);
+  overflow-y: auto;
+  height: 100%;
 }
 
 .detailPane header {
