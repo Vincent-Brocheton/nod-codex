@@ -205,7 +205,6 @@ input {
 
 .detailPane {
   min-width: 0;
-  overflow: auto;
   padding: clamp(28px, 6vw, 72px);
   overflow-y: auto;
   height: 100%;
@@ -222,10 +221,9 @@ input {
 .properties {
   border: 1px solid #ded3c5;
   border-radius: 8px;
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
   margin: 0 0 28px;
   overflow: hidden;
+  max-width: 860px;
 }
 
 .properties div {
