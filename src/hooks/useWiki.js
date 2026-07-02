@@ -1,21 +1,44 @@
 import useManifest from "./useManifest";
 import useCollections from "./useCollections";
 import { useState } from "react";
+import { useNavigate } from "react-router-dom";
+import useNavigation from "./useNavigation";
 
 export default function useWiki({
     section,
     slug,
 } = {}) {
-        const [query, setQuery] = useState("");
+    const [query, setQuery] = useState("");
 
     const { manifest, loading } = useManifest();
 
-    const collections = useCollections(manifest,{section,slug},query);
+    const navigation = useNavigation(section);
+
+    const collections = useCollections(
+        manifest,
+        navigation.activeNavigation,
+        { section, slug },
+        query
+    );
+
+    const navigate = useNavigate();
+
+    function open(item) {
+
+        if (item.type === "collection") {
+            collections.actions.selectCollections(item.collections);
+        }
+
+        navigate(item.path);
+
+    }
 
     return {
         manifest,
         loading,
         collections,
+        open,
+        navigation,
         search: {
             query,
             setQuery,

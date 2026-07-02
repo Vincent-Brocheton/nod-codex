@@ -1,37 +1,25 @@
-import { FileText } from "lucide-react";
+import ListView from "./views/ListView";
+import RitualsView from "./views/RitualsView";
+import MeritsFlawsView from "./views/MeritsFlawsView";
 
-function ItemList({
-    wiki,
-}) {
-    const {collections} = wiki;
-    const {
-        computed,
-        actions,
-    } = collections;
-    const { activeCollection, visibleItems } = computed;
-    return (<section className="listPane">
-        <header>
-            <span>{activeCollection?.group || "Chargement"}</span>
-            <h1>{activeCollection?.label || "Base"}</h1>
-            <p>{visibleItems.length} fiche(s)</p>
-        </header>
+export default function ItemList({ wiki }) {
 
-        <div className="itemList">
-            {visibleItems.map((item) => (
-                <button
-                    key={item.id}
-                    className={item.id === computed.activeItem?.id ? "selected" : ""}
-                    onClick={() =>
-                        actions.openPage(item)
-                    }
-                >
-                    <FileText aria-hidden="true" size={17} />
-                    <span>{item.title}</span>
-                </button>
-            ))}
-            {visibleItems.length === 0 ? <p className="empty">Aucune fiche dans cette base pour le moment.</p> : null}
-        </div>
-    </section>);
+    const { collections } = wiki;
+    const { computed } = collections;
+
+    const { activeNavigation } = computed;
+
+    switch (activeNavigation?.view) {
+
+        case "rituals":
+            return <RitualsView wiki={wiki} />;
+
+        case "merits-flaws":
+            return <MeritsFlawsView wiki={wiki} />;
+
+        case "list":
+        default:
+            return <ListView wiki={wiki} />;
+    }
+
 }
-
-export default ItemList;

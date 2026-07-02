@@ -4,7 +4,7 @@ import { findPageBySlug } from "../../shared/page";
 import groupCollections from "../utils/groupCollections";
 import searchableText from "../utils/searchableText";
 
-export default function useCollections(manifest, route, query) {
+export default function useCollections(manifest, activeNavigation, route, query) {
     const [loadedCollections, setLoadedCollections] = useState({});
     const [activeCollectionKey, setActiveCollectionKey] = useState("");
     const [activeItemId, setActiveItemId] = useState("");
@@ -24,9 +24,14 @@ export default function useCollections(manifest, route, query) {
     useEffect(() => {
         if (!manifest.collections.length) return;
 
-        if (route.section) {
-            setActiveCollectionKey(route.section);
+        if (activeNavigation?.collections?.length) {
+
+            setActiveCollectionKey(
+                activeNavigation.collections[0]
+            );
+
             return;
+
         }
 
         setActiveCollectionKey(
@@ -109,7 +114,7 @@ export default function useCollections(manifest, route, query) {
         );
     })();
 
-    function selectCollection(collection) {
+    function selectCollections(collection) {
         setActiveCollectionKey(collection.key);
         setActiveItemId("");
     }
@@ -117,16 +122,11 @@ export default function useCollections(manifest, route, query) {
     function openPage(page) {
         setActiveItemId(page.id);
     }
-    const sectionExists =
-        !route.section ||
-        manifest.collections.some(
-            collection => collection.key === route.section
-        );
 
     const pageNotFound =
         Boolean(route.slug) && !activeItem;
     const actions = {
-        selectCollection,
+        selectCollections,
         openPage,
     };
     const state = {
@@ -139,7 +139,6 @@ export default function useCollections(manifest, route, query) {
         groupedCollections,
         visibleItems,
         pageNotFound,
-        sectionExists,
     };
 
     return {

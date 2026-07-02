@@ -5,6 +5,7 @@ import DetailPanel from "../components/DetailPanel";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
+import PageRenderer from "../components/PageRenderer";
 
 function HomePage() {
     const { section, slug } = useParams();
@@ -15,7 +16,7 @@ function HomePage() {
     });
     if (
         !wiki.loading &&
-        !wiki.collections.computed.sectionExists
+        !wiki.navigation.sectionExists
     ) {
         return <NotFoundPage />;
     }
@@ -23,9 +24,20 @@ function HomePage() {
         <main className="wikiShell">
             <Sidebar wiki={wiki} />
 
-            <ItemList wiki={wiki} />
+            {
+                wiki.navigation.activeNavigation?.type === "collection"
 
-            <DetailPanel wiki={wiki} />
+                    ? (
+                        <>
+                            <ItemList wiki={wiki} />
+                            <DetailPanel wiki={wiki} />
+                        </>
+                    )
+
+                    : (
+                        <PageRenderer wiki={wiki} />
+                    )
+            }
         </main>
     );
 }

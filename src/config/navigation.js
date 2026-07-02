@@ -1,64 +1,131 @@
+import { COLLECTIONS } from "./collections";
+
 export const navigation = [
-
     {
-        label: "Accueil",
-        route: "/",
-        icon: "home",
+        id: "navigation",
+        label: "Navigation",
+        children: [
+            {
+                id: "home",
+                type: "page",
+                label: "Accueil",
+                path: "/",
+                icon: "home",
+            },
+            {
+                id: "character-creation",
+                type: "page",
+                label: "Créer son personnage",
+                path: "/creation",
+                icon: "user-plus",
+            },
+        ],
     },
 
     {
-        label: "Créer son personnage",
-        route: "/creation",
-        icon: "user-plus",
-    },
-
-    {
-        separator: true,
-    },
-
-    {
-        label: "Clans",
-        collection: "clans",
-        icon: "shield",
-    },
-
-    {
-        label: "Disciplines",
-        collection: "disciplines",
-        icon: "sparkles",
-    },
-
-    {
-        label: "Techniques",
-        collection: "techniques",
-        icon: "swords",
-    },
-
-    {
-        label: "Rituels",
-        collection: "rituels",
-        icon: "scroll",
-    },
-
-    {
-        label: "Compétences",
-        collection: "competences",
-        icon: "brain",
-    },
-
-    {
-        label: "Atouts & Handicaps",
-        collection: "atouts",
-        icon: "star",
-    },
-
-    {
-        separator: true,
-    },
-
-    {
+        id: "rules",
         label: "Règles",
-        route: "/regles",
-        icon: "book-open",
+        children: [
+            {
+                id: "clans",
+                type: "collection",
+                label: "Clans",
+                path: "/clans",
+                icon: "shield",
+
+                view: "list",
+
+                collections: [
+                    COLLECTIONS.CLANS,
+                ],
+            },
+
+            {
+                id: "disciplines",
+                type: "collection",
+                label: "Disciplines",
+                path: "/disciplines",
+                icon: "sparkles",
+
+                view: "list",
+
+                collections: [
+                    COLLECTIONS.DISCIPLINES,
+                ],
+            },
+
+            {
+                id: "techniques",
+                type: "collection",
+                label: "Techniques",
+                path: "/techniques",
+                icon: "swords",
+
+                view: "list",
+
+                collections: [
+                    COLLECTIONS.TECHNIQUES,
+                ],
+            },
+
+            {
+                id: "rituals",
+                type: "collection",
+                label: "Rituels",
+                path: "/rituels",
+                icon: "scroll",
+
+                view: "rituals",
+
+                collections: [
+                    COLLECTIONS.THAUMATURGY,
+                    COLLECTIONS.ABYSS,
+                    COLLECTIONS.NECROMANCY,
+                ],
+            },
+
+            {
+                id: "skills",
+                type: "collection",
+                label: "Compétences",
+                path: "/competences",
+                icon: "brain",
+
+                view: "list",
+
+                collections: [
+                    COLLECTIONS.COMPETENCES,
+                ],
+            },
+
+            {
+                id: "merits-flaws",
+                type: "collection",
+                label: "Atouts & Handicaps",
+                path: "/atouts",
+                icon: "star",
+
+                view: "merits-flaws",
+
+                collections: [
+                    COLLECTIONS.MERITS,
+                    COLLECTIONS.FLAWS,
+                ],
+            },
+        ],
+    },
+
+    {
+        id: "resources",
+        label: "Ressources",
+        children: [
+            {
+                id: "rules-overview",
+                type: "page",
+                label: "Règles générales",
+                path: "/regles",
+                icon: "book-open",
+            },
+        ],
     },
 ];
