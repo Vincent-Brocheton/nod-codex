@@ -8,7 +8,8 @@ function ItemList({
         computed,
         actions,
     } = collections;
-    const { activeCollection, visibleItems } = computed;
+    const { activeCollections, visibleItems } = computed;
+    const activeCollection = activeCollections[0];
     return (<section className="listPane">
         <header>
             <span>{activeCollection?.group || "Chargement"}</span>

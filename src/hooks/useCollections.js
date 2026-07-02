@@ -1,12 +1,12 @@
-import { useEffect, useState } from "react";
-import { getCollection } from "../services/wikiServices";
-import { findPageBySlug } from "../../shared/page";
+import {useEffect, useState} from "react";
+import {getCollection} from "../services/wikiServices";
+import {findPageBySlug} from "../../shared/page";
 import groupCollections from "../utils/groupCollections";
 import searchableText from "../utils/searchableText";
 
 export default function useCollections(manifest, activeNavigation, route, query) {
     const [loadedCollections, setLoadedCollections] = useState({});
-    const [activeCollectionKey, setActiveCollectionKey] = useState("");
+    const [activeCollectionKeys, setActiveCollectionKeys] = useState([]);
     const [activeItemId, setActiveItemId] = useState("");
 
     const groupedCollections = groupCollections(
@@ -25,52 +25,79 @@ export default function useCollections(manifest, activeNavigation, route, query)
         if (!manifest.collections.length) return;
 
         if (activeNavigation?.collections?.length) {
-
-            setActiveCollectionKey(
-                activeNavigation.collections[0]
-            );
-
+            // eslint-disable-next-line react-hooks/set-state-in-effect
+            setActiveCollectionKeys(activeNavigation.collections);
             return;
-
         }
 
-        setActiveCollectionKey(
-            current => current || manifest.collections[0].key
+        setActiveCollectionKeys(current =>
+            current.length
+                ? current
+                : [manifest.collections[0].key]
         );
-    }, [manifest, route.section]);
+    }, [manifest, activeNavigation]);
 
     /**
      * Charge la collection si elle n'est pas déjà en mémoire
      */
     useEffect(() => {
-        if (!activeCollectionKey) return;
 
-        if (loadedCollections[activeCollectionKey]) return;
-
-        const config = manifest.collections.find(
-            collection => collection.key === activeCollectionKey
-        );
-
-        if (!config) return;
+        if (!activeCollectionKeys.length) return;
 
         async function load() {
-            const collection = await getCollection(config.file);
+            const missingKeys = activeCollectionKeys.filter(
+                key => !loadedCollections[key]
+            );
 
-            setLoadedCollections(current => ({
-                ...current,
-                [activeCollectionKey]: collection,
-            }));
+            if (!missingKeys.length) return;
+
+            const loaded = await Promise.all(
+                missingKeys.map(async key => {
+
+                    const config = manifest.collections.find(
+                        collection => collection.key === key
+                    );
+
+                    if (!config) return null;
+
+                    const collection = await getCollection(config.file);
+
+                    return {
+                        key,
+                        collection,
+                    };
+
+                })
+            );
+
+            setLoadedCollections(current => {
+
+                const next = {...current};
+
+                loaded
+                    .filter(Boolean)
+                    .forEach(({key, collection}) => {
+
+                        next[key] = collection;
+
+                    });
+
+                return next;
+
+            });
+
         }
 
-        load();
-    }, [manifest, activeCollectionKey, loadedCollections]);
+        load().then();
+
+    }, [manifest, activeCollectionKeys, loadedCollections]);
 
     /**
      * Sélectionne la page active
      * lorsque le slug ou la collection changent
      */
     useEffect(() => {
-        const collection = loadedCollections[activeCollectionKey];
+        const collection = loadedCollections[activeCollectionKeys];
 
         if (!collection) return;
 
@@ -78,9 +105,10 @@ export default function useCollections(manifest, activeNavigation, route, query)
             ? findPageBySlug(collection, route.slug)
             : collection.items[0];
 
+        // eslint-disable-next-line react-hooks/set-state-in-effect
         setActiveItemId(item?.id || "");
     }, [
-        activeCollectionKey,
+        activeCollectionKeys,
         loadedCollections,
         route.slug,
     ]);
@@ -88,14 +116,15 @@ export default function useCollections(manifest, activeNavigation, route, query)
     /**
      * Computed
      */
-    const activeCollectionData = loadedCollections[activeCollectionKey];
+    const activeCollections = activeCollectionKeys
+        .map(key => loadedCollections[key])
+        .filter(Boolean)
+        .map((collection, index) => ({
+            ...collection,
+            key: activeCollectionKeys[index],
+        }));
 
-    const activeCollection = activeCollectionData
-        ? {
-            ...activeCollectionData,
-            key: activeCollectionKey,
-        }
-        : null;
+    const activeCollection = activeCollections[0] ?? null;
 
     const activeItem =
         activeCollection?.items.find(
@@ -114,9 +143,12 @@ export default function useCollections(manifest, activeNavigation, route, query)
         );
     })();
 
-    function selectCollections(collection) {
-        setActiveCollectionKey(collection.key);
+    function selectCollections(collectionKeys) {
+
+        setActiveCollectionKeys(collectionKeys);
+
         setActiveItemId("");
+
     }
 
     function openPage(page) {
@@ -130,11 +162,11 @@ export default function useCollections(manifest, activeNavigation, route, query)
         openPage,
     };
     const state = {
-        activeCollectionKey,
+        activeCollectionKeys,
         activeItemId,
     };
     const computed = {
-        activeCollection,
+        activeCollections,
         activeItem,
         groupedCollections,
         visibleItems,

@@ -5,9 +5,9 @@ export const COLLECTIONS = {
 
     TECHNIQUES: "techniques",
 
-    THAUMATURGY: "rituels-thaumaturgie",
-    ABYSS: "rituels-abysse",
-    NECROMANCY: "rituels-necromancie",
+    THAUMATURGY: "thaumaturgie",
+    ABYSS: "abysse",
+    NECROMANCY: "necromancie",
 
     COMPETENCES: "competences",
 
