@@ -13,8 +13,8 @@ const STAT_FIELDS = [
     { label: "Focus", key: "Focus" },
     { label: "Type d'action", key: "Type d'action" },
     { label: "Durée", key: "Durée" },
-    { label: "Jet d'attaque", key: "Jet d'attaque" },
-    { label: "Jet de défense", key: "Jet de défense" },
+    { label: "Jet d'attaque", key: "Jet d'attaque", separator: " + " },
+    { label: "Jet de défense", key: "Jet de défense", separator: " + " },
     { label: "Coût en sang", tokens: ["cout", "sang"] },
 ];
 

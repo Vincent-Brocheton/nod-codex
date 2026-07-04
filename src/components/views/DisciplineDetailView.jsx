@@ -11,8 +11,8 @@ import collectionNavPath from "../../utils/collectionNavPath";
 const STAT_FIELDS = [
     { label: "Focus principal", key: "Spécialité 1" },
     { label: "Focus secondaire", key: "Spécialité 2" },
-    { label: "Jet d'attaque", key: "Jet d'attaque" },
-    { label: "Jet de défense", key: "Jet de défense" },
+    { label: "Jet d'attaque", key: "Jet d'attaque", separator: " + " },
+    { label: "Jet de défense", key: "Jet de défense", separator: " + " },
 ];
 
 const POWER_GROUPS = [
