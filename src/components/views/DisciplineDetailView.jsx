@@ -1,31 +1,24 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import BlockRenderer from "../BlockRenderer";
+import StatBlock from "../StatBlock";
 import LoadingState from "../States/LoadingState";
 import PageNotFoundState from "../States/PageNotFoundState";
 import EmptyState from "../States/EmptyState";
-import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
 import { itemNiveau, powersForDiscipline } from "../../utils/disciplinePowers";
 import collectionNavPath from "../../utils/collectionNavPath";
 
-const STATS = [
-    { key: "Spécialité 1", label: "Focus principal" },
-    { key: "Spécialité 2", label: "Focus secondaire" },
-    { key: "Jet d'attaque", label: "Jet d'attaque" },
-    { key: "Jet de défense", label: "Jet de défense" },
+const STAT_FIELDS = [
+    { label: "Focus principal", key: "Spécialité 1" },
+    { label: "Focus secondaire", key: "Spécialité 2" },
+    { label: "Jet d'attaque", key: "Jet d'attaque" },
+    { label: "Jet de défense", key: "Jet de défense" },
 ];
 
 const POWER_GROUPS = [
     { key: "pouvoirs", label: "Pouvoirs" },
     { key: "pouvoirs-anciens", label: "Pouvoirs d'Anciens" },
 ];
-
-function statValue(item, key) {
-    const property = normalizeProperty(item?.properties?.[key]);
-    if (isPropertyEmpty(property)) return "—";
-    if (Array.isArray(property.value)) return property.value.join(" / ");
-    return String(property.value);
-}
 
 function levelLabel(item) {
     const value = itemNiveau(item);
@@ -71,14 +64,7 @@ export default function DisciplineDetailView({ wiki }) {
                 <h1>{activeItem.title}</h1>
             </header>
 
-            <div className="disciplineStats">
-                {STATS.map(({ key, label }) => (
-                    <div key={key} className="statCard">
-                        <span className="statLabel">{label}</span>
-                        <strong>{statValue(activeItem, key)}</strong>
-                    </div>
-                ))}
-            </div>
+            <StatBlock item={activeItem} fields={STAT_FIELDS} />
 
             <div className="contentBlocks">
                 {(activeItem.content || []).map((block, index) => (
@@ -86,16 +72,16 @@ export default function DisciplineDetailView({ wiki }) {
                 ))}
             </div>
 
-            <div className="disciplinePowers">
+            <div className="relatedGroups">
                 {groups.map((group) => (
-                    <section key={group.key} className="powerGroup">
+                    <section key={group.key} className="relatedGroup">
 
                         <h2>{group.label}</h2>
 
                         {group.items.length === 0 ? (
                             <p className="empty">Aucun pouvoir dans cette catégorie.</p>
                         ) : (
-                            <div className="powerList">
+                            <div className="relatedList">
                                 {group.items.map((item) => {
                                     const content = (
                                         <>
@@ -105,11 +91,11 @@ export default function DisciplineDetailView({ wiki }) {
                                     );
 
                                     return powersPath ? (
-                                        <Link key={item.id} to={`${powersPath}/${item.slug}`} className="powerRow">
+                                        <Link key={item.id} to={`${powersPath}/${item.slug}`} className="relatedRow">
                                             {content}
                                         </Link>
                                     ) : (
-                                        <span key={item.id} className="powerRow">
+                                        <span key={item.id} className="relatedRow">
                                             {content}
                                         </span>
                                     );

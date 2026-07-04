@@ -1,11 +1,16 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import ItemDetailBody from "../ItemDetailBody";
+import BlockRenderer from "../BlockRenderer";
+import RelatedGroups from "../RelatedGroups";
 import LoadingState from "../States/LoadingState";
 import PageNotFoundState from "../States/PageNotFoundState";
 import EmptyState from "../States/EmptyState";
 
-export default function GenericDetailView({ wiki }) {
+const RELATED_GROUPS = [
+    { key: "Disciplines", label: "Disciplines" },
+];
+
+export default function TechniqueDetailView({ wiki }) {
 
     const { activeItem, pageNotFound, loading } = wiki.collections.computed;
     const { activeNavigation } = wiki.navigation;
@@ -35,7 +40,13 @@ export default function GenericDetailView({ wiki }) {
                 <h1>{activeItem.title}</h1>
             </header>
 
-            <ItemDetailBody item={activeItem} />
+            <div className="contentBlocks">
+                {(activeItem.content || []).map((block, index) => (
+                    <BlockRenderer key={`${block.type}-${index}`} block={block} />
+                ))}
+            </div>
+
+            <RelatedGroups item={activeItem} groups={RELATED_GROUPS} />
 
         </article>
     );

@@ -34,6 +34,7 @@ export const navigation = [
                 icon: "shield",
 
                 view: "list",
+                detail: "clan",
 
                 collections: [
                     COLLECTIONS.CLANS,
@@ -58,6 +59,22 @@ export const navigation = [
             },
 
             {
+                id: "lignees",
+                type: "collection",
+                label: "Lignées",
+                path: "/lignees",
+                icon: "shield",
+
+                view: "list",
+                detail: "lignee",
+                hidden: true,
+
+                collections: [
+                    COLLECTIONS.LIGNEES,
+                ],
+            },
+
+            {
                 id: "pouvoirs",
                 type: "collection",
                 label: "Pouvoirs",
@@ -65,6 +82,7 @@ export const navigation = [
                 icon: "sparkles",
 
                 view: "discipline-powers",
+                detail: "power",
                 hidden: true,
 
                 collections: [
@@ -81,6 +99,7 @@ export const navigation = [
                 icon: "swords",
 
                 view: "list",
+                detail: "technique",
 
                 collections: [
                     COLLECTIONS.TECHNIQUES,

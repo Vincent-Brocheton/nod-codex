@@ -50,12 +50,18 @@ export function propertyText(property) {
     return String(value);
 }
 
+// Propriété "titre" Notion (Nom/Name) : déjà affichée comme titre de la
+// fiche, donc redondante dans un tableau de propriétés.
+const TITLE_PROPERTY_NAMES = new Set(["nom", "name"]);
+
 /**
- * Propriétés d'une fiche prêtes à afficher : normalisées et sans les
- * valeurs vides (évite les lignes vides dans un tableau de propriétés).
+ * Propriétés d'une fiche prêtes à afficher : normalisées, sans les valeurs
+ * vides (évite les lignes vides dans un tableau de propriétés) ni le champ
+ * titre (déjà affiché comme h1).
  */
 export function getVisibleProperties(item) {
     return Object.entries(item.properties || {})
+        .filter(([name]) => !TITLE_PROPERTY_NAMES.has(name.trim().toLowerCase()))
         .map(([name, raw]) => [name, normalizeProperty(raw)])
         .filter(([, property]) => !isPropertyEmpty(property));
 }

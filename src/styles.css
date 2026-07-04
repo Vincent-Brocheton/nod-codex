@@ -584,7 +584,7 @@ a.relationChip:hover {
   margin: 0;
 }
 
-.disciplineStats {
+.statBlock {
   display: grid;
   gap: 1px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
@@ -611,12 +611,21 @@ a.relationChip:hover {
   text-transform: uppercase;
 }
 
+.metaLine {
+  align-items: center;
+  color: #45403a;
+  display: flex;
+  font-size: 14px;
+  gap: 8px;
+  margin: 0 0 24px;
+}
+
 .statCard strong {
   display: block;
   font-size: 17px;
 }
 
-.disciplinePowers {
+.relatedGroups {
   display: grid;
   gap: 24px;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -624,7 +633,7 @@ a.relationChip:hover {
   max-width: 860px;
 }
 
-.powerGroup h2 {
+.relatedGroup h2 {
   border-bottom: 1px solid #ded3c5;
   color: #211f1d;
   font-size: 15px;
@@ -632,13 +641,13 @@ a.relationChip:hover {
   padding-bottom: 8px;
 }
 
-.powerList {
+.relatedList {
   display: flex;
   flex-direction: column;
   gap: 6px;
 }
 
-.powerRow {
+.relatedRow {
   align-items: center;
   background: #fffdf8;
   border: 1px solid #ded3c5;
@@ -650,7 +659,7 @@ a.relationChip:hover {
   text-decoration: none;
 }
 
-a.powerRow:hover {
+a.relatedRow:hover {
   border-color: #9b2f31;
   color: #9b2f31;
 }
@@ -747,7 +756,7 @@ a.powerRow:hover {
   .collectionNav button,
   .itemList button,
   .indexCard,
-  .powerRow,
+  .relatedRow,
   .creationStep {
     min-height: 44px;
   }

@@ -1,5 +1,6 @@
 export const COLLECTIONS = {
     CLANS: "clans",
+    LIGNEES: "lignees",
 
     DISCIPLINES: "disciplines",
     POUVOIRS: "pouvoirs",
