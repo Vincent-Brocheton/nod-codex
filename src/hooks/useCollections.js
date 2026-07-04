@@ -113,12 +113,10 @@ export default function useCollections(manifest, activeNavigation, route, query)
             return;
         }
 
-        // Une seule collection active : on affiche sa première fiche par défaut.
-        // Plusieurs collections (ex. Rituels, Atouts & Handicaps) : on laisse
-        // l'utilisateur choisir, l'origine de la fiche étant ambiguë sinon.
-        setActiveItemId(
-            collections.length === 1 ? collections[0].items[0]?.id || "" : ""
-        );
+        // Pas de slug dans l'URL : on affiche juste la liste, sans
+        // présélectionner de fiche.
+        // eslint-disable-next-line react-hooks/set-state-in-effect
+        setActiveItemId("");
     }, [
         activeCollectionKeys,
         loadedCollections,

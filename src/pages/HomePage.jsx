@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar";
 import ItemList from "../components/ItemList";
 import DetailPanel from "../components/DetailPanel";
 import RitualsView from "../components/views/RitualsView";
+import SectionIndexView from "../components/views/SectionIndexView";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
@@ -35,12 +36,18 @@ function HomePage() {
                                 <RitualsView wiki={wiki} collectionKey={collectionKey} niveau={niveau} />
                             )
 
-                            : (
-                                <>
-                                    <ItemList wiki={wiki} />
-                                    <DetailPanel wiki={wiki} />
-                                </>
-                            )
+                            : slug
+                                ? (
+                                    <>
+                                        <ItemList wiki={wiki} />
+                                        <DetailPanel wiki={wiki} />
+                                    </>
+                                )
+                                : (
+                                    <div className="pageArea">
+                                        <SectionIndexView wiki={wiki} />
+                                    </div>
+                                )
                     )
 
                     : (

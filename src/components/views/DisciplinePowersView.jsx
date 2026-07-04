@@ -1,22 +1,12 @@
 import { FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
 import LoadingState from "../States/LoadingState";
-import { normalizeProperty } from "../../utils/property";
+import { disciplineRefs, powersForDiscipline } from "../../utils/disciplinePowers";
 
 const GROUPS = [
     { key: "pouvoirs", label: "Pouvoirs" },
     { key: "pouvoirs-anciens", label: "Pouvoirs d'Anciens" },
 ];
-
-function disciplineRefs(item) {
-    const property = item?.properties?.Discipline;
-    return property?.type === "relation" ? property.value : [];
-}
-
-function itemNiveau(item) {
-    const value = Number(normalizeProperty(item?.properties?.Niveau).value);
-    return Number.isFinite(value) ? value : Infinity;
-}
 
 export default function DisciplinePowersView({ wiki }) {
 
@@ -27,19 +17,11 @@ export default function DisciplinePowersView({ wiki }) {
 
     const discipline = disciplineRefs(activeItem)[0] || null;
 
-    const groups = GROUPS.map(({ key, label }) => {
-        const collection = loadedCollections[key];
-
-        const items = discipline
-            ? (collection?.items || [])
-                .filter((item) =>
-                    disciplineRefs(item).some((ref) => ref.slug === discipline.slug)
-                )
-                .sort((a, b) => itemNiveau(a) - itemNiveau(b))
-            : [];
-
-        return { key, label, items };
-    });
+    const groups = GROUPS.map(({ key, label }) => ({
+        key,
+        label,
+        items: discipline ? powersForDiscipline(loadedCollections[key], discipline.slug) : [],
+    }));
 
     return (
         <section className="listPane">

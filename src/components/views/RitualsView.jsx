@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import { BookOpen, FileText } from "lucide-react";
+import { FileText } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
 import PropertyValue from "../PropertyValue";
 import BlockRenderer from "../BlockRenderer";
@@ -38,6 +38,50 @@ export default function RitualsView({ wiki, collectionKey, niveau }) {
         navigate(`${activeNavigation.path}/${key}/${level}`);
     }
 
+    if (!selected) {
+        return (
+            <div className="pageArea">
+                <section className="pageView indexView">
+
+                    <span className="eyebrow">Règles</span>
+                    <h1>{activeNavigation.label}</h1>
+
+                    {!loading ? (
+                        <p className="indexIntro">
+                            Voici les rituels de la chronique, classés par catégorie et par niveau (1 à 5).
+                        </p>
+                    ) : null}
+
+                    {loading ? (
+                        <LoadingState message="Chargement des rituels..." />
+                    ) : (
+                        collections.map(collection => (
+                            <div key={collection.key} className="indexGroup">
+
+                                <h2>{collection.label}</h2>
+
+                                <div className="indexGrid">
+                                    {LEVELS.map(level => (
+                                        <button
+                                            key={level}
+                                            className="indexCard"
+                                            onClick={() => selectLevel(collection.key, level)}
+                                        >
+                                            <span className="powerLevel">{level}</span>
+                                            <span>Niveau {level}</span>
+                                        </button>
+                                    ))}
+                                </div>
+
+                            </div>
+                        ))
+                    )}
+
+                </section>
+            </div>
+        );
+    }
+
     return (
         <>
             <section className="listPane">
@@ -47,45 +91,36 @@ export default function RitualsView({ wiki, collectionKey, niveau }) {
                     <h1>{activeNavigation.label}</h1>
                 </header>
 
-                {loading ? (
-                    <LoadingState message="Chargement des rituels..." />
-                ) : (
-                    <div className="itemList">
-                        {collections.map(collection => (
-                            <div key={collection.key} className="itemGroup">
+                <div className="itemList">
+                    {collections.map(collection => (
+                        <div key={collection.key} className="itemGroup">
 
-                                <h2>{collection.label}</h2>
+                            <h2>{collection.label}</h2>
 
-                                {LEVELS.map(level => (
-                                    <button
-                                        key={level}
-                                        className={
-                                            selected?.key === collection.key && selected?.niveau === level
-                                                ? "selected"
-                                                : ""
-                                        }
-                                        onClick={() => selectLevel(collection.key, level)}
-                                    >
-                                        <FileText aria-hidden="true" size={17} />
-                                        <span>Niveau {level}</span>
-                                    </button>
-                                ))}
+                            {LEVELS.map(level => (
+                                <button
+                                    key={level}
+                                    className={
+                                        selected.key === collection.key && selected.niveau === level
+                                            ? "selected"
+                                            : ""
+                                    }
+                                    onClick={() => selectLevel(collection.key, level)}
+                                >
+                                    <FileText aria-hidden="true" size={17} />
+                                    <span>Niveau {level}</span>
+                                </button>
+                            ))}
 
-                            </div>
-                        ))}
-                    </div>
-                )}
+                        </div>
+                    ))}
+                </div>
 
             </section>
 
             <article className="detailPane">
                 {loading ? (
                     <LoadingState />
-                ) : !selected ? (
-                    <div className="placeholder">
-                        <BookOpen aria-hidden="true" size={34} />
-                        <p>Sélectionne un niveau pour afficher les rituels.</p>
-                    </div>
                 ) : (
                     <>
                         <header>

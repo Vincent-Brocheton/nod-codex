@@ -491,3 +491,156 @@ a.relationChip:hover {
   color: #72695f;
   font-size: 13px;
 }
+
+.indexView .eyebrow {
+  color: #9b2f31;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.indexView h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.1;
+  margin: 6px 0 16px;
+}
+
+.indexIntro {
+  color: #45403a;
+  font-size: 16px;
+  margin: 0 0 28px;
+  max-width: 640px;
+}
+
+.indexGroup:not(:last-child) {
+  margin-bottom: 32px;
+}
+
+.indexGroup h2 {
+  border-bottom: 1px solid #ded3c5;
+  font-size: 15px;
+  margin: 0 0 14px;
+  padding-bottom: 8px;
+}
+
+.indexGrid {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+}
+
+.indexCard {
+  align-items: center;
+  background: #fffdf8;
+  border: 1px solid #ded3c5;
+  border-radius: 8px;
+  color: #2d2925;
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  gap: 10px;
+  padding: 12px 14px;
+  text-align: left;
+  text-decoration: none;
+}
+
+.indexCard:hover {
+  border-color: #9b2f31;
+  color: #9b2f31;
+}
+
+.indexCard svg {
+  color: #9b2f31;
+  flex: 0 0 auto;
+}
+
+.indexCard .powerLevel {
+  margin: 0;
+}
+
+.disciplineStats {
+  display: grid;
+  gap: 1px;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  background: #ded3c5;
+  border: 1px solid #ded3c5;
+  border-radius: 10px;
+  margin: 0 0 28px;
+  max-width: 860px;
+  overflow: hidden;
+}
+
+.statCard {
+  background: linear-gradient(180deg, #fffdf8, #fbf6ec);
+  padding: 16px 18px;
+}
+
+.statLabel {
+  color: #9b2f31;
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.statCard strong {
+  display: block;
+  font-size: 17px;
+}
+
+.disciplinePowers {
+  display: grid;
+  gap: 24px;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  margin-top: 32px;
+  max-width: 860px;
+}
+
+.powerGroup h2 {
+  border-bottom: 1px solid #ded3c5;
+  color: #211f1d;
+  font-size: 15px;
+  margin: 0 0 12px;
+  padding-bottom: 8px;
+}
+
+.powerList {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.powerRow {
+  align-items: center;
+  background: #fffdf8;
+  border: 1px solid #ded3c5;
+  border-radius: 8px;
+  color: #2d2925;
+  display: flex;
+  gap: 12px;
+  padding: 8px 12px;
+  text-decoration: none;
+}
+
+a.powerRow:hover {
+  border-color: #9b2f31;
+  color: #9b2f31;
+}
+
+.powerLevel {
+  align-items: center;
+  background: #9b2f31;
+  border-radius: 999px;
+  color: #f8f1e7;
+  display: flex;
+  flex: 0 0 auto;
+  font-size: 12px;
+  font-weight: 800;
+  height: 22px;
+  justify-content: center;
+  width: 22px;
+}

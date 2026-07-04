@@ -48,9 +48,12 @@ export const navigation = [
                 icon: "sparkles",
 
                 view: "list",
+                detail: "discipline",
 
                 collections: [
                     COLLECTIONS.DISCIPLINES,
+                    COLLECTIONS.POUVOIRS,
+                    COLLECTIONS.POUVOIRS_ANCIENS,
                 ],
             },
 

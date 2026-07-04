@@ -3,22 +3,18 @@
   "label": "Disciplines",
   "group": "Disciplines et Pouvoirs",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-04T11:09:29.958Z",
+  "generatedAt": "2026-07-04T11:47:47.399Z",
   "items": [
     {
       "id": "38188b48-e48e-80dd-8229-db7e59244ad1",
       "slug": "alienation",
       "title": "Aliénation",
       "notionUrl": "https://app.notion.com/p/Ali-nation-38188b48e48e80dd8229db7e59244ad1",
-      "lastEditedTime": "2026-06-17T11:23:00.000Z",
+      "lastEditedTime": "2026-07-04T11:38:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -122,14 +118,6 @@
         {
           "type": "paragraph",
           "text": "Dérangement : Le personnage doit avoir le malus Dérangé avant de pouvoir débloquer la discipline Aliénation. Si elle ne possède pas encore le malus Dérangé, alors récupérer son premier niveau d'Aliénation provoquera le gain d'un dérangement permanent au personnage. L'acquisition de ce malus n'occasionne pas de gain d'XP."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -138,15 +126,11 @@
       "slug": "animalisme",
       "title": "Animalisme",
       "notionUrl": "https://app.notion.com/p/Animalisme-38188b48e48e80be9d6fd753cb568367",
-      "lastEditedTime": "2026-06-17T11:23:00.000Z",
+      "lastEditedTime": "2026-07-04T11:38:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -236,14 +220,6 @@
         {
           "type": "paragraph",
           "text": "Animalisme peut-être utilisé sur les oiseaux, les mammifères, les marsupiaux, et les poissons. En revanche il ne peut être utilisé sur les insectes, ni sur les créatures dont l'esprit est trop simple pour comprendre même les moyens de communication les plus rudimentaires, tels que les vers ou les mollusques."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -252,15 +228,11 @@
       "slug": "auspex",
       "title": "Auspex",
       "notionUrl": "https://app.notion.com/p/Auspex-38188b48e48e800b8e45cb4052605c7f",
-      "lastEditedTime": "2026-06-17T14:45:00.000Z",
+      "lastEditedTime": "2026-07-04T11:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -346,14 +318,6 @@
         {
           "type": "paragraph",
           "text": "Un prédateur doit posséder des sens extrêmement accrus pour pister ses proies dans la nuit. Les cinq sens : l'odorat, le toucher, le goût, la vue et l'ouïe s'aiguisent avec Auspex. Cette sensibilité améliorée peut aller au delà des sens physiques, s'étendant aux pouvoirs de concentration, de perception et de conscience-même de la vampire, au delà des capacités des mortels. Une sensibilité si fine parvient à saisir la texture des mouvements, comme celle des émotions, et transcende l'acuité mentale ordinaire. Auspex perce les divertions mentales et les illusions, comme celles créées par les disciplines Dissimulation et Chimérie."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -362,15 +326,11 @@
       "slug": "celerite",
       "title": "Célérité",
       "notionUrl": "https://app.notion.com/p/C-l-rit-38188b48e48e80d48a18e777f4cfe98f",
-      "lastEditedTime": "2026-06-17T11:24:00.000Z",
+      "lastEditedTime": "2026-07-04T11:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Dextérité"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -516,14 +476,6 @@
         {
           "type": "paragraph",
           "text": "\"C'est comme si le type s'était téléporté ! Nope, patron, j'peux pas flinguer un gonze qui va plus vite que mes balles !\" - Benito Giovanni"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -532,15 +484,11 @@
       "slug": "chimerie",
       "title": "Chimerie",
       "notionUrl": "https://app.notion.com/p/Chimerie-38188b48e48e8064a85de47e38304c23",
-      "lastEditedTime": "2026-06-18T11:17:00.000Z",
+      "lastEditedTime": "2026-07-04T11:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -615,14 +563,6 @@
         {
           "type": "paragraph",
           "text": "Les illusions chimériques prennent forme grâce aux rêves, une essence quasiment substentielle que les membres du clan Ravnos appellent maya. Les objets fait avec ces pouvoirs ne sont pas réels, mais ils ne sont pas pour autant complètement intangibles, car ils sont fait de la substance physique des rêves. Un pistolet chimérique aura le poids et la masse approprié. Un drapeau chimérique flottera au vent et aura une ombre. Cependant, si un objet chimérique n'est plus cru, il perd toutes ces qualités physiques, mais uniquement auprès de ce qui réussissent à ne pas y croire.\nUne construction chimérique ne peuvent physiquement dévier rien de plus substanciel qu'une lumière ou une douce brise. Les objets ou créatures fait avec ce pouvoir ne peuvent blesser. Les armures chimériques n'arrêtent pas les balles et les épées chimériques ne peuvent trancher.\nL'une des choses les plus importantes à se rappeler à propos de la Chimérie est cela: les illusions peuvent ajouter au monde, mais elles ne peuvent rien y soustraire. Un personnage pourrait créer un mur chimérique et se cacher derrière, mais il ne pourrait utiliser ce pouvoir pour créer un trou dans le sol, car la Chimérie ne peut \"retirer\" la terre qui s'y trouve. Un personnage ne peut pas utiliser Chimérie pour rendre les objets ou personnes invisibles, ou dupliquer les pouvoirs de Dissimulation. Cependant, vous pouvez utiliser Chimériepour créer un seau chimérique et y cacher l'objet. Ce pouvoir ne peut pas changer l'apparence générale d'une personne, comme Masque aux milles visages le ferait, mais il peut changer la couleur des vêtemetns de rouge à bleu.\nChimérie est fait du semi-tangible maya, mélangé avec la volonté de l'inconscient d croire ce qu'il peut voir. Une illusion de mur peut bloquer votre déplacement, mais il n'est pas suffisant fort pour supporter du poids. Un individu est bloqué par le mur chimérique en grande partie parce que son esprit l'empêche de passer cette barrière. Cependant, si une personne tombante essaye de tenir une corde chimérique, elle sera incapable de supporter son poids.\nNe pas croire en une Chimérie : Reconnaître que quelque chose est chimérique n'est pas le même que de ne pas croire en l'illusion. Ne pas croire une construction nécessite une tentative active pour détruire la création chimérique, marqué par une opposition de sa volonté avec le créateur de l'illusion. Il est possible de se rendre compte que l'illusion est fausse, mais échouer à ne pas la croire. L'inconscient du sujet n'arrive simplement pas à croire que cet objet n'est pas réel. De cette manière, si un personnage voir une épée chimérique passer à travers un objet, elle peut se rendre compte que l'épée est une illusion. Cependant, l'épée existera toujours et aura toujours l'air et la sensation d'exister sauf si le personnaeg tente activement de ne pas croire et de battre le créateur dans une opposition de volonté.\nSi un personnage suspecte que quelque chose est créé avec Chimérie, elle peut faire une tentative active pour ne pas croire en l'illusion. Pour se faire, elle doit utiliser une action simple et entrer dans un concours de volonté avec le créateur de l'illusion. Faites un test opposé en utilisé votre Social + Volonté contre le Social + Subterfuge du Chimériste. Si la tentative réussis, l'illusion devient une ombre semi-transparente d'elle-même. Le personnage ne peut pas interagir avec une objet en lequel il réussit à ne plus croire. Par exemple, après avoir arrêté de croire en un mur chimérique, un personnage peut voir à travers clairement et le traverser sans quelconque difficulté.\nAprès avoir arrêté de croire en l'illusion d'épée, un personnage est incapable de la prendre; elle lui passera à travers les mains s'il essaie. Si un personnage réussit à ne plus croire en une illusion, les autres personnages ne remarqueront aucun changement dans cette illusion. Même si le personnage voir quelqu'un réussir à traverser le mur chimérique, il doit réussir de lui-même le test et le réussir si elle compte marcher à travers le mur elle-même. En cas d'échec, il doit considérer le mur come réel et doit essayer de l'abattre ou le contourner pour passer. Si un personnage a réussit à ne plus croire en une illusion fait quelque chose pour prouver cette supercherie, cela offre néanmoins une excellente opportunité pour les observateurs de se rendre compte que l'illusion n'est pas réel et d'essayer de faire le test d'opposition. Si un individu échoue à ce test, il ne peut pas réessayer pour les cinq prochaines minutes\nSi le créateur de l'illusion arrête de croire en ses propres illusions, elles arrêtent immédiatement d'exister. L'utilisateur doit considérer ces illusions comme en tout point réels sinon le maya disparaît."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -631,15 +571,11 @@
       "slug": "daemonium",
       "title": "Daemonium",
       "notionUrl": "https://app.notion.com/p/Daemonium-38188b48e48e8019b2abf5fc37ae8ec7",
-      "lastEditedTime": "2026-06-17T11:26:00.000Z",
+      "lastEditedTime": "2026-07-04T11:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -714,14 +650,6 @@
         {
           "type": "paragraph",
           "text": "Subtile, puissant et entièrement démoniaque, Daemoniom est la discipline signature du clan Baali. Cette discipline à été perfectionner dans les fosses à sacrifices les plus profonde et les donjons de torture de l’Âge Sombre, elle a emporter ces horreurs dans le monde moderne. Voici les sombres dons du mal, arrachés aux langues des rois-sorciers et libérés au sein des cœurs vicieux et corrompus des traîtres.\nLes personnage apprenant Daemoniom s’ouvre aux murmures et aux persuasion inconsciente d’entité de nature infernal. Chaque pensé et objectifs deviennent suspect, il est même difficile pour ce personnage de savoir si il agit par sa propre volonté. Chaque point investie en Daemoniom corrompt l’âme de l’individue. Quan une discipline de daemoniom est utiliser, une tainte infernal recouvre l’aura de l’utilisateur et se dissipe.\nApprendre les quatre premier niveaux de Daemoniom indique que le personnage est corrompu par l’infernal, et il est incontestable qu’il utilise des pouvoirs entièrement lié aux démon. Un Personnage doit faire un pacte délibéré avec une créature infernal pour apprendre le cinquième niveau de daemoniom: soit en le conquérant et en devenant son maître, soit en rejoignant sa cause et en devenant un allié volontaire. Peut importe la manière dont le pacte est réaliser, le personnage devient de manière irréversible un infernaliste. Seul les individus ayant réaliser ce pacte peuvent acquérirent le cinquième niveau de Daemoniom."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -730,15 +658,11 @@
       "slug": "dissimulation",
       "title": "Dissimulation",
       "notionUrl": "https://app.notion.com/p/Dissimulation-38188b48e48e8033aa12f53c1385944a",
-      "lastEditedTime": "2026-06-17T11:27:00.000Z",
+      "lastEditedTime": "2026-07-04T11:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -859,14 +783,6 @@
         {
           "type": "paragraph",
           "text": "Cependant, si ce même agent rembobine l’enregistrement afin de revoir des événements datant de dix minutes ou plus, il verra alors l’image du vampire dissimulé telle qu’elle a été enregistrée par l’appareil."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -875,15 +791,11 @@
       "slug": "domination",
       "title": "Domination",
       "notionUrl": "https://app.notion.com/p/Domination-38188b48e48e80669b99cef01468ad90",
-      "lastEditedTime": "2026-06-17T11:28:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": true
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -960,14 +872,6 @@
         {
           "type": "paragraph",
           "text": "Pour utiliser Domination sur une cible, celle-ci doit avoir son regard ou son attention focalisés sur l’utilisateur de la Discipline."
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
         }
       ]
     },
@@ -976,15 +880,11 @@
       "slug": "force-d-ame",
       "title": "Force d’Âme",
       "notionUrl": "https://app.notion.com/p/Force-d-me-38188b48e48e8043bf96ffdd08a3e4db",
-      "lastEditedTime": "2026-06-17T11:28:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Vigueur"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1074,31 +974,18 @@
           "value": "Force d’Âme"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80b1-887d-c7e8900f7278",
       "slug": "melpominee",
       "title": "Melpominée",
       "notionUrl": "https://app.notion.com/p/Melpomin-e-38188b48e48e80b1887dc7e8900f7278",
-      "lastEditedTime": "2026-06-17T11:29:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Charisme"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1143,31 +1030,18 @@
           "value": "Melpominée"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80f6-bec7-df882e5bc004",
       "slug": "mythercellerie",
       "title": "Mythercellerie",
       "notionUrl": "https://app.notion.com/p/Mythercellerie-38188b48e48e80f6bec7df882e5bc004",
-      "lastEditedTime": "2026-06-17T11:29:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1212,31 +1086,18 @@
           "value": "Mythercellerie"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-806b-b6b0-f9081970e6b1",
       "slug": "obeah",
       "title": "Obéah",
       "notionUrl": "https://app.notion.com/p/Ob-ah-38188b48e48e806bb6b0f9081970e6b1",
-      "lastEditedTime": "2026-06-17T11:29:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1281,31 +1142,18 @@
           "value": "Obéah"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8044-9bb5-ec3250319ef2",
       "slug": "obtenebration",
       "title": "Obténébration",
       "notionUrl": "https://app.notion.com/p/Obt-n-bration-38188b48e48e80449bb5ec3250319ef2",
-      "lastEditedTime": "2026-06-17T11:31:00.000Z",
+      "lastEditedTime": "2026-07-04T11:40:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1348,31 +1196,18 @@
           "value": "Obténébration"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80ea-8f49-ce3f45662ebe",
       "slug": "presence",
       "title": "Présence",
       "notionUrl": "https://app.notion.com/p/Pr-sence-38188b48e48e80ea8f49ce3f45662ebe",
-      "lastEditedTime": "2026-06-17T11:32:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1417,31 +1252,18 @@
           "value": "Présence"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-805e-9d8f-f7d3bfcf3e04",
       "slug": "proteisme",
       "title": "Protéisme",
       "notionUrl": "https://app.notion.com/p/Prot-isme-38188b48e48e805e9d8ff7d3bfcf3e04",
-      "lastEditedTime": "2026-06-17T11:32:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1484,31 +1306,18 @@
           "value": "Protéisme"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8001-bb41-f68a2f1d25e7",
       "slug": "puissance",
       "title": "Puissance",
       "notionUrl": "https://app.notion.com/p/Puissance-38188b48e48e8001bb41f68a2f1d25e7",
-      "lastEditedTime": "2026-06-17T11:31:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Force"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1551,31 +1360,18 @@
           "value": "Puissance"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80af-a1da-c36fac6431b3",
       "slug": "quietus",
       "title": "Quietus",
       "notionUrl": "https://app.notion.com/p/Quietus-38188b48e48e80afa1dac36fac6431b3",
-      "lastEditedTime": "2026-06-17T11:33:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1620,31 +1416,18 @@
           "value": "Quietus"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8023-a7e3-e62cfff445c4",
       "slug": "serpentis",
       "title": "Serpentis",
       "notionUrl": "https://app.notion.com/p/Serpentis-38188b48e48e8023a7e3e62cfff445c4",
-      "lastEditedTime": "2026-06-17T11:33:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Charisme"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1689,31 +1472,18 @@
           "value": "Serpentis"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80a5-8249-f203ae2a5f05",
       "slug": "sipritus",
       "title": "Sipritus",
       "notionUrl": "https://app.notion.com/p/Sipritus-38188b48e48e80a58249f203ae2a5f05",
-      "lastEditedTime": "2026-06-17T11:41:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1758,31 +1528,18 @@
           "value": "Sipritus"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8047-86d5-d53d78ab5efd",
       "slug": "temporis",
       "title": "Temporis",
       "notionUrl": "https://app.notion.com/p/Temporis-38188b48e48e804786d5d53d78ab5efd",
-      "lastEditedTime": "2026-06-17T11:34:00.000Z",
+      "lastEditedTime": "2026-07-04T11:41:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Vigueur"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1827,31 +1584,18 @@
           "value": "Temporis"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8072-aaec-fc69c22829f8",
       "slug": "thanatosis",
       "title": "Thanatosis",
       "notionUrl": "https://app.notion.com/p/Thanatosis-38188b48e48e8072aaecfc69c22829f8",
-      "lastEditedTime": "2026-06-17T11:34:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1896,31 +1640,18 @@
           "value": "Thanatosis"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8027-9c42-ea2d7ec5c4d3",
       "slug": "valeren",
       "title": "Valeren",
       "notionUrl": "https://app.notion.com/p/Valeren-38188b48e48e80279c42ea2d7ec5c4d3",
-      "lastEditedTime": "2026-06-17T11:35:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -1965,31 +1696,18 @@
           "value": "Valeren"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8008-9ded-eb7c177a735c",
       "slug": "vicissitude",
       "title": "Vicissitude",
       "notionUrl": "https://app.notion.com/p/Vicissitude-38188b48e48e80089dedeb7c177a735c",
-      "lastEditedTime": "2026-06-17T11:35:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2032,31 +1750,18 @@
           "value": "Vicissitude"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-803d-b868-d46d8c237683",
       "slug": "visceratika",
       "title": "Visceratika",
       "notionUrl": "https://app.notion.com/p/Visceratika-38188b48e48e803db868d46d8c237683",
-      "lastEditedTime": "2026-06-17T11:35:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2101,31 +1806,18 @@
           "value": "Visceratika"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8065-a908-f248d46e24f1",
       "slug": "voie-de-l-esprit",
       "title": "Voie de l’Esprit",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
-      "lastEditedTime": "2026-06-17T11:38:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2170,31 +1862,18 @@
           "value": "Voie de l’Esprit"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80f8-ae9b-f73c225542bb",
       "slug": "voie-de-la-conjuration",
       "title": "Voie de la Conjuration",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Conjuration-38188b48e48e80f8ae9bf73c225542bb",
-      "lastEditedTime": "2026-06-17T11:38:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2239,31 +1918,18 @@
           "value": "Voie de la Conjuration"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-802a-a423-f559c6caf9fa",
       "slug": "voie-de-la-corruption",
       "title": "Voie de la Corruption",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Corruption-38188b48e48e802aa423f559c6caf9fa",
-      "lastEditedTime": "2026-06-17T11:38:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2308,31 +1974,18 @@
           "value": "Voie de la Corruption"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
       "slug": "voie-de-la-mort",
       "title": "Voie de la Mort",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Mort-38188b48e48e80baa0b1cd7a36d0ee57",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2377,31 +2030,18 @@
           "value": "Voie de la Mort"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80db-9f82-cc7350ecdb53",
       "slug": "voie-de-la-sepulture",
       "title": "Voie de la Sépulture",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-S-pulture-38188b48e48e80db9f82cc7350ecdb53",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:42:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2446,31 +2086,18 @@
           "value": "Voie de la Sépulture"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-808f-a4ec-cabd8fa19802",
       "slug": "voie-de-la-technomancie",
       "title": "Voie de la Technomancie",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Technomancie-38188b48e48e808fa4eccabd8fa19802",
-      "lastEditedTime": "2026-06-17T11:38:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2515,31 +2142,18 @@
           "value": "Voie de la Technomancie"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
       "slug": "voie-de-neptune",
       "title": "Voie de Neptune",
       "notionUrl": "https://app.notion.com/p/Voie-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2584,31 +2198,18 @@
           "value": "Voie de Neptune"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
       "slug": "voie-des-ames",
       "title": "Voie des Âmes",
       "notionUrl": "https://app.notion.com/p/Voie-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2653,31 +2254,18 @@
           "value": "Voie des Âmes"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-803a-b7a1-ff66349a805c",
       "slug": "voie-des-cendres",
       "title": "Voie des Cendres",
       "notionUrl": "https://app.notion.com/p/Voie-des-Cendres-38188b48e48e803ab7a1ff66349a805c",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2722,31 +2310,18 @@
           "value": "Voie des Cendres"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8000-b617-f7cb1d9dd516",
       "slug": "voie-des-elementaires",
       "title": "Voie des Elementaires",
       "notionUrl": "https://app.notion.com/p/Voie-des-Elementaires-38188b48e48e8000b617f7cb1d9dd516",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2791,31 +2366,18 @@
           "value": "Voie des Elementaires"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8036-be4a-c31d527d4284",
       "slug": "voie-des-flammes",
       "title": "Voie des Flammes",
       "notionUrl": "https://app.notion.com/p/Voie-des-Flammes-38188b48e48e8036be4ac31d527d4284",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2860,31 +2422,18 @@
           "value": "Voie des Flammes"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80e9-bee5-c14b66cc21ce",
       "slug": "voie-des-os",
       "title": "Voie des Os",
       "notionUrl": "https://app.notion.com/p/Voie-des-Os-38188b48e48e80e9bee5c14b66cc21ce",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Charisme"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2929,31 +2478,18 @@
           "value": "Voie des Os"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8084-a587-c429a6a500e6",
       "slug": "voie-du-cimetiere",
       "title": "Voie du Cimetière",
       "notionUrl": "https://app.notion.com/p/Voie-du-Cimeti-re-38188b48e48e8084a587c429a6a500e6",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Charisme"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -2998,31 +2534,18 @@
           "value": "Voie du Cimetière"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8046-bf4d-caf6c6199624",
       "slug": "voie-du-climat",
       "title": "Voie du Climat",
       "notionUrl": "https://app.notion.com/p/Voie-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -3067,31 +2590,18 @@
           "value": "Voie du Climat"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80cd-bc9a-e210783802c4",
       "slug": "voie-du-cosmos",
       "title": "Voie du Cosmos",
       "notionUrl": "https://app.notion.com/p/Voie-du-Cosmos-38188b48e48e80cdbc9ae210783802c4",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -3136,31 +2646,18 @@
           "value": "Voie du Cosmos"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80fe-8f9f-fd97ef5fba2f",
       "slug": "voie-du-deuil",
       "title": "Voie du Deuil",
       "notionUrl": "https://app.notion.com/p/Voie-du-Deuil-38188b48e48e80fe8f9ffd97ef5fba2f",
-      "lastEditedTime": "2026-06-17T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T11:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Manipulation"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -3205,31 +2702,18 @@
           "value": "Voie du Deuil"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-80fc-b1f9-dcc48a2b3ec4",
       "slug": "voie-du-sang",
       "title": "Voie du Sang",
       "notionUrl": "https://app.notion.com/p/Voie-du-Sang-38188b48e48e80fcb1f9dcc48a2b3ec4",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:44:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Perception"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -3274,31 +2758,18 @@
           "value": "Voie du Sang"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     },
     {
       "id": "38188b48-e48e-8024-b3d1-c7475b10e765",
       "slug": "voie-verte",
       "title": "Voie Verte",
       "notionUrl": "https://app.notion.com/p/Voie-Verte-38188b48e48e8024b3d1c7475b10e765",
-      "lastEditedTime": "2026-06-17T11:39:00.000Z",
+      "lastEditedTime": "2026-07-04T11:44:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
           "value": "Intelligence"
-        },
-        "Prêt": {
-          "type": "checkbox",
-          "value": false
         },
         "Jet de défense": {
           "type": "multi_select",
@@ -3343,16 +2814,7 @@
           "value": "Voie Verte"
         }
       },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs"
-        },
-        {
-          "type": "heading_2",
-          "text": "Pouvoirs d’Ancien"
-        }
-      ]
+      "content": []
     }
   ]
 }
