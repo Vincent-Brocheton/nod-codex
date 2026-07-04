@@ -3,7 +3,7 @@
   "label": "Clans",
   "group": "Clans et Lignées",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-04T21:42:17.345Z",
+  "generatedAt": "2026-07-04T23:20:59.844Z",
   "propertyOptions": {},
   "items": [
     {
@@ -11,15 +11,35 @@
       "slug": "assamites",
       "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-07-04T11:36:00.000Z",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
       "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
         },
         "Discplines": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
         },
         "Atouts de clan": {
           "type": "relation",
@@ -27,7 +47,18 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vizirs",
+              "title": "Vizirs"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -54,12 +85,16 @@
       ]
     },
     {
-      "id": "39088b48-e48e-8067-8798-d933c5240fbc",
-      "slug": "malkavien",
-      "title": "Malkavien",
-      "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
-      "lastEditedTime": "2026-07-04T11:37:00.000Z",
+      "id": "39388b48-e48e-80c3-9ce5-e3f0b3360138",
+      "slug": "baali",
+      "title": "Baali",
+      "notionUrl": "https://app.notion.com/p/Baali-39388b48e48e80c39ce5e3f0b3360138",
+      "lastEditedTime": "2026-07-04T22:51:00.000Z",
       "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
@@ -67,6 +102,505 @@
         "Discplines": {
           "type": "relation",
           "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Baali"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du clan..."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8012-a4d0-f789e9f94d47",
+      "slug": "brujah",
+      "title": "Brujah",
+      "notionUrl": "https://app.notion.com/p/Brujah-39388b48e48e8012a4d0f789e9f94d47",
+      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vrai-brujah",
+              "title": "Vrai-Brujah"
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Brujah"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan des philosophes, les canailles, les punks, les hipsters, les prométhéens, les rebelles, les rois philosophes, les hellènes, les sages."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Brujah sont dominés par leurs émotions. Leur difficulté à résister à la frénésie est augmentée de +2"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8078-8c8b-de632bfd877e",
+      "slug": "caitiff",
+      "title": "Caitiff",
+      "notionUrl": "https://app.notion.com/p/Caitiff-39388b48e48e80788c8bde632bfd877e",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Caitiff"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du clan..."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8086-b006-d9d13ee27f48",
+      "slug": "emissaire-des-cranes",
+      "title": "Emissaire des crânes",
+      "notionUrl": "https://app.notion.com/p/Emissaire-des-cr-nes-39388b48e48e8086b006d9d13ee27f48",
+      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Emissaire des crânes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur morsure est douloureuse."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80dc-8ea8-ec6d9f6a024a",
+      "slug": "gangrel",
+      "title": "Gangrel",
+      "notionUrl": "https://app.notion.com/p/Gangrel-39388b48e48e80dc8ea8ec6d9f6a024a",
+      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad"
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Gangrel"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8038-be5b-dbf240066a35",
+      "slug": "giovanni",
+      "title": "Giovanni",
+      "notionUrl": "https://app.notion.com/p/Giovanni-39388b48e48e8038be5bdbf240066a35",
+      "lastEditedTime": "2026-07-04T23:13:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-sepulture",
+              "title": "Voie de la Sépulture"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "premascine",
+              "title": "Premascine"
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Giovanni"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les nécromants"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "La morsure des Giovanni est atrocement douloureuse.\nLorsqu’un Giovanni se nourrit d’un mortel il inflige 3 niveaux de dégâts par point de sang drainé (au lieu de 2)"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8036-b45f-dcff0d7575c5",
+      "slug": "kuei-jin",
+      "title": "Kuei-Jin",
+      "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Kuei-Jin"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du clan..."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80fe-9a2a-dbf1aa7f1c2e",
+      "slug": "lasombra",
+      "title": "Lasombra",
+      "notionUrl": "https://app.notion.com/p/Lasombra-39388b48e48e80fe9a2adbf1aa7f1c2e",
+      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lasombra"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les Gardiens"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lasombra n’ont aucun reflet ni dans les miroirs, ni dans l’eau, ni sur les surfaces réfléchissantes. De ce fait ils sont invisibles aux systèmes à miroir (anciens appareils), cependant ils sont visibles avec les technologies modernes (caméras numériques)"
+        }
+      ]
+    },
+    {
+      "id": "39088b48-e48e-8067-8798-d933c5240fbc",
+      "slug": "malkavien",
+      "title": "Malkavien",
+      "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
+      "lastEditedTime": "2026-07-04T23:18:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
         },
         "Atouts de clan": {
           "type": "relation",
@@ -88,7 +622,326 @@
         },
         {
           "type": "paragraph",
+          "text": "Surnom : Le clan de la lune, les déments, les lunatiques, les bouffons, les oracles, les derviches, les visionnaires, les enfants de Malkav."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8015-a98b-f6ff61cf19c4",
+      "slug": "nosferatu",
+      "title": "Nosfératu",
+      "notionUrl": "https://app.notion.com/p/Nosf-ratu-39388b48e48e8015a98bf6ff61cf19c4",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Nosfératu"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les rats d'égoûts, les horreurs, le clan des invisibles, les lépreux, les pouilleux, les bêtes de foire, les mouchards, les clochards, les Orlocks, le clan des masques."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Nosferatu sont d’une laideur inhumaine. Les Nosferatu ne peuvent pas avoir le focus d’attribut Apparence."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8087-be51-e7267217d422",
+      "slug": "ravnos",
+      "title": "Ravnos",
+      "notionUrl": "https://app.notion.com/p/Ravnos-39388b48e48e8087be51e7267217d422",
+      "lastEditedTime": "2026-07-04T22:55:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ravnos"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnom : Les Mystificateurs"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan "
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ont un vice et il leur est difficile d'y résister."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8070-a7b8-dbf8e0bea186",
+      "slug": "salubrien",
+      "title": "Salubrien",
+      "notionUrl": "https://app.notion.com/p/Salubrien-39388b48e48e8070a7b8dbf8e0bea186",
+      "lastEditedTime": "2026-07-04T22:55:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "obeah",
+              "title": "Obéah"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Salubrien"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
           "text": "Description du clan..."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": " Ils ont un 3ème œil sur le front."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-809e-828e-e2f7119182b1",
+      "slug": "sang-clair",
+      "title": "Sang-clair",
+      "notionUrl": "https://app.notion.com/p/Sang-clair-39388b48e48e809e828ee2f7119182b1",
+      "lastEditedTime": "2026-07-04T22:56:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang-clair"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du clan..."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80d7-beef-fcf179f7022b",
+      "slug": "setite",
+      "title": "Setite",
+      "notionUrl": "https://app.notion.com/p/Setite-39388b48e48e80d7beeffcf179f7022b",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Setite"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les serpents"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
         }
       ]
     },
@@ -97,8 +950,12 @@
       "slug": "toreador",
       "title": "Toréador",
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
-      "lastEditedTime": "2026-07-04T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
       "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
@@ -127,7 +984,149 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du clan..."
+          "text": "Surnoms : Les dégénérés, le clan de la Rose, les divas, les artistes, les catins, les Arikélites, les hédonistes, les épicuriens, les pervers."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Toreador sont souvent fascinés par la beauté et l’art. Lorsque vous êtes confronté à une œuvre d’art, une performance ou quelque chose de beau qui vous intéresse particulièrement ou que vous n’avez jamais vu auparavant, vous devez lui accorder toute votre attention pendant une scène.\nUn Toreador peut résister à cette pulsion en dépensant un point de Volonté. Bien que des distractions comme des voix fortes ou une altercation proche puissent détourner votre attention, les Toreador détestent être interrompus lorsqu’ils contemplent l’art ou la beauté, et réagissent avec colère voire par la violence ou la frénésie."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8020-bbe9-c00213d83f59",
+      "slug": "tremere",
+      "title": "Tremere",
+      "notionUrl": "https://app.notion.com/p/Tremere-39388b48e48e8020bbe9c00213d83f59",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sang",
+              "title": "Voie du Sang"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Tremere"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnom : Les sorciers, les usurpateurs, les hémétiques, les thaumaturges, les transgresseurs, le clan brisé, les mages de sang."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang des Tremere présente des faiblesses et déséquilibres absents chez les autres clans. En raison de ces défauts, les Tremere deviennent plus facilement dépendants du sang d’autrui.\nIl suffit de deux prises de sang d’un autre vampire pour qu’un Tremere soit lié par le sang au lieu des trois habituelles, la première prise compte comme si le Tremere en avait bu deux."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8075-82c1-e9bf4f4f8736",
+      "slug": "tzimices",
+      "title": "Tzimices",
+      "notionUrl": "https://app.notion.com/p/Tzimices-39388b48e48e807582c1e9bf4f4f8736",
+      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude"
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Tzimices"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnom : Les Démons"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Tzimisce sont intrinsèquement liés à leur terre d’origine et doivent se reposer à proximité d’au moins deux poignées de leur sol natal, une terre provenant d’un lieu important de leur vie mortelle, comme leur lieu de naissance ou le cimetière où ils ont subi l’Étreinte.\nChaque jour passé sans ce lien physique inflige un malus cumulatif de -1 à tous les tests d’attaque du Tzimisce (maximum -5). Ces pénalités persistent jusqu’à ce qu’il se repose une journée complète dans sa terre."
         }
       ]
     },
@@ -136,15 +1135,35 @@
       "slug": "ventrue",
       "title": "Ventrue",
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
-      "lastEditedTime": "2026-07-04T11:37:00.000Z",
+      "lastEditedTime": "2026-07-04T23:02:00.000Z",
       "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
         },
         "Discplines": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
         },
         "Atouts de clan": {
           "type": "relation",
@@ -166,7 +1185,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du clan..."
+          "text": "Surnoms : Les Roys, les sang bleus, les chevaliers, les tyrans, les seigneurs de guerre, les patriciens, les Borgias, le culte de Mithras."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ventrue ont des goûts extrêmement raffinés en matière de sang. Chaque Ventrue ne peut se nourrir que d’un type très spécifique de sang mortel, et ne tire aucune subsistance d’un autre.\nLors de la création du personnage, ce type doit être défini avec le Conteur. Cette catégorie doit être étroite : moins d’une personne sur dix doit correspondre à ce critère. Ce choix est permanent.\nLe sang d’un autre type (y compris animal) ne nourrit pas le vampire. Quelle que soit la quantité consommée, sa réserve de sang n’augmente pas, et il vomit immédiatement ce sang.\nLe sang des créatures surnaturelles (comme celui des vampires) n’est pas concerné et peut nourrir normalement.\nSi un Ventrue est contraint de se nourrir en territoire inconnu, il doit dépenser une AIP Nourriture supplémentaire pour entrer en jeu avec une réserve de sang complète."
         }
       ]
     }

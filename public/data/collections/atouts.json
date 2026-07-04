@@ -3,7 +3,7 @@
   "label": "Atouts",
   "group": "Atouts et Handicaps",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-04T21:42:17.346Z",
+  "generatedAt": "2026-07-04T23:20:59.846Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -138,6 +138,84 @@
       ]
     },
     {
+      "id": "39388b48-e48e-8072-b7df-ce5688b425c2",
+      "slug": "antiquites",
+      "title": "Antiquités",
+      "notionUrl": "https://app.notion.com/p/Antiquit-s-39388b48e48e8072b7dfce5688b425c2",
+      "lastEditedTime": "2026-07-04T22:23:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Antiquités"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes non-mort depuis longtemps, ou vous avez récupéré le stock d'un Semblable qui a été détruit. Quoi qu'il en soit, vous possédez une grande quantité d'objets anciens.\nVous pouvez dépenser une AIP pour ajouter l'attribut \"Antique\" à un objet ne servant pas au combat. Cet attribut ne compte pas pour la limite d'attribut que peut avoir un objet. Certains de vos objets peuvent avoir une valeurs historique ce qui peut attirer l'attention des mortels si cela s'apprend. À la discrétion des conteurs."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80c4-b3c1-e7d4fdb8d3e4",
+      "slug": "architecte-de-la-tour",
+      "title": "Architecte de la Tour",
+      "notionUrl": "https://app.notion.com/p/Architecte-de-la-Tour-39388b48e48e80c4b3c1e7d4fdb8d3e4",
+      "lastEditedTime": "2026-07-04T22:24:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Architecte de la Tour"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez combattu pour la Camarilla durant la Révolte Anarch et vous étiez présent à la signature du Traité de Thorns. Vous êtes considéré comme l'un des membres fondateurs de la Camarilla et en tant que tel, vous obtenez le statut \"Architecte\"."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-802f-9a7d-e2f4d6af44e2",
       "slug": "dhampir",
       "title": "Dhampir",
@@ -173,6 +251,201 @@
         {
           "type": "paragraph",
           "text": "Un personnage ne peut prendre cet atout que s'il n'a pas de point en Génération. Un Dhampir est l'enfant d'un mortel et d'un Semblable, lui donnant une existence à cheval entre la vie et la non-mort. Cela ne devrait pas pouvoir être possible, mais ça l'est de façon très exceptionnelle. De part leur nature, les Dhampir sont jeunes, les plus vieux ont 25 ans. Bien qu'ils soient traités comme des goules, les Dhampir ne sont pas forcément lié au sang et n'ont pas de domitor.\nCréez votre personnage en utilisant les règles spéciales pour les goules, sauf celles concernant cet atout. Les Dhampirs sont des créatures surnaturelles, pas des mortels. Ils n'ont pas de disciplines de clan. Ils peuvent obtenir 7 niveaux (plutôt que 5 pour les goules) dans n'importe quelle discipline de leur choix. Cependant, un Dhampir ne peut jamais obtenir de discipline au dessus du niveau 3. Un Dhampir n'a pas de Bête et ne peut obtenir de voie de l'illumination. Contrairement à une goule, un Dhampir ne peut pas être Étreint, toute tentative se finira par la mort du Dhampir."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80d3-9bff-e3714f1632e4",
+      "slug": "emissaire-a-la-camarilla",
+      "title": "Emissaire à la Camarilla",
+      "notionUrl": "https://app.notion.com/p/Emissaire-la-Camarilla-39388b48e48e80d39bffe3714f1632e4",
+      "lastEditedTime": "2026-07-04T22:30:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Emissaire à la Camarilla"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout Semblable présent à une réunion de la Camarilla en fait parti. Vous n'êtes pas reconnu, mais vous comprenez les règles du jeu politique de la tour d'Ivoire, pour les utiliser à votre bénéfice. Vous êtes peut-être un Giovanni, ou un prêtre Setite prêt a aider la Camarilla … et profiter des guerres internes de celle-ci. Tant que vous n'êtes pas reconnu par une secte, vous pouvez avoir un \"fleeting status\" de plus au sein de la Camarilla. Ceci est une exception à la règle empêchant des individus non reconnu d'avoir le moindre statut de secte."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80fd-8bbe-f56e1b72b089",
+      "slug": "erudit-de-l-epee",
+      "title": "Erudit de l’Epée",
+      "notionUrl": "https://app.notion.com/p/Erudit-de-l-Ep-e-39388b48e48e80fd8bbef56e1b72b089",
+      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Erudit de l’Epée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez étudié les différents rituels du Sabbat en profondeur. Vous avez en plus le talent et les aptitudes nécessaire pour les maîtriser mieux que la plupart des gens. Vous pouvez choisir un rituel de plus que votre niveau en Rituel (qu'ils soient Auctoritas, Faction ou Ignobilis)."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80b1-aa7b-ddca98b2fb6b",
+      "slug": "executeur",
+      "title": "Exécuteur",
+      "notionUrl": "https://app.notion.com/p/Ex-cuteur-39388b48e48e80b1aa7bddca98b2fb6b",
+      "lastEditedTime": "2026-07-04T22:33:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Exécuteur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des membres du Sabbat sont des monstres vicieux. Vos actions sont reconnue au sein du Sabbat pour être parmi les plus horribles, immorales et violente de tous. Cette réputation n'est pas volé. Vous avez un bonus de 1 à vos jets d'intimidation et d'Expérience de la rue. Si vous partez en frénésie lorsqu'un personnage s'éloigne de vous, vous pouvez faire une attaque Physique sur ce personnage sans dépenser d'action. Vous ne pouvez utiliser cet effet uniquement pendant le tour commun, mais il peut être déclenché plusieurs fois durant ce tour."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-808f-8667-f421fe9c029a",
+      "slug": "fanatique",
+      "title": "Fanatique",
+      "notionUrl": "https://app.notion.com/p/Fanatique-39388b48e48e808f8667f421fe9c029a",
+      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Fanatique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre foi en Caïn est absolue quelle que soit la situation, même les pire. Lorsque vous êtes blessé, vous avez un bonus de 3 à votre initiative. Lorsque vous êtes dans la jauge d'Incapacité, vous avez un bonus supplémentaire de 3 (pour un total de 6)."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8061-b8c6-d378d4af8651",
+      "slug": "gardien-d-un-texte-sacre",
+      "title": "Gardien d’un texte Sacré",
+      "notionUrl": "https://app.notion.com/p/Gardien-d-un-texte-Sacr-39388b48e48e8061b8c6d378d4af8651",
+      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Gardien d’un texte Sacré"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes en possession de l'un de des texte sacré suivant du Sabbat : Le livre de Nod, les fragments d'Erciyes, les chroniques d'Ubar, les gospels d'Irad et d'Adah ou le codex des Déchus. Tant que vous possédez cet atout, vous avez une spécialisation de Mystère gratuite supplémentaire, qui vous permet d'aller au dessus de votre limite. Cette spécialisation gratuite doit être liée au texte que vous possédez. De plus, vous obtenez un bonus de 5 à chaque fois que vous faites appel à cette spécialisation dans un jet. Pour finir, vous recevez à chaque début de partie le statut inné \"Anointed\"."
         }
       ]
     },
@@ -255,6 +528,357 @@
       ]
     },
     {
+      "id": "39388b48-e48e-80b1-871e-ff2497a095f8",
+      "slug": "marionnettiste",
+      "title": "Marionnettiste",
+      "notionUrl": "https://app.notion.com/p/Marionnettiste-39388b48e48e80b1871eff2497a095f8",
+      "lastEditedTime": "2026-07-04T22:24:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Marionnettiste"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez pris le contrôle d'un réseau d'influence important qui se trouve être vraiment efficace et discret. Chaque semaine vous récupérez une action d'influence dans le domaine de votre choix."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80e5-8f2b-d53261126f35",
+      "slug": "membre-actif-de-la-meute",
+      "title": "Membre actif de la Meute",
+      "notionUrl": "https://app.notion.com/p/Membre-actif-de-la-Meute-39388b48e48e80e58f2bd53261126f35",
+      "lastEditedTime": "2026-07-04T22:33:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Membre actif de la Meute"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre meute est la chose la plus importante dans votre existence, tellement importante que vous feriez n'importe quoi pour ses membres. Lorsque vous attaquez un personnage qui a infligé des dégâts à un membre de votre meute dans les 3 tours précédent et auprès de qui vous avez un vinculum d'au moins 3, vous gagnez un bonus de 3 à vos jet d'attaque Physique. De plus, une fois par tour lorsque vous combattez aux côtés d'un membre de votre meute, vous pouvez utiliser une action simple pour vous déplacer de 2m tant que vous vous déplacez auprès d'un membre de votre meute avec qui vous avez un niveau de vinculum d'au moins 3."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8061-8c77-e4faede5a4f6",
+      "slug": "membre-de-l-inquisition",
+      "title": "Membre de l’Inquisition",
+      "notionUrl": "https://app.notion.com/p/Membre-de-l-Inquisition-39388b48e48e80618c77e4faede5a4f6",
+      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Membre de l’Inquisition"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage avec cet atout est un membre de la renommée Inquisition : que ce soit un Juge ou un Chevalier Inquisiteur. Les joueurs n'ont pas besoin de payer d'autres points pour monter dans la hiérarchie de l'organisation, mais il est recommandé aux Conteurs de limiter l'ascension en son sein. Tout les membres de l'Inquisition possèdent un reliquaire en fer. Ce reliquaire est un symbole d'appartenance à l'Inquisition et chacun est donné directement par le Régent.\nPhysiquement, un reliquaire est une version stylisée du logo du Sabbat forgé dans du fer. Il peut être tenu et utilisé comme une dague ou une épée et il y a souvent des pointes aiguisées ou d'autres tranchants dessus. Tout les reliquaire sont unique et en cas de Destruction d'un Inquisiteur son reliquaire est détruit. Tant que vous possédez votre reliquaire, vous avez un bonus de 3 pour résister aux pouvoirs infernaux (comme ceux de Daemonium), les pouvoirs obtenu par des capacités démoniaques ou par des atout lié à l'infernalisme. Vous obtenez aussi un bonus de 3 pour vos jets d'esquive contre les démons et autres personnages marqué par un démon. Vous obtenez le statut de Purifié au début de chaque partie."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8010-9f73-ca45699d71a4",
+      "slug": "membre-de-la-main-noire",
+      "title": "Membre de la Main Noire",
+      "notionUrl": "https://app.notion.com/p/Membre-de-la-Main-Noire-39388b48e48e80109f73ca45699d71a4",
+      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Membre de la Main Noire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ayant cet atout est membre de la main noire. Il commence en général comme un Agent de la main. Les joueurs n'ont pas besoin de dépenser d'autres points afin d'avancer dans la hiérarchie de l'organisation, mais il est recommandé aux Conteurs de limiter l’ascension d'un personnage en son sein. Tout les membres de la Main noire sont marqué du symbole de croissant de lune noire dans la paume droite. Il crée un lien télépathique avec le Séraphim et peut être utilisé pour faire appel à un agent pour qu'il remplisse un contrat, pour prévenir des agents de danger ou pour Détruire un membre de la Main noire qui a été compromis.\nVous avez un bonus de 3 pour résister la Télépathie et d'autres Pouvoir permettant de soutirer des informations directement à votre esprit. Ce bonus ne s'applique pas dans les cas où l'information vous serait soutirée directement à votre esprit comme l'utilisation de Pouvoir de Domination ou de Présence. Vous obtenez le statut inné \"Marqué\" au début de chaque partie."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8085-a27c-fa8ab5a77945",
+      "slug": "monopoliste",
+      "title": "Monopoliste",
+      "notionUrl": "https://app.notion.com/p/Monopoliste-39388b48e48e8085a27cfa8ab5a77945",
+      "lastEditedTime": "2026-07-04T22:29:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Monopoliste"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez vos mains dans presque tout ce qui se passe dans votre ville et votre contrôle s'étant bien plus loin que la plupart. Vous avez une deuxième spécialisation pour chaque point d'influence que vous acquérez."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8005-ab8f-ccfb56504f05",
+      "slug": "noblesse-sociale",
+      "title": "Noblesse sociale",
+      "notionUrl": "https://app.notion.com/p/Noblesse-sociale-39388b48e48e8005ab8fccfb56504f05",
+      "lastEditedTime": "2026-07-04T22:29:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Noblesse sociale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le passé vous avez tenu une position sociale prestigieuse, que ce soit en tant que Prince ayant régné longtemps, avoir été Archon ou une Harpie célébre. Bien que ne tenant plus nécessairement cette position, votre nom y est associé. Vous êtes donc traité avec une grande dose de respect.\nLorsque quelqu'un vous repaie d'une faveur, vous pouvez lui donner le statut de \"Gallant\"."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80ac-9540-e6b5ffe3e412",
+      "slug": "prodige-social",
+      "title": "Prodige social",
+      "notionUrl": "https://app.notion.com/p/Prodige-social-39388b48e48e80ac9540e6b5ffe3e412",
+      "lastEditedTime": "2026-07-04T22:25:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Prodige social"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes particulièrement doué pour bien présenter, manipuler les autres et vous hisser au plus haut de votre environnement social. Ce talent vous a bien servit depuis votre Étreinte. Vous êtes considéré socialement comme ayant un niveau de génération supérieur. Si vous êtes un Nouveau-né, vous êtes considéré socialement comme un Ancilla, si vous êtes un Ancilla, vous êtes considéré comme un Ancien (et vous gagnez le statut attribué aux Anciens). Les Anciens ne tirent aucun bénéfice de cet atout."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8098-8062-f774de711215",
+      "slug": "revelateur",
+      "title": "Révélateur",
+      "notionUrl": "https://app.notion.com/p/R-v-lateur-39388b48e48e80988062f774de711215",
+      "lastEditedTime": "2026-07-04T22:34:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Révélateur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute les heures, vous pouvez utiliser utiliser une action simple pour proclamer fortement et distinctement votre foi en Caïn et promouvoir les croyances de l'Église sombre. Pour le reste de ce tour, vous pouvez dépenser 5 points de sang supplémentaire que votre maximum. Au début du tour suivant, vous revenez à la normale."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-806d-981e-ebf15367948e",
+      "slug": "sanctifie",
+      "title": "Sanctifié",
+      "notionUrl": "https://app.notion.com/p/Sanctifi-39388b48e48e806d981eebf15367948e",
+      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sanctifié"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez acquis une qualité dans votre foi qui inspire les autres. Tant que votre personnage suis les préceptes d'un ritus, ce personnage a un bonus de 2 à ses jets de Rituel, tant que c'est lui qui initie le rituel. Si ce rituel réussi, les participants regagnent tout les points de Volonté dépensé. Si le personnage n'est pas l'initiateur du rituel, il apporte un bonus de 2 (à la place de 1) au personnage qui a lancé le rituel."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8096-9104-c59677bd33b9",
       "slug": "sauvage",
       "title": "Sauvage",
@@ -329,6 +953,45 @@
         {
           "type": "paragraph",
           "text": "Vous avez passé beaucoup de temps a protéger et cultiver votre Humanité. Par cet effort, vous avez acquis la capacité de mieux contrôler votre Bête que la plupart des Semblables. Vous avez vraisemblablement encore beaucoup de contacts avec les mortels; que ce soit par un travail de nuit, ou en participant à des événements mondains.\nSi vous passez 10 minutes a conseiller un Semblable qui a un trait de Bête, ce Semblable peut retenter un jet de flétrissure qu'il a perdu cette nuit. Si ce second essai est une réussite, il retire toute pénalité obtenue lors de l'échec de flétrissure précédent.\nUn personnage ne peut bénéficier que d'une application de cet atout par partie."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-809f-8c5c-ce114cb15265",
+      "slug": "sire-prestigieux",
+      "title": "Sire prestigieux",
+      "notionUrl": "https://app.notion.com/p/Sire-prestigieux-39388b48e48e809f8c5cce114cb15265",
+      "lastEditedTime": "2026-07-04T22:26:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sire prestigieux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Sire est un Ancien reconnu ou détient une position importante au sein de la Camarilla. Vous possédez le statut \"Loyal\" tant que vous et votre Sire évitez les scandales. Si l'un d'entre vous obtient le statut \"Disgrâce\", vous perdez l'avantage de cet atout jusqu'à ce que le statut \"Disgrâce\" soit retiré."
         }
       ]
     },
@@ -466,6 +1129,84 @@
         {
           "type": "paragraph",
           "text": "Cet atout doit être acheté à la création du personnage. Vous avez été Étreint avant 1800. Peut-être que vous étiez membre de la révolte Anarch initiale, ou vous étiez présent à la signature de la Convention de Thorns.\nIl est a noter qu'acheter cet atout ne donne aucun bonus de Génération."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-800d-ad86-cd84475f3691",
+      "slug": "volatile",
+      "title": "Volatile",
+      "notionUrl": "https://app.notion.com/p/Volatile-39388b48e48e800dad86cd84475f3691",
+      "lastEditedTime": "2026-07-04T22:34:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Volatile"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes extrêmement sauvage et vous avez le sang vif, même pour le Sabbat. Bien que cette instabilité peut effrayer les autres, elle vous bénéficie à vous, et vous attendez le moment où vous pouvez relâcher votre Bête. Lorsque vous entrez en frénésie, vous gagnez immédiatement un point de Volonté. Vous ne pouvez obtenir ce bonus qu'une fois par combat."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8044-b570-cd7bfe8412d6",
+      "slug": "zelote",
+      "title": "Zélote",
+      "notionUrl": "https://app.notion.com/p/Z-lote-39388b48e48e8044b570cd7bfe8412d6",
+      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Zélote"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous brûlez d'une dévotion totale pour Caïn, les rites et la Secte. Votre ferveur peut-être discrète ou très vocale, vous avez quoi qu'il en soit une croyance bien plus forte que d'autres. Si forte que vous ressentez que vous pouvez presque sentir la volonté du Père sombre. Échouer un rituel vous cause une douleur physique et une blessure intérieure car vous attribuez cet échec à un manque de foi. Lorsque vous participez à un rituel qui échoue, vous pouvez faire un jet statique de Mental + Occultisme difficulté 6 pour déterminer combien de participants à ce rituel souffrent d'un manque de foi."
         }
       ]
     }

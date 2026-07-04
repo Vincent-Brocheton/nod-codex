@@ -3,7 +3,7 @@
   "label": "Handicaps",
   "group": "Atouts et Handicaps",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-07-04T21:42:17.347Z",
+  "generatedAt": "2026-07-04T23:20:59.846Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -20,10 +20,10 @@
   "items": [
     {
       "id": "39388b48-e48e-8092-af9f-da456f37c4af",
-      "slug": "handicap-1",
-      "title": "Handicap 1",
-      "notionUrl": "https://app.notion.com/p/Handicap-1-39388b48e48e8092af9fda456f37c4af",
-      "lastEditedTime": "2026-07-04T12:21:00.000Z",
+      "slug": "esclave-un-jour",
+      "title": "Esclave un jour ",
+      "notionUrl": "https://app.notion.com/p/Esclave-un-jour-39388b48e48e8092af9fda456f37c4af",
+      "lastEditedTime": "2026-07-04T22:22:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -31,42 +31,7 @@
         },
         "Type": {
           "type": "select",
-          "value": ""
-        },
-        "Clan": {
-          "type": "relation",
-          "value": []
-        },
-        "Coût": {
-          "type": "select",
-          "value": "1"
-        },
-        "Name": {
-          "type": "text",
-          "value": "Handicap 1"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        }
-      ]
-    },
-    {
-      "id": "39388b48-e48e-8062-8273-c7d453a0c69a",
-      "slug": "handicap-2",
-      "title": "Handicap 2",
-      "notionUrl": "https://app.notion.com/p/Handicap-2-39388b48e48e80628273c7d453a0c69a",
-      "lastEditedTime": "2026-07-04T12:21:00.000Z",
-      "properties": {
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Type": {
-          "type": "select",
-          "value": ""
+          "value": "Anarch'"
         },
         "Clan": {
           "type": "relation",
@@ -78,13 +43,173 @@
         },
         "Name": {
           "type": "text",
-          "value": "Handicap 2"
+          "value": "Esclave un jour "
         }
       },
       "content": [
         {
           "type": "heading_2",
           "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "À un moment dans votre passé, vous avez subit la terrible expérience de l'amour forcé par un lien de sang (ou une vaulderie). Vous êtes terrifiés à l'idée que vous pourriez vivre ce sentiment à nouveau. Si vous êtes face à une situation où vous pourriez à nouveau avoir petit lien de sang (ou un simple niveau de Vinculum), vous souffrez des effets d'une crise psychotique comme si vous aviez le dérangement Phobie dirigée vers la personne pouvant vous lier au sang."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8062-8273-c7d453a0c69a",
+      "slug": "infant-batard",
+      "title": "Infant Bâtard",
+      "notionUrl": "https://app.notion.com/p/Infant-B-tard-39388b48e48e80628273c7d453a0c69a",
+      "lastEditedTime": "2026-07-04T22:22:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Infant Bâtard"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce handicap doit être pris à la création du personnage. Vous avez été Étreint sans la permission des autorités locales. Bien que ce ne soit pas exactement contraire aux règles Anarch, la Camarilla désapprouve. Si vous aviez été infanté par un membre de la Camarilla, vous et votre Sire auraient vraisemblablement été détruits. Seul le fait que vous soyez un Anarch vous protège de la colère des Princes et des Justicars. Si vous subissez un jour d'un statut négatif au sein du Mouvement, alors vous perdez l'accès à vos Historiques, car vos amis et alliés réalisent que vous n'êtes plus protégé de la colère de vos ennemis Camaristes. Lorsque le statut négatif disparaît, vous récupérez vos historiques."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80bb-a4a0-d2a1d2a23f4a",
+      "slug": "loyautes-douteuses",
+      "title": "Loyautés douteuses",
+      "notionUrl": "https://app.notion.com/p/Loyaut-s-douteuses-39388b48e48e80bba4a0d2a1d2a23f4a",
+      "lastEditedTime": "2026-07-04T22:22:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Loyautés douteuses"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelque chose s'est déroulé dans le passé qui fait que les Anarchs ont de bonnes raisons de douter de vous. Peut-être avez-vous abandonné vos frères et sœurs au combat, ou peut-être que vous étiez un Prince de la Camarilla avant de rejoindre le Mouvement, ou peut-être encore avez vous été trompé bien trop de fois.\nLes autres Anarchs sont sceptiques concernant votre dévotion envers le Mouvement et vous traitent donc avec moins de respect. Votre \"fleeting status\" est d'un niveau inférieur à ce qu'il devrait être tant que vous avez ce handicap. Ce malus se cumule avec d'autres malus de status."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8009-8b2f-f0924ed1a78a",
+      "slug": "mouton-noir",
+      "title": "Mouton noir",
+      "notionUrl": "https://app.notion.com/p/Mouton-noir-39388b48e48e80098b2ff0924ed1a78a",
+      "lastEditedTime": "2026-07-04T22:21:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Mouton noir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce handicap doit être pris à la création du personnage. Votre généalogie vampirique se distingue par la présence de grands noms de la Camarilla. Votre lignée vous considère comme un embarras et vous mettent sous une pression constante de \"grandir\", ce qui veut dire rejoindre la Camarilla. Pire encore, les autres Anarch considèrent ce glorieux héritage comme digne de dédain. Ce qui fait que vous devez travailler deux fois plus fort pour prouver votre valeur à leur yeux.\nVous perdez une AIP par mois afin de pouvoir échapper à la Camarilla et pour prouver aux Anarch que vous êtes un membre sincère du Mouvement."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-808a-a1a8-c3f3531c1286",
+      "slug": "tete-de-pioche-echappee",
+      "title": "Tête de pioche échappée",
+      "notionUrl": "https://app.notion.com/p/T-te-de-pioche-chapp-e-39388b48e48e808aa1a8c3f3531c1286",
+      "lastEditedTime": "2026-07-04T22:22:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Tête de pioche échappée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Sire est un membre du Sabbat. Vous avez un trauma mental de par le fait d'être une tronche de pelle. Vous avez de terribles souvenirs lorsque vous croisez ces monstres qui vous ont presque forcé a les rejoindre.\nVous avez un malus de 2 sur vos jets Mentaux (y compris en défense) lorsque vous faites un jet en opposition contre un membre connu du Sabbat."
         }
       ]
     }

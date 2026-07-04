@@ -3,7 +3,495 @@
   "label": "Lignées",
   "group": "Clans et Lignées",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-04T21:42:17.345Z",
+  "generatedAt": "2026-07-04T23:20:59.845Z",
   "propertyOptions": {},
-  "items": []
+  "items": [
+    {
+      "id": "39388b48-e48e-80db-87d3-e12b94a90fd6",
+      "slug": "ahrimanes",
+      "title": "Ahrimanes",
+      "notionUrl": "https://app.notion.com/p/Ahrimanes-39388b48e48e80db87d3e12b94a90fd6",
+      "lastEditedTime": "2026-07-04T23:10:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-elementaires",
+              "title": "Voie des Elementaires"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ahrimanes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "ATTENTION : Ne peut pas être choisi que par des personnages exclusivement féminins"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-802e-a106-fcf9a637c8fc",
+      "slug": "coyote",
+      "title": "Coyote",
+      "notionUrl": "https://app.notion.com/p/Coyote-39388b48e48e802ea106fcf9a637c8fc",
+      "lastEditedTime": "2026-07-04T23:11:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Coyote"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8077-9d38-ea0ece2f7724",
+      "slug": "noiad",
+      "title": "Noiad",
+      "notionUrl": "https://app.notion.com/p/Noiad-39388b48e48e80779d38ea0ece2f7724",
+      "lastEditedTime": "2026-07-04T23:11:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Noiad"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8083-b107-f15e5553828f",
+      "slug": "premascine",
+      "title": "Premascine",
+      "notionUrl": "https://app.notion.com/p/Premascine-39388b48e48e8083b107f15e5553828f",
+      "lastEditedTime": "2026-07-04T23:12:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-sepulture",
+              "title": "Voie de la Sépulture"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Premascine"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les nécromants"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "La morsure des Giovanni est atrocement douloureuse.\nLorsqu’un Giovanni se nourrit d’un mortel il inflige 3 niveaux de dégâts par point de sang drainé (au lieu de 2)"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8041-ab7a-eea663f2f5c1",
+      "slug": "sorcier",
+      "title": "Sorcier",
+      "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
+      "lastEditedTime": "2026-07-04T23:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-flammes",
+              "title": "Voie des Flammes"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sorcier"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les enfants d'Haqim, les Assassins, la lame blanche"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan "
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur magie perturbe leur aura :\nLes tentatives pour percer leur Occultation gagnent +1 carte joker sur les tests d’Auspex. Leur aura est vue comme celle d'un mage."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8088-880d-f1858938a1f1",
+      "slug": "vizirs",
+      "title": "Vizirs",
+      "notionUrl": "https://app.notion.com/p/Vizirs-39388b48e48e8088880df1858938a1f1",
+      "lastEditedTime": "2026-07-04T23:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vizirs"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Les enfants d'Haqim, les Assassins, la lame blanche"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vizirs souffrent d’un dérangement obsessionnel déclenché par la connaissance inconnue.\nIls ne gagnent pas de points d’expérience liés à ce dérangement"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8027-946b-c75fb6489391",
+      "slug": "vrai-brujah",
+      "title": "Vrai-Brujah",
+      "notionUrl": "https://app.notion.com/p/Vrai-Brujah-39388b48e48e8027946bc75fb6489391",
+      "lastEditedTime": "2026-07-04T23:08:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "temporis",
+              "title": "Temporis"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "brujah",
+              "title": "Brujah"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vrai-Brujah"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Surnoms : Le clan des philosophes, les canailles, les punks, les hipsters, les prométhéens, les rebelles, les rois philosophes, les hellènes, les sages."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Brujah sont dominés par leurs émotions. Leur difficulté à résister à la frénésie est augmentée de +2"
+        }
+      ]
+    }
+  ]
 }
