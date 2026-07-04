@@ -312,19 +312,43 @@ input {
   animation: spin 1s linear infinite;
 }
 
-@media (max-width: 980px) {
-  .wikiShell {
-    grid-template-columns: 1fr;
-  }
+.mobileTopBar {
+  display: none;
+}
 
-  .sidebar {
-    max-height: none;
-  }
+.mobileMenuButton {
+  background: transparent;
+  border: 0;
+  color: #f8f1e7;
+  cursor: pointer;
+  display: flex;
+  padding: 4px;
+}
 
-  .listPane {
-    border-bottom: 1px solid #ddd4c7;
-    border-right: 0;
-  }
+.sidebarBackdrop {
+  display: none;
+}
+
+.sidebarClose {
+  background: transparent;
+  border: 0;
+  color: #f8f1e7;
+  cursor: pointer;
+  display: none;
+  margin-left: auto;
+  padding: 4px;
+}
+
+.backLink {
+  align-items: center;
+  color: #9b2f31;
+  display: none;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 6px;
+  margin-bottom: 18px;
+  text-decoration: none;
+  width: fit-content;
 }
 
 .contentBlocks figure {
@@ -643,4 +667,88 @@ a.powerRow:hover {
   height: 22px;
   justify-content: center;
   width: 22px;
+}
+
+/*
+ * Ce bloc doit rester en toute fin de fichier : la cascade CSS se base sur
+ * l'ordre des règles à spécificité égale, pas sur la présence d'un @media,
+ * donc placer ces overrides plus tôt dans le fichier les ferait perdre
+ * face aux règles de base déclarées après eux (ex. .pageArea).
+ */
+@media (max-width: 980px) {
+  .wikiShell {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr;
+    height: 100dvh;
+  }
+
+  .mobileTopBar {
+    align-items: center;
+    background: #171615;
+    border-bottom: 1px solid #2c2926;
+    color: #f8f1e7;
+    display: flex;
+    flex: 0 0 auto;
+    gap: 14px;
+    padding: 14px 16px;
+  }
+
+  .mobileTopBar strong {
+    font-size: 16px;
+  }
+
+  .sidebarClose {
+    display: flex;
+  }
+
+  .sidebarBackdrop.visible {
+    background: rgba(0, 0, 0, 0.5);
+    display: block;
+    inset: 0;
+    position: fixed;
+    z-index: 40;
+  }
+
+  .sidebar {
+    height: 100%;
+    left: 0;
+    max-height: none;
+    position: fixed;
+    top: 0;
+    transform: translateX(-100%);
+    transition: transform 0.25s ease;
+    width: min(320px, 85vw);
+    z-index: 50;
+  }
+
+  .sidebar.open {
+    transform: translateX(0);
+  }
+
+  .listPane {
+    border-bottom: 1px solid #ddd4c7;
+    border-right: 0;
+    display: none;
+  }
+
+  .pageArea {
+    grid-column: auto;
+    min-height: 0;
+  }
+
+  .detailPane {
+    min-height: 0;
+  }
+
+  .backLink {
+    display: flex;
+  }
+
+  .collectionNav button,
+  .itemList button,
+  .indexCard,
+  .powerRow,
+  .creationStep {
+    min-height: 44px;
+  }
 }

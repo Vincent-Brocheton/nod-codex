@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import BlockRenderer from "../BlockRenderer";
 import PropertyValue from "../PropertyValue";
 import LoadingState from "../States/LoadingState";
@@ -8,6 +10,7 @@ import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
 export default function GenericDetailView({ wiki }) {
 
     const { activeItem, pageNotFound, loading } = wiki.collections.computed;
+    const { activeNavigation } = wiki.navigation;
 
     if (wiki.loading || loading) {
         return <LoadingState />;
@@ -27,6 +30,11 @@ export default function GenericDetailView({ wiki }) {
 
     return (
         <article className="detailPane">
+
+            <Link to={activeNavigation.path} className="backLink">
+                <ArrowLeft aria-hidden="true" size={16} />
+                Retour à la liste
+            </Link>
 
             <header>
                 <span>{activeItem.collectionLabel}</span>

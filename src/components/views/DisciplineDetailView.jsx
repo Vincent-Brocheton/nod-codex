@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { ArrowLeft } from "lucide-react";
 import BlockRenderer from "../BlockRenderer";
 import LoadingState from "../States/LoadingState";
 import PageNotFoundState from "../States/PageNotFoundState";
@@ -35,6 +36,7 @@ export default function DisciplineDetailView({ wiki }) {
 
     const { activeItem, pageNotFound, loading } = wiki.collections.computed;
     const { loadedCollections } = wiki.collections;
+    const { activeNavigation } = wiki.navigation;
 
     if (wiki.loading || loading) {
         return <LoadingState />;
@@ -58,6 +60,11 @@ export default function DisciplineDetailView({ wiki }) {
 
     return (
         <article className="detailPane disciplineDetail">
+
+            <Link to={activeNavigation.path} className="backLink">
+                <ArrowLeft aria-hidden="true" size={16} />
+                Retour à la liste
+            </Link>
 
             <header>
                 <span>{activeItem.collectionLabel}</span>

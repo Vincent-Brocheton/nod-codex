@@ -1,24 +1,44 @@
-import { BookOpen, Search } from "lucide-react";
+import { BookOpen, Search, X } from "lucide-react";
 import { navigation } from "../config/navigation";
 import AppIcon from "./AppIcon";
 
-export default function Sidebar({ wiki }) {
+export default function Sidebar({ wiki, open, onClose }) {
 
   const { search } = wiki;
   const { query, setQuery } = search;
   const { activeNavigation } = wiki.navigation;
 
+  function handleNavigate(item) {
+    wiki.open(item);
+    onClose?.();
+  }
+
   return (
-    <aside className="sidebar">
+    <>
+      <div
+        className={`sidebarBackdrop${open ? " visible" : ""}`}
+        onClick={onClose}
+        aria-hidden="true"
+      />
 
-      <div className="brand">
-        <BookOpen size={28} />
+      <aside className={`sidebar${open ? " open" : ""}`}>
 
-        <div>
-          <strong>Wiki Vampire</strong>
-          <span>Règles du GN</span>
+        <div className="brand">
+          <BookOpen size={28} />
+
+          <div>
+            <strong>Wiki Vampire</strong>
+            <span>Règles du GN</span>
+          </div>
+
+          <button
+            className="sidebarClose"
+            onClick={onClose}
+            aria-label="Fermer la navigation"
+          >
+            <X size={20} />
+          </button>
         </div>
-      </div>
 
       <label className="searchField">
         <Search size={18} />
@@ -58,7 +78,7 @@ export default function Sidebar({ wiki }) {
                       ? "active"
                       : ""
                   }
-                  onClick={() => wiki.open(item)}
+                  onClick={() => handleNavigate(item)}
                 >
 
                   <AppIcon
@@ -80,6 +100,7 @@ export default function Sidebar({ wiki }) {
 
       </nav>
 
-    </aside>
+      </aside>
+    </>
   );
 }

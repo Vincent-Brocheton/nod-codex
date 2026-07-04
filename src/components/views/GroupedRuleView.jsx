@@ -1,5 +1,5 @@
-import { useNavigate } from "react-router-dom";
-import { FileText } from "lucide-react";
+import { Link, useNavigate } from "react-router-dom";
+import { ArrowLeft, FileText } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
 import PropertyValue from "../PropertyValue";
 import BlockRenderer from "../BlockRenderer";
@@ -128,6 +128,11 @@ export default function GroupedRuleView({
             </section>
 
             <article className="detailPane">
+                <Link to={activeNavigation.path} className="backLink">
+                    <ArrowLeft aria-hidden="true" size={16} />
+                    Retour à la liste
+                </Link>
+
                 {loading ? (
                     <LoadingState />
                 ) : (

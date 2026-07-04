@@ -1,4 +1,6 @@
 import "../styles.css";
+import { useEffect, useState } from "react";
+import { Menu } from "lucide-react";
 import Sidebar from "../components/Sidebar";
 import ItemList from "../components/ItemList";
 import DetailPanel from "../components/DetailPanel";
@@ -12,11 +14,17 @@ import PageRenderer from "../components/PageRenderer";
 
 function HomePage() {
     const { section, slug, collectionKey, niveau } = useParams();
+    const [navOpen, setNavOpen] = useState(false);
 
     const wiki = useWiki({
         section,
         slug,
     });
+
+    useEffect(() => {
+        setNavOpen(false);
+    }, [section, slug, collectionKey, niveau]);
+
     if (
         !wiki.loading &&
         !wiki.navigation.sectionExists
@@ -25,7 +33,19 @@ function HomePage() {
     }
     return (
         <main className="wikiShell">
-            <Sidebar wiki={wiki} />
+
+            <header className="mobileTopBar">
+                <button
+                    className="mobileMenuButton"
+                    onClick={() => setNavOpen(true)}
+                    aria-label="Ouvrir la navigation"
+                >
+                    <Menu size={22} />
+                </button>
+                <strong>Wiki Vampire</strong>
+            </header>
+
+            <Sidebar wiki={wiki} open={navOpen} onClose={() => setNavOpen(false)} />
 
             {
                 wiki.navigation.activeNavigation?.type === "collection"
