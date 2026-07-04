@@ -1,4 +1,4 @@
-export default function RulesPage() {
+export default function RulesView() {
     return (
         <main>
             <section className="pageView">

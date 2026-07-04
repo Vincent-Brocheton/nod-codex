@@ -1,5 +1,5 @@
-import { FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import ItemListButton from "../ItemListButton";
 import LoadingState from "../States/LoadingState";
 import { disciplineRefs, powersForDiscipline } from "../../utils/disciplinePowers";
 
@@ -42,14 +42,12 @@ export default function DisciplinePowersView({ wiki }) {
                             <h2>{group.label}</h2>
 
                             {group.items.map((item) => (
-                                <button
+                                <ItemListButton
                                     key={item.id}
-                                    className={item.id === activeItem?.id ? "selected" : ""}
+                                    label={item.title}
+                                    selected={item.id === activeItem?.id}
                                     onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
-                                >
-                                    <FileText aria-hidden="true" size={17} />
-                                    <span>{item.title}</span>
-                                </button>
+                                />
                             ))}
 
                             {group.items.length === 0 ? (

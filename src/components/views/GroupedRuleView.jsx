@@ -1,8 +1,8 @@
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, FileText } from "lucide-react";
-import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
-import PropertyValue from "../PropertyValue";
-import BlockRenderer from "../BlockRenderer";
+import { ArrowLeft } from "lucide-react";
+import { normalizeProperty } from "../../utils/property";
+import ItemListButton from "../ItemListButton";
+import ItemDetailBody from "../ItemDetailBody";
 import LoadingState from "../States/LoadingState";
 
 /**
@@ -107,18 +107,12 @@ export default function GroupedRuleView({
                             <h2>{collection.label}</h2>
 
                             {groups.map(value => (
-                                <button
+                                <ItemListButton
                                     key={value}
-                                    className={
-                                        selected.key === collection.key && selected.value === value
-                                            ? "selected"
-                                            : ""
-                                    }
+                                    label={formatGroupLabel(value)}
+                                    selected={selected.key === collection.key && selected.value === value}
                                     onClick={() => selectGroup(collection.key, value)}
-                                >
-                                    <FileText aria-hidden="true" size={17} />
-                                    <span>{formatGroupLabel(value)}</span>
-                                </button>
+                                />
                             ))}
 
                         </div>
@@ -145,36 +139,12 @@ export default function GroupedRuleView({
                         {selectedItems.length === 0 ? (
                             <p className="empty">{emptyMessage}</p>
                         ) : (
-                            selectedItems.map(item => {
-                                const properties = Object.entries(item.properties || {})
-                                    .map(([name, raw]) => [name, normalizeProperty(raw)])
-                                    .filter(([, property]) => !isPropertyEmpty(property));
-
-                                return (
-                                    <section key={item.id} className="ritualEntry">
-
-                                        <h2>{item.title}</h2>
-
-                                        {properties.length > 0 ? (
-                                            <dl className="properties">
-                                                {properties.map(([name, property]) => (
-                                                    <div key={name}>
-                                                        <dt>{name}</dt>
-                                                        <dd><PropertyValue property={property} /></dd>
-                                                    </div>
-                                                ))}
-                                            </dl>
-                                        ) : null}
-
-                                        <div className="contentBlocks">
-                                            {(item.content || []).map((block, index) => (
-                                                <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                                            ))}
-                                        </div>
-
-                                    </section>
-                                );
-                            })
+                            selectedItems.map(item => (
+                                <section key={item.id} className="ritualEntry">
+                                    <h2>{item.title}</h2>
+                                    <ItemDetailBody item={item} />
+                                </section>
+                            ))
                         )}
                     </>
                 )}

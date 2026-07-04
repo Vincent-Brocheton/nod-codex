@@ -1,5 +1,5 @@
-import { FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import ItemListButton from "../ItemListButton";
 import LoadingState from "../States/LoadingState";
 
 function ItemList({
@@ -23,16 +23,12 @@ function ItemList({
         ) : (
             <div className="itemList">
                 {visibleItems.map((item) => (
-                    <button
+                    <ItemListButton
                         key={item.id}
-                        className={item.id === computed.activeItem?.id ? "selected" : ""}
-                        onClick={() =>
-                            navigate(`${activeNavigation.path}/${item.slug}`)
-                        }
-                    >
-                        <FileText aria-hidden="true" size={17} />
-                        <span>{item.title}</span>
-                    </button>
+                        label={item.title}
+                        selected={item.id === computed.activeItem?.id}
+                        onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
+                    />
                 ))}
                 {visibleItems.length === 0 ? <p className="empty">Aucune fiche dans cette base pour le moment.</p> : null}
             </div>

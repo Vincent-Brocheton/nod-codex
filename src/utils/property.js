@@ -49,3 +49,13 @@ export function propertyText(property) {
 
     return String(value);
 }
+
+/**
+ * Propriétés d'une fiche prêtes à afficher : normalisées et sans les
+ * valeurs vides (évite les lignes vides dans un tableau de propriétés).
+ */
+export function getVisibleProperties(item) {
+    return Object.entries(item.properties || {})
+        .map(([name, raw]) => [name, normalizeProperty(raw)])
+        .filter(([, property]) => !isPropertyEmpty(property));
+}

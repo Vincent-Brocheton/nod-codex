@@ -10,7 +10,7 @@ export default function useWiki({
 } = {}) {
     const [query, setQuery] = useState("");
 
-    const { manifest, loading } = useManifest();
+    const { manifest, loading, error } = useManifest();
 
     const navigation = useNavigation(section);
 
@@ -36,6 +36,7 @@ export default function useWiki({
     return {
         manifest,
         loading,
+        error,
         collections,
         open,
         navigation,

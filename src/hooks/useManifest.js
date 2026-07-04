@@ -8,12 +8,15 @@ export default function useManifest() {
     });
 
     const [loading, setLoading] = useState(true);
+    const [error, setError] = useState(null);
 
     useEffect(() => {
         async function load() {
             try {
                 const data = await getManifest();
                 setManifest(data);
+            } catch (err) {
+                setError(err);
             } finally {
                 setLoading(false);
             }
@@ -25,5 +28,6 @@ export default function useManifest() {
     return {
         manifest,
         loading,
+        error,
     };
 }

@@ -2,18 +2,14 @@ import "../styles.css";
 import { useEffect, useState } from "react";
 import { Menu } from "lucide-react";
 import Sidebar from "../components/Sidebar";
-import ItemList from "../components/ItemList";
-import DetailPanel from "../components/DetailPanel";
-import RitualsView from "../components/views/RitualsView";
-import MeritsFlawsView from "../components/views/MeritsFlawsView";
-import SectionIndexView from "../components/views/SectionIndexView";
+import WikiContent from "../components/WikiContent";
+import ErrorState from "../components/States/ErrorState";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
-import PageRenderer from "../components/PageRenderer";
 
 function HomePage() {
-    const { section, slug, collectionKey, niveau } = useParams();
+    const { section, slug, collectionKey, groupValue } = useParams();
     const [navOpen, setNavOpen] = useState(false);
 
     const wiki = useWiki({
@@ -23,7 +19,13 @@ function HomePage() {
 
     useEffect(() => {
         setNavOpen(false);
-    }, [section, slug, collectionKey, niveau]);
+    }, [section, slug, collectionKey, groupValue]);
+
+    if (wiki.error) {
+        return (
+            <ErrorState message="Impossible de charger le wiki. Vérifie ta connexion et réessaie." />
+        );
+    }
 
     if (
         !wiki.loading &&
@@ -31,6 +33,7 @@ function HomePage() {
     ) {
         return <NotFoundPage />;
     }
+
     return (
         <main className="wikiShell">
 
@@ -47,45 +50,15 @@ function HomePage() {
 
             <Sidebar wiki={wiki} open={navOpen} onClose={() => setNavOpen(false)} />
 
-            {
-                wiki.navigation.activeNavigation?.type === "collection"
+            <WikiContent
+                wiki={wiki}
+                collectionKey={collectionKey}
+                groupValue={groupValue}
+                slug={slug}
+            />
 
-                    ? (
-                        wiki.navigation.activeNavigation.view === "rituals"
-
-                            ? (
-                                <RitualsView wiki={wiki} collectionKey={collectionKey} niveau={niveau} />
-                            )
-
-                            : wiki.navigation.activeNavigation.view === "merits-flaws"
-
-                                ? (
-                                    <MeritsFlawsView wiki={wiki} collectionKey={collectionKey} groupValue={niveau} />
-                                )
-
-                                : slug
-                                    ? (
-                                        <>
-                                            <ItemList wiki={wiki} />
-                                            <DetailPanel wiki={wiki} />
-                                        </>
-                                    )
-                                    : (
-                                        <div className="pageArea">
-                                            <SectionIndexView wiki={wiki} />
-                                        </div>
-                                    )
-                    )
-
-                    : (
-                        <div className="pageArea">
-                            <PageRenderer wiki={wiki} />
-                        </div>
-                    )
-            }
         </main>
     );
 }
 
 export default HomePage;
-

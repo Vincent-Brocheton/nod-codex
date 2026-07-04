@@ -2,12 +2,12 @@ import GroupedRuleView from "./GroupedRuleView";
 
 const LEVELS = [1, 2, 3, 4, 5];
 
-export default function RitualsView({ wiki, collectionKey, niveau }) {
+export default function RitualsView({ wiki, collectionKey, groupValue }) {
     return (
         <GroupedRuleView
             wiki={wiki}
             collectionKey={collectionKey}
-            groupValue={niveau}
+            groupValue={groupValue}
             propertyName="Niveau"
             groups={LEVELS}
             formatGroupLabel={(value) => `Niveau ${value}`}

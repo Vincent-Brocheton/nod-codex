@@ -1,11 +1,9 @@
 import { Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
-import BlockRenderer from "../BlockRenderer";
-import PropertyValue from "../PropertyValue";
+import ItemDetailBody from "../ItemDetailBody";
 import LoadingState from "../States/LoadingState";
 import PageNotFoundState from "../States/PageNotFoundState";
 import EmptyState from "../States/EmptyState";
-import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
 import { disciplineRefs } from "../../utils/disciplinePowers";
 import collectionNavPath from "../../utils/collectionNavPath";
 
@@ -39,10 +37,6 @@ export default function GenericDetailView({ wiki }) {
         return <EmptyState />;
     }
 
-    const properties = Object.entries(activeItem.properties || {})
-        .map(([name, raw]) => [name, normalizeProperty(raw)])
-        .filter(([, property]) => !isPropertyEmpty(property));
-
     return (
         <article className="detailPane">
 
@@ -56,22 +50,7 @@ export default function GenericDetailView({ wiki }) {
                 <h1>{activeItem.title}</h1>
             </header>
 
-            {properties.length > 0 ? (
-                <dl className="properties">
-                    {properties.map(([name, property]) => (
-                        <div key={name}>
-                            <dt>{name}</dt>
-                            <dd><PropertyValue property={property} /></dd>
-                        </div>
-                    ))}
-                </dl>
-            ) : null}
-
-            <div className="contentBlocks">
-                {(activeItem.content || []).map((block, index) => (
-                    <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                ))}
-            </div>
+            <ItemDetailBody item={activeItem} />
 
         </article>
     );

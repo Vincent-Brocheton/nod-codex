@@ -1,0 +1,35 @@
+import PropertyValue from "./PropertyValue";
+import BlockRenderer from "./BlockRenderer";
+import { getVisibleProperties } from "../utils/property";
+
+/**
+ * Corps d'une fiche : tableau de propriétés (non vides) + blocs de contenu.
+ * Partagé entre les vues qui affichent une fiche unique (GenericDetailView)
+ * et celles qui en empilent plusieurs (GroupedRuleView).
+ */
+export default function ItemDetailBody({ item }) {
+
+    const properties = getVisibleProperties(item);
+
+    return (
+        <>
+            {properties.length > 0 ? (
+                <dl className="properties">
+                    {properties.map(([name, property]) => (
+                        <div key={name}>
+                            <dt>{name}</dt>
+                            <dd><PropertyValue property={property} /></dd>
+                        </div>
+                    ))}
+                </dl>
+            ) : null}
+
+            <div className="contentBlocks">
+                {(item.content || []).map((block, index) => (
+                    <BlockRenderer key={`${block.type}-${index}`} block={block} />
+                ))}
+            </div>
+        </>
+    );
+
+}

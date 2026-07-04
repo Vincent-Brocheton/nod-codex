@@ -25,7 +25,7 @@ export default function Router() {
                 />
 
                 <Route
-                    path="/:section/:collectionKey/:niveau"
+                    path="/:section/:collectionKey/:groupValue"
                     element={<HomePage />}
                 />
 
