@@ -3,7 +3,7 @@
   "label": "Pouvoirs d'Anciens",
   "group": "Disciplines et Pouvoirs",
   "notionDatabaseId": "37d88b48-e48e-80ff-b7ea-e7d248d3ca4b",
-  "generatedAt": "2026-07-04T10:54:45.855Z",
+  "generatedAt": "2026-07-04T11:09:29.964Z",
   "items": [
     {
       "id": "38388b48-e48e-8004-98cd-d78d9b44321d",
@@ -12,14 +12,36 @@
       "notionUrl": "https://app.notion.com/p/Armure-Personnelle-38388b48e48e800498cdd78d9b44321d",
       "lastEditedTime": "2026-06-18T10:55:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Coût en point de sang": 2,
-        "Name": "Armure Personnelle"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Armure Personnelle"
+        }
       },
       "content": [
         {
@@ -55,14 +77,36 @@
       "notionUrl": "https://app.notion.com/p/Assaut-Psychique-38388b48e48e8035a019cc898f387cc0",
       "lastEditedTime": "2026-06-18T10:38:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Assaut Psychique"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Assaut Psychique"
+        }
       },
       "content": [
         {
@@ -98,14 +142,36 @@
       "notionUrl": "https://app.notion.com/p/Clairvoyance-38188b48e48e805bbc5fe96c6c19478d",
       "lastEditedTime": "2026-06-18T10:38:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Clairvoyance"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Clairvoyance"
+        }
       },
       "content": [
         {
@@ -141,14 +207,36 @@
       "notionUrl": "https://app.notion.com/p/D-ni-38388b48e48e80639e67e3237f433b9c",
       "lastEditedTime": "2026-06-29T13:29:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Coût en point de sang": 3,
-        "Name": "Déni"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Déni"
+        }
       },
       "content": [
         {
@@ -184,14 +272,36 @@
       "notionUrl": "https://app.notion.com/p/cart-Agile-38388b48e48e806b9ceccd41f6f24415",
       "lastEditedTime": "2026-06-18T11:12:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Coût en point de sang": 2,
-        "Name": "Écart Agile"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Écart Agile"
+        }
       },
       "content": [
         {
@@ -227,14 +337,36 @@
       "notionUrl": "https://app.notion.com/p/Esprit-R-silient-38388b48e48e80d6bb80ff97437713de",
       "lastEditedTime": "2026-06-18T10:55:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Esprit Résilient"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Esprit Résilient"
+        }
       },
       "content": [
         {
@@ -270,14 +402,36 @@
       "notionUrl": "https://app.notion.com/p/Furie-Pourpre-38188b48e48e8016a3d5ee9f659065a5",
       "lastEditedTime": "2026-06-18T10:37:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Coût en point de sang": 0,
-        "Name": "Furie Pourpre"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Furie Pourpre"
+        }
       },
       "content": [
         {
@@ -313,14 +467,36 @@
       "notionUrl": "https://app.notion.com/p/Intimider-la-B-te-38188b48e48e80e79807fdffde65bee2",
       "lastEditedTime": "2026-06-18T10:37:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Coût en point de sang": 2,
-        "Name": "Intimider la Bête"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Intimider la Bête"
+        }
       },
       "content": [
         {
@@ -356,14 +532,36 @@
       "notionUrl": "https://app.notion.com/p/Lamentation-de-Llorona-38388b48e48e80819ae5f5702f7a3c41",
       "lastEditedTime": "2026-06-29T13:31:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Lamentation de Llorona"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lamentation de Llorona"
+        }
       },
       "content": [
         {
@@ -403,14 +601,36 @@
       "notionUrl": "https://app.notion.com/p/Malaise-Persistant-38388b48e48e801da821d174c0ff2ee9",
       "lastEditedTime": "2026-06-29T13:23:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Coût en point de sang": 0,
-        "Name": "Malaise Persistant"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Malaise Persistant"
+        }
       },
       "content": [
         {
@@ -438,14 +658,36 @@
       "notionUrl": "https://app.notion.com/p/Projectile-38388b48e48e8012a50de6acd910adf1",
       "lastEditedTime": "2026-06-18T11:13:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Projectile"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Projectile"
+        }
       },
       "content": [
         {
@@ -481,14 +723,36 @@
       "notionUrl": "https://app.notion.com/p/R-parer-la-chair-non-morte-38388b48e48e8086a64df347bb0732d5",
       "lastEditedTime": "2026-06-18T10:55:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Coût en point de sang": 2,
-        "Name": "Réparer la chair non-morte"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Réparer la chair non-morte"
+        }
       },
       "content": [
         {
@@ -524,14 +788,36 @@
       "notionUrl": "https://app.notion.com/p/Restructuration-38388b48e48e809dbc14ff4388bfa845",
       "lastEditedTime": "2026-06-29T13:30:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Coût en point de sang": 2,
-        "Name": "Restructuration"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Restructuration"
+        }
       },
       "content": [
         {
@@ -575,14 +861,36 @@
       "notionUrl": "https://app.notion.com/p/Roi-de-la-montagne-38388b48e48e80f7b409f9852e2b7204",
       "lastEditedTime": "2026-06-18T10:55:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Coût en point de sang": 0,
-        "Name": "Roi de la montagne"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Roi de la montagne"
+        }
       },
       "content": [
         {
@@ -618,14 +926,36 @@
       "notionUrl": "https://app.notion.com/p/Vitesse-38388b48e48e8005b7e1f3f05069f663",
       "lastEditedTime": "2026-06-18T11:13:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Coût en point de sang": 0,
-        "Name": "Vitesse"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vitesse"
+        }
       },
       "content": [
         {
@@ -661,14 +991,36 @@
       "notionUrl": "https://app.notion.com/p/Z-phyr-38388b48e48e805ca29ef4a6237e217d",
       "lastEditedTime": "2026-06-18T11:13:00.000Z",
       "properties": {
-        "Niveau": 6,
-        "Jet d'attaque": [],
-        "Jet de défense": [],
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Coût en point de sang": 1,
-        "Name": "Zéphyr"
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Zéphyr"
+        }
       },
       "content": [
         {

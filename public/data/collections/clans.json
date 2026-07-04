@@ -3,7 +3,7 @@
   "label": "Clans",
   "group": "Clans et Lignées",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-04T10:54:47.590Z",
+  "generatedAt": "2026-07-04T11:09:29.964Z",
   "items": [
     {
       "id": "38f88b48-e48e-8083-882e-fe263e4e7ae4",
@@ -12,11 +12,26 @@
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
       "lastEditedTime": "2026-06-30T08:20:00.000Z",
       "properties": {
-        "Handicaps de Clan": [],
-        "Discplines": [],
-        "Atouts de clan": [],
-        "Lignées": [],
-        "Nom": "Assamites"
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Assamites"
+        }
       },
       "content": [
         {
@@ -60,11 +75,26 @@
       "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
       "lastEditedTime": "2026-07-01T19:29:00.000Z",
       "properties": {
-        "Handicaps de Clan": [],
-        "Discplines": [],
-        "Atouts de clan": [],
-        "Lignées": [],
-        "Nom": "Malkavien"
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Malkavien"
+        }
       },
       "content": [
         {
@@ -100,11 +130,26 @@
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
       "lastEditedTime": "2026-07-01T19:29:00.000Z",
       "properties": {
-        "Handicaps de Clan": [],
-        "Discplines": [],
-        "Atouts de clan": [],
-        "Lignées": [],
-        "Nom": "Toréador"
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Toréador"
+        }
       },
       "content": [
         {
@@ -140,11 +185,26 @@
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
       "lastEditedTime": "2026-07-01T19:29:00.000Z",
       "properties": {
-        "Handicaps de Clan": [],
-        "Discplines": [],
-        "Atouts de clan": [],
-        "Lignées": [],
-        "Nom": "Ventrue"
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": []
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ventrue"
+        }
       },
       "content": [
         {

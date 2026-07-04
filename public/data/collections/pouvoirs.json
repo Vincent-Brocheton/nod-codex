@@ -3,7 +3,7 @@
   "label": "Pouvoirs",
   "group": "Disciplines et Pouvoirs",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-04T10:54:41.084Z",
+  "generatedAt": "2026-07-04T11:09:29.962Z",
   "items": [
     {
       "id": "38388b48-e48e-8075-95b7-cc969a88e139",
@@ -12,15 +12,40 @@
       "notionUrl": "https://app.notion.com/p/Affreuse-R-alit-38388b48e48e807595b7cc969a88e139",
       "lastEditedTime": "2026-06-18T11:19:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-8064-a85d-e47e38304c23"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Affreuse Réalité"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Affreuse Réalité"
+        }
       },
       "content": [
         {
@@ -56,15 +81,40 @@
       "notionUrl": "https://app.notion.com/p/Alcarit-38388b48e48e80a7949fdd4043b12fa9",
       "lastEditedTime": "2026-06-18T11:11:00.000Z",
       "properties": {
-        "Focus": "Dexterité",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Alcarité"
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Alcarité"
+        }
       },
       "content": [
         {
@@ -100,15 +150,40 @@
       "notionUrl": "https://app.notion.com/p/Apparition-38388b48e48e80e0a772fe239deb3326",
       "lastEditedTime": "2026-06-18T11:19:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-8064-a85d-e47e38304c23"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Apparition"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Apparition"
+        }
       },
       "content": [
         {
@@ -144,15 +219,40 @@
       "notionUrl": "https://app.notion.com/p/Appel-38388b48e48e80db8c80f1bdb168c9b6",
       "lastEditedTime": "2026-06-29T13:44:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "Action Standard",
-        "Durée": "Instantanée",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Appel"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Appel"
+        }
       },
       "content": [
         {
@@ -224,15 +324,40 @@
       "notionUrl": "https://app.notion.com/p/Ardeur-38388b48e48e8077b7a6c20914cf6640",
       "lastEditedTime": "2026-06-18T11:10:00.000Z",
       "properties": {
-        "Focus": "Vigueur",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Ardeur"
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ardeur"
+        }
       },
       "content": [
         {
@@ -268,15 +393,40 @@
       "notionUrl": "https://app.notion.com/p/Condamnation-38e88b48e48e80d29be2f18d33b2e334",
       "lastEditedTime": "2026-06-29T13:04:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-8019-b2ab-f5fc37ae8ec7"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Condamnation"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Condamnation"
+        }
       },
       "content": [
         {
@@ -332,15 +482,40 @@
       "notionUrl": "https://app.notion.com/p/Conflagration-38e88b48e48e8068b718f8d916bc0f1f",
       "lastEditedTime": "2026-06-29T13:02:00.000Z",
       "properties": {
-        "Focus": "Intelligence",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-8019-b2ab-f5fc37ae8ec7"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Conflagration"
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Conflagration"
+        }
       },
       "content": [
         {
@@ -392,15 +567,40 @@
       "notionUrl": "https://app.notion.com/p/D-mence-Absolue-38388b48e48e80008c3ed14ab91ba175",
       "lastEditedTime": "2026-06-29T13:21:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "Action Standard",
-        "Durée": "1 heure",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Démence Absolue"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Démence Absolue"
+        }
       },
       "content": [
         {
@@ -456,15 +656,40 @@
       "notionUrl": "https://app.notion.com/p/Dompter-la-B-te-38388b48e48e8004912cf68572ec421b",
       "lastEditedTime": "2026-06-29T13:45:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "Action Standard",
-        "Durée": "1 heure",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Dompter la Bête"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Dompter la Bête"
+        }
       },
       "content": [
         {
@@ -508,15 +733,40 @@
       "notionUrl": "https://app.notion.com/p/gide-38388b48e48e80e3ba75c9bfd3979db4",
       "lastEditedTime": "2026-06-18T11:10:00.000Z",
       "properties": {
-        "Focus": "Vigueur",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Égide"
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Égide"
+        }
       },
       "content": [
         {
@@ -552,15 +802,40 @@
       "notionUrl": "https://app.notion.com/p/Endurance-38388b48e48e8090a135c038cf41a9a5",
       "lastEditedTime": "2026-06-18T11:10:00.000Z",
       "properties": {
-        "Focus": "Vigueur",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Endurance"
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Endurance"
+        }
       },
       "content": [
         {
@@ -596,15 +871,40 @@
       "notionUrl": "https://app.notion.com/p/Fluidit-38388b48e48e80a5be7fcae1fc338546",
       "lastEditedTime": "2026-06-18T11:12:00.000Z",
       "properties": {
-        "Focus": "Dexterité",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Fluidité"
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fluidité"
+        }
       },
       "content": [
         {
@@ -640,15 +940,40 @@
       "notionUrl": "https://app.notion.com/p/Hantise-Psychique-38388b48e48e80bb860fe376a9da8d9f",
       "lastEditedTime": "2026-06-29T13:16:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "Action Standard",
-        "Durée": "1 heure",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Hantise Psychique"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Hantise Psychique"
+        }
       },
       "content": [
         {
@@ -684,15 +1009,40 @@
       "notionUrl": "https://app.notion.com/p/Ignus-Fatuus-38388b48e48e80768b0ef2669fa44e49",
       "lastEditedTime": "2026-06-18T11:18:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-8064-a85d-e47e38304c23"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Ignus Fatuus"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ignus Fatuus"
+        }
       },
       "content": [
         {
@@ -728,15 +1078,40 @@
       "notionUrl": "https://app.notion.com/p/L-cher-la-B-te-38388b48e48e80b19da4c9217dffccfd",
       "lastEditedTime": "2026-06-29T14:34:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "Action Simple",
-        "Durée": "Instantanée",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Lâcher la Bête"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lâcher la Bête"
+        }
       },
       "content": [
         {
@@ -772,15 +1147,40 @@
       "notionUrl": "https://app.notion.com/p/Lecture-d-me-38288b48e48e8058b449ce10ff71467a",
       "lastEditedTime": "2026-06-17T11:46:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Lecture d’Âme"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lecture d’Âme"
+        }
       },
       "content": [
         {
@@ -816,15 +1216,40 @@
       "notionUrl": "https://app.notion.com/p/L-g-ret-38388b48e48e808a9ba5e5f7e7d82b3a",
       "lastEditedTime": "2026-06-18T11:11:00.000Z",
       "properties": {
-        "Focus": "Dexterité",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Légéreté"
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Légéreté"
+        }
       },
       "content": [
         {
@@ -860,15 +1285,40 @@
       "notionUrl": "https://app.notion.com/p/Mirage-38388b48e48e80b88393f88a307a0306",
       "lastEditedTime": "2026-06-18T11:19:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-8064-a85d-e47e38304c23"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Mirage"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Mirage"
+        }
       },
       "content": [
         {
@@ -904,15 +1354,40 @@
       "notionUrl": "https://app.notion.com/p/Murmures-Sauvages-38388b48e48e80b7b6d2f97a0f4b69ac",
       "lastEditedTime": "2026-06-29T13:43:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "Passif",
-        "Durée": "Infini",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Murmures Sauvages"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Murmures Sauvages"
+        }
       },
       "content": [
         {
@@ -948,15 +1423,40 @@
       "notionUrl": "https://app.notion.com/p/Passion-38388b48e48e80a68710ed578571fec6",
       "lastEditedTime": "2026-06-29T13:09:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "Action Standard",
-        "Durée": "1 heure",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Passion"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Passion"
+        }
       },
       "content": [
         {
@@ -1008,15 +1508,40 @@
       "notionUrl": "https://app.notion.com/p/Permanence-38388b48e48e80e4919ee0e94e69282e",
       "lastEditedTime": "2026-06-18T11:19:00.000Z",
       "properties": {
-        "Focus": "Charisme",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-8064-a85d-e47e38304c23"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Permanence"
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Permanence"
+        }
       },
       "content": [
         {
@@ -1052,15 +1577,40 @@
       "notionUrl": "https://app.notion.com/p/Peur-du-Vide-abyssale-38e88b48e48e8017a370c68cdbd1278b",
       "lastEditedTime": "2026-06-29T13:01:00.000Z",
       "properties": {
-        "Focus": "Intelligence",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-8019-b2ab-f5fc37ae8ec7"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Peur du Vide abyssale"
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Peur du Vide abyssale"
+        }
       },
       "content": [
         {
@@ -1116,15 +1666,40 @@
       "notionUrl": "https://app.notion.com/p/Projection-Astrale-38388b48e48e80f3936dc819d41da364",
       "lastEditedTime": "2026-06-18T10:30:00.000Z",
       "properties": {
-        "Focus": "Astuce",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 5,
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Projection Astrale"
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Projection Astrale"
+        }
       },
       "content": [
         {
@@ -1160,15 +1735,40 @@
       "notionUrl": "https://app.notion.com/p/Psychomachie-38e88b48e48e80d69959e899f351c1a5",
       "lastEditedTime": "2026-06-29T13:03:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-8019-b2ab-f5fc37ae8ec7"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Psychomachie"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Psychomachie"
+        }
       },
       "content": [
         {
@@ -1224,15 +1824,40 @@
       "notionUrl": "https://app.notion.com/p/Psychom-trie-38288b48e48e80a2908ed9c7d617b120",
       "lastEditedTime": "2026-06-17T11:47:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Psychométrie"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Psychométrie"
+        }
       },
       "content": [
         {
@@ -1268,15 +1893,40 @@
       "notionUrl": "https://app.notion.com/p/Rapidit-38388b48e48e80678b20d1184d624e5b",
       "lastEditedTime": "2026-06-18T11:11:00.000Z",
       "properties": {
-        "Focus": "Dexterité",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Rapidité"
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Rapidité"
+        }
       },
       "content": [
         {
@@ -1312,15 +1962,40 @@
       "notionUrl": "https://app.notion.com/p/R-silience-38388b48e48e806bb312fdd2a9dae379",
       "lastEditedTime": "2026-06-18T11:10:00.000Z",
       "properties": {
-        "Focus": "Vigueur",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Résilience"
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Résilience"
+        }
       },
       "content": [
         {
@@ -1356,15 +2031,40 @@
       "notionUrl": "https://app.notion.com/p/R-sistance-38388b48e48e80d0b834f57cab915db0",
       "lastEditedTime": "2026-06-18T11:10:00.000Z",
       "properties": {
-        "Focus": "Vigueur",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-8043-bf96-ffdd08a3e4db"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Résistance"
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Résistance"
+        }
       },
       "content": [
         {
@@ -1400,15 +2100,40 @@
       "notionUrl": "https://app.notion.com/p/Sens-Aiguis-s-38188b48e48e8050a93af1ae84bbe587",
       "lastEditedTime": "2026-06-17T11:46:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Sens Aiguisés"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sens Aiguisés"
+        }
       },
       "content": [
         {
@@ -1444,15 +2169,40 @@
       "notionUrl": "https://app.notion.com/p/Sentir-le-P-ch-38388b48e48e805984f3e064f82ef1e2",
       "lastEditedTime": "2026-06-29T12:37:00.000Z",
       "properties": {
-        "Focus": "Perception",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 1,
-        "Discipline": [
-          "38188b48-e48e-8019-b2ab-f5fc37ae8ec7"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Sentir le Péché"
+        "Focus": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sentir le Péché"
+        }
       },
       "content": [
         {
@@ -1496,15 +2246,40 @@
       "notionUrl": "https://app.notion.com/p/Soumission-de-l-Esprit-38388b48e48e8033b78dcce867d32eb2",
       "lastEditedTime": "2026-06-29T14:33:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "Action Standard",
-        "Durée": "Jusqu'a Distance ou Dégats",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-80be-9d6f-d753cb568367"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Soumission de l’Esprit"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a Distance ou Dégats"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Soumission de l’Esprit"
+        }
       },
       "content": [
         {
@@ -1540,15 +2315,40 @@
       "notionUrl": "https://app.notion.com/p/T-l-pathie-38288b48e48e80bca820c30376e8846c",
       "lastEditedTime": "2026-06-18T10:30:00.000Z",
       "properties": {
-        "Focus": "Astuce",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-800b-8e45-cb4052605c7f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Télépathie"
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Télépathie"
+        }
       },
       "content": [
         {
@@ -1584,15 +2384,40 @@
       "notionUrl": "https://app.notion.com/p/Vision-du-Chaos-38388b48e48e80ab947cc1e9ede38d7f",
       "lastEditedTime": "2026-06-29T13:18:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "Passif",
-        "Durée": "Infini",
-        "Niveau": 3,
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Couts en points de sang": 0,
-        "Name": "Vision du Chaos"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vision du Chaos"
+        }
       },
       "content": [
         {
@@ -1628,15 +2453,40 @@
       "notionUrl": "https://app.notion.com/p/Vivacit-38388b48e48e802aa883db069b1afd72",
       "lastEditedTime": "2026-06-18T11:11:00.000Z",
       "properties": {
-        "Focus": "Dexterité",
-        "Type d'action": "",
-        "Durée": "",
-        "Niveau": 2,
-        "Discipline": [
-          "38188b48-e48e-80d4-8a18-e777f4cfe98f"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Vivacité"
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vivacité"
+        }
       },
       "content": [
         {
@@ -1672,15 +2522,40 @@
       "notionUrl": "https://app.notion.com/p/Voix-de-la-folie-38388b48e48e80feba39d218b577cdec",
       "lastEditedTime": "2026-06-29T13:19:00.000Z",
       "properties": {
-        "Focus": "Manipulation",
-        "Type d'action": "Action Standard",
-        "Durée": "Jusqu'a la fin de la nuit",
-        "Niveau": 4,
-        "Discipline": [
-          "38188b48-e48e-80dd-8229-db7e59244ad1"
-        ],
-        "Couts en points de sang": 1,
-        "Name": "Voix de la folie"
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a la fin de la nuit"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation"
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voix de la folie"
+        }
       },
       "content": [
         {

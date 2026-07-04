@@ -4,8 +4,7 @@ import AppIcon from "./AppIcon";
 
 export default function Sidebar({ wiki }) {
 
-  const { collections, search } = wiki;
-  const { state } = collections;
+  const { search } = wiki;
   const { query, setQuery } = search;
   const { activeNavigation } = wiki.navigation;
 
@@ -33,41 +32,51 @@ export default function Sidebar({ wiki }) {
 
       <nav className="collectionNav">
 
-        {navigation.map((section) => (
+        {navigation.map((section) => {
 
-          <section
-            key={section.id}
-            className="navigationSection"
-          >
+          const visibleChildren = section.children.filter(
+            (item) => !item.hidden
+          );
 
-            <h2>{section.label}</h2>
+          if (!visibleChildren.length) return null;
 
-            {section.children.map((item) => (
+          return (
 
-              <button
-                key={item.id}
-                className={
-                  item.id === activeNavigation?.id
-                    ? "active"
-                    : ""
-                }
-                onClick={() => wiki.open(item)}
-              >
+            <section
+              key={section.id}
+              className="navigationSection"
+            >
 
-                <AppIcon
-                  name={item.icon}
-                  size={16}
-                />
+              <h2>{section.label}</h2>
 
-                <span>{item.label}</span>
+              {visibleChildren.map((item) => (
 
-              </button>
+                <button
+                  key={item.id}
+                  className={
+                    item.id === activeNavigation?.id
+                      ? "active"
+                      : ""
+                  }
+                  onClick={() => wiki.open(item)}
+                >
 
-            ))}
+                  <AppIcon
+                    name={item.icon}
+                    size={16}
+                  />
 
-          </section>
+                  <span>{item.label}</span>
 
-        ))}
+                </button>
+
+              ))}
+
+            </section>
+
+          );
+
+        })}
 
       </nav>
 

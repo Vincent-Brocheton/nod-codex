@@ -3,7 +3,7 @@
   "label": "Compétences",
   "group": "Attributs et Compétences",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-07-04T10:55:00.100Z",
+  "generatedAt": "2026-07-04T11:09:29.970Z",
   "items": [
     {
       "id": "38288b48-e48e-80f5-bdcb-f000a0503cc0",
@@ -12,7 +12,10 @@
       "notionUrl": "https://app.notion.com/p/Animaux-38288b48e48e80f5bdcbf000a0503cc0",
       "lastEditedTime": "2026-06-17T10:44:00.000Z",
       "properties": {
-        "Nom": "Animaux"
+        "Nom": {
+          "type": "text",
+          "value": "Animaux"
+        }
       },
       "content": [
         {
@@ -32,7 +35,10 @@
       "notionUrl": "https://app.notion.com/p/Arme-feu-38288b48e48e80a2bca3d75dfe4df4c5",
       "lastEditedTime": "2026-06-17T10:44:00.000Z",
       "properties": {
-        "Nom": "Arme à feu"
+        "Nom": {
+          "type": "text",
+          "value": "Arme à feu"
+        }
       },
       "content": [
         {
@@ -52,7 +58,10 @@
       "notionUrl": "https://app.notion.com/p/Artisanat-38288b48e48e806ab639e5d746157dbc",
       "lastEditedTime": "2026-06-17T10:45:00.000Z",
       "properties": {
-        "Nom": "Artisanat"
+        "Nom": {
+          "type": "text",
+          "value": "Artisanat"
+        }
       },
       "content": [
         {
@@ -72,7 +81,10 @@
       "notionUrl": "https://app.notion.com/p/Athlethisme-38288b48e48e80dab742f0a41524d837",
       "lastEditedTime": "2026-06-17T10:45:00.000Z",
       "properties": {
-        "Nom": "Athlethisme"
+        "Nom": {
+          "type": "text",
+          "value": "Athlethisme"
+        }
       },
       "content": [
         {
@@ -92,7 +104,10 @@
       "notionUrl": "https://app.notion.com/p/Bagarre-38288b48e48e80d48477de1827d947b0",
       "lastEditedTime": "2026-06-17T10:45:00.000Z",
       "properties": {
-        "Nom": "Bagarre"
+        "Nom": {
+          "type": "text",
+          "value": "Bagarre"
+        }
       },
       "content": [
         {
@@ -112,7 +127,10 @@
       "notionUrl": "https://app.notion.com/p/Commandement-38288b48e48e8052a367edff40b22126",
       "lastEditedTime": "2026-06-17T10:45:00.000Z",
       "properties": {
-        "Nom": "Commandement"
+        "Nom": {
+          "type": "text",
+          "value": "Commandement"
+        }
       },
       "content": [
         {
@@ -132,7 +150,10 @@
       "notionUrl": "https://app.notion.com/p/Conduite-38288b48e48e804fb160d205110dd76c",
       "lastEditedTime": "2026-06-17T10:48:00.000Z",
       "properties": {
-        "Nom": "Conduite"
+        "Nom": {
+          "type": "text",
+          "value": "Conduite"
+        }
       },
       "content": [
         {
@@ -152,7 +173,10 @@
       "notionUrl": "https://app.notion.com/p/Discr-tion-Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
       "lastEditedTime": "2026-06-17T10:50:00.000Z",
       "properties": {
-        "Nom": "Discrétion/Furtivité"
+        "Nom": {
+          "type": "text",
+          "value": "Discrétion/Furtivité"
+        }
       },
       "content": [
         {
@@ -172,7 +196,10 @@
       "notionUrl": "https://app.notion.com/p/Empathie-38288b48e48e806da4d0e2f2a6ebbfeb",
       "lastEditedTime": "2026-06-17T10:50:00.000Z",
       "properties": {
-        "Nom": "Empathie"
+        "Nom": {
+          "type": "text",
+          "value": "Empathie"
+        }
       },
       "content": [
         {
@@ -192,7 +219,10 @@
       "notionUrl": "https://app.notion.com/p/rudition-38288b48e48e80fc9394caf6cbb1b285",
       "lastEditedTime": "2026-06-17T10:50:00.000Z",
       "properties": {
-        "Nom": "Érudition"
+        "Nom": {
+          "type": "text",
+          "value": "Érudition"
+        }
       },
       "content": [
         {
@@ -212,7 +242,10 @@
       "notionUrl": "https://app.notion.com/p/Esquive-38288b48e48e80978a02e17fae496ff2",
       "lastEditedTime": "2026-06-17T11:00:00.000Z",
       "properties": {
-        "Nom": "Esquive"
+        "Nom": {
+          "type": "text",
+          "value": "Esquive"
+        }
       },
       "content": [
         {
@@ -232,7 +265,10 @@
       "notionUrl": "https://app.notion.com/p/Exp-rience-de-la-rue-38288b48e48e80c7aab4cd76bcce0559",
       "lastEditedTime": "2026-06-17T11:00:00.000Z",
       "properties": {
-        "Nom": "Expérience de la rue"
+        "Nom": {
+          "type": "text",
+          "value": "Expérience de la rue"
+        }
       },
       "content": [
         {
@@ -252,7 +288,10 @@
       "notionUrl": "https://app.notion.com/p/Informatique-38288b48e48e80a58ff3fb3c5d0430e5",
       "lastEditedTime": "2026-06-17T11:00:00.000Z",
       "properties": {
-        "Nom": "Informatique"
+        "Nom": {
+          "type": "text",
+          "value": "Informatique"
+        }
       },
       "content": [
         {
@@ -272,7 +311,10 @@
       "notionUrl": "https://app.notion.com/p/Larcin-38288b48e48e80b491c8f4e3f5041a20",
       "lastEditedTime": "2026-06-17T11:02:00.000Z",
       "properties": {
-        "Nom": "Larcin"
+        "Nom": {
+          "type": "text",
+          "value": "Larcin"
+        }
       },
       "content": [
         {
@@ -292,7 +334,10 @@
       "notionUrl": "https://app.notion.com/p/Linguistique-38288b48e48e80d88a29ed936b85e70f",
       "lastEditedTime": "2026-06-17T11:02:00.000Z",
       "properties": {
-        "Nom": "Linguistique"
+        "Nom": {
+          "type": "text",
+          "value": "Linguistique"
+        }
       },
       "content": [
         {
@@ -312,7 +357,10 @@
       "notionUrl": "https://app.notion.com/p/M-decine-38288b48e48e80c59b45e5e3ea0c7ecc",
       "lastEditedTime": "2026-06-17T11:02:00.000Z",
       "properties": {
-        "Nom": "Médecine"
+        "Nom": {
+          "type": "text",
+          "value": "Médecine"
+        }
       },
       "content": [
         {
@@ -332,7 +380,10 @@
       "notionUrl": "https://app.notion.com/p/M-l-e-38288b48e48e80158344db584fe23a49",
       "lastEditedTime": "2026-06-17T11:02:00.000Z",
       "properties": {
-        "Nom": "Mélée"
+        "Nom": {
+          "type": "text",
+          "value": "Mélée"
+        }
       },
       "content": [
         {
@@ -352,7 +403,10 @@
       "notionUrl": "https://app.notion.com/p/Myst-re-38288b48e48e8095a1fce6f54f4f1b7c",
       "lastEditedTime": "2026-06-17T11:02:00.000Z",
       "properties": {
-        "Nom": "Mystère"
+        "Nom": {
+          "type": "text",
+          "value": "Mystère"
+        }
       },
       "content": [
         {
@@ -372,7 +426,10 @@
       "notionUrl": "https://app.notion.com/p/Occultisme-38288b48e48e80768716c892c55e1679",
       "lastEditedTime": "2026-06-17T11:03:00.000Z",
       "properties": {
-        "Nom": "Occultisme"
+        "Nom": {
+          "type": "text",
+          "value": "Occultisme"
+        }
       },
       "content": [
         {
@@ -392,7 +449,10 @@
       "notionUrl": "https://app.notion.com/p/Repr-sentation-38288b48e48e8027a003d0833c92301e",
       "lastEditedTime": "2026-06-17T11:03:00.000Z",
       "properties": {
-        "Nom": "Représentation"
+        "Nom": {
+          "type": "text",
+          "value": "Représentation"
+        }
       },
       "content": [
         {
@@ -412,7 +472,10 @@
       "notionUrl": "https://app.notion.com/p/Sciences-38288b48e48e80afbc5edec6f5d16dc0",
       "lastEditedTime": "2026-06-17T11:03:00.000Z",
       "properties": {
-        "Nom": "Sciences"
+        "Nom": {
+          "type": "text",
+          "value": "Sciences"
+        }
       },
       "content": [
         {
@@ -432,7 +495,10 @@
       "notionUrl": "https://app.notion.com/p/Subterfuge-38288b48e48e8028ae16d9f8e3641512",
       "lastEditedTime": "2026-06-17T11:04:00.000Z",
       "properties": {
-        "Nom": "Subterfuge"
+        "Nom": {
+          "type": "text",
+          "value": "Subterfuge"
+        }
       },
       "content": [
         {
@@ -452,7 +518,10 @@
       "notionUrl": "https://app.notion.com/p/Survie-38288b48e48e804f8696f858a277484f",
       "lastEditedTime": "2026-06-17T11:04:00.000Z",
       "properties": {
-        "Nom": "Survie"
+        "Nom": {
+          "type": "text",
+          "value": "Survie"
+        }
       },
       "content": [
         {
@@ -472,7 +541,10 @@
       "notionUrl": "https://app.notion.com/p/Vigilance-38288b48e48e807aaa5dd9b861343244",
       "lastEditedTime": "2026-06-17T11:04:00.000Z",
       "properties": {
-        "Nom": "Vigilance"
+        "Nom": {
+          "type": "text",
+          "value": "Vigilance"
+        }
       },
       "content": [
         {

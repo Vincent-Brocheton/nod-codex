@@ -55,6 +55,22 @@ export const navigation = [
             },
 
             {
+                id: "pouvoirs",
+                type: "collection",
+                label: "Pouvoirs",
+                path: "/pouvoirs",
+                icon: "sparkles",
+
+                view: "discipline-powers",
+                hidden: true,
+
+                collections: [
+                    COLLECTIONS.POUVOIRS,
+                    COLLECTIONS.POUVOIRS_ANCIENS,
+                ],
+            },
+
+            {
                 id: "techniques",
                 type: "collection",
                 label: "Techniques",

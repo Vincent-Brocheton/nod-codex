@@ -130,11 +130,12 @@ export default function useCollections(manifest, activeNavigation, route, query)
      */
     const activeCollections = activeCollectionKeys
         .map(key => loadedCollections[key])
-        .filter(Boolean)
-        .map((collection, index) => ({
-            ...collection,
-            key: activeCollectionKeys[index],
-        }));
+        .filter(Boolean);
+
+    // Le manifeste n'est pas encore arrivé (collections pas encore résolues),
+    // ou il l'est mais les collections actives n'ont pas encore été chargées.
+    const loading = !manifest.collections.length ||
+        (activeCollectionKeys.length > 0 && activeCollectionKeys.some(key => !loadedCollections[key]));
 
     const activeCollection = activeCollections[0] ?? null;
 
@@ -169,7 +170,7 @@ export default function useCollections(manifest, activeNavigation, route, query)
     }
 
     const pageNotFound =
-        Boolean(route.slug) && !activeItem;
+        Boolean(route.slug) && !activeItem && !loading;
     const actions = {
         selectCollections,
     };
@@ -183,6 +184,7 @@ export default function useCollections(manifest, activeNavigation, route, query)
         groupedCollections,
         visibleItems,
         pageNotFound,
+        loading,
     };
 
     return {

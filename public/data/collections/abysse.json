@@ -3,7 +3,7 @@
   "label": "Abysse",
   "group": "Rituels",
   "notionDatabaseId": "39088b48-e48e-808a-a841-e67a5a56ec56",
-  "generatedAt": "2026-07-04T10:54:51.028Z",
+  "generatedAt": "2026-07-04T11:09:29.968Z",
   "items": [
     {
       "id": "39188b48-e48e-80b7-871d-ee12f9f6bd29",
@@ -12,10 +12,22 @@
       "notionUrl": "https://app.notion.com/p/Abysse-39188b48e48e80b7871dee12f9f6bd29",
       "lastEditedTime": "2026-07-02T12:34:00.000Z",
       "properties": {
-        "Niveau": "1",
-        "Couts en point de sang": null,
-        "Temps de préparation": "",
-        "Name": "Abysse"
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Couts en point de sang": {
+          "type": "number",
+          "value": null
+        },
+        "Temps de préparation": {
+          "type": "text",
+          "value": ""
+        },
+        "Name": {
+          "type": "text",
+          "value": "Abysse"
+        }
       },
       "content": [
         {

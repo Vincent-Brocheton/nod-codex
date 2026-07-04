@@ -3,7 +3,7 @@
   "label": "Attributs",
   "group": "Attributs et Compétences",
   "notionDatabaseId": "38188b48-e48e-8055-9c50-ce87cf7642a3",
-  "generatedAt": "2026-07-04T10:54:53.309Z",
+  "generatedAt": "2026-07-04T11:09:29.969Z",
   "items": [
     {
       "id": "38188b48-e48e-8019-9e06-e16a9b966f28",
@@ -12,7 +12,10 @@
       "notionUrl": "https://app.notion.com/p/Mental-38188b48e48e80199e06e16a9b966f28",
       "lastEditedTime": "2026-06-17T10:41:00.000Z",
       "properties": {
-        "Name": "Mental"
+        "Name": {
+          "type": "text",
+          "value": "Mental"
+        }
       },
       "content": [
         {
@@ -84,7 +87,10 @@
       "notionUrl": "https://app.notion.com/p/Physique-38188b48e48e80a9a896c28b0ea8e401",
       "lastEditedTime": "2026-06-17T10:41:00.000Z",
       "properties": {
-        "Name": "Physique"
+        "Name": {
+          "type": "text",
+          "value": "Physique"
+        }
       },
       "content": [
         {
@@ -156,7 +162,10 @@
       "notionUrl": "https://app.notion.com/p/Social-38188b48e48e80dfa01be5c5054378d3",
       "lastEditedTime": "2026-06-17T10:41:00.000Z",
       "properties": {
-        "Name": "Social"
+        "Name": {
+          "type": "text",
+          "value": "Social"
+        }
       },
       "content": [
         {

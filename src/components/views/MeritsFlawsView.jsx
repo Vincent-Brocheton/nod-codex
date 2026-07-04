@@ -1,5 +1,6 @@
 import { FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import LoadingState from "../States/LoadingState";
 
 export default function MeritsFlawsView({ wiki }) {
 
@@ -19,33 +20,37 @@ export default function MeritsFlawsView({ wiki }) {
             <header>
                 <span>Règles</span>
                 <h1>{activeNavigation.label}</h1>
-                <p>{total} fiche(s)</p>
+                <p>{computed.loading ? "…" : `${total} fiche(s)`}</p>
             </header>
 
-            <div className="itemList">
-                {collections.map(collection => (
-                    <div key={collection.key} className="itemGroup">
+            {computed.loading ? (
+                <LoadingState message="Chargement des fiches..." />
+            ) : (
+                <div className="itemList">
+                    {collections.map(collection => (
+                        <div key={collection.key} className="itemGroup">
 
-                        <h2>{collection.label}</h2>
+                            <h2>{collection.label}</h2>
 
-                        {collection.items.map(item => (
-                            <button
-                                key={item.id}
-                                className={item.id === computed.activeItem?.id ? "selected" : ""}
-                                onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
-                            >
-                                <FileText aria-hidden="true" size={17} />
-                                <span>{item.title}</span>
-                            </button>
-                        ))}
+                            {collection.items.map(item => (
+                                <button
+                                    key={item.id}
+                                    className={item.id === computed.activeItem?.id ? "selected" : ""}
+                                    onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
+                                >
+                                    <FileText aria-hidden="true" size={17} />
+                                    <span>{item.title}</span>
+                                </button>
+                            ))}
 
-                        {collection.items.length === 0 ? (
-                            <p className="empty">Aucune fiche dans cette base pour le moment.</p>
-                        ) : null}
+                            {collection.items.length === 0 ? (
+                                <p className="empty">Aucune fiche dans cette base pour le moment.</p>
+                            ) : null}
 
-                    </div>
-                ))}
-            </div>
+                        </div>
+                    ))}
+                </div>
+            )}
 
         </section>
     );

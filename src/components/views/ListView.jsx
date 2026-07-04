@@ -1,5 +1,6 @@
 import { FileText } from "lucide-react";
 import { useNavigate } from "react-router-dom";
+import LoadingState from "../States/LoadingState";
 
 function ItemList({
     wiki,
@@ -7,31 +8,35 @@ function ItemList({
     const navigate = useNavigate();
     const {collections, navigation} = wiki;
     const {computed} = collections;
-    const { activeCollections, visibleItems } = computed;
+    const { activeCollections, visibleItems, loading } = computed;
     const activeCollection = activeCollections[0];
     const { activeNavigation } = navigation;
     return (<section className="listPane">
         <header>
             <span>{activeCollection?.group || "Chargement"}</span>
             <h1>{activeCollection?.label || "Base"}</h1>
-            <p>{visibleItems.length} fiche(s)</p>
+            <p>{loading ? "…" : `${visibleItems.length} fiche(s)`}</p>
         </header>
 
-        <div className="itemList">
-            {visibleItems.map((item) => (
-                <button
-                    key={item.id}
-                    className={item.id === computed.activeItem?.id ? "selected" : ""}
-                    onClick={() =>
-                        navigate(`${activeNavigation.path}/${item.slug}`)
-                    }
-                >
-                    <FileText aria-hidden="true" size={17} />
-                    <span>{item.title}</span>
-                </button>
-            ))}
-            {visibleItems.length === 0 ? <p className="empty">Aucune fiche dans cette base pour le moment.</p> : null}
-        </div>
+        {loading ? (
+            <LoadingState message="Chargement des fiches..." />
+        ) : (
+            <div className="itemList">
+                {visibleItems.map((item) => (
+                    <button
+                        key={item.id}
+                        className={item.id === computed.activeItem?.id ? "selected" : ""}
+                        onClick={() =>
+                            navigate(`${activeNavigation.path}/${item.slug}`)
+                        }
+                    >
+                        <FileText aria-hidden="true" size={17} />
+                        <span>{item.title}</span>
+                    </button>
+                ))}
+                {visibleItems.length === 0 ? <p className="empty">Aucune fiche dans cette base pour le moment.</p> : null}
+            </div>
+        )}
     </section>);
 }
 

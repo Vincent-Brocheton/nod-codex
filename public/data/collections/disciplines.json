@@ -3,7 +3,7 @@
   "label": "Disciplines",
   "group": "Disciplines et Pouvoirs",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-04T10:54:30.344Z",
+  "generatedAt": "2026-07-04T11:09:29.958Z",
   "items": [
     {
       "id": "38188b48-e48e-80dd-8229-db7e59244ad1",
@@ -12,34 +12,103 @@
       "notionUrl": "https://app.notion.com/p/Ali-nation-38188b48e48e80dd8229db7e59244ad1",
       "lastEditedTime": "2026-06-17T11:23:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": true,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-80a6-8710-ed578571fec6",
-          "38388b48-e48e-80bb-860f-e376a9da8d9f",
-          "38388b48-e48e-80ab-947c-c1e9ede38d7f",
-          "38388b48-e48e-80fe-ba39-d218b577cdec",
-          "38388b48-e48e-8000-8c3e-d14ab91ba175"
-        ],
-        "Jet d'attaque": [
-          "Social",
-          "Empathie"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [
-          "38388b48-e48e-801d-a821-d174c0ff2ee9",
-          "38388b48-e48e-8063-9e67-e3237f433b9c",
-          "38388b48-e48e-809d-bc14-ff4388bfa845",
-          "38388b48-e48e-8081-9ae5-f5702f7a3c41"
-        ],
-        "Lignées": [],
-        "Nom": "Aliénation"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "passion",
+              "title": "Passion"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "hantise-psychique",
+              "title": "Hantise Psychique"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vision-du-chaos",
+              "title": "Vision du Chaos"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "voix-de-la-folie",
+              "title": "Voix de la folie"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "demence-absolue",
+              "title": "Démence Absolue"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Empathie"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "malaise-persistant",
+              "title": "Malaise Persistant"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "deni",
+              "title": "Déni"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "restructuration",
+              "title": "Restructuration"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "lamentation-de-llorona",
+              "title": "Lamentation de Llorona"
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Aliénation"
+        }
       },
       "content": [
         {
@@ -71,32 +140,93 @@
       "notionUrl": "https://app.notion.com/p/Animalisme-38188b48e48e80be9d6fd753cb568367",
       "lastEditedTime": "2026-06-17T11:23:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": true,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-80b7-b6d2-f97a0f4b69ac",
-          "38388b48-e48e-80db-8c80-f1bdb168c9b6",
-          "38388b48-e48e-8004-912c-f68572ec421b",
-          "38388b48-e48e-8033-b78d-cce867d32eb2",
-          "38388b48-e48e-80b1-9da4-c9217dffccfd"
-        ],
-        "Jet d'attaque": [
-          "Social",
-          "Animaux"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [
-          "38188b48-e48e-80e7-9807-fdffde65bee2",
-          "38188b48-e48e-8016-a3d5-ee9f659065a5"
-        ],
-        "Lignées": [],
-        "Nom": "Animalisme"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "murmures-sauvages",
+              "title": "Murmures Sauvages"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "appel",
+              "title": "Appel"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "dompter-la-bete",
+              "title": "Dompter la Bête"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "soumission-de-l-esprit",
+              "title": "Soumission de l’Esprit"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "lacher-la-bete",
+              "title": "Lâcher la Bête"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Animaux"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "intimider-la-bete",
+              "title": "Intimider la Bête"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "furie-pourpre",
+              "title": "Furie Pourpre"
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Animalisme"
+        }
       },
       "content": [
         {
@@ -124,32 +254,93 @@
       "notionUrl": "https://app.notion.com/p/Auspex-38188b48e48e800b8e45cb4052605c7f",
       "lastEditedTime": "2026-06-17T14:45:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": true,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [
-          "38188b48-e48e-8050-a93a-f1ae84bbe587",
-          "38288b48-e48e-8058-b449-ce10ff71467a",
-          "38288b48-e48e-80a2-908e-d9c7d617b120",
-          "38288b48-e48e-80bc-a820-c30376e8846c",
-          "38388b48-e48e-80f3-936d-c819d41da364"
-        ],
-        "Jet d'attaque": [
-          "Mental",
-          "Investigation"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [
-          "38188b48-e48e-805b-bc5f-e96c6c19478d",
-          "38388b48-e48e-8035-a019-cc898f387cc0"
-        ],
-        "Lignées": [],
-        "Nom": "Auspex"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "sens-aiguises",
+              "title": "Sens Aiguisés"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "lecture-d-ame",
+              "title": "Lecture d’Âme"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "psychometrie",
+              "title": "Psychométrie"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "telepathie",
+              "title": "Télépathie"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "projection-astrale",
+              "title": "Projection Astrale"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Investigation"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "clairvoyance",
+              "title": "Clairvoyance"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "assaut-psychique",
+              "title": "Assaut Psychique"
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Auspex"
+        }
       },
       "content": [
         {
@@ -173,32 +364,101 @@
       "notionUrl": "https://app.notion.com/p/C-l-rit-38188b48e48e80d48a18e777f4cfe98f",
       "lastEditedTime": "2026-06-17T11:24:00.000Z",
       "properties": {
-        "Spécialité 2": "Dextérité",
-        "Prêt": true,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-80a7-949f-dd4043b12fa9",
-          "38388b48-e48e-802a-a883-db069b1afd72",
-          "38388b48-e48e-8067-8b20-d1184d624e5b",
-          "38388b48-e48e-808a-9ba5-e5f7e7d82b3a",
-          "38388b48-e48e-80a5-be7f-cae1fc338546"
-        ],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Dextérité",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [
-          "38388b48-e48e-806b-9cec-cd41f6f24415",
-          "38388b48-e48e-8012-a50d-e6acd910adf1",
-          "38388b48-e48e-8005-b7e1-f3f05069f663",
-          "38388b48-e48e-805c-a29e-f4a6237e217d"
-        ],
-        "Lignées": [],
-        "Nom": "Célérité"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Dextérité"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "alcarite",
+              "title": "Alcarité"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vivacite",
+              "title": "Vivacité"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "rapidite",
+              "title": "Rapidité"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "legerete",
+              "title": "Légéreté"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fluidite",
+              "title": "Fluidité"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Dextérité"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "ecart-agile",
+              "title": "Écart Agile"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "projectile",
+              "title": "Projectile"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "vitesse",
+              "title": "Vitesse"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "zephyr",
+              "title": "Zéphyr"
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Célérité"
+        }
       },
       "content": [
         {
@@ -274,29 +534,82 @@
       "notionUrl": "https://app.notion.com/p/Chimerie-38188b48e48e8064a85de47e38304c23",
       "lastEditedTime": "2026-06-18T11:17:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": true,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-8076-8b0e-f2669fa44e49",
-          "38388b48-e48e-8075-95b7-cc969a88e139",
-          "38388b48-e48e-80e4-919e-e0e94e69282e",
-          "38388b48-e48e-80e0-a772-fe239deb3326",
-          "38388b48-e48e-80b8-8393-f88a307a0306"
-        ],
-        "Jet d'attaque": [
-          "Social",
-          "Subterfuge"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Chimerie"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "ignus-fatuus",
+              "title": "Ignus Fatuus"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "affreuse-realite",
+              "title": "Affreuse Réalité"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "permanence",
+              "title": "Permanence"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "apparition",
+              "title": "Apparition"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "mirage",
+              "title": "Mirage"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Subterfuge"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Chimerie"
+        }
       },
       "content": [
         {
@@ -320,29 +633,82 @@
       "notionUrl": "https://app.notion.com/p/Daemonium-38188b48e48e8019b2abf5fc37ae8ec7",
       "lastEditedTime": "2026-06-17T11:26:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": true,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-8059-84f3-e064f82ef1e2",
-          "38e88b48-e48e-8017-a370-c68cdbd1278b",
-          "38e88b48-e48e-80d2-9be2-f18d33b2e334",
-          "38e88b48-e48e-80d6-9959-e899f351c1a5",
-          "38e88b48-e48e-8068-b718-f8d916bc0f1f"
-        ],
-        "Jet d'attaque": [
-          "Mental",
-          "Erudition"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Daemonium"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "sentir-le-peche",
+              "title": "Sentir le Péché"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "peur-du-vide-abyssale",
+              "title": "Peur du Vide abyssale"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "condamnation",
+              "title": "Condamnation"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "psychomachie",
+              "title": "Psychomachie"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "conflagration",
+              "title": "Conflagration"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Erudition"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Daemonium"
+        }
       },
       "content": [
         {
@@ -366,23 +732,56 @@
       "notionUrl": "https://app.notion.com/p/Dissimulation-38188b48e48e8033aa12f53c1385944a",
       "lastEditedTime": "2026-06-17T11:27:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": true,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Furtivité"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Dissimulation"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Furtivité"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Dissimulation"
+        }
       },
       "content": [
         {
@@ -478,23 +877,56 @@
       "notionUrl": "https://app.notion.com/p/Domination-38188b48e48e80669b99cef01468ad90",
       "lastEditedTime": "2026-06-17T11:28:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": true,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Intimidation"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Domination"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Intimidation"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Domination"
+        }
       },
       "content": [
         {
@@ -546,32 +978,101 @@
       "notionUrl": "https://app.notion.com/p/Force-d-me-38188b48e48e8043bf96ffdd08a3e4db",
       "lastEditedTime": "2026-06-17T11:28:00.000Z",
       "properties": {
-        "Spécialité 2": "Vigueur",
-        "Prêt": false,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [
-          "38388b48-e48e-8090-a135-c038cf41a9a5",
-          "38388b48-e48e-8077-b7a6-c20914cf6640",
-          "38388b48-e48e-806b-b312-fdd2a9dae379",
-          "38388b48-e48e-80d0-b834-f57cab915db0",
-          "38388b48-e48e-80e3-ba75-c9bfd3979db4"
-        ],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Vigueur",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [
-          "38388b48-e48e-8004-98cd-d78d9b44321d",
-          "38388b48-e48e-80d6-bb80-ff97437713de",
-          "38388b48-e48e-8086-a64d-f347bb0732d5",
-          "38388b48-e48e-80f7-b409-f9852e2b7204"
-        ],
-        "Lignées": [],
-        "Nom": "Force d’Âme"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "endurance",
+              "title": "Endurance"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "ardeur",
+              "title": "Ardeur"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "resilience",
+              "title": "Résilience"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "resistance",
+              "title": "Résistance"
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "egide",
+              "title": "Égide"
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "armure-personnelle",
+              "title": "Armure Personnelle"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "esprit-resilient",
+              "title": "Esprit Résilient"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "reparer-la-chair-non-morte",
+              "title": "Réparer la chair non-morte"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "roi-de-la-montagne",
+              "title": "Roi de la montagne"
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Force d’Âme"
+        }
       },
       "content": [
         {
@@ -591,23 +1092,56 @@
       "notionUrl": "https://app.notion.com/p/Melpomin-e-38188b48e48e80b1887dc7e8900f7278",
       "lastEditedTime": "2026-06-17T11:29:00.000Z",
       "properties": {
-        "Spécialité 2": "Charisme",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Subterfuge"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Melpominée"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Subterfuge"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Melpominée"
+        }
       },
       "content": [
         {
@@ -627,23 +1161,56 @@
       "notionUrl": "https://app.notion.com/p/Mythercellerie-38188b48e48e80f6bec7df882e5bc004",
       "lastEditedTime": "2026-06-17T11:29:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Erudition"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Mythercellerie"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Erudition"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Mythercellerie"
+        }
       },
       "content": [
         {
@@ -663,23 +1230,56 @@
       "notionUrl": "https://app.notion.com/p/Ob-ah-38188b48e48e806bb6b0f9081970e6b1",
       "lastEditedTime": "2026-06-17T11:29:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Médecine"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Obéah"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Médecine"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Obéah"
+        }
       },
       "content": [
         {
@@ -699,21 +1299,54 @@
       "notionUrl": "https://app.notion.com/p/Obt-n-bration-38188b48e48e80449bb5ec3250319ef2",
       "lastEditedTime": "2026-06-17T11:31:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Obténébration"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Obténébration"
+        }
       },
       "content": [
         {
@@ -733,23 +1366,56 @@
       "notionUrl": "https://app.notion.com/p/Pr-sence-38188b48e48e80ea8f49ce3f45662ebe",
       "lastEditedTime": "2026-06-17T11:32:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Commandement"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Présence"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Commandement"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Présence"
+        }
       },
       "content": [
         {
@@ -769,21 +1435,54 @@
       "notionUrl": "https://app.notion.com/p/Prot-isme-38188b48e48e805e9d8ff7d3bfcf3e04",
       "lastEditedTime": "2026-06-17T11:32:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Protéisme"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Protéisme"
+        }
       },
       "content": [
         {
@@ -803,21 +1502,54 @@
       "notionUrl": "https://app.notion.com/p/Puissance-38188b48e48e8001bb41f68a2f1d25e7",
       "lastEditedTime": "2026-06-17T11:31:00.000Z",
       "properties": {
-        "Spécialité 2": "Force",
-        "Prêt": false,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Force",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Puissance"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Puissance"
+        }
       },
       "content": [
         {
@@ -837,23 +1569,56 @@
       "notionUrl": "https://app.notion.com/p/Quietus-38188b48e48e80afa1dac36fac6431b3",
       "lastEditedTime": "2026-06-17T11:33:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Athlétisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Quietus"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Athlétisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Quietus"
+        }
       },
       "content": [
         {
@@ -873,23 +1638,56 @@
       "notionUrl": "https://app.notion.com/p/Serpentis-38188b48e48e8023a7e3e62cfff445c4",
       "lastEditedTime": "2026-06-17T11:33:00.000Z",
       "properties": {
-        "Spécialité 2": "Charisme",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Subterfuge"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Serpentis"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Subterfuge"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Serpentis"
+        }
       },
       "content": [
         {
@@ -909,23 +1707,56 @@
       "notionUrl": "https://app.notion.com/p/Sipritus-38188b48e48e80a58249f203ae2a5f05",
       "lastEditedTime": "2026-06-17T11:41:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Sipritus"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sipritus"
+        }
       },
       "content": [
         {
@@ -945,23 +1776,56 @@
       "notionUrl": "https://app.notion.com/p/Temporis-38188b48e48e804786d5d53d78ab5efd",
       "lastEditedTime": "2026-06-17T11:34:00.000Z",
       "properties": {
-        "Spécialité 2": "Vigueur",
-        "Prêt": false,
-        "Jet de défense": [
-          "Physique",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Physique",
-          "Survie"
-        ],
-        "Spécialité 1": "Vigueur",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Temporis"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Physique",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Physique",
+            "Survie"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Temporis"
+        }
       },
       "content": [
         {
@@ -981,23 +1845,56 @@
       "notionUrl": "https://app.notion.com/p/Thanatosis-38188b48e48e8072aaecfc69c22829f8",
       "lastEditedTime": "2026-06-17T11:34:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Médecine"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Thanatosis"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Médecine"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Thanatosis"
+        }
       },
       "content": [
         {
@@ -1017,23 +1914,56 @@
       "notionUrl": "https://app.notion.com/p/Valeren-38188b48e48e80279c42ea2d7ec5c4d3",
       "lastEditedTime": "2026-06-17T11:35:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Médecine"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Valeren"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Médecine"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Valeren"
+        }
       },
       "content": [
         {
@@ -1053,21 +1983,54 @@
       "notionUrl": "https://app.notion.com/p/Vicissitude-38188b48e48e80089dedeb7c177a735c",
       "lastEditedTime": "2026-06-17T11:35:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Aucun"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Aucun"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Vicissitude"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Aucun"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vicissitude"
+        }
       },
       "content": [
         {
@@ -1087,23 +2050,56 @@
       "notionUrl": "https://app.notion.com/p/Visceratika-38188b48e48e803db868d46d8c237683",
       "lastEditedTime": "2026-06-17T11:35:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Athlétisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Visceratika"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Athlétisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Visceratika"
+        }
       },
       "content": [
         {
@@ -1123,23 +2119,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
       "lastEditedTime": "2026-06-17T11:38:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de l’Esprit"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l’Esprit"
+        }
       },
       "content": [
         {
@@ -1159,23 +2188,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Conjuration-38188b48e48e80f8ae9bf73c225542bb",
       "lastEditedTime": "2026-06-17T11:38:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de la Conjuration"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Conjuration"
+        }
       },
       "content": [
         {
@@ -1195,23 +2257,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Corruption-38188b48e48e802aa423f559c6caf9fa",
       "lastEditedTime": "2026-06-17T11:38:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de la Corruption"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Corruption"
+        }
       },
       "content": [
         {
@@ -1231,23 +2326,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Mort-38188b48e48e80baa0b1cd7a36d0ee57",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de la Mort"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Mort"
+        }
       },
       "content": [
         {
@@ -1267,23 +2395,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-la-S-pulture-38188b48e48e80db9f82cc7350ecdb53",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de la Sépulture"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Sépulture"
+        }
       },
       "content": [
         {
@@ -1303,23 +2464,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Technomancie-38188b48e48e808fa4eccabd8fa19802",
       "lastEditedTime": "2026-06-17T11:38:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de la Technomancie"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Technomancie"
+        }
       },
       "content": [
         {
@@ -1339,23 +2533,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie de Neptune"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de Neptune"
+        }
       },
       "content": [
         {
@@ -1375,23 +2602,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie des Âmes"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Âmes"
+        }
       },
       "content": [
         {
@@ -1411,23 +2671,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-des-Cendres-38188b48e48e803ab7a1ff66349a805c",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie des Cendres"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Cendres"
+        }
       },
       "content": [
         {
@@ -1447,23 +2740,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-des-Elementaires-38188b48e48e8000b617f7cb1d9dd516",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie des Elementaires"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Elementaires"
+        }
       },
       "content": [
         {
@@ -1483,23 +2809,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-des-Flammes-38188b48e48e8036be4ac31d527d4284",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie des Flammes"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Flammes"
+        }
       },
       "content": [
         {
@@ -1519,23 +2878,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-des-Os-38188b48e48e80e9bee5c14b66cc21ce",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Charisme",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie des Os"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Os"
+        }
       },
       "content": [
         {
@@ -1555,23 +2947,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-du-Cimeti-re-38188b48e48e8084a587c429a6a500e6",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Charisme",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Apparence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie du Cimetière"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Cimetière"
+        }
       },
       "content": [
         {
@@ -1591,23 +3016,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie du Climat"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Climat"
+        }
       },
       "content": [
         {
@@ -1627,23 +3085,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-du-Cosmos-38188b48e48e80cdbc9ae210783802c4",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie du Cosmos"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Cosmos"
+        }
       },
       "content": [
         {
@@ -1663,23 +3154,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-du-Deuil-38188b48e48e80fe8f9ffd97ef5fba2f",
       "lastEditedTime": "2026-06-17T11:37:00.000Z",
       "properties": {
-        "Spécialité 2": "Manipulation",
-        "Prêt": false,
-        "Jet de défense": [
-          "Social",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Social",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Charisme",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie du Deuil"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Deuil"
+        }
       },
       "content": [
         {
@@ -1699,23 +3223,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-du-Sang-38188b48e48e80fcb1f9dcc48a2b3ec4",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Perception",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Intelligence",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie du Sang"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Sang"
+        }
       },
       "content": [
         {
@@ -1735,23 +3292,56 @@
       "notionUrl": "https://app.notion.com/p/Voie-Verte-38188b48e48e8024b3d1c7475b10e765",
       "lastEditedTime": "2026-06-17T11:39:00.000Z",
       "properties": {
-        "Spécialité 2": "Intelligence",
-        "Prêt": false,
-        "Jet de défense": [
-          "Mental",
-          "Volonté"
-        ],
-        "Pouvoirs": [],
-        "Jet d'attaque": [
-          "Mental",
-          "Occultisme"
-        ],
-        "Spécialité 1": "Astuce",
-        "Techniques": [],
-        "Clans": [],
-        "Pouvoirs d’Anciens": [],
-        "Lignées": [],
-        "Nom": "Voie Verte"
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Prêt": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie Verte"
+        }
       },
       "content": [
         {

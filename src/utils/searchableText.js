@@ -1,11 +1,11 @@
-import stringifyValue from "./stringifyValue";
+import { normalizeProperty, propertyText } from "./property";
 
 export default function searchableText(collection, item) {
     return [
         collection.label,
         collection.group,
         item.title,
-        ...Object.values(item.properties || {}).map(stringifyValue),
+        ...Object.values(item.properties || {}).map((raw) => propertyText(normalizeProperty(raw))),
         ...(item.content || []).map((block) => block.text || "")
     ]
         .join(" ")

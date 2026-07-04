@@ -3,7 +3,7 @@
   "label": "Nécromancie",
   "group": "Rituels",
   "notionDatabaseId": "39088b48-e48e-80f7-b261-df57f306e6a1",
-  "generatedAt": "2026-07-04T10:54:51.595Z",
+  "generatedAt": "2026-07-04T11:09:29.968Z",
   "items": [
     {
       "id": "39188b48-e48e-805f-826f-c986fff77fd1",
@@ -12,10 +12,22 @@
       "notionUrl": "https://app.notion.com/p/N-cro-39188b48e48e805f826fc986fff77fd1",
       "lastEditedTime": "2026-07-02T12:35:00.000Z",
       "properties": {
-        "Cout en point de sang": null,
-        "Temps de préparation": "",
-        "Niveau": "1",
-        "Name": "Nécro"
+        "Cout en point de sang": {
+          "type": "number",
+          "value": null
+        },
+        "Temps de préparation": {
+          "type": "text",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Nécro"
+        }
       },
       "content": [
         {

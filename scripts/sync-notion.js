@@ -1,4 +1,4 @@
-﻿import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { wikiCollections } from "./wiki-collections.js";
@@ -53,77 +53,96 @@ function richTextToPlainText(richText = []) {
   return richText.map((item) => item.plain_text || "").join("");
 }
 
-function plainPropertyValue(property) {
-  if (!property) return "";
+/**
+ * Convertit une propriété Notion en { type, value } exploitable côté client.
+ * Le type est conservé (au lieu d'être aplati) pour permettre un rendu
+ * adapté par nature de donnée (relation -> lien, checkbox -> Oui/Non, etc.).
+ * Les relations restent des ids bruts à ce stade ; elles sont résolues
+ * ensuite par `resolveRelations`, une fois toutes les collections chargées.
+ */
+function normalizeProperty(property) {
+  if (!property) return { type: "text", value: "" };
 
   switch (property.type) {
     case "title":
-      return richTextToPlainText(property.title);
+      return { type: "text", value: richTextToPlainText(property.title) };
     case "rich_text":
-      return richTextToPlainText(property.rich_text);
+      return { type: "text", value: richTextToPlainText(property.rich_text) };
     case "number":
-      return property.number;
+      return { type: "number", value: property.number };
     case "select":
-      return property.select?.name || "";
+      return { type: "select", value: property.select?.name || "" };
     case "multi_select":
-      return property.multi_select.map((item) => item.name);
+      return { type: "multi_select", value: property.multi_select.map((item) => item.name) };
     case "status":
-      return property.status?.name || "";
+      return { type: "select", value: property.status?.name || "" };
     case "date":
-      return property.date?.end ? `${property.date.start} - ${property.date.end}` : property.date?.start || "";
+      return {
+        type: "date",
+        value: property.date?.end ? `${property.date.start} → ${property.date.end}` : property.date?.start || "",
+      };
     case "checkbox":
-      return property.checkbox;
+      return { type: "checkbox", value: property.checkbox };
     case "url":
-      return property.url || "";
+      return { type: "url", value: property.url || "" };
     case "email":
-      return property.email || "";
+      return { type: "text", value: property.email || "" };
     case "phone_number":
-      return property.phone_number || "";
+      return { type: "text", value: property.phone_number || "" };
     case "people":
-      return property.people.map((person) => person.name || person.id);
+      return { type: "multi_select", value: property.people.map((person) => person.name || person.id) };
     case "relation":
-      return property.relation.map((relation) => relation.id);
+      // ids bruts, résolus plus tard vers { id, title, slug, collectionKey }
+      return { type: "relation", value: property.relation.map((relation) => relation.id) };
     case "files":
-      return property.files.map((file) => file.name || file.external?.url || file.file?.url || "").filter(Boolean);
+      return {
+        type: "multi_select",
+        value: property.files.map((file) => file.name || file.external?.url || file.file?.url || "").filter(Boolean),
+      };
     case "created_time":
-      return property.created_time;
+      return { type: "date", value: property.created_time };
     case "last_edited_time":
-      return property.last_edited_time;
+      return { type: "date", value: property.last_edited_time };
     case "formula":
-      return formulaValue(property.formula);
+      return normalizeFormula(property.formula);
     case "rollup":
-      return rollupValue(property.rollup);
+      return normalizeRollup(property.rollup);
     default:
-      return "";
+      return { type: "text", value: "" };
   }
 }
 
-function formulaValue(formula) {
-  if (!formula) return "";
-  if (formula.type === "string") return formula.string || "";
-  if (formula.type === "number") return formula.number;
-  if (formula.type === "boolean") return formula.boolean;
-  if (formula.type === "date") return formula.date?.start || "";
-  return "";
+function normalizeFormula(formula) {
+  if (!formula) return { type: "text", value: "" };
+  if (formula.type === "string") return { type: "text", value: formula.string || "" };
+  if (formula.type === "number") return { type: "number", value: formula.number };
+  if (formula.type === "boolean") return { type: "checkbox", value: formula.boolean };
+  if (formula.type === "date") return { type: "date", value: formula.date?.start || "" };
+  return { type: "text", value: "" };
 }
 
-function rollupValue(rollup) {
-  if (!rollup) return "";
-  if (rollup.type === "number") return rollup.number;
-  if (rollup.type === "date") return rollup.date?.start || "";
-  if (rollup.type === "array") return rollup.array.map(plainPropertyValue).filter((value) => value !== "");
-  return "";
+function normalizeRollup(rollup) {
+  if (!rollup) return { type: "text", value: "" };
+  if (rollup.type === "number") return { type: "number", value: rollup.number };
+  if (rollup.type === "date") return { type: "date", value: rollup.date?.start || "" };
+  if (rollup.type === "array") {
+    return {
+      type: "multi_select",
+      value: rollup.array.map((entry) => normalizeProperty(entry).value).filter((value) => value !== ""),
+    };
+  }
+  return { type: "text", value: "" };
 }
 
 function normalizeProperties(properties = {}) {
   return Object.fromEntries(
-    Object.entries(properties).map(([name, property]) => [name, plainPropertyValue(property)])
+    Object.entries(properties).map(([name, property]) => [name, normalizeProperty(property)])
   );
 }
 
 function findTitle(properties = {}) {
   const titleProperty = Object.values(properties).find((property) => property.type === "title");
-  return plainPropertyValue(titleProperty) || "Sans titre";
+  return richTextToPlainText(titleProperty?.title) || "Sans titre";
 }
 
 function blockToContent(block) {
@@ -208,7 +227,7 @@ async function normalizePage(page) {
   const title = findTitle(page.properties);
 
   const slug =
-    properties.Slug ||
+    properties.Slug?.value ||
     slugify(title);
 
   return {
@@ -222,7 +241,7 @@ async function normalizePage(page) {
   };
 }
 
-async function syncCollection(collection) {
+async function fetchCollectionItems(collection) {
   const databaseId = process.env[collection.envVar];
   const pages = await queryDatabase(databaseId);
   const items = [];
@@ -233,6 +252,43 @@ async function syncCollection(collection) {
 
   items.sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
+  return { databaseId, items };
+}
+
+/**
+ * Index id de page Notion -> fiche, tous collections confondues.
+ * Nécessaire pour résoudre les relations qui pointent vers une autre
+ * base (ex. un Clan qui référence ses Disciplines).
+ */
+function buildRegistry(fetched) {
+  const registry = new Map();
+
+  for (const { collection, items } of fetched) {
+    for (const item of items) {
+      registry.set(item.id, {
+        collectionKey: collection.key,
+        slug: item.slug,
+        title: item.title,
+      });
+    }
+  }
+
+  return registry;
+}
+
+function resolveRelations(items, registry) {
+  for (const item of items) {
+    for (const property of Object.values(item.properties)) {
+      if (property.type !== "relation") continue;
+
+      property.value = property.value
+        .map((id) => registry.get(id))
+        .filter(Boolean);
+    }
+  }
+}
+
+async function writeCollectionFile(collection, databaseId, items) {
   validateUniqueSlugs(items, collection.label);
 
   const output = {
@@ -267,7 +323,7 @@ function validateUniqueSlugs(items, collectionLabel) {
 
   for (const item of items) {
     const existing = seen.get(item.slug);
-    
+
 
   if (!item.slug) {
     throw new Error(
@@ -295,8 +351,19 @@ async function main() {
   const configuredCollections = requireConfig();
   await mkdir(outputCollectionsDir, { recursive: true });
 
+  const fetched = [];
   for (const collection of configuredCollections) {
-    await syncCollection(collection);
+    const { databaseId, items } = await fetchCollectionItems(collection);
+    fetched.push({ collection, databaseId, items });
+  }
+
+  // Les relations ne peuvent être résolues qu'une fois toutes les
+  // collections chargées (une relation peut pointer vers une autre base).
+  const registry = buildRegistry(fetched);
+
+  for (const { collection, databaseId, items } of fetched) {
+    resolveRelations(items, registry);
+    await writeCollectionFile(collection, databaseId, items);
   }
 
   const skippedCollections = wikiCollections.filter((collection) => !process.env[collection.envVar]);
@@ -312,4 +379,3 @@ main().catch((error) => {
   console.error(error.message);
   process.exit(1);
 });
-
