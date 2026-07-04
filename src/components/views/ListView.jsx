@@ -1,15 +1,15 @@
 import { FileText } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 function ItemList({
     wiki,
 }) {
-    const {collections} = wiki;
-    const {
-        computed,
-        actions,
-    } = collections;
+    const navigate = useNavigate();
+    const {collections, navigation} = wiki;
+    const {computed} = collections;
     const { activeCollections, visibleItems } = computed;
     const activeCollection = activeCollections[0];
+    const { activeNavigation } = navigation;
     return (<section className="listPane">
         <header>
             <span>{activeCollection?.group || "Chargement"}</span>
@@ -23,7 +23,7 @@ function ItemList({
                     key={item.id}
                     className={item.id === computed.activeItem?.id ? "selected" : ""}
                     onClick={() =>
-                        actions.openPage(item)
+                        navigate(`${activeNavigation.path}/${item.slug}`)
                     }
                 >
                     <FileText aria-hidden="true" size={17} />

@@ -7,7 +7,7 @@ import EmptyState from "./States/EmptyState";
 function DetailPanel({
     wiki
 }) {
-    const { activeCollections, activeItem, pageNotFound } = wiki.collections.computed;
+    const { activeItem, pageNotFound } = wiki.collections.computed;
     if (wiki.loading) {
         return <LoadingState />;
     }
@@ -23,7 +23,7 @@ function DetailPanel({
         {activeItem ? (
             <>
                 <header>
-                    <span>{activeCollections.label}</span>
+                    <span>{activeItem.collectionLabel}</span>
                     <h1>{activeItem.title}</h1>
                 </header>
 

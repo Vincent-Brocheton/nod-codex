@@ -2,13 +2,14 @@ import "../styles.css";
 import Sidebar from "../components/Sidebar";
 import ItemList from "../components/ItemList";
 import DetailPanel from "../components/DetailPanel";
+import RitualsView from "../components/views/RitualsView";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 import PageRenderer from "../components/PageRenderer";
 
 function HomePage() {
-    const { section, slug } = useParams();
+    const { section, slug, collectionKey, niveau } = useParams();
 
     const wiki = useWiki({
         section,
@@ -28,14 +29,24 @@ function HomePage() {
                 wiki.navigation.activeNavigation?.type === "collection"
 
                     ? (
-                        <>
-                            <ItemList wiki={wiki} />
-                            <DetailPanel wiki={wiki} />
-                        </>
+                        wiki.navigation.activeNavigation.view === "rituals"
+
+                            ? (
+                                <RitualsView wiki={wiki} collectionKey={collectionKey} niveau={niveau} />
+                            )
+
+                            : (
+                                <>
+                                    <ItemList wiki={wiki} />
+                                    <DetailPanel wiki={wiki} />
+                                </>
+                            )
                     )
 
                     : (
-                        <PageRenderer wiki={wiki} />
+                        <div className="pageArea">
+                            <PageRenderer wiki={wiki} />
+                        </div>
                     )
             }
         </main>

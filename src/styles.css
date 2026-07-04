@@ -173,6 +173,24 @@ input {
   overflow: auto;
 }
 
+.itemGroup {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.itemGroup h2 {
+  color: #9b2f31;
+  font-size: 12px;
+  font-weight: 800;
+  margin: 14px 0 7px;
+  text-transform: uppercase;
+}
+
+.itemGroup:first-child h2 {
+  margin-top: 0;
+}
+
 .itemList button {
   align-items: center;
   background: transparent;
@@ -311,6 +329,17 @@ input {
   margin-top: 8px;
 }
 
+.ritualEntry:not(:last-child) {
+  border-bottom: 1px solid #ded3c5;
+  margin-bottom: 32px;
+  padding-bottom: 32px;
+}
+
+.ritualEntry h2 {
+  font-size: clamp(24px, 4vw, 32px);
+  margin: 0 0 16px;
+}
+
 .notFoundPage {
     display: flex;
     flex-direction: column;
@@ -331,12 +360,92 @@ input {
 .notFoundPage p {
     max-width: 40rem;
 }
+.pageArea {
+  grid-column: 2 / -1;
+  height: 100%;
+  overflow-y: auto;
+}
+
 .pageView {
 
     flex: 1;
+
+    margin: 0 auto;
+
+    max-width: 860px;
 
     overflow-y: auto;
 
     padding: 2rem;
 
+}
+
+.homeView .eyebrow {
+  color: #9b2f31;
+  display: block;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.homeView h1 {
+  font-size: clamp(32px, 5vw, 56px);
+  line-height: 1.1;
+  margin: 6px 0 24px;
+}
+
+.homeView blockquote {
+  border-left: 4px solid #9b2f31;
+  color: #3c3631;
+  font-size: 17px;
+  margin: 0 0 20px;
+  max-width: 640px;
+  padding-left: 16px;
+}
+
+.homeView p {
+  color: #45403a;
+  font-size: 16px;
+  max-width: 640px;
+}
+
+.creationSteps {
+  display: grid;
+  gap: 12px;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  margin-top: 28px;
+  max-width: 860px;
+}
+
+.creationStep {
+  align-items: flex-start;
+  background: #fffdf8;
+  border: 1px solid #ded3c5;
+  border-radius: 8px;
+  color: inherit;
+  display: flex;
+  gap: 12px;
+  padding: 16px;
+  text-decoration: none;
+}
+
+.creationStep:hover {
+  border-color: #9b2f31;
+}
+
+.creationStep svg {
+  color: #9b2f31;
+  flex: 0 0 auto;
+  margin-top: 2px;
+}
+
+.creationStep strong {
+  display: block;
+  font-size: 15px;
+}
+
+.creationStep span {
+  color: #72695f;
+  font-size: 13px;
 }

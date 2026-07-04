@@ -24,6 +24,11 @@ export default function Router() {
                     element={<HomePage />}
                 />
 
+                <Route
+                    path="/:section/:collectionKey/:niveau"
+                    element={<HomePage />}
+                />
+
             </Route>
 
         </Routes>

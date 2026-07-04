@@ -97,16 +97,28 @@ export default function useCollections(manifest, activeNavigation, route, query)
      * lorsque le slug ou la collection changent
      */
     useEffect(() => {
-        const collection = loadedCollections[activeCollectionKeys];
+        const collections = activeCollectionKeys
+            .map(key => loadedCollections[key])
+            .filter(Boolean);
 
-        if (!collection) return;
+        if (!collections.length) return;
 
-        const item = route.slug
-            ? findPageBySlug(collection, route.slug)
-            : collection.items[0];
+        if (route.slug) {
+            const item = collections
+                .map(collection => findPageBySlug(collection, route.slug))
+                .find(Boolean);
 
-        // eslint-disable-next-line react-hooks/set-state-in-effect
-        setActiveItemId(item?.id || "");
+            // eslint-disable-next-line react-hooks/set-state-in-effect
+            setActiveItemId(item?.id || "");
+            return;
+        }
+
+        // Une seule collection active : on affiche sa première fiche par défaut.
+        // Plusieurs collections (ex. Rituels, Atouts & Handicaps) : on laisse
+        // l'utilisateur choisir, l'origine de la fiche étant ambiguë sinon.
+        setActiveItemId(
+            collections.length === 1 ? collections[0].items[0]?.id || "" : ""
+        );
     }, [
         activeCollectionKeys,
         loadedCollections,
@@ -126,10 +138,15 @@ export default function useCollections(manifest, activeNavigation, route, query)
 
     const activeCollection = activeCollections[0] ?? null;
 
-    const activeItem =
-        activeCollection?.items.find(
-            item => item.id === activeItemId
-        ) ?? null;
+    const activeItem = activeCollections
+        .flatMap(collection =>
+            collection.items.map(item => ({
+                ...item,
+                collectionKey: collection.key,
+                collectionLabel: collection.label,
+            }))
+        )
+        .find(item => item.id === activeItemId) ?? null;
 
     const visibleItems = (() => {
         if (!activeCollection) return [];
@@ -151,15 +168,10 @@ export default function useCollections(manifest, activeNavigation, route, query)
 
     }
 
-    function openPage(page) {
-        setActiveItemId(page.id);
-    }
-
     const pageNotFound =
         Boolean(route.slug) && !activeItem;
     const actions = {
         selectCollections,
-        openPage,
     };
     const state = {
         activeCollectionKeys,
