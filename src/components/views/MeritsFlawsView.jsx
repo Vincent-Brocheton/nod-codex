@@ -1,14 +1,36 @@
 import GroupedRuleView from "./GroupedRuleView";
 import collectionNavPath from "../../utils/collectionNavPath";
+import { normalizeProperty } from "../../utils/property";
 
-const STAT_FIELDS = [
+const SINGLE_STAT_FIELDS = [
     { label: "Coût", key: "Coût" },
+    { label: "Type", key: "Type" },
 ];
 
 const RELATED_GROUPS = [
     { key: "Clan", label: "Clan" },
     { key: "Lignées", label: "Lignées" },
 ];
+
+function coutOf(item) {
+    const value = Number(normalizeProperty(item.properties?.Coût).value);
+    return Number.isFinite(value) ? value : Infinity;
+}
+
+// Trie par coût croissant, puis alphabétiquement à coût égal.
+function byCoutThenAlpha(a, b) {
+    const diff = coutOf(a) - coutOf(b);
+    if (diff !== 0) return diff;
+    return a.title.localeCompare(b.title, "fr");
+}
+
+// Sous-titre entre les fiches d'un même coût (ex. "Atouts à 1 point"),
+// affiché à la place du coût sur chaque fiche individuelle.
+function coutSubGroupLabel(value, collectionLabel) {
+    if (!Number.isFinite(value)) return `${collectionLabel} sans coût défini`;
+
+    return `${collectionLabel} à ${value} point${value > 1 ? "s" : ""}`;
+}
 
 function relationRef(item, key) {
     const property = item.properties?.[key];
@@ -38,28 +60,29 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
     const { activeNavigation } = wiki.navigation;
 
     // Les valeurs possibles viennent de la configuration Notion (options du
-    // champ "Coût"), pas d'une plage fixe : on ne montre que les coûts
-    // réellement prévus dans les bases.
-    const costs = [...new Set(
+    // champ "Type"), pas d'une liste fixe : on ne montre que les types
+    // réellement prévus dans les bases (union Atouts + Handicaps).
+    const types = [...new Set(
         activeNavigation.collections
-            .flatMap(key => loadedCollections[key]?.propertyOptions?.["Coût"] || [])
-            .map(Number)
-            .filter(Number.isFinite)
-    )].sort((a, b) => a - b);
+            .flatMap(key => loadedCollections[key]?.propertyOptions?.Type || [])
+    )];
 
     return (
         <GroupedRuleView
             wiki={wiki}
             collectionKey={collectionKey}
             groupValue={groupValue}
-            propertyName="Coût"
-            groups={costs}
-            formatGroupLabel={(value) => `${value} point${Number(value) > 1 ? "s" : ""}`}
-            introText="Voici les atouts et handicaps de la chronique, classés par coût en points."
-            emptyMessage="Aucune fiche à ce coût pour le moment."
+            propertyName="Type"
+            groups={types}
+            formatGroupLabel={(value) => value}
+            introText="Voici les atouts et handicaps de la chronique, classés par type."
+            emptyMessage="Aucune fiche de ce type pour le moment."
             itemFilter={isGeneral}
+            itemSort={byCoutThenAlpha}
+            itemSubGroup={{ key: coutOf, label: coutSubGroupLabel }}
             hideGroupedProperties
-            singleItemStatFields={STAT_FIELDS}
+            showGroupBadge={false}
+            singleItemStatFields={SINGLE_STAT_FIELDS}
             singleItemRelatedGroups={RELATED_GROUPS}
             resolveBackPath={resolveBackPath}
         />

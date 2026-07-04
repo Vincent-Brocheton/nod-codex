@@ -1,8 +1,53 @@
 :root {
-  color: #211f1d;
-  background: #f6f2ec;
+  /* Thème sombre (par défaut) */
+  --bg-canvas: #0e0b0a;
+  --bg-canvas-glow-1: rgba(139, 27, 30, 0.16);
+  --bg-canvas-glow-2: rgba(90, 20, 22, 0.12);
+  --bg-panel: #120e0c;
+  --bg-card: #140f0d;
+  --bg-card-hover: #1a1310;
+  --bg-stat-card: linear-gradient(180deg, #17110f, #120d0b);
+  --border: #2a201c;
+  --border-strong: #3a2a26;
+  --text-primary: #e7ded0;
+  --text-heading: #f3e9db;
+  --text-muted: #8c7d70;
+  --text-faint: #6e6055;
+  --text-quote: #c3b6a5;
+  --text-body-muted: #b5a996;
+  --accent: #9b2f31;
+  --accent-strong: #c33a3d;
+  --accent-hover: #e2696c;
+  --scrollbar-thumb: #3a2a26;
+  --scrollbar-thumb-hover: #59201f;
+
+  color: var(--text-primary);
+  background: var(--bg-canvas);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   line-height: 1.5;
+}
+
+:root[data-theme="light"] {
+  --bg-canvas: #f6f2ec;
+  --bg-canvas-glow-1: transparent;
+  --bg-canvas-glow-2: transparent;
+  --bg-panel: #fdfaf4;
+  --bg-card: #fffdf8;
+  --bg-card-hover: #f5ece0;
+  --bg-stat-card: linear-gradient(180deg, #fffdf8, #fbf6ec);
+  --border: #ded3c5;
+  --border-strong: #ded3c5;
+  --text-primary: #2d2925;
+  --text-heading: #211f1d;
+  --text-muted: #72695f;
+  --text-faint: #91887d;
+  --text-quote: #3c3631;
+  --text-body-muted: #45403a;
+  --accent: #9b2f31;
+  --accent-strong: #9b2f31;
+  --accent-hover: #9b2f31;
+  --scrollbar-thumb: #ddd0bd;
+  --scrollbar-thumb-hover: #c9b89f;
 }
 
 * {
@@ -12,11 +57,43 @@
 body {
   margin: 0;
   min-width: 320px;
+  background:
+    radial-gradient(ellipse 900px 500px at 15% -10%, var(--bg-canvas-glow-1), transparent 60%),
+    radial-gradient(ellipse 900px 600px at 100% 0%, var(--bg-canvas-glow-2), transparent 55%),
+    var(--bg-canvas);
+}
+
+::selection {
+  background: #6e1417;
+  color: #f6ece0;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--scrollbar-thumb);
+  border-radius: 999px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--scrollbar-thumb-hover);
 }
 
 button,
 input {
   font: inherit;
+}
+
+h1, h2, h3 {
+  font-family: Cinzel, Georgia, serif;
+  letter-spacing: 0.01em;
 }
 
 .wikiShell {
@@ -26,9 +103,12 @@ input {
   overflow: hidden;
 }
 
+/* La sidebar reste volontairement sombre dans les deux thèmes (rail de
+   navigation permanent), seul le contenu suit le thème clair/sombre. */
 .sidebar {
-  background: #171615;
-  color: #f8f1e7;
+  background: #0f0c0b;
+  border-right: 1px solid #241c19;
+  color: #e7ded0;
   display: flex;
   flex-direction: column;
   gap: 22px;
@@ -44,7 +124,7 @@ input {
 }
 
 .brand svg {
-  color: #bd2f32;
+  color: #b3383b;
 }
 
 .brand strong,
@@ -53,18 +133,40 @@ input {
 }
 
 .brand strong {
+  font-family: Cinzel, Georgia, serif;
   font-size: 18px;
+  letter-spacing: 0.02em;
 }
 
 .brand span {
-  color: #bdb4a8;
+  color: #8c7d70;
   font-size: 13px;
+}
+
+.themeToggle {
+  background: transparent;
+  border: 1px solid #302420;
+  border-radius: 999px;
+  color: #e7ded0;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 0 0 auto;
+  height: 32px;
+  width: 32px;
+  margin-left: auto;
+}
+
+.themeToggle:hover {
+  border-color: #9b2f31;
+  color: #e2696c;
 }
 
 .searchField {
   align-items: center;
-  background: #242220;
-  border: 1px solid #393633;
+  background: #17110f;
+  border: 1px solid #302420;
   border-radius: 8px;
   display: flex;
   gap: 9px;
@@ -75,14 +177,14 @@ input {
 .searchField input {
   background: transparent;
   border: 0;
-  color: #f8f1e7;
+  color: #e7ded0;
   min-width: 0;
   outline: 0;
   width: 100%;
 }
 
 .searchField input::placeholder {
-  color: #91887d;
+  color: #6e6055;
 }
 
 .collectionNav {
@@ -93,9 +195,10 @@ input {
 }
 
 .collectionNav h2 {
-  color: #9d9388;
+  color: #7a6c60;
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  letter-spacing: 0;
+  letter-spacing: 0.08em;
   margin: 0 0 7px;
   text-transform: uppercase;
 }
@@ -104,8 +207,9 @@ input {
   align-items: center;
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 8px;
-  color: #f8f1e7;
+  border-left: 2px solid transparent;
+  border-radius: 6px;
+  color: #d9cfc0;
   cursor: pointer;
   display: flex;
   gap: 9px;
@@ -115,19 +219,25 @@ input {
   width: 100%;
 }
 
-.collectionNav button:hover,
+.collectionNav button:hover {
+  background: #1a1310;
+  border-color: #2e2320;
+}
+
 .collectionNav button.active {
-  background: #2c2926;
-  border-color: #514a43;
+  background: linear-gradient(90deg, rgba(139, 27, 30, 0.22), rgba(139, 27, 30, 0.04));
+  border-color: transparent;
+  border-left-color: #9b2f31;
+  color: #f3e9db;
 }
 
 .collectionNav button.active svg {
-  color: #e05353;
+  color: #d24447;
 }
 
 .listPane {
-  background: #fdfaf4;
-  border-right: 1px solid #ddd4c7;
+  background: var(--bg-panel);
+  border-right: 1px solid var(--border);
   display: flex;
   flex-direction: column;
   min-width: 0;
@@ -137,31 +247,34 @@ input {
 }
 
 .listPane header {
-  border-bottom: 1px solid #e5ddd2;
+  border-bottom: 1px solid var(--border);
   margin-bottom: 14px;
   padding-bottom: 16px;
 }
 
 .listPane header span,
 .detailPane header span {
-  color: #9b2f31;
+  color: var(--accent-strong);
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
 .listPane h1,
 .detailPane h1 {
+  color: var(--text-heading);
   line-height: 1.1;
   margin: 4px 0;
 }
 
 .listPane h1 {
-  font-size: 28px;
+  font-size: 26px;
 }
 
 .listPane p {
-  color: #72695f;
+  color: var(--text-muted);
   font-size: 13px;
   margin: 0;
 }
@@ -180,9 +293,11 @@ input {
 }
 
 .itemGroup h2 {
-  color: #9b2f31;
+  color: var(--accent-strong);
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   margin: 14px 0 7px;
   text-transform: uppercase;
 }
@@ -195,8 +310,8 @@ input {
   align-items: center;
   background: transparent;
   border: 1px solid transparent;
-  border-radius: 8px;
-  color: #2d2925;
+  border-radius: 6px;
+  color: var(--text-primary);
   cursor: pointer;
   display: flex;
   gap: 9px;
@@ -207,17 +322,21 @@ input {
 
 .itemList button:hover,
 .itemList button.selected {
-  background: #f0e8dc;
-  border-color: #dfd2c1;
+  background: var(--bg-card-hover);
+  border-color: var(--border-strong);
+}
+
+.itemList button.selected {
+  color: var(--text-heading);
 }
 
 .itemList svg {
-  color: #9b2f31;
+  color: var(--accent);
   flex: 0 0 auto;
 }
 
 .empty {
-  color: #72695f;
+  color: var(--text-muted);
   padding: 10px;
 }
 
@@ -230,6 +349,7 @@ input {
 
 .detailPane header {
   margin-bottom: 24px;
+  position: relative;
 }
 
 .detailPane h1 {
@@ -237,7 +357,8 @@ input {
 }
 
 .properties {
-  border: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
   margin: 0 0 28px;
   overflow: hidden;
@@ -245,36 +366,46 @@ input {
 }
 
 .properties div {
-  background: #fffdf8;
-  border-bottom: 1px solid #ded3c5;
-  border-right: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border-bottom: 1px solid var(--border);
+  border-right: 1px solid var(--border);
   padding: 12px;
 }
 
 .properties dt {
-  color: #766d63;
+  color: var(--text-muted);
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
+  letter-spacing: 0.04em;
   margin-bottom: 4px;
   text-transform: uppercase;
 }
 
 .properties dd {
+  color: var(--text-primary);
   margin: 0;
 }
 
 .contentBlocks {
-  background: #fffdf8;
-  border: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
+  color: var(--text-primary);
+  font-family: "EB Garamond", Georgia, serif;
   max-width: 860px;
   padding: clamp(22px, 4vw, 42px);
+}
+
+.contentBlocks h1,
+.contentBlocks h2,
+.contentBlocks h3 {
+  color: var(--text-heading);
 }
 
 .contentBlocks p,
 .contentBlocks li,
 .contentBlocks blockquote {
-  font-size: 17px;
+  font-size: 19px;
 }
 
 .contentBlocks p:first-child {
@@ -282,15 +413,16 @@ input {
 }
 
 .contentBlocks blockquote {
-  border-left: 4px solid #9b2f31;
-  color: #3c3631;
+  border-left: 3px solid var(--accent);
+  color: var(--text-quote);
+  font-style: italic;
   margin-left: 0;
   padding-left: 16px;
 }
 
 .placeholder {
   align-items: center;
-  color: #71675d;
+  color: var(--text-muted);
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -319,7 +451,7 @@ input {
 .mobileMenuButton {
   background: transparent;
   border: 0;
-  color: #f8f1e7;
+  color: #e7ded0;
   cursor: pointer;
   display: flex;
   padding: 4px;
@@ -332,7 +464,7 @@ input {
 .sidebarClose {
   background: transparent;
   border: 0;
-  color: #f8f1e7;
+  color: #e7ded0;
   cursor: pointer;
   display: none;
   margin-left: auto;
@@ -341,7 +473,7 @@ input {
 
 .backLink {
   align-items: center;
-  color: #9b2f31;
+  color: var(--accent-strong);
   display: none;
   font-size: 14px;
   font-weight: 700;
@@ -362,7 +494,8 @@ input {
 }
 
 .contentBlocks figcaption {
-  color: #766d63;
+  color: var(--text-muted);
+  font-family: Inter, sans-serif;
   font-size: 13px;
   margin-top: 8px;
 }
@@ -374,10 +507,10 @@ input {
 }
 
 .relationChip {
-  background: #f0e8dc;
-  border: 1px solid #dfd2c1;
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
   border-radius: 999px;
-  color: #2d2925;
+  color: var(--text-primary);
   display: inline-block;
   font-size: 13px;
   padding: 3px 10px;
@@ -385,47 +518,73 @@ input {
 }
 
 a.relationChip:hover {
-  border-color: #9b2f31;
-  color: #9b2f31;
+  border-color: var(--accent);
+  color: var(--accent-hover);
 }
 
 .relationPending {
-  color: #9b9088;
+  color: var(--text-muted);
   font-size: 13px;
   font-style: italic;
 }
 
 .ritualEntry:not(:last-child) {
-  border-bottom: 1px solid #ded3c5;
+  border-bottom: 1px solid var(--border);
   margin-bottom: 32px;
   padding-bottom: 32px;
 }
 
-.ritualEntry h2 {
+.ritualEntry h2,
+.ritualEntry h3 {
+  color: var(--text-heading);
   font-size: clamp(24px, 4vw, 32px);
   margin: 0 0 16px;
 }
 
+.detailSubGroupTitle {
+  border-bottom: 1px solid var(--border);
+  color: var(--accent-strong);
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin: 40px 0 20px;
+  padding-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.detailSubGroup:first-child .detailSubGroupTitle {
+  margin-top: 0;
+}
+
 .notFoundPage {
+    background: var(--bg-canvas);
+    color: var(--text-primary);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap: 1rem;
-    
+
     min-height: 100vh;
 
     text-align: center;
 }
 
 .notFoundPage h1 {
+    color: var(--accent-strong);
     font-size: 5rem;
     margin: 0;
 }
 
 .notFoundPage p {
+    color: var(--text-body-muted);
     max-width: 40rem;
 }
+
+.notFoundPage a {
+  color: var(--text-primary);
+}
+
 .pageArea {
   grid-column: 2 / -1;
   height: 100%;
@@ -447,31 +606,35 @@ a.relationChip:hover {
 }
 
 .homeView .eyebrow {
-  color: #9b2f31;
+  color: var(--accent-strong);
   display: block;
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .homeView h1 {
+  color: var(--text-heading);
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.1;
   margin: 6px 0 24px;
 }
 
 .homeView blockquote {
-  border-left: 4px solid #9b2f31;
-  color: #3c3631;
-  font-size: 17px;
+  border-left: 3px solid var(--accent);
+  color: var(--text-quote);
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 19px;
+  font-style: italic;
   margin: 0 0 20px;
   max-width: 640px;
   padding-left: 16px;
 }
 
 .homeView p {
-  color: #45403a;
+  color: var(--text-body-muted);
   font-size: 16px;
   max-width: 640px;
 }
@@ -486,53 +649,58 @@ a.relationChip:hover {
 
 .creationStep {
   align-items: flex-start;
-  background: #fffdf8;
-  border: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
   color: inherit;
   display: flex;
   gap: 12px;
   padding: 16px;
   text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .creationStep:hover {
-  border-color: #9b2f31;
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
 }
 
 .creationStep svg {
-  color: #9b2f31;
+  color: var(--accent-strong);
   flex: 0 0 auto;
   margin-top: 2px;
 }
 
 .creationStep strong {
+  color: var(--text-heading);
   display: block;
   font-size: 15px;
 }
 
 .creationStep span {
-  color: #72695f;
+  color: var(--text-muted);
   font-size: 13px;
 }
 
 .indexView .eyebrow {
-  color: #9b2f31;
+  color: var(--accent-strong);
   display: block;
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
 .indexView h1 {
+  color: var(--text-heading);
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.1;
   margin: 6px 0 16px;
 }
 
 .indexIntro {
-  color: #45403a;
+  color: var(--text-body-muted);
   font-size: 16px;
   margin: 0 0 28px;
   max-width: 640px;
@@ -543,7 +711,8 @@ a.relationChip:hover {
 }
 
 .indexGroup h2 {
-  border-bottom: 1px solid #ded3c5;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
   font-size: 15px;
   margin: 0 0 14px;
   padding-bottom: 8px;
@@ -557,10 +726,10 @@ a.relationChip:hover {
 
 .indexCard {
   align-items: center;
-  background: #fffdf8;
-  border: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
-  color: #2d2925;
+  color: var(--text-primary);
   cursor: pointer;
   display: flex;
   font: inherit;
@@ -568,15 +737,17 @@ a.relationChip:hover {
   padding: 12px 14px;
   text-align: left;
   text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 .indexCard:hover {
-  border-color: #9b2f31;
-  color: #9b2f31;
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+  color: var(--accent-hover);
 }
 
 .indexCard svg {
-  color: #9b2f31;
+  color: var(--accent-strong);
   flex: 0 0 auto;
 }
 
@@ -588,8 +759,8 @@ a.relationChip:hover {
   display: grid;
   gap: 1px;
   grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-  background: #ded3c5;
-  border: 1px solid #ded3c5;
+  background: var(--border);
+  border: 1px solid var(--border);
   border-radius: 10px;
   margin: 0 0 28px;
   max-width: 860px;
@@ -597,23 +768,24 @@ a.relationChip:hover {
 }
 
 .statCard {
-  background: linear-gradient(180deg, #fffdf8, #fbf6ec);
+  background: var(--bg-stat-card);
   padding: 16px 18px;
 }
 
 .statLabel {
-  color: #9b2f31;
+  color: var(--accent-strong);
   display: block;
+  font-family: Cinzel, Georgia, serif;
   font-size: 11px;
-  font-weight: 800;
-  letter-spacing: 0.04em;
+  font-weight: 700;
+  letter-spacing: 0.06em;
   margin-bottom: 6px;
   text-transform: uppercase;
 }
 
 .metaLine {
   align-items: center;
-  color: #45403a;
+  color: var(--text-body-muted);
   display: flex;
   font-size: 14px;
   gap: 8px;
@@ -621,6 +793,7 @@ a.relationChip:hover {
 }
 
 .statCard strong {
+  color: var(--text-heading);
   display: block;
   font-size: 17px;
 }
@@ -634,8 +807,8 @@ a.relationChip:hover {
 }
 
 .relatedGroup h2 {
-  border-bottom: 1px solid #ded3c5;
-  color: #211f1d;
+  border-bottom: 1px solid var(--border);
+  color: var(--text-primary);
   font-size: 15px;
   margin: 0 0 12px;
   padding-bottom: 8px;
@@ -649,30 +822,33 @@ a.relationChip:hover {
 
 .relatedRow {
   align-items: center;
-  background: #fffdf8;
-  border: 1px solid #ded3c5;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
   border-radius: 8px;
-  color: #2d2925;
+  color: var(--text-primary);
   display: flex;
   gap: 12px;
   padding: 8px 12px;
   text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
 
 a.relatedRow:hover {
-  border-color: #9b2f31;
-  color: #9b2f31;
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+  color: var(--accent-hover);
 }
 
 .powerLevel {
   align-items: center;
   background: #9b2f31;
   border-radius: 999px;
-  color: #f8f1e7;
+  color: #f6ece0;
   display: flex;
   flex: 0 0 auto;
+  font-family: Cinzel, Georgia, serif;
   font-size: 12px;
-  font-weight: 800;
+  font-weight: 700;
   height: 22px;
   justify-content: center;
   width: 22px;
@@ -693,9 +869,9 @@ a.relatedRow:hover {
 
   .mobileTopBar {
     align-items: center;
-    background: #171615;
-    border-bottom: 1px solid #2c2926;
-    color: #f8f1e7;
+    background: #0f0c0b;
+    border-bottom: 1px solid #241c19;
+    color: #e7ded0;
     display: flex;
     flex: 0 0 auto;
     gap: 14px;
@@ -703,7 +879,12 @@ a.relatedRow:hover {
   }
 
   .mobileTopBar strong {
+    font-family: Cinzel, Georgia, serif;
     font-size: 16px;
+  }
+
+  .mobileTopBar .themeToggle {
+    margin-left: auto;
   }
 
   .sidebarClose {
@@ -711,7 +892,7 @@ a.relatedRow:hover {
   }
 
   .sidebarBackdrop.visible {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(0, 0, 0, 0.65);
     display: block;
     inset: 0;
     position: fixed;
@@ -735,7 +916,7 @@ a.relatedRow:hover {
   }
 
   .listPane {
-    border-bottom: 1px solid #ddd4c7;
+    border-bottom: 1px solid var(--border);
     border-right: 0;
     display: none;
   }

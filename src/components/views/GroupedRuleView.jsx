@@ -7,10 +7,36 @@ import StatBlock from "../StatBlock";
 import RelatedGroups from "../RelatedGroups";
 import LoadingState from "../States/LoadingState";
 
+// Regroupe les éléments consécutifs partageant la même clé (le tableau doit
+// déjà être trié selon cette clé, ex. via `itemSort`).
+function groupConsecutive(items, keyFn) {
+    const groups = [];
+
+    for (const item of items) {
+        const key = keyFn(item);
+        const last = groups[groups.length - 1];
+
+        if (last && last.key === key) {
+            last.items.push(item);
+        } else {
+            groups.push({ key, items: [item] });
+        }
+    }
+
+    return groups;
+}
+
 /**
  * Vue générique "catégories x valeur groupée" (ex. Rituels par niveau,
- * Atouts & Handicaps par coût). `groups` est la liste fixe des valeurs
- * possibles à afficher pour chaque catégorie.
+ * Atouts & Handicaps par type). `groups` est la liste fixe des valeurs
+ * possibles à afficher pour chaque catégorie ; les valeurs peuvent être
+ * numériques (niveau) ou textuelles (type), la comparaison se fait en texte.
+ * `itemSort` trie les fiches d'un groupe (ex. par coût puis alphabétique).
+ * `itemSubGroup` ({ key, label }) affiche un sous-titre entre les fiches
+ * quand la clé change (le tableau doit déjà être trié par cette clé via
+ * `itemSort`) ; ex. "Atouts à 1 point" puis "Atouts à 2 points".
+ * `showGroupBadge` masque le badge rond (peu lisible pour un texte long
+ * comme un nom de type) sur les cartes de l'index.
  *
  * `itemStatFields`/`itemRelatedGroups` sont optionnels : quand fournis, ils
  * remplacent le tableau générique de propriétés pour chaque fiche affichée
@@ -42,6 +68,9 @@ export default function GroupedRuleView({
     singleItemStatFields,
     singleItemRelatedGroups,
     itemFilter = () => true,
+    itemSort,
+    itemSubGroup,
+    showGroupBadge = true,
     resolveBackPath,
 }) {
 
@@ -54,24 +83,28 @@ export default function GroupedRuleView({
         .map(key => loadedCollections[key])
         .filter(Boolean);
 
+    // Comparaison en texte plutôt qu'en nombre : les valeurs groupées sont
+    // parfois numériques (niveau, coût) et parfois textuelles (type).
     function itemGroupValue(item) {
         const property = normalizeProperty(item.properties?.[propertyName]);
-        return groups.find(value => Number(value) === Number(property.value)) ?? null;
+        return groups.find(value => String(value) === String(property.value)) ?? null;
     }
 
-    const selectedValue = groups.find(value => Number(value) === Number(groupValue));
+    const selectedValue = groups.find(value => String(value) === String(groupValue));
     const selected = collectionKey && selectedValue !== undefined
         ? { key: collectionKey, value: selectedValue }
         : null;
 
-    const selectedItems = selected
+    const filteredItems = selected
         ? (loadedCollections[selected.key]?.items || [])
             .filter(item => itemGroupValue(item) === selected.value)
             .filter(itemFilter)
         : [];
 
+    const selectedItems = itemSort ? [...filteredItems].sort(itemSort) : filteredItems;
+
     function selectGroup(key, value) {
-        navigate(`${activeNavigation.path}/${key}/${value}`);
+        navigate(`${activeNavigation.path}/${key}/${encodeURIComponent(value)}`);
     }
 
     if (!loading && !selected && activeItem) {
@@ -127,7 +160,7 @@ export default function GroupedRuleView({
                                             className="indexCard"
                                             onClick={() => selectGroup(collection.key, value)}
                                         >
-                                            <span className="powerLevel">{value}</span>
+                                            {showGroupBadge ? <span className="powerLevel">{value}</span> : null}
                                             <span>{formatGroupLabel(value)}</span>
                                         </button>
                                     ))}
@@ -189,6 +222,28 @@ export default function GroupedRuleView({
 
                         {selectedItems.length === 0 ? (
                             <p className="empty">{emptyMessage}</p>
+                        ) : itemSubGroup ? (
+                            groupConsecutive(selectedItems, itemSubGroup.key).map(subGroup => (
+                                <div key={subGroup.key} className="detailSubGroup">
+
+                                    <h2 className="detailSubGroupTitle">
+                                        {itemSubGroup.label(subGroup.key, loadedCollections[selected.key]?.label)}
+                                    </h2>
+
+                                    {subGroup.items.map(item => (
+                                        <section key={item.id} className="ritualEntry">
+                                            <h3>{item.title}</h3>
+                                            {itemStatFields ? <StatBlock item={item} fields={itemStatFields} /> : null}
+                                            {itemRelatedGroups ? <RelatedGroups item={item} groups={itemRelatedGroups} /> : null}
+                                            <ItemDetailBody
+                                                item={item}
+                                                hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
+                                            />
+                                        </section>
+                                    ))}
+
+                                </div>
+                            ))
                         ) : (
                             selectedItems.map(item => (
                                 <section key={item.id} className="ritualEntry">

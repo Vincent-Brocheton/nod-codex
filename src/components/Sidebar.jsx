@@ -1,8 +1,8 @@
-import { BookOpen, Search, X } from "lucide-react";
+import { BookOpen, Moon, Search, Sun, X } from "lucide-react";
 import { navigation } from "../config/navigation";
 import AppIcon from "./AppIcon";
 
-export default function Sidebar({ wiki, open, onClose }) {
+export default function Sidebar({ wiki, open, onClose, theme, onToggleTheme }) {
 
   const { search } = wiki;
   const { query, setQuery } = search;
@@ -30,6 +30,16 @@ export default function Sidebar({ wiki, open, onClose }) {
             <strong>Wiki Vampire</strong>
             <span>Règles du GN</span>
           </div>
+
+          {onToggleTheme ? (
+            <button
+              className="themeToggle"
+              onClick={onToggleTheme}
+              aria-label={theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"}
+            >
+              {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+            </button>
+          ) : null}
 
           <button
             className="sidebarClose"

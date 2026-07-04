@@ -1,16 +1,18 @@
 import "../styles.css";
 import { useEffect, useState } from "react";
-import { Menu } from "lucide-react";
+import { Menu, Moon, Sun } from "lucide-react";
 import Sidebar from "../components/Sidebar";
 import WikiContent from "../components/WikiContent";
 import ErrorState from "../components/States/ErrorState";
 import useWiki from "../hooks/useWiki";
+import useTheme from "../hooks/useTheme";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 
 function HomePage() {
     const { section, slug, collectionKey, groupValue } = useParams();
     const [navOpen, setNavOpen] = useState(false);
+    const { theme, toggleTheme } = useTheme();
 
     const wiki = useWiki({
         section,
@@ -46,9 +48,23 @@ function HomePage() {
                     <Menu size={22} />
                 </button>
                 <strong>Wiki Vampire</strong>
+
+                <button
+                    className="themeToggle"
+                    onClick={toggleTheme}
+                    aria-label={theme === "dark" ? "Activer le mode clair" : "Activer le mode sombre"}
+                >
+                    {theme === "dark" ? <Sun size={16} /> : <Moon size={16} />}
+                </button>
             </header>
 
-            <Sidebar wiki={wiki} open={navOpen} onClose={() => setNavOpen(false)} />
+            <Sidebar
+                wiki={wiki}
+                open={navOpen}
+                onClose={() => setNavOpen(false)}
+                theme={theme}
+                onToggleTheme={toggleTheme}
+            />
 
             <WikiContent
                 wiki={wiki}

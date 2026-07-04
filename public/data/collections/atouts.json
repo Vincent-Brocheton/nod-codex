@@ -3,20 +3,29 @@
   "label": "Atouts",
   "group": "Atouts et Handicaps",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-04T17:57:50.239Z",
+  "generatedAt": "2026-07-04T21:42:17.346Z",
   "propertyOptions": {
     "Coût": [
       "1",
-      "2"
+      "2",
+      "4",
+      "3"
+    ],
+    "Type": [
+      "Clan",
+      "Camarilla",
+      "Sabbat",
+      "Général",
+      "Anarch'"
     ]
   },
   "items": [
     {
       "id": "39388b48-e48e-8048-a9de-fc3c8186830b",
-      "slug": "atout-1",
-      "title": "Atout 1",
-      "notionUrl": "https://app.notion.com/p/Atout-1-39388b48e48e8048a9defc3c8186830b",
-      "lastEditedTime": "2026-07-04T12:21:00.000Z",
+      "slug": "a-l-affut",
+      "title": "A l’affût",
+      "notionUrl": "https://app.notion.com/p/A-l-aff-t-39388b48e48e8048a9defc3c8186830b",
+      "lastEditedTime": "2026-07-04T21:20:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -26,28 +35,75 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
         "Clan": {
           "type": "relation",
           "value": []
         },
         "Nom": {
           "type": "text",
-          "value": "Atout 1"
+          "value": "A l’affût"
         }
       },
       "content": [
         {
           "type": "heading_2",
           "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant les Nuits des troubles, les Anarch ont mis sur écoute les moyens de communications des Chasseurs de vampires. Ils ont utilisé ces informations à la fois pour éviter les Chasseurs et pour les inciter à attaquer le Sabbat et la Camarilla. Bien que certaines organisations de Chasseurs ont amélioré leur sécurité (et que certaines ne pouvaient pas être mises sur écoute), vous avez quand même des alertes concernant des raids humains de la part de vos contacts dans le Mouvement. Vous pouvez dépenser une AIP pour en apprendre plus sur les Chasseurs dans votre périmètre et si vous le souhaitez, vous pouvez leur transmettre des informations (vraies ou fausses)."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8086-a675-d9f716058306",
+      "slug": "affranchi",
+      "title": "Affranchi",
+      "notionUrl": "https://app.notion.com/p/Affranchi-39388b48e48e8086a675d9f716058306",
+      "lastEditedTime": "2026-07-04T21:21:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Affranchi"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous faites parti d'un gang Anarch bien connu. De plus, on vous considère comme l'un de ses membres les plus éminent, responsable de sa réputation (positive ou négative). D'autres membres du gang sont fier de la renommée du groupe, mais votre nom et celui du gang sont entremêlés. Lorsque vous achetez cet atout, vous gagnez le statut du nom de votre gang. Ce statut a la même fonction que le statut Surnom. Si vous quittez votre gang, vous devez soit rejoindre un autre gang (et changer de surnom) soit perdre cet atout sans récupérer l'XP dépensé."
         }
       ]
     },
     {
       "id": "39388b48-e48e-80a9-a760-d9e9097fde3b",
-      "slug": "atout-2",
-      "title": "Atout 2",
-      "notionUrl": "https://app.notion.com/p/Atout-2-39388b48e48e80a9a760d9e9097fde3b",
-      "lastEditedTime": "2026-07-04T12:21:00.000Z",
+      "slug": "ancien-de-la-revolution",
+      "title": "Ancien de la Révolution",
+      "notionUrl": "https://app.notion.com/p/Ancien-de-la-R-volution-39388b48e48e80a9a760d9e9097fde3b",
+      "lastEditedTime": "2026-07-04T21:12:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -57,19 +113,359 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
         "Clan": {
           "type": "relation",
           "value": []
         },
         "Nom": {
           "type": "text",
-          "value": "Atout 2"
+          "value": "Ancien de la Révolution"
         }
       },
       "content": [
         {
           "type": "heading_2",
           "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet atout ne peut être acheté que lors de la création du personnage. Le mouvement Anarch est composé principalement de jeunes nouveaux-nés, Étreint depuis peu et d'Ancillas. Un joueur qui souhaite acheter un 4ème ou 5ème niveau de Génération doit d'abord acheter Ancien de la Révolution. Si vous quittez les Anarchs pour rejoindre la Camarilla (ou le Sabbat), vous récupérez l'XP dépensé pour cet atout, tout en conservant vos niveaux de génération. Si votre personnage atteint la génération 6 ou 7 suite à une (ou plusieurs) diableries, il n'a pas besoin d'acheter cet atout.\nIl est a noter qu'acheter cet atout n'indique pas que l'Anarch a été Étreint avant les années 1800, cela correspond à l'atout \"Old Dog\"."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-802f-9a7d-e2f4d6af44e2",
+      "slug": "dhampir",
+      "title": "Dhampir",
+      "notionUrl": "https://app.notion.com/p/Dhampir-39388b48e48e802f9a7de2f4d6af44e2",
+      "lastEditedTime": "2026-07-04T21:14:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Dhampir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut prendre cet atout que s'il n'a pas de point en Génération. Un Dhampir est l'enfant d'un mortel et d'un Semblable, lui donnant une existence à cheval entre la vie et la non-mort. Cela ne devrait pas pouvoir être possible, mais ça l'est de façon très exceptionnelle. De part leur nature, les Dhampir sont jeunes, les plus vieux ont 25 ans. Bien qu'ils soient traités comme des goules, les Dhampir ne sont pas forcément lié au sang et n'ont pas de domitor.\nCréez votre personnage en utilisant les règles spéciales pour les goules, sauf celles concernant cet atout. Les Dhampirs sont des créatures surnaturelles, pas des mortels. Ils n'ont pas de disciplines de clan. Ils peuvent obtenir 7 niveaux (plutôt que 5 pour les goules) dans n'importe quelle discipline de leur choix. Cependant, un Dhampir ne peut jamais obtenir de discipline au dessus du niveau 3. Un Dhampir n'a pas de Bête et ne peut obtenir de voie de l'illumination. Contrairement à une goule, un Dhampir ne peut pas être Étreint, toute tentative se finira par la mort du Dhampir."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8004-b431-c8cccd8675af",
+      "slug": "intrepide",
+      "title": "Intrépide",
+      "notionUrl": "https://app.notion.com/p/Intr-pide-39388b48e48e8004b431c8cccd8675af",
+      "lastEditedTime": "2026-07-04T21:15:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Intrépide"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre dévouement aux idéaux Anarch de la libertas vont bien au delà de l'idéalisme. La liberté est au cœur de votre être, vous ne pouvez supporter d'être contrôlé. Si vous gagnez un jet contre un Pouvoir tentant de contrôler votre esprit (comme Domination), vous êtes immunisé de tout Pouvoir de contrôle mental venant de ce personnage jusqu'à la fin de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-809b-92a2-f45b61684482",
+      "slug": "lion-de-la-cause",
+      "title": "Lion de la Cause",
+      "notionUrl": "https://app.notion.com/p/Lion-de-la-Cause-39388b48e48e809b92a2f45b61684482",
+      "lastEditedTime": "2026-07-04T21:16:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lion de la Cause"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque fois qu'un appel au combat est fait, vous en êtes. Tout du long de votre passé, vous avez toujours combattu aux côtés de votre camarades Anarch, vous défendant contre toutes menace et défendant les autres au péril de votre non-vie. Vous êtes connu et reconnu par le Mouvement pour votre loyauté. Vous êtes considéré comme un Lion au sein de la secte. Lorsque vous participez à un appel au combat, en cas de combat contre l'ennemi de cet appel, tout les Anarch à 3m de distance de vous gagnent un bonus de 2 en Bagarre ou Mêlée. Ce bonus ne peut les faire dépasser votre propre niveau dans ces compétences là."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8096-9104-c59677bd33b9",
+      "slug": "sauvage",
+      "title": "Sauvage",
+      "notionUrl": "https://app.notion.com/p/Sauvage-39388b48e48e80969104c59677bd33b9",
+      "lastEditedTime": "2026-07-04T21:22:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sauvage"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes bien connu de milieux peu recommandables, vous passez vraisemblablement beaucoup de temps parmi des gang-bangers, des forçats ou avec des bikers. Vous avez donc une réputation sulfureuse bien méritée.\nVous recevez un bonus de 1 à vos jets de bagarre ou de conduite et un bonus de 2 pour vous défendre contre des Pouvoirs utilisé par des individus ayant une position officielle au sein de la Camarilla ou du Sabbat."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80b4-8a51-f29dc9a78822",
+      "slug": "sens-moral",
+      "title": "Sens moral",
+      "notionUrl": "https://app.notion.com/p/Sens-moral-39388b48e48e80b48a51f29dc9a78822",
+      "lastEditedTime": "2026-07-04T21:20:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sens moral"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez passé beaucoup de temps a protéger et cultiver votre Humanité. Par cet effort, vous avez acquis la capacité de mieux contrôler votre Bête que la plupart des Semblables. Vous avez vraisemblablement encore beaucoup de contacts avec les mortels; que ce soit par un travail de nuit, ou en participant à des événements mondains.\nSi vous passez 10 minutes a conseiller un Semblable qui a un trait de Bête, ce Semblable peut retenter un jet de flétrissure qu'il a perdu cette nuit. Si ce second essai est une réussite, il retire toute pénalité obtenue lors de l'échec de flétrissure précédent.\nUn personnage ne peut bénéficier que d'une application de cet atout par partie."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80cd-b66f-ec0467912975",
+      "slug": "sorcier-amateur",
+      "title": "Sorcier amateur",
+      "notionUrl": "https://app.notion.com/p/Sorcier-amateur-39388b48e48e80cdb66fec0467912975",
+      "lastEditedTime": "2026-07-04T21:19:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sorcier amateur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous n'êtes peut-être pas un pratiquant assidu de la magie, mais vous avez appris quelques trucs. Un personnage avec cet atout peut faire quelques rituels magiques même sans avoir de point en Thaumaturgie. Vous n'avez pas besoin d'acheter l'atout Entraînement Thaumaturgique pour acheter Sorcier Amateur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand un joueur achète cet atout, il choisit un certain nombre de rituels thaumaturgiques ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "soit trois rituels de niveau 1"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "soit deux rituels de niveau 2"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "soit un rituel niveau 3"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage doit alors acheter ces rituels au coût XP standard. Les Anarchs qui ont de la Thaumaturgie sont particulièrement utiles au Mouvement (et particulièrement persécutés par les Tremere de la Camarilla et les Tzimisce Kolduns du Sabbat). Rester parmi les Anarchs apporte un niveau de sécurité personnelle et politique que le personnage n’aurait jamais sinon. Si ce personnage perd son statut d'Engagé dans le mouvement Anarch, il est sorti du jeu, et il peut être supposé qu'il ait été localisé et détruit par ses adversaires sorciers."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8000-8776-cdec6a005fa8",
+      "slug": "tech-junkie",
+      "title": "Tech Junkie",
+      "notionUrl": "https://app.notion.com/p/Tech-Junkie-39388b48e48e80008776cdec6a005fa8",
+      "lastEditedTime": "2026-07-04T21:20:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Tech Junkie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes très connu, dans le cercle des technophiles ; peut-être étiez-vous un hacker célèbre de votre vivant, ou peut-être que votre fascination pour la technologie vous a fait découvrir le monde vampirique, forçant un vampire à vous Étreindre parce que vous deveniez une menace pour la Mascarade. Vous possédez des objets technologiques à peine inventés, ou encore en développement, avant même qu'ils soient disponibles au public. Vous recevez un bonus de +2 à votre réserve de test lorsque cela implique les compétences Informatique ou Sciences, et vous pouvez dépenser une action inter-partie pour ajouter la Qualité Flashy ou Banal sur un équipement. Cet ajout peut permettre à l'objet de dépasser la limite maximale de 2 qualités."
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80e8-8321-dda3930d6621",
+      "slug": "vieux-singe",
+      "title": "Vieux singe",
+      "notionUrl": "https://app.notion.com/p/Vieux-singe-39388b48e48e80e88321dda3930d6621",
+      "lastEditedTime": "2026-07-04T21:17:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Anarch'"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vieux singe"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet atout doit être acheté à la création du personnage. Vous avez été Étreint avant 1800. Peut-être que vous étiez membre de la révolte Anarch initiale, ou vous étiez présent à la signature de la Convention de Thorns.\nIl est a noter qu'acheter cet atout ne donne aucun bonus de Génération."
         }
       ]
     }
