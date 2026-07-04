@@ -3,18 +3,24 @@
   "label": "Atouts",
   "group": "Atouts et Handicaps",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-04T11:47:47.405Z",
+  "generatedAt": "2026-07-04T12:29:20.684Z",
+  "propertyOptions": {
+    "Coût": [
+      "1",
+      "2"
+    ]
+  },
   "items": [
     {
       "id": "39388b48-e48e-8048-a9de-fc3c8186830b",
       "slug": "atout-1",
       "title": "Atout 1",
       "notionUrl": "https://app.notion.com/p/Atout-1-39388b48e48e8048a9defc3c8186830b",
-      "lastEditedTime": "2026-07-04T10:53:00.000Z",
+      "lastEditedTime": "2026-07-04T12:21:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
-          "value": ""
+          "value": "1"
         },
         "Lignées": {
           "type": "relation",
@@ -41,11 +47,11 @@
       "slug": "atout-2",
       "title": "Atout 2",
       "notionUrl": "https://app.notion.com/p/Atout-2-39388b48e48e80a9a760d9e9097fde3b",
-      "lastEditedTime": "2026-07-04T10:53:00.000Z",
+      "lastEditedTime": "2026-07-04T12:21:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
-          "value": ""
+          "value": "2"
         },
         "Lignées": {
           "type": "relation",

@@ -241,9 +241,37 @@ async function normalizePage(page) {
   };
 }
 
+async function fetchDatabase(databaseId) {
+  return notionRequest(`/databases/${databaseId}`);
+}
+
+/**
+ * Options configurées (dans Notion) pour les propriétés select/multi_select
+ * d'une base, ex. { "Coût": ["1", "2"] }. Sert à connaître l'ensemble des
+ * valeurs possibles même si aucune fiche ne les utilise encore.
+ */
+function extractPropertyOptions(database) {
+  const propertyOptions = {};
+
+  for (const [name, property] of Object.entries(database.properties || {})) {
+    if (property.type === "select") {
+      propertyOptions[name] = property.select.options.map((option) => option.name);
+    } else if (property.type === "multi_select") {
+      propertyOptions[name] = property.multi_select.options.map((option) => option.name);
+    }
+  }
+
+  return propertyOptions;
+}
+
 async function fetchCollectionItems(collection) {
   const databaseId = process.env[collection.envVar];
-  const pages = await queryDatabase(databaseId);
+
+  const [database, pages] = await Promise.all([
+    fetchDatabase(databaseId),
+    queryDatabase(databaseId),
+  ]);
+
   const items = [];
 
   for (const page of pages) {
@@ -252,7 +280,7 @@ async function fetchCollectionItems(collection) {
 
   items.sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
-  return { databaseId, items };
+  return { databaseId, items, propertyOptions: extractPropertyOptions(database) };
 }
 
 /**
@@ -288,7 +316,7 @@ function resolveRelations(items, registry) {
   }
 }
 
-async function writeCollectionFile(collection, databaseId, items) {
+async function writeCollectionFile(collection, databaseId, items, propertyOptions) {
   validateUniqueSlugs(items, collection.label);
 
   const output = {
@@ -297,6 +325,7 @@ async function writeCollectionFile(collection, databaseId, items) {
     group: collection.group,
     notionDatabaseId: databaseId,
     generatedAt: new Date().toISOString(),
+    propertyOptions,
     items
   };
 
@@ -353,17 +382,17 @@ async function main() {
 
   const fetched = [];
   for (const collection of configuredCollections) {
-    const { databaseId, items } = await fetchCollectionItems(collection);
-    fetched.push({ collection, databaseId, items });
+    const { databaseId, items, propertyOptions } = await fetchCollectionItems(collection);
+    fetched.push({ collection, databaseId, items, propertyOptions });
   }
 
   // Les relations ne peuvent être résolues qu'une fois toutes les
   // collections chargées (une relation peut pointer vers une autre base).
   const registry = buildRegistry(fetched);
 
-  for (const { collection, databaseId, items } of fetched) {
+  for (const { collection, databaseId, items, propertyOptions } of fetched) {
     resolveRelations(items, registry);
-    await writeCollectionFile(collection, databaseId, items);
+    await writeCollectionFile(collection, databaseId, items, propertyOptions);
   }
 
   const skippedCollections = wikiCollections.filter((collection) => !process.env[collection.envVar]);

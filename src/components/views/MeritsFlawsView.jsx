@@ -1,58 +1,30 @@
-import { FileText } from "lucide-react";
-import { useNavigate } from "react-router-dom";
-import LoadingState from "../States/LoadingState";
+import GroupedRuleView from "./GroupedRuleView";
 
-export default function MeritsFlawsView({ wiki }) {
+export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
 
-    const navigate = useNavigate();
-    const { loadedCollections, computed } = wiki.collections;
+    const { loadedCollections } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
 
-    const collections = activeNavigation.collections
-        .map(key => loadedCollections[key])
-        .filter(Boolean);
-
-    const total = collections.reduce((count, collection) => count + collection.items.length, 0);
+    // Les valeurs possibles viennent de la configuration Notion (options du
+    // champ "Coût"), pas d'une plage fixe : on ne montre que les coûts
+    // réellement prévus dans les bases.
+    const costs = [...new Set(
+        activeNavigation.collections
+            .flatMap(key => loadedCollections[key]?.propertyOptions?.["Coût"] || [])
+            .map(Number)
+            .filter(Number.isFinite)
+    )].sort((a, b) => a - b);
 
     return (
-        <section className="listPane">
-
-            <header>
-                <span>Règles</span>
-                <h1>{activeNavigation.label}</h1>
-                <p>{computed.loading ? "…" : `${total} fiche(s)`}</p>
-            </header>
-
-            {computed.loading ? (
-                <LoadingState message="Chargement des fiches..." />
-            ) : (
-                <div className="itemList">
-                    {collections.map(collection => (
-                        <div key={collection.key} className="itemGroup">
-
-                            <h2>{collection.label}</h2>
-
-                            {collection.items.map(item => (
-                                <button
-                                    key={item.id}
-                                    className={item.id === computed.activeItem?.id ? "selected" : ""}
-                                    onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
-                                >
-                                    <FileText aria-hidden="true" size={17} />
-                                    <span>{item.title}</span>
-                                </button>
-                            ))}
-
-                            {collection.items.length === 0 ? (
-                                <p className="empty">Aucune fiche dans cette base pour le moment.</p>
-                            ) : null}
-
-                        </div>
-                    ))}
-                </div>
-            )}
-
-        </section>
+        <GroupedRuleView
+            wiki={wiki}
+            collectionKey={collectionKey}
+            groupValue={groupValue}
+            propertyName="Coût"
+            groups={costs}
+            formatGroupLabel={(value) => `${value} point${Number(value) > 1 ? "s" : ""}`}
+            introText="Voici les atouts et handicaps de la chronique, classés par coût en points."
+            emptyMessage="Aucune fiche à ce coût pour le moment."
+        />
     );
-
 }

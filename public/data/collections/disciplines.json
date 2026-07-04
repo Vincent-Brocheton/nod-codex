@@ -3,7 +3,62 @@
   "label": "Disciplines",
   "group": "Disciplines et Pouvoirs",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-04T11:47:47.399Z",
+  "generatedAt": "2026-07-04T12:29:20.678Z",
+  "propertyOptions": {
+    "Spécialité 2": [
+      "Intelligence",
+      "Astuce",
+      "Perception",
+      "Apparence",
+      "Manipulation",
+      "Charisme",
+      "Vigueur",
+      "Dextérité",
+      "Force"
+    ],
+    "Jet de défense": [
+      "Social",
+      "Empathie",
+      "Animaux",
+      "Mental",
+      "Investigation",
+      "Aucun",
+      "Subterfuge",
+      "Erudition",
+      "Furtivité",
+      "Volonté",
+      "Physique"
+    ],
+    "Jet d'attaque": [
+      "Social",
+      "Empathie",
+      "Animaux",
+      "Mental",
+      "Investigation",
+      "Aucun",
+      "Subterfuge",
+      "Erudition",
+      "Furtivité",
+      "Intimidation",
+      "Médecine",
+      "Commandement",
+      "Athlétisme",
+      "Physique",
+      "Survie",
+      "Occultisme"
+    ],
+    "Spécialité 1": [
+      "Astuce",
+      "Intelligence",
+      "Perception",
+      "Manipulation",
+      "Apparence",
+      "Charisme",
+      "Vigueur",
+      "Dextérité",
+      "Force"
+    ]
+  },
   "items": [
     {
       "id": "38188b48-e48e-80dd-8229-db7e59244ad1",

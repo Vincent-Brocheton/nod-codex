@@ -3,6 +3,7 @@ import Sidebar from "../components/Sidebar";
 import ItemList from "../components/ItemList";
 import DetailPanel from "../components/DetailPanel";
 import RitualsView from "../components/views/RitualsView";
+import MeritsFlawsView from "../components/views/MeritsFlawsView";
 import SectionIndexView from "../components/views/SectionIndexView";
 import useWiki from "../hooks/useWiki";
 import { useParams } from "react-router-dom";
@@ -36,18 +37,24 @@ function HomePage() {
                                 <RitualsView wiki={wiki} collectionKey={collectionKey} niveau={niveau} />
                             )
 
-                            : slug
+                            : wiki.navigation.activeNavigation.view === "merits-flaws"
+
                                 ? (
-                                    <>
-                                        <ItemList wiki={wiki} />
-                                        <DetailPanel wiki={wiki} />
-                                    </>
+                                    <MeritsFlawsView wiki={wiki} collectionKey={collectionKey} groupValue={niveau} />
                                 )
-                                : (
-                                    <div className="pageArea">
-                                        <SectionIndexView wiki={wiki} />
-                                    </div>
-                                )
+
+                                : slug
+                                    ? (
+                                        <>
+                                            <ItemList wiki={wiki} />
+                                            <DetailPanel wiki={wiki} />
+                                        </>
+                                    )
+                                    : (
+                                        <div className="pageArea">
+                                            <SectionIndexView wiki={wiki} />
+                                        </div>
+                                    )
                     )
 
                     : (

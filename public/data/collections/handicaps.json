@@ -3,14 +3,20 @@
   "label": "Handicaps",
   "group": "Atouts et Handicaps",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-07-04T11:47:47.406Z",
+  "generatedAt": "2026-07-04T12:29:20.684Z",
+  "propertyOptions": {
+    "Coût": [
+      "1",
+      "2"
+    ]
+  },
   "items": [
     {
       "id": "39388b48-e48e-8092-af9f-da456f37c4af",
       "slug": "handicap-1",
       "title": "Handicap 1",
       "notionUrl": "https://app.notion.com/p/Handicap-1-39388b48e48e8092af9fda456f37c4af",
-      "lastEditedTime": "2026-07-04T10:54:00.000Z",
+      "lastEditedTime": "2026-07-04T12:21:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -22,7 +28,7 @@
         },
         "Coût": {
           "type": "select",
-          "value": ""
+          "value": "1"
         },
         "Name": {
           "type": "text",
@@ -41,7 +47,7 @@
       "slug": "handicap-2",
       "title": "Handicap 2",
       "notionUrl": "https://app.notion.com/p/Handicap-2-39388b48e48e80628273c7d453a0c69a",
-      "lastEditedTime": "2026-07-04T10:54:00.000Z",
+      "lastEditedTime": "2026-07-04T12:21:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -53,7 +59,7 @@
         },
         "Coût": {
           "type": "select",
-          "value": ""
+          "value": "2"
         },
         "Name": {
           "type": "text",
