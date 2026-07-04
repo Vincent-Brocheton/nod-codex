@@ -6,6 +6,21 @@ import LoadingState from "../States/LoadingState";
 import PageNotFoundState from "../States/PageNotFoundState";
 import EmptyState from "../States/EmptyState";
 import { normalizeProperty, isPropertyEmpty } from "../../utils/property";
+import { disciplineRefs } from "../../utils/disciplinePowers";
+import collectionNavPath from "../../utils/collectionNavPath";
+
+function backLinkPath(activeNavigation, activeItem) {
+    if (activeNavigation.view === "discipline-powers") {
+        const disciplineRef = disciplineRefs(activeItem)[0];
+        const disciplinePath = disciplineRef && collectionNavPath(disciplineRef.collectionKey);
+
+        if (disciplineRef && disciplinePath) {
+            return `${disciplinePath}/${disciplineRef.slug}`;
+        }
+    }
+
+    return activeNavigation.path;
+}
 
 export default function GenericDetailView({ wiki }) {
 
@@ -31,9 +46,9 @@ export default function GenericDetailView({ wiki }) {
     return (
         <article className="detailPane">
 
-            <Link to={activeNavigation.path} className="backLink">
+            <Link to={backLinkPath(activeNavigation, activeItem)} className="backLink">
                 <ArrowLeft aria-hidden="true" size={16} />
-                Retour à la liste
+                {activeNavigation.view === "discipline-powers" ? "Retour à la discipline" : "Retour à la liste"}
             </Link>
 
             <header>
