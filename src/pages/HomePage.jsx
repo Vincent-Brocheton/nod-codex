@@ -1,5 +1,5 @@
 import "../styles.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Menu, Moon, Sun } from "lucide-react";
 import Sidebar from "../components/Sidebar";
 import WikiContent from "../components/WikiContent";
@@ -19,9 +19,15 @@ function HomePage() {
         slug,
     });
 
-    useEffect(() => {
+    // Referme le menu mobile à chaque changement de route, en ajustant l'état
+    // pendant le rendu plutôt que dans un effet (évite un rendu en cascade).
+    const routeKey = `${section}/${slug}/${collectionKey}/${groupValue}`;
+    const [prevRouteKey, setPrevRouteKey] = useState(routeKey);
+
+    if (routeKey !== prevRouteKey) {
+        setPrevRouteKey(routeKey);
         setNavOpen(false);
-    }, [section, slug, collectionKey, groupValue]);
+    }
 
     if (wiki.error) {
         return (

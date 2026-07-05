@@ -115,7 +115,6 @@ export default function useCollections(manifest, activeNavigation, route, query)
 
         // Pas de slug dans l'URL : on affiche juste la liste, sans
         // présélectionner de fiche.
-        // eslint-disable-next-line react-hooks/set-state-in-effect
         setActiveItemId("");
     }, [
         activeCollectionKeys,
