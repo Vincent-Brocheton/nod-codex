@@ -1,0 +1,46 @@
+{
+  "key": "regles",
+  "label": "Règles",
+  "group": "Règles",
+  "description": "",
+  "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
+  "generatedAt": "2026-07-05T09:21:48.525Z",
+  "propertyOptions": {
+    "Catégorie": [
+      "Vie",
+      "Liens de sang",
+      "Diablerie",
+      "Humanité",
+      "Dérangements",
+      "Apprentissage",
+      "Antag",
+      "AIP",
+      "Combat",
+      "Défi",
+      "Bête",
+      "Frénésie",
+      "Equipement",
+      "Création de Personnage"
+    ]
+  },
+  "items": [
+    {
+      "id": "39488b48-e48e-8081-813f-ee9388e51e19",
+      "slug": "regle-1",
+      "title": "Règle 1",
+      "notionUrl": "https://app.notion.com/p/R-gle-1-39488b48e48e8081813fee9388e51e19",
+      "lastEditedTime": "2026-07-05T08:35:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Création de Personnage"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Règle 1"
+        }
+      },
+      "content": []
+    }
+  ]
+}

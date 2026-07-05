@@ -1,4 +1,6 @@
-import { COLLECTIONS } from "./collections";
+import { COLLECTIONS } from "./collections.js";
+
+const CHARACTER_CREATION_CATEGORY = "Création de Personnage";
 
 export const navigation = [
     {
@@ -14,10 +16,17 @@ export const navigation = [
             },
             {
                 id: "character-creation",
-                type: "page",
+                type: "collection",
                 label: "Créer son personnage",
                 path: "/creation",
                 icon: "user-plus",
+
+                view: "grouped-list",
+                groupFilter: { property: "Catégorie", only: [CHARACTER_CREATION_CATEGORY] },
+
+                collections: [
+                    COLLECTIONS.REGLES,
+                ],
             },
         ],
     },
@@ -65,7 +74,7 @@ export const navigation = [
                 path: "/lignees",
                 icon: "shield",
 
-                view: "list",
+                view: "lignees",
                 detail: "lignee",
                 hidden: true,
 
@@ -159,10 +168,17 @@ export const navigation = [
         children: [
             {
                 id: "rules-overview",
-                type: "page",
+                type: "collection",
                 label: "Règles générales",
                 path: "/regles",
                 icon: "book-open",
+
+                view: "grouped-list",
+                groupFilter: { property: "Catégorie", exclude: [CHARACTER_CREATION_CATEGORY] },
+
+                collections: [
+                    COLLECTIONS.REGLES,
+                ],
             },
         ],
     },

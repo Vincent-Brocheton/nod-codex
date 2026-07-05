@@ -13,7 +13,7 @@ const RELATED_GROUPS = [
 ];
 
 function coutOf(item) {
-    const value = Number(normalizeProperty(item.properties?.Coût).value);
+    const value = Number(normalizeProperty(item.properties?.["Coût"]).value);
     return Number.isFinite(value) ? value : Infinity;
 }
 
@@ -54,6 +54,11 @@ function resolveBackPath(item) {
     return path ? `${path}/${ref.slug}` : null;
 }
 
+// Type réservé aux atouts/handicaps propres à un Clan : ils n'apparaissent
+// que sur la fiche de ce Clan (via sa relation "Atouts/Handicaps de Clan"),
+// jamais comme catégorie parcourable dans la liste générale.
+const EXCLUDED_TYPES = ["Clan"];
+
 export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
 
     const { loadedCollections } = wiki.collections;
@@ -65,7 +70,7 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
     const types = [...new Set(
         activeNavigation.collections
             .flatMap(key => loadedCollections[key]?.propertyOptions?.Type || [])
-    )];
+    )].filter(type => !EXCLUDED_TYPES.includes(type));
 
     return (
         <GroupedRuleView

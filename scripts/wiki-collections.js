@@ -89,5 +89,12 @@
     group: "Attributs et Compétences",
     envVar: "NOTION_DATABASE_COMPETENCES",
     file: "/data/collections/competences.json"
+  },
+  {
+    key: "regles",
+    label: "Règles",
+    group: "Règles",
+    envVar: "NOTION_DATABASE_REGLES",
+    file: "/data/collections/regles.json"
   }
 ];

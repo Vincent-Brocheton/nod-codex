@@ -2,8 +2,9 @@
   "key": "disciplines",
   "label": "Disciplines",
   "group": "Disciplines et Pouvoirs",
+  "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-04T23:20:59.838Z",
+  "generatedAt": "2026-07-05T09:21:48.513Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -258,18 +259,8 @@
           "value": [
             {
               "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            },
-            {
-              "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu"
-            },
-            {
-              "collectionKey": "clans",
-              "slug": "ravnos",
-              "title": "Ravnos"
             },
             {
               "collectionKey": "clans",
@@ -398,16 +389,6 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien"
-            },
-            {
-              "collectionKey": "clans",
-              "slug": "ravnos",
-              "title": "Ravnos"
-            },
-            {
-              "collectionKey": "clans",
-              "slug": "salubrien",
-              "title": "Salubrien"
             },
             {
               "collectionKey": "clans",
@@ -711,13 +692,7 @@
         },
         "Clans": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "ravnos",
-              "title": "Ravnos"
-            }
-          ]
+          "value": []
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -1045,11 +1020,6 @@
           "value": [
             {
               "collectionKey": "clans",
-              "slug": "emissaire-des-cranes",
-              "title": "Emissaire des crânes"
-            },
-            {
-              "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra"
             },
@@ -1199,21 +1169,6 @@
           "value": [
             {
               "collectionKey": "clans",
-              "slug": "emissaire-des-cranes",
-              "title": "Emissaire des crânes"
-            },
-            {
-              "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            },
-            {
-              "collectionKey": "clans",
-              "slug": "salubrien",
-              "title": "Salubrien"
-            },
-            {
-              "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue"
             }
@@ -1305,192 +1260,6 @@
         "Nom": {
           "type": "text",
           "value": "Harmonisation"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-80b1-887d-c7e8900f7278",
-      "slug": "melpominee",
-      "title": "Melpominée",
-      "notionUrl": "https://app.notion.com/p/Melpomin-e-38188b48e48e80b1887dc7e8900f7278",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Charisme"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Subterfuge"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Apparence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Melpominée"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-80f6-bec7-df882e5bc004",
-      "slug": "mythercellerie",
-      "title": "Mythercellerie",
-      "notionUrl": "https://app.notion.com/p/Mythercellerie-38188b48e48e80f6bec7df882e5bc004",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Erudition"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Mythercellerie"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-806b-b6b0-f9081970e6b1",
-      "slug": "obeah",
-      "title": "Obéah",
-      "notionUrl": "https://app.notion.com/p/Ob-ah-38188b48e48e806bb6b0f9081970e6b1",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Médecine"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "salubrien",
-              "title": "Salubrien"
-            }
-          ]
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Obéah"
         }
       },
       "content": []
@@ -1687,13 +1456,7 @@
         },
         "Clans": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            }
-          ]
+          "value": []
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -1955,66 +1718,6 @@
       "content": []
     },
     {
-      "id": "38188b48-e48e-80a5-8249-f203ae2a5f05",
-      "slug": "sipritus",
-      "title": "Sipritus",
-      "notionUrl": "https://app.notion.com/p/Sipritus-38188b48e48e80a58249f203ae2a5f05",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Charisme"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Sipritus"
-        }
-      },
-      "content": []
-    },
-    {
       "id": "38188b48-e48e-8047-86d5-d53d78ab5efd",
       "slug": "temporis",
       "title": "Temporis",
@@ -2081,126 +1784,6 @@
       "content": []
     },
     {
-      "id": "38188b48-e48e-8072-aaec-fc69c22829f8",
-      "slug": "thanatosis",
-      "title": "Thanatosis",
-      "notionUrl": "https://app.notion.com/p/Thanatosis-38188b48e48e8072aaecfc69c22829f8",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Médecine"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Thanatosis"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-8027-9c42-ea2d7ec5c4d3",
-      "slug": "valeren",
-      "title": "Valeren",
-      "notionUrl": "https://app.notion.com/p/Valeren-38188b48e48e80279c42ea2d7ec5c4d3",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Médecine"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Valeren"
-        }
-      },
-      "content": []
-    },
-    {
       "id": "38188b48-e48e-8008-9ded-eb7c177a735c",
       "slug": "vicissitude",
       "title": "Vicissitude",
@@ -2260,66 +1843,6 @@
         "Nom": {
           "type": "text",
           "value": "Vicissitude"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-803d-b868-d46d8c237683",
-      "slug": "visceratika",
-      "title": "Visceratika",
-      "notionUrl": "https://app.notion.com/p/Visceratika-38188b48e48e803db868d46d8c237683",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Athlétisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Visceratika"
         }
       },
       "content": []

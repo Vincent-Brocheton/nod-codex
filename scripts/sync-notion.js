@@ -27,7 +27,7 @@ async function loadLocalEnv() {
     if (separatorIndex === -1) continue;
 
     const key = trimmed.slice(0, separatorIndex).trim();
-    const value = trimmed.slice(separatorIndex + 1).trim().replace(/^['\"]|['\"]$/g, "");
+    const value = trimmed.slice(separatorIndex + 1).trim().replace(/^['"]|['"]$/g, "");
 
     if (key && process.env[key] === undefined) {
       process.env[key] = value;
@@ -264,6 +264,16 @@ function extractPropertyOptions(database) {
   return propertyOptions;
 }
 
+// Une fiche avec une case à cocher "Visible" décochée est exclue de la
+// synchro (elle n'apparaît nulle part, y compris comme fiche liée). Les
+// bases qui n'ont pas cette propriété ne sont pas concernées.
+function isVisible(item) {
+  const property = item.properties?.Visible;
+  if (!property || property.type !== "checkbox") return true;
+
+  return property.value === true;
+}
+
 async function fetchCollectionItems(collection) {
   const databaseId = process.env[collection.envVar];
 
@@ -278,9 +288,15 @@ async function fetchCollectionItems(collection) {
     items.push(await normalizePage(page));
   }
 
-  items.sort((a, b) => a.title.localeCompare(b.title, "fr"));
+  const visibleItems = items.filter(isVisible);
+  visibleItems.sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
-  return { databaseId, items, propertyOptions: extractPropertyOptions(database) };
+  return {
+    databaseId,
+    items: visibleItems,
+    propertyOptions: extractPropertyOptions(database),
+    description: richTextToPlainText(database.description),
+  };
 }
 
 /**
@@ -316,13 +332,14 @@ function resolveRelations(items, registry) {
   }
 }
 
-async function writeCollectionFile(collection, databaseId, items, propertyOptions) {
+async function writeCollectionFile(collection, databaseId, items, propertyOptions, description) {
   validateUniqueSlugs(items, collection.label);
 
   const output = {
     key: collection.key,
     label: collection.label,
     group: collection.group,
+    description,
     notionDatabaseId: databaseId,
     generatedAt: new Date().toISOString(),
     propertyOptions,
@@ -382,17 +399,17 @@ async function main() {
 
   const fetched = [];
   for (const collection of configuredCollections) {
-    const { databaseId, items, propertyOptions } = await fetchCollectionItems(collection);
-    fetched.push({ collection, databaseId, items, propertyOptions });
+    const { databaseId, items, propertyOptions, description } = await fetchCollectionItems(collection);
+    fetched.push({ collection, databaseId, items, propertyOptions, description });
   }
 
   // Les relations ne peuvent être résolues qu'une fois toutes les
   // collections chargées (une relation peut pointer vers une autre base).
   const registry = buildRegistry(fetched);
 
-  for (const { collection, databaseId, items, propertyOptions } of fetched) {
+  for (const { collection, databaseId, items, propertyOptions, description } of fetched) {
     resolveRelations(items, registry);
-    await writeCollectionFile(collection, databaseId, items, propertyOptions);
+    await writeCollectionFile(collection, databaseId, items, propertyOptions, description);
   }
 
   const skippedCollections = wikiCollections.filter((collection) => !process.env[collection.envVar]);

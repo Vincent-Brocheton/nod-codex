@@ -51,8 +51,10 @@ export function propertyText(property) {
 }
 
 // Propriété "titre" Notion (Nom/Name) : déjà affichée comme titre de la
-// fiche, donc redondante dans un tableau de propriétés.
-const TITLE_PROPERTY_NAMES = new Set(["nom", "name"]);
+// fiche, donc redondante dans un tableau de propriétés. "Visible" est une
+// propriété technique (filtre déjà appliqué à la synchro), pas une donnée
+// de jeu à afficher.
+const META_PROPERTY_NAMES = new Set(["nom", "name", "visible"]);
 
 /**
  * Propriétés d'une fiche prêtes à afficher : normalisées, sans les valeurs
@@ -61,7 +63,7 @@ const TITLE_PROPERTY_NAMES = new Set(["nom", "name"]);
  */
 export function getVisibleProperties(item) {
     return Object.entries(item.properties || {})
-        .filter(([name]) => !TITLE_PROPERTY_NAMES.has(name.trim().toLowerCase()))
+        .filter(([name]) => !META_PROPERTY_NAMES.has(name.trim().toLowerCase()))
         .map(([name, raw]) => [name, normalizeProperty(raw)])
         .filter(([, property]) => !isPropertyEmpty(property));
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-04T23:20:59.851Z",
+  "generatedAt": "2026-07-05T09:21:48.525Z",
   "collections": [
     {
       "key": "disciplines",
@@ -78,6 +78,12 @@
       "label": "Compétences",
       "group": "Attributs et Compétences",
       "file": "/data/collections/competences.json"
+    },
+    {
+      "key": "regles",
+      "label": "Règles",
+      "group": "Règles",
+      "file": "/data/collections/regles.json"
     }
   ]
 }

@@ -1,5 +1,7 @@
 import ListView from "./views/ListView";
 import DisciplinePowersView from "./views/DisciplinePowersView";
+import CategorizedListView from "./views/CategorizedListView";
+import LigneesListView from "./views/LigneesListView";
 
 export default function ItemList({wiki}) {
 
@@ -10,6 +12,12 @@ export default function ItemList({wiki}) {
 
         case "discipline-powers":
             return <DisciplinePowersView wiki={wiki}/>;
+
+        case "grouped-list":
+            return <CategorizedListView wiki={wiki}/>;
+
+        case "lignees":
+            return <LigneesListView wiki={wiki}/>;
 
         case "list":
         default:

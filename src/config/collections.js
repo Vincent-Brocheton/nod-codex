@@ -16,4 +16,6 @@ export const COLLECTIONS = {
 
     MERITS: "atouts",
     FLAWS: "handicaps",
+
+    REGLES: "regles",
 };

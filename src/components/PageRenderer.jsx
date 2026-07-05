@@ -1,6 +1,4 @@
-import CharacterCreationView from "./CharacterCreationView";
 import HomeView from "./HomeView";
-import RulesView from "./RulesView";
 import EmptyState from "./States/EmptyState";
 
 export default function PageRenderer({ wiki }) {
@@ -9,14 +7,8 @@ export default function PageRenderer({ wiki }) {
 
     switch (activeNavigation?.id) {
 
-        case "character-creation":
-            return <CharacterCreationView />;
-
-        case "rules-overview":
-            return <RulesView />;
-
-            case "home":
-                return <HomeView />
+        case "home":
+            return <HomeView />
 
         default:
             return (

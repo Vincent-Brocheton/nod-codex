@@ -2,8 +2,9 @@
   "key": "lignees",
   "label": "Lignées",
   "group": "Clans et Lignées",
+  "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-04T23:20:59.845Z",
+  "generatedAt": "2026-07-05T09:21:48.519Z",
   "propertyOptions": {},
   "items": [
     {
@@ -39,13 +40,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            }
-          ]
+          "value": []
         },
         "Atouts": {
           "type": "relation",
@@ -112,13 +107,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            }
-          ]
+          "value": []
         },
         "Atouts": {
           "type": "relation",
@@ -181,13 +170,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "gangrel",
-              "title": "Gangrel"
-            }
-          ]
+          "value": []
         },
         "Atouts": {
           "type": "relation",

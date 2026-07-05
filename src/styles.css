@@ -18,6 +18,8 @@
   --accent: #9b2f31;
   --accent-strong: #c33a3d;
   --accent-hover: #e2696c;
+  --accent-tint: rgba(195, 58, 61, 0.14);
+  --shadow-color: rgba(0, 0, 0, 0.45);
   --scrollbar-thumb: #3a2a26;
   --scrollbar-thumb-hover: #59201f;
 
@@ -46,6 +48,8 @@
   --accent: #9b2f31;
   --accent-strong: #9b2f31;
   --accent-hover: #9b2f31;
+  --accent-tint: rgba(155, 47, 49, 0.09);
+  --shadow-color: rgba(45, 41, 37, 0.18);
   --scrollbar-thumb: #ddd0bd;
   --scrollbar-thumb-hover: #c9b89f;
 }
@@ -682,6 +686,26 @@ a.relationChip:hover {
   font-size: 13px;
 }
 
+.indexHero {
+  align-items: center;
+  display: flex;
+  gap: 18px;
+  margin-bottom: 6px;
+}
+
+.indexHeroIcon {
+  align-items: center;
+  background: var(--accent-tint);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  display: flex;
+  flex: 0 0 auto;
+  height: 56px;
+  justify-content: center;
+  width: 56px;
+}
+
 .indexView .eyebrow {
   color: var(--accent-strong);
   display: block;
@@ -696,13 +720,13 @@ a.relationChip:hover {
   color: var(--text-heading);
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.1;
-  margin: 6px 0 16px;
+  margin: 4px 0 0;
 }
 
 .indexIntro {
   color: var(--text-body-muted);
   font-size: 16px;
-  margin: 0 0 28px;
+  margin: 16px 0 28px;
   max-width: 640px;
 }
 
@@ -718,6 +742,52 @@ a.relationChip:hover {
   padding-bottom: 8px;
 }
 
+.indexList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.indexList li {
+  border-bottom: 1px solid var(--border);
+}
+
+.indexList li:last-child {
+  border-bottom: none;
+}
+
+.indexListItem {
+  align-items: center;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  font: inherit;
+  gap: 12px;
+  padding: 13px 4px;
+  text-align: left;
+  text-decoration: none;
+  transition: color 0.15s ease, padding-left 0.15s ease;
+}
+
+.indexListItem:hover {
+  color: var(--accent-hover);
+  padding-left: 8px;
+}
+
+.indexListItem svg {
+  color: var(--accent-strong);
+  flex: 0 0 auto;
+}
+
+.indexListItem span {
+  font-family: Cinzel, Georgia, serif;
+  font-size: 15px;
+}
+
+/* Grille de cartes utilisée par GroupedRuleView (Rituels, Atouts & Handicaps)
+   pour choisir une catégorie/valeur groupée (ex. Niveau, Type). */
 .indexGrid {
   display: grid;
   gap: 10px;
@@ -936,6 +1006,7 @@ a.relatedRow:hover {
 
   .collectionNav button,
   .itemList button,
+  .indexListItem,
   .indexCard,
   .relatedRow,
   .creationStep {

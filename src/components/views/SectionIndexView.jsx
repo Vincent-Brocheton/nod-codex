@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
-import { FileText } from "lucide-react";
+import AppIcon from "../AppIcon";
 import LoadingState from "../States/LoadingState";
+import { applyGroupFilter } from "../../utils/groupFilter";
 
 export default function SectionIndexView({ wiki }) {
 
@@ -8,20 +9,36 @@ export default function SectionIndexView({ wiki }) {
     const { computed } = wiki.collections;
     const { loading } = computed;
 
-    const groups = computed.activeCollections.slice(0, 1);
+    const groups = computed.activeCollections.slice(0, 1).map((group) => ({
+        ...group,
+        items: applyGroupFilter(group.items, activeNavigation.groupFilter),
+    }));
 
     const total = groups.reduce((count, group) => count + group.items.length, 0);
+    const description = groups[0]?.description?.trim();
 
     return (
         <section className="pageView indexView">
 
-            <span className="eyebrow">Règles</span>
-            <h1>{activeNavigation.label}</h1>
+            <header className="indexHero">
+                <span className="indexHeroIcon">
+                    <AppIcon name={activeNavigation.icon} size={26} />
+                </span>
+
+                <div>
+                    <span className="eyebrow">Règles</span>
+                    <h1>{activeNavigation.label}</h1>
+                </div>
+            </header>
 
             {!loading ? (
                 <p className="indexIntro">
-                    Voici la liste des {activeNavigation.label.toLowerCase()} de la chronique
-                    {total ? ` (${total} fiche${total > 1 ? "s" : ""})` : ""}.
+                    {description || (
+                        <>
+                            Voici la liste des {activeNavigation.label.toLowerCase()} de la chronique
+                            {total ? ` (${total} fiche${total > 1 ? "s" : ""})` : ""}.
+                        </>
+                    )}
                 </p>
             ) : null}
 
@@ -31,18 +48,20 @@ export default function SectionIndexView({ wiki }) {
                 groups.map(group => (
                     <div key={group.key} className="indexGroup">
 
-                        <div className="indexGrid">
+                        <ul className="indexList">
                             {group.items.map(item => (
-                                <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="indexCard">
-                                    <FileText aria-hidden="true" size={18} />
-                                    <span>{item.title}</span>
-                                </Link>
+                                <li key={item.id}>
+                                    <Link to={`${activeNavigation.path}/${item.slug}`} className="indexListItem">
+                                        <AppIcon name={activeNavigation.icon} size={16} aria-hidden="true" />
+                                        <span>{item.title}</span>
+                                    </Link>
+                                </li>
                             ))}
 
                             {group.items.length === 0 ? (
                                 <p className="empty">Aucune fiche dans cette base pour le moment.</p>
                             ) : null}
-                        </div>
+                        </ul>
 
                     </div>
                 ))
