@@ -1,43 +1,14 @@
-import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import DetailShell from "../DetailShell";
 import ItemDetailBody from "../ItemDetailBody";
-import LoadingState from "../States/LoadingState";
-import PageNotFoundState from "../States/PageNotFoundState";
-import EmptyState from "../States/EmptyState";
 
 export default function GenericDetailView({ wiki }) {
 
-    const { activeItem, pageNotFound, loading } = wiki.collections.computed;
     const { activeNavigation } = wiki.navigation;
 
-    if (wiki.loading || loading) {
-        return <LoadingState />;
-    }
-
-    if (pageNotFound) {
-        return <PageNotFoundState />;
-    }
-
-    if (!activeItem) {
-        return <EmptyState />;
-    }
-
     return (
-        <article className="detailPane">
-
-            <Link to={activeNavigation.path} className="backLink">
-                <ArrowLeft aria-hidden="true" size={16} />
-                Retour à la liste
-            </Link>
-
-            <header>
-                <span>{activeItem.collectionLabel}</span>
-                <h1>{activeItem.title}</h1>
-            </header>
-
-            <ItemDetailBody item={activeItem} />
-
-        </article>
+        <DetailShell wiki={wiki} backPath={activeNavigation.path}>
+            {(activeItem) => <ItemDetailBody item={activeItem} />}
+        </DetailShell>
     );
 
 }

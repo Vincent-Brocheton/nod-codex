@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import ItemListButton from "../ItemListButton";
+import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 
 function ItemList({
@@ -12,11 +13,12 @@ function ItemList({
     const activeCollection = activeCollections[0];
     const { activeNavigation } = navigation;
     return (<section className="listPane">
-        <header>
-            <span>{activeCollection?.group || "Chargement"}</span>
-            <h1>{activeCollection?.label || "Base"}</h1>
-            <p>{loading ? "…" : `${visibleItems.length} fiche(s)`}</p>
-        </header>
+        <ListPaneHeader
+            group={activeCollection?.group}
+            label={activeCollection?.label}
+            loading={loading}
+            count={visibleItems.length}
+        />
 
         {loading ? (
             <LoadingState message="Chargement des fiches..." />

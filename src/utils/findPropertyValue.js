@@ -7,9 +7,9 @@ function normalizeKey(key) {
 }
 
 /**
- * Cherche une propriete par mots-cles plutot que par nom exact, pour
- * tolerer les variations de saisie entre bases Notion (ex. "Cout en point
- * de sang" / "Couts en points de sang" / "Cout en point de sang").
+ * Cherche une propriété par mots-clés plutôt que par nom exact, pour
+ * tolérer les variations de saisie entre bases Notion (ex. "Coût en point
+ * de sang" / "Coûts en points de sang" / "Coût en points de sang").
  */
 export default function findPropertyValue(item, tokens) {
     const entry = Object.entries(item.properties || {}).find(([name]) => {

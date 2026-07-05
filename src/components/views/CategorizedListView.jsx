@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import ItemListButton from "../ItemListButton";
+import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 import { applyGroupFilter, selectPropertyValue } from "../../utils/groupFilter";
 
@@ -50,11 +51,12 @@ export default function CategorizedListView({ wiki, groupProperty = "Catégorie"
     return (
         <section className="listPane">
 
-            <header>
-                <span>{collection?.group || "Chargement"}</span>
-                <h1>{activeNavigation.label}</h1>
-                <p>{loading ? "…" : `${filteredItems.length} fiche(s)`}</p>
-            </header>
+            <ListPaneHeader
+                group={collection?.group}
+                label={activeNavigation.label}
+                loading={loading}
+                count={filteredItems.length}
+            />
 
             {loading ? (
                 <LoadingState message="Chargement des fiches..." />

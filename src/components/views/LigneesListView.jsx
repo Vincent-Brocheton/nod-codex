@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import ItemListButton from "../ItemListButton";
+import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 
 function clanRefOf(item) {
@@ -28,11 +29,12 @@ export default function LigneesListView({ wiki }) {
 
     return (
         <section className="listPane">
-            <header>
-                <span>{activeCollection?.group || "Chargement"}</span>
-                <h1>{activeCollection?.label || "Base"}</h1>
-                <p>{loading ? "…" : `${items.length} fiche(s)`}</p>
-            </header>
+            <ListPaneHeader
+                group={activeCollection?.group}
+                label={activeCollection?.label}
+                loading={loading}
+                count={items.length}
+            />
 
             {loading ? (
                 <LoadingState message="Chargement des fiches..." />

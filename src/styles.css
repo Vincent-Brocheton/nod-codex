@@ -19,7 +19,6 @@
   --accent-strong: #c33a3d;
   --accent-hover: #e2696c;
   --accent-tint: rgba(195, 58, 61, 0.14);
-  --shadow-color: rgba(0, 0, 0, 0.45);
   --scrollbar-thumb: #3a2a26;
   --scrollbar-thumb-hover: #59201f;
 
@@ -49,7 +48,6 @@
   --accent-strong: #9b2f31;
   --accent-hover: #9b2f31;
   --accent-tint: rgba(155, 47, 49, 0.09);
-  --shadow-color: rgba(45, 41, 37, 0.18);
   --scrollbar-thumb: #ddd0bd;
   --scrollbar-thumb-hover: #c9b89f;
 }
@@ -643,49 +641,6 @@ a.relationChip:hover {
   max-width: 640px;
 }
 
-.creationSteps {
-  display: grid;
-  gap: 12px;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  margin-top: 28px;
-  max-width: 860px;
-}
-
-.creationStep {
-  align-items: flex-start;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: inherit;
-  display: flex;
-  gap: 12px;
-  padding: 16px;
-  text-decoration: none;
-  transition: border-color 0.15s ease, background 0.15s ease;
-}
-
-.creationStep:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--accent);
-}
-
-.creationStep svg {
-  color: var(--accent-strong);
-  flex: 0 0 auto;
-  margin-top: 2px;
-}
-
-.creationStep strong {
-  color: var(--text-heading);
-  display: block;
-  font-size: 15px;
-}
-
-.creationStep span {
-  color: var(--text-muted);
-  font-size: 13px;
-}
-
 .indexHero {
   align-items: center;
   display: flex;
@@ -1008,8 +963,7 @@ a.relatedRow:hover {
   .itemList button,
   .indexListItem,
   .indexCard,
-  .relatedRow,
-  .creationStep {
+  .relatedRow {
     min-height: 44px;
   }
 }
