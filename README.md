@@ -33,6 +33,6 @@ Le site est une SPA 100% statique : aucun secret ni service externe n'est néces
 2. Build command : `npm run build`
 3. Build output directory : `dist`
 4. La version de Node est fixée par `.node-version` (Vite 8 nécessite Node ≥ 20.19 ou ≥ 22.12).
-5. Le fichier `public/_redirects` gère déjà le fallback SPA (toute route renvoie `index.html`, indispensable pour que les liens profonds comme `/clans/brujah` fonctionnent au chargement direct).
+5. Le déploiement passe par Wrangler et `wrangler.jsonc` (nom du Worker fixé à `nod-codex`, assets servis depuis `dist`, `not_found_handling: "single-page-application"` pour que les liens profonds comme `/clans/brujah` fonctionnent au chargement direct — ne pas ajouter de fichier `public/_redirects` en plus, ça crée une boucle de redirection avec ce réglage).
 
 Pour publier une mise à jour de contenu : resynchroniser Notion en local (`npm run sync`), commit, push — Cloudflare Pages redéploie automatiquement.
