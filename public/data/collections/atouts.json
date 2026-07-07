@@ -4,13 +4,14 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-07T20:38:55.605Z",
+  "generatedAt": "2026-07-07T22:36:17.768Z",
   "propertyOptions": {
     "Coût": [
       "1",
       "2",
       "4",
-      "3"
+      "3",
+      "5"
     ],
     "Type": [
       "Clan",
@@ -100,6 +101,45 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80ec-841a-f14faaf7a445",
+      "slug": "ambidextre",
+      "title": "Ambidextre",
+      "notionUrl": "https://app.notion.com/p/Ambidextre-39688b48e48e80ec841af14faaf7a445",
+      "lastEditedTime": "2026-07-07T22:11:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ambidextre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des gens possèdent une main dominante, droite ou gauche.\nUne fois par tour, lorsque vous attaquez avec des armes (de mêlée ou à feu), vous pouvez utiliser les qualités de votre arme principale ainsi qu’une qualité provenant d’une seconde arme tenue dans votre main secondaire, permettant ainsi aux deux armes d’améliorer votre attaque.\nVous ne pouvez pas utiliser deux fois le même bonus lors d’un même défi.\nPar exemple, vous ne pouvez pas choisir deux fois la qualité Précise afin d’obtenir un bonus de +4.\nLes deux armes doivent pouvoir logiquement toucher votre adversaire pour appliquer cet avantage ; ainsi, vous ne pouvez pas utiliser la qualité d’une épée tenue en main secondaire afin d’améliorer une attaque à distance effectuée avec un pistolet.\nAmbidextre peut être utilisé durant les rounds de Célérité, mais uniquement une fois par tour."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80a9-a760-d9e9097fde3b",
       "slug": "ancien-de-la-revolution",
       "title": "Ancien de la Révolution",
@@ -135,6 +175,45 @@
         {
           "type": "paragraph",
           "text": "Cet atout ne peut être acheté que lors de la création du personnage. Le mouvement Anarch est composé principalement de jeunes nouveaux-nés, Étreint depuis peu et d'Ancillas. Un joueur qui souhaite acheter un 4ème ou 5ème niveau de Génération doit d'abord acheter Ancien de la Révolution. Si vous quittez les Anarchs pour rejoindre la Camarilla (ou le Sabbat), vous récupérez l'XP dépensé pour cet atout, tout en conservant vos niveaux de génération. Si votre personnage atteint la génération 6 ou 7 suite à une (ou plusieurs) diableries, il n'a pas besoin d'acheter cet atout.\nIl est a noter qu'acheter cet atout n'indique pas que l'Anarch a été Étreint avant les années 1800, cela correspond à l'atout \"Old Dog\"."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-804f-acbf-c6d2f4397eb8",
+      "slug": "anguille",
+      "title": "Anguille",
+      "notionUrl": "https://app.notion.com/p/Anguille-39688b48e48e804facbfc6d2f4397eb8",
+      "lastEditedTime": "2026-07-07T22:11:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Anguille"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Que vous soyez extrêmement souple, incroyablement agile ou doté d’un instinct hors du commun, vous possédez une capacité presque surnaturelle à éviter les blessures.\nVous obtenez un bonus de 3 à vos réserves défensives basées sur Esquive."
         }
       ]
     },
@@ -178,6 +257,84 @@
       ]
     },
     {
+      "id": "39688b48-e48e-809b-92da-dcda67b7a3c5",
+      "slug": "aptitude-a-une-competence",
+      "title": "Aptitude à une compétence",
+      "notionUrl": "https://app.notion.com/p/Aptitude-une-comp-tence-39688b48e48e809b92dadcda67b7a3c5",
+      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Aptitude à une compétence"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En raison d’un aspect particulier de votre histoire — qu’il s’agisse d’un entraînement intensif ou simplement d’un talent naturel — vous êtes exceptionnellement doué dans une compétence précise.\nChoisissez une compétence et augmentez de 1 le nombre maximum potentiel de points que votre personnage peut posséder dans cette compétence.\nVous devez toujours dépenser l’XP normalement afin d’augmenter cette compétence jusqu’à son nouveau maximum.\nVous pouvez acheter l’Atout Aptitude à une compétence plusieurs fois, mais chaque achat doit être appliqué à une compétence différente."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8098-bee3-ff0eba78a025",
+      "slug": "arcane",
+      "title": "Arcane",
+      "notionUrl": "https://app.notion.com/p/Arcane-39688b48e48e8098bee3ff0eba78a025",
+      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Arcane"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes mystiquement dissimulé à l’attention des autres.\nLes personnes avec lesquelles vous interagissez brièvement ne se souviennent pas de votre présence à moins qu’on ne vous ait spécifiquement désigné.\nLes traces administratives vous concernant disparaissent, et les données informatiques deviennent aléatoirement corrompues, égarées ou accidentellement effacées.\nCet effet n’accorde aucun avantage en Discrétion et ne gêne pas les personnes vous connaissant personnellement, comme les autres personnages.\nCependant, les individus vous rencontrant de manière passagère éprouvent des difficultés à se souvenir précisément de qui vous êtes.\nCet Atout constitue à la fois un avantage… et une légère nuisance."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80c4-b3c1-e7d4fdb8d3e4",
       "slug": "architecte-de-la-tour",
       "title": "Architecte de la Tour",
@@ -213,6 +370,240 @@
         {
           "type": "paragraph",
           "text": "Vous avez combattu pour la Camarilla durant la Révolte Anarch et vous étiez présent à la signature du Traité de Thorns. Vous êtes considéré comme l'un des membres fondateurs de la Camarilla et en tant que tel, vous obtenez le statut \"Architecte\"."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8014-8cb4-fcab23cc2eb4",
+      "slug": "blase",
+      "title": "Blasé",
+      "notionUrl": "https://app.notion.com/p/Blas-39688b48e48e80148cb4fcab23cc2eb4",
+      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Blasé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez tout vu, tout fait et tout connu.\nIl est notoirement difficile de vous impressionner, et vous possédez un talent particulier pour considérer les faits sans coloration émotionnelle.\nVous obtenez un retest gratuit lorsque vous résistez aux effets de Démence, Melpominee et Présence.\nCe retest peut être utilisé avant ou après un retest de Volonté normal et constitue une exception à la règle limitant les retests à un seul par défi."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80d2-95c3-c6d939b3b841",
+      "slug": "capacite-prophetique",
+      "title": "Capacité prophétique",
+      "notionUrl": "https://app.notion.com/p/Capacit-proph-tique-39688b48e48e80d295c3c6d939b3b841",
+      "lastEditedTime": "2026-07-07T22:13:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Capacité prophétique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous percevez des présages du futur.\nVous utilisez peut-être des techniques telles que le lancer d’osselets, la lecture de cartes divinatoires, des planches mystiques, l’astrologie ou des hallucinations provoquées par des substances.\nÀ l’inverse, ces visions peuvent s’imposer à vous même lorsque vous tentez de les éviter.\nVous pouvez tirer des conseils de ces présages, qui offrent des indices sur l’avenir et des avertissements concernant le présent.\nUne fois par partie, vous pouvez demander à votre Conteur un indice concernant les intrigues importantes en cours.\nDe plus, de brèves intuitions vous frappent au moment opportun ; une fois par heure, vous pouvez sacrifier une action standard afin d’utiliser immédiatement une action simple.\nCette capacité vous permet d’utiliser cette action simple à n’importe quel moment, même avant votre initiative."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80af-9435-ec9d9f37e0ab",
+      "slug": "casse-cou",
+      "title": "Casse-cou",
+      "notionUrl": "https://app.notion.com/p/Casse-cou-39688b48e48e80af9435ec9d9f37e0ab",
+      "lastEditedTime": "2026-07-07T22:25:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Casse-cou"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de +3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de +2 à vos réserves de tests défensifs Physiques."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8033-af16-dbb48ec81947",
+      "slug": "chanceux",
+      "title": "Chanceux",
+      "notionUrl": "https://app.notion.com/p/Chanceux-39688b48e48e8033af16dbb48ec81947",
+      "lastEditedTime": "2026-07-07T22:13:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Chanceux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme la plupart des filous, des fous et des déments, votre existence est jalonnée de coïncidences heureuses et de secondes chances.\nQue vous comptiez sur cette chance ou qu’elle vous accompagne naturellement, vous semblez mener une vie protégée par le destin.\nSi un adversaire obtient un succès exceptionnel contre vous, celui-ci est rétrogradé en succès normal.\nVous pouvez utiliser ce bénéfice une fois toutes les cinq minutes ou une fois par combat."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8097-8c06-ce47a61aa73c",
+      "slug": "clairvoyant",
+      "title": "Clairvoyant",
+      "notionUrl": "https://app.notion.com/p/Clairvoyant-39688b48e48e80978c06ce47a61aa73c",
+      "lastEditedTime": "2026-07-07T22:27:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Clairvoyant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une capacité inhabituelle à voir avec une grande clarté, surmontant les distractions, les illusions et les effets hypnotiques.\nVous obtenez un retest gratuit lorsque vous êtes ciblé par les Disciplines Chimérie, Dissimulation ou Mythercerie.\nIl s’agit d’un retest défensif ; vous ne pouvez pas utiliser Regard Lucide lorsque vous utilisez Auspex — ou des pouvoirs similaires — afin de percer une Dissimulation déjà établie ou de dissiper activement des illusions de Chimérie.\nCet Atout vous accorde cependant un retest gratuit lorsque vous résistez à des pouvoirs comme Réalité Horrifique ou lorsque vous tentez de suivre quelqu’un essayant de disparaître grâce à Disparition à la Vue de l’Esprit.\nCe retest peut être utilisé avant ou après un retest normal de Volonté et constitue une exception à la règle limitant les retests à un seul par défi."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8034-84d5-fbfd65ba7f2d",
+      "slug": "code-d-honneur",
+      "title": "Code d’honneur",
+      "notionUrl": "https://app.notion.com/p/Code-d-honneur-39688b48e48e803484d5fbfd65ba7f2d",
+      "lastEditedTime": "2026-07-07T22:14:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Code d’honneur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous adhérez à un code moral personnel.\nLes spécificités de ce code doivent comporter à la fois des restrictions et des idéaux.\nLes restrictions peuvent inclure : « Je ne peux permettre qu’une femme soit blessée », « Je ne peux poser le pied sur un lieu sacré » ou encore « Je ne peux jamais posséder, porter ou utiliser une arme ».\nLes idéaux peuvent inclure : « Je dois toujours faire preuve de générosité et de charité », « Je dois m’agenouiller et montrer du respect à chaque Prince, quels que soient mes sentiments personnels envers lui » ou encore « Je dois accepter toute quête qui m’est proposée ».\nCe code doit être véritablement contraignant et doit être approuvé par le Conteur avant le début du jeu.\nUn Code d’Honneur ne peut pas reproduire des restrictions morales ou éthiques que votre personnage doit déjà respecter, comme les préceptes fondamentaux de l’Humanité ou ceux de votre Voie d’Illumination.\nVotre personnage doit suivre strictement ce code ; votre Conteur peut retirer cet Atout sans remboursement si vous violez régulièrement ce code.\nUne fois par heure, lorsqu’un individu tente d’utiliser un pouvoir Social ou Mental afin de vous pousser à violer votre Code d’Honneur personnel, vous obtenez un bonus joker de +2 à votre réserve défensive afin de résister à ce pouvoir.\nCependant, si vous violez volontairement votre Code d’Honneur — même sous une forte contrainte — vous perdez l’accès à cet Atout pendant deux sessions de jeu ou un mois, selon la durée la plus longue."
         }
       ]
     },
@@ -256,6 +647,162 @@
       ]
     },
     {
+      "id": "39688b48-e48e-806a-8770-d0e7e8f72804",
+      "slug": "digestion-efficace",
+      "title": "Digestion Efficace",
+      "notionUrl": "https://app.notion.com/p/Digestion-Efficace-39688b48e48e806a8770d0e7e8f72804",
+      "lastEditedTime": "2026-07-07T22:14:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Digestion Efficace"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos systèmes physiques sont extrêmement efficaces et vous tirez davantage de nourriture du sang que la plupart des vampires.\nLorsque vous vous nourrissez d’animaux, la quantité de Sang gagnée n’est pas réduite de moitié.\nLorsque vous vous nourrissez de mortels, vous gagnez un point de Sang supplémentaire pour chaque point consommé.\nCet Atout double l’efficacité du Background Troupeau lorsqu’il est utilisé pendant une session de jeu.\nPar exemple, un personnage possédant cet Atout et 3 points de Troupeau gagne 6 points de Sang au lieu des 3 habituels après cinq minutes hors-jeu.\nCet Atout ne vous permet pas de dépasser le maximum de votre réserve de Sang.\nDigestion Efficace ne fonctionne que sur le sang mortel ou animal ; il ne fonctionne pas sur le sang vampirique, y compris celui ingéré par des goules."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-808d-8399-f92a9f14cfa6",
+      "slug": "discipline-commune-supplementaire",
+      "title": "Discipline Commune Supplémentaire",
+      "notionUrl": "https://app.notion.com/p/Discipline-Commune-Suppl-mentaire-39688b48e48e808d8399f92a9f14cfa6",
+      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Discipline Commune Supplémentaire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "On raconte que le sang du Premier Vampire pouvait soutenir toutes les Disciplines et ne possédait aucune prédisposition intrinsèque.\nVotre sang conserve une faible trace de cette qualité et manifeste quatre Disciplines de clan au lieu de trois.\nChoisissez une Discipline commune comme quatrième Discipline de clan.\nVous ne commencez pas avec un point gratuit dans cette Discipline supplémentaire, mais vous pouvez enseigner cette Discipline, les pouvoirs affectant les Disciplines de clan (comme Possession) s’appliquent également à elle, et vous payez tous les coûts d’apprentissage comme si cette Discipline appartenait naturellement à votre clan.\nVous pouvez choisir parmi les Disciplines communes suivantes : Animalisme, Auspex, Célérité, Domination, Force d’Âme, Dissimulation, Puissance et Présence.\nCet Atout ne peut pas être combiné avec d’autres Atouts accordant des Disciplines de clan supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8080-bf81-c7818bc8d19b",
+      "slug": "discipline-rare-supplementaire",
+      "title": "Discipline Rare Supplémentaire",
+      "notionUrl": "https://app.notion.com/p/Discipline-Rare-Suppl-mentaire-39688b48e48e8080bf81c7818bc8d19b",
+      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "5"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Discipline Rare Supplémentaire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez une Discipline rare comme quatrième Discipline de clan.\nVous ne commencez pas avec un point gratuit dans cette Discipline supplémentaire, mais vous pouvez enseigner cette Discipline, les pouvoirs affectant les Disciplines de clan (comme Possession) s’appliquent également à elle, et vous payez tous les coûts d’apprentissage comme si cette Discipline appartenait naturellement à votre clan.\nVous pouvez choisir parmi les Disciplines rares suivantes : Protéisme, Aliénation, Serpentis et Quietus.\nCet Atout ne peut pas être combiné avec d’autres Atouts accordant des Disciplines de clan supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80ca-84a2-e0d95096bc8e",
+      "slug": "don-pour-les-langues",
+      "title": "Don pour les langues",
+      "notionUrl": "https://app.notion.com/p/Don-pour-les-langues-39688b48e48e80ca84a2e0d95096bc8e",
+      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Don pour les langues"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines personnes possèdent une mémoire et une capacité d’association remarquables, leur permettant d’apprendre facilement plusieurs langues.\nVous pouvez choisir deux spécialisations linguistiques pour chaque point acheté dans la compétence Linguistique.\nDe plus, vous obtenez un bonus de +3 chaque fois que vous effectuez un défi utilisant Linguistique."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80d3-9bff-e3714f1632e4",
       "slug": "emissaire-a-la-camarilla",
       "title": "Emissaire à la Camarilla",
@@ -291,6 +838,123 @@
         {
           "type": "paragraph",
           "text": "Tout Semblable présent à une réunion de la Camarilla en fait parti. Vous n'êtes pas reconnu, mais vous comprenez les règles du jeu politique de la tour d'Ivoire, pour les utiliser à votre bénéfice. Vous êtes peut-être un Giovanni, ou un prêtre Setite prêt a aider la Camarilla … et profiter des guerres internes de celle-ci. Tant que vous n'êtes pas reconnu par une secte, vous pouvez avoir un \"fleeting status\" de plus au sein de la Camarilla. Ceci est une exception à la règle empêchant des individus non reconnu d'avoir le moindre statut de secte."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80b5-85cb-cc96ca8db279",
+      "slug": "entrainement-en-necromancie",
+      "title": "Entrainement en Nécromancie",
+      "notionUrl": "https://app.notion.com/p/Entrainement-en-N-cromancie-39688b48e48e80b585cbcc96ca8db279",
+      "lastEditedTime": "2026-07-07T22:16:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "5"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Entrainement en Nécromancie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les nécromanciens protègent jalousement leur savoir et ceux qui maîtrisent les secrets de la Nécromancie — comme les Giovanni — partagent rarement leur art.\nD’une manière ou d’une autre, dans votre passé, vous avez été formé par un nécromancien ou étudié de terrifiants grimoires, acquérant suffisamment de connaissances pour devenir compétent dans une voie de magie nécromantique.\nGrâce à cet Atout, vous pouvez apprendre une unique voie de Nécromancie et acheter ses pouvoirs au coût hors clan.\nSi votre personnage connaît déjà cette Discipline dans son historique, cette formation doit être justifiée dans son background.\nSi vous souhaitez acheter la Nécromancie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet Atout."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-801b-a2f7-c2b906eda8fc",
+      "slug": "entrainement-en-thaumaturgie",
+      "title": "Entrainement en Thaumaturgie",
+      "notionUrl": "https://app.notion.com/p/Entrainement-en-Thaumaturgie-39688b48e48e801ba2f7c2b906eda8fc",
+      "lastEditedTime": "2026-07-07T22:16:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Entrainement en Thaumaturgie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les thaumaturges protègent jalousement leur savoir et ceux qui maîtrisent les secrets de la Thaumaturgie — comme les Tremere — partagent rarement leur art.\nD’une manière ou d’une autre, dans votre passé, vous avez été formé par un thaumaturge ou un sorcier, ou vous avez eu accès à des textes interdits, acquérant suffisamment de connaissances pour devenir compétent dans une voie de Thaumaturgie.\nGrâce à cet Atout, vous avez la capacité d’apprendre une unique voie de Thaumaturgie et d’acheter ses pouvoirs au coût hors clan.\nSi votre personnage connaît déjà cette Discipline dans son historique, cette formation doit être justifiée dans son background.\nSi vous souhaitez acheter la Thaumaturgie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet Atout."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80fb-a640-c3d8752bbb7c",
+      "slug": "erudit",
+      "title": "Erudit",
+      "notionUrl": "https://app.notion.com/p/Erudit-39688b48e48e80fba640c3d8752bbb7c",
+      "lastEditedTime": "2026-07-07T22:24:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Erudit"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes une véritable encyclopédie vivante et avez consacré de nombreuses années à étudier l’histoire, découvrir des secrets et accumuler des informations précieuses.\nVous pouvez choisir deux spécialisations d’Érudition pour chaque point de la compétence Érudition acheté, au lieu d’une seule.\nDe plus, vous obtenez un bonus de 3 chaque fois que vous effectuez un défi utilisant votre compétence Érudition."
         }
       ]
     },
@@ -451,6 +1115,92 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8011-8581-f0345eee22ea",
+      "slug": "inalienable",
+      "title": "Inaliénable",
+      "notionUrl": "https://app.notion.com/p/Inali-nable-39688b48e48e80118581f0345eee22ea",
+      "lastEditedTime": "2026-07-07T22:17:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Inaliénable"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelque chose d’étrange et de puissant sommeille dans votre sang, neutralisant l’influence émotionnelle de la vitae étrangère.\nVous êtes immunisé contre le lien de sang, y compris les liens mineurs du Vinculum."
+        },
+        {
+          "type": "heading_2",
+          "text": "Restrictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages Tremere, y compris ceux des lignées Tremere, ne peuvent pas prendre cet Atout."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80d1-ae36-ed89436ccf57",
+      "slug": "inflexible",
+      "title": "Inflexible",
+      "notionUrl": "https://app.notion.com/p/Inflexible-39688b48e48e80d1ae36ed89436ccf57",
+      "lastEditedTime": "2026-07-07T22:18:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Inflexible"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Que l’on appelle cela de l’obstination, de l’entêtement ou simplement un caractère impossible, votre personnage possède une flamme intérieure qui refuse de s’éteindre, quelles que soient les circonstances.\nVotre Volonté permanente maximale passe à 7.\nDe plus, vous commencez chaque session de jeu avec 7 points de Volonté au lieu des 6 habituels."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8004-b431-c8cccd8675af",
       "slug": "intrepide",
       "title": "Intrépide",
@@ -564,6 +1314,84 @@
         {
           "type": "paragraph",
           "text": "Vous avez pris le contrôle d'un réseau d'influence important qui se trouve être vraiment efficace et discret. Chaque semaine vous récupérez une action d'influence dans le domaine de votre choix."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80df-81fb-eb6ef8b83bb8",
+      "slug": "mascarade-personnelle",
+      "title": "Mascarade Personnelle",
+      "notionUrl": "https://app.notion.com/p/Mascarade-Personnelle-39688b48e48e80df81fbeb6ef8b83bb8",
+      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Mascarade Personnelle"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que votre aura soit pâle et que vous possédiez la plupart des marques spirituelles d’un vampire, votre chair conserve une apparence proche de celle d’un être humain vivant.\nVous semblez vivant et en bonne santé, votre peau est chaude au toucher et il vous est plus facile qu’aux autres vampires de vous faire passer pour humain.\nDe plus, vous êtes capable de manger et boire comme un mortel et pouvez même apprécier le goût de la nourriture et des boissons.\nBien que cette nourriture ne vous nourrisse pas réellement, cette capacité constitue un avantage précieux pour un vampire cherchant à paraître humain.\nUn personnage suivant une Voie d’Illumination ne peut pas posséder cet Atout.\nSi vous achetez une Voie d’Illumination alors que vous possédez cet Atout, vous devez retirer Mascarade Personnelle sans remboursement d’XP."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80c4-87d1-d18a8712be27",
+      "slug": "medium",
+      "title": "Médium",
+      "notionUrl": "https://app.notion.com/p/M-dium-39688b48e48e80c487d1d18a8712be27",
+      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Médium"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant votre vie mortelle, vous étiez peut-être spiritualiste ou chamane, ou peut-être qu’une expérience proche de la mort a laissé une partie de votre âme prisonnière des Shadowlands.\nQuelle qu’en soit la raison, vous êtes un canal vers les Shadowlands et possédez une affinité naturelle pour voir et entendre les fantômes, ainsi que pour parfois entrevoir votre environnement dans les Shadowlands.\nCet Atout n’accorde aucun pouvoir de contrôle ou de commandement sur les fantômes, ni aucune capacité mystique permettant de comprendre des spectres ne parlant pas une langue que vous connaissez."
         }
       ]
     },
@@ -763,6 +1591,340 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80f7-83a3-ff82ccaff88a",
+      "slug": "pouvoir-infernal",
+      "title": "Pouvoir Infernal",
+      "notionUrl": "https://app.notion.com/p/Pouvoir-Infernal-39688b48e48e80f783a3ff82ccaff88a",
+      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Pouvoir Infernal"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez juré votre âme à un démon, un diable ou une autre entité obscure — selon la manière dont votre personnage conçoit de telles créatures au regard de ses croyances personnelles — et cette entité infernale vous a accordé un pouvoir surnaturel."
+        },
+        {
+          "type": "paragraph",
+          "text": "La quasi-totalité des créatures surnaturelles craignent et haïssent les infernalistes et tueront un personnage possédant Pouvoir Infernal sans hésitation ni remords."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si vous refusez d’obéir aux ordres de votre maître démoniaque ou si vous lui déplaisez, vous perdez immédiatement l’accès à cet Atout."
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre, vous subissez immédiatement 5 points de dégâts aggravés qui ne peuvent être ni réduits ni annulés, conséquence directe de votre désobéissance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela ne vous libère pas du pacte infernal ; il ne s’agit que d’une manifestation de la colère de votre maître."
+        },
+        {
+          "type": "paragraph",
+          "text": "Afin de regagner l’usage de cet Atout, vous devez accomplir une tâche imposée par votre maître infernal : une tâche toujours cruelle, inhumaine et abjecte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous échouez à accomplir cette tâche dans les 30 jours, vous subissez la Mort Finale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n’existe aucun moyen d’échapper à ce destin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant Pouvoir Infernal doivent choisir l’un des dons infernaux suivants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque don infernal possède deux effets : un effet mineur et un effet majeur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous choisissez un don, vous obtenez accès aux deux effets associés."
+        },
+        {
+          "type": "heading_3",
+          "text": "Don : Feu Démoniaque"
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Mineur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Pouvoir Infernal vous confère une résistance au feu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes enflammées ou incendiaires infligent des dégâts normaux au lieu de dégâts aggravés."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, en dépensant une action simple — sans avoir besoin d’amadou ou d’aucun combustible — vous pouvez créer une petite sphère de flammes verdâtres et noires dans la paume de votre main."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette flamme est approximativement de la taille d’une balle de baseball."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous tenez ce feu démoniaque, vos attaques à mains nues infligent des dégâts aggravés."
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Majeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant une action simple, vous pouvez envelopper votre corps d’une aura de flammes verdâtres et noires pendant cinq minutes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez mettre fin à cet effet à tout moment avant sa durée maximale en dépensant une autre action simple."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous êtes entouré de cette aura, vos vêtements et votre équipement ne sont pas endommagés par le feu et vos attaques de Bagarre et de Mêlée infligent des dégâts aggravés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiconque est assez stupide pour vous Agripper — ou vous agrippe déjà lorsque vous activez cet effet — subit 3 points de dégâts aggravés."
+        },
+        {
+          "type": "heading_3",
+          "text": "Don : Pacte Profane"
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Mineur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre maître démoniaque vous autorise à conclure des pactes mineurs, offrant un pouvoir infernal à un autre personnage en échange d’une portion de son âme immortelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible de cet effet ne peut être forcée d’accepter par des pouvoirs surnaturels ou des menaces de violence, bien qu’elle puisse être manipulée par la politique, la persuasion ordinaire, la trahison ou d’autres manœuvres sociales."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu’elle signe le contrat, vous devenez son maître infernal et elle devient votre serviteur infernal."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible obtient l’accès à l’effet mineur infernal de son choix sans avoir besoin d’acheter l’Atout Pouvoir Infernal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le démon vous ayant accordé ce pacte gagne également du pouvoir sur toute âme acceptant volontairement un contrat infernal de votre part."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre maître démoniaque peut retirer ses pouvoirs à l’un comme à l’autre s’il le souhaite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre serviteur vous désobéit ou vous déplaît, vous pouvez le punir en lui infligeant 5 points de dégâts aggravés qui ne peuvent être ni réduits ni annulés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également choisir de lui retirer son pouvoir infernal et exiger qu’il accomplisse une tâche obscure afin de le récupérer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette tâche doit être réalisable, mais peut être aussi simple ou difficile que vous le désirez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible n’accomplit pas cette tâche dans les 30 jours, elle subit la Mort Finale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme tout pacte infernal, un contrat mineur ne peut être annulé que si la cible meurt… ou si vous mourez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous perdez temporairement l’accès à votre Atout Pouvoir Infernal, vous ne pouvez plus utiliser ces effets contre vos serviteurs ni conclure de nouveaux contrats."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, vos subordonnés ne perdent pas leurs pouvoirs simplement parce que les vôtres sont suspendus."
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Majeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous maintenez au moins un Pacte Profane avec un autre personnage joueur, vous pouvez invoquer votre Pouvoir Infernal, traverser les feux de l’enfer et apparaître dans un lieu du monde physique consacré à votre maître démoniaque, tel qu’un temple diabolique ou votre autel infernal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour ce faire, vous devez vous concentrer durant trois tours complets tout en chantant dans une langue infernale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois arrivé sur le lieu choisi, vous pouvez soit y rester une minute puis revenir à l’endroit que vous venez de quitter, soit demeurer sur place."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser cet effet une fois par partie pour chaque contrat mineur actuellement en votre possession."
+        },
+        {
+          "type": "heading_3",
+          "text": "Don : Régénération Impie"
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Mineur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous possédez des dégâts dans votre niveau de blessure Incapacité, vous régénérez automatiquement 1 point de dégâts normaux par tour sans dépenser de Sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous ne possédez plus de dégâts normaux mais avez encore des dégâts aggravés dans votre niveau Incapacité, vous soignez 1 point de dégâts aggravés tous les trois tours."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Atout soigne le personnage à son initiative durant le round everyman ; ce pouvoir n’a aucun effet pendant les rounds de Célérité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Atout cesse de fonctionner si le personnage ne possède aucun dégât dans le niveau Incapacité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les soins fournis par cet Atout ne nécessitent ni action ni dépense de Sang."
+        },
+        {
+          "type": "heading_3",
+          "text": "Effet Majeur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous subissez suffisamment de dégâts pour entrer en torpeur ou subir la Mort Finale, vous ressuscitez immédiatement dans une explosion de flammes verdâtres et noires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous revenez avec tous vos niveaux de santé restaurés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant les cinq tours suivants, vous obtenez un bonus joker de +5 à toutes vos réserves de tests défensifs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant la fin de cette durée, vous devez tuer un autre personnage et condamner verbalement son âme au service de votre maître."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous échouez à accomplir cet objectif dans le temps imparti, vous subissez définitivement et irrévocablement la Mort Finale, quels que soient votre état de santé ou vos autres pouvoirs surnaturels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas utiliser cet effet si votre maître infernal est celui qui vous a infligé les dégâts ayant provoqué votre torpeur ou votre Mort Finale, ou si votre mort initiale est due à autre chose que des dégâts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet effet ne peut être utilisé qu’une fois par partie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le simple fait d’être infernaliste ne crée pas de marque visible sur l’aura d’un personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un diaboliste ne révèle aucune corruption ni souillure tant qu’il n’utilise pas un pouvoir infernal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu’il le fait — et tant que ce pouvoir reste actif — son aura révèle clairement la corruption infernale."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, quiconque vous voit utiliser un effet infernal majeur remarquera automatiquement cette corruption, qu’il utilise Auspex ou non."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut jamais perdre définitivement cet Atout."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pactes démoniaques sont inviolables, et il n’existe aucun moyen d’échapper à un marché infernal une fois intégré à cette chaîne de commandement."
+        },
+        {
+          "type": "paragraph",
+          "text": "La seule issue est la mort — et même alors, l’âme du personnage demeure damnée pour l’éternité au service de son maître infernal."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8051-a49f-c8d5da2fe6bc",
+      "slug": "precoce",
+      "title": "Précoce",
+      "notionUrl": "https://app.notion.com/p/Pr-coce-39688b48e48e8051a49fc8d5da2fe6bc",
+      "lastEditedTime": "2026-07-07T22:26:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Précoce"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre esprit est particulièrement adapté à la maîtrise des connaissances complexes et vous avez toujours appris rapidement les nouvelles compétences.\nLorsqu’un autre personnage vous enseigne un pouvoir, votre instructeur n’a pas besoin de dépenser de Volonté pour vous l’enseigner.\nDe plus, vous n’avez pas besoin de dépenser d’AIP afin d’apprendre une Discipline."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80ac-9540-e6b5ffe3e412",
       "slug": "prodige-social",
       "title": "Prodige social",
@@ -798,6 +1960,84 @@
         {
           "type": "paragraph",
           "text": "Vous êtes particulièrement doué pour bien présenter, manipuler les autres et vous hisser au plus haut de votre environnement social. Ce talent vous a bien servit depuis votre Étreinte. Vous êtes considéré socialement comme ayant un niveau de génération supérieur. Si vous êtes un Nouveau-né, vous êtes considéré socialement comme un Ancilla, si vous êtes un Ancilla, vous êtes considéré comme un Ancien (et vous gagnez le statut attribué aux Anciens). Les Anciens ne tirent aucun bénéfice de cet atout."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80ab-9da8-d99b6e004e67",
+      "slug": "reputation",
+      "title": "Réputation",
+      "notionUrl": "https://app.notion.com/p/R-putation-39688b48e48e80ab9da8d99b6e004e67",
+      "lastEditedTime": "2026-07-07T22:20:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Réputation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos accomplissements sont connus bien au-delà des frontières de votre clan ou de votre secte.\nMême des vampires appartenant à d’autres sectes ou organisations ont entendu parler de vous et connaissent votre réputation.\nVous pouvez porter un trait de statut éphémère supplémentaire au-delà de votre limite habituelle de statuts.\nSi votre réputation est sérieusement ternie, votre Conteur peut retirer ce statut éphémère supplémentaire jusqu’à ce que vous ayez surmonté le scandale."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80ff-8f0a-daa66e574858",
+      "slug": "resistance-a-la-magie",
+      "title": "Résistance à la Magie",
+      "notionUrl": "https://app.notion.com/p/R-sistance-la-Magie-39688b48e48e80ff8f0adaa66e574858",
+      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Résistance à la Magie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les légendes racontent que le Premier Vampire ne possédait aucune affinité naturelle avec la magie.\nVotre sang pourrait être un vestige de cet état originel, ou simplement posséder une résistance innée aux enchantements.\nVous obtenez une relance gratuite lorsque vous résistez aux effets de Thaumaturgie, Nécromancie, Ritae du Sabbat, rituels enchantés et pouvoirs des mages.\nCette relance peut être utilisé avant ou après une relance normal de Volonté et constitue une exception à la règle limitant les relance à un seul par défi.\nCependant, vous ne pourrez jamais apprendre de voie ou de rituel de Thaumaturgie, de Nécromancie ou de toute autre forme de magie du sang.\nSi vous possédez déjà une forme de magie du sang lorsque vous achetez cet Atout, vous devez retirer ces pouvoirs sans recevoir de remboursement d’XP."
         }
       ]
     },
@@ -841,6 +2081,45 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8044-931b-f395f2dbb89b",
+      "slug": "robuste",
+      "title": "Robuste",
+      "notionUrl": "https://app.notion.com/p/Robuste-39688b48e48e8044931bf395f2dbb89b",
+      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Robuste"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes peut-être plus massif que les autres, plus résistant aux épreuves ou doté d’une peau particulièrement robuste, mais quelle qu’en soit la raison, vous possédez une capacité supérieure à encaisser les blessures.\nLes personnages possédant cet Atout gagnent 1 niveau de santé supplémentaire dans chaque niveau de blessure, obtenant ainsi quatre niveaux Sain, quatre niveaux Blessé et quatre niveaux Incapacité.\nCet Atout fonctionne conjointement avec le bonus de Focus Vigueur accordé par Force d’Âme ; un personnage possédant les deux avantages dispose alors de cinq niveaux de santé dans chaque niveau de blessure."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-806d-981e-ebf15367948e",
       "slug": "sanctifie",
       "title": "Sanctifié",
@@ -880,6 +2159,53 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8055-9444-d74e4aa6e909",
+      "slug": "sang-froid",
+      "title": "Sang-froid",
+      "notionUrl": "https://app.notion.com/p/Sang-froid-39688b48e48e80559444d74e4aa6e909",
+      "lastEditedTime": "2026-07-07T22:25:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang-froid"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez un contrôle remarquable de vos émotions et êtes capable de conserver votre calme même dans les situations les plus extrêmes.\nVous êtes considéré comme possédant 2 traits de Bête en moins lorsque vous résistez à la frénésie.\nDe plus, votre réserve de test pour résister à la frénésie augmente de +3.\nLes personnages Brujah ne peuvent pas prendre cet Atout.\nCette restriction ne s’applique pas aux membres de la lignée Vrai Brujah."
+        },
+        {
+          "type": "heading_2",
+          "text": "Restrictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Interdit aux Brujahs et aux lignées Brujah"
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8096-9104-c59677bd33b9",
       "slug": "sauvage",
       "title": "Sauvage",
@@ -915,6 +2241,45 @@
         {
           "type": "paragraph",
           "text": "Vous êtes bien connu de milieux peu recommandables, vous passez vraisemblablement beaucoup de temps parmi des gang-bangers, des forçats ou avec des bikers. Vous avez donc une réputation sulfureuse bien méritée.\nVous recevez un bonus de 1 à vos jets de bagarre ou de conduite et un bonus de 2 pour vous défendre contre des Pouvoirs utilisé par des individus ayant une position officielle au sein de la Camarilla ou du Sabbat."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80c3-9fca-e10d2fa01f5e",
+      "slug": "sens-aiguise",
+      "title": "Sens Aiguisé",
+      "notionUrl": "https://app.notion.com/p/Sens-Aiguis-39688b48e48e80c39fcae10d2fa01f5e",
+      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sens Aiguisé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’un de vos sens est exceptionnellement développé, vous offrant un avantage notable dans son utilisation. Choisissez l’un des sens suivants : vue, ouïe, odorat, toucher ou goût.\nLorsque vous utilisez ce sens amélioré, vous bénéficiez des effets du pouvoir Sens Accrus d’Auspex.\nSi vous possédez déjà ce pouvoir, vous n’avez pas besoin de dépenser de point de Sang pour activer les effets de Sens Accrus qui nécessiteraient normalement une dépense de Sang."
         }
       ]
     },
@@ -997,6 +2362,45 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8080-99ee-c8dc5d5253e8",
+      "slug": "sommeil-leger",
+      "title": "Sommeil Léger",
+      "notionUrl": "https://app.notion.com/p/Sommeil-L-ger-39688b48e48e808099eec8dc5d5253e8",
+      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sommeil Léger"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors que l’aube rend la plupart des vampires lents et engourdis, vous possédez l’étrange capacité de vous maintenir pleinement éveillé.\nUn personnage possédant cet Atout peut rester vigilant jusqu’à une heure après le lever du soleil et s’éveille une heure avant le coucher du soleil.\nDe plus, vous pouvez vous réveiller instantanément au moindre signe de danger ou de trouble, sans subir de lenteur ni d’hésitation.\nVous ignorez toutes les pénalités liées aux actions effectuées durant les heures de jour, quel que soit votre niveau d’Humanité ou votre nombre de traits de Bête."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80cd-b66f-ec0467912975",
       "slug": "sorcier-amateur",
       "title": "Sorcier amateur",
@@ -1056,6 +2460,152 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8095-9119-d0c4537f59f5",
+      "slug": "souffle-de-vie",
+      "title": "Souffle de vie",
+      "notionUrl": "https://app.notion.com/p/Souffle-de-vie-39688b48e48e80959119d0c4537f59f5",
+      "lastEditedTime": "2026-07-07T22:22:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Souffle de vie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peut-être n’êtes-vous pas totalement mort lors de votre Étreinte, ou peut-être que le sang vampirique a moins altéré votre physiologie que celle des autres.\nVous êtes considéré comme un mortel par tous les pouvoirs ou capacités cherchant à déterminer votre type de créature.\nDe plus, votre aura est anormalement lumineuse pour un vampire, et les animaux ne peuvent pas percevoir votre Bête ; ils réagissent envers vous comme si vous étiez humain.\nSi votre Moralité descend à 3 — temporairement ou définitivement — cet Atout cesse de fonctionner jusqu’à ce que votre Moralité repasse au-dessus de 3.\nUn personnage suivant une Voie d’Illumination ne peut pas posséder cet Atout."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-800f-acb1-dfe3c4f723ac",
+      "slug": "sur-la-voie-de-golconde",
+      "title": "Sur la voie de Golconde",
+      "notionUrl": "https://app.notion.com/p/Sur-la-voie-de-Golconde-39688b48e48e800facb1dfe3c4f723ac",
+      "lastEditedTime": "2026-07-07T22:28:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "5"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sur la voie de Golconde"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes engagé sur la voie du Soupir, recherchant et poursuivant l’état mythique d’illumination connu sous le nom de Golconde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Acheter l’Atout Chercheur de Golconde signifie que vous avez découvert des informations réelles et utiles vous aidant sur la voie du Soupir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos efforts acharnés pour maîtriser votre Bête ont légèrement altéré votre physiologie, vous offrant un léger avantage face à votre condition vampirique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous dégagez une sensation de sérénité, reflet tangible de l’affaiblissement progressif de votre Bête."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Conteur travaillera avec vous afin de déterminer les mythes précis dont votre personnage a entendu parler ainsi que le niveau de connaissance qu’il possède au sujet de la Golconde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour tenter d’atteindre la Golconde, vous devez posséder au moins 4 points en Érudition, incluant une spécialisation en savoir sur la Golconde."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, votre Moralité doit être Humanité, avec un score d’au moins 5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que l’Atout Chercheur de Golconde fournisse à votre personnage des indices concernant l’atteinte du Soupir, gardez à l’esprit que réussir à atteindre la Golconde demeure exceptionnellement rare."
+        },
+        {
+          "type": "paragraph",
+          "text": "La majorité des chercheurs échouent et finissent par succomber à leur Bête."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ceux qui échouent deviennent souvent amers, observant une nouvelle génération assez naïve pour tenter ce qu’eux-mêmes n’ont pas réussi à accomplir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez l’un des bénéfices suivants lorsque vous achetez cet Atout :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous pouvez dépenser 2 points de Sang supplémentaires par tour."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous n’avez plus besoin de dépenser un point de Sang pour vous éveiller chaque nuit. De plus, vous régénérez naturellement 1 point de Sang par jour sans avoir besoin de vous nourrir."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous ne subissez plus les pénalités liées à la faiblesse de votre clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre Humanité descend en dessous de 5, vous perdez l’accès aux bénéfices de cet Atout jusqu’à ce que vous augmentiez à nouveau votre Humanité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre Humanité descend en dessous de 4, vous devez retirer définitivement cet Atout sans aucun remboursement d’expérience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Veuillez noter que posséder cet Atout ne garantit en aucun cas que vous atteindrez la Golconde, cet état demeurant incroyablement rare et difficile à atteindre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Atout signifie simplement que votre personnage est un chercheur sur cette voie et qu’il possède davantage de connaissances que la plupart des autres vampires."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8000-8776-cdec6a005fa8",
       "slug": "tech-junkie",
       "title": "Tech Junkie",
@@ -1091,6 +2641,45 @@
         {
           "type": "paragraph",
           "text": "Vous êtes très connu, dans le cercle des technophiles ; peut-être étiez-vous un hacker célèbre de votre vivant, ou peut-être que votre fascination pour la technologie vous a fait découvrir le monde vampirique, forçant un vampire à vous Étreindre parce que vous deveniez une menace pour la Mascarade. Vous possédez des objets technologiques à peine inventés, ou encore en développement, avant même qu'ils soient disponibles au public. Vous recevez un bonus de +2 à votre réserve de test lorsque cela implique les compétences Informatique ou Sciences, et vous pouvez dépenser une action inter-partie pour ajouter la Qualité Flashy ou Banal sur un équipement. Cet ajout peut permettre à l'objet de dépasser la limite maximale de 2 qualités."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-804e-8b20-c9663351b66c",
+      "slug": "touche-a-tout",
+      "title": "Touche à tout",
+      "notionUrl": "https://app.notion.com/p/Touche-tout-39688b48e48e804e8b20c9663351b66c",
+      "lastEditedTime": "2026-07-07T22:22:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Touche à tout"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez toujours été capable de gérer plusieurs tâches simultanément, répartissant votre attention afin d’accomplir plusieurs objectifs à la fois.\nChoisissez une catégorie d’Attributs (Physique, Social ou Mental) et sélectionnez un Focus supplémentaire pour cet Attribut.\nPar exemple, un personnage possédant cet Atout peut posséder à la fois le Focus Force et le Focus Vigueur pour son Attribut Physique."
         }
       ]
     },
@@ -1134,6 +2723,45 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80c5-a7f7-e3cfae1d62d0",
+      "slug": "vitalite-intense",
+      "title": "Vitalité intense",
+      "notionUrl": "https://app.notion.com/p/Vitalit-intense-39688b48e48e80c5a7f7e3cfae1d62d0",
+      "lastEditedTime": "2026-07-07T22:23:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vitalité intense"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La malédiction de Caïn coule puissamment dans vos veines.\nVous pouvez dépenser 1 point de Sang supplémentaire par tour au-delà de ce que votre Génération autorise normalement.\nLes Nouveau-Nés et les Ancilla peuvent acheter cet Atout pour 2 points, tandis que les Anciens de toute Génération doivent payer le coût complet de 3 points.\nLes personnages ayant commis une diablerie au-dessus de la 9e Génération doivent dépenser de l’XP supplémentaire afin de compenser l’augmentation du coût.\nSi votre personnage est incapable de payer ce coût supplémentaire, ou si ce coût dépasse la limite de 7 points d’Atouts, vous perdez cet Atout et l’XP dépensée est remboursée."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-800d-ad86-cd84475f3691",
       "slug": "volatile",
       "title": "Volatile",
@@ -1169,6 +2797,45 @@
         {
           "type": "paragraph",
           "text": "Vous êtes extrêmement sauvage et vous avez le sang vif, même pour le Sabbat. Bien que cette instabilité peut effrayer les autres, elle vous bénéficie à vous, et vous attendez le moment où vous pouvez relâcher votre Bête. Lorsque vous entrez en frénésie, vous gagnez immédiatement un point de Volonté. Vous ne pouvez obtenir ce bonus qu'une fois par combat."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-809b-8580-ef9c05b49227",
+      "slug": "volonte-de-fer",
+      "title": "Volonté de fer",
+      "notionUrl": "https://app.notion.com/p/Volont-de-fer-39688b48e48e809b8580ef9c05b49227",
+      "lastEditedTime": "2026-07-07T22:23:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Volonté de fer"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En atteignant un niveau de maîtrise mentale digne des plus grands maîtres martiaux ou des érudits les plus disciplinés, vous avez développé une structure mentale d’une rigidité exceptionnelle.\nVous pouvez utiliser cette résolution intérieure afin de concentrer votre esprit et résister à la torture, à l’intimidation et aux pouvoirs cherchant directement à vous contrôler.\nVous obtenez un retest gratuit lorsque vous résistez aux effets d’Auspex, Animalisme et Domination.\nVolonté de Fer ne peut pas être utilisée pour retenter des tentatives visant à percer Dissimulation ou Chimérie, mais elle accorde un retest contre des pouvoirs tels que Télépathie ou Assaut Psychique.\nCe retest peut être utilisé avant ou après un retest normal de Volonté et constitue une exception à la règle limitant les retests à un seul par défi."
         }
       ]
     },
