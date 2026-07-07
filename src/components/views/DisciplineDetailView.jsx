@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BlockRenderer from "../BlockRenderer";
+import ContentBlocks from "../ContentBlocks";
 import StatBlock from "../StatBlock";
 import DetailShell from "../DetailShell";
 import { itemNiveau, powersForDiscipline } from "../../utils/disciplinePowers";
@@ -42,11 +42,7 @@ export default function DisciplineDetailView({ wiki }) {
                     <>
                         <StatBlock item={activeItem} fields={STAT_FIELDS} />
 
-                        <div className="contentBlocks">
-                            {(activeItem.content || []).map((block, index) => (
-                                <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                            ))}
-                        </div>
+                        <ContentBlocks content={activeItem.content} />
 
                         <div className="relatedGroups">
                             {groups.map((group) => (

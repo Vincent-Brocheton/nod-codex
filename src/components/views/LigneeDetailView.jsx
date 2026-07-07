@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BlockRenderer from "../BlockRenderer";
+import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
 import DetailShell from "../DetailShell";
 import collectionNavPath from "../../utils/collectionNavPath";
@@ -39,11 +39,7 @@ export default function LigneeDetailView({ wiki }) {
                         </p>
                     ) : null}
 
-                    <div className="contentBlocks">
-                        {(item.content || []).map((block, index) => (
-                            <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                        ))}
-                    </div>
+                    <ContentBlocks content={item.content} />
 
                     <RelatedGroups item={item} groups={RELATED_GROUPS} />
                 </>

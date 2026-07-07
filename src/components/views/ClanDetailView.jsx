@@ -1,4 +1,4 @@
-import BlockRenderer from "../BlockRenderer";
+import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
 import DetailShell from "../DetailShell";
 
@@ -19,11 +19,7 @@ export default function ClanDetailView({ wiki }) {
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
             {(activeItem) => (
                 <>
-                    <div className="contentBlocks">
-                        {(activeItem.content || []).map((block, index) => (
-                            <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                        ))}
-                    </div>
+                    <ContentBlocks content={activeItem.content} />
 
                     <RelatedGroups item={activeItem} groups={RELATED_GROUPS} />
                 </>

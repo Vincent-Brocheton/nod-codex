@@ -410,8 +410,24 @@ h1, h2, h3 {
   font-size: 19px;
 }
 
-.contentBlocks p:first-child {
+.contentBlocks p:first-child,
+.contentBlocks ul:first-child,
+.contentBlocks ol:first-child {
   margin-top: 0;
+}
+
+.contentBlocks ul,
+.contentBlocks ol {
+  margin: 0 0 16px;
+  padding-left: 24px;
+}
+
+.contentBlocks li {
+  margin-bottom: 6px;
+}
+
+.contentBlocks li:last-child {
+  margin-bottom: 0;
 }
 
 .contentBlocks blockquote {

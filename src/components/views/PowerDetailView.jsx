@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import BlockRenderer from "../BlockRenderer";
+import ContentBlocks from "../ContentBlocks";
 import StatBlock from "../StatBlock";
 import DetailShell from "../DetailShell";
 import { disciplineRefs } from "../../utils/disciplinePowers";
@@ -44,11 +44,7 @@ export default function PowerDetailView({ wiki }) {
                         </p>
                     ) : null}
 
-                    <div className="contentBlocks">
-                        {(item.content || []).map((block, index) => (
-                            <BlockRenderer key={`${block.type}-${index}`} block={block} />
-                        ))}
-                    </div>
+                    <ContentBlocks content={item.content} />
                 </>
             )}
         </DetailShell>
