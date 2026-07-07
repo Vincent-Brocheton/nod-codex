@@ -169,23 +169,71 @@ function blockToContent(block) {
   };
 }
 
-async function notionRequest(endpoint, options = {}) {
-  const response = await fetch(`https://api.notion.com/v1${endpoint}`, {
-    ...options,
-    headers: {
-      Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
-      "Notion-Version": process.env.NOTION_VERSION || "2022-06-28",
-      "Content-Type": "application/json",
-      ...(options.headers || {})
-    }
-  });
+// L'API Notion tolère mal un trop grand nombre de requêtes simultanées.
+// Ce limiteur borne le nombre d'appels HTTP réellement en vol à tout
+// instant, quel que soit le niveau de parallélisme exprimé par le code
+// appelant (bases et fiches traitées avec Promise.all).
+function createLimiter(concurrency) {
+  let active = 0;
+  const queue = [];
 
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`Erreur Notion ${response.status} sur ${endpoint}: ${body}`);
+  function runNext() {
+    if (active >= concurrency || queue.length === 0) return;
+
+    active++;
+    const { fn, resolve, reject } = queue.shift();
+
+    fn()
+      .then(resolve, reject)
+      .finally(() => {
+        active--;
+        runNext();
+      });
   }
 
-  return response.json();
+  return function limit(fn) {
+    return new Promise((resolve, reject) => {
+      queue.push({ fn, resolve, reject });
+      runNext();
+    });
+  };
+}
+
+const limitNotionRequest = createLimiter(6);
+
+function sleep(ms) {
+  return new Promise((resolve) => setTimeout(resolve, ms));
+}
+
+async function notionRequest(endpoint, options = {}) {
+  for (let attempt = 0; attempt < 5; attempt++) {
+    const response = await limitNotionRequest(() =>
+      fetch(`https://api.notion.com/v1${endpoint}`, {
+        ...options,
+        headers: {
+          Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
+          "Notion-Version": process.env.NOTION_VERSION || "2022-06-28",
+          "Content-Type": "application/json",
+          ...(options.headers || {})
+        }
+      })
+    );
+
+    if (response.status === 429) {
+      const retryAfter = Number(response.headers.get("retry-after")) || 1;
+      await sleep(retryAfter * 1000);
+      continue;
+    }
+
+    if (!response.ok) {
+      const body = await response.text();
+      throw new Error(`Erreur Notion ${response.status} sur ${endpoint}: ${body}`);
+    }
+
+    return response.json();
+  }
+
+  throw new Error(`Erreur Notion: trop de tentatives après des réponses 429 sur ${endpoint}`);
 }
 
 async function queryDatabase(databaseId) {
@@ -282,11 +330,7 @@ async function fetchCollectionItems(collection) {
     queryDatabase(databaseId),
   ]);
 
-  const items = [];
-
-  for (const page of pages) {
-    items.push(await normalizePage(page));
-  }
+  const items = await Promise.all(pages.map((page) => normalizePage(page)));
 
   const visibleItems = items.filter(isVisible);
   visibleItems.sort((a, b) => a.title.localeCompare(b.title, "fr"));
@@ -397,20 +441,23 @@ async function main() {
   const configuredCollections = requireConfig();
   await mkdir(outputCollectionsDir, { recursive: true });
 
-  const fetched = [];
-  for (const collection of configuredCollections) {
-    const { databaseId, items, propertyOptions, description } = await fetchCollectionItems(collection);
-    fetched.push({ collection, databaseId, items, propertyOptions, description });
-  }
+  const fetched = await Promise.all(
+    configuredCollections.map(async (collection) => {
+      const { databaseId, items, propertyOptions, description } = await fetchCollectionItems(collection);
+      return { collection, databaseId, items, propertyOptions, description };
+    })
+  );
 
   // Les relations ne peuvent être résolues qu'une fois toutes les
   // collections chargées (une relation peut pointer vers une autre base).
   const registry = buildRegistry(fetched);
 
-  for (const { collection, databaseId, items, propertyOptions, description } of fetched) {
-    resolveRelations(items, registry);
-    await writeCollectionFile(collection, databaseId, items, propertyOptions, description);
-  }
+  await Promise.all(
+    fetched.map(({ collection, databaseId, items, propertyOptions, description }) => {
+      resolveRelations(items, registry);
+      return writeCollectionFile(collection, databaseId, items, propertyOptions, description);
+    })
+  );
 
   const skippedCollections = wikiCollections.filter((collection) => !process.env[collection.envVar]);
   for (const collection of skippedCollections) {
