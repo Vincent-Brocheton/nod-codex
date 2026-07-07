@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-05T09:21:48.513Z",
+  "generatedAt": "2026-07-06T18:25:13.622Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -165,7 +165,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -286,18 +292,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "ahrimanes",
-              "title": "Ahrimanes"
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "noiad",
-              "title": "Noiad"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -422,8 +417,38 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "noiad",
-              "title": "Noiad"
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé"
             }
           ]
         },
@@ -551,11 +576,6 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs"
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "coyote",
-              "title": "Coyote"
             }
           ]
         },
@@ -885,8 +905,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "coyote",
-              "title": "Coyote"
+              "slug": "tlacique",
+              "title": "Tlacique"
             }
           ]
         },
@@ -1054,8 +1074,13 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "premascine",
-              "title": "Premascine"
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé"
             }
           ]
         },
@@ -1201,7 +1226,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -1255,7 +1286,28 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -1398,13 +1450,18 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "vrai-brujah",
-              "title": "Vrai-Brujah"
+              "slug": "ananke",
+              "title": "Ananke"
             },
             {
               "collectionKey": "lignees",
-              "slug": "ahrimanes",
-              "title": "Ahrimanes"
+              "slug": "tlacique",
+              "title": "Tlacique"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère"
             }
           ]
         },
@@ -1467,13 +1524,8 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "coyote",
-              "title": "Coyote"
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "noiad",
-              "title": "Noiad"
+              "slug": "tlacique",
+              "title": "Tlacique"
             }
           ]
         },
@@ -1557,13 +1609,8 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "vrai-brujah",
-              "title": "Vrai-Brujah"
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "premascine",
-              "title": "Premascine"
+              "slug": "vipere",
+              "title": "Vipère"
             }
           ]
         },
@@ -1708,7 +1755,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -1768,13 +1821,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vrai-brujah",
-              "title": "Vrai-Brujah"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -1892,7 +1939,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -2198,13 +2251,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "premascine",
-              "title": "Premascine"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -2318,7 +2365,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -2558,13 +2611,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "ahrimanes",
-              "title": "Ahrimanes"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -2984,7 +3031,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -3104,7 +3157,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent"
+            }
+          ]
         },
         "Nom": {
           "type": "text",

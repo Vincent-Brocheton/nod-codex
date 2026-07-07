@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-05T09:21:48.518Z",
+  "generatedAt": "2026-07-06T18:25:13.627Z",
   "propertyOptions": {},
   "items": [
     {
@@ -126,13 +126,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vrai-brujah",
-              "title": "Vrai-Brujah"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -242,13 +236,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "premascine",
-              "title": "Premascine"
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -299,7 +287,28 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -425,7 +434,18 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -559,7 +579,18 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "tlacique",
+              "title": "Tlacique"
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère"
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -811,7 +842,13 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé"
+            }
+          ]
         },
         "Nom": {
           "type": "text",

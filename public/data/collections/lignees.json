@@ -4,158 +4,27 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-05T09:21:48.519Z",
+  "generatedAt": "2026-07-06T18:25:13.628Z",
   "propertyOptions": {},
   "items": [
     {
-      "id": "39388b48-e48e-80db-87d3-e12b94a90fd6",
-      "slug": "ahrimanes",
-      "title": "Ahrimanes",
-      "notionUrl": "https://app.notion.com/p/Ahrimanes-39388b48e48e80db87d3e12b94a90fd6",
-      "lastEditedTime": "2026-07-04T23:10:00.000Z",
+      "id": "39588b48-e48e-800d-9846-c61bda685c85",
+      "slug": "ananke",
+      "title": "Ananke",
+      "notionUrl": "https://app.notion.com/p/Ananke-39588b48e48e800d9846c61bda685c85",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
           "value": []
         },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "animalisme",
-              "title": "Animalisme"
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "presence",
-              "title": "Présence"
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-des-elementaires",
-              "title": "Voie des Elementaires"
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": []
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": []
-        },
-        "Name": {
-          "type": "text",
-          "value": "Ahrimanes"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
-        },
-        {
-          "type": "heading_2",
-          "text": "Faiblesse de clan"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
-        },
-        {
-          "type": "paragraph",
-          "text": "ATTENTION : Ne peut pas être choisi que par des personnages exclusivement féminins"
-        }
-      ]
-    },
-    {
-      "id": "39388b48-e48e-802e-a106-fcf9a637c8fc",
-      "slug": "coyote",
-      "title": "Coyote",
-      "notionUrl": "https://app.notion.com/p/Coyote-39388b48e48e802ea106fcf9a637c8fc",
-      "lastEditedTime": "2026-07-04T23:11:00.000Z",
-      "properties": {
-        "Handicaps": {
-          "type": "relation",
-          "value": []
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Discplines": {
           "type": "relation",
           "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "celerite",
-              "title": "Célérité"
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "dissimulation",
-              "title": "Dissimulation"
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "proteisme",
-              "title": "Protéisme"
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": []
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": []
-        },
-        "Name": {
-          "type": "text",
-          "value": "Coyote"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
-        },
-        {
-          "type": "heading_2",
-          "text": "Faiblesse de clan"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
-        }
-      ]
-    },
-    {
-      "id": "39388b48-e48e-8077-9d38-ea0ece2f7724",
-      "slug": "noiad",
-      "title": "Noiad",
-      "notionUrl": "https://app.notion.com/p/Noiad-39388b48e48e80779d38ea0ece2f7724",
-      "lastEditedTime": "2026-07-04T23:11:00.000Z",
-      "properties": {
-        "Handicaps": {
-          "type": "relation",
-          "value": []
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "animalisme",
-              "title": "Animalisme"
-            },
             {
               "collectionKey": "disciplines",
               "slug": "auspex",
@@ -163,71 +32,13 @@
             },
             {
               "collectionKey": "disciplines",
-              "slug": "proteisme",
-              "title": "Protéisme"
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": []
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": []
-        },
-        "Name": {
-          "type": "text",
-          "value": "Noiad"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Surnoms : Le clan de la bête, les apatrides, les animaux, les féroces, les sauvages, les barbares, les proscrits, les loups, les errants."
-        },
-        {
-          "type": "heading_2",
-          "text": "Faiblesse de clan"
-        },
-        {
-          "type": "paragraph",
-          "text": "Tous les Gangrels possèdent un trait animal permanent, celui ci peut etre caché mais ne peut jamais disparaitre. Quand ils entrent en frénésie, ils obtiennent un trait animal suplémentaire qui est temporaire."
-        }
-      ]
-    },
-    {
-      "id": "39388b48-e48e-8083-b107-f15e5553828f",
-      "slug": "premascine",
-      "title": "Premascine",
-      "notionUrl": "https://app.notion.com/p/Premascine-39388b48e48e8083b107f15e5553828f",
-      "lastEditedTime": "2026-07-04T23:12:00.000Z",
-      "properties": {
-        "Handicaps": {
-          "type": "relation",
-          "value": []
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "domination",
-              "title": "Domination"
+              "slug": "alienation",
+              "title": "Aliénation"
             },
             {
               "collectionKey": "disciplines",
-              "slug": "puissance",
-              "title": "Puissance"
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-la-sepulture",
-              "title": "Voie de la Sépulture"
+              "slug": "presence",
+              "title": "Présence"
             }
           ]
         },
@@ -236,8 +47,8 @@
           "value": [
             {
               "collectionKey": "clans",
-              "slug": "giovanni",
-              "title": "Giovanni"
+              "slug": "malkavien",
+              "title": "Malkavien"
             }
           ]
         },
@@ -247,7 +58,7 @@
         },
         "Name": {
           "type": "text",
-          "value": "Premascine"
+          "value": "Ananke"
         }
       },
       "content": [
@@ -257,7 +68,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les nécromants"
+          "text": "Ecrire la présentation de la Lignée"
         },
         {
           "type": "heading_2",
@@ -265,7 +76,148 @@
         },
         {
           "type": "paragraph",
-          "text": "La morsure des Giovanni est atrocement douloureuse.\nLorsqu’un Giovanni se nourrit d’un mortel il inflige 3 niveaux de dégâts par point de sang drainé (au lieu de 2)"
+          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8089-add2-c082b0f8e0c3",
+      "slug": "chevalier-de-la-lune",
+      "title": "Chevalier de la Lune",
+      "notionUrl": "https://app.notion.com/p/Chevalier-de-la-Lune-39588b48e48e8089add2c082b0f8e0c3",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chevalier de la Lune"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80d9-b2da-de128f1618cd",
+      "slug": "croise",
+      "title": "Croisé",
+      "notionUrl": "https://app.notion.com/p/Crois-39588b48e48e80d9b2dade128f1618cd",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Croisé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ventrue ont des goûts extrêmement raffinés en matière de sang. Chaque Ventrue ne peut se nourrir que d’un type très spécifique de sang mortel, et ne tire aucune subsistance d’un autre.\nLors de la création du personnage, ce type doit être défini avec le Conteur. Cette catégorie doit être étroite : moins d’une personne sur dix doit correspondre à ce critère. Ce choix est permanent.\nLe sang d’un autre type (y compris animal) ne nourrit pas le vampire. Quelle que soit la quantité consommée, sa réserve de sang n’augmente pas, et il vomit immédiatement ce sang.\nLe sang des créatures surnaturelles (comme celui des vampires) n’est pas concerné et peut nourrir normalement.\nSi un Ventrue est contraint de se nourrir en territoire inconnu, il doit dépenser une AIP Nourriture supplémentaire pour entrer en jeu avec une réserve de sang complète."
         }
       ]
     },
@@ -274,11 +226,15 @@
       "slug": "sorcier",
       "title": "Sorcier",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-07-04T23:07:00.000Z",
+      "lastEditedTime": "2026-07-06T11:06:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
           "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Discplines": {
           "type": "relation",
@@ -339,15 +295,165 @@
       ]
     },
     {
-      "id": "39388b48-e48e-8088-880d-f1858938a1f1",
-      "slug": "vizirs",
-      "title": "Vizirs",
-      "notionUrl": "https://app.notion.com/p/Vizirs-39388b48e48e8088880df1858938a1f1",
-      "lastEditedTime": "2026-07-04T23:07:00.000Z",
+      "id": "39588b48-e48e-8068-ac17-fcf6689b8353",
+      "slug": "tlacique",
+      "title": "Tlacique",
+      "notionUrl": "https://app.notion.com/p/Tlacique-39588b48e48e8068ac17fcf6689b8353",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
           "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Tlacique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80f4-afd3-f91a1ea50727",
+      "slug": "vipere",
+      "title": "Vipère",
+      "notionUrl": "https://app.notion.com/p/Vip-re-39588b48e48e80f4afd3f91a1ea50727",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vipère"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-8088-880d-f1858938a1f1",
+      "slug": "vizirs",
+      "title": "Vizirs",
+      "notionUrl": "https://app.notion.com/p/Vizirs-39388b48e48e8088880df1858938a1f1",
+      "lastEditedTime": "2026-07-06T11:06:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Discplines": {
           "type": "relation",
@@ -408,33 +514,37 @@
       ]
     },
     {
-      "id": "39388b48-e48e-8027-946b-c75fb6489391",
-      "slug": "vrai-brujah",
-      "title": "Vrai-Brujah",
-      "notionUrl": "https://app.notion.com/p/Vrai-Brujah-39388b48e48e8027946bc75fb6489391",
-      "lastEditedTime": "2026-07-04T23:08:00.000Z",
+      "id": "39588b48-e48e-8082-9cd6-e602562146f4",
+      "slug": "voie-de-l-eau",
+      "title": "Voie de l’Eau",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39588b48e48e80829cd6e602562146f4",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
           "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Discplines": {
           "type": "relation",
           "value": [
             {
               "collectionKey": "disciplines",
-              "slug": "presence",
-              "title": "Présence"
+              "slug": "auspex",
+              "title": "Auspex"
             },
             {
               "collectionKey": "disciplines",
-              "slug": "puissance",
-              "title": "Puissance"
+              "slug": "harmonisation",
+              "title": "Harmonisation"
             },
             {
               "collectionKey": "disciplines",
-              "slug": "temporis",
-              "title": "Temporis"
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau"
             }
           ]
         },
@@ -443,8 +553,8 @@
           "value": [
             {
               "collectionKey": "clans",
-              "slug": "brujah",
-              "title": "Brujah"
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin"
             }
           ]
         },
@@ -454,7 +564,7 @@
         },
         "Name": {
           "type": "text",
-          "value": "Vrai-Brujah"
+          "value": "Voie de l’Eau"
         }
       },
       "content": [
@@ -464,15 +574,218 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Le clan des philosophes, les canailles, les punks, les hipsters, les prométhéens, les rebelles, les rois philosophes, les hellènes, les sages."
+          "text": "Ecrire la présentation de la Lignée"
         },
         {
           "type": "heading_2",
           "text": "Faiblesse de clan"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8045-8ecc-d099df9aa030",
+      "slug": "voie-de-la-terre",
+      "title": "Voie de la Terre",
+      "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39588b48e48e80458eccd099df9aa030",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voie de la Terre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
         },
         {
           "type": "paragraph",
-          "text": "Les Brujah sont dominés par leurs émotions. Leur difficulté à résister à la frénésie est augmentée de +2"
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-809f-ae41-fe0633da645a",
+      "slug": "voie-du-feu",
+      "title": "Voie du Feu",
+      "notionUrl": "https://app.notion.com/p/Voie-du-Feu-39588b48e48e809fae41fe0633da645a",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voie du Feu"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de Clan"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80e0-98f0-f6c0a5a6c980",
+      "slug": "voie-du-vent",
+      "title": "Voie du Vent",
+      "notionUrl": "https://app.notion.com/p/Voie-du-Vent-39588b48e48e80e098f0f6c0a5a6c980",
+      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "properties": {
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent"
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin"
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voie du Vent"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée"
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
         }
       ]
     }

@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-07-05T09:21:48.521Z",
+  "generatedAt": "2026-07-06T18:25:13.629Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -15,10 +15,825 @@
     ],
     "Coût": [
       "1",
-      "2"
+      "2",
+      "3",
+      "4",
+      "5"
     ]
   },
   "items": [
+    {
+      "id": "39588b48-e48e-8061-9a93-ccc6a14e4a2e",
+      "slug": "accuse-d-heresie",
+      "title": "Accusé D’hérésie",
+      "notionUrl": "https://app.notion.com/p/Accus-D-h-r-sie-39588b48e48e80619a93ccc6a14e4a2e",
+      "lastEditedTime": "2026-07-06T11:22:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Accusé D’hérésie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien qu'ayant été accusé d'Hérésie dans le passé, vous n'avez pas été détruit. Vous avez peut-être été en possession de pages d'ouvrages interdit comme le livre de Nod ou le gospel de Loadice, vous avez peut-être montré de la bonté envers un Caitiff, partagé des information à propos de Golconde ou quoi que ce soit d'autre d'interdit. À cause de cette erreur, votre nom est noté dans la liste Camariste des personnes subversives et vous êtes surveillé de près par les agents des Justicars. Vous êtes traité comme ayant un niveau de classe social en moins que votre génération. Si vous êtes un nouveau-né, vous serez traité comme un Caitiff."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80d4-b51e-c4282d6b937b",
+      "slug": "addiction",
+      "title": "Addiction",
+      "notionUrl": "https://app.notion.com/p/Addiction-39588b48e48e80d4b51ec4282d6b937b",
+      "lastEditedTime": "2026-07-06T11:38:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Addiction"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous souffrez d’une dépendance à une substance qui doit être présente dans le sang que vous consommez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut s’agir d’alcool, de nicotine, de drogues dures ou simplement d’adrénaline."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mécaniquement, l’addiction d’un personnage appartient à l’une des trois catégories suivantes : amphétamines, hallucinogènes ou sédatifs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous prenez cet Handicap, vous devez choisir l’une de ces trois catégories afin de représenter l’addiction de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez prendre cet Handicap jusqu’à trois fois, en choisissant à chaque fois une catégorie différente et en subissant toutes les pénalités correspondantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au début de la partie, ou chaque fois que le personnage se nourrit, vous subissez la pénalité liée à votre addiction pendant une heure :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Amphétamines :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Hallucinogènes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sédatifs :"
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8025-8254-cf121a6b7f51",
+      "slug": "amnesie",
+      "title": "Amnésie",
+      "notionUrl": "https://app.notion.com/p/Amn-sie-39588b48e48e80258254cf121a6b7f51",
+      "lastEditedTime": "2026-07-06T11:38:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Amnésie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes incapable de vous souvenir de quoi que ce soit concernant votre passé, votre identité ou votre famille, qu’elle soit mortelle ou vampirique.\nVous ne possédez aucun souvenir de vos anciens amants, ennemis ou alliés.\nVos origines ainsi que les circonstances entourant votre amnésie sont laissées à la discrétion du Conteur, qui est encouragé à rendre votre passé aussi intéressant que possible afin qu’il puisse hanter votre présent et influencer l’histoire de votre personnage."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80d3-9359-c070cc446f9e",
+      "slug": "analphabete",
+      "title": "Analphabète",
+      "notionUrl": "https://app.notion.com/p/Analphab-te-39588b48e48e80d39359c070cc446f9e",
+      "lastEditedTime": "2026-07-06T14:52:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Analphabète"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Par manque d’éducation ou à cause d’un trouble tel que la dyslexie, vous êtes incapable de lire ou d’écrire.\nCet Handicap vous empêche d’accéder au moindre point dans les compétences suivantes : Académique, Informatique ou Science.\nVotre Conteur peut également choisir de limiter le nombre de points que vous pouvez posséder en Connaissance ou Occultisme."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80cb-aa16-ed3d8e8d4c6f",
+      "slug": "apparence-d-enfant",
+      "title": "Apparence d’Enfant",
+      "notionUrl": "https://app.notion.com/p/Apparence-d-Enfant-39588b48e48e80cbaa16ed3d8e8d4c6f",
+      "lastEditedTime": "2026-07-06T11:39:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Apparence d’Enfant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre apparence est très enfantine.\nCela peut être dû à votre petite taille ou au fait que vous avez été Étreint à une époque où un adolescent précoce était considéré comme en âge de se marier.\nIl est contraire aux traditions vampiriques d’Étreindre des enfants, et beaucoup considèrent ces vampires à la fois comme une grave violation de la Mascarade et comme une pratique répugnante.\nDe plus, il vous est difficile de dissimuler le fait que vous ne vieillissez pas, et il est compliqué pour un enfant de fréquenter les lieux publics durant les heures nocturnes propres aux vampires.\nLes personnages possédant cet Handicap possèdent un maximum initial d’Attribut Physique de 5 au lieu de 10.\nCette limite peut être augmentée par des traits d’Attribut supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80a0-81fc-e7029c1f08ba",
+      "slug": "archaique",
+      "title": "Archaïque",
+      "notionUrl": "https://app.notion.com/p/Archa-que-39588b48e48e80a081fce7029c1f08ba",
+      "lastEditedTime": "2026-07-06T11:39:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Archaïque"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’afflux constant de technologies modernes vous déroute et vous irrite profondément.\nLes inventions modernes symbolisent l’accroissement du pouvoir des mortels ainsi qu’un éloignement tangible du monde que vous comprenez.\nVous ne pouvez pas acheter les compétences suivantes : Informatique, Conduite, Science (toute science moderne) ou Sécurité.\nDe plus, vous êtes incapable d’utiliser des machines ou des technologies inventées au cours des cent dernières années.\nNote : les joueurs possédant cet Handicap devraient interpréter des perspectives anciennes ou archaïques lorsqu’ils utilisent certaines compétences, lorsque cela est approprié. Par exemple, employer des herbes et des cataplasmes avec la compétence Médecine plutôt que des médicaments ou équipements modernes."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8030-a5c2-f830b4262754",
+      "slug": "attache-a-la-terre",
+      "title": "Attaché à la Terre",
+      "notionUrl": "https://app.notion.com/p/Attach-la-Terre-39588b48e48e8030a5c2f830b4262754",
+      "lastEditedTime": "2026-07-06T14:54:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Attaché à la Terre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains vampires demeurent profondément liés à leur terre natale et doivent reposer à proximité d’au moins deux poignées de terre provenant d’un lieu important de leur vie mortelle.\nCette terre peut provenir de votre lieu de naissance ou du cimetière où vous avez subi l’Étreinte.\nChaque nuit passée sans ce lien physique avec votre terre natale vous inflige une pénalité cumulative de -1 à toutes vos réserves de tests d’attaque, jusqu’à un maximum de -5.\nCes pénalités persistent jusqu’à ce que vous vous reposiez pendant une journée complète au contact de votre terre."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80ad-9085-cd4e96a3bca3",
+      "slug": "balise-de-l-impie",
+      "title": "Balise de l'Impie",
+      "notionUrl": "https://app.notion.com/p/Balise-de-l-Impie-39588b48e48e80ad9085cd4e96a3bca3",
+      "lastEditedTime": "2026-07-06T11:40:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Balise de l'Impie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous dégagez une aura de mal palpable, qui attire l’attention des mortels et laisse derrière vous un profond sentiment de malaise.\nLes mortels pieux ainsi que les chasseurs possédant la Vraie Foi reconnaissent automatiquement que vous êtes un vampire.\nVous descendez peut-être d’une lignée mortelle historiquement liée — voire mêlée — à des démons, vous souffrez peut-être d’une malédiction infernale, ou vous êtes peut-être réellement un infernaliste.\nChaque fois que vous utilisez un pouvoir de Discipline de niveau 4 ou supérieur, votre aura révèle clairement des signes de corruption infernale.\nVous êtes incapable d’entrer dans des lieux sacrés tels que des églises, mosquées, synagogues ou autres lieux de culte.\nLes pouvoirs liés à la foi — y compris la Vraie Foi des chasseurs mortels et les pouvoirs des Salubri — infligent toujours un point de dégâts supplémentaire lorsqu’ils vous touchent avec succès."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8061-90aa-e804e9da454e",
+      "slug": "blessure-permanente",
+      "title": "Blessure permanente",
+      "notionUrl": "https://app.notion.com/p/Blessure-permanente-39588b48e48e806190aae804e9da454e",
+      "lastEditedTime": "2026-07-06T11:40:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Blessure permanente"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez subi des blessures pendant ou juste avant l’Étreinte, et votre sire ne les a jamais réparées.\nCette blessure ne peut pas être soignée, bien qu’elle ne saigne pas. Vous pouvez éventuellement la dissimuler sous des bandages ou des vêtements.\nVous possédez deux niveaux de santé Sain en moins."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80c0-a7af-dab6c91c258c",
+      "slug": "borgne",
+      "title": "Borgne",
+      "notionUrl": "https://app.notion.com/p/Borgne-39588b48e48e80c0a7afdab6c91c258c",
+      "lastEditedTime": "2026-07-06T11:41:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Borgne"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez perdu un œil avant l’Étreinte ou celui-ci a été détruit de manière permanente, par exemple à cause de la Vicissitude.\nQuelle qu’en soit la raison, il est impossible de le régénérer.\nVous subissez une pénalité de -5 à toutes vos attaques Physiques à distance, y compris les armes à feu et les armes de jet."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80ee-8c1d-dabb15d82135",
+      "slug": "cauchemars",
+      "title": "Cauchemars",
+      "notionUrl": "https://app.notion.com/p/Cauchemars-39588b48e48e80ee8c1ddabb15d82135",
+      "lastEditedTime": "2026-07-06T11:43:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cauchemars"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes hanté par d’horribles cauchemars lorsque vous reposez durant la journée, et ces visions vous poursuivent même à l’état éveillé.\nVous profitez rarement d’un repos complet et avez du mal à apaiser votre Bête agitée.\nLorsque vous commettez un péché contre votre Moralité, votre esprit s’obsède sur ces événements et les rejoue sans cesse durant votre sommeil, accompagné d’autres souvenirs douloureux de votre passé.\nVous perdez vos traits de Bête au rythme d’un seul par journée de repos, au lieu de tous les perdre après une unique journée de sommeil."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80c3-84cf-d83d1b415e84",
+      "slug": "chair-du-cadavre",
+      "title": "Chair du Cadavre",
+      "notionUrl": "https://app.notion.com/p/Chair-du-Cadavre-39588b48e48e80c384cfd83d1b415e84",
+      "lastEditedTime": "2026-07-06T11:43:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chair du Cadavre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre chair ne se régénère jamais complètement après avoir été endommagée.\nBien que vous soyez capable de retrouver une pleine fonctionnalité physique, votre peau conserve les coupures, déchirures, impacts de balles et autres blessures.\nChaque fois que vous êtes touché par une attaque Physique infligeant 2 points de dégâts ou plus, vous subissez immédiatement une pénalité cumulative de -1 à votre Attribut Physique, jusqu’à un maximum de -5.\nCette pénalité n’est pas supprimée lorsque vous soignez les dégâts ; elle persiste jusqu’à ce que le personnage se repose pendant une journée complète."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8026-b4e2-e666ff08fb7c",
+      "slug": "chasse",
+      "title": "Chassé",
+      "notionUrl": "https://app.notion.com/p/Chass-39588b48e48e8026b4e2e666ff08fb7c",
+      "lastEditedTime": "2026-07-06T11:43:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chassé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre nom, votre visage et votre histoire sont connus d’organisations de chasseurs, de loups-garous ou d’une secte ennemie.\nSi vous attirez l’attention, les chasseurs viendront pour vous.\nVous devez dépenser 2 AIP chaque mois afin d’éviter ceux qui recherchent activement votre Mort Ultime.\nSi vous ne le faites pas, vous commencez la partie avec votre niveau de blessure Sain entièrement rempli de dégâts aggravés."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8031-a8b3-ec9b330a1808",
+      "slug": "combattant-non-entraine",
+      "title": "Combattant non entraîné",
+      "notionUrl": "https://app.notion.com/p/Combattant-non-entra-n-39588b48e48e8031a8b3ec9b330a1808",
+      "lastEditedTime": "2026-07-06T14:51:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Combattant non entraîné"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes peut-être un manipulateur social de génie, ou un fin limier, mais vous n'avez jamais été doué avec les armes. Puisque la Camarilla offre de nombreuses voies par lesquelles gagner du pouvoir, vous ne vous êtes jamais dérangé pour apprendre des choses aussi triviales. En conséquence, vous ne pouvez utiliser des manœuvres de combat. De plus, vous ne pouvez profiter du bonus de la manœuvre de combat \"assist attacker tactic\" tant que vous avez ce handicap."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80e2-800b-de56609cc859",
+      "slug": "crise-de-foi",
+      "title": "Crise de foi",
+      "notionUrl": "https://app.notion.com/p/Crise-de-foi-39588b48e48e80e2800bde56609cc859",
+      "lastEditedTime": "2026-07-06T11:28:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Crise de foi"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En général vous avez la foi. Vous avez été éduqué correctement dans les rites, vous avez peut-être même présidé à certains rituels lors de rassemblements du Sabbat. Cependant, lorsque un événement négatif vous impacte (comme la perte d'un membre de votre meute, une défaite humiliante ou un accro personnel), vous devez faire un jet statique avec votre conteur (sans relance et sans difficulté). Si vous échouez ou faites égalité à ce jet, votre personnage devient sans foi dans le cadre de l'accomplissement d'un Auctoritas Ritae. Cet effet dure pour un mois pendant que votre personnage souffre de cette crise dans sa foi."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8099-89a2-f25ccb8f3752",
+      "slug": "crocs-emousses",
+      "title": "Crocs émoussés",
+      "notionUrl": "https://app.notion.com/p/Crocs-mouss-s-39588b48e48e809989a2f25ccb8f3752",
+      "lastEditedTime": "2026-07-06T11:45:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Crocs émoussés"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos crocs sont émoussés au lieu d’être tranchants comme ceux des autres vampires.\nEn conséquence, votre morsure n’inflige pas de dégâts aggravés.\nVotre morsure ne provoque pas non plus le Baiser, et vous devez vous nourrir par des moyens beaucoup plus brutaux."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8089-aa30-e580a129aa03",
+      "slug": "curiosite",
+      "title": "Curiosité",
+      "notionUrl": "https://app.notion.com/p/Curiosit-39588b48e48e8089aa30e580a129aa03",
+      "lastEditedTime": "2026-07-06T11:45:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Curiosité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre curiosité insatiable l’emporte souvent sur votre bon sens.\nVous n’y pouvez rien : le monde regorge de merveilles, de secrets à découvrir et de mystères à comprendre.\nChaque fois que vous refusez d’explorer quelque chose de nouveau ou d’inconnu, votre Volonté maximale est réduite de 1 pour le reste de la nuit.\nCette pénalité est cumulative : si vous refusez plusieurs opportunités intrigantes, votre Volonté maximale continue de diminuer."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-800d-ba6d-fc6f190e9589",
+      "slug": "diablerie-pardonnee",
+      "title": "Diablerie pardonnée",
+      "notionUrl": "https://app.notion.com/p/Diablerie-pardonn-e-39588b48e48e800dba6dfc6f190e9589",
+      "lastEditedTime": "2026-07-06T11:24:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Diablerie pardonnée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez peut-être commis la diablerie durant une chasse au sang en tant que récompense, ou vous avez diablé avant la création de la Camarilla. Vous avez une autorisation signée par un Prince ou un Justicar. Bien que vous ne puissiez être puni publiquement pour cet écart du passé, vous vous êtes fait à coup sûr des ennemis et certains Anciens seraient ravi de vous voir Détruit. Les membres de la Camarilla ayant ce handicap souffrent de \"Greater status ban\", mais ne peuvent pas êtes exécuté publiquement, bannis ou avoir un malus à leur statut lié à cette Diablerie pardonnée."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8098-bb7c-fcefeae5c0a3",
+      "slug": "douillet",
+      "title": "Douillet",
+      "notionUrl": "https://app.notion.com/p/Douillet-39588b48e48e8098bb7cfcefeae5c0a3",
+      "lastEditedTime": "2026-07-06T11:46:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Douillet"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes une créature délicate et fragile, peu réputée pour sa résistance.\nVous venez peut-être d’une société décadente ou d’une lignée noble n’ayant jamais eu à effectuer le moindre travail physique important.\nEn conséquence, vous possédez un niveau de santé en moins dans vos niveaux de blessure Blessé et Incapacité.\nVos niveaux Sain ne sont pas affectés par cet Handicap."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-802b-98aa-c877fd1b5f15",
+      "slug": "engeance-infame",
+      "title": "Engeance Infâme",
+      "notionUrl": "https://app.notion.com/p/Engeance-Inf-me-39588b48e48e802b98aac877fd1b5f15",
+      "lastEditedTime": "2026-07-06T11:47:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": ""
+        },
+        "Name": {
+          "type": "text",
+          "value": "Engeance Infâme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous appartenez à une engeance tristement célèbre.\nTout officier de votre secte peut dépenser n’importe quel trait de statut, permanent, inné ou temporaire, afin de vous attribuer le statut Prévenu."
+        }
+      ]
+    },
     {
       "id": "39388b48-e48e-8092-af9f-da456f37c4af",
       "slug": "esclave-un-jour",
@@ -55,6 +870,357 @@
         {
           "type": "paragraph",
           "text": "À un moment dans votre passé, vous avez subit la terrible expérience de l'amour forcé par un lien de sang (ou une vaulderie). Vous êtes terrifiés à l'idée que vous pourriez vivre ce sentiment à nouveau. Si vous êtes face à une situation où vous pourriez à nouveau avoir petit lien de sang (ou un simple niveau de Vinculum), vous souffrez des effets d'une crise psychotique comme si vous aviez le dérangement Phobie dirigée vers la personne pouvant vous lier au sang."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8022-9a95-fa5ec77f3f7b",
+      "slug": "etreinte-des-damnes",
+      "title": "Étreinte des Damnes",
+      "notionUrl": "https://app.notion.com/p/treinte-des-Damnes-39588b48e48e80229a95fa5ec77f3f7b",
+      "lastEditedTime": "2026-07-06T11:49:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Étreinte des Damnes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n’y a aucune extase ni aucun plaisir dans votre Baiser lorsque vous vous nourrissez ; les mortels subissent une souffrance atroce sous vos crocs.\nVous devez Agripper votre proie afin de l’empêcher de s’échapper.\nVous êtes incapable de refermer les blessures causées après avoir bu le sang d’autrui.\nSe nourrir sur des mortels compte comme un péché de Moralité de niveau 1."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8074-b477-cec2afbc45a4",
+      "slug": "etreinte-teintee",
+      "title": "Étreinte teintée",
+      "notionUrl": "https://app.notion.com/p/treinte-teint-e-39588b48e48e8074b477cec2afbc45a4",
+      "lastEditedTime": "2026-07-06T14:51:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Étreinte teintée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez été Étreint par un membre prestigieux du Sabbat et la Camarilla est au courant de vos origines. Bien que votre Sire ait tenté de vous contraindre dans sa secte, vous avez rejeté le Sabbat et vous en avez échappé pour juré fidélité à la Camarilla. Malheureusement, votre réputation sera toujours entachée par vos origines douteuses.\nVotre \"fleeting status\" est d'un niveau inférieur à celui que vous devriez avoir tant que vous avez ce handicap. Ce malus se cumule avec d'autres malus de statuts."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80ed-806f-f72a0d9e3265",
+      "slug": "flutiste-d-hamelin",
+      "title": "Flûtiste d'Hamelin",
+      "notionUrl": "https://app.notion.com/p/Fl-tiste-d-Hamelin-39588b48e48e80ed806ff72a0d9e3265",
+      "lastEditedTime": "2026-07-06T14:52:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Flûtiste d'Hamelin"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les animaux sont attirés par votre présence, que vous le souhaitiez ou non.\nCes animaux appartiennent toujours à une espèce particulière et reconnaissable ; ceux qui savent surveiller ces créatures peuvent facilement deviner votre présence dans les environs.\nLeur présence facilite le suivi de vos déplacements, la découverte de votre position et potentiellement l’emplacement de votre havre.\nVous n’avez aucun contrôle sur ces créatures à moins d’utiliser Animalisme sur elles et, même dans ce cas, d’autres viendront remplacer celles que vous chassez.\nLorsque vous choisissez cet Handicap, vous devez sélectionner une espèce animale précise.\nCes animaux ne vous attaqueront pas, sauf si quelqu’un d’autre utilisant Animalisme leur en donne l’ordre.\nIls peuvent également voir à travers vos pouvoirs surnaturels de dissimulation, ce qui vous empêche de vous cacher d’eux."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-800f-a9ea-ffbf2da40332",
+      "slug": "fragment-d-ame",
+      "title": "Fragment d'âme",
+      "notionUrl": "https://app.notion.com/p/Fragment-d-me-39588b48e48e800fa9eaffbf2da40332",
+      "lastEditedTime": "2026-07-06T11:28:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fragment d'âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez diablé quelqu'un et son esprit est assez fort pour rester en permanence dans votre âme. Il vous combat à chaque instant et vous ne pouvez jamais êtres sûr que sa conscience n'influence pas vos actions. Lorsque votre corps est blessé, cet esprit se met a profiter de votre faiblesse et vous combat pour prendre le contrôle de votre corps. Alors qu'il vous attaque de l'intérieur, vous devez faire appel à vos ressources interne afin d'empêcher cet esprit a prendre le contrôle indéfiniment. Si vous subissez assez de dégât pour atteindre la tranche \"incapacitated\" ou plus, alors que ne pourrez pas dépensez de Volonté tant que vous ne vous serez pas soigné jusqu'à atteindre le niveau \"injured\" ou mieux."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-804b-9497-c02ae3efe2a1",
+      "slug": "guerison-lente",
+      "title": "Guérison Lente",
+      "notionUrl": "https://app.notion.com/p/Gu-rison-Lente-39588b48e48e804b9497c02ae3efe2a1",
+      "lastEditedTime": "2026-07-06T11:50:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Guérison Lente"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La vitae qui coule dans vos veines est lente et votre contrôle sur votre sang reste imparfait.\nBien que vous soyez capable de forcer ce sang à réparer votre chair, cela vous demande un effort considérable.\nVous devez dépenser un point de Sang supplémentaire chaque fois que vous souhaitez soigner un point de dégâts.\nCette pénalité ne s’applique qu’aux soins que vous vous infligez à vous-même et n’affecte pas les pouvoirs de soin utilisés sur d’autres personnages, comme Rage de Sang de la Voie du Sang."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8053-a8f2-d7ef40972d1c",
+      "slug": "hante",
+      "title": "Hanté",
+      "notionUrl": "https://app.notion.com/p/Hant-39588b48e48e8053a8f2d7ef40972d1c",
+      "lastEditedTime": "2026-07-06T11:50:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Hanté"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un fantôme vindicatif vous tourmente depuis l’au-delà.\nBien qu’il se limite généralement à des gémissements fantomatiques, des manifestations inquiétantes et quelques effets nuisibles occasionnels, cet esprit est déterminé à vous faire souffrir.\nIl fait tout son possible pour rendre votre éternité misérable et accélérer le jour où vous le rejoindrez dans la mort.\nVous pouvez voir et entendre ce fantôme, que vous possédiez ou non l’Atout Médium ou une Voie de Nécromancie."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80a3-b63b-c0fe713b1da2",
+      "slug": "impatient",
+      "title": "Impatient",
+      "notionUrl": "https://app.notion.com/p/Impatient-39588b48e48e80a3b63bc0fe713b1da2",
+      "lastEditedTime": "2026-07-06T11:52:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Impatient"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes incapable d’attendre sans agir.\nVous voulez que les choses avancent immédiatement — tant pis pour les traînards qui tentent de vous ralentir.\nVous préférez agir impulsivement sans vous soucier des conséquences.\nChaque fois que vous êtes forcé d’attendre ou de faire preuve de patience au lieu d’agir immédiatement, vous devez dépenser 1 point de Volonté afin de patienter pendant cinq minutes sans agir.\nSi vous ne dépensez pas cette Volonté, vous réagissez avec une colère extrême et vous en prenez à la source de votre frustration."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8096-bad2-e05f46fcce46",
+      "slug": "inapte",
+      "title": "Inapte",
+      "notionUrl": "https://app.notion.com/p/Inapte-39588b48e48e8096bad2e05f46fcce46",
+      "lastEditedTime": "2026-07-06T11:52:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Inapte"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Étreinte fut difficile et, peut-être, le destin ne souhaitait-il pas que vous apparteniez au clan qui vous a choisi.\nVous ne possédez aucun talent pour l’une des Disciplines natives de votre clan.\nVous ne commencez pas avec un point gratuit dans cette Discipline et devez payer les coûts hors-clan pour l’acheter, bien que vous n’ayez pas besoin d’un professeur.\nVous devez acheter cet Handicap lors de la création du personnage.\nCet Handicap ne peut jamais être retiré."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8008-abd7-e968a1619da2",
+      "slug": "incapacite-a-traverser-l-eau-vive",
+      "title": "Incapacité à traverser l'eau vive",
+      "notionUrl": "https://app.notion.com/p/Incapacit-traverser-l-eau-vive-39588b48e48e8008abd7e968a1619da2",
+      "lastEditedTime": "2026-07-06T11:55:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Incapacité à traverser l'eau vive"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes incapable de traverser une eau courante à moins de vous trouver au moins quinze mètres au-dessus de celle-ci.\nPour les besoins de cet Handicap, une « eau courante » doit être au minimum un ruisseau d’un mètre de large ou toute étendue d’eau plus importante.\nChaque fois que vous traversez une eau courante, vous perdez 1 point de Volonté.\nCette Volonté ne peut être récupérée qu’après une journée complète de repos."
         }
       ]
     },
@@ -98,6 +1264,201 @@
       ]
     },
     {
+      "id": "39588b48-e48e-8065-a40e-f2e464c32e33",
+      "slug": "instinct-bestial",
+      "title": "Instinct Bestial",
+      "notionUrl": "https://app.notion.com/p/Instinct-Bestial-39588b48e48e8065a40ef2e464c32e33",
+      "lastEditedTime": "2026-07-06T11:55:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Instinct Bestial"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Bête adore le combat et refuse de reculer face à un défi.\nLorsqu’elle aperçoit une occasion de se libérer, elle bondit avec une violence incontrôlée, lacérant votre esprit de ses griffes avides.\nChaque fois que vous gagnez un ou plusieurs traits de Bête, vous subissez 1 point de dégâts aggravés.\nCes dégâts ne peuvent être ni réduits ni annulés."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8007-bbd0-f495f9030f66",
+      "slug": "intolerance",
+      "title": "Intolérance",
+      "notionUrl": "https://app.notion.com/p/Intol-rance-39588b48e48e8007bbd0f495f9030f66",
+      "lastEditedTime": "2026-07-06T11:56:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Intolérance"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous nourrissez une haine irrationnelle envers quelque chose.\nIl peut s’agir d’un clan, d’une lignée, d’un type de créature ou d’une catégorie particulière de personnes.\nVous persécuterez ces individus autant que possible, quitte à compromettre vos alliances ou votre réputation afin de les discréditer.\nSi vous êtes forcé de travailler avec une telle personne, vous subissez une pénalité de -2 à toutes vos réserves de tests non défensifs."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80ff-ae48-dc4950ac6ca6",
+      "slug": "l-appel-de-poseidon",
+      "title": "L'appel de Poséidon",
+      "notionUrl": "https://app.notion.com/p/L-appel-de-Pos-idon-39588b48e48e80ffae48dc4950ac6ca6",
+      "lastEditedTime": "2026-07-06T11:58:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "L'appel de Poséidon"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre stabilité est directement liée aux conditions météorologiques.\nVous vous apaisez lorsque le ciel est dégagé et devenez de plus en plus sanguinaire à mesure qu’une tempête approche.\nSi vous ne dormez pas sur ou sous une étendue d’eau naturelle (dans un bateau sur un lac, une rivière ou l’océan ; ou immergé sous les eaux d’un cours d’eau), vous ne pouvez pas dépenser de Volonté la nuit suivante."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-808a-9ffa-eb6df2516fed",
+      "slug": "la-bete-dans-le-miroir",
+      "title": "La bête dans le Miroir",
+      "notionUrl": "https://app.notion.com/p/La-b-te-dans-le-Miroir-39588b48e48e808a9ffaeb6df2516fed",
+      "lastEditedTime": "2026-07-06T12:01:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "La bête dans le Miroir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les miroirs trahissent votre nature monstrueuse.\nQuiconque, mortel ou vampire, aperçoit votre reflet dans un miroir y voit votre Bête lui répondre avec un regard bestial.\nVotre Bête apparaît également sur les appareils utilisant des miroirs, mais pas sur les équipements numériques modernes.\nChaque fois que vous voyez votre propre reflet, vous gagnez automatiquement un trait de Bête.\nLes traits de Bête obtenus par cet Handicap ne comptent pas pour la perte de Moralité, mais augmentent normalement les risques de frénésie.\nComme tous les traits de Bête, ceux-ci demeurent jusqu’à ce que vous vous reposiez pendant une journée complète."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8059-be16-c2eab690786c",
+      "slug": "loyaute-tenue",
+      "title": "Loyauté ténue",
+      "notionUrl": "https://app.notion.com/p/Loyaut-t-nue-39588b48e48e8059be16c2eab690786c",
+      "lastEditedTime": "2026-07-06T11:29:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Loyauté ténue"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La monstruosité et l'inhumanité de l'Épée de Caïn vous horrifie. La seule raison qui vous rend loyal est un vinculum et les autres le savent. Votre comportement est erratique et votre état émotionnel précaire. Si vous n'avez pas au moins un vinculum de niveau 3 avec au moins 3 autres membres du Sabbat, vous ne pouvez utiliser le relance lié à votre Archétype et vous devez dépenser 2 Volonté la première fois que vous faites une relance durant une partie."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80bb-a4a0-d2a1d2a23f4a",
       "slug": "loyautes-douteuses",
       "title": "Loyautés douteuses",
@@ -137,6 +1498,162 @@
       ]
     },
     {
+      "id": "39588b48-e48e-80bf-986e-ff5865af806c",
+      "slug": "malentendant",
+      "title": "Malentendant",
+      "notionUrl": "https://app.notion.com/p/Malentendant-39588b48e48e80bf986eff5865af806c",
+      "lastEditedTime": "2026-07-06T12:01:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Malentendant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre ouïe est déficiente et, même avec des appareils correcteurs, vous n’entendez jamais parfaitement.\nCela peut se révéler dangereux dans certaines situations, car vous ne pouvez pas compter sur votre audition pour vous avertir d’un danger.\nVous subissez une pénalité de -2 aux réserves de tests de Vigilance et d’Investigation basées sur l’ouïe."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8010-b17f-c7248dec3788",
+      "slug": "manque-d-attention",
+      "title": "Manque d'attention",
+      "notionUrl": "https://app.notion.com/p/Manque-d-attention-39588b48e48e8010b17fc7248dec3788",
+      "lastEditedTime": "2026-07-06T12:03:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Manque d'attention"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez toujours eu du mal à vous concentrer, et votre volonté est fragile même dans les meilleurs jours.\nSi vous devez maintenir votre concentration pour continuer à utiliser un pouvoir ou une capacité, cet effet prend fin après un seul tour et doit être réactivé si vous souhaitez le poursuivre.\nDe plus, votre Volonté permanente est réduite de 1."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8023-8cae-cb54e6276e12",
+      "slug": "manque-de-confiance",
+      "title": "Manque de confiance",
+      "notionUrl": "https://app.notion.com/p/Manque-de-confiance-39588b48e48e80238caecb54e6276e12",
+      "lastEditedTime": "2026-07-06T14:51:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Sabbat"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Manque de confiance"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelque chose dans le passé de votre personnage fait que la Main noire ou l'Inquisition (ou les deux) ont une bonne raison de douter de vous. Ils vous harcèlent, vous suivent et laissent leur doutes se répandre dans le reste de la secte vous causant des tords incalculables. Votre \"fleeting status\" est d'un niveau inférieur à celui qu'il devrait être. Ce malus se cumule avec d'autres malus de statut."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8068-9ec9-d2844a1f8241",
+      "slug": "maudit",
+      "title": "Maudit",
+      "notionUrl": "https://app.notion.com/p/Maudit-39588b48e48e80689ec9d2844a1f8241",
+      "lastEditedTime": "2026-07-06T12:03:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Maudit"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous souffrez d’une malédiction surnaturelle mineure, conséquence d’une dette karmique envers l’univers ou de l’humour cruel d’un ennemi.\nCette malédiction doit être spécifique et détaillée, et devrait refléter un défaut archétypal de votre personnage, tel que l’orgueil.\nComme pour tous les Handicaps, le Conteur ne devrait pas autoriser une malédiction n’ayant pas d’impact significatif sur le personnage.\nUne malédiction doit être liée à une Compétence dans laquelle vous possédez au moins 1 point.\nLorsque la malédiction se manifeste, vous subissez une pénalité de -1 aux réserves de tests utilisant cette Compétence.\nVous pouvez acheter cet Handicap jusqu’à trois fois.\nQuelques exemples :\n• Un Nosferatu qui était gouvernante de son vivant porte la malédiction d’un jeune garçon mourant, affirmant que les enfants de moins de 10 ans voient toujours à travers sa Dissimulation.\nLe joueur interprète cet effet dans l’histoire du personnage, mais la malédiction est également liée à sa compétence Furtivité. En présence d’enfants de moins de 10 ans, ses réserves basées sur Furtivité subissent donc une pénalité de -1.\n• Un Kiasyd a été maudit par des fées malicieuses. Le lait caille en sa présence et les insectes meurent lorsqu’ils s’approchent à moins de trois pas de lui. Chaque fois que le Conteur indique que les fées le tourmentent activement, le joueur doit interpréter ces effets. Cette malédiction est liée à sa compétence Vigilance ; ses réserves basées sur Vigilance subissent donc une pénalité de -1 dans ces circonstances.\n• Une Lasombra archéologue pense avoir été maudite pour avoir ouvert une antique tombe égyptienne. La malédiction affirme qu’elle « souffrira d’une langue déformée lorsqu’elle aura le plus besoin de clarté ». Le joueur a associé cette malédiction à sa compétence Linguistique. Lorsqu’elle tente de traduire une langue vers une autre, il doit interpréter son hésitation et ses erreurs grammaticales. De plus, toutes les réserves basées sur Linguistique subissent une pénalité de -1 lorsqu’elle est sous pression."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8009-8b2f-f0924ed1a78a",
       "slug": "mouton-noir",
       "title": "Mouton noir",
@@ -172,6 +1689,84 @@
         {
           "type": "paragraph",
           "text": "Ce handicap doit être pris à la création du personnage. Votre généalogie vampirique se distingue par la présence de grands noms de la Camarilla. Votre lignée vous considère comme un embarras et vous mettent sous une pression constante de \"grandir\", ce qui veut dire rejoindre la Camarilla. Pire encore, les autres Anarch considèrent ce glorieux héritage comme digne de dédain. Ce qui fait que vous devez travailler deux fois plus fort pour prouver votre valeur à leur yeux.\nVous perdez une AIP par mois afin de pouvoir échapper à la Camarilla et pour prouver aux Anarch que vous êtes un membre sincère du Mouvement."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8006-a842-f64cbb9db19a",
+      "slug": "negligent",
+      "title": "Négligent",
+      "notionUrl": "https://app.notion.com/p/N-gligent-39588b48e48e8006a842f64cbb9db19a",
+      "lastEditedTime": "2026-07-06T14:53:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Général"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Négligent"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez du mal à prêter attention aux détails et, lorsque le combat éclate, vous avez tendance à agir avant de réfléchir, même si cela signifie tourner en rond ou oublier des choses évidentes.\nVous commettez fréquemment des erreurs dans votre existence quotidienne, comme oublier des objets ou laisser échapper des tâches simples.\nVos attaques ne comptent pas comme empêchant un autre joueur de déclarer une fuite équitable, sauf si vous êtes actuellement en train d’Agripper votre cible.\nUn personnage que vous attaquez avant son initiative dans un round peut tout de même déclarer une fuite équitable durant ce round.\nDe plus, si quelqu’un déclare son intention de fuir équitablement, vous ne pouvez pas l’en empêcher en déclarant que vous utiliserez plus tard une action Physique contre elle durant ce même round."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8052-989f-d06eb931b420",
+      "slug": "sectaire",
+      "title": "Sectaire",
+      "notionUrl": "https://app.notion.com/p/Sectaire-39588b48e48e8052989fd06eb931b420",
+      "lastEditedTime": "2026-07-06T14:51:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Camarilla"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sectaire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous croyez sincèrement la propagande de la Camarilla et aucune preuve ne peut vous en faire démordre. Il n'y a aucune fin des temps, les Antédiluviens ne sont pas à craindre, la Golconde est de l'infernalisme, il n'y a jamais eu de cité d'Enoch et Caïn est un mythe. Vous avez entendu des rumeurs, mais vous savez que la Camarilla a toujours raison. Quoi qu'il se passe, vous vous assurez que chacun respecte le récit de la Camarilla. Vous ne pouvez avoir de Mystère au dessus de 2, ni ne pouvez acheter l'atout \"Loremaster\"."
         }
       ]
     },

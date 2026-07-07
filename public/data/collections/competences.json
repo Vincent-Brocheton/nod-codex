@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-07-05T09:21:48.524Z",
+  "generatedAt": "2026-07-06T18:25:13.633Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "animaux",
       "title": "Animaux",
       "notionUrl": "https://app.notion.com/p/Animaux-38288b48e48e80f5bdcbf000a0503cc0",
-      "lastEditedTime": "2026-06-17T10:44:00.000Z",
+      "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -25,8 +25,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous savez comment interagir avec les animaux et comprenez leur comportement. Vous êtes capable de les apaiser, de les soigner et de les dresser à exécuter des tours ou obéir à des ordres. Vous savez également comment les affoler ou les mettre en rage si nécessaire.\nLa compétence Animaux facilite aussi la chasse aux animaux, permettant à un vampire de masquer temporairement l’aura prédatrice de sa Bête afin d’approcher une proie sans éveiller sa méfiance."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les animaux craignent instinctivement les vampires et réagissent négativement à leur présence. Avec Animaux, l’apparence ou l’odeur de votre personnage ne déclenche plus leur réflexe de fuite ou d’attaque. Les animaux conservent un respect instinctif pour la nature prédatrice du vampire, mais ne manifestent plus de réaction anormale.\nDe plus, un personnage possédant cette compétence comprend la Bête et peut aider à apaiser celle d’autrui. En parlant à un personnage pendant 10 minutes, vous pouvez calmer sa Bête et retirer un trait de Bête. Un même personnage ne peut bénéficier de cet effet qu’une seule fois par partie. Cette compétence ne peut pas être utilisée sur soi-même."
         }
       ]
     },
@@ -35,7 +43,7 @@
       "slug": "arme-a-feu",
       "title": "Arme à feu",
       "notionUrl": "https://app.notion.com/p/Arme-feu-38288b48e48e80a2bca3d75dfe4df4c5",
-      "lastEditedTime": "2026-06-17T10:44:00.000Z",
+      "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -48,8 +56,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes entraîné à manier une grande variété d’armes à feu, des pistolets dissimulables aux mitrailleuses lourdes. Vous savez les entretenir, les réparer, les reconnaître et les utiliser avec précision."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant Armes à feu peuvent utiliser des manœuvres de combat appropriées lors des affrontements à distance."
         }
       ]
     },
@@ -58,7 +74,7 @@
       "slug": "artisanat",
       "title": "Artisanat",
       "notionUrl": "https://app.notion.com/p/Artisanat-38288b48e48e806ab639e5d746157dbc",
-      "lastEditedTime": "2026-06-17T10:45:00.000Z",
+      "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -71,8 +87,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes doué pour la création artistique ou la fabrication d’objets. Vous pouvez produire des œuvres belles et parfois précieuses. Lors de l’acquisition de cette compétence, vous devez choisir un domaine spécifique (horlogerie, forge, calligraphie, poésie, etc.). Certaines disciplines artistiques relèvent davantage de la compétence Représentation. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant Artisanat peut augmenter temporairement ses Ressources en dépensant 2 actions d’intervalle (une pour créer l’objet, une pour le vendre). Cela augmente son Historique Ressources de 1 pendant un mois, même s’il n’en possède pas initialement, jusqu’à un maximum de 5."
         }
       ]
     },
@@ -81,7 +105,7 @@
       "slug": "athlethisme",
       "title": "Athlethisme",
       "notionUrl": "https://app.notion.com/p/Athlethisme-38288b48e48e80dab742f0a41524d837",
-      "lastEditedTime": "2026-06-17T10:45:00.000Z",
+      "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -94,8 +118,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous avez des aptitudes naturelles pour les activités physiques. Vous êtes à l’aise dans les sports et avez probablement participé à des compétitions. Cette compétence est utile pour les actions physiques, les épreuves sportives, ainsi que pour le combat avec des armes de jet ou l’utilisation d’un arc."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Athlétisme permet de nager, grimper ou sauter en action simple plutôt qu’en action standard. De plus, un personnage possédant Athlétisme peut utiliser des manœuvres de combat appropriées lorsqu’il utilise des armes de jet ou un arc."
         }
       ]
     },
@@ -104,7 +136,7 @@
       "slug": "bagarre",
       "title": "Bagarre",
       "notionUrl": "https://app.notion.com/p/Bagarre-38288b48e48e80d48477de1827d947b0",
-      "lastEditedTime": "2026-06-17T10:45:00.000Z",
+      "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -117,8 +149,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous avez appris à vous battre et savez utiliser votre corps en combat rapproché. Vous pouvez avoir reçu une formation militaire, pratiqué les arts martiaux ou simplement grandi dans un environnement conflictuel. Quoi qu’il en soit, vous savez infliger des dégâts avec vos poings et vos pieds."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant Bagarre peuvent utiliser des manœuvres de combat appropriées en combat à mains nues"
         }
       ]
     },
@@ -127,7 +167,7 @@
       "slug": "commandement",
       "title": "Commandement",
       "notionUrl": "https://app.notion.com/p/Commandement-38288b48e48e8052a367edff40b22126",
-      "lastEditedTime": "2026-06-17T10:45:00.000Z",
+      "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -140,8 +180,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Le Commandement combine autorité, sens stratégique et compréhension des dynamiques de groupe. Vous savez motiver, organiser et diriger efficacement, même parmi des inconnus."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les PNJ standards suivant vos ordres bénéficient d’un bonus de +2 à toute action qu’ils sont capables d’accomplir.\nDe plus, pour chaque point de Commandement, vous pouvez apprendre une information spécifique sur le statut d’un autre vampire, une fois par nuit."
         }
       ]
     },
@@ -150,7 +198,7 @@
       "slug": "conduite",
       "title": "Conduite",
       "notionUrl": "https://app.notion.com/p/Conduite-38288b48e48e804fb160d205110dd76c",
-      "lastEditedTime": "2026-06-17T10:48:00.000Z",
+      "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -163,8 +211,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "La plupart des gens savent conduire, mais vous possédez les connaissances et l’entraînement nécessaires pour réaliser des manœuvres complexes et dangereuses au volant. Le premier point en Conduite vous rend compétent pour conduire des voitures. Chaque point supplémentaire vous rend compétent dans une autre catégorie de véhicules : calèches, chars, motos, voiliers, bateaux à moteur, navires, avions, avions de ligne ou hélicoptères. D’autres catégories peuvent être choisies avec l’accord du Conteur.\nSans la compétence Conduite, un personnage ne peut utiliser qu’un véhicule automatique de manière basique. Il ne peut pas gérer un embrayage ni rouler en toute sécurité à grande vitesse. Il est également incapable d’utiliser d’autres types de véhicules. Pour un esprit ancien, ces machines restent dangereuses et déroutantes."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sans Conduite, votre personnage doit consacrer toute son attention à piloter un véhicule. Avec la compétence appropriée, vous pouvez conduire en action simple plutôt qu’en action standard."
         }
       ]
     },
@@ -173,7 +229,7 @@
       "slug": "discretion-furtivite",
       "title": "Discrétion/Furtivité",
       "notionUrl": "https://app.notion.com/p/Discr-tion-Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
-      "lastEditedTime": "2026-06-17T10:50:00.000Z",
+      "lastEditedTime": "2026-07-06T11:10:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -186,8 +242,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Se déplacer sans bruit demande un entraînement physique rigoureux, tandis que passer inaperçu exige une grande discipline mentale. Vous savez utiliser votre environnement, adopter une attitude naturelle et tirer parti du timing et de la diversion. Avec les précautions adéquates, vous pouvez vous fondre dans la foule sans recourir à des pouvoirs surnaturels."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage doté de Discrétion peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble."
         }
       ]
     },
@@ -196,7 +260,7 @@
       "slug": "empathie",
       "title": "Empathie",
       "notionUrl": "https://app.notion.com/p/Empathie-38288b48e48e806da4d0e2f2a6ebbfeb",
-      "lastEditedTime": "2026-06-17T10:50:00.000Z",
+      "lastEditedTime": "2026-07-06T11:10:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -209,8 +273,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Un personnage doté d’Empathie possède généralement des connaissances en psychologie, anthropologie ou sciences humaines. Il est sensible aux émotions, aux motivations et aux états mentaux des autres, et peut détecter troubles psychologiques ou failles émotionnelles."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En discutant brièvement avec une cible, votre personnage peut déterminer si elle souffre d’un dérangement. Après quelques minutes d’observation, il peut identifier précisément ce ou ces dérangements.\nS’il connaît le dérangement d’une cible, il peut utiliser une action standard pour augmenter ou réduire ses traits de Dérangement de 1 (minimum 0, maximum 3) pendant une heure. Empathie ne peut pas réduire les traits de Dérangement d’un Malkavien en dessous de 1. Cette compétence ne peut pas être utilisée sur soi-même."
         }
       ]
     },
@@ -219,7 +291,7 @@
       "slug": "erudition",
       "title": "Érudition",
       "notionUrl": "https://app.notion.com/p/rudition-38288b48e48e80fc9394caf6cbb1b285",
-      "lastEditedTime": "2026-06-17T10:50:00.000Z",
+      "lastEditedTime": "2026-07-06T11:10:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -232,8 +304,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous possédez un niveau d’instruction et de culture générale supérieur à celui de l’enseignement primaire. Cette compétence reflète une éducation approfondie. Grâce à Erudition, vous pouvez formuler des critiques artistiques, commenter les classiques, débattre de philosophie et participer à des discussions culturelles.\nUn joueur peut préciser le domaine d’expertise de son personnage en choisissant une spécialité pour chaque point investi, comme les mathématiques, la littérature, l’histoire, le journalisme, la théologie ou tout autre champ relevant d’une formation académique classique."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par nuit, un personnage doté d'Erudition peut consacrer 10 minutes à l’étude. Par la suite, elle peut relancer un défi statique (hors combat) sans dépenser de Volonté. Cette relance doit être liée à l’un des domaines d'Erudition du personnage."
         }
       ]
     },
@@ -242,7 +322,7 @@
       "slug": "esquive",
       "title": "Esquive",
       "notionUrl": "https://app.notion.com/p/Esquive-38288b48e48e80978a02e17fae496ff2",
-      "lastEditedTime": "2026-06-17T11:00:00.000Z",
+      "lastEditedTime": "2026-07-06T11:11:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -255,8 +335,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Lorsque le danger survient, vous savez vous écarter à temps. Vos réflexes rapides vous permettent d’éviter coups et projectiles. Vous pouvez utiliser Esquive pour éviter une attaque dont vous avez conscience, par exemple en plongeant à couvert face à un tir ou en vous écartant d’un coup d’épée."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant Esquive peut sacrifier son action standard pour augmenter une réserve de test d’Esquive de +2 pour ce tour.\nDe plus, s’il est pris dans une attaque de zone (comme une explosion), il peut effectuer un test d’Esquive (difficulté 8) pour réduire les dégâts subis de 1."
         }
       ]
     },
@@ -265,7 +353,7 @@
       "slug": "experience-de-la-rue",
       "title": "Expérience de la rue",
       "notionUrl": "https://app.notion.com/p/Exp-rience-de-la-rue-38288b48e48e80c7aab4cd76bcce0559",
-      "lastEditedTime": "2026-06-17T11:00:00.000Z",
+      "lastEditedTime": "2026-07-06T11:11:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -278,8 +366,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes débrouillard et capable de survivre dans des environnements difficiles. Les rues et les milieux urbains marginaux ne vous sont pas étrangers. Vous connaissez les organisations criminelles locales, savez comment entrer en contact avec elles ou les éviter, et reconnaissez leurs signes distinctifs."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous vous déplacez dans une zone urbaine densément peuplée, il est impossible de vous suivre sans recourir à des pouvoirs surnaturels spécifiquement conçus pour la traque."
         }
       ]
     },
@@ -288,7 +384,7 @@
       "slug": "informatique",
       "title": "Informatique",
       "notionUrl": "https://app.notion.com/p/Informatique-38288b48e48e80a58ff3fb3c5d0430e5",
-      "lastEditedTime": "2026-06-17T11:00:00.000Z",
+      "lastEditedTime": "2026-07-06T11:12:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -301,8 +397,78 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous possédez les connaissances nécessaires pour utiliser et programmer des ordinateurs, y compris des appareils mobiles. Vous comprenez également les bases d’Internet, notamment la gestion de sites, l’exploration de données et le piratage.\nSans la compétence Informatique, un personnage ne peut effectuer que des opérations très simples : allumer ou éteindre un appareil, répondre à un téléphone ou ajouter un contact. Il ne peut pas utiliser d’applications ni accéder à des fonctionnalités avancées. Dans le monde moderne, cette compétence est presque universelle, mais pour un esprit ancien ou primitif, la technologie reste obscure et déroutante."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour annuler ou observer une action d’intervalle d’un autre personnage. Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8026-8152-dcc1f918a4e3",
+      "slug": "intimidation",
+      "title": "Intimidation",
+      "notionUrl": "https://app.notion.com/p/Intimidation-39588b48e48e80268152dcc1f918a4e3",
+      "lastEditedTime": "2026-07-06T11:15:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Intimidation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous savez inspirer la peur et avez souvent utilisé cette capacité pour dominer ou effrayer autrui. Cela peut reposer sur votre stature, vos talents martiaux, votre réputation ou votre aptitude à exploiter les peurs des autres."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage doté d’Intimidation est particulièrement effrayant. Les PNJ standards (y compris les Serviteurs) avec un score de 1 ou 2 n’attaqueront pas un tel personnage. S’il adopte une attitude agressive, ces PNJ fuient. Cela ne s’applique pas aux entités dénuées d’esprit, comme certains êtres animés par la magie ou les morts-vivants sans conscience."
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-80d0-887a-f4dd1b7720c3",
+      "slug": "investigation",
+      "title": "Investigation",
+      "notionUrl": "https://app.notion.com/p/Investigation-39588b48e48e80d0887af4dd1b7720c3",
+      "lastEditedTime": "2026-07-06T11:14:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Investigation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’investigation exige formation et expérience. Vous savez repérer les détails subtils et relier des informations disparates. Avec du temps, vous pouvez organiser des données confuses en schémas cohérents et découvrir des indices invisibles pour d’autres."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant une action standard, vous pouvez examiner visuellement un individu à courte distance. En dépensant trois actions standards, vous pouvez fouiller une pièce ou une petite zone.\nVous détectez automatiquement les armes dissimulées (même sous les vêtements), les explosifs et les objets cachés. Les objets dotés de la propriété Dissimulable ne sont détectés automatiquement qu’en cas de fouille physique."
         }
       ]
     },
@@ -334,7 +500,7 @@
       "slug": "linguistique",
       "title": "Linguistique",
       "notionUrl": "https://app.notion.com/p/Linguistique-38288b48e48e80d88a29ed936b85e70f",
-      "lastEditedTime": "2026-06-17T11:02:00.000Z",
+      "lastEditedTime": "2026-07-06T11:16:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -347,8 +513,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "La plupart des individus maîtrisent une seule langue : leur langue maternelle. Sans point en Linguistique, un personnage ne peut communiquer que dans cette langue. D’autres s’efforcent d’apprendre plusieurs langues et en acquièrent une bonne maîtrise."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Grâce au don \"Don pour les langues\" il parle alors 2 langues supplémentaire par point de Linguistique en plus de sa langue maternelle."
         }
       ]
     },
@@ -357,7 +531,7 @@
       "slug": "medecine",
       "title": "Médecine",
       "notionUrl": "https://app.notion.com/p/M-decine-38288b48e48e80c59b45e5e3ea0c7ecc",
-      "lastEditedTime": "2026-06-17T11:02:00.000Z",
+      "lastEditedTime": "2026-07-06T11:16:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -370,8 +544,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous possédez des connaissances en anatomie humaine, ainsi qu’en diagnostic et traitement des blessures et maladies."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant une AIP pour analyser du sang, des cheveux, de la peau ou des restes (y compris des cendres) dans une installation médicale appropriée, vous pouvez déterminer la nature surnaturelle d’une créature (le cas échéant).\nUn personnage familier avec les vampires peut également identifier le clan et la Génération.\nAvec un équipement adapté, vous pouvez conserver du sang (y compris vampirique) pendant une durée d’un mois par point en Médecine."
         }
       ]
     },
@@ -380,7 +562,7 @@
       "slug": "melee",
       "title": "Mélée",
       "notionUrl": "https://app.notion.com/p/M-l-e-38288b48e48e80158344db584fe23a49",
-      "lastEditedTime": "2026-06-17T11:02:00.000Z",
+      "lastEditedTime": "2026-07-06T11:16:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -393,8 +575,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes un combattant dangereux, particulièrement lorsqu’il s’agit d’utiliser des armes de corps à corps. Cette compétence couvre un large éventail d’armes : épées, lances, armes d’arts martiaux (sai, nunchaku), ainsi que des armes spécifiques aux vampires, comme les pieux."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages posséda Mêlée peuvent utiliser des manœuvres de combat appropriées lors des affrontements au corps à corps."
         }
       ]
     },
@@ -426,7 +616,7 @@
       "slug": "occultisme",
       "title": "Occultisme",
       "notionUrl": "https://app.notion.com/p/Occultisme-38288b48e48e80768716c892c55e1679",
-      "lastEditedTime": "2026-06-17T11:03:00.000Z",
+      "lastEditedTime": "2026-07-06T11:17:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -439,8 +629,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes familier avec les domaines ésotériques : philosophie mystique, superstitions, folklore. Occultisme inclut des traditions variées comme la Kabbale, le chamanisme, les croyances New Age ou la recherche psychique. Il s’agit davantage d’une connaissance des mythes, rumeurs et traditions que de faits vérifiés."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Refuge (voir Historique Refuge). Cet avantage ne peut s’appliquer qu’à son propre refuge."
         }
       ]
     },
@@ -449,7 +647,7 @@
       "slug": "representation",
       "title": "Représentation",
       "notionUrl": "https://app.notion.com/p/Repr-sentation-38288b48e48e8027a003d0833c92301e",
-      "lastEditedTime": "2026-06-17T11:03:00.000Z",
+      "lastEditedTime": "2026-07-06T11:17:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -462,8 +660,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous êtes formé aux arts de la scène et à l’expression artistique. Cette compétence reflète votre talent, votre technique et votre capacité à captiver un public. Lors de son acquisition, vous devez choisir une spécialisation (danse, comédie, théâtre, chant, discours, etc.). Elle peut être achetée plusieurs fois avec des spécialisations différentes."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5"
         }
       ]
     },
@@ -472,7 +678,7 @@
       "slug": "sciences",
       "title": "Sciences",
       "notionUrl": "https://app.notion.com/p/Sciences-38288b48e48e80afbc5edec6f5d16dc0",
-      "lastEditedTime": "2026-06-17T11:03:00.000Z",
+      "lastEditedTime": "2026-07-06T11:17:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -485,8 +691,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "L’ère moderne de l’information permet une multitude de domaines d’étude. En classifiant et en analysant le monde sous différents angles, les méthodes de logique et de raisonnement offrent aux êtres pensants les moyens de comprendre l’univers — ou du moins certaines de ses facettes.\nLa compétence Science couvre les méthodes d’investigation, les études modernes et un large éventail de disciplines fondamentales. Lors de son acquisition, vous devez choisir un domaine spécifique : biologie, chimie, physique, métallurgie, ingénierie électrique, mathématiques, géologie ou botanique, entre autres. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant Science bénéficie d’une AIP supplémentaire, utilisable uniquement pour des activités liées à cette spécialité. Chaque spécialisation en Science confère une action d’intervalle supplémentaire distincte, chacune limitée à son domaine."
         }
       ]
     },
@@ -495,7 +709,7 @@
       "slug": "subterfuge",
       "title": "Subterfuge",
       "notionUrl": "https://app.notion.com/p/Subterfuge-38288b48e48e8028ae16d9f8e3641512",
-      "lastEditedTime": "2026-06-17T11:04:00.000Z",
+      "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -508,8 +722,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Mensonge, manipulation et tromperie sont votre domaine. Vous savez dissimuler vos intentions et détourner l’attention pour tromper autrui. Cela peut passer par des tours d’adresse, des escroqueries, un usage habile du langage ou même des techniques proches de l’hypnose."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par partie, si votre personnage est surpris en train d’utiliser un pouvoir surnaturel, il semble à la place qu’un autre personnage de votre choix situé à proximité en soit l’auteur.\nCela ne fonctionne pas pour les pouvoirs ayant une source évidente, comme certains effets visuellement manifestes."
         }
       ]
     },
@@ -518,7 +740,7 @@
       "slug": "survie",
       "title": "Survie",
       "notionUrl": "https://app.notion.com/p/Survie-38288b48e48e804f8696f858a277484f",
-      "lastEditedTime": "2026-06-17T11:04:00.000Z",
+      "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -531,8 +753,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vous connaissez les lois de la nature et vous vous sentez à l’aise dans les environnements sauvages. Vous savez vous orienter sur divers types de terrains, trouver un abri et subsister dans des conditions hostiles. Habitué aux épreuves, vous êtes capable de maîtriser vos réactions et de faire preuve de sang-froid et de retenue, même face à l’adversité. Vos instincts de survie prennent rarement le dessus de manière incontrôlée, même dans les situations les plus critiques."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par heure, lorsque votre personnage est soumis à une frénésie de rage ou de faim, il peut modifier sa réaction et entrer à la place en frénésie de peur, lui permettant de fuir sans blesser ses alliés (ou des innocents)."
         }
       ]
     },
@@ -541,7 +771,7 @@
       "slug": "vigilance",
       "title": "Vigilance",
       "notionUrl": "https://app.notion.com/p/Vigilance-38288b48e48e807aaa5dd9b861343244",
-      "lastEditedTime": "2026-06-17T11:04:00.000Z",
+      "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -554,8 +784,16 @@
           "text": "Description"
         },
         {
+          "type": "paragraph",
+          "text": "Vos sens sont affûtés et vous êtes entraîné à remarquer les éléments inhabituels de votre environnement. Vous ressentez également de manière instinctive la présence du surnaturel, sous forme de maux de tête ou d’un malaise diffus."
+        },
+        {
           "type": "heading_2",
           "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vigilance permet à un personnage d’avoir une chance de détecter l’utilisation de pouvoirs surnaturels à proximité.\nDe plus, lorsqu’un personnage doté de Vigilance est en torpeur, il peut contrôler ses pensées et utiliser les pouvoirs qui n’affectent que lui-même. Un personnage possédant Télépathie peut communiquer avec lui, son esprit restant pleinement actif malgré son état."
         }
       ]
     }
