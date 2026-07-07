@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-06T18:25:13.628Z",
+  "generatedAt": "2026-07-07T20:38:55.603Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "ananke",
       "title": "Ananke",
       "notionUrl": "https://app.notion.com/p/Ananke-39588b48e48e800d9846c61bda685c85",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-07T11:34:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -68,7 +68,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée"
+          "text": "Vestiges d'un âge oublié, les membres de la lignée Ananke (prononcé Ahn-a-key) seraient les descendants des anciens gardiens des temples où les oracles pratiquaient l'haruspicine, l'art divinatoire consistant à lire les présages dans les entrailles d'animaux fraîchement sacrifiés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ananke sont convaincus que les secrets de l'univers se révèlent à travers le corps des morts récents. Pour eux, seule l'étude directe de la chair permet d'accéder à une véritable compréhension du monde. Ils dissèquent, mutilent et explorent les corps avec une ferveur quasi mystique, persuadés que chaque organe et chaque blessure recèlent une vérité cachée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette quête obsessionnelle du savoir conduit souvent les Ananke à sacrifier leur Humanité. Beaucoup sombrent dans une moralité particulièrement basse, convaincus que la connaissance mérite tous les sacrifices."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que cette lignée connaisse aujourd'hui un certain renouveau — notamment grâce à une époque où les tueurs en série fascinent autant qu'ils inspirent — les Ananke demeurent extrêmement rares. Chacun d'eux ressent un besoin irrépressible de conserver des trophées de ses meurtres, qu'il étudie ensuite à l'aide de l'Auspex lors de longues méditations. Ils s'entourent ainsi de véritables memento mori, persuadés que ces vestiges sanglants constituent les rouages visibles de l'univers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains érudits pensent que cette lignée descend directement du légendaire Mathusalem connu sous le nom de l'Ankou."
         },
         {
           "type": "heading_2",
@@ -76,7 +92,39 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+          "text": "Les Ananke éprouvent un besoin obsessionnel de conserver des trophées macabres issus de leurs actes les plus violents."
+        },
+        {
+          "type": "paragraph",
+          "text": "S'ils sont empêchés de récupérer un trophée après un acte qu'ils jugent important, ils deviennent rapidement irrationnels et difficiles à raisonner."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si leur collection est menacée, volée ou détruite, ils sont incapables de regagner de la Volonté tant qu'ils n'ont pas commencé une nouvelle collection de memento mori."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ceci vient s’ajouter au malus de base du clan Malkavien : "
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Malkaviens sont frappés d'un dérangement permanent et incurable, né au moment de leur Étreinte."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement principal ne peut jamais être soigné ou supprimé."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils peuvent acquérir d'autres dérangements au cours de leur existence et s'en remettre normalement, mais jamais de leur dérangement originel."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'un Malkavien réinitialise ses Traits de Dérangement, il revient toujours à 1 Trait de Dérangement, et jamais à 0, contrairement aux autres vampires."
         }
       ]
     },
@@ -85,7 +133,7 @@
       "slug": "chevalier-de-la-lune",
       "title": "Chevalier de la Lune",
       "notionUrl": "https://app.notion.com/p/Chevalier-de-la-Lune-39588b48e48e8089add2c082b0f8e0c3",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-07T11:34:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -136,7 +184,27 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée"
+          "text": "Les Chevaliers de la Lune ne constituent pas une véritable lignée au sens traditionnel. Contrairement aux autres lignées vampiriques, leur particularité ne se transmet pas par le Sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils représentent plutôt une anomalie extrêmement rare au sein du clan Malkavien : pour une raison inconnue, ces vampires ne développent jamais la discipline de Démence, même lorsque leur sire la maîtrise parfaitement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aux yeux des autres vampires, ils paraissent souvent plus stables que leurs semblables. Cette impression est toutefois trompeuse. Leur folie ne disparaît pas ; elle s'exprime simplement d'une manière différente. Là où les autres Malkaviens sombrent dans des psychoses exubérantes, les Chevaliers de la Lune développent des formes bien plus froides et inquiétantes de démence : sociopathie impitoyable, intellectualisation déshumanisée ou véritables ruptures psychotiques d'une violence extrême."
+        },
+        {
+          "type": "heading_3",
+          "text": "Particularité de lignée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Chevaliers de la Lune remplacent la discipline Démence par Domination parmi leurs disciplines de clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils restent néanmoins pleinement soumis à la faiblesse des Malkaviens et possèdent toujours un dérangement permanent et incurable, malgré l'absence de la discipline Démence. Aucune faiblesse supplémentaire ne s'ajoute à celle de leur clan d'origine."
         },
         {
           "type": "heading_2",
@@ -144,7 +212,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+          "text": "Tous les Malkaviens sont frappés d'un dérangement permanent et incurable, né au moment de leur Étreinte."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement principal ne peut jamais être soigné ou supprimé."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils peuvent acquérir d'autres dérangements au cours de leur existence et s'en remettre normalement, mais jamais de leur dérangement originel."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'un Malkavien réinitialise ses Traits de Dérangement, il revient toujours à 1 Trait de Dérangement, et jamais à 0, contrairement aux autres vampires."
         }
       ]
     },
@@ -153,7 +237,7 @@
       "slug": "croise",
       "title": "Croisé",
       "notionUrl": "https://app.notion.com/p/Crois-39588b48e48e80d9b2dade128f1618cd",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-07T12:02:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -209,7 +293,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée"
+          "text": "Les Croisés constituent une lignée longtemps restée dans l'ombre du clan Ventrue, mais qui retrouve progressivement la reconnaissance de ses anciens au cours des nuits modernes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si les Ventrues aiment se présenter comme une noblesse raffinée et éclairée, les Croisés incarnent un héritage bien plus sombre de cette illustre lignée. Ils rappellent les cadets des grandes familles nobles, envoyés sur les champs de bataille pour gagner par le sang la place qui leur était refusée à la cour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où le Ventrue traditionnel règne depuis un trône, le Croisé conquiert par l'épée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Excellents soldats, chasseurs et pisteurs, les Croisés excellent dans la traque de leurs ennemis, capables de retrouver les proies les plus insaisissables. Ils privilégient l'affrontement direct et considèrent la guerre comme l'expression la plus pure de la domination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Malgré l'inquiétude qu'ils inspirent parfois au reste du clan en raison de leur brutalité, les Croisés demeurent pleinement des Ventrues. Ils possèdent la même fierté aristocratique, le même sentiment de supériorité et la même conviction d'être destinés à gouverner."
+        },
+        {
+          "type": "paragraph",
+          "text": "La différence réside dans leur manière d'exercer cette domination. Là où d'autres préfèrent la diplomatie ou les intrigues politiques, les Croisés savourent la victoire obtenue sur le champ de bataille. Ils apprécient particulièrement contempler le regard de leur adversaire au moment où celui-ci rencontre la Mort Ultime."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur goût marqué pour la violence, la cruauté et les démonstrations de force leur vaut une réputation aussi redoutée que controversée au sein de leur propre clan."
         },
         {
           "type": "heading_2",
@@ -217,7 +325,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Ventrue ont des goûts extrêmement raffinés en matière de sang. Chaque Ventrue ne peut se nourrir que d’un type très spécifique de sang mortel, et ne tire aucune subsistance d’un autre.\nLors de la création du personnage, ce type doit être défini avec le Conteur. Cette catégorie doit être étroite : moins d’une personne sur dix doit correspondre à ce critère. Ce choix est permanent.\nLe sang d’un autre type (y compris animal) ne nourrit pas le vampire. Quelle que soit la quantité consommée, sa réserve de sang n’augmente pas, et il vomit immédiatement ce sang.\nLe sang des créatures surnaturelles (comme celui des vampires) n’est pas concerné et peut nourrir normalement.\nSi un Ventrue est contraint de se nourrir en territoire inconnu, il doit dépenser une AIP Nourriture supplémentaire pour entrer en jeu avec une réserve de sang complète."
+          "text": "Chaque Ventrue possède un goût extrêmement exclusif en matière de sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, le joueur définit, avec l'accord du Conteur, une catégorie très précise de mortels dont le sang est le seul capable de nourrir son personnage. Cette catégorie doit rester relativement rare : moins d'une personne sur dix devrait correspondre à ce critère. Ce choix est définitif."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun Point de Sang."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Après l'avoir consommé, le Ventrue le vomit immédiatement, sans en retirer le moindre bénéfice."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le sang des créatures surnaturelles (notamment celui des autres vampires) n'est pas soumis à cette restriction et nourrit normalement le Ventrue, même si ces créatures ne correspondent pas à son régime alimentaire."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une action d'inter-partie supplémentaire pour commencer la partie avec une réserve de Sang complète."
         }
       ]
     },
@@ -226,7 +358,7 @@
       "slug": "sorcier",
       "title": "Sorcier",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-07-06T11:06:00.000Z",
+      "lastEditedTime": "2026-07-07T10:20:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -282,7 +414,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les enfants d'Haqim, les Assassins, la lame blanche"
+          "text": "Les Sorciers constituent la caste mystique des Assamites. Pendant des siècles, ils consacrèrent leur immortalité à l'étude de la magie, de la philosophie religieuse et des connaissances occultes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis que la malédiction des Tremere a été levée, leurs priorités ont changé. Ils poursuivent désormais deux objectifs essentiels :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "exercer leur vengeance contre les Tremere ainsi que contre les Vizirs renégats ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "veiller sur l'Aîné du clan, dont le comportement devient chaque nuit plus instable."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Aîné voit désormais l'influence de l'Infernal dans toute chose. Les Sorciers lui demeurent totalement loyaux, mais redoutent que sa folie ne conduise un jour le clan à sa perte."
         },
         {
           "type": "heading_2",
@@ -290,7 +438,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Leur magie perturbe leur aura :\nLes tentatives pour percer leur Occultation gagnent +1 carte joker sur les tests d’Auspex. Leur aura est vue comme celle d'un mage."
+          "text": "Cette faiblesse remplace la faiblesse de clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "La pratique constante de leur sorcellerie imprègne leur aura d'une énergie mystique difficile à masquer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages qui tentent de percer leur Occultation reçoivent un bonus générique de +1 à leurs réserves de test d'Auspex."
         }
       ]
     },
@@ -299,7 +455,7 @@
       "slug": "tlacique",
       "title": "Tlacique",
       "notionUrl": "https://app.notion.com/p/Tlacique-39588b48e48e8068ac17fcf6689b8353",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-07T10:51:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -355,7 +511,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée"
+          "text": "Les Tlacique affirment descendre d'un aspect aztèque de Set qu'ils nomment Tezcatlipoca, le dieu de la nuit et de la magie noire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fondée en Amérique du Sud avant l'arrivée des conquistadors espagnols, cette lignée demeure une énigme pour les érudits vampires. Nul ne sait comment les Setites auraient pu atteindre le continent américain plusieurs siècles avant sa découverte par les Européens."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Tlacique résistèrent farouchement à la colonisation et livrèrent une guerre acharnée contre les vampires venus d'Europe. Finalement, les forces combinées des Lasombra et des Ventrue finirent par les repousser afin d'établir leur domination sur le Nouveau Monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les survivants se réfugièrent dans les profondeurs inexplorées de la jungle sud-américaine. Depuis leurs temples cachés, ils poursuivent une guerre secrète contre tous les vampires européens et perpétuent les anciens rites, continuant de vénérer les dieux ancestraux de leurs peuples."
         },
         {
           "type": "heading_2",
@@ -363,7 +531,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
+          "text": "Les Disciples de Set sont particulièrement vulnérables à la lumière vive."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils subissent 1 point de dégâts supplémentaire lorsqu'ils sont exposés à la lumière du soleil."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toutes leurs réserves de test subissent un malus de -2 lorsqu'ils agissent sous une lumière vive, quelle qu'en soit la source."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les réserves de test défensives ne sont pas affectées par ce malus."
         }
       ]
     },
@@ -372,7 +552,7 @@
       "slug": "vipere",
       "title": "Vipère",
       "notionUrl": "https://app.notion.com/p/Vip-re-39588b48e48e80f4afd3f91a1ea50727",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-07T10:51:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -428,7 +608,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée"
+          "text": "Les Disciples de Set sont généralement réputés pour leur discrétion, leur pouvoir de séduction et leur talent pour la manipulation. Les Vipères, souvent appelées Setites Guerriers, incarnent l'exact opposé de cet idéal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où leurs frères privilégient la ruse, les Vipères choisissent la force brute et l'intimidation. Elles servent de gardiennes des temples, de soldats de la guerre sainte de Set et n'hésitent jamais à combattre — ou à mourir — au nom de leur sombre divinité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vipères ne connaissent pas la peur. Contrairement à la plupart des vampires, elles considèrent que leur immortalité n'existe que par la volonté de Set. Animées d'une foi fanatique, elles prêchent sa parole avec une ferveur inébranlable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette lignée est particulièrement connue pour convertir de force de nouveaux fidèles au culte de Set, employant sans hésitation la peur, la torture et l'intimidation pour imposer leur religion."
         },
         {
           "type": "heading_2",
@@ -436,7 +628,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
+          "text": "Les Disciples de Set sont particulièrement vulnérables à la lumière vive."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils subissent 1 point de dégâts supplémentaire lorsqu'ils sont exposés à la lumière du soleil."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toutes leurs réserves de test subissent un malus de -2 lorsqu'ils agissent sous une lumière vive, quelle qu'en soit la source."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les réserves de test défensives ne sont pas affectées par ce malus."
         }
       ]
     },
@@ -445,7 +649,7 @@
       "slug": "vizirs",
       "title": "Vizirs",
       "notionUrl": "https://app.notion.com/p/Vizirs-39388b48e48e8088880df1858938a1f1",
-      "lastEditedTime": "2026-07-06T11:06:00.000Z",
+      "lastEditedTime": "2026-07-07T10:21:00.000Z",
       "properties": {
         "Handicaps": {
           "type": "relation",
@@ -501,7 +705,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les enfants d'Haqim, les Assassins, la lame blanche"
+          "text": "Autrefois, les Vizirs assamites étaient chargés de préserver et de consigner les connaissances du clan : culture, gouvernement, arts et religion. Cependant, lors du schisme religieux qui divisa les Descendants d'Haqim, les Vizirs, majoritairement musulmans, refusèrent le culte exclusif d'Haqim et quittèrent Alamut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis lors, les Vizirs sont animés par une soif insatiable de savoir. Ils accumulent connaissances, manuscrits et secrets avec une obsession qui dépasse souvent toute raison. Peu de choses leur importent davantage que la découverte d'un savoir oublié, et beaucoup sont prêts à sacrifier leur sécurité, leurs alliances, voire leur existence, pour mettre la main sur une vérité interdite."
         },
         {
           "type": "heading_2",
@@ -509,7 +717,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Vizirs souffrent d’un dérangement obsessionnel déclenché par la connaissance inconnue.\nIls ne gagnent pas de points d’expérience liés à ce dérangement"
+          "text": "Cette faiblesse remplace la faiblesse de clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vizirs souffrent automatiquement du dérangement Obsession, dont le déclencheur est « Connaissance inconnue »."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne gagnent aucun point d'expérience pour ce dérangement."
         }
       ]
     },

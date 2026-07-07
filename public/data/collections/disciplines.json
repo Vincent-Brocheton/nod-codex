@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-06T18:25:13.622Z",
+  "generatedAt": "2026-07-07T20:38:55.594Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -272,6 +272,11 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
@@ -287,6 +292,16 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "furie-pourpre",
               "title": "Furie Pourpre"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "apaiser-le-troupeau",
+              "title": "Apaiser le Troupeau"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "maitre-de-la-chasse",
+              "title": "Maître de la Chasse"
             }
           ]
         },
@@ -389,6 +404,11 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
@@ -404,6 +424,16 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "assaut-psychique",
               "title": "Assaut Psychique"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "brouillard-de-guerre",
+              "title": "Brouillard de Guerre"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "drain-psychique",
+              "title": "Drain Psychique"
             }
           ]
         },
@@ -541,6 +571,11 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
@@ -716,7 +751,28 @@
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "armee-d-apparitions",
+              "title": "Armée d’Apparitions"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "l-epouvantable-lame-des-demons",
+              "title": "L'épouvantable lame des démons"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "essence-de-la-verite",
+              "title": "Essence de la Vérité"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "cauchemar-partage",
+              "title": "Cauchemar Partagé"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -807,7 +863,23 @@
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "atrocite-mouvante",
+              "title": "Atrocité Mouvante"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "compact-infernal",
+              "title": "Compact Infernal"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "engendrer-la-peste",
+              "title": "Engendrer la Peste"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -888,12 +960,38 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "chasseur-fantome",
+              "title": "Chasseur Fantôme"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "dissimulation-distante",
+              "title": "Dissimulation Distante"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "labyrinthe-mental",
+              "title": "Labyrinthe Mental"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "masque-d-ame",
+              "title": "Masque d’âme"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1062,12 +1160,38 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "allegeance",
+              "title": "Allégeance"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "chaine-de-commandement",
+              "title": "Chaîne de Commandement"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "manipulation-de-masse",
+              "title": "Manipulation de masse"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "regard-du-tyran",
+              "title": "Regard du Tyran"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1196,6 +1320,11 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
@@ -1367,7 +1496,28 @@
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "allie-tenebreux",
+              "title": "Allié ténébreux"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "jumeau-tenebreux",
+              "title": "Jumeau Ténébreux"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "marcher-dans-les-ombres",
+              "title": "Marcher dans les Ombres"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "traitrise-de-l-ombre",
+              "title": "Traîtrise de l’Ombre"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1438,12 +1588,38 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "amour",
+              "title": "Amour"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "freres-d-armes",
+              "title": "Frères d’Armes"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "regard-paralysant",
+              "title": "Regard paralysant"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "visage-capricieux",
+              "title": "Visage Capricieux"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1517,7 +1693,28 @@
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "brouillard-morcele",
+              "title": "Brouillard morcelé"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "maitrise-de-la-terre",
+              "title": "Maîtrise de la Terre"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "maitrise-des-formes",
+              "title": "Maîtrise des Formes"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "peau-de-marbre",
+              "title": "Peau de Marbre"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1597,12 +1794,38 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni"
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff"
             }
           ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "choc-terrestre",
+              "title": "Choc terrestre"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "force",
+              "title": "Force"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "furie-implacable",
+              "title": "Furie implacable"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "intensite",
+              "title": "Intensité"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1674,7 +1897,28 @@
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "griffes-sanglantes-de-baal",
+              "title": "Griffes Sanglantes de Baal"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "purification",
+              "title": "Purification"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "revelations-de-l-essence-sanguine",
+              "title": "Révélations de l’essence sanguine"
+            },
+            {
+              "collectionKey": "pouvoirs-anciens",
+              "slug": "sueur-sanguine",
+              "title": "Sueur Sanguine"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",

@@ -4,12 +4,290 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80ff-b7ea-e7d248d3ca4b",
-  "generatedAt": "2026-07-06T18:25:13.626Z",
-  "propertyOptions": {
-    "Jet d'attaque": [],
-    "Jet de défense": []
-  },
+  "generatedAt": "2026-07-07T20:38:55.599Z",
+  "propertyOptions": {},
   "items": [
+    {
+      "id": "39688b48-e48e-803d-8ffb-dc5bf85422d4",
+      "slug": "allegeance",
+      "title": "Allégeance",
+      "notionUrl": "https://app.notion.com/p/All-geance-39688b48e48e803d8ffbdc5bf85422d4",
+      "lastEditedTime": "2026-07-07T14:32:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Allégeance"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rien ne rapproche plus les gens que le pouvoir. Le pouvoir de votre sang est si grand qu'il vous permet de sceller des serments de service tout en accordant une partie de votre force à ceux qui vous sont fidèles."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque fois qu'une cible vous fait un serment de fidélité, vous pouvez dépenser 1 point de Sang et une Action Simple pour l'accepter et activer ce pouvoir. Le serment de fidélité doit être prêté librement et sans influence surnaturelle. Si votre cible est une créature surnaturelle ou ayant un connaissance du monde surnaturel, elle comprendra que le serment a une signification surnaturelle. Tant que Allégeance est active, elle a les effets suivants :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Loyauté : Tant que ce pouvoir est actif, vous gagnez la Familiarité avec votre cible qui ne s'efface pas tant qu'elle est vassale. Les liens de sang ou vinculum que votre cible a envers vous ne s'estompent pas à cause du temps ou des effets magiques, comme la Vaulderie. Si ce pouvoir prend fin, le temps qui pourrait compter pour la Familiarité avec votre cible ou la disparition des liens de sang commencera à partir de ce moment."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Servitude : Vous êtes toujours considéré comme ayant le Regard et la Concentration de votre cible aux fins de l’utilisation des pouvoirs de Domination. De plus, à condition que vous puissiez dépenser de la Volonté pour retester un Challenge Mental ou Social impliquant votre cible, vous pouvez le faire sans payer le coût de Volonté requis."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Dévotion : Votre cible peut utiliser une partie de votre pouvoir pendant qu'elle exécute vos ordres. Si elle effectue un Challenge Opposé et est capable de dépenser un point de Volonté pour retester un Challenge Mental ou de Social, elle peut le faire sans payer le coût de Volonté requis. Elle ne peut utiliser cet avantage que si ses actions impliquent l'exécution de vos ordres directs. Elle peut utiliser cet avantage jusqu'à 3 fois par heure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez libérer n'importe quel serviteur de Allégeance à tout moment en dépensant une simple action, même si elle n'est pas dans votre champ de vision. Toute personne libérée de sa fidélité saura immédiatement que son serment a pris fin. Si quelqu'un qui vous a juré fidélité souhaite rompre son serment, il peut le faire en dépensant 3 actions standards et 3 points de Volonté. Si elle le fait, vous le saurez immédiatement. Briser votre Allégeance contre votre Volonté est un processus douloureux et ceux qui le font subissent immédiatement 3 points de dégâts aggravés qui ne peuvent être ni réduits ni annulés. Alternativement, vous pouvez libérer les vassaux de leurs serments en dépensant une simple action. À tout moment, vous pouvez avoir un nombre de serments d'Allégeance actif égal à vos points dans la compétence Commandement."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8007-84a5-c6ccea217c96",
+      "slug": "allie-tenebreux",
+      "title": "Allié ténébreux",
+      "notionUrl": "https://app.notion.com/p/Alli-t-n-breux-39688b48e48e800784a5c6ccea217c96",
+      "lastEditedTime": "2026-07-07T14:49:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Allié ténébreux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos études de l’Obténébration vous ont amené à réfléchir à l’obscurité intérieure. Alors que la plupart sont des victimes de leur pulsions sombres, vous avez appris le secret pour faire de l’inconscience votre alliée, vous reposant sur votre compétence pour surmonter et vous relever même quand vous êtes à terre ou incapacité. Certains Lasombra pense que l’allié ténébreux n’est rien d’autre que l’absence de réflexion du vampire qui lui est renvoyée."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "A chaque fois que vous êtes inconscient à cause du sommeil ou de la torpeur, ou que votre conscience est séparée de votre corps à cause de la Possession, de la Projection Psychique, ou de pouvoirs similaires, vous pouvez autoriser votre ombre à prendre possession de votre enveloppe physique. Ce pouvoir est une exception à la règle limitant les pouvoirs pouvant être utilisés durant la torpeur ou durant la Possession et la Projection Psychique. En dépensant 2 points de sang pour activer ce pouvoir, votre conscience reste séparée ou endormie mais votre corps s’anime entièrement sous le contrôle de votre ombre, cependant, étant donné que votre conscience reste séparée ou endormie, vous ne pouvez pas observer directement les actions de votre corps à moins d’avoir au moins un point en Vigilance. Pour tous les observateurs extérieurs, votre corps s’éveille tout seul et peut agir à partir du tour suivant. Tant que ce pouvoir est actif, vos yeux deviennent deux puits d’obscurité, entièrement noir, et d’une certaine manière extrêmement déconcertant à contempler."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre conteur contrôle votre ombre tant que ce pouvoir est actif. Votre ombre partage certaines de vos motivations mais agira de son propre chef. Elle défendra votre corps s’il est menacé et se nourrira si votre réserve de sang est basse. Cependant, elle ne se mettra pas en péril pour vos alliés, ni n’ira se mettre en danger pour votre cause. A la place, votre ombre cherchera à préserver sa propre vie et tuera tout ce qui la menace. Votre ombre évitera les longues conversations et quand elle prendra la parole, sa voix sera basse, éthérée et légèrement étouffée. Elle peut agir de façon que vous trouvez répréhensibles pour arriver à ses fins mais ne créera pas du chaos pour le chaos. Une fois que vous reprenez conscience, vous vous souvenez de ce qu’a fait votre ombre, et vous gagnez 5 traits de bêtes pour ses actions comme si vous les aviez commises vous-même. Tous les modificateurs comme ceux des voies, s’appliquent aussi et vous pouvez tenter un challenge de dégénérescence pour réduire de 1 le score. Votre ombre peut dépenser du sang et de la volonté et peut utiliser votre sang et vos groupements. Si vous activez ce pouvoir alors que vous êtes en torpeur à cause de dégâts subits, votre ombre réveillera votre corps avec un niveau de santé équivalent au niveau que vous avez en Obténébration. Une fois activé, ce pouvoir dure 1h ou jusqu’à ce que l’effet qui garde votre conscience hors de votre corps se termine."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8053-8ec4-e5d1f122e585",
+      "slug": "amour",
+      "title": "Amour",
+      "notionUrl": "https://app.notion.com/p/Amour-39688b48e48e80538ec4e5d1f122e585",
+      "lastEditedTime": "2026-07-07T14:56:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Amour"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang des Vampires renferme bien des pouvoirs, du commandement des facultés mentales à la formidable force ou vitesse pure. Mais bien des anciens soutiennent que la capacité de renverser les émotions grâce aux chaînes du lien de sang est le plus insidieux et le plus efficace des pouvoirs. Certainement, ceux qui peuvent évoquer l'obsession du lien sans réellement forcer un autre à boire son sang ont un avantage dans la culture vampirique - un terrible et terrifiant avantage. Ceux qui tombent sous les effets du pouvoir d'une telle créature remueront ciel et terre, trahiront amis et alliés et iront jusqu'à se sacrifier pour le compte de leur bien aimé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Amour est une chose dangereuse, puisqu'il altère complètement les émotions du sujet et sa personnalité envers le Vampire dominant. Une telle victime est soudainement affectée par un lien de sang niveau trois pendant la prochaine heure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois qu’Amour s'estompe, le sujet tente de rationaliser les actions qu'il a entrepris sous l'influence de la discipline. Cependant, contrairement à la Transe, un utilisateur de ce pouvoir peut persuader sa cible d'accomplir des tâches dangereuses et atypiques. Si, pendant que la cible est affectée par Amour, entreprends des actions anormales ou à agit contre son éthique et ses croyances, elle réalisera certainement immédiatement que ses émotions étaient manipulées par la force."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour activer Amour, dépensez 3 points de Sang et votre action standard et faites un Challenge Social opposé contre votre cible en utilisant le Score de Test de Présence. Si vous réussissez, la cible est soudainement affectée par un lien de sang de niveau 3 contre vous pendant l'heure qui suit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous utilisez ce pouvoir contre la même cible deux fois dans une même soirée, réduisez la durée de la deuxième application de Amour de moitié, de manière que ça ne dure que 30 minutes. Cette pénalité est cumulative. La deuxième fois que vous utilisez Amour sur une cible, la durée est de 30 minutes ; à la troisième utilisation d'Amour contre la cible lors de la même soirée la durée devient 15 minutes ; et ainsi de suite."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80f8-947d-e67b907fec1f",
+      "slug": "apaiser-le-troupeau",
+      "title": "Apaiser le Troupeau",
+      "notionUrl": "https://app.notion.com/p/Apaiser-le-Troupeau-39688b48e48e80f8947de67b907fec1f",
+      "lastEditedTime": "2026-07-07T14:02:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Apaiser le Troupeau"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les créations les plus dangereuses et effrayantes de la nature sont les superprédateurs ; de puissants chasseurs dont les autres espèces ont instinctivement peur. La puissance de votre Bête est telle que même dans une pièce remplie d'autres prédateurs, sa faim et sa force sont palpables, menaçant de dominer tous ceux qui la défient."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous tentez d'utiliser Dompter la Bête, vous pouvez choisir de dépenser un point de sang supplémentaire pour activer Apaiser le Troupeau pour affecter de multiples cibles. Vous pouvez choisir un nombre de vampires ou de créatures surnaturelles capables de frénésie égale à votre nombre de points dans la compétence Animaux, ces cibles doivent être dans votre champ de vision et vous devez capter l'attention de vos cibles. Lorsque vous ciblez plusieurs vampires ou créatures surnaturelles, vous devez faire un challenge en opposition avec chaque défenseur."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-804e-bbd4-ea5cf27cf353",
+      "slug": "armee-d-apparitions",
+      "title": "Armée d’Apparitions",
+      "notionUrl": "https://app.notion.com/p/Arm-e-d-Apparitions-39688b48e48e804ebbd4ea5cf27cf353",
+      "lastEditedTime": "2026-07-07T14:09:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Armée d’Apparitions"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où certains peuvent conjurer un individu ou objet depuis le néant, vous avez la capacité de remplir un entrepôt ou peupler une marche aux droits civique entièrement avec cette illusion - en clignement de vos yeux."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de Sang et votre action standard pour créer jusqu'à trois Apparitions par point que vous possédez dans votre compétence Subterfuge. Quand créées, vous pouvez à chaque Apparition son propre schéma. Quand vous utilisez une action simple pour altérer les schémas de votre Apparition, vous pouvez choisir d'un affecter une, quelques ou toutes les Apparitions créés avec ce pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir qu'une seule application de l'Armée d'Apparitions active à n'importe quel moment donné."
+        }
+      ]
+    },
     {
       "id": "38388b48-e48e-8004-98cd-d78d9b44321d",
       "slug": "armure-personnelle",
@@ -20,14 +298,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -80,19 +350,11 @@
       "slug": "assaut-psychique",
       "title": "Assaut Psychique",
       "notionUrl": "https://app.notion.com/p/Assaut-Psychique-38388b48e48e8035a019cc898f387cc0",
-      "lastEditedTime": "2026-06-18T10:38:00.000Z",
+      "lastEditedTime": "2026-07-07T14:05:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -141,6 +403,480 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80ca-932c-cd8a1e25a5a0",
+      "slug": "atrocite-mouvante",
+      "title": "Atrocité Mouvante",
+      "notionUrl": "https://app.notion.com/p/Atrocit-Mouvante-39688b48e48e80ca932ccd8a1e25a5a0",
+      "lastEditedTime": "2026-07-07T14:19:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Atrocité Mouvante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez payé un prix terrible pour le pouvoir, et même si d’autres peuvent penser que vous êtes l’esclave de votre maître impie, vous pouvez régner sur tous ceux qui s’opposent à vous. En faisant appel à votre propre inhumanité, vous pouvez devenir la manifestation de toutes vos mauvaises actions, amenant votre Bête et l'infernal à unir leurs forces."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois appris, ce pouvoir est toujours actif. Lorsque vous apprenez ce pouvoir, vous gagnez un point d'attribut bonus dans la catégorie de votre choix pour chaque point dont votre score de Moralité est inférieur à 5. Vous gagnez également un point d'attribut bonus à chaque fois que votre score de Moralité baisse. Vous n'avez pas besoin d'acheter ces points d'attribut bonus avec vos XP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir ne permet pas d'avoir plus de 5 bonus points d'attribut dans n'importe quelle catégorie, y compris les points d'attribut bonus de la génération ou d'historique similaires. Si vous améliorez d'une manière ou d'une autre votre score de moralité, même temporairement, vous devez choisir un point d'attribut bonus à renoncer. Une fois choisi, vous ne pouvez pas réattribuer le point bonus perdu à moins que vous n'augmentiez puis ne réduisiez définitivement votre score de moralité à nouveau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puisqu'il est toujours actif, ce pouvoir est une exception à la règle qui stipule que votre aura montre des signes d'infernalisme lorsque vous utilisez un pouvoir démoniaque."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80d8-8e14-f803e309269d",
+      "slug": "baliverne",
+      "title": "Baliverne",
+      "notionUrl": "https://app.notion.com/p/Baliverne-39688b48e48e80d88e14f803e309269d",
+      "lastEditedTime": "2026-07-07T14:46:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Baliverne"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Changelins sont des maîtres de la ruse ; ils embrouillent l'esprit de ceux qui les croisent, les réduisant à un peu plus que des imbéciles bavards. Vous avez maîtrisé cet arcane des fées et êtes capable de voler les talents de ceux qui soulèvent votre colère, les transformant en caricatures maladroites de ce qu'ils étaient autrefois."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 3 points de sang et votre action standard pour engager votre adversaire dans un challenge opposé en utilisant votre réserve de test Mythecellerie. Pour utiliser ce pouvoir, vous devez avoir le Regard et l'attention de votre cible. Si vous réussissez votre défi, vous réduisez l'une des compétences de votre adversaire à 1 pendant 30 minutes. Si votre cible possède un nombre limité d'objets qu'elle peut contrôler en fonction de la compétence ciblée, comme des Sentinelles numériques ou d'autres objets créés ou contrôlés par la magie du sang ou des rituels de magie du sang, ces objets sont rendus inertes jusqu'à ce que la durée de Fiddlesticks expire. Si moins de tous les objets sont rendus inertes, le créateur des objets choisit ceux qui sont rendus inertes."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, votre victime ne peut pas obtenir de succès exceptionnel dans les tests impliquant la compétence choisie. Une cible ne peut subir qu'une seule application de ce pouvoir à la fois. Une utilisation ultérieure de ce pouvoir sur une cible qui en subit déjà les effets entraîne le remplacement de l'application active du pouvoir par la nouvelle application du pouvoir."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir dure une heure au lieu de 30 minutes."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8041-a5d6-feb790f90e14",
+      "slug": "brouillard-de-guerre",
+      "title": "Brouillard de Guerre",
+      "notionUrl": "https://app.notion.com/p/Brouillard-de-Guerre-39688b48e48e8041a5d6feb790f90e14",
+      "lastEditedTime": "2026-07-07T14:06:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Brouillard de Guerre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La guerre est un enfer et rares sont ceux qui peuvent la contempler sans broncher. Par l'utilisation de ce pouvoir vous pouvez voir la zone d'un champ de bataille ainsi que l'emplacement des alliés et des ennemis. Vous percevez ces informations de manière onirique et indistincte : une vue d'ensemble du champ de bataille, riche en symbolique. Ces informations sont inestimables d'un point de vue tactique. Il vous permet également de raconter les détails d'une bataille avec une grande précision."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez du sang et une action simple pour activer ce pouvoir. Brouillard de Guerre dure 10 min par point de sang dépensés pour alimenter ce pouvoir. En activant ce pouvoir vous gagnez une vision floue de haut en bas d'un champ de bataille sur lequel vous êtes présent."
+        },
+        {
+          "type": "paragraph",
+          "text": "La zone que vous percevez se superpose sur votre vision normale. La zone peut varier en taille, couvrant l'intégralité de l'espace impliqué dans le scénario de combat, allant d'une petite pièce avec seulement quelques combattants à une zone de plusieurs kilomètres de diamètre, composés d'armées adverses. Vous ne pouvez utiliser ce pouvoir que lorsque vous avez déjà détecté l'ennemi proche et que la bataille est imminente ou a déjà commencé. Ce pouvoir ne s'étend pas au Voile ou à d'autres royaumes mystiques, même si le champ de bataille s'étend à ces zones."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le pouvoir est actif, vous connaissez automatiquement le nombre d'ennemis et leurs localisations, vous les voyez y compris derrière un mur ou un plafond. Ce pouvoir n'étend pas votre champ de vision pour l'utilisation d'autres disciplines ou pouvoirs. Les ennemis perçus par l'utilisation de ce pouvoir apparaissent flous et distordus, bien que vous puissiez identifier ceux avec lesquels vous avez la règle de familiarité. Vous savez également avec exactitude quand un ennemi rejoint ou quitte le champ de bataille. Si des ennemis sont cachés par un pouvoir de dissimulation surnaturel, vous savez toujours leur nombre exact, mais ce pouvoir ne révèle pas leurs localisations. Si vous le souhaitez, vous pouvez partager les informations tactiques glanées à travers votre perspective du champ de bataille, soit verbalement, soit par le biais de pouvoirs tels que la télépathie ; cependant, vous devez communiquer activement ces connaissances et les autres membres ne peuvent pas partager passivement votre vision, même par télépathie."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si ce pouvoir est utilisé pour observer un challenge dans votre champ de vision normal, vous êtes capable de reconnaître la nature du challenge, y compris les pouvoirs utilisés, à condition que vous possédiez les connaissances appropriées ou les spécialisations nécessaires dans la compétence Mystère. Vous connaissez également la nature du résultat, notamment les dégâts infligés. Lorsque vous observez un challenge, une fois par tour, vous pouvez permettre à un participant de votre choix l'opportunité de dépenser votre propre Volonté plutôt que la sienne pour un re-test. Ce re-test est considéré comme un re-test de Volonté normal, excepté que vous pouvez payer le coût à la place du participant sélectionné. De plus ce re-test peut fonctionner avec d'autres pouvoirs défensifs que le destinataire peut posséder, comme la Grâce du Danseur, et tous les effets qui s'appliquent à la dépense de Volonté dans les challenges, comme Résolution suprême ou Devoir des Rois. Ce pouvoir n'annule pas les effets qui interdisent de faire un re-test de Volonté ou qui augmente son coût."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80c8-bbcc-dd5a1fd31e79",
+      "slug": "brouillard-morcele",
+      "title": "Brouillard morcelé",
+      "notionUrl": "https://app.notion.com/p/Brouillard-morcel-39688b48e48e80c8bbccdd5a1fd31e79",
+      "lastEditedTime": "2026-07-07T14:53:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Brouillard morcelé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La ruse et le timing opportun peuvent tromper la force brute et la vitesse illimitée. Votre connaissance du Protéisme vous permet de rapidement vous transformer en nuage de brouillard, permettant aux épées de vous traverser et aux balles de passer sans vous causer de dégâts. Quand vous vous reformez quelques instants plus tard pour frapper en retour, vos adversaires sont laissés confus et chancelants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous êtes touché par un pouvoir qui cause des dégâts, vous pouvez utiliser 2 points de sang en réponse pour vous transformer brièvement en Forme de Brume, évitant ainsi les dégâts qui devraient vous être appliqués. (voir chapitre : Disciplines). Une fois que les dégâts sont supprimés, vous revenez à votre apparence normale. Vous ne pouvez pas utiliser ce pouvoir pour éviter les dégâts qui proviennent de sources de Feu, comme ceux de la Voie de l’Attrait des Flammes ou les armes avec la qualité Feu, ou encore les effets mentaux comme Assaut Psychique ou les pouvoirs sociaux qui causent des dégâts."
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus, bien que vous ayez évité les dégâts, la personne attaquante est considérée comme vous ayant touché pour tout ce qui à trait à l’activation de certains pouvoirs supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80f2-b39f-dc52113526f9",
+      "slug": "cauchemar-partage",
+      "title": "Cauchemar Partagé",
+      "notionUrl": "https://app.notion.com/p/Cauchemar-Partag-39688b48e48e80f2b39fdc52113526f9",
+      "lastEditedTime": "2026-07-07T14:11:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cauchemar Partagé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cauchemar Partagé est un pouvoir terrifiant, capable d'infliger les effets de votre imagination sur plusieurs cibles en même temps. Votre attaque chimérique n’est plus contrainte à un seul individu par round."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acheté, ce pouvoir est toujours actif et accroît toutes les utilisations de Réalité Monstrueuse. Les attaques faites par vos Apparitions augmentée par votre Réalité Monstrueuse peuvent attaquer jusqu'à cinq individus simultanément. Votre illusion va peut-être lancer une grenade, pour blesser plusieurs individus, ou lancer un souffle de flammes, brûlant un groupe de victimes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous ciblez plusieurs cibles avec ce pouvoir, vous devez faire un challenge opposé avec chacun des défenseurs. Si vous dépensez un point de volonté pour re-test n'importe lequel des challenges opposés, vous gagnez aussi ce re-test pour le reste des challenges opposés sans avoir à dépenser de Volonté. Si vous dépensez la volonté pour re-test après que des challenges aient déjà été résolus, vous ne pouvez pas retourner en arrière vers des Challenges précédent que vous avez perdus et appliquer le re-test de volonté de manière rétroactive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous dépensez à la fois votre action simple et standard pour appliquer une manœuvre de combat, selon le Focus de l'attribut Charisme, cette manœuvre de combat ne s'applique qu'à un seul individu."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80cb-8b7c-c5df1cc1f8a7",
+      "slug": "chaine-de-commandement",
+      "title": "Chaîne de Commandement",
+      "notionUrl": "https://app.notion.com/p/Cha-ne-de-Commandement-39688b48e48e80cb8b7cc5df1cc1f8a7",
+      "lastEditedTime": "2026-07-07T14:33:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chaîne de Commandement"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La nature de la hiérarchie signifie que vous n'avez pas toujours le luxe de livrer vos commandes à vos subordonnés directement ou en personne. Même si votre déception et les représailles qu'elle pourrait entraîner peuvent être redoutées, ce pouvoir garantit que vos ordres seront relayés à la lettre. Vous avez le pouvoir d’investir un messager d’une directive qui, une fois délivrée, transmettra votre autorité."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez le pouvoir d'investir un messager d'une Hypnose résiduelle qu'il peut transmettre en votre nom à une personne spécifique. Pour cela, dépenser 1 point de Sang et votre Action Simple pour donner l'ordre à votre messager. Vous devez remplir les règles de Regard et Concentration et vous devez prononcer à haute voix le nom de la personne à qui la commande doit être livrée, ainsi que la commande spécifique. Si votre messager ne veut pas relayer votre message, vous devez le vaincre dans un Challenge Opposé en utilisant le score de test de Domination. Si vous réussissez, ou s'il le souhaite, le joueur du messager ciblé prendra note de l'ordre, du destinataire, de votre génération (en cas d'effets de génération tels que la primauté du sang) et de votre score de test de Domination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès que le messager rencontre la personne qui doit recevoir votre message, ou quelqu'un qu'il croit sincèrement être cette personne, le messager prendra les mesures nécessaires pour établir le Regard et Concentration de cette personne et utilisera son action standard pour transmettre l'Hypnose. Ce faisant, votre messager répétera l'ordre que vous lui avez donné à la lettre et dira qu'elle vient de vous. Si votre messagère ne connaît pas votre identité, elle peut vous appeler « mon maître » ou simplement « Je suis chargé de vous le dire. . . .» Si votre messager réussit un Challenge Opposé en utilisant votre score de test Domination, le destinataire de votre commande doit respecter l'Hypnose comme s'elle venait de vous. Si le messager perd le challenge et ne parvient pas à transmettre l'Hypnose au destinataire, il peut faire un re-test de Volonté s'il le souhaite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre messager restera investi de votre Hypnose pendant 30 jours. L'utilisation de ce pouvoir ne compte pas dans le nombre d'Hypnose auxquels votre messager peut être sensible à un moment donné, bien qu'elle ne puisse porter qu'une seule application de Chaîne de Commandement. En tant que tel, vous pouvez utiliser la Chaîne de commandement sur votre messager, puis utiliser Hypnose sur lui pour lui faire transmettre immédiatement le message. Si vous souhaitez utiliser Altération Mémorielle sur le messager, vous pouvez lui faire oublier les circonstances de son envoi ainsi que le contenu du message, même si elle remettra toujours le message normalement et à la lettre lorsqu'elle rencontrera le destinataire."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80fa-8260-f15ab0254f83",
+      "slug": "chasseur-fantome",
+      "title": "Chasseur Fantôme",
+      "notionUrl": "https://app.notion.com/p/Chasseur-Fant-me-39688b48e48e80fa8260f15ab0254f83",
+      "lastEditedTime": "2026-07-07T14:27:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chasseur Fantôme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les légendes parlent de chasseurs qui traquent la nuit, frappant de nulle part et restent inaperçu, comme un vent invisible. Ces contes ne servent qu'à rappeler aux vampires qu'ils ne sont jamais en sécurité ; tous leurs mouvements sont observés et le silence précède souvent la tempête."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un événement arrive qui, normalement, met fin à votre Présence Invisible, vous pouvez dépenser 3 points de Sang pour activer le Chasseur Fantôme. Pendant les trois prochaines secondes, vous pouvez continuer à entreprendre des actions qui d'ordinaire, briseraient votre Présence Invisible sans devenir visible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous utilisez Chasseur Fantôme pendant un combat, la protection qu'elle accorde ne continue que le temps d'un round commun. Pour le reste de ce round commun, vous pouvez attaquer, être attaqué, parler à voix forte et interagir avec votre environnement sans devenir visible. Cependant, si vous interagissez toujours avec votre environnement ou un autre personnage à la fin du round commun, vous devenez alors visible. Si vous n'êtes plus engagé dans une action qui briserait votre Présence Invisible à la fin du round commun, votre Présence Invisible reste active."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chasseur Fantôme peut être activé à n'importe quel moment, même avant votre tour dans l'ordre d'initiative. Par exemple, si vous êtes frappé avant votre initiative, vous pouvez activer le Chasseur Fantôme à ce moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous attaquer quelqu'un sous les effets du Chasseur Fantôme, la victime vous aperçoit brièvement pendant l'attaque et pourra vous rendre la pareille lors de son initiative suivante. D'autre personnages ne peuvent pas vous voir et ne peuvent pas vous cibler avec une attaque, à moins qu'ils n'aient la possibilité de percer votre Présence Invisible, en utilisant Auspex ou d'autres pouvoirs similaires."
+        },
+        {
+          "type": "heading_2",
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bolviar s'est occulté avec Présence Invisible et voit son rival, Théodoro. Il approche Theodoro et utilise une action standard pour lui donner un coup de poing, sauvegardant son action simple pour une utilisation plus tard dans le round. Quand il attaque, Bolviar dépense trois points de sang pour activer Chasseur Fantôme, donc l'attaque ne brise pas sa Présence Invisible. Theodoro aperçoit brièvement Bolviar pendant l'attaque, mais pour d'autres observateurs, on dirait que Theodoro a été frappé par une force invisible. Quand l'initiative de Theodoro arrive dans le premier round commun, Theodoro utilise son option pour frapper Bolivar et arrive à le saisir à bras le corps. Parce que le round commun n'est pas arrivé à sa fin, le Chasseur Fantôme est toujours actif. La prise ne brise pas la Présence Invisible. Après avoir été agrippé, Bolivar dépense l'action simple qu'il gardait en essayant d'échapper à Theodoro. Si Bolivar parvient à se dégager de la prise, il restera invisible. S'il échoue à se dégager de la prise, il est toujours en interaction avec un autre personnage quand le round commun prend fin. Si cela venait à arriver, les effets du Chasseur Fantôme arrivent à expiration et la Présence Invisible de Bolivar échoue."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80b8-b82d-da6fdeb5400d",
+      "slug": "choc-terrestre",
+      "title": "Choc terrestre",
+      "notionUrl": "https://app.notion.com/p/Choc-terrestre-39688b48e48e80b8b82dda6fdeb5400d",
+      "lastEditedTime": "2026-07-07T14:59:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Choc terrestre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant un instant de rage débridée, vous frappez le sol devant vous, provoquant l’explosion du sol et de tout ce qu’il y a autour de vous. Votre puissance terrifiante est canalisée par le sol sur lequel vous vous tenez, laissant un cratère dans la rue endommagée ou faisant s’effondrer partiellement une maison. Cette attaque ne distingue pas les amis des ennemis et est souvent utilisée quand la personne est encerclée et submergée."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 2 points de sang et frappez le sol avec votre point ou votre talon pour que le sol autour de vous explose. Vous devez ensuite réaliser un challenge d’attaque à main nue contre tous les personnages situés à deux pas de vous, en utilisant votre Physique+Bagarre contre leur physique+esquive. Choc Terrestre peut être augmenté par Puissance, mais pas par d’autres disciplines ou pouvoir. Si vous deviez dépenser un point de Volonté pour retest sur n’importe lequel de ces challenges opposés, vous gagnez également le retest pour les autres challenges sans dépenser de point de Volonté supplémentaire. Si vous dépensez des points de Volonté pour retest des challenges après la résolution de certains challenges, vous ne pouvez pas revenir sur les challenges précédents que vous avez perdus et appliquer cette Volonté de manière rétroactive. (par exemple, vous pouvez décider de perdre des challenges sans dépenser de retest, puis si vous dépensez de la volonté pour retest sur une cible suivante, vous ne ferez pas de retest contre les cibles déjà passées.)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas utiliser d’armes d’aucune sorte lorsque vous utilisez ce pouvoir. Choc terrestre cause toujours des dégâts normaux et ne peut pas être converti en dégâts aggravés de quelque manière que ce soit. Les adversaires qui prennent des dégâts (après application de la réduction de dégât) sont à terre à moins qu’ils ne possèdent le focus en Endurance ou un pouvoir qui les empêche d’être déplacés. Cette attaque ne permet pas de dépasser la limite d’attaque contre vos cibles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir attaqué, le Conteur détermine les effets de ce pouvoir sur les cibles inanimées ou sur les structures. Même si elles ne sont pas détruites, tous les objets dans la zone d’effet du Choc Terrestre devront nécessiter des réparations importantes. Une utilisation répétée de ce pouvoir peut causer des dégâts structurels catastrophiques."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ignorez le focus Vigueur pour déterminer si un personnage est mis à terre. Cet effet est cumulatif avec n’importe quel dommage supplémentaire causé par un succès exceptionnel d’un personnage."
+        }
+      ]
+    },
+    {
       "id": "38188b48-e48e-805b-bc5f-e96c6c19478d",
       "slug": "clairvoyance",
       "title": "Clairvoyance",
@@ -150,14 +886,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -206,6 +934,106 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8034-b3e6-e61496e98515",
+      "slug": "compact-infernal",
+      "title": "Compact Infernal",
+      "notionUrl": "https://app.notion.com/p/Compact-Infernal-39688b48e48e8034b3e6e61496e98515",
+      "lastEditedTime": "2026-07-07T14:19:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Compact Infernal"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le malin n'est pas une créature solitaire. Il chasse en meute, partageant ses atouts et damnation et entraîne autant d'âmes qu'il le peut dans les couloirs de l'enfer. Avec ce pouvoir vous pouvez conduire les autres dans les bonnes grâces des démons, les initiant dans votre alliance infernale pour le bénéfice de tous."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En partageant l'affection de votre patron damné, vous pouvez donner des pouvoirs infernaux aux autres. Pour recevoir un bénéfice de ce pouvoir, la cible doit accepter l'affection de votre patron infernale de son plein gré. De plus, elle doit sacrifier quelque chose qui lui tient énormément à cœur (la relique d'un amant, un serviteur loyal et ainsi de suite) à votre patron, à travers vous. Une fois présenté avec un sacrifice convenable, l'utilisateur de Daemonium dépense 3 points de Sang et invoque un rituel mystique de bénédiction pendant cinq tours complets, pendant lesquels le sujet doit être présent. Si la cible à des arrière-pensées avant la fin de l'invocation, ce pouvoir échoue automatiquement. Si la cible reste consentante pendant tous les cinq tours du rituel, le sacrifice du suppliant est consumé dans des flammes vertes et elle reçoit une bénédiction infernale. La cible gagne l'atout Pouvoir Infernal sans payer le moindre XP et sans que cet atout compte vers le maximum de points d'atouts qu'elle peut acheter. La cible choisi quel effet elle reçoit de l'application de l'atout Pouvoir Infernal. Vous êtes considéré comme étant le maître infernal de votre cible dans le but de ses effets."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets du Compact Infernal durent jusqu'à ce que vous ou votre cible meurent. Dans les deux cas, la cible perd l'accès à l'atout Pouvoir Infernal, à moins qu'elle ne l'achète normalement, en utilisant le système d'atouts."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8017-9415-c48ce04aeca5",
+      "slug": "crescendo-dechirant",
+      "title": "Crescendo Déchirant",
+      "notionUrl": "https://app.notion.com/p/Crescendo-D-chirant-39688b48e48e80179415c48ce04aeca5",
+      "lastEditedTime": "2026-07-07T14:43:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Crescendo Déchirant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre chant fait partie de la musique mystique des sphères, elle résonne par-delà le cosmos avec une intensité incroyable."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous invoquez le pouvoir Destruction du Tympan, vous pouvez choisir d'infliger un point additionnel de dégât à une cible, ou à la place, affecter trois cibles de votre choix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous ciblez plusieurs ennemies avec ce pouvoir, vous devez faire séparément un challenge opposé à chaque défenseur. Si vous deviez dépenser un point de Volonté pour un re-test dans l'un de ces challenges opposés, vous gagnez le re-test pour tous les challenges opposés restant sans avoir à dépenser plus de volonté. Si vous dépensez de la Volonté pour re-test après que certains des Challenges aient été résolus, vous ne pouvez pas retourner en arrière vers un challenge précédent que vous avez perdu et lui appliquez ce re-test de Volonté rétroactivement."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8063-9e67-e3237f433b9c",
       "slug": "deni",
       "title": "Déni",
@@ -215,14 +1043,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -271,6 +1091,183 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8029-b696-c69792e0725d",
+      "slug": "des-promesses-d-aciers",
+      "title": "Des promesses d’aciers",
+      "notionUrl": "https://app.notion.com/p/Des-promesses-d-aciers-39688b48e48e8029b696c69792e0725d",
+      "lastEditedTime": "2026-07-07T14:47:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Des promesses d’aciers"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les contrats et les serments sont l'épine dorsale de la culture des fées, et plus d'une personne s'est retrouvée liée par une promesse mal formulée ou un vœu irréfléchi. Grâce à votre maîtrise de la Mythercellerie, vous pouvez prendre les promesses des autres et les tisser en un vœu à toute épreuve, appelant les Pixies voisins à punir votre cible si elle ne l'honore pas."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que quelqu'un fait une déclaration, une promesse ou un engagement à portée de voix, vous pouvez le renforcer de façon surnaturelle. Dépensez entre 1 et 3 points de sang et votre action standard pour engager votre cible avec le test de Mythercellerie. Si vous réussissez le défi opposé, vous pouvez choisir jusqu'à deux défauts d'une valeur totale de 3 points qui seront infligés à la cible si elle ne tient pas sa promesse. Vous devez alors reconnaître la promesse de la cible, la déclarer à toutes les forces qui pourraient écouter, décrire ce qui affligera votre cible, et lui dire combien de temps elle a pour tenir son engagement, comme décrit ci-dessous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les défauts attribués ne peuvent pas modifier la Génération, le Rang ou l'Apparence d'un personnage. Les défauts choisis doivent correspondre au type de créature (vampire, loup-garou, etc.), au groupe social (secte, cour, etc.), au clan, à la lignée, à la tribu ou à toute autre « famille » appropriée. Vous devez posséder les spécialités de la compétence Lore appropriées pour lui donner un défaut non vampirique et non général. C'est votre conteur qui décide en dernier ressort des défauts dont vous avez connaissance et de ceux qu'il convient d'infliger à votre cible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par la suite, les pixies environnantes prendront note de l'engagement de la cible et la puniront si elle ne respecte pas son vœu dans le temps imparti. Si vous n'avez dépensé qu'un point de sang pour activer ce pouvoir, votre cible dispose d'un mois pour tenir sa promesse. Si vous avez dépensé 2 points de sang, elle dispose d'une semaine, et si vous avez dépensé 3 points de sang, elle dispose d'une nuit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre les sessions de jeu, si votre cible n'a pas tenté de tenir ses promesses, ses rêves sont hantés par des cauchemars de malheurs et de tragédies et elle ne peut pas regagner de la Volonté. Si le temps s'écoule avant que votre cible ne puisse accomplir sa tâche, les pixies la maudiront, lui faisant subir de graves malheurs. Ces petits tourmenteurs sont tout à fait inévitables et peuvent appliquer la malédiction même si la cible tente de se cacher. La magie du serment permet même à ces pixies d'accéder à des endroits où ils ne pourraient normalement pas se rendre, comme un refuge bénéficiant de l'avantage Occulte. Le malheur influé sera le(s) défaut(s) que vous avez choisi(s) et l'affligera pendant deux sessions de jeu ou deux mois, selon ce qui est le plus long. La première session au cours de laquelle les défauts prennent effet compte comme l'une de ces sessions de jeu."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre cible ne tient pas sa promesse, en plus de la réussite standard qui vous permet d'attribuer jusqu'à 3 points de défauts, vous pouvez lui attribuer un défaut supplémentaire qui coûte entre 1 et 3 points."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-801e-9193-d41f2e3f1dd4",
+      "slug": "dissimulation-distante",
+      "title": "Dissimulation Distante",
+      "notionUrl": "https://app.notion.com/p/Dissimulation-Distante-39688b48e48e801e9193d41f2e3f1dd4",
+      "lastEditedTime": "2026-07-07T14:28:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Dissimulation Distante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Protéger les objets et les individus de l'attention des autres est une chose, mais maintenir un tel contrôle de loin requiert la maîtrise d'un Ancien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec ce pouvoir, votre capacité atteint des distances au-delà de votre localisation immédiate, offrant une protection encore plus grande à ceux qui vous dissimulez."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous utilisez Dissimuler l'Entourage pour cacher un autre individu, le pouvoir dure jusqu'à l'aurore, quelque que soit la distance qu'a parcourue la cible depuis votre localisation. Quand vous utilisez Dissimuler pour dissimuler un objet, vous pouvez cacher tous les objets plus petit qu'une large voiture. De la même manière, cette invisibilité dure jusqu'à l'aurore même si l'objet n'est pas sur votre personne. L'invisibilité accordée par ce pouvoir se brise normalement si votre cible entreprend une action qui d'ordinaire brisera la Dissimulation."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8067-91a0-c477b8c1d220",
+      "slug": "drain-psychique",
+      "title": "Drain Psychique",
+      "notionUrl": "https://app.notion.com/p/Drain-Psychique-39688b48e48e806791a0c477b8c1d220",
+      "lastEditedTime": "2026-07-07T14:07:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Drain Psychique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les légendes parlent de vampires psychiques qui se nourrissent de l'énergie de leurs victimes, les dévorant aussi avidement que la vitae, laissant leurs cibles comme des coquilles vides. Avec cette capacité, vous pouvez récolter la volonté de vos victimes et vous en servir pour alimenter vos pouvoirs surnaturels. Certains vampires possèdant le Drain Psychique affirment que, immédiatement après avoir utilisé ce pouvoir, ils goûtent le sang de leurs victimes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de sang et une action standard pour attaquer l'esprit d'un adversaire. Faîte un challenge en opposition en utilisant le score de test d'Auspex. Si vous réussissez, votre victime perd 2 points de Volonté, sa Volonté ne peut être réduite en dessous de zéro. Pour le reste du tour, vous pouvez utiliser ces points de Volonté comme s'ils étaient les vôtres, cependant ils ne comptent pas dans votre score de défense. Si vous n'utilisez pas ces points de Volonté pendant ce tour, ils seront perdus à la fin de ce dernier. Un personnage attaqué par un Drain Psychique sait immédiatement d'où l'attaque provient et qui est l'agresseur s'il y en a plusieurs au même endroit. Vous pouvez utiliser Drain Psychique lors d'actions ultérieures contre la même cible, même si vous perdez le challenge opposé ; c'est une exception à la règle qui interdit à un personnage d'utiliser un pouvoir sur le même cible immédiatement après un échec"
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les points de Volonté que vous avez gagnés avec Drain Psychique sont perdus à la fin de la scène plutôt qu'à la fin du tour."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, votre adversaire ne peut pas regagner de Volonté pendant la prochaine heure."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-806b-9cec-cd41f6f24415",
       "slug": "ecart-agile",
       "title": "Écart Agile",
@@ -280,14 +1277,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -336,6 +1325,146 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8098-8885-f5d76c9406a6",
+      "slug": "echo-persistant",
+      "title": "Écho Persistant",
+      "notionUrl": "https://app.notion.com/p/cho-Persistant-39688b48e48e80988885f5d76c9406a6",
+      "lastEditedTime": "2026-07-07T14:43:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Écho Persistant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les performers adeptes savent que les échos persistant d'une chanson peuvent être aussi puissant que la musique en elle-même, se répétant doucement dans l'esprit de l'auditeur. Avec le pouvoir de l'écho persistant, vous pouvez laisser vos chansons en absence, attendant qu'elles soient de nouveau ramenées à la vie."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous activez Voie Fantomatique, Madrigal ou Destruction du Tympan, vous pouvez choisir d'avoir les effets de ce pouvoir en décalé, silencieusement suspendu dans l'air à votre position actuelle, jusqu'à être activée plus tard. Vous devez être physiquement présent sur les lieux où vous souhaitez mettre en place l'Écho Persistant au moment de l'activation du pouvoir, mais vous n'avez pas besoin d'être présent quand l'Écho Persistant s'active."
+        },
+        {
+          "type": "paragraph",
+          "text": "En premier lieu, vous devez réunir toutes les conditions du pouvoir que vous souhaitez invoquer. Ensuite, informer le conteur sur les détails qui causent l'activation de ce pouvoir où vous êtes actuellement présent. Des exemples de déclencheurs peuvent inclure, \"Quand quelqu'un différent de moi traverse cette pièce\" ou \"Trois jours après que le soleil se soit couché.\" Ce pouvoir reste en suspension via Écho Persistant pour un nombre de nuit égal aux nombres de points dans Performance : Chant ou jusqu'à ce qu'il soit déclenché. Vous ne pouvez pas avoir plus d'une application de l'Écho Persistant à un moment donné. En créer un deuxième efface le premier."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8076-a0b0-d8878fb9a260",
+      "slug": "engendrer-la-peste",
+      "title": "Engendrer la Peste",
+      "notionUrl": "https://app.notion.com/p/Engendrer-la-Peste-39688b48e48e8076a0b0d8878fb9a260",
+      "lastEditedTime": "2026-07-07T14:20:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Engendrer la Peste"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’histoire regorge d’histoires de créatures malveillantes qui possédaient le pouvoir d’invoquer des fléaux et des pestes. Vos dieux sombres ont jugé bon de vous accorder cette capacité, vous permettant de mettre vos ennemis à genoux en utilisant les maladies qui sévissent dans le troupeau. En invoquant le pouvoir de votre maître démon, d'un simple contact, vous pouvez infecter les autres, les exposant au véritable pouvoir de vos dieux maléfiques."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 2 points de Sang et utilisez votre action simple pour manifester une peste puissante et mortelle. Si vous n'êtes pas en combat, vous devez être en contact physique avec votre cible au moment de l'activation ou établir un contact physique avec votre victime dans les 5 prochaines minutes. Le contact physique hors combat avec votre victime doit durer 3 secondes ; Si elle ne parvient pas à rompre le contact dans les 3 secondes, votre cible sera frappée par la peste. Vous pouvez infecter n'importe quel nombre de cibles pendant cette période de 5 minutes, qui ne se rendront pas immédiatement compte qu'elles ont été infectées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant le combat, les individus qui vous attaquent physiquement grâce à l'utilisation de la compétence Bagarre, ou qui utilise la manœuvre Agripper ou qui sont Agrippés par vous, sont considérés comme ayant pris contact avec vous et sont affectés par ce pouvoir. De plus, si vous réussissez à frapper votre victime avec une attaque Bagarre, vous lui infligez votre"
+        },
+        {
+          "type": "paragraph",
+          "text": "dégâts normaux en plus des effets de ce pouvoir. Plusieurs victimes peuvent être infectées pendant le combat à condition qu'un contact physique ait été établi avec les victimes avant l'expiration de la période d'activation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les victimes qui remplissent les conditions de contact physique et de temps énoncées ci-dessus doivent résister à une toxine de létalité 20. Cependant, la peste prend effet à la fin du tour au cours duquel le contact a été établi avec la victime plutôt qu'en 3 tours. Contrairement aux toxines standards, les victimes infectées qui combattent avec vous doivent refaire un test à la fin de chaque tour. En dehors des combats, les victimes de votre peste doivent faire un test toutes les 2 minutes. Cette maladie endommage toutes les créatures quel que soit leur type, y compris les vampires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, lorsque vous activez ce pouvoir, vous pouvez choisir une qualité supplémentaire pour votre peste parmi la liste suivante :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Infectieux : Pendant toute la durée de la maladie la victime ne peut utiliser aucun trait bonus de disciplines, techniques, mérites ou pouvoirs."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Parasite : Chaque test raté pour résister à la toxine inflige 2 points de dégâts supplémentaires."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Résistante : La toxine a une létalité de 30 au lieu de 20"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Métabolique : Pendant la durée de la maladie, la capacité de la victime à dépenser des ressources (Sang, Gnose, Glamour, etc.) est réduite de 1 par tour."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Contagieuse : Cette maladie se transmet à d'autres personnes par tout contact physique qui brise la peau. Par exemple, une attaque de morsure ou de griffe qui inflige au moins 1 point de dégâts après application d'une réduction de dégâts. Vous êtes immunisé contre tout effet de ce pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois qu'une victime aura effectué le premier test de ce pouvoir, elle se rendra compte qu'elle a été infectée. Elle peut alors tenter un défi de Vigilance statique avec une difficulté égale à votre score de test de Mental + Subterfuge pour se rendre compte qu'elle a contracté l'infection par vous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette maladie peut être traitée grâce à la compétence Médecine, sous réserve des règles régissant les toxines, à condition qu'au moins une ambulance de fournitures médicales soit disponible. Utiliser la compétence Médecine de cette manière prend 5 tours ininterrompus."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-80d6-bb80-ff97437713de",
       "slug": "esprit-resilient",
       "title": "Esprit Résilient",
@@ -345,14 +1474,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -401,6 +1522,262 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80cb-9f0e-e6721b47ffd8",
+      "slug": "essence-de-la-verite",
+      "title": "Essence de la Vérité",
+      "notionUrl": "https://app.notion.com/p/Essence-de-la-V-rit-39688b48e48e80cb9f0ee6721b47ffd8",
+      "lastEditedTime": "2026-07-07T14:12:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Essence de la Vérité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans chaque tromperie se cache une part de vérité. L’Essence de la Vérité expose la graine de vérité sur laquelle le mensonge est construit en vous permettant de défaire les illusions et les tromperies des autres. Les effets de ce pouvoir ne sont pas limités qu'à la Chimérie et s'étendent à d'autres forment de tromperies comme la Dissimulation."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous êtes conscient ou soupçonnez l'utilisation de Chimérie de dissimulation, ou d'autres pouvoirs similaires qui trompent l'esprit, vous pouvez tenter de dissiper ce pouvoir, un peu comme vous mettriez fin à vos propres illusions. Dépensez une action simple et 1 point de Sang pour cibler un individu ou une zone ne dépassant pas 1 pas et tentez de dissiper les pouvoirs actifs comme décrit ci-dessus. Si vous ciblez un individu, vous devez réussir un défi opposé en utilisant votre score de tests Chimérie contre le score de tests utilisé pour créer la tromperie. Si l'individu ciblé a plusieurs effets actifs, il utilise la réserve de test la plus élevée pour ces effets. Si le pouvoir actif sur l'individu ciblé provient d'un autre personnage, comme les effets de Masquer l'Assemblée, utiliser le score de test du personnage qui a créé l'effet. En cas de succès, tous les pouvoirs illusoires actifs qui affectent votre cible prennent fin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Note : Ce pouvoir ne vous permet pas de choisir une cible que vous ne pouvez pas voir, vous devez d'abord être capable de la voir avec des pouvoirs tels que l'Auspex."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous ciblez une zone avec Essence de la Vérité, lancez un challenge opposé contre le créateur de l’effet illusoire. Cependant, si le créateur de l'effet n'est pas présent, le challenge devient statique avec une difficulté égale à la réserve de discipline appropriée du créateur et le créateur de l'effet ne peut pas retester le défi en utilisant la Volonté ou d'autres effets qui accordent des retests. L’utilisation de l’Essence de la Vérité pour cibler une zone ne peut être utilisée que contre un seul effet à l’échelle de la zone ; s'il y a plusieurs effets actifs sur la zone, vous devez cibler chaque effet individuellement. En cas de succès, vous mettez fin à l’effet de toutes les illusions actives dans la zone ; cependant, leurs créateurs peuvent les réactiver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le conteur est l’arbitre final lorsqu’un personnage a des raisons de soupçonner l’utilisation de pouvoirs illusoires, comme l’apparition d’une tronçonneuse sortie de la poche de quelqu’un ou un dragon surgissant du ciel. L’utilisation d'Essence de la Vérité n’est pas considérée comme une tentative de ne pas croire aux effets illusoires et fonctionne donc contre Horrible Réalité. L'Essence de la Vérité n'a aucun effet sur les effets illusoires créés par les pouvoirs anciens."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8036-a20b-eaac0f67e631",
+      "slug": "force",
+      "title": "Force",
+      "notionUrl": "https://app.notion.com/p/Force-39688b48e48e8036a20beaac0f67e631",
+      "lastEditedTime": "2026-07-07T14:59:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Force"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre force est presque miraculeuse et vous pouvez faire trembler les fondations des bâtiments ou renverser des barricades en appliquant votre pouvoir physique. Vous frappez avec un poids incroyable, provoquant des ondes de choc qui peuvent briser les os d'une cible ou éclater ses organes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous parvenez à faire une attaque de Bagarre, votre personnage inflige automatiquement 4 points de dégâts. Cela inclut les dégâts donnés par Intensité et Toute-Puissance. Notez que Vigueur ajoute toujours un dégât supplémentaire quand vous parvenez à un succès exceptionnel. Force ne peut pas être utilisée en conjonction avec des armes. Toute arme maniée avec Force se brise avant d'infliger des dégâts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand ils manient des armes, les personnages qui possèdent Force peuvent se retenir et infliger 3 points de dégâts au lieu de 4 pour éviter de briser leurs armes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous frappez un mortel ou une créature partiellement surnaturelle avec Force, la cible meurt instantanément. Son corps souffre d'un trop grand traumatisme ; ses organes internes éclatent et ses os se tordent et s'échardent comme un cure-dent en un seul coup."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage avec Force peut briser n'importe quel objet inanimé en concentrant sa force dessus. La plupart des objets éclatent en un seul coup, mais votre Conteur peut vous demandez plusieurs actions quand un personnage plie ou bat une substance exceptionnellement résistante ou épaisse. Cela prendra peut-être du temps de traverser avec des coups un mur en béton épais de trois mètres, mais sa destruction n'est qu’une question de temps."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage inflige 6 points de dégâts, au lieu de 4 points de dégâts. Cela reflète le bonus de Vigueur."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8072-9361-f14d2f850156",
+      "slug": "freres-d-armes",
+      "title": "Frères d’Armes",
+      "notionUrl": "https://app.notion.com/p/Fr-res-d-Armes-39688b48e48e80729361f14d2f850156",
+      "lastEditedTime": "2026-07-07T14:56:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Frères d’Armes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand la victoire semble incertaine, la présence d’une figure de confiance ravit les coeurs et concentre les efforts sur la victoire. En effet, de Jeanne d’Arc à Alexandre le Grand à Oda Nobunaga, la plupart des commandants les plus prestigieux et puissants ont mené les combats depuis la ligne de front, menant à des succès incroyables en dépit de la fatalité écrasante. Au travers d’actions d’éclats et d’une habileté sans faille, vous avez le pouvoir d’inspirer les autres à faire face à l’adversité."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action simple pour rallier un groupe à votre cause, permettant ainsi de désigner un nombre de cibles équivalent à votre score en compétence Commandement en tant que frères d’arme. Vous ne pouvez activer ce pouvoir que pendant un combat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous réussissez un succès exceptionnel, vos frères d’arme deviennent «Inspiré» et se motivent pour redoubler d’efforts."
+        },
+        {
+          "type": "paragraph",
+          "text": "De la même manière, quand un de vos frères d’arme réussit un succès exceptionnel, vous devenez «Inspiré»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand un individu est «Inspiré», la prochaine fois qu’il dépense un point de Volonté pour retest, il regagne un point de volonté et perd l’état «Inspiré». Cet état dure uniquement pour la durée du combat Si le combat se termine, vous perdez l’état «Inspiré»."
+        },
+        {
+          "type": "paragraph",
+          "text": "Afin de bénéficier de cet effet, le succès exceptionnel doit être réalisé par des moyens normaux : les pouvoirs et effets qui convertissent un succès en succès exceptionnel comme « Dans la Cible » ou encore Force des Titans , ou l’atout « Point de Rupture » n’activent pas ce pouvoir. Vous pouvez être sujet à de multiples activations de ce pouvoir, pouvant ainsi donner et recevoir le bénéfice de ce pouvoir à plusieurs personnes différentes. Cependant, vous ne pouvez pas avoir plus d’un état «Inspiré» à la fois à n’importe quel moment."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8089-92f6-eae02dfed432",
+      "slug": "furie-implacable",
+      "title": "Furie implacable",
+      "notionUrl": "https://app.notion.com/p/Furie-implacable-39688b48e48e808992f6eae02dfed432",
+      "lastEditedTime": "2026-07-07T15:01:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Furie implacable"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes une créature de fureur et de puissance pure, votre corps, une arme finement ciselée. En tant que tel, vous comprenez qu’à certains moments, la précision est à privilégier sur la force brute. Avec de la concentration et du dévouement, vous avez appris à contrôler votre pouvoir, frappant les ennemis avec une précision mortelle."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous réalisez une attaque réussie de mêlée ou de bagarre, vous pouvez choisir d’utiliser ce pouvoir à la place de n’importe quel autre pouvoir d’ancien de Puissance, pour infliger 3 points de dégâts normaux. Ces pouvoirs ne peuvent pas être augmentés par d’autres bonus, comme les autres pouvoirs de Puissance, tout comme il ne peut pas être employé avec une manœuvre de combat. Cependant, ces dégâts peuvent être convertis en aggravé via d’autres moyens, comme Griffes Bestiales ou Colère Brûlante. Ces dégâts ne sont pas réduits par Force d’Âme ou l’armure, mais ils peuvent être soignés par des moyens normaux. La qualité «Non réductible» de cette attaque s’applique uniquement sur la cible de votre attaque ou sur la personne qui utilise la tactique de combat défense de masse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si d’une manière ou d’une autre, l’attaque est redirigée ou si la cible a une Armure Personnelle, la réduction de dégâts s’applique normalement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sur un succès exceptionnel, la Furie Implacable inflige 4 points de dégâts non réductibles par Force d’âme et l’armure."
+        }
+      ]
+    },
+    {
       "id": "38188b48-e48e-8016-a3d5-ee9f659065a5",
       "slug": "furie-pourpre",
       "title": "Furie Pourpre",
@@ -410,14 +1787,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -466,6 +1835,120 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80f9-911f-dd75985b6ce6",
+      "slug": "griffes-sanglantes-de-baal",
+      "title": "Griffes Sanglantes de Baal",
+      "notionUrl": "https://app.notion.com/p/Griffes-Sanglantes-de-Baal-39688b48e48e80f9911fdd75985b6ce6",
+      "lastEditedTime": "2026-07-07T15:02:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Griffes Sanglantes de Baal"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ceux qui maîtrisent véritablement les propriétés alchimiques de leur sang peuvent lui conférer une incroyable capacité à faire des dégâts. Leur sang devient un ichor puissant, empoisonnant la chair avec le toucher des plus légers et causant chez la victime d’incroyables douleurs."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus des effets standards de la Caresse de Baal, votre application de ce pouvoir vous donne un bonus de +2 à votre avec Mêlée, De plus, cette arme inflige un point de dégâts aggravés supplémentaires quand elle touche avec succès. Les Griffes Sanglantes de Baal ne peuvent pas être combinées avec le Goût de la Mort."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8014-8d9f-fb7946a158cd",
+      "slug": "intensite",
+      "title": "Intensité",
+      "notionUrl": "https://app.notion.com/p/Intensit-39688b48e48e80148d9ffb7946a158cd",
+      "lastEditedTime": "2026-07-07T15:01:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Intensité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre énergie surpasse la barrière physique, émanant de votre esprit comme des vagues d'énergie tangible. Vous pouvez viser l'énergie cinétique pure de vos coups au-delà de votre portée corporelle."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action standard pour faire une attaque à distance avec Intensité à votre cible. Cette attaque reçoit un bonus de +3 et est considérée comme une attaque de Bagarre malgré la distance entre votre personnage et la cible. Les autres pouvoirs de Puissance, en comprenant les Pouvoirs d'Anciens et les Techniques basée sur Puissance peuvent modifier une attaque d'Intensité comme une attaque standard de Bagarre. Vous ne pouvez pas utiliser d'autres pouvoirs avec Intensité ; elle ne peut être qu'augmentée avec des pouvoirs de Puissance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez utiliser aucune arme d'aucune sorte en utilisant Intensité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser Intensité, vous devez être capable de voir votre cible et faire un jet physique évident dans sa direction, comme un coup pantomime d'art-martial, un revers de la main ou coup de poing de boxe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser Intensité pendant les rounds de Célérité, tant que vous payez le coût d'1 point de Sang pour chaque attaque avec Intensité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les dégâts d'Intensité sont toujours des dégâts normaux et ne peuvent être, par aucuns moyens, convertis en dégâts aggravés."
+        }
+      ]
+    },
+    {
       "id": "38188b48-e48e-80e7-9807-fdffde65bee2",
       "slug": "intimider-la-bete",
       "title": "Intimider la Bête",
@@ -475,14 +1958,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -531,6 +2006,261 @@
       ]
     },
     {
+      "id": "39688b48-e48e-805a-8885-c8e5fda0b657",
+      "slug": "jumeau-tenebreux",
+      "title": "Jumeau Ténébreux",
+      "notionUrl": "https://app.notion.com/p/Jumeau-T-n-breux-39688b48e48e805a8885c8e5fda0b657",
+      "lastEditedTime": "2026-07-07T14:51:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Jumeau Ténébreux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous invoquez un brin de la sentience primale de l'Abysse dans votre propre ombre. A jamais après, il est votre sombre serviteur, capable d'obéir et d'accomplir des tâches complexe. Quand vous avez besoin de son aide, l'ombre répondra toujours et viendra à votre aide."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous apprenez Jumeau Ténébreux, votre ombre est infusée du pouvoir de l'Abysse et gagne une semblance de vie. L'ombre est en harmonie à votre volonté et peut suivre des ordres mentales. Vous n'avez pas besoin de parler à voix haute pour lui donner des ordres, bien que vous deviez être en ligne de vue pour ce faire. Votre ombre bouge, exécute des actions simples ou attaque directement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre ombre possède toute vos compétences et des attributs Physique, Mental et Social égales à la moitié de chacun de vos scores dans vos attributs (arrondis au supérieur). Elle peut manipuler des objets physiques, porter des objets qui pèsent jusqu'à une livre (0.45 Kg) pour chaque point que vous possédez dans la compétence Occultisme que vous possédez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Notez que le Jumeau Ténébreux ne peut pas manier une arme de mêlée en combat, moins que vous ne maniez une arme de mêlée, dans ce cas, elle porte une version ombragée de cette même arme qui donne tous les mêmes bonus et inconvénients que l'originale. Les armes portées par votre Jumeau Ténébreux ne peuvent pas avoir la qualité Enflammée ; l'ombre refuse simplement d'utiliser de telles armes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre ombre est immunisée aux dégâts Physiques, mais peut-être affectée par des pouvoirs mentaux ou sociaux. Elle peut se détacher de vous, auquel cas vous n'aurez plus d'ombre jusqu'à son retard. Un Jumeau Ténébreux peut s'infiltrer dans les craquelures, se déplacer sur les surfaces solides et suinter au travers de petits trous exactement tel que ça l'est décrit dans Forme Ténébreuse. Elle peut utiliser les deux premiers points d'Obténébration par heure, sans coût et vous pouvez voir au travers des effets de l'Obténébration de votre ombre comme si vous les aviez créées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre ombre n'a pas accès à d'autres pouvoirs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Jumeau Ténébreux est dissipé si exposer à une lumière vive, au feu ou à la lumière du soleil. S’il est exposé à une lumière vive, votre ombre revient une minute après que la lumière se soit éteinte ou si vous quittez la zone vivement éclairée. Si endommagée par le feu ou exposée à la lumière du soleil, votre Jumeau Ténébreux ne peut pas revenir avant que dix minutes ne se soit écoulée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous et votre ombre êtes séparés, vous pouvez la convoquer en dépensant 1 point de Sang et une action simple, qui causera la dissipation du lieu actuel de l'ombre et elle retournera à vous côtés comme votre ombre normale. Vous pouvez alors choisir de la re-réveiller avec une autre utilisation de ce pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand votre Jumeau Ténébreux n'est pas actif, il agit comme une ombre normale et ne peut pas être attaqué ou dissipé. Si vous commander votre ombre dans l'action, elle peut être attaquée ou dissipée comme décrit plus haut."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80a8-af0b-d86207e8971b",
+      "slug": "l-epouvantable-lame-des-demons",
+      "title": "L'épouvantable lame des démons",
+      "notionUrl": "https://app.notion.com/p/L-pouvantable-lame-des-d-mons-39688b48e48e80a8af0bd86207e8971b",
+      "lastEditedTime": "2026-07-07T14:16:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "L'épouvantable lame des démons"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Réalité est un flux constant, se mouvant et se changeant avec l'écoulement de l'univers. Vous comprenez l'impermanence de la réalité et comment créer et détruire avec un peu plus qu'une pensée et le pouvoir de votre sang. A travers une telle compréhension, vous avez appris à créer des armes à partir de rien et leur conférant des propriétés mystiques que vous seul pouvez contrôler."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 2 points de sang et une action standard pour créer une arme de mêlée magique que vous seul pouvez\nbrandir. Pour la prochaine heure, cette illusion ne peut être discréditée. A la fin de l'heure, l'objet disparaît immédiatement, à moins que vous ne payiez 2 points de sang supplémentaires pour maintenir l'illusion. Cette arme doit rester dans vos mains ou elle cessera d'exister."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous êtes désarmé, cet  objet disparaîtra instantanément, à moins que vous ne dépensiez un point de sang supplémentaire pour la faire réapparaitre dans vos mains. Ce pouvoir ne peut pas être utilisé avec Horrible Réalité. Contrairement à Horrible Réalité, les dégâts infligés par cette arme illusoire ne s'estompent pas lorsqu'elle cesse d'exister, bien que tous les dégâts infligés puissent être soignés normalement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes ainsi créées sont considérées comme des armes magiques de niveau 5. En plus d'avoir 2 qualités standard (Voir chapitre Influence et Équipement), les armes créées par ce pouvoir peuvent avoir jusqu'à 5 points d'amélioration Chimérique comme détaillé ci-dessous. Comme ces armes ne sont techniquement pas réelles, elles ne peuvent pas être renforcées par des pouvoirs tels que Quietus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque amélioration Chimérique coûte un nombre de points égal à son niveau et, sauf si précisé, ne peut être acheté qu'une fois. De plus, vous pouvez attribuer à l'arme un certain nombre de caractéristiques esthétiques non mécaniques liées à des éléments tels que le style, l'apparence ou la composition apparente."
+        },
+        {
+          "type": "heading_4",
+          "text": "Amélioration chimérique – 1 point"
+        },
+        {
+          "type": "paragraph",
+          "text": "Aggravé : Tous les dégâts infligés par cette arme sont des dégâts aggravés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Drainante: Une fois par tour, après avoir infligé des dommages à une cible, l'arme vous soigne à hauteur d'un point de dégât normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Entravante : Cette amélioration peut être achetée plusieurs fois. Pour chaque fois que cette amélioration est achetée, lorsque vous touchez avec succès une cible, cette dernière reçoit une pénalité cumulative de -2 pour son prochain tour d'initiative. Les applications multiples de cet effet ne sont pas cumulatives à partir de différentes sources."
+        },
+        {
+          "type": "paragraph",
+          "text": "Puissante : L'application de cette amélioration génère une puissante vague de force permettant à l'arme de mêlée de blesser les ennemis à distance, transmettant ainsi tous ses effets et ses qualités. Vous pouvez acheter cette amélioration plusieurs fois. À chaque fois que vous achetez cette amélioration, la portée de votre arme augmente de 2 niveaux supplémentaires. Cette amélioration d'arme est cumulative avec la qualité Portée. (Voir chapitre Influence et Équipement)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Harcèlement : Une cible touchée par cette arme fera un pas de moins la prochaine fois qu'elle dépensera une action pour se déplacer. Elle peut à nouveau se déplacer normalement après avoir dépensé une action de mouvement pénalisée par cet effet. Les applications multiples de cet effet ne sont pas cumulatives."
+        },
+        {
+          "type": "paragraph",
+          "text": "Habile : Choisissez une seule manœuvre de combat à la création. Une fois par heure, vous pouvez utiliser cette manœuvre de combat sans dépenser de Volonté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Indestructible : Les effets de rationalisation et les effets surnaturels sont incapables de détruire cet objet ou de compromettre son intégrité physique."
+        },
+        {
+          "type": "heading_4",
+          "text": "Amélioration chimérique – 2 points"
+        },
+        {
+          "type": "paragraph",
+          "text": "Perturbante : A la création choisissez un attribut (Physique, Social ou Mental). Les cibles touchées par cette arme subissent un malus de -1 à son score de test dans l'attribut sélectionné jusqu'à la fin de leur prochain tour. Cette amélioration peut être achetée plusieurs fois, cependant il n'est pas possible de sélectionner deux fois le même attribut."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exceptionnelle : L'arme gagne l'une des qualités suivantes à la création : Précise, Perce-armure, Brutale, Mortelle. Cette qualité ne peut pas être choisie si l'arme la possède déjà."
+        },
+        {
+          "type": "paragraph",
+          "text": "Douloureuse : Cette arme inflige toujours 2 points de dégâts normaux lorsqu'elle touche avec succès. Ces dégâts ne peuvent pas être augmentés par des bonus comme un succès exceptionnel ou réduit par des pouvoirs tels que\nla Force d'Âme. Cette qualité ne fonctionne pas si l'arme est utilisée pour une manœuvre de combat. La qualité Robuste fonctionne normalement contre cette qualité, infligeant 2 points de dégâts par rapport aux niveaux de santé bonus Robuste lorsqu'elle est frappée."
+        },
+        {
+          "type": "heading_4",
+          "text": "Amélioration chimérique – 3 points"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dévorante : La cible touchée par cette arme perd 1 point de Sang, de Gnose, de Glamour de Mana ou d'autres ressources qui alimente la créature. Si elle possède plusieurs types de ressources, elle perd un point de chaque."
+        },
+        {
+          "type": "paragraph",
+          "text": "Recul : L'arme inflige un sérieux impact à la cible. Après une attaque réussie sur sa cible, l'attaquant peut choisir de déplacer la cible de 2 pas du point d'impact. De plus, les cibles qui n'ont pas le focus Vigueur sont jetées à terre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Fracassante : Si vous réussissez un succès exceptionnel lorsque vous utilisez cette arme, vous pouvez choisir de rendre inopérante l'arme ou l'armure que porte votre adversaire. Une personne qui cherche à réparer l'objet doit\ndépenser une AIP et réussir un challenge statique utilisant sont attribut Physique + Artisanat contre l'attribut Physique de l'attaquant pour marquer la difficulté. Si l'arme ou l'armure possède la qualité Indestructible, cette amélioration n'a aucun effet."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80bc-b523-f11a8a90e28f",
+      "slug": "labyrinthe-mental",
+      "title": "Labyrinthe Mental",
+      "notionUrl": "https://app.notion.com/p/Labyrinthe-Mental-39688b48e48e80bcb523f11a8a90e28f",
+      "lastEditedTime": "2026-07-07T14:29:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Labyrinthe Mental"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos capacités peuvent brouiller de manière agressive le sens de l’orientation d’une victime, la poussant à voir des choses qui n’existent pas ou à ignorer des choses qui existent. Vous piégez efficacement vos adversaires dans une zone en les empêchant de percevoir correctement leur environnement. Désespérément perdues, vos victimes sont condamnées dans une prison en constante évolution jusqu'à ce que vous les libériez"
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir modifie et perturbe le sens de l’orientation de la victime, laissant son esprit incapable de percevoir une sortie ou le chemin vers sa destination. Dépensez 1 point de Sang et une action simple pour cibler un nombre d'individus inférieur à vos points dans la compétence Furtivité. Si vous réussissez un challenge opposé en utilisant le score de tests de Dissimulation, pendant les 10 minutes suivantes, vous infligez à votre cible une brume mentale qui confond son sens de l'orientation. Si vous dépensez un point de Volonté pour retester l’un de ces challenges opposés, vous gagnez également ce nouveau test pour le reste des challenges opposés sans dépenser davantage de Volonté. Si vous dépensez de la Volonté pour retester après que certains challenges ont été résolus, vous ne pouvez pas revenir aux challenges précédents que vous avez perdus et appliquer ce nouveau test de Volonté de manière rétroactive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnes affectées se perdent désespérément et sont incapables de sortir de la structure dans laquelle elles se trouvent ou de sortir d'une zone extérieure mesurant jusqu'à 4 pâtés de maisons, et ne peuvent pas trouver un emplacement spécifique dans leur zone, comme une porte de sortie, une pièce latérale, ou là où un véhicule spécifique est garé. Quels que soient les efforts déployés par la cible affectée pour changer d’emplacement, son esprit crée des obstacles qui la maintiennent piégée. Labyrinthe mental empêche une cible de déclarer une évasion d'un scénario de combat alors qu'elle est sous les effets de ce pouvoir. Une fois appliqué, l’effet est continu jusqu’à la fin de la durée ; la cible ne peut pas chercher à s'échapper par un challenge de volonté. Si une personne non affectée par ce pouvoir cherche à aider quelqu'un qui est affecté, en la guidant hors de la zone ou en la ramassant et en la transportant, la durée du pouvoir est réduite de moitié, permettant à la cible affectée de devoir quitter la zone après 5 minutes au lieu de 10 minutes pendant que le personnage affecté se bat, se dispute, se débat et résiste à l'assistance, croyant qu'il est mis en danger. Les actions artificielles visant à réduire ce temps, comme le fait que les victimes se laissent volontairement porter ou pieuté, ne sont pas autorisées."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8081-9ae5-f5702f7a3c41",
       "slug": "lamentation-de-llorona",
       "title": "Lamentation de Llorona",
@@ -540,14 +2270,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -600,6 +2322,185 @@
       ]
     },
     {
+      "id": "39688b48-e48e-801b-b511-ec2cf143a68b",
+      "slug": "maitre-de-la-chasse",
+      "title": "Maître de la Chasse",
+      "notionUrl": "https://app.notion.com/p/Ma-tre-de-la-Chasse-39688b48e48e801bb511ec2cf143a68b",
+      "lastEditedTime": "2026-07-07T14:03:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Maître de la Chasse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre communion avec votre Bête vous a octroyé un aperçu des instincts de base des autres vampires, vous permettant de leur accorder une connaissance approfondie de leur propre Bête. Les anciens Gangrel sont connus pour utiliser ce pouvoir pendant qu'ils mènent des chasses de sang, permettant à leurs alliés de se concentrer sur une même cible."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action simple pour permettre à un nombre de vampires alliés de bénéficier du pouvoir Conquérir la Bête s'ils sont consentants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les alliés choisis reçoivent les avantages du pouvoir comme s’ils venaient d'activer Conquérir la Bête sans payer son coût et reçoivent les avantages du votre focus pour ce pouvoir si possible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un allié ciblé par Maître de la chasse est déjà sous l'influence du pouvoir Conquérir la Bête, ils ne souffrent pas du malus standard de -2 pour à ses scores de test de défense lié à la frénésie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant vous subissez toujours ces malus lorsque vous êtes en frénésie, à moins qu'un autre vampire n'ait utilisé Maître de la Chasse sur vous."
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus, vous pouvez réussir automatiquement l'utilisation de ce pouvoir sur des PNJ type 3 ou moins. Si vous faîtes ainsi, ils entrent immédiatement en frénésie même si ils ne peuvent pas autrement. Tant que les PNJ type sont de nature physique et agressive, ils obéiront à vos ordres en combat, comme vous suivre, attaquer une cible spécifique ou retenir leurs actions. Ces ordres doivent être simples et basiques. Les ordres plus complexes comme désactiver un système de sécurité, ne peuvent pas être donnés à vos sujets tant qu'ils sont sous la contrainte de la frénésie. Les ordres donnés par ce pouvoir ne peuvent surmonter les contraintes surnaturelles causées par des liens de sang ou d'autres pouvoirs tels que la Domination ou la Majesté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez affecter qu'un nombre de vampire et de PNJ type égal à votre nombre de points dans la compétence Animaux. Les effets de ce pouvoir durent une heure, cependant les cibles doivent rester dans votre champ de vision pour que ce pouvoir reste actif. A tout moment avant que l'heure expire, vous pouvez mettre fin aux effets de Maître de la Chasse et vos alliés vampires peuvent mettre fin à leurs propres effets s'ils le désirent."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8015-aac2-dcab119278ff",
+      "slug": "maitrise-de-la-terre",
+      "title": "Maîtrise de la Terre",
+      "notionUrl": "https://app.notion.com/p/Ma-trise-de-la-Terre-39688b48e48e8015aac2dcab119278ff",
+      "lastEditedTime": "2026-07-07T14:54:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Maîtrise de la Terre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant ce pouvoir, un Ancien n'est plus contraint de simplement dormir sous terre. Une fois fusionné avec le sol, il peut bouger dans la terre, changeant sa localisation aussi facilement qu'il est de marcher dans une rue venteuse."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant le pouvoir de Fusion avec la Terre, vous pouvez bouger sans terre à une vitesse normale. Vous ne pouvez pas passer au travers de matières avec lesquelles vous ne pouvez pas fusionner comme la pierre, l'eau, le béton ou un épais nœud de racines, mais vous pouvez physiquement interagir et même attaquer tout ce que vous trouvez sous terre - ce qui inclut d'autres individus qui usent de Fusion de la Terre. Les personnages fusionnés avec la terre ne peuvent pas riposter à moins qu’il ne possède aussi Maîtrise de la Terre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages qui utilisent Maîtrise de la Terre sont conscients du paysage souterrain à 10 pas de leur localisation, mais ne peuvent pas normalement percevoir la surface. Pour cette raison, les déplacements à longue distance avec Maîtrise de la Terre sont problématiques pour la plupart des utilisateurs, mais des personnages orientés sur la Perception peuvent percevoir leur entourage dans la terre et ont généralement aucun problème à naviguer sous terre. Vous ne pouvez pas creuser ou autrement physiquement forcer un individu qui utilise Maîtrise de la Terre à quitter son abri dans le sol, sauf si vous avez un moyen de déterminer sa position."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80ec-b891-f6d5df14964d",
+      "slug": "maitrise-des-formes",
+      "title": "Maîtrise des Formes",
+      "notionUrl": "https://app.notion.com/p/Ma-trise-des-Formes-39688b48e48e80ecb891f6d5df14964d",
+      "lastEditedTime": "2026-07-07T14:54:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 3
+        },
+        "Name": {
+          "type": "text",
+          "value": "Maîtrise des Formes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La bête dans votre sang est tellement féroce qu'il intimide les autres, forçant leur rage intérieure à se retirer sous l'assaut de votre domination primitive. D'un geste seulement, rugissement ou autre démonstration primale de supériorité, vous pouvez provoquer la retraite de la bête d'un autre à revenir dans un état normal."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 3 points de Sang et une action standard, jouez la démonstration de dominance (un rugissement, un regard vicieux ou un autre geste de prédateur) vers votre cible et faites un challenge opposé en utilisant votre attribut Social + Survie contre l'attribut Social + Volonté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez, vous forcez la cible à immédiatement retourner dans sa forme naturelle. De plus, elle ne peut pas changer de forme pendant la prochaine heure."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Maîtrise des Formes révoque les pouvoirs de transformations, comme Forme de la Bête, Sombre Métamorphose ou Forme Horrible. Elle ne peut pas affecter les pouvoirs qui n'altèrent qu'une petite portion du corps, comme les Griffes Bestiales ou les pouvoirs qui altèrent le corps mais qui ne sont pas des transformations, comme Fusion avec la Terre."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-801d-a821-d174c0ff2ee9",
       "slug": "malaise-persistant",
       "title": "Malaise Persistant",
@@ -609,14 +2510,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -657,6 +2550,238 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80fd-849d-cae75dd724ad",
+      "slug": "manipulation-de-masse",
+      "title": "Manipulation de masse",
+      "notionUrl": "https://app.notion.com/p/Manipulation-de-masse-39688b48e48e80fd849dcae75dd724ad",
+      "lastEditedTime": "2026-07-07T14:36:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Manipulation de masse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les pensées sont un. Tous les esprits sont un. Atteignez le cosmos et sentez les remous de l'intelligence. Avec un effort des plus modestes, vous pouvez submerger l'esprit éternel, manipuler un groupe d'individus comme s'ils partageaient une conscience collective. Un vampire qui utilise ses pouvoirs de Manipulation de Masse tends vers la conscience universelle, propage sont contrôle au large et affecte plusieurs individus en une seule utilisation de la Domination."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos pouvoirs de Domination peuvent affecter un nombre additionnel de cible égal à votre Volonté actuelle. Toutes vos cibles voulues doivent porter attention à vous, comme les règles de Regard et Concentration."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Manipulation de Masse ne peut pas être utilisée avec la Possession (vous ne pouvez pas posséder plusieurs personnages en même temps). La Manipulation de Masse peut augmenter les autres pouvoirs de Dominations, mais ne peux pas être utilisé avec des techniques basées sur la Domination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous étendez une Domination à plusieurs personnages, vous devez d'abord étendre les effets exacts à chaque cible. Si l'utilisation de cette Domination ne peut pas s'appliquer à l'une des cibles, alors la cible n'est pas affectée par le pouvoir de Domination. Par exemple, si vous utilisez le Regard du Tyran pour retirer la Télépathie de plusieurs cibles, un individu qui n'a pas la Télépathie n'est pas affecté par cette utilisation de pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous ciblez plusieurs personnages avec ce pouvoir, vous faites un Challenge Opposé contre tous les défenseurs. Devriez-vous dépenser un point de Volonté pour re-test n'importe lequel des challenges opposés, vous gagnez aussi ce re-test pour le reste des challenges opposés sans dépenser plus de Volonté. Si vous dépensez la Volonté pour re-test après des Challenges qui ont été résolus, vous ne pouvez pas aller en arrière sur des Challenges qui vous avez perdu et appliquer ce re-test de Volonté de manière rétroactive."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8021-8ce1-f28b4900275a",
+      "slug": "marcher-dans-les-ombres",
+      "title": "Marcher dans les Ombres",
+      "notionUrl": "https://app.notion.com/p/Marcher-dans-les-Ombres-39688b48e48e80218ce1f28b4900275a",
+      "lastEditedTime": "2026-07-07T14:51:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Marcher dans les Ombres"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre inflexion avec les ombres est si grande que vous pouvez faire plus que de tirer l'Abysse dans ce monde ; vous pouvez effectivement voyager dans l'autre dimension, dans l'Abysse. Ce pouvoir vous permet de traverser de petites distances, marchant dans une ombre et émerger d'une autre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et dépensez une action standard pour marcher dans une ombre et émerger d'une autre, vous téléportant jusqu'à 50 pas dans n'importe quelle direction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser Marcher dans les Ombres, vous devez marcher dans un morceau d'ombre naturelle, une qui n’est pas créé par Voile de la Nuit ou en actuellement affectée par les pouvoirs d'Obténébration. Vous sortez instantanément d'une autre ombre naturelle dans votre ligne de vue comme si c'était votre pas suivant. Marcher dans les Ombres ne peut pas être utilisé dans les endroits illuminés ou si vous avez été agrippé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez amener d'autres individus avec vous, tant que vous la tenez d'une poigne ferme. Pour ce faire, vous devez dépenser 2 points de Sang en plus, pour un total de 3, pour Marcher dans les Ombres et amener le sujet avec vous. Si le sujet n'est pas consentant, vous devez d'abord agripper la cible avant d'utiliser Marcher dans les Ombres de cette manière."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n'est pas possible de prendre plus d'un autre personnage avec vous quand vous utilisez Marcher dans les Ombres ; vous ne pouvez pas prendre avec vous des objets que vous portez facilement."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80d7-a596-c4433b2f032c",
+      "slug": "masque-d-ame",
+      "title": "Masque d’âme",
+      "notionUrl": "https://app.notion.com/p/Masque-d-me-39688b48e48e80d7a596c4433b2f032c",
+      "lastEditedTime": "2026-07-07T14:29:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Masque d’âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tel un tour de passe-passe magicien, vous pouvez distraire quelqu'un de votre véritable aura avec celle d'un autre. Bien que cela ne soit pas infaillible, vous pouvez peindre votre aura comme vous le désirez, voire la supprimer en fermant votre esprit aux intrus."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acheté, ce pouvoir est toujours actif. Votre esprit est une forteresse cachée derrière votre Dissimulation. Toute tentative de lire dans vos pensées par télépathie ou par d’autres moyens échoue automatiquement car ils sont incapables de localiser votre esprit. De plus, vous pouvez modifier votre aura comme bon vous semble. Par exemple, vous pouvez ressembler à un mortel, vous pouvez cacher des conséquences d'une diablerie ou vous pouvez ressembler à une autre créature surnaturelle si vous possédez la spécialisation Connaissance appropriée. Pour modifier votre aura, vous devez dépenser 1 point de Sang et une action simple. Une fois modifiée, votre aura reste ainsi à moins qu’elle ne soit modifiée à nouveau. Ce pouvoir peut être étendu à d'autres cibles volontaires via Masquer l'assemblée, mais ses effets sur les autres prennent fin à la fin de Masquer l'assemblée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si d'autres soupçonnent une tromperie dans votre aura, ils peuvent tenter de percer le masque d'âme en utilisant les pouvoirs d'Auspex s'ils possèdent au moins un pouvoir d'ancien Auspex (voir Chapitre : Disciplines). S'ils réussissent, ils peuvent utiliser normalement le pouvoir qu'ils ont choisi ou recevoir les résultats de leur pouvoir s'ils ont déjà testé et gagné."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-807c-99ea-d0f34a75b5e6",
+      "slug": "peau-de-marbre",
+      "title": "Peau de Marbre",
+      "notionUrl": "https://app.notion.com/p/Peau-de-Marbre-39688b48e48e807c99ead0f34a75b5e6",
+      "lastEditedTime": "2026-07-07T14:55:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Peau de Marbre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les légendes sur les gangrels et leur capacité à s’adapter à n’importe quel environnement sont nombreuses dans les connaissances vampiriques. Certains fous ignares pensent que les récits sur des épées se brisant et des balles s’écrasant sur la peau des immortels comme étant des exagérations des effets de Force d’âme. La vérité est beaucoup plus subtile. Avec votre maîtrise du Protéisme, vous pouvez adapter votre peau et votre chaire pour qu’ils deviennent une armure flexible, aussi dure que la pierre ou le marbre, ou quoique ce soit dont vous ayez besoin pour survivre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour activer Peau de marbre, vous devez dépenser 1 point de sang et une action simple. Votre peau change de couleur et de texture alors qu’elle se transforme en armure surnaturelle. Vous pouvez sélectionner deux qualité de vêtements de protection et les appliquer à votre peau (voir Chapitre: Influences et équipement). Pour rappel, vous ne pouvez pas bénéficier de la même qualité deux fois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que ces qualités sont appliquées à votre peau de Marbre, elles ne sont pas affectées par la qualité «Perce Armure» . Peau de Marbre est considérée comme une transformation mineure."
+        },
+        {
+          "type": "paragraph",
+          "text": "L’effet de ce pouvoir dure 15 minutes. Si vous souhaitez changer de qualité de protection, vous devez réactiver ce pouvoir. L’utilisation de ce pouvoir est considéré comme un bris de Mascarade si des mortels en sont témoins."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8012-a50d-e6acd910adf1",
       "slug": "projectile",
       "title": "Projectile",
@@ -666,14 +2791,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -722,6 +2839,173 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80d0-a991-f10cc58199be",
+      "slug": "purification",
+      "title": "Purification",
+      "notionUrl": "https://app.notion.com/p/Purification-39688b48e48e80d0a991f10cc58199be",
+      "lastEditedTime": "2026-07-07T15:03:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Purification"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les enfants d’Haquim -désignés à l’ouest par le sobriquet Assamites- croient qu’ils ont été désignés par leur fondateur pour être les juges de tous les vampires et les protecteurs de l’humanité. En utilisant le pouvoir de la Vitae pour nettoyer et restaurer les mortels et vampires de la même manière, votre maîtrise de Quietus vous permet de nettoyer les âmes et esprits des autres individus des tâches, incluant ceux dont l’esprit a été laissé derrière par d’autres vampires. Le vampire utilisant ce pouvoir projette son propre sang à travers la peau de sa main, lui permettant d’en enduire le sujet. Il se dissipe alors lentement, entraînant avec lui les impuretés spirituelles et les influences externes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser ce pouvoir, vous devez avoir une cible consentante, ou vous devez réussir un challenge physique. Dépensez 1 point de sang et une action standard pour apposer vos mains sur la cible et vous concentrer pour expulser les impuretés spirituelles. Cette onction de sang crée un lien spirituel entre vous et la cible, vous conférant la familiarité entre vous (voir chapitre : Disciplines). Une fois complété, Purification retire tous les effets négatifs Mental, Social et Physiques, comme ceux provenant des pouvoirs de Aliénation, Domination, Présence ou Thaumaturgie. Ce pouvoir peut soigner les toxines ou poisons, mais ne peut pas soigner les maladies communes. Les effets mystiques provenant du sang, comme les liens de sang ou les handicaps (incluant ceux de clans ou les faiblesses personnelles) ne sont pas affectés. Vous ne pouvez pas utiliser Purification sur vous-même."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8082-8527-e3f7150b19e5",
+      "slug": "regard-du-tyran",
+      "title": "Regard du Tyran",
+      "notionUrl": "https://app.notion.com/p/Regard-du-Tyran-39688b48e48e80828527e3f7150b19e5",
+      "lastEditedTime": "2026-07-07T14:37:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Regard du Tyran"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Étant donné leur nature, les Vampires sont des tyrans, désireux de contrôler le pouvoir et l'autorité - et l'utiliser sur des autres. Vous canalisez cette envie dans votre Domination, renforçant votre Volonté sur celles des autres au point d'affliger les pouvoirs inhérents au sang d'un autre individu."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser le Regard du Tyran, dépensez 1 point de Sang et une action standard et initiez un Challenge Opposé avec votre cible en utilisant le score de test de Domination. Si vous réussissez, vous pouvez sélectionner un des pouvoirs de la cible. Ce pouvoir se verrouille dans le sang de la victime et ne peut pas être accédé ni utilisé pendant l'heure suivante. Si le pouvoir est déjà actif, il prend immédiatement fin, même si ce pouvoir sera autrement actif ou automatique. Le Regard du Tyran peut-être utiliser plusieurs fois afin de priver une cible de plus d'un pouvoir, tant que vous payez séparément les coûts de ce pouvoir pour chaque utilisation. Si vous décidez de priver un pouvoir que la cible ne possède pas, le Regard du Tyran n'a aucun effet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous déclarer que vous privez la vitesse, force ou endurance surnaturelle d'une cible (Célérité, Force d'âme ou Puissance) vous retirez le niveau le plus élevé de la Discipline visée (comprenant les pouvoirs d'Anciens). Si la cible possède deux ou plus pouvoirs d'Ancien, vous choisissez lequel est perdu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Regard du Tyran peut être utilisé pour verrouiller le pouvoir d'une Discipline, Pouvoir d'Ancien, technique ou rituel. Il peut même priver un pouvoir natif d'une autre créature, comme les Loups-Garous, Fée ou Mages. Pour pouvoir priver de l'un des pouvoirs de cette manière, vous devez connaître le nom du pouvoir, mais vous devez être conscient du pouvoir ou l'avoir vu personnellement utilisé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous n'avez pas besoin de parler pour utiliser le Regard du Tyran, mais vous devez avoir l'attention de votre cible (Voir Regard et Concentration). La victime de ce pouvoir identifie immédiatement l'individu qui l'a affecté avec un Regard du Tyran et elle est aussi consciente du pouvoir qu'elle a perdu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Regard du Tyran ne peut inverser des altérations physiques permanentes. Par exemple, le Regard du Tyran peut être utilisé pour lui retirer la pouvoir de Cœur des Ténèbres ou de Sculpture de la Chair, mais il ne peut pas défaire des instances existantes de sculpture de la chair ou faire revenir un cœur retiré."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-809f-91b3-c8441d1ffd67",
+      "slug": "regard-paralysant",
+      "title": "Regard paralysant",
+      "notionUrl": "https://app.notion.com/p/Regard-paralysant-39688b48e48e809f91b3c8441d1ffd67",
+      "lastEditedTime": "2026-07-07T14:57:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Regard paralysant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que votre regard ne puisse pas tuer, il peut certainement faire trembler un ennemi jusqu'au plus profond de lui-même. Vous pouvez implacablement convoquer la nature prédatrice de votre Bête, le concentrant dans un seul regard fugace. Ceux qui sont ciblés deviennent des proies devant vous, trop terrifiée pour s'enfuir."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour activer le Regard Paralysant, vous devez dépenser 2 points de Sang et votre action standard pour regarder avec intensité votre cible et faites un Challenge opposé contre cible en utilisant le Score de Test de Présence. En cas de succès votre cible devient totalement pétrifiée et abjectement terrifiée. Il ne peut pas parler, bouger, fuir ou entreprendre toutes autres formes d'actions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cible reste paralysée tant que vous continuez à dépenser une action simple à chaque round pour garder votre concentration, bien que vous n'ayez pas besoin de regarder votre cible. La paralysie continue jusqu'à ce que vous quittiez la présence de la cible, qu'elle soit la cible d'une attaque ou jusqu'à ce qu'elle prenne des dégâts. Si la paralysie se brise pour quelques raisons que ce soit, la victime souffre des effets de Regard d'Effroi et doit immédiatement fuir votre présence. Pour le reste de la soirée, la cible va vous éviter, comme si vous avez achevé un succès exceptionnel avec Regard d'Effroi."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8086-a64d-f347bb0732d5",
       "slug": "reparer-la-chair-non-morte",
       "title": "Réparer la chair non-morte",
@@ -731,14 +3015,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -797,14 +3073,6 @@
           "type": "number",
           "value": 6
         },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
-        },
         "Discipline": {
           "type": "relation",
           "value": [
@@ -860,6 +3128,122 @@
       ]
     },
     {
+      "id": "39688b48-e48e-8080-a1ac-fdd23452f4f1",
+      "slug": "revelations-de-l-essence-sanguine",
+      "title": "Révélations de l’essence sanguine",
+      "notionUrl": "https://app.notion.com/p/R-v-lations-de-l-essence-sanguine-39688b48e48e8080a1acfdd23452f4f1",
+      "lastEditedTime": "2026-07-07T15:05:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Révélations de l’essence sanguine"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les assamites, la consommation de sang n’est pas simplement un acte de sustentation- c’est un acte de délibération, de jugement et de croyance. Ce pouvoir donne une plus grande capacité dans la poursuite de votre rôle sacré en tant que juge de Haquim en vous permettant d’extraire des vérités cachées du sang, voire même un morceau de l’âme."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous goûtez du sang, vous pouvez dépenser une action simple pour activer ce pouvoir. De petites quantité de sang suffisent, comme le sang gouttant d’une blessure ouverte, ou léché à la lame d’un couteau qui a blessé votre cible. Cependant les tâches de sang et le sang séché n’est pas suffisant. Quand vous activez ce pouvoir, choisissez l’un des effets suivants :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Familiarité du Sang : Vous recevez une impression psychique de votre cible qui vous donne la familiarité avec elle. Cependant, votre familiarité dure continuellement, par opposition aux 30 jours, à moins qu’elle ne prenne fin par des moyens surnaturels."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chant de la Vitae Distante : vous expérimentez une vision antérieure d’un moment où votre cible se nourrit durant les 30 jours passés du point de vue de son calice. Les visions sont données suivant la priorité suivante : Acte de Diablerie, acte de se nourrir qui résulte dans l’obtention d’un trait de bête, et puis n’importe quel acte de nourriture."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Senteur de l’accusé : Vous vous harmonisez avec la sensation olfactive dégagée par le sang de votre cible, la rendant plus facile à traquer. Pour le reste de la nuit, vous gagnez un bonus de +5 à vos groupements incluant un challenge de traque contre votre cible, et un bonus de +2 contre tous les moyens surnaturels qu’elle utilise pour se protéger."
+        },
+        {
+          "type": "paragraph",
+          "text": "En supplément, quand vous êtes sur le point de faire une diablerie, vous pouvez dépenser une action simple pour partager l’effet avec jusqu’à 2 cibles supplémentaires. Ces cibles doivent être présentes physiquement et vous rejoindre dans l’acte de la diablerie mais ils n’ont pas besoin d’avoir ce pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces cibles reçoivent également les pénalités de la diablerie, incluant la perte potentielle d’humanité, selon votre chronique (voir chapitre : Système Dramatique). Parmi les Assamites loyalistes, l’inclusion de vampires dans cet acte qui ne sont ni Assamites, ni dévoués à la Voie du Sang est perçue comme hérétique. Cependant, les Assamites antitribus sont beaucoup plus libéraux pour son application."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80e5-9cf9-c640cdc38035",
+      "slug": "reverberation",
+      "title": "Réverbération",
+      "notionUrl": "https://app.notion.com/p/R-verb-ration-39688b48e48e80e59cf9c640cdc38035",
+      "lastEditedTime": "2026-07-07T14:44:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Réverbération"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors que les demandes de rappel s'adressent généralement aux artistes solistes, vos compétences en tant qu'accompagnateur sont telles que vous volez souvent la vedette. Grâce à un mimétisme habile, vous pouvez élever même une performance ratée au rang de reconnaissance exceptionnelle. Votre voix devient une copie parfaite, capable de capter les rythmes tombés et les notes plates, ne laissant aucun doute sur celui qui a porté le spectacle."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dupliquer si parfaitement la voix d’un autre personnage qu’elle améliore le pouvoir ou la discipline qu’il utilise. Vous pouvez activer ce pouvoir en dehors de votre ordre d'initiative mais seulement s'il vous reste une action simple dans le tour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour cela, dépensez 1 point de Sang et votre action simple et ciblez quelqu'un qui vient d'échouer à un challenge impliquant l'utilisation de sa voix. Il peut s'agir d'un pouvoir qui nécessite qu'une cible entende des mots tels que Mesmérisme ou Ordre, ou de pouvoirs qui nécessitent simplement qu'une personne parle, comme la Thaumaturgie. Que vous compreniez ou pas les mots prononcés ou le pouvoir lui-même, vous copiez la cible avec un mimétisme parfait. Lorsqu’il bénéficie de Réverbération dans l’une de ces situations, l’utilisateur du pouvoir bénéficie d’un nouveau test gratuit. Ce nouveau test peut être utilisé avant ou après le nouveau test normal de Volonté et constitue une exception à la règle limitant les nouveaux tests à un par challenge. Vous pouvez utiliser ce pouvoir sur vous-même, créant un écho immédiat de votre propre pouvoir, vous donnant ainsi un nouveau test supplémentaire pour tout pouvoir impliquant votre voix. Tous les nouveaux tests utilisent le score de test de l'utilisateur d'origine du pouvoir."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-80f7-b409-f9852e2b7204",
       "slug": "roi-de-la-montagne",
       "title": "Roi de la montagne",
@@ -869,14 +3253,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -925,6 +3301,220 @@
       ]
     },
     {
+      "id": "39688b48-e48e-808a-9ce4-f498528346ac",
+      "slug": "sueur-sanguine",
+      "title": "Sueur Sanguine",
+      "notionUrl": "https://app.notion.com/p/Sueur-Sanguine-39688b48e48e808a9ce4f498528346ac",
+      "lastEditedTime": "2026-07-07T15:05:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sueur Sanguine"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En se concentrant sur une victime, l'utilisateur de ce pouvoir provoque une transmutation du sang dans le corps de l'individu, le rendant empoisonné à son propre système interne. Le corps de la victime rejette de la bile, expulsée rapidement à travers ses glandes sudoripares et ses pores."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang, une action standard et faites un Challenge opposé avec le Score de Test de Quietus. Si vous réussissez, la cible commence à transpirer du sang. Les mortels affectés par la Sueur Sanguine perdent 2 points de Sang par tour pendant les trois prochains tours et prennent 2 points de dégâts par point de Sang perdu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vampires affectés par Sueur Sanguine perdent 2 points de Sang pendant les trois prochaines tours, mais ne souffrent pas de dégâts de cette perte de Sang. Plusieurs applications de la sueur de Sang ne se cumulent pas."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-8084-a198-ec39b6c310fb",
+      "slug": "traitrise-de-l-ombre",
+      "title": "Traîtrise de l’Ombre",
+      "notionUrl": "https://app.notion.com/p/Tra-trise-de-l-Ombre-39688b48e48e8084a198ec39b6c310fb",
+      "lastEditedTime": "2026-07-07T14:52:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Traîtrise de l’Ombre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis que les humains ont remarqué pour la première fois leur ombre, ils l’ont toujours suspecté de duplicité. Comme un ami hypocrite, l’ombre vous suit dans la lumière mais vous abandonne dans l’obscurité. Ce pouvoir vous permet de faciliter la plus intime de toutes les trahisons, faisant que l’ombre même de la cible l’attaque."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de Sang et une action simple pour ordonner à l’ombre de votre cible de l’attaquer. Si vous réussissez un challenge opposé en utilisant votre attribut Social+Occulte en opposition avec Social+Volonté de la cible, votre cible subit l’assaut de son ombre. L’ombre l’attaque immédiatement pour 2 points de dégâts normaux. L’attaque de l’ombre ne compte pas pour le maximum d’attaque possible par round. Durant les tours suivants, vous pouvez dépenser une action simple durant le round de tout le monde pour faire que l’ombre attaque à nouveau, causant 2 dégâts normaux de plus pour chaque action simple dépensée de cette manière. Si plusieurs actions simples sont dépensées dans un même round pour faire attaquer l’ombre, les dommages provenant des attaques séparées sont considérés comme causés en une seule fois pour ce qui est de l’application de la réduction de dégât. L’effet de ce pouvoir se termine après la dépense de 3 actions simples de cette manière, ou après 10 minutes depuis l’activation du pouvoir. L’ombre ne peut attaquer que la personne à laquelle elle est attachée et ne peut pas être utilisée pour attaquer quelqu’un d’autre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand elle est ciblée par ce pouvoir, l’ombre de la cible est considérée comme invulnérable et ne peut pas être ciblée ou affectée par des pouvoirs. Pour la durée de ce pouvoir, l’ombre de votre cible est considérée comme hostile et la cible ne peut pas utiliser de pouvoir nécessitant son ombre comme Jumeau D’ombre ou Allié Ténébreux. Ce pouvoir n’a pas d’effet sur les cibles qui sont séparées de leurs ombres par des moyens mystiques. Si vous ratez le challenge de la Traîtrise de l’Ombre contre un adversaire, vous pouvez relancer le pouvoir contre la même cible (ou sur quelqu’un d’autre) le tour suivant. Ce pouvoir est une exception à la règle qui n’autorise pas la répétition d’un challenge social sur une cible après un échec. Une cible ne peut être affectée que par une seule instance de ce pouvoir à la fois, les instances suivantes annulant les plus anciennes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’effet de ce pouvoir se termine après avoir dépensé 5 actions au lieu de 3."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80d3-b4e4-d2fbbdcb6f6f",
+      "slug": "vague-de-son",
+      "title": "Vague de Son",
+      "notionUrl": "https://app.notion.com/p/Vague-de-Son-39688b48e48e80d3b4e4d2fbbdcb6f6f",
+      "lastEditedTime": "2026-07-07T14:45:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vague de Son"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre voix est une force de la nature, capable de produire des sons qui s'écrasent sur vos ennemis comme un raz-de-marée sonore. Comme la banshee mythique, votre chanson est belle et mortelle ; capable d'émouvoir vos auditeurs jusqu'aux larmes par l'émotion ou la force"
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre voix est capable de résonner à une hauteur et à une fréquence qui endommagent les objets et les personnes en l'imprégnant d'énergie cinétique. Une fois acheté, vous pouvez déclarer l'utilisation de Vague de Son en dépensant 1 point de Sang supplémentaire lors de l'utilisation de Mort du tambour. Si vous le souhaitez, votre attaque peut désormais utiliser votre attribut Social + votre compétence Subterfuge contre l'attribut Physique + Volonté de votre adversaire. Votre voix acquiert également le pouvoir de projeter une force terrible. La simple puissance de votre voix brise les fenêtres, fait tomber les verres des tables et produit une « poussée » tangible qui peut être ressentie par les cibles proches. Tout challenge opposé remporté par vous en utilisant ce pouvoir repousse votre adversaire de 3 pas dans la direction de votre choix quel que soit le score de défense utilisé par votre cible. Si cela provoque une collision de votre cible avec un objet de la taille d'une table ou plus, elle subit 1 point de dégâts, comme tous les personnages avec lesquels elle entre en collision. Ces dégâts sont considérés comme distincts de votre attaque initiale aux fins de réduction des dégâts. Ce pouvoir peut être utilisé conjointement avec d'autres pouvoirs d'anciens de Melpominé, le cas échéant. Le conteur déterminera comment les objets inanimés sont affectés par ce pouvoir."
+        }
+      ]
+    },
+    {
+      "id": "39688b48-e48e-80b5-8cee-c4369aff2a9b",
+      "slug": "visage-capricieux",
+      "title": "Visage Capricieux",
+      "notionUrl": "https://app.notion.com/p/Visage-Capricieux-39688b48e48e80b58ceec4369aff2a9b",
+      "lastEditedTime": "2026-07-07T14:57:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            }
+          ]
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Visage Capricieux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le monde est une scène et vous êtes sa star amarante, capable de mettre à genoux les foules les plus bondées avec à peine plus qu’un simple regard et quelques mots. Cette capacité vous permets de commander à une foule, les plongeant dans une adoration sans borne ou dans un état de soumission, alors que tous les regards sont tournés vers vous et votre charisme envahissant."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous décidez d’utiliser un pouvoir de présence comme Regard d’Effroi ou Transe, vous pouvez choisir de dépenser 1 point de sang supplémentaire pour cibler autant d’individus totaux dans votre champ de vision que votre score en compétence Commandement. Quand vous utilisez ce pouvoir d’ancien sur plusieurs cibles, vous devez réaliser un challenge opposé en utilisant votre groupement de présence contre chaque défenseur. Si vous deviez dépenser un point de volonté pour retest un challenge contre une cible, vous gagnez également un retest pour les challenges restant sans avoir à dépenser de points de volonté supplémentaires. Si vous dépensez de la volonté après avoir déjà résolu des challenges, vous ne gagnez pas de retest pour les challenges déjà passés de manière rétroactive."
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ignorez le focus Vigueur pour déterminer si un personnage est mis à terre. Cet effet est cumulatif avec n’importe quel dommage supplémentaire causé par un succès exceptionnel d’un personnage."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8005-b7e1-f3f05069f663",
       "slug": "vitesse",
       "title": "Vitesse",
@@ -934,14 +3524,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",
@@ -990,6 +3572,69 @@
       ]
     },
     {
+      "id": "39688b48-e48e-80e3-bbb2-fc358f9e357b",
+      "slug": "vol-d-esprit",
+      "title": "Vol d’esprit",
+      "notionUrl": "https://app.notion.com/p/Vol-d-esprit-39688b48e48e80e3bbb2fc358f9e357b",
+      "lastEditedTime": "2026-07-07T14:48:00.000Z",
+      "properties": {
+        "Niveau": {
+          "type": "number",
+          "value": 6
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": []
+        },
+        "Coût en point de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vol d’esprit"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vol d'Esprit est un pouvoir invasif, plongeant dans les profondeurs de la psyché d'un sujet pour le piller de sa sentience pour vos propres bénéfices. Le vol est temporaire, mais tant que vous possédez l'esprit du sujet, il n'est rien de plus qu'une enveloppe vide."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour voler l'esprit d'une victime, dépensez 2 points de Sang, une action standard et initiez un challenge opposé avec votre cible en utilisant le Score de Test de Mythercellerie. Si vous réussissez, l'acuité mentale du sujet vous ait transférée. Il devient amorphe et faible et peut même tomber dans un coma (si c'est un mortel)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous êtes en possession de l'esprit de votre victime, vous gagner +3 à vos attributs mentaux et votre cible subie un malus de -3 à ses attributs mentaux. Si la pénalité place le sujet à 0 points dans ses attributs mentaux, il tombe en torpeur (ou dans un coma si c'est un mortel)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand il est utilisé sur un PNJ, ce pouvoir plonge toujours le PNJ en torpeur ou coma et vous donne un bonus égal à +3 à vos attributs mentaux ou le niveau de base du PNJ, quel que soit la valeur la plus basse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un individu ne peut pas être sous les effets de plus une utilisation de Vol de l'Esprit à n'importe quel moment donné. Les bonus donnés par Vol de L'Esprit ne s'additionne pas. Vous ne pouvez pas utiliser ce pouvoir sur deux personnages différents pour gagner un bonus de +6 à vos attributs mentaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets de Vol de l'Esprit s’estompent après cinq minutes, bien que vous puissiez étendre la durée pendant cinq minutes additionnelles en dépensant 2 points de Sang tant que le pouvoir est actif. Étendre la durée de cette manière ne requiert pas un nouveau test. Après que les effets de ce pouvoir s’estompent, les personnages en torpeur ou comateux se réveil rapidement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les créatures qui ne sont pas conscientes, comme les zombies, ou qui ne sont pas humaines, comme les animaux, ou élémentaires sont immunisées au Vol de l'Esprit."
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-805c-a29e-f4a6237e217d",
       "slug": "zephyr",
       "title": "Zéphyr",
@@ -999,14 +3644,6 @@
         "Niveau": {
           "type": "number",
           "value": 6
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
         },
         "Discipline": {
           "type": "relation",

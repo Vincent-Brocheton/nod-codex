@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-06T18:25:13.627Z",
+  "generatedAt": "2026-07-07T20:38:55.602Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "assamites",
       "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T08:09:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -21,6 +21,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Assassins"
         },
         "Discplines": {
           "type": "relation",
@@ -73,15 +77,107 @@
         },
         {
           "type": "paragraph",
-          "text": "Secrets, isolés et fanatiquement loyaux aux préceptes de leur clan, les Assamites se proclamaient les descendants d’Haquim (Assam) dont la légende dit qu’il a combattu Khayyin (Caïn) et sa malédiction. En conséquence de cela, les Assamites convertissaient ou tuaient les autres vampires en pratiquant la Diablerie à outrance dans le but de renforcer leur clan et de se rapprocher de leur Antédiluvien Haquim."
+          "text": "Également connus sous le nom de Descendants d'Haqim, les Assamites trouvent leurs origines dans l'ancien Moyen-Orient. Assassins accomplis et guerriers redoutablement rapides, la majorité du clan réside dans la forteresse montagneuse d'Alamut."
         },
         {
           "type": "paragraph",
-          "text": "En raison de leurs attaques sur les anciens des autres clans durant les âges sombres et leur assistance aux rebelles de la révolte Anarch, les Assamites ont été combattus par la Camarilla et contraints à la capitulation. Ils ont alors été les victimes d’une grande malédiction Tremere les rendant incapables de boire la vitae vampirique et donc de commettre l’acte de Diablerie. Récemment, la malédiction a été secrètement brisée et tous les Assamites à travers le monde se sont réveillés avec une nouvelle soif pour le puissant sang des semblables."
+          "text": "Les Assamites acceptent volontiers les missions les plus périlleuses, à condition que le prix du sang proposé soit suffisamment élevé. Leur soif de vitae est légendaire, tout comme leur volonté de juger les autres vampires selon les lois édictées par leur fondateur, Haqim. Ceux qui sont jugés indignes doivent être détruits."
         },
         {
           "type": "paragraph",
-          "text": "Le clan a depuis subi de gros bouleversements, un violent schisme et pas seulement à cause de la fin de la malédiction Tremere. Désormais ils chassent et tuent sans aucun contrat, code ou restrictions. En outre, le clan s’est éloigné de ses anciens penchants islamiques pour se tourner vers des dieux plus antiques. De ce fait, des pouvoirs perdus se sont réveillés. Ils sont désormais vus comme une terreur silencieuse empoisonnant les pensées."
+          "text": "Le clan Assamite n'est affilié à aucune secte. Bien que certains de ses membres aient rejoint la Camarilla ou le Sabbat, le clan dans son ensemble refuse de se soumettre à toute hiérarchie vampirique. Les Assamites ne concluent jamais de contrats à long terme, préférant préserver leur indépendance dans la Jyhad. Cette réputation fait d'eux des alliés aussi redoutés que peu dignes de confiance, leur loyauté appartenant toujours au plus offrant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une partie du clan suit une Voie d'Illumination d'inspiration religieuse : la Voie du Sang. Celle-ci codifie la dévotion fanatique envers Haqim et la Montagne, érige la diablerie en acte sacré et exige une vénération absolue du fondateur du clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Autrefois, les Assamites étaient célèbres pour leur pratique systématique de la diablerie. Ce n'est qu'après que les Tremere, agissant à la demande du Cercle Intérieur de la Camarilla, eurent lancé une puissante malédiction contre eux qu'ils furent contraints d'y renoncer. Cette malédiction rendait le sang vampirique toxique pour les Assamites, brûlant leurs veines à chaque ingestion. Depuis cette époque, les Assamites — en particulier les plus anciens — nourrissent une haine profonde envers les Tremere."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque l'Aîné du clan s'éveilla et prit le contrôle d'Alamut, il brisa cette malédiction grâce à sa propre sorcellerie. Libérés de l'emprise des Tremere, les Assamites jurèrent de se venger."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Assamites les plus anciens sont majoritairement issus des cultures du Moyen-Orient et d'Afrique du Nord, tandis que les plus jeunes sont désormais Étreints dans toutes les régions du monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux autres vampires dont la peau pâlit avec l'âge, celle des Assamites s'assombrit progressivement. Les plus anciens possèdent ainsi une peau d'un noir profond, semblable à de l'ébène poli."
+        },
+        {
+          "type": "paragraph",
+          "text": "La majorité des Descendants d'Haqim appartient à la caste des Guerriers, formés comme assassins, espions et agents clandestins. Ils accomplissent leurs contrats avant de revenir à Alamut rapporter les fruits de leurs victoires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le reste du clan se répartit entre deux autres castes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Sorciers, qui demeurent à Alamut et servent directement l'Aîné du clan."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Vizirs, autrefois conseillers respectés, qui quittèrent la Montagne à la suite d'un schisme idéologique, refusant de se soumettre à l'autorité de l'Aîné. Pour cette trahison, ils sont désormais traqués sans relâche par leurs anciens frères, qui ne cesseront leur chasse qu'une fois tous les Vizirs exterminés."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan Assamite possède une culture extrêmement structurée et repliée sur elle-même."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Assamites sont tenus d'obéir aux volontés de l'Aîné, qu'ils considèrent avec un mélange de vénération et de crainte."
+        },
+        {
+          "type": "paragraph",
+          "text": "De petites cellules composées de deux ou trois Assamites, appelées falaqi, peuvent vivre hors d'Alamut, à condition de rester fidèles à la foi d'Haqim et aux ordres de l'Aîné."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le clan entretenait autrefois une forte tradition musulmane, le culte d'Allah est aujourd'hui interdit par l'Aîné."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Assamites doivent désormais vouer un culte exclusif à Haqim. Toute autre forme de dévotion est considérée comme une trahison passible de destruction."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis la levée de la malédiction des Tremere, les Assamites ont retrouvé leur ancienne soif de sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang des vampires exerce sur eux une attraction irrésistible et profondément addictive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Assamite boit du sang vampirique, il gagne immédiatement 2 Traits de Bête pendant les 10 minutes suivantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'Assamite entre en frénésie durant cette période, il tentera de diableriser le dernier vampire dont il a goûté le sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux Traits de Bête normaux :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ils ne sont pas pris en compte pour déterminer une éventuelle perte de Moralité ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ils disparaissent automatiquement au terme des 10 minutes."
         }
       ]
     },
@@ -90,7 +186,7 @@
       "slug": "brujah",
       "title": "Brujah",
       "notionUrl": "https://app.notion.com/p/Brujah-39388b48e48e8012a4d0f789e9f94d47",
-      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "lastEditedTime": "2026-07-07T10:23:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -99,6 +195,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "La Racaille, Les Philosophes"
         },
         "Discplines": {
           "type": "relation",
@@ -140,7 +240,55 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Le clan des philosophes, les canailles, les punks, les hipsters, les prométhéens, les rebelles, les rois philosophes, les hellènes, les sages."
+          "text": "Les vampires du clan Brujah furent autrefois des érudits et des chercheurs de sagesse. Ils furent les artisans de la grandeur de l'antique Carthage, une cité puissante où mortels et vampires vivaient en paix. Mais la trahison des Ventrue et les armées de la Rome antique détruisirent Carthage, brisant à jamais le clan Brujah."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fil des siècles, les divisions internes transformèrent profondément leur nature. Les Brujah abandonnèrent progressivement leur image de philosophes stoïques pour devenir des guerriers passionnés. Ils ne sont plus les êtres qu'ils étaient à Carthage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au cours des Nuits modernes, les Brujah incarnent la révolte, l'indépendance et la passion. Guerriers fougueux et individualistes, ils sont capables du meilleur comme du pire, portés par leurs émotions dévorantes. Ils ressentent les passions humaines avec une intensité que peu d'autres vampires connaissent, ce qui les pousse souvent à agir avant de réfléchir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Brujah ont besoin d'une cause. Toute injustice, réelle ou supposée, peut devenir un motif de lutte. Ils se réunissent régulièrement lors d'assemblées tumultueuses appelées Rants, où ils prononcent des discours enflammés, règlent leurs différends par le combat ou rallient d'autres vampires à leurs croisades contre l'ordre établi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, cette intensité émotionnelle possède un revers. Lorsqu'ils ne parviennent plus à maîtriser leurs passions, les Brujah sombrent facilement dans la frénésie ou la folie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Brujah Étreignent des individus issus de toutes les cultures, religions et origines sociales. Le clan n'a jamais été particulièrement sélectif : il recherche avant tout des femmes et des hommes animés d'une volonté farouche de combattre les injustices et de changer le monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Parmi tous les clans, les Brujah sont également ceux qui s'adaptent le plus naturellement aux mouvements de contestation contemporains. Ils adoptent sans difficulté les codes des différentes contre-cultures : crânes rasés, motos, cuir, piercings, vestes cloutées ou vêtements revendicatifs."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les anciens Brujah servent davantage de modèles que de chefs. Chaque membre est censé prouver sa propre valeur plutôt que de s'en remettre aux anciens pour résoudre ses problèmes. La hiérarchie du clan demeure donc particulièrement souple."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Brujah se regroupent généralement selon leurs convictions philosophiques plutôt que selon une véritable structure politique. Les trois grands courants sont :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Idéalistes, qui cherchent à réformer la société et à corriger ses injustices."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Iconoclastes, qui souhaitent renverser l'ordre établi afin de bâtir un monde entièrement nouveau."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Individualistes, qui préfèrent agir à l'échelle individuelle plutôt que de transformer la société dans son ensemble."
         },
         {
           "type": "heading_2",
@@ -148,7 +296,11 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Brujah sont dominés par leurs émotions. Leur difficulté à résister à la frénésie est augmentée de +2"
+          "text": "Les Brujah sont dominés par leurs émotions et peinent à contenir la colère de leur Bête."
+        },
+        {
+          "type": "paragraph",
+          "text": "La difficulté de tous leurs tests visant à résister à la frénésie est augmentée de 2."
         }
       ]
     },
@@ -157,7 +309,7 @@
       "slug": "caitiff",
       "title": "Caitiff",
       "notionUrl": "https://app.notion.com/p/Caitiff-39388b48e48e80788c8bde632bfd877e",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T12:06:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -167,9 +319,54 @@
           "type": "relation",
           "value": []
         },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Rebuts"
+        },
         "Discplines": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence"
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance"
+            }
+          ]
         },
         "Atouts de clan": {
           "type": "relation",
@@ -191,7 +388,51 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du clan..."
+          "text": "Les Caitiffs ne constituent pas un véritable clan. Ils sont simplement regroupés sous une même appellation par le reste de la société vampirique, bien qu'ils ne partagent ni ancêtre commun, ni culture, ni tradition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il arrive parfois que le Sang d'un sire ne transmette aucune des caractéristiques propres à son clan. Les descendants issus de ces Étreintes imparfaites deviennent des Caitiffs. Considérés comme des erreurs, ils sont généralement abandonnés par leur créateur et rejetés par leur lignée. Le simple terme Caitiff est devenu synonyme de paria, d'indésirable ou de vampire sans valeur."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart mènent une existence errante, voyageant de domaine en domaine sans jamais trouver de véritable foyer. Aucun profil ne les caractérise : ils peuvent provenir de n'importe quel milieu social, avoir été soigneusement choisis par leur sire ou n'être que le résultat d'une Étreinte accidentelle. Ils ne sont souvent qu'une pâle imitation du clan dont ils auraient dû hériter, sans bénéficier du prestige, des traditions ou des privilèges qui l'accompagnent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres vampires évitent généralement les Caitiffs, y compris ceux qui se montrent habituellement tolérants. Depuis des siècles, de nombreuses superstitions entourent leur existence. Certains prétendent que leur condition est contagieuse et qu'un vampire fréquentant trop longtemps des Caitiffs risque de produire lui-même un rejeton sans clan lors de sa prochaine Étreinte. D'autres y voient une malédiction infligée par Dieu, Caïn ou une puissance plus ancienne encore. Les légendes les plus sombres affirment enfin que leur multiplication annonce les Temps de la Fin : un signe que le Sang des Caïnites s'affaiblit et que le monde approche de sa destruction."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Caitiffs ne possèdent aucune organisation commune ni véritable sentiment d'appartenance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon les domaines, ils peuvent être exécutés à vue, bannis ou simplement ignorés. Lorsqu'un Caitiff possède une compétence utile, les autres vampires n'hésitent pas à l'exploiter sans le moindre scrupule. Une fois devenu inutile, il est souvent abandonné ou éliminé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il arrive que de petits groupes de Caitiffs s'unissent pour survivre. Toutefois, ces alliances demeurent précaires : la trahison est presque aussi fréquente que la solidarité."
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Caitiffs ne peuvent jamais commencer la partie avec plus de deux points dans l'Historique Génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils peuvent néanmoins améliorer leur Génération par la diablerie, comme n'importe quel autre vampire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, les Caitiffs sont incapables d'enseigner leurs disciplines de clan à d'autres personnages. Cette incapacité reflète l'absence de tradition, de méthode et de transmission propre à leur condition."
         }
       ]
     },
@@ -200,7 +441,7 @@
       "slug": "giovanni",
       "title": "Giovanni",
       "notionUrl": "https://app.notion.com/p/Giovanni-39388b48e48e8038be5bdbf240066a35",
-      "lastEditedTime": "2026-07-04T23:13:00.000Z",
+      "lastEditedTime": "2026-07-07T11:11:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -209,6 +450,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Nécromanciens"
         },
         "Discplines": {
           "type": "relation",
@@ -250,7 +495,43 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les nécromants"
+          "text": "Les Giovanni trouvent leurs origines dans une puissante famille de marchands vénitiens. Étreints par les érudits du clan Cappadocien, ils étaient initialement destinés à servir d'intermédiaires entre les vampires et le monde des mortels durant la Renaissance. Cependant, leur ambition et leur soif de pouvoir les poussèrent rapidement à se retourner contre leurs propres sires. La chute des Cappadociens ne fut que le premier acte de leur ascension."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fil des siècles, les Giovanni bâtirent une immense fortune grâce à leur remarquable sens des affaires, leur maîtrise des intrigues politiques et leur génie financier. Parallèlement, ils percèrent les secrets de la Nécromancie, développant un pouvoir sans égal sur les esprits des morts."
+        },
+        {
+          "type": "paragraph",
+          "text": "À mesure que leur influence grandissait, leur arrogance grandit également. Ils finirent par monopoliser presque entièrement l'étude de la Nécromancie au sein du monde vampirique. Pendant des siècles, ils exploitèrent cette position dominante pour imposer leur indépendance aux autres clans, contraints de tolérer leurs sombres agissements en échange de leur savoir unique. Si tous condamnent encore aujourd'hui la destruction du clan Cappadocien et la diablerie qui l'accompagna, rares sont ceux qui peuvent se permettre d'ignorer la puissance des Giovanni."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'extérieur du clan, les Giovanni cultivent une image de courtoisie, d'humilité et de coopération. Derrière les portes closes de leurs domaines, la réalité est bien différente. La famille est impitoyable, rongée par les rivalités internes, les ambitions personnelles et des pratiques incestueuses profondément enracinées. Tous les moyens sont bons pour accroître la puissance de la famille."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Giovanni ne nouent jamais d'alliances sincères. Ils savent tenir des discours rassurants lorsque cela sert leurs intérêts, mais leur véritable loyauté n'appartient qu'à leur propre sang."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Fidèles à leurs origines de grande famille marchande de la Renaissance, les Giovanni possèdent une organisation interne particulièrement stricte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les anciens dirigent d'une main ferme les membres de sang plus faible et maintiennent une discipline rigoureuse au sein du clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à de nombreuses familles de leur époque d'origine, les Giovanni ne distinguent pas les hommes et les femmes dans l'exercice du pouvoir : chacun peut accéder aux plus hautes responsabilités selon ses capacités et son influence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette hiérarchie est rendue encore plus complexe par un réseau de relations incestueuses, de cultes mortuaires hérétiques et de liens permanents entretenus avec les esprits des membres décédés de la famille."
         },
         {
           "type": "heading_2",
@@ -258,7 +539,11 @@
         },
         {
           "type": "paragraph",
-          "text": "La morsure des Giovanni est atrocement douloureuse.\nLorsqu’un Giovanni se nourrit d’un mortel il inflige 3 niveaux de dégâts par point de sang drainé (au lieu de 2)"
+          "text": "La morsure d'un Giovanni est d'une douleur insoutenable pour les mortels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Giovanni se nourrit sur un mortel, il inflige 3 points de dégâts pour chaque point de Sang prélevé, au lieu des 2 points de dégâts habituels."
         }
       ]
     },
@@ -276,6 +561,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": ""
         },
         "Discplines": {
           "type": "relation",
@@ -331,7 +620,7 @@
       "slug": "lasombra",
       "title": "Lasombra",
       "notionUrl": "https://app.notion.com/p/Lasombra-39388b48e48e80fe9a2adbf1aa7f1c2e",
-      "lastEditedTime": "2026-07-04T23:19:00.000Z",
+      "lastEditedTime": "2026-07-07T11:18:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -340,6 +629,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Magistrats"
         },
         "Discplines": {
           "type": "relation",
@@ -381,7 +674,51 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les Gardiens"
+          "text": "Nés des ténèbres et liés aux profondeurs de l'Abysse, les Lasombra sont des vampires à la fois majestueux, raffinés et entièrement dévoués à l'exercice parfait du pouvoir. Peu de clans possèdent une volonté aussi inflexible, une telle maîtrise d'eux-mêmes ou une quête aussi exigeante de l'excellence, de la noblesse et de l'ambition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les rangs du clan comptent d'innombrables prélats qui auraient voulu devenir papes, conseillers guidant le destin des royaumes et maîtres des intrigues politiques. Les Lasombra apprécient les « loisirs » de l'aristocratie : les duels, les empoisonnements, les assassinats raffinés et les jeux d'ambition. Ils règnent sur la nuit avec élégance, autorité et une fascination profonde pour les ténèbres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où d'autres vampires cherchent un sens à leur existence éternelle dans leur sang ou dans les structures de leur clan, les Lasombra ne poursuivent qu'un seul objectif : la domination absolue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur influence sur les institutions religieuses est sans égale. Depuis des siècles, ils se sont emparés des symboles de la foi afin d'exercer leur pouvoir dans l'ombre, contrôlant richesses, autorités spirituelles et puissances temporelles sans jamais apparaître au premier plan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Malgré cette proximité avec la religion, la plupart des Lasombra ne croient pas que les vampires puissent être pardonnés ou sauvés. À leurs yeux, le vampirisme est une malédiction destinée soit à pousser les mortels vers la lumière divine, soit à châtier ceux qui refusent de quitter les ténèbres. Depuis longtemps, ils ont renoncé à tout espoir de salut ou de vie après la mort. Les seules récompenses qui comptent sont celles qu'ils obtiennent dans le monde des vivants : le pouvoir, la gloire et l'écrasement de leurs rivaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'arrogance semble couler naturellement dans leur Vitae. Même les plus jeunes Lasombra dégagent une autorité sombre et naturelle. Les plus anciens, quant à eux, manipulent les ombres elles-mêmes afin d'imposer leur volonté à la nuit. Convaincus de la supériorité de leur sang, ils considèrent que nul autre clan ne peut véritablement leur être égal."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lasombra privilégient les cours fastueuses, les messes obscures et tout l'apparat de l'aristocratie. Le cérémonial occupe une place centrale dans leur culture, au même titre que le pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan est réputé pour sa cruauté, ses intrigues et sa propension au meurtre. La lignée de sang constitue une importante source de prestige, certaines familles étant considérées comme infiniment plus nobles que d'autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "À cette noblesse héréditaire s'ajoute un système complexe de patronage et de mentorat, ainsi que le rang occupé au sein de la secte à laquelle appartient chaque Lasombra."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au sommet de cette hiérarchie siège un cercle secret connu sous le nom des Amici Noctis (« Amis de la Nuit »). Cette assemblée définit les grandes orientations du clan et exerce son autorité sur tous les Lasombra, quelles que soient leur secte ou leurs alliances personnelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Lasombra doit être jugé, il comparaît devant une Cour de Sang, chargée d'évaluer sa valeur et son mérite. Si elle le juge indigne, cette cour peut prononcer sa condamnation à la Mort Ultime."
         },
         {
           "type": "heading_2",
@@ -389,7 +726,15 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Lasombra n’ont aucun reflet ni dans les miroirs, ni dans l’eau, ni sur les surfaces réfléchissantes. De ce fait ils sont invisibles aux systèmes à miroir (anciens appareils), cependant ils sont visibles avec les technologies modernes (caméras numériques)"
+          "text": "Les Lasombra ne projettent aucun reflet."
+        },
+        {
+          "type": "paragraph",
+          "text": "Qu'il s'agisse d'un miroir, d'une étendue d'eau, d'une surface polie ou du rétroviseur d'un véhicule, leur image n'apparaît jamais."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les appareils utilisant un système de miroirs, comme les anciens appareils photographiques, sont incapables de les capturer. En revanche, les dispositifs numériques modernes enregistrent normalement leur apparence."
         }
       ]
     },
@@ -398,7 +743,7 @@
       "slug": "malkavien",
       "title": "Malkavien",
       "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
-      "lastEditedTime": "2026-07-04T23:18:00.000Z",
+      "lastEditedTime": "2026-07-07T11:27:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -407,6 +752,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": ""
         },
         "Discplines": {
           "type": "relation",
@@ -459,7 +808,39 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnom : Le clan de la lune, les déments, les lunatiques, les bouffons, les oracles, les derviches, les visionnaires, les enfants de Malkav."
+          "text": "Pour certains vampires, l'Étreinte n'est qu'une prolongation de leur existence mortelle. Pour les Malkaviens, elle constitue une rupture brutale et irréversible. L'Étreinte fracasse leur esprit, les précipitant dans la folie tout en éveillant chez eux des dons surnaturels de perception, d'intuition et de compréhension."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Malkaviens sont profondément aliénés. Leur psyché demeure en permanence au bord de la rupture, oscillant entre lucidité et démence. Cette folie peut prendre la forme de troubles psychologiques bien identifiables, d'hallucinations persistantes, d'une perception totalement altérée de la réalité ou encore de crises psychotiques aussi soudaines qu'intenses. Chaque Étreinte brise l'esprit de manière unique ; aucun Malkavien ne sombre dans la même folie qu'un autre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres vampires peinent souvent à comprendre les membres de ce clan. Imprévisibles, parfois incohérents, les Malkaviens perçoivent le monde selon une logique qui leur est propre. Ils cherchent fréquemment à révéler aux autres des vérités qu'eux seuls semblent capables de discerner. Leurs enseignements prennent souvent la forme de farces, d'épreuves ou de manipulations complexes, inquiétantes et parfois dangereuses, dont seuls les Malkaviens comprennent réellement le sens."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Malkaviens choisissent leurs infantés sans distinction d'origine sociale, de culture ou de profession. Leur apparence reflète souvent leur trouble principal : certains sont négligés et sales, tandis que d'autres développent une obsession maladive pour la propreté, l'ordre ou d'autres comportements compulsifs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les plus jeunes Malkaviens sont généralement des marginaux cherchant encore à comprendre leur propre esprit et leur nouvelle condition. Les anciens, eux, apprennent peu à peu à composer avec leur folie et paraissent souvent étonnamment sereins malgré le chaos qui habite leur esprit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, tous les Malkaviens semblent reliés par une mystérieuse conscience collective, une sorte de sixième sens omniprésent que beaucoup attribuent à l'esprit endormi du fondateur du clan. Cette connexion leur permet parfois d'entrevoir des vérités et des présages qui échappent totalement aux autres créatures."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parler d'une véritable organisation chez les Malkaviens relève presque du paradoxe. Le clan ne possède ni hiérarchie stable, ni structure formelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ses membres apparaissent et disparaissent au gré de leurs propres impulsions, traversant les siècles avec un détachement presque total envers les notions de pouvoir ou d'autorité. Les anciens exercent parfois une forme d'influence, non par statut officiel, mais simplement parce que les siècles leur ont permis d'apprivoiser davantage leur propre folie et d'agir avec une relative lucidité."
         },
         {
           "type": "heading_2",
@@ -467,7 +848,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque Malkavien possède un dérangement permanent et incurable qui  ne peut jamais être soigné. D’autres dérangements peuvent apparaître ou disparaître. Attention : pas de gain d’XP pour ce dérangement principal,\nles autres dérangements donnent de l’XP normalement,\nles traits de dérangement ne descendent jamais à 0 (minimum 1)"
+          "text": "Tous les Malkaviens sont frappés d'un dérangement permanent et incurable, né au moment de leur Étreinte."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement principal ne peut jamais être soigné ou supprimé."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils peuvent acquérir d'autres dérangements au cours de leur existence et s'en remettre normalement, mais jamais de leur dérangement originel."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'un Malkavien réinitialise ses Traits de Dérangement, il revient toujours à 1 Trait de Dérangement, et jamais à 0, contrairement aux autres vampires."
         }
       ]
     },
@@ -476,7 +873,7 @@
       "slug": "nosferatu",
       "title": "Nosfératu",
       "notionUrl": "https://app.notion.com/p/Nosf-ratu-39388b48e48e8015a98bf6ff61cf19c4",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T11:41:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -485,6 +882,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Rats des Égouts"
         },
         "Discplines": {
           "type": "relation",
@@ -526,7 +927,39 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les rats d'égoûts, les horreurs, le clan des invisibles, les lépreux, les pouilleux, les bêtes de foire, les mouchards, les clochards, les Orlocks, le clan des masques."
+          "text": "Les membres du clan Nosferatu sont irrémédiablement déformés par l'Étreinte. Leur apparence humaine disparaît pour laisser place à une monstruosité physique aussi effroyable qu'inoubliable. Cette transformation est si brutale que nombre de ceux qui la subissent n'y survivent tout simplement pas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur difformité les contraint à vivre cachés des mortels afin de préserver la Mascarade. Cette malédiction commune forge entre eux un lien particulièrement fort, faisant des Nosferatu l'un des clans les plus soudés de la société vampirique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains Nosferatu assument pleinement leur monstruosité et prennent plaisir à exhiber leur apparence afin de provoquer le dégoût ou la peur chez les autres vampires. Ils apprécient particulièrement tourmenter les Toréadors, dont ils jalousent autant qu'ils méprisent la beauté et le raffinement artistique. Cette haine est réciproque : de nombreux Toréadors considèrent les Nosferatu comme une menace permanente pour la Mascarade et verraient volontiers leur clan disparaître."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nosferatu établissent généralement leurs refuges dans les réseaux souterrains des grandes villes, où ils vivent en couvées protégées par des animaux goules durant les heures de sommeil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maîtres de la discrétion et de l'espionnage, ils excellent dans la collecte d'informations et le chantage. Peu de secrets leur échappent, et ils utilisent volontiers les faiblesses des autres vampires comme monnaie d'échange ou levier politique. Si leur cruauté est parfois légendaire, elle est souvent le reflet d'une éternité passée dans l'exclusion et le mépris."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon les anciennes légendes, l'Antédiluvien Nosferatu aurait regretté d'avoir enfreint les lois de Caïn. Lorsque son clan fut maudit, il aurait asservi ses plus puissants descendants par un lien de sang avant de leur ordonner d'exterminer tous les autres Nosferatu. Ces terrifiants chasseurs, appelés les Niktuku, demeurent encore aujourd'hui l'une des plus grandes craintes du clan. Quelles que soient leurs appartenances politiques ou sectaires, tous les Nosferatu restent unis face à cette menace ancestrale."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nosferatu s'organisent principalement en couvées, généralement composées des descendants d'un même sire. Certaines de ces familles s'étendent au fil des siècles et développent leurs propres hiérarchies, souvent déterminées par les volontés du vampire fondateur."
+        },
+        {
+          "type": "paragraph",
+          "text": "À plus grande échelle, le clan entretient un vaste réseau d'échange d'informations grâce aux technologies modernes. Les Nosferatu communiquent au moyen de forums privés, de serveurs sécurisés et d'un réseau informatique connu sous le nom de ShreckNET, administré par une puissante lignée du clan."
         },
         {
           "type": "heading_2",
@@ -534,7 +967,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Tous les Nosferatu sont d’une laideur inhumaine. Les Nosferatu ne peuvent pas avoir le focus d’attribut Apparence."
+          "text": "L'Étreinte transforme chaque Nosferatu en une créature d'une laideur surnaturelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette difformité est permanente et ne peut être supprimée que temporairement par certains pouvoirs surnaturels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un Nosferatu ne peut jamais choisir l'Apparence comme spécialisation (Focus) de son Attribut Social."
         }
       ]
     },
@@ -543,7 +988,7 @@
       "slug": "setite",
       "title": "Setite",
       "notionUrl": "https://app.notion.com/p/Setite-39388b48e48e80d7beeffcf179f7022b",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T10:25:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -552,6 +997,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Serpents"
         },
         "Discplines": {
           "type": "relation",
@@ -604,7 +1053,43 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les serpents"
+          "text": "Les Disciples de Set, également appelés Setites, trouvent leurs origines dans un culte funéraire de l'Égypte antique. Au fil des millénaires, ce culte est devenu un clan prospère et influent. Qu'il s'agisse d'obtenir des secrets occultes oubliés ou de satisfaire les désirs les plus décadents, les Disciples de Set prétendent pouvoir exaucer toutes les ambitions de ceux qui viennent à eux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Maîtres de la manipulation, ils excellent à exploiter les faiblesses d'autrui afin d'accroître leur propre pouvoir. Les Setites vénèrent leur ancêtre Set, qu'ils considèrent comme le premier vampire. Selon leurs croyances, ils sont les seuls véritables descendants de Set, tandis que les autres clans ne seraient issus que de créatures inférieures devenues mortes-vivantes bien après son avènement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au cœur du clan se trouve une organisation religieuse entièrement consacrée au culte de son Antédiluvien, le tout-puissant Set des mythes égyptiens. La foi imprègne chaque aspect de leur existence, guidant leurs actions et donnant une direction commune à l'ensemble du clan. Malgré plusieurs schismes ayant donné naissance à des lignées telles que les Daitya, les Tlacique ou les Vipères, la majorité des Setites demeure unie par une même dévotion envers Set. Seuls les Setites ayant rejoint le Sabbat ont renoncé à cette foi, préférant vénérer Caïn et nier la divinité de Set."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une telle ferveur religieuse suscite naturellement de nombreux ennemis. La plupart des autres vampires considèrent les Disciples de Set comme des êtres à peine plus respectables que des infernalistes ayant vendu leur âme à une puissance inconnue. Il est vrai que les Setites excellent à proposer des marchés aussi séduisants que dangereux. Toutefois, ils respectent presque toujours les termes des accords qu'ils concluent. Malgré cela, ils demeurent largement craints et rarement dignes de confiance aux yeux des autres clans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Originaires d'Afrique du Nord, nombre de leurs anciens prétendent avoir été prêtres dans l'Égypte antique, utilisant cette ascendance prestigieuse pour asseoir leur autorité au sein du clan. De nos nuits, les Disciples de Set Étreignent des individus de toutes origines, privilégiant avant tout le charisme, la détermination et l'éloquence. La plupart sont d'abord initiés au culte de Set avant de recevoir l'Étreinte comme un don sacré destiné à servir leur dieu. Certains nouveaux-nés rejettent cependant cet enseignement et fuient les temples. Quelques-uns rejoignent alors le Mouvement Anarch, où ils recherchent la liberté vis-à-vis de leurs anciens — y compris la liberté de choisir leur propre foi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan s'est parfaitement adapté au monde moderne, abandonnant les apparences du passé comme un serpent mue de sa peau. Pourtant, derrière les colonnes dorées de leurs temples et les statues funéraires de l'Égypte antique, le culte de Set continue de prospérer dans l'ombre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Disciples de Set se rassemblent au sein de temples, généralement un par grande région. Chaque temple supervise un vaste réseau de cultes clandestins, de repaires criminels et de lieux voués aux plaisirs interdits, étendant ainsi l'influence du sacerdoce setite sur plusieurs territoires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le prestige d'un Setite dépend autant de la renommée du temple auquel il appartient que de sa position dans la hiérarchie religieuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le plus grand et le plus prestigieux des temples se situe en Afrique du Nord, où règne un puissant Mathusalem. Depuis ce sanctuaire, le Grand Prêtre transmet les décrets de Set aux temples inférieurs."
         },
         {
           "type": "heading_2",
@@ -612,7 +1097,19 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Setites sont vulnérables à la lumière intense :\n+1 dégât lorsqu’exposés au soleil et −2 à tous les tests en lumière vive (hors défense)"
+          "text": "Les Disciples de Set sont particulièrement vulnérables à la lumière vive."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ils subissent 1 point de dégâts supplémentaire lorsqu'ils sont exposés à la lumière du soleil."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toutes leurs réserves de test subissent un malus de -2 lorsqu'ils agissent sous une lumière vive, quelle qu'en soit la source."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les réserves de test défensives ne sont pas affectées par ce malus."
         }
       ]
     },
@@ -621,7 +1118,7 @@
       "slug": "toreador",
       "title": "Toréador",
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T11:44:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -630,6 +1127,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": ""
         },
         "Discplines": {
           "type": "relation",
@@ -655,7 +1156,47 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les dégénérés, le clan de la Rose, les divas, les artistes, les catins, les Arikélites, les hédonistes, les épicuriens, les pervers."
+          "text": "Les Toréadors sont les esthètes du monde vampirique, les plus beaux parmi les Damnés. Là où d'autres recherchent le pouvoir ou la connaissance, eux poursuivent avant tout la beauté sous toutes ses formes : une œuvre d'art, une musique parfaite, un amour passionné ou un instant d'émotion absolue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Artistes, écrivains, musiciens, mécènes ou créateurs, ils consacrent leur éternité à l'exploration des plaisirs esthétiques. Contrairement à la plupart des autres clans, les Toréadors demeurent profondément impliqués dans la société mortelle. Beaucoup vivent parmi les humains en se faisant passer pour des célébrités, des collectionneurs ou de riches mécènes, soutenant les artistes les plus prometteurs et influençant discrètement les courants culturels."
+        },
+        {
+          "type": "paragraph",
+          "text": "De ville en ville, de passion en passion, ils inspirent les plus grandes œuvres tout en laissant derrière eux une longue traînée d'amours brisées et de rêves inachevés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, une éternité passée à contempler la beauté finit souvent par engendrer la lassitude. Entourés de luxe et d'excès, de nombreux Toréadors deviennent blasés. Ils recherchent alors des sensations toujours plus rares et plus intenses, collectionnant œuvres, amants et trophées avec une avidité insatiable. Les plus anciens sombrent parfois dans une décadence profonde, multipliant les excès simplement pour éprouver encore quelque émotion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Toréadors affectionnent également la politique et les jeux de pouvoir, à condition d'occuper le sommet de la hiérarchie. Ils cultivent de véritables cultes de la personnalité, attirant autour d'eux admirateurs, protégés et artistes dépendants de leur mécénat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toujours à l'avant-garde des arts, de la mode et des tendances culturelles, ils organisent salons, réceptions et expositions afin d'afficher leur richesse, leur raffinement et leur influence. Ceux qui ne répondent pas à leurs standards deviennent rapidement la cible de leurs moqueries."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Toréadors méprisent particulièrement la laideur, la vulgarité et le manque de sensibilité artistique. Cette arrogance nourrit depuis des siècles une haine réciproque avec le clan Nosferatu, un conflit que rien ne semble pouvoir apaiser."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "La société toréador repose sur un réseau complexe de mécènes, de protégés et de cercles artistiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les talents émergents peuvent connaître une ascension fulgurante, mais également être abandonnés dès que leur éclat s'estompe. Les anciens les plus influents se livrent à une guerre politique permanente, détruisant les réputations de leurs rivaux avec autant d'élégance que de cruauté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les jeunes Toréadors sont rapidement plongés dans cet univers impitoyable où seuls ceux capables de naviguer parmi les intrigues sociales parviennent à survivre."
         },
         {
           "type": "heading_2",
@@ -663,7 +1204,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Toreador sont souvent fascinés par la beauté et l’art. Lorsque vous êtes confronté à une œuvre d’art, une performance ou quelque chose de beau qui vous intéresse particulièrement ou que vous n’avez jamais vu auparavant, vous devez lui accorder toute votre attention pendant une scène.\nUn Toreador peut résister à cette pulsion en dépensant un point de Volonté. Bien que des distractions comme des voix fortes ou une altercation proche puissent détourner votre attention, les Toreador détestent être interrompus lorsqu’ils contemplent l’art ou la beauté, et réagissent avec colère voire par la violence ou la frénésie."
+          "text": "Les Toréadors sont profondément sensibles à la beauté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'ils découvrent une œuvre d'art, assistent à une représentation ou contemplent quelque chose qu'ils jugent particulièrement beau ou qu'ils n'ont jamais vu auparavant, ils sont irrésistiblement captivés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils doivent consacrer toute leur attention à cette expérience pendant la durée de la scène."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le personnage peut résister à cette fascination en dépensant 1 point de Volonté."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Des événements extérieurs (cris, combat, danger immédiat, etc.) peuvent détourner momentanément son attention."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Toréadors détestent être interrompus lorsqu'ils contemplent une œuvre ou une beauté qui les captive. Une telle interruption provoque souvent chez eux une vive colère, pouvant aller jusqu'à la violence ou à la frénésie."
         }
       ]
     },
@@ -672,7 +1237,7 @@
       "slug": "tremere",
       "title": "Tremere",
       "notionUrl": "https://app.notion.com/p/Tremere-39388b48e48e8020bbe9c00213d83f59",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T11:46:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -681,6 +1246,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": ""
         },
         "Discplines": {
           "type": "relation",
@@ -722,7 +1291,43 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnom : Les sorciers, les usurpateurs, les hémétiques, les thaumaturges, les transgresseurs, le clan brisé, les mages de sang."
+          "text": "Parmi tous les clans vampiriques, les Tremere possèdent sans doute l'histoire la plus mystérieuse. Bien avant de devenir des vampires, ils formaient un ordre de puissants mages mortels spécialisés dans la magie hermétique. Grâce à leur ambition sans limite, à leur intelligence et à leurs intrigues, ils arrachèrent eux-mêmes l'immortalité et intégrèrent de force la société des Damnés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Encore aujourd'hui, les Tremere demeurent les maîtres incontestés de la sorcellerie du sang. Ils protègent jalousement leurs connaissances et ne transmettent leurs secrets qu'à ceux qu'ils jugent dignes de les recevoir. Cette maîtrise de la Thaumaturgie leur a permis d'accumuler une influence considérable, mais également de nombreux ennemis. Leur réputation est celle de manipulateurs érudits, capables d'utiliser aussi bien leur magie que leur sens politique pour parvenir à leurs fins."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fil des siècles, peu de clans ont commis autant d'atrocités que les Tremere. Pactes obscurs, expérimentations interdites et trahisons sanglantes jalonnent leur histoire. Pourtant, malgré cette réputation, ils demeurent l'une des puissances majeures du monde vampirique grâce à leurs alliances et au pouvoir irremplaçable de leur sorcellerie. Rares sont ceux qui osent se priver des services d'un thaumaturge."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les anciens sorciers vêtus de robes noires et armés de bâtons ont depuis longtemps disparu. Les Tremere modernes privilégient désormais une apparence sobre, élégante et professionnelle. Costumes impeccables, robes raffinées et accessoires de qualité remplacent les attributs traditionnels des mages, tandis que leur image s'adapte continuellement aux époques qu'ils traversent."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Tremere sont organisés selon une hiérarchie extrêmement stricte appelée la Pyramide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette structure rigide est dirigée par un conseil des plus puissants anciens du clan. Chaque membre y occupe un rang précisément défini, incarné par des titres tels qu'Apprenti, Seigneur ou Régent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les futurs Tremere ne sont jamais choisis au hasard. Les candidats sont d'abord sélectionnés parmi une population mortelle soigneusement surveillée. Ils deviennent ensuite goules, reçoivent une longue formation, sont soumis à de nombreuses épreuves, puis, s'ils sont jugés dignes, reçoivent finalement l'Étreinte avant d'intégrer le clan au rang d'Apprenti."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ascension au sein de la Pyramide exige autant de travail, de discipline et de loyauté que d'ambition... voire de trahison calculée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à de nombreux autres clans, les Tremere vivent rarement seuls. Ils résident ensemble dans des chantries, véritables sanctuaires thaumaturgiques où ils peuvent étudier, pratiquer leurs rituels et assurer leur protection mutuelle."
         },
         {
           "type": "heading_2",
@@ -730,7 +1335,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Le sang des Tremere présente des faiblesses et déséquilibres absents chez les autres clans. En raison de ces défauts, les Tremere deviennent plus facilement dépendants du sang d’autrui.\nIl suffit de deux prises de sang d’un autre vampire pour qu’un Tremere soit lié par le sang au lieu des trois habituelles, la première prise compte comme si le Tremere en avait bu deux."
+          "text": "Le Sang des Tremere présente une faiblesse unique qui les rend particulièrement vulnérables au Lien de Sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où la plupart des vampires nécessitent trois prises de sang pour être totalement liés, les Tremere succombent beaucoup plus rapidement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pour un Tremere, la première prise de Sang vampirique compte comme deux étapes dans la création d'un Lien de Sang."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Par conséquent, deux prises de Sang suffisent à créer un Lien de Sang complet, au lieu des trois normalement nécessaires."
         }
       ]
     },
@@ -739,7 +1360,7 @@
       "slug": "tzimices",
       "title": "Tzimices",
       "notionUrl": "https://app.notion.com/p/Tzimices-39388b48e48e807582c1e9bf4f4f8736",
-      "lastEditedTime": "2026-07-04T22:59:00.000Z",
+      "lastEditedTime": "2026-07-07T12:00:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -748,6 +1369,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Fiélons"
         },
         "Discplines": {
           "type": "relation",
@@ -789,7 +1414,43 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnom : Les Démons"
+          "text": "Depuis une époque antérieure à toute histoire écrite, les Tzimisces règnent sur les montagnes et les forteresses de l'Ancien Monde. Ils se tiennent volontairement à l'écart des sociétés mortelles, considérant les humains comme un simple bétail destiné à les nourrir ou à servir leurs expériences."
+        },
+        {
+          "type": "paragraph",
+          "text": "Seigneurs absolus de leurs domaines, les Tzimisces entretiennent un lien profond avec leurs terres et les anciennes forces mystiques qui les imprègnent. Jaloux et possessifs, ils défendent férocement leurs territoires contre toute intrusion. Leur société est organisée autour de lignées familiales, composées d'un sire et de ses descendants, où les Liens de Sang sont manipulés avec une cruauté et une maîtrise exceptionnelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les siècles passés dans leurs châteaux de pierre ont profondément transformé leur vision du monde. Grâce à leur maîtrise de la Vicissitude, ils façonnent la chair comme un sculpteur modèle l'argile. Cette discipline nourrit leur philosophie de la Métamorphose, selon laquelle le corps n'est qu'une enveloppe imparfaite qu'il convient de transformer afin d'approcher la véritable nature de l'âme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Détachés, méthodiques et profondément inhumains, les Tzimisces utilisent les mortels comme sujets d'expérimentation autant que comme source de nourriture. Une fois leur utilité épuisée, ils les abandonnent sans le moindre remords."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mystiques du clan possèdent également une vaste connaissance des esprits de la terre et pratiquent une magie ancestrale appelée Koldunisme. Ils protègent jalousement ces savoirs, en particulier contre les Tremere, qu'ils considèrent comme des usurpateurs ayant dérobé une partie de leur héritage mystique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Tzimisces méprisent les autres clans, qu'ils jugent faibles et indignes. Pour afficher cette supériorité, beaucoup transforment leur propre corps en véritables œuvres d'art monstrueuses, se parant de cornes, d'excroissances osseuses ou de vêtements façonnés dans la chair vivante."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Tzimisces accordent très difficilement leur confiance aux autres vampires. Convaincus que tous convoitent leurs secrets, ils vivent en petits groupes familiaux solidement soudés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque lignée est généralement établie autour d'une forteresse ancestrale dans l'Ancien Monde ou d'un domaine nouvellement acquis ailleurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "À la tête de chaque famille règne un voïvode, dont l'autorité sur son territoire est absolue. Au sein de son domaine, sa parole fait loi."
         },
         {
           "type": "heading_2",
@@ -797,7 +1458,23 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Tzimisce sont intrinsèquement liés à leur terre d’origine et doivent se reposer à proximité d’au moins deux poignées de leur sol natal, une terre provenant d’un lieu important de leur vie mortelle, comme leur lieu de naissance ou le cimetière où ils ont subi l’Étreinte.\nChaque jour passé sans ce lien physique inflige un malus cumulatif de -1 à tous les tests d’attaque du Tzimisce (maximum -5). Ces pénalités persistent jusqu’à ce qu’il se repose une journée complète dans sa terre."
+          "text": "Les Tzimisces sont mystiquement liés à leur terre d'origine."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils doivent impérativement dormir à proximité d'au moins deux poignées de terre provenant d'un lieu important de leur vie mortelle, comme leur lieu de naissance ou le cimetière où ils reçurent l'Étreinte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chaque nuit passée sans ce contact avec leur terre natale leur inflige un malus cumulatif de -1 à tous leurs tests d'attaque, jusqu'à un maximum de 5."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ces pénalités persistent jusqu'à ce que le Tzimisce passe une journée complète de repos en contact avec sa terre d'origine."
         }
       ]
     },
@@ -806,7 +1483,7 @@
       "slug": "ventrue",
       "title": "Ventrue",
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
-      "lastEditedTime": "2026-07-04T23:02:00.000Z",
+      "lastEditedTime": "2026-07-07T12:00:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -815,6 +1492,10 @@
         "Handicaps de Clan": {
           "type": "relation",
           "value": []
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Rois"
         },
         "Discplines": {
           "type": "relation",
@@ -862,7 +1543,51 @@
         },
         {
           "type": "paragraph",
-          "text": "Surnoms : Les Roys, les sang bleus, les chevaliers, les tyrans, les seigneurs de guerre, les patriciens, les Borgias, le culte de Mithras."
+          "text": "Là où les autres clans s'adonnent aux intrigues, à la philosophie ou aux arts, les Ventrues poursuivent un seul objectif : le pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Régner est dans leur nature. Rares sont ceux qui ne ressentent pas le besoin instinctif de diriger, d'organiser et de gouverner. Héritiers d'une lignée de souverains remontant à une époque antérieure à l'Empire romain, les Ventrues considèrent qu'il est de leur droit naturel de façonner le destin du monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette ambition ne se limite pas à la société vampirique. Depuis toujours, les Ventrues influencent également les affaires des mortels, faisant et défaisant les royaumes, les gouvernements, les entreprises ou les empires économiques selon leurs intérêts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au sein du clan, la notion de dignitas occupe une place centrale. Fondée sur l'honneur, le respect, la retenue et le sens du devoir, cette vertu constitue le fondement de la noblesse ventrue. Ceux qui en maîtrisent les subtilités gravissent rapidement les échelons de la société des Rois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ventrues sont cultivés, stratèges et parfaitement éduqués. Ils manient aussi aisément la plume que l'épée. Conservateurs et calculateurs, ils refusent généralement de laisser leurs émotions guider leurs décisions. Chaque choix est pesé à l'aune du pouvoir qu'il permet d'acquérir ou de conserver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fil des siècles, leur conception de la royauté a naturellement évolué. Les couronnes ont laissé place aux conseils d'administration. Les royaumes sont devenus des multinationales, des banques et des groupes industriels. Aujourd'hui, de nombreux Ventrues dirigent des empires financiers plutôt que des territoires, exerçant leur domination depuis les sommets du monde économique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan choisit soigneusement ses infantés parmi ceux qui ont déjà démontré leur capacité à diriger : chefs militaires, dirigeants d'entreprise, hauts fonctionnaires, investisseurs, grandes fortunes ou figures politiques rejoignent ainsi les anciens rois et reines dans les rangs du clan."
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès son Étreinte, chaque Ventrue apprend précisément sa généalogie vampirique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Connaître sa lignée est une obligation, et tout membre du clan doit être capable de réciter parfaitement son ascendance lorsqu'un ancien l'exige."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'organisation interne repose toujours sur les principes de la féodalité, bien que ceux-ci aient évolué avec les siècles. Les anciennes relations de suzeraineté et de vassalité coexistent désormais avec les contrats commerciaux, les rachats d'entreprises et les méthodes modernes de gestion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les serments d'allégeance demeurent au cœur du fonctionnement du clan, même lorsqu'ils prennent aujourd'hui la forme d'accords financiers ou d'obligations contractuelles."
         },
         {
           "type": "heading_2",
@@ -870,7 +1595,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Ventrue ont des goûts extrêmement raffinés en matière de sang. Chaque Ventrue ne peut se nourrir que d’un type très spécifique de sang mortel, et ne tire aucune subsistance d’un autre.\nLors de la création du personnage, ce type doit être défini avec le Conteur. Cette catégorie doit être étroite : moins d’une personne sur dix doit correspondre à ce critère. Ce choix est permanent.\nLe sang d’un autre type (y compris animal) ne nourrit pas le vampire. Quelle que soit la quantité consommée, sa réserve de sang n’augmente pas, et il vomit immédiatement ce sang.\nLe sang des créatures surnaturelles (comme celui des vampires) n’est pas concerné et peut nourrir normalement.\nSi un Ventrue est contraint de se nourrir en territoire inconnu, il doit dépenser une AIP Nourriture supplémentaire pour entrer en jeu avec une réserve de sang complète."
+          "text": "Chaque Ventrue possède un goût extrêmement exclusif en matière de sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, le joueur définit, avec l'accord du Conteur, une catégorie très précise de mortels dont le sang est le seul capable de nourrir son personnage. Cette catégorie doit rester relativement rare : moins d'une personne sur dix devrait correspondre à ce critère. Ce choix est définitif."
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun Point de Sang."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Après l'avoir consommé, le Ventrue le vomit immédiatement, sans en retirer le moindre bénéfice."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le sang des créatures surnaturelles (notamment celui des autres vampires) n'est pas soumis à cette restriction et nourrit normalement le Ventrue, même si ces créatures ne correspondent pas à son régime alimentaire."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une action d'inter-partie supplémentaire pour commencer la partie avec une réserve de Sang complète."
         }
       ]
     }
