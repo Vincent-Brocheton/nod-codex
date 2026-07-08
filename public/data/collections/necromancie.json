@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "Informations sur les rituels de nécromancie",
   "notionDatabaseId": "39088b48-e48e-80f7-b261-df57f306e6a1",
-  "generatedAt": "2026-07-08T07:25:38.572Z",
+  "generatedAt": "2026-07-08T10:05:52.189Z",
   "propertyOptions": {
     "Niveau": [
       "5",
@@ -20,7 +20,7 @@
       "slug": "necro",
       "title": "Nécro",
       "notionUrl": "https://app.notion.com/p/N-cro-39188b48e48e805f826fc986fff77fd1",
-      "lastEditedTime": "2026-07-02T12:35:00.000Z",
+      "lastEditedTime": "2026-07-08T10:05:00.000Z",
       "properties": {
         "Cout en point de sang": {
           "type": "number",
@@ -43,6 +43,30 @@
         {
           "type": "heading_2",
           "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "[[clans]]",
+          "spans": [
+            {
+              "text": "Clans",
+              "path": "/clans"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "[[clans|Avec un autre Texte]]",
+          "spans": [
+            {
+              "text": "Avec un autre Texte",
+              "path": "/clans"
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "[[Brujah]]"
         }
       ]
     }
