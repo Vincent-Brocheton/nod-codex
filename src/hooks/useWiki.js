@@ -1,5 +1,6 @@
 import useManifest from "./useManifest";
 import useCollections from "./useCollections";
+import useGlobalSearch from "./useGlobalSearch";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useNavigation from "./useNavigation";
@@ -17,9 +18,10 @@ export default function useWiki({
     const collections = useCollections(
         manifest,
         navigation.activeNavigation,
-        { section, slug },
-        query
+        { section, slug }
     );
+
+    const globalSearch = useGlobalSearch(manifest, query);
 
     const navigate = useNavigate();
 
@@ -40,6 +42,7 @@ export default function useWiki({
         collections,
         open,
         navigation,
+        globalSearch,
         search: {
             query,
             setQuery,

@@ -19,7 +19,9 @@ function HomePage() {
         slug,
     });
 
-    // Referme le menu mobile à chaque changement de route, en ajustant l'état
+    // Referme le menu mobile et efface une recherche active à chaque
+    // changement de route (sinon un clic sur un lien de la sidebar pendant
+    // une recherche resterait bloqué sur les résultats), en ajustant l'état
     // pendant le rendu plutôt que dans un effet (évite un rendu en cascade).
     const routeKey = `${section}/${slug}/${collectionKey}/${groupValue}`;
     const [prevRouteKey, setPrevRouteKey] = useState(routeKey);
@@ -27,6 +29,7 @@ function HomePage() {
     if (routeKey !== prevRouteKey) {
         setPrevRouteKey(routeKey);
         setNavOpen(false);
+        wiki.search.setQuery("");
     }
 
     if (wiki.error) {

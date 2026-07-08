@@ -2,9 +2,8 @@ import {useEffect, useState} from "react";
 import {getCollection} from "../services/wikiServices";
 import {findPageBySlug} from "../../shared/page";
 import groupCollections from "../utils/groupCollections";
-import searchableText from "../utils/searchableText";
 
-export default function useCollections(manifest, activeNavigation, route, query) {
+export default function useCollections(manifest, activeNavigation, route) {
     const [loadedCollections, setLoadedCollections] = useState({});
     const [activeCollectionKeys, setActiveCollectionKeys] = useState([]);
     const [activeItemId, setActiveItemId] = useState("");
@@ -12,9 +11,6 @@ export default function useCollections(manifest, activeNavigation, route, query)
     const groupedCollections = groupCollections(
         manifest.collections
     );
-
-    const normalizedQuery =
-        query.trim().toLowerCase();
 
     /**
      * Sélectionne la collection active
@@ -146,17 +142,7 @@ export default function useCollections(manifest, activeNavigation, route, query)
         )
         .find(item => item.id === activeItemId) ?? null;
 
-    const visibleItems = (() => {
-        if (!activeCollection) return [];
-
-        if (!normalizedQuery) {
-            return activeCollection.items;
-        }
-
-        return activeCollection.items.filter((item) =>
-            searchableText(activeCollection, item).includes(normalizedQuery)
-        );
-    })();
+    const visibleItems = activeCollection?.items ?? [];
 
     function selectCollections(collectionKeys) {
 

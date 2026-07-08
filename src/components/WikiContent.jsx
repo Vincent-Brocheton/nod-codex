@@ -3,16 +3,22 @@ import DetailPanel from "./DetailPanel";
 import RitualsView from "./views/RitualsView";
 import MeritsFlawsView from "./views/MeritsFlawsView";
 import SectionIndexView from "./views/SectionIndexView";
+import SearchResultsView from "./views/SearchResultsView";
 import PageRenderer from "./PageRenderer";
 
 /**
  * Choisit ce qu'il faut afficher à droite de la sidebar, selon le type de
  * page et, pour les collections, sa "view" et la présence d'un slug dans
- * l'URL (fiche précise vs simple index).
+ * l'URL (fiche précise vs simple index). Une recherche active prend le pas
+ * sur tout le reste, quelle que soit la section affichée.
  */
 export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     const { activeNavigation } = wiki.navigation;
+
+    if (wiki.search.query.trim()) {
+        return <SearchResultsView wiki={wiki} />;
+    }
 
     if (activeNavigation?.type !== "collection") {
         return (
