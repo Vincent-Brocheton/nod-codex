@@ -158,9 +158,11 @@ export default function GroupedRuleView({
                         <h1>{activeItem.title}</h1>
                     </header>
 
-                    {singleItemStatFields ? <StatBlock item={activeItem} fields={singleItemStatFields} /> : null}
-                    {singleItemRelatedGroups ? <RelatedGroups item={activeItem} groups={singleItemRelatedGroups} /> : null}
-                    <ItemDetailBody item={activeItem} hideProperties={Boolean(singleItemStatFields || singleItemRelatedGroups)} />
+                    <div className="detailCard">
+                        {singleItemStatFields ? <StatBlock item={activeItem} fields={singleItemStatFields} /> : null}
+                        {singleItemRelatedGroups ? <RelatedGroups item={activeItem} groups={singleItemRelatedGroups} /> : null}
+                        <ItemDetailBody item={activeItem} hideProperties={Boolean(singleItemStatFields || singleItemRelatedGroups)} />
+                    </div>
 
                 </article>
             </div>

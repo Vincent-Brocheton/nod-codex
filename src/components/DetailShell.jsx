@@ -39,7 +39,9 @@ export default function DetailShell({ wiki, backPath, backLabel = "Retour à la 
                 <h1>{activeItem.title}</h1>
             </header>
 
-            {children(activeItem)}
+            <div className="detailCard">
+                {children(activeItem)}
+            </div>
 
         </article>
     );
