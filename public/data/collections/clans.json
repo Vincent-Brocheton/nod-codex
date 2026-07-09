@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-09T15:18:20.892Z",
+  "generatedAt": "2026-07-09T17:05:05.925Z",
   "propertyOptions": {},
   "items": [
     {
@@ -20,7 +20,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-caste",
+              "title": "Double Caste",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "sang-dilue",
+              "title": "Sang Dilué",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "intact",
+              "title": "Intact",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -54,8 +73,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "eveil-de-l-acier",
-              "title": "Eveil de l’Acier",
+              "slug": "reveil-de-l-acier",
+              "title": "Réveil de l’Acier",
               "cout": "3"
             },
             {
@@ -75,6 +94,30 @@
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
               "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "le-chuchoteur-de-lame",
+              "title": "Le chuchoteur de lame",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "doue-en-thaumaturgie",
+              "title": "Doué en Thaumaturgie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "benediction-de-bane",
+              "title": "Bénédiction de Bane",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "toile-de-couteaux",
+              "title": "Toile de couteaux",
+              "cout": null
             }
           ]
         },
@@ -224,7 +267,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "froidement-logique",
+              "title": "Froidement logique",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "bete-lache",
+              "title": "Bête lâche",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "incontrolable",
+              "title": "Incontrôlable",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -279,6 +341,24 @@
               "slug": "fraternite",
               "title": "Fraternité",
               "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "point-de-rupture",
+              "title": "Point de Rupture",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "coeur-de-fer",
+              "title": "Coeur de Fer",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fervent-iconoclaste",
+              "title": "Fervent Iconoclaste",
+              "cout": "3"
             }
           ]
         },
@@ -375,7 +455,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "analphabete-des-disciplines",
+              "title": "Analphabète des Disciplines",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "malchance",
+              "title": "Malchance",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "aura-noircie",
+              "title": "Aura noircie",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -439,8 +538,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "auspice-favorable",
-              "title": "Auspice Favorable",
+              "slug": "propice",
+              "title": "Propice",
               "cout": "1"
             },
             {
@@ -451,8 +550,26 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "vestige-de-grandeur",
-              "title": "Vestige de Grandeur",
+              "slug": "vestige-de-la-grandeur",
+              "title": "Vestige de la Grandeur",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "adaptatif",
+              "title": "Adaptatif",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fragment-restant",
+              "title": "Fragment restant",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "incepteur",
+              "title": "Incepteur",
               "cout": "3"
             }
           ]
@@ -534,7 +651,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "tous-mes-amis-sont-morts",
+              "title": "Tous mes amis sont morts",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "inepte-du-voile",
+              "title": "Inepte du Voile",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "marcheur-de-l-ombre",
+              "title": "Marcheur de l’Ombre",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -568,8 +704,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "executeur",
-              "title": "Exécuteur",
+              "slug": "competent",
+              "title": "Compétent",
               "cout": "2"
             },
             {
@@ -586,8 +722,26 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "serviteur-spectral",
-              "title": "Serviteur Spectral",
+              "slug": "serviteur-fantome",
+              "title": "Serviteur Fantôme",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-ritualiste-giovanni",
+              "title": "Maître ritualiste (Giovanni)",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "courtier-en-puissance",
+              "title": "Courtier en puissance",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "economie-des-ames",
+              "title": "Economie des Âmes",
               "cout": "3"
             }
           ]
@@ -745,7 +899,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "reflet-de-mort",
+              "title": "Reflet de mort",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "insubordination",
+              "title": "Insubordination",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "mepris-de-mangha",
+              "title": "Mépris de Mangha",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -785,8 +958,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "marcher-dans-l-abysse",
-              "title": "Marcher dans l’Abysse",
+              "slug": "parcours-l-abysse",
+              "title": "Parcours l’Abysse",
               "cout": "3"
             },
             {
@@ -800,6 +973,18 @@
               "slug": "visage-angelique",
               "title": "Visage Angélique",
               "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "elite-sociale",
+              "title": "Elite sociale",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "confesseur-de-confiance",
+              "title": "Confesseur de confiance",
+              "cout": "2"
             }
           ]
         },
@@ -896,7 +1081,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "fetiche-alimentaire",
+              "title": "Fétiche alimentaire",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "fan-numero-un",
+              "title": "Fan numéro un",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "surstimule",
+              "title": "Surstimulé",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -957,6 +1161,24 @@
               "slug": "sophistique",
               "title": "Sophistiqué",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "force-de-la-folie",
+              "title": "Force de la folie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "malkav-time",
+              "title": "Malkav Time",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "methode-de-la-folie",
+              "title": "Méthode de la folie",
+              "cout": "3"
             }
           ]
         },
@@ -1062,7 +1284,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "anosomie",
+              "title": "Anosomie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "sang-fetide",
+              "title": "Sang fétide",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "infestation-parasitaire",
+              "title": "Infestation parasitaire",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1096,8 +1337,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "adaptation-contre-nature",
-              "title": "Adaptation contre nature",
+              "slug": "adaptation-non-naturel",
+              "title": "Adaptation non naturel",
               "cout": "4"
             },
             {
@@ -1108,14 +1349,32 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "oeil-aveugle",
-              "title": "Oeil Aveugle",
+              "slug": "l-oeil-aveugle",
+              "title": "L’Oeil Aveugle",
               "cout": "1"
             },
             {
               "collectionKey": "atouts",
               "slug": "sang-maleable",
               "title": "Sang Maléable",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sous-les-radars",
+              "title": "Sous les Radars",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "douloureusement-timide",
+              "title": "Douloureusement timide",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "compagnon-ardent",
+              "title": "Compagnon Ardent",
               "cout": "3"
             }
           ]
@@ -1205,7 +1464,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "bas-et-sale",
+              "title": "Bas et sale",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "temperament-de-tempete",
+              "title": "Tempérament de tempête",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "physiologie-serpentine",
+              "title": "Physiologie serpentine",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1266,6 +1544,24 @@
               "slug": "sorcellerie-setite",
               "title": "Sorcellerie Setite",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fleau-des-eons",
+              "title": "Fléau des éons",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "mue-du-serpent",
+              "title": "Mue du serpent",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-vodou",
+              "title": "Maître Vodou",
+              "cout": "3"
             }
           ]
         },
@@ -1363,7 +1659,7 @@
       "slug": "toreador",
       "title": "Toréador",
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
-      "lastEditedTime": "2026-07-07T11:44:00.000Z",
+      "lastEditedTime": "2026-07-09T17:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -1371,15 +1667,53 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "sans-art",
+              "title": "Sans art",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "obsession",
+              "title": "Obsession",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "art-vivant",
+              "title": "Art vivant",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
-          "value": ""
+          "value": "Le clan de la Rose"
         },
         "Discplines": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité",
+              "cout": null
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null
+            }
+          ]
         },
         "Atouts de clan": {
           "type": "relation",
@@ -1401,6 +1735,36 @@
               "slug": "lignee-volgirre",
               "title": "Lignée : Volgirre",
               "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "beaute-immorale",
+              "title": "Beauté immorale",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "couleurs-plus-vives",
+              "title": "Couleurs plus vives",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "influence-abstente",
+              "title": "Influence Abstente",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "rhapsodie-ephemere",
+              "title": "Rhapsodie éphémère",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "la-grace-du-danseur",
+              "title": "La grâce du Danseur",
+              "cout": "4"
             }
           ]
         },
@@ -1509,7 +1873,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "compostantes-de-sorts",
+              "title": "Compostantes de sorts",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "pedant",
+              "title": "Pédant",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "deux-fois-lie-au-conseil",
+              "title": "Deux fois lié au Conseil",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1563,6 +1946,24 @@
               "collectionKey": "atouts",
               "slug": "talisman",
               "title": "Talisman",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-ritualiste-tremere",
+              "title": "Maître Ritualiste (Tremere)",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "magie-rapide",
+              "title": "Magie rapide",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lanceur-de-sort",
+              "title": "Lanceur de sort",
               "cout": "3"
             }
           ]
@@ -1660,7 +2061,26 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "humble-jardinier",
+              "title": "Humble jardinier",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "faiblesse-de-famille-revenant",
+              "title": "Faiblesse de famille revenant",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "tissu-cicatriciel",
+              "title": "Tissu cicatriciel",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1706,8 +2126,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "sang-des-tzimices",
-              "title": "Sang des Tzimices",
+              "slug": "sang-du-tzimices",
+              "title": "Sang du Tzimices",
               "cout": "1"
             },
             {
@@ -1715,6 +2135,24 @@
               "slug": "szlachta",
               "title": "Szlachta",
               "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "comportement-polymorphe",
+              "title": "Comportement polymorphe",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "la-vacuite-de-la-foi",
+              "title": "La vacuité de la foi",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "vozhd",
+              "title": "Vozhd",
+              "cout": "3"
             }
           ]
         },
@@ -1811,7 +2249,20 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "non-serviram",
+              "title": "Non-serviram",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "suiveur",
+              "title": "Suiveur",
+              "cout": "3"
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1845,8 +2296,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "aura-d-autorite",
-              "title": "Aura d’autorité",
+              "slug": "aura-de-commandement",
+              "title": "Aura de commandement",
               "cout": "1"
             },
             {
@@ -1863,9 +2314,27 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "prestance-royale",
-              "title": "Prestance Royale",
+              "slug": "allure-royale",
+              "title": "Allure Royale",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "le-devoir-des-rois",
+              "title": "Le devoir des rois",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "royaute-ventrue",
+              "title": "Royauté Ventrue",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "primaute-du-sang",
+              "title": "Primauté du sang",
+              "cout": "3"
             }
           ]
         },

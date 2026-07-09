@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-09T15:18:20.892Z",
+  "generatedAt": "2026-07-09T17:05:05.926Z",
   "propertyOptions": {},
   "items": [
     {
@@ -16,7 +16,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "fetiche-alimentaire",
+              "title": "Fétiche alimentaire",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "fan-numero-un",
+              "title": "Fan numéro un",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "surstimule",
+              "title": "Surstimulé",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -82,6 +101,42 @@
               "slug": "sophistique",
               "title": "Sophistiqué",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "force-de-la-folie",
+              "title": "Force de la folie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "objet-de-pouvoir",
+              "title": "Objet de pouvoir",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "malkav-time",
+              "title": "Malkav Time",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "memento-mori",
+              "title": "Memento Mori",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "methode-de-la-folie",
+              "title": "Méthode de la folie",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "death-become-you",
+              "title": "Death become you",
+              "cout": "3"
             }
           ]
         },
@@ -166,7 +221,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "fetiche-alimentaire",
+              "title": "Fétiche alimentaire",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "fan-numero-un",
+              "title": "Fan numéro un",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "surstimule",
+              "title": "Surstimulé",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -226,6 +300,42 @@
               "slug": "sophistique",
               "title": "Sophistiqué",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "force-de-la-folie",
+              "title": "Force de la folie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "quixotic",
+              "title": "Quixotic",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "malkav-time",
+              "title": "Malkav Time",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "vigilence-surnaturel",
+              "title": "Vigilence Surnaturel",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "methode-de-la-folie",
+              "title": "Méthode de la folie",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "chasseur-de-folie",
+              "title": "Chasseur de folie",
+              "cout": "3"
             }
           ]
         },
@@ -298,7 +408,20 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "non-serviram",
+              "title": "Non-serviram",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "suiveur",
+              "title": "Suiveur",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -343,8 +466,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "aura-d-autorite",
-              "title": "Aura d’autorité",
+              "slug": "aura-de-commandement",
+              "title": "Aura de commandement",
               "cout": "1"
             },
             {
@@ -361,9 +484,45 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "prestance-royale",
-              "title": "Prestance Royale",
+              "slug": "allure-royale",
+              "title": "Allure Royale",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "le-devoir-des-rois",
+              "title": "Le devoir des rois",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "naissance-noble",
+              "title": "Naissance Noble",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "royaute-ventrue",
+              "title": "Royauté Ventrue",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "force-d-honneur",
+              "title": "Force d’honneur",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "primaute-du-sang",
+              "title": "Primauté du sang",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "dur-comme-de-l-acier",
+              "title": "Dur comme de l’acier",
+              "cout": "3"
             }
           ]
         },
@@ -448,7 +607,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-caste",
+              "title": "Double Caste",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "sang-dilue",
+              "title": "Sang Dilué",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "intact",
+              "title": "Intact",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -493,8 +671,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "eveil-de-l-acier",
-              "title": "Eveil de l’Acier",
+              "slug": "reveil-de-l-acier",
+              "title": "Réveil de l’Acier",
               "cout": "3"
             },
             {
@@ -508,6 +686,24 @@
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
               "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "doue-en-thaumaturgie",
+              "title": "Doué en Thaumaturgie",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "la-resilience-du-juge",
+              "title": "La résilience du juge",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fabricant-de-talisman",
+              "title": "Fabricant de Talisman",
+              "cout": "3"
             }
           ]
         },
@@ -568,7 +764,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "bas-et-sale",
+              "title": "Bas et sale",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "temperament-de-tempete",
+              "title": "Tempérament de tempête",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "physiologie-serpentine",
+              "title": "Physiologie serpentine",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -634,6 +849,24 @@
               "slug": "sorcellerie-setite",
               "title": "Sorcellerie Setite",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fleau-des-eons",
+              "title": "Fléau des éons",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "mue-du-serpent",
+              "title": "Mue du serpent",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-vodou",
+              "title": "Maître Vodou",
+              "cout": "3"
             }
           ]
         },
@@ -694,7 +927,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "bas-et-sale",
+              "title": "Bas et sale",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "temperament-de-tempete",
+              "title": "Tempérament de tempête",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "physiologie-serpentine",
+              "title": "Physiologie serpentine",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -760,6 +1012,42 @@
               "slug": "sorcellerie-setite",
               "title": "Sorcellerie Setite",
               "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fleau-des-eons",
+              "title": "Fléau des éons",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "etreinte-serpentine",
+              "title": "Etreinte Serpentine",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "mue-du-serpent",
+              "title": "Mue du serpent",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "ecailles-de-fer",
+              "title": "Ecailles de fer",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-vodou",
+              "title": "Maître Vodou",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "bete-typhonique",
+              "title": "Bête Typhonique",
+              "cout": "3"
             }
           ]
         },
@@ -820,7 +1108,26 @@
       "properties": {
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-caste",
+              "title": "Double Caste",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "sang-dilue",
+              "title": "Sang Dilué",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "intact",
+              "title": "Intact",
+              "cout": "3"
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -865,8 +1172,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "eveil-de-l-acier",
-              "title": "Eveil de l’Acier",
+              "slug": "reveil-de-l-acier",
+              "title": "Réveil de l’Acier",
               "cout": "3"
             },
             {
@@ -880,6 +1187,24 @@
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
               "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "etude-obsessionnelle",
+              "title": "Etude obsessionnelle",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "secret-du-sang",
+              "title": "Secret du sang",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "epreuves-du-sang",
+              "title": "Epreuves du Sang",
+              "cout": "3"
             }
           ]
         },
