@@ -4,8 +4,85 @@
   "group": "Rituels",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-80ce-b46b-dd1a2b4aebea",
-  "generatedAt": "2026-07-09T17:05:05.930Z",
+  "generatedAt": "2026-07-09T18:13:23.925Z",
   "propertyOptions": {
+    "Ingrédients": [
+      "1 pts de sang de la cible",
+      "1 flamme vive",
+      "Un récipent",
+      "Autant de votre sang que necessaire",
+      "1 pts de votre sang",
+      "1 écharde",
+      "Nom de naissance de la cible ou un portrait réalisé par quelqu'un avec au moins 2 pts d'artisanat",
+      "1 mêche de cheveux ou du sang de la cible",
+      "Une image de la cible",
+      "Une meche de cheveux de la cible",
+      "un ruban de soie noire",
+      "L'objet impacté",
+      "4 litres de vin rouge",
+      "1 points de sang tout les 5 jours",
+      "1 brasero",
+      "3 plume arrachées d'un oiseau vivant",
+      "1 brasero de pierre",
+      "3 points de sang",
+      "1 galet",
+      "1 récipent",
+      "1 flamme nue",
+      "1 peau de serpent",
+      "1 objet a offrir",
+      "une sculpture d'équilibre à partir de pierres de taille non raffinées",
+      "une plume plongée dans le sang d’un homme « bon »",
+      "du sang",
+      "de l'eau",
+      "de la terre de votre sol ancestral",
+      "1 chaudron en fonte",
+      "un serpent venimeux",
+      "un cristal de quartz parfaitement clair",
+      "1 petit feu",
+      "1 lame",
+      "1 cercle de 13 bougies",
+      "1 poignée de la terre de la ville de votre naissance mortelle",
+      "2 pts de votre sang",
+      "encens",
+      "Un récipient en terre cuite",
+      "1 oiseau"
+    ],
+    "Temps de préparation": [
+      "5 minutes",
+      "10 minutes",
+      "30 jours",
+      "3 heures"
+    ],
+    "Durée": [
+      "1 nuit",
+      "1 heure",
+      "Jusqu'a destruction du contenant",
+      "Jusqu'a destruction de la sphère",
+      "Jusqu'a la première tentative de pieutage",
+      "1 nuit ou si dépense d'AIP 1 an et 1 jour",
+      "Le temps que vous etes dans la pièce",
+      "Jusqu'a l'aube",
+      "Infini",
+      "50 ans",
+      "1 an",
+      "Jusqu'a consomation",
+      "Instantanée",
+      "24 heures",
+      "30 jours",
+      "Jusqu'a déplacement ou destruction de l'objet",
+      "1 mois",
+      "1 jour",
+      "Jusqu'a activation",
+      "30 minutes",
+      "1 minute",
+      "Jusqu'a ouverture ou destruction de l'objet"
+    ],
+    "Restriction": [
+      "Koldun",
+      "Sorcier Setite",
+      "Sorcier Assamite",
+      "Tremere"
+    ],
     "Niveau": [
       "5",
       "4",
@@ -16,19 +93,145 @@
   },
   "items": [
     {
-      "id": "39188b48-e48e-80ff-b83f-da9a9658f073",
-      "slug": "oups",
-      "title": "Oups",
-      "notionUrl": "https://app.notion.com/p/Oups-39188b48e48e80ffb83fda9a9658f073",
-      "lastEditedTime": "2026-07-02T12:34:00.000Z",
+      "id": "39888b48-e48e-809c-b770-cbd0aeac7386",
+      "slug": "baiser-de-l-aspic",
+      "title": "Baiser de l’aspic",
+      "notionUrl": "https://app.notion.com/p/Baiser-de-l-aspic-39888b48e48e809cb770cbd0aeac7386",
+      "lastEditedTime": "2026-07-09T17:53:00.000Z",
       "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "un serpent venimeux"
+          ]
+        },
         "Temps de préparation": {
-          "type": "text",
-          "value": ""
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
         },
         "Couts en points de sang": {
-          "type": "number",
-          "value": null
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Sorcier Assamite"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Baiser de l’aspic"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a des centaines d'années, la rumeur disait que ce rituel était utilisé dans un but bien différent. Aujourd'hui, les praticiens modernes ingèrent le sang et le venin d'un serpent venimeux, de préférence une vipère égyptienne, de manière à ce que le venin contenu dans leur sang puisse par la suite aveugler leurs adversaires."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir préparé rituellement un serpent venimeux, on le vide de tout son sang et on ingère son venin. La toxicité du venin doit être d'au moins 10. La plupart des Assamites loyalistes de la caste des sorciers préfèrent utiliser des vipères égyptiennes ou d'autres serpents cracheurs, tandis que les sorciers assamites Anarch ne jurent que par le serpent à sonnette. Une fois le sort lancé, et pour le reste de la nuit, chaque fois que vous utilisez l'une des options d'attaque de la Discipline Quietus 5 : Goût de la Mort, l'attaque compte également comme une attaque aveuglante sans qu'il soit nécessaire de dépenser un point de Volonté. De plus, cela n'entraîne pas de réduction des dégâts ni de pénalité à votre pool de tests. Malheureusement, la magie venimeuse n'est pas assez puissante pour survivre hors du corps assez longtemps pour être utilisée pour enduire des armes."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801b-b090-ff12711a78a2",
+      "slug": "banni-big-brother",
+      "title": "Banni Big Brother",
+      "notionUrl": "https://app.notion.com/p/Banni-Big-Brother-39888b48e48e801bb090ff12711a78a2",
+      "lastEditedTime": "2026-07-09T17:36:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Banni Big Brother"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Georges Orwell avait prédit le futur. Big Brother est partout. Les cameras espionnent chacun de vos mouvements. Ce rituel vous permet d’avoir un bref moment de répit face à cette surveillance constante."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "On prétend que les Anarchs sont à l’origine de ce rituel moderne. Le rituel permet au thaumaturge de détecter et potentiellement annuler toute technologie dans son champ de vision. Vous pouvez ainsi couper les micros, désactiver les caméras de surveillance et bien plus encore, cependant vous ne pouvez pas affecter un appareil de détection à distance tels que les satellites. Jusqu’au lever du soleil vous sentez lorsque l’on vous surveille par l’entremise d’un moyen de surveillance et vous pouvez ainsi le désactiver. Les appareils d’enregistrement cessent de fonctionner pendant une heure, et reviennent à leur état normal au bout de ce temps."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801c-9a4f-e9dffd5abad6",
+      "slug": "betise-humaine",
+      "title": "Bêtise Humaine",
+      "notionUrl": "https://app.notion.com/p/B-tise-Humaine-39888b48e48e801c9a4fe9dffd5abad6",
+      "lastEditedTime": "2026-07-09T17:27:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 mêche de cheveux ou du sang de la cible"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
         },
         "Niveau": {
           "type": "select",
@@ -36,13 +239,2068 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Oups"
+          "value": "Bêtise Humaine"
         }
       },
       "content": [
         {
           "type": "heading_2",
           "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'une des plus grandes faiblesses de l'humanité est son désir d’immortalité. En effet, la peur de la mort est une puissante motivation pour le commun des mortels à chercher le surnaturel. En tant qu'immortel pratiquant la magie du sang, vous avez la capacité de donner un aperçu du domaine de l'immortalité, en donnant à un mortel le goût de la chose même qu'il désire, avec tous les inconvénients qui en découlent."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, vous devez disposer d'une mèche de cheveux ou du sang de votre cible, mortel ou goule, et remporter un challenge en opposition. Si votre cible se trouve à moins d'un kilomètre de vous, vous pouvez lui infliger l'une des malédictions courantes associées au vampirisme. En conséquence, votre cible gagne l'un des handicaps suivants pour la durée de la soirée (voir Atout et Handicap) : Incapacité à Traverser l’Eau Vive, Maudit (doit être lié à la mythologie des vampires), Vision de Mort, Présence sinistre (doit être lié à la mythologie vampirique), Hanté, Prédateur Evident, Flûtiste d’Hamelin ou Repoussé par la Religion. Une cible ne peut être affectée que par un seul effet de ce rituel à la fois."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80e4-91a4-eec8b4c99ab9",
+      "slug": "blitz-de-la-machine",
+      "title": "Blitz de la Machine",
+      "notionUrl": "https://app.notion.com/p/Blitz-de-la-Machine-39888b48e48e80e491a4eec8b4c99ab9",
+      "lastEditedTime": "2026-07-09T17:37:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Blitz de la Machine"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous disposez de la capacité de générer le chaos dans les systèmes électroniques, obligeant ainsi les machines à se détraquer d’elles-mêmes. Pour accomplir ce rituel, vous devez réciter l’incantation appropriée et ensuite détruire de façon rituelle un appareil électronique que vous avez utilisé personnellement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois le rituel accompli, toute machine ou dispositif technologique ciblé par votre concentration et votre rage, commence à mal fonctionner."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et utilisez une action standard pour arrêter toute machine ou dispositif électronique que vous pouvez voir. Pendant la prochaine heure, le rituel peut être utilisé pour détruire les moteurs de voiture, rendre les dispositifs à mémoire flash inopérants, vider la batterie d’un téléphone portable, éteindre les batteries de secours…etc. De façon générale, le rituel arrête toute machine plus complexe qu’une arme à feu standard. Le rituel cesse de faire fonctionner les machines correctement et ne vous accorde aucun contrôle sur leur dysfonctionnement. Les effets de ce rituel sont invisibles et passent pour être une malheureuse coïncidence. Pour réparer un objet ciblé par ce rituel nécessite la compétence appropriée, (3 minimum dans la compétence) et demandent une heure de travail acharné."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80b6-9775-ca1eced81d2d",
+      "slug": "cercle-de-protection",
+      "title": "Cercle de Protection",
+      "notionUrl": "https://app.notion.com/p/Cercle-de-Protection-39888b48e48e80b69775ca1eced81d2d",
+      "lastEditedTime": "2026-07-09T17:24:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 nuit ou si dépense d'AIP 1 an et 1 jour"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Cercle de Protection"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez la capacité de créer des cercles de protection pour vous prévenir de créatures surnaturelles."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Durant l’incantation du rituel vous devez utiliser du sang pour tracer un cercle sur le sol (ou une surface plane). Le cercle possède un diamètre d’un pas pour chaque point dans la compétence Occultisme que vous possédez. Une fois créé, un cercle de protection ne peut être déplacé sans être au préalable détruit. Ainsi vous pouvez placer un cercle de protection sur une plaque de contreplaqué, mais le rituel sera détruit lorsque vous déplacerez la planche de bois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par défaut, votre cercle de protection affecte les créatures partiellement surnaturelles, telles que les goules ou les mortels ayant du sang de loup-garou ou de fée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous avez 3 niveau ou plus dans votre voie primaire de thaumaturgie, votre cercle affecte les vampires, les loups garous et les fées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous avez 5 niveau dans votre voie primaire de thaumaturgie, votre cercle affecte les fantômes, les esprits, les élémentaires, les démons ainsi que les personnages qui sont sous projection astrale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnes affectées qui traversent votre cercle de protection subissent 3 points de dégâts aggravés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous créez un cercle de protection, il est possible d’exclure un certain type de créature lors de la création du cercle de protection. Ainsi un thaumaturge avec un Niveau de 5 pourrait décider d’exclure les vampires mais infligerait des dommages à tous les autres types de créatures listées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne pouvant subir des dommages d’un cercle de protection ressent sa présence lorsqu’il s’approche à moins d’un pas du cercle. Le glyphe créé par ce rituel est sphérique rendant difficile toute tentative de saut ou de se soustraire à sa protection. Un cercle de protection n’affecte jamais son lanceur et peut être affiné pour permettre l’exclusion de certains individus, à la condition que ces personnes soient présentes lors de l’incantation du rituel et donnent un point de leur sang pendant sa réalisation. Il est impossible d’ajuster un cercle de protection une fois que celui-ci est incanté. Ajouter des individus à la liste d’exclusion nécessite que l’on recommence le rituel dans son intégralité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang utilisé pour la création d’un cercle de protection reste intact jusqu’à ce que le rituel expire. Les personnes ciblées par un cercle de protection ne peuvent pas l’affecter (ni le toucher) ainsi une personne utilisant un balai pour effacer un cercle tracé à son encontre, ne pourra pas l’enlever. Les cercles de protection ne peuvent être détruits que par les personnes qui ne sont pas ciblées par le rituel ou bien par la destruction naturelle de son support. Ainsi si vous tracez un cercle de protection sur une autoroute, il pourra être altéré par le passage des véhicules, par la pluie ou bien par un mortel frottant avec un balai"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un cercle de protection ne peut pas infliger de dommage sur un personnage plus d’une fois par tour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Invoquer un cercle de protection nécessite le temps normal d’incantation (5 minutes) et dure une nuit entière. Si vous souhaitez invoquer un cercle de longue durée (qui dure 1 an et 1 jour) vous devez dépenser une AIP pour cela."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80a8-a585-cec49db97047",
+      "slug": "chemin-de-sang",
+      "title": "Chemin de sang",
+      "notionUrl": "https://app.notion.com/p/Chemin-de-sang-39888b48e48e80a8a585cec49db97047",
+      "lastEditedTime": "2026-07-09T17:38:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de sang de la cible"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "3 heures"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Chemin de sang"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les liens entre le Sire et l'Infant sont imprégnés dans la Vitae des générations futures. Prenez un point de sang d'un vampire cible, versez-le dans un chaudron bouillonnant et en récitant des chants. Le Sorcier voit alors les visages et les noms des générations antérieures de vampires qui ont précédé la cible du rituel, en commençant par son Sire."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez posséder un point de vitae du sujet que vous versez lentement dans un chaudron de fonte rempli d'eau distillée amenée à ébullition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rituel prend 3 heures à réaliser, durant lesquelles vous êtes plongés dans une profonde transe. Vous en sortez avec la connaissance de la lignée du sujet sur 3 générations, (c'est-à-dire son Sire, son grand-Sire et son arrière-grand-Sire); grâce à leurs images qui sont apparues dans l'eau du chaudron ainsi que leur nom le plus connu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à ces informations, il est possible de déterminer le clan du sujet, mais cela peut nécessiter une spécialisation en Mystère à la discrétion du conteur si les membres de la lignée du sujet ne sont pas suffisamment connus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel ne révèle pas la puissance de la génération ou de la diablerie à moins que vous ne connaissiez avec certitude la génération des ancêtres de la cible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel n'accorde pas de familiarité avec la cible ou ses prédécesseurs."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80ee-b645-cf36a90f05e6",
+      "slug": "combustible-infaillible",
+      "title": "Combustible infaillible",
+      "notionUrl": "https://app.notion.com/p/Combustible-infaillible-39888b48e48e80eeb645cf36a90f05e6",
+      "lastEditedTime": "2026-07-09T17:40:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "3 plume arrachées d'un oiseau vivant",
+            "1 brasero de pierre"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Combustible infaillible"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les thaumaturges se moquent de l'idée que leur maîtrise des arts du feu puisse ressembler à celle des projectiles ordinaires. Alors que les tireurs d'élite ordinaires sont limités par des contraintes telles que l'angle et la trajectoire, votre magie ne souffre pas de telles contraintes et peut même les dépasser. Arrachez trois plumes à un oiseau vivant et brûlez-les dans un brasero de pierre en récitant une incantation. En conséquence, votre discipline Voie des Flammes gagne la capacité de frapper aussi sûrement qu'un oiseau de proie."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous utilisez les pouvoirs de la Voie des Flammes Boule de Feu ou de Immoler, vous ne ratez jamais votre coup. Effectuez le défi opposé comme d'habitude. Si vous réussissez, résolvez le défi normalement. Si vous échouez, votre pouvoir touche quand même votre cible et lui inflige 1 point de dégâts aggravés. Ce pouvoir n'a aucun effet sur la Main de Flamme et ne met pas le feu à votre cible si vous échouez à un défi opposé utilisant Immoler."
+        },
+        {
+          "type": "paragraph",
+          "text": "NOTE : Ce rituel ne vous permet pas de dépasser le nombre maximum d'attaquants ou de toucher des cibles non ciblables ; vous devez toujours être capable d'initier un défi normalement. Ce rituel dure jusqu'à la fin de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80c4-b384-c5dfa33cbea3",
+      "slug": "communication-avec-le-sire",
+      "title": "Communication avec le Sire",
+      "notionUrl": "https://app.notion.com/p/Communication-avec-le-Sire-39888b48e48e80c4b384c5dfa33cbea3",
+      "lastEditedTime": "2026-07-09T17:18:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Communication avec le Sire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lien de sang entre un vampire et son sire ne peut être rompu. Ce rituel vous permet d’entrer en communication télépathique avec lui, quelle que soit la distance."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez méditer sur votre lien de sang tout en récitant le rituel. Une fois celui-ci achevé, une communication télépathique subtile s’établit avec votre sire, où qu’il se trouve dans le monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre sire peut refuser le contact. Dans ce cas, vous ressentez la connexion sans recevoir de réponse."
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il est en torpeur ou détruit, vous percevez une sensation de vide distincte."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80e6-b219-e02ce230de3c",
+      "slug": "creer-une-pierre-de-sang",
+      "title": "Créer une pierre de sang",
+      "notionUrl": "https://app.notion.com/p/Cr-er-une-pierre-de-sang-39888b48e48e80e6b219e02ce230de3c",
+      "lastEditedTime": "2026-07-09T17:41:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "3 points de sang",
+            "1 galet",
+            "1 récipent"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Créer une pierre de sang"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une pierre de Sang est un petit galet qui possède un lien avec le thaumaturge qui l’a créé, lui permettant ainsi de connaître l’emplacement de la pierre. Pour créer une pierre de sang vous devez placer un galet dans un récipient rempli avec 3 points de sang provenant de n’importe quelle source et réciter une incantation au-dessus du récipient. La pierre de Sang absorbe doucement le pouvoir du sang, et rend le liquide de plus en plus clair, jusqu’à ce que le sang finisse par être aussi transparent que de l’eau."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que le rituel de la pierre de sang est complété, vous possédez une connexion mystique a la pierre et pouvez donner sa position ainsi que la distance à laquelle elle se trouve de votre vous a n’importe quel moment. Un thaumaturge peut créer un nombre de pierres de sang égal au nombre de points qu'il possède dans la compétence Occulte. Si une pierre de sang est dissimulée (par l’entremise du pouvoir du même nom) ou masqué de quelconque façon surnaturelle, le thaumaturge peut remonter la piste et obtenir la localisation générale de la pierre mais la connexion devient brouillée lorsqu’il s’approche trop près et il ne peut plus ressentir la position de la pierre avec exactitude."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80d3-a78f-e7d3e0c097c8",
+      "slug": "cristal-mnemosyne",
+      "title": "Cristal Mnémosyne",
+      "notionUrl": "https://app.notion.com/p/Cristal-Mn-mosyne-39888b48e48e80d3a78fe7d3e0c097c8",
+      "lastEditedTime": "2026-07-09T17:55:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "un cristal de quartz parfaitement clair",
+            "1 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a destruction du contenant"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Tremere"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Cristal Mnémosyne"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines informations sont dangereuses à connaître mais trop importantes pour être oubliées. En utilisant ce rituel soigneusement gardé en combinaison avec le pouvoir de Domination 3 - Altération Mémorielle, un thaumaturge peut retirer les souvenirs d'une cible et les transférer dans un cristal de quartz préparé rituellement où ils restent jusqu'à ce que le cristal soit brisé. Les Tremere utilisent souvent ce rituel en guise de garantie pour obtenir des faveurs, ou pour se protéger de toute incrimination. Cependant, les tribunaux vampires sont connus pour considérer l'absence d'un souvenir clé comme une forme d'incrimination à part entière."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer un Cristal Mnémosyne, il faut se procurer un cristal de quartz parfaitement clair, de la taille d'une balle de golf, et l'immerger dans 1 point de Sang. Une fois cette opération terminée, le cristal prend une teinte rougeâtre qui indique qu'il est prêt à stocker des souvenirs. Pour utiliser un cristal de Mnémosyne, vous devez dépenser 1 point de Sang et tenir le cristal contre le front de la cible de votre Altération Mémorielle. Si votre utilisation de l'Altération Mémorielle est réussie, les souvenirs que vous avez retirés sont stockés dans le cristal et ne peuvent pas être récupérés par d'autres utilisations d'Altération Mémorielle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour restituer les souvenirs à leur cible d'origine, il suffit de briser le cristal. Un personnage doté du Psychométrie (Auspex 3) ou d'un pouvoir comparable peut activer le cristal pour voir le souvenir qu'il contient. Vous pouvez conserver un nombre de Cristaux Mnémosyne égal au nombre de points que vous possédez dans la compétence Occulte. Si vous tentez de créer un cristal de Mnémosyne qui vous ferait dépasser cette limite, le cristal de Mnémosyne le plus ancien est immédiatement détruit, restituant les souvenirs sauvegardés à son propriétaire."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-802b-bbba-d6a8090d7696",
+      "slug": "custode-de-sang",
+      "title": "Custode de Sang",
+      "notionUrl": "https://app.notion.com/p/Custode-de-Sang-39888b48e48e802bbbbad6a8090d7696",
+      "lastEditedTime": "2026-07-09T17:26:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a destruction de la sphère"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "Variable"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Custode de Sang"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez figer votre sang sous forme solide pour une utilisation ultérieure."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous transformez 1 point de Sang en sphère rouge (taille d’une bille)."
+        },
+        {
+          "type": "paragraph",
+          "text": "En la brisant dans votre bouche et en l’activant mentalement, vous récupérez ce point de Sang (action simple)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une autre personne peut utiliser la sphère si vous lui enseignez la commande mentale, mais cela crée un niveau de lien de sang envers vous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez créer un nombre de sphères égal à vos points en Occultisme. Toute sphère excédentaire détruit la plus ancienne."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8064-b8a9-f648b70fbd0f",
+      "slug": "defense-du-refuge-sacre",
+      "title": "Défense du Refuge  Sacré",
+      "notionUrl": "https://app.notion.com/p/D-fense-du-Refuge-Sacr-39888b48e48e8064b8a9f648b70fbd0f",
+      "lastEditedTime": "2026-07-09T17:26:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Le temps que vous etes dans la pièce"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Défense du Refuge  Sacré"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La lumière du soleil est l’un des fléaux majeurs des vampires. Ce rituel permet de créer une protection mystique temporaire contre celle-ci."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rituel empêche la lumière solaire de pénétrer dans une pièce d’environ 10 pas de diamètre. Une obscurité surnaturelle enveloppe la zone : la lumière est réfléchie ou incapable de franchir portes et fenêtres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour l’activer, vous devez tracer des sigils avec votre propre sang sur toutes les ouvertures."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8000-b0ce-e45bea2dab4d",
+      "slug": "deflexion-de-la-malediction-du-bois",
+      "title": "Déflexion de la Malédiction du Bois",
+      "notionUrl": "https://app.notion.com/p/D-flexion-de-la-Mal-diction-du-Bois-39888b48e48e8000b0cee45bea2dab4d",
+      "lastEditedTime": "2026-07-09T17:23:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 écharde"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a la première tentative de pieutage"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Déflexion de la Malédiction du Bois"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel protège contre l’empalement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir passé 10 minutes dans un cercle de bois à réciter l’incantation, vous placez une écharde sous votre langue."
+        },
+        {
+          "type": "paragraph",
+          "text": "La première tentative d’utiliser la manœuvre Percer le cœur contre vous échoue automatiquement : le bois se désagrège au contact."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80e5-8e2a-f101655ccc65",
+      "slug": "deni-plausible",
+      "title": "Déni plausible",
+      "notionUrl": "https://app.notion.com/p/D-ni-plausible-39888b48e48e80e58e2af101655ccc65",
+      "lastEditedTime": "2026-07-09T17:42:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 flamme nue",
+            "1 peau de serpent"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "24 heures"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Déni plausible"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les serpents passent leur vie à ramper dans la saleté et la poussière, pour mieux échapper aux regards et frapper leurs proies. La mue de leur peau est une chance de renouvellement, l'occasion d'émerger à nouveau malgré son environnement. À l'instar du serpent, vous avez le pouvoir de vous débarrasser de votre notoriété, tout en conservant votre réputation intacte."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lancer ce rituel, récitez une incantation en brûlant un morceau de peau de serpent sur une flamme nue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant les 24 heures suivantes, chaque fois que vous échouez à un défi opposé utilisant un pouvoir de la Voie de la Corruption, vous pouvez dépenser l'effet de ce rituel. Si vous le faites, votre utilisation ratée de la Voie de la Corruption ne peut être détectée par personne, y compris par la cible ou par toute partie tentant d'utiliser la compétence Vigilance. Vous ne pouvez lancer ce rituel qu'une fois par nuit."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8093-a916-f78f39bb9c05",
+      "slug": "engager-le-calice-de-transfert",
+      "title": "Engager le Calice de Transfert",
+      "notionUrl": "https://app.notion.com/p/Engager-le-Calice-de-Transfert-39888b48e48e8093a916f78f39bb9c05",
+      "lastEditedTime": "2026-07-09T17:21:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "Un récipent",
+            "Autant de votre sang que necessaire"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a destruction du contenant"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Engager le Calice de Transfert"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel enchante un récipient pour voler mystiquement du sang à toute créature qui le touche, tout en le remplaçant par le vôtre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le récipient (entre 240 ml et 4 litres) est rempli de votre vitae et marqué d’un sigil."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au premier contact avec de la peau nue (autre que la vôtre), la cible ressent un froid étrange. Le récipient absorbe 1 point de Sang et le conserve magiquement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rituel ne fonctionne pas à travers des vêtements, même fins."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le récipient est fragile et se brise automatiquement s’il est utilisé comme arme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages ayant au moins 2 points en Occultisme reconnaissent le sigil et identifient le rituel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Utilisations courantes : créer un lien de sang à l’insu de la cible ou obtenir un échantillon de sang."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8078-8e17-d0aa58b5dc74",
+      "slug": "eveiller-l-eau-morte",
+      "title": "Eveiller l’Eau Morte",
+      "notionUrl": "https://app.notion.com/p/Eveiller-l-Eau-Morte-39888b48e48e80788e17d0aa58b5dc74",
+      "lastEditedTime": "2026-07-09T17:48:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "du sang",
+            "de l'eau",
+            "de la terre de votre sol ancestral"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Koldun"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Eveiller l’Eau Morte"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les Tzimisces ont un attachement à leur terre ancestrale. Les membres de la lignée Koldun ont appris à l'utiliser comme réactif dans leurs rituels. En faisant filtrer du sang et de l'eau à travers de la terre de leur sol ancestral, les adeptes du koldunisme peuvent créer une fiole d'eau imprégnée qu'ils appellent l'Eau Morte Éveillée. Lorsqu'elle est consommée, elle ravive et revigore leur esprit."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thaumaturge doit imbiber un morceau de terre de son sol ancestral avec un point de son sang. Ensuite, il doit verser une petite quantité d'eau de source dans le mélange et la faire filtrer dans une petite fiole ou un récipient. Jusqu'au prochain lever de soleil, il peut consommer le contenu de la fiole en utilisant une action simple pour regagner 3 points de Volonté. Toute autre personne consommant le contenu de la fiole n'en tire aucun bénéfice. Un Koldun ne peut posséder qu'une seule fiole d'Eau Morte Éveillée à la fois ; toute nouvelle utilisation du rituel fait perdre ses propriétés au contenu de la fiole précédente."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80d9-9d01-fcfdcd2e63c7",
+      "slug": "faveur-impregnee",
+      "title": "Faveur Impregnée",
+      "notionUrl": "https://app.notion.com/p/Faveur-Impregn-e-39888b48e48e80d99d01fcfdcd2e63c7",
+      "lastEditedTime": "2026-07-09T17:43:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 objet a offrir"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "30 jours"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Faveur Impregnée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La tradition d’offrir des cadeaux est beaucoup plus complexe lorsqu'elle s'inscrit dans le cadre d'une relation diplomatique. Dans ces circonstances, un cadeau peut être une offrande de supplication, une réprimande peu subtile ou même une démonstration de force. C'est pourquoi, lorsque l'on envoie un cadeau avec la plus grande sincérité, il est important que l'intention de l'expéditeur ne soit pas confondue. Ce rituel vous permet d'ajouter à un petit bibelot une dose d'énergie bénéfique dans l'espoir que votre cadeau sera mieux reçu."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel vous permet de créer des cadeaux mineurs ou des bibelots qui seront plus susceptibles d'être reçus positivement par les non-vampires. Votre destinataire n'est pas obligé de recevoir le cadeau et il n'est pas contraint d'avoir une bonne opinion de vous, mais en matière de diplomatie, chaque petit geste compte. Dépensez 1 point de sang et récitez une incantation sur l'objet de votre choix et choisissez un type de créature non-vampire. L'objet peut restaurer 1 unité d’énergie dépensée pour le type de créature choisi, comme Gnose, Glamour ou Sang. Si vous avez la Spécialité Mystère approprié pour le type de créature que vous avez choisi, le don peut restaurer jusqu'à 3 unités d’énergie dépensées. L'énergie peut être retirée du don en interagissant avec lui d'une manière significative et appropriée à l'objet, ce qui prend au moins 1 action standard. L'imprégnation dure 30 jours et l'énergie peut être retirée 1 point à la fois ou en une seule fois. Vous pouvez avoir un nombre de ces objets égal à votre compétence Occulte. Toute création au-delà de cette limite entraîne l'inertage de votre création la plus ancienne."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8065-8026-ea2fed73b528",
+      "slug": "glyphe-de-proximite",
+      "title": "Glyphe de proximité",
+      "notionUrl": "https://app.notion.com/p/Glyphe-de-proximit-39888b48e48e80658026ea2fed73b528",
+      "lastEditedTime": "2026-07-09T17:44:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a déplacement ou destruction de l'objet"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Glyphe de proximité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'accumulation de connaissances magiques s'accompagne d'un désir de confidentialité, une corrélation universelle à travers les époques et les traditions. Cette protection de base est l'un des premiers rituels que la plupart des thaumaturges apprennent, alertant le lanceur de sorts en cas d'intrusion. Sculptez ou créez un sigil contenant les symboles correspondant à la propriété, à la protection et à la solitude, puis tracez-le avec votre sang."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel vous permet de créer une petite enceinte qui vous alertera lorsque quelqu'un s'approchera à moins d'un pas d'elle. Une fois que c'est le cas, le sort devient inerte et ne vous donnera plus d'alertes. Vous ne saurez pas qui est cette personne, ni le nombre de personnes présentes, mais vous êtes libre d'enquêter par d'autres moyens surnaturels. De plus, vous recevrez cette notification même si vous êtes retiré de votre corps, par exemple si vous utilisez la Projection Astrale ou la Possession. Vous pouvez réactiver une de vos glyphes inertes en dépensant 3 actions standard pour retracer les sigils. Le sort que vous créez doit être à peu près de la taille d'une feuille de papier A4 standard, mais vous pouvez le cacher. C'est pour cette raison que ces sorts sont souvent dissimulés au-dessus d'une porte, dans un livre ou dans une œuvre d'art. Si le sort est visible, les personnes dotées de la compétence Occulte qui examinent la zone peuvent le détecter. La protection ne détecte que les humanoïdes. Les animaux, même ceux qui sont surnaturels ou les vampires qui utilisent Soumission de l’Esprit (Animalisme 4), ne l'activeront pas. Cependant, les loups-garous et autres métamorphes de ce type déclencheront le sort, même sous leur forme animale. Une fois lancé, un sort ne peut être déplacé sous peine d'être activé et de perdre son pouvoir, même si l'objet lui-même est transportable. Si votre sort est déplacé puis activé, vous ne serez pas conscient de son nouvel emplacement. Vous pouvez disposer d'un nombre de ces sorts égal à votre compétence Occulte. Pour en créer de nouveaux, vous devez renoncer à votre lien avec un sort existant."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80fe-b69a-f390ed94a381",
+      "slug": "harmonisation-telekinetique",
+      "title": "Harmonisation Télékinétique",
+      "notionUrl": "https://app.notion.com/p/Harmonisation-T-l-kin-tique-39888b48e48e80feb69af390ed94a381",
+      "lastEditedTime": "2026-07-09T17:45:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "une sculpture d'équilibre à partir de pierres de taille non raffinées"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Harmonisation Télékinétique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir de l'esprit sur la matière est un thème central de la voie du Mouvement de l’Esprit. Bien que ses effets requièrent une certaine incantation, les adeptes les plus fervents de ce rituel considèrent ses exercices comme une seconde nature. Ce rituel vous confère une capacité télékinétique durable, vous permettant de manipuler des objets avec facilité. Pour le lancer, vous devez créer une sculpture d'équilibre à partir de pierres de taille non raffinées, qui doit rester debout pendant que vous récitez une incantation."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que vous avez dépensé un point de sang pour activer le pouvoir Mouvement de l’Esprit 2: Manipuler, les effets de ce pouvoir durent toute la nuit. Par la suite, vous n'avez pas besoin de l'activer une nouvelle fois pour déplacer d'autres objets, ce qui vous permet d'utiliser vos capacités pour accomplir des tâches banales ou arbitraires. Vous conservez toutes vos capacités télékinésiques pour soulever et déplacer des objets, sous réserve de la limite de poids standard prévue par Manipulation. Vous restez incapable d'exercer un contrôle sur des objets que vous ne pouvez plus voir. L'utilisation de vos capacités télékinésiques en combat nécessite toujours le même coût d'action pour effectuer la tâche sans aide et est soumise aux limitations standard de la Manipulation."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8030-8a86-d68fd5abf350",
+      "slug": "illuminer-le-passage-de-la-proie",
+      "title": "Illuminer le passage de la proie",
+      "notionUrl": "https://app.notion.com/p/Illuminer-le-passage-de-la-proie-39888b48e48e80308a86d68fd5abf350",
+      "lastEditedTime": "2026-07-09T17:25:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "Nom de naissance de la cible ou un portrait réalisé par quelqu'un avec au moins 2 pts d'artisanat"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Illuminer le passage de la proie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel permet de traquer une cible par le principe d’identité."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez disposer du nom de naissance de la cible ou d’un portrait réalisé par quelqu’un possédant au moins 2 points en Artisanat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rituel doit être lancé dans un lieu que la cible a fréquenté depuis le dernier lever du soleil, et nécessite un défi opposé de Thaumaturgie."
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de succès, des empreintes lumineuses apparaissent, visibles uniquement par vous, et mènent jusqu’à la cible. Leur intensité dépend de leur fraîcheur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il ne fonctionne que sur des déplacements terrestres. La piste disparaît en cas de passage sur l’eau ou dans les airs."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-806d-8f49-c71795dbe9d2",
+      "slug": "illusion-de-la-mort-paisible",
+      "title": "Illusion de la mort paisible",
+      "notionUrl": "https://app.notion.com/p/Illusion-de-la-mort-paisible-39888b48e48e806d8f49c71795dbe9d2",
+      "lastEditedTime": "2026-07-09T17:46:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "une plume plongée dans le sang d’un homme « bon »"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 mois"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Illusion de la mort paisible"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La mascarade peut être difficile à maintenir et cela même dans les meilleures circonstances. Un meurtre bien sanglant accompli au mauvais moment peut attirer l’attention de la police et peut complexifier la situation. Grâce à ce rituel vous êtes l’élément clé pour résoudre les petits inconvénients qui peuvent survenir. Pour invoquer ce rituel vous devez posséder une plume plongée dans le sang d’un homme « bon ». Vous pouvez ainsi utiliser la plume pour réduit en poussière un cadavre et réciter la litanie suivante « Il était temps pour lui de quitter ce monde, au moins il est mort dans son sommeil »"
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que le rituel est accompli, le cadavre ciblé semble mort d’une cause naturelle, et cela même s’il a été vidé de son sang ou atrocement mutilé. Le rituel ne remplace pas le sang manquant d’un corps exsangue, pas plus qu’il ne répare pas les os brisés. Cependant il évite aux enquêteurs de police de trouver des preuves accablantes qui pourraient mener sur la piste des semblables. Les méthodes d’investigation surnaturelles peuvent percer l’illusion de ce rituel avec une certaine difficulté. De telles méthodes d’investigations subissent un malus de 3 pour enquêter sur un corps ciblé par ce rituel. Les effets du rituel durent 1 mois entier."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8006-b9af-efddf6278322",
+      "slug": "lait-de-set",
+      "title": "Lait de Set",
+      "notionUrl": "https://app.notion.com/p/Lait-de-Set-39888b48e48e8006b9afefddf6278322",
+      "lastEditedTime": "2026-07-09T17:49:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 jour"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Sorcier Setite"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lait de Set"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lait de Set est un terme familier pour parler d’un rituel souvent désigné par des noms ésotériques au cours de l'histoire. La qualité commune de ce rituel est la création d'une pommade, d'une pâte ou d'un onguent aux propriétés magiques. Lorsqu'elle est appliquée sur un objet, la pommade provoque le dysfonctionnement de cet objet. Comme Set est le libérateur, le lanceur de sorts ne sait pas à l’avance comment ce dysfonctionnement se produira. Par conséquent, il est courant pour les utilisateurs de ce rituel de réciter une prière à Set avant d'appliquer la pâte, même si cela n'est pas strictement nécessaire."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n'y a pas de liste fixe d'ingrédients pour créer la pâte magique. Souvent, le sorcier essaie de trouver des ingrédients dont il pense qu'ils produiront l'effet désiré sur une cible spécifique, mais il s'agit souvent de restes de réactifs issus d'autres projets thaumaturgiques. Lorsque la pommade est étalée sur un objet, celui-ci fonctionne mal d'une manière ou d'une autre. Le conteur déterminera l'effet précis, mais ce ne sera jamais d'une manière dont le Sétite bénéficie directement et immédiatement. Par exemple, il peut modifier la serrure d'une porte afin qu'elle ne puisse pas être déverrouillée avec sa clé d'origine. Cependant, elle ne pourra pas soudainement être ouverte par une clé détenue par le Setite. Quel que soit l'effet, il prendra fin au bout d'un jour. La pâte n'a aucun effet lorsqu'elle est appliquée à une créature vivante, anciennement vivante ou morte-vivante. Un Setite ne peut avoir que trois applications de cette pâte active à la fois. Si il crée une autre portion de pâte, la portion la plus ancienne perd ses propriétés. Chaque portion n'a qu'une seule utilisation."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80f3-af5e-c1dfea4bd4c1",
+      "slug": "lame-brulante",
+      "title": "Lame Brûlante",
+      "notionUrl": "https://app.notion.com/p/Lame-Br-lante-39888b48e48e80f3af5ec1dfea4bd4c1",
+      "lastEditedTime": "2026-07-09T17:57:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 lame"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a activation"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lame Brûlante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les thaumaturges ne sont rarement reconnus pour leurs capacités martiales. Cependant, vous avez un avantage. Vous pouvez mystiquement préparer votre lame de combat pour l’enflammer lorsque vous l’ordonnez, afin de littéralement brûler vos ennemis."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour effectuer ce rituel vous devez incanter au-dessus d’une lame, généralement un couteau ou une épée. Une fois l’incantation terminée, le rituel demeure dormant jusqu’à ce que vous le déclenchiez. Pour activer le rituel vous devez dépenser une action standard afin de de vous entailler et d’étaler votre sang tout le long de la lame. Seul le sang du thaumaturge qui a accompli le rituel peut activer la lame et lui seul peut utiliser ce pouvoir. L’entaille causée par la lame lors de l’activation cause 1 point de dommage normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois activée, la lame étincelle d’une sinistre flamme froide bleutée. L’arme inflige des dommages aggravés sur les créatures surnaturelles lors d’une attaque réussie. Le rituel reste activé autant d'attaques que le thaumaturge possède de points en Occulte. Le rituel cesse immédiatement si le ritualiste est désarmé. Le porteur de la lame ne peut pas choisir le type de dégâts qu’il inflige. Chaque attaque réussie utilise une des charges de dégâts aggravés jusqu’à ce qu’il n’en reste plus en réserve. Lorsque le rituel cesse l’arme inflige à nouveau des dégâts normaux. Il est impossible d’invoquer plusieurs fois ce rituel sur la même lame. Chaque lame ne peut porter qu’un seul rituel de Lame brulante à la fois ; une fois ce dernier fini, il faudra le refaire."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8048-9cf2-ca12a64f7b5f",
+      "slug": "lier-la-langue-accusatrice",
+      "title": "Lier la langue Accusatrice",
+      "notionUrl": "https://app.notion.com/p/Lier-la-langue-Accusatrice-39888b48e48e80489cf2ca12a64f7b5f",
+      "lastEditedTime": "2026-07-09T17:29:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "Une image de la cible",
+            "Une meche de cheveux de la cible",
+            "un ruban de soie noire"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lier la langue Accusatrice"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lier la langue accusatrice maudit un sujet, en utilisant par une compulsion mystique qui empêche la cible de dire du mal de vous de quelque façon que ce soit. Pour exécuter ce rituel, vous devez posséder une image de la cible, (une photographie, un dessin ou une poupée de cire) une mèche de de ses cheveux et un ruban de soie noire. Pour maudire la cible, vous enroulez le ruban de soie noire autour de l’image et de la mèche de cheveux de votre cible, tout en récitant les paroles mystiques du rituel, et en concentrant toute votre haine sur sa personne."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois le rituel complété, faites un challenge en opposition contre votre cible en utilisant votre Score de Test de Thaumaturgie. Si vous réussissez, votre victime ne peut pas dire, écrire ou communiquer de quelque façon que ce soit, de façon négative sur votre personne. Si la victime essaye, sa voix (ou sa main) ne peuvent pas suivre. Les effets du rituel durent pour la nuit entière."
+        }
+      ]
+    },
+    {
+      "id": "39188b48-e48e-80ff-b83f-da9a9658f073",
+      "slug": "maitrise-du-sang",
+      "title": "Maitrise du sang",
+      "notionUrl": "https://app.notion.com/p/Maitrise-du-sang-39188b48e48e80ffb83fda9a9658f073",
+      "lastEditedTime": "2026-07-09T17:17:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de sang de la cible",
+            "1 flamme vive"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 nuit"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Maitrise du sang"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En détruisant une petite quantité du sang de votre ennemi, vous pouvez exploiter cet acte symbolique afin d’exercer un pouvoir sur votre victime. Ce pouvoir se manifeste lors de votre prochaine confrontation."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "En brûlant 1 point de Sang appartenant à votre cible au-dessus d’une flamme vive, vous obtenez une emprise mystique limitée sur elle. Lors du prochain défi opposé contre cette victime, vous remportez automatiquement le test initial. Si la cible dépense de la Volonté pour retester, le défi se résout normalement à partir de ce moment. Si l’effet de Maîtrise du Sang n’est pas déclenché avant l’aube, le rituel prend fin."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80bd-bcc7-ea395b3a5a94",
+      "slug": "missive-crypte",
+      "title": "Missive Crypté",
+      "notionUrl": "https://app.notion.com/p/Missive-Crypt-39888b48e48e80bdbcc7ea395b3a5a94",
+      "lastEditedTime": "2026-07-09T17:31:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Missive Crypté"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’obsession du secret se développe naturellement chez les magiciens du sang. Bien que certains fassent confiance à la technologie pour protéger leurs communications, les thaumaturges traditionnels s'appuient sur des moyens plus conventionnels. En lançant ce rituel sur ses notes de recherche ou les messages à ses apprentis, les informations sont protégées de l'extérieur de sa cabale."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thaumaturge écrit le message sur le support qu’il juge approprié, qu'il s'agisse d'une peinture à la bombe sur un mur, d'un message écrit à la main ou d'un courrier électronique. Ensuite, il doit apposer une empreinte de pouce ensanglantée sur l'écriture (qu'il s'agisse d'une page, d'un mur ou d'un appareil électronique). Si quelqu'un d'autre que le destinataire voit le message, il apparaîtra comme une écriture banale, comme une liste de courses, un tag de gang ou un spam."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-805d-92ee-ccdf1939c768",
+      "slug": "parfum-de-la-tromperie",
+      "title": "Parfum de la tromperie",
+      "notionUrl": "https://app.notion.com/p/Parfum-de-la-tromperie-39888b48e48e805d92eeccdf1939c768",
+      "lastEditedTime": "2026-07-09T17:50:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Sorcier Assamite"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Parfum de la tromperie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En employant ce rituel, l'utilisateur peut masquer ou modifier complètement son odeur. À l'origine, ce pouvoir avait pour but de se dissimuler au flair des animaux des chasseurs et des croisés. Dans les nuits modernes, il est tout aussi efficace pour désorienter les vampires qui peuvent se repérer à l'odeur, ou même les loups-garous."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois le rituel accompli, pendant l'heure qui suit, vous ne pouvez plus être repéré et traqué via l’odeur (voir Système de Jeu). Cela empêche également les pouvoirs qui impliquent une traque de fonctionner, comme le rituel Illuminer le passage de la Proie. Alternativement, vous pouvez dépenser une action inter-partie pour réaliser une version plus complexe mais très subtile de ce rituel, qui vous permet de modifier votre odeur pour qu'elle conduise à un lieu ou une personne spécifique qui vous est familier. Si vous utilisez ce rituel de cette manière, si quelqu'un utilise son odorat pour vous traquer, il sera conduit vers cette personne ou ce lieu."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8089-8016-f662bd7dfa10",
+      "slug": "preservation-de-la-forme-parfaite",
+      "title": "Preservation de la Forme Parfaite",
+      "notionUrl": "https://app.notion.com/p/Preservation-de-la-Forme-Parfaite-39888b48e48e80898016f662bd7dfa10",
+      "lastEditedTime": "2026-07-09T17:32:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang",
+            "L'objet impacté"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "50 ans"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Preservation de la Forme Parfaite"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si les vampires sont éternels, leurs biens sont soumis aux ravages du temps et aux rudes conditions de l'environnement. Les thaumaturges sont connus pour leurs collections occultes, ainsi beaucoup d'entre eux utilisent ce rituel pour conserver leurs objets importants en parfait état. Ce rituel permet de conserver intacts les livres et parchemins anciens, même s'ils sont exposés à la pluie, à l'humidité ou à d'autres dangers. Les thaumaturges modernes peuvent même utiliser ce sort sur des appareils électroniques, leur permettant de continuer à fonctionner plus longtemps que prévu. La rumeur veut que l'existence des lecteurs huit pistes soit le résultat de ce rituel."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, vous devez geler 1 point de votre sang que vous réduisez en éclats de glace avant qu’il ne fondent, puis que vous saupoudrez sur un objet que vous souhaitez préserver. Cet objet ne doit pas être plus grand qu'une voiture ou un petit camion et ne peut être vivant ou mort-vivant. Une fois l'opération terminée, le sang glacé est mystiquement absorbé par l'objet et celui-ci est protégé de toute usure due à l'âge, aux éléments, à l'eau, etc. Ce rituel ne protège pas contre le vandalisme délibéré, le feu ou les dégâts d’un choc. Préservation de la forme parfaite dure 50 ans, mais peut être lancé à nouveau sur le même objet pour prolonger cette période de 50 ans supplémentaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez préserver un nombre d'objets égal au nombre de points que vous possédez dans la compétence Occultisme. Si vous tentez de préserver un objet qui dépasserait cette limite, le plus ancien objet préservé commence à vieillir normalement. Si vous lancez le rituel deux fois sur le même objet, l'objet compte comme deux dans le cadre de la limite de la compétence Occultisme."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80e6-bd30-f0fb141c5853",
+      "slug": "protection-des-cendres",
+      "title": "Protection des cendres",
+      "notionUrl": "https://app.notion.com/p/Protection-des-cendres-39888b48e48e80e6bd30f0fb141c5853",
+      "lastEditedTime": "2026-07-09T17:56:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 petit feu"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 mois"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Koldun"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Protection des cendres"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Kolduns d'autrefois étaient habitués à ne pas être dérangés dans leur havre de paix, car aucun humain n'osait s'y introduire. Le monde moderne, cependant, est plein d'intrus et de voleurs. Pour protéger leurs secrets, les Koldun doivent être prêts à les détruire. La vie éternelle laisse suffisamment de temps pour traquer les intrus et reconstruire un endroit sûr."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour ce rituel, vous devez allumer un petit feu contrôlé au centre d'une pièce ou d'un refuge que vous souhaitez protéger. Une fois le feu allumé, vous devez attiser les flammes et remplir la pièce de fumée. Une fois le feu correctement éteint, la fumée se transforme en une fine couche de cendres qui recouvre tout ce qui se trouve dans la zone. Tout homoncule, serviteur spirituel ou créature créées par vous grâce à la Thaumaturgie peuvent être exemptées de ce rituel, à votre discrétion. Pendant le mois lunaire suivant, si quelqu'un d'autre que vous dérange la cendre, celle-ci s'enflamme et brûle pendant un tour, détruisant immédiatement tout ce qui se trouve à l'intérieur de la pièce gardée. Toute personne prise dans le brasier subit immédiatement 3 points de dégâts aggravés dans la conflagration qui s'ensuit. À l'exception de la terre ancestrale du Koldun, comme expliqué ci-dessous, tous les objets pris dans le brasier sont immédiatement détruits et rendus méconnaissables. Si un Koldun a gardé sa terre ancestrale dans la zone protégée, elle reste indemne, déguisée parmi les braises brûlantes, que son propriétaire pourra récupérer quand il sera en sécurité. Ce rituel ne peut être lancé qu'une seule fois par pièce."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80a4-a21d-f828f53e3710",
+      "slug": "purete-de-la-chair",
+      "title": "Pureté de la chair",
+      "notionUrl": "https://app.notion.com/p/Puret-de-la-chair-39888b48e48e80a4a21df828f53e3710",
+      "lastEditedTime": "2026-07-09T17:58:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 cercle de 13 bougies"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "30 minutes"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Pureté de la chair"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La chair peut être souillée, mais l'esprit est toujours pur, c'est du moins ce que les gnostiques voudraient nous faire croire. Même les médecins ordinaires en sont venus à reconnaître les effets curatifs de l'esprit sur le corps et cherchent à aligner les efforts des uns et des autres. En concentrant vos énergies psychiques et magiques sur la chair, vous pouvez la ramener à l'idéal platonique."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lancer ce rituel, vous devez vous asseoir dans un cercle de 13 bougies, dans un état de profonde méditation. Toute perturbation de cette méditation annulera le rituel et vous obligera à le recommencer. Une fois le rituel terminé, toutes les souillures mystiques ou terrestres de votre corps (poisons mystiques, maladies, souillures dues à un contact avec l'infernal, etc.), ainsi que les objets étrangers indésirables (tels que la Hampe de Quiétude Forcée -rituel de thaumaturgie 3- ou la Marque Indélébile -rituel de thaumaturgie 4-), sont éliminés. Ce rituel n'affecte pas les liens du sang ou les effets magiques ; il n'affecte que les objets toxiques, étrangers ou empoisonnés. Ce rituel peut supprimer les altérations de Sculpture de la Chair ou de Sculpture des Os (Vicissitude 2 et 3), mais ne peut pas supprimer les effets de Main Coupée (-rituel de thaumaturgie 4), car sa magie est externe. Si vous souffrez d'un défaut persistant tel que Porteur de Maladie ou Balise de l’Impie, les effets reviendront 30 minutes après l'incantation."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-802e-95de-c290ff2e04a2",
+      "slug": "recours-a-la-terre-natale",
+      "title": "Recours à la Terre Natale",
+      "notionUrl": "https://app.notion.com/p/Recours-la-Terre-Natale-39888b48e48e802e95dec290ff2e04a2",
+      "lastEditedTime": "2026-07-09T18:01:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 poignée de la terre de la ville de votre naissance mortelle",
+            "2 pts de votre sang"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 minute"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Recours à la Terre Natale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nous sommes connectés au pays de notre naissance et la vie laisse une trace indélébile dans les lieux que nous avons fréquentés de notre vivant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez appris à utiliser cette résonance et ces connexions pour vous soigner. Vous pouvez ainsi appeler au pouvoir de la Terre Mère pour guérir vos blessures aggravées. Vous devez réunir au moins une poignée de terre de la ville de votre naissance mortelle et réciter au travers une litanie votre arbre généalogique. Puis vous mixez cette terre avec 2 points de votre sang pour confectionner une pâte aux vertus soignantes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "La pâte créée par ce rituel peut guérir 2 blessures aggravées chaque nuit. Vous seul pouvez bénéficier des effets de cette pâte et vous devez utiliser cette pâte dans la minute qui suit sa confection ou bien la magie disparaitra laissant la pâte sans effet guérisseur."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80d8-9aee-f58e0e91dda0",
+      "slug": "rituel-de-presentation",
+      "title": "Rituel de Présentation",
+      "notionUrl": "https://app.notion.com/p/Rituel-de-Pr-sentation-39888b48e48e80d89aeef58e0e91dda0",
+      "lastEditedTime": "2026-07-09T17:52:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 pts de votre sang",
+            "1 chaudron en fonte"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Tremere"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Rituel de Présentation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce vieux rituel est l'un des premiers éléments de magie que l'on enseigne à un Tremere une fois autorisé à sortir, lui permettant de communiquer son arrivée à distance. Dans les temps modernes, ce rituel est tombé en désuétude, en particulier chez les Tremeres de la maison Carna et Goratrix, qui le considèrent comme obsolète grâce aux progrès technologiques. Néanmoins, de nombreux Tremeres qui souhaitent conserver les anciennes coutumes du clan utilisent encore ce rituel pour annoncer leur arrivée dans une autre chantrie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel est gratuit, doit être obligatoirement pris par tout Tremere et ne compte pas dans la limite du nombre de Rituel. Il ne compte pas comme un rituel de Niveau 1 pour ce qui est de l'accès au rituel de Niveau 2."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, le thaumaturge doit verser 1 point de son sang dans un chaudron en fonte et psalmodier son nom, son rang et l'objet de sa présence sur le territoire. Dans un premier temps, le rite envoie un message à la chantrie la plus proche dans un domaine revendiqué. Si la zone est située en dehors d'un domaine revendiqué, le message est envoyé à toutes les chantries situées dans un rayon de 80 km. Tous les Tremere se trouvant dans la chantrie au moment où le rituel est lancé sont immédiatement au courant de cette introduction et sont psychiquement conscients de l'emplacement du thaumaturge qui a lancé le rituel. Ils peuvent répondre par un bref message, communiquant au thaumaturge la l'emplacement de la chantrie et s’il a la permission de venir. S'il n'y a pas de chantrie dans un rayon de 80 km, le lanceur du rituel prend conscience de l'absence de chantrie."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8029-a383-e01eee544abf",
+      "slug": "servitude-renforcee",
+      "title": "Servitude renforcée",
+      "notionUrl": "https://app.notion.com/p/Servitude-renforc-e-39888b48e48e8029a383e01eee544abf",
+      "lastEditedTime": "2026-07-09T17:33:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "Autant de votre sang que necessaire"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 an"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Servitude renforcée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors que la forme humaine ne peut habituellement contenir qu’une quantité limitée de vitae, les praticiens de la thaumaturgie refusent d'être bridés par ces limitations futiles. En approfondissant le lien entre goule et maître, vos serviteurs peuvent posséder plus de votre sang en eux, ce qui les rend plus efficaces et résistants. Pour lancer Servitude Renforcée, vous devez restreindre votre cible et tracer des runes de sang sur sa peau. Votre cible doit n'avoir rien mangé depuis 7 jours, ou le rituel échouera."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois achevé, ce pouvoir permet à une goule de posséder 3 points de votre sang en plus de son maximum normal pour la prochaine année calendaire. Cependant, la goule ne peut pas utiliser le sang d'autres donneurs pour dépasser son maximum. Si la goule ingère la vitae d'un autre vampire, elle peut choisir de dépenser votre sang en dernier afin de conserver cet avantage le plus longtemps possible. Pour les goules humaines, cela augmente leur capacité de 5 à 8, mais d'autres animaux peuvent ne pas être capables d'en contenir autant. Une goule ne peut être sous l'effet de ce pouvoir que de la part d'un seul maître. Toute application supplémentaire de ce rituel invalide les applications précédentes."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8010-a240-f1b66c9e434f",
+      "slug": "vase-canopique",
+      "title": "Vase Canopique",
+      "notionUrl": "https://app.notion.com/p/Vase-Canopique-39888b48e48e8010a240f1b66c9e434f",
+      "lastEditedTime": "2026-07-09T18:03:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "encens",
+            "Un récipient en terre cuite"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a ouverture ou destruction de l'objet"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": "Sorcier Setite"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vase Canopique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les magiciens de sang des Disciples de Set commencent souvent leur étude de la sorcellerie en préparant de simples récipients en terre cuite dont l'utilité n'a rien à voir avec leurs humbles origines. La jarre canopique est l'une de ces icônes traditionnelles, historiquement utilisée pour stocker symboliquement des organes pour l'au-delà."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, lorsqu'ils sont imprégnés d'un pouvoir vampirique, ces récipients deviennent des contenants idéaux pour les objets précieux. Ils sont donc également utiles pour l'échange de messages cachés ou la protection d'informations précieuses."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Utilisez 1 point de sang et passez cinq minutes à brûler de l'encens et en récitant un chant rituel au-dessus d'un petit récipient en terre cuite étanche, d'une contenance maximale d'un litre cube. Les adeptes de Set choisissent traditionnellement des vases canopiques égyptiens à cette fin, mais tout récipient en terre cuite ou en céramique de la bonne taille convient. Les objets peuvent être placés dans la jarre canopique ou en être retirés normalement, pour autant qu'ils puissent tenir à l'intérieur. Une fois le rituel terminé, le récipient et tout objet inanimé qu'il contient sont immunisés contre tous les pouvoirs qui pourraient le voir à distance, comme le rituel Scrutation ou le pouvoir d’Auspex Clairvoyance. Les pouvoirs surnaturels fonctionnant sous le regard direct de l'utilisateur, tels que Auspex 1 : Sens Intensifiés ou Auspex 3: Psychométrie, ne sont pas affectés par le Vase Canopique."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, le récipient devient surnaturellement résistant aux dommages, en particulier au feu. L'objet peut supporter 6 points de dégâts avant de se briser et ne subit aucun dégât des flammes. Les objets et créatures animés, tels que les petits animaux (ou les créatures surnaturelles transformées en petits animaux), détruisent le pouvoir surnaturel d'une jarre canopique s'ils y pénètrent, et toute tentative de le faire ramène l'objet à l'état d'objet banal. Vous pouvez avoir un nombre de ces objets égal au double de vos points dans la compétence Occulte. Si vous créez des objets supplémentaires, vous devez choisir lequel de vos objets actuels devient inerte."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-804c-a3b7-c02da63da985",
+      "slug": "vin-de-sang",
+      "title": "Vin de Sang",
+      "notionUrl": "https://app.notion.com/p/Vin-de-Sang-39888b48e48e804ca3b7c02da63da985",
+      "lastEditedTime": "2026-07-09T17:34:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "4 litres de vin rouge",
+            "1 points de sang tout les 5 jours"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "30 jours"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a consomation"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vin de Sang"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains anciens prétendent en plaisantant que l'existence même de ce rituel a sauvé les disciples de Set à l'époque des croisades. Connu depuis le début de l'antiquité, ce rituel était utilisé par les prêtres de Set. Ils échangeaient des tonneaux entiers de vin de sang à travers le monde connu, étanchant la soif de ceux qui étaient lassés du sang mortel ou qui étaient incapables de le consommer. La légère intoxication que le vin de sang provoque chez les vampires fait que seuls les plus courageux le boivent en public. Cependant, lorsqu'il est consommé lors d'un rassemblement, l'humeur générale peut devenir assez capricieuse."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le thaumaturge doit passer 30 jours à effectuer ce rituel sur 4 litres de vin rouge, dépensant 1 point de sang tous les 5 jours. Une fois ce temps écoulé, le sang et le vin infusent pour devenir une toute nouvelle substance. Un vampire qui boit un verre entier de vin de sang reçoit l'équivalent d’1 point de sang. Boire des verres supplémentaires de vin de sang accorde en effet plus de points de sang, mais fait également gagner 1 trait de bête tous les 2 verres consommés. De plus, le vampire ressent une grande euphorie due aux libations mystiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque utilisation du rituel permet d'obtenir l’équivalent de 16 points de sang. Le vin de sang nouvellement créé est exempt de toute trace de la vitae de son créateur. En effet, toute trace de sang de vampire ajoutée par la suite créera un arôme sensiblement différent que les consommateurs remarqueront. Ce sang ne peut être associé à des aliments ou mélangé au-delà de sa forme finale."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80b1-bb1a-efc5114f6c62",
+      "slug": "yeux-du-faucon-de-nuit",
+      "title": "Yeux du Faucon de nuit",
+      "notionUrl": "https://app.notion.com/p/Yeux-du-Faucon-de-nuit-39888b48e48e80b1bb1aefc5114f6c62",
+      "lastEditedTime": "2026-07-09T18:04:00.000Z",
+      "properties": {
+        "Ingrédients": {
+          "type": "multi_select",
+          "value": [
+            "1 oiseau"
+          ]
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a l'aube"
+        },
+        "Couts en points de sang": {
+          "type": "text",
+          "value": "1"
+        },
+        "Restriction": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Yeux du Faucon de nuit"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel vous permet de projeter votre conscience dans celle d’un oiseau prédateur nocturne et ainsi expérimenter les sensations de l’animal au travers ses sens."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rituel vous permet de voir au travers les yeux d’un oiseau et d’entendre au travers ses oreilles. Vous devez choisir un oiseau de proie pour exécuter ce rituel. Une fois le rituel accompli, l’oiseau obéit à vos instructions mentales jusqu’à un certain point. Il peut voler dans la direction désirée, espionner pour vous et même transporter de petits objets. Cependant il ne pourra pas se battre pour vous, à moins qu’il n’ait reçu un entraînement spécifique dans ce but-là. Une fois sa mission accomplie, l’oiseau revient vers vous. Une fois qu'il est de retour, si vous ne lui crevez pas les yeux, vous souffrirez d'une cécité qui durera trois nuits. Ce rituel dure jusqu'au lever du soleil."
         }
       ]
     }

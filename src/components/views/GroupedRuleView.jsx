@@ -1,6 +1,6 @@
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
-import { normalizeProperty } from "../../utils/property";
+import { ArrowLeft, ShieldAlert } from "lucide-react";
+import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
 import StatBlock from "../StatBlock";
@@ -26,6 +26,37 @@ function groupConsecutive(items, keyFn) {
     return groups;
 }
 
+// Une fiche affichée dans un groupe (ex. un Rituel, un Atout). Factorisé
+// car affiché à deux endroits identiques (avec et sans sous-groupe).
+// `itemHighlightField` ({ label, key }) met en avant une propriété qui
+// mérite d'être vue avant tout le reste (ex. une Restriction d'usage),
+// dans un encart distinct plutôt que noyée dans le bloc de propriétés.
+function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroups, itemHighlightField, hideGroupedProperties }) {
+    const highlight = itemHighlightField
+        ? normalizeProperty(item.properties?.[itemHighlightField.key])
+        : null;
+
+    return (
+        <section className="ritualEntry">
+            <Heading>{item.title}</Heading>
+
+            {highlight && !isPropertyEmpty(highlight) ? (
+                <p className="itemHighlight">
+                    <ShieldAlert size={14} aria-hidden="true" />
+                    {itemHighlightField.label} : <strong>{propertyText(highlight)}</strong>
+                </p>
+            ) : null}
+
+            {itemStatFields ? <StatBlock item={item} fields={itemStatFields} /> : null}
+            {itemRelatedGroups ? <RelatedGroups item={item} groups={itemRelatedGroups} /> : null}
+            <ItemDetailBody
+                item={item}
+                hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
+            />
+        </section>
+    );
+}
+
 /**
  * Vue générique "catégories x valeur groupée" (ex. Rituels par niveau,
  * Atouts & Handicaps par type). `groups` est la liste fixe des valeurs
@@ -41,6 +72,8 @@ function groupConsecutive(items, keyFn) {
  * `itemStatFields`/`itemRelatedGroups` sont optionnels : quand fournis, ils
  * remplacent le tableau générique de propriétés pour chaque fiche affichée
  * dans un groupe (mêmes composants que sur les fiches Discipline/Pouvoir/Clan).
+ * `itemHighlightField` met une propriété en évidence dans un encart distinct
+ * (ex. Restriction d'un rituel), plutôt que noyée dans `itemStatFields`.
  * `singleItemStatFields`/`singleItemRelatedGroups` jouent le même rôle mais
  * pour une fiche ouverte seule (voir plus bas) : utile quand une info comme
  * le coût est déjà répétée dans le titre du groupe et n'a donc pas besoin
@@ -64,6 +97,7 @@ export default function GroupedRuleView({
     emptyMessage,
     itemStatFields,
     itemRelatedGroups,
+    itemHighlightField,
     hideGroupedProperties = false,
     singleItemStatFields,
     singleItemRelatedGroups,
@@ -231,30 +265,30 @@ export default function GroupedRuleView({
                                     </h2>
 
                                     {subGroup.items.map(item => (
-                                        <section key={item.id} className="ritualEntry">
-                                            <h3>{item.title}</h3>
-                                            {itemStatFields ? <StatBlock item={item} fields={itemStatFields} /> : null}
-                                            {itemRelatedGroups ? <RelatedGroups item={item} groups={itemRelatedGroups} /> : null}
-                                            <ItemDetailBody
-                                                item={item}
-                                                hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
-                                            />
-                                        </section>
+                                        <ItemEntry
+                                            key={item.id}
+                                            item={item}
+                                            headingTag="h3"
+                                            itemStatFields={itemStatFields}
+                                            itemRelatedGroups={itemRelatedGroups}
+                                            itemHighlightField={itemHighlightField}
+                                            hideGroupedProperties={hideGroupedProperties}
+                                        />
                                     ))}
 
                                 </div>
                             ))
                         ) : (
                             selectedItems.map(item => (
-                                <section key={item.id} className="ritualEntry">
-                                    <h2>{item.title}</h2>
-                                    {itemStatFields ? <StatBlock item={item} fields={itemStatFields} /> : null}
-                                    {itemRelatedGroups ? <RelatedGroups item={item} groups={itemRelatedGroups} /> : null}
-                                    <ItemDetailBody
-                                        item={item}
-                                        hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
-                                    />
-                                </section>
+                                <ItemEntry
+                                    key={item.id}
+                                    item={item}
+                                    headingTag="h2"
+                                    itemStatFields={itemStatFields}
+                                    itemRelatedGroups={itemRelatedGroups}
+                                    itemHighlightField={itemHighlightField}
+                                    hideGroupedProperties={hideGroupedProperties}
+                                />
                             ))
                         )}
                     </>

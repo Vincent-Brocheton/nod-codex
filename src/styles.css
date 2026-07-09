@@ -558,10 +558,18 @@ a.relationChip:hover {
   font-style: italic;
 }
 
+/* Une seule carte par fiche (titre + propriétés + contenu), plutôt que le
+   titre suivi de deux blocs encadrés séparés : StatBlock et ContentBlocks
+   perdent leur encadré propre pour se fondre dans celui du parent. */
+.ritualEntry {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: clamp(20px, 4vw, 32px);
+}
+
 .ritualEntry:not(:last-child) {
-  border-bottom: 1px solid var(--border);
-  margin-bottom: 32px;
-  padding-bottom: 32px;
+  margin-bottom: 20px;
 }
 
 .ritualEntry h2,
@@ -569,6 +577,52 @@ a.relationChip:hover {
   color: var(--text-heading);
   font-size: clamp(24px, 4vw, 32px);
   margin: 0 0 16px;
+}
+
+.itemHighlight {
+  align-items: center;
+  background: var(--accent-tint);
+  border: 1px solid var(--accent);
+  border-radius: 6px;
+  color: var(--accent-strong);
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 8px;
+  margin: 0 0 20px;
+  padding: 10px 14px;
+  width: fit-content;
+}
+
+.itemHighlight strong {
+  color: var(--accent-hover);
+}
+
+.ritualEntry .statBlock {
+  background: none;
+  border: none;
+  gap: 12px 32px;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  margin: 0 0 20px;
+}
+
+.ritualEntry .statCard {
+  background: none;
+  padding: 0;
+}
+
+.ritualEntry .contentBlocks {
+  background: none;
+  border: none;
+  border-radius: 0;
+  max-width: none;
+  padding: 0;
+}
+
+.ritualEntry .properties {
+  background: none;
+  border: none;
+  max-width: none;
 }
 
 .detailSubGroupTitle {
