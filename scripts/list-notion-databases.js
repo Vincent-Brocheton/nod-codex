@@ -1,64 +1,10 @@
-﻿import { readFile } from "node:fs/promises";
-import path from "node:path";
-import { fileURLToPath } from "node:url";
-
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const rootDir = path.resolve(__dirname, "..");
-
-async function loadLocalEnv() {
-  let file;
-
-  try {
-    file = await readFile(path.join(rootDir, ".env"), "utf8");
-  } catch {
-    return;
-  }
-
-  for (const line of file.split(/\r?\n/)) {
-    const trimmed = line.trim();
-    if (!trimmed || trimmed.startsWith("#")) continue;
-
-    const separatorIndex = trimmed.indexOf("=");
-    if (separatorIndex === -1) continue;
-
-    const key = trimmed.slice(0, separatorIndex).trim();
-    const value = trimmed.slice(separatorIndex + 1).trim().replace(/^['"]|['"]$/g, "");
-
-    if (key && process.env[key] === undefined) {
-      process.env[key] = value;
-    }
-  }
-}
-
-function richTextToPlainText(richText = []) {
-  return richText.map((item) => item.plain_text || "").join("");
-}
-
-async function notionRequest(endpoint, options = {}) {
-  const response = await fetch(`https://api.notion.com/v1${endpoint}`, {
-    ...options,
-    headers: {
-      Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
-      "Notion-Version": process.env.NOTION_VERSION || "2022-06-28",
-      "Content-Type": "application/json",
-      ...(options.headers || {})
-    }
-  });
-
-  if (!response.ok) {
-    const body = await response.text();
-    throw new Error(`Erreur Notion ${response.status} sur ${endpoint}: ${body}`);
-  }
-
-  return response.json();
-}
+import { loadLocalEnv, requireNotionToken } from "./notion/env.js";
+import { notionRequest } from "./notion/client.js";
+import { richTextToPlainText } from "./notion/richText.js";
 
 async function main() {
   await loadLocalEnv();
-
-  if (!process.env.NOTION_TOKEN) {
-    throw new Error("Configuration manquante dans .env: NOTION_TOKEN");
-  }
+  requireNotionToken();
 
   const databases = [];
   let cursor;
