@@ -879,14 +879,18 @@ a.relationChip:hover {
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text-primary);
+  cursor: pointer;
   display: flex;
+  font: inherit;
   gap: 12px;
   padding: 8px 12px;
+  text-align: left;
   text-decoration: none;
+  width: 100%;
   transition: border-color 0.15s ease, background 0.15s ease;
 }
 
-a.relatedRow:hover {
+.relatedRow:hover {
   background: var(--bg-card-hover);
   border-color: var(--accent);
   color: var(--accent-hover);
@@ -905,6 +909,65 @@ a.relatedRow:hover {
   height: 22px;
   justify-content: center;
   width: 22px;
+}
+
+.modalBackdrop {
+  align-items: center;
+  background: rgba(0, 0, 0, 0.65);
+  display: flex;
+  inset: 0;
+  justify-content: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 100;
+}
+
+.modalPanel {
+  background: var(--bg-panel);
+  border: 1px solid var(--border-strong);
+  border-radius: 12px;
+  max-height: 85vh;
+  max-width: 560px;
+  overflow-y: auto;
+  padding: clamp(20px, 4vw, 36px);
+  position: relative;
+  width: 100%;
+}
+
+.modalClose {
+  background: transparent;
+  border: 0;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 6px;
+  position: absolute;
+  right: 12px;
+  top: 12px;
+}
+
+.modalClose:hover {
+  color: var(--accent-strong);
+}
+
+.modalHeader {
+  margin-bottom: 20px;
+  padding-right: 32px;
+}
+
+.modalHeader span {
+  color: var(--accent-strong);
+  display: block;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.modalHeader h2 {
+  color: var(--text-heading);
+  font-size: clamp(24px, 4vw, 32px);
+  margin: 4px 0 0;
 }
 
 /*

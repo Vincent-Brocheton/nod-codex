@@ -5,11 +5,15 @@ import DetailShell from "../DetailShell";
 import collectionNavPath from "../../utils/collectionNavPath";
 
 // Le nom "Discplines" reprend une coquille du champ Notion : le libellé
-// affiché, lui, reste correctement orthographié.
+// affiché, lui, reste correctement orthographié. Les Atouts/Handicaps
+// s'ouvrent en popup (modal), comme sur la fiche Clan, avec seulement le
+// Coût affiché (Type/Clan/Lignées sont déjà évidents depuis ce contexte).
+const MODAL_STAT_FIELDS = [{ label: "Coût", key: "Coût" }];
+
 const RELATED_GROUPS = [
     { key: "Discplines", label: "Disciplines" },
-    { key: "Atouts", label: "Atouts" },
-    { key: "Handicaps", label: "Handicaps" },
+    { key: "Atouts", label: "Atouts", modal: true, modalStatFields: MODAL_STAT_FIELDS },
+    { key: "Handicaps", label: "Handicaps", modal: true, modalStatFields: MODAL_STAT_FIELDS },
 ];
 
 export default function LigneeDetailView({ wiki }) {
@@ -41,7 +45,7 @@ export default function LigneeDetailView({ wiki }) {
 
                     <ContentBlocks content={item.content} />
 
-                    <RelatedGroups item={item} groups={RELATED_GROUPS} />
+                    <RelatedGroups item={item} groups={RELATED_GROUPS} manifest={wiki.manifest} />
                 </>
             )}
         </DetailShell>

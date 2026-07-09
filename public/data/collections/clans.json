@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-08T10:05:52.186Z",
+  "generatedAt": "2026-07-09T15:09:26.235Z",
   "propertyOptions": {},
   "items": [
     {
@@ -32,23 +32,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "quietus",
-              "title": "Quietus"
+              "title": "Quietus",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
-              "title": "Célérité"
+              "title": "Célérité",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
-              "title": "Dissimulation"
+              "title": "Dissimulation",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "eveil-de-l-acier",
+              "title": "Eveil de l’Acier",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-sorcier",
+              "title": "Lignée : Sorcier",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-vizir",
+              "title": "Lignée : Vizir",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "attaque-surprise",
+              "title": "Attaque Surprise",
+              "cout": "1"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -56,12 +84,14 @@
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
-              "title": "Sorcier"
+              "title": "Sorcier",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
-              "title": "Vizirs"
+              "title": "Vizirs",
+              "cout": null
             }
           ]
         },
@@ -206,23 +236,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
-              "title": "Célérité"
+              "title": "Célérité",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
-              "title": "Présence"
+              "title": "Présence",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
-              "title": "Puissance"
+              "title": "Puissance",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "colere-brulante",
+              "title": "Colère Brûlante",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fleau-d-alecto",
+              "title": "Fléau d’Alecto",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-vrai-brujah",
+              "title": "Lignée : Vrai-Brujah",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fraternite",
+              "title": "Fraternité",
+              "cout": "1"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -329,48 +387,75 @@
             {
               "collectionKey": "disciplines",
               "slug": "auspex",
-              "title": "Auspex"
+              "title": "Auspex",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "animalisme",
-              "title": "Animalisme"
+              "title": "Animalisme",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
-              "title": "Dissimulation"
+              "title": "Dissimulation",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme"
+              "title": "Force d’Âme",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
-              "title": "Célérité"
+              "title": "Célérité",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
-              "title": "Présence"
+              "title": "Présence",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
-              "title": "Puissance"
+              "title": "Puissance",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "auspice-favorable",
+              "title": "Auspice Favorable",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-eclipse",
+              "title": "Sang éclipsé",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "vestige-de-grandeur",
+              "title": "Vestige de Grandeur",
+              "cout": "3"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -461,23 +546,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
-              "title": "Puissance"
+              "title": "Puissance",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-la-sepulture",
-              "title": "Voie de la Sépulture"
+              "title": "Voie de la Sépulture",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "executeur",
+              "title": "Exécuteur",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "expertise-necromantique",
+              "title": "Expertise nécromantique",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-premascine",
+              "title": "Lignée : Premascine",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "serviteur-spectral",
+              "title": "Serviteur Spectral",
+              "cout": "3"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -580,22 +693,26 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
-              "title": "Voie du Feu"
+              "title": "Voie du Feu",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau"
+              "title": "Voie de l’Eau",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
-              "title": "Voie du Vent"
+              "title": "Voie du Vent",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre"
+              "title": "Voie de la Terre",
+              "cout": null
             }
           ]
         },
@@ -640,23 +757,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
-              "title": "Puissance"
+              "title": "Puissance",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "obtenebration",
-              "title": "Obténébration"
+              "title": "Obténébration",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-kiasyd",
+              "title": "Lignée : Kiasyd",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "marcher-dans-l-abysse",
+              "title": "Marcher dans l’Abysse",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "ne-dans-l-ombre",
+              "title": "Né dans l’ombre",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "visage-angelique",
+              "title": "Visage Angélique",
+              "cout": "1"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -763,23 +908,57 @@
             {
               "collectionKey": "disciplines",
               "slug": "alienation",
-              "title": "Aliénation"
+              "title": "Aliénation",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "auspex",
-              "title": "Auspex"
+              "title": "Auspex",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
-              "title": "Dissimulation"
+              "title": "Dissimulation",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "conscience-etendue",
+              "title": "Conscience Etendue",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "esprit-labyrinthique",
+              "title": "Esprit Labyrinthique",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-ananke",
+              "title": "Lignée : Ananke",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-chevalier-de-la-lune",
+              "title": "Lignée : Chevalier de la Lune",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sophistique",
+              "title": "Sophistiqué",
+              "cout": "4"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -787,12 +966,14 @@
             {
               "collectionKey": "lignees",
               "slug": "ananke",
-              "title": "Ananke"
+              "title": "Ananke",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
-              "title": "Chevalier de la Lune"
+              "title": "Chevalier de la Lune",
+              "cout": null
             }
           ]
         },
@@ -893,23 +1074,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
-              "title": "Dissimulation"
+              "title": "Dissimulation",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "animalisme",
-              "title": "Animalisme"
+              "title": "Animalisme",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
-              "title": "Puissance"
+              "title": "Puissance",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "adaptation-contre-nature",
+              "title": "Adaptation contre nature",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "avantage-cache",
+              "title": "Avantage caché",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "oeil-aveugle",
+              "title": "Oeil Aveugle",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-maleable",
+              "title": "Sang Maléable",
+              "cout": "3"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1008,23 +1217,57 @@
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
-              "title": "Dissimulation"
+              "title": "Dissimulation",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
-              "title": "Présence"
+              "title": "Présence",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "serpentis",
-              "title": "Serpentis"
+              "title": "Serpentis",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "culte-personnel",
+              "title": "Culte Personnel",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-tlacique",
+              "title": "Lignée : Tlacique",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-vipere",
+              "title": "Lignée : Vipère",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-addictif",
+              "title": "Sang addictif",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sorcellerie-setite",
+              "title": "Sorcellerie Setite",
+              "cout": "4"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1032,12 +1275,14 @@
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
-              "title": "Tlacique"
+              "title": "Tlacique",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
-              "title": "Vipère"
+              "title": "Vipère",
+              "cout": null
             }
           ]
         },
@@ -1138,7 +1383,26 @@
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "benediction-de-l-artiste",
+              "title": "Bénédiction de l’Artiste",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-ihtarri",
+              "title": "Lignée : Ihtarri",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-volgirre",
+              "title": "Lignée : Volgirre",
+              "cout": "2"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1257,23 +1521,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "auspex",
-              "title": "Auspex"
+              "title": "Auspex",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
-              "title": "Voie du Sang"
+              "title": "Voie du Sang",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "contre-magie",
+              "title": "Contre-magie",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "expertise-thaumaturgique",
+              "title": "Expertise Thaumaturgique",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-telyav",
+              "title": "Lignée : Telyav",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "talisman",
+              "title": "Talisman",
+              "cout": "3"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1380,23 +1672,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "animalisme",
-              "title": "Animalisme"
+              "title": "Animalisme",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "vicissitude",
-              "title": "Vicissitude"
+              "title": "Vicissitude",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-carpathien",
+              "title": "Lignée : Carpathien",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-koldun",
+              "title": "Lignée : Koldun",
+              "cout": "4"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-des-tzimices",
+              "title": "Sang des Tzimices",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "szlachta",
+              "title": "Szlachta",
+              "cout": "2"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1503,23 +1823,51 @@
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme"
+              "title": "Force d’Âme",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
-              "title": "Présence"
+              "title": "Présence",
+              "cout": null
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
-              "title": "Domination"
+              "title": "Domination",
+              "cout": null
             }
           ]
         },
         "Atouts de clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "aura-d-autorite",
+              "title": "Aura d’autorité",
+              "cout": "1"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-croise",
+              "title": "Lignée : Croisé",
+              "cout": "2"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "parangon",
+              "title": "Parangon",
+              "cout": "3"
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "prestance-royale",
+              "title": "Prestance Royale",
+              "cout": "4"
+            }
+          ]
         },
         "Lignées": {
           "type": "relation",
@@ -1527,7 +1875,8 @@
             {
               "collectionKey": "lignees",
               "slug": "croise",
-              "title": "Croisé"
+              "title": "Croisé",
+              "cout": null
             }
           ]
         },

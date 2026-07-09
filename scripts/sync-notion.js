@@ -430,6 +430,9 @@ function buildRegistry(fetched) {
         collectionKey: collection.key,
         slug: item.slug,
         title: item.title,
+        // Repris directement dans les fiches liées (ex. Atouts/Handicaps
+        // d'un Clan) pour l'afficher sans avoir à recharger la fiche cible.
+        cout: item.properties?.["Coût"]?.value || null,
       });
     }
   }

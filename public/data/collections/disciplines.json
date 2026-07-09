@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-08T10:05:52.182Z",
+  "generatedAt": "2026-07-09T15:09:26.230Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -89,27 +89,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "passion",
-              "title": "Passion"
+              "title": "Passion",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "hantise-psychique",
-              "title": "Hantise Psychique"
+              "title": "Hantise Psychique",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vision-du-chaos",
-              "title": "Vision du Chaos"
+              "title": "Vision du Chaos",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "voix-de-la-folie",
-              "title": "Voix de la folie"
+              "title": "Voix de la folie",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "demence-absolue",
-              "title": "Démence Absolue"
+              "title": "Démence Absolue",
+              "cout": null
             }
           ]
         },
@@ -134,7 +139,8 @@
             {
               "collectionKey": "clans",
               "slug": "malkavien",
-              "title": "Malkavien"
+              "title": "Malkavien",
+              "cout": null
             }
           ]
         },
@@ -144,22 +150,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "malaise-persistant",
-              "title": "Malaise Persistant"
+              "title": "Malaise Persistant",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "deni",
-              "title": "Déni"
+              "title": "Déni",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "restructuration",
-              "title": "Restructuration"
+              "title": "Restructuration",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "lamentation-de-llorona",
-              "title": "Lamentation de Llorona"
+              "title": "Lamentation de Llorona",
+              "cout": null
             }
           ]
         },
@@ -169,7 +179,8 @@
             {
               "collectionKey": "lignees",
               "slug": "ananke",
-              "title": "Ananke"
+              "title": "Ananke",
+              "cout": null
             }
           ]
         },
@@ -221,27 +232,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "murmures-sauvages",
-              "title": "Murmures Sauvages"
+              "title": "Murmures Sauvages",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "appel",
-              "title": "Appel"
+              "title": "Appel",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "dompter-la-bete",
-              "title": "Dompter la Bête"
+              "title": "Dompter la Bête",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "soumission-de-l-esprit",
-              "title": "Soumission de l’Esprit"
+              "title": "Soumission de l’Esprit",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "lacher-la-bete",
-              "title": "Lâcher la Bête"
+              "title": "Lâcher la Bête",
+              "cout": null
             }
           ]
         },
@@ -266,17 +282,20 @@
             {
               "collectionKey": "clans",
               "slug": "nosferatu",
-              "title": "Nosfératu"
+              "title": "Nosfératu",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "tzimices",
-              "title": "Tzimices"
+              "title": "Tzimices",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -286,22 +305,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "intimider-la-bete",
-              "title": "Intimider la Bête"
+              "title": "Intimider la Bête",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "furie-pourpre",
-              "title": "Furie Pourpre"
+              "title": "Furie Pourpre",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "apaiser-le-troupeau",
-              "title": "Apaiser le Troupeau"
+              "title": "Apaiser le Troupeau",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitre-de-la-chasse",
-              "title": "Maître de la Chasse"
+              "title": "Maître de la Chasse",
+              "cout": null
             }
           ]
         },
@@ -353,27 +376,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sens-aiguises",
-              "title": "Sens Aiguisés"
+              "title": "Sens Aiguisés",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "lecture-d-ame",
-              "title": "Lecture d’Âme"
+              "title": "Lecture d’Âme",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "psychometrie",
-              "title": "Psychométrie"
+              "title": "Psychométrie",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "telepathie",
-              "title": "Télépathie"
+              "title": "Télépathie",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "projection-astrale",
-              "title": "Projection Astrale"
+              "title": "Projection Astrale",
+              "cout": null
             }
           ]
         },
@@ -398,17 +426,20 @@
             {
               "collectionKey": "clans",
               "slug": "malkavien",
-              "title": "Malkavien"
+              "title": "Malkavien",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "tremere",
-              "title": "Tremere"
+              "title": "Tremere",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -418,22 +449,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "clairvoyance",
-              "title": "Clairvoyance"
+              "title": "Clairvoyance",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "assaut-psychique",
-              "title": "Assaut Psychique"
+              "title": "Assaut Psychique",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "brouillard-de-guerre",
-              "title": "Brouillard de Guerre"
+              "title": "Brouillard de Guerre",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "drain-psychique",
-              "title": "Drain Psychique"
+              "title": "Drain Psychique",
+              "cout": null
             }
           ]
         },
@@ -443,42 +478,50 @@
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
-              "title": "Vizirs"
+              "title": "Vizirs",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
-              "title": "Voie du Feu"
+              "title": "Voie du Feu",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau"
+              "title": "Voie de l’Eau",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
-              "title": "Voie du Vent"
+              "title": "Voie du Vent",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre"
+              "title": "Voie de la Terre",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
-              "title": "Ananke"
+              "title": "Ananke",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
-              "title": "Chevalier de la Lune"
+              "title": "Chevalier de la Lune",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "croise",
-              "title": "Croisé"
+              "title": "Croisé",
+              "cout": null
             }
           ]
         },
@@ -521,27 +564,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "alcarite",
-              "title": "Alcarité"
+              "title": "Alcarité",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vivacite",
-              "title": "Vivacité"
+              "title": "Vivacité",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "rapidite",
-              "title": "Rapidité"
+              "title": "Rapidité",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "legerete",
-              "title": "Légéreté"
+              "title": "Légéreté",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "fluidite",
-              "title": "Fluidité"
+              "title": "Fluidité",
+              "cout": null
             }
           ]
         },
@@ -565,17 +613,20 @@
             {
               "collectionKey": "clans",
               "slug": "assamites",
-              "title": "Assamites"
+              "title": "Assamites",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "brujah",
-              "title": "Brujah"
+              "title": "Brujah",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -585,22 +636,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "ecart-agile",
-              "title": "Écart Agile"
+              "title": "Écart Agile",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "projectile",
-              "title": "Projectile"
+              "title": "Projectile",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "vitesse",
-              "title": "Vitesse"
+              "title": "Vitesse",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "zephyr",
-              "title": "Zéphyr"
+              "title": "Zéphyr",
+              "cout": null
             }
           ]
         },
@@ -610,7 +665,8 @@
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
-              "title": "Vizirs"
+              "title": "Vizirs",
+              "cout": null
             }
           ]
         },
@@ -706,27 +762,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "ignus-fatuus",
-              "title": "Ignus Fatuus"
+              "title": "Ignus Fatuus",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "affreuse-realite",
-              "title": "Affreuse Réalité"
+              "title": "Affreuse Réalité",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "permanence",
-              "title": "Permanence"
+              "title": "Permanence",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "apparition",
-              "title": "Apparition"
+              "title": "Apparition",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "mirage",
-              "title": "Mirage"
+              "title": "Mirage",
+              "cout": null
             }
           ]
         },
@@ -755,22 +816,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "armee-d-apparitions",
-              "title": "Armée d’Apparitions"
+              "title": "Armée d’Apparitions",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "l-epouvantable-lame-des-demons",
-              "title": "L'épouvantable lame des démons"
+              "title": "L'épouvantable lame des démons",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "essence-de-la-verite",
-              "title": "Essence de la Vérité"
+              "title": "Essence de la Vérité",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "cauchemar-partage",
-              "title": "Cauchemar Partagé"
+              "title": "Cauchemar Partagé",
+              "cout": null
             }
           ]
         },
@@ -818,27 +883,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sentir-le-peche",
-              "title": "Sentir le Péché"
+              "title": "Sentir le Péché",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "peur-du-vide-abyssale",
-              "title": "Peur du Vide abyssale"
+              "title": "Peur du Vide abyssale",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "condamnation",
-              "title": "Condamnation"
+              "title": "Condamnation",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "psychomachie",
-              "title": "Psychomachie"
+              "title": "Psychomachie",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "conflagration",
-              "title": "Conflagration"
+              "title": "Conflagration",
+              "cout": null
             }
           ]
         },
@@ -867,17 +937,20 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "atrocite-mouvante",
-              "title": "Atrocité Mouvante"
+              "title": "Atrocité Mouvante",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "compact-infernal",
-              "title": "Compact Infernal"
+              "title": "Compact Infernal",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "engendrer-la-peste",
-              "title": "Engendrer la Peste"
+              "title": "Engendrer la Peste",
+              "cout": null
             }
           ]
         },
@@ -944,27 +1017,32 @@
             {
               "collectionKey": "clans",
               "slug": "assamites",
-              "title": "Assamites"
+              "title": "Assamites",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "malkavien",
-              "title": "Malkavien"
+              "title": "Malkavien",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "nosferatu",
-              "title": "Nosfératu"
+              "title": "Nosfératu",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "setite",
-              "title": "Setite"
+              "title": "Setite",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -974,22 +1052,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "chasseur-fantome",
-              "title": "Chasseur Fantôme"
+              "title": "Chasseur Fantôme",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "dissimulation-distante",
-              "title": "Dissimulation Distante"
+              "title": "Dissimulation Distante",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "labyrinthe-mental",
-              "title": "Labyrinthe Mental"
+              "title": "Labyrinthe Mental",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "masque-d-ame",
-              "title": "Masque d’âme"
+              "title": "Masque d’âme",
+              "cout": null
             }
           ]
         },
@@ -999,12 +1081,14 @@
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
-              "title": "Sorcier"
+              "title": "Sorcier",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
-              "title": "Tlacique"
+              "title": "Tlacique",
+              "cout": null
             }
           ]
         },
@@ -1139,32 +1223,38 @@
             {
               "collectionKey": "clans",
               "slug": "lasombra",
-              "title": "Lasombra"
+              "title": "Lasombra",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "tremere",
-              "title": "Tremere"
+              "title": "Tremere",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "tzimices",
-              "title": "Tzimices"
+              "title": "Tzimices",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "ventrue",
-              "title": "Ventrue"
+              "title": "Ventrue",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "giovanni",
-              "title": "Giovanni"
+              "title": "Giovanni",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -1174,22 +1264,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "allegeance",
-              "title": "Allégeance"
+              "title": "Allégeance",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "chaine-de-commandement",
-              "title": "Chaîne de Commandement"
+              "title": "Chaîne de Commandement",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "manipulation-de-masse",
-              "title": "Manipulation de masse"
+              "title": "Manipulation de masse",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "regard-du-tyran",
-              "title": "Regard du Tyran"
+              "title": "Regard du Tyran",
+              "cout": null
             }
           ]
         },
@@ -1199,12 +1293,14 @@
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
-              "title": "Chevalier de la Lune"
+              "title": "Chevalier de la Lune",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "croise",
-              "title": "Croisé"
+              "title": "Croisé",
+              "cout": null
             }
           ]
         },
@@ -1275,27 +1371,32 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "endurance",
-              "title": "Endurance"
+              "title": "Endurance",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "ardeur",
-              "title": "Ardeur"
+              "title": "Ardeur",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "resilience",
-              "title": "Résilience"
+              "title": "Résilience",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "resistance",
-              "title": "Résistance"
+              "title": "Résistance",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "egide",
-              "title": "Égide"
+              "title": "Égide",
+              "cout": null
             }
           ]
         },
@@ -1319,12 +1420,14 @@
             {
               "collectionKey": "clans",
               "slug": "ventrue",
-              "title": "Ventrue"
+              "title": "Ventrue",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -1334,22 +1437,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "armure-personnelle",
-              "title": "Armure Personnelle"
+              "title": "Armure Personnelle",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "esprit-resilient",
-              "title": "Esprit Résilient"
+              "title": "Esprit Résilient",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "reparer-la-chair-non-morte",
-              "title": "Réparer la chair non-morte"
+              "title": "Réparer la chair non-morte",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "roi-de-la-montagne",
-              "title": "Roi de la montagne"
+              "title": "Roi de la montagne",
+              "cout": null
             }
           ]
         },
@@ -1359,7 +1466,8 @@
             {
               "collectionKey": "lignees",
               "slug": "croise",
-              "title": "Croisé"
+              "title": "Croisé",
+              "cout": null
             }
           ]
         },
@@ -1419,22 +1527,26 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
-              "title": "Voie du Feu"
+              "title": "Voie du Feu",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau"
+              "title": "Voie de l’Eau",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
-              "title": "Voie du Vent"
+              "title": "Voie du Vent",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre"
+              "title": "Voie de la Terre",
+              "cout": null
             }
           ]
         },
@@ -1490,7 +1602,8 @@
             {
               "collectionKey": "clans",
               "slug": "lasombra",
-              "title": "Lasombra"
+              "title": "Lasombra",
+              "cout": null
             }
           ]
         },
@@ -1500,22 +1613,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "allie-tenebreux",
-              "title": "Allié ténébreux"
+              "title": "Allié ténébreux",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "jumeau-tenebreux",
-              "title": "Jumeau Ténébreux"
+              "title": "Jumeau Ténébreux",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "marcher-dans-les-ombres",
-              "title": "Marcher dans les Ombres"
+              "title": "Marcher dans les Ombres",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "traitrise-de-l-ombre",
-              "title": "Traîtrise de l’Ombre"
+              "title": "Traîtrise de l’Ombre",
+              "cout": null
             }
           ]
         },
@@ -1577,22 +1694,26 @@
             {
               "collectionKey": "clans",
               "slug": "brujah",
-              "title": "Brujah"
+              "title": "Brujah",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "setite",
-              "title": "Setite"
+              "title": "Setite",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "ventrue",
-              "title": "Ventrue"
+              "title": "Ventrue",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -1602,22 +1723,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "amour",
-              "title": "Amour"
+              "title": "Amour",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "freres-d-armes",
-              "title": "Frères d’Armes"
+              "title": "Frères d’Armes",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "regard-paralysant",
-              "title": "Regard paralysant"
+              "title": "Regard paralysant",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "visage-capricieux",
-              "title": "Visage Capricieux"
+              "title": "Visage Capricieux",
+              "cout": null
             }
           ]
         },
@@ -1627,17 +1752,20 @@
             {
               "collectionKey": "lignees",
               "slug": "ananke",
-              "title": "Ananke"
+              "title": "Ananke",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
-              "title": "Tlacique"
+              "title": "Tlacique",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
-              "title": "Vipère"
+              "title": "Vipère",
+              "cout": null
             }
           ]
         },
@@ -1697,22 +1825,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "brouillard-morcele",
-              "title": "Brouillard morcelé"
+              "title": "Brouillard morcelé",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitrise-de-la-terre",
-              "title": "Maîtrise de la Terre"
+              "title": "Maîtrise de la Terre",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitrise-des-formes",
-              "title": "Maîtrise des Formes"
+              "title": "Maîtrise des Formes",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "peau-de-marbre",
-              "title": "Peau de Marbre"
+              "title": "Peau de Marbre",
+              "cout": null
             }
           ]
         },
@@ -1722,7 +1854,8 @@
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
-              "title": "Tlacique"
+              "title": "Tlacique",
+              "cout": null
             }
           ]
         },
@@ -1778,27 +1911,32 @@
             {
               "collectionKey": "clans",
               "slug": "brujah",
-              "title": "Brujah"
+              "title": "Brujah",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "lasombra",
-              "title": "Lasombra"
+              "title": "Lasombra",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "nosferatu",
-              "title": "Nosfératu"
+              "title": "Nosfératu",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "giovanni",
-              "title": "Giovanni"
+              "title": "Giovanni",
+              "cout": null
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
-              "title": "Caitiff"
+              "title": "Caitiff",
+              "cout": null
             }
           ]
         },
@@ -1808,22 +1946,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "choc-terrestre",
-              "title": "Choc terrestre"
+              "title": "Choc terrestre",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "force",
-              "title": "Force"
+              "title": "Force",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "furie-implacable",
-              "title": "Furie implacable"
+              "title": "Furie implacable",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "intensite",
-              "title": "Intensité"
+              "title": "Intensité",
+              "cout": null
             }
           ]
         },
@@ -1833,7 +1975,8 @@
             {
               "collectionKey": "lignees",
               "slug": "vipere",
-              "title": "Vipère"
+              "title": "Vipère",
+              "cout": null
             }
           ]
         },
@@ -1891,7 +2034,8 @@
             {
               "collectionKey": "clans",
               "slug": "assamites",
-              "title": "Assamites"
+              "title": "Assamites",
+              "cout": null
             }
           ]
         },
@@ -1901,22 +2045,26 @@
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "griffes-sanglantes-de-baal",
-              "title": "Griffes Sanglantes de Baal"
+              "title": "Griffes Sanglantes de Baal",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "purification",
-              "title": "Purification"
+              "title": "Purification",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "revelations-de-l-essence-sanguine",
-              "title": "Révélations de l’essence sanguine"
+              "title": "Révélations de l’essence sanguine",
+              "cout": null
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "sueur-sanguine",
-              "title": "Sueur Sanguine"
+              "title": "Sueur Sanguine",
+              "cout": null
             }
           ]
         },
@@ -1926,12 +2074,14 @@
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
-              "title": "Sorcier"
+              "title": "Sorcier",
+              "cout": null
             },
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
-              "title": "Vizirs"
+              "title": "Vizirs",
+              "cout": null
             }
           ]
         },
@@ -1989,7 +2139,8 @@
             {
               "collectionKey": "clans",
               "slug": "setite",
-              "title": "Setite"
+              "title": "Setite",
+              "cout": null
             }
           ]
         },
@@ -2003,7 +2154,8 @@
             {
               "collectionKey": "lignees",
               "slug": "vipere",
-              "title": "Vipère"
+              "title": "Vipère",
+              "cout": null
             }
           ]
         },
@@ -2119,7 +2271,8 @@
             {
               "collectionKey": "clans",
               "slug": "tzimices",
-              "title": "Tzimices"
+              "title": "Tzimices",
+              "cout": null
             }
           ]
         },
@@ -2187,7 +2340,8 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau"
+              "title": "Voie de l’Eau",
+              "cout": null
             }
           ]
         },
@@ -2485,7 +2639,8 @@
             {
               "collectionKey": "clans",
               "slug": "giovanni",
-              "title": "Giovanni"
+              "title": "Giovanni",
+              "cout": null
             }
           ]
         },
@@ -2613,7 +2768,8 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre"
+              "title": "Voie de la Terre",
+              "cout": null
             }
           ]
         },
@@ -2919,7 +3075,8 @@
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
-              "title": "Sorcier"
+              "title": "Sorcier",
+              "cout": null
             }
           ]
         },
@@ -3279,7 +3436,8 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
-              "title": "Voie du Feu"
+              "title": "Voie du Feu",
+              "cout": null
             }
           ]
         },
@@ -3337,7 +3495,8 @@
             {
               "collectionKey": "clans",
               "slug": "tremere",
-              "title": "Tremere"
+              "title": "Tremere",
+              "cout": null
             }
           ]
         },
@@ -3405,7 +3564,8 @@
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
-              "title": "Voie du Vent"
+              "title": "Voie du Vent",
+              "cout": null
             }
           ]
         },

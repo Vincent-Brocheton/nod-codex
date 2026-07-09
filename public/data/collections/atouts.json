@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-08T10:05:52.187Z",
+  "generatedAt": "2026-07-09T15:09:26.237Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -27,7 +27,7 @@
       "slug": "a-l-affut",
       "title": "A l’affût",
       "notionUrl": "https://app.notion.com/p/A-l-aff-t-39388b48e48e8048a9defc3c8186830b",
-      "lastEditedTime": "2026-07-04T21:20:00.000Z",
+      "lastEditedTime": "2026-07-09T13:51:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -52,12 +52,50 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Pendant les Nuits des troubles, les Anarch ont mis sur écoute les moyens de communications des Chasseurs de vampires. Ils ont utilisé ces informations à la fois pour éviter les Chasseurs et pour les inciter à attaquer le Sabbat et la Camarilla. Bien que certaines organisations de Chasseurs ont amélioré leur sécurité (et que certaines ne pouvaient pas être mises sur écoute), vous avez quand même des alertes concernant des raids humains de la part de vos contacts dans le Mouvement. Vous pouvez dépenser une AIP pour en apprendre plus sur les Chasseurs dans votre périmètre et si vous le souhaitez, vous pouvez leur transmettre des informations (vraies ou fausses)."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-802c-973e-c8063c14abaa",
+      "slug": "adaptation-contre-nature",
+      "title": "Adaptation contre nature",
+      "notionUrl": "https://app.notion.com/p/Adaptation-contre-nature-39888b48e48e802c973ec8063c14abaa",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "nosferatu",
+              "title": "Nosfératu",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Adaptation contre nature"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre Étreinte vous a laissé plus monstrueusement altéré que la plupart des Nosferatu.\nChoisissez deux des capacités suivantes :\n• Patagia : Une membrane relie vos bras à votre torse. Vous pouvez planer pour éviter les dégâts de chute.\nSi vous avez 2+ en Puissance, vous pouvez voler sur trois pas par tour en utilisant vos actions.\n• Doigts Palmés : Vos doigts et orteils sont allongés et reliés par une membrane. Vous nagez extrêmement vite.\nVous pouvez nager à vitesse normale avec une action simple, avec un bonus de déplacement selon votre Athlétisme.\n• Gueule Béante : Votre bouche est énorme et remplie de crocs.\nVous pouvez mordre sans saisir au préalable.\nVous drainez 2 points de sang par action standard au lieu de 1.\n• Corps Visqueux : Votre corps est recouvert d’une substance gluante.\nVous pouvez automatiquement échapper à une étreinte avec une action simple, même contre des pouvoirs surnaturels.\n• Appendices Préhensible : Vos membres sont allongés ou déformés (tentaculaires, ventouses, etc.).\nVous n’avez pas besoin de dépenser de Volonté pour agripper et gagnez un bonus de +2 aux tests de lutte."
         }
       ]
     },
@@ -66,7 +104,7 @@
       "slug": "affranchi",
       "title": "Affranchi",
       "notionUrl": "https://app.notion.com/p/Affranchi-39388b48e48e8086a675d9f716058306",
-      "lastEditedTime": "2026-07-04T21:21:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -91,10 +129,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous faites parti d'un gang Anarch bien connu. De plus, on vous considère comme l'un de ses membres les plus éminent, responsable de sa réputation (positive ou négative). D'autres membres du gang sont fier de la renommée du groupe, mais votre nom et celui du gang sont entremêlés. Lorsque vous achetez cet atout, vous gagnez le statut du nom de votre gang. Ce statut a la même fonction que le statut Surnom. Si vous quittez votre gang, vous devez soit rejoindre un autre gang (et changer de surnom) soit perdre cet atout sans récupérer l'XP dépensé."
         }
@@ -105,7 +139,7 @@
       "slug": "ambidextre",
       "title": "Ambidextre",
       "notionUrl": "https://app.notion.com/p/Ambidextre-39688b48e48e80ec841af14faaf7a445",
-      "lastEditedTime": "2026-07-07T22:11:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -130,10 +164,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "La plupart des gens possèdent une main dominante, droite ou gauche.\nUne fois par tour, lorsque vous attaquez avec des armes (de mêlée ou à feu), vous pouvez utiliser les qualités de votre arme principale ainsi qu’une qualité provenant d’une seconde arme tenue dans votre main secondaire, permettant ainsi aux deux armes d’améliorer votre attaque.\nVous ne pouvez pas utiliser deux fois le même bonus lors d’un même défi.\nPar exemple, vous ne pouvez pas choisir deux fois la qualité Précise afin d’obtenir un bonus de +4.\nLes deux armes doivent pouvoir logiquement toucher votre adversaire pour appliquer cet avantage ; ainsi, vous ne pouvez pas utiliser la qualité d’une épée tenue en main secondaire afin d’améliorer une attaque à distance effectuée avec un pistolet.\nAmbidextre peut être utilisé durant les rounds de Célérité, mais uniquement une fois par tour."
         }
@@ -144,7 +174,7 @@
       "slug": "ancien-de-la-revolution",
       "title": "Ancien de la Révolution",
       "notionUrl": "https://app.notion.com/p/Ancien-de-la-R-volution-39388b48e48e80a9a760d9e9097fde3b",
-      "lastEditedTime": "2026-07-04T21:12:00.000Z",
+      "lastEditedTime": "2026-07-09T13:51:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -169,10 +199,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Cet atout ne peut être acheté que lors de la création du personnage. Le mouvement Anarch est composé principalement de jeunes nouveaux-nés, Étreint depuis peu et d'Ancillas. Un joueur qui souhaite acheter un 4ème ou 5ème niveau de Génération doit d'abord acheter Ancien de la Révolution. Si vous quittez les Anarchs pour rejoindre la Camarilla (ou le Sabbat), vous récupérez l'XP dépensé pour cet atout, tout en conservant vos niveaux de génération. Si votre personnage atteint la génération 6 ou 7 suite à une (ou plusieurs) diableries, il n'a pas besoin d'acheter cet atout.\nIl est a noter qu'acheter cet atout n'indique pas que l'Anarch a été Étreint avant les années 1800, cela correspond à l'atout \"Old Dog\"."
         }
@@ -183,7 +209,7 @@
       "slug": "anguille",
       "title": "Anguille",
       "notionUrl": "https://app.notion.com/p/Anguille-39688b48e48e804facbfc6d2f4397eb8",
-      "lastEditedTime": "2026-07-07T22:11:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -208,10 +234,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Que vous soyez extrêmement souple, incroyablement agile ou doté d’un instinct hors du commun, vous possédez une capacité presque surnaturelle à éviter les blessures.\nVous obtenez un bonus de 3 à vos réserves défensives basées sur Esquive."
         }
@@ -222,7 +244,7 @@
       "slug": "antiquites",
       "title": "Antiquités",
       "notionUrl": "https://app.notion.com/p/Antiquit-s-39388b48e48e8072b7dfce5688b425c2",
-      "lastEditedTime": "2026-07-04T22:23:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -247,10 +269,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes non-mort depuis longtemps, ou vous avez récupéré le stock d'un Semblable qui a été détruit. Quoi qu'il en soit, vous possédez une grande quantité d'objets anciens.\nVous pouvez dépenser une AIP pour ajouter l'attribut \"Antique\" à un objet ne servant pas au combat. Cet attribut ne compte pas pour la limite d'attribut que peut avoir un objet. Certains de vos objets peuvent avoir une valeurs historique ce qui peut attirer l'attention des mortels si cela s'apprend. À la discrétion des conteurs."
         }
@@ -261,7 +279,7 @@
       "slug": "aptitude-a-une-competence",
       "title": "Aptitude à une compétence",
       "notionUrl": "https://app.notion.com/p/Aptitude-une-comp-tence-39688b48e48e809b92dadcda67b7a3c5",
-      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -286,10 +304,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "En raison d’un aspect particulier de votre histoire — qu’il s’agisse d’un entraînement intensif ou simplement d’un talent naturel — vous êtes exceptionnellement doué dans une compétence précise.\nChoisissez une compétence et augmentez de 1 le nombre maximum potentiel de points que votre personnage peut posséder dans cette compétence.\nVous devez toujours dépenser l’XP normalement afin d’augmenter cette compétence jusqu’à son nouveau maximum.\nVous pouvez acheter l’Atout Aptitude à une compétence plusieurs fois, mais chaque achat doit être appliqué à une compétence différente."
         }
@@ -300,7 +314,7 @@
       "slug": "arcane",
       "title": "Arcane",
       "notionUrl": "https://app.notion.com/p/Arcane-39688b48e48e8098bee3ff0eba78a025",
-      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -325,10 +339,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes mystiquement dissimulé à l’attention des autres.\nLes personnes avec lesquelles vous interagissez brièvement ne se souviennent pas de votre présence à moins qu’on ne vous ait spécifiquement désigné.\nLes traces administratives vous concernant disparaissent, et les données informatiques deviennent aléatoirement corrompues, égarées ou accidentellement effacées.\nCet effet n’accorde aucun avantage en Discrétion et ne gêne pas les personnes vous connaissant personnellement, comme les autres personnages.\nCependant, les individus vous rencontrant de manière passagère éprouvent des difficultés à se souvenir précisément de qui vous êtes.\nCet Atout constitue à la fois un avantage… et une légère nuisance."
         }
@@ -339,7 +349,7 @@
       "slug": "architecte-de-la-tour",
       "title": "Architecte de la Tour",
       "notionUrl": "https://app.notion.com/p/Architecte-de-la-Tour-39388b48e48e80c4b3c1e7d4fdb8d3e4",
-      "lastEditedTime": "2026-07-04T22:24:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -364,12 +374,250 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez combattu pour la Camarilla durant la Révolte Anarch et vous étiez présent à la signature du Traité de Thorns. Vous êtes considéré comme l'un des membres fondateurs de la Camarilla et en tant que tel, vous obtenez le statut \"Architecte\"."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80a7-8a9e-feb7594c01ac",
+      "slug": "attaque-surprise",
+      "title": "Attaque Surprise",
+      "notionUrl": "https://app.notion.com/p/Attaque-Surprise-39888b48e48e80a78a9efeb7594c01ac",
+      "lastEditedTime": "2026-07-09T15:08:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vizirs",
+              "title": "Vizirs",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Attaque Surprise"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes particulièrement habile pour attaquer par surprise. Vous bénéficiez d’un bonus de +3 à vos pools de test Physiques lorsque vous attaquez un adversaire qui n’est pas conscient de votre présence.\nVous ne bénéficiez de ce bonus qu’une seule fois par combat, car votre première attaque révèle votre présence et annule tout effet de surprise ultérieur."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80bf-adb9-f34a99d241ca",
+      "slug": "aura-d-autorite",
+      "title": "Aura d’autorité",
+      "notionUrl": "https://app.notion.com/p/Aura-d-autorit-39888b48e48e80bfadb9f34a99d241ca",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Aura d’autorité"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En tant que noblesse de la société vampirique, les Ventrue ne tolèrent aucune désobéissance des simples mortels.\nLes mortels et les goules ne peuvent pas résister à vos pouvoirs de Présence et de Domination.\nLorsque vous ciblez un mortel avec ces pouvoirs, vous réussissez automatiquement : il ne peut pas constituer de réserve de défense.\nCet effet s’applique également aux techniques nécessitant Présence ou Domination."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8043-a6b2-fc250313fb4a",
+      "slug": "auspice-favorable",
+      "title": "Auspice Favorable",
+      "notionUrl": "https://app.notion.com/p/Auspice-Favorable-39888b48e48e8043a6b2fc250313fb4a",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Auspice Favorable"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes né sous une bonne étoile, ou votre nature s’est particulièrement bien adaptée à l’Étreinte.\nCe mérite reproduit les effets d’un autre mérite général coûtant 3 points ou moins.\nPar exemple, vous pouvez choisir de reproduire le mérite Robuste pour seulement 1 point.\nRègles importantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous ne pouvez pas acheter deux fois le même mérite"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous ne pouvez pas cumuler ce mérite avec celui qu’il copie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ce mérite ne fonctionne que pour les mérites généraux (pas les mérites de clan ni rares)"
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8007-93f4-db13b275227e",
+      "slug": "avantage-cache",
+      "title": "Avantage caché",
+      "notionUrl": "https://app.notion.com/p/Avantage-cach-39888b48e48e800793f4db13b275227e",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "nosferatu",
+              "title": "Nosfératu",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Avantage caché"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre héritage Nosferatu vous confère un talent exceptionnel avec Occultation.\nLes individus utilisant Auspex (ou des pouvoirs similaires) ne réalisent pas automatiquement qu’une personne occultée se trouve à proximité de vous.\nDe plus, votre Présence Invisible reste active même lorsque vous dormez ou êtes en torpeur. Pour cela, vous devez activer ce pouvoir avant de vous endormir.\nVotre invisibilité peut toutefois être percée par Auspex sans vous réveiller."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80f7-9bdc-cf8b65b13a26",
+      "slug": "benediction-de-l-artiste",
+      "title": "Bénédiction de l’Artiste",
+      "notionUrl": "https://app.notion.com/p/B-n-diction-de-l-Artiste-39888b48e48e80f79bdccf8b65b13a26",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "toreador",
+              "title": "Toréador",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Bénédiction de l’Artiste"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le niveau maximum potentiel de toutes vos compétences Artisanat et Représentation est augmenté de 2 (généralement jusqu’à 7).\nDe plus, vous obtenez gratuitement les 3 premiers points dans une compétence Artisanat ou Représentation de votre choix.\nSi vous aviez déjà acheté cette compétence, les PX sont remboursés.\nSi vous aviez attribué des points de création à cette compétence, vous pouvez les réaffecter à une compétence dans laquelle vous n’avez aucun point."
         }
       ]
     },
@@ -378,7 +626,7 @@
       "slug": "blase",
       "title": "Blasé",
       "notionUrl": "https://app.notion.com/p/Blas-39688b48e48e80148cb4fcab23cc2eb4",
-      "lastEditedTime": "2026-07-07T22:12:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -403,10 +651,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez tout vu, tout fait et tout connu.\nIl est notoirement difficile de vous impressionner, et vous possédez un talent particulier pour considérer les faits sans coloration émotionnelle.\nVous obtenez un retest gratuit lorsque vous résistez aux effets de Démence, Melpominee et Présence.\nCe retest peut être utilisé avant ou après un retest de Volonté normal et constitue une exception à la règle limitant les retests à un seul par défi."
         }
@@ -417,7 +661,7 @@
       "slug": "capacite-prophetique",
       "title": "Capacité prophétique",
       "notionUrl": "https://app.notion.com/p/Capacit-proph-tique-39688b48e48e80d295c3c6d939b3b841",
-      "lastEditedTime": "2026-07-07T22:13:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -442,10 +686,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous percevez des présages du futur.\nVous utilisez peut-être des techniques telles que le lancer d’osselets, la lecture de cartes divinatoires, des planches mystiques, l’astrologie ou des hallucinations provoquées par des substances.\nÀ l’inverse, ces visions peuvent s’imposer à vous même lorsque vous tentez de les éviter.\nVous pouvez tirer des conseils de ces présages, qui offrent des indices sur l’avenir et des avertissements concernant le présent.\nUne fois par partie, vous pouvez demander à votre Conteur un indice concernant les intrigues importantes en cours.\nDe plus, de brèves intuitions vous frappent au moment opportun ; une fois par heure, vous pouvez sacrifier une action standard afin d’utiliser immédiatement une action simple.\nCette capacité vous permet d’utiliser cette action simple à n’importe quel moment, même avant votre initiative."
         }
@@ -456,7 +696,7 @@
       "slug": "casse-cou",
       "title": "Casse-cou",
       "notionUrl": "https://app.notion.com/p/Casse-cou-39688b48e48e80af9435ec9d9f37e0ab",
-      "lastEditedTime": "2026-07-07T22:25:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -481,10 +721,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de +3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de +2 à vos réserves de tests défensifs Physiques."
         }
@@ -495,7 +731,7 @@
       "slug": "chanceux",
       "title": "Chanceux",
       "notionUrl": "https://app.notion.com/p/Chanceux-39688b48e48e8033af16dbb48ec81947",
-      "lastEditedTime": "2026-07-07T22:13:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -520,10 +756,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Comme la plupart des filous, des fous et des déments, votre existence est jalonnée de coïncidences heureuses et de secondes chances.\nQue vous comptiez sur cette chance ou qu’elle vous accompagne naturellement, vous semblez mener une vie protégée par le destin.\nSi un adversaire obtient un succès exceptionnel contre vous, celui-ci est rétrogradé en succès normal.\nVous pouvez utiliser ce bénéfice une fois toutes les cinq minutes ou une fois par combat."
         }
@@ -534,7 +766,7 @@
       "slug": "clairvoyant",
       "title": "Clairvoyant",
       "notionUrl": "https://app.notion.com/p/Clairvoyant-39688b48e48e80978c06ce47a61aa73c",
-      "lastEditedTime": "2026-07-07T22:27:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -559,10 +791,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous possédez une capacité inhabituelle à voir avec une grande clarté, surmontant les distractions, les illusions et les effets hypnotiques.\nVous obtenez un retest gratuit lorsque vous êtes ciblé par les Disciplines Chimérie, Dissimulation ou Mythercerie.\nIl s’agit d’un retest défensif ; vous ne pouvez pas utiliser Regard Lucide lorsque vous utilisez Auspex — ou des pouvoirs similaires — afin de percer une Dissimulation déjà établie ou de dissiper activement des illusions de Chimérie.\nCet Atout vous accorde cependant un retest gratuit lorsque vous résistez à des pouvoirs comme Réalité Horrifique ou lorsque vous tentez de suivre quelqu’un essayant de disparaître grâce à Disparition à la Vue de l’Esprit.\nCe retest peut être utilisé avant ou après un retest normal de Volonté et constitue une exception à la règle limitant les retests à un seul par défi."
         }
@@ -573,7 +801,7 @@
       "slug": "code-d-honneur",
       "title": "Code d’honneur",
       "notionUrl": "https://app.notion.com/p/Code-d-honneur-39688b48e48e803484d5fbfd65ba7f2d",
-      "lastEditedTime": "2026-07-07T22:14:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -598,12 +826,218 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Vous adhérez à un code moral personnel.\nLes spécificités de ce code doivent comporter à la fois des restrictions et des idéaux.\nLes restrictions peuvent inclure : « Je ne peux permettre qu’une femme soit blessée », « Je ne peux poser le pied sur un lieu sacré » ou encore « Je ne peux jamais posséder, porter ou utiliser une arme ».\nLes idéaux peuvent inclure : « Je dois toujours faire preuve de générosité et de charité », « Je dois m’agenouiller et montrer du respect à chaque Prince, quels que soient mes sentiments personnels envers lui » ou encore « Je dois accepter toute quête qui m’est proposée ».\nCe code doit être véritablement contraignant et doit être approuvé par le Conteur avant le début du jeu.\nUn Code d’Honneur ne peut pas reproduire des restrictions morales ou éthiques que votre personnage doit déjà respecter, comme les préceptes fondamentaux de l’Humanité ou ceux de votre Voie d’Illumination.\nVotre personnage doit suivre strictement ce code ; votre Conteur peut retirer cet Atout sans remboursement si vous violez régulièrement ce code.\nUne fois par heure, lorsqu’un individu tente d’utiliser un pouvoir Social ou Mental afin de vous pousser à violer votre Code d’Honneur personnel, vous obtenez un bonus joker de +2 à votre réserve défensive afin de résister à ce pouvoir.\nCependant, si vous violez volontairement votre Code d’Honneur — même sous une forte contrainte — vous perdez l’accès à cet Atout pendant deux sessions de jeu ou un mois, selon la durée la plus longue."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8065-97c0-cb2c922b5191",
+      "slug": "colere-brulante",
+      "title": "Colère Brûlante",
+      "notionUrl": "https://app.notion.com/p/Col-re-Br-lante-39888b48e48e806597c0cb2c922b5191",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "brujah",
+              "title": "Brujah",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Colère Brûlante"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le cœur d’un Brujah brûle d’émotions, attisé par la colère et rempli d’une fureur juste.\nEn canalisant cette rage, vous pouvez dépenser une action simple pour libérer votre Colère ardente, transformant ainsi vos poings en armes surnaturelles.\nLorsque ce pouvoir est activé, les poings du personnage luisent d’une chaleur rouge, sourde et contenue (vous ne pouvez pas réellement déclencher d’incendies avec ce pouvoir).\nPendant l’heure suivante :\nvous obtenez un bonus circonstanciel de +2 à vos attaques à mains nues, et, en cas de réussite, vous infligez des dégâts aggravés.\nVous pouvez mettre fin à Colère Brulante à tout moment en dépensant une action simple."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8015-9da2-ea0b0b0abfe0",
+      "slug": "conscience-etendue",
+      "title": "Conscience Etendue",
+      "notionUrl": "https://app.notion.com/p/Conscience-Etendue-39888b48e48e80159da2ea0b0b0abfe0",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Conscience Etendue"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous avez un aperçu spécial de l'univers et votre conscience s'est étendue au-delà de la compréhension des esprits plus limités.\nVous gagnez un second focus d'attribut Mental en plus de celui choisi durant la création de personnage."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-807c-aacf-cfe25404b59e",
+      "slug": "contre-magie",
+      "title": "Contre-magie",
+      "notionUrl": "https://app.notion.com/p/Contre-magie-39888b48e48e807caacfcfe25404b59e",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Contre-magie"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes extrêmement doué pour manipuler et dissiper la magie.\nVous gagnez un bonus de +3 aux tests défensifs contre la Thaumaturgie.\nDe plus, vous pouvez utiliser une action standard et dépenser 1 point de Sang pour tenter de dissiper des effets thaumaturgiques :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Cible individuelle :\nTest Mental + Occultisme contre Mental + Volonté de la cible.\nEn cas de succès :"
         },
         {
           "type": "paragraph",
-          "text": "Vous adhérez à un code moral personnel.\nLes spécificités de ce code doivent comporter à la fois des restrictions et des idéaux.\nLes restrictions peuvent inclure : « Je ne peux permettre qu’une femme soit blessée », « Je ne peux poser le pied sur un lieu sacré » ou encore « Je ne peux jamais posséder, porter ou utiliser une arme ».\nLes idéaux peuvent inclure : « Je dois toujours faire preuve de générosité et de charité », « Je dois m’agenouiller et montrer du respect à chaque Prince, quels que soient mes sentiments personnels envers lui » ou encore « Je dois accepter toute quête qui m’est proposée ».\nCe code doit être véritablement contraignant et doit être approuvé par le Conteur avant le début du jeu.\nUn Code d’Honneur ne peut pas reproduire des restrictions morales ou éthiques que votre personnage doit déjà respecter, comme les préceptes fondamentaux de l’Humanité ou ceux de votre Voie d’Illumination.\nVotre personnage doit suivre strictement ce code ; votre Conteur peut retirer cet Atout sans remboursement si vous violez régulièrement ce code.\nUne fois par heure, lorsqu’un individu tente d’utiliser un pouvoir Social ou Mental afin de vous pousser à violer votre Code d’Honneur personnel, vous obtenez un bonus joker de +2 à votre réserve défensive afin de résister à ce pouvoir.\nCependant, si vous violez volontairement votre Code d’Honneur — même sous une forte contrainte — vous perdez l’accès à cet Atout pendant deux sessions de jeu ou un mois, selon la durée la plus longue."
+          "text": "tous les effets thaumaturgiques actifs sur la cible prennent fin\nles objets magiques qu’elle porte cessent de fonctionner pendant 1 heure"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Zone :\nTest Mental + Occultisme (difficulté 12)\n→ Dissipe tous les rituels dans un rayon de cinq pas"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela n’affecte pas la magie directement liée à un individu, mais annule les rituels, protections et objets non portés."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8034-aac3-c090bc86652a",
+      "slug": "culte-personnel",
+      "title": "Culte Personnel",
+      "notionUrl": "https://app.notion.com/p/Culte-Personnel-39888b48e48e8034aac3c090bc86652a",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "tlacique",
+              "title": "Tlacique",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Culte Personnel"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Setites excellent dans l’art de créer des cultes et d’entretenir des troupeaux de fidèles.\nQu’il s’agisse d’esclaves fanatiques, d’adorateurs dévoués ou de groupies obsédés, votre culte vous sert sans poser de questions. Ces mortels vénèrent leur maître vampirique — qu’ils connaissent ou non votre véritable nature.\nVous pouvez définir ce culte comme vous le souhaitez. Peut-être vénèrent-ils Set, Caïn, ou même vous. Ils peuvent organiser des fêtes extatiques et des orgies, gérer des laboratoires de drogue, ou pratiquer tout rituel de votre choix.\nVous gagnez 5 points gratuits dans l’un des historiques suivants : Refuge, Troupeau ou Ressources.\nSi vous avez déjà acheté des points dans cet historique, tous les PX dépensés vous sont remboursés. Si vous y avez affecté des points à la création, vous pouvez les réattribuer à un autre historique dans lequel vous n’avez actuellement aucun point.\nEn plus de cet historique, vous possédez un temple dans lequel votre culte personnel rend hommage ; ce lieu est considéré comme un terrain sacré. Si vous possédez des Atouts ou des Défauts affectés par les lieux sacrés, ce temple ne vous affecte pas négativement.\nSi vous dépensez 3 points de Sang et vous reposez la journée dans ce temple, vous pouvez soigner 2 points de dégâts aggravés au lieu de 1.\nCe temple peut être davantage défini via l’Atout Refuge."
         }
       ]
     },
@@ -612,7 +1046,7 @@
       "slug": "dhampir",
       "title": "Dhampir",
       "notionUrl": "https://app.notion.com/p/Dhampir-39388b48e48e802f9a7de2f4d6af44e2",
-      "lastEditedTime": "2026-07-04T21:14:00.000Z",
+      "lastEditedTime": "2026-07-09T13:51:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -637,10 +1071,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Un personnage ne peut prendre cet atout que s'il n'a pas de point en Génération. Un Dhampir est l'enfant d'un mortel et d'un Semblable, lui donnant une existence à cheval entre la vie et la non-mort. Cela ne devrait pas pouvoir être possible, mais ça l'est de façon très exceptionnelle. De part leur nature, les Dhampir sont jeunes, les plus vieux ont 25 ans. Bien qu'ils soient traités comme des goules, les Dhampir ne sont pas forcément lié au sang et n'ont pas de domitor.\nCréez votre personnage en utilisant les règles spéciales pour les goules, sauf celles concernant cet atout. Les Dhampirs sont des créatures surnaturelles, pas des mortels. Ils n'ont pas de disciplines de clan. Ils peuvent obtenir 7 niveaux (plutôt que 5 pour les goules) dans n'importe quelle discipline de leur choix. Cependant, un Dhampir ne peut jamais obtenir de discipline au dessus du niveau 3. Un Dhampir n'a pas de Bête et ne peut obtenir de voie de l'illumination. Contrairement à une goule, un Dhampir ne peut pas être Étreint, toute tentative se finira par la mort du Dhampir."
         }
@@ -651,7 +1081,7 @@
       "slug": "digestion-efficace",
       "title": "Digestion Efficace",
       "notionUrl": "https://app.notion.com/p/Digestion-Efficace-39688b48e48e806a8770d0e7e8f72804",
-      "lastEditedTime": "2026-07-07T22:14:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -676,10 +1106,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vos systèmes physiques sont extrêmement efficaces et vous tirez davantage de nourriture du sang que la plupart des vampires.\nLorsque vous vous nourrissez d’animaux, la quantité de Sang gagnée n’est pas réduite de moitié.\nLorsque vous vous nourrissez de mortels, vous gagnez un point de Sang supplémentaire pour chaque point consommé.\nCet Atout double l’efficacité du Background Troupeau lorsqu’il est utilisé pendant une session de jeu.\nPar exemple, un personnage possédant cet Atout et 3 points de Troupeau gagne 6 points de Sang au lieu des 3 habituels après cinq minutes hors-jeu.\nCet Atout ne vous permet pas de dépasser le maximum de votre réserve de Sang.\nDigestion Efficace ne fonctionne que sur le sang mortel ou animal ; il ne fonctionne pas sur le sang vampirique, y compris celui ingéré par des goules."
         }
@@ -690,7 +1116,7 @@
       "slug": "discipline-commune-supplementaire",
       "title": "Discipline Commune Supplémentaire",
       "notionUrl": "https://app.notion.com/p/Discipline-Commune-Suppl-mentaire-39688b48e48e808d8399f92a9f14cfa6",
-      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -715,10 +1141,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "On raconte que le sang du Premier Vampire pouvait soutenir toutes les Disciplines et ne possédait aucune prédisposition intrinsèque.\nVotre sang conserve une faible trace de cette qualité et manifeste quatre Disciplines de clan au lieu de trois.\nChoisissez une Discipline commune comme quatrième Discipline de clan.\nVous ne commencez pas avec un point gratuit dans cette Discipline supplémentaire, mais vous pouvez enseigner cette Discipline, les pouvoirs affectant les Disciplines de clan (comme Possession) s’appliquent également à elle, et vous payez tous les coûts d’apprentissage comme si cette Discipline appartenait naturellement à votre clan.\nVous pouvez choisir parmi les Disciplines communes suivantes : Animalisme, Auspex, Célérité, Domination, Force d’Âme, Dissimulation, Puissance et Présence.\nCet Atout ne peut pas être combiné avec d’autres Atouts accordant des Disciplines de clan supplémentaires."
         }
@@ -729,7 +1151,7 @@
       "slug": "discipline-rare-supplementaire",
       "title": "Discipline Rare Supplémentaire",
       "notionUrl": "https://app.notion.com/p/Discipline-Rare-Suppl-mentaire-39688b48e48e8080bf81c7818bc8d19b",
-      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -754,10 +1176,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Choisissez une Discipline rare comme quatrième Discipline de clan.\nVous ne commencez pas avec un point gratuit dans cette Discipline supplémentaire, mais vous pouvez enseigner cette Discipline, les pouvoirs affectant les Disciplines de clan (comme Possession) s’appliquent également à elle, et vous payez tous les coûts d’apprentissage comme si cette Discipline appartenait naturellement à votre clan.\nVous pouvez choisir parmi les Disciplines rares suivantes : Protéisme, Aliénation, Serpentis et Quietus.\nCet Atout ne peut pas être combiné avec d’autres Atouts accordant des Disciplines de clan supplémentaires."
         }
@@ -768,7 +1186,7 @@
       "slug": "don-pour-les-langues",
       "title": "Don pour les langues",
       "notionUrl": "https://app.notion.com/p/Don-pour-les-langues-39688b48e48e80ca84a2e0d95096bc8e",
-      "lastEditedTime": "2026-07-07T22:15:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -793,10 +1211,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Certaines personnes possèdent une mémoire et une capacité d’association remarquables, leur permettant d’apprendre facilement plusieurs langues.\nVous pouvez choisir deux spécialisations linguistiques pour chaque point acheté dans la compétence Linguistique.\nDe plus, vous obtenez un bonus de +3 chaque fois que vous effectuez un défi utilisant Linguistique."
         }
@@ -807,7 +1221,7 @@
       "slug": "emissaire-a-la-camarilla",
       "title": "Emissaire à la Camarilla",
       "notionUrl": "https://app.notion.com/p/Emissaire-la-Camarilla-39388b48e48e80d39bffe3714f1632e4",
-      "lastEditedTime": "2026-07-04T22:30:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -832,10 +1246,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Tout Semblable présent à une réunion de la Camarilla en fait parti. Vous n'êtes pas reconnu, mais vous comprenez les règles du jeu politique de la tour d'Ivoire, pour les utiliser à votre bénéfice. Vous êtes peut-être un Giovanni, ou un prêtre Setite prêt a aider la Camarilla … et profiter des guerres internes de celle-ci. Tant que vous n'êtes pas reconnu par une secte, vous pouvez avoir un \"fleeting status\" de plus au sein de la Camarilla. Ceci est une exception à la règle empêchant des individus non reconnu d'avoir le moindre statut de secte."
         }
@@ -846,7 +1256,7 @@
       "slug": "entrainement-en-necromancie",
       "title": "Entrainement en Nécromancie",
       "notionUrl": "https://app.notion.com/p/Entrainement-en-N-cromancie-39688b48e48e80b585cbcc96ca8db279",
-      "lastEditedTime": "2026-07-07T22:16:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -871,10 +1281,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Les nécromanciens protègent jalousement leur savoir et ceux qui maîtrisent les secrets de la Nécromancie — comme les Giovanni — partagent rarement leur art.\nD’une manière ou d’une autre, dans votre passé, vous avez été formé par un nécromancien ou étudié de terrifiants grimoires, acquérant suffisamment de connaissances pour devenir compétent dans une voie de magie nécromantique.\nGrâce à cet Atout, vous pouvez apprendre une unique voie de Nécromancie et acheter ses pouvoirs au coût hors clan.\nSi votre personnage connaît déjà cette Discipline dans son historique, cette formation doit être justifiée dans son background.\nSi vous souhaitez acheter la Nécromancie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet Atout."
         }
@@ -885,7 +1291,7 @@
       "slug": "entrainement-en-thaumaturgie",
       "title": "Entrainement en Thaumaturgie",
       "notionUrl": "https://app.notion.com/p/Entrainement-en-Thaumaturgie-39688b48e48e801ba2f7c2b906eda8fc",
-      "lastEditedTime": "2026-07-07T22:16:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -910,10 +1316,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Les thaumaturges protègent jalousement leur savoir et ceux qui maîtrisent les secrets de la Thaumaturgie — comme les Tremere — partagent rarement leur art.\nD’une manière ou d’une autre, dans votre passé, vous avez été formé par un thaumaturge ou un sorcier, ou vous avez eu accès à des textes interdits, acquérant suffisamment de connaissances pour devenir compétent dans une voie de Thaumaturgie.\nGrâce à cet Atout, vous avez la capacité d’apprendre une unique voie de Thaumaturgie et d’acheter ses pouvoirs au coût hors clan.\nSi votre personnage connaît déjà cette Discipline dans son historique, cette formation doit être justifiée dans son background.\nSi vous souhaitez acheter la Thaumaturgie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet Atout."
         }
@@ -924,7 +1326,7 @@
       "slug": "erudit",
       "title": "Erudit",
       "notionUrl": "https://app.notion.com/p/Erudit-39688b48e48e80fba640c3d8752bbb7c",
-      "lastEditedTime": "2026-07-07T22:24:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -949,10 +1351,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes une véritable encyclopédie vivante et avez consacré de nombreuses années à étudier l’histoire, découvrir des secrets et accumuler des informations précieuses.\nVous pouvez choisir deux spécialisations d’Érudition pour chaque point de la compétence Érudition acheté, au lieu d’une seule.\nDe plus, vous obtenez un bonus de 3 chaque fois que vous effectuez un défi utilisant votre compétence Érudition."
         }
@@ -963,7 +1361,7 @@
       "slug": "erudit-de-l-epee",
       "title": "Erudit de l’Epée",
       "notionUrl": "https://app.notion.com/p/Erudit-de-l-Ep-e-39388b48e48e80fd8bbef56e1b72b089",
-      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -988,21 +1386,169 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez étudié les différents rituels du Sabbat en profondeur. Vous avez en plus le talent et les aptitudes nécessaire pour les maîtriser mieux que la plupart des gens. Vous pouvez choisir un rituel de plus que votre niveau en Rituel (qu'ils soient Auctoritas, Faction ou Ignobilis)."
         }
       ]
     },
     {
-      "id": "39388b48-e48e-80b1-aa7b-ddca98b2fb6b",
+      "id": "39888b48-e48e-8091-a944-d730c4ee37ee",
+      "slug": "esprit-labyrinthique",
+      "title": "Esprit Labyrinthique",
+      "notionUrl": "https://app.notion.com/p/Esprit-Labyrinthique-39888b48e48e8091a944d730c4ee37ee",
+      "lastEditedTime": "2026-07-09T14:57:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Esprit Labyrinthique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre esprit est un nid entortillé de folie et d'idées déconnectées, tout personnage qui tente d'extraire des informations sans consentement de votre esprit risque lui-même de devenir fou.\nPremièrement, vous recevez un bonus de +3 à votre Score de Test de défense pour résister à Domination, Aliénation et La Voie de la Corruption.\nDeuxièmement, les personnages qui tentent d'extraire des informations de votre esprit gagnent un de vos Dérangement (de votre choix). L'intrus reçoit ce Dérangement comme s'il l'avait acheté ; si vous êtes persuadé d'être Jules César, l'envahisseur croit maintenant qu'il est Jules César (et pas que vous l'êtes).\nLes Dérangements infligés par l'Esprit Labyrinthique durent pendant une heure."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8003-a83a-d022d917f7af",
+      "slug": "eveil-de-l-acier",
+      "title": "Eveil de l’Acier",
+      "notionUrl": "https://app.notion.com/p/Eveil-de-l-Acier-39888b48e48e8003a83ad022d917f7af",
+      "lastEditedTime": "2026-07-09T13:51:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vizirs",
+              "title": "Vizirs",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Eveil de l’Acier"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une arme de mêlée à laquelle un nom magique a été conféré dans le cadre d’un enchantement réalisé par un membre de la caste des Sorciers.\nSi vous dépensez 1 point de Sang et utilisez une action simple pour invoquer le nom de l’arme, celle-ci apparaît dans votre main, quelle que soit sa localisation initiale.\nVous devez avoir l’espace nécessaire pour tenir l’arme lorsqu’elle apparaît ; elle ne peut pas se matérialiser à l’intérieur d’un objet solide.\nSi votre arme est brisée ou détruite, elle se reforme (comme neuve) lorsque vous activez ce pouvoir. Si ce pouvoir est utilisé pour reformer votre arme, elle apparaît exactement telle qu’elle a été forgée à l’origine. Toute modification ultérieure ou tout enduit de Sang est alors supprimé."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-800d-a20b-f9a2558586aa",
       "slug": "executeur",
       "title": "Exécuteur",
-      "notionUrl": "https://app.notion.com/p/Ex-cuteur-39388b48e48e80b1aa7bddca98b2fb6b",
-      "lastEditedTime": "2026-07-04T22:33:00.000Z",
+      "notionUrl": "https://app.notion.com/p/Ex-cuteur-39888b48e48e800da20bf9a2558586aa",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Exécuteur"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous avez été Étreint pour vos capacités physiques, et les anciens du clan Giovanni ont usé de leurs influences pour vous assurer une formation approfondie au combat, sans compromettre votre loyauté par les contraintes d’un lien de sang trop fort.\nVous pouvez apprendre les disciplines Célérité et Force d’Âme sans enseignant, bien que vous deviez toujours payer le coût hors clan pour acquérir ces pouvoirs.\nCet Atout peut être utilisé pour apprendre des pouvoirs d’ancien (à condition de remplir les prérequis de Génération)"
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80b1-aa7b-ddca98b2fb6b",
+      "slug": "executeur-sabbat",
+      "title": "Exécuteur (Sabbat)",
+      "notionUrl": "https://app.notion.com/p/Ex-cuteur-Sabbat-39388b48e48e80b1aa7bddca98b2fb6b",
+      "lastEditedTime": "2026-07-09T14:10:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1022,17 +1568,113 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Exécuteur"
+          "value": "Exécuteur (Sabbat)"
         }
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "La plupart des membres du Sabbat sont des monstres vicieux. Vos actions sont reconnue au sein du Sabbat pour être parmi les plus horribles, immorales et violente de tous. Cette réputation n'est pas volé. Vous avez un bonus de 1 à vos jets d'intimidation et d'Expérience de la rue. Si vous partez en frénésie lorsqu'un personnage s'éloigne de vous, vous pouvez faire une attaque Physique sur ce personnage sans dépenser d'action. Vous ne pouvez utiliser cet effet uniquement pendant le tour commun, mais il peut être déclenché plusieurs fois durant ce tour."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-809d-903f-ca9a29005f40",
+      "slug": "expertise-necromantique",
+      "title": "Expertise nécromantique",
+      "notionUrl": "https://app.notion.com/p/Expertise-n-cromantique-39888b48e48e809d903fca9a29005f40",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Expertise nécromantique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acquérir une voie supplémentaire de Nécromancie, en plus de la Voie du Sépulcre (toute voie sauf la Voie Mortis, qui est exclue de cet Atout).\nCette voie supplémentaire est apprise sans enseignant et achetée au coût de discipline de clan, mais n’est pas considérée comme une discipline de clan.\nPar exemple, lors de l’utilisation du pouvoir de Domination Possession, ces voies de Nécromancie ne peuvent pas être emportées avec vous.\nVous pouvez acheter cet Atout plusieurs fois, ce qui vous permet d’apprendre plusieurs voies de Nécromancie."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801b-a80b-f96d2232d326",
+      "slug": "expertise-thaumaturgique",
+      "title": "Expertise Thaumaturgique",
+      "notionUrl": "https://app.notion.com/p/Expertise-Thaumaturgique-39888b48e48e801ba80bf96d2232d326",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Expertise Thaumaturgique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acheter une voie de Thaumaturgie supplémentaire en plus de la Voie du Sang.\nCette voie :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "est apprise sans maître"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "est achetée au coût de clan"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "n’est pas considérée comme une discipline de clan"
         },
         {
           "type": "paragraph",
-          "text": "La plupart des membres du Sabbat sont des monstres vicieux. Vos actions sont reconnue au sein du Sabbat pour être parmi les plus horribles, immorales et violente de tous. Cette réputation n'est pas volé. Vous avez un bonus de 1 à vos jets d'intimidation et d'Expérience de la rue. Si vous partez en frénésie lorsqu'un personnage s'éloigne de vous, vous pouvez faire une attaque Physique sur ce personnage sans dépenser d'action. Vous ne pouvez utiliser cet effet uniquement pendant le tour commun, mais il peut être déclenché plusieurs fois durant ce tour."
+          "text": "Par exemple, elle ne peut pas être utilisée avec certains pouvoirs comme Possession (Domination).\nVous pouvez acheter ce mérite plusieurs fois afin d’obtenir plusieurs voies de Thaumaturgie."
         }
       ]
     },
@@ -1041,7 +1683,7 @@
       "slug": "fanatique",
       "title": "Fanatique",
       "notionUrl": "https://app.notion.com/p/Fanatique-39388b48e48e808f8667f421fe9c029a",
-      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1066,12 +1708,139 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Votre foi en Caïn est absolue quelle que soit la situation, même les pire. Lorsque vous êtes blessé, vous avez un bonus de 3 à votre initiative. Lorsque vous êtes dans la jauge d'Incapacité, vous avez un bonus supplémentaire de 3 (pour un total de 6)."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-802a-a0e6-ecc945cd46f2",
+      "slug": "fleau-d-alecto",
+      "title": "Fléau d’Alecto",
+      "notionUrl": "https://app.notion.com/p/Fl-au-d-Alecto-39888b48e48e802aa0e6ecc945cd46f2",
+      "lastEditedTime": "2026-07-09T15:07:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "brujah",
+              "title": "Brujah",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Fléau d’Alecto"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lorsqu’un autre personnage dépense 1 point de Volonté ou plus pour ignorer votre Présence, ou tente de surmonter votre Majesté, votre Bête réagit avec une rage vindicative.\nLa force brute de cette colère déchire l’esprit de votre adversaire.\nLa cible de Fléau d’Allecto subit 1 point de dégât aggravé, qui ne peut être ni réduit ni annulé.\nCet effet : ne nécessite ni action ni défi pour être activé, et ne met pas fin à votre Majesté."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8060-a844-cacc3f5dc219",
+      "slug": "forme-de-la-colere-de-la-bete",
+      "title": "Forme de la Colère de la Bête",
+      "notionUrl": "https://app.notion.com/p/Forme-de-la-Col-re-de-la-B-te-39888b48e48e8060a844cacc3f5dc219",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Forme de la Colère de la Bête"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous adoptez la forme de combat conférée par le Protéisme, vous pouvez choisir de vous transformer en une créature gigantesque mi-loup, mi-homme.\nLorsque vous utilisez Forme de la Rage de la Bête :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "votre pool de test de Bagarre augmente de +5,"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vos attaques à mains nues infligent des dégâts aggravés."
         },
         {
           "type": "paragraph",
-          "text": "Votre foi en Caïn est absolue quelle que soit la situation, même les pire. Lorsque vous êtes blessé, vous avez un bonus de 3 à votre initiative. Lorsque vous êtes dans la jauge d'Incapacité, vous avez un bonus supplémentaire de 3 (pour un total de 6)."
+          "text": "Sous cette forme, tous vos pools de défense (Physiques, Mentaux et Sociaux) subissent un malus de -2.\nCette capacité est considérée comme un pouvoir de transformation et ne peut pas être combinée avec d’autres pouvoirs de transformation. Les bonus d’Attribut ou les bénéfices normalement conférés par Forme de la Bête ne s’appliquent pas lorsque vous utilisez cette forme."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-809e-b73c-d201424b351b",
+      "slug": "fraternite",
+      "title": "Fraternité",
+      "notionUrl": "https://app.notion.com/p/Fraternit-39888b48e48e809eb73cd201424b351b",
+      "lastEditedTime": "2026-07-09T15:08:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "brujah",
+              "title": "Brujah",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Fraternité"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Brujah sont connus pour deux choses : leur tempérament explosif et leur loyauté intense envers leur clan.\nEn tant que membre du clan Brujah, vous bénéficiez d’un bonus de +2 à vos attaques de Bagarre, de Mêlée et à distance lorsque vous attaquez un individu qui a déjà été ciblé par une attaque Physique (Bagarre, Mêlée ou à distance) d’un autre Brujah plus tôt dans le même tour de combat, ou lorsqu’un autre Brujah utilise la tactique Assister l’attaquant pour vous aider.\nLes membres de la lignée des Vrais Brujah ne peuvent pas acheter cet Atout."
         }
       ]
     },
@@ -1080,7 +1849,7 @@
       "slug": "gardien-d-un-texte-sacre",
       "title": "Gardien d’un texte Sacré",
       "notionUrl": "https://app.notion.com/p/Gardien-d-un-texte-Sacr-39388b48e48e8061b8c6d378d4af8651",
-      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1105,10 +1874,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes en possession de l'un de des texte sacré suivant du Sabbat : Le livre de Nod, les fragments d'Erciyes, les chroniques d'Ubar, les gospels d'Irad et d'Adah ou le codex des Déchus. Tant que vous possédez cet atout, vous avez une spécialisation de Mystère gratuite supplémentaire, qui vous permet d'aller au dessus de votre limite. Cette spécialisation gratuite doit être liée au texte que vous possédez. De plus, vous obtenez un bonus de 5 à chaque fois que vous faites appel à cette spécialisation dans un jet. Pour finir, vous recevez à chaque début de partie le statut inné \"Anointed\"."
         }
@@ -1119,7 +1884,7 @@
       "slug": "inalienable",
       "title": "Inaliénable",
       "notionUrl": "https://app.notion.com/p/Inali-nable-39688b48e48e80118581f0345eee22ea",
-      "lastEditedTime": "2026-07-07T22:17:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1144,10 +1909,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Quelque chose d’étrange et de puissant sommeille dans votre sang, neutralisant l’influence émotionnelle de la vitae étrangère.\nVous êtes immunisé contre le lien de sang, y compris les liens mineurs du Vinculum."
         },
@@ -1166,7 +1927,7 @@
       "slug": "inflexible",
       "title": "Inflexible",
       "notionUrl": "https://app.notion.com/p/Inflexible-39688b48e48e80d1ae36ed89436ccf57",
-      "lastEditedTime": "2026-07-07T22:18:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1191,10 +1952,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Que l’on appelle cela de l’obstination, de l’entêtement ou simplement un caractère impossible, votre personnage possède une flamme intérieure qui refuse de s’éteindre, quelles que soient les circonstances.\nVotre Volonté permanente maximale passe à 7.\nDe plus, vous commencez chaque session de jeu avec 7 points de Volonté au lieu des 6 habituels."
         }
@@ -1205,7 +1962,7 @@
       "slug": "intrepide",
       "title": "Intrépide",
       "notionUrl": "https://app.notion.com/p/Intr-pide-39388b48e48e8004b431c8cccd8675af",
-      "lastEditedTime": "2026-07-04T21:15:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1230,12 +1987,812 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Votre dévouement aux idéaux Anarch de la libertas vont bien au delà de l'idéalisme. La liberté est au cœur de votre être, vous ne pouvez supporter d'être contrôlé. Si vous gagnez un jet contre un Pouvoir tentant de contrôler votre esprit (comme Domination), vous êtes immunisé de tout Pouvoir de contrôle mental venant de ce personnage jusqu'à la fin de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8001-9799-da84532e729c",
+      "slug": "lignee-ahrimanes",
+      "title": "Lignée : Ahrimanes",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Ahrimanes-39888b48e48e80019799da84532e729c",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Ahrimanes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée exclusivement féminine des Ahrimanes.\nCes Gangrel sont profondément chamaniques et entretiennent un lien particulier avec les esprits de toute nature. Elles sont secrètes et violentes.\nVos disciplines de clan sont Animalisme, Présence et Thaumaturgie : Voie de la Maîtrise Élémentaire.\nLes personnages masculins ne peuvent pas posséder cet Atout."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80c6-b623-ce5265ffbbe8",
+      "slug": "lignee-ananke",
+      "title": "Lignée : Ananke",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Ananke-39888b48e48e80c6b623ce5265ffbbe8",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Ananke"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un membre de la lignée des Ananke, gardiens des anciens temples. Ces Malkavien sont obsédés par les haruspices, l'art de la divination au travers de la lecture des entrailles de créatures fraîchement tuées (y compris les humains)."
         },
         {
           "type": "paragraph",
-          "text": "Votre dévouement aux idéaux Anarch de la libertas vont bien au delà de l'idéalisme. La liberté est au cœur de votre être, vous ne pouvez supporter d'être contrôlé. Si vous gagnez un jet contre un Pouvoir tentant de contrôler votre esprit (comme Domination), vous êtes immunisé de tout Pouvoir de contrôle mental venant de ce personnage jusqu'à la fin de la nuit."
+          "text": "Vos disciplines de clan sont : Aliénation, Auspex et Présence."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8070-b81c-d9c641e5df99",
+      "slug": "lignee-carpathien",
+      "title": "Lignée : Carpathien",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Carpathien-39888b48e48e8070b81cd9c641e5df99",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tzimices",
+              "title": "Tzimices",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Carpathien"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous appartenez à une ancienne lignée noble ayant rejeté la Vicissitude, considérée comme une corruption.\nVos disciplines de clan sont Animalisme, Auspex et Domination.\nVous ne pouvez jamais apprendre Vicissitude.\nVous pouvez apprendre Protéisme hors-clan sans maître."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8057-96b7-e92f8c8e4af4",
+      "slug": "lignee-chevalier-de-la-lune",
+      "title": "Lignée : Chevalier de la Lune",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Chevalier-de-la-Lune-39888b48e48e805796b7e92f8c8e4af4",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Chevalier de la Lune"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un membre de la lignée des Chevaliers de la Lune, qui ne manifeste pas l'Aliénation.\nVos disciplines de clan sont : Auspex, Dissimulation et Domination."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-808f-b1e5-e2ba3c700d10",
+      "slug": "lignee-coyote",
+      "title": "Lignée : Coyote",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Coyote-39888b48e48e808fb1e5e2ba3c700d10",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Coyote"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée des Coyotes. Parfois appelés « Gangrel urbains », les Coyotes étaient autrefois principalement présents au sein du Sabbat, mais on les trouve désormais aussi parmi les Autark, les Anarchs, et même occasionnellement dans la Camarilla.\nContrairement à la plupart des Gangrel, les Coyotes sont parfaitement à l’aise en environnement urbain et se considèrent comme les prédateurs ultimes des villes.\nVos disciplines de clan sont Célérité, Dissimulation et Protéisme"
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8047-ac23-d9107effbc45",
+      "slug": "lignee-croise",
+      "title": "Lignée : Croisé",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Crois-39888b48e48e8047ac23d9107effbc45",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Croisé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre d’une lignée stricte et exigeante du clan Ventrue.\nAutrefois méprisés, les Croisés gagnent aujourd’hui le respect des anciens.\nVos disciplines de clan sont Auspex, Domination et Force d'Âme."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801d-a9d8-ee40c4f9f389",
+      "slug": "lignee-ihtarri",
+      "title": "Lignée : Ihtarri",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Ihtarri-39888b48e48e801da9d8ee40c4f9f389",
+      "lastEditedTime": "2026-07-09T14:45:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "toreador",
+              "title": "Toréador",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Ihtarri"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée Ishtarri, dédiée à la perfection du mouvement, que ce soit dans la danse ou le combat.\nLes Ishtarri sont extrêmement passionnés et ont du mal à résister à leurs vices.\nVos disciplines de clan sont Célérité, Force d'âme et Présence."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8017-938d-e05b4b312319",
+      "slug": "lignee-kiasyd",
+      "title": "Lignée : Kiasyd",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Kiasyd-39888b48e48e8017938de05b4b312319",
+      "lastEditedTime": "2026-07-09T14:48:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "lasombra",
+              "title": "Lasombra",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Kiasyd"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée Kiasyd, une engeance étrange et alien qui préfère mener une existence isolée et studieuse.\nLes Kiasyd entretiennent des liens avec les fées et sont fascinés par les savoirs anciens et interdits.\nVos disciplines de clan sont Domination, Mythercerie et Obténébration."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801a-9ea1-ffea03690755",
+      "slug": "lignee-koldun",
+      "title": "Lignée : Koldun",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Koldun-39888b48e48e801a9ea1ffea03690755",
+      "lastEditedTime": "2026-07-09T14:48:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tzimices",
+              "title": "Tzimices",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Koldun"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous pratiquez le koldunisme, une ancienne forme de magie liée aux esprits de la terre.\nVos disciplines de clan sont Animalisme, Auspex et Thaumaturgie : Voie de la Maîtrise Élémentaire.\nVous pouvez également acheter une autre voie de Thaumaturgie :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "apprise sans maître"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "coût de clan"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "non considérée comme discipline de clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle ne peut pas être utilisée avec certains pouvoirs (ex : Possession)."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80c6-a6bb-e489e88131f2",
+      "slug": "lignee-noiad",
+      "title": "Lignée : Noiad",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Noiad-39888b48e48e80c6a6bbe489e88131f2",
+      "lastEditedTime": "2026-07-09T14:49:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Noiad"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée des Noiad, originaire de Finlande, de Suède et d’autres régions de Scandinavie.\nCes voyants et oracles primitifs méprisent la technologie et la culture moderne, préférant rester dans des régions peu développées, où ils perpétuent les traditions anciennes de leur lignée.\nVos disciplines de clan sont Animalisme, Auspex et Protéisme."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8080-906b-dee8992b1b15",
+      "slug": "lignee-premascine",
+      "title": "Lignée : Premascine",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Premascine-39888b48e48e8080906bdee8992b1b15",
+      "lastEditedTime": "2026-07-09T14:49:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Premascine"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un vestige d’une ancienne lignée du clan. Vous présentez une pâleur cadavérique rappelant celle des Cappadociens, et vous pouvez apprendre Nécromancie : Voie Mortis.\nLes autres Giovanni (en particulier les plus anciens) sont extrêmement méfiants envers ceux qui manifestent la capacité d’utiliser la Voie Mortis, soupçonnant une loyauté persistante envers les Cappadociens.\nLa Voie Mortis est apprise sans enseignant et ne nécessite pas l’Atout Expertise nécromantique, mais elle n’est pas considérée comme une discipline de clan à quelque fin que ce soit (y compris pour le coût d’achat).\nCet Atout constitue une exception à la règle empêchant les non-Cappadociens d’apprendre la Voie Mortis."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-804d-a6a9-d69ccc0139fa",
+      "slug": "lignee-sorcier",
+      "title": "Lignée : Sorcier",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Sorcier-39888b48e48e804da6a9d69ccc0139fa",
+      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Sorcier"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la caste des Sorciers Assamites, qui obéit à la volonté de l’Ancêtre et cherche également à se venger des Tremere et des Vizirs.\nVos disciplines de clan sont Dissimulation, Quietus et Thaumaturgie : Voie des Flammes.\nVous pouvez également acquérir une autre voie de Thaumaturgie de votre choix. Cette voie supplémentaire peut être apprise sans enseignant et est achetée au coût de discipline de clan, mais elle n’est pas considérée comme une discipline de clan."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801b-9f4e-f1179ed57a3f",
+      "slug": "lignee-telyav",
+      "title": "Lignée : Telyav",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Telyav-39888b48e48e801b9f4ef1179ed57a3f",
+      "lastEditedTime": "2026-07-09T14:50:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Telyav"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée Telyav, un groupe de Tremere païens lituaniens que la majorité du clan croit disparu.\nVos disciplines de clan sont Auspex, Présence et Thaumaturgie : Voie du Sang."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80dd-bfd8-c59a321dc1f6",
+      "slug": "lignee-tlacique",
+      "title": "Lignée : Tlacique",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Tlacique-39888b48e48e80ddbfd8c59a321dc1f6",
+      "lastEditedTime": "2026-07-09T14:50:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "tlacique",
+              "title": "Tlacique",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Tlacique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée Tlacique, composée de lignées de vampires sud-américains revendiquant une descendance de Tezcatlipoca, le dieu aztèque de la nuit, de la guerre et de la sorcellerie, qu’ils considèrent comme analogue à Set.\nVos disciplines de clan sont Présence, Dissimulation et Protéisme."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8092-bb2e-ff11ebb77bda",
+      "slug": "lignee-vipere",
+      "title": "Lignée : Vipère",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Vip-re-39888b48e48e8092bb2eff11ebb77bda",
+      "lastEditedTime": "2026-07-09T14:52:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Vipère"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée des Vipères, les guerriers sacrés du clan Setite.\nCet héritage s’accompagne de lourdes responsabilités, et l’on attend de vous que vous protégiez les temples et les prêtres du clan. Afin de vous en rendre capable, vous avez été béni d’une force exceptionnelle au service de Set.\nVos disciplines de clan sont Puissance, Présence et Serpentis."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-807e-b37e-e7337b31fbb2",
+      "slug": "lignee-vizir",
+      "title": "Lignée : Vizir",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Vizir-39888b48e48e807eb37ee7337b31fbb2",
+      "lastEditedTime": "2026-07-09T14:52:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vizirs",
+              "title": "Vizirs",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Vizir"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée des Vizirs, érudits et philosophes qui défièrent l’Ancêtre et refusèrent de vénérer Haqim au-dessus d’Allah. Les Vizirs ont fui la montagne d’Alamut et ne servent plus l’Ancien du clan.\nVos disciplines de clan sont Auspex, Célérité, Quietus."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-801f-bdf0-cbad6bd4431d",
+      "slug": "lignee-volgirre",
+      "title": "Lignée : Volgirre",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Volgirre-39888b48e48e801fbdf0cbad6bd4431d",
+      "lastEditedTime": "2026-07-09T14:53:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "toreador",
+              "title": "Toréador",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Volgirre"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée Volgirre, une lignée secrète d’artistes dégénérés et sombres.\nCes créatures cruelles et décadentes ternissent la réputation des Toreador en se livrant à des œuvres d’art atroces mais d’une beauté au-delà de la compréhension mortelle.\nVous conservez les disciplines de clan des Toreador, et pouvez acheter les 2 premiers niveaux de Vicissitude comme discipline hors-clan, sans maître"
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-805b-b81a-d20379e07af0",
+      "slug": "lignee-vrai-brujah",
+      "title": "Lignée : Vrai-Brujah",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Vrai-Brujah-39888b48e48e805bb81ad20379e07af0",
+      "lastEditedTime": "2026-07-09T15:07:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "brujah",
+              "title": "Brujah",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Vrai-Brujah"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre d’une ancienne lignée Brujah qui méprise ses ancêtres impétueux et se consacre à l’étude intellectuelle ainsi qu’à des poursuites dénuées de passion.\nVos disciplines de clan sont Puissance, Présence et Temporis."
         }
       ]
     },
@@ -1244,7 +2801,7 @@
       "slug": "lion-de-la-cause",
       "title": "Lion de la Cause",
       "notionUrl": "https://app.notion.com/p/Lion-de-la-Cause-39388b48e48e809b92a2f45b61684482",
-      "lastEditedTime": "2026-07-04T21:16:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1269,12 +2826,66 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "À chaque fois qu'un appel au combat est fait, vous en êtes. Tout du long de votre passé, vous avez toujours combattu aux côtés de votre camarades Anarch, vous défendant contre toutes menace et défendant les autres au péril de votre non-vie. Vous êtes connu et reconnu par le Mouvement pour votre loyauté. Vous êtes considéré comme un Lion au sein de la secte. Lorsque vous participez à un appel au combat, en cas de combat contre l'ennemi de cet appel, tout les Anarch à 3m de distance de vous gagnent un bonus de 2 en Bagarre ou Mêlée. Ce bonus ne peut les faire dépasser votre propre niveau dans ces compétences là."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-806d-a15f-f05ba2504ed7",
+      "slug": "marcher-dans-l-abysse",
+      "title": "Marcher dans l’Abysse",
+      "notionUrl": "https://app.notion.com/p/Marcher-dans-l-Abysse-39888b48e48e806da15ff05ba2504ed7",
+      "lastEditedTime": "2026-07-09T14:53:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "lasombra",
+              "title": "Lasombra",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Marcher dans l’Abysse"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Certains érudits occultes parmi les Lasombra affirment que l’Obténébration provient d’un autre royaume : un vide primordial et obscur appelé l’Abysse. Ces mystiques recherchent sans relâche des vérités terribles et des réponses philosophiques en tentant de percer ses secrets.\nContrairement à la Thaumaturgie, le Mysticisme abyssal n’est pas une magie du sang. Il s’agit d’une forme de communion, un lien spirituel entre le pratiquant et l’Abysse.\nVous êtes initié à l’un des arts du Mysticisme abyssal. En vous concentrant sur une destination familière, en psalmodiant pendant cinq tours complets, puis en pénétrant dans une nappe d’ombre, vous pouvez voyager à travers l’Abysse.\nVous pouvez emmener jusqu’à trois compagnons consentants avec vous.\nLe temps et la distance sont subjectifs dans l’Abysse, et il est impossible de prévoir quand vous atteindrez votre destination, qu’elle soit proche ou lointaine.\nChaque utilisation de Marcher dans l’Abysse nécessite un test avec le Conteur (sans pool de test) :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "en cas de réussite, vous passez 1 heure dans l’Abysse,"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "en cas d’égalité, 3 heures,"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "en cas d’échec, 6 heures."
         },
         {
           "type": "paragraph",
-          "text": "À chaque fois qu'un appel au combat est fait, vous en êtes. Tout du long de votre passé, vous avez toujours combattu aux côtés de votre camarades Anarch, vous défendant contre toutes menace et défendant les autres au péril de votre non-vie. Vous êtes connu et reconnu par le Mouvement pour votre loyauté. Vous êtes considéré comme un Lion au sein de la secte. Lorsque vous participez à un appel au combat, en cas de combat contre l'ennemi de cet appel, tout les Anarch à 3m de distance de vous gagnent un bonus de 2 en Bagarre ou Mêlée. Ce bonus ne peut les faire dépasser votre propre niveau dans ces compétences là."
+          "text": "Voyager dans l’Abysse est dangereux et terrifiant, même pour les initiés. Chaque heure passée dans l’Abysse inflige 1 niveau de dégât aggravé, qui ne peut être ni réduit ni annulé. De plus, ces dégâts ne peuvent être soignés tant que vous n’êtes pas revenu sur le plan physique.\nIl s’agit d’un Atout de Mysticisme abyssal. Les personnages possédant cet Atout sont considérés comme des mystiques abyssaux et peuvent acquérir des éléments nécessitant ce savoir."
         }
       ]
     },
@@ -1283,7 +2894,7 @@
       "slug": "marionnettiste",
       "title": "Marionnettiste",
       "notionUrl": "https://app.notion.com/p/Marionnettiste-39388b48e48e80b1871eff2497a095f8",
-      "lastEditedTime": "2026-07-04T22:24:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1308,10 +2919,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez pris le contrôle d'un réseau d'influence important qui se trouve être vraiment efficace et discret. Chaque semaine vous récupérez une action d'influence dans le domaine de votre choix."
         }
@@ -1322,7 +2929,7 @@
       "slug": "mascarade-personnelle",
       "title": "Mascarade Personnelle",
       "notionUrl": "https://app.notion.com/p/Mascarade-Personnelle-39688b48e48e80df81fbeb6ef8b83bb8",
-      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1347,10 +2954,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Bien que votre aura soit pâle et que vous possédiez la plupart des marques spirituelles d’un vampire, votre chair conserve une apparence proche de celle d’un être humain vivant.\nVous semblez vivant et en bonne santé, votre peau est chaude au toucher et il vous est plus facile qu’aux autres vampires de vous faire passer pour humain.\nDe plus, vous êtes capable de manger et boire comme un mortel et pouvez même apprécier le goût de la nourriture et des boissons.\nBien que cette nourriture ne vous nourrisse pas réellement, cette capacité constitue un avantage précieux pour un vampire cherchant à paraître humain.\nUn personnage suivant une Voie d’Illumination ne peut pas posséder cet Atout.\nSi vous achetez une Voie d’Illumination alors que vous possédez cet Atout, vous devez retirer Mascarade Personnelle sans remboursement d’XP."
         }
@@ -1361,7 +2964,7 @@
       "slug": "medium",
       "title": "Médium",
       "notionUrl": "https://app.notion.com/p/M-dium-39688b48e48e80c487d1d18a8712be27",
-      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1386,10 +2989,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Durant votre vie mortelle, vous étiez peut-être spiritualiste ou chamane, ou peut-être qu’une expérience proche de la mort a laissé une partie de votre âme prisonnière des Shadowlands.\nQuelle qu’en soit la raison, vous êtes un canal vers les Shadowlands et possédez une affinité naturelle pour voir et entendre les fantômes, ainsi que pour parfois entrevoir votre environnement dans les Shadowlands.\nCet Atout n’accorde aucun pouvoir de contrôle ou de commandement sur les fantômes, ni aucune capacité mystique permettant de comprendre des spectres ne parlant pas une langue que vous connaissez."
         }
@@ -1400,7 +2999,7 @@
       "slug": "membre-actif-de-la-meute",
       "title": "Membre actif de la Meute",
       "notionUrl": "https://app.notion.com/p/Membre-actif-de-la-Meute-39388b48e48e80e58f2bd53261126f35",
-      "lastEditedTime": "2026-07-04T22:33:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1425,10 +3024,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Votre meute est la chose la plus importante dans votre existence, tellement importante que vous feriez n'importe quoi pour ses membres. Lorsque vous attaquez un personnage qui a infligé des dégâts à un membre de votre meute dans les 3 tours précédent et auprès de qui vous avez un vinculum d'au moins 3, vous gagnez un bonus de 3 à vos jet d'attaque Physique. De plus, une fois par tour lorsque vous combattez aux côtés d'un membre de votre meute, vous pouvez utiliser une action simple pour vous déplacer de 2m tant que vous vous déplacez auprès d'un membre de votre meute avec qui vous avez un niveau de vinculum d'au moins 3."
         }
@@ -1439,7 +3034,7 @@
       "slug": "membre-de-l-inquisition",
       "title": "Membre de l’Inquisition",
       "notionUrl": "https://app.notion.com/p/Membre-de-l-Inquisition-39388b48e48e80618c77e4faede5a4f6",
-      "lastEditedTime": "2026-07-04T22:31:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1464,10 +3059,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Un personnage avec cet atout est un membre de la renommée Inquisition : que ce soit un Juge ou un Chevalier Inquisiteur. Les joueurs n'ont pas besoin de payer d'autres points pour monter dans la hiérarchie de l'organisation, mais il est recommandé aux Conteurs de limiter l'ascension en son sein. Tout les membres de l'Inquisition possèdent un reliquaire en fer. Ce reliquaire est un symbole d'appartenance à l'Inquisition et chacun est donné directement par le Régent.\nPhysiquement, un reliquaire est une version stylisée du logo du Sabbat forgé dans du fer. Il peut être tenu et utilisé comme une dague ou une épée et il y a souvent des pointes aiguisées ou d'autres tranchants dessus. Tout les reliquaire sont unique et en cas de Destruction d'un Inquisiteur son reliquaire est détruit. Tant que vous possédez votre reliquaire, vous avez un bonus de 3 pour résister aux pouvoirs infernaux (comme ceux de Daemonium), les pouvoirs obtenu par des capacités démoniaques ou par des atout lié à l'infernalisme. Vous obtenez aussi un bonus de 3 pour vos jets d'esquive contre les démons et autres personnages marqué par un démon. Vous obtenez le statut de Purifié au début de chaque partie."
         }
@@ -1478,7 +3069,7 @@
       "slug": "membre-de-la-main-noire",
       "title": "Membre de la Main Noire",
       "notionUrl": "https://app.notion.com/p/Membre-de-la-Main-Noire-39388b48e48e80109f73ca45699d71a4",
-      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1503,10 +3094,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Un personnage ayant cet atout est membre de la main noire. Il commence en général comme un Agent de la main. Les joueurs n'ont pas besoin de dépenser d'autres points afin d'avancer dans la hiérarchie de l'organisation, mais il est recommandé aux Conteurs de limiter l’ascension d'un personnage en son sein. Tout les membres de la Main noire sont marqué du symbole de croissant de lune noire dans la paume droite. Il crée un lien télépathique avec le Séraphim et peut être utilisé pour faire appel à un agent pour qu'il remplisse un contrat, pour prévenir des agents de danger ou pour Détruire un membre de la Main noire qui a été compromis.\nVous avez un bonus de 3 pour résister la Télépathie et d'autres Pouvoir permettant de soutirer des informations directement à votre esprit. Ce bonus ne s'applique pas dans les cas où l'information vous serait soutirée directement à votre esprit comme l'utilisation de Pouvoir de Domination ou de Présence. Vous obtenez le statut inné \"Marqué\" au début de chaque partie."
         }
@@ -1517,7 +3104,7 @@
       "slug": "monopoliste",
       "title": "Monopoliste",
       "notionUrl": "https://app.notion.com/p/Monopoliste-39388b48e48e8085a27cfa8ab5a77945",
-      "lastEditedTime": "2026-07-04T22:29:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1542,12 +3129,50 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez vos mains dans presque tout ce qui se passe dans votre ville et votre contrôle s'étant bien plus loin que la plupart. Vous avez une deuxième spécialisation pour chaque point d'influence que vous acquérez."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8054-9994-e9733f3adca8",
+      "slug": "ne-dans-l-ombre",
+      "title": "Né dans l’ombre",
+      "notionUrl": "https://app.notion.com/p/N-dans-l-ombre-39888b48e48e80549994e9733f3adca8",
+      "lastEditedTime": "2026-07-09T14:54:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "lasombra",
+              "title": "Lasombra",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Né dans l’ombre"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre esprit est particulièrement accordé aux profondeurs obscures de l’Abysse.\nUne fois par tour, vous pouvez activer l’un des deux premiers niveaux d’Obténébration sans dépenser de Sang, bien que vous deviez satisfaire toutes les autres conditions.\nAlternativement, une fois par tour, vous pouvez utiliser cet Atout pour augmenter la zone d’effet de votre Voile de Nuit sans dépenser de Sang"
         }
       ]
     },
@@ -1556,7 +3181,7 @@
       "slug": "noblesse-sociale",
       "title": "Noblesse sociale",
       "notionUrl": "https://app.notion.com/p/Noblesse-sociale-39388b48e48e8005ab8fccfb56504f05",
-      "lastEditedTime": "2026-07-04T22:29:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1581,12 +3206,115 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Dans le passé vous avez tenu une position sociale prestigieuse, que ce soit en tant que Prince ayant régné longtemps, avoir été Archon ou une Harpie célébre. Bien que ne tenant plus nécessairement cette position, votre nom y est associé. Vous êtes donc traité avec une grande dose de respect.\nLorsque quelqu'un vous repaie d'une faveur, vous pouvez lui donner le statut de \"Gallant\"."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8091-a509-c00326d46ea6",
+      "slug": "oeil-aveugle",
+      "title": "Oeil Aveugle",
+      "notionUrl": "https://app.notion.com/p/Oeil-Aveugle-39888b48e48e8091a509c00326d46ea6",
+      "lastEditedTime": "2026-07-09T14:55:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "nosferatu",
+              "title": "Nosfératu",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Oeil Aveugle"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas être ciblé par des pouvoirs surnaturels permettant de vous traquer ou de vous identifier à distance, sauf si vous êtes déjà dans la ligne de vue de l’utilisateur.\nCela inclut les pouvoirs de traque (comme le rituel Illuminer la Piste de la Proie) ainsi que les pouvoirs d’observation comme Clairvoyance ou Scrutation.\nCe mérite ne bloque pas les usages normaux d’Auspex, uniquement ceux permettant une observation à distance.\nSi un pouvoir d’observation à distance est utilisé pour espionner une zone où vous vous trouvez, il fonctionne normalement pour tout sauf vous : vous êtes invisible et inaudible pour l’utilisateur."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8091-8d09-dbcb16e3762c",
+      "slug": "parangon",
+      "title": "Parangon",
+      "notionUrl": "https://app.notion.com/p/Parangon-39888b48e48e80918d09dbcb16e3762c",
+      "lastEditedTime": "2026-07-09T14:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Parangon"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un leader établi ou une étoile montante du clan Ventrue. Les autres membres vous considèrent comme un modèle.\nVous bénéficiez des avantages suivants :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les ressources issues de votre Historique Ressources sont doublées"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous gagnez une action supplémentaire par Influence contrôlée (Élite ou Milieu criminel)"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous attirez un Ventrue subalterne servant de lieutenant :"
         },
         {
           "type": "paragraph",
-          "text": "Dans le passé vous avez tenu une position sociale prestigieuse, que ce soit en tant que Prince ayant régné longtemps, avoir été Archon ou une Harpie célébre. Bien que ne tenant plus nécessairement cette position, votre nom y est associé. Vous êtes donc traité avec une grande dose de respect.\nLorsque quelqu'un vous repaie d'une faveur, vous pouvez lui donner le statut de \"Gallant\"."
+          "text": "PNJ niveau 6 (Serviteur)\npossède trois historiques parmi : Ressources, Refuge, Troupeau ou Influence (Élite ou Milieu criminel)\nrépartition : 3 / 2 / 1 points\nCe lieutenant ne peut pas apprendre de techniques ni de pouvoirs anciens.\nS’il meurt, vous perdez ce mérite pendant 4 sessions ou 2 mois (le plus long des deux)."
         }
       ]
     },
@@ -1595,7 +3323,7 @@
       "slug": "pouvoir-infernal",
       "title": "Pouvoir Infernal",
       "notionUrl": "https://app.notion.com/p/Pouvoir-Infernal-39688b48e48e80f783a3ff82ccaff88a",
-      "lastEditedTime": "2026-07-07T22:19:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1619,10 +3347,6 @@
         }
       },
       "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
         {
           "type": "paragraph",
           "text": "Vous avez juré votre âme à un démon, un diable ou une autre entité obscure — selon la manière dont votre personnage conçoit de telles créatures au regard de ses croyances personnelles — et cette entité infernale vous a accordé un pouvoir surnaturel."
@@ -1890,7 +3614,7 @@
       "slug": "precoce",
       "title": "Précoce",
       "notionUrl": "https://app.notion.com/p/Pr-coce-39688b48e48e8051a49fc8d5da2fe6bc",
-      "lastEditedTime": "2026-07-07T22:26:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1915,12 +3639,57 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Votre esprit est particulièrement adapté à la maîtrise des connaissances complexes et vous avez toujours appris rapidement les nouvelles compétences.\nLorsqu’un autre personnage vous enseigne un pouvoir, votre instructeur n’a pas besoin de dépenser de Volonté pour vous l’enseigner.\nDe plus, vous n’avez pas besoin de dépenser d’AIP afin d’apprendre une Discipline."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80e9-bfff-e2f37309cfe7",
+      "slug": "prestance-royale",
+      "title": "Prestance Royale",
+      "notionUrl": "https://app.notion.com/p/Prestance-Royale-39888b48e48e80e9bfffe2f37309cfe7",
+      "lastEditedTime": "2026-07-09T14:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Prestance Royale"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "À l’image des souverains d’autrefois, votre autorité s’impose instantanément.\nUne fois par session, vous pouvez utiliser un pouvoir de Présence immédiatement, sans dépenser d’action.\nVous pouvez l’activer avant l’initiative.\nVous devez néanmoins payer les coûts et effectuer les tests normalement.\nCe mérite peut améliorer des pouvoirs standards, mais ne peut pas être utilisé avec des pouvoirs anciens ni des techniques."
         }
       ]
     },
@@ -1929,7 +3698,7 @@
       "slug": "prodige-social",
       "title": "Prodige social",
       "notionUrl": "https://app.notion.com/p/Prodige-social-39388b48e48e80ac9540e6b5ffe3e412",
-      "lastEditedTime": "2026-07-04T22:25:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1954,10 +3723,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes particulièrement doué pour bien présenter, manipuler les autres et vous hisser au plus haut de votre environnement social. Ce talent vous a bien servit depuis votre Étreinte. Vous êtes considéré socialement comme ayant un niveau de génération supérieur. Si vous êtes un Nouveau-né, vous êtes considéré socialement comme un Ancilla, si vous êtes un Ancilla, vous êtes considéré comme un Ancien (et vous gagnez le statut attribué aux Anciens). Les Anciens ne tirent aucun bénéfice de cet atout."
         }
@@ -1968,7 +3733,7 @@
       "slug": "reputation",
       "title": "Réputation",
       "notionUrl": "https://app.notion.com/p/R-putation-39688b48e48e80ab9da8d99b6e004e67",
-      "lastEditedTime": "2026-07-07T22:20:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1993,10 +3758,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vos accomplissements sont connus bien au-delà des frontières de votre clan ou de votre secte.\nMême des vampires appartenant à d’autres sectes ou organisations ont entendu parler de vous et connaissent votre réputation.\nVous pouvez porter un trait de statut éphémère supplémentaire au-delà de votre limite habituelle de statuts.\nSi votre réputation est sérieusement ternie, votre Conteur peut retirer ce statut éphémère supplémentaire jusqu’à ce que vous ayez surmonté le scandale."
         }
@@ -2007,7 +3768,7 @@
       "slug": "resistance-a-la-magie",
       "title": "Résistance à la Magie",
       "notionUrl": "https://app.notion.com/p/R-sistance-la-Magie-39688b48e48e80ff8f0adaa66e574858",
-      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2032,10 +3793,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Les légendes racontent que le Premier Vampire ne possédait aucune affinité naturelle avec la magie.\nVotre sang pourrait être un vestige de cet état originel, ou simplement posséder une résistance innée aux enchantements.\nVous obtenez une relance gratuite lorsque vous résistez aux effets de Thaumaturgie, Nécromancie, Ritae du Sabbat, rituels enchantés et pouvoirs des mages.\nCette relance peut être utilisé avant ou après une relance normal de Volonté et constitue une exception à la règle limitant les relance à un seul par défi.\nCependant, vous ne pourrez jamais apprendre de voie ou de rituel de Thaumaturgie, de Nécromancie ou de toute autre forme de magie du sang.\nSi vous possédez déjà une forme de magie du sang lorsque vous achetez cet Atout, vous devez retirer ces pouvoirs sans recevoir de remboursement d’XP."
         }
@@ -2046,7 +3803,7 @@
       "slug": "revelateur",
       "title": "Révélateur",
       "notionUrl": "https://app.notion.com/p/R-v-lateur-39388b48e48e80988062f774de711215",
-      "lastEditedTime": "2026-07-04T22:34:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2071,10 +3828,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Toute les heures, vous pouvez utiliser utiliser une action simple pour proclamer fortement et distinctement votre foi en Caïn et promouvoir les croyances de l'Église sombre. Pour le reste de ce tour, vous pouvez dépenser 5 points de sang supplémentaire que votre maximum. Au début du tour suivant, vous revenez à la normale."
         }
@@ -2085,7 +3838,7 @@
       "slug": "robuste",
       "title": "Robuste",
       "notionUrl": "https://app.notion.com/p/Robuste-39688b48e48e8044931bf395f2dbb89b",
-      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2110,10 +3863,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes peut-être plus massif que les autres, plus résistant aux épreuves ou doté d’une peau particulièrement robuste, mais quelle qu’en soit la raison, vous possédez une capacité supérieure à encaisser les blessures.\nLes personnages possédant cet Atout gagnent 1 niveau de santé supplémentaire dans chaque niveau de blessure, obtenant ainsi quatre niveaux Sain, quatre niveaux Blessé et quatre niveaux Incapacité.\nCet Atout fonctionne conjointement avec le bonus de Focus Vigueur accordé par Force d’Âme ; un personnage possédant les deux avantages dispose alors de cinq niveaux de santé dans chaque niveau de blessure."
         }
@@ -2124,7 +3873,7 @@
       "slug": "sanctifie",
       "title": "Sanctifié",
       "notionUrl": "https://app.notion.com/p/Sanctifi-39388b48e48e806d981eebf15367948e",
-      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2149,12 +3898,240 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Vous avez acquis une qualité dans votre foi qui inspire les autres. Tant que votre personnage suis les préceptes d'un ritus, ce personnage a un bonus de 2 à ses jets de Rituel, tant que c'est lui qui initie le rituel. Si ce rituel réussi, les participants regagnent tout les points de Volonté dépensé. Si le personnage n'est pas l'initiateur du rituel, il apporte un bonus de 2 (à la place de 1) au personnage qui a lancé le rituel."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8080-96ea-d50830ea01c5",
+      "slug": "sang-addictif",
+      "title": "Sang addictif",
+      "notionUrl": "https://app.notion.com/p/Sang-addictif-39888b48e48e808096ead50830ea01c5",
+      "lastEditedTime": "2026-07-09T14:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "tlacique",
+              "title": "Tlacique",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang addictif"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quiconque est assez imprudent pour goûter à votre Sang en devient dépendant.\nLa prochaine fois que cette créature aura l’occasion de boire votre Sang, elle devra dépenser 1 point de Volonté pour refuser. Cette dépense lui permet de résister à son addiction pendant 10 minutes sans dépense supplémentaire.\nAprès avoir résisté à votre Sang de cette manière cinq fois consécutives, l’addiction est brisée.\nSi vous possédez le pouvoir de Présence Fascination, toute personne buvant votre Sang devient également sous votre emprise pour le reste de la nuit."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-807b-ae62-c38504705dff",
+      "slug": "sang-des-tzimices",
+      "title": "Sang des Tzimices",
+      "notionUrl": "https://app.notion.com/p/Sang-des-Tzimices-39888b48e48e807bae62c38504705dff",
+      "lastEditedTime": "2026-07-09T14:57:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tzimices",
+              "title": "Tzimices",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang des Tzimices"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous partagez le lien profond de votre clan avec la terre. À travers les esprits du sol, vous entendez des murmures et des récits remontant jusqu’aux temps d’Enoch.\nCes esprits vous servent et protègent votre refuge.\nVous gagnez un bonus de +3 à tous vos tests d’attaque (Physiques, Sociaux et Mentaux) lorsque vous êtes dans votre refuge. Ce bonus ne s’applique pas aux tests de défense.\nDe plus, les esprits vous transmettent un savoir ancien :\nvous gagnez 2 points gratuits en Connaissances , avec spécialisations\nvotre maximum en Connaissances est augmenté de 2\nSi vous aviez déjà acheté ces niveaux, les PX sont remboursés.\nSi vous aviez utilisé des points de création, vous pouvez les réaffecter."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-805c-acd8-d984c10e2504",
+      "slug": "sang-eclipse",
+      "title": "Sang éclipsé",
+      "notionUrl": "https://app.notion.com/p/Sang-clips-39888b48e48e805cacd8d984c10e2504",
+      "lastEditedTime": "2026-07-09T14:58:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang éclipsé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre sang est plus faible que celui des autres vampires, même de votre génération.\nDe ce fait :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous pouvez rester éveillé durant la journée sans difficulté"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous regagnez 1 point de Volonté par jour, même sans repos"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous subissez des dégâts normaux du soleil (au lieu d’aggravés)"
         },
         {
           "type": "paragraph",
-          "text": "Vous avez acquis une qualité dans votre foi qui inspire les autres. Tant que votre personnage suis les préceptes d'un ritus, ce personnage a un bonus de 2 à ses jets de Rituel, tant que c'est lui qui initie le rituel. Si ce rituel réussi, les participants regagnent tout les points de Volonté dépensé. Si le personnage n'est pas l'initiateur du rituel, il apporte un bonus de 2 (à la place de 1) au personnage qui a lancé le rituel."
+          "text": "Les dégâts du soleil ne peuvent pas être réduits ou annulés, mais peuvent être soignés normalement."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8041-86c3-e05b9533daf0",
+      "slug": "sang-maleable",
+      "title": "Sang Maléable",
+      "notionUrl": "https://app.notion.com/p/Sang-Mal-able-39888b48e48e804186c3e05b9533daf0",
+      "lastEditedTime": "2026-07-09T14:58:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "nosferatu",
+              "title": "Nosfératu",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang Maléable"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Contrairement à d’autres clans, les Nosferatu n’abandonnent jamais les membres dont le sang évolue de manière atypique.\nVous pouvez choisir une discipline commune ou peu commune comme quatrième discipline de clan.\nVous ne pouvez pas commencer avec des points gratuits dans cette discipline, mais :\nelle peut être enseignée\nelle est considérée comme une discipline de clan pour tous les effets\nelle coûte en PX comme une discipline de clan\nDisciplines possibles : Auspex, Célérité, Aliénation, Domination, Force d'Âme, Présence, Protéisme, Quietus, Serpentis.\nCe mérite ne peut pas être combiné avec d’autres donnant des disciplines supplémentaires."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8015-8e27-f4fec8bb8e9c",
+      "slug": "sang-proteiforme",
+      "title": "Sang Protéiforme",
+      "notionUrl": "https://app.notion.com/p/Sang-Prot-iforme-39888b48e48e80158e27f4fec8bb8e9c",
+      "lastEditedTime": "2026-07-09T14:59:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang Protéiforme"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une fois par heure, vous pouvez activer un pouvoir de Protéisme sans payer les coûts normalement requis (Sang et action).\nLes effets de Sang protéiforme se produisent à votre initiative et ne peuvent pas être combinés avec des effets permettant d’agir avant ou après votre initiative durant le tour.\nCet Atout ne peut pas être utilisé avec des pouvoirs d’ancien ni avec des techniques basées sur le Protéisme, mais peut être utilisé avec l’Atout Forme de la Rage de la Bête."
         }
       ]
     },
@@ -2163,7 +4140,7 @@
       "slug": "sang-froid",
       "title": "Sang-froid",
       "notionUrl": "https://app.notion.com/p/Sang-froid-39688b48e48e80559444d74e4aa6e909",
-      "lastEditedTime": "2026-07-07T22:25:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2188,10 +4165,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous possédez un contrôle remarquable de vos émotions et êtes capable de conserver votre calme même dans les situations les plus extrêmes.\nVous êtes considéré comme possédant 2 traits de Bête en moins lorsque vous résistez à la frénésie.\nDe plus, votre réserve de test pour résister à la frénésie augmente de +3.\nLes personnages Brujah ne peuvent pas prendre cet Atout.\nCette restriction ne s’applique pas aux membres de la lignée Vrai Brujah."
         },
@@ -2210,7 +4183,7 @@
       "slug": "sauvage",
       "title": "Sauvage",
       "notionUrl": "https://app.notion.com/p/Sauvage-39388b48e48e80969104c59677bd33b9",
-      "lastEditedTime": "2026-07-04T21:22:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2235,10 +4208,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes bien connu de milieux peu recommandables, vous passez vraisemblablement beaucoup de temps parmi des gang-bangers, des forçats ou avec des bikers. Vous avez donc une réputation sulfureuse bien méritée.\nVous recevez un bonus de 1 à vos jets de bagarre ou de conduite et un bonus de 2 pour vous défendre contre des Pouvoirs utilisé par des individus ayant une position officielle au sein de la Camarilla ou du Sabbat."
         }
@@ -2249,7 +4218,7 @@
       "slug": "sens-aiguise",
       "title": "Sens Aiguisé",
       "notionUrl": "https://app.notion.com/p/Sens-Aiguis-39688b48e48e80c39fcae10d2fa01f5e",
-      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2274,10 +4243,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "L’un de vos sens est exceptionnellement développé, vous offrant un avantage notable dans son utilisation. Choisissez l’un des sens suivants : vue, ouïe, odorat, toucher ou goût.\nLorsque vous utilisez ce sens amélioré, vous bénéficiez des effets du pouvoir Sens Accrus d’Auspex.\nSi vous possédez déjà ce pouvoir, vous n’avez pas besoin de dépenser de point de Sang pour activer les effets de Sens Accrus qui nécessiteraient normalement une dépense de Sang."
         }
@@ -2288,7 +4253,7 @@
       "slug": "sens-moral",
       "title": "Sens moral",
       "notionUrl": "https://app.notion.com/p/Sens-moral-39388b48e48e80b48a51f29dc9a78822",
-      "lastEditedTime": "2026-07-04T21:20:00.000Z",
+      "lastEditedTime": "2026-07-09T13:51:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2313,12 +4278,50 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous avez passé beaucoup de temps a protéger et cultiver votre Humanité. Par cet effort, vous avez acquis la capacité de mieux contrôler votre Bête que la plupart des Semblables. Vous avez vraisemblablement encore beaucoup de contacts avec les mortels; que ce soit par un travail de nuit, ou en participant à des événements mondains.\nSi vous passez 10 minutes a conseiller un Semblable qui a un trait de Bête, ce Semblable peut retenter un jet de flétrissure qu'il a perdu cette nuit. Si ce second essai est une réussite, il retire toute pénalité obtenue lors de l'échec de flétrissure précédent.\nUn personnage ne peut bénéficier que d'une application de cet atout par partie."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8002-80f7-d3424dd84ee5",
+      "slug": "serviteur-spectral",
+      "title": "Serviteur Spectral",
+      "notionUrl": "https://app.notion.com/p/Serviteur-Spectral-39888b48e48e800280f7d3424dd84ee5",
+      "lastEditedTime": "2026-07-09T15:02:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Serviteur Spectral"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur loyal vous sert depuis l’au-delà. Cet esprit est généralement un membre défunt de votre famille qui, pour une raison quelconque, n’a jamais été Étreint.\nCréez ce PNJ comme un Serviteur de niveau 5, en utilisant les règles des spectres.\nSi vous possédez Nécromancie : Voie du Sépulcre, vous pouvez dépenser 1 point de Sang pour invoquer surnaturellement votre serviteur spectral, lui permettant de se téléporter jusqu’à votre position actuelle."
         }
       ]
     },
@@ -2327,7 +4330,7 @@
       "slug": "sire-prestigieux",
       "title": "Sire prestigieux",
       "notionUrl": "https://app.notion.com/p/Sire-prestigieux-39388b48e48e809f8c5cce114cb15265",
-      "lastEditedTime": "2026-07-04T22:26:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2352,10 +4355,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Votre Sire est un Ancien reconnu ou détient une position importante au sein de la Camarilla. Vous possédez le statut \"Loyal\" tant que vous et votre Sire évitez les scandales. Si l'un d'entre vous obtient le statut \"Disgrâce\", vous perdez l'avantage de cet atout jusqu'à ce que le statut \"Disgrâce\" soit retiré."
         }
@@ -2366,7 +4365,7 @@
       "slug": "sommeil-leger",
       "title": "Sommeil Léger",
       "notionUrl": "https://app.notion.com/p/Sommeil-L-ger-39688b48e48e808099eec8dc5d5253e8",
-      "lastEditedTime": "2026-07-07T22:21:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2391,12 +4390,118 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Alors que l’aube rend la plupart des vampires lents et engourdis, vous possédez l’étrange capacité de vous maintenir pleinement éveillé.\nUn personnage possédant cet Atout peut rester vigilant jusqu’à une heure après le lever du soleil et s’éveille une heure avant le coucher du soleil.\nDe plus, vous pouvez vous réveiller instantanément au moindre signe de danger ou de trouble, sans subir de lenteur ni d’hésitation.\nVous ignorez toutes les pénalités liées aux actions effectuées durant les heures de jour, quel que soit votre niveau d’Humanité ou votre nombre de traits de Bête."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8008-8690-ce8ed7d0e6b4",
+      "slug": "sophistique",
+      "title": "Sophistiqué",
+      "notionUrl": "https://app.notion.com/p/Sophistiqu-39888b48e48e80088690ce8ed7d0e6b4",
+      "lastEditedTime": "2026-07-09T15:03:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "chevalier-de-la-lune",
+              "title": "Chevalier de la Lune",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "ananke",
+              "title": "Ananke",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sophistiqué"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous voyez les défauts et les erreurs de l'univers, les extrémités cassées et les reflets brisés qui s'écoulent de chaque action. Vous vous rappelez occasionnellement de chose qui ne se sont pas produite ou des impressions de temporalité alternatives de personnes que vous connaissez. Cela vous donne une perception déformée du monde, mais cela peut s'avérer pratique lorsque votre vie est en danger. Vous évitez les coups avant qu'ils ne soient donnés ; vous vous écartez des rayons d'une explosion, vous échappez aux chutes d'objets avant qu'ils ne tombent. Même les pouvoirs Mentaux et Sociaux ont du mal à pénétrer votre cerveau, car vous êtes fortifiés dans ces étranges ondulations de folie.\nUne fois par session de jeu, quand vous devez résister à un challenge Physique, Mental ou Social, ou lorsque vous devez faire un challenge qui pourrait résulter en des blessures, vous pouvez dépenser 1 point de Sang pour gagner automatiquement le challenge ou éviter totalement la situation.\nSophistique peut être utilisé à n'importe quel moment, même avant votre tour dans l'ordre d'initiative. Quand Sophistique est utilisé pour éviter une attaque, votre adversaire est considéré comme ayant échoué à vous toucher. Dans le cas de challenges Mentaux et Sociaux, ce résultat peut vous éviter d'être ciblé à nouveau par le même pouvoir."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8042-947d-c0aebb39b811",
+      "slug": "sorcellerie-setite",
+      "title": "Sorcellerie Setite",
+      "notionUrl": "https://app.notion.com/p/Sorcellerie-Setite-39888b48e48e8042947dc0aebb39b811",
+      "lastEditedTime": "2026-07-09T15:03:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "tlacique",
+              "title": "Tlacique",
+              "cout": null
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "vipere",
+              "title": "Vipère",
+              "cout": null
+            }
+          ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sorcellerie Setite"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La sorcellerie est un don accordé uniquement aux plus fidèles, et les enfants de Set révèrent cette capacité comme une marque de dévotion.\nLorsque vous acquérez cet Atout, vous gagnez la discipline Thaumaturgie.\nVous pouvez acheter la Voie de la Corruption ainsi qu’une autre voie thaumaturgique de votre choix. Ces voies sont apprises sans enseignant et sont considérées comme des pouvoirs hors clan à tous égards (y compris pour le coût d’achat)."
         }
       ]
     },
@@ -2405,7 +4510,7 @@
       "slug": "sorcier-amateur",
       "title": "Sorcier amateur",
       "notionUrl": "https://app.notion.com/p/Sorcier-amateur-39388b48e48e80cdb66fec0467912975",
-      "lastEditedTime": "2026-07-04T21:19:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2429,10 +4534,6 @@
         }
       },
       "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
         {
           "type": "paragraph",
           "text": "Vous n'êtes peut-être pas un pratiquant assidu de la magie, mais vous avez appris quelques trucs. Un personnage avec cet atout peut faire quelques rituels magiques même sans avoir de point en Thaumaturgie. Vous n'avez pas besoin d'acheter l'atout Entraînement Thaumaturgique pour acheter Sorcier Amateur."
@@ -2464,7 +4565,7 @@
       "slug": "souffle-de-vie",
       "title": "Souffle de vie",
       "notionUrl": "https://app.notion.com/p/Souffle-de-vie-39688b48e48e80959119d0c4537f59f5",
-      "lastEditedTime": "2026-07-07T22:22:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2489,10 +4590,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Peut-être n’êtes-vous pas totalement mort lors de votre Étreinte, ou peut-être que le sang vampirique a moins altéré votre physiologie que celle des autres.\nVous êtes considéré comme un mortel par tous les pouvoirs ou capacités cherchant à déterminer votre type de créature.\nDe plus, votre aura est anormalement lumineuse pour un vampire, et les animaux ne peuvent pas percevoir votre Bête ; ils réagissent envers vous comme si vous étiez humain.\nSi votre Moralité descend à 3 — temporairement ou définitivement — cet Atout cesse de fonctionner jusqu’à ce que votre Moralité repasse au-dessus de 3.\nUn personnage suivant une Voie d’Illumination ne peut pas posséder cet Atout."
         }
@@ -2503,7 +4600,7 @@
       "slug": "sur-la-voie-de-golconde",
       "title": "Sur la voie de Golconde",
       "notionUrl": "https://app.notion.com/p/Sur-la-voie-de-Golconde-39688b48e48e800facb1dfe3c4f723ac",
-      "lastEditedTime": "2026-07-07T22:28:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2527,10 +4624,6 @@
         }
       },
       "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
         {
           "type": "paragraph",
           "text": "Vous êtes engagé sur la voie du Soupir, recherchant et poursuivant l’état mythique d’illumination connu sous le nom de Golconde."
@@ -2606,11 +4699,131 @@
       ]
     },
     {
+      "id": "39888b48-e48e-8021-a6f8-d7197b3d7c4b",
+      "slug": "szlachta",
+      "title": "Szlachta",
+      "notionUrl": "https://app.notion.com/p/Szlachta-39888b48e48e8021a6f8d7197b3d7c4b",
+      "lastEditedTime": "2026-07-09T15:04:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tzimices",
+              "title": "Tzimices",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Szlachta"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir qu’il soit :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un molosse infernal (créé à partir d’un animal)"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un szlachta (créé à partir d’un humain)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez payer les coûts normalement.\nVous devez posséder au moins 3 niveaux de Vicissitude pour utiliser ce mérite.\nVos créations peuvent être modifiées davantage avec Vicissitude.\nChoisissez un des avantages suivants pour ce Serviteur :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Blindé : Peau renforcée (pointes, chitine…).\n→ +2 niveaux de santé"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sur-musclé : Force accrue.\n→ Spécialisation gratuite en Puissance"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Souple : Corps allongé et articulations supplémentaires.\n→ Échappe automatiquement aux étreintes (action simple)\n→ +2 en Défense (Esquive)\n→ +2 en Initiative"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Crachat Acide : Organes altérés.\n→ Attaque à distance infligeant 2 dégâts aggravés (1 fois par tour)\n→ Bonus si Athlétisme spécialisé"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Conçu pour le Combat : Créature optimisée pour combattre.\n→ Spécialisation gratuite en Bagarre\n→ Attaques à mains nues infligent des dégâts aggravés"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vol : Ailes membraneuses.\n→ Vol à vitesse normale (3 pas par action simple)\n→ Uniquement pour créations animales"
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8049-b7c0-d257bcc4ba23",
+      "slug": "talisman",
+      "title": "Talisman",
+      "notionUrl": "https://app.notion.com/p/Talisman-39888b48e48e8049b7c0d257bcc4ba23",
+      "lastEditedTime": "2026-07-09T15:05:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Talisman"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous possédez un talisman magique. Il doit s’agir d’un objet rigide mesurant entre environ 12 cm et 1,80 m (bâton, canne, baguette, etc.).\nTant que vous le tenez ou le touchez, vous gagnez un bonus de +2 à tous vos tests de Thaumaturgie.\nSi votre talisman est détruit, perdu ou volé, il devient inutilisable jusqu’à ce que vous en recréiez un, ce qui prend 4 sessions de jeu ou 2 mois (le plus long des deux).\nSeul vous pouvez bénéficier de ce talisman.\nCertains talismans peuvent servir d’armes improvisées (avec une qualité d’arme).\nLes Tremere Telyav peuvent choisir un athamé (ou lame rituelle). Celui-ci possède les qualités Dissimulable et soit Rapide, Argent ou Fer Froid s’il est utilisé comme arme."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8000-8776-cdec6a005fa8",
       "slug": "tech-junkie",
       "title": "Tech Junkie",
       "notionUrl": "https://app.notion.com/p/Tech-Junkie-39388b48e48e80008776cdec6a005fa8",
-      "lastEditedTime": "2026-07-04T21:20:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2635,10 +4848,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes très connu, dans le cercle des technophiles ; peut-être étiez-vous un hacker célèbre de votre vivant, ou peut-être que votre fascination pour la technologie vous a fait découvrir le monde vampirique, forçant un vampire à vous Étreindre parce que vous deveniez une menace pour la Mascarade. Vous possédez des objets technologiques à peine inventés, ou encore en développement, avant même qu'ils soient disponibles au public. Vous recevez un bonus de +2 à votre réserve de test lorsque cela implique les compétences Informatique ou Sciences, et vous pouvez dépenser une action inter-partie pour ajouter la Qualité Flashy ou Banal sur un équipement. Cet ajout peut permettre à l'objet de dépasser la limite maximale de 2 qualités."
         }
@@ -2649,7 +4858,7 @@
       "slug": "touche-a-tout",
       "title": "Touche à tout",
       "notionUrl": "https://app.notion.com/p/Touche-tout-39688b48e48e804e8b20c9663351b66c",
-      "lastEditedTime": "2026-07-07T22:22:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2674,12 +4883,62 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
+          "type": "paragraph",
+          "text": "Vous avez toujours été capable de gérer plusieurs tâches simultanément, répartissant votre attention afin d’accomplir plusieurs objectifs à la fois.\nChoisissez une catégorie d’Attributs (Physique, Social ou Mental) et sélectionnez un Focus supplémentaire pour cet Attribut.\nPar exemple, un personnage possédant cet Atout peut posséder à la fois le Focus Force et le Focus Vigueur pour son Attribut Physique."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-80aa-a1b8-cbd56e4bfb21",
+      "slug": "vestige-de-grandeur",
+      "title": "Vestige de Grandeur",
+      "notionUrl": "https://app.notion.com/p/Vestige-de-Grandeur-39888b48e48e80aaa1b8cbd56e4bfb21",
+      "lastEditedTime": "2026-07-09T15:05:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "caitiff",
+              "title": "Caitiff",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vestige de Grandeur"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Normalement, un Caitiff choisit trois disciplines de clan parmi :\nAnimalisme, Auspex, Célérité, Domination, Force d’Âme, Dissimulation, Présence ou Puissance.\nAvec ce mérite :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous choisissez deux disciplines dans cette liste"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "et une discipline parmi : Aliénation, Protéisme, Serpentis, Quietus, Obtenebration, Vicissitude ou Chimérie"
         },
         {
           "type": "paragraph",
-          "text": "Vous avez toujours été capable de gérer plusieurs tâches simultanément, répartissant votre attention afin d’accomplir plusieurs objectifs à la fois.\nChoisissez une catégorie d’Attributs (Physique, Social ou Mental) et sélectionnez un Focus supplémentaire pour cet Attribut.\nPar exemple, un personnage possédant cet Atout peut posséder à la fois le Focus Force et le Focus Vigueur pour son Attribut Physique."
+          "text": "Ce mérite ne peut être acheté qu’à la création du personnage."
         }
       ]
     },
@@ -2688,7 +4947,7 @@
       "slug": "vieux-singe",
       "title": "Vieux singe",
       "notionUrl": "https://app.notion.com/p/Vieux-singe-39388b48e48e80e88321dda3930d6621",
-      "lastEditedTime": "2026-07-04T21:17:00.000Z",
+      "lastEditedTime": "2026-07-09T13:52:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2713,12 +4972,50 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Cet atout doit être acheté à la création du personnage. Vous avez été Étreint avant 1800. Peut-être que vous étiez membre de la révolte Anarch initiale, ou vous étiez présent à la signature de la Convention de Thorns.\nIl est a noter qu'acheter cet atout ne donne aucun bonus de Génération."
+        }
+      ]
+    },
+    {
+      "id": "39888b48-e48e-8050-bff8-e793977fbae3",
+      "slug": "visage-angelique",
+      "title": "Visage Angélique",
+      "notionUrl": "https://app.notion.com/p/Visage-Ang-lique-39888b48e48e8050bff8e793977fbae3",
+      "lastEditedTime": "2026-07-09T15:06:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "lasombra",
+              "title": "Lasombra",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Visage Angélique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre lien inné avec l’Abysse transparaît dans chacun de vos mouvements et dans chaque ombre de votre visage, vous conférant une grâce surnaturelle et un attrait sexuel troublant.\nVous obtenez le focus de Charisme (Attribut Social) en plus du focus d’Attribut Social normalement choisi lors de la création du personnage.\nDe plus, vous apparaissez toujours attirant et digne, même lorsque vous êtes blessé, sale ou doté d’une Humanité faible. Même si vous suivez une Voie ou avez une faible Humanité, votre déchéance morale se manifeste sous la forme d’une beauté froide, presque irréelle, plutôt que d’un aspect monstrueux ou bestial.\nL’adhésion à une Voie reste perceptible malgré cette beauté exceptionnelle, mais au lieu d’inspirer la peur ou le dégoût, votre aura sombre devient intense et sexuellement captivante."
         }
       ]
     },
@@ -2727,7 +5024,7 @@
       "slug": "vitalite-intense",
       "title": "Vitalité intense",
       "notionUrl": "https://app.notion.com/p/Vitalit-intense-39688b48e48e80c5a7f7e3cfae1d62d0",
-      "lastEditedTime": "2026-07-07T22:23:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2752,10 +5049,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "La malédiction de Caïn coule puissamment dans vos veines.\nVous pouvez dépenser 1 point de Sang supplémentaire par tour au-delà de ce que votre Génération autorise normalement.\nLes Nouveau-Nés et les Ancilla peuvent acheter cet Atout pour 2 points, tandis que les Anciens de toute Génération doivent payer le coût complet de 3 points.\nLes personnages ayant commis une diablerie au-dessus de la 9e Génération doivent dépenser de l’XP supplémentaire afin de compenser l’augmentation du coût.\nSi votre personnage est incapable de payer ce coût supplémentaire, ou si ce coût dépasse la limite de 7 points d’Atouts, vous perdez cet Atout et l’XP dépensée est remboursée."
         }
@@ -2766,7 +5059,7 @@
       "slug": "volatile",
       "title": "Volatile",
       "notionUrl": "https://app.notion.com/p/Volatile-39388b48e48e800dad86cd84475f3691",
-      "lastEditedTime": "2026-07-04T22:34:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2791,10 +5084,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "Vous êtes extrêmement sauvage et vous avez le sang vif, même pour le Sabbat. Bien que cette instabilité peut effrayer les autres, elle vous bénéficie à vous, et vous attendez le moment où vous pouvez relâcher votre Bête. Lorsque vous entrez en frénésie, vous gagnez immédiatement un point de Volonté. Vous ne pouvez obtenir ce bonus qu'une fois par combat."
         }
@@ -2805,7 +5094,7 @@
       "slug": "volonte-de-fer",
       "title": "Volonté de fer",
       "notionUrl": "https://app.notion.com/p/Volont-de-fer-39688b48e48e809b8580ef9c05b49227",
-      "lastEditedTime": "2026-07-07T22:23:00.000Z",
+      "lastEditedTime": "2026-07-09T13:53:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2830,10 +5119,6 @@
       },
       "content": [
         {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
           "type": "paragraph",
           "text": "En atteignant un niveau de maîtrise mentale digne des plus grands maîtres martiaux ou des érudits les plus disciplinés, vous avez développé une structure mentale d’une rigidité exceptionnelle.\nVous pouvez utiliser cette résolution intérieure afin de concentrer votre esprit et résister à la torture, à l’intimidation et aux pouvoirs cherchant directement à vous contrôler.\nVous obtenez un retest gratuit lorsque vous résistez aux effets d’Auspex, Animalisme et Domination.\nVolonté de Fer ne peut pas être utilisée pour retenter des tentatives visant à percer Dissimulation ou Chimérie, mais elle accorde un retest contre des pouvoirs tels que Télépathie ou Assaut Psychique.\nCe retest peut être utilisé avant ou après un retest normal de Volonté et constitue une exception à la règle limitant les retests à un seul par défi."
         }
@@ -2844,7 +5129,7 @@
       "slug": "zelote",
       "title": "Zélote",
       "notionUrl": "https://app.notion.com/p/Z-lote-39388b48e48e8044b570cd7bfe8412d6",
-      "lastEditedTime": "2026-07-04T22:32:00.000Z",
+      "lastEditedTime": "2026-07-09T13:54:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -2868,10 +5153,6 @@
         }
       },
       "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
         {
           "type": "paragraph",
           "text": "Vous brûlez d'une dévotion totale pour Caïn, les rites et la Secte. Votre ferveur peut-être discrète ou très vocale, vous avez quoi qu'il en soit une croyance bien plus forte que d'autres. Si forte que vous ressentez que vous pouvez presque sentir la volonté du Père sombre. Échouer un rituel vous cause une douleur physique et une blessure intérieure car vous attribuez cet échec à un manque de foi. Lorsque vous participez à un rituel qui échoue, vous pouvez faire un jet statique de Mental + Occultisme difficulté 6 pour déterminer combien de participants à ce rituel souffrent d'un manque de foi."
