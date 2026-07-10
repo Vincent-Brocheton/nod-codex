@@ -1,5 +1,8 @@
 import { COLLECTIONS } from "./collections.js";
 
+// Ancienne catégorie Règles utilisée avant la base "Personnage" dédiée à
+// l'assistant de création : gardée pour ne pas faire réapparaître d'anciens
+// contenus non migrés dans la liste générale des Règles.
 const CHARACTER_CREATION_CATEGORY = "Création de Personnage";
 
 export const navigation = [
@@ -21,11 +24,10 @@ export const navigation = [
                 path: "/creation",
                 icon: "user-plus",
 
-                view: "grouped-list",
-                groupFilter: { property: "Catégorie", only: [CHARACTER_CREATION_CATEGORY] },
+                view: "wizard",
 
                 collections: [
-                    COLLECTIONS.REGLES,
+                    COLLECTIONS.PERSONNAGE,
                 ],
             },
         ],

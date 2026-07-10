@@ -6,7 +6,7 @@ export default function searchableText(collection, item) {
         collection.group,
         item.title,
         ...Object.values(item.properties || {}).map((raw) => propertyText(normalizeProperty(raw))),
-        ...(item.content || []).map((block) => block.text || "")
+        ...(item.content || []).map((block) => block.type === "table" ? block.rows.flat().join(" ") : (block.text || ""))
     ]
         .join(" ")
         .toLowerCase();

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-09T21:33:09.696Z",
+  "generatedAt": "2026-07-10T16:30:35.291Z",
   "collections": [
     {
       "key": "disciplines",
@@ -84,6 +84,12 @@
       "label": "Règles",
       "group": "Règles",
       "file": "/data/collections/regles.json"
+    },
+    {
+      "key": "personnage",
+      "label": "Étapes de création",
+      "group": "Création de personnage",
+      "file": "/data/collections/personnage.json"
     }
   ]
 }

@@ -24,5 +24,28 @@ export default function Block({ block }) {
             </figure>
         );
     }
+    if (block.type === "table") {
+        const [headerRow, ...bodyRows] = block.rows;
+        const rows = block.hasColumnHeader ? bodyRows : block.rows;
+
+        return (
+            <table>
+                {block.hasColumnHeader ? (
+                    <thead>
+                        <tr>
+                            {headerRow.map((cell, index) => <th key={index}>{cell}</th>)}
+                        </tr>
+                    </thead>
+                ) : null}
+                <tbody>
+                    {rows.map((row, rowIndex) => (
+                        <tr key={rowIndex}>
+                            {row.map((cell, cellIndex) => <td key={cellIndex}>{cell}</td>)}
+                        </tr>
+                    ))}
+                </tbody>
+            </table>
+        );
+    }
     return <p>{renderSpans(block)}</p>;
 }

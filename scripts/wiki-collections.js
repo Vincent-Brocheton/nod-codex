@@ -96,5 +96,12 @@
     group: "Règles",
     envVar: "NOTION_DATABASE_REGLES",
     file: "/data/collections/regles.json"
+  },
+  {
+    key: "personnage",
+    label: "Étapes de création",
+    group: "Création de personnage",
+    envVar: "NOTION_DATABASE_PERSONNAGE",
+    file: "/data/collections/personnage.json"
   }
 ];

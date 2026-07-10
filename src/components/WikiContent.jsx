@@ -2,6 +2,7 @@ import ItemList from "./ItemList";
 import DetailPanel from "./DetailPanel";
 import RitualsView from "./views/RitualsView";
 import MeritsFlawsView from "./views/MeritsFlawsView";
+import CreationWizardView from "./views/CreationWizardView";
 import SectionIndexView from "./views/SectionIndexView";
 import SearchResultsView from "./views/SearchResultsView";
 import PageRenderer from "./PageRenderer";
@@ -34,6 +35,10 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "merits-flaws") {
         return <MeritsFlawsView wiki={wiki} collectionKey={collectionKey} groupValue={groupValue} />;
+    }
+
+    if (activeNavigation.view === "wizard") {
+        return <CreationWizardView wiki={wiki} />;
     }
 
     if (slug) {

@@ -26,7 +26,7 @@ function requireConfig() {
   return configuredCollections;
 }
 
-function blockToContent(block) {
+async function blockToContent(block) {
   const value = block[block.type];
 
   if (block.type === "divider") {
@@ -38,6 +38,24 @@ function blockToContent(block) {
       type: "image",
       url: value.type === "external" ? value.external.url : value.file.url,
       caption: richTextToPlainText(value.caption)
+    };
+  }
+
+  // Un tableau Notion n'a pas de rich_text propre : chaque ligne est un bloc
+  // "table_row" enfant, avec une cellule par colonne (elle-même un tableau
+  // de rich_text). Il faut donc aller chercher ces lignes séparément.
+  if (block.type === "table") {
+    const rowBlocks = await listBlockChildren(block.id);
+    const rows = rowBlocks.map((rowBlock) =>
+      (rowBlock.table_row?.cells || []).map((cell) => richTextToPlainText(cell))
+    );
+
+    if (rows.length === 0) return null;
+
+    return {
+      type: "table",
+      hasColumnHeader: Boolean(value.has_column_header),
+      rows
     };
   }
 
@@ -93,6 +111,8 @@ async function normalizePage(page) {
     properties.Slug?.value ||
     slugify(title);
 
+  const content = (await Promise.all(blocks.map((block) => blockToContent(block)))).filter(Boolean);
+
   return {
     id: page.id,
     slug,
@@ -100,7 +120,7 @@ async function normalizePage(page) {
     notionUrl: page.url,
     lastEditedTime: page.last_edited_time,
     properties,
-    content: blocks.map(blockToContent).filter(Boolean)
+    content
   };
 }
 

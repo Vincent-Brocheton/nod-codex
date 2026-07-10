@@ -18,4 +18,5 @@ export const COLLECTIONS = {
     FLAWS: "handicaps",
 
     REGLES: "regles",
+    PERSONNAGE: "personnage",
 };

@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-808a-a841-e67a5a56ec56",
-  "generatedAt": "2026-07-09T21:33:09.691Z",
+  "generatedAt": "2026-07-10T16:30:35.272Z",
   "propertyOptions": {
     "Niveau": [
       "5",
@@ -337,6 +337,60 @@
         {
           "type": "paragraph",
           "text": "Lors de la sélection d'un Urge, vous pouvez choisir parmi le tableau suivant :"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": false,
+          "rows": [
+            [
+              "Urges",
+              "Déclencheur de dérangement",
+              "Réponse",
+              "Aide au roleplay"
+            ],
+            [
+              "Avarice (Kleptomanie)",
+              "Un objet non surveillé  qui n'est pas votre.",
+              "Voler l'objet.",
+              "Ce n'est pas à moi, mais cela devrait l'être.  Je dois réparer cela."
+            ],
+            [
+              "Violence (Destruction)",
+              "Tout actes d'impolitesses  (vraie ou perçue).",
+              "Briser l'offensant(Personne ou objet).",
+              "C'était une insulte ? Oui. Tu n'y survivra pas ! "
+            ],
+            [
+              "Désespoir",
+              "Si quelqu'un de familier  quitte votre présence.",
+              "Crise émotive.",
+              "Rien ne va, et rien n'ira plus jamais !"
+            ],
+            [
+              "Apathie",
+              "Quelqu'un essaie de vous  inclure dans une conversation.",
+              "Désengagement et esquive.",
+              "Tout est juste terriblement inutile,  pourquoi y faire attention ?"
+            ],
+            [
+              "Paranoïa",
+              "Tous sons sans sources visuelles.",
+              "S'enfuir de tout ce qui pourrait être en train de vous regarder.",
+              "Vous ne savez peut-être pas comment, mais vous êtes définitivement suivi !"
+            ],
+            [
+              "Gloutonnerie (Faim)",
+              "L'odeur de la nourriture, du sang ou de la chair.",
+              "Dévorer tout ce qui pourrait etre possiblement mangeable.",
+              "Vous êtes affamé, vous pourriez manger pendant des jours sans vous sentir rassasié."
+            ],
+            [
+              "Mensonge",
+              "Quelqu'un vous pose une question.",
+              "Vous ne pouvez pas communiqué une vérité totale.",
+              "Ils utiliseront la vérité contre vous, enterrez la dans des mensonges."
+            ]
+          ]
         }
       ]
     },
