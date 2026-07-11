@@ -363,27 +363,13 @@ h1, h2, h3 {
    bord gauche sur un grand écran plutôt que d'utiliser l'espace dispo. */
 .wizardPane {
   margin: 0 auto;
-  max-width: 860px;
+  max-width: 1100px;
+  padding-bottom: 0;
   width: 100%;
 }
 
-.wizardBack {
-  align-items: center;
-  background: none;
-  border: 0;
-  color: var(--text-muted);
-  cursor: pointer;
-  display: flex;
-  font-size: 14px;
-  gap: 6px;
-  margin-bottom: 18px;
-  padding: 0;
-  text-decoration: none;
-  width: fit-content;
-}
-
-.wizardBack:hover {
-  color: var(--accent-strong);
+.wizardPane .detailCard {
+  max-width: none;
 }
 
 .wizardProgress {
@@ -401,6 +387,40 @@ h1, h2, h3 {
   transition: width 0.2s ease;
 }
 
+/* Barre d'actions collée en bas de l'écran pendant le défilement d'une
+   étape longue, plutôt qu'un bouton perdu en bas du contenu qu'il faut
+   aller chercher en scrollant. */
+.wizardActions {
+  align-items: center;
+  background: var(--bg-canvas);
+  border-top: 1px solid var(--border);
+  bottom: 0;
+  display: flex;
+  gap: 16px;
+  justify-content: space-between;
+  margin-top: 32px;
+  padding: 20px 0 clamp(28px, 6vw, 72px);
+  position: sticky;
+}
+
+.wizardBack {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: var(--text-muted);
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  gap: 6px;
+  padding: 0;
+  text-decoration: none;
+  width: fit-content;
+}
+
+.wizardBack:hover {
+  color: var(--accent-strong);
+}
+
 .wizardNext {
   background: var(--accent);
   border: 0;
@@ -412,7 +432,6 @@ h1, h2, h3 {
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.04em;
-  margin-top: 28px;
   padding: 14px 32px;
   text-decoration: none;
   text-transform: uppercase;

@@ -1,5 +1,5 @@
 import "../styles.css";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Menu, Moon, Sun } from "lucide-react";
 import Sidebar from "../components/Sidebar";
 import WikiContent from "../components/WikiContent";
@@ -31,6 +31,16 @@ function HomePage() {
         setNavOpen(false);
         wiki.search.setQuery("");
     }
+
+    // Les panneaux scrollables (liste, détail, page pleine largeur) gardent
+    // leur propre position de défilement d'une fiche à l'autre puisque le
+    // conteneur DOM n'est jamais remonté : sans ça, ouvrir une fiche courte
+    // depuis une fiche longue laisserait la page défilée au milieu.
+    useEffect(() => {
+        document.querySelectorAll(".detailPane, .listPane, .pageArea").forEach((element) => {
+            element.scrollTop = 0;
+        });
+    }, [routeKey]);
 
     if (wiki.error) {
         return (

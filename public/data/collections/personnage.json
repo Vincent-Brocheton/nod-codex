@@ -1,0 +1,1989 @@
+{
+  "key": "personnage",
+  "label": "Étapes de création",
+  "group": "Création de personnage",
+  "description": "",
+  "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
+  "generatedAt": "2026-07-11T16:22:17.574Z",
+  "propertyOptions": {},
+  "items": [
+    {
+      "id": "39988b48-e48e-80a2-9e33-cf5dc4ba10fe",
+      "slug": "creer-son-personnage",
+      "title": "Créer son Personnage",
+      "notionUrl": "https://app.notion.com/p/Cr-er-son-Personnage-39988b48e48e80a29e33cf5dc4ba10fe",
+      "lastEditedTime": "2026-07-11T15:23:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 0
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "L’inspiration"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Créer son Personnage"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dans le MET, chaque partie est comparable à une pièce de théâtre interactive."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lieu de jeu devient une scène, les conteurs en assurent la mise en scène et les joueurs incarnent les protagonistes de l'histoire. Chacun est à la fois acteur de son propre récit et spectateur de celui des autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque joueur interprète un personnage qui évoluera tout au long de la chronique. Contrairement à un jeu où l'on crée un nouveau héros à chaque partie, Vampire : la Mascarade vous invite à développer un personnage unique, doté de son histoire, de sa personnalité, de ses ambitions et de ses faiblesses. Au fil des chroniques, il connaîtra des victoires, des échecs, des alliances, des trahisons et, peut-être, la Mort Ultime."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'objectif est de créer un personnage suffisamment riche pour devenir un véritable acteur du récit collectif."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les règles de Mind's Eye Theatre (MET) fournissent un cadre commun permettant à tous les joueurs de créer des personnages équilibrés tout en laissant une grande liberté d'interprétation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce chapitre vous guide pas à pas dans la création d'un personnage vampire. Vous commencerez par définir un concept, puis vous le traduirez en termes de règles grâce aux différents éléments de la fiche de personnage. Bien que cette procédure puisse être réalisée seul, il est souvent conseillé de créer son personnage en collaboration avec les conteurs, afin de s'assurer qu'il s'intègre parfaitement au cadre de jeu."
+        },
+        {
+          "type": "heading_2",
+          "text": "Les spécificités du cadre de jeu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque chronique possède son propre cadre de jeu (setting), qui définit l'histoire, la culture, les organisations et les règles particulières applicables aux vampires de cet univers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre conteur vous présentera les éléments propres à sa chronique. Il est fortement recommandé de créer un personnage cohérent avec ce contexte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le livre MET : Vampire – The Masquerade propose trois cadres de jeu principaux :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La Camarilla"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le Sabbat"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le Mouvement Anarch"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les règles présentées dans ce chapitre sont volontairement génériques et peuvent être utilisées dans n'importe lequel de ces cadres. Toutefois, chaque univers possède ses propres particularités et peut modifier certaines règles de création de personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un cadre de jeu peut prévoir :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une rareté différente des clans ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des restrictions concernant la Génération ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de nouveaux Historiques ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de nouveaux Mérites et Défauts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est donc recommandé de prendre connaissance des règles spécifiques de votre chronique avant de finaliser votre personnage."
+        },
+        {
+          "type": "heading_2",
+          "text": "Rareté des clans"
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les clans ne sont pas représentés avec la même fréquence dans chaque chronique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon le cadre de jeu choisi par les conteurs, certains clans peuvent être particulièrement courants, tandis que d'autres seront rares, voire quasiment inexistants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous souhaitez incarner un clan considéré comme rare ou inhabituel dans votre chronique, votre personnage devra généralement acquérir un Mérite de Rareté correspondant (voirles Atouts et Handicaps)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conteurs peuvent également définir leurs propres niveaux de rareté afin de refléter l'histoire et les besoins de leur univers de jeu. Ainsi, même un clan habituellement courant peut devenir exceptionnel dans une chronique donnée."
+        }
+      ]
+    },
+    {
+      "id": "39988b48-e48e-80e5-ba69-f7daf0f88f01",
+      "slug": "etape-1-l-inspiration",
+      "title": "Étape 1 : L'inspiration",
+      "notionUrl": "https://app.notion.com/p/tape-1-L-inspiration-39988b48e48e80e5ba69f7daf0f88f01",
+      "lastEditedTime": "2026-07-11T15:35:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 1
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "XP de départ"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Étape 1 : L'inspiration"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Concept du personnage"
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant de choisir des caractéristiques, des disciplines ou des pouvoirs, prenez le temps d'imaginer qui est réellement votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage mémorable ne se résume pas à une liste de statistiques. Les meilleures histoires naissent de ses rêves, de ses peurs, de ses convictions et de ses ambitions. Dans Vampire : la Mascarade, chaque personnage est le protagoniste de sa propre tragédie : il sait que le monde est injuste, que les chances sont souvent contre lui et que sa destinée sera probablement funeste. Ce qui fait sa légende n'est pas sa victoire, mais la manière dont il affronte les épreuves et interagit avec les autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création de votre personnage, il est important qu'il s'intègre naturellement au cadre de jeu proposé par les conteurs et qu'il puisse évoluer aux côtés des autres personnages."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le meilleur point de départ consiste généralement à réfléchir à la vie du personnage avant son Étreinte. Comprendre qui il était permet de mieux définir qui il est devenu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Posez-vous notamment les questions suivantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Qui étiez-vous avant de devenir un vampire ?"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pourquoi avez-vous reçu l'Étreinte ?"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Qui êtes-vous devenu depuis votre Étreinte ?"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces réponses serviront de fondation à votre personnage et guideront naturellement son comportement tout au long de la chronique."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemples de concepts"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une riche héritière Étreinte pour devenir la compagne éternelle de son sire. Révoltée par cette existence, elle abandonne son ancienne vie de privilèges pour rejoindre le Mouvement Anarch."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un criminel opportuniste qui s'est retrouvé au mauvais endroit au mauvais moment. Il met désormais ses talents au service du trafic d'artefacts occultes."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une enquêtrice talentueuse Étreinte afin d'espionner les ennemis de son sire. Après la mort de celui-ci, elle utilise les secrets accumulés au fil des décennies pour gravir les échelons du pouvoir."
+        },
+        {
+          "type": "heading_2",
+          "text": "Archétypes"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les archétypes représentent les grandes tendances de personnalité d'un personnage. Inspirés des travaux du psychologue Carl Gustav Jung, ils permettent de résumer en quelques mots la manière dont votre personnage agit, pense et interagit avec le monde."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisir un archétype permet aux conteurs et aux autres joueurs de comprendre rapidement quel type de personnage vous incarnez. Il ne s'agit pas d'une personnalité rigide, mais de la caractéristique dominante de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un Escroc pourra parfois dire la vérité, mais son comportement sera avant tout guidé par le mensonge et la manipulation."
+        },
+        {
+          "type": "heading_3",
+          "text": "Règle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par heure, lorsque votre personnage entreprend une action (ou résiste à une action) qui illustre clairement son archétype, il bénéficie d'une relance gratuite de Volonté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette relance ne coûte aucun point de Volonté, mais remplace la relance de Volonté habituelle. Il est impossible de cumuler cette relance avec une relance obtenue en dépensant un point de Volonté."
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Archétype",
+              "Description"
+            ],
+            [
+              "Architecte",
+              "Vous aimez les structures, les institutions et les organisations. Ceux qui agissent en dehors du système vous inspirent la méfiance."
+            ],
+            [
+              "Artiste",
+              "Vous vivez pour la création, l'émotion et l'inspiration."
+            ],
+            [
+              "Brute",
+              "Vous imposez votre volonté par la force et aimez rappeler votre supériorité."
+            ],
+            [
+              "Combattant",
+              "Vous affrontez les difficultés de front et ne fuyez pas les conflits."
+            ],
+            [
+              "Compétiteur",
+              "Vous recherchez les défis et aimez prouver votre valeur."
+            ],
+            [
+              "Conformiste",
+              "Vous cherchez à vous intégrer et à suivre les attentes du groupe."
+            ],
+            [
+              "Cultivé",
+              "Vous appréciez le raffinement, l'élégance et l'excellence."
+            ],
+            [
+              "Curieux",
+              "Les mystères vous attirent irrésistiblement."
+            ],
+            [
+              "Enfant",
+              "Votre vision du monde est naïve et innocente."
+            ],
+            [
+              "Énigmatique",
+              "Votre personnalité demeure difficile à comprendre."
+            ],
+            [
+              "Escroc",
+              "Mensonge, manipulation et tromperie sont votre quotidien."
+            ],
+            [
+              "Esprit libre",
+              "Vous détestez les règles et refusez toute contrainte."
+            ],
+            [
+              "Fanatique",
+              "Une cause domine entièrement votre existence."
+            ],
+            [
+              "Fauteur de troubles",
+              "Vous aimez défier l'autorité et provoquer les révoltes."
+            ],
+            [
+              "Flagorneur",
+              "Vous vous attachez aux puissants afin de profiter de leur influence."
+            ],
+            [
+              "Grincheux",
+              "Vous critiquez facilement et faites rarement confiance."
+            ],
+            [
+              "Imperturbable",
+              "Vous gardez toujours votre calme, quelles que soient les circonstances."
+            ],
+            [
+              "Introverti",
+              "Vous êtes discret, réfléchi et réservé."
+            ],
+            [
+              "Juge",
+              "Vous estimez que chacun doit répondre de ses actes."
+            ],
+            [
+              "Leader",
+              "Vous prenez naturellement les commandes et inspirez les autres."
+            ],
+            [
+              "Martyr",
+              "Vous supportez les souffrances afin d'aider ou d'inspirer les autres."
+            ],
+            [
+              "Médiateur",
+              "Vous excellez dans la résolution des conflits."
+            ],
+            [
+              "Mercenaire",
+              "Votre loyauté a un prix."
+            ],
+            [
+              "Monstre",
+              "Vous prenez plaisir à inspirer la peur et la souffrance."
+            ],
+            [
+              "Noble",
+              "Vous vous considérez naturellement destiné à gouverner."
+            ],
+            [
+              "Pénitent",
+              "Vous cherchez à expier une faute passée."
+            ],
+            [
+              "Perfectionniste",
+              "Vous exigez l'excellence, de vous comme des autres."
+            ],
+            [
+              "Peu digne de confiance",
+              "Vous considérez que chacun agit avant tout pour son propre intérêt."
+            ],
+            [
+              "Professeur",
+              "Vous aimez transmettre votre savoir et être reconnu comme une référence."
+            ],
+            [
+              "Protecteur",
+              "Vous prenez naturellement la défense des plus faibles."
+            ],
+            [
+              "Provocateur",
+              "Vous aimez choquer et remettre en cause les conventions."
+            ],
+            [
+              "Rationaliste",
+              "La logique guide chacune de vos décisions."
+            ],
+            [
+              "Savant",
+              "Vous aimez démontrer votre intelligence et partager vos connaissances."
+            ],
+            [
+              "Solitaire",
+              "Vous préférez agir seul plutôt que dépendre des autres."
+            ],
+            [
+              "Survivant",
+              "Rien ne compte davantage que votre propre survie."
+            ],
+            [
+              "Tête brûlée",
+              "Vous agissez souvent avant de réfléchir."
+            ],
+            [
+              "Traditionaliste",
+              "Vous privilégiez les traditions et les méthodes éprouvées."
+            ],
+            [
+              "Trickster",
+              "Vous préférez triompher par la ruse plutôt que par la force."
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39a88b48-e48e-80ce-9eee-c19ed86c07b3",
+      "slug": "etape-10-finalisation",
+      "title": "Etape 10 : Finalisation",
+      "notionUrl": "https://app.notion.com/p/Etape-10-Finalisation-39a88b48e48e80ce9eeec19ed86c07b3",
+      "lastEditedTime": "2026-07-11T16:21:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 10
+        },
+        "Bouton": {
+          "type": "text",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 10 : Finalisation"
+        }
+      },
+      "content": []
+    },
+    {
+      "id": "39988b48-e48e-80f2-b61b-d6571387859f",
+      "slug": "etape-2-xp-de-depart",
+      "title": "Etape 2 : XP de départ",
+      "notionUrl": "https://app.notion.com/p/Etape-2-XP-de-d-part-39988b48e48e80f2b61bd6571387859f",
+      "lastEditedTime": "2026-07-11T15:40:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 2
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Choisir son clan"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 2 : XP de départ"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre personnage débute avec 50 points d'expérience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Conservez une trace de ces XP de départ, car ils seront utilisés au cours de la création du personnage pour acquérir des Attributs, Compétences, Historiques, Mérites, Disciplines et les autres éléments de votre fiche."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous ne dépensez pas l'intégralité de vos XP de départ durant la création du personnage, vous pouvez conserver jusqu'à 5 PX afin de les utiliser ultérieurement en cours de jeu."
+        }
+      ]
+    },
+    {
+      "id": "39a88b48-e48e-80cb-9ac5-ce2afd95291e",
+      "slug": "etape-3-choisir-son-clan",
+      "title": "Etape 3 : Choisir son clan",
+      "notionUrl": "https://app.notion.com/p/Etape-3-Choisir-son-clan-39a88b48e48e80cb9ac5ce2afd95291e",
+      "lastEditedTime": "2026-07-11T15:48:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 3
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Les Attributs de départ"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 3 : Choisir son clan"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une fois le concept et l'Archétype de votre personnage définis, il est temps de choisir son clan. Réfléchissez au type de clan qui aurait pu être attiré par votre concept et à la manière dont cela s'intègre aux circonstances de son Étreinte. Un mortel passionné par les arts sera, par exemple, plus susceptible d'être Étreint par un Toreador, tandis qu'un homme d'affaires pourra attirer l'attention d'un sire Ventrue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan de votre personnage détermine sa place au sein de la société vampirique, les stéréotypes que les autres Kindred lui attribueront ainsi que les attentes auxquelles elle devra répondre. Il définit également ses Disciplines de clan, ainsi que ses forces et ses faiblesses propres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est tout à fait possible de s'écarter des stéréotypes de son clan, à condition que cela soit un choix délibéré et qu'il serve l'histoire du personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si aucun clan ou aucune lignée ne correspond réellement à votre concept, votre personnage peut toujours être un Caitiff, un vampire sans clan. Les Caitiffs possèdent un sang trop faible pour hériter pleinement des caractéristiques de leur sire et développent souvent un ensemble imprévisible de Disciplines. Bien qu'ils ne soient soumis à aucune faiblesse de clan, ils sont considérés comme des citoyens de seconde zone par la plupart des vampires, qui se méfient autant d'eux que de leur sang impur."
+        },
+        {
+          "type": "heading_2",
+          "text": "Aperçu des grands clans"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Assamites — Originaires du Moyen-Orient, ces redoutables assassins se considèrent comme les juges des autres clans, chargés d'exécuter ceux qu'ils estiment indignes. Ils vénèrent leur fondateur, Haqim, et refusent toute allégeance durable à une secte ou à une alliance."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Brujah — Clan passionné, impulsif et prompt à la colère, les Brujah sont à la fois philosophes, guerriers, compagnons fougueux et ennemis redoutables. Ils défendent volontiers des causes qu'ils jugent justes et luttent contre l'oppression dans l'espoir d'un monde meilleur."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Gangrel — Nomades et farouchement indépendants, les Gangrel sont des prédateurs sauvages qui préfèrent les grands espaces et la liberté aux contraintes de la civilisation. Ce sont d'excellents métamorphes et des alliés d'une loyauté sans faille."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Giovanni — Famille fermée sur elle-même, les Giovanni sont les maîtres de la Nécromancie. Avec la brutalité d'une dynastie mafieuse et l'ambition d'une multinationale, ces marchands vénitiens recherchent le pouvoir à n'importe quel prix."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Kuei-Jin — Description a écrire"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lasombra — Élégants et profondément inhumains, les Lasombra embrassent pleinement leur condition vampirique. Ils commandent les ténèbres avec une majesté naturelle et trouvent leur plaisir aussi bien dans l'obscurité de la nuit que dans celle de l'âme."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Malkaviens — Dotés d'une perception exceptionnelle, tous les Malkaviens souffrent néanmoins d'une forme de folie incurable. Tantôt inquiétants, tantôt sereins, ils cherchent souvent à éclairer les autres… qu'ils le souhaitent ou non."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Nosferatu — Horriblement déformés par l'Étreinte, les Nosferatu vivent dans l'ombre. Espions, maîtres chanteurs et collectionneurs de secrets, ils contrôlent une grande partie des informations qui circulent dans la société vampirique."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Setite — Décadents, séduisants et corrupteurs, les Setites servent leur dieu aussi bien dans de somptueux temples dorés que dans les fumeries d'opium les plus sordides, mêlant harmonieusement l'héritage de l'Égypte antique au crime moderne."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toreador — Sensuels, sociables et hédonistes, les Toreador sont célèbres autant pour leur beauté que pour leur raffinement. Ils demeurent à l'avant-garde de l'art, de la culture et des tendances du monde mortel."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Tremere — Autrefois de puissants sorciers mortels, les Tremere arrachèrent eux-mêmes leur immortalité. Aujourd'hui, ils sont craints et souvent méprisés pour leurs secrets occultes, mais nul ne remet en cause la puissance de leur sorcellerie."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Tzimisce — Anciens seigneurs d'Europe de l'Est, les Tzimisce sont des créatures possessives et jalouses de leurs domaines. Maîtres de la Vicissitude, ils façonnent chair et os afin de transcender les limites de la condition mortelle."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ventrue — Stoïques et majestueux, les Ventrue incarnent l'aristocratie vampirique. Monarques, chefs d'entreprise, mécènes ou stratèges militaires, ils gouvernent les nuits d'une main de fer."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Caitiff — Dépourvus de véritable héritage vampirique, les Caitiffs présentent peu de caractéristiques communes. Généralement abandonnés après leur Étreinte, ils doivent survivre sans le soutien d'un clan."
+        },
+        {
+          "type": "heading_2",
+          "text": "Les clans mineurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus des grands clans, quelques clans plus rares, plus discrets ou moins nombreux subsistent encore. Il s'agit notamment des Baali, Cappadociens, Ravnos et Salubri."
+        },
+        {
+          "type": "heading_2",
+          "text": "Les lignées"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des clans disposent d'un ou plusieurs Atouts de Lignée. Une fois votre clan choisi, vous pouvez décider d'acquérir l'un de ces Mérites."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la lignée que vous souhaitez jouer appartient à un clan considéré comme rare dans le cadre de votre chronique, vous devrez acheter à la fois l’Atout de Rareté correspondant et l’Atout de Lignée approprié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lignées représentent une fraction seulement de leur clan d'origine. Elles sont issues d'une branche dont le sang a été altéré volontairement ou non et qui possède désormais des caractéristiques différentes du reste du clan. La plupart des membres d'une lignée se considèrent toujours comme appartenant à leur clan d'origine. D'autres, en revanche, nourrissent une profonde rancœur envers celui-ci, voire s'en sont totalement séparés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux lignées particulièrement rares, les Filles de la Cacophonie et les Gargouilles, ne sont rattachées à aucun clan parent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre conteur pourra vous fournir davantage d'informations sur les lignées présentes dans le cadre de votre chronique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Gardez enfin à l'esprit qu'une lignée n'apparaît ni ne disparaît spontanément. Si vous appartenez à la lignée des Croisés, c'est que votre sire en faisait déjà partie. De même, si vous Étreignez un infant, celui-ci héritera lui aussi de cette lignée, à moins que son sang ne soit trop faible et qu'il ne devienne un Caitiff."
+        }
+      ]
+    },
+    {
+      "id": "39a88b48-e48e-80b4-af5a-e3f6928352cf",
+      "slug": "etape-4-repartir-les-attributs-de-depart",
+      "title": "Étape 4 : Répartir les Attributs de départ",
+      "notionUrl": "https://app.notion.com/p/tape-4-R-partir-les-Attributs-de-d-part-39a88b48e48e80b4af5ae3f6928352cf",
+      "lastEditedTime": "2026-07-11T15:54:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 4
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Compétences de départ"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Étape 4 : Répartir les Attributs de départ"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Attributs représentent les qualités naturelles et les faiblesses innées de votre personnage. Selon la manière dont vous répartissez vos points de départ, celui-ci pourra être particulièrement fort et perceptif, vif et intelligent, ou encore charismatique et séduisant, en privilégiant respectivement les Attributs Physiques, Sociaux ou Mentaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un bon personnage possède également des points faibles. Créer un individu imparfait le rend plus crédible et lui offre des obstacles qu'il pourra surmonter au fil de la chronique. Voir un personnage évoluer est l'un des aspects les plus intéressants du jeu : augmenter un Attribut peut représenter les leçons tirées de ses expériences, le rendant plus sage, plus fort ou mieux préparé à survivre dans un monde dangereux."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des personnages possèdent des valeurs d'Attribut comprises entre 3 (faible) et 5 (moyenne). Les individus exceptionnellement doués peuvent atteindre 7 (excellent), voire 10, qui représente les limites du potentiel humain."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires étant des créatures surnaturelles, ils peuvent dépasser ces limites grâce à leur Génération, qui augmente le maximum de leurs Attributs Physiques. Le nombre de points supplémentaires disponibles dépend de la puissance de leur sang. Pour plus d'informations, consultez la section Génération."
+        },
+        {
+          "type": "heading_2",
+          "text": "Répartir les points d'Attributs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Commencez par classer vos trois Attributs principaux (Physique, Social et Mental) selon leur importance pour votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Attribut principal, auquel vous attribuez 7 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Attribut secondaire, auquel vous attribuez 5 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Attribut tertiaire, auquel vous attribuez 3 points."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un boxeur privilégiera généralement l'Attribut Physique, tandis qu'un artiste choisira plutôt l'Attribut Social."
+        },
+        {
+          "type": "heading_2",
+          "text": "Attributs Physiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Attributs Physiques représentent la force, l'agilité et l'endurance naturelles de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant peu d'Attributs Physiques est peu sportif ou fragile, tandis qu'un personnage ayant un score élevé est particulièrement puissant, agile ou résistant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires peuvent dépenser des points de Sang afin d'augmenter temporairement leurs Attributs Physiques grâce à leur puissance surnaturelle. Pour davantage d'informations, consultez le chapitre consacré aux systèmes dramatiques."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vincent, un Nosferatu, affronte un chasseur de vampires mortel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon son niveau d'Attribut Physique, son Focus Physique et ses Compétences, il pourra adopter différentes approches :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "avec un focus en Force, il cherchera à immobiliser son adversaire ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "avec un focus en Dextérité, il préférera utiliser une arme à feu ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "avec un focus en Vigueur, il tentera de résister suffisamment longtemps aux attaques pour prendre la fuite."
+        },
+        {
+          "type": "heading_2",
+          "text": "Attributs Sociaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires excellent dans la manipulation et utilisent aussi bien les mortels que leurs semblables afin de servir leurs ambitions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Attributs Sociaux représentent l'apparence, le charisme et l'aptitude d'un personnage à interagir avec les autres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant peu d'Attributs Sociaux sera maladroit, timide ou peu attirant. À l'inverse, un personnage doté d'un score élevé sera séduisant, convaincant et particulièrement habile dans les relations sociales."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Rose, une Toreador, cherche à entrer dans la boîte de nuit la plus en vue de la ville malgré les videurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon son niveau d'Attribut Social, son Focus Social et ses Compétences, elle pourra :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "séduire les videurs grâce à son Apparence et sa compétence Expression ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les convaincre par son Charisme, en utilisant Empathie pour comprendre ce qu'ils souhaitent entendre ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les tromper grâce à sa Manipulation et Subterfuge, en prétendant faire partie du groupe qui se produit ce soir-là."
+        },
+        {
+          "type": "heading_2",
+          "text": "Attributs Mentaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Attributs Mentaux mesurent les capacités de raisonnement, d'apprentissage, de déduction et d'observation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant un score élevé est attentif, logique ou intuitif. Un personnage ayant un faible score peut être peu instruit, naïf ou manquer de vivacité d'esprit."
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nixx, un Tremere, enquête sur une scène de crime afin d'identifier le voleur qui s'est introduit dans sa chantrie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon son niveau d'Attribut Mental, son Focus Mental et ses Compétences, il pourra :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "inspecter minutieusement les lieux grâce à sa Perception et à Investigation ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "utiliser son Esprit et Académie pour se souvenir précisément de la disposition des objets et déterminer ce qui manque ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "mettre à profit son Intelligence et Science (Police scientifique) afin de rechercher des empreintes, des cheveux ou d'autres indices."
+        },
+        {
+          "type": "heading_1",
+          "text": "Les Focus d'Attribut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois vos Attributs répartis, choisissez un Focus pour chacun d'eux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Attribut possède trois Focus possibles. Ils permettent de spécialiser davantage votre personnage et lui procurent des avantages lorsqu'il agit dans son domaine d'excellence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, un boxeur choisira souvent le Focus Force, tandis qu'un artiste privilégiera Charisme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'une action correspond au Focus choisi, le personnage bénéficie des avantages associés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez soigneusement vos Focus : après la création du personnage, les modifier coûte 10 PX."
+        },
+        {
+          "type": "heading_3",
+          "text": "Règle optionnelle"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le conteur peut autoriser un joueur débutant à modifier ses Focus durant les trois premières parties s'il estime qu'une erreur de compréhension du système a été commise."
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus Physiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Physiques sont :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Force"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Dextérité"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vigueur"
+        },
+        {
+          "type": "heading_3",
+          "text": "Force"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage spécialisé en Force est puissant et musclé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par combat, il peut utiliser gratuitement l'une des manœuvres de combat suivantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Désarmement ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lutte ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Renversement ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Percer le cœur."
+        },
+        {
+          "type": "heading_3",
+          "text": "Dextérité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage spécialisé en Dextérité est rapide et agile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par combat, il peut utiliser gratuitement l'une des manœuvres suivantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Accélération ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Désarmement ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Combat à l'aveugle ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Dégainage rapide."
+        },
+        {
+          "type": "heading_3",
+          "text": "Vigueur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage spécialisé en Vigueur est particulièrement robuste."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne subit aucun malus de blessure ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peut être assommé ou renversé par une manœuvre de combat, sauf si son adversaire possède un Attribut Physique supérieur au sien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour plus d'informations sur les manœuvres de combat, consultez le chapitre consacré aux systèmes fondamentaux."
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus Sociaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Sociaux sont :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Charisme"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Manipulation"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Apparence"
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreux pouvoirs sociaux accordent des effets supplémentaires selon le Focus du personnage (voir le chapitre des Disciplines)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage effectue une action sociale qui ne fait pas intervenir un pouvoir surnaturel et qui correspond à son Focus, le conteur peut :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "lui accorder un bonus de +3 lors de l'épreuve ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "réduire de moitié le temps nécessaire pour accomplir une tâche longue liée à ce Focus (par exemple convaincre progressivement tous les avocats d'une ville)."
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus Mentaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les trois Focus Mentaux sont :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Perception"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Intelligence"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Esprit"
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme pour les Focus Sociaux, plusieurs pouvoirs mentaux accordent des effets particuliers selon le Focus choisi."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage effectue une action mentale sans utiliser de pouvoir surnaturel et correspondant à son Focus, le conteur peut :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "lui accorder un bonus de +3 lors de l'épreuve ;"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "réduire de moitié le temps nécessaire pour accomplir une tâche longue, comme traduire un ancien manuscrit ou mener une recherche particulièrement complexe."
+        }
+      ]
+    },
+    {
+      "id": "39a88b48-e48e-805d-864b-d1898820f039",
+      "slug": "etape-5-repartir-les-competences-de-depart",
+      "title": "Étape 5 : Répartir les Compétences de départ",
+      "notionUrl": "https://app.notion.com/p/tape-5-R-partir-les-Comp-tences-de-d-part-39a88b48e48e805d864bd1898820f039",
+      "lastEditedTime": "2026-07-11T16:18:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 5
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Historiques de départ"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Étape 5 : Répartir les Compétences de départ"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Compétences représentent les connaissances, l'expérience et l'entraînement acquis par votre personnage au cours de sa vie, qu'elle soit mortelle ou vampirique. Là où les Attributs reflètent son potentiel naturel, les Compétences traduisent ce qu'elle a réellement appris."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant de nombreuses Compétences est cultivé, expérimenté ou particulièrement qualifié dans plusieurs domaines. À l'inverse, un personnage peu compétent peut être naïf, inexpérimenté ou peu instruit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Compétence ne peut normalement pas dépasser 5 points."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Compétences apportent deux avantages :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Elles permettent d'accomplir certaines actions impossibles pour un personnage non formé."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Elles améliorent les performances du personnage lorsqu'elles sont combinées à un Attribut approprié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un personnage doté d'un excellent Attribut Physique mais ne possédant pas la compétence Athlétisme pourra avoir des difficultés à escalader un mur ou franchir une série d'obstacles. De la même manière, un personnage bénéficiant d'un excellent Attribut Social mais dépourvu de la compétence Intimidation aura du mal à impressionner un agent de sécurité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez les Compétences en fonction de l'histoire et du passé de votre personnage, puis investissez davantage dans celles qui correspondent à ses domaines d'expertise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les niveaux de maîtrise sont les suivants :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Novice : vous maîtrisez les bases de cette discipline."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "• Pratiquant : vous possédez une solide maîtrise des fondamentaux."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "•• Compétent : votre niveau est suffisant pour exercer cette activité de manière professionnelle."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "••• Expert : vous dépassez la majorité des praticiens et êtes reconnu comme un spécialiste."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "•••• Maître : vous faites partie des meilleurs dans ce domaine, avec un niveau de renommée internationale."
+        },
+        {
+          "type": "heading_2",
+          "text": "Choisir les Compétences"
+        },
+        {
+          "type": "paragraph",
+          "text": "Sélectionnez les Compétences qui reflètent le mieux l'éducation, la formation et les expériences de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Répartissez vos points de départ de la manière suivante :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Choisissez une Compétence et attribuez-lui 4 points."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Choisissez deux Compétences et attribuez-leur 3 points chacune."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Choisissez trois Compétences et attribuez-leur 2 points chacune."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Choisissez quatre Compétences et attribuez-leur 1 point chacune."
+        },
+        {
+          "type": "heading_2",
+          "text": "Domaines de spécialisation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines Compétences peuvent être achetées plusieurs fois afin de représenter différents domaines d'expertise."
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est notamment le cas de :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Artisanat"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Expression"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Science"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces Compétences couvrent des disciplines très vastes. Chaque fois que vous les choisissez, vous devez également sélectionner un domaine de spécialisation précis."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Artisanat : Calligraphie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Expression : Guitare classique"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Science : Police scientifique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut donc posséder plusieurs spécialisations dans une même Compétence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un chercheur travaillant dans un laboratoire pharmaceutique pourrait posséder :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Science : Biologie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Science : Chimie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces deux spécialisations sont achetées séparément et figurent chacune sur la fiche du personnage avec leur propre niveau. Elles ne constituent pas une unique Compétence « Science » de niveau 5, mais bien deux domaines de connaissances distincts."
+        },
+        {
+          "type": "heading_2",
+          "text": "Réparation et modification"
+        },
+        {
+          "type": "paragraph",
+          "text": "La réparation ou la modification d'un équipement relève toujours de la Compétence utilisée pour manipuler cet équipement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un personnage possédant Armes à feu peut réparer une arme enrayée ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un personnage possédant Informatique peut réparer ou améliorer un ordinateur ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un personnage possédant Conduite peut réparer les véhicules qu'il est capable de piloter grâce à cette Compétence."
+        },
+        {
+          "type": "heading_2",
+          "text": "Description des Compétences"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pages suivantes présentent l'ensemble des Compétences disponibles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage nécessite une compétence qui ne figure pas dans cette liste, discutez-en avec votre conteur."
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreux domaines peuvent être représentés de différentes façons selon le parcours du personnage. Ainsi, un architecte pourrait posséder :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Science : Architecture ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Artisanat : Architecture ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou même Occultisme : Architecture,"
+        },
+        {
+          "type": "paragraph",
+          "text": "selon la manière dont il a été formé, les aspects qu'il a étudiés ou la façon dont il met ses connaissances en pratique durant la chronique."
+        },
+        {
+          "type": "heading_2",
+          "text": "Animaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous savez comprendre et manipuler les animaux. Vous connaissez leur comportement, savez les calmer, les dresser, les soigner ou leur apprendre des ordres simples. Vous savez également les effrayer ou les pousser à l'agressivité lorsque cela s'avère nécessaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence facilite également la chasse sur des animaux, en permettant au vampire de masquer temporairement l'aura prédatrice de sa Bête afin d'approcher une proie sans l'effaroucher."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Les animaux craignent instinctivement les vampires et réagissent généralement mal à leur présence. Grâce à Animaux, votre odeur et votre simple présence ne déclenchent plus leur instinct de fuite ou d'attaque. Ils restent conscients de votre nature de prédateur, mais ne manifestent aucun comportement anormal."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, un personnage possédant cette compétence comprend suffisamment la Bête pour apaiser celle des autres. Après avoir discuté 10 minutes avec un personnage, il peut lui retirer 1 Trait de Bête."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut bénéficier de cet effet qu'une seule fois par partie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas utiliser cette compétence sur vous-même."
+        },
+        {
+          "type": "heading_2",
+          "text": "Armes à feu"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes entraîné au maniement de la plupart des armes à feu modernes, du petit pistolet dissimulable jusqu'à la mitrailleuse lourde. Vous savez les entretenir, les réparer, les identifier et les utiliser efficacement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Les personnages possédant Armes à feu peuvent utiliser les manœuvres de combat appropriées lorsqu'ils combattent avec des armes à distance."
+        },
+        {
+          "type": "heading_2",
+          "text": "Artisanat"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez un véritable talent artistique ou manuel. Vous êtes capable de fabriquer des objets, de créer des œuvres ou de produire un artisanat de grande qualité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous achetez cette compétence, vous devez choisir un domaine de spécialisation, par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Horlogerie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Forge"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Calligraphie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Poésie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou toute autre discipline artisanale appropriée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines formes d'expression artistique relèvent davantage de la compétence Expression que d'Artisanat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence peut être achetée plusieurs fois, avec des spécialisations différentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : En consacrant 2 actions d'inter-partie (une pour fabriquer l'objet et une pour le vendre), un personnage possédant Artisanat peut augmenter temporairement sa Ressource de +1 pendant un mois, jusqu'à un maximum de 5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce bonus fonctionne même si le personnage ne possède normalement aucun point dans l'Historique Ressources."
+        },
+        {
+          "type": "heading_2",
+          "text": "Athlétisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes naturellement doué pour les activités physiques. Vous pratiquez les sports et les épreuves athlétiques avec aisance. Cette compétence est utilisée pour courir, grimper, nager, sauter, mais aussi pour manier les armes de jet et les arcs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Grâce à Athlétisme, nager, grimper ou sauter devient une action simple au lieu d'une action standard."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, les personnages possédant cette compétence peuvent utiliser les manœuvres de combat appropriées lorsqu'ils utilisent des armes de jet ou un arc."
+        },
+        {
+          "type": "heading_2",
+          "text": "Bagarre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez appris à combattre à mains nues. Qu'il s'agisse d'un entraînement militaire, d'arts martiaux ou simplement d'une jeunesse agitée, vous savez utiliser vos poings, vos pieds et votre corps comme des armes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Les personnages possédant Bagarre peuvent utiliser les manœuvres de combat appropriées lorsqu'ils combattent à mains nues."
+        },
+        {
+          "type": "heading_2",
+          "text": "Commandement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Commandement associe autorité, sens tactique et compréhension des dynamiques de groupe. Vous savez motiver les autres, organiser une équipe et imposer naturellement votre autorité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Les PNJ standards suivant les ordres de votre personnage obtiennent un bonus de +2 à toute action qu'ils sont normalement capables d'accomplir."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, une fois par nuit, vous pouvez découvrir un Trait de Statut précis appartenant à un autre vampire pour chaque point que vous possédez en Commandement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Conduite"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des gens savent conduire un véhicule, mais vous possédez l'entraînement nécessaire pour effectuer des manœuvres difficiles ou dangereuses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le premier point de Conduite permet de maîtriser les automobiles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point supplémentaire permet de choisir une nouvelle catégorie de véhicules parmi les suivantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Voitures à cheval"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chars"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Motos"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Voiliers"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bateaux à moteur"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Navires"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Avions"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Avions de ligne"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Hélicoptères"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut autoriser d'autres catégories si cela est approprié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sans cette compétence, un personnage ne peut conduire qu'une voiture équipée d'une boîte automatique et ne peut circuler en sécurité au-delà d'environ 100 km/h. Il est incapable d'utiliser une moto ou tout autre véhicule spécialisé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Sans Conduite, piloter un véhicule demande toute votre attention."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec la compétence appropriée, conduire devient une action simple au lieu d'une action standard."
+        },
+        {
+          "type": "heading_2",
+          "text": "Empathie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous comprenez les émotions et les motivations des autres. Votre formation en psychologie, anthropologie ou sciences humaines vous permet de percevoir les troubles mentaux, les traumatismes ou les faiblesses psychologiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Après une brève conversation avec une cible, votre personnage apprend si celle-ci souffre d'un ou plusieurs Dérangements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Après quelques minutes d'observation ou de discussion, il peut également identifier précisément lesquels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage connaît le dérangement d'une cible, il peut dépenser une action standard afin d'augmenter ou de diminuer ses Traits de Dérangement de 1 pendant une heure (minimum 0, maximum 3)."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Empathie ne peut jamais réduire les Traits de Dérangement d'un Malkavien en dessous de 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas utiliser cette compétence sur vous-même."
+        },
+        {
+          "type": "heading_2",
+          "text": "Esquive"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le danger surgit, vous savez instinctivement vous mettre hors de portée. Vos réflexes vous permettent d'éviter les coups et les tirs avant qu'ils ne vous atteignent. Vous pouvez utiliser Esquive pour éviter toute attaque dont vous avez conscience, qu'il s'agisse de plonger derrière un couvert lorsqu'un ennemi ouvre le feu ou d'esquiver la lame d'une épée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Un personnage possédant Esquive peut renoncer à son action standard afin d'obtenir un bonus de +2 à un unique test d'Esquive effectué durant ce round."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si votre personnage est pris dans une attaque de zone (comme une explosion), il peut effectuer un test d'Esquive (difficulté 8) afin de réduire les dégâts subis de 1."
+        },
+        {
+          "type": "heading_2",
+          "text": "Erudition"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une culture générale et un niveau d'érudition supérieurs à ceux d'une éducation classique. Cette compétence représente une formation approfondie et une solide instruction. Grâce à Académie, vous pouvez analyser une œuvre d'art, commenter les grands classiques, débattre de philosophie ou participer à des discussions culturelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque point acheté dans cette compétence, vous pouvez choisir un domaine d'étude, comme les mathématiques, la littérature, l'histoire, le journalisme, la théologie ou tout autre domaine correspondant à une éducation académique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Une fois par nuit, un personnage possédant Académie peut consacrer 10 minutes à l'étude. Il peut ensuite relancer un unique test statique (hors combat) sans dépenser de point de Volonté. Cette relance doit être directement liée à l'un des domaines d'étude qu'il possède."
+        },
+        {
+          "type": "heading_2",
+          "text": "Expérience de la rue"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous connaissez parfaitement les quartiers difficiles, les réseaux criminels et les règles non écrites de la rue. Vous savez où trouver des informations, comment éviter les ennuis ou, au contraire, comment entrer en contact avec les bonnes personnes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous reconnaissez les graffitis de territoire, les codes des gangs et les signes d'appartenance aux différentes organisations criminelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Tant que vous vous déplacez dans une zone urbaine densément peuplée, il est impossible de vous suivre sans recourir à un pouvoir surnaturel spécifiquement conçu pour le pistage."
+        },
+        {
+          "type": "heading_2",
+          "text": "Furtivité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se déplacer sans bruit, rester discret et passer inaperçu demandent autant d'entraînement physique que de discipline mentale. Vous savez utiliser le décor, détourner l'attention et profiter du bon moment pour vous fondre dans votre environnement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Même sans recourir à des pouvoirs surnaturels, vous savez vous rendre presque invisible au milieu de la foule."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Tant que vous disposez de quelques accessoires adaptés, vous pouvez automatiquement vous faire passer pour un type précis de personne : policier, serveur, agent de sécurité, danseur dans une boîte de nuit, etc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette capacité ne modifie pas votre apparence et ne trompera pas les personnes qui savent déjà qui vous êtes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Informatique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous maîtrisez l'utilisation et la programmation des ordinateurs ainsi que des appareils électroniques modernes. Vous comprenez le fonctionnement d'Internet, des réseaux, de l'administration de sites web, de la recherche de données et du piratage informatique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sans cette compétence, un personnage sait tout au plus allumer ou éteindre un appareil électronique. Il peut répondre à un téléphone ou enregistrer un numéro, mais ne sait pas utiliser les applications ou les fonctionnalités avancées d'un ordinateur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le monde moderne, cette compétence est presque universelle, mais pour un vampire ancien ou particulièrement isolé, l'informatique demeure une forme de sorcellerie incompréhensible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Un personnage possédant Informatique reçoit 1 action d'inter-partie supplémentaire entre chaque partie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette action peut être utilisée normalement ou servir à annuler ou observer une action d'inter-partie effectuée par un autre personnage. Elle représente la capacité du personnage à effectuer des recherches, infiltrer des réseaux d'information ou perturber les systèmes informatiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucun personnage ne peut être réduit à moins d'une action d'inter-partie entre deux parties."
+        },
+        {
+          "type": "heading_2",
+          "text": "Intimidation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous savez inspirer la peur. Que cela repose sur votre réputation, votre carrure, votre violence ou votre capacité à exploiter les peurs de votre interlocuteur, vous savez contraindre les autres par la menace."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Un personnage possédant Intimidation est naturellement effrayant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les PNJ standards (y compris les Serviteurs) de niveau 1 ou 2 refusent d'attaquer un personnage possédant cette compétence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage adopte une attitude agressive envers eux, ils prennent la fuite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet effet ne fonctionne pas contre les PNJ dénués d'esprit, comme les zombies ou les créatures animées par la magie."
+        },
+        {
+          "type": "heading_2",
+          "text": "Investigation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes formé à l'art de l'enquête. Vous savez remarquer les détails, relier des indices entre eux et découvrir des preuves que la plupart des gens ignoreraient."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : En consacrant une action standard, vous pouvez examiner visuellement un individu situé à moins de trois pas."
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant trois actions standard, vous pouvez fouiller une pièce ou une petite zone."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous détectez automatiquement :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les armes portées ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les explosifs ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les objets dissimulés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les objets possédant la propriété Dissimulable ne sont automatiquement découverts qu'après une fouille physique de la cible."
+        },
+        {
+          "type": "heading_2",
+          "text": "Linguistique"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des individus ne parlent couramment que leur langue maternelle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sans Linguistique, un personnage est incapable de communiquer dans une autre langue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Pour chaque point de Linguistique, y compris le premier, votre personnage maîtrise couramment une langue supplémentaire en plus de sa langue natale."
+        },
+        {
+          "type": "heading_2",
+          "text": "Médecine"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une solide connaissance de l'anatomie, des maladies, des traitements médicaux et des soins."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les règles concernant les soins apportés aux mortels, consultez le Chapitre VI : Systèmes de base."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : En consacrant une action d'inter-partie à l'étude du sang, des cheveux, de la peau ou des restes (y compris des cendres) d'une créature dans une installation médicale appropriée, vous pouvez déterminer sa nature surnaturelle, le cas échéant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage connaît les vampires, il peut également identifier leur clan et leur Génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec le matériel adéquat, vous pouvez conserver du sang — y compris du sang vampirique — pendant un mois par point de Médecine."
+        },
+        {
+          "type": "heading_2",
+          "text": "Mêlée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes entraîné au combat avec des armes de corps à corps. Cette compétence couvre aussi bien les épées et les lances que les armes exotiques d'arts martiaux, ainsi que les armes spécifiquement utilisées contre les vampires, comme les pieux en bois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Les personnages possédant Mêlée peuvent utiliser les manœuvres de combat appropriées lorsqu'ils utilisent une arme de mêlée."
+        },
+        {
+          "type": "heading_2",
+          "text": "Occultisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous connaissez les traditions ésotériques, les croyances mystiques, les superstitions et les légendes. Cette compétence couvre des domaines tels que la Kabbale, le chamanisme, les croyances New Age, les recherches paranormales et bien d'autres savoirs occultes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle représente davantage une connaissance des mythes, des rumeurs et des traditions qu'une maîtrise de faits scientifiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : En utilisant une action standard, vous pouvez examiner visuellement une personne située à moins de trois pas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous détectez automatiquement :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les rituels actifs qui l'affectent ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les objets magiques qu'elle porte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence ne permet pas :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'identifier les effets exacts de ces rituels ou objets ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de savoir quels rituels le personnage connaît ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de déterminer s'il possède la Thaumaturgie ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de savoir si les rituels ont été lancés par quelqu'un d'autre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, un personnage possédant Occultisme peut acquérir l'amélioration Occulte de son Refuge."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette amélioration ne peut être appliquée qu'à son propre Refuge."
+        },
+        {
+          "type": "heading_2",
+          "text": "Représentation"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un artiste de scène. Vous savez captiver un public et maîtrisez les techniques nécessaires à votre discipline."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque achat de cette compétence nécessite de choisir une spécialité, par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Danse"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Comédie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Théâtre"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Éloquence"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chant"
+        },
+        {
+          "type": "paragraph",
+          "text": "ou toute autre discipline des arts du spectacle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence peut être achetée plusieurs fois avec des spécialisations différentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : En consacrant 2 actions d'inter-partie (une pour promouvoir votre représentation et une pour la réaliser), votre personnage augmente temporairement sa Réputation de +1 pendant un mois, jusqu'à un maximum de 5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce bonus fonctionne même si le personnage ne possède normalement aucun point dans l'Historique Réputation."
+        },
+        {
+          "type": "heading_2",
+          "text": "Science"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une formation scientifique approfondie et maîtrisez les méthodes d'observation, d'analyse et d'expérimentation propres à votre domaine. Les sciences modernes permettent de comprendre le monde grâce à la logique, à la recherche et à l'expérimentation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous achetez cette compétence, vous devez choisir un domaine de spécialisation, par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Biologie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chimie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Physique"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Métallurgie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Génie électrique"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Mathématiques"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Géologie"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Botanique"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette liste n'est pas exhaustive. Vous pouvez acheter Science plusieurs fois, chaque achat correspondant à une spécialisation différente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Un personnage possédant Science reçoit 1 action d'inter-partie supplémentaire, qui ne peut être utilisée que pour une activité directement liée à cette spécialisation scientifique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque spécialisation en Science accorde sa propre action d'inter-partie supplémentaire, mais chacune ne peut servir qu'à des activités relevant de son domaine."
+        },
+        {
+          "type": "heading_2",
+          "text": "Sécurité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous connaissez aussi bien les systèmes de sécurité modernes que les méthodes permettant de les contourner. Que vous soyez un ancien consultant en sécurité ou un cambrioleur expérimenté, vous savez protéger un lieu… ou y pénétrer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous maîtrisez les serrures, les alarmes, les protocoles de sécurité et les habitudes des organisations chargées de les faire respecter."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Crocheter une serrure ou subtiliser discrètement un petit objet devient une action simple au lieu d'une action standard."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant Sécurité bénéficient gratuitement de l'amélioration Sécurité de leur Refuge."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils peuvent également consacrer une action d'inter-partie afin d'accorder cette amélioration au Refuge d'un autre personnage pendant une année civile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour plus d'informations, consultez l'Historique Refuge."
+        },
+        {
+          "type": "heading_2",
+          "text": "Subterfuge"
+        },
+        {
+          "type": "paragraph",
+          "text": "Mensonges, manipulations, escroqueries et tromperies sont votre domaine. Vous savez masquer vos véritables intentions, détourner l'attention de vos interlocuteurs et les conduire exactement là où vous le souhaitez."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez être un illusionniste talentueux, un escroc professionnel, un maître de la manipulation verbale ou simplement quelqu'un qui sait toujours raconter l'histoire la plus convaincante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Une fois par partie, si votre personnage est surpris en train d'utiliser un pouvoir surnaturel, il peut faire croire qu'un autre personnage situé à moins de trois pas, choisi par vos soins, est le véritable utilisateur du pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet effet ne fonctionne pas avec les pouvoirs dont l'origine est immédiatement évidente, comme Projectile de Flammes  ou Regard de Terreur."
+        },
+        {
+          "type": "heading_2",
+          "text": "Survie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous connaissez les lois de la nature et savez vivre dans les environnements les plus hostiles. Vous savez trouver de la nourriture, de l'eau, un abri, vous orienter et survivre loin de toute civilisation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les épreuves vous ont appris à garder votre sang-froid, même dans les situations les plus désespérées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Une fois par heure, lorsque votre personnage est victime d'une Frénésie de Rage ou d'une Frénésie de Faim, vous pouvez choisir qu'il entre à la place en Frénésie de Peur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage cherchera alors à fuir le danger plutôt qu'à attaquer ses alliés ou les innocents qui l'entourent."
+        },
+        {
+          "type": "heading_2",
+          "text": "Vigilance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos sens sont particulièrement affûtés et vous remarquez facilement les détails inhabituels de votre environnement. Vous ressentez également instinctivement la présence du surnaturel, sous la forme d'un malaise, d'un frisson ou d'une étrange intuition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Système : Vigilance permet à un personnage de remarquer l'utilisation de pouvoirs surnaturels à proximité."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, lorsqu'un personnage possédant cette compétence est en torpeur, il conserve une certaine maîtrise de son esprit et peut utiliser les pouvoirs qui ne ciblent que lui-même."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage utilisant Télépathie peut communiquer avec lui, son esprit demeurant pleinement conscient malgré l'immobilité de son corps."
+        }
+      ]
+    },
+    {
+      "id": "39a88b48-e48e-80bf-bca1-ca4795f9d15b",
+      "slug": "etape-6-historique-de-depart",
+      "title": "Etape 6 : Historique de départ",
+      "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
+      "lastEditedTime": "2026-07-11T16:19:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 6
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Discipline de départ"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 6 : Historique de départ"
+        }
+      },
+      "content": []
+    },
+    {
+      "id": "39a88b48-e48e-8085-9075-ce60b2702622",
+      "slug": "etape-7-disciplines-de-depart",
+      "title": "Etape 7 : Disciplines de départ",
+      "notionUrl": "https://app.notion.com/p/Etape-7-Disciplines-de-d-part-39a88b48e48e80859075ce60b2702622",
+      "lastEditedTime": "2026-07-11T16:20:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 7
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Choix des Atouts et Handicaps"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 7 : Disciplines de départ"
+        }
+      },
+      "content": []
+    },
+    {
+      "id": "39a88b48-e48e-80e8-87c5-d20ed0ec822e",
+      "slug": "etape-8-choix-des-atouts-et-handicaps",
+      "title": "Etape 8 : Choix des Atouts et Handicaps",
+      "notionUrl": "https://app.notion.com/p/Etape-8-Choix-des-Atouts-et-Handicaps-39a88b48e48e80e887c5d20ed0ec822e",
+      "lastEditedTime": "2026-07-11T16:20:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 8
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Dépenses de l’XP"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 8 : Choix des Atouts et Handicaps"
+        }
+      },
+      "content": []
+    },
+    {
+      "id": "39a88b48-e48e-80da-8eef-c6df14decc26",
+      "slug": "etape-9-depense-de-l-xp",
+      "title": "Etape 9 : Dépense de l’XP",
+      "notionUrl": "https://app.notion.com/p/Etape-9-D-pense-de-l-XP-39a88b48e48e80da8eefc6df14decc26",
+      "lastEditedTime": "2026-07-11T16:21:00.000Z",
+      "properties": {
+        "Ordre": {
+          "type": "number",
+          "value": 9
+        },
+        "Bouton": {
+          "type": "text",
+          "value": "Finalisation"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Etape 9 : Dépense de l’XP"
+        }
+      },
+      "content": []
+    }
+  ]
+}

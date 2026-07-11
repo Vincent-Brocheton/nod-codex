@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { ArrowLeft } from "lucide-react";
 import ContentBlocks from "../ContentBlocks";
 import LoadingState from "../States/LoadingState";
@@ -28,6 +28,15 @@ export default function CreationWizardView({ wiki }) {
     const { loading } = computed;
 
     const [stepIndex, setStepIndex] = useState(0);
+
+    // L'étape change sans jamais toucher l'URL (voir plus haut), donc la
+    // remise à zéro du défilement basée sur la route (HomePage) ne se
+    // déclenche pas ici : il en faut une propre à ce composant.
+    useEffect(() => {
+        document.querySelectorAll(".detailPane, .pageArea").forEach((element) => {
+            element.scrollTop = 0;
+        });
+    }, [stepIndex]);
 
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
@@ -65,13 +74,6 @@ export default function CreationWizardView({ wiki }) {
         <div className="pageArea">
             <article className="detailPane wizardPane">
 
-                {hasPrevious ? (
-                    <button type="button" className="wizardBack" onClick={() => setStepIndex((index) => index - 1)}>
-                        <ArrowLeft aria-hidden="true" size={16} />
-                        Étape précédente
-                    </button>
-                ) : null}
-
                 <div className="wizardProgress">
                     <div className="wizardProgressBar" style={{ width: `${progress}%` }} />
                 </div>
@@ -85,10 +87,21 @@ export default function CreationWizardView({ wiki }) {
                     <ContentBlocks content={current.content} />
                 </div>
 
-                {hasNext ? (
-                    <button type="button" className="wizardNext" onClick={() => setStepIndex((index) => index + 1)}>
-                        {nextLabel}
-                    </button>
+                {hasPrevious || hasNext ? (
+                    <div className="wizardActions">
+                        {hasPrevious ? (
+                            <button type="button" className="wizardBack" onClick={() => setStepIndex((index) => index - 1)}>
+                                <ArrowLeft aria-hidden="true" size={16} />
+                                Étape précédente
+                            </button>
+                        ) : <span />}
+
+                        {hasNext ? (
+                            <button type="button" className="wizardNext" onClick={() => setStepIndex((index) => index + 1)}>
+                                {nextLabel}
+                            </button>
+                        ) : null}
+                    </div>
                 ) : null}
 
             </article>
