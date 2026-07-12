@@ -1,5 +1,6 @@
 import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
+import ItemFlags from "../ItemFlags";
 import DetailShell from "../DetailShell";
 
 // Le nom "Discplines" reprend une coquille du champ Notion : le libellé
@@ -24,6 +25,11 @@ export default function ClanDetailView({ wiki }) {
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
             {(activeItem) => (
                 <>
+                    <ItemFlags
+                        needsApproval={activeItem.properties?.Approbation?.value === true}
+                        full={activeItem.properties?.Complet?.value === true}
+                    />
+
                     <ContentBlocks content={activeItem.content} manifest={wiki.manifest} />
 
                     <RelatedGroups item={activeItem} groups={RELATED_GROUPS} manifest={wiki.manifest} />

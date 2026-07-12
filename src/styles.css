@@ -337,6 +337,50 @@ h1, h2, h3 {
   flex: 0 0 auto;
 }
 
+.itemFlags {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+  margin-left: auto;
+}
+
+.itemFlags .flagApproval {
+  color: var(--accent);
+}
+
+.itemFlags .flagFull {
+  color: var(--text-muted);
+}
+
+.itemFlagsDetail {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+
+.itemFlag {
+  align-items: center;
+  border-radius: 6px;
+  display: flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 8px;
+  padding: 10px 14px;
+  width: fit-content;
+}
+
+.itemFlagApproval {
+  background: var(--accent-tint);
+  border: 1px solid var(--accent);
+  color: var(--accent-strong);
+}
+
+.itemFlagFull {
+  background: var(--bg-card-hover);
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+}
+
 .empty {
   color: var(--text-muted);
   padding: 10px;

@@ -16,17 +16,26 @@ const CACHE_VERSION = 2;
  * par fiche, pour éviter de re-télécharger le contenu (blocs) des fiches
  * inchangées d'un sync à l'autre. Indexé par id de page Notion, avec le
  * `last_edited_time` observé au moment de la mise en cache : une entrée
- * n'est réutilisable que si ce timestamp n'a pas bougé depuis (il reflète
- * aussi bien un changement de propriété que de contenu). Absent, corrompu
- * ou d'une version périmée, on repart simplement d'un cache vide (resync
- * complet).
+ * n'est réutilisable que si ce timestamp n'a pas bougé depuis.
+ *
+ * `databaseLastEditedTime` (celui de la base, pas d'une fiche) sert à
+ * détecter un changement de schéma (propriété ajoutée/retirée/renommée) :
+ * ça ne touche le `last_edited_time` d'aucune fiche existante, alors que la
+ * forme des propriétés retournées par Notion pour CES fiches change bel et
+ * bien. Un cache dont la base a changé de schéma est donc ignoré en bloc
+ * (resync complet de la collection, une fois), plutôt que de resservir des
+ * fiches auxquelles il manquerait la nouvelle propriété.
+ *
+ * Absent, corrompu, d'une version périmée ou d'un schéma périmé, on repart
+ * simplement d'un cache vide.
  */
-export async function loadCache(collectionKey) {
+export async function loadCache(collectionKey, databaseLastEditedTime) {
   try {
     const raw = await readFile(path.join(cacheDir, `${collectionKey}.json`), "utf8");
     const parsed = JSON.parse(raw);
 
     if (parsed.version !== CACHE_VERSION) return new Map();
+    if (parsed.databaseLastEditedTime !== databaseLastEditedTime) return new Map();
 
     return new Map(Object.entries(parsed.entries));
   } catch {
@@ -34,12 +43,12 @@ export async function loadCache(collectionKey) {
   }
 }
 
-export async function saveCache(collectionKey, entries) {
+export async function saveCache(collectionKey, databaseLastEditedTime, entries) {
   await mkdir(cacheDir, { recursive: true });
 
   await writeFile(
     path.join(cacheDir, `${collectionKey}.json`),
-    JSON.stringify({ version: CACHE_VERSION, entries: Object.fromEntries(entries) }, null, 2),
+    JSON.stringify({ version: CACHE_VERSION, databaseLastEditedTime, entries: Object.fromEntries(entries) }, null, 2),
     "utf8"
   );
 }

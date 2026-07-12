@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import collectionNavPath from "../utils/collectionNavPath";
 import ItemModal from "./ItemModal";
+import ItemFlags from "./ItemFlags";
 
 /**
  * Regroupe des relations directes d'une fiche (ex. les Disciplines, Atouts
@@ -48,6 +49,7 @@ export default function RelatedGroups({ item, groups, manifest }) {
                                     <>
                                         <span>{ref.title}</span>
                                         {ref.cout ? <span className="powerLevel">{ref.cout}</span> : null}
+                                        <ItemFlags needsApproval={ref.approbation} full={ref.complet} compact />
                                     </>
                                 );
 

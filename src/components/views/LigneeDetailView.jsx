@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
+import ItemFlags from "../ItemFlags";
 import DetailShell from "../DetailShell";
 import collectionNavPath from "../../utils/collectionNavPath";
 
@@ -30,6 +31,11 @@ export default function LigneeDetailView({ wiki }) {
         <DetailShell wiki={wiki} backPath={backPath} backLabel="Retour au clan">
             {(item) => (
                 <>
+                    <ItemFlags
+                        needsApproval={item.properties?.Approbation?.value === true}
+                        full={item.properties?.Complet?.value === true}
+                    />
+
                     {clanRef ? (
                         <p className="metaLine">
                             Clan :{" "}

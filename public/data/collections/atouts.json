@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-07-12T16:34:33.201Z",
+  "generatedAt": "2026-07-12T17:26:16.573Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -150,7 +150,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -198,7 +200,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -329,7 +333,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -344,7 +350,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -904,13 +912,17 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -925,7 +937,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -965,7 +979,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -980,7 +996,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1028,7 +1046,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1076,7 +1096,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1134,7 +1156,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -1202,7 +1226,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1242,7 +1268,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1494,7 +1522,9 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1652,7 +1682,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1720,7 +1752,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1768,7 +1802,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1826,7 +1862,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1874,7 +1912,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1932,7 +1972,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2073,13 +2115,17 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2094,7 +2140,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2213,7 +2261,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2301,7 +2351,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2359,7 +2411,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2409,13 +2463,17 @@
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2430,7 +2488,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2470,7 +2530,9 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2794,7 +2856,9 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -2809,7 +2873,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -2857,7 +2923,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3008,7 +3076,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3076,7 +3146,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3142,7 +3214,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3190,7 +3264,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3393,7 +3469,9 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3543,13 +3621,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3564,7 +3646,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3604,7 +3688,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3672,7 +3758,9 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3830,7 +3918,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3878,7 +3968,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3958,7 +4050,9 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -4075,7 +4169,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4153,7 +4249,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4193,13 +4291,17 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4214,7 +4316,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4254,7 +4358,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4312,13 +4418,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4333,7 +4443,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4523,7 +4635,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4601,7 +4715,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4873,7 +4989,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5033,7 +5151,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5294,7 +5414,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5403,7 +5525,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5524,7 +5648,9 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -5600,7 +5726,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5658,7 +5786,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5726,7 +5856,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -5766,7 +5898,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5781,7 +5915,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5890,7 +6026,9 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5905,7 +6043,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5963,7 +6103,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6011,7 +6153,9 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6026,7 +6170,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6111,7 +6257,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6126,7 +6274,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6182,7 +6332,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6234,7 +6386,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6282,7 +6436,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6427,7 +6583,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6467,7 +6625,9 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -6482,7 +6642,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -6530,7 +6692,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6574,7 +6738,9 @@
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6589,7 +6755,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6629,7 +6797,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6644,7 +6814,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6684,7 +6856,9 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6699,7 +6873,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -6747,7 +6923,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6795,7 +6973,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6935,7 +7115,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7044,7 +7226,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7112,7 +7296,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7182,13 +7368,17 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7203,7 +7393,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7314,13 +7506,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7335,7 +7531,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7711,7 +7909,9 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7769,13 +7969,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7790,7 +7994,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7891,13 +8097,17 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7912,7 +8122,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7972,7 +8184,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8048,7 +8262,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8129,7 +8345,9 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8207,7 +8425,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8222,7 +8442,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8310,7 +8532,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8550,7 +8774,9 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9403,7 +9629,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9418,7 +9646,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9558,7 +9788,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9628,7 +9860,9 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9829,13 +10063,17 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9850,7 +10088,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -9939,7 +10179,9 @@
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10091,7 +10333,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10106,7 +10350,9 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10227,13 +10473,17 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10248,7 +10498,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10367,7 +10619,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10415,7 +10669,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10503,7 +10759,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10757,7 +11015,9 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10935,7 +11195,9 @@
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11128,13 +11390,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11149,7 +11415,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11189,13 +11457,17 @@
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11210,7 +11482,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11502,7 +11776,9 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11893,7 +12169,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12039,7 +12317,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12189,7 +12469,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -12359,7 +12641,9 @@
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12531,7 +12815,9 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12678,7 +12964,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12910,7 +13198,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },

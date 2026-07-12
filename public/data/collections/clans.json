@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-12T16:34:33.198Z",
+  "generatedAt": "2026-07-12T17:26:16.571Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "assamites",
       "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-07-07T08:09:00.000Z",
+      "lastEditedTime": "2026-07-12T17:22:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -25,25 +25,35 @@
               "collectionKey": "handicaps",
               "slug": "double-caste",
               "title": "Double Caste",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "sang-dilue",
               "title": "Sang Dilué",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "intact",
               "title": "Intact",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Assassins"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
         },
         "Discplines": {
           "type": "relation",
@@ -52,19 +62,25 @@
               "collectionKey": "disciplines",
               "slug": "quietus",
               "title": "Quietus",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -75,49 +91,65 @@
               "collectionKey": "atouts",
               "slug": "reveil-de-l-acier",
               "title": "Réveil de l’Acier",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-sorcier",
               "title": "Lignée : Sorcier",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-vizir",
               "title": "Lignée : Vizir",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "le-chuchoteur-de-lame",
               "title": "Le chuchoteur de lame",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "doue-en-thaumaturgie",
               "title": "Doué en Thaumaturgie",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "benediction-de-bane",
               "title": "Bénédiction de Bane",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "toile-de-couteaux",
               "title": "Toile de couteaux",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -128,15 +160,23 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -538,25 +578,35 @@
               "collectionKey": "handicaps",
               "slug": "froidement-logique",
               "title": "Froidement logique",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "bete-lache",
               "title": "Bête lâche",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "incontrolable",
               "title": "Incontrôlable",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "La Racaille, Les Philosophes"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -565,19 +615,25 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
               "title": "Présence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
               "title": "Puissance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -588,49 +644,67 @@
               "collectionKey": "atouts",
               "slug": "colere-brulante",
               "title": "Colère Brûlante",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "fleau-d-alecto",
               "title": "Fléau d’Alecto",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-vrai-brujah",
               "title": "Lignée : Vrai-Brujah",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "fraternite",
               "title": "Fraternité",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "point-de-rupture",
               "title": "Point de Rupture",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "coeur-de-fer",
               "title": "Coeur de Fer",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "fervent-iconoclaste",
               "title": "Fervent Iconoclaste",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -848,25 +922,35 @@
               "collectionKey": "handicaps",
               "slug": "analphabete-des-disciplines",
               "title": "Analphabète des Disciplines",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "malchance",
               "title": "Malchance",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "aura-noircie",
               "title": "Aura noircie",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Rebuts"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -875,49 +959,65 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
               "title": "Présence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
               "title": "Puissance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -928,43 +1028,59 @@
               "collectionKey": "atouts",
               "slug": "propice",
               "title": "Propice",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sang-eclipse",
               "title": "Sang éclipsé",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "vestige-de-la-grandeur",
               "title": "Vestige de la Grandeur",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "adaptatif",
               "title": "Adaptatif",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "fragment-restant",
               "title": "Fragment restant",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "incepteur",
               "title": "Incepteur",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1154,25 +1270,35 @@
               "collectionKey": "handicaps",
               "slug": "tous-mes-amis-sont-morts",
               "title": "Tous mes amis sont morts",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "inepte-du-voile",
               "title": "Inepte du Voile",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "marcheur-de-l-ombre",
               "title": "Marcheur de l’Ombre",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Nécromanciens"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -1181,19 +1307,25 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
               "title": "Puissance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
-              "slug": "voie-de-la-sepulture",
-              "title": "Voie de la Sépulture",
-              "cout": null
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1204,49 +1336,67 @@
               "collectionKey": "atouts",
               "slug": "competent",
               "title": "Compétent",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "expertise-necromantique",
               "title": "Expertise nécromantique",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-premascine",
               "title": "Lignée : Premascine",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "serviteur-fantome",
               "title": "Serviteur Fantôme",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "maitre-ritualiste-giovanni",
               "title": "Maître ritualiste (Giovanni)",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "courtier-en-puissance",
               "title": "Courtier en puissance",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "economie-des-ames",
               "title": "Economie des Âmes",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1447,6 +1597,10 @@
           "type": "text",
           "value": ""
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Discplines": {
           "type": "relation",
           "value": []
@@ -1462,27 +1616,39 @@
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
               "title": "Voie de l’Eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
               "title": "Voie du Vent",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
               "title": "Voie de la Terre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1530,25 +1696,35 @@
               "collectionKey": "handicaps",
               "slug": "reflet-de-mort",
               "title": "Reflet de mort",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "insubordination",
               "title": "Insubordination",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "mepris-de-mangha",
               "title": "Mépris de Mangha",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Magistrats"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -1557,19 +1733,25 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
               "title": "Puissance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "obtenebration",
               "title": "Obténébration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1580,43 +1762,59 @@
               "collectionKey": "atouts",
               "slug": "lignee-kiasyd",
               "title": "Lignée : Kiasyd",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "parcours-l-abysse",
               "title": "Parcours l’Abysse",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "ne-dans-l-ombre",
               "title": "Né dans l’ombre",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "visage-angelique",
               "title": "Visage Angélique",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "elite-sociale",
               "title": "Elite sociale",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "confesseur-de-confiance",
               "title": "Confesseur de confiance",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1838,25 +2036,35 @@
               "collectionKey": "handicaps",
               "slug": "fetiche-alimentaire",
               "title": "Fétiche alimentaire",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "fan-numero-un",
               "title": "Fan numéro un",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "surstimule",
               "title": "Surstimulé",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": ""
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -1865,19 +2073,25 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1888,49 +2102,65 @@
               "collectionKey": "atouts",
               "slug": "conscience-etendue",
               "title": "Conscience Etendue",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "esprit-labyrinthique",
               "title": "Esprit Labyrinthique",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-ananke",
               "title": "Lignée : Ananke",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-chevalier-de-la-lune",
               "title": "Lignée : Chevalier de la Lune",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sophistique",
               "title": "Sophistiqué",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "force-de-la-folie",
               "title": "Force de la folie",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "malkav-time",
               "title": "Malkav Time",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "methode-de-la-folie",
               "title": "Méthode de la folie",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1941,15 +2171,23 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2169,25 +2407,35 @@
               "collectionKey": "handicaps",
               "slug": "anosomie",
               "title": "Anosomie",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "sang-fetide",
               "title": "Sang fétide",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "infestation-parasitaire",
               "title": "Infestation parasitaire",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Rats des Égouts"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -2196,19 +2444,25 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "puissance",
               "title": "Puissance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2219,49 +2473,67 @@
               "collectionKey": "atouts",
               "slug": "adaptation-non-naturel",
               "title": "Adaptation non naturel",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "avantage-cache",
               "title": "Avantage caché",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "l-oeil-aveugle",
               "title": "L’Oeil Aveugle",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sang-maleable",
               "title": "Sang Maléable",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sous-les-radars",
               "title": "Sous les Radars",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "douloureusement-timide",
               "title": "Douloureusement timide",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "compagnon-ardent",
               "title": "Compagnon Ardent",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2479,25 +2751,35 @@
               "collectionKey": "handicaps",
               "slug": "bas-et-sale",
               "title": "Bas et sale",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "temperament-de-tempete",
               "title": "Tempérament de tempête",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "physiologie-serpentine",
               "title": "Physiologie serpentine",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Serpents"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -2506,19 +2788,25 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
               "title": "Présence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "serpentis",
               "title": "Serpentis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2529,49 +2817,65 @@
               "collectionKey": "atouts",
               "slug": "culte-personnel",
               "title": "Culte Personnel",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-tlacique",
               "title": "Lignée : Tlacique",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-vipere",
               "title": "Lignée : Vipère",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sang-addictif",
               "title": "Sang addictif",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sorcellerie-setite",
               "title": "Sorcellerie Setite",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "fleau-des-eons",
               "title": "Fléau des éons",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "mue-du-serpent",
               "title": "Mue du serpent",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "maitre-vodou",
               "title": "Maître Vodou",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2582,15 +2886,23 @@
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2898,25 +3210,35 @@
               "collectionKey": "handicaps",
               "slug": "sans-art",
               "title": "Sans art",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "obsession",
               "title": "Obsession",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "art-vivant",
               "title": "Art vivant",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Le clan de la Rose"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -2925,19 +3247,25 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
               "title": "Présence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2948,55 +3276,75 @@
               "collectionKey": "atouts",
               "slug": "benediction-de-l-artiste",
               "title": "Bénédiction de l’Artiste",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-ihtarri",
               "title": "Lignée : Ihtarri",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-volgirre",
               "title": "Lignée : Volgirre",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "beaute-immorale",
               "title": "Beauté immorale",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "couleurs-plus-vives",
               "title": "Couleurs plus vives",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "influence-abstente",
               "title": "Influence Abstente",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "rhapsodie-ephemere",
               "title": "Rhapsodie éphémère",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "la-grace-du-danseur",
               "title": "La grâce du Danseur",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3256,25 +3604,35 @@
               "collectionKey": "handicaps",
               "slug": "compostantes-de-sorts",
               "title": "Compostantes de sorts",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "pedant",
               "title": "Pédant",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "deux-fois-lie-au-conseil",
               "title": "Deux fois lié au Conseil",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": ""
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -3283,19 +3641,25 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3306,49 +3670,67 @@
               "collectionKey": "atouts",
               "slug": "contre-magie",
               "title": "Contre-magie",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "expertise-thaumaturgique",
               "title": "Expertise Thaumaturgique",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-telyav",
               "title": "Lignée : Telyav",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "talisman",
               "title": "Talisman",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "maitre-ritualiste-tremere",
               "title": "Maître Ritualiste (Tremere)",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "magie-rapide",
               "title": "Magie rapide",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lanceur-de-sort",
               "title": "Lanceur de sort",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3618,25 +4000,35 @@
               "collectionKey": "handicaps",
               "slug": "humble-jardinier",
               "title": "Humble jardinier",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "faiblesse-de-famille-revenant",
               "title": "Faiblesse de famille revenant",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "tissu-cicatriciel",
               "title": "Tissu cicatriciel",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Fiélons"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -3645,19 +4037,25 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "vicissitude",
               "title": "Vicissitude",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3668,49 +4066,67 @@
               "collectionKey": "atouts",
               "slug": "lignee-carpathien",
               "title": "Lignée : Carpathien",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-koldun",
               "title": "Lignée : Koldun",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "sang-du-tzimices",
               "title": "Sang du Tzimices",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "szlachta",
               "title": "Szlachta",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "comportement-polymorphe",
               "title": "Comportement polymorphe",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "la-vacuite-de-la-foi",
               "title": "La vacuité de la foi",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "vozhd",
               "title": "Vozhd",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3980,19 +4396,27 @@
               "collectionKey": "handicaps",
               "slug": "non-serviram",
               "title": "Non-serviram",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "handicaps",
               "slug": "suiveur",
               "title": "Suiveur",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Surnoms": {
           "type": "text",
           "value": "Les Rois"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -4001,19 +4425,25 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "presence",
               "title": "Présence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4024,43 +4454,57 @@
               "collectionKey": "atouts",
               "slug": "aura-de-commandement",
               "title": "Aura de commandement",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "lignee-croise",
               "title": "Lignée : Croisé",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "parangon",
               "title": "Parangon",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "allure-royale",
               "title": "Allure Royale",
-              "cout": "4"
+              "cout": "4",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "le-devoir-des-rois",
               "title": "Le devoir des rois",
-              "cout": "1"
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "royaute-ventrue",
               "title": "Royauté Ventrue",
-              "cout": "2"
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "atouts",
               "slug": "primaute-du-sang",
               "title": "Primauté du sang",
-              "cout": "3"
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4071,9 +4515,15 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",

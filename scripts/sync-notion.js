@@ -159,11 +159,15 @@ function logSyncSummary(label, { added, modified, unchangedCount, removed }) {
 async function fetchCollectionItems(collection) {
   const databaseId = process.env[collection.envVar];
 
-  const [database, pages, cache] = await Promise.all([
+  const [database, pages] = await Promise.all([
     fetchDatabase(databaseId),
     queryDatabase(databaseId),
-    loadCache(collection.key),
   ]);
+
+  // Chargé seulement une fois la base connue : un changement de schéma
+  // (propriété ajoutée/retirée) invalide tout le cache de la collection,
+  // voir `loadCache`.
+  const cache = await loadCache(collection.key, database.last_edited_time);
 
   // Chaque fiche retombe dans une des trois catégories ci-dessous, pour
   // pouvoir afficher précisément ce qui a été retéléchargé (et donc ce qui
@@ -190,7 +194,7 @@ async function fetchCollectionItems(collection) {
   // place plus tard dans `main`) : le cache doit garder la forme brute de
   // `normalizePage`, seule réutilisable telle quelle au prochain sync.
   const nextCache = pages.map((page, index) => [page.id, { lastEditedTime: page.last_edited_time, item: items[index] }]);
-  await saveCache(collection.key, nextCache);
+  await saveCache(collection.key, database.last_edited_time, nextCache);
 
   const titleById = new Map(pages.map((page, index) => [page.id, items[index].title]));
   const removedTitles = [...cache.keys()]
@@ -230,8 +234,11 @@ function buildRegistry(fetched) {
         slug: item.slug,
         title: item.title,
         // Repris directement dans les fiches liées (ex. Atouts/Handicaps
-        // d'un Clan) pour l'afficher sans avoir à recharger la fiche cible.
+        // d'un Clan, Lignées d'un Clan) pour les afficher sans avoir à
+        // recharger la fiche cible.
         cout: item.properties?.["Coût"]?.value || null,
+        approbation: item.properties?.Approbation?.value === true,
+        complet: item.properties?.Complet?.value === true,
       });
     }
   }

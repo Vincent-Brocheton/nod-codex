@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-12T16:34:33.189Z",
+  "generatedAt": "2026-07-12T17:26:16.562Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -45,7 +45,10 @@
       "5 tours",
       "10 x Niv Occultisme minutes",
       "30 minutes",
-      "Dépend de l'effet choisi"
+      "Dépend de l'effet choisi",
+      "Jusqu'a désctruction ou choix de les détruire",
+      "Jusqu'a annulation volontaire",
+      "Jusqu'a ne plus pouvoir se nourrir ou destruction"
     ]
   },
   "items": [
@@ -79,7 +82,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-technomancie",
               "title": "Voie de la Technomancie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -185,7 +190,9 @@
               "collectionKey": "disciplines",
               "slug": "chimerie",
               "title": "Chimerie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -291,7 +298,9 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -397,7 +406,9 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -523,7 +534,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-technomancie",
               "title": "Voie de la Technomancie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -629,7 +642,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
               "title": "Voie de la Maîtrise Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -755,7 +770,9 @@
               "collectionKey": "disciplines",
               "slug": "chimerie",
               "title": "Chimerie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -861,7 +878,9 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1057,7 +1076,9 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1352,6 +1373,154 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80dd-8722-e87dd2aa6568",
+      "slug": "assimilation",
+      "title": "Assimilation",
+      "notionUrl": "https://app.notion.com/p/Assimilation-39b88b48e48e80dd8722e87dd2aa6568",
+      "lastEditedTime": "2026-07-12T16:48:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Assimilation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
+          "spans": [
+            {
+              "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
+          "spans": [
+            {
+              "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
+          "spans": [
+            {
+              "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
+          "spans": [
+            {
+              "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
+          "spans": [
+            {
+              "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-800f-93c4-ff4bfde9ca4e",
       "slug": "assuetude",
       "title": "Assuétude",
@@ -1360,19 +1529,19 @@
       "properties": {
         "Focus": {
           "type": "select",
-          "value": ""
+          "value": "Astuce"
         },
         "Type d'action": {
           "type": "select",
-          "value": ""
+          "value": "Action Standard"
         },
         "Durée": {
           "type": "select",
-          "value": ""
+          "value": "Jusqu'a la fin de la nuit"
         },
         "Niveau": {
           "type": "number",
-          "value": null
+          "value": 5
         },
         "Discipline": {
           "type": "relation",
@@ -1381,13 +1550,15 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-corruption",
               "title": "Voie de la Corruption",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
         "Couts en points de sang": {
           "type": "number",
-          "value": null
+          "value": 1
         },
         "Name": {
           "type": "text",
@@ -1501,6 +1672,184 @@
           "spans": [
             {
               "text": "La victime ne peut pas tenter de vous blesser tant que ce pouvoir est actif.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-802a-afad-da914c56b900",
+      "slug": "attirail-mortel",
+      "title": "Attirail Mortel",
+      "notionUrl": "https://app.notion.com/p/Attirail-Mortel-39b88b48e48e802aafadda914c56b900",
+      "lastEditedTime": "2026-07-12T16:45:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Attirail Mortel"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En tant que nécromancien compétent, vous pouvez manipuler les énergies tirées d’un fantôme pour altérer les objets communs du monde éveillé. Une fois lié à leur nouvelle prison, le spectre n’a pas d’autre choix que de remplir la fonction voulue. Avec cette capacité, vous pouvez punir ou récompenser les fantômes tout en utilisant leur énergie inhérente pour remplir votre propre agenda.",
+          "spans": [
+            {
+              "text": "En tant que nécromancien compétent, vous pouvez manipuler les énergies tirées d’un fantôme pour altérer les objets communs du monde éveillé. Une fois lié à leur nouvelle prison, le spectre n’a pas d’autre choix que de remplir la fonction voulue. Avec cette capacité, vous pouvez punir ou récompenser les fantômes tout en utilisant leur énergie inhérente pour remplir votre propre agenda.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un fois que vous avez appris ce pouvoir, vous pouvez créer un attirail mortel, emprisonnant le fantôme dans une pièce d’équipement. En dépensant 1 point de sang et une action standard, vous devez cibler un fantôme à proximité. Si vous réussissez le challenge en opposition, le fantôme devient lié à l’objet et son corpus est absorbé. Seulement les PNJ de grade 4 ou inférieur peuvent être lié avec ce pouvoir. Le conteur peut évidemment décider que ça ne fonctionne pas sur certains fantômes particuliers.",
+          "spans": [
+            {
+              "text": "Un fois que vous avez appris ce pouvoir, vous pouvez créer un attirail mortel, emprisonnant le fantôme dans une pièce d’équipement. En dépensant 1 point de sang et une action standard, vous devez cibler un fantôme à proximité. Si vous réussissez le challenge en opposition, le fantôme devient lié à l’objet et son corpus est absorbé. Seulement les PNJ de grade 4 ou inférieur peuvent être lié avec ce pouvoir. Le conteur peut évidemment décider que ça ne fonctionne pas sur certains fantômes particuliers.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez l’un des effets suivants :",
+          "spans": [
+            {
+              "text": "Choisissez l’un des effets suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chargé: Un fantôme lié à cet objet l’infuse de sa propre puissance spectrale, lui conférant la vie sans intervention extérieure. L’objet ne nécessite pas de batterie, de fuel, d’essence, d’électricité ou toute autre forme de carburant normalement nécessaire pour fonctionner. Le fantôme peut alimenter des petits appareils comme des voitures télécommandées ou des jukeboxes, ou bien des appareils plus larges comme des véhicules ou des moulins.",
+          "spans": [
+            {
+              "text": "Chargé: Un fantôme lié à cet objet l’infuse de sa propre puissance spectrale, lui conférant la vie sans intervention extérieure. L’objet ne nécessite pas de batterie, de fuel, d’essence, d’électricité ou toute autre forme de carburant normalement nécessaire pour fonctionner. Le fantôme peut alimenter des petits appareils comme des voitures télécommandées ou des jukeboxes, ou bien des appareils plus larges comme des véhicules ou des moulins.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Dysfonctionnement :Le fantôme lié à l’objet s’agite à l’intérieur de celui-ci, causant des pannes et des coupures menant à un arrêt inexplicable. Pour la durée du lien, l’objet cesse de fonctionner. Les ordinateurs ne s’allument plus, les voitures ne démarrent pas, les pacemakers s’éteignent.",
+          "spans": [
+            {
+              "text": "Dysfonctionnement :Le fantôme lié à l’objet s’agite à l’intérieur de celui-ci, causant des pannes et des coupures menant à un arrêt inexplicable. Pour la durée du lien, l’objet cesse de fonctionner. Les ordinateurs ne s’allument plus, les voitures ne démarrent pas, les pacemakers s’éteignent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Réquisition : le fantôme lié à l’objet cherche à accomplir un ordre spécifique afin de pouvoir en être libéré. Tant que le fantôme a le contrôle de l’objet, il peut agir de manière qui pourrait compromettre l’objet afin de répondre à l’ordre. Par exemple, un fantôme lié à un pistolet à qui l’on a commandé de tirer sur un vampire spécifique va tenter de le faire aussitôt que l’opportunité se présentera, que l’utilisateur le veuille ou non. Une fois que le fantôme a agit, il est libéré. Le conteur détermine comment les fantômes liés de cette manière agissent.",
+          "spans": [
+            {
+              "text": "Réquisition : le fantôme lié à l’objet cherche à accomplir un ordre spécifique afin de pouvoir en être libéré. Tant que le fantôme a le contrôle de l’objet, il peut agir de manière qui pourrait compromettre l’objet afin de répondre à l’ordre. Par exemple, un fantôme lié à un pistolet à qui l’on a commandé de tirer sur un vampire spécifique va tenter de le faire aussitôt que l’opportunité se présentera, que l’utilisateur le veuille ou non. Une fois que le fantôme a agit, il est libéré. Le conteur détermine comment les fantômes liés de cette manière agissent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Résistant : l’objet est magiquement amélioré pour être plus difficile à briser. L’objet ne peut donc être détruit que de manière surnaturelle - comme avec un autre objet magique ou l’utilisation d’une discipline appropriée.",
+          "spans": [
+            {
+              "text": "Résistant : l’objet est magiquement amélioré pour être plus difficile à briser. L’objet ne peut donc être détruit que de manière surnaturelle - comme avec un autre objet magique ou l’utilisation d’une discipline appropriée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Symbiose : l’objet est magiquement amélioré par un fantôme qui en connaît l’usage. Il donne un bonus de +1 à votre groupement de test quand il est utilisé dans cet objectif. Ce bonus ne fonctionne pas en combat. Par exemple, un jeu de rossignols vous donne +1 à votre groupement de Larcin/Sécurité pour ouvrir une serrure mais une épée qui contient un fantôme n’augmentera pas le groupement de Mélée.",
+          "spans": [
+            {
+              "text": "Symbiose : l’objet est magiquement amélioré par un fantôme qui en connaît l’usage. Il donne un bonus de +1 à votre groupement de test quand il est utilisé dans cet objectif. Ce bonus ne fonctionne pas en combat. Par exemple, un jeu de rossignols vous donne +1 à votre groupement de Larcin/Sécurité pour ouvrir une serrure mais une épée qui contient un fantôme n’augmentera pas le groupement de Mélée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A moins d’avoir le focus, vous ne pouvez avoir qu’un attirail mortel par point dans votre voie (5 maximum donc). Créer des nouveaux attirails libèrera les fantômes emprisonnés précédemment, en commençant par le plus ancien. Vous pouvez utiliser les attirails créés par n’importe quel nécromancien ayant cette voie. Si quelqu’un veut utiliser un attirail sans avoir de point dans la voie, il ne tirera aucun avantage à son usage (comme pour le pouvoir Réceptacle Obscur)",
+          "spans": [
+            {
+              "text": "A moins d’avoir le focus, vous ne pouvez avoir qu’un attirail mortel par point dans votre voie (5 maximum donc). Créer des nouveaux attirails libèrera les fantômes emprisonnés précédemment, en commençant par le plus ancien. Vous pouvez utiliser les attirails créés par n’importe quel nécromancien ayant cette voie. Si quelqu’un veut utiliser un attirail sans avoir de point dans la voie, il ne tirera aucun avantage à son usage (comme pour le pouvoir Réceptacle Obscur)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez avoir deux fois votre niveau dans la voie en réceptacle (pour un total de 10 donc).",
+          "spans": [
+            {
+              "text": "Vous pouvez avoir deux fois votre niveau dans la voie en réceptacle (pour un total de 10 donc).",
               "bold": false
             }
           ]
@@ -1636,7 +1985,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1762,7 +2113,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1987,7 +2340,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2192,7 +2547,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2318,7 +2675,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-verte",
               "title": "Voie Verte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2474,7 +2833,9 @@
               "collectionKey": "disciplines",
               "slug": "daemonium",
               "title": "Daemonium",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2630,7 +2991,9 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2736,7 +3099,9 @@
               "collectionKey": "disciplines",
               "slug": "daemonium",
               "title": "Daemonium",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2882,7 +3247,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-corruption",
               "title": "Voie de la Corruption",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3022,7 +3389,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-esprit",
               "title": "Voie de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3267,7 +3636,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-technomancie",
               "title": "Voie de la Technomancie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3373,7 +3744,9 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3529,7 +3902,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-corruption",
               "title": "Voie de la Corruption",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3675,7 +4050,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-puissance-de-neptune",
               "title": "Voie de la Puissance de Neptune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3822,6 +4199,262 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8049-b414-e416b538dba2",
+      "slug": "detonation-d-ame",
+      "title": "Détonation d’âme",
+      "notionUrl": "https://app.notion.com/p/D-tonation-d-me-39b88b48e48e8049b414e416b538dba2",
+      "lastEditedTime": "2026-07-12T16:47:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Détonation d’âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le processus de création d’un Réceptacle obscur déforme le corpus d’un fantôme en l’amenant à la limite de la Tourmente. Détruire un réceptacle de la bonne manière permet de libérer l’énergie de la Tourmente dans une déflagration d’entropie pure.",
+          "spans": [
+            {
+              "text": "Le processus de création d’un Réceptacle obscur déforme le corpus d’un fantôme en l’amenant à la limite de la Tourmente. Détruire un réceptacle de la bonne manière permet de libérer l’énergie de la Tourmente dans une déflagration d’entropie pure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un fois appris, ce pouvoir permet d'augmenter votre Réceptacle Obscur, les transformant en de puissants projectiles. Dépensez une action standard pour infuser un objet avec de la magie noire et le lancer à une cible dans les 10 pas. Pour ce faire, faites un challenge en opposition en utilisant Physique+Athlétisme contre Physique+Esquive de la cible. Si vous réussissez, la cible est touchée par le réceptacle. A l’impact, un petit vortex s’ouvre et plonge l’objet et le fantôme dans l’Oblivion. La cible subit 3 points de dégâts normaux et perd 1 point de Volonté.",
+          "spans": [
+            {
+              "text": "Un fois appris, ce pouvoir permet d'augmenter votre Réceptacle Obscur, les transformant en de puissants projectiles. Dépensez une action standard pour infuser un objet avec de la magie noire et le lancer à une cible dans les 10 pas. Pour ce faire, faites un challenge en opposition en utilisant Physique+Athlétisme contre Physique+Esquive de la cible. Si vous réussissez, la cible est touchée par le réceptacle. A l’impact, un petit vortex s’ouvre et plonge l’objet et le fantôme dans l’Oblivion. La cible subit 3 points de dégâts normaux et perd 1 point de Volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser ce pouvoir durant les tours de Célérité. Utiliser ce pouvoir détruit le réceptacle, que vous ayez ou non réussi le challenge. Les objets détruits de cette manière ne prodiguent plus aucun des bénéfices du Réceptacle obscur.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser ce pouvoir durant les tours de Célérité. Utiliser ce pouvoir détruit le réceptacle, que vous ayez ou non réussi le challenge. Les objets détruits de cette manière ne prodiguent plus aucun des bénéfices du Réceptacle obscur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cible perd un point de Volonté et subit 4 dégâts au lieu de 3.",
+          "spans": [
+            {
+              "text": "Votre cible perd un point de Volonté et subit 4 dégâts au lieu de 3.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous échouez le challenge en opposition lorsque vous lancez le réceptacle mais que vous réussissez ou faite une égalité à l’un des test (par exemple vous gagnez le premier mais la cible retest et gagne le second), la cible est hébétée par le réceptacle. Elle ne prend aucun dégât mais perd malgré tout un point de Volonté.",
+          "spans": [
+            {
+              "text": "Si vous échouez le challenge en opposition lorsque vous lancez le réceptacle mais que vous réussissez ou faite une égalité à l’un des test (par exemple vous gagnez le premier mais la cible retest et gagne le second), la cible est hébétée par le réceptacle. Elle ne prend aucun dégât mais perd malgré tout un point de Volonté.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8043-8219-fc0060bca775",
+      "slug": "detruire-la-coquille",
+      "title": "Détruire la Coquille",
+      "notionUrl": "https://app.notion.com/p/D-truire-la-Coquille-39b88b48e48e80438219fc0060bca775",
+      "lastEditedTime": "2026-07-12T16:38:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-ossements",
+              "title": "Voie des Ossements",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Détruire la Coquille"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les philosophes disent qu'il est plus facile de détruire que de créer. Vos pouvoirs de nécromancie prouvent que cet adage est vrai. En ciblant un corps animé, vous pouvez couper les fils qui le maintiennent, dissipant son élan.",
+          "spans": [
+            {
+              "text": "Les philosophes disent qu'il est plus facile de détruire que de créer. Vos pouvoirs de nécromancie prouvent que cet adage est vrai. En ciblant un corps animé, vous pouvez couper les fils qui le maintiennent, dissipant son élan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de Sang et une action standard pour cibler un seul Vrai Corps, une partie d'un Vrai Corps ou un zombie dans votre ligne de vue, même s’il s'agit d'un zombie que vous ne contrôlez pas. Ce pouvoir détruit la cible complètement. Il ne reste même pas de cendres.",
+          "spans": [
+            {
+              "text": "Dépensez un point de Sang et une action standard pour cibler un seul Vrai Corps, une partie d'un Vrai Corps ou un zombie dans votre ligne de vue, même s’il s'agit d'un zombie que vous ne contrôlez pas. Ce pouvoir détruit la cible complètement. Il ne reste même pas de cendres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas utiliser ce pouvoir sur des vampires ou d'autres êtres surnaturels mais vous pouvez détruire le Vrai Corps qui est actuellement habité par un spectre ou par un autre vampire. Si vous le faites, vous forcez l'esprit à repartir dans les Terres des ombres ou leur corps d'origine et vous détruisez le Vrai Corps.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez pas utiliser ce pouvoir sur des vampires ou d'autres êtres surnaturels mais vous pouvez détruire le Vrai Corps qui est actuellement habité par un spectre ou par un autre vampire. Si vous le faites, vous forcez l'esprit à repartir dans les Terres des ombres ou leur corps d'origine et vous détruisez le Vrai Corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez Détruire la Coquille d'une action simple au lieu d'une action standard.",
+          "spans": [
+            {
+              "text": "Vous pouvez Détruire la Coquille d'une action simple au lieu d'une action standard.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8019-baaa-c6fb18cc7dee",
       "slug": "disparition-a-la-vue-de-l-esprit",
       "title": "Disparition à la vue de l'esprit",
@@ -3851,7 +4484,9 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3977,7 +4612,9 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4083,7 +4720,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-corruption",
               "title": "Voie de la Corruption",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4378,7 +5017,9 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4504,7 +5145,9 @@
               "collectionKey": "disciplines",
               "slug": "temporis",
               "title": "Temporis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4610,7 +5253,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4736,7 +5381,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4872,7 +5519,9 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5077,7 +5726,9 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5302,7 +5953,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-des-cendres",
               "title": "Voie des Cendres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5402,6 +6055,154 @@
           "spans": [
             {
               "text": "En plus de l'usage normal de ce pouvoir, vous pouvez dépenser un Point de Sang et votre action standard pour effectuer une transition dans le Monde des Ombres durant un battement de cil. Vous passez le tour complet suivant vous déplaçant à travers les Terres des Ombres et vous vous retrouvez ensuite dans n'importe quelle direction de votre emplacement d'origine et dans un rayon de 20 pas.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8016-85f3-c53a2808f11f",
+      "slug": "fleau",
+      "title": "Fléau",
+      "notionUrl": "https://app.notion.com/p/Fl-au-39b88b48e48e801685f3c53a2808f11f",
+      "lastEditedTime": "2026-07-12T16:52:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-mortis",
+              "title": "Voie de Mortis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fléau"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A travers la maîtrise de ce pouvoir, vous pouvez infecter le corps de votre victime, lui donnant une terrible maladie ressemblant à la peste noire.",
+          "spans": [
+            {
+              "text": "A travers la maîtrise de ce pouvoir, vous pouvez infecter le corps de votre victime, lui donnant une terrible maladie ressemblant à la peste noire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des bubons se forment sur sa peau, sa chair pourrie et se détache, une gangrène noire se répand à travers son corps.",
+          "spans": [
+            {
+              "text": "Des bubons se forment sur sa peau, sa chair pourrie et se détache, une gangrène noire se répand à travers son corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépenser un Point de Sang et une action standard en pointant dramatiquement du doigt votre cible puis faites un challenge opposé en utilisant le challenge de Nécromancie. Si vous réussissez, votre cible contracte une terrible maladie. La victime de Fléau subit aussitôt un point de dégât aggravé tandis que sa chair pourrie et tombe en plaque. Ce dégât ne peut être réduit ou annulé. Après une heure, votre cible doit faire un nouveau challenge statique utilisant ses attributs Physique + Survie contre votre Mental + Occulte. Étant donné qu'il s'agit d'un challenge statique, vous ne pouvez pas utiliser votre volonté pour re-test même si votre cible peut le faire. Si ce challenge est échoué, la cible prend un nouveau dégât aggravé qui ne peut être réduit ou annulé. Répéter ce process toutes les heures jusqu’à ce que la cible réussisse un challenge (indiquant que son corps a vaincu la maladie), meurt ou tombe en torpeur.",
+          "spans": [
+            {
+              "text": "Dépenser un Point de Sang et une action standard en pointant dramatiquement du doigt votre cible puis faites un challenge opposé en utilisant le challenge de Nécromancie. Si vous réussissez, votre cible contracte une terrible maladie. La victime de Fléau subit aussitôt un point de dégât aggravé tandis que sa chair pourrie et tombe en plaque. Ce dégât ne peut être réduit ou annulé. Après une heure, votre cible doit faire un nouveau challenge statique utilisant ses attributs Physique + Survie contre votre Mental + Occulte. Étant donné qu'il s'agit d'un challenge statique, vous ne pouvez pas utiliser votre volonté pour re-test même si votre cible peut le faire. Si ce challenge est échoué, la cible prend un nouveau dégât aggravé qui ne peut être réduit ou annulé. Répéter ce process toutes les heures jusqu’à ce que la cible réussisse un challenge (indiquant que son corps a vaincu la maladie), meurt ou tombe en torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnes vivantes peuvent mourir à cause de Fléau mais les vampires arrêtent de subir des dégâts de ce pouvoir une fois entré en torpeur. Si un vampire se met volontairement en torpeur avant de ne plus avoir de niveaux de santés, il continue de subir les dégâts même durant la torpeur jusqu'à ce qu'il n'ait plus de niveau de santé.",
+          "spans": [
+            {
+              "text": "Les personnes vivantes peuvent mourir à cause de Fléau mais les vampires arrêtent de subir des dégâts de ce pouvoir une fois entré en torpeur. Si un vampire se met volontairement en torpeur avant de ne plus avoir de niveaux de santés, il continue de subir les dégâts même durant la torpeur jusqu'à ce qu'il n'ait plus de niveau de santé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous activez ce pouvoir, la cible subie 2 points de dégâts aggravés au lieu d'un seul. De plus, la victime subit 2 points de dégâts aggravés à chaque fois qu'elle échoue à un des challenges statiques. Ces dégâts ne peuvent être prévenus ou annulés.",
+          "spans": [
+            {
+              "text": "Quand vous activez ce pouvoir, la cible subie 2 points de dégâts aggravés au lieu d'un seul. De plus, la victime subit 2 points de dégâts aggravés à chaque fois qu'elle échoue à un des challenges statiques. Ces dégâts ne peuvent être prévenus ou annulés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les challenges statiques pour éviter les dégâts supplémentaires doivent se faire toutes les 10 minutes et non toutes les heures.",
+          "spans": [
+            {
+              "text": "Les challenges statiques pour éviter les dégâts supplémentaires doivent se faire toutes les 10 minutes et non toutes les heures.",
               "bold": false
             }
           ]
@@ -5537,7 +6338,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5643,7 +6446,9 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5868,7 +6673,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
               "title": "Voie de la Maîtrise Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5984,7 +6791,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
               "title": "Voie de la Maîtrise Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6219,7 +7028,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6405,7 +7216,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6521,7 +7334,9 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6598,6 +7413,144 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-800d-9930-ec41dd157637",
+      "slug": "horde-putrefiee",
+      "title": "Horde Putréfiée",
+      "notionUrl": "https://app.notion.com/p/Horde-Putr-fi-e-39b88b48e48e800d9930ec41dd157637",
+      "lastEditedTime": "2026-07-12T16:39:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a désctruction ou choix de les détruire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-ossements",
+              "title": "Voie des Ossements",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Horde Putréfiée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En invoquant votre puissance nécromantique, vous infuser l’essence pure des Terres des Ombres dans un corps décédé, animant ainsi un tas de chair pourrissante. Aussi longtemps que le corps reste en un seul morceau, il peut ignorer les dégâts physiques - comme une jambe brisée ou voir malgré des orbites vides - afin d'obéir à vos volontés.",
+          "spans": [
+            {
+              "text": "En invoquant votre puissance nécromantique, vous infuser l’essence pure des Terres des Ombres dans un corps décédé, animant ainsi un tas de chair pourrissante. Aussi longtemps que le corps reste en un seul morceau, il peut ignorer les dégâts physiques - comme une jambe brisée ou voir malgré des orbites vides - afin d'obéir à vos volontés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de Sang et une action standard pour forcer un Vrai Corps à se lever et obéir à vos ordres verbaux. Vous devez posséder (et avoir avec vous) un corps convenable afin de le réanimer avec ce pouvoir. A n'importe quel moment, vous pouvez contrôler un maximum de zombies équivalent à votre niveau en Occulte. Chaque zombie doit être animé séparément.",
+          "spans": [
+            {
+              "text": "Dépensez un point de Sang et une action standard pour forcer un Vrai Corps à se lever et obéir à vos ordres verbaux. Vous devez posséder (et avoir avec vous) un corps convenable afin de le réanimer avec ce pouvoir. A n'importe quel moment, vous pouvez contrôler un maximum de zombies équivalent à votre niveau en Occulte. Chaque zombie doit être animé séparément.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez animer les corps directement à partir de leurs tombes et ce même si vous ne les voyez pas, tant que vous êtes sûr que des corps sont dans la zone, comme en utilisant Regard des Morts. Il peut falloir au zombie plusieurs tours pour vous atteindre, s’ils doivent creuser à travers la terre ou soulever leur caveau.",
+          "spans": [
+            {
+              "text": "Vous pouvez animer les corps directement à partir de leurs tombes et ce même si vous ne les voyez pas, tant que vous êtes sûr que des corps sont dans la zone, comme en utilisant Regard des Morts. Il peut falloir au zombie plusieurs tours pour vous atteindre, s’ils doivent creuser à travers la terre ou soulever leur caveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les créatures animées avec ce pouvoir sont des zombies, avec très peu de sapience et de créativité. Ils doivent obéir à toutes vos requêtes et suivre vos ordres. Ces zombies sont relativement permanents. Ils durent le temps que vous les relâcher ou qu'ils subissent un nombre de dégâts équivalent à leur niveau de PNJ Type.",
+          "spans": [
+            {
+              "text": "Les créatures animées avec ce pouvoir sont des zombies, avec très peu de sapience et de créativité. Ils doivent obéir à toutes vos requêtes et suivre vos ordres. Ces zombies sont relativement permanents. Ils durent le temps que vous les relâcher ou qu'ils subissent un nombre de dégâts équivalent à leur niveau de PNJ Type.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les zombies crées par Horde Putréfiée sont des PNJ Types de niveau 2. Chaque zombie obtient la spécialisation Puissance ou Force d'Âme ainsi que la spécialisation Mêlée ou Bagarre. Un zombie ne peut pas faire d'actions d'influences ou agir indépendamment mais il peut accomplir des tâches simples quand il n'est pas supervisé, comme nettoyer le sol ou attaquer toute personne qui entre dans une pièce.",
+          "spans": [
+            {
+              "text": "Les zombies crées par Horde Putréfiée sont des PNJ Types de niveau 2. Chaque zombie obtient la spécialisation Puissance ou Force d'Âme ainsi que la spécialisation Mêlée ou Bagarre. Un zombie ne peut pas faire d'actions d'influences ou agir indépendamment mais il peut accomplir des tâches simples quand il n'est pas supervisé, comme nettoyer le sol ou attaquer toute personne qui entre dans une pièce.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les zombies crées avec ce pouvoir sont de niveau 3 et non de niveau 2. Ils disposent aussi de la spécialisation Puissance et Force d'Âme ainsi qu'au choix, la spécialisation Mêlée ou Bagarre.",
+          "spans": [
+            {
+              "text": "Les zombies crées avec ce pouvoir sont de niveau 3 et non de niveau 2. Ils disposent aussi de la spécialisation Puissance et Force d'Âme ainsi qu'au choix, la spécialisation Mêlée ou Bagarre.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8008-97ea-f3925f6ad9b3",
       "slug": "hypnose",
       "title": "Hypnose",
@@ -6627,7 +7580,9 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -6903,7 +7858,9 @@
               "collectionKey": "disciplines",
               "slug": "chimerie",
               "title": "Chimerie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7009,7 +7966,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7145,7 +8104,9 @@
               "collectionKey": "disciplines",
               "slug": "temporis",
               "title": "Temporis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7231,7 +8192,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-conjuration",
               "title": "Voie de la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7328,6 +8291,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8024-8960-c1b3763a2a28",
+      "slug": "invocation-d-ame",
+      "title": "Invocation d’Âme",
+      "notionUrl": "https://app.notion.com/p/Invocation-d-me-39b88b48e48e80248960c1b3763a2a28",
+      "lastEditedTime": "2026-07-12T16:56:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": null
+        },
+        "Name": {
+          "type": "text",
+          "value": "Invocation d’Âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du pouvoir",
+          "spans": [
+            {
+              "text": "Description du pouvoir",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Description du Succès Exceptionnel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Focus",
+          "spans": [
+            {
+              "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8046-8a30-e6c33f54d404",
       "slug": "invoquer-la-forme-simple",
       "title": "Invoquer la Forme Simple",
@@ -7357,7 +8448,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-conjuration",
               "title": "Voie de la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7463,7 +8556,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
               "title": "Voie de la Maîtrise Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7709,6 +8804,164 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8043-964d-daa552364eab",
+      "slug": "la-quatrieme-cavalier",
+      "title": "La Quatrième Cavalier",
+      "notionUrl": "https://app.notion.com/p/La-Quatri-me-Cavalier-39b88b48e48e8043964ddaa552364eab",
+      "lastEditedTime": "2026-07-12T16:55:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a ne plus pouvoir se nourrir ou destruction"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-mortis",
+              "title": "Voie de Mortis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "La Quatrième Cavalier"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A travers l'invocation du pouvoir du Voile et le transfert de ces énergies en lui-même, l'utilisateur de ce pouvoir se transforme en une incarnation littérale de la Mort. La plupart des utilisateurs de ce pouvoir apparaissent comme des squelettes humains dans une robe noire, élimée avec des points de lueurs étincelants dans ses orbites vides et entouré des murmures incessants des damnés. D'autre prennent une forme plus personnelle, reliée à leur historique culturelle ou leur idées personnelles mais, dans tous les cas, cette forme est toujours reconnaissable comme l'avatar de le Mort.",
+          "spans": [
+            {
+              "text": "A travers l'invocation du pouvoir du Voile et le transfert de ces énergies en lui-même, l'utilisateur de ce pouvoir se transforme en une incarnation littérale de la Mort. La plupart des utilisateurs de ce pouvoir apparaissent comme des squelettes humains dans une robe noire, élimée avec des points de lueurs étincelants dans ses orbites vides et entouré des murmures incessants des damnés. D'autre prennent une forme plus personnelle, reliée à leur historique culturelle ou leur idées personnelles mais, dans tous les cas, cette forme est toujours reconnaissable comme l'avatar de le Mort.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et votre action simple pour vous transformer de façon dramatique en un avatar physique de la Mort. Cette transformation doit se nourrir, se rechargeant en absorbant les forces vitales de ce qui l'entoure. Si elle ne peut drainer de la puissance d'autres sources, elle dévore l'utilisateur de l'intérieur, l'amenant lentement vers sa mort.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et votre action simple pour vous transformer de façon dramatique en un avatar physique de la Mort. Cette transformation doit se nourrir, se rechargeant en absorbant les forces vitales de ce qui l'entoure. Si elle ne peut drainer de la puissance d'autres sources, elle dévore l'utilisateur de l'intérieur, l'amenant lentement vers sa mort.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au début de chaque tour durant lequel le Quatrième Cavalier est actif, tout être vivant dans les deux pas subit 2 points de dégâts normaux pendant que sa force vitale est corrompue et détruite. Ces dégâts ne peuvent être réduits ou annulés d’aucunes façons.",
+          "spans": [
+            {
+              "text": "Au début de chaque tour durant lequel le Quatrième Cavalier est actif, tout être vivant dans les deux pas subit 2 points de dégâts normaux pendant que sa force vitale est corrompue et détruite. Ces dégâts ne peuvent être réduits ou annulés d’aucunes façons.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Vampires se trouvant dans le même rayon perdent un Point de Sang, pendant que la force vitale qu'ils avaient volée à d'autres leur est volée à son tour. Le Sang se trouvant dans les veines des vampires se change littéralement en cendre. Les vampires qui n'ont pas de Sang dans leur organisme ne subissent pas d'autres effets.",
+          "spans": [
+            {
+              "text": "Les Vampires se trouvant dans le même rayon perdent un Point de Sang, pendant que la force vitale qu'ils avaient volée à d'autres leur est volée à son tour. Le Sang se trouvant dans les veines des vampires se change littéralement en cendre. Les vampires qui n'ont pas de Sang dans leur organisme ne subissent pas d'autres effets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le Quatrième Cavalier n'a pas de sources sur laquelle se nourrir, que ce soit en transformant du sang de vampire en cendre ou en infligeant des dégâts à un humain, il se retourne alors sur lui-même et transforme deux Points de Sang de l'invocateur de ce pouvoir. Celui-ci s'arrête immédiatement si l'utilisateur n'a plus de Sang, tombe en torpeur ou dépense une action simple pour le désactiver.",
+          "spans": [
+            {
+              "text": "Si le Quatrième Cavalier n'a pas de sources sur laquelle se nourrir, que ce soit en transformant du sang de vampire en cendre ou en infligeant des dégâts à un humain, il se retourne alors sur lui-même et transforme deux Points de Sang de l'invocateur de ce pouvoir. Celui-ci s'arrête immédiatement si l'utilisateur n'a plus de Sang, tombe en torpeur ou dépense une action simple pour le désactiver.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que le personnage est sous l’effet de ce pouvoir, ses attaques de mêlée ou à main nues infligent un point de dégât supplémentaire.",
+          "spans": [
+            {
+              "text": "Tant que le personnage est sous l’effet de ce pouvoir, ses attaques de mêlée ou à main nues infligent un point de dégât supplémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Quatrième cavalier est un pouvoir de transformation et ne peut pas être combiné avec les autres pouvoirs de transformations. Vous pouvez utiliser des armes dans cette forme.",
+          "spans": [
+            {
+              "text": "Le Quatrième cavalier est un pouvoir de transformation et ne peut pas être combiné avec les autres pouvoirs de transformations. Vous pouvez utiliser des armes dans cette forme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous êtes transformé en Quatrième Cavalier, vos poings ou vos armes sont entourés d'une énergie nécromantique visible. Toutes vos attaques de Mêlée ou de Bagarre infligent des dégâts aggravés. Cette énergie se manifeste comme des nuages tourbillonnants de fumée noire, des insectes bourdonnants ou de toute autre manière appropriée à votre forme.",
+          "spans": [
+            {
+              "text": "Tant que vous êtes transformé en Quatrième Cavalier, vos poings ou vos armes sont entourés d'une énergie nécromantique visible. Toutes vos attaques de Mêlée ou de Bagarre infligent des dégâts aggravés. Cette énergie se manifeste comme des nuages tourbillonnants de fumée noire, des insectes bourdonnants ou de toute autre manière appropriée à votre forme.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-80b1-9da4-c9217dffccfd",
       "slug": "lacher-la-bete",
       "title": "Lâcher la Bête",
@@ -7738,7 +8991,9 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7844,7 +9099,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-des-cendres",
               "title": "Voie des Cendres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -7970,7 +9227,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
               "title": "Voie de la Maîtrise Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8136,7 +9395,9 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8242,7 +9503,9 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8319,6 +9582,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8009-a592-c3b533fb2417",
+      "slug": "lier-une-ame",
+      "title": "Lier une Âme",
+      "notionUrl": "https://app.notion.com/p/Lier-une-me-39b88b48e48e8009a592c3b533fb2417",
+      "lastEditedTime": "2026-07-12T16:56:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": null
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lier une Âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du pouvoir",
+          "spans": [
+            {
+              "text": "Description du pouvoir",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Description du Succès Exceptionnel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Focus",
+          "spans": [
+            {
+              "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80bc-bb61-e0b431e690cc",
       "slug": "magie-de-la-forge",
       "title": "Magie de la Forge",
@@ -8348,7 +9739,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-conjuration",
               "title": "Voie de la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8484,7 +9877,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8600,7 +9995,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-des-cendres",
               "title": "Voie des Cendres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8726,7 +10123,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-puissance-de-neptune",
               "title": "Voie de la Puissance de Neptune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -8872,7 +10271,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-des-cendres",
               "title": "Voie des Cendres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9008,7 +10409,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-esprit",
               "title": "Voie de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9373,6 +10776,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-805b-ba48-ddfeda69b32e",
+      "slug": "marionnette-macabre",
+      "title": "Marionnette Macabre",
+      "notionUrl": "https://app.notion.com/p/Marionnette-Macabre-39b88b48e48e805bba48ddfeda69b32e",
+      "lastEditedTime": "2026-07-12T16:41:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a la fin de la nuit"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-ossements",
+              "title": "Voie des Ossements",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Marionnette Macabre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir le plus terrifiant d'un nécromancien cadavérique est sa capacité à occuper un corps, prenant spirituellement le contrôle de la forme physique de votre cible et portant son corps comme votre propre chair. Tant que vous êtes au contrôle de son corps, vous pouvez faire toutes les actions physiques dont celui-ci était capable.",
+          "spans": [
+            {
+              "text": "Le pouvoir le plus terrifiant d'un nécromancien cadavérique est sa capacité à occuper un corps, prenant spirituellement le contrôle de la forme physique de votre cible et portant son corps comme votre propre chair. Tant que vous êtes au contrôle de son corps, vous pouvez faire toutes les actions physiques dont celui-ci était capable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser Marionnette Macabre, vous devez dépenser votre action standard et cibler un Vrai Corps ou un zombie dans votre ligne de vue, incluant les zombies qui ne sont pas sous votre contrôle. Votre conscience est transférée dans le corps ciblé comme si ce corps était le vôtre. Votre corps original tombe alors en étant de torpeur et ne peut se défendre ou agir de lui-même. Il conserve quand même tous les effets des niveaux de Force d'Âme que vous possédez.",
+          "spans": [
+            {
+              "text": "Pour utiliser Marionnette Macabre, vous devez dépenser votre action standard et cibler un Vrai Corps ou un zombie dans votre ligne de vue, incluant les zombies qui ne sont pas sous votre contrôle. Votre conscience est transférée dans le corps ciblé comme si ce corps était le vôtre. Votre corps original tombe alors en étant de torpeur et ne peut se défendre ou agir de lui-même. Il conserve quand même tous les effets des niveaux de Force d'Âme que vous possédez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
+          "spans": [
+            {
+              "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Marionnette Macabre dure jusqu’au prochain lever de soleil ou jusqu’à ce que vous dépensiez une action simple pour retourner à votre corps originel. Marionnette Macabre s'arrête aussi immédiatement si vous voyagez à plus de 16km (10 miles) de votre corps originel, si le corps originel prend des dégâts ou si le corps que vous possédez est détruit.",
+          "spans": [
+            {
+              "text": "Marionnette Macabre dure jusqu’au prochain lever de soleil ou jusqu’à ce que vous dépensiez une action simple pour retourner à votre corps originel. Marionnette Macabre s'arrête aussi immédiatement si vous voyagez à plus de 16km (10 miles) de votre corps originel, si le corps originel prend des dégâts ou si le corps que vous possédez est détruit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez posséder n'importe quels zombies que vous contrôlez, comme ceux créé par le pouvoir de Horde Putréfiée. Vous pouvez activer ce pouvoir même si vous ne pouvez pas voir ces zombies, tant qu'ils sont à moins de 1,6km de votre position (1mile). Vous devez toujours payez le coût de ce pouvoir. Si vous possédez un zombie, vous ne pouvez pas dépenser de points de sang, mais vous pouvez utiliser la force et / ou la puissance du zombie.",
+          "spans": [
+            {
+              "text": "Vous pouvez posséder n'importe quels zombies que vous contrôlez, comme ceux créé par le pouvoir de Horde Putréfiée. Vous pouvez activer ce pouvoir même si vous ne pouvez pas voir ces zombies, tant qu'ils sont à moins de 1,6km de votre position (1mile). Vous devez toujours payez le coût de ce pouvoir. Si vous possédez un zombie, vous ne pouvez pas dépenser de points de sang, mais vous pouvez utiliser la force et / ou la puissance du zombie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80a1-951b-e0329cc5c62a",
       "slug": "masque-aux-mille-visages",
       "title": "Masque aux mille visages",
@@ -9402,7 +10933,9 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9479,6 +11012,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-805c-bb55-f4df16106f96",
+      "slug": "masque-de-mort",
+      "title": "Masque de Mort",
+      "notionUrl": "https://app.notion.com/p/Masque-de-Mort-39b88b48e48e805cbb55f4df16106f96",
+      "lastEditedTime": "2026-07-12T16:51:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-mortis",
+              "title": "Voie de Mortis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Masque de Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir aide le vampire à la fois à tromper et à mieux comprendre les différences entre un Vrai Corps et un membre des morts vivants animé par nécromancie. En utilisant les capacités accordées par ce pouvoir, vous transformez votre corps pour une période de temps, pouvant même utiliser ce pouvoir pour se cacher au milieu des autres corps durant des périodes étendues de torpeur.",
+          "spans": [
+            {
+              "text": "Ce pouvoir aide le vampire à la fois à tromper et à mieux comprendre les différences entre un Vrai Corps et un membre des morts vivants animé par nécromancie. En utilisant les capacités accordées par ce pouvoir, vous transformez votre corps pour une période de temps, pouvant même utiliser ce pouvoir pour se cacher au milieu des autres corps durant des périodes étendues de torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépenser un Point de Sang et une action standard pour transformer votre forme physique en celle d'un cadavre normal. Tant que Masque de Mort est actif, vous êtes considéré comme un cadavre ordinaire. Vous ne pouvez bouger, vous n'avez pas d'aura, vous perdez accès à tous vos pouvoirs vampiriques (excepté celui-ci), vous ne prenez aucuns dégâts des rayons du soleil et vous apparaissez comme un simple corps sans vie, non magique. Une personne utilisant Masque de la mort n'est pas un Vrai Corps et ne peut être ciblé par un effet affectant ceux-ci.",
+          "spans": [
+            {
+              "text": "Dépenser un Point de Sang et une action standard pour transformer votre forme physique en celle d'un cadavre normal. Tant que Masque de Mort est actif, vous êtes considéré comme un cadavre ordinaire. Vous ne pouvez bouger, vous n'avez pas d'aura, vous perdez accès à tous vos pouvoirs vampiriques (excepté celui-ci), vous ne prenez aucuns dégâts des rayons du soleil et vous apparaissez comme un simple corps sans vie, non magique. Une personne utilisant Masque de la mort n'est pas un Vrai Corps et ne peut être ciblé par un effet affectant ceux-ci.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que Masque de Mort est actif, vous êtes conscient de tout ce qui se passe dans les cinq pas autour de votre corps. Vous ne prenez pas de blessure avec les dégâts occasionnés à votre corps tant que vous êtes dans cet état et êtes immunisés au pieutage. Vous pouvez quand même être tué si votre tête est séparée du corps ou si celui-ci est détruit. Détruire votre corps ou vous décapiter de cette façon nécessite d'utiliser trois actions standards, durant lesquels vous pouvez mettre fin à Masque de Mort et revenir instantanément à votre forme réelle. Durant ce retour à votre état d'origine, vous soignez tous les dégâts qui ont été infligés à votre corps durant l'usage de Masque de Mort et votre corps éjecte automatiquement tout pieu ou matières étrangères.",
+          "spans": [
+            {
+              "text": "Tant que Masque de Mort est actif, vous êtes conscient de tout ce qui se passe dans les cinq pas autour de votre corps. Vous ne prenez pas de blessure avec les dégâts occasionnés à votre corps tant que vous êtes dans cet état et êtes immunisés au pieutage. Vous pouvez quand même être tué si votre tête est séparée du corps ou si celui-ci est détruit. Détruire votre corps ou vous décapiter de cette façon nécessite d'utiliser trois actions standards, durant lesquels vous pouvez mettre fin à Masque de Mort et revenir instantanément à votre forme réelle. Durant ce retour à votre état d'origine, vous soignez tous les dégâts qui ont été infligés à votre corps durant l'usage de Masque de Mort et votre corps éjecte automatiquement tout pieu ou matières étrangères.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Masque de Mort dure jusqu'à ce que vous décidiez d'annuler ce pouvoir. Si vous l'utilisez durant une longue période de temps, votre corps pourriras et se décomposeras normalement mais ne perdras jamais sa cohésion. De cette façon, vous devenez aussi pourri et décrépit que n'importe quel corps dans sa tombe jusqu'à ce que vous vous réveilliez.",
+          "spans": [
+            {
+              "text": "Masque de Mort dure jusqu'à ce que vous décidiez d'annuler ce pouvoir. Si vous l'utilisez durant une longue période de temps, votre corps pourriras et se décomposeras normalement mais ne perdras jamais sa cohésion. De cette façon, vous devenez aussi pourri et décrépit que n'importe quel corps dans sa tombe jusqu'à ce que vous vous réveilliez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par tour, lorsque vous utilisez Masque de Mort, vous pouvez dépenser un Point de Sang pour effectuer une seule action simple, incluant le mouvement dans ces actions. De plus, masque de Mort s'active automatiquement si vous entrez en torpeur dues aux dégâts subis ou en cas de pieutage. Sous ces circonstances, vous n'êtes pas requis de dépenser un Point de Sang pour l'activation de ce pouvoir.",
+          "spans": [
+            {
+              "text": "Une fois par tour, lorsque vous utilisez Masque de Mort, vous pouvez dépenser un Point de Sang pour effectuer une seule action simple, incluant le mouvement dans ces actions. De plus, masque de Mort s'active automatiquement si vous entrez en torpeur dues aux dégâts subis ou en cas de pieutage. Sous ces circonstances, vous n'êtes pas requis de dépenser un Point de Sang pour l'activation de ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8024-a716-c28bf3bb52b7",
       "slug": "masquer-l-assemblee",
       "title": "Masquer l'assemblée",
@@ -9508,7 +11169,9 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9684,6 +11347,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8046-ad7e-dba00dfc9a7b",
+      "slug": "metal-tordu",
+      "title": "Métal Tordu",
+      "notionUrl": "https://app.notion.com/p/M-tal-Tordu-39b88b48e48e8046ad7edba00dfc9a7b",
+      "lastEditedTime": "2026-07-12T16:46:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Métal Tordu"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fantômes ont plus de connaissances que ce que les vivants pensent. Ils sont plus que de simples outils à la merci des nécromanciens - ils sont des créatures avec leurs propres expériences et connaissances. Vous avez maîtrisé l’art de forcer un fantôme à outrepasser les limites des équipements terrestres. Vos attirails mortels sont infusés des énergies entropiques de l’Outre-Monde qui leur permet de fonctionner de manières inexplicables et tordues.",
+          "spans": [
+            {
+              "text": "Les fantômes ont plus de connaissances que ce que les vivants pensent. Ils sont plus que de simples outils à la merci des nécromanciens - ils sont des créatures avec leurs propres expériences et connaissances. Vous avez maîtrisé l’art de forcer un fantôme à outrepasser les limites des équipements terrestres. Vos attirails mortels sont infusés des énergies entropiques de l’Outre-Monde qui leur permet de fonctionner de manières inexplicables et tordues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un fois appris, ce pouvoir permet d’augmenter votre Attirail Mortel. Dépensez un point de sang supplémentaire et une action simple pour accroître un attirail choisi. L’objet gagne une deuxième qualité de votre choix. Il doit avoir les prérequis pour avoir cette qualité. Par exemple, une épée à une main ne peut avoir que les qualités des armes de mêlée à une main. Cette qualité peut permettre de dépasser le maximum autorisé en qualité d’objet, mais vous ne pouvez pas cumuler les qualités identiques.",
+          "spans": [
+            {
+              "text": "Un fois appris, ce pouvoir permet d’augmenter votre Attirail Mortel. Dépensez un point de sang supplémentaire et une action simple pour accroître un attirail choisi. L’objet gagne une deuxième qualité de votre choix. Il doit avoir les prérequis pour avoir cette qualité. Par exemple, une épée à une main ne peut avoir que les qualités des armes de mêlée à une main. Cette qualité peut permettre de dépasser le maximum autorisé en qualité d’objet, mais vous ne pouvez pas cumuler les qualités identiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les objets qui sont touchés par ce pouvoir prennent une apparence difforme, anormale, qui représente leur manipulation. Vous pouvez choisir l’apparence que cela revêt, sous approbation du conteur évidemment.",
+          "spans": [
+            {
+              "text": "Les objets qui sont touchés par ce pouvoir prennent une apparence difforme, anormale, qui représente leur manipulation. Vous pouvez choisir l’apparence que cela revêt, sous approbation du conteur évidemment.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir dure indéfiniment mais vous ne pouvez l’appliquer qu’à un seul objet à la fois dans la limite d’une seule application du pouvoir. Tout nouvel usage de ce pouvoir remplace aussitôt le précédent.",
+          "spans": [
+            {
+              "text": "Ce pouvoir dure indéfiniment mais vous ne pouvez l’appliquer qu’à un seul objet à la fois dans la limite d’une seule application du pouvoir. Tout nouvel usage de ce pouvoir remplace aussitôt le précédent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L’attirail mortel amélioré par Métal Tordu peut gagner une nouvelle qualité de n’importe quel type, même s’il ne remplit pas les prérequis. Par exemple, une épée peut gagner la qualité “Pieutage” ou une claymore peut gagner “Equilibrée”. Vous pouvez tout à fait infuser à une arme à distance la qualité Déflectrice, car le fantôme à l’intérieur déviera magiquement les attaques qui vous sont portées.",
+          "spans": [
+            {
+              "text": "L’attirail mortel amélioré par Métal Tordu peut gagner une nouvelle qualité de n’importe quel type, même s’il ne remplit pas les prérequis. Par exemple, une épée peut gagner la qualité “Pieutage” ou une claymore peut gagner “Equilibrée”. Vous pouvez tout à fait infuser à une arme à distance la qualité Déflectrice, car le fantôme à l’intérieur déviera magiquement les attaques qui vous sont portées.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-80b8-8393-f88a307a0306",
       "slug": "mirage",
       "title": "Mirage",
@@ -9713,7 +11504,9 @@
               "collectionKey": "disciplines",
               "slug": "chimerie",
               "title": "Chimerie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9819,7 +11612,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-puissance-de-neptune",
               "title": "Voie de la Puissance de Neptune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -9946,6 +11741,164 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80ff-a2c0-d473ace28237",
+      "slug": "morbidite",
+      "title": "Morbidité",
+      "notionUrl": "https://app.notion.com/p/Morbidit-39b88b48e48e80ffa2c0d473ace28237",
+      "lastEditedTime": "2026-07-12T16:40:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-ossements",
+              "title": "Voie des Ossements",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Morbidité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les spectres et les zombies sont des créatures relativement fragiles, facile à détruire ou à découper en petits morceaux. En concentrant votre puissance nécromantique, vous pouvez modifier une créature morte vivante, réparant sa chair pourrissante ou fortifiant son esprit, à travers votre magie.",
+          "spans": [
+            {
+              "text": "Les spectres et les zombies sont des créatures relativement fragiles, facile à détruire ou à découper en petits morceaux. En concentrant votre puissance nécromantique, vous pouvez modifier une créature morte vivante, réparant sa chair pourrissante ou fortifiant son esprit, à travers votre magie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et une action standard pour cibler un zombie, un spectre ou un autre serviteur mort vivant. Ce pouvoir a différentes utilisations :",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et une action standard pour cibler un zombie, un spectre ou un autre serviteur mort vivant. Ce pouvoir a différentes utilisations :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Zombies : Soigner un zombie à moins de trois pas de 3 points de dégâts. Vous pouvez faire des réparations cosmétiques. Altérer un zombie de cette façon le rendra moins pourrissant ou décrépit ; il ressemblera beaucoup plus à ce qu'il était de son vivant. Ensuite, le corps recommencera à pourrir comme d'habitude. En utilisant ce pouvoir sur un zombie toutes les quelques semaines, il pourrait presque passer pour humain.",
+          "spans": [
+            {
+              "text": "Zombies : Soigner un zombie à moins de trois pas de 3 points de dégâts. Vous pouvez faire des réparations cosmétiques. Altérer un zombie de cette façon le rendra moins pourrissant ou décrépit ; il ressemblera beaucoup plus à ce qu'il était de son vivant. Ensuite, le corps recommencera à pourrir comme d'habitude. En utilisant ce pouvoir sur un zombie toutes les quelques semaines, il pourrait presque passer pour humain.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un zombie se trouve dans les trois pas, vous pouvez lui donner trois niveaux de vie supplémentaires. Ces niveaux disparaissent en premier s’il subit des dégâts et disparaissent après cinq minutes, que des dégâts aient été subits ou non. On ne peut appliquer cet effet plusieurs fois sur un zombie, il n'est pas cumulable.",
+          "spans": [
+            {
+              "text": "Si un zombie se trouve dans les trois pas, vous pouvez lui donner trois niveaux de vie supplémentaires. Ces niveaux disparaissent en premier s’il subit des dégâts et disparaissent après cinq minutes, que des dégâts aient été subits ou non. On ne peut appliquer cet effet plusieurs fois sur un zombie, il n'est pas cumulable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Spectres : Vous pouvez augmenter le niveau de PNJ Type du spectre de 1, jusqu'à un maximum de 6. Cet effet dure une heure. Aucun fantôme ne peut être sous les effets de plusieurs utilisations de ce pouvoir à la fois.",
+          "spans": [
+            {
+              "text": "Spectres : Vous pouvez augmenter le niveau de PNJ Type du spectre de 1, jusqu'à un maximum de 6. Cet effet dure une heure. Aucun fantôme ne peut être sous les effets de plusieurs utilisations de ce pouvoir à la fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez aussi changer l'apparence cosmétique d'un spectre, modifiant son apparence générale. Vous ne pouvez changer son genre ou ses aspects naturels, mais vous pouvez changer ses vêtements, sa coiffure et toutes autres qualités superficielles. Beaucoup de nécromants utilise ce pouvoir pour mettre à jour leurs suivants spectraux à un style plus moderne.",
+          "spans": [
+            {
+              "text": "Vous pouvez aussi changer l'apparence cosmétique d'un spectre, modifiant son apparence générale. Vous ne pouvez changer son genre ou ses aspects naturels, mais vous pouvez changer ses vêtements, sa coiffure et toutes autres qualités superficielles. Beaucoup de nécromants utilise ce pouvoir pour mettre à jour leurs suivants spectraux à un style plus moderne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser les effets spécifiques aux zombies de ce pouvoir sur un vampire, lui permettant temporairement d'apparaître plus humain.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser les effets spécifiques aux zombies de ce pouvoir sur un vampire, lui permettant temporairement d'apparaître plus humain.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'utilisation de ce pouvoir de cette façon peut faire qu'un vampire sur une voie autre que celle de l'humanité peut apparaître comme un suivant de cette voie pour une courte période de temps. Un tel usage de Morbidité dure 10 minutes. Vous ne pouvez pas utiliser ce pouvoir sur un vampire plus d'une fois par nuit.",
+          "spans": [
+            {
+              "text": "L'utilisation de ce pouvoir de cette façon peut faire qu'un vampire sur une voie autre que celle de l'humanité peut apparaître comme un suivant de cette voie pour une courte période de temps. Un tel usage de Morbidité dure 10 minutes. Vous ne pouvez pas utiliser ce pouvoir sur un vampire plus d'une fois par nuit.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8046-981c-cbbd7943bafb",
       "slug": "mur-fluide",
       "title": "Mur Fluide",
@@ -9975,7 +11928,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-puissance-de-neptune",
               "title": "Voie de la Puissance de Neptune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10151,7 +12106,9 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10356,7 +12313,9 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10453,6 +12412,154 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8099-9e45-fbcf057455f9",
+      "slug": "passage-de-la-faucheuse",
+      "title": "Passage de la Faucheuse",
+      "notionUrl": "https://app.notion.com/p/Passage-de-la-Faucheuse-39b88b48e48e80999e45fbcf057455f9",
+      "lastEditedTime": "2026-07-12T16:53:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-mortis",
+              "title": "Voie de Mortis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Passage de la Faucheuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'effrayante forme de la faucheuse n'est jamais loin de l'âme d'un vampire et ceux qui sont forcés de regarder la réalité de l'éternité en face se trouveront remplit de la durable menace de la mort. Même les mortels ont peur de la venue de leur fin inexorable.",
+          "spans": [
+            {
+              "text": "L'effrayante forme de la faucheuse n'est jamais loin de l'âme d'un vampire et ceux qui sont forcés de regarder la réalité de l'éternité en face se trouveront remplit de la durable menace de la mort. Même les mortels ont peur de la venue de leur fin inexorable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et une action standard pour faire un challenge opposé de Nécromancie. Si vous réussissez, votre cible expérimente une vision fugitive de la mort. Quelques rares chanceux ont un aperçu momentané du paradis mais la plupart expérimentent les horreurs de l'enfer ou les terreurs du vide absolu. Quel que soit la forme que prend ce pouvoir, la victime se retrouve brièvement en incapacité à la suite de son aperçu de la mort.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et une action standard pour faire un challenge opposé de Nécromancie. Si vous réussissez, votre cible expérimente une vision fugitive de la mort. Quelques rares chanceux ont un aperçu momentané du paradis mais la plupart expérimentent les horreurs de l'enfer ou les terreurs du vide absolu. Quel que soit la forme que prend ce pouvoir, la victime se retrouve brièvement en incapacité à la suite de son aperçu de la mort.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible perd sa prochaine action standard.",
+          "spans": [
+            {
+              "text": "La cible perd sa prochaine action standard.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ce pouvoir est utilisé deux fois sur la même cible, les effets sont diminués, car la personne s'habitue au choc subit. Si la cible affectée par ce pouvoir l'a déjà subi il y a trois tours ou moins, la seconde utilisation de ce pouvoir n'a aucun effet.",
+          "spans": [
+            {
+              "text": "Si ce pouvoir est utilisé deux fois sur la même cible, les effets sont diminués, car la personne s'habitue au choc subit. Si la cible affectée par ce pouvoir l'a déjà subi il y a trois tours ou moins, la seconde utilisation de ce pouvoir n'a aucun effet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez un succès exceptionnel avec le Passage de la Faucheuse contre une cible mortelle, celle-ci décède instantanément. Les être surnaturels survivent mais subissent 3 points de dégâts aggravés en plus des effets normaux de ce pouvoir. Ces dégâts ne peuvent être diminués ou annulés.",
+          "spans": [
+            {
+              "text": "Si vous réussissez un succès exceptionnel avec le Passage de la Faucheuse contre une cible mortelle, celle-ci décède instantanément. Les être surnaturels survivent mais subissent 3 points de dégâts aggravés en plus des effets normaux de ce pouvoir. Ces dégâts ne peuvent être diminués ou annulés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les victimes du Passage de la Faucheuse perdent à la fois leur prochaine action standard et action simple. Si la cible a déjà subi ce pouvoir depuis 3 tours ou moins, elle perd simplement son action simple sur une nouvelle utilisation de ce pouvoir.",
+          "spans": [
+            {
+              "text": "Les victimes du Passage de la Faucheuse perdent à la fois leur prochaine action standard et action simple. Si la cible a déjà subi ce pouvoir depuis 3 tours ou moins, elle perd simplement son action simple sur une nouvelle utilisation de ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-80a6-8710-ed578571fec6",
       "slug": "passion",
       "title": "Passion",
@@ -10482,7 +12589,9 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10628,7 +12737,9 @@
               "collectionKey": "disciplines",
               "slug": "temporis",
               "title": "Temporis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10833,7 +12944,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-des-cendres",
               "title": "Voie des Cendres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -10949,7 +13062,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-conjuration",
               "title": "Voie de la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11055,7 +13170,9 @@
               "collectionKey": "disciplines",
               "slug": "chimerie",
               "title": "Chimerie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11161,7 +13278,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11287,7 +13406,9 @@
               "collectionKey": "disciplines",
               "slug": "daemonium",
               "title": "Daemonium",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11443,7 +13564,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11589,7 +13712,9 @@
               "collectionKey": "disciplines",
               "slug": "domination",
               "title": "Domination",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11715,7 +13840,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-esprit",
               "title": "Voie de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -11940,7 +14067,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-conjuration",
               "title": "Voie de la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12086,7 +14215,9 @@
               "collectionKey": "disciplines",
               "slug": "dissimulation",
               "title": "Dissimulation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12192,7 +14323,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-puissance-de-neptune",
               "title": "Voie de la Puissance de Neptune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12348,7 +14481,9 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12454,7 +14589,9 @@
               "collectionKey": "disciplines",
               "slug": "daemonium",
               "title": "Daemonium",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12610,7 +14747,9 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12716,7 +14855,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -12951,7 +15092,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-verte",
               "title": "Voie Verte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13067,7 +15210,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13233,7 +15378,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-verte",
               "title": "Voie Verte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13359,7 +15506,9 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13436,6 +15585,208 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8058-a0d7-d1c8290487a2",
+      "slug": "receptacle-obscur",
+      "title": "Réceptacle Obscur",
+      "notionUrl": "https://app.notion.com/p/R-ceptacle-Obscur-39b88b48e48e8058a0d7d1c8290487a2",
+      "lastEditedTime": "2026-07-12T16:44:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Réceptacle Obscur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fantômes sont des créatures d’entropie pure; des entités qui existent piégées dans les Terres d’Ombre. Un nécromancien talentueux peut capter cette énergie grâce à la magie du sang et la matérialiser dans le monde réel. Avec ce pouvoir, vous manipulez l’énergie des fantômes, les emprisonnant dans des objets pour un usage postérieur.",
+          "spans": [
+            {
+              "text": "Les fantômes sont des créatures d’entropie pure; des entités qui existent piégées dans les Terres d’Ombre. Un nécromancien talentueux peut capter cette énergie grâce à la magie du sang et la matérialiser dans le monde réel. Avec ce pouvoir, vous manipulez l’énergie des fantômes, les emprisonnant dans des objets pour un usage postérieur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que vous possédez ce pouvoir, vous pouvez créer un réceptacle obscure en emprisonnant un fantôme dans un petit bibelot ou un objet pas plus gros qu’un poing. Dépensez 1 point de sang et une action standard en ciblant un fantôme d’un grade 4 ou inférieur. Si vous réussissez un challenge opposé, le fantôme entre dans l’objet et devient lié alors que son corpus est absorbé. Seulement les PNJ de grade 4 ou inférieur peuvent être liés et emprisonnés dans un réceptacle obscur. Si un fantôme augmente son grade au-delà de 4 alors qu’il est emprisonné, il est immédiatement relâché et le réceptacle obscur devient inerte. Le conteur peut également spécifier que ce pouvoir ne marche pas contre les fantômes de son choix.",
+          "spans": [
+            {
+              "text": "Une fois que vous possédez ce pouvoir, vous pouvez créer un réceptacle obscure en emprisonnant un fantôme dans un petit bibelot ou un objet pas plus gros qu’un poing. Dépensez 1 point de sang et une action standard en ciblant un fantôme d’un grade 4 ou inférieur. Si vous réussissez un challenge opposé, le fantôme entre dans l’objet et devient lié alors que son corpus est absorbé. Seulement les PNJ de grade 4 ou inférieur peuvent être liés et emprisonnés dans un réceptacle obscur. Si un fantôme augmente son grade au-delà de 4 alors qu’il est emprisonné, il est immédiatement relâché et le réceptacle obscur devient inerte. Le conteur peut également spécifier que ce pouvoir ne marche pas contre les fantômes de son choix.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour que le pouvoir fonctionne correctement, l’objet doit pouvoir être brisé. S’il ne peut pas être cassé par une action simple, l’esprit reste emprisonné mais les autres fonctions de ce pouvoir ne peuvent pas être utilisées.",
+          "spans": [
+            {
+              "text": "Pour que le pouvoir fonctionne correctement, l’objet doit pouvoir être brisé. S’il ne peut pas être cassé par une action simple, l’esprit reste emprisonné mais les autres fonctions de ce pouvoir ne peuvent pas être utilisées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant une action simple, vous pouvez casser le réceptacle et envoyer un fantôme dans la Tourmente et gagner un des effets suivants :",
+          "spans": [
+            {
+              "text": "En dépensant une action simple, vous pouvez casser le réceptacle et envoyer un fantôme dans la Tourmente et gagner un des effets suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sombre Offrande : en consumant un réceptacle, vous pouvez utiliser la dernière parcelle de sa force vitale pour diminuer les ravages de votre bête avant d’envoyer son occupant dans l’au-delà. Vous perdez un train de bête.",
+          "spans": [
+            {
+              "text": "Sombre Offrande : en consumant un réceptacle, vous pouvez utiliser la dernière parcelle de sa force vitale pour diminuer les ravages de votre bête avant d’envoyer son occupant dans l’au-delà. Vous perdez un train de bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Poigne de Mnemosyne : vous pouvez accéder aux souvenirs du fantôme, gagnant brièvement la capacité de parler, lire et comprendre un des langages qu’il parlait. Ce doit être un langage couramment parlé durant la période à laquelle il vivait et à son lieu de naissance. Cet effet dure 1 heure.",
+          "spans": [
+            {
+              "text": "Poigne de Mnemosyne : vous pouvez accéder aux souvenirs du fantôme, gagnant brièvement la capacité de parler, lire et comprendre un des langages qu’il parlait. Ce doit être un langage couramment parlé durant la période à laquelle il vivait et à son lieu de naissance. Cet effet dure 1 heure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Nourriture de l’âme: vous pouvez détruire un réceptacle pour extraire l’essence spirituelle du fantôme, la transformant magiquement en vitae. Vous récupérez 2 points de sang. Ce pouvoir ne peut pas vous faire dépasser votre total maximum de points de sang.",
+          "spans": [
+            {
+              "text": "Nourriture de l’âme: vous pouvez détruire un réceptacle pour extraire l’essence spirituelle du fantôme, la transformant magiquement en vitae. Vous récupérez 2 points de sang. Ce pouvoir ne peut pas vous faire dépasser votre total maximum de points de sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sagesse des Morts : l’esprit d’un fantôme contient une vie complète de talents et de compétences qu’il a développée. Vous pouvez absorber une partie de ces énergies pour gagner un bonus de +1 carte sauvage sur une compétence de votre choix pour les prochaines 10 min. Vous ne pouvez bénéficier que d’une seule application de cet effet à la fois.",
+          "spans": [
+            {
+              "text": "Sagesse des Morts : l’esprit d’un fantôme contient une vie complète de talents et de compétences qu’il a développée. Vous pouvez absorber une partie de ces énergies pour gagner un bonus de +1 carte sauvage sur une compétence de votre choix pour les prochaines 10 min. Vous ne pouvez bénéficier que d’une seule application de cet effet à la fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A moins d’avoir le focus, vous ne pouvez avoir qu’un nombre total de réceptacle équivalent à votre niveau dans cette voie (5 au maximum donc). Créer des réceptacles supplémentaires libérera les âmes en commençant par le plus ancien. Vous pouvez utiliser les réceptacles obscures créés par vous ou par n’importe quel autre nécromancien ayant cette voie. Si quelqu’un sans le pouvoir Réceptacle Obscure tente d’utiliser un réceptacle, il ne profitera pas des bienfaits fournis par la voie de l’Emprisonnement des âmes.",
+          "spans": [
+            {
+              "text": "A moins d’avoir le focus, vous ne pouvez avoir qu’un nombre total de réceptacle équivalent à votre niveau dans cette voie (5 au maximum donc). Créer des réceptacles supplémentaires libérera les âmes en commençant par le plus ancien. Vous pouvez utiliser les réceptacles obscures créés par vous ou par n’importe quel autre nécromancien ayant cette voie. Si quelqu’un sans le pouvoir Réceptacle Obscure tente d’utiliser un réceptacle, il ne profitera pas des bienfaits fournis par la voie de l’Emprisonnement des âmes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "RASSEMBLER DES FANTÔMES : Les joueurs voudront irrémédiablement partir à la chasse aux fantômes pour maximiser l’utilisation de ce pouvoir. Afin d’éviter aux conteurs la difficulté de jouer des scènes où les personnages vont à la chasse pour remplir leur réserve de réceptacles obscurs et d’attirails mortels, les praticiens de cette voie peuvent obtenir un fantôme en dépensant une action inter-parties. Ce fantôme compte comme un PNJ de grade 2 et n’a aucune spécificité ni discipline. Quand le joueur arrive en partie, le conteur lui fournit donc une carte objet.",
+          "spans": [
+            {
+              "text": "RASSEMBLER DES FANTÔMES",
+              "bold": true
+            },
+            {
+              "text": " : Les joueurs voudront irrémédiablement partir à la chasse aux fantômes pour maximiser l’utilisation de ce pouvoir. Afin d’éviter aux conteurs la difficulté de jouer des scènes où les personnages vont à la chasse pour remplir leur réserve de réceptacles obscurs et d’attirails mortels, les praticiens de cette voie peuvent obtenir un fantôme en dépensant une action inter-parties. Ce fantôme compte comme un PNJ de grade 2 et n’a aucune spécificité ni discipline. Quand le joueur arrive en partie, le conteur lui fournit donc une carte objet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le joueur veut un certain type de fantôme avec des caractéristiques peu communes, comme un qui parle le Romain ou une spécialité, il peut alors faire un test en opposition avec le conteur. S’il réussit ou si c’est un exaequo, le personnage trouve la qualité voulue chez un fantôme. Si c’est un échec, il obtient un PNJ de grade 2 lambda. Si le joueur veut un spectre plus puissant ou avec une caractéristique rare, comme un qui parle le Vieux Français ou bien qui a une spécialisation spécifique dans une discipline, ou qui est mort dans des circonstances spéciales, le conteur peut utiliser le système de quête.",
+          "spans": [
+            {
+              "text": "Si le joueur veut un certain type de fantôme avec des caractéristiques peu communes, comme un qui parle le Romain ou une spécialité, il peut alors faire un test en opposition avec le conteur. S’il réussit ou si c’est un exaequo, le personnage trouve la qualité voulue chez un fantôme. Si c’est un échec, il obtient un PNJ de grade 2 lambda. Si le joueur veut un spectre plus puissant ou avec une caractéristique rare, comme un qui parle le Vieux Français ou bien qui a une spécialisation spécifique dans une discipline, ou qui est mort dans des circonstances spéciales, le conteur peut utiliser le système de quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez avoir deux fois votre niveau dans la voie en réceptacle (pour un total de 10 donc).",
+          "spans": [
+            {
+              "text": "Vous pouvez avoir deux fois votre niveau dans la voie en réceptacle (pour un total de 10 donc).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8031-8f24-d5d6900eb518",
       "slug": "recolte-sanguine",
       "title": "Récolte Sanguine",
@@ -13465,7 +15816,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-verte",
               "title": "Voie Verte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13622,6 +15975,222 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80b4-a2c1-d29b57a5afc4",
+      "slug": "regard-des-morts",
+      "title": "Regard des Morts",
+      "notionUrl": "https://app.notion.com/p/Regard-des-Morts-39b88b48e48e80b4a2c1d29b57a5afc4",
+      "lastEditedTime": "2026-07-12T16:38:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-ossements",
+              "title": "Voie des Ossements",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Regard des Morts"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'étude de la Voie des ossements est l'étude des corps physiques ; chair pourrie et os poussiéreux. En maîtrisant la Voie des Ossements, un nécromancien obtient la capacité de créer et de détruire des zombies comme les hordes croulantes des non-morts. Ces créatures sans conscience obéissent aux ordres du nécromancien.",
+          "spans": [
+            {
+              "text": "L'étude de la Voie des ossements est l'étude des corps physiques ; chair pourrie et os poussiéreux. En maîtrisant la Voie des Ossements, un nécromancien obtient la capacité de créer et de détruire des zombies comme les hordes croulantes des non-morts. Ces créatures sans conscience obéissent aux ordres du nécromancien.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cibler un Vrai Corps dans votre ligne de vue et dépenser une action simple. Vous savez aussitôt de quelle façon cette créature est morte, aussi bien que l'heure de la mort et si le corps a été déplacé ou altéré. De plus, en dépensant une action standard et en vous concentrant, vous pouvez sentir la présence de corps dans les 90m (100 yards) et découvrir leurs emplacements.",
+          "spans": [
+            {
+              "text": "Cibler un Vrai Corps dans votre ligne de vue et dépenser une action simple. Vous savez aussitôt de quelle façon cette créature est morte, aussi bien que l'heure de la mort et si le corps a été déplacé ou altéré. De plus, en dépensant une action standard et en vous concentrant, vous pouvez sentir la présence de corps dans les 90m (100 yards) et découvrir leurs emplacements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 Point de Sang, vous pouvez déguisez les causes de la mort d'un corps, modifiant toute les traces et les blessures sur celui-ci. Une fois que vous avez modifié un corps de cette façon, les utilisations supplémentaires de Regard des Morts n'indiqueront pas que le corps a été modifié.",
+          "spans": [
+            {
+              "text": "En dépensant 1 Point de Sang, vous pouvez déguisez les causes de la mort d'un corps, modifiant toute les traces et les blessures sur celui-ci. Une fois que vous avez modifié un corps de cette façon, les utilisations supplémentaires de Regard des Morts n'indiqueront pas que le corps a été modifié.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80eb-a7ff-fe740f0550b5",
+      "slug": "remonter-la-pendule",
+      "title": "Remonter la Pendule",
+      "notionUrl": "https://app.notion.com/p/Remonter-la-Pendule-39b88b48e48e80eba7fffe740f0550b5",
+      "lastEditedTime": "2026-07-12T16:51:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-mortis",
+              "title": "Voie de Mortis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Remonter la Pendule"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir subtil vous permet de vaincre le sommeil profond qu'est la torpeur, vous permettant à vous même ou un autre vampire de se relever de ces profondeurs.",
+          "spans": [
+            {
+              "text": "Ce pouvoir subtil vous permet de vaincre le sommeil profond qu'est la torpeur, vous permettant à vous même ou un autre vampire de se relever de ces profondeurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et une action standard pour toucher un vampire en torpeur. La cible s'éveille immédiatement de sa torpeur. Une cible qui s'éveille de torpeur par ce pouvoir dispose du même nombre de niveau de vie qu'avant d'être entré dans cet état. Ce pouvoir peut être utilisé pour vous réveiller vous-même de torpeur. C'est une exception à la règle qui interdit à des personnages d'utiliser leurs pouvoirs dans cet état.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et une action standard pour toucher un vampire en torpeur. La cible s'éveille immédiatement de sa torpeur. Une cible qui s'éveille de torpeur par ce pouvoir dispose du même nombre de niveau de vie qu'avant d'être entré dans cet état. Ce pouvoir peut être utilisé pour vous réveiller vous-même de torpeur. C'est une exception à la règle qui interdit à des personnages d'utiliser leurs pouvoirs dans cet état.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépenser un Point de Sang et une action standard pour toucher le Vrai Corps d'un individu mort depuis moins de 24 heures. La cible se relève instantanément des morts. Son corps étant réanimé, son âme revient et elle peut aussitôt agir normalement durant la durée de ce pouvoir. Elle n'a aucune mémoire de ce qui s'est passé après sa mort ni de ce qui se trouve de l'autre côté du Voile. Tant que ce pouvoir dure, la cible ne peut être tuée, sauf si son corps est détruit. Ce pouvoir dure tant que vous dépensez un Point de Sang par tour. Quand ce pouvoir s’arrête, la cible meurt alors de façon irrémédiable et ne peut plus être ressusciter (ou éteintre) par aucun moyen. Les vampires, qu’ils soient morts vivants ou ayant subi la mort ultime, ne peuvent être ciblé par ce pouvoir.",
+          "spans": [
+            {
+              "text": "Dépenser un Point de Sang et une action standard pour toucher le Vrai Corps d'un individu mort depuis moins de 24 heures. La cible se relève instantanément des morts. Son corps étant réanimé, son âme revient et elle peut aussitôt agir normalement durant la durée de ce pouvoir. Elle n'a aucune mémoire de ce qui s'est passé après sa mort ni de ce qui se trouve de l'autre côté du Voile. Tant que ce pouvoir dure, la cible ne peut être tuée, sauf si son corps est détruit. Ce pouvoir dure tant que vous dépensez un Point de Sang par tour. Quand ce pouvoir s’arrête, la cible meurt alors de façon irrémédiable et ne peut plus être ressusciter (ou éteintre) par aucun moyen. Les vampires, qu’ils soient morts vivants ou ayant subi la mort ultime, ne peuvent être ciblé par ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8085-ac0a-d8c5926561b1",
       "slug": "repos-de-la-belladone",
       "title": "Repos de la Belladone",
@@ -13651,7 +16220,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-verte",
               "title": "Voie Verte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13777,7 +16348,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-esprit",
               "title": "Voie de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -13913,7 +16486,9 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -14019,7 +16594,9 @@
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
               "title": "Force d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -14125,7 +16702,9 @@
               "collectionKey": "disciplines",
               "slug": "temporis",
               "title": "Temporis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -14231,7 +16810,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -14456,7 +17037,9 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -14562,7 +17145,9 @@
               "collectionKey": "disciplines",
               "slug": "daemonium",
               "title": "Daemonium",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15026,7 +17611,9 @@
               "collectionKey": "disciplines",
               "slug": "animalisme",
               "title": "Animalisme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15132,7 +17719,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-corruption",
               "title": "Voie de la Corruption",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15377,7 +17966,9 @@
               "collectionKey": "disciplines",
               "slug": "temporis",
               "title": "Temporis",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15483,7 +18074,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-technomancie",
               "title": "Voie de la Technomancie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15708,7 +18301,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -15904,7 +18499,9 @@
               "collectionKey": "disciplines",
               "slug": "auspex",
               "title": "Auspex",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16010,7 +18607,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-la-technomancie",
               "title": "Voie de la Technomancie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16087,6 +18686,114 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8050-aadc-feb8abd20f1e",
+      "slug": "temoin-de-la-mort",
+      "title": "Témoin de la Mort",
+      "notionUrl": "https://app.notion.com/p/T-moin-de-la-Mort-39b88b48e48e8050aadcfeb8abd20f1e",
+      "lastEditedTime": "2026-07-12T16:57:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Témoin de la Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La première astuce qu'apprennent ceux qui négocient avec les morts est la capacité de sentir et d’interagir avec ces esprits. En apprenant cette capacité, un nécromancien peut découvrir et communiquer avec les spectres proches.",
+          "spans": [
+            {
+              "text": "La première astuce qu'apprennent ceux qui négocient avec les morts est la capacité de sentir et d’interagir avec ces esprits. En apprenant cette capacité, un nécromancien peut découvrir et communiquer avec les spectres proches.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acheté, ce pouvoir est toujours actif. Vous pouvez voir, entendre et parler aux spectres, en communiquant avec eux que vous ayez ou non un langage commun. Il faut noter que, contrairement à l'avantage Médium, vous ne voyez que le fantôme lui-même et non les environs fantomatiques du Monde des Ombres.",
+          "spans": [
+            {
+              "text": "Une fois acheté, ce pouvoir est toujours actif. Vous pouvez voir, entendre et parler aux spectres, en communiquant avec eux que vous ayez ou non un langage commun. Il faut noter que, contrairement à l'avantage Médium, vous ne voyez que le fantôme lui-même et non les environs fantomatiques du Monde des Ombres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez aussi reconnaître et identifier les pouvoirs, les sorts des spectres ainsi que les effets visibles de la Nécromancie vampirique ainsi que les objets enchantés par Nécromancie (mais pas les entraves spectrales, si ces objets ne sont pas spécifiquement enchantés). Vous n'avez pas la capacité de voir les utilisations non visibles de magie mais uniquement de reconnaître ce que vous pouvez percevoir. Vous ne pouvez identifier les pouvoirs et sorts que vous ne possédez pas mais vous les reconnaissez comme d'origine nécromantique.",
+          "spans": [
+            {
+              "text": "Vous pouvez aussi reconnaître et identifier les pouvoirs, les sorts des spectres ainsi que les effets visibles de la Nécromancie vampirique ainsi que les objets enchantés par Nécromancie (mais pas les entraves spectrales, si ces objets ne sont pas spécifiquement enchantés). Vous n'avez pas la capacité de voir les utilisations non visibles de magie mais uniquement de reconnaître ce que vous pouvez percevoir. Vous ne pouvez identifier les pouvoirs et sorts que vous ne possédez pas mais vous les reconnaissez comme d'origine nécromantique.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-805d-9b64-cce5c6e5447a",
       "slug": "tempete",
       "title": "Tempête",
@@ -16116,7 +18823,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16232,7 +18941,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16517,6 +19228,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80f5-ac15-d725bed44e62",
+      "slug": "tourment",
+      "title": "Tourment",
+      "notionUrl": "https://app.notion.com/p/Tourment-39b88b48e48e80f5ac15d725bed44e62",
+      "lastEditedTime": "2026-07-12T16:57:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Tourment"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les esprits récalcitrants ne peuvent échapper à votre pouvoir ni ne peuvent survivre longtemps à votre colère. En concentrant votre puissante magie nécromantique, vous pouvez vous engager dans des batailles ectoplasmiques à travers la barrière du Monde des Ombres.",
+          "spans": [
+            {
+              "text": "Les esprits récalcitrants ne peuvent échapper à votre pouvoir ni ne peuvent survivre longtemps à votre colère. En concentrant votre puissante magie nécromantique, vous pouvez vous engager dans des batailles ectoplasmiques à travers la barrière du Monde des Ombres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de Sang et une action standard en désignant votre cible. Faites ensuite un challenge d'opposition de Nécromancie avec le spectre ciblé. Si vous réussissez, vous infligez trois dégâts normaux à ce fantôme.",
+          "spans": [
+            {
+              "text": "Dépensez un point de Sang et une action standard en désignant votre cible. Faites ensuite un challenge d'opposition de Nécromancie avec le spectre ciblé. Si vous réussissez, vous infligez trois dégâts normaux à ce fantôme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous infligez une perte de 4 points de dégâts normaux au lieu de trois.",
+          "spans": [
+            {
+              "text": "Vous infligez une perte de 4 points de dégâts normaux au lieu de trois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cible perd aussi un point de Pathos en cas d'attaque réussie.",
+          "spans": [
+            {
+              "text": "Votre cible perd aussi un point de Pathos en cas d'attaque réussie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80c7-b16a-e0d45174ff08",
       "slug": "vengeance-de-samiel",
       "title": "Vengeance de Samiel",
@@ -16645,7 +19484,9 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16751,7 +19592,9 @@
               "collectionKey": "disciplines",
               "slug": "celerite",
               "title": "Célérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16857,7 +19700,9 @@
               "collectionKey": "disciplines",
               "slug": "alienation",
               "title": "Aliénation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -16983,7 +19828,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-esprit",
               "title": "Voie de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -17070,6 +19917,134 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8073-8dbf-d4523ad75e39",
+      "slug": "vol-d-ame",
+      "title": "Vol d’Âme",
+      "notionUrl": "https://app.notion.com/p/Vol-d-me-39b88b48e48e80738dbfd4523ad75e39",
+      "lastEditedTime": "2026-07-12T16:56:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": ""
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": null
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vol d’Âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du pouvoir",
+          "spans": [
+            {
+              "text": "Description du pouvoir",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Description du Succès Exceptionnel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Focus",
+          "spans": [
+            {
+              "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8037-9536-fd5d9bd04562",
       "slug": "vol-de-sang",
       "title": "Vol de Sang",
@@ -17099,7 +20074,9 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },

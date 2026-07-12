@@ -1,6 +1,6 @@
 import { FileText } from "lucide-react";
 
-export default function ItemListButton({ label, selected, onClick }) {
+export default function ItemListButton({ label, selected, onClick, badges }) {
     return (
         <button
             className={selected ? "selected" : ""}
@@ -8,6 +8,7 @@ export default function ItemListButton({ label, selected, onClick }) {
         >
             <FileText aria-hidden="true" size={17} />
             <span>{label}</span>
+            {badges}
         </button>
     );
 }

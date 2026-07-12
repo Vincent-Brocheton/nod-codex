@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-12T16:34:33.187Z",
+  "generatedAt": "2026-07-12T17:26:16.559Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -90,31 +90,41 @@
               "collectionKey": "pouvoirs",
               "slug": "passion",
               "title": "Passion",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "hantise-psychique",
               "title": "Hantise Psychique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vision-du-chaos",
               "title": "Vision du Chaos",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "voix-de-la-folie",
               "title": "Voix de la folie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "demence-absolue",
               "title": "Démence Absolue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -140,7 +150,9 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -151,25 +163,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "malaise-persistant",
               "title": "Malaise Persistant",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "deni",
               "title": "Déni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "restructuration",
               "title": "Restructuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "lamentation-de-llorona",
               "title": "Lamentation de Llorona",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -180,7 +200,9 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -251,31 +273,41 @@
               "collectionKey": "pouvoirs",
               "slug": "murmures-sauvages",
               "title": "Murmures Sauvages",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "appel",
               "title": "Appel",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "dompter-la-bete",
               "title": "Dompter la Bête",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "soumission-de-l-esprit",
               "title": "Soumission de l’Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "lacher-la-bete",
               "title": "Lâcher la Bête",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -301,19 +333,25 @@
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -324,25 +362,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "intimider-la-bete",
               "title": "Intimider la Bête",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "furie-pourpre",
               "title": "Furie Pourpre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "apaiser-le-troupeau",
               "title": "Apaiser le Troupeau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitre-de-la-chasse",
               "title": "Maître de la Chasse",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -407,31 +453,41 @@
               "collectionKey": "pouvoirs",
               "slug": "sens-aiguises",
               "title": "Sens Aiguisés",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "lecture-d-ame",
               "title": "Lecture d’Âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "psychometrie",
               "title": "Psychométrie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "telepathie",
               "title": "Télépathie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "projection-astrale",
               "title": "Projection Astrale",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -457,25 +513,33 @@
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -486,25 +550,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "clairvoyance",
               "title": "Clairvoyance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "assaut-psychique",
               "title": "Assaut Psychique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "brouillard-de-guerre",
               "title": "Brouillard de Guerre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "drain-psychique",
               "title": "Drain Psychique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -515,49 +587,65 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
               "title": "Voie de l’Eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
               "title": "Voie du Vent",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
               "title": "Voie de la Terre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -607,31 +695,41 @@
               "collectionKey": "pouvoirs",
               "slug": "alcarite",
               "title": "Alcarité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vivacite",
               "title": "Vivacité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "rapidite",
               "title": "Rapidité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "legerete",
               "title": "Légéreté",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "fluidite",
               "title": "Fluidité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -656,25 +754,33 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             },
             {
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -685,25 +791,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "ecart-agile",
               "title": "Écart Agile",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "projectile",
               "title": "Projectile",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "vitesse",
               "title": "Vitesse",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "zephyr",
               "title": "Zéphyr",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -714,7 +828,9 @@
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -885,31 +1001,41 @@
               "collectionKey": "pouvoirs",
               "slug": "ignus-fatuus",
               "title": "Ignus Fatuus",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "affreuse-realite",
               "title": "Affreuse Réalité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "permanence-chimerie",
               "title": "Permanence (Chimérie)",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "apparition",
               "title": "Apparition",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "mirage",
               "title": "Mirage",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -939,25 +1065,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "armee-d-apparitions",
               "title": "Armée d’Apparitions",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "l-epouvantable-lame-des-demons",
               "title": "L'épouvantable lame des démons",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "essence-de-la-verite",
               "title": "Essence de la Vérité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "cauchemar-partage",
               "title": "Cauchemar Partagé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1012,31 +1146,41 @@
               "collectionKey": "pouvoirs",
               "slug": "sentir-le-peche",
               "title": "Sentir le Péché",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "peur-du-vide-abyssale",
               "title": "Peur du Vide abyssale",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "condamnation",
               "title": "Condamnation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "psychomachie",
               "title": "Psychomachie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "conflagration",
               "title": "Conflagration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1066,19 +1210,25 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "atrocite-mouvante",
               "title": "Atrocité Mouvante",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "compact-infernal",
               "title": "Compact Infernal",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "engendrer-la-peste",
               "title": "Engendrer la Peste",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1133,31 +1283,41 @@
               "collectionKey": "pouvoirs",
               "slug": "dissimuler",
               "title": "Dissimuler",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "presence-invisible",
               "title": "Présence invisible",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "masque-aux-mille-visages",
               "title": "Masque aux mille visages",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "disparition-a-la-vue-de-l-esprit",
               "title": "Disparition à la vue de l'esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "masquer-l-assemblee",
               "title": "Masquer l'assemblée",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1183,31 +1343,41 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             },
             {
               "collectionKey": "clans",
               "slug": "malkavien",
               "title": "Malkavien",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1218,25 +1388,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "chasseur-fantome",
               "title": "Chasseur Fantôme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "dissimulation-distante",
               "title": "Dissimulation Distante",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "labyrinthe-mental",
               "title": "Labyrinthe Mental",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "masque-d-ame",
               "title": "Masque d’âme",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1247,13 +1425,17 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1484,31 +1666,41 @@
               "collectionKey": "pouvoirs",
               "slug": "ordre",
               "title": "Ordre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "hypnose",
               "title": "Hypnose",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "alteration-memorielle",
               "title": "Altération mémorielle",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "conditionnement",
               "title": "Conditionnement",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "possession",
               "title": "Possession",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1534,37 +1726,49 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1575,25 +1779,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "allegeance",
               "title": "Allégeance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "chaine-de-commandement",
               "title": "Chaîne de Commandement",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "manipulation-de-masse",
               "title": "Manipulation de masse",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "regard-du-tyran",
               "title": "Regard du Tyran",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1604,13 +1816,17 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1730,31 +1946,41 @@
               "collectionKey": "pouvoirs",
               "slug": "endurance",
               "title": "Endurance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "ardeur",
               "title": "Ardeur",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "resilience",
               "title": "Résilience",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "resistance",
               "title": "Résistance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "egide",
               "title": "Égide",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1779,13 +2005,17 @@
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1796,25 +2026,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "armure-personnelle",
               "title": "Armure Personnelle",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "esprit-resilient",
               "title": "Esprit Résilient",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "reparer-la-chair-non-morte",
               "title": "Réparer la chair non-morte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "roi-de-la-montagne",
               "title": "Roi de la montagne",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1825,7 +2063,9 @@
               "collectionKey": "lignees",
               "slug": "croise",
               "title": "Croisé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1957,25 +2197,33 @@
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
               "title": "Voie de l’Eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
               "title": "Voie du Vent",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
               "title": "Voie de la Terre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2032,7 +2280,9 @@
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2043,25 +2293,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "allie-tenebreux",
               "title": "Allié ténébreux",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "jumeau-tenebreux",
               "title": "Jumeau Ténébreux",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "marcher-dans-les-ombres",
               "title": "Marcher dans les Ombres",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "traitrise-de-l-ombre",
               "title": "Traîtrise de l’Ombre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2155,31 +2413,41 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "toreador",
               "title": "Toréador",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2190,25 +2458,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "amour",
               "title": "Amour",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "freres-d-armes",
               "title": "Frères d’Armes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "regard-paralysant",
               "title": "Regard paralysant",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "visage-capricieux",
               "title": "Visage Capricieux",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2219,19 +2495,25 @@
               "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2383,25 +2665,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "brouillard-morcele",
               "title": "Brouillard morcelé",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitrise-de-la-terre",
               "title": "Maîtrise de la Terre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "maitrise-des-formes",
               "title": "Maîtrise des Formes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "peau-de-marbre",
               "title": "Peau de Marbre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2412,7 +2702,9 @@
               "collectionKey": "lignees",
               "slug": "tlacique",
               "title": "Tlacique",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2480,31 +2772,41 @@
               "collectionKey": "clans",
               "slug": "brujah",
               "title": "Brujah",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "lasombra",
               "title": "Lasombra",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "giovanni",
               "title": "Giovanni",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
               "slug": "caitiff",
               "title": "Caitiff",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2515,25 +2817,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "choc-terrestre",
               "title": "Choc terrestre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "force",
               "title": "Force",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "furie-implacable",
               "title": "Furie implacable",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "intensite",
               "title": "Intensité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2544,7 +2854,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2654,7 +2966,9 @@
               "collectionKey": "clans",
               "slug": "assamites",
               "title": "Assamites",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": true
             }
           ]
         },
@@ -2665,25 +2979,33 @@
               "collectionKey": "pouvoirs-anciens",
               "slug": "griffes-sanglantes-de-baal",
               "title": "Griffes Sanglantes de Baal",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "purification",
               "title": "Purification",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "revelations-de-l-essence-sanguine",
               "title": "Révélations de l’essence sanguine",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs-anciens",
               "slug": "sueur-sanguine",
               "title": "Sueur Sanguine",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2694,13 +3016,17 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             },
             {
               "collectionKey": "lignees",
               "slug": "vizirs",
               "title": "Vizirs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2840,7 +3166,9 @@
               "collectionKey": "clans",
               "slug": "setite",
               "title": "Setite",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2855,7 +3183,9 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2906,31 +3236,41 @@
               "collectionKey": "pouvoirs",
               "slug": "sablier-de-l-esprit",
               "title": "Sablier de l'Esprit",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "incision-temporelle",
               "title": "Incision temporelle",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "sursaut-temporel",
               "title": "Sursaut temporel",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "patience-des-nornes",
               "title": "Patience des Nornes",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "don-de-clotho",
               "title": "Don de Clotho",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3025,7 +3365,9 @@
               "collectionKey": "clans",
               "slug": "tzimices",
               "title": "Tzimices",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3164,31 +3506,41 @@
               "collectionKey": "pouvoirs",
               "slug": "main-de-feu",
               "title": "Main de Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "boule-de-feu",
               "title": "Boule de Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "pilier-de-feu",
               "title": "Pilier de Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "immoler",
               "title": "Immoler",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "tempete-de-feu",
               "title": "Tempête de Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3222,7 +3574,9 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null
+              "cout": null,
+              "approbation": true,
+              "complet": false
             }
           ]
         },
@@ -3314,7 +3668,9 @@
               "collectionKey": "lignees",
               "slug": "voie-de-l-eau",
               "title": "Voie de l’Eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3324,6 +3680,188 @@
         }
       },
       "content": []
+    },
+    {
+      "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
+      "slug": "voie-de-l-emprisonnement-des-ames",
+      "title": "Voie de l’Emprisonnement des Âmes",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Emprisonnement-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
+      "lastEditedTime": "2026-07-12T16:42:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "receptacle-obscur",
+              "title": "Réceptacle Obscur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "attirail-mortel",
+              "title": "Attirail Mortel",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "metal-tordu",
+              "title": "Métal Tordu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "detonation-d-ame",
+              "title": "Détonation d’âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "assimilation",
+              "title": "Assimilation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l’Emprisonnement des Âmes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pendant des centaines d’années, l’amélioration et la maîtrise des arts de la Mort ont guidé les esprits les plus mystiques de la famille Giovanni. Au fur et à mesure que le temps passait, ils ont compris que, manipulé correctement, les fantômes sont bien plus que juste des âmes dans la tourmente; ils sont la source d’une connaissance et d’un pouvoir illimité. Bien sûr, ce pouvoir est jalousement et férocement gardé, et appris uniquement aux plus talentueux des nécromanciens. Avec la connaissance de la voie de l’Emprisonnement des Âmes, vous avez appris à manipuler et utiliser les fantômes, puisant dans leur essence pour accroître vos rituels de Nécromancie, pour gagner des connaissances et même pour altérer des armes et des objets divers.",
+          "spans": [
+            {
+              "text": "Pendant des centaines d’années, l’amélioration et la maîtrise des arts de la Mort ont guidé les esprits les plus mystiques de la famille Giovanni. Au fur et à mesure que le temps passait, ils ont compris que, manipulé correctement, les fantômes sont bien plus que juste des âmes dans la tourmente; ils sont la source d’une connaissance et d’un pouvoir illimité. Bien sûr, ce pouvoir est jalousement et férocement gardé, et appris uniquement aux plus talentueux des nécromanciens. Avec la connaissance de la voie de l’Emprisonnement des Âmes, vous avez appris à manipuler et utiliser les fantômes, puisant dans leur essence pour accroître vos rituels de Nécromancie, pour gagner des connaissances et même pour altérer des armes et des objets divers.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Réceptacles obscurs et attirails mortels : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil mortel. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les attirails mortels sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux attirails mortels.",
+          "spans": [
+            {
+              "text": "Réceptacles obscurs et attirails mortels : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil mortel. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les attirails mortels sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux attirails mortels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des nécromanciens consignent leurs réceptacles dans des endroits sûrs jusqu’à ce qu’ils en aient besoin, bien que beaucoup aient également subrepticement donné un réceptacle à une victime inconsciente dans l’espoir de la faire lentement basculer dans la folie.",
+          "spans": [
+            {
+              "text": "La plupart des nécromanciens consignent leurs réceptacles dans des endroits sûrs jusqu’à ce qu’ils en aient besoin, bien que beaucoup aient également subrepticement donné un réceptacle à une victime inconsciente dans l’espoir de la faire lentement basculer dans la folie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un attirail mortel, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
+          "spans": [
+            {
+              "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un attirail mortel, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand un fantôme est libéré, il retourne immédiatement dans les Terres d’Ombre. Les fantômes qui ne sont pas généreusement récompensés pour leur temps d’asservissement et leur énergie émotionnelle ont tendance à garder une rancune envers le nécromancien responsable. Si l’objet qui abrite le fantôme est détruit, il entre immédiatement en Tourmente (Harrowing).",
+          "spans": [
+            {
+              "text": "Quand un fantôme est libéré, il retourne immédiatement dans les Terres d’Ombre. Les fantômes qui ne sont pas généreusement récompensés pour leur temps d’asservissement et leur énergie émotionnelle ont tendance à garder une rancune envers le nécromancien responsable. Si l’objet qui abrite le fantôme est détruit, il entre immédiatement en Tourmente (Harrowing).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Tourmente : un fantôme se retrouve en Tourmente quand il perd tous ses corpus (ses niveaux de santé) a une ancre détruite ou bien est sacrifié pour alimenter un rituel nécromantique. La Tourmente est une bataille intense dans le psyché du fantôme qui le force à revivre les moments importants de son temps parmi les vivants. Cela peut être un acte de défiance, de pardon face à la cruauté, d’héroïsme pour éviter une catastrophe ou tout autre élément qui peut avoir un impact émotionnel sur le fantôme alors qu’il était encore en vie. Les détails de la Tourmente diffèrent selon les fantômes, mais il s’agit toujours d’une expérience émotionnellement épuisante et atroce.",
+          "spans": [
+            {
+              "text": "La Tourmente : un fantôme se retrouve en Tourmente quand il perd tous ses corpus (ses niveaux de santé) a une ancre détruite ou bien est sacrifié pour alimenter un rituel nécromantique. La Tourmente est une bataille intense dans le psyché du fantôme qui le force à revivre les moments importants de son temps parmi les vivants. Cela peut être un acte de défiance, de pardon face à la cruauté, d’héroïsme pour éviter une catastrophe ou tout autre élément qui peut avoir un impact émotionnel sur le fantôme alors qu’il était encore en vie. Les détails de la Tourmente diffèrent selon les fantômes, mais il s’agit toujours d’une expérience émotionnellement épuisante et atroce.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Tourmente a un objectif que le spectre doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
+          "spans": [
+            {
+              "text": "Chaque Tourmente a un objectif que le spectre doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que l’esprit a complété la tâche de sa Tourmente - réussi ou non- il est éjecté près d’une de ses ancres avec 1 point de Pathos et 1 point de Corpus. Une Tourmente dure au moins un mois, mais elles peuvent être plus longues selon la difficulté de la situation. Si un fantôme échoue trop de Tourmente, il se retrouve coincé dans l’Oubli et devient alors un spectre",
+          "spans": [
+            {
+              "text": "Une fois que l’esprit a complété la tâche de sa Tourmente - réussi ou non- il est éjecté près d’une de ses ancres avec 1 point de Pathos et 1 point de Corpus. Une Tourmente dure au moins un mois, mais elles peuvent être plus longues selon la difficulté de la situation. Si un fantôme échoue trop de Tourmente, il se retrouve coincé dans l’Oubli et devient alors un spectre",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8065-a908-f248d46e24f1",
@@ -3354,31 +3892,41 @@
               "collectionKey": "pouvoirs",
               "slug": "poussee-de-force",
               "title": "Poussée de Force",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "manipuler",
               "title": "Manipuler",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vol",
               "title": "Vol",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "repulsion",
               "title": "Répulsion",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "controle",
               "title": "Contrôle",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3456,31 +4004,41 @@
               "collectionKey": "pouvoirs",
               "slug": "invoquer-la-forme-simple",
               "title": "Invoquer la Forme Simple",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "magie-de-la-forge",
               "title": "Magie de la Forge",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "permanence",
               "title": "Permanence",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "inverser-la-conjuration",
               "title": "Inverser la Conjuration",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "pouvoir-sur-la-vie",
               "title": "Pouvoir sur la Vie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3558,31 +4116,41 @@
               "collectionKey": "pouvoirs",
               "slug": "contre-pied",
               "title": "Contre-Pied",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "subversion",
               "title": "Subversion",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "dissocier",
               "title": "Dissocier",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "dependance",
               "title": "Dépendance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "assuetude",
               "title": "Assuétude",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3700,31 +4268,41 @@
               "collectionKey": "pouvoirs",
               "slug": "force-elementaire",
               "title": "Force Elémentaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "langue-de-bois",
               "title": "Langue de Bois",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "animer-l-immobile",
               "title": "Animer l’Immobile",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-elementaire",
               "title": "Forme Elementaire",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "invoquer-les-elementaires",
               "title": "Invoquer les Elementaires",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3774,77 +4352,6 @@
       ]
     },
     {
-      "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
-      "slug": "voie-de-la-mort",
-      "title": "Voie de la Mort",
-      "notionUrl": "https://app.notion.com/p/Voie-de-la-Mort-38188b48e48e80baa0b1cd7a36d0ee57",
-      "lastEditedTime": "2026-07-12T16:31:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Apparence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie de la Mort"
-        }
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "La voie de la mort traite des processus et manifestations physique de la mort. Cette voie surgi d'une compréhension profonde de ce qu'est la mort et elle pose la question philosophique de la place du corps en tant que porte entre la vie et la mort.\nDans les temps anciens les membres du clan des Cappadociens était les nécromanciens principaux de la société vampirique. Cependant au fil des siècles, leur propriété sur la discipline s'est amenuisé. Maintenant, seule la voie de la mort reste l'exclusivité de leur clan. Seuls les Cappadociens et leur lignée les Lamias peuvent apprendre cette voie de Nécromancie. Ni les Giovanni ni les Samedi ne peuvent apprendre naturellement cette voie.",
-          "spans": [
-            {
-              "text": "La voie de la mort traite des processus et manifestations physique de la mort. Cette voie surgi d'une compréhension profonde de ce qu'est la mort et elle pose la question philosophique de la place du corps en tant que porte entre la vie et la mort.\nDans les temps anciens les membres du clan des Cappadociens était les nécromanciens principaux de la société vampirique. Cependant au fil des siècles, leur propriété sur la discipline s'est amenuisé. Maintenant, seule la voie de la mort reste l'exclusivité de leur clan. Seuls les Cappadociens et leur lignée les Lamias peuvent apprendre cette voie de Nécromancie. Ni les Giovanni ni les Samedi ne peuvent apprendre naturellement cette voie.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
       "slug": "voie-de-la-puissance-de-neptune",
       "title": "Voie de la Puissance de Neptune",
@@ -3873,31 +4380,41 @@
               "collectionKey": "pouvoirs",
               "slug": "maitrise-de-l-eau",
               "title": "Maîtrise de l’eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "prison-d-eau",
               "title": "Prison d’Eau",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "moment-de-reflexion",
               "title": "Moment de Réflexion",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "mur-fluide",
               "title": "Mur Fluide",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "deshydratation",
               "title": "Déshydratation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3947,84 +4464,6 @@
       ]
     },
     {
-      "id": "38188b48-e48e-80db-9f82-cc7350ecdb53",
-      "slug": "voie-de-la-sepulture",
-      "title": "Voie de la Sépulture",
-      "notionUrl": "https://app.notion.com/p/Voie-de-la-S-pulture-38188b48e48e80db9f82cc7350ecdb53",
-      "lastEditedTime": "2026-07-12T16:31:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Social",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Apparence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "giovanni",
-              "title": "Giovanni",
-              "cout": null
-            }
-          ]
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie de la Sépulture"
-        }
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "La Voie de la sépulture englobe l'études des esprits, des fantômes et des d'autres créatures intangible. Avec l'apprentissage de cette voie, le vampire peut invoquer et contrôller une banshee, les forçant à servir les désirs du nécromancien. à moins que l'inverse soit noté, les pouvoirs qui affecte les fantômes, les banshee et les spectres peuvent seulement être utiliser sur l'esprit du mort. Ces pouvoirs ne peuvent être utiliser sur des entités projetés psychiquement, Ombre, ou n'importe quel autre créature intangible.",
-          "spans": [
-            {
-              "text": "La Voie de la sépulture englobe l'études des esprits, des fantômes et des d'autres créatures intangible. Avec l'apprentissage de cette voie, le vampire peut invoquer et contrôller une banshee, les forçant à servir les désirs du nécromancien. à moins que l'inverse soit noté, les pouvoirs qui affecte les fantômes, les banshee et les spectres peuvent seulement être utiliser sur l'esprit du mort. Ces pouvoirs ne peuvent être utiliser sur des entités projetés psychiquement, Ombre, ou n'importe quel autre créature intangible.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "38188b48-e48e-808f-a4ec-cabd8fa19802",
       "slug": "voie-de-la-technomancie",
       "title": "Voie de la Technomancie",
@@ -4053,31 +4492,41 @@
               "collectionKey": "pouvoirs",
               "slug": "analyse",
               "title": "Analyse",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "surtension",
               "title": "Surtension",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "crypter-decrypter",
               "title": "Crypter/Décrypter",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "teletravail",
               "title": "Télétravail",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "acces-a-distance",
               "title": "Accès à Distance",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4186,7 +4635,9 @@
               "collectionKey": "lignees",
               "slug": "voie-de-la-terre",
               "title": "Voie de la Terre",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4198,11 +4649,11 @@
       "content": []
     },
     {
-      "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
-      "slug": "voie-des-ames",
-      "title": "Voie des Âmes",
-      "notionUrl": "https://app.notion.com/p/Voie-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
+      "slug": "voie-de-mortis",
+      "title": "Voie de Mortis",
+      "notionUrl": "https://app.notion.com/p/Voie-de-Mortis-38188b48e48e80baa0b1cd7a36d0ee57",
+      "lastEditedTime": "2026-07-12T16:49:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4221,7 +4672,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "masque-de-mort",
+              "title": "Masque de Mort",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "remonter-la-pendule",
+              "title": "Remonter la Pendule",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fleau",
+              "title": "Fléau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "passage-de-la-faucheuse",
+              "title": "Passage de la Faucheuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "la-quatrieme-cavalier",
+              "title": "La Quatrième Cavalier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -4232,7 +4724,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Apparence"
         },
         "Techniques": {
           "type": "relation",
@@ -4252,10 +4744,21 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Voie des Âmes"
+          "value": "Voie de Mortis"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Voie de Mortis est en rapport avec les processus physiques et les manifestations de la mort qui affectent le corps physique. Cette Voie provient d'une profonde compréhension nécromantique de la forme de mort vivant et sa philosophie se base sur la nature du corps en tant que passerelle entre la vie et la mort. Seul les Premascine peuvent apprendre cette Voie de nécromancie. Aucun Giovanni n'a un accès inné à cette Voie.",
+          "spans": [
+            {
+              "text": "La Voie de Mortis est en rapport avec les processus physiques et les manifestations de la mort qui affectent le corps physique. Cette Voie provient d'une profonde compréhension nécromantique de la forme de mort vivant et sa philosophie se base sur la nature du corps en tant que passerelle entre la vie et la mort. Seul les Premascine peuvent apprendre cette Voie de nécromancie. Aucun Giovanni n'a un accès inné à cette Voie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-803a-b7a1-ff66349a805c",
@@ -4286,31 +4789,41 @@
               "collectionKey": "pouvoirs",
               "slug": "perception-au-dela-du-voile",
               "title": "Perception au-delà du Voile",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "maitrise-du-voile",
               "title": "Maîtrise du Voile",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "main-morte",
               "title": "Main Morte",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "lance-stygienne",
               "title": "Lance Stygienne",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "ex-nihilo",
               "title": "Ex Nihilo",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4361,10 +4874,10 @@
     },
     {
       "id": "38188b48-e48e-80e9-bee5-c14b66cc21ce",
-      "slug": "voie-des-os",
-      "title": "Voie des Os",
-      "notionUrl": "https://app.notion.com/p/Voie-des-Os-38188b48e48e80e9bee5c14b66cc21ce",
-      "lastEditedTime": "2026-07-12T16:33:00.000Z",
+      "slug": "voie-des-ossements",
+      "title": "Voie des Ossements",
+      "notionUrl": "https://app.notion.com/p/Voie-des-Ossements-38188b48e48e80e9bee5c14b66cc21ce",
+      "lastEditedTime": "2026-07-12T16:37:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4383,7 +4896,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "regard-des-morts",
+              "title": "Regard des Morts",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "detruire-la-coquille",
+              "title": "Détruire la Coquille",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "horde-putrefiee",
+              "title": "Horde Putréfiée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "morbidite",
+              "title": "Morbidité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "marionnette-macabre",
+              "title": "Marionnette Macabre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -4414,7 +4968,7 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Voie des Os"
+          "value": "Voie des Ossements"
         }
       },
       "content": [
@@ -4519,31 +5073,41 @@
               "collectionKey": "pouvoirs",
               "slug": "brouillard",
               "title": "Brouillard",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "fluctuation",
               "title": "Fluctuation",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "grands-vents",
               "title": "Grands Vents",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "tempete",
               "title": "Tempête",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "eclairs",
               "title": "Eclairs",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4641,31 +5205,41 @@
               "collectionKey": "pouvoirs",
               "slug": "centre-parfait",
               "title": "Centre Parfait",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "puit-de-gravite",
               "title": "Puit de gravité",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "perturbation-circadienne",
               "title": "Perturbation Circadienne",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "syzygie",
               "title": "Syzygie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "echos-d-anthelios",
               "title": "Echos d’Anthelios",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4854,7 +5428,9 @@
               "collectionKey": "lignees",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4894,31 +5470,41 @@
               "collectionKey": "pouvoirs",
               "slug": "gout-du-sang",
               "title": "Goût du sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "rage-de-sang",
               "title": "Rage de Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "sang-puissant",
               "title": "Sang Puissant",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "vol-de-sang",
               "title": "Vol de Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "chaudron-de-sang",
               "title": "Chaudron de Sang",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4944,7 +5530,9 @@
               "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -4968,6 +5556,127 @@
           "spans": [
             {
               "text": "La voie du sang est considérée comme la base des arcanes de la Thaumaturgie. Elle fait appel au concept biologique de la magie pour vous permettre de modifier les propriétés de la vitae au sein de votre système sanguin ou de découvrir les secrets d'autres personnages caché dans leur sang. Tout les Tremere apprennent cette voie et se basent dessus pour étudier la Thaumaturgie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38188b48-e48e-80db-9f82-cc7350ecdb53",
+      "slug": "voie-du-sepulcre",
+      "title": "Voie du Sepulcre",
+      "notionUrl": "https://app.notion.com/p/Voie-du-Sepulcre-38188b48e48e80db9f82cc7350ecdb53",
+      "lastEditedTime": "2026-07-12T16:55:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "temoin-de-la-mort",
+              "title": "Témoin de la Mort",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "tourment",
+              "title": "Tourment",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "invocation-d-ame",
+              "title": "Invocation d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "lier-une-ame",
+              "title": "Lier une Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vol-d-ame",
+              "title": "Vol d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Social",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Sepulcre"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les spectres, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes, les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
+          "spans": [
+            {
+              "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les spectres, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes, les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
               "bold": false
             }
           ]
@@ -5024,7 +5733,9 @@
               "collectionKey": "lignees",
               "slug": "voie-du-vent",
               "title": "Voie du Vent",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5064,31 +5775,41 @@
               "collectionKey": "pouvoirs",
               "slug": "recolte-sanguine",
               "title": "Récolte Sanguine",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "rameaux-souterrains",
               "title": "Rameaux Souterrains",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "repos-de-la-belladone",
               "title": "Repos de la Belladone",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "chlorokinesie",
               "title": "Chlorokinésie",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "pouvoirs",
               "slug": "racines-carnivores",
               "title": "Racines Carnivores",
-              "cout": null
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },

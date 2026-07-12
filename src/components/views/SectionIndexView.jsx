@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import AppIcon from "../AppIcon";
+import ItemFlags from "../ItemFlags";
 import LoadingState from "../States/LoadingState";
 import { applyGroupFilter } from "../../utils/groupFilter";
 
@@ -54,6 +55,11 @@ export default function SectionIndexView({ wiki }) {
                                     <Link to={`${activeNavigation.path}/${item.slug}`} className="indexListItem">
                                         <AppIcon name={activeNavigation.icon} size={16} aria-hidden="true" />
                                         <span>{item.title}</span>
+                                        <ItemFlags
+                                            needsApproval={item.properties?.Approbation?.value === true}
+                                            full={item.properties?.Complet?.value === true}
+                                            compact
+                                        />
                                     </Link>
                                 </li>
                             ))}

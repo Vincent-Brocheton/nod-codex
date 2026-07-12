@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
 import ItemListButton from "../ItemListButton";
+import ItemFlags from "../ItemFlags";
 import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 
@@ -46,6 +47,13 @@ export default function LigneesListView({ wiki }) {
                             label={item.title}
                             selected={item.id === activeItem?.id}
                             onClick={() => navigate(`${activeNavigation.path}/${item.slug}`)}
+                            badges={(
+                                <ItemFlags
+                                    needsApproval={item.properties?.Approbation?.value === true}
+                                    full={item.properties?.Complet?.value === true}
+                                    compact
+                                />
+                            )}
                         />
                     ))}
                     {items.length === 0 ? <p className="empty">Aucune fiche dans cette base pour le moment.</p> : null}
