@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-07-12T12:16:51.402Z",
+  "generatedAt": "2026-07-12T13:23:32.587Z",
   "propertyOptions": {},
   "items": [
     {
@@ -404,7 +404,7 @@
       "slug": "etape-10-finalisation",
       "title": "Etape 10 : Finalisation",
       "notionUrl": "https://app.notion.com/p/Etape-10-Finalisation-39a88b48e48e80ce9eeec19ed86c07b3",
-      "lastEditedTime": "2026-07-11T16:21:00.000Z",
+      "lastEditedTime": "2026-07-12T13:23:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -419,7 +419,240 @@
           "value": "Etape 10 : Finalisation"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une fois vos XP de départ dépensés, votre personnage est terminé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il ne vous reste plus qu'à noter les caractéristiques dérivées de votre fiche."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Votre Génération détermine votre Réserve de Sang ainsi que la quantité de Sang pouvant être dépensée par tour."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Tous les personnages commencent avec 9 niveaux de Santé, répartis en trois catégories :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Tous les personnages commencent avec 6 points de Volonté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains Atouts ou Handicaps peuvent modifier cette valeur ou d'autres caractéristiques de votre fiche. Pensez à appliquer toutes ces modifications avant de commencer la partie."
+        },
+        {
+          "type": "heading_1",
+          "text": "Humanité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires luttent constamment contre leur nature monstrueuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le conflit permanent entre l'Humain et la Bête constitue l'un des thèmes centraux de Vampire : la Mascarade."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Humanité représente la manière dont un vampire parvient à contenir les instincts de prédation de sa Bête, sa faim insatiable et sa colère destructrice."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant une Humanité élevée garde un contrôle important sur sa Bête grâce à un code moral particulièrement strict."
+        },
+        {
+          "type": "paragraph",
+          "text": "La valeur de Humanité indique donc la capacité du personnage à respecter un ensemble de principes, qu'il s'agisse de ceux de l'Humanité ou d'une Voie de l'Illumination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Humanité élevée signifie que le personnage suit rigoureusement ses convictions. Il est plus stable émotionnellement, mais le moindre écart de conduite peut renforcer l'influence de la Bête."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'inverse, une Humanité faible indique que le personnage a déjà abandonné une grande partie de ses principes. La Bête exerce alors une influence beaucoup plus forte sur son comportement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces vampires deviennent insensibles, cyniques et ne ressentent pratiquement plus ni culpabilité ni remords face à leurs actes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne risquent généralement de perdre davantage de Humanité qu'en commettant des transgressions particulièrement graves, mais chaque chute nourrit une Bête déjà puissante et affamée."
+        },
+        {
+          "type": "paragraph",
+          "text": "À terme, ils risquent de perdre définitivement le contrôle et de sombrer dans une frénésie permanente appelée Wassail."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Humanité détermine également la capacité d'un vampire à gérer certains aspects de sa condition, notamment :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "rester éveillé durant la journée ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sortir de la torpeur ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "interagir avec les mortels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un vampire possédant une Humanité élevée paraît presque vivant :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sa peau conserve une légère coloration ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "il cligne naturellement des yeux ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "son corps est simplement frais plutôt que glacé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mortels ne ressentent alors aucune méfiance instinctive à son égard."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'inverse, un vampire doté d'une Humanité faible présente une apparence profondément inquiétante :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peau cadavérique ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "attitude animale ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "absence totale de respiration et de clignement des yeux ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "chair froide comme celle d'un mort."
+        },
+        {
+          "type": "paragraph",
+          "text": "Mortels comme vampires ressentent instinctivement un profond malaise en sa présence, tant sa nature prédatrice transparaît."
+        },
+        {
+          "type": "heading_1",
+          "text": "L'Humanité"
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des vampires continuent de suivre le système moral qu'ils possédaient lorsqu'ils étaient mortels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle reprend les valeurs morales généralement admises par les sociétés humaines : condamner le meurtre, le vol ou la cruauté, et valoriser la compassion, la bonté et l'altruisme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Parce qu'elle correspond naturellement à la condition humaine, l'Humanité est la Humanité la plus facile à conserver."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les personnages commencent avec 5 niveaux d'Humanité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, il est possible d'augmenter cette valeur jusqu'à 6, un niveau qualifié de sainteté, particulièrement difficile à préserver au fil de la chronique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages qui commettent régulièrement des péchés risquent progressivement de perdre leur Humanité."
+        },
+        {
+          "type": "heading_1",
+          "text": "Les Voies de l'Illumination"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelques vampires, dotés d'une volonté exceptionnelle, abandonnent l'Humanité pour suivre une Voie de l'Illumination."
+        },
+        {
+          "type": "paragraph",
+          "text": "Autrefois appelées Routes, ces Voies sont des systèmes moraux artificiels reposant sur un ensemble de vertus et de péchés très différents de ceux de l'Humanité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à cette dernière, elles ne sont pas naturelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les suivre exige une vigilance constante et une discipline absolue."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est donc beaucoup plus facile de chuter d'une Voie de l'Illumination, car le personnage — tout comme le joueur — doit continuellement respecter des valeurs radicalement étrangères aux principes humains."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Voies de l'Illumination proposent des conceptions du monde profondément inhumaines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leurs adeptes entretiennent une vision totalement différente du meurtre, du mensonge, du vol ou de la violence."
+        },
+        {
+          "type": "paragraph",
+          "text": "La compassion, la miséricorde, la bonté ou même la politesse n'ont souvent plus aucune importance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces valeurs cessent totalement de guider leurs décisions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les rares vampires qui parviennent à adopter durablement une Voie de l'Illumination en ressortent profondément transformés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur personnalité, leurs valeurs et leur manière de penser sont entièrement remodelées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur ancienne identité disparaît progressivement au profit des principes imposés par leur Voie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire devient presque méconnaissable comparé à ce qu'il était avant d'abandonner son Humanité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour suivre une Humanité alternative, le personnage doit acheter l'Atout correspondant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Voies de l'Illumination sont exigeantes à interpréter et demandent une excellente compréhension de l'univers ainsi qu'un véritable investissement en jeu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elles sont donc principalement destinées aux joueurs expérimentés, capables d'incarner la psychologie profondément étrangère et inhumaine de ces vampires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines chroniques rendent les Voies de l'Illumination extrêmement rares, voire totalement indisponibles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Renseignez-vous auprès de votre Conteur afin de connaître les options autorisées dans votre campagne."
+        }
+      ]
     },
     {
       "id": "39988b48-e48e-80f2-b61b-d6571387859f",
@@ -1543,7 +1776,7 @@
       "slug": "etape-6-historique-de-depart",
       "title": "Etape 6 : Historique de départ",
       "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-07-12T12:13:00.000Z",
+      "lastEditedTime": "2026-07-12T12:40:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1727,15 +1960,28 @@
               }
             }
           ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Troupeau]]",
+          "spans": [
+            {
+              "text": "Troupeau",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "troupeau"
+              }
+            }
+          ]
         }
       ]
     },
     {
       "id": "39a88b48-e48e-8085-9075-ce60b2702622",
-      "slug": "etape-7-disciplines-de-depart",
-      "title": "Etape 7 : Disciplines de départ",
-      "notionUrl": "https://app.notion.com/p/Etape-7-Disciplines-de-d-part-39a88b48e48e80859075ce60b2702622",
-      "lastEditedTime": "2026-07-11T16:20:00.000Z",
+      "slug": "etape-7-attribuer-les-disciplines-initiales",
+      "title": "Étape 7: Attribuer les Disciplines initiales",
+      "notionUrl": "https://app.notion.com/p/tape-7-Attribuer-les-Disciplines-initiales-39a88b48e48e80859075ce60b2702622",
+      "lastEditedTime": "2026-07-12T13:01:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1747,17 +1993,78 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Etape 7 : Disciplines de départ"
+          "value": "Étape 7: Attribuer les Disciplines initiales"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Disciplines sont les pouvoirs surnaturels conférés par l'Étreinte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis des siècles, elles alimentent les légendes entourant les vampires. Elles permettent de se transformer en chauve-souris ou en loup, de se déplacer plus vite que l'œil ne peut suivre, de soulever des voitures, d'encaisser des blessures qui seraient fatales à un mortel, de fasciner par une beauté surnaturelle ou encore de commander aux ombres. Elles permettent également de manipuler les souvenirs des mortels ou de se déplacer totalement invisibles au milieu d'eux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Alimentées par le Sang et la Volonté, les Disciplines sont la véritable marque des vampires. Les plus jeunes n'en maîtrisent que quelques-unes, tandis que les Anciens les plus redoutables en ont perfectionné un grand nombre au cours des siècles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque clan possède trois Disciplines qui lui sont propres, appelées Disciplines de clan. Les Disciplines appartenant à d'autres clans sont considérées comme hors-clan et sont plus difficiles à apprendre."
+        },
+        {
+          "type": "paragraph",
+          "text": "L'apprentissage d'une Discipline hors-clan nécessite un mentor vampirique dont le Sang porte naturellement cette Discipline. Pour acquérir le premier niveau d'une Discipline hors-clan, le personnage doit boire un point de Sang de ce mentor."
+        },
+        {
+          "type": "heading_2",
+          "text": "Les Disciplines à la création"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, attribuez 4 niveaux de Discipline de la manière suivante :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Attribuez 2 niveaux à une Discipline de clan de votre choix."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Attribuez 1 niveau dans chacune des deux autres Disciplines de clan de votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, chaque vampire commence la partie en maîtrisant les trois Disciplines propres à son clan."
+        },
+        {
+          "type": "heading_2",
+          "text": "Acheter des Disciplines supplémentaires"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant la création du personnage, vous pouvez dépenser des XP pour acquérir des niveaux supplémentaires dans des Disciplines, qu'elles soient de clan ou hors-clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux règles habituelles de progression, aucun mentor n'est nécessaire pour ces achats effectués durant la création du personnage. Cependant vous ne pouvez pas aller au delà de 3 points dans une discipline hors-clan lors de la création."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois la création terminée, le Conteur peut attribuer un montant supplémentaire de XP, en fonction du niveau de puissance de la chronique ou de l'historique du personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous souhaitez utiliser ces XP pour acheter des Disciplines hors-clan, le Conteur peut exiger que votre historique justifie cet apprentissage, notamment en établissant des liens avec d'autres personnages de la chronique susceptibles d'avoir servi de mentors."
+        }
+      ]
     },
     {
       "id": "39a88b48-e48e-80e8-87c5-d20ed0ec822e",
-      "slug": "etape-8-choix-des-atouts-et-handicaps",
-      "title": "Etape 8 : Choix des Atouts et Handicaps",
-      "notionUrl": "https://app.notion.com/p/Etape-8-Choix-des-Atouts-et-Handicaps-39a88b48e48e80e887c5d20ed0ec822e",
-      "lastEditedTime": "2026-07-11T16:20:00.000Z",
+      "slug": "etape-8-choisir-les-atouts-et-les-handicaps",
+      "title": "Étape 8: Choisir les Atouts et les Handicaps",
+      "notionUrl": "https://app.notion.com/p/tape-8-Choisir-les-Atouts-et-les-Handicaps-39a88b48e48e80e887c5d20ed0ec822e",
+      "lastEditedTime": "2026-07-12T13:11:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1769,17 +2076,114 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Etape 8 : Choix des Atouts et Handicaps"
+          "value": "Étape 8: Choisir les Atouts et les Handicaps"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "heading_3",
+          "text": "Atouts"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Atouts représentent des aptitudes, avantages ou particularités rares au sein de la société vampirique. Ils permettent de personnaliser un personnage en lui conférant des capacités ou des privilèges qu'il ne partage pas avec la majorité des autres vampires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Atout possède un coût en XP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, vous pouvez acheter jusqu'à 7 points d'Atouts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette limite comprend tous les Atouts acquis au cours de la création, notamment :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les Atouts de Rareté de clan ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les Atouts de Lignée ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ainsi que tous les autres Atouts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut jamais posséder plus de 7 points d'Atouts au total, toutes catégories confondues."
+        },
+        {
+          "type": "heading_3",
+          "text": "Atouts de Clan et de Lignée"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous souhaitez incarner un membre d'un clan peu commun ou rare, vous devez acheter l'Atout de Rareté correspondant."
+        },
+        {
+          "type": "paragraph",
+          "text": "De même, si votre personnage appartient à une Lignée, vous devez acquérir l'Atout de Lignée approprié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut appartenir qu'à une seule Lignée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour davantage d'informations sur les Atouts généraux, les Atouts et Handicaps."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Atouts propres aux différentes Lignées sont présentés dans les fiches de clans."
+        },
+        {
+          "type": "heading_3",
+          "text": "Handicaps"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Handicaps représentent les faiblesses, désavantages ou complications qui rendent l'existence nocturne d'un personnage plus difficile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au-delà de leur aspect mécanique, ils permettent d'enrichir l'interprétation et de rendre chaque personnage plus unique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Handicap possède une valeur en XP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous choisissez un Handicap lors de la création du personnage, ajoutez immédiatement cette valeur à votre réserve de PX de départ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage acquiert un Handicap après le début de la chronique, sa valeur est ajoutée à ses XP gagnés, dans la limite indiquée ci-dessous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez choisir autant de Handicaps que vous le souhaitez."
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, vous ne pouvez obtenir plus de 7 XP grâce aux Handicaps."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Handicaps dépassant cette limite n'accordent aucun XP supplémentaire, même s'ils continuent à affecter le personnage normalement."
+        }
+      ]
     },
     {
       "id": "39a88b48-e48e-80da-8eef-c6df14decc26",
-      "slug": "etape-9-depense-de-l-xp",
-      "title": "Etape 9 : Dépense de l’XP",
-      "notionUrl": "https://app.notion.com/p/Etape-9-D-pense-de-l-XP-39a88b48e48e80da8eefc6df14decc26",
-      "lastEditedTime": "2026-07-11T16:21:00.000Z",
+      "slug": "etape-9-depenser-ses-px",
+      "title": "Étape 9 : Dépenser ses PX",
+      "notionUrl": "https://app.notion.com/p/tape-9-D-penser-ses-PX-39a88b48e48e80da8eefc6df14decc26",
+      "lastEditedTime": "2026-07-12T13:16:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1791,10 +2195,471 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Etape 9 : Dépense de l’XP"
+          "value": "Étape 9 : Dépenser ses PX"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "heading_3",
+          "text": "XP de départ"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage commence avec un minimum de 30 XP de départ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut accorder davantage de XP si la chronique met en scène des personnages plus expérimentés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une partie de ces XP a peut-être déjà été dépensée pour acheter des Atouts, tandis que les Handicaps peuvent avoir augmenté votre réserve de XP."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les XP restants doivent être dépensés à cette étape."
+        },
+        {
+          "type": "heading_3",
+          "text": "Les XP de départ peuvent être utilisés pour :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "acheter des Attributs, Compétences ou Historiques supplémentaires ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "augmenter votre Génération ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "acheter des niveaux supplémentaires dans vos Disciplines de clan ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "acheter jusqu'à 3 niveaux dans des Disciplines hors-clan communes ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "acheter des Pouvoirs Anciens de clan (si votre Génération le permet) ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "acheter des Techniques (si votre Génération le permet et que vous remplissez les prérequis) ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "augmenter votre Moralité d'un niveau."
+        },
+        {
+          "type": "heading_3",
+          "text": "Augmenter sa Génération"
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Historique Génération s'achète normalement en utilisant le coût correspondant au nouveau niveau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage possède gratuitement Génération ● (Nouveau-né) grâce à ses Historiques de départ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous souhaitez finalement jouer un Apprenti Ancien (Génération ●●●)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devrez acheter successivement :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ancilla (●●) : nouveau niveau ×2 = 4 XP"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Apprenti Ancien (●●●) : nouveau niveau ×2 = 6 XP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Soit un total de 10 XP."
+        },
+        {
+          "type": "heading_3",
+          "text": "Disciplines hors-clan"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous ne pouvez pas acheter plus de 3 niveaux dans une Discipline hors-clan ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "seules les Disciplines communes peuvent être achetées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Disciplines communes sont :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Animalisme"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Auspex"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Célérité"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Domination"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Endurance"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Occultation"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Présence"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Puissance"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant la création du personnage, aucun mentor n'est nécessaire, à condition que l'apprentissage soit justifié dans l'histoire du personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur reste libre d'accepter ou non cette justification."
+        },
+        {
+          "type": "heading_3",
+          "text": "XP non dépensés"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous ne dépensez pas tous vos XP de départ, vous pouvez en conserver jusqu'à 5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces XP deviennent alors des XP gagnés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez jamais conserver plus de 5 XP lors de la création."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les XP de départ restant au-delà de cette limite sont définitivement perdus."
+        },
+        {
+          "type": "heading_2",
+          "text": "XP gagnés"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fil de la chronique, votre personnage gagne des Points d'Expérience (XP)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces XP permettent d'améliorer progressivement sa fiche en achetant :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Attributs ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Compétences ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Historiques ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Atouts ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Disciplines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils représentent l'expérience acquise au travers des épreuves, des rencontres et des enseignements vécus au cours de la chronique."
+        },
+        {
+          "type": "heading_2",
+          "text": "Coût des améliorations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les coûts suivants s'appliquent aussi bien aux XP de départ qu'aux XP gagnés, sauf indication contraire."
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Attribut",
+              "3 XP par niveau"
+            ],
+            [
+              "Discipline de clan",
+              "Nouveau niveau × 3 XP"
+            ],
+            [
+              "Récupérer un niveau de Moralité perdu",
+              "10 XP"
+            ],
+            [
+              "Atout",
+              "égal à sa valeur en points"
+            ],
+            [
+              "Rituel de Thaumaturgie ou de Nécromancie",
+              "Niveau du rituel × 2 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Nouveau-né"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×1"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×1"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "12 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancilla"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "12 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Apprenti Ancien"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "20 XP"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP (maximum un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan)"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "24 XP (même limite)"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancien"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "24 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancien Confirmé"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×5"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "30 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Restrictions"
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux éléments ne peuvent jamais être achetés avec des XP gagnés :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la Génération ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les Atouts de Lignée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne peuvent être acquis qu'à la création du personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par la suite, ils ne changent qu'à la suite d'événements exceptionnels, comme une Diablerie."
+        },
+        {
+          "type": "heading_2",
+          "text": "Disciplines hors-clan après la création"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les XP gagnés permettent :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'acheter des niveaux au-delà du troisième dans une Discipline hors-clan ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'acquérir des Disciplines hors-clan rares ou peu communes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à la création du personnage, cet apprentissage nécessite obligatoirement un mentor."
+        },
+        {
+          "type": "heading_2",
+          "text": "Récompenses d’ XP"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous gagnerez 3 XP par partie."
+        }
+      ]
     }
   ]
 }

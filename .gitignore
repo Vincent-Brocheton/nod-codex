@@ -13,6 +13,9 @@ dist-ssr
 *.local
 .env
 
+# Cache local du sync Notion (voir scripts/notion/cache.js)
+scripts/.cache/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

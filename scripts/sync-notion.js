@@ -8,6 +8,7 @@ import { notionRequest } from "./notion/client.js";
 import { richTextToPlainText } from "./notion/richText.js";
 import { normalizeProperties, findTitle, extractPropertyOptions } from "./notion/properties.js";
 import { resolveWikiLinks, buildItemTargets } from "./notion/wikiLinks.js";
+import { loadCache, saveCache } from "./notion/cache.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -134,15 +135,71 @@ function isVisible(item) {
   return property.value === true;
 }
 
+// Détaille, par base, quelles fiches ont réellement été retéléchargées
+// (nouvelles/modifiées), lesquelles viennent du cache (juste un total, pour
+// ne pas noyer la sortie sur les grosses bases) et lesquelles ont disparu
+// de Notion depuis le dernier sync.
+function logSyncSummary(label, { added, modified, unchangedCount, removed }) {
+  const total = added.length + modified.length + unchangedCount;
+
+  if (added.length === 0 && modified.length === 0 && removed.length === 0) {
+    console.log(`${label} : rien à synchroniser (${unchangedCount}/${total} fiche(s) déjà à jour)`);
+    return;
+  }
+
+  console.log(`${label} : synchronisation de ${added.length + modified.length}/${total} fiche(s)`);
+  if (added.length) console.log(`  + nouvelle(s) : ${added.join(", ")}`);
+  if (modified.length) console.log(`  ~ modifiée(s) : ${modified.join(", ")}`);
+  if (removed.length) console.log(`  - disparue(s) : ${removed.join(", ")}`);
+}
+
 async function fetchCollectionItems(collection) {
   const databaseId = process.env[collection.envVar];
 
-  const [database, pages] = await Promise.all([
+  const [database, pages, cache] = await Promise.all([
     fetchDatabase(databaseId),
     queryDatabase(databaseId),
+    loadCache(collection.key),
   ]);
 
-  const items = await Promise.all(pages.map((page) => normalizePage(page)));
+  // Chaque fiche retombe dans une des trois catégories ci-dessous, pour
+  // pouvoir afficher précisément ce qui a été retéléchargé (et donc ce qui
+  // ne l'a pas été) plutôt qu'un simple total agrégé.
+  const addedIds = [];
+  const modifiedIds = [];
+  const unchangedIds = [];
+
+  const items = await Promise.all(
+    pages.map((page) => {
+      const cached = cache.get(page.id);
+
+      if (cached && cached.lastEditedTime === page.last_edited_time) {
+        unchangedIds.push(page.id);
+        return cached.item;
+      }
+
+      (cached ? modifiedIds : addedIds).push(page.id);
+      return normalizePage(page);
+    })
+  );
+
+  // Écrit avant toute résolution de relations/liens (qui mute les fiches en
+  // place plus tard dans `main`) : le cache doit garder la forme brute de
+  // `normalizePage`, seule réutilisable telle quelle au prochain sync.
+  const nextCache = pages.map((page, index) => [page.id, { lastEditedTime: page.last_edited_time, item: items[index] }]);
+  await saveCache(collection.key, nextCache);
+
+  const titleById = new Map(pages.map((page, index) => [page.id, items[index].title]));
+  const removedTitles = [...cache.keys()]
+    .filter((id) => !titleById.has(id))
+    .map((id) => cache.get(id).item.title);
+
+  logSyncSummary(collection.label, {
+    added: addedIds.map((id) => titleById.get(id)),
+    modified: modifiedIds.map((id) => titleById.get(id)),
+    unchangedCount: unchangedIds.length,
+    removed: removedTitles,
+  });
 
   const visibleItems = items.filter(isVisible);
   visibleItems.sort((a, b) => a.title.localeCompare(b.title, "fr"));

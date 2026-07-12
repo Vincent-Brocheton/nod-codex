@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-12T12:16:51.402Z",
+  "generatedAt": "2026-07-12T13:23:32.588Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,126 +12,1692 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-07-12T10:46:00.000Z",
+      "lastEditedTime": "2026-07-12T12:30:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Alliés"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'Historique Alliés représente les mortels qui soutiennent votre personnage et lui viennent en aide. Il peut s'agir de membres de sa famille, d'amis de confiance, ou même d'une entreprise ou d'une organisation criminelle qui lui est favorable."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos Alliés peuvent être des employés de la morgue, un journaliste influent, un groupe de motards, un réseau de hackers, une organisation caritative ou encore des personnalités appartenant aux hautes sphères de la société. Grâce à eux, quelques appels téléphoniques ou quelques services rendus suffisent souvent à obtenir une aide précieuse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Alliés restent toutefois des mortels. Ils ignorent l'existence du Monde des Ténèbres et considèrent sincèrement votre personnage comme un ami ou un bienfaiteur. Comme dans toute relation, ils pourront eux aussi demander un service en retour. Si votre personnage refuse systématiquement de les aider, ou les abandonne lorsqu'ils ont besoin de lui, le Conteur peut réduire temporairement ou définitivement cet Historique."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque point investi dans Alliés, choisissez un groupe de personnes lié à votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, un personnage possédant Alliés ●●● pourrait disposer des contacts suivants :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le personnel de la morgue municipale ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un gang local ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un groupe de rock indépendant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous faites appel à vos Alliés, indiquez au Conteur quel groupe intervient et expliquez pourquoi il est en mesure de vous aider dans la situation concernée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Alliés peuvent accomplir des tâches raisonnables. Ils sont particulièrement efficaces lorsque celles-ci correspondent à leur domaine de compétence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, les employés d'une morgue pourront facilement faire disparaître un cadavre ou obtenir des informations médico-légales. En revanche, cambrioler une banque ne relève clairement pas de leurs compétences. Pour ce type d'opération, le gang serait bien plus approprié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si une scène nécessite l'intervention directe de vos Alliés, le Conteur crée jusqu'à trois PNJ simplifiés :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un PNJ de niveau 3 ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "deux PNJ de niveau 1."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces PNJ sont toujours des mortels et ne possèdent aucun pouvoir surnaturel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Alliés sont capables de se défendre, mais ils ne constituent pas une armée personnelle. Si tous vos Alliés sont tués, vous perdez l'accès à cet Historique pendant deux parties ou un mois (selon la période la plus longue)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez faire appel à vos Alliés une fois par partie et par point possédé dans cet Historique."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-80b3-bbea-ece0962e494f",
       "slug": "contact",
       "title": "Contact",
       "notionUrl": "https://app.notion.com/p/Contact-39b88b48e48e80b3bbeaece0962e494f",
-      "lastEditedTime": "2026-07-12T10:47:00.000Z",
+      "lastEditedTime": "2026-07-12T12:31:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Contact"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous entretenez des relations privilégiées avec de nombreuses personnes influentes. En quelques appels, vous êtes capable de recueillir des rumeurs, des informations confidentielles ou des indiscrétions auxquelles la plupart des gens n'ont jamais accès."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous savez qui soudoyer, qui convaincre, qui manipuler ou simplement à qui poser les bonnes questions."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux Alliés, vos Contacts ne travaillent pas directement pour vous. Leur véritable valeur réside dans les informations qu'ils sont capables de vous fournir."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque point investi dans Contacts, choisissez une personne avec laquelle votre personnage entretient une relation privilégiée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chacun de ces Contacts possède une excellente connaissance de son domaine d'activité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un personnage possédant Contacts ●●● pourrait connaître :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bethany, riche mondaine ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Carlos, directeur financier d'un grand groupe industriel ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Jane Anne, propriétaire de la boîte de nuit la plus réputée de la ville."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous utilisez vos Contacts, précisez au Conteur lequel d'entre eux vous sollicitez et expliquez pourquoi il pourrait connaître les informations recherchées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Contacts permettent notamment :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'obtenir un renseignement concernant une intrigue en cours ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de découvrir le résultat d'une action d'Influence réalisée dans la ville au cours du dernier mois ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de recueillir des indices permettant d'identifier le responsable de cette action d'Influence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur reste libre de déterminer précisément les informations obtenues."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser cet Historique une fois par partie et par point possédé."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-8071-9305-cf1c617afd85",
       "slug": "fausse-identite",
       "title": "Fausse Identité",
       "notionUrl": "https://app.notion.com/p/Fausse-Identit-39b88b48e48e80719305cf1c617afd85",
-      "lastEditedTime": "2026-07-12T12:14:00.000Z",
+      "lastEditedTime": "2026-07-12T12:30:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Fausse Identité"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre personnage possède une seconde identité parfaitement documentée : papiers officiels, certificats de naissance, permis de conduire, historique administratif et tous les justificatifs nécessaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette identité peut servir à dissimuler votre véritable existence parmi les mortels, ou constituer une couverture destinée à infiltrer un autre clan ou une autre secte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Historique peut être acheté plusieurs fois. Chaque achat représente une identité totalement indépendante des autres."
+        },
+        {
+          "type": "heading_3",
+          "text": "●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre couverture est superficielle."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez quelques documents officiels, comme un permis de conduire ou une carte d'identité, capables de résister à une vérification rapide."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est solide."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut résister à une enquête administrative classique et comprend notamment un acte de naissance, un numéro d'identification officiel et plusieurs traces crédibles de votre existence."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre couverture est particulièrement crédible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle comprend un historique cohérent, des proches, des témoins capables d'attester de votre identité et de nombreuses preuves de votre existence passée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la société vampirique, cela peut représenter un jeune vampire dont le sire est officiellement décédé mais dont l'histoire est parfaitement documentée."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est conçue pour infiltrer un autre clan ou une autre secte."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous disposez d'un sire vivant prêt à confirmer votre histoire, et plusieurs événements connus corroborent officiellement votre présence parmi ce groupe."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●●●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre couverture est pratiquement parfaite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité occupe une place importante dans la société mortelle ou vampirique. Elle bénéficie d'une histoire ancienne, d'une généalogie complète et résiste même aux investigations surnaturelles ordinaires."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela ne signifie pas pour autant qu'elle soit impossible à compromettre : une erreur de votre part ou une enquête suffisamment approfondie pourront toujours révéler la vérité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Identité secondaire ne trompe pas les pouvoirs surnaturels permettant directement de lire l'esprit ou de percevoir la véritable nature d'un individu."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Identité secondaire peut également obtenir une Acceptation et des Statuts propres dans une autre organisation vampirique."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-8039-bad8-c38d39db26a4",
       "slug": "generation",
       "title": "Génération",
       "notionUrl": "https://app.notion.com/p/G-n-ration-39b88b48e48e8039bad8c38d39db26a4",
-      "lastEditedTime": "2026-07-12T10:47:00.000Z",
+      "lastEditedTime": "2026-07-12T12:34:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Génération"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Selon les légendes de nombreux clans, Caïn, maudit par Dieu, fut le premier vampire. Il engendra ensuite une deuxième génération de vampires, qui à leur tour créèrent la troisième, et ainsi de suite."
+        },
+        {
+          "type": "paragraph",
+          "text": "Qu'ils croient ou non à cette origine mythique, les vampires mesurent la puissance de leur sang en générations, c'est-à-dire en comptant le nombre de sires qui les séparent de leur ancêtre originel."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Génération représente la puissance intrinsèque de la Vitae du personnage. Plus son sang est proche de celui des fondateurs, plus il est puissant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Historique ne peut être acheté qu'à la création du personnage. Par la suite, il ne peut évoluer que par un acte exceptionnel, tel que la Diablerie."
+        },
+        {
+          "type": "paragraph",
+          "text": "La puissance du sang influence directement les capacités d'un vampire. Les générations les plus basses disposent d'une Vitae plus pure, capable de soutenir les plus grands pouvoirs vampiriques. Les vampires de 8e génération ou inférieure sont ainsi communément désignés comme des Anciens."
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'inverse, un sang plus dilué offre davantage de souplesse. Les vampires des générations élevées maîtrisent plus facilement les Techniques, ces pouvoirs résultant de la combinaison de plusieurs Disciplines."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour créer un vampire, votre personnage doit posséder au moins un point en Génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point acheté remplace le précédent : les bénéfices ne sont pas cumulés."
+        },
+        {
+          "type": "heading_2",
+          "text": "Diablerie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires les moins scrupuleux peuvent accroître la puissance de leur sang grâce à la Diablerie, un crime consistant à consumer entièrement l'âme d'un autre vampire."
+        },
+        {
+          "type": "paragraph",
+          "text": "En dévorant la Vitae et l'essence spirituelle de leur victime, ils renforcent leur propre Génération."
+        },
+        {
+          "type": "heading_2",
+          "text": "● Génération (Nouveau-né)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nouveau-nés possèdent une Vitae particulièrement diluée. Ils ont généralement été Étreints récemment et s'adaptent naturellement au monde moderne."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur sang est trop faible pour soutenir les Pouvoirs Anciens, mais sa souplesse leur permet d'apprendre les Techniques avec une grande facilité."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage appartient à la 11e génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez, si le Conteur l'autorise, choisir un Handicap permettant de commencer en 12e ou 13e génération. Ces deux générations sont toujours considérées comme des Nouveau-nés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Nouveau-né possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 10 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 1 point de Sang par tour ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut apprendre autant de Techniques qu'il le souhaite au coût normal."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nouveau-nés bénéficient également d'un apprentissage plus rapide des compétences acquises durant leur existence moderne."
+        },
+        {
+          "type": "heading_2",
+          "text": "●● Génération (Ancilla)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ancillae possèdent une Vitae plus puissante que celle des Nouveau-nés, sans être suffisamment pure pour accéder aux Pouvoirs Anciens."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur sang conserve néanmoins assez de souplesse pour maîtriser les Techniques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils sont généralement âgés de plusieurs décennies, voire de quelques siècles, et comprennent moins instinctivement les évolutions technologiques que les vampires les plus jeunes."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage appartient à la 9e génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez choisir un Handicap afin de commencer en 10e génération, qui reste considérée comme une Ancilla."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Ancilla possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 12 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 2 points de Sang par tour ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut apprendre autant de Techniques qu'elle le souhaite au coût normal."
+        },
+        {
+          "type": "heading_2",
+          "text": "●●● Génération (Apprenti Ancien)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang d'un Apprenti Ancien est suffisamment puissant pour soutenir un unique Pouvoir Ancien."
+        },
+        {
+          "type": "paragraph",
+          "text": "Sa Vitae conserve toutefois une certaine souplesse, lui permettant encore d'apprendre les Techniques, bien que cela lui demande davantage d'efforts."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces vampires sont généralement âgés de plusieurs siècles."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage appartient à la 8e génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 15 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 3 points de Sang par tour ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut apprendre autant de Techniques qu'il le souhaite pour 20 PX chacune ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut acquérir un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan, au coût normal."
+        },
+        {
+          "type": "heading_2",
+          "text": "●●●● Génération (Ancien)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les véritables Anciens représentent l'élite de leur clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur Vitae est devenue extrêmement pure et leur permet d'apprendre plusieurs Pouvoirs Anciens."
+        },
+        {
+          "type": "paragraph",
+          "text": "En contrepartie, cette puissance rend leur sang beaucoup moins malléable : ils ne peuvent plus développer de Techniques."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage appartient à la 7e génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 20 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 4 points de Sang par tour ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut apprendre autant de Pouvoirs Anciens qu'il le souhaite, qu'ils soient de clan ou hors-clan."
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "il ne peut apprendre aucune Technique."
+        },
+        {
+          "type": "heading_2",
+          "text": "●●●●● Génération (Ancien Confirmé)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Anciens Confirmé figurent parmi les vampires les plus redoutables encore actifs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur sang est d'une pureté exceptionnelle, presque comparable à celui des fondateurs des clans."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette puissance leur permet de maîtriser les plus grands Pouvoirs Anciens, mais leur Vitae est devenue si spécialisée qu'elle assimile difficilement les Disciplines étrangères à leur lignée."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage appartient à la 6e génération."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 30 points ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 5 points de Sang par tour ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut apprendre autant de Pouvoirs Anciens qu'il le souhaite."
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "il peut acheter un 6e niveau dans toutes les Compétences ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "il ne peut apprendre aucune Technique ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "toutes les Disciplines hors-clan, y compris leurs Pouvoirs Anciens, coûtent Nouveau niveau × 5 PX au lieu de Nouveau niveau × 4 PX."
+        },
+        {
+          "type": "heading_2",
+          "text": "Tableau de Génération"
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Titre",
+              "Génération",
+              "Réserve de Sang",
+              "Sang / tour",
+              "Bonus d'Attribut"
+            ],
+            [
+              "Nouveau-né",
+              "13e à 11e",
+              "10",
+              "1",
+              "+1"
+            ],
+            [
+              "Ancilla",
+              "10e à 9e",
+              "12",
+              "2",
+              "+2"
+            ],
+            [
+              "Apprenti Ancien",
+              "8e",
+              "15",
+              "3",
+              "+3"
+            ],
+            [
+              "Ancien",
+              "7e",
+              "20",
+              "4",
+              "+4"
+            ],
+            [
+              "Ancien Confirmé",
+              "6e",
+              "30",
+              "5",
+              "+5"
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Bonus d'Attribut"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les points accordés par la Génération n'augmentent pas directement les Attributs du personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils servent à relever leur valeur maximale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point de Bonus d'Attribut augmente de 1 le maximum d'un des trois Attributs :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Physique"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Social"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Mental"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces bonus peuvent être répartis librement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un vampire de 8e génération dispose de 3 points à répartir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "augmenter son maximum Physique à 13 ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou augmenter son maximum Physique à 11 et Mental à 12 ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou toute autre répartition équivalente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces nouveaux maximums n'accordent aucun point gratuit : le personnage devra toujours dépenser des PX pour atteindre ces valeurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les joueurs ne sont pas obligés d'attribuer immédiatement ces bonus. Ils peuvent attendre qu'un Attribut dépasse 10 avant de décider dans quelle catégorie utiliser leurs points."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-80d8-a571-c35c900f934c",
       "slug": "havre",
       "title": "Havre",
       "notionUrl": "https://app.notion.com/p/Havre-39b88b48e48e80d8a571c35c900f934c",
-      "lastEditedTime": "2026-07-12T10:47:00.000Z",
+      "lastEditedTime": "2026-07-12T12:39:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Havre"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tout vampire a besoin d'un endroit sûr où se retirer durant la journée : son Havre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut s'agir d'une demeure luxueuse, d'un appartement discret, d'un manoir abandonné, d'un tunnel dans les égouts ou de tout autre lieu où le personnage peut raisonnablement survivre à l'abri du soleil et des intrusions."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point investi dans cet Historique permet de choisir un avantage parmi la liste suivante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un même avantage ne peut être choisi qu'une seule fois pour un même Havre."
+        },
+        {
+          "type": "heading_3",
+          "text": "Vigiles"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est protégé par des gardiens qui en assurent la surveillance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne cherchant à y pénétrer devra affronter 5 niveaux de Serviteurs chargés de sa défense."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez répartir ces niveaux comme vous le souhaitez (un Serviteur de niveau 5, cinq Serviteurs de niveau 1, etc.)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces vigiles ne quittent jamais le Havre . Si vous souhaitez disposer de serviteurs capables de vous accompagner, utilisez plutôt l'Historique Serviteurs."
+        },
+        {
+          "type": "heading_3",
+          "text": "Bibliothèque"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre renferme une importante bibliothèque spécialisée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir passé une heure à effectuer des recherches, vous bénéficiez d'un bonus de +3 à votre prochain test de Recherche ou de Connaissances."
+        },
+        {
+          "type": "heading_3",
+          "text": "Emplacement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre se situe dans un quartier privilégié."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative visant à vous nuire au moyen d'AIP coûte deux fois plus d'actions tant que vous résidez régulièrement dans ce Havre."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, vous bénéficiez naturellement des avantages liés à ce type de quartier : interventions rapides des secours, services publics de qualité, voisinage influent, etc."
+        },
+        {
+          "type": "heading_3",
+          "text": "Raffinement"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est richement aménagé."
+        },
+        {
+          "type": "paragraph",
+          "text": "Œuvres d'art, mobilier prestigieux, équipements modernes et confort exceptionnel impressionnent tous les visiteurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les tests Sociaux contre des mortels effectués à l'intérieur de votre Havre bénéficient d'un bonus de +3."
+        },
+        {
+          "type": "heading_3",
+          "text": "Sécurité"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est protégé par des systèmes de sécurité particulièrement efficaces."
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative d'intrusion ou de dissimulation à l'intérieur du Havre subit un malus de –3."
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre, vous serez toujours averti au moins un tour avant qu'un intrus ne puisse pénétrer dans votre Havre, quel que soit le résultat obtenu par celui-ci."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant la Compétence Sécurité obtiennent gratuitement cet avantage."
+        },
+        {
+          "type": "heading_3",
+          "text": "Superficie"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est particulièrement vaste."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il comprend suffisamment d'espace pour héberger confortablement dix personnages supplémentaires."
+        },
+        {
+          "type": "heading_3",
+          "text": "Employés de maison"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est entretenu par plusieurs domestiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils assurent les tâches quotidiennes et veillent au confort des occupants."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne combattent normalement pas. Si les circonstances les y contraignent, considérez-les comme des Serviteurs de niveau 1 sans spécialité martiale."
+        },
+        {
+          "type": "heading_3",
+          "text": "Occultisme"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Havre est protégé par divers talismans, sceaux ou rituels mineurs destinés à repousser les créatures surnaturelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces protections peuvent prendre de nombreuses formes : runes gravées, cercles de sel, amulettes suspendues aux portes, etc."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les PNJ surnaturels simplifiés ne peuvent pénétrer dans votre Havre sans y être invités."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet avantage n'affecte ni les personnages-joueurs ni les PNJ disposant d'une fiche complète."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez posséder la Compétence Occultisme pour choisir cet avantage."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-8031-b3b0-fcbb7a779b7f",
       "slug": "influences",
       "title": "Influences",
       "notionUrl": "https://app.notion.com/p/Influences-39b88b48e48e8031b3b0fcbb7a779b7f",
-      "lastEditedTime": "2026-07-12T12:16:00.000Z",
+      "lastEditedTime": "2026-07-12T12:41:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Influences"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'Historique Influences représente les réseaux, relations, faveurs et leviers de pouvoir que votre personnage exerce sur le monde des mortels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux Contacts, les Influences ne correspondent pas à des individus précis, mais à une capacité durable d'agir sur une partie de la société."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acheter jusqu'à 5 points dans chacune des catégories suivantes."
+        },
+        {
+          "type": "heading_3",
+          "text": "Gotha"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous exercez une influence sur les sphères dirigeantes de la société :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dirigeants d'entreprises ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "responsables politiques ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "institutions importantes ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "grandes fortunes ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "personnalités influentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous évoluez parmi les puissants."
+        },
+        {
+          "type": "heading_3",
+          "text": "Pègre"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous contrôlez les milieux criminels ou marginaux :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "gangs ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "contrebandiers ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "trafiquants ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "réseaux clandestins ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "communautés vivant en dehors des structures officielles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous connaissez les rumeurs, les marchés noirs et les secrets de la rue."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-8081-ab3d-e3d460b94fc8",
       "slug": "renommee",
       "title": "Renommée",
       "notionUrl": "https://app.notion.com/p/Renomm-e-39b88b48e48e8081ab3de3d460b94fc8",
-      "lastEditedTime": "2026-07-12T12:13:00.000Z",
+      "lastEditedTime": "2026-07-12T12:31:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Renommée"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Avant son Étreinte, votre personnage s'était déjà fait un nom parmi les mortels. Artiste reconnu, homme politique, sportif de haut niveau, héritier d'une grande famille ou personnalité médiatique, il bénéficie encore aujourd'hui d'une importante notoriété."
+        },
+        {
+          "type": "paragraph",
+          "text": "La Célébrité est généralement réservée aux jeunes vampires. Avec les siècles, même les plus grands noms tombent dans l'oubli. Un personnage particulièrement ancien devra justifier auprès du Conteur les raisons pour lesquelles il reste connu du public."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de l'achat de cet Historique, déterminez la raison de cette renommée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un mortel reconnaît votre personnage, celui-ci bénéficie d'un bonus de +5 à tous ses tests Sociaux non surnaturels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les PNJ seront souvent enclins à lui accorder leur confiance, à lui rendre de petits services ou à lui laisser le bénéfice du doute."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, une célébrité pourra plus facilement obtenir une suite d'hôtel, convaincre un policier de fermer les yeux ou persuader des témoins qu'un événement étrange n'était qu'un tournage de cinéma."
+        },
+        {
+          "type": "paragraph",
+          "text": "En contrepartie, toute utilisation de cette notoriété attire l'attention. Les médias, les réseaux sociaux ou les journalistes pourront rapidement s'intéresser aux circonstances de votre apparition."
+        },
+        {
+          "type": "heading_3",
+          "text": "Niveaux de Renommée"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "● Cercle local."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "●● Ville entière."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "●●● Région ou département."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "●●●● Plusieurs régions."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "●●●●● Renommée nationale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur reste libre de limiter la disponibilité de cet Historique si son niveau risque de perturber le bon déroulement de la chronique."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-809b-a056-f1fb261ceb8d",
       "slug": "ressources",
       "title": "Ressources",
       "notionUrl": "https://app.notion.com/p/Ressources-39b88b48e48e809ba056f1fb261ceb8d",
-      "lastEditedTime": "2026-07-12T10:47:00.000Z",
+      "lastEditedTime": "2026-07-12T12:57:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Ressources"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'argent demeure l'un des moyens les plus simples d'obtenir biens, services et pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires possédant cet Historique disposent de revenus, d'investissements ou d'un patrimoine leur permettant de financer leurs activités."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut s'agir :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'espèces ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'investissements financiers ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'immobilier ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'entreprises ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de fonds fiduciaires ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de réseaux criminels ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'institutions religieuses ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou de toute autre source de richesse."
+        },
+        {
+          "type": "paragraph",
+          "text": "Discutez avec votre Conteur de l'origine exacte de cette fortune."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage sans Ressources possède uniquement le strict nécessaire à sa survie."
+        },
+        {
+          "type": "heading_3",
+          "text": "● Suffisant"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous vivez confortablement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez un logement modeste, un véhicule courant et pouvez vous offrir quelques loisirs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser jusqu'à 1 000 € par mois sans difficulté."
+        },
+        {
+          "type": "heading_3",
+          "text": "●● Aisé"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous appartenez à la classe moyenne supérieure."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous disposez d'une belle maison, de plusieurs véhicules et pouvez employer un assistant ou un domestique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser jusqu'à 2 500 € par mois."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●● Confortable"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un membre reconnu de votre communauté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous possédez une grande propriété ainsi qu'une résidence secondaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser jusqu'à 20 000 € par mois."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●● Fortuné"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre richesse repose essentiellement sur vos investissements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Or, pierres précieuses, entreprises ou patrimoine immobilier constituent l'essentiel de votre fortune."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les institutions financières surveillent attentivement vos mouvements d'argent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser jusqu'à 100 000 € par mois."
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●●● Immensément riche"
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre fortune dépasse largement celle de la plupart des grands industriels."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous contrôlez d'importants capitaux, parfois à l'échelle internationale."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les gouvernements eux-mêmes peuvent solliciter vos investissements."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acquérir pratiquement tout ce qui est disponible à la vente."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser jusqu'à 250 000 € par mois sans attirer d'attention particulière."
+        },
+        {
+          "type": "heading_3",
+          "text": "Au délà de vos Moyens"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant l'Historique Ressources peut choisir de surcharger ses ressources, lui permettant de dépenser davantage que le montant normalement autorisé au cours d'un même mois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas, le personnage peut dépenser jusqu'au double du montant mensuel correspondant à son niveau de Ressources. Une telle dépense met cependant ses finances à rude épreuve et nécessite une période de redressement."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage surcharge ses Ressources, son Historique Ressources est réduit de 2 points (minimum 0) pendant les six parties suivantes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage peut réduire cette durée de récupération de moitié en consacrant 3 actions d'Interpartie à la gestion active de ses investissements et au rétablissement de sa situation financière."
+        }
+      ]
     },
     {
       "id": "39b88b48-e48e-8095-957b-de71ddd13735",
       "slug": "serviteurs",
       "title": "Serviteurs",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
-      "lastEditedTime": "2026-07-12T10:47:00.000Z",
+      "lastEditedTime": "2026-07-12T12:51:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
           "value": "Serviteurs"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Qu'ils soient liés par l'amitié, la gratitude, la dépendance au Sang ou un Lien de Sang, certains mortels font preuve d'une loyauté sans faille envers votre personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux Alliés, qui rendent occasionnellement des services, les Serviteurs sont constamment à votre disposition."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils veillent sur vos biens, protègent votre Havre, exécutent vos ordres et poursuivent vos intérêts lorsque vous ne pouvez agir vous-même."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur ne possède généralement ni le réseau d'un Contact, ni la polyvalence d'un Allié. En revanche, il est bien plus fiable et fidèle."
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de besoin, il est prêt à défendre son maître, à protéger son Havre durant la journée ou à accomplir toute mission qui lui est confiée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chez les vampires, les Serviteurs sont le plus souvent des Goules, liées par le Sang. Même lorsqu'ils conservent leur libre arbitre, ils placent presque toujours la sécurité et les intérêts de leur domitor avant les leurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Serviteurs utilisent les règles des PNJ simplifiés. Ils peuvent accomplir toutes les actions normalement accessibles à ce type de personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur reste toutefois seul juge de leurs capacités."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, un Serviteur chargé d'espionner une réunion Brujah pourra rapporter les grandes lignes de ce qu'il a entendu, mais il sera incapable d'en restituer chaque phrase avec précision."
+        },
+        {
+          "type": "paragraph",
+          "text": "Travaillez avec votre Conteur afin de déterminer comment votre personnage a obtenu la loyauté de chacun de ses Serviteurs."
+        },
+        {
+          "type": "heading_2",
+          "text": "Achat des Serviteurs"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acheter cet Historique plusieurs fois."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque achat représente un Serviteur différent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les points investis ne sont jamais partagés entre plusieurs Serviteurs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi, deux Serviteurs à ●● ne forment pas un Serviteur à ●●●●."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucun Serviteur ne peut dépasser ●●●●●."
+        },
+        {
+          "type": "heading_2",
+          "text": "Création d'un Serviteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "La réserve de dés d'un Serviteur est égale à :"
+        },
+        {
+          "type": "quote",
+          "text": "Niveau du Serviteur × 2"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ainsi :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Serviteur ● : réserve de 2"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Serviteur ●● : réserve de 4"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Serviteur ●●● : réserve de 6"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Serviteur ●●●● : réserve de 8"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Serviteur ●●●●● : réserve de 10"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette valeur est utilisée pour la plupart des actions."
+        },
+        {
+          "type": "heading_2",
+          "text": "Spécialisations"
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Serviteur possède un nombre de Spécialisations égal à son niveau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Serviteur ●● possède 2 spécialisations ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Serviteur ●●●● possède 4 spécialisations."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe deux types de spécialisations."
+        },
+        {
+          "type": "heading_3",
+          "text": "Spécialisation de Compétence"
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez une Compétence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le Serviteur effectue un test utilisant cette Compétence, sa réserve augmente de +5."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur ●● possède une réserve normale de 4."
+        },
+        {
+          "type": "paragraph",
+          "text": "S'il possède une spécialisation en Bagarre, sa réserve passe à 9 lorsqu'il combat à mains nues."
+        },
+        {
+          "type": "heading_3",
+          "text": "Spécialisation de Discipline"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une Discipline de clan de son domitor."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette spécialisation lui donne accès à un nombre de niveaux dans cette Discipline égal au niveau du Serviteur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Goule Serviteur ●● choisit une spécialisation en Puissance."
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle obtient immédiatement :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Puissance ●"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Puissance ●●"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si son propriétaire augmente ensuite le Serviteur à ●●●, celui-ci acquiert automatiquement Puissance ●●●, ainsi qu'une troisième spécialisation."
+        },
+        {
+          "type": "heading_2",
+          "text": "Dernières caractéristiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Serviteurs ne possèdent pas de Volonté."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne peuvent donc jamais effectuer de relance grâce à la Volonté, sauf lorsqu'ils disposent d'une règle spécifique leur permettant de surenchérir."
+        },
+        {
+          "type": "heading_2",
+          "text": "Goules"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Serviteur est une Goule, il possède :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "5 points de Sang vampirique, utilisables pour alimenter ses Disciplines ou se soigner ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "5 points de Sang mortel, qui ne peuvent jamais être dépensés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Goule peut dépenser 1 point de Sang par tour."
+        },
+        {
+          "type": "heading_2",
+          "text": "Santé"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur possède un nombre de niveaux de Santé égal à son niveau."
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Niveau",
+              "Santé"
+            ],
+            [
+              "●",
+              "1"
+            ],
+            [
+              "●●",
+              "2"
+            ],
+            [
+              "●●●",
+              "3"
+            ],
+            [
+              "●●●●",
+              "4"
+            ],
+            [
+              "●●●●●",
+              "5"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'il perd tous ses niveaux de Santé, le Serviteur tombe inconscient ou devient incapable de poursuivre le combat."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n'est pas automatiquement tué."
+        },
+        {
+          "type": "paragraph",
+          "text": "S'il reçoit rapidement des soins appropriés, il peut survivre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Mort d'un Serviteur"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un Serviteur est tué, libéré ou disparaît définitivement, vous perdez l'accès à cet Historique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devrez attendre :"
+        },
+        {
+          "type": "paragraph",
+          "text": "X partie par point investi dans ce Serviteur avant de pouvoir le remplacer."
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple :"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Serviteur ●●●● est tué."
+        },
+        {
+          "type": "paragraph",
+          "text": "Il faudra attendre 4 parties avant qu'un nouveau Serviteur équivalent puisse être trouvé."
+        },
+        {
+          "type": "heading_2",
+          "text": "Serviteurs Animaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains vampires choisissent de s'isoler de l'humanité, qu'il s'agisse des anciens Gangrel qui font des forêts leur domaine personnel ou des Nosferatu dans les complexes d'égouts souterrains qu'ils appellent leur maison. Pour ces Semblables, l'idée d'entretenir une goule est épuisante. L'idée d'un assistant loyal est séduisante, mais devoir faire face à l'engouement d'un mortel forcé par le sang est souvent une cause de rupture. L'idée de créer un animal serviteur est née de ces cas."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que ces vampires abandonnent la capacité de leur Serviteur à servir d'intermédiaire avec le monde des mortels, ils gagnent le service inébranlable d'un compagnon qui peut faire des choses qu'aucun humain ne pourrait faire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce Serviteur soit un animal ou un mortel standard. Les Serviteur animaux sont intrinsèquement limités dans les actions qu'ils peuvent entreprendre en votre nom en raison de leur incapacité à servir de manière fiable lorsqu'ils interagissent avec des mortels, mais ils n'en sont pas moins dignes de confiance et loyaux envers vous. Lorsque vous choisissez de prendre un Serviteur animal, utilisez les règles relatives aux PNJ type Serviteur pour le construire. De plus, vous pouvez choisir un certain nombre d'avantages pour ce Serviteur dans la liste ci-dessous, jusqu'au nombre de points dans le background du Serviteur que vous avez acheté.\nQualités à 1 point"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Courageux : Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Féroce : Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Rapide : Si votre Serviteur dépense à la fois ses actions simples et standard pour se déplacer, il peut se déplacer de neuf pas en un round au lieu des six pas standard."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Énorme : Votre Serviteur est un grand membre de son espèce, et gagne 2 niveaux de santé supplémentaires."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Imposant : Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Furtif : En raison de sa taille, de son camouflage naturel ou de ses habitudes de chasse, votre Serviteur est naturellement doué pour se cacher. Il bénéficie d'un bonus de +3 aux tests de furtivité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualités à 2 points"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Combattant aquatique : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Fouisseur : Votre Serviteur peut se déplacer sous terre à sa vitesse normale. Il ne peut pas traverser des matériaux qui ne sont pas de la terre, comme de la roche, de l'eau, du béton ou un épais enchevêtrement de racines."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Escalade : Votre Serviteur peut se coller à des surfaces solides, escalader des murs ou même marcher à l'envers sur un plafond."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Grappin : Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Endurci : Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armes naturelles : Votre Serviteur possède des défenses, des griffes ou des dents surdéveloppées qui semblent maximiser sa capacité à infliger de la douleur. Chaque fois que votre Serviteur obtient une réussite exceptionnelle à une attaque basée sur la compétence Bagarre, il inflige un point de dégâts supplémentaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Qualités à 3 points"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Prédateur d'embuscade : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Monture de combat : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Insaisissable : Votre animal est particulièrement rusé et difficile à trouver. Il gagne un bonus de joker de +3 à tous les challenges défensifs basés sur l'esquive."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Intelligent : Votre Serviteur a une compréhension plus profonde de vos demandes qu'un exemple normal de son type. Vous pouvez donner à votre Serviteur des tâches complexes à accomplir, et il fera de son mieux pour les accomplir."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Espèce Alpha : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité."
+        },
+        {
+          "type": "heading_3",
+          "text": "Avantages des Serviteurs Animaux"
+        },
+        {
+          "type": "paragraph",
+          "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfer soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, la Conteuse peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, elle peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8053-9f76-ed5fbd4c21e7",
+      "slug": "troupeau",
+      "title": "Troupeau",
+      "notionUrl": "https://app.notion.com/p/Troupeau-39b88b48e48e80539f76ed5fbd4c21e7",
+      "lastEditedTime": "2026-07-12T12:40:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Troupeau"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous disposez d'un groupe de mortels auprès desquels vous pouvez vous nourrir sans attirer l'attention ni risquer de représailles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Troupeau peut prendre des formes très diverses :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un cercle d'adorateurs ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une clientèle régulière d'une boîte de nuit ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un culte religieux ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des prisonniers ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une réserve médicale de sang ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un élevage d'animaux ;"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "toute autre source de nourriture approuvée par le Conteur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Travaillez avec celui-ci afin de définir précisément la nature de votre Troupeau."
+        },
+        {
+          "type": "heading_3",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant cet Historique n'a pas besoin de consacrer une AIP pour se nourrir entre deux parties."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si plusieurs actions sont nécessaires pour retrouver un niveau de Sang satisfaisant, chaque point de Troupeau réduit ce coût d'une action."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les points excédentaires peuvent être utilisés pour permettre à d'autres personnages de se nourrir auprès de votre Troupeau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, lorsque vous vous nourrissez en jeu, vous pouvez passer cinq minutes hors-jeu au lieu des quinze minutes habituelles."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous récupérez alors un nombre de points de Sang égal à votre valeur de Troupeau."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette récupération ne peut bénéficier qu'au propriétaire de cet Historique."
+        }
+      ]
     }
   ]
 }
