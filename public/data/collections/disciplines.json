@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-12T16:22:11.810Z",
+  "generatedAt": "2026-07-12T16:34:33.187Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -584,7 +584,7 @@
       "slug": "celerite",
       "title": "Célérité",
       "notionUrl": "https://app.notion.com/p/C-l-rit-38188b48e48e80d48a18e777f4cfe98f",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:24:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -850,16 +850,6 @@
           "spans": [
             {
               "text": "Chaque niveau de Célérité représente une croissance de la vitesse physique de la vampire, et les niveaux supérieurs accumulent les bonus mécaniques des niveaux inférieurs de la discipline. Si une vampire possède Rapidité (Célérité 3), elle obtient les bonus de Rapidité, mais aussi ceux de Réflexe Éclair (Célérité 1) et Diligence (Célérité 2), qu'elle a forcément appris pour apprendre Rapidité. À noter que l'utilisation de Célérité 3 et au-delà revient à commettre un bris de mascarade, si son utilisation devait être vue par des mortelles.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "\"C'est comme si le type s'était téléporté ! Nope, patron, j'peux pas flinguer un gonze qui va plus vite que mes balles !\" - Benito Giovanni",
-          "spans": [
-            {
-              "text": "\"C'est comme si le type s'était téléporté ! Nope, patron, j'peux pas flinguer un gonze qui va plus vite que mes balles !\" - Benito Giovanni",
               "bold": false
             }
           ]
@@ -1717,7 +1707,7 @@
       "slug": "force-d-ame",
       "title": "Force d’Âme",
       "notionUrl": "https://app.notion.com/p/Force-d-me-38188b48e48e8043bf96ffdd08a3e4db",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:25:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1844,7 +1834,78 @@
           "value": "Force d’Âme"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Vampires sont surnaturellement résistants. Leurs corps changent avec l'Étreinte et peuvent survivre à des coups, des taillades, des blessures par balles et aux chutes beaucoup plus facilement que la physiologie mortelle ne le permet. Le sang Vampirique a des propriétés curatives, ressoudant les chairs et les os dans un effort à peine conscient.",
+          "spans": [
+            {
+              "text": "Les Vampires sont surnaturellement résistants. Leurs corps changent avec l'Étreinte et peuvent survivre à des coups, des taillades, des blessures par balles et aux chutes beaucoup plus facilement que la physiologie mortelle ne le permet. Le sang Vampirique a des propriétés curatives, ressoudant les chairs et les os dans un effort à peine conscient.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, certains vampires sont de véritables mastodontes, chassant d'un haussement d'épaules d'atroces sévices et de terribles traumatismes physiques. Leurs corps devenus résistants aux blessures, ignorant des douleurs qui enverraient un mortel dans une catatonie fatale.",
+          "spans": [
+            {
+              "text": "Cependant, certains vampires sont de véritables mastodontes, chassant d'un haussement d'épaules d'atroces sévices et de terribles traumatismes physiques. Leurs corps devenus résistants aux blessures, ignorant des douleurs qui enverraient un mortel dans une catatonie fatale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point dans la Discipline Force d'âme représente un accroissement de la résistance physique du personnage et chaque point s'additionne avec les effets des autres points que le personnage possède dans la Discipline. Si votre personnage possède Résilience (Force d'âme •••), il possède aussi les bonus donnés par Endurance (Force d'âme •) et Ardeur (Force d'âme ••), qu'il doit avoir déjà appris avant d'atteindre Résilience.",
+          "spans": [
+            {
+              "text": "Chaque point dans la Discipline Force d'âme représente un accroissement de la résistance physique du personnage et chaque point s'additionne avec les effets des autres points que le personnage possède dans la Discipline. Si votre personnage possède Résilience (Force d'âme •••), il possède aussi les bonus donnés par Endurance (Force d'âme •) et Ardeur (Force d'âme ••), qu'il doit avoir déjà appris avant d'atteindre Résilience.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pouvoirs de Force d'âme sont toujours actifs et ne coûtent normalement pas de points de sang pour être activé à moins que ce ne soit spécifié dans la description du pouvoir. Des Techniques et Pouvoirs d'Anciens peuvent nécessiter du sang (ou une action) afin d'être activées ; référez-vous à chaque pouvoir pour les spécificités.",
+          "spans": [
+            {
+              "text": "Les pouvoirs de Force d'âme sont toujours actifs et ne coûtent normalement pas de points de sang pour être activé à moins que ce ne soit spécifié dans la description du pouvoir. Des Techniques et Pouvoirs d'Anciens peuvent nécessiter du sang (ou une action) afin d'être activées ; référez-vous à chaque pouvoir pour les spécificités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attention, les pouvoirs de force d'âme bien que toujours actifs par défaut, peuvent être désactivé par le joueur, qui prendra les blessures non réduites / les pénalités etc…",
+          "spans": [
+            {
+              "text": "Attention, les pouvoirs de force d'âme bien que toujours actifs par défaut, peuvent être désactivé par le joueur, qui prendra les blessures non réduites / les pénalités etc…",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Focus : Vigueur",
+          "spans": [
+            {
+              "text": "Focus : Vigueur",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages avec un Focus en Vigueur gagnent 1 niveau de santé supplémentaire dans chaque catégorie de blessures lorsqu'ils prennent leur premier niveau de Force d'âme. Un tel personnage possède 4 niveaux Sain, 4 niveaux Blessé et 4 niveaux Incapacité.",
+          "spans": [
+            {
+              "text": "Les personnages avec un Focus en Vigueur gagnent 1 niveau de santé supplémentaire dans chaque catégorie de blessures lorsqu'ils prennent leur premier niveau de Force d'âme. Un tel personnage possède 4 niveaux Sain, 4 niveaux Blessé et 4 niveaux Incapacité.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "39388b48-e48e-8076-a194-e6ec8753396b",
@@ -1930,7 +1991,7 @@
       "slug": "obtenebration",
       "title": "Obténébration",
       "notionUrl": "https://app.notion.com/p/Obt-n-bration-38188b48e48e80449bb5ec3250319ef2",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:27:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2013,14 +2074,45 @@
           "value": "Obténébration"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un maître de l'Obténébration exerce un contrôle direct sur les ténèbres, leur imposant sa volonté.\nTandis que les non éduqué pensent que ce ne sont que des simples jeu d'ombre, la vérité est bien plus dangereuse.\nL'Obténébration n'est en rien quelque chose de naturel, elle communique directement avec l'essence de l'Abysses et le matérialise dans le monde physique. Ces ténèbres insonorise, absorbe la lumère, et parait même presque palpable. Elle a aussi sa propre volonté, se déformant et se tordant avec avec une conscience qui lui est propre, à moins qu'elle soit controller fermemant par son utilisateur.",
+          "spans": [
+            {
+              "text": "Un maître de l'Obténébration exerce un contrôle direct sur les ténèbres, leur imposant sa volonté.\nTandis que les non éduqué pensent que ce ne sont que des simples jeu d'ombre, la vérité est bien plus dangereuse.\nL'Obténébration n'est en rien quelque chose de naturel, elle communique directement avec l'essence de l'Abysses et le matérialise dans le monde physique. Ces ténèbres insonorise, absorbe la lumère, et parait même presque palpable. Elle a aussi sa propre volonté, se déformant et se tordant avec avec une conscience qui lui est propre, à moins qu'elle soit controller fermemant par son utilisateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'esprit de tout les êtres vivants ont peur des Abysses, et les fantômes le fuiront plutôt que de rencontrer une folie meurtière en la touchant.",
+          "spans": [
+            {
+              "text": "L'esprit de tout les êtres vivants ont peur des Abysses, et les fantômes le fuiront plutôt que de rencontrer une folie meurtière en la touchant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute les capacités de l'Obténébration sont automatiquement dissipé si elles sont exposé au soleil, même si ce sont des pouvoirs ancien ou des techniques.",
+          "spans": [
+            {
+              "text": "Toute les capacités de l'Obténébration sont automatiquement dissipé si elles sont exposé au soleil, même si ce sont des pouvoirs ancien ou des techniques.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80ea-8f49-ce3f45662ebe",
       "slug": "presence",
       "title": "Présence",
       "notionUrl": "https://app.notion.com/p/Pr-sence-38188b48e48e80ea8f49ce3f45662ebe",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:27:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2148,14 +2240,105 @@
           "value": "Présence"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La beauté et l’élégance des vampires ont inspiré des générations de mortels à écrire poèmes, chansons et récits, chacun cherchant à retranscrire la magnificence de ces séduisants non-morts. L’aura naturelle d’autorité, d’intimidation ou de sensualité d’un vampire attire l’attention comme rien d’autre, et les pratiquants de la Discipline Présence ont porté cette capacité à son paroxysme.",
+          "spans": [
+            {
+              "text": "La beauté et l’élégance des vampires ont inspiré des générations de mortels à écrire poèmes, chansons et récits, chacun cherchant à retranscrire la magnificence de ces séduisants non-morts. L’aura naturelle d’autorité, d’intimidation ou de sensualité d’un vampire attire l’attention comme rien d’autre, et les pratiquants de la Discipline Présence ont porté cette capacité à son paroxysme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De telles créatures peuvent inspirer ou terrifier, séduire ou provoquer un profond désespoir lorsqu’elles retirent leur attention à un amant malheureux.",
+          "spans": [
+            {
+              "text": "De telles créatures peuvent inspirer ou terrifier, séduire ou provoquer un profond désespoir lorsqu’elles retirent leur attention à un amant malheureux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à Présence, les vampires pratiquent une manipulation subtile. Là où Domination est un marteau, Présence est une main de fer dans un gant de velours.",
+          "spans": [
+            {
+              "text": "Grâce à Présence, les vampires pratiquent une manipulation subtile. Là où Domination est un marteau, Présence est une main de fer dans un gant de velours.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Discipline influe sur les émotions et peut même passer totalement inaperçue si ses effets sont appliqués avec suffisamment de finesse.",
+          "spans": [
+            {
+              "text": "Cette Discipline influe sur les émotions et peut même passer totalement inaperçue si ses effets sont appliqués avec suffisamment de finesse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Présence ne modifie pas les processus de pensée et ne change pas la personnalité d’un sujet ; elle embrase simplement les sentiments et les émotions de la cible, la poussant sous l’effet d’émotions nouvelles et intenses.",
+          "spans": [
+            {
+              "text": "Présence ne modifie pas les processus de pensée et ne change pas la personnalité d’un sujet ; elle embrase simplement les sentiments et les émotions de la cible, la poussant sous l’effet d’émotions nouvelles et intenses.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les victimes de Présence ne perdent pas la raison et ne deviennent pas enclines à croire des absurdités simplement parce qu’un vampire les affirme vraies.",
+          "spans": [
+            {
+              "text": "Les victimes de Présence ne perdent pas la raison et ne deviennent pas enclines à croire des absurdités simplement parce qu’un vampire les affirme vraies.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, l’inspiration, l’éloquence ou encore les dons de richesse et de pouvoir, lorsqu’ils sont associés à cette Discipline, peuvent conduire à des conversions durables à la cause du vampire.",
+          "spans": [
+            {
+              "text": "Cependant, l’inspiration, l’éloquence ou encore les dons de richesse et de pouvoir, lorsqu’ils sont associés à cette Discipline, peuvent conduire à des conversions durables à la cause du vampire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Score de Test ",
+          "spans": [
+            {
+              "text": "Score de Test ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un utilisateur de Présence utilise son attribut Social + Commandement contre l’attribut Social + Volonté de la cible.",
+          "spans": [
+            {
+              "text": "Un utilisateur de Présence utilise son attribut Social + Commandement contre l’attribut Social + Volonté de la cible.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-805e-9d8f-f7d3bfcf3e04",
       "slug": "proteisme",
       "title": "Protéisme",
       "notionUrl": "https://app.notion.com/p/Prot-isme-38188b48e48e805e9d8ff7d3bfcf3e04",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:27:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2238,14 +2421,25 @@
           "value": "Protéisme"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Pendant des siècles, les vampires se sont terrés dans les villes, se cachant parmis les mortels. La nature était trop sauvage pour tous en dehors des plus sauvages et enhardis. La discipline Protéisme, développée en premier par les Gangrels, permet à un vampire de trouver refuge dans la Terre ou de voyager aussi rapidement qu'une chauve-souris puisse voler ou un loup courir. Protéisme était essentiel pour la survie des vampires au Moyen-Âge, et même dans les nuits modernes, cette discipline reste l'une des plus spectaculaires et célèbre des enfants de Caïn.",
+          "spans": [
+            {
+              "text": "Pendant des siècles, les vampires se sont terrés dans les villes, se cachant parmis les mortels. La nature était trop sauvage pour tous en dehors des plus sauvages et enhardis. La discipline Protéisme, développée en premier par les Gangrels, permet à un vampire de trouver refuge dans la Terre ou de voyager aussi rapidement qu'une chauve-souris puisse voler ou un loup courir. Protéisme était essentiel pour la survie des vampires au Moyen-Âge, et même dans les nuits modernes, cette discipline reste l'une des plus spectaculaires et célèbre des enfants de Caïn.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8001-bb41-f68a2f1d25e7",
       "slug": "puissance",
       "title": "Puissance",
       "notionUrl": "https://app.notion.com/p/Puissance-38188b48e48e8001bb41f68a2f1d25e7",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:28:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2359,14 +2553,65 @@
           "value": "Puissance"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Tout les vampires sont capable de courts instant de force explosive surnaturelle, en dépensant simplement du sang. Les utilisateurs de la discipline Puissance ont puisé dans la force primitive qui est dans leur sang pour rendre cette force permanente. La force incroyable que procure Puissance est incroyable et visiblement surnaturelle. Avec cette discipline, un vampire peut facilement briser des os ou fissurer la pierre. Les armures sont inutiles face à un tel vampire. Tout ce qui sera mis sur sa route sera soit détruit soit écarté.",
+          "spans": [
+            {
+              "text": "Tout les vampires sont capable de courts instant de force explosive surnaturelle, en dépensant simplement du sang. Les utilisateurs de la discipline Puissance ont puisé dans la force primitive qui est dans leur sang pour rendre cette force permanente. La force incroyable que procure Puissance est incroyable et visiblement surnaturelle. Avec cette discipline, un vampire peut facilement briser des os ou fissurer la pierre. Les armures sont inutiles face à un tel vampire. Tout ce qui sera mis sur sa route sera soit détruit soit écarté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau de Puissance représente une amélioration cumulative de la force d'un personnage et chaque niveau s’additionne avec les niveaux inférieurs.",
+          "spans": [
+            {
+              "text": "Chaque niveau de Puissance représente une amélioration cumulative de la force d'un personnage et chaque niveau s’additionne avec les niveaux inférieurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Pouvoirs de Puissance sont toujours actifs et ne nécessitent pas de dépense de point de sang. Certaines Techniques ou Pouvoirs d'Anciens peuvent en demander. Ces Pouvoirs ne peuvent être utilisé qu'au combat à main nu ou avec des armes au corps à corps.",
+          "spans": [
+            {
+              "text": "Les Pouvoirs de Puissance sont toujours actifs et ne nécessitent pas de dépense de point de sang. Certaines Techniques ou Pouvoirs d'Anciens peuvent en demander. Ces Pouvoirs ne peuvent être utilisé qu'au combat à main nu ou avec des armes au corps à corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Focus : Force",
+          "spans": [
+            {
+              "text": "Focus : Force",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant au moins un niveau de Puissance et ayant le Focus Force gagnent un bonus de 2 à leurs jets de Bagarre et de Mêlée.",
+          "spans": [
+            {
+              "text": "Les personnages possédant au moins un niveau de Puissance et ayant le Focus Force gagnent un bonus de 2 à leurs jets de Bagarre et de Mêlée.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80af-a1da-c36fac6431b3",
       "slug": "quietus",
       "title": "Quietus",
       "notionUrl": "https://app.notion.com/p/Quietus-38188b48e48e80afa1dac36fac6431b3",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:28:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2464,14 +2709,95 @@
           "value": "Quietus"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Discipline Quietus est sacrée pour les membres du clan Assamite, qui considèrent son utilisation comme une pratique empreinte de révérence.",
+          "spans": [
+            {
+              "text": "La Discipline Quietus est sacrée pour les membres du clan Assamite, qui considèrent son utilisation comme une pratique empreinte de révérence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Reposant sur l’altération du sang, le contrôle de la vitae et les fléaux, Quietus se concentre sur l’affaiblissement et la destruction progressive de la cible afin de faciliter son élimination.",
+          "spans": [
+            {
+              "text": "Reposant sur l’altération du sang, le contrôle de la vitae et les fléaux, Quietus se concentre sur l’affaiblissement et la destruction progressive de la cible afin de faciliter son élimination.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à cette Discipline, un vampire peut devenir un assassin redoutable, semant la mort sans laisser derrière lui qu’une trace de sang noirci.",
+          "spans": [
+            {
+              "text": "Grâce à cette Discipline, un vampire peut devenir un assassin redoutable, semant la mort sans laisser derrière lui qu’une trace de sang noirci.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Application sur les Armes",
+          "spans": [
+            {
+              "text": "Application sur les Armes",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une même arme ne peut pas être recouverte plusieurs fois par différents pouvoirs de Quietus.",
+          "spans": [
+            {
+              "text": "Une même arme ne peut pas être recouverte plusieurs fois par différents pouvoirs de Quietus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu’un personnage combat avec plusieurs armes enduites de pouvoirs distincts, seul le poison appliqué sur son arme principale affecte la cible.",
+          "spans": [
+            {
+              "text": "Lorsqu’un personnage combat avec plusieurs armes enduites de pouvoirs distincts, seul le poison appliqué sur son arme principale affecte la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Score de Test",
+          "spans": [
+            {
+              "text": "Score de Test",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L’utilisateur de Quietus utilise son attribut Mental + Athlétisme contre l’attribut Mental + Volonté de la cible.",
+          "spans": [
+            {
+              "text": "L’utilisateur de Quietus utilise son attribut Mental + Athlétisme contre l’attribut Mental + Volonté de la cible.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8023-a7e3-e62cfff445c4",
       "slug": "serpentis",
       "title": "Serpentis",
       "notionUrl": "https://app.notion.com/p/Serpentis-38188b48e48e8023a7e3e62cfff445c4",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2538,14 +2864,25 @@
           "value": "Serpentis"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dans les temples égyptiens antique et les grattes-ciel modernes, le clan des serpents pratique ses arts et vénère son fondateur : le dieu vampire, Seth. Les Setites considère que la discipline Serpentis est un cadeau venant de la bienveillance de Seth, et ils traitent cette pratique avec respect, louant Seth avec chacune des utilisations et invocations de ses pouvoirs.",
+          "spans": [
+            {
+              "text": "Dans les temples égyptiens antique et les grattes-ciel modernes, le clan des serpents pratique ses arts et vénère son fondateur : le dieu vampire, Seth. Les Setites considère que la discipline Serpentis est un cadeau venant de la bienveillance de Seth, et ils traitent cette pratique avec respect, louant Seth avec chacune des utilisations et invocations de ses pouvoirs.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8047-86d5-d53d78ab5efd",
       "slug": "temporis",
       "title": "Temporis",
       "notionUrl": "https://app.notion.com/p/Temporis-38188b48e48e804786d5d53d78ab5efd",
-      "lastEditedTime": "2026-07-04T23:01:00.000Z",
+      "lastEditedTime": "2026-07-12T16:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2629,14 +2966,25 @@
           "value": "Temporis"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Celles qui sont dotées du pouvoir de Temporis détiennent le secrets du flux temporel, et peuvent en ralentir ou accélérer les effets pour suivre leurs desseins. Temporis canalise la force mystique qui rend les vampires immortelles, et immunise leurs corps des ravages du temps. Les Vrai Brujah prétendent que l'antédiluvien Brujah a créé Temporis avant d'être diablé, et que c'est cette malédiction qui a dépouillé les disciples de Troile de ce pouvoir après sa destruction.\nLes vampires dotées de Temporis deviennent progressivement plus tatillonnes, frisant l'obessession pour les petits détails du quotidien. Elles sont souvent dénuées d'émotions, car elles s'en détachent avec le passage des ans. Pour elles, les siècles glissent comme les grains de sable dans un sablier. De telles créatures sont revêches et cruelles, et les destinées individuelles n'ont à leurs yeux que peu d'importance face à la grande tapisserie du temps.",
+          "spans": [
+            {
+              "text": "Celles qui sont dotées du pouvoir de Temporis détiennent le secrets du flux temporel, et peuvent en ralentir ou accélérer les effets pour suivre leurs desseins. Temporis canalise la force mystique qui rend les vampires immortelles, et immunise leurs corps des ravages du temps. Les Vrai Brujah prétendent que l'antédiluvien Brujah a créé Temporis avant d'être diablé, et que c'est cette malédiction qui a dépouillé les disciples de Troile de ce pouvoir après sa destruction.\nLes vampires dotées de Temporis deviennent progressivement plus tatillonnes, frisant l'obessession pour les petits détails du quotidien. Elles sont souvent dénuées d'émotions, car elles s'en détachent avec le passage des ans. Pour elles, les siècles glissent comme les grains de sable dans un sablier. De telles créatures sont revêches et cruelles, et les destinées individuelles n'ont à leurs yeux que peu d'importance face à la grande tapisserie du temps.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8008-9ded-eb7c177a735c",
       "slug": "vicissitude",
       "title": "Vicissitude",
       "notionUrl": "https://app.notion.com/p/Vicissitude-38188b48e48e80089dedeb7c177a735c",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:30:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2694,7 +3042,98 @@
           "value": "Vicissitude"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Tzimisces sont connus pour leur approche scientifique et leur cruauté glaciale, mais plus encore pour leur capacité légendaire à tordre et remodeler la chair, les os et les tissus des mortels.",
+          "spans": [
+            {
+              "text": "Les Tzimisces sont connus pour leur approche scientifique et leur cruauté glaciale, mais plus encore pour leur capacité légendaire à tordre et remodeler la chair, les os et les tissus des mortels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Démons détiennent d’antiques secrets qui font frémir les autres vampires d’horreur à la vue de leurs créations.",
+          "spans": [
+            {
+              "text": "Les Démons détiennent d’antiques secrets qui font frémir les autres vampires d’horreur à la vue de leurs créations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces pouvoirs nécessitent un contact physique afin que le vampire puisse modeler et sculpter la forme physique d’une autre créature.",
+          "spans": [
+            {
+              "text": "Ces pouvoirs nécessitent un contact physique afin que le vampire puisse modeler et sculpter la forme physique d’une autre créature.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Soigner la Vicissitude",
+          "spans": [
+            {
+              "text": "Soigner la Vicissitude",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages surnaturels affectés par Vicissitude peuvent annuler les effets de ce pouvoir grâce à de nouvelles applications de Vicissitude ou en guérissant l’affliction comme s’il s’agissait de 5 niveaux de dégâts normaux.",
+          "spans": [
+            {
+              "text": "Les personnages surnaturels affectés par Vicissitude peuvent annuler les effets de ce pouvoir grâce à de nouvelles applications de Vicissitude ou en guérissant l’affliction comme s’il s’agissait de 5 niveaux de dégâts normaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Vicissitude et Pouvoirs de Transformation",
+          "spans": [
+            {
+              "text": "Vicissitude et Pouvoirs de Transformation",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu’un personnage active un pouvoir de transformation, les altérations infligées à sa forme originelle par Vicissitude n’affectent pas sa forme transformée, mais réapparaissent dès qu’il retrouve sa forme initiale.",
+          "spans": [
+            {
+              "text": "Lorsqu’un personnage active un pouvoir de transformation, les altérations infligées à sa forme originelle par Vicissitude n’affectent pas sa forme transformée, mais réapparaissent dès qu’il retrouve sa forme initiale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si Vicissitude a déformé de manière permanente votre cheville, votre forme lupine ne souffrira pas de cette infirmité.",
+          "spans": [
+            {
+              "text": "Par exemple, si Vicissitude a déformé de manière permanente votre cheville, votre forme lupine ne souffrira pas de cette infirmité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, cette cheville déformée réapparaîtra dès que vous reprendrez votre forme humaine.",
+          "spans": [
+            {
+              "text": "Cependant, cette cheville déformée réapparaîtra dès que vous reprendrez votre forme humaine.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8036-be4a-c31d527d4284",
@@ -2891,7 +3330,7 @@
       "slug": "voie-de-l-esprit",
       "title": "Voie de l’Esprit",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2975,14 +3414,25 @@
           "value": "Voie de l’Esprit"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les pratiquants de la voie de l'esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la voie de l'esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
+          "spans": [
+            {
+              "text": "Les pratiquants de la voie de l'esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la voie de l'esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80f8-ae9b-f73c225542bb",
       "slug": "voie-de-la-conjuration",
       "title": "Voie de la Conjuration",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Conjuration-38188b48e48e80f8ae9bf73c225542bb",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3066,14 +3516,25 @@
           "value": "Voie de la Conjuration"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La voie de la conjuration vous permet de créer des objets ou des créature depuis l'éther. Elles sont constituées uniquement de magie et de l'imagination des individus qui les construisent. Les objets créé avec la voie de la conjuration sont génériques, sans signe distinctif quelconque, mais toujours neuf, sans aucun signe éraflures ou d'usure. Vous pouvez créer tout ce que vous êtes capable d'imaginer avec comme seule limite la taille. Vous ne pouvez créer des objets plus gros ou lourd que vous même.\nVous devez connaître le type d'objets que vous souhaitez invoquer. Par exemple, vous devez avoir au moins un niveau dans la compétence Arme à feu afin d'invoquer un pistolet, ou un niveau en Science ou Médecine pour créer des médicaments. Votre conteur sera le seul juge pour déterminer quelle compétence est nécessaire pour tel type d'objets.",
+          "spans": [
+            {
+              "text": "La voie de la conjuration vous permet de créer des objets ou des créature depuis l'éther. Elles sont constituées uniquement de magie et de l'imagination des individus qui les construisent. Les objets créé avec la voie de la conjuration sont génériques, sans signe distinctif quelconque, mais toujours neuf, sans aucun signe éraflures ou d'usure. Vous pouvez créer tout ce que vous êtes capable d'imaginer avec comme seule limite la taille. Vous ne pouvez créer des objets plus gros ou lourd que vous même.\nVous devez connaître le type d'objets que vous souhaitez invoquer. Par exemple, vous devez avoir au moins un niveau dans la compétence Arme à feu afin d'invoquer un pistolet, ou un niveau en Science ou Médecine pour créer des médicaments. Votre conteur sera le seul juge pour déterminer quelle compétence est nécessaire pour tel type d'objets.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-802a-a423-f559c6caf9fa",
       "slug": "voie-de-la-corruption",
       "title": "Voie de la Corruption",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Corruption-38188b48e48e802aa423f559c6caf9fa",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3157,7 +3618,58 @@
           "value": "Voie de la Corruption"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La voie de la corruption donne la capacité d'influencer subtilement vos victimes en altérant mystiquement leur morale, désirs et fonctionnement cognitif. Vous pouvez utiliser ces pouvoirs pour corrompre subtilement la psyché de votre victime pour la faire glisser vers sa Bête. Pour utiliser correctement cette voie, il vous faut avoir une connaissance importante dans la tromperie, l'addiction et les coins sombre dans le cœur d'autrui. Si vous échouez un jet en utilisant la voie de la corruption, vous ne pouvez utiliser le même pouvoir sur la même victime pendant 10 minutes.",
+          "spans": [
+            {
+              "text": "La voie de la corruption donne la capacité d'influencer subtilement vos victimes en altérant mystiquement leur morale, désirs et fonctionnement cognitif. Vous pouvez utiliser ces pouvoirs pour corrompre subtilement la psyché de votre victime pour la faire glisser vers sa Bête. Pour utiliser correctement cette voie, il vous faut avoir une connaissance importante dans la tromperie, l'addiction et les coins sombre dans le cœur d'autrui. Si vous échouez un jet en utilisant la voie de la corruption, vous ne pouvez utiliser le même pouvoir sur la même victime pendant 10 minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les sept péchés capitaux ? Non. Il n'y en a qu'un seul et c'est la retenue. En restreignant trop vos bas instincts, ils grandiront et vous détruiront.\nDawn Cavanaugh, Maîtresse Setite d'Hollywood.",
+          "spans": [
+            {
+              "text": "Les sept péchés capitaux ? Non. Il n'y en a qu'un seul et c'est la retenue. En restreignant trop vos bas instincts, ils grandiront et vous détruiront.\nDawn Cavanaugh, Maîtresse Setite d'Hollywood.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Utiliser la voie de la corruption est discret contrairement à d'autres voie Thaumaturgique. Vous n'avez pas besoin de parler pour utiliser les pouvoirs de la voie de la corruption et il n'est pas évident que vous en êtes la source.\nPour plus de règles concernant la détection des pouvoirs, veuillez consulter le chapitre 6.",
+          "spans": [
+            {
+              "text": "Utiliser la voie de la corruption est discret contrairement à d'autres voie Thaumaturgique. Vous n'avez pas besoin de parler pour utiliser les pouvoirs de la voie de la corruption et il n'est pas évident que vous en êtes la source.\nPour plus de règles concernant la détection des pouvoirs, veuillez consulter le chapitre 6.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Interactions",
+          "spans": [
+            {
+              "text": "Interactions",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La voie de la corruption ne peut être utilisée sans rompre l'invisibilité octroyée par Dissimulation.",
+          "spans": [
+            {
+              "text": "La voie de la corruption ne peut être utilisée sans rompre l'invisibilité octroyée par Dissimulation.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8000-b617-f7cb1d9dd516",
@@ -3266,7 +3778,7 @@
       "slug": "voie-de-la-mort",
       "title": "Voie de la Mort",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Mort-38188b48e48e80baa0b1cd7a36d0ee57",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3319,7 +3831,18 @@
           "value": "Voie de la Mort"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La voie de la mort traite des processus et manifestations physique de la mort. Cette voie surgi d'une compréhension profonde de ce qu'est la mort et elle pose la question philosophique de la place du corps en tant que porte entre la vie et la mort.\nDans les temps anciens les membres du clan des Cappadociens était les nécromanciens principaux de la société vampirique. Cependant au fil des siècles, leur propriété sur la discipline s'est amenuisé. Maintenant, seule la voie de la mort reste l'exclusivité de leur clan. Seuls les Cappadociens et leur lignée les Lamias peuvent apprendre cette voie de Nécromancie. Ni les Giovanni ni les Samedi ne peuvent apprendre naturellement cette voie.",
+          "spans": [
+            {
+              "text": "La voie de la mort traite des processus et manifestations physique de la mort. Cette voie surgi d'une compréhension profonde de ce qu'est la mort et elle pose la question philosophique de la place du corps en tant que porte entre la vie et la mort.\nDans les temps anciens les membres du clan des Cappadociens était les nécromanciens principaux de la société vampirique. Cependant au fil des siècles, leur propriété sur la discipline s'est amenuisé. Maintenant, seule la voie de la mort reste l'exclusivité de leur clan. Seuls les Cappadociens et leur lignée les Lamias peuvent apprendre cette voie de Nécromancie. Ni les Giovanni ni les Samedi ne peuvent apprendre naturellement cette voie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
@@ -3428,7 +3951,7 @@
       "slug": "voie-de-la-sepulture",
       "title": "Voie de la Sépulture",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-S-pulture-38188b48e48e80db9f82cc7350ecdb53",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3488,14 +4011,25 @@
           "value": "Voie de la Sépulture"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Voie de la sépulture englobe l'études des esprits, des fantômes et des d'autres créatures intangible. Avec l'apprentissage de cette voie, le vampire peut invoquer et contrôller une banshee, les forçant à servir les désirs du nécromancien. à moins que l'inverse soit noté, les pouvoirs qui affecte les fantômes, les banshee et les spectres peuvent seulement être utiliser sur l'esprit du mort. Ces pouvoirs ne peuvent être utiliser sur des entités projetés psychiquement, Ombre, ou n'importe quel autre créature intangible.",
+          "spans": [
+            {
+              "text": "La Voie de la sépulture englobe l'études des esprits, des fantômes et des d'autres créatures intangible. Avec l'apprentissage de cette voie, le vampire peut invoquer et contrôller une banshee, les forçant à servir les désirs du nécromancien. à moins que l'inverse soit noté, les pouvoirs qui affecte les fantômes, les banshee et les spectres peuvent seulement être utiliser sur l'esprit du mort. Ces pouvoirs ne peuvent être utiliser sur des entités projetés psychiquement, Ombre, ou n'importe quel autre créature intangible.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-808f-a4ec-cabd8fa19802",
       "slug": "voie-de-la-technomancie",
       "title": "Voie de la Technomancie",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Technomancie-38188b48e48e808fa4eccabd8fa19802",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:32:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3579,7 +4113,28 @@
           "value": "Voie de la Technomancie"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Technomancie est l'art thaumaturgique qui permet de contrôler la technologie et les machines. Dans cet âge, la technologie est aussi importante à la vie de la société que ne l'était la forge du fer ou la récolte du blé au moyen-âge. De la même façon, les Semblables les plus jeunes qui ont vécu leur vie de mortel à l'ère industrielle ou après, ont la capacité d'étendre leurs pouvoir de Thaumaturgie sur ces nouveaux outils. Leur sang semble assez flexible pour s'adapter à l'ère numérique.",
+          "spans": [
+            {
+              "text": "La Technomancie est l'art thaumaturgique qui permet de contrôler la technologie et les machines. Dans cet âge, la technologie est aussi importante à la vie de la société que ne l'était la forge du fer ou la récolte du blé au moyen-âge. De la même façon, les Semblables les plus jeunes qui ont vécu leur vie de mortel à l'ère industrielle ou après, ont la capacité d'étendre leurs pouvoir de Thaumaturgie sur ces nouveaux outils. Leur sang semble assez flexible pour s'adapter à l'ère numérique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des érudits en occultisme pensent que la voie de la Technomancie fonctionne avec la magie sympatique, semblable à la magie vaudou. D'autres pensent que les outils technologiques utilisés dans cette magie ne sont que des talismans permettant au Technomancien de canalisé sa volonté. Quoi qu'il en soit, ces jeunes Semblables qui possèdent cette nouvelle voie ont une compréhension et une maîtrise importante de la technologie telle qu'elle leur permet d'utiliser cette magie.",
+          "spans": [
+            {
+              "text": "Des érudits en occultisme pensent que la voie de la Technomancie fonctionne avec la magie sympatique, semblable à la magie vaudou. D'autres pensent que les outils technologiques utilisés dans cette magie ne sont que des talismans permettant au Technomancien de canalisé sa volonté. Quoi qu'il en soit, ces jeunes Semblables qui possèdent cette nouvelle voie ont une compréhension et une maîtrise importante de la technologie telle qu'elle leur permet d'utiliser cette magie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "39388b48-e48e-80f4-87cb-ecb95089d48b",
@@ -3707,7 +4262,7 @@
       "slug": "voie-des-cendres",
       "title": "Voie des Cendres",
       "notionUrl": "https://app.notion.com/p/Voie-des-Cendres-38188b48e48e803ab7a1ff66349a805c",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:33:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3791,14 +4346,25 @@
           "value": "Voie des Cendres"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'étude de la voie des Cendres est l'étude des Terres des ombres : l'outre-monde des morts. En faisant des recherches prolongées concernant le transfert de l'âme d'un monde à l'autre, un nécromancien apprend à renforcer ou diminuer le Voile, voire même y faire des aller-retour.",
+          "spans": [
+            {
+              "text": "L'étude de la voie des Cendres est l'étude des Terres des ombres : l'outre-monde des morts. En faisant des recherches prolongées concernant le transfert de l'âme d'un monde à l'autre, un nécromancien apprend à renforcer ou diminuer le Voile, voire même y faire des aller-retour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80e9-bee5-c14b66cc21ce",
       "slug": "voie-des-os",
       "title": "Voie des Os",
       "notionUrl": "https://app.notion.com/p/Voie-des-Os-38188b48e48e80e9bee5c14b66cc21ce",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:33:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3851,7 +4417,18 @@
           "value": "Voie des Os"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'étude de la voie des Os est l'étude des corps physiques, des chairs putréfiées et des os poussiéreux. En maîtrisant la voie des Os, un nécromancien obtient la capacité de créer et détruire des zombies et des hordes de morts vivants. Ces créatures obéissent aveuglément aux ordres reçus.",
+          "spans": [
+            {
+              "text": "L'étude de la voie des Os est l'étude des corps physiques, des chairs putréfiées et des os poussiéreux. En maîtrisant la voie des Os, un nécromancien obtient la capacité de créer et détruire des zombies et des hordes de morts vivants. Ces créatures obéissent aveuglément aux ordres reçus.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8084-a587-c429a6a500e6",
@@ -4293,7 +4870,7 @@
       "slug": "voie-du-sang",
       "title": "Voie du Sang",
       "notionUrl": "https://app.notion.com/p/Voie-du-Sang-38188b48e48e80fcb1f9dcc48a2b3ec4",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T16:34:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4384,7 +4961,18 @@
           "value": "Voie du Sang"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La voie du sang est considérée comme la base des arcanes de la Thaumaturgie. Elle fait appel au concept biologique de la magie pour vous permettre de modifier les propriétés de la vitae au sein de votre système sanguin ou de découvrir les secrets d'autres personnages caché dans leur sang. Tout les Tremere apprennent cette voie et se basent dessus pour étudier la Thaumaturgie.",
+          "spans": [
+            {
+              "text": "La voie du sang est considérée comme la base des arcanes de la Thaumaturgie. Elle fait appel au concept biologique de la magie pour vous permettre de modifier les propriétés de la vitae au sein de votre système sanguin ou de découvrir les secrets d'autres personnages caché dans leur sang. Tout les Tremere apprennent cette voie et se basent dessus pour étudier la Thaumaturgie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "39388b48-e48e-8004-87b4-c071f7b82eea",
