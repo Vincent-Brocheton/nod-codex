@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-12T14:11:49.137Z",
+  "generatedAt": "2026-07-12T15:37:04.324Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -2310,6 +2310,117 @@
       "content": []
     },
     {
+      "id": "38188b48-e48e-8036-be4a-c31d527d4284",
+      "slug": "voie-de-l-attrait-des-flammes",
+      "title": "Voie de l’Attrait des Flammes",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Attrait-des-Flammes-38188b48e48e8036be4ac31d527d4284",
+      "lastEditedTime": "2026-07-12T15:07:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "main-de-feu",
+              "title": "Main de Feu",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "boule-de-feu",
+              "title": "Boule de Feu",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "pilier-de-feu",
+              "title": "Pilier de Feu",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "immoler",
+              "title": "Immoler",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "tempete-de-feu",
+              "title": "Tempête de Feu",
+              "cout": null
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l’Attrait des Flammes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La foi a souvent été liée au feu, puisqu'il symbolise la pureté et la divinité. Peut-être qu'il s'agit de la raison pour laquelle l'Inquisition a trouvé que c'était une arme efficace il y a longtemps. En exploitant les techniques mystiques de l'Attrait des Flammes, vous avez appris à invoquer et contrôler le feu. Les flammes conjurées par l'Attrait des Flammes sont de nature mystique. Vous devez relâcher le feu de vôtre contrôle avant que cela n'affecte l'environnement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si vous activez la Main de Feu, elle ne brûle pas votre main ni ne vous provoque en frénésie. Cependant, si vous touchez un autre individu avec cette main et qu'il s'enflamme, ces flammes peuvent vous brûler ou provoquer votre frénésie."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le feu déclenche la frénésie chez les Vampires. L'utiliser comme une arme est l'une des méthodes les plus faciles pour amener un Vampire à la Mort Finale."
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8035-b703-db5062698197",
       "slug": "voie-de-l-eau",
       "title": "Voie de l’Eau",
@@ -2551,6 +2662,102 @@
       "content": []
     },
     {
+      "id": "38188b48-e48e-8000-b617-f7cb1d9dd516",
+      "slug": "voie-de-la-maitrise-elementaire",
+      "title": "Voie de la Maîtrise Elémentaire",
+      "notionUrl": "https://app.notion.com/p/Voie-de-la-Ma-trise-El-mentaire-38188b48e48e8000b617f7cb1d9dd516",
+      "lastEditedTime": "2026-07-12T15:03:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "force-elementaire",
+              "title": "Force Elémentaire",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "langue-de-bois",
+              "title": "Langue de Bois",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "animer-l-immobile",
+              "title": "Animer l’Immobile",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "forme-elementaire",
+              "title": "Forme Elementaire",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "invoquer-les-elementaires",
+              "title": "Invoquer les Elementaires",
+              "cout": null
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Maîtrise Elémentaire"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Grecques d'antan croyaient que les quatre éléments - Terre, Eau, Air et Feu - étaient les briques fondamentales de l'univers. En utilisant les techniques de la Voie de la Maîtrise Élémentaire, vous pouvez communiquer avec ces forces élémentaires et autres objets inanimés pour les commander à faire vos volontés. La Voie de la Maîtrise Élémentaire ne peut être qu'utilisée sur de la matière inanimée."
+        }
+      ]
+    },
+    {
       "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
       "slug": "voie-de-la-mort",
       "title": "Voie de la Mort",
@@ -2609,6 +2816,102 @@
         }
       },
       "content": []
+    },
+    {
+      "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
+      "slug": "voie-de-la-puissance-de-neptune",
+      "title": "Voie de la Puissance de Neptune",
+      "notionUrl": "https://app.notion.com/p/Voie-de-la-Puissance-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
+      "lastEditedTime": "2026-07-12T14:51:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "maitrise-de-l-eau",
+              "title": "Maîtrise de l’eau",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "prison-d-eau",
+              "title": "Prison d’Eau",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "moment-de-reflexion",
+              "title": "Moment de Réflexion",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "mur-fluide",
+              "title": "Mur Fluide",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "deshydratation",
+              "title": "Déshydratation",
+              "cout": null
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Puissance de Neptune"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'eau est un élément essentiel à la vie. Pour la grande majorité des êtres vivants, l'eau est leur besoin le plus important derrière l'air. Pour ce qui concerne l'humanité, l'accès à l'eau a déterminé la croissance des civilisations, porté des bateaux pour faire la guerre et servis de barrière à des terres lointaines et mystérieuses. C'est pour ces raisons que les anciens charlatant et les thaumaturges modernes ont cherché a maîtriser l'eau et d'en tirer sa puissance pour différents effets.\nDe nombreux historiens de la thaumaturgie ont débattu de l'origine de cette vieille voie. Les Disciples de Set avancent que les magiciens des Pharaons utilisaient les pouvoirs mystiques du sang et des eaux du Nil pour fertiliser les terres de Kemet bien avant l'incendie de la bibliothèque d'Alexandrie. Les historiens Grecs eux considèrent que cette voie vient des affluents du Styx. D'autres érudits venant de l'ancienne Mésopotamie pensent que cette voie est encore plus ancienne, originaire des rives du Tigre et de l'Euphrate dans le croissant fertile. Quoi qu'il en soit, durant l'ère des découvertes, les thaumaturges l'ont popularisé et renommé d'après le dieu Romain des océans. Il est dit que ce pouvoir était particulièrement populaire au sein des grandes puissances qui souhaitaient conquérir le nouveau monde. Ce n'est cependant pas un secret que les Sorciers Setite et les Assamites pâlissent lorsqu'ils entendent le nouveau nom de cette voie."
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80db-9f82-cc7350ecdb53",
@@ -2799,66 +3102,6 @@
       "content": []
     },
     {
-      "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
-      "slug": "voie-de-neptune",
-      "title": "Voie de Neptune",
-      "notionUrl": "https://app.notion.com/p/Voie-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie de Neptune"
-        }
-      },
-      "content": []
-    },
-    {
       "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
       "slug": "voie-des-ames",
       "title": "Voie des Âmes",
@@ -2974,133 +3217,6 @@
         "Nom": {
           "type": "text",
           "value": "Voie des Cendres"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-8000-b617-f7cb1d9dd516",
-      "slug": "voie-des-elementaires",
-      "title": "Voie des Elementaires",
-      "notionUrl": "https://app.notion.com/p/Voie-des-Elementaires-38188b48e48e8000b617f7cb1d9dd516",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": []
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie des Elementaires"
-        }
-      },
-      "content": []
-    },
-    {
-      "id": "38188b48-e48e-8036-be4a-c31d527d4284",
-      "slug": "voie-des-flammes",
-      "title": "Voie des Flammes",
-      "notionUrl": "https://app.notion.com/p/Voie-des-Flammes-38188b48e48e8036be4ac31d527d4284",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": []
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "sorcier",
-              "title": "Sorcier",
-              "cout": null
-            }
-          ]
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie des Flammes"
         }
       },
       "content": []
@@ -3227,10 +3343,10 @@
     },
     {
       "id": "38188b48-e48e-8046-bf4d-caf6c6199624",
-      "slug": "voie-du-climat",
-      "title": "Voie du Climat",
-      "notionUrl": "https://app.notion.com/p/Voie-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "slug": "voie-du-controle-du-climat",
+      "title": "Voie du Contrôle du Climat",
+      "notionUrl": "https://app.notion.com/p/Voie-du-Contr-le-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
+      "lastEditedTime": "2026-07-12T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3249,7 +3365,38 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "brouillard",
+              "title": "Brouillard",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fluctuation",
+              "title": "Fluctuation",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "grands-vents",
+              "title": "Grands Vents",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "tempete",
+              "title": "Tempête",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "eclairs",
+              "title": "Eclairs",
+              "cout": null
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -3280,17 +3427,30 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Voie du Climat"
+          "value": "Voie du Contrôle du Climat"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les contes ont longtemps raconté l'histoire de sorciers qui pouvaient contrôler la météo. On dit que les pouvoirs de cette Voie sont antérieurs au clan Tremere de plusieurs siècles, comme les sorciers des Assamites et les Disciples de Set ont exercé de tels pouvoirs pour aider leurs troupeaux avec les récoltes pendant les périodes de famine."
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant la Voie du Contrôle du Climat, vous avez appris à manipuler subtilement la météo ou convoquer la fureur des tempêtes et des éclairs."
+        },
+        {
+          "type": "paragraph",
+          "text": "Notez que les pouvoirs suivants doivent commencer sur un point dans la ligne de vue du thaumaturge."
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80cd-bc9a-e210783802c4",
       "slug": "voie-du-cosmos",
       "title": "Voie du Cosmos",
       "notionUrl": "https://app.notion.com/p/Voie-du-Cosmos-38188b48e48e80cdbc9ae210783802c4",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T15:18:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3309,7 +3469,38 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "centre-parfait",
+              "title": "Centre Parfait",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "puit-de-gravite",
+              "title": "Puit de gravité",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "perturbation-circadienne",
+              "title": "Perturbation Circadienne",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "syzygie",
+              "title": "Syzygie",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "echos-d-anthelios",
+              "title": "Echos d’Anthelios",
+              "cout": null
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -3343,7 +3534,24 @@
           "value": "Voie du Cosmos"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Depuis des temps immémoriaux, les humains et les vampires regardent le ciel nocturne, s'interrogeant sur leur sur leur place dans l'univers."
+        },
+        {
+          "type": "paragraph",
+          "text": "Au début de l'histoire de l'astronomie, la Terre était considérée au centre de tout. Au XVIe siècle, Copernic a proposé que la Terre et les autres planètes tournaient autour du soleil. Un siècle plus tard, Newton a découvert des forces mesurables entre les objets. Au 20e siècle, Einstein a formulé sa théorie générale de la relativité. Chacune de ces découvertes a entraîné un changement profond dans la compréhension du cosmos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Parallèlement aux efforts scientifiques de la cosmologie il y a les implications religieuses de cette connaissance. La nature profonde de la cosmologie religieuse s'intéresse aux aspects spirituels du cosmos et ne se limite pas à l'observation expérimentale ni aux théories et aux hypothèses. Elle concerne plutôt le mythe, le sens et les histoires qui entourent les implications religieuses de cette connaissance. Alors que la science domine le monde des mortels, l'astrologie maintient son emprise sur la psyché. L'humanité peut comprendre que les étoiles sont des sphères de plasma brûlant à des millions millions de kilomètres, mais les gens continuent à se tourner vers leurs signes astrologiques pour se guider."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les anciens thaumaturges considéraient les étoiles comme une source de pouvoir, alignant leurs magies avec le changement des saisons et le mouvement du cosmos. Bien qu'il ait été connu sous de nombreux noms au fil des ans, le terme moderne de Caelestikenesis moderne implique que les utilisateurs peuvent créer, façonner et manipuler le cosmos. Cela reflète une compréhension moderne de l'astronomie, combinant les croyances spirituelles à la compréhension scientifique. Grâce aux pouvoirs de la Caelestikenesis, un thaumaturge peut modifier l'accord physique et spirituel du cosmos."
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80fe-8f9f-fd97ef5fba2f",
@@ -3599,7 +3807,7 @@
       "slug": "voie-verte",
       "title": "Voie Verte",
       "notionUrl": "https://app.notion.com/p/Voie-Verte-38188b48e48e8024b3d1c7475b10e765",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-12T15:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3618,7 +3826,38 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "recolte-sanguine",
+              "title": "Récolte Sanguine",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "rameaux-souterrains",
+              "title": "Rameaux Souterrains",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "repos-de-la-belladone",
+              "title": "Repos de la Belladone",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chlorokinesie",
+              "title": "Chlorokinésie",
+              "cout": null
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "racines-carnivores",
+              "title": "Racines Carnivores",
+              "cout": null
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -3652,7 +3891,12 @@
           "value": "Voie Verte"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "La Voie Verte s'appuie sur le lien métaphysique avec la terre, les plantes et les matières organiques. Un art aussi ancien et obscur que la magie elle-même, les praticiens de la Voie Verte sont aussi diversifiés dans leurs magies que les plantes le sont dans leurs espèces. Utilisées à des fins de guérison, de progression personnelle, de protection et de destruction, les plantes apportent aux thaumaturges une nouvelle connaissance du potentiel du monde qui les entoure. Elles leur permettent de communiquer dans un langage transcendant et symbolique qui reflète les mécanismes internes du monde naturel. Les maîtres de la Voie Verte peuvent être trouvés dans un laboratoire de botanique en train d'expérimenter sur des semis et dans d'immenses serres. Des rumeurs ont persisté au cours des siècles sur des bioarcanistes isolés, tellement absorbés par la poursuite de leur pratique dévouée qu'ils ont perdu le contact avec la société des vampires. Les thaumaturges de la Voie Verte ont étudié le succès des plantes et des matières organiques nocturnes à tel point que les plantes qu'ils cultivent prospèrent et survivent sous la douce lueur de la lune. Le succès d'un jardin cultivé par un maître de la Voie Verte repose sur les ingrédients clés que sont le sang, le clair de lune et le pouvoir de l'occulte."
+        }
+      ]
     }
   ]
 }
