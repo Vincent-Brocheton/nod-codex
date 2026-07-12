@@ -4,8 +4,15 @@
   "group": "Rituels",
   "description": "Informations sur les rituels de nécromancie",
   "notionDatabaseId": "39088b48-e48e-80f7-b261-df57f306e6a1",
-  "generatedAt": "2026-07-12T13:23:32.586Z",
+  "generatedAt": "2026-07-12T13:44:27.285Z",
   "propertyOptions": {
+    "Temps de préparation": [
+      "5 minutes",
+      "10 minutes",
+      "15 minutes",
+      "20 minutes",
+      "25 minutes"
+    ],
     "Niveau": [
       "5",
       "4",
@@ -17,18 +24,18 @@
   "items": [
     {
       "id": "39188b48-e48e-805f-826f-c986fff77fd1",
-      "slug": "necro",
-      "title": "Nécro",
-      "notionUrl": "https://app.notion.com/p/N-cro-39188b48e48e805f826fc986fff77fd1",
-      "lastEditedTime": "2026-07-08T10:05:00.000Z",
+      "slug": "appel-des-morts-affames",
+      "title": "Appel des Morts Affamés",
+      "notionUrl": "https://app.notion.com/p/Appel-des-Morts-Affam-s-39188b48e48e805f826fc986fff77fd1",
+      "lastEditedTime": "2026-07-12T13:26:00.000Z",
       "properties": {
         "Cout en point de sang": {
           "type": "number",
-          "value": null
+          "value": 1
         },
         "Temps de préparation": {
-          "type": "text",
-          "value": ""
+          "type": "select",
+          "value": "5 minutes"
         },
         "Niveau": {
           "type": "select",
@@ -36,7 +43,7 @@
         },
         "Name": {
           "type": "text",
-          "value": "Nécro"
+          "value": "Appel des Morts Affamés"
         }
       },
       "content": [
@@ -46,36 +53,2482 @@
         },
         {
           "type": "paragraph",
-          "text": "[[clans]]",
-          "spans": [
-            {
-              "text": "Clans",
-              "path": "/clans"
-            }
-          ]
+          "text": "Les Terres des Ombres sont un lieu vide, sombre et désolé, remplies d'échos et d'amers regrets. En connectant la psyché de votre victime à celle de l'autre monde, vous la forcez à entendre les âmes des morts, pleurant sur leurs crimes passés."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
         },
         {
           "type": "paragraph",
-          "text": "[[clans|Avec un autre Texte]]",
-          "spans": [
-            {
-              "text": "Avec un autre Texte",
-              "path": "/clans"
-            }
-          ]
+          "text": "Quand un nécromancien lance Appel des Morts Affamés, il doit cibler une victime dans un rayon de 1,6 km (1 mile). Si vous réussissez le challenge d'opposition, la victime est hantée par les murmures des spectres qui franchissent le Voile. Ces voix murmurent dans la nuit, rendant confuse la cible, distordant ses perceptions et augmentant sa paranoïa. La prochaine fois que la cible gagnera des actions d’inter-parties, elle en gagnera une de moins pour la période. Les effets de ce rituel ne se cumulent pas."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-805d-b042-d5305996151f",
+      "slug": "attaches-ancestrales",
+      "title": "Attaches ancestrales",
+      "notionUrl": "https://app.notion.com/p/Attaches-ancestrales-39b88b48e48e805db042d5305996151f",
+      "lastEditedTime": "2026-07-12T13:27:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Attaches ancestrales"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
         },
         {
           "type": "paragraph",
-          "text": "[[Brujah]]",
-          "spans": [
-            {
-              "text": "Brujah",
-              "item": {
-                "collectionKey": "clans",
-                "slug": "brujah"
-              }
-            }
-          ]
+          "text": "Dans la mythologie aztèque, Quetzalcoatl vola l’os de l’autre dieu Mictlantecuhtli, le seigneur de l’Outremonde, et l’utilisa pour créer l’être humain. Ce rituel puise dans le pouvoir d’une lignée, créant une connexion entre ancêtres et descendants à travers un os imprégné d’énergie nécromantique."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer ce rituel, vous devez dépenser 1 point de sang pendant que vous décorez rituellement un os d’un corps d’une plume de chouette, de papiers d'Arménie, d’un peu de cuir de chaussure et d’un œil. N’importe quel os fait l’affaire, bien que ceux qui ont un goût pour le dramatique préfèrent utiliser un crâne. Une fois lancé, quand l’os est tenu par un descendant biologique du corps duquel il a été prélevé, il brille d’un éclat bleuté. Cependant, comme la vision de l’os préparé est quelque chose d’assez affreux, cela peut nécessiter un peu de coercition de votre part."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8047-a3d4-f564bd91243b",
+      "slug": "aubaine-des-pilleurs-de-tombes",
+      "title": "Aubaine des Pilleurs de tombes",
+      "notionUrl": "https://app.notion.com/p/Aubaine-des-Pilleurs-de-tombes-39b88b48e48e8047a3d4f564bd91243b",
+      "lastEditedTime": "2026-07-12T13:27:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Aubaine des Pilleurs de tombes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Historiquement, les cérémonies funéraires impliquaient l’ensevelissement du mort avec des objets auxquels il tenait ou qui pourraient lui être utiles dans son au-delà. Même en des temps modernes, les morts sont souvent enterrés avec des bijoux ou d’autres babioles. Ce rituel vous épargne des heures de creusage en vain, vous indiquant à la place l’emplacement des opportunités les plus lucratives."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez dépenser 1 point de sang et 5 minutes de prières sincères alors que vous éparpillez une poignée de grenade sur le sol en offrande à Persephone. A la fin du rituel, vous savez où se situent les morts enterrés ou enfouis dans un rayon de 100 mètres et avez une vague idée de la valeur totale de ce qui est enterré avec eux. Ce rituel ne permet pas de détecter les corps mort-vivants situés dans la terre, comme par exemple un vampire utilisant Fusion avec la Terre."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f4-b603-f61236583238",
+      "slug": "balance-de-maat",
+      "title": "Balance de Maat",
+      "notionUrl": "https://app.notion.com/p/Balance-de-Maat-39b88b48e48e80f4b603f61236583238",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Balance de Maat"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a les spectres et il y a les Seigneurs Stygiens ; un nécromancien compétent sait comment faire la différence de façon à pouvoir jauger son ennemi - ou son esclave."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel permet au nécromancien de jauger la puissance d'un spectre. En le lançant, le nécromancien apprend tous les pouvoirs qu'un spectre possède aussi bien que son niveau de puissance, les raisons de sa mort et combien de temps s'est passé depuis sa mort. Pour lancer ce rituel, le nécromancien n'a besoin que d'avoir une preuve physique de l'existence de ce spectre : une attache, une partie d'un corps ou un objet touché par le spectre en question ou affecté par ses pouvoirs."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8083-818b-ed699b4a4e86",
+      "slug": "balise-sepulcrale",
+      "title": "Balise Sépulcrale",
+      "notionUrl": "https://app.notion.com/p/Balise-S-pulcrale-39b88b48e48e8083818bed699b4a4e86",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Balise Sépulcrale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel permet de ressentir si le Voile est brisé dans les environs. Pour un nécromancien utilisant ce rituel, l'emplacement d'une faille est une présence palpable, pulsant le froid mordant de l'oubli."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois qu'un nécromancien utilise ce rituel, il peut sentir les brèches proches dans le Voile, incluant les utilisations de Maîtrise du Voile, jusqu'au prochain lever de soleil. Cette capacité se manifeste par un frisson glacé ressenti dans les bras, qui guide le nécromant vers la brèche. Une fois en vue, la brèche lui apparaît comme une larme d'un autre monde, vacillant d'une lumière pâle et sans chaleur. La Balise Sépulcrale révèle aussi la localisation de toute mort (un esprit passant à travers le Voile) ainsi que l'usage de la Nécromancie ou de tout autre pouvoir similaire ainsi que tout autre effet pouvant avoir dérangé la frontière entre les deux mondes. Ce pouvoir à une portée de 1,6 km (1 mile)"
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-806c-bc02-e8ce4549ed8b",
+      "slug": "balise-spirituelle",
+      "title": "Balise Spirituelle",
+      "notionUrl": "https://app.notion.com/p/Balise-Spirituelle-39b88b48e48e806cbc02e8ce4549ed8b",
+      "lastEditedTime": "2026-07-12T13:35:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Balise Spirituelle"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant ce rituel sur une tête humaine coupée, vous pouvez la transformer en une balise surnaturelle pour les fantômes. A l’intérieur des Terres des Ombres, la tête apparaît comme brillant d'une radiance surnaturelle, émettant de la lumière par sa bouche, ses oreilles et ses yeux. Selon votre volonté, les esprits seront attirés - ou repoussés par cette balise."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien doit avoir un crâne humain sur lequel lancer ce rituel. Une fois lancé, le crâne se recouvre de runes et de sceaux arcaniques et se met à émettre une légère lumière verte, que ce soit dans le monde réel ou les Terres des Ombres. Quand le crâne est créé, le nécromant doit choisir s’il doit être chargé positivement ou négativement."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une balise chargée positivement agira comme un appât pour les spectres. Tous les fantômes dans un rayon de 1,6 km (1 mile) seront invoqués à l'emplacement du crâne ou le suivront si celui-ci se déplace. Pour rester loin du crâne, un fantôme doit dépenser 1 point de Pathos toutes les 10 minutes pour ignorer l'appel de la balise."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une balise chargée négativement agira comme un repoussant pour les esprits. Tous les spectres de la zone seront forcés de la quitter et de rester à au moins 1,6 km (1 mile) de la balise spirituelle. Un spectre devra dépenser 1 point de Pathos toutes les 10 minutes pour rester dans la portée de la balise."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le crâne perd tous ses enchantements au prochain lever de soleil même s’il peut ensuite être enchanté à nouveau."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-809e-bc3d-cc0b64b9bc57",
+      "slug": "bastone-diabolico",
+      "title": "Bastone Diabolico",
+      "notionUrl": "https://app.notion.com/p/Bastone-Diabolico-39b88b48e48e809ebc3dcc0b64b9bc57",
+      "lastEditedTime": "2026-07-12T13:39:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Bastone Diabolico"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En enchantant un os solide provenant d'une jambe, le nécromancien se fabrique une arme qui peut blesser ses ennemis des deux côtés du Voile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Malheureusement, la première utilisation de cette arme consiste à assassiner son donneur. La fabrication de ce bâton démoniaque coûte donc plus au nécromancien qu'un peu de temps ou de Sang."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour créer un Bastone Diabolico, le nécromancien doit acquérir un fémur propre, gravé de rune, d'un sujet humain. Il faut ensuite enchanter cet os avec un rituel sombre. Le nécromancien possède ensuite une arme permanente, qui peut être utilisée contre ses ennemis qu'ils soient de ce monde ou des Terres des Ombres."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Bastone Diabolico inflige 1 point de dégâts normal. Il s'agit d'une arme improvisée, possédant la qualité Rapide. Pour plus d'informations sur les armes (voir le chapitre : Accessoires, Armes et Armures)."
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus, pour chaque coup réussi sur un vampire, celui-ci se voit retirer un point de Sang et un coup réussi sur un fantôme lui fera perdre un point de Pathos. Malheureusement pour le nécromancien, les fantômes peuvent sentir un Bastone Diabolico. Ils ont tendance à rester loin des personnes qui en portent un, apportant de ce fait un malus de -1 à tous les challenges visant à invoquer ou contrôler des spectres. Un nécromancien ne peut avoir qu'un seul Bastone Diabolico à la fois, en créer un autre fera se désintégrer le premier."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f2-992d-f98b5e95ae30",
+      "slug": "benediction-de-bathory",
+      "title": "Bénédiction de Báthory",
+      "notionUrl": "https://app.notion.com/p/B-n-diction-de-B-thory-39b88b48e48e80f2992df98b5e95ae30",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Bénédiction de Báthory"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour certains, l’étude de la mort se fait par une leçon magistrale et studieuse. Pour d’autres, elle se fait par un cours dans la douleur et le sadisme. Les légendes disent que Élisabeth Báthory de Ecséd était une tueuse en série notoire qui a tué des centaines d’innocents et s’est baignée dans leur sang pour rester jeune éternellement. Les mythes la surnomment la Comtesse Sanglante, un tyran sévère qui prisait la beauté sur terre par dessus n’importe quelle récompense céleste. Les Giovanni qui ont étudié son travail la considèrent comme un génie, adaptant ses pratiques à leur propre besoin. En suivant ses enseignements et en utilisant la Nécromancie, vous pouvez appeler la Comtesse Sanglante pour infuser vos pouvoirs nécromantiques."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser la bénédiction de Báthory, vous devez réunir un nombre de morts récents ou de personnes agonisantes équivalentes à vos points en Génération et les saigner à mort dans une large baignoire. Vous devez ensuite dépenser 1 point de sang que vous mélanger au leur et vous immerger dans la mixture. Votre corps doit rester dans le bain de sang tout au long du rituel. Une fois complété, vous ressortez avec une peau sans défaut et un sentiment de vigueur nouvelle. Vous pouvez choisir un nouveau Focus Social pour la nuit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tuer des victimes pour réaliser ce rituel résulte de manière inévitable en gain de 4 traits de bêtes, même si vous n’avez pas pris directement part à leur mort."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80a1-9c24-d00ebdf65e07",
+      "slug": "cercle-de-cerbere",
+      "title": "Cercle de Cerbère",
+      "notionUrl": "https://app.notion.com/p/Cercle-de-Cerb-re-39b88b48e48e80a19c24d00ebdf65e07",
+      "lastEditedTime": "2026-07-12T13:28:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cercle de Cerbère"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien doit toujours être prudent ; ses activités sur le royaume physique et dans les Terres des Ombres peuvent lui créer de nombreux ennemis. Le Cercle de Cerbère a été créé pour aider à se protéger contre une telle vengeance."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien doit dessiner un cercle de sel et d'argent sur le sol. Avoir un tel cercle dessiné sur le sol ne crée pas un sort permanent : les composants disparaissent au prochain lever du soleil. Tous ceux qui se tiennent dans le Cercle de Cerbère reçoivent un bonus de +5 à tous leurs challenges défensifs contre les spectres ou les pouvoirs de Nécromancie ; incluant les pouvoirs possédés par d'autres créatures surnaturelles, tant que les personnes protégées restent dans le cercle."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80b6-abf3-cfd7d796b765",
+      "slug": "coeur-brise",
+      "title": "Coeur Brisé",
+      "notionUrl": "https://app.notion.com/p/Coeur-Bris-39b88b48e48e80b6abf3cfd7d796b765",
+      "lastEditedTime": "2026-07-12T13:39:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Coeur Brisé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains croient que la mort n’est que violence, sang et feu, mais c’est bien plus que cela. C’est le frisson malsain de la mortalité, un rappel que rien ne dure pour toujours. C’est cela, la mort que vous réservez à vos ennemis - le genre de mort qui les fait suffoquer doucement jusqu’à les plonger dans l’oubli."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer le rituel, vous devez obtenir un objet auquel tient votre cible. Cet objet doit être important pour la cible - une photo d’un proche mort, ou un doudou d’enfance, ou un héritage familial... Vous pouvez sinon utiliser un point de la vitae de la cible. L’objet ou la vitae doit être brûlé dans un feu de joie fait de branches de saule pleureur, d’if et de liserons qui ont étés baignés dans 1 point de votre sang. Vous effectuez à la fin du rituel un jet en opposition avec votre cible, qui ne doit pas être à moins de 10 km de vous."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un humain affecté par Cœur Brisé est maudit. Durant les prochaines 48h, tous évènements qui lui cause une excitation, un chagrin, une joie excessive déclenche la malédiction immédiatement. Bien que la victime puisse être ranimée si les secours sont assez rapides, elle est alors plongée dans le coma et ne peut être ramenée à la conscience que si elle ingère 1 point de sang. Seul un examen surnaturel permet de mettre en évidence les circonstances étranges entourant cette perte de conscience."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible est surnaturelle ou un mortel éveillé (comme une goule), elle est submergée par le chagrin et le spleen, perdant tous ses focus sociaux jusqu’au matin. Toute tentative pour gagner un nouveau focus social échoue immédiatement à moins qu’elle ne dépense 1 point de volonté pour ignorer temporairement la malédiction. Autrement dit, la cible se retrouve sans focus sociaux pour la nuit et ne peut en gagner des nouveaux qu’au prix de 1 point de volonté. Bien que le vampire ne puisse pas savoir qui l’a attaqué, il est conscient sans l’ombre d’un doute que quelque chose ou quelqu’un l’affecte de manière surnaturelle."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8030-a79f-e183e960454b",
+      "slug": "corps-et-ame",
+      "title": "Corps et âme",
+      "notionUrl": "https://app.notion.com/p/Corps-et-me-39b88b48e48e8030a79fe183e960454b",
+      "lastEditedTime": "2026-07-12T13:40:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Corps et âme"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les morts doivent dépenser de l’énergie pour prendre possession d’un corps, et le résultat est loin de ressembler à une nouvelle vie. Grâce à leurs études, les nécromanciens ont trouvé le moyen d’attacher une âme perdue à un corps, tout au moins un corps mort. Avec ce rituel, vous pouvez lier un fantôme dans le corps d’un zombie, donnant à l’esprit un aperçu de la vie. Cet effet diffère d’une possession normale car le corps et l’esprit font un nouveau tout."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Utiliser ce rituel pour lier de manière permanente un fantôme à un zombi en utilisant 1 point de sang et en gravant dans la peau du mort-vivant des sceaux mystiques. N’importe quel fantôme consentant peut être lié par ce procédé. Si vous désirez lier un fantôme non consentant ou contrôlé par un autre nécromancien, vous devez gagner un challenge opposé en utilisant votre groupement de nécromancie pour récupérer le contrôle de l’esprit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois liée, la créature qui en résulte obtient les capacités physiques du zombie avec les pouvoirs mentaux et sociaux du fantôme, alimenté par son Pathos. Le fantôme n’est pas considéré comme faisant une possession mais comme ayant le contrôle parfait du corps. Les pouvoirs qui affectent les zombies ou ceux affectant les spectres peuvent donc affecter la créature. Ces créatures sont considérées comme des PNJ domestiques utilisant le grade le plus faible entre celui du fantôme ou du zombie pour déterminer celui de l’entité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez créer autant de créature que de point en Occulte. Si vous dépassez ce nombre, les âmes sont libérées selon leur ordre de liaison. Ce rituel dure 30 jours ou jusqu’à ce que le zombie soit détruit."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8069-99fd-f3ef2eaa81ba",
+      "slug": "deformer-le-visage-morbide",
+      "title": "Déformer le Visage Morbide",
+      "notionUrl": "https://app.notion.com/p/D-former-le-Visage-Morbide-39b88b48e48e806999fdf3ef2eaa81ba",
+      "lastEditedTime": "2026-07-12T13:28:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Déformer le Visage Morbide"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est parfois nécessaire de falsifier sa mort, que ce soit auprès des mortels ou des autres vampires. Ce rituel permet au nécromancien de pratiquer une telle supercherie, modifiant un corps pour qu'il ressemble au sien."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien invoquant ce rituel peut changer le visage, la couleur, et la taille comme le poids d'un Vrai Corps, de façon qu'il corresponde au sien pour trois nuits complètes. Pour pratiquer ce rituel, le nécromancien doit retirer la langue du corps et la garder sur lui aussi longtemps qu'il souhaite que le rituel fasse effet. Des nécromanciens intelligents utilisent aussi ce rituel pour être sûr que des curieux ne peuvent identifier la véritable identité d'un corps trop facilement. L'ADN natif du corps ne change pas ; il est donc possible que des tests scientifiques puissent déterminer la véritable origine de ce corps mais une investigation classique fera apparaître le corps comme identique à celui du nécromancien ayant lancé le rituel."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8083-a345-fd5307abe2af",
+      "slug": "demence-macabre",
+      "title": "Démence Macabre",
+      "notionUrl": "https://app.notion.com/p/D-mence-Macabre-39b88b48e48e8083a345fd5307abe2af",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Démence Macabre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La nature chronophage des recherches magiques fait qu’il est souvent difficile de garder du personnel. La nécromancie, cependant, a une solution facile à ce problème. Il est dit que quand Sainte Zita, la sainte patronne des serviteurs, a quitté sa maison pour s’occuper des pauvres, des anges sont apparus pour lui préparer du pain. Ce rituel permet d’invoquer des servants d'outre-monde pour s’occuper de vos tâches ménagères."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel invoque et lie un certain nombre de serviteurs fantomatiques à votre havre ou un emplacement que vous contrôlez, lui donnant la qualité Gardes et Serviteurs (guards and the Staff). Si le lieu possède déjà la qualité Garde, ces serviteurs spectraux se rajoutent au cinq niveaux de gardiens physiques. Si la localisation possède déjà la qualité Serviteur, ce rituel ajoute un groupe supplémentaire de travailleurs à votre service et à celui de vos invités. Pour activer ce rituel, vous devez ériger un autel à Sainte Zita à l’intérieur de votre maison, que vous devez consacrer avec 1 point de sang et maintenir en lui présentant du pain fraîchement préparé toutes les deux semaines. Après l’incantation initiale, durant les sept jours suivants, les serviteurs vont apparaître. Cela se produit même si le lieu a la qualité Occulte. Ces servants sont des fantômes PNJ lambda de grade 1 qui vous obéiront ou obéiront à tous ceux que vous désignerez, se manifestant si besoin pour répondre à vos demandes. Pour aussi longtemps que vous maintenez le rituel, vous pouvez virer ou détruire les serviteurs qui vous ont déplu, et d’autres prendront leur place dans la semaine suivante. Révéler la nature de vos serviteurs à des humains peut résulter en un bris de Mascarade. Vous ne pouvez avoir qu’une seule occurrence active de ce rituel à la fois."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-803e-b89c-e3b307d1c320",
+      "slug": "eaux-de-lethe",
+      "title": "Eaux de Léthé",
+      "notionUrl": "https://app.notion.com/p/Eaux-de-L-th-39b88b48e48e803eb89ce3b307d1c320",
+      "lastEditedTime": "2026-07-12T13:40:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Eaux de Léthé"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien qui possède les Eaux de Léthé au bout de ses doigts obtient un grand pouvoir sur la mémoire de ses ennemis. Avec juste un léger contact ou mouvement de doigt, il peut rendre une personne amnésique et très sujette à ses pouvoirs de suggestion."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien qui utilise ce rituel gagne la capacité, une fois durant la nuit, de dépenser un point de Sang et de donner une pichenette avec ses doigts sur une cible se trouvant dans le monde physique ou dans les Terres des Ombres. Il faut ensuite faire un challenge opposé de Physique + Athlétisme contre Physique + Esquive de la cible. En cas de réussite, la cible perd toute mémoire et devient amnésique pour 10 minutes. Tant qu'elle se trouve sous l'effet des Eaux de Léthé, la victime voit le nécromancien comme un ami. La victime ne suivra pas nécessairement les ordres du nécromancien mais sera favorablement disposée envers lui. Une fois le pouvoir expiré, la victime se souviendra de tout ce qu'elle a fait durant les 10 minutes écoulées."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le corps ou l'esprit d'une personne affectée par ce pouvoir est attaqué, mis en danger ou ciblé par un pouvoir offensif, l'effet s’arrête immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8029-98aa-cbbff7d0065d",
+      "slug": "epine-du-c-ur-mort-vivant",
+      "title": "Épine du cœur mort-vivant",
+      "notionUrl": "https://app.notion.com/p/pine-du-c-ur-mort-vivant-39b88b48e48e802998aacbbff7d0065d",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Épine du cœur mort-vivant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La Vie et la Mort sont les deux faces d’une même pièce, un cycle sans fin qui s’auto alimente. La malédiction du vampire préserve l’existence quelque part entre les deux. En manipulant et rassemblant les énergies dégagées par la mort, le nécromancien crée une arme puissante qui réclame le sang des vampires"
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, vous devez d’abord déterrer un corps qui a été inhumé au cycle lunaire précédent. Vous devez ensuite enfoncer neuf graines de chêne argenté et 1 point de sang dans la gorge du corps, qui doit ensuite être enterré sous la lumière d’une pleine lune à son apogée. L’arbre grandit à une vitesse surnaturelle et lors de la pleine lune suivante atteint déjà la taille d’un arbuste tordu. Vous pouvez tirer un nombre de pieux équivalent à votre score en Moralité. Plutôt que d’infliger une pénalité de -3 pour tenter de pieuter un vampire, le porteur de ces pieux ne subit qu’une pénalité de -1 à son groupement d’attaque. Toutes les autres conditions doivent être réunies pour pouvoir effectuer un pieutage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que le pieu a été coupé et infusé de magie, tout le monde peut s’en servir. Tous les pieux doivent être utilisés dans le mois qui suit leur création, ou le pouvoir qu’ils contiennent disparaîtra. Une fois planté dans un cœur, il redevient un simple pieu normal."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-806d-ba94-c569d56ea2ea",
+      "slug": "epitaphe-elogieux",
+      "title": "Epitaphe élogieux",
+      "notionUrl": "https://app.notion.com/p/Epitaphe-logieux-39b88b48e48e806dba94c569d56ea2ea",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Epitaphe élogieux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette inscription habituellement gravée sur les tombes rappellent aux vivants une des plus grandes qualités du mort. Pour les morts par contre, les mots gravés sont source de puissance et peuvent même modifier profondément leur conscience de soi alors qu’ils sont usés par le temps et les épreuves de l’au-delà. En collectant la poussière des pierres, les éclats de métal ou tout autre résidus d’un épitaphe, le nécromancien peut infuser les esprits de la puissance de ces mots, leur permettant de se souvenir de leurs compétences passées et de leurs accomplissement avec clarté."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lancer l’épitaphe élogieux, vous devez récupérer des petits morceaux ou des éclats d’un élément qui contient une phrase décrivant une compétence, comme «Soldat brave», «épouse aimante» ou encore «généreux donateur». Ces éléments commémoratifs - une pierre tombale, une plaque, une urne etc- n’ont pas besoin d’être ceux spécifiquement utilisés lors de l’enterrement."
+        },
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de Nécromancien font faire des doubles pour ce rituel, et les plaques honorifiques des parcs et musées peuvent également convenir dans la mesure où le nom de la cible est notifié dessus."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et saupoudrez une pincée des morceaux au-dessus du fantôme tout en récitant l’épitaphe marqué sur l’objet duquel provient le morceau. Ce rituel nécessite que le lanceur choisisse une spécialisation précise pour le fantôme, lui donnant plus de pouvoir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour un an et un jour, le fantôme ciblé gagne un point supplémentaire dans la compétence choisie relative à l’épitaphe. Par exemple, un fantôme auquel on rappelle sa qualité de «Soldat brave» peut gagner un point en mêlée supplémentaire grâce à l'Épitaphe élogieux."
+        },
+        {
+          "type": "paragraph",
+          "text": "Épitaphe ne peut pas être employé pour donner aux spectres des disciplines supplémentaires ou des spécialisations en Connaissances ou Linguistique. Un fantôme ne peut être affecté que par un seul épitaphe à la fois, tout comme si un autre nécromancien utilise le rituel sur le même spectre, l’effet du rituel précédent se dissipe immédiatement."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-808d-9b8d-e0d0b14d7d11",
+      "slug": "esprit-dans-le-systeme",
+      "title": "Esprit dans le système",
+      "notionUrl": "https://app.notion.com/p/Esprit-dans-le-syst-me-39b88b48e48e808d9b8de0d0b14d7d11",
+      "lastEditedTime": "2026-07-12T13:28:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Esprit dans le système"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Caché de la perception mortelle, les esprits font les meilleurs saboteurs dans une bureaucratie. Ils peuvent faire disparaître les papiers, enlever des signatures et rendre une simple tâche un labeur de plusieurs jours. En lançant ce rituel sur un endroit, le nécromancien marque le territoire et peut éviter les tentatives d’attaque ou de vol de la part des autres."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez passer une soirée à bénir la localisation et vous assurez que le fantôme considère ce lieu comme sa nouvelle résidence. Augmentez la difficulté de toutes les quêtes contre ce lieu de +3. Si cela devait augmenter la difficulté au-dessus de 5, soustrayez 5 au score total et la Quête devient le degré de difficulté supérieur suivant. Ce rituel dure un an et un jour."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8068-be93-ed3e826c4c37",
+      "slug": "esprit-guide",
+      "title": "Esprit guide",
+      "notionUrl": "https://app.notion.com/p/Esprit-guide-39b88b48e48e8068be93ed3e826c4c37",
+      "lastEditedTime": "2026-07-12T13:29:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Esprit guide"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "L’expression «Les morts ne parlent pas» fait rire beaucoup de nécromanciens car les morts peuvent facilement être convaincus de parler. Lancer ce rituel permet de parler avec des fantômes le long d’un chemin précis, utilisant la vigilance des esprits pour trouver le chemin le plus sûr et le plus rapide."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par nuit, vous pouvez utiliser ce rituel pour appeler un réseau d’esprit tout en vous concentrant sur une localisation que vous connaissez bien et dont vous êtes familier. A partir de ce réseau, vous pouvez apprendre le meilleur chemin vers cette localisation, exempt de tout obstacle. Cela fonctionne comme une utilisation unique de l’action d’influence Passage Protégé (Outremonde niveau 1) et vous fournit le passage le plus sûr vers la destination. A moins d’être arrêté, il dure jusqu’au levé du soleil."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-800a-b2b2-c454351f793a",
+      "slug": "exploitation-des-faiblesses",
+      "title": "Exploitation des faiblesses",
+      "notionUrl": "https://app.notion.com/p/Exploitation-des-faiblesses-39b88b48e48e800ab2b2c454351f793a",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Exploitation des faiblesses"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La rivalité entre les Giovanni et les Ventru n’est un secret pour personne car les deux clans sont souvent en compétition pour les mêmes ressources. Avec le temps, les Giovanni ont observé la difficulté que les Ventru ont avec leur faiblesse de clan et ont trouvé un moyen d’en faire une arme contre leurs rivaux."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Récupérez un objet personnel de la cible et brûlez-le. Mixez ensuite les cendres de l’objet et 1 point de sang et étalez ensuite le mélange sur un portrait de votre cible. En réussissant un challenge en opposition, vous pouvez donner à votre cible l’handicap « Proie Taboue » (Voir le chapitre Handicaps Généraux), l’empêchant de se nourrir sur le type de mortels de votre choix. Si la cible a déjà l’handicap « Proie Taboue » cet effet remplace temporaire celui-ci. Tant que ce rituel est actif, la cible ne gagne donc rien à se nourrir sur les proies spécifiques."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez déclarer au conteur quels critères sont sélectionnés."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible n’est pas mise au courant du changement et cela peut nécessiter qu’elle dépense une action inter-partie pour s’en rendre compte. Une cible ne peut être visée par qu’une seule occurrence de ce rituel et si elle est déjà affectée par ce rituel ou par la faiblesse de clan Ventru, le rituel ne fonctionne pas. Il persiste 30 nuits après avoir été lancé."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80c0-82cf-d3754c811386",
+      "slug": "exploitation-des-faiblesses-superieures",
+      "title": "Exploitation des faiblesses supérieures",
+      "notionUrl": "https://app.notion.com/p/Exploitation-des-faiblesses-sup-rieures-39b88b48e48e80c082cfd3754c811386",
+      "lastEditedTime": "2026-07-12T13:42:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Exploitation des faiblesses supérieures"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Parfois, il n’est pas suffisant de juste enlever à quelqu’un sa capacité à trouver de la subsistance - des temps difficiles nécessitent des mesures difficiles et même le plus grand des ennemis doit à un moment tomber à genoux. Le nécromancien qui cherche la revanche peut faire plus que juste troller les faiblesses de sa cible. Ils peuvent faire de leur non-mort un véritable enfer. En appelant les forces de cette malédiction sur une cible peu méfiante, vous pouvez la forcer à avoir faim pour n’importe quelle vitae de votre choix, même si elle avait une manière de se nourrir préférée."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel est similaire à celui d’Exploitation des faiblesses, excepté que vous pouvez enlever toutes les options pour se nourrir sauf une seule. Vous devez avoir du sang spécifique à la nouvelle restriction que vous souhaitez imposer, ce qui peut nécessiter une action interpartie à obtenir, mais vous pouvez choisir toutes les caractéristiques spécifiques du donneur. Quand le rituel est lancé, vous devez dépenser 1 point de sang et faire un challenge opposé à la cible. Si vous réussissez, la cible est immédiatement au courant de sa nouvelle appétence spécifique et de la viabilité de celle-ci (par exemple : « des gens roux qui ont marché sur la lune » n’est pas viable). Les caractéristiques du sang ne peuvent pas inclure des malades, de l’alcool ou des drogues. Ce rituel remplace la faiblesse de clan Ventru et les handicaps “Proie taboue”."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible tente de se nourrir sur autre chose que ce qu’a décidé le nécromancien, le sang devient immédiatement de la cendre dans la bouche de la personne. Une cible ne peut être affectée que par l’un ou l’autre des rituels d’Exploitation des faiblesses."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel dure 30 jours."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80ef-b114-ef976484772d",
+      "slug": "familier-dechu",
+      "title": "Familier déchu",
+      "notionUrl": "https://app.notion.com/p/Familier-d-chu-39b88b48e48e80efb114ef976484772d",
+      "lastEditedTime": "2026-07-12T13:40:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Familier déchu"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les histoires de possessions fantômes ne se limitent pas à des réceptacles humains. L’Horreur est jonchée de contes d’animaux touchés par une présence d’outre-monde; une âme autrefois gentille qui se retourne contre son maître avec une sauvagerie bestiale. Vous avez le pouvoir d’infuser un animal avec une âme, le remplissant de la rage des damnés. Pour ce faire, vous devez nourrir un animal de la chair d’une personne qui a succombé à une attaque animale."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel prépare un animal à devenir le réceptacle d’un fantôme. Vous pouvez forcer un fantôme sous votre contre ou alors utiliser un fantôme lambda à proximité pour la possession. L’animal nouvellement possédé est contrôlé par le fantôme, qui conserve son intelligence humaine et est lié pour un an et un jour ou jusqu’à ce que le corps de l’animal soit détruit. Le fantôme possède les facultés de l’animal et peut également utiliser ses propres pouvoirs. Pour déterminer le groupement de test, le Familier déchu utilise le grade le plus élevé entre l’animal ou le fantôme, bien qu’il puisse utiliser les spécialités des deux indifféremment. Il peut être affecté par Animalisme et Nécromancie, ainsi que par tous les pouvoirs qui touchent les fantômes et les animaux."
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des âmes exècrent la possession des animaux, considérant cette pratique comme amorale. Elles sont connues pour péter les plombs, raison pour laquelle la plupart des animaux possédés sont considérés comme sauvages. Elles n’ont aucun souci à mettre en danger la vie de leur hôte, car si l’animal meurt, le fantôme est libéré. Si vous le désirez, vous pouvez attribuer une tâche au fantôme, qui à sa complétude entraînera alors la fin du rituel et la libération de l’âme."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir qu’un seul Familier déchu à la fois. Relancer le rituel libérera l’âme précédente."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80a5-a106-e3b5f939790a",
+      "slug": "festin-funeraire",
+      "title": "Festin funéraire",
+      "notionUrl": "https://app.notion.com/p/Festin-fun-raire-39b88b48e48e80a5a106e3b5f939790a",
+      "lastEditedTime": "2026-07-12T13:29:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Festin funéraire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au travers de l’histoire, plusieurs cultures ont associé la nourriture et les rites funéraires. Du modeste biscuit funéraire aux repas partagés en commémoration, les vivants célèbrent ceux qu’ils ont perdus en nourrissant les personnes endeuillés survivantes. Ce rituel puise dans le pouvoir émotionnel de ces offrandes, leur permettant de nourrir les esprits en lieu et place des vivants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel nécessite que vous obteniez de la nourriture ou de la boisson qui a été offerte récemment à ceux qui pleurent la perte d’un être cher en signe de sympathie. La nourriture doit être suffisamment fraîche pour qu’un être humain trouve ça comestible et vous ne pouvez pas préparer la nourriture vous-même-vous devez l’obtenir de la part d’une personne en deuil. Les restes peuvent également faire l’affaire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang alors que vous proférez rituellement une invitation aux esprits des morts pour venir se repaître sur la nourriture en offrande. N’importe quel fantôme capable d’entendre votre invitation peut choisir de répondre à votre appel. Pour cette raison, beaucoup de nécromanciens choisissent et préparent le site avec une grande attention afin de lancer le rituel. Une fois le rituel lancé, la présence de la nourriture est reproduite dans les Terres d’Ombre et les fantômes peuvent interagir avec, typiquement en mangeant et buvant, retrouvant des sensations dont sont privés les morts. Dans le monde matériel, la nourriture disparaît en même temps que les fantômes l’absorbent sous forme d’énergie spirituelle. Si la nourriture est déplacée à 6 pas de l’emplacement du rituel, celui-ci échoue et prend immédiatement fin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez cibler un nombre de fantômes participant au banquet équivalent à votre score en Occultisme. Chaque fantôme qui passe au moins 5 min à manger la nourriture rituellement chargée regagne un nombre de points de Pathos équivalent à deux fois ceux que vous avez en Occultisme. Cela ne permet pas de dépasser le score maximum normal que le fantôme peut avoir à son Pathos."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si le nécromancien a 4 en Occultisme, chaque fantôme choisi peut regagner jusqu’à 8 points de Pathos. Un fantôme participant avec déjà 3 points peut donc regagner 7 points pour atteindre les 10 maximum."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-804f-9995-c0a107a513a7",
+      "slug": "fil-d-argent",
+      "title": "Fil d’argent",
+      "notionUrl": "https://app.notion.com/p/Fil-d-argent-39b88b48e48e804f9995c0a107a513a7",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fil d’argent"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Terres d’Ombre sont inconnues et traîtresses, même pour les nécromanciens les plus expérimentés. Le temps et l’espace se courbent et se plient, et les choses sont rarement là où elles devraient être. Cette ligne de vie permet aux visiteurs des Terres d’Ombre de trouver ce qu’ils cherchent et s’ils sont chanceux, les guidera même jusqu’à chez eux."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, vous devez lier une mèche de cheveux d’un nouveau-né et 1 point de son sang dans un chaudron en étain. Pour compléter le rituel, vous devez lâcher une pelote de laine dans la cuve, liant mystiquement le fil à vous. En entrant dans les Terres d’Ombre, vous déroulez la pelote et attachez l’extrémité à votre poignet droit. Cela vous ancre, vous permettant de traverser les Terres d’Ombre avec une certaine fiabilité. Vous pouvez utiliser la pelote de laine pour retourner à votre point d’origine même si vous vous trouvez dans le Labyrinthe."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que vous vous êtes raccordé au Terre d’Ombre, vous pouvez utiliser le fil d'argent pour vous assister dans une quête. (pour plus d’informations sur les quêtes, voir le chapitre : Règles et Système Dramatique). L’utilisation d’un fil d’argent permet de réduire la difficulté de n’importe quelle quête dans les Terres d’Ombre de 1 niveau, ne pouvant pas réduire en dessous de 1 le niveau de difficulté. Cela ne permet pas non plus de réduire le type de quête, par exemple, une quête héroïque de niveau 1 ne sera pas affectée par le fil d’argent. Une fois que vous avez entamé une quête, vous êtes totalement investi jusqu’à sa résolution. Cependant, vous lier à une quête peut être dangereux et n’importe quelle quête renforcée par un fil d’argent qui échoue le fait avec une conséquence supplémentaire pour le nécromancien. Une fois un fil d’argent créé, il reste actif jusqu’à l’accomplissement de la quête. Un nécromancien ne peut avoir qu’un seul fil d’argent actif à la fois."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80e8-a572-f94b2195ca3e",
+      "slug": "force-de-la-chair-pourrie",
+      "title": "Force de la Chair Pourrie",
+      "notionUrl": "https://app.notion.com/p/Force-de-la-Chair-Pourrie-39b88b48e48e80e8a572f94b2195ca3e",
+      "lastEditedTime": "2026-07-12T13:40:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Force de la Chair Pourrie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel est principalement utilisé par les nécromanciens qui suivent la Voie des ossements. Il s'agit d'un atroce enchantement qui augmente les capacités des serviteurs zombies du nécromancien, leur permettant de servir plus efficacement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand ce rituel est lancé sur un zombie du nécromancien, celui-ci devient plus intelligent, plus fort et plus résistant. Le zombie gagne deux spécialités de compétence de votre choix et sa santé double. Les effets de ce rituel durent un mois."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80d6-80ed-ecd7de5ca8c5",
+      "slug": "forteresse-stygienne",
+      "title": "Forteresse Stygienne",
+      "notionUrl": "https://app.notion.com/p/Forteresse-Stygienne-39b88b48e48e80d680edecd7de5ca8c5",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forteresse Stygienne"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Personne ne sait comment sont façonnées les Terres d’Ombre, seulement qu’elles sont affectées par les émotions les plus intenses du monde des mortels. Les nécromanciens talentueux rassemblent ce pouvoir pour créer des petites poches immuables dans les Terres d’Ombre sous la forme de Forteresse stygienne. Ces emplacements offrent de l’intimité et de la sécurité au sein des Terres d’Ombre, même s’ils viennent avec une impression de danger imminent."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois dans les Terres d’Ombre, vous devez dépenser 1 point de sang mélangé aux cendres d’un coq blanc, à des glaïeuls, et de la terre consacrée autour d’une église, le tout dans un bol en cuivre, puis peindre le dormant (le cadre extérieur) d’une porte avec. Pendant que vous le faites, les Terres d’Ombre autour de vous mutent, se contractent et se modifient. Cela dure 15 minutes puis la porte s’ouvre sur une Forteresse stygienne, une structure qui existe à l’intérieur des Terres d’Ombre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que toutes les forteresses diffèrent par leur esthétique, elles présentent toutes les mêmes similitudes en termes de mécanique de jeu. Ce sont des Lieux Prestigieux de grade 5 . Les qualités du lieux sont : Zone Morte, Hanté, Location Isolée, Hors du réseau ainsi qu’une qualité au choix du nécromancien (voir le chapitre règles et système dramatique). Un nécromancien ne peut avoir qu’une seule forteresse active à la fois."
+        },
+        {
+          "type": "paragraph",
+          "text": "La porte qui y mène ne peut être ouverte que par le nécromancien qui a lancé le rituel, bien que n’importe qui peut tenter d’y avoir accès par une quête complexe de difficulté 5 à l’intérieur des Terres d’Ombre. Si quelqu’un doit sortir de la forteresse, il se retrouve à l’endroit où le rituel a été lancé, dans le monde réel à l’extérieur des Terres d’Ombre."
+        },
+        {
+          "type": "paragraph",
+          "text": "La porte et la forteresse durent 30 jours. Le rituel peut être prolongé tous les mois par une action inter-partie. Si le rituel arrive à terme, il peut être relancé à nouveau pour avoir accès à la même forteresse avec les mêmes qualités."
+        },
+        {
+          "type": "heading_3",
+          "text": "Forteresse Stygienne"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet énorme bâtiment est tiré des brumes éphémères et toujours changeante des Terres d’Ombre, offrant un refuge sûr à ceux qui osent pénétrer les terres des morts. Bien que l’esthétique puisse varier d’une forteresse à une autre, le cœur du bâtiment reste toujours identique - Une opulente villa qui renvoie à la Rome antique. Une forêt de tours peut être ajoutée par le nécromancien, mais le bâtiment est toujours reconnaissable ; Lieux Prestigieux de grade 5 ; Qualité : Zone Morte, Hanté, Location Isolée, Hors du réseau ainsi qu’une qualité au choix du nécromancien."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80da-a9f3-c46d415a5168",
+      "slug": "frisson-de-l-oubli",
+      "title": "Frisson de l'Oubli",
+      "notionUrl": "https://app.notion.com/p/Frisson-de-l-Oubli-39b88b48e48e80daa9f3c46d415a5168",
+      "lastEditedTime": "2026-07-12T13:42:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Frisson de l'Oubli"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce puissant rituel permet au nécromancien d'infuser son corps du proverbial froid de la tombe. Tant qu'il est sous ses effets, le vampire est protégé contre le fléau igné."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien faisant usage du Frisson de l'Oubli convertit les dégâts aggravés provenant du feu et des hautes températures en dégâts normaux. Il peut aussi éteindre une flamme en dépensant un point de sang, pour une source de feu pas plus grande qu'un feu de camp à un pas de lui."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant qu'il est sous l'effet de Frisson de l'Oubli, l'aura du personnage est entrelacée de lignes noires tourbillonnantes, qui ressemblent au résultat d'une diablerie. Il draine aussi la chaleur de ses environs immédiats et gagne l’handicap “Présence Sinistre”. De plus, la souillure du monde des morts fait que le nécromancien est une cible facile pour les spectres hostiles ou d'autres nécromanciens. Tous les spectres et tous les pouvoirs de Nécromancie reçoivent un +3 sur leurs challenges contre la personne qui a effectué ce rituel. Ce rituel dure jusqu’à l'aube."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-806c-9c36-ee91a817ea10",
+      "slug": "glyphe-de-tombe",
+      "title": "Glyphe de tombe",
+      "notionUrl": "https://app.notion.com/p/Glyphe-de-tombe-39b88b48e48e806c9c36ee91a817ea10",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Glyphe de tombe"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Beaucoup de cultures laissent des cadeaux sur la tombe de leurs proches en signe de respect et de souvenir. Ils symbolisent l’espoir que leur vie après la mort soit paisible et durable et qu’ils soient pour toujours ancrés dans les mémoires. En tant que nécromancien, votre cadeau sert de puissante protection. Dans l’éventualité où un extérieur cherche à déranger l’existence paisible des âmes, vous en êtes immédiatement averti."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez préalablement trouver une pièce qui a été frappée la même année que la mort du cher disparu que vous désirez protéger. Vous devez oindre cette pièce de 1 point de sang et l’enrouler dans un petit morceau de tissu avant de l’enterrer dans la terre au-dessus du tombeau choisi. Si le corps est enseveli au-dessus du sol (par exemple dans un caveau ou une urne murale) la pièce peut être placée dans le cercueil ou l’urne. Si le repos de la personne enterrée est dérangé ou si l’esprit de cette personne est visé par un pouvoir de Nécromancie, vous en êtes immédiatement alerté par la voix de l’être cher qui demande de l’aide. Cette pièce conserve l’enchantement pour un an, après quoi il doit être relancé."
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre, si le corps est ressuscité ou dirigé par Nécromancie ou d’autres pouvoirs similaires, le corps devient immunisé aux contrôles et entre en rage, attaquant le nécromancien qui tente de le contrôler. Considérez ce zombie comme un PNJ de grade 4 avec Athlétisme, Bagarre, Esquive et Potence en spécialisation. Une fois déclenché, le zombie reste actif 10 min."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez créer des pièces et protéger un nombre de tombes équivalent à votre score d’Occultisme."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-805d-aa9f-d5eb849b83e5",
+      "slug": "homme-de-main-fantomatique",
+      "title": "Homme de main fantomatique",
+      "notionUrl": "https://app.notion.com/p/Homme-de-main-fantomatique-39b88b48e48e805daa9fd5eb849b83e5",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Homme de main fantomatique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La montée de la globalisation a transformé presque tous les types d’industries, y compris celles prêtant de l’argent. Alors que les usuriers étaient généralement situés dans les voisinages, les Giovanni entrepreneurs se sont adaptés avec le temps, combinant les anciens rites avec les besoins modernes. En tant que Dieu de l’autre monde, Dis Pater préside sur les richesses et les dettes, et regarde défavorablement ceux qui tentent de le priver de son dû. Ce rituel vous confère le pouvoir d’employer des morts-vivants dans votre collecte, empêchant le repos de ceux qui veulent se soustraire à leurs obligations."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir vous permet d’invoquer un Usurier, un type spécial de fantôme avec le pouvoir unique de notifier à quelqu’un que l’échéance de leur dette arrive à son terme. Pour lancer ce rituel, vous devez avoir un contrat, IOU ou n’importe quel élément qui indique une transaction. Cet objet doit nécessairement provenir du débiteur, une note dans le livre de dette ne suffit pas. En recouvrant l’objet de 1 point de sang, l’usurier apparaîtra et observera l’objet. Si la dette est légalement due, le fantôme l’acceptera et ira transmettre le message à celui qui la doit. Le message prend généralement la forme de rappel sur le paiement exigé, la date d’échéance et les moyens de paiement autorisés. Le fantôme disparaît alors et ira hanter le débiteur, qui que ce soit, vivant ou mort. En tant qu’élément du rituel, le fantôme est donc immunisé aux pouvoirs et ne peut être suivi d’une quelconque manière."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps qu’il faut pour que le fantôme trouve la cible est laissé au conteur, mais cela ne peut pas prendre plus de 7 jours. Le fantôme trouve toujours le débiteur grâce à la connexion avec l’objet établie par le rituel. Le fantôme n’est pas affecté par l’Historique « Fausse identité » ou n’importe quel moyen surnaturel de cacher sa présence ou son identité (comme avec les pouvoirs d’Obténébration)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois trouvé, le fantôme entre dans le rêve du débiteur la prochaine fois que celui-ci s’endort et délivre le message de manière terrifiante."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le débiteur commence la prochaine session de jeu avec 3 points de sang (ou de gnose, ou de glamour selon ce qui est approprié) et 1 de volonté en moins. Ce prélèvement constitue une collecte de l’usurier comme intérêt sur la dette, mais l’usurier ne prélèvera rien si la cible a 3 dans sa réserve de sang ou moins (ou sa gnose ou son glamour). Si la cible est un mortel, elle ne perdra pas de point de sang mais sera épuisée et ne dormira pas le reste de la nuit."
+        },
+        {
+          "type": "paragraph",
+          "text": "Après la notification de l’échéance par l’usurier au débiteur, ou si celui-ci meurt ou tombe en torpeur, le fantôme disparaît. Il ne peut plus être invoqué ou trouvé à nouveau, tout comme il ne peut pas être forcé à donner les informations personnelles du débiteur (que ce soit sa position ou son identité)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour que la dette soit considérée comme légale, il faut qu’elle remplisse tous les prérequis qu’une cour nécessite: l’approbation des deux parties, l’échange de quelque chose de valeur et l’absence de contrainte. En outre, l’objet nécessaire au rituel ne doit pas avoir été pris de manière frauduleuse, ni donné de manière frauduleuse (si par exemple quelqu’un se fait passer pour le débiteur). Ce rituel fonctionnera sur les dettes qui ont été contractées ou acquises selon des conditions qui ne sont pas explicitement illégales. Elles doivent également avoir de l’importance, comme une mineure ou une quantité non négligeable (à l’échelle de celui qui le doit) d’argent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette méthode de collecte est perçue comme scandaleuse par certains, mais la plupart des gens voient ceux qui contractent des dettes auprès des nécromanciens comme des fous. Malheureusement, la nature du lien n’indemnise pas le débiteur en cas d’une mesure aussi extrême. Un individu ne peut pas être affecté par plus d’un seul rituel de ce type tous les mois. Le rituel échouera si la cible a déjà été affectée par lui. Chaque utilisation du rituel invoque un usurier différent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le fantôme invoqué est ramené par une magie spécifique. Il ne peut être affecté par aucune discipline, aucun pouvoir de nécromancie, il ne peut pas être dominé ou obligé à faire quoi que ce soit, tout comme il ne peut pas être invoqué par d’autres moyens que ce rituel. Toute tentative de réaliser une de ces actions transgresse la magie du rituel et fera automatiquement disparaître le fantôme, qui ne pourra donc pas être rappelé."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8086-8d35-dc1520a13941",
+      "slug": "journee-du-souvenir",
+      "title": "Journée du Souvenir",
+      "notionUrl": "https://app.notion.com/p/Journ-e-du-Souvenir-39b88b48e48e80868d35dc1520a13941",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Journée du Souvenir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ceux qui ont souffert de la perte d’un membre de leur famille sont souvent confortés dans l’idée que les disparus continuent de veiller sur eux depuis l’au-delà. Il est par conséquent non surprenant que quand quelqu’un fricote avec la mort, ils attribuent leur bonne fortune à une intervention surnaturelle. Avec une fête suffisamment grandiose, vous pouvez faire de ce phénomène une réalité, donnant aux morts un moyen concret d’aider les vivants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lancer ce rituel, vous devez dépenser 1 point de sang et réciter à voix haute une prière ou demander une bénédiction durant un évènement dédié aux Morts. Le rassemblement peut aller d’un grand festival à un dîner en famille. Pendant les 7 jours suivants, ceux présents quand la bénédiction a été faite ressentent un sentiment de foi et la présence de leur ancêtre dans l’outre-monde, résultant dans un sentiment de bonne fortune. Cela permet à un personnage affecté de transformer un succès exceptionnel lors d’un challenge perdu à un succès simple. Quand ceci arrive, le personnage ressent que «ça aurait pu être pire», se demandant si quelque part il a été sauvé par un de ses ancêtres veillant sur lui. Un personnage ne peut pas avoir plus d’une seule occurrence de ce pouvoir actif à la fois."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8038-be9f-eafc9a4a1be9",
+      "slug": "lettres-de-l-au-dela",
+      "title": "Lettres de l’au-delà",
+      "notionUrl": "https://app.notion.com/p/Lettres-de-l-au-del-39b88b48e48e8038be9feafc9a4a1be9",
+      "lastEditedTime": "2026-07-12T13:43:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lettres de l’au-delà"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le deuil est par nature mêlé au regret. La séparation finale amène avec elle un torrent de pensées et de sentiments tûs, de conversations perdues et de mots laissés sous silence. Certains progressent dans la Nécromancie dans l’espoir d’alléger ces regrets, soulageant une relation chérie et déjouant la Mort elle-même. Ce rituel permet d’écrire une lettre à n’importe qui, mort ou vivant, et de recevoir une réponse."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel vous permet d’invoquer un fantôme spécial appelé Héraut qui amènera un message à une cible morte. La lettre doit être manuscrite, préparée sur 3 feuilles ou moins de papier en utilisant une encre mélangée avec 1 point de Sang. Quand le rituel est lancé, le fantôme apparaît et relit le message tout en analysant les données du destinataire afin de savoir s’ils correspondent aux critères. Si c’est le cas, le fantôme doit alors être payé pour ses services. Si le destinataire a vécu une vie vertueuse, le paiement sera minimal, comme de simples pièces d’or ou n’importe quel autre matériau précieux ou pierres précieuses. Le vampire type cible requiert de payer l’équivalent de Ressource x3 ou plus. Le conteur peut augmenter ou diminuer ce coût, à sa discrétion."
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce au pouvoir du rituel, le héraut trouve la cible où qu’elle soit, vivante ou morte et lui délivre le message. Le destinataire a alors 24h pour écrire une réponse (le matériel pour écrire lui est alors fourni par le Héraut), que le fantôme relira alors avant de ramener avec les mêmes limitations les lettres (le coût de retour est inclus dans le paiement initial)."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps que cela prend est indéterminé. En terme de jeu, le conteur va faciliter le processus, relisant et approuvant le contenu de chaque message. Si le receveur est un ancien PJ mort, le conteur peut choisir de contacter son joueur interprète. Bien que le fantôme soit en théorie capable de trouver n’importe qui, le conteur peut refuser une requête qu’il trouve déplacée pour sa chronique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le message doit être à destination d’une personne qui compte pour celui qui l’écrit. Rédiger une lettre pour un admirateur que le personnage n’a jamais rencontré ne rentre pas par exemple dans les critères du rituel."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, dans l’éventualité où le destinataire est, ou peut être mort, les messages ne doivent pas contenir de propos relatif aux circonstances de la mort de celui-ci. Les Hérauts n’ont aucun intérêt à s’investir dans des affaires qui sont au-delà du Voile et refuseront toutes les requêtes qui vont dans ce sens. Le message ne doit également pas contenir ni faire référence à des informations concernant les dernières volontés du défunt, ou toutes informations qui pourraient le renseigner sur la nature de l’au-delà. C’est simplement une lettre personnelle, le genre de lettre qui aurait pu être écrite avant la mort du destinataire."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez lancer ce rituel qu’une fois tous les 6 mois. Si le héraut vous refuse la requête, cela ne compte pas comme un lancer. Les rares qui ont réussi à maîtriser ce rituel demandent un prix exorbitant pour le réaliser. Il n’y a pas de tentatives connues d’avoir réussi à contacter un Antédiluvien avec ce rituel, ou tout autre être avec des pouvoirs extraordinaires. Les Hérauts refusent net une telle demande."
+        },
+        {
+          "type": "paragraph",
+          "text": "Le fantôme invoqué est contraint par la force du rituel, il ne peut pas être affecté par quoi que ce soit d’autre, comme des disciplines, des rituels, des pouvoirs, ni contraint ou forcés, ni suivi de quelque manière que ce soit. Toute tentative provoque la disparition du fantôme."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80d5-b40a-c97999967dfc",
+      "slug": "lier-la-faux-de-la-mort",
+      "title": "Lier la Faux de la Mort",
+      "notionUrl": "https://app.notion.com/p/Lier-la-Faux-de-la-Mort-39b88b48e48e80d5b40ac97999967dfc",
+      "lastEditedTime": "2026-07-12T13:43:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Lier la Faux de la Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que l’imminence de la mort apporte tristesse et chagrin, la plupart savent que c’est une nécessité dans le cycle de la vie. Si la mort disparaît, la douleur et la misère résultant d’une vie prolongée constitueraient un châtiment cruel en lui-même. Ce rituel vous permet de protéger un endroit contre la Mort elle-même, piégeant les mourants dans leur enveloppe terrestre, leur niant le droit au repos."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce puissant rituel nécessite au moins 2 à 6 participants maximum, et un au minimum doit posséder ce rituel. Les participants doivent avoir soit la Nécromancie, soit au moins un score de 3 en Occulte (les PNJ lambda ne peuvent pas remplir ce prérequis). Ce rituel doit être exécuté sur un sol consacré. Chaque participant donne 1 point de sang dans une boîte en argent ouvragée. Le meneur du rituel doit ajouter des baies de belladone écrasées et 1 point de son propre sang. La boîte est ensuite scellée et posée sur un piédestal entouré d’iris."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les Terres d’ombre entourant l’emplacement du rituel, tous les fantômes deviennent immédiatement agités et au courant que quelque chose de contre nature se déroule. Ils gagnent +1 bonus à tous les challenges quand ils sont manifestés (+1 wild card bonus)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets du rituels affectent une zone de 1km par point en Nécromancie au total, tous participants ajoutés. Jusqu’au prochain lever de soleil, aucune mort naturelle ne survient dans la zone. A la place, chaque âme qui aurait dû mourir est aussitôt marquée et liée à l’emplacement pour s’assurer la création d’un fantôme une fois vraiment mort. A un moment avant la levée du soleil, le nécromancien doit ouvrir la boxe, déclenchant la mort retardée des personnes et libérant les énergies entropiques. Les participants doivent dépenser collectivement un total de 10 points de volonté pour atténuer les énergies. Cette volonté ne peut pas être regagnée pendant 30 jours ou jusqu’à la prochaine session de jeu, selon le plus long. Si la volonté n’est pas dépensée, ou si la boîte n’est pas ouverte avant l’aube, la Mort se déchaîne et réclame son dû, plongeant les vampires en Torpeur."
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas où la boîte n’est pas ouverte, ou si les participants ne dépensent pas de volonté, toutes les personnes dans la portée du rituel qui devaient mourir savent immédiatement que leur existence est surnaturelle. Souvent, ces victimes sont laissées à une douleur incommensurable, suppliant une mort qui ne viendra jamais malgré leur blessures mortelles évidentes."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce phénomène persiste jusqu’au prochain lever de soleil. A ce moment-là, toutes les victimes crient à l’unisson avant de tomber mortes au même moment."
+        },
+        {
+          "type": "paragraph",
+          "text": "(Au total donc, les victimes survivent 24h supplémentaires, depuis la fin supposée du rituel jusqu’au lever de soleil suivant)"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nul besoin de préciser que ce rituel constitue un énorme bris de Mascarade. Les fantômes créés par ce rituel sont souvent instables et volatils, ajoutant encore au chaos ambiant."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel est rarement utilisé dans les temps modernes, bien qu’il reste un moyen de pression extrêmement puissant pour terroriser les membres de la Camarilla qui refusent d’entendre raison.."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f9-ac77-c114557dbc41",
+      "slug": "liqueur-de-mort",
+      "title": "Liqueur de Mort",
+      "notionUrl": "https://app.notion.com/p/Liqueur-de-Mort-39b88b48e48e80f9ac77c114557dbc41",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Liqueur de Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette douce et vicieuse boisson est un grand classique des dîners de famille et est souvent servie quand les Giovanni se rassemblent pour le plaisir ou le travail. Le mélange de miel, vitae et d’anémones qui ont fleuri sur une tombe produit un aphrodisiaque entêtant et accroît les défenses contre les créatures des Terres d’Ombre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour créer la liqueur, vous devez passer 5 min à cuisiner votre décoction dans un chaudron en acier au-dessus d’une flamme ouverte. Vous pouvez créer jusqu’à 5 fioles à chaque cuvée. Cependant, vous devez dépenser 1 point de sang à chaque préparation. Une fois ingéré, le buveur gagne un retest gratuit contre les spectres et les fantômes. Un vampire ne peut bénéficier que d’une seule utilisation de la Liqueur de Mort par nuit. La magie de la potion se dissipe à l’aube si elle est inutilisée. Les potions non bues perdent leur propriété au même moment. Le sang utilisé dans la création des fioles est rendu inerte par le rituel. Ingérer une fiole ne provoque donc pas de lien de sang et le buveur ne souffre d’aucun effet quelconque ou surnaturel, ni ne subit de trait de sang."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80af-9dba-f0491118639a",
+      "slug": "main-de-la-gloire",
+      "title": "Main de la Gloire",
+      "notionUrl": "https://app.notion.com/p/Main-de-la-Gloire-39b88b48e48e80af9dbaf0491118639a",
+      "lastEditedTime": "2026-07-12T13:41:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Main de la Gloire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Une main de la Gloire (ou main de gloire) est une des créations les plus infâmes et macabres qui ont accompagné la propagation des superstitions et de la magie. En séparant rituellement et en préparant la main d’un meurtrier, vous pouvez créer un fétiche puissant avec la capacité de paralyser tous les occupants d’une maison."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour créer une main de gloire, vous devez préparer l’objet de manière traditionnelle. Premièrement, la main tranchée d’un meurtrier condamné à mort est soigneusement enroulée dans un linceul avant d’être placée dans une jarre remplie d'épices et de terre. Après quinze jours, la main doit être retirée de la jarre et recouverte d’une mixture composée de 1 point de sang, de la verveine, de la fougère, avant d’être déshydratée dans un four à bois. Une fois une Main de la Gloire préparée, il faut un sacrifice mensuel de 1 point de sang pour préserver sa magie."
+        },
+        {
+          "type": "paragraph",
+          "text": "N’importe qui peut utiliser une Main de la Gloire une fois préparée."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour l’utiliser, un vampire doit placer une chandelle dans le poing momifié et l’allumer. Une fois que la chandelle brûle, tous les mortels dans un bâtiment pas plus grand que 3 maisons ou qu’un immeuble de bureau de taille moyenne tombent dans un sommeil magique et ne peuvent pas être réveillés. Les occupants qui sont surnaturels de quelques manières que ce soit (les Goules, les Parentèles, les Fées) ne sont pas affectés par les Mains de la Gloire. Cet effet dure une heure ou jusqu’à extinction de la chandelle, selon ce qui se produit en premier. Vous pouvez utiliser une Main de la Gloire cinq fois avant qu’elle ne perde ses pouvoirs."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-803d-9c7a-efc8c2d43890",
+      "slug": "miroir-fumant",
+      "title": "Miroir Fumant",
+      "notionUrl": "https://app.notion.com/p/Miroir-Fumant-39b88b48e48e803d9c7aefc8c2d43890",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Miroir Fumant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Nommé d'après le dieu Aztèque Tezcatlipoca, ce rituel permet d'utiliser un miroir d'obsidienne pour obtenir une sombre vision du monde qui vous entoure. En regardant dans les profondeurs du miroir noire comme l'ébène, vous découvrez les défauts des objets, évaluer l'état de santé général des mortels et pouvez même lire l'aura d'un être."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez lancer ce rituel sur un miroir d'obsidienne qui mesure au moins 15 cm de diamètre ; un tel objet peut être dissimulé avec quelques efforts mais ne rentrera pas aisément dans une poche. Avant le prochain lever de soleil, regarder dans ce miroir permet au nécromancien (et seulement celui qui a lancé le rituel) d'utiliser Regard de la Mort via la réflexion du miroir. Regard de la Mort permet de voir les fantômes et les Terres des Ombres environnantes. Il permet aussi au nécromancien qui a des points dans la compétence médecine de déterminer si les personnes aperçues dans le reflet sont saines ou affligées de maladies comme de problèmes physiques."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f3-b360-fb4cc012727c",
+      "slug": "nous-sommes-legion",
+      "title": "Nous sommes Légion",
+      "notionUrl": "https://app.notion.com/p/Nous-sommes-L-gion-39b88b48e48e80f3b360fb4cc012727c",
+      "lastEditedTime": "2026-07-12T13:43:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Nous sommes Légion"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Peu de choses peuvent plus frapper de terreur le cœur de ses ennemis qu’une horde de mort-vivant déferlant sur eux. Bien que ce rituel était couramment utilisé comme une option finale en temps de discorde, il est actuellement rarement employé à cause du bris de Mascarade évident qu’il crée."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel tire les restes environnants qui se décomposent dans la zone proche pour fournir un stock de réceptacle à la réanimation."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer ce rituel, vous devez préparer un vrai corps en le gavant de nourriture tirée d’un repas funéraire jusqu’à ce que son estomac soit entièrement rempli. Le corps doit alors être réanimé avec Horde  Putréfiée (Voie des Ossements). Le zombi est alors enterré et 3 points de votre Sang se répandent dans la terre autour."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une heure plus tard, un nombre de zombi équivalent à trois fois votre niveau en occultisme va jaillir de la terre consacrée par votre sang. Cette légion de créature se compose de PNJ lambda de grade 3 qui agissent de concert avec un seul esprit. La horde suit les ordres simples et fonctionne comme un groupe. Par exemple, vous ne pouvez pas demander à une moitié de la horde de se jeter sur une cible et à l’autre moitié de cibler quelqu’un d’autre. Si des pouvoirs sont employés pour améliorer la horde, traitez la horde comme un seul individu pour lancer le pouvoir et non pas comme une multitude d'individus. Une horde ne peut pas avoir plusieurs applications d’un même pouvoir ou avoir des effets qui ciblent seulement une partie des zombies."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les zombis sont créés à partir de restes décomposés des corps dans la zone. Cela résulte en une vague de créatures nues, assemblages grotesques de plusieurs morceaux de cadavres et apparaît donc comme indescriptible. Quand il meurt, il tombe aussitôt au sol et devient poussière."
+        },
+        {
+          "type": "paragraph",
+          "text": "La légion ne compte pas vis-à-vis de votre limitation de zombis basée sur votre score en Occultisme. Un nécromancien ne peut invoquer qu’une seule légion par cycle lunaire. A l’aube, les zombis créés se transforment aussitôt en poussière sur le sol."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8084-840f-e01ad806b7a1",
+      "slug": "obole-de-charon",
+      "title": "Obole de Charon",
+      "notionUrl": "https://app.notion.com/p/Obole-de-Charon-39b88b48e48e8084840fe01ad806b7a1",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Obole de Charon"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Déposer des pièces dans la bouche ou sur les yeux des morts est une pratique associée instinctivement aux grecs anciens et aux romains. Ces pièces de bronze ou de cuivre étaient le paiement pour le psychopompe Charon, le bateleur qui transporte les âmes sur le Styx, la rivière qui sépare le monde des morts de celui des vivants. Les nécromanciens compétents dans la Voie des Cendres (Ash Path) peuvent traverser cette limite de leur propre chef. En créant et en donnant à leurs alliés une obole pour Charon, ils peuvent également séjourner dans les Terres d’Ombre."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour créer une Obole pour Charon, vous devez vous aventurer dans les Terres d’Ombre en utilisant Ex Nihilo et immerger une pièce en bronze ou en cuivre dans les eaux fétides et marécageuses tout en y ajoutant 1 point de sang. Une fois complété, vous pouvez rentrer sur la terre des vivants et offrir ces pièces à vos alliés. Un allié qui possède une Obole de Charon peut volontairement vous accompagner quand vous utilisez le pouvoir Ex Nihilo. C’est une exception à la règle qui empêche l’utilisateur de Ex Nihilo d’amener d’autres personnes avec lui dans les Terres d’Ombre."
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois dans les Terres d’Ombre, ceux qui ont reçu les pièces n’ont pas besoin de vous suivre, mais peuvent suivre n’importe quel nécromancien qui désirent les guider dans leur séjour à travers le Voile. Pour ce faire, le receveur doit placer la pièce dans sa bouche et suivre le guide. Si à n’importe quel moment la pièce est brisée, détruite, perdue ou crachée, le receveur est immédiatement éjecté des Terres d’Ombre à un emplacement déterminé par le Conteur. Cet usage partagé d’Ex Nihilo exprime la capacité des alliés à participer dans la version avec Focus de Ex Nihilo."
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien peut avoir un nombre d’Obole équivalent à son score en occultisme maximum. Créer une nouvelle pièce dépassant le score maximal résulte en la destruction des précédentes en commençant par la plus ancienne."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80b1-adce-fe9000e10b92",
+      "slug": "pardon-tenebreux",
+      "title": "Pardon ténébreux",
+      "notionUrl": "https://app.notion.com/p/Pardon-t-n-breux-39b88b48e48e80b1adcefe9000e10b92",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Pardon ténébreux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les nécromanciens utilisent et manipulent les fantômes comme des pions dans une partie d’échec cosmique. Pour les pauvres âmes qui cherchent le pardon, cette existence peut être pire que n’importe quelle au-delà possible. Pour ces âmes qui ont prouvé leur loyauté, il s’agit du cadeau ultime : la libération finale de cette existence et la chance d’avoir la paix."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser ce rituel, vous devez détruire les représentations de l’Ancre du fantôme. Une fois que la dernière représentation est détruite, vous devez cracher 1 point de sang sur le sol, provoquant l’apparition du fantôme. Vous devez alors siphonner l’angoisse du fantôme immédiatement. Chaque fantôme a un niveau d'Angoisse équivalent à son grade de PNJ."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque point d’angoisse absorbé, vous gagnez un trait de bête tandis que le fantôme approche de la Transcendance, un état supérieur dans lequel les problèmes mortels sont résolus et leur périple prend fin."
+        },
+        {
+          "type": "paragraph",
+          "text": "Plusieurs nécromanciens peuvent réaliser le rituel ensemble s’ils le connaissent tous pour drainer l’angoisse d’un fantôme. L’angoisse est alors répartie entre les nécromanciens. Si vous ne pouvez pas drainer toute l’angoisse du fantôme en une seule fois, il repart dans les Terres d’Ombre où son angoisse retourne à son maximum. Si l’angoisse du fantôme atteint 0, il est Transcendé."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80c0-9134-c10ccc37cf7a",
+      "slug": "perception-teintee",
+      "title": "Perception Teintée",
+      "notionUrl": "https://app.notion.com/p/Perception-Teint-e-39b88b48e48e80c09134c10ccc37cf7a",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Perception Teintée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le monde est un endroit éphémère, rempli par la mort. En invoquant ses pouvoirs de Nécromancie, le ritualiste peut forcer une victime à voir la décrépitude inhérente à toutes choses vivantes."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien doit cibler une victime qui est dans un rayon de 1,6 km (1 mile) de lui."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, il doit avoir une de ses mèches de cheveux, un peu de chair (ou de cendres pour un vampire) qui faisait partie de son corps ou un point de Sang de la victime. Faites un challenge opposé de Nécromancie contre votre cible. Si vous réussissez, vous affligez votre victime de la Perception teintée. Pour toute la durée de ce rituel, la victime voit le monde autour d'elle comme pourri, mourant et décomposé. Ceux affectés par ce rituel sont souvent repoussés par ce qui les entoure, effrayés par leurs alliés et peuvent devenir dépressif par les images constantes de morts. La victime gagne le handicap Vision de mort pour une durée d'un mois ou deux soirées de jeux, selon ce qui est le plus long."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f2-8205-d906ae2e20ca",
+      "slug": "poids-de-la-tombe",
+      "title": "Poids de la Tombe",
+      "notionUrl": "https://app.notion.com/p/Poids-de-la-Tombe-39b88b48e48e80f28205d906ae2e20ca",
+      "lastEditedTime": "2026-07-12T13:43:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "25 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "5"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Poids de la Tombe"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La peur de la mort est une ancienne terreur, une pointe de ténèbres qui frappe au plus profond de chaque individu. En s'attaquant à cette peur, le nécromancien peut forcer une personne à ne pas faire une activité, créant l'idée dans sa psyché que cette action serait un véritable suicide."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien doit cibler une personne qui se trouve dans un rayon de 1,6 km (1 mile). De plus, il doit avoir une mèche de cheveux, un peu de chair (ou de cendres pour un vampire) qui faisait partie du corps ou un Point de Sang de sa victime."
+        },
+        {
+          "type": "paragraph",
+          "text": "Faites un challenge opposé de Nécromancie avec votre victime. Si vous réussissez, vous pouvez choisir une activité limitée qui n'est pas du combat, comme \"peindre\", \"parler au Prince Elliot\" ou \"participer à la réunion Toréador\". Jusqu'à la prochaine aube, la cible associe cette activité à la mort. Elle est convaincue que si elle participe à cette activité, elle en mourra - et elle n'a pas totalement tort. Si la personne va quand même pratiquer cette activité, elle subit aussitôt 3 points de dégâts aggravés qui ne peuvent être réduits ou annulés."
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucun pouvoir ne peut retirer - ou permettre à la cible d’oublier- la peur implantée par Poids de la Tombe. Demander à la personne affectée par le pouvoir de faire cette activité (à travers Domination ou d'autres pouvoirs du genre) est considéré comme autodestructeur. Vous ne pouvez lancer Poids de la Tombe qu'une fois par cycle lunaire, une fois par mois et une personne ne peut être affectée par plus d'un Poids de la Tombe à la fois. Si ce rituel est appliqué une deuxième fois avant la fin du premier, le plus ancien rituel s'estompe."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8044-8a20-e982cbc57d65",
+      "slug": "poupee-malefique",
+      "title": "Poupée maléfique",
+      "notionUrl": "https://app.notion.com/p/Poup-e-mal-fique-39b88b48e48e80448a20e982cbc57d65",
+      "lastEditedTime": "2026-07-12T13:41:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Poupée maléfique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Les contes de fées préviennent les voyageurs inconscients qui tombent sur des magiciens ou des sorcières dans les forêts et qui échangent des parties d’eux-mêmes contre une aide passagère. Ces contes alarmants existent pour une raison, car le voyageur infortuné se rend alors vite compte que ce qu’il pensait être une demande innocente peut vite se transformer en une puissante magie. Avec ce rituel, vous créez une effigie de votre cible qui contient une malédiction puissante."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer le rituel, vous devez en premier créer une effigie de votre cible. Vous devez être familier avec la cible ou bien avoir un objet personnel de la cible, et dans les deux cas avoir un morceau d’elle (ongle, cheveux, peaux, sang, ect). La poupée peut être faite de n’importe quel matériau, mais doit inclure à l’intérieur d’elle le morceau de la cible pendant sa fabrication. Cette préparation peut être conservée jusqu’à 30 jours maximum."
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible doit toujours être considérée comme familière quel que soit le moment où vous lancez le rituel."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour lancer le rituel, placez la poupée à proximité d’une bougie pendant que vous imaginez le visage de votre cible. Alors que la bougie commence à fondre, faites couler la cire chaude sur la poupée et laissez la durcir. Pour compléter le rituel, avec toujours l’image de la cible à l’esprit, brisez la poupée en deux morceaux au moins et faites couler 1 point de sang sur les morceaux. Faites un challenge en opposition avec votre cible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez, la cible obtient l’handicap Os Fragile. Cet effet dure pour la prochaine heure, à moins que la poupée ne soit détruite avant. Chaque poupée ne peut être utilisée qu’une seule fois. Pour lancer ce rituel une deuxième fois sur la même personne, une nouvelle effigie doit être réalisée. Plusieurs utilisations du rituel ne se cumulent pas, mais une deuxième application prolonge la durée du handicape d’une heure."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80e4-817a-f7b08396cbe0",
+      "slug": "presence-pourrissante",
+      "title": "Présence pourrissante",
+      "notionUrl": "https://app.notion.com/p/Pr-sence-pourrissante-39b88b48e48e80e4817af7b08396cbe0",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Présence pourrissante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "En utilisant ce rituel, l'aura du vampire se met à émaner en vague de décrépitude et d'entropie. Toute la matière morte vivante qui entre en contact avec le nécromancien devient la proie d'une pourriture prématurée et accélérée. Le bois et le papier vont pourrir, le métal va s'oxyder et même le plastique ou le verre vont s'éroder."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien sous l'effet de ce rituel peut volontairement faire pourrir les objets inanimés qu'il touche. Durant le reste de la nuit, il peut dépenser une action standard pour corrompre et faire rouiller tout ce qui touche sa chair, rendant les objets inutilisables. En combat, vous pouvez détruire un objet que votre adversaire contrôle avec la manœuvre de Saisie. Si vous réussissez, vous pouvez détruire un objet en possession de votre cible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Présence pourrissante fonctionne instantanément sur un objet de la taille d'un grand livre. De plus gros objets peuvent prendre quelques tours ou minutes avant d'être détruit, à la convenance d'un conteur."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80af-84b8-fee2a6528cd0",
+      "slug": "releve-toi-cerbere",
+      "title": "Relève-Toi, Cerbère",
+      "notionUrl": "https://app.notion.com/p/Rel-ve-Toi-Cerb-re-39b88b48e48e80af84b8fee2a6528cd0",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Relève-Toi, Cerbère"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Cerbère était le chien de garde de la mythologie grecque. En utilisant ce rituel, le nécromancien protège son havre avec un gardien qui est une réminiscence du puissant Cerbère."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour pratiquer ce rituel, le nécromancien doit tuer trois grands chiens puis fixer les têtes de deux d'entre eux sur le corps du troisième afin de former le cadavre d'un chien à trois têtes avant de l'enterrer sous le sol de son havre. Ensuite, il faut incanter pendant trois nuits consécutives au-dessus de la tombe. Lors de la quatrième nuit, le chien va se relever en tant que spectre : une présence fantomatique dans le monde réel mais bien présent dans les Terres des Ombres. Le Cerbère est un PNJ Type de niveau 4 et compte comme un fantôme pour l'utilisation des pouvoirs sur lui. Il peut voir à travers Dissimulation et les autres pouvoirs d’invisibilité, compte comme un animal et peut utiliser le pouvoir de Regard d'Effroi. Le Cerbère ne peut quitter le havre du nécromancien pour quelque raison que ce soit. Il a une intelligence animale et est totalement loyal à son créateur. Il dispose de 10 points de Pathos, mais aussi de focus en Puissance, Force d'Âme, Investigation et Bagarre."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8069-aece-c8c1098001a5",
+      "slug": "rituel-de-xipe-totec",
+      "title": "Rituel de Xipe-Totec",
+      "notionUrl": "https://app.notion.com/p/Rituel-de-Xipe-Totec-39b88b48e48e8069aecec8c1098001a5",
+      "lastEditedTime": "2026-07-12T13:41:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "20 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "4"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Rituel de Xipe-Totec"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les temps anciens, les prêtres Aztèques écorchaient leurs victimes et la portaient en tant que sacrifice à Xipe Totec, dieu de la souffrance et du renouveau. D'une même façon, les nécromanciens écorchent vifs des mortels mais pour une raison plus pragmatique - voler l'identité de cette personne."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour pratiquer ce rituel, le nécromancien doit retirer les premières couches de peau de sa victime avec une dague d'obsidienne, faisant attention à endommager la peau aussi peu que possible. La victime doit survivre à cette procédure. Le nécromancien se recouvre ensuite de cette peau qui le recouvre comme s’il s'agissait de la sienne. Naturellement la victime doit être de la même stature que le nécromancien, - autrement l'apparence sera distordue et le déguisement deviendra inutile."
+        },
+        {
+          "type": "paragraph",
+          "text": "Devant toute observation normale, ce déguisement est sans le moindre défaut. Malgré tout, il ne rapporte aucune des connaissances ou des habitudes de la victime et ne fait rien pour masquer la nature de mort vivant du nécromancien s’il suit une Voie. Pratiquer ce rituel fait automatiquement gagner 3 traits de la bête au nécromancien."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-800f-a257-fa199d8ceb63",
+      "slug": "sang-noir",
+      "title": "Sang Noir",
+      "notionUrl": "https://app.notion.com/p/Sang-Noir-39b88b48e48e800fa257fa199d8ceb63",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sang Noir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel permet au nécromancien d’enchanter son sang ou toute quantité de sang-froid et de le transformer en un ignoble ichor noir."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ce rituel est fait sur le nécromancien lui-même, il transmute 3 points de Sang dans l'organisme même du ritualiste. Il ne peut plus utiliser ce sang pour quelque raison que ce soit. Si quelqu'un essaye de boire du sang du ritualiste, il absorbe ces 3 points de Sang Noir en premier, avant tout autre Points de Sang."
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le rituel est fait sur un Vrai Corps récent ou une quantité de sang froid (comme dans une poche de sang ou d'autre stockage adapté), tout le sang s'y trouvant est changé en Sang Noir."
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous ceux qui ingèrent du Sang Noir subissent 2 points de dégâts normaux par points de Sang Noir ingérés."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, durant l'heure suivante, tout individu ayant consommé ce sang subit de terribles douleurs et reçoit une pénalité de -1 à tous ses tests physiques."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80d2-b243-eac38b505811",
+      "slug": "servant-immortel",
+      "title": "Servant Immortel",
+      "notionUrl": "https://app.notion.com/p/Servant-Immortel-39b88b48e48e80d2b243eac38b505811",
+      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Servant Immortel"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "La loyauté, pour un nécromancien, signifie quelque chose de totalement différent que pour n'importe qui d'autre. Ceux qui vous servent ne peuvent échapper à vos ordres d'une façon aussi simple qu'en mourant."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un nécromancien qui pratique ce rituel sur un de ses suivants à besoin que celui-ci signe un contrat avec son propre sang. Ensuite, si le suivant se fait tuer, il se relève alors automatiquement peu de temps après en tant que zombie pour servir le nécromancien. Ce zombie est plus intelligent que la normale. Il se souvient du dernier ordre qui lui a été donné par le nécromancien et continuera de le suivre au mieux de ses capacités. Une fois sa tâche accomplie, le suivant meurt à nouveau et se transforme en cendre."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8020-ac1e-f3f0a24a0285",
+      "slug": "sombre-assistant",
+      "title": "Sombre Assistant",
+      "notionUrl": "https://app.notion.com/p/Sombre-Assistant-39b88b48e48e8020ac1ef3f0a24a0285",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sombre Assistant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel anime une main coupée ou un crâne humain, permettant à l'objet de devenir conscient de façon qu'il puisse servir d'allié repoussant."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nécromancien peut effectuer ce rituel sur une main coupée ou un crâne humain nettoyé, animant l’objet pour se créer un assistant. Ceux-ci sont permanents jusqu'à leur destruction."
+        },
+        {
+          "type": "paragraph",
+          "text": "Animer une main lui donne la capacité d’être un assistant physique, se déplaçant sur ses doigts à la demande du nécromancien. Il peut déplacer de petits objets, tourner les pages d'un livre ou accomplir des tâches simples."
+        },
+        {
+          "type": "paragraph",
+          "text": "Animer un crâne humain lui offre la capacité de se servir d'une véritable réserve d'information, récitant parfaitement tout livre ou toute information lue et donnant tous les détails de chaque rituel ou recette alchimique qui aurait été expliqué en sa présence."
+        },
+        {
+          "type": "paragraph",
+          "text": "Ni la main, ni le crâne ne peuvent effectuer d'actions de combats. Chaque Sombre Assistant dispose uniquement de deux niveaux de santé et sont animés par de sombres énergies. Ces créatures n'ont pas la mémoire de leurs vies passées et servent uniquement le nécromancien qui les a animées."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80a1-8bf1-ce681aebe3f1",
+      "slug": "vacarme-des-damnes",
+      "title": "Vacarme des Damnés",
+      "notionUrl": "https://app.notion.com/p/Vacarme-des-Damn-s-39b88b48e48e80a18bf1ce681aebe3f1",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vacarme des Damnés"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Voile protège le monde contre celui des morts mais en utilisant la bonne magie, un nécromancien peut permettre aux sons provenant du royaume des morts d'être entendus dans le monde des vivants."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce rituel ressemble à l'Appel des Morts Affamés, dans le fait qu'il rende perceptibles les bruits provenant de l'autre monde dans le royaume physique. Mais, le Vacarme des Damnés affecte une zone ou une chambre fermée plutôt qu'une seule personne. Pour protéger une zone de cette manière, le nécromancien doit dessiner une ligne de craie ininterrompue faite à partir de cendre d'un crématorium."
+        },
+        {
+          "type": "paragraph",
+          "text": "Jusqu'à l'aube, toute tentative d’espionner ce qui se passe dans cette pièce, que ce soit directement, par technologie ou de façon surnaturelle, recevra des résultats brouillés, plein de bruits parasites."
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, un léger vent dans la zone porte des murmures, des avertissements, des malédictions, des cris et les rires des morts. Tout mortels dans la zone doit la fuir et refusera d'y retourner jusqu'au lendemain. Les mortels qui sont forcés à y rester subissent une pénalité de -5 à tous leurs challenges."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8039-ba2d-e77e92f013e0",
+      "slug": "vigilance-eternelle",
+      "title": "Vigilance éternelle",
+      "notionUrl": "https://app.notion.com/p/Vigilance-ternelle-39b88b48e48e8039ba2de77e92f013e0",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vigilance éternelle"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que beaucoup de nécromanciens préfèrent la subtilité d’un fantôme, nul ne peut dénier l’efficacité d’un bon zombi. Avec Vigilance éternelle, le nécromancien crée une substance lui donnant la capacité de voir le monde à travers les yeux d’une créature. Bien que ses sens soient alors limités à la vue et l’ouïe, cette connaissance peut lui offrir la clarté nécessaire pour un conflit."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour préparer ce rituel, vous devez mélanger une goutte de votre vitae avec une goutte du sang du zombi que vous voulez améliorer. Le sang doit d’abord être bouilli puis ajouter à une mixture de lanoline, fenouil et une rose de Jericho. Une fois refroidie, la substance doit être étalée sur le visage du zombi. Pour les 30 prochains jours, vous pouvez dépenser 1 point de sang et une action simple pour voir temporairement à travers les yeux du zombi. Pendant trois tours, vous pouvez voir et entendre où se trouve et ce que fait votre zombi, et pouvez également lui donner d’autres instructions. De plus, si vous les avez, vous pouvez également utiliser les 2 premiers niveaux d’Auspex au travers des sens du zombi. Après quoi vos sens retournent à votre propre corps mais vous pouvez utiliser ce pouvoir à nouveau si vous le souhaitez. Tant que vous êtes connectés à votre zombi, vous ne pouvez pas utiliser d’autres pouvoirs et perdez votre capacité à sentir ou réagir à votre environnement, même si vous gardez vos groupements normaux pour les tests. N’importe quel zombi que vous avez créé peut être amélioré de cette manière. Vous pouvez avoir ce rituel effectif sur un nombre maximum de zombi égal à votre score en Occultisme, au-delà, le plus récemment utilisé se dissipe."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80f1-964a-f82469727417",
+      "slug": "vol-d-identite",
+      "title": "Vol d’identité",
+      "notionUrl": "https://app.notion.com/p/Vol-d-identit-39b88b48e48e80f1964af82469727417",
+      "lastEditedTime": "2026-07-12T13:34:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vol d’identité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand les Thaumaturges se sont aperçus qu’ils avaient un moyen de contrôler la puissance de la technologie avec leur sang, les nécromanciens ont réalisé qu’ils étaient derrière la course à l’avancée technologique. Alors que la Thaumaturgie se concentre sur la manipulation de la technologie, les nécromanciens ont trouvé un moyen d’obtenir et d’exploiter les informations des morts récents à leurs propres fins. En obtenant un morceau d ‘un corps récent, vous pouvez utiliser leurs souvenirs pour avoir accès à des informations personnelles qui pourraient être perdues dans la tombe autrement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour que ce rituel fonctionne, vous devez avoir accès à un corps dont les éléments clefs sont préservés. Vous devez récupérer un ou tous les morceaux suivants qui doivent donc être le mieux préservés possible : les yeux, la langue et les doigts. Cela nécessite au moins un 1 en médecine. Vous pouvez dépenser 1 point de sang par élément pour remplacer les parties de votre corps avec celles prélevées. Cela cause 1 point de dommages aggravés non absorbable par élément remplacé mais les parties changées fonctionnent correctement une fois greffées."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les yeux : vous pouvez passer n’importe quel scan rétinien avec succès."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La langue : vous pouvez prendre la voix de la cible, leurrant n’importe quel élément de détection électronique."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les doigts : vous pouvez reproduire l’empreinte de la cible pour tous les appareils de détection électronique."
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus de ces effets, attacher au moins un de ces éléments transmet une petite partie de la mémoire de la cible sous forme de connaissance de ses mots de passe, l’emplacement de ses données et comptes. Vous pouvez décider de conserver les éléments greffés mais ils continueront à se décomposer, vous donnant une apparence horrible."
+        },
+        {
+          "type": "paragraph",
+          "text": "Complainte des disparus"
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où les morts marchent, leur complainte les suit. Certaines cultures croient que les morts ne peuvent progresser dans l’autre monde tant qu’ils n’ont pas été suffisamment pleurés, alors que d’autres croient que trop de pleurs peuvent au contraire inviter des esprits maléfiques. Ce rituel vous permet d’entendre les pleurs des Banshee, les esprits qui accompagnent les morts en gémissant, de la zone de votre choix."
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour accomplir ce rituel, vous devez récupérer une oeuvre d’art qui représente une femme en pleurs. Les plus anciens praticiens utilisent une iconographie très religieuse, mais une approche plus moderne peut également être faite. L’oeuvre doit être entourée dans de la soie et baignée dans 1 point de sang. Elle doit ensuite être mise dehors à la Nouvelle Lune tout en lançant le rituel. Par la suite, l’oeuvre peut être accrochée dans n’importe quel bâtiment et vous conservez l’étole de soie qui a servi à la recouvrir. Si une mort devait survenir dans ce bâtiment, vous êtes frappé par une vive mais fugace douleur tandis que votre esprit est rempli des pleurs de la Banshee, vous rendant incapable d’entendre pour un round."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez couper le lien vers l’oeuvre à n’importe quel moment en brûlant la soie qui recouvre l’objet. Cela met immédiatement un terme au rituel et détruit la représentation. Sinon, l’oeuvre conserve sa puissance pendant 90 jours à moins d’être repeinte avec votre sang, ce qui prolonge l’effet pour 90 jours à compter de ce moment là."
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez avoir autant d’oeuvres accrochées que votre score en Occultisme."
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80a2-a836-e292febc7a82",
+      "slug": "yeux-de-la-tombe",
+      "title": "Yeux de la Tombe",
+      "notionUrl": "https://app.notion.com/p/Yeux-de-la-Tombe-39b88b48e48e80a2a836e292febc7a82",
+      "lastEditedTime": "2026-07-12T13:31:00.000Z",
+      "properties": {
+        "Cout en point de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Temps de préparation": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Yeux de la Tombe"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez concentrer la pâleur et la décrépitude de la mort dans une pincée de terre provenant d'une tombe avant de les frotter sur les yeux d'un portrait, d'une image ou d'une gravure de votre cible. Plus tard, en déchirant cette image en deux, vous infligez des visions d'horreurs qui aveuglent votre cible pour une courte période de temps."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Au zénith de l'incantation de ce rituel, vous devez détruire un portrait de votre cible qui a été créé par quelqu'un qui possède au moins deux niveaux dans la compétence artisanat. Le nécromancien doit cibler une personne se trouvant dans un rayon de 1,6 km (1 mile) du lieu de lancement initial du rituel. Faites un challenge opposé de nécromancie avec votre cible. Si vous réussissez, vous avez imprégné l'image de votre cible par les Yeux de la Tombe. A n'importe quel moment suivant de la soirée, vous pouvez déchirer l'image en deux, infligeant l'état aveuglé à votre victime pour un tour complet. Un nécromancien ne peut avoir qu'un seul Yeux de la Tombe actif à la fois ; toute autre utilisation de ce rituel annulera l'effet du précédent."
         }
       ]
     }
