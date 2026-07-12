@@ -3,7 +3,7 @@ import { Compass } from "lucide-react";
 
 export default function NotFoundPage() {
     return (
-        <main className="">
+        <main>
             <section className="notFoundPage">
 
                 <Compass size={64} />

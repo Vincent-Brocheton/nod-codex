@@ -1,20 +1,30 @@
 import { Link } from "react-router-dom";
 
-function renderSpans(block) {
+function renderSpans(block, onItemClick) {
     if (!block.spans) return block.text;
 
-    return block.spans.map((span, index) =>
-        span.path ? <Link key={index} to={span.path}>{span.text}</Link> : span.text
-    );
+    return block.spans.map((span, index) => {
+        if (span.path) return <Link key={index} to={span.path}>{span.text}</Link>;
+
+        if (span.item) {
+            return (
+                <button key={index} type="button" className="wikiItemLink" onClick={() => onItemClick?.(span.item)}>
+                    {span.text}
+                </button>
+            );
+        }
+
+        return span.text;
+    });
 }
 
-export default function Block({ block }) {
-    if (block.type === "heading_1") return <h1>{renderSpans(block)}</h1>;
-    if (block.type === "heading_2") return <h2>{renderSpans(block)}</h2>;
-    if (block.type === "heading_3") return <h3>{renderSpans(block)}</h3>;
-    if (block.type === "quote") return <blockquote>{renderSpans(block)}</blockquote>;
-    if (block.type === "bulleted_list_item") return <li>{renderSpans(block)}</li>;
-    if (block.type === "numbered_list_item") return <li>{renderSpans(block)}</li>;
+export default function Block({ block, onItemClick }) {
+    if (block.type === "heading_1") return <h1>{renderSpans(block, onItemClick)}</h1>;
+    if (block.type === "heading_2") return <h2>{renderSpans(block, onItemClick)}</h2>;
+    if (block.type === "heading_3") return <h3>{renderSpans(block, onItemClick)}</h3>;
+    if (block.type === "quote") return <blockquote>{renderSpans(block, onItemClick)}</blockquote>;
+    if (block.type === "bulleted_list_item") return <li>{renderSpans(block, onItemClick)}</li>;
+    if (block.type === "numbered_list_item") return <li>{renderSpans(block, onItemClick)}</li>;
     if (block.type === "divider") return <hr />;
     if (block.type === "image") {
         return (
@@ -47,5 +57,5 @@ export default function Block({ block }) {
             </table>
         );
     }
-    return <p>{renderSpans(block)}</p>;
+    return <p>{renderSpans(block, onItemClick)}</p>;
 }

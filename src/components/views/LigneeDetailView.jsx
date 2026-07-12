@@ -43,7 +43,7 @@ export default function LigneeDetailView({ wiki }) {
                         </p>
                     ) : null}
 
-                    <ContentBlocks content={item.content} />
+                    <ContentBlocks content={item.content} manifest={wiki.manifest} />
 
                     <RelatedGroups item={item} groups={RELATED_GROUPS} manifest={wiki.manifest} />
                 </>

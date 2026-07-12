@@ -14,9 +14,9 @@ export default function TechniqueDetailView({ wiki }) {
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
             {(activeItem) => (
                 <>
-                    <ContentBlocks content={activeItem.content} />
+                    <ContentBlocks content={activeItem.content} manifest={wiki.manifest} />
 
-                    <RelatedGroups item={activeItem} groups={RELATED_GROUPS} />
+                    <RelatedGroups item={activeItem} groups={RELATED_GROUPS} manifest={wiki.manifest} />
                 </>
             )}
         </DetailShell>

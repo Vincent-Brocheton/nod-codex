@@ -65,10 +65,10 @@ export default function ItemModal({ manifest, collectionKey, slug, statFields, o
                         {statFields ? (
                             <>
                                 <StatBlock item={item} fields={statFields} />
-                                <ContentBlocks content={item.content} />
+                                <ContentBlocks content={item.content} manifest={manifest} />
                             </>
                         ) : (
-                            <ItemDetailBody item={item} />
+                            <ItemDetailBody item={item} manifest={manifest} />
                         )}
                     </>
                 )}

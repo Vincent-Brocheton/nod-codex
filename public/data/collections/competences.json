@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Explications des différentes compétences",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-07-11T16:22:17.574Z",
+  "generatedAt": "2026-07-12T12:16:51.401Z",
   "propertyOptions": {},
   "items": [
     {
@@ -102,14 +102,14 @@
     },
     {
       "id": "38288b48-e48e-80da-b742-f0a41524d837",
-      "slug": "athlethisme",
-      "title": "Athlethisme",
-      "notionUrl": "https://app.notion.com/p/Athlethisme-38288b48e48e80dab742f0a41524d837",
-      "lastEditedTime": "2026-07-06T11:08:00.000Z",
+      "slug": "athletisme",
+      "title": "Athlétisme",
+      "notionUrl": "https://app.notion.com/p/Athl-tisme-38288b48e48e80dab742f0a41524d837",
+      "lastEditedTime": "2026-07-12T11:51:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
-          "value": "Athlethisme"
+          "value": "Athlétisme"
         }
       },
       "content": [
@@ -221,37 +221,6 @@
         {
           "type": "paragraph",
           "text": "Sans Conduite, votre personnage doit consacrer toute son attention à piloter un véhicule. Avec la compétence appropriée, vous pouvez conduire en action simple plutôt qu’en action standard."
-        }
-      ]
-    },
-    {
-      "id": "38288b48-e48e-804d-abd9-d1ea87f17ee4",
-      "slug": "discretion-furtivite",
-      "title": "Discrétion/Furtivité",
-      "notionUrl": "https://app.notion.com/p/Discr-tion-Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
-      "lastEditedTime": "2026-07-06T11:10:00.000Z",
-      "properties": {
-        "Nom": {
-          "type": "text",
-          "value": "Discrétion/Furtivité"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
-          "type": "paragraph",
-          "text": "Se déplacer sans bruit demande un entraînement physique rigoureux, tandis que passer inaperçu exige une grande discipline mentale. Vous savez utiliser votre environnement, adopter une attitude naturelle et tirer parti du timing et de la diversion. Avec les précautions adéquates, vous pouvez vous fondre dans la foule sans recourir à des pouvoirs surnaturels."
-        },
-        {
-          "type": "heading_2",
-          "text": "Système"
-        },
-        {
-          "type": "paragraph",
-          "text": "Un personnage doté de Discrétion peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble."
         }
       ]
     },
@@ -380,6 +349,37 @@
       ]
     },
     {
+      "id": "38288b48-e48e-804d-abd9-d1ea87f17ee4",
+      "slug": "furtivite",
+      "title": "Furtivité",
+      "notionUrl": "https://app.notion.com/p/Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
+      "lastEditedTime": "2026-07-12T12:06:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Furtivité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Se déplacer sans bruit demande un entraînement physique rigoureux, tandis que passer inaperçu exige une grande discipline mentale. Vous savez utiliser votre environnement, adopter une attitude naturelle et tirer parti du timing et de la diversion. Avec les précautions adéquates, vous pouvez vous fondre dans la foule sans recourir à des pouvoirs surnaturels."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage doté de Discrétion peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble."
+        }
+      ]
+    },
+    {
       "id": "38288b48-e48e-80a5-8ff3-fb3c5d0430e5",
       "slug": "informatique",
       "title": "Informatique",
@@ -473,29 +473,6 @@
       ]
     },
     {
-      "id": "38288b48-e48e-80b4-91c8-f4e3f5041a20",
-      "slug": "larcin",
-      "title": "Larcin",
-      "notionUrl": "https://app.notion.com/p/Larcin-38288b48e48e80b491c8f4e3f5041a20",
-      "lastEditedTime": "2026-06-17T11:02:00.000Z",
-      "properties": {
-        "Nom": {
-          "type": "text",
-          "value": "Larcin"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description"
-        },
-        {
-          "type": "heading_2",
-          "text": "Système"
-        }
-      ]
-    },
-    {
       "id": "38288b48-e48e-80d8-8a29-ed936b85e70f",
       "slug": "linguistique",
       "title": "Linguistique",
@@ -560,13 +537,13 @@
     {
       "id": "38288b48-e48e-8015-8344-db584fe23a49",
       "slug": "melee",
-      "title": "Mélée",
+      "title": "Mêlée",
       "notionUrl": "https://app.notion.com/p/M-l-e-38288b48e48e80158344db584fe23a49",
-      "lastEditedTime": "2026-07-06T11:16:00.000Z",
+      "lastEditedTime": "2026-07-12T12:02:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
-          "value": "Mélée"
+          "value": "Mêlée"
         }
       },
       "content": [
@@ -701,6 +678,37 @@
         {
           "type": "paragraph",
           "text": "Un personnage possédant Science bénéficie d’une AIP supplémentaire, utilisable uniquement pour des activités liées à cette spécialité. Chaque spécialisation en Science confère une action d’intervalle supplémentaire distincte, chacune limitée à son domaine."
+        }
+      ]
+    },
+    {
+      "id": "38288b48-e48e-80b4-91c8-f4e3f5041a20",
+      "slug": "securite",
+      "title": "Sécurité",
+      "notionUrl": "https://app.notion.com/p/S-curit-38288b48e48e80b491c8f4e3f5041a20",
+      "lastEditedTime": "2026-07-12T12:03:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Sécurité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez peut-être été consultant en sécurité ou voleur chevronné. Quelle que soit votre voie, vous avez acquis une connaissance approfondie des systèmes de sécurité modernes, tant sur le plan technique qu’organisationnel. Vous savez concevoir des dispositifs complexes ou les contourner efficacement."
+        },
+        {
+          "type": "heading_2",
+          "text": "Système"
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Refuge. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an."
         }
       ]
     },

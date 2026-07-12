@@ -7,7 +7,7 @@ export default function GenericDetailView({ wiki }) {
 
     return (
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
-            {(activeItem) => <ItemDetailBody item={activeItem} />}
+            {(activeItem) => <ItemDetailBody item={activeItem} manifest={wiki.manifest} />}
         </DetailShell>
     );
 

@@ -44,7 +44,7 @@ export default function PowerDetailView({ wiki }) {
                         </p>
                     ) : null}
 
-                    <ContentBlocks content={item.content} />
+                    <ContentBlocks content={item.content} manifest={wiki.manifest} />
                 </>
             )}
         </DetailShell>

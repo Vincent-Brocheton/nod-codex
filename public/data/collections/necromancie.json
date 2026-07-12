@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "Informations sur les rituels de nécromancie",
   "notionDatabaseId": "39088b48-e48e-80f7-b261-df57f306e6a1",
-  "generatedAt": "2026-07-11T16:22:17.574Z",
+  "generatedAt": "2026-07-12T12:16:51.401Z",
   "propertyOptions": {
     "Niveau": [
       "5",
@@ -66,7 +66,16 @@
         },
         {
           "type": "paragraph",
-          "text": "[[Brujah]]"
+          "text": "[[Brujah]]",
+          "spans": [
+            {
+              "text": "Brujah",
+              "item": {
+                "collectionKey": "clans",
+                "slug": "brujah"
+              }
+            }
+          ]
         }
       ]
     }

@@ -1,6 +1,6 @@
-import {useEffect, useState} from "react";
-import {getCollection} from "../services/wikiServices";
-import {findPageBySlug} from "../../shared/page";
+import { useEffect, useState } from "react";
+import { getCollection } from "../services/wikiServices";
+import { findPageBySlug } from "../../shared/page";
 import groupCollections from "../utils/groupCollections";
 
 export default function useCollections(manifest, activeNavigation, route) {
@@ -8,9 +8,7 @@ export default function useCollections(manifest, activeNavigation, route) {
     const [activeCollectionKeys, setActiveCollectionKeys] = useState([]);
     const [activeItemId, setActiveItemId] = useState("");
 
-    const groupedCollections = groupCollections(
-        manifest.collections
-    );
+    const groupedCollections = groupCollections(manifest.collections);
 
     /**
      * Sélectionne la collection active
@@ -27,9 +25,7 @@ export default function useCollections(manifest, activeNavigation, route) {
         }
 
         setActiveCollectionKeys(current =>
-            current.length
-                ? current
-                : [manifest.collections[0].key]
+            current.length ? current : [manifest.collections[0].key]
         );
     }, [manifest, activeNavigation]);
 
@@ -37,7 +33,6 @@ export default function useCollections(manifest, activeNavigation, route) {
      * Charge la collection si elle n'est pas déjà en mémoire
      */
     useEffect(() => {
-
         if (!activeCollectionKeys.length) return;
 
         async function load() {
@@ -49,7 +44,6 @@ export default function useCollections(manifest, activeNavigation, route) {
 
             const loaded = await Promise.all(
                 missingKeys.map(async key => {
-
                     const config = manifest.collections.find(
                         collection => collection.key === key
                     );
@@ -58,34 +52,24 @@ export default function useCollections(manifest, activeNavigation, route) {
 
                     const collection = await getCollection(config.file);
 
-                    return {
-                        key,
-                        collection,
-                    };
-
+                    return { key, collection };
                 })
             );
 
             setLoadedCollections(current => {
-
-                const next = {...current};
+                const next = { ...current };
 
                 loaded
                     .filter(Boolean)
-                    .forEach(({key, collection}) => {
-
+                    .forEach(({ key, collection }) => {
                         next[key] = collection;
-
                     });
 
                 return next;
-
             });
-
         }
 
         load().then();
-
     }, [manifest, activeCollectionKeys, loadedCollections]);
 
     /**
@@ -145,15 +129,12 @@ export default function useCollections(manifest, activeNavigation, route) {
     const visibleItems = activeCollection?.items ?? [];
 
     function selectCollections(collectionKeys) {
-
         setActiveCollectionKeys(collectionKeys);
-
         setActiveItemId("");
-
     }
 
-    const pageNotFound =
-        Boolean(route.slug) && !activeItem && !loading;
+    const pageNotFound = Boolean(route.slug) && !activeItem && !loading;
+
     const actions = {
         selectCollections,
     };

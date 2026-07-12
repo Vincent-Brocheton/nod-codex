@@ -7,7 +7,7 @@ import { loadLocalEnv, requireNotionToken } from "./notion/env.js";
 import { notionRequest } from "./notion/client.js";
 import { richTextToPlainText } from "./notion/richText.js";
 import { normalizeProperties, findTitle, extractPropertyOptions } from "./notion/properties.js";
-import { resolveWikiLinks } from "./notion/wikiLinks.js";
+import { resolveWikiLinks, buildItemTargets } from "./notion/wikiLinks.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -62,11 +62,7 @@ async function blockToContent(block) {
   const text = richTextToPlainText(value?.rich_text || []);
   if (!text) return null;
 
-  const content = { type: block.type, text };
-  const spans = resolveWikiLinks(text);
-  if (spans) content.spans = spans;
-
-  return content;
+  return { type: block.type, text };
 }
 
 async function queryDatabase(databaseId) {
@@ -195,6 +191,26 @@ function resolveRelations(items, registry) {
   }
 }
 
+/**
+ * Résout les marqueurs `[[cible]]` du contenu en `spans`, une fois toutes
+ * les collections chargées (une cible "fiche précise" peut pointer vers
+ * n'importe quelle base). Doit tourner après `buildRegistry`.
+ */
+function applyContentLinks(fetched, registry) {
+  const itemTargets = buildItemTargets(registry);
+
+  for (const { items } of fetched) {
+    for (const item of items) {
+      for (const block of item.content) {
+        if (typeof block.text !== "string" || !block.text) continue;
+
+        const spans = resolveWikiLinks(block.text, itemTargets);
+        if (spans) block.spans = spans;
+      }
+    }
+  }
+}
+
 async function writeCollectionFile(collection, databaseId, items, propertyOptions, description) {
   validateUniqueSlugs(items, collection.label);
 
@@ -264,9 +280,11 @@ async function main() {
     })
   );
 
-  // Les relations ne peuvent être résolues qu'une fois toutes les
-  // collections chargées (une relation peut pointer vers une autre base).
+  // Les relations et les liens de contenu ne peuvent être résolus qu'une
+  // fois toutes les collections chargées (ils peuvent pointer vers une
+  // autre base).
   const registry = buildRegistry(fetched);
+  applyContentLinks(fetched, registry);
 
   await Promise.all(
     fetched.map(({ collection, databaseId, items, propertyOptions, description }) => {

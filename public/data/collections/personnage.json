@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-07-11T16:22:17.574Z",
+  "generatedAt": "2026-07-12T12:16:51.402Z",
   "propertyOptions": {},
   "items": [
     {
@@ -991,7 +991,7 @@
       "slug": "etape-5-repartir-les-competences-de-depart",
       "title": "Étape 5 : Répartir les Compétences de départ",
       "notionUrl": "https://app.notion.com/p/tape-5-R-partir-les-Comp-tences-de-d-part-39a88b48e48e805d864bd1898820f039",
-      "lastEditedTime": "2026-07-11T16:18:00.000Z",
+      "lastEditedTime": "2026-07-12T12:02:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1212,688 +1212,329 @@
           "text": "selon la manière dont il a été formé, les aspects qu'il a étudiés ou la façon dont il met ses connaissances en pratique durant la chronique."
         },
         {
-          "type": "heading_2",
-          "text": "Animaux"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous savez comprendre et manipuler les animaux. Vous connaissez leur comportement, savez les calmer, les dresser, les soigner ou leur apprendre des ordres simples. Vous savez également les effrayer ou les pousser à l'agressivité lorsque cela s'avère nécessaire."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette compétence facilite également la chasse sur des animaux, en permettant au vampire de masquer temporairement l'aura prédatrice de sa Bête afin d'approcher une proie sans l'effaroucher."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Les animaux craignent instinctivement les vampires et réagissent généralement mal à leur présence. Grâce à Animaux, votre odeur et votre simple présence ne déclenchent plus leur instinct de fuite ou d'attaque. Ils restent conscients de votre nature de prédateur, mais ne manifestent aucun comportement anormal."
-        },
-        {
-          "type": "paragraph",
-          "text": "De plus, un personnage possédant cette compétence comprend suffisamment la Bête pour apaiser celle des autres. Après avoir discuté 10 minutes avec un personnage, il peut lui retirer 1 Trait de Bête."
-        },
-        {
-          "type": "paragraph",
-          "text": "Un personnage ne peut bénéficier de cet effet qu'une seule fois par partie."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne pouvez pas utiliser cette compétence sur vous-même."
-        },
-        {
-          "type": "heading_2",
-          "text": "Armes à feu"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous êtes entraîné au maniement de la plupart des armes à feu modernes, du petit pistolet dissimulable jusqu'à la mitrailleuse lourde. Vous savez les entretenir, les réparer, les identifier et les utiliser efficacement."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Les personnages possédant Armes à feu peuvent utiliser les manœuvres de combat appropriées lorsqu'ils combattent avec des armes à distance."
-        },
-        {
-          "type": "heading_2",
-          "text": "Artisanat"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous possédez un véritable talent artistique ou manuel. Vous êtes capable de fabriquer des objets, de créer des œuvres ou de produire un artisanat de grande qualité."
-        },
-        {
-          "type": "paragraph",
-          "text": "Chaque fois que vous achetez cette compétence, vous devez choisir un domaine de spécialisation, par exemple :"
+          "type": "bulleted_list_item",
+          "text": "[[Animaux]]",
+          "spans": [
+            {
+              "text": "Animaux",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "animaux"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Horlogerie"
+          "text": "[[Arme à feu]]",
+          "spans": [
+            {
+              "text": "Arme à feu",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "arme-a-feu"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Forge"
+          "text": "[[Artisanat]]",
+          "spans": [
+            {
+              "text": "Artisanat",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "artisanat"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Calligraphie"
+          "text": "[[Athlétisme]]",
+          "spans": [
+            {
+              "text": "Athlétisme",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "athletisme"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Poésie"
+          "text": "[[Bagarre]]",
+          "spans": [
+            {
+              "text": "Bagarre",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "bagarre"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "ou toute autre discipline artisanale appropriée."
-        },
-        {
-          "type": "paragraph",
-          "text": "Certaines formes d'expression artistique relèvent davantage de la compétence Expression que d'Artisanat."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette compétence peut être achetée plusieurs fois, avec des spécialisations différentes."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : En consacrant 2 actions d'inter-partie (une pour fabriquer l'objet et une pour le vendre), un personnage possédant Artisanat peut augmenter temporairement sa Ressource de +1 pendant un mois, jusqu'à un maximum de 5."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ce bonus fonctionne même si le personnage ne possède normalement aucun point dans l'Historique Ressources."
-        },
-        {
-          "type": "heading_2",
-          "text": "Athlétisme"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous êtes naturellement doué pour les activités physiques. Vous pratiquez les sports et les épreuves athlétiques avec aisance. Cette compétence est utilisée pour courir, grimper, nager, sauter, mais aussi pour manier les armes de jet et les arcs."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Grâce à Athlétisme, nager, grimper ou sauter devient une action simple au lieu d'une action standard."
-        },
-        {
-          "type": "paragraph",
-          "text": "De plus, les personnages possédant cette compétence peuvent utiliser les manœuvres de combat appropriées lorsqu'ils utilisent des armes de jet ou un arc."
-        },
-        {
-          "type": "heading_2",
-          "text": "Bagarre"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous avez appris à combattre à mains nues. Qu'il s'agisse d'un entraînement militaire, d'arts martiaux ou simplement d'une jeunesse agitée, vous savez utiliser vos poings, vos pieds et votre corps comme des armes."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Les personnages possédant Bagarre peuvent utiliser les manœuvres de combat appropriées lorsqu'ils combattent à mains nues."
-        },
-        {
-          "type": "heading_2",
-          "text": "Commandement"
-        },
-        {
-          "type": "paragraph",
-          "text": "Le Commandement associe autorité, sens tactique et compréhension des dynamiques de groupe. Vous savez motiver les autres, organiser une équipe et imposer naturellement votre autorité."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Les PNJ standards suivant les ordres de votre personnage obtiennent un bonus de +2 à toute action qu'ils sont normalement capables d'accomplir."
-        },
-        {
-          "type": "paragraph",
-          "text": "De plus, une fois par nuit, vous pouvez découvrir un Trait de Statut précis appartenant à un autre vampire pour chaque point que vous possédez en Commandement."
-        },
-        {
-          "type": "heading_2",
-          "text": "Conduite"
-        },
-        {
-          "type": "paragraph",
-          "text": "La plupart des gens savent conduire un véhicule, mais vous possédez l'entraînement nécessaire pour effectuer des manœuvres difficiles ou dangereuses."
-        },
-        {
-          "type": "paragraph",
-          "text": "Le premier point de Conduite permet de maîtriser les automobiles."
-        },
-        {
-          "type": "paragraph",
-          "text": "Chaque point supplémentaire permet de choisir une nouvelle catégorie de véhicules parmi les suivantes :"
+          "text": "[[Commandement]]",
+          "spans": [
+            {
+              "text": "Commandement",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "commandement"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Voitures à cheval"
+          "text": "[[Conduite]]",
+          "spans": [
+            {
+              "text": "Conduite",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "conduite"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Chars"
+          "text": "[[Empathie]]",
+          "spans": [
+            {
+              "text": "Empathie",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "empathie"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Motos"
+          "text": "[[Esquive]]",
+          "spans": [
+            {
+              "text": "Esquive",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "esquive"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Voiliers"
+          "text": "[[Érudition]]",
+          "spans": [
+            {
+              "text": "Érudition",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "erudition"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Bateaux à moteur"
+          "text": "[[Expérience de la rue]]",
+          "spans": [
+            {
+              "text": "Expérience de la rue",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "experience-de-la-rue"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Navires"
+          "text": "[[Furtivité]]",
+          "spans": [
+            {
+              "text": "Furtivité",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "furtivite"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Avions"
+          "text": "[[Informatique]]",
+          "spans": [
+            {
+              "text": "Informatique",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "informatique"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Avions de ligne"
+          "text": "[[Intimidation]]",
+          "spans": [
+            {
+              "text": "Intimidation",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "intimidation"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Hélicoptères"
-        },
-        {
-          "type": "paragraph",
-          "text": "Le Conteur peut autoriser d'autres catégories si cela est approprié."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sans cette compétence, un personnage ne peut conduire qu'une voiture équipée d'une boîte automatique et ne peut circuler en sécurité au-delà d'environ 100 km/h. Il est incapable d'utiliser une moto ou tout autre véhicule spécialisé."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Sans Conduite, piloter un véhicule demande toute votre attention."
-        },
-        {
-          "type": "paragraph",
-          "text": "Avec la compétence appropriée, conduire devient une action simple au lieu d'une action standard."
-        },
-        {
-          "type": "heading_2",
-          "text": "Empathie"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous comprenez les émotions et les motivations des autres. Votre formation en psychologie, anthropologie ou sciences humaines vous permet de percevoir les troubles mentaux, les traumatismes ou les faiblesses psychologiques."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Après une brève conversation avec une cible, votre personnage apprend si celle-ci souffre d'un ou plusieurs Dérangements."
-        },
-        {
-          "type": "paragraph",
-          "text": "Après quelques minutes d'observation ou de discussion, il peut également identifier précisément lesquels."
-        },
-        {
-          "type": "paragraph",
-          "text": "Si votre personnage connaît le dérangement d'une cible, il peut dépenser une action standard afin d'augmenter ou de diminuer ses Traits de Dérangement de 1 pendant une heure (minimum 0, maximum 3)."
-        },
-        {
-          "type": "paragraph",
-          "text": "L'Empathie ne peut jamais réduire les Traits de Dérangement d'un Malkavien en dessous de 1."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne pouvez pas utiliser cette compétence sur vous-même."
-        },
-        {
-          "type": "heading_2",
-          "text": "Esquive"
-        },
-        {
-          "type": "paragraph",
-          "text": "Lorsque le danger surgit, vous savez instinctivement vous mettre hors de portée. Vos réflexes vous permettent d'éviter les coups et les tirs avant qu'ils ne vous atteignent. Vous pouvez utiliser Esquive pour éviter toute attaque dont vous avez conscience, qu'il s'agisse de plonger derrière un couvert lorsqu'un ennemi ouvre le feu ou d'esquiver la lame d'une épée."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Un personnage possédant Esquive peut renoncer à son action standard afin d'obtenir un bonus de +2 à un unique test d'Esquive effectué durant ce round."
-        },
-        {
-          "type": "paragraph",
-          "text": "De plus, si votre personnage est pris dans une attaque de zone (comme une explosion), il peut effectuer un test d'Esquive (difficulté 8) afin de réduire les dégâts subis de 1."
-        },
-        {
-          "type": "heading_2",
-          "text": "Erudition"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous possédez une culture générale et un niveau d'érudition supérieurs à ceux d'une éducation classique. Cette compétence représente une formation approfondie et une solide instruction. Grâce à Académie, vous pouvez analyser une œuvre d'art, commenter les grands classiques, débattre de philosophie ou participer à des discussions culturelles."
-        },
-        {
-          "type": "paragraph",
-          "text": "À chaque point acheté dans cette compétence, vous pouvez choisir un domaine d'étude, comme les mathématiques, la littérature, l'histoire, le journalisme, la théologie ou tout autre domaine correspondant à une éducation académique."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Une fois par nuit, un personnage possédant Académie peut consacrer 10 minutes à l'étude. Il peut ensuite relancer un unique test statique (hors combat) sans dépenser de point de Volonté. Cette relance doit être directement liée à l'un des domaines d'étude qu'il possède."
-        },
-        {
-          "type": "heading_2",
-          "text": "Expérience de la rue"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous connaissez parfaitement les quartiers difficiles, les réseaux criminels et les règles non écrites de la rue. Vous savez où trouver des informations, comment éviter les ennuis ou, au contraire, comment entrer en contact avec les bonnes personnes."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous reconnaissez les graffitis de territoire, les codes des gangs et les signes d'appartenance aux différentes organisations criminelles."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Tant que vous vous déplacez dans une zone urbaine densément peuplée, il est impossible de vous suivre sans recourir à un pouvoir surnaturel spécifiquement conçu pour le pistage."
-        },
-        {
-          "type": "heading_2",
-          "text": "Furtivité"
-        },
-        {
-          "type": "paragraph",
-          "text": "Se déplacer sans bruit, rester discret et passer inaperçu demandent autant d'entraînement physique que de discipline mentale. Vous savez utiliser le décor, détourner l'attention et profiter du bon moment pour vous fondre dans votre environnement."
-        },
-        {
-          "type": "paragraph",
-          "text": "Même sans recourir à des pouvoirs surnaturels, vous savez vous rendre presque invisible au milieu de la foule."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Tant que vous disposez de quelques accessoires adaptés, vous pouvez automatiquement vous faire passer pour un type précis de personne : policier, serveur, agent de sécurité, danseur dans une boîte de nuit, etc."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette capacité ne modifie pas votre apparence et ne trompera pas les personnes qui savent déjà qui vous êtes."
-        },
-        {
-          "type": "heading_2",
-          "text": "Informatique"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous maîtrisez l'utilisation et la programmation des ordinateurs ainsi que des appareils électroniques modernes. Vous comprenez le fonctionnement d'Internet, des réseaux, de l'administration de sites web, de la recherche de données et du piratage informatique."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sans cette compétence, un personnage sait tout au plus allumer ou éteindre un appareil électronique. Il peut répondre à un téléphone ou enregistrer un numéro, mais ne sait pas utiliser les applications ou les fonctionnalités avancées d'un ordinateur."
-        },
-        {
-          "type": "paragraph",
-          "text": "Dans le monde moderne, cette compétence est presque universelle, mais pour un vampire ancien ou particulièrement isolé, l'informatique demeure une forme de sorcellerie incompréhensible."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Un personnage possédant Informatique reçoit 1 action d'inter-partie supplémentaire entre chaque partie."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette action peut être utilisée normalement ou servir à annuler ou observer une action d'inter-partie effectuée par un autre personnage. Elle représente la capacité du personnage à effectuer des recherches, infiltrer des réseaux d'information ou perturber les systèmes informatiques."
-        },
-        {
-          "type": "paragraph",
-          "text": "Aucun personnage ne peut être réduit à moins d'une action d'inter-partie entre deux parties."
-        },
-        {
-          "type": "heading_2",
-          "text": "Intimidation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous savez inspirer la peur. Que cela repose sur votre réputation, votre carrure, votre violence ou votre capacité à exploiter les peurs de votre interlocuteur, vous savez contraindre les autres par la menace."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Un personnage possédant Intimidation est naturellement effrayant."
-        },
-        {
-          "type": "paragraph",
-          "text": "Les PNJ standards (y compris les Serviteurs) de niveau 1 ou 2 refusent d'attaquer un personnage possédant cette compétence."
-        },
-        {
-          "type": "paragraph",
-          "text": "Si votre personnage adopte une attitude agressive envers eux, ils prennent la fuite."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cet effet ne fonctionne pas contre les PNJ dénués d'esprit, comme les zombies ou les créatures animées par la magie."
-        },
-        {
-          "type": "heading_2",
-          "text": "Investigation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous êtes formé à l'art de l'enquête. Vous savez remarquer les détails, relier des indices entre eux et découvrir des preuves que la plupart des gens ignoreraient."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : En consacrant une action standard, vous pouvez examiner visuellement un individu situé à moins de trois pas."
-        },
-        {
-          "type": "paragraph",
-          "text": "En utilisant trois actions standard, vous pouvez fouiller une pièce ou une petite zone."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous détectez automatiquement :"
+          "text": "[[Investigation]]",
+          "spans": [
+            {
+              "text": "Investigation",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "investigation"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "les armes portées ;"
+          "text": "[[Linguistique]]",
+          "spans": [
+            {
+              "text": "Linguistique",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "linguistique"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "les explosifs ;"
+          "text": "[[Médecine]]",
+          "spans": [
+            {
+              "text": "Médecine",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "medecine"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "les objets dissimulés."
-        },
-        {
-          "type": "paragraph",
-          "text": "Les objets possédant la propriété Dissimulable ne sont automatiquement découverts qu'après une fouille physique de la cible."
-        },
-        {
-          "type": "heading_2",
-          "text": "Linguistique"
-        },
-        {
-          "type": "paragraph",
-          "text": "La plupart des individus ne parlent couramment que leur langue maternelle."
-        },
-        {
-          "type": "paragraph",
-          "text": "Sans Linguistique, un personnage est incapable de communiquer dans une autre langue."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Pour chaque point de Linguistique, y compris le premier, votre personnage maîtrise couramment une langue supplémentaire en plus de sa langue natale."
-        },
-        {
-          "type": "heading_2",
-          "text": "Médecine"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous possédez une solide connaissance de l'anatomie, des maladies, des traitements médicaux et des soins."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pour les règles concernant les soins apportés aux mortels, consultez le Chapitre VI : Systèmes de base."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : En consacrant une action d'inter-partie à l'étude du sang, des cheveux, de la peau ou des restes (y compris des cendres) d'une créature dans une installation médicale appropriée, vous pouvez déterminer sa nature surnaturelle, le cas échéant."
-        },
-        {
-          "type": "paragraph",
-          "text": "Si votre personnage connaît les vampires, il peut également identifier leur clan et leur Génération."
-        },
-        {
-          "type": "paragraph",
-          "text": "Avec le matériel adéquat, vous pouvez conserver du sang — y compris du sang vampirique — pendant un mois par point de Médecine."
-        },
-        {
-          "type": "heading_2",
-          "text": "Mêlée"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous êtes entraîné au combat avec des armes de corps à corps. Cette compétence couvre aussi bien les épées et les lances que les armes exotiques d'arts martiaux, ainsi que les armes spécifiquement utilisées contre les vampires, comme les pieux en bois."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Les personnages possédant Mêlée peuvent utiliser les manœuvres de combat appropriées lorsqu'ils utilisent une arme de mêlée."
-        },
-        {
-          "type": "heading_2",
-          "text": "Occultisme"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous connaissez les traditions ésotériques, les croyances mystiques, les superstitions et les légendes. Cette compétence couvre des domaines tels que la Kabbale, le chamanisme, les croyances New Age, les recherches paranormales et bien d'autres savoirs occultes."
-        },
-        {
-          "type": "paragraph",
-          "text": "Elle représente davantage une connaissance des mythes, des rumeurs et des traditions qu'une maîtrise de faits scientifiques."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : En utilisant une action standard, vous pouvez examiner visuellement une personne située à moins de trois pas."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous détectez automatiquement :"
+          "text": "[[Mêlée]]",
+          "spans": [
+            {
+              "text": "Mêlée",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "melee"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "les rituels actifs qui l'affectent ;"
+          "text": "[[Occultisme]]",
+          "spans": [
+            {
+              "text": "Occultisme",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "occultisme"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "les objets magiques qu'elle porte."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette compétence ne permet pas :"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "d'identifier les effets exacts de ces rituels ou objets ;"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "de savoir quels rituels le personnage connaît ;"
+          "text": "[[Représentation]]",
+          "spans": [
+            {
+              "text": "Représentation",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "representation"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "de déterminer s'il possède la Thaumaturgie ;"
+          "text": "[[Sciences]]",
+          "spans": [
+            {
+              "text": "Sciences",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "sciences"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "de savoir si les rituels ont été lancés par quelqu'un d'autre."
-        },
-        {
-          "type": "paragraph",
-          "text": "Enfin, un personnage possédant Occultisme peut acquérir l'amélioration Occulte de son Refuge."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette amélioration ne peut être appliquée qu'à son propre Refuge."
-        },
-        {
-          "type": "heading_2",
-          "text": "Représentation"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous êtes un artiste de scène. Vous savez captiver un public et maîtrisez les techniques nécessaires à votre discipline."
-        },
-        {
-          "type": "paragraph",
-          "text": "Chaque achat de cette compétence nécessite de choisir une spécialité, par exemple :"
+          "text": "[[Sécurité]]",
+          "spans": [
+            {
+              "text": "Sécurité",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "securite"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Danse"
+          "text": "[[Subterfuge]]",
+          "spans": [
+            {
+              "text": "Subterfuge",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "subterfuge"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Comédie"
+          "text": "[[Survie]]",
+          "spans": [
+            {
+              "text": "Survie",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "survie"
+              }
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Théâtre"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Éloquence"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Chant"
-        },
-        {
-          "type": "paragraph",
-          "text": "ou toute autre discipline des arts du spectacle."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette compétence peut être achetée plusieurs fois avec des spécialisations différentes."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : En consacrant 2 actions d'inter-partie (une pour promouvoir votre représentation et une pour la réaliser), votre personnage augmente temporairement sa Réputation de +1 pendant un mois, jusqu'à un maximum de 5."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ce bonus fonctionne même si le personnage ne possède normalement aucun point dans l'Historique Réputation."
-        },
-        {
-          "type": "heading_2",
-          "text": "Science"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous possédez une formation scientifique approfondie et maîtrisez les méthodes d'observation, d'analyse et d'expérimentation propres à votre domaine. Les sciences modernes permettent de comprendre le monde grâce à la logique, à la recherche et à l'expérimentation."
-        },
-        {
-          "type": "paragraph",
-          "text": "Chaque fois que vous achetez cette compétence, vous devez choisir un domaine de spécialisation, par exemple :"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Biologie"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Chimie"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Physique"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Métallurgie"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Génie électrique"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Mathématiques"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Géologie"
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Botanique"
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette liste n'est pas exhaustive. Vous pouvez acheter Science plusieurs fois, chaque achat correspondant à une spécialisation différente."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Un personnage possédant Science reçoit 1 action d'inter-partie supplémentaire, qui ne peut être utilisée que pour une activité directement liée à cette spécialisation scientifique."
-        },
-        {
-          "type": "paragraph",
-          "text": "Chaque spécialisation en Science accorde sa propre action d'inter-partie supplémentaire, mais chacune ne peut servir qu'à des activités relevant de son domaine."
-        },
-        {
-          "type": "heading_2",
-          "text": "Sécurité"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous connaissez aussi bien les systèmes de sécurité modernes que les méthodes permettant de les contourner. Que vous soyez un ancien consultant en sécurité ou un cambrioleur expérimenté, vous savez protéger un lieu… ou y pénétrer."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous maîtrisez les serrures, les alarmes, les protocoles de sécurité et les habitudes des organisations chargées de les faire respecter."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Crocheter une serrure ou subtiliser discrètement un petit objet devient une action simple au lieu d'une action standard."
-        },
-        {
-          "type": "paragraph",
-          "text": "Les personnages possédant Sécurité bénéficient gratuitement de l'amélioration Sécurité de leur Refuge."
-        },
-        {
-          "type": "paragraph",
-          "text": "Ils peuvent également consacrer une action d'inter-partie afin d'accorder cette amélioration au Refuge d'un autre personnage pendant une année civile."
-        },
-        {
-          "type": "paragraph",
-          "text": "Pour plus d'informations, consultez l'Historique Refuge."
-        },
-        {
-          "type": "heading_2",
-          "text": "Subterfuge"
-        },
-        {
-          "type": "paragraph",
-          "text": "Mensonges, manipulations, escroqueries et tromperies sont votre domaine. Vous savez masquer vos véritables intentions, détourner l'attention de vos interlocuteurs et les conduire exactement là où vous le souhaitez."
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez être un illusionniste talentueux, un escroc professionnel, un maître de la manipulation verbale ou simplement quelqu'un qui sait toujours raconter l'histoire la plus convaincante."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Une fois par partie, si votre personnage est surpris en train d'utiliser un pouvoir surnaturel, il peut faire croire qu'un autre personnage situé à moins de trois pas, choisi par vos soins, est le véritable utilisateur du pouvoir."
-        },
-        {
-          "type": "paragraph",
-          "text": "Cet effet ne fonctionne pas avec les pouvoirs dont l'origine est immédiatement évidente, comme Projectile de Flammes  ou Regard de Terreur."
-        },
-        {
-          "type": "heading_2",
-          "text": "Survie"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous connaissez les lois de la nature et savez vivre dans les environnements les plus hostiles. Vous savez trouver de la nourriture, de l'eau, un abri, vous orienter et survivre loin de toute civilisation."
-        },
-        {
-          "type": "paragraph",
-          "text": "Les épreuves vous ont appris à garder votre sang-froid, même dans les situations les plus désespérées."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Une fois par heure, lorsque votre personnage est victime d'une Frénésie de Rage ou d'une Frénésie de Faim, vous pouvez choisir qu'il entre à la place en Frénésie de Peur."
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre personnage cherchera alors à fuir le danger plutôt qu'à attaquer ses alliés ou les innocents qui l'entourent."
-        },
-        {
-          "type": "heading_2",
-          "text": "Vigilance"
-        },
-        {
-          "type": "paragraph",
-          "text": "Vos sens sont particulièrement affûtés et vous remarquez facilement les détails inhabituels de votre environnement. Vous ressentez également instinctivement la présence du surnaturel, sous la forme d'un malaise, d'un frisson ou d'une étrange intuition."
-        },
-        {
-          "type": "paragraph",
-          "text": "Système : Vigilance permet à un personnage de remarquer l'utilisation de pouvoirs surnaturels à proximité."
-        },
-        {
-          "type": "paragraph",
-          "text": "De plus, lorsqu'un personnage possédant cette compétence est en torpeur, il conserve une certaine maîtrise de son esprit et peut utiliser les pouvoirs qui ne ciblent que lui-même."
-        },
-        {
-          "type": "paragraph",
-          "text": "Un personnage utilisant Télépathie peut communiquer avec lui, son esprit demeurant pleinement conscient malgré l'immobilité de son corps."
+          "text": "[[Vigilance]]",
+          "spans": [
+            {
+              "text": "Vigilance",
+              "item": {
+                "collectionKey": "competences",
+                "slug": "vigilance"
+              }
+            }
+          ]
         }
       ]
     },
@@ -1902,7 +1543,7 @@
       "slug": "etape-6-historique-de-depart",
       "title": "Etape 6 : Historique de départ",
       "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-07-11T16:19:00.000Z",
+      "lastEditedTime": "2026-07-12T12:13:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1917,7 +1558,177 @@
           "value": "Etape 6 : Historique de départ"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Historiques permettent de développer le concept de votre personnage en définissant les éléments qui composent sa vie, aussi bien avant qu'après l'Étreinte. Dispose-t-il d'un mentor influent dans la société vampirique ? Possède-t-il une importante fortune ? Est-il entouré de fidèles serviteurs ? Les Historiques répondent à ces questions et donnent de la profondeur au personnage."
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Historique peut être acheté jusqu'à 5 points. Sauf indication contraire du Conteur, il n'est normalement pas possible de dépasser cette valeur."
+        },
+        {
+          "type": "heading_2",
+          "text": "Choisir ses Historiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de la création du personnage, choisissez trois Historiques et attribuez-leur les valeurs suivantes :"
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "3 points dans un Historique de votre choix."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "2 points dans un second Historique."
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "1 point dans un troisième Historique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Génération : si vous n'attribuez aucun de ces points gratuits à l'Historique Génération, votre personnage débute la partie en tant que mortel (ou Goule). Les règles de création des Goules sont détaillées au Chapitre Sept : Systèmes dramatiques."
+        },
+        {
+          "type": "heading_2",
+          "text": "Perte des Historiques"
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut retirer définitivement un Historique si les circonstances de votre personnage changent de manière significative. Par exemple, un personnage qui met en scène sa mort et change complètement d'identité perdra probablement son Historique Célébrité."
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres joueurs peuvent également chercher à affaiblir vos Historiques. Ces attaques n'en réduisent généralement les effets que temporairement. En règle générale, il faut deux parties ou un mois (selon la période la plus longue) pour récupérer un point perdu dans un Historique."
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si votre Serviteur à trois points est tué, il faudra six parties ou trois mois avant que vous puissiez lui trouver un remplaçant équivalent."
+        },
+        {
+          "type": "paragraph",
+          "text": "Voici la liste des différents historiques disponibles, vous pouvez cliquez dessus afin d’en voir les détails : "
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Alliés]]",
+          "spans": [
+            {
+              "text": "Alliés",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "allies"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Renommée]]",
+          "spans": [
+            {
+              "text": "Renommée",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "renommee"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Fausse Identité]]",
+          "spans": [
+            {
+              "text": "Fausse Identité",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "fausse-identite"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Ressources]]",
+          "spans": [
+            {
+              "text": "Ressources",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "ressources"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Contact]]",
+          "spans": [
+            {
+              "text": "Contact",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "contact"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Influences]]",
+          "spans": [
+            {
+              "text": "Influences",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "influences"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Havre]]",
+          "spans": [
+            {
+              "text": "Havre",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "havre"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Serviteurs]]",
+          "spans": [
+            {
+              "text": "Serviteurs",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "serviteurs"
+              }
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "[[Génération]]",
+          "spans": [
+            {
+              "text": "Génération",
+              "item": {
+                "collectionKey": "historiques",
+                "slug": "generation"
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "39a88b48-e48e-8085-9075-ce60b2702622",

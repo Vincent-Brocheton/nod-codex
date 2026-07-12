@@ -84,7 +84,7 @@ export default function CreationWizardView({ wiki }) {
                 </header>
 
                 <div className="detailCard">
-                    <ContentBlocks content={current.content} />
+                    <ContentBlocks content={current.content} manifest={wiki.manifest} />
                 </div>
 
                 {hasPrevious || hasNext ? (

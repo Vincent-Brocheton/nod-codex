@@ -568,6 +568,24 @@ h1, h2, h3 {
   text-decoration-color: currentColor;
 }
 
+.wikiItemLink {
+  background: none;
+  border: 0;
+  color: var(--accent-strong);
+  cursor: pointer;
+  font: inherit;
+  padding: 0;
+  text-decoration: underline;
+  text-decoration-color: var(--border-strong);
+  text-decoration-style: dashed;
+  text-underline-offset: 3px;
+}
+
+.wikiItemLink:hover {
+  color: var(--accent-hover);
+  text-decoration-color: currentColor;
+}
+
 .contentBlocks blockquote {
   border-left: 3px solid var(--accent);
   color: var(--text-quote);

@@ -42,7 +42,7 @@ export default function DisciplineDetailView({ wiki }) {
                     <>
                         <StatBlock item={activeItem} fields={STAT_FIELDS} />
 
-                        <ContentBlocks content={activeItem.content} />
+                        <ContentBlocks content={activeItem.content} manifest={wiki.manifest} />
 
                         <div className="relatedGroups">
                             {groups.map((group) => (

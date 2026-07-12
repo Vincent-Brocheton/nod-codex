@@ -103,5 +103,12 @@
     group: "Création de personnage",
     envVar: "NOTION_DATABASE_PERSONNAGE",
     file: "/data/collections/personnage.json"
+  },
+  {
+    key: "historiques",
+    label: "Historiques",
+    group: "Création de personnage",
+    envVar: "NOTION_DATABASE_HISTORIQUES",
+    file: "/data/collections/historiques.json"
   }
 ];

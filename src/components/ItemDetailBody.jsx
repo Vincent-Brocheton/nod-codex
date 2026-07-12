@@ -7,7 +7,7 @@ import { getVisibleProperties } from "../utils/property";
  * Partagé entre les vues qui affichent une fiche unique (GenericDetailView)
  * et celles qui en empilent plusieurs (GroupedRuleView).
  */
-export default function ItemDetailBody({ item, hideProperties = false }) {
+export default function ItemDetailBody({ item, hideProperties = false, manifest }) {
 
     const properties = hideProperties ? [] : getVisibleProperties(item);
 
@@ -24,7 +24,7 @@ export default function ItemDetailBody({ item, hideProperties = false }) {
                 </dl>
             ) : null}
 
-            <ContentBlocks content={item.content} />
+            <ContentBlocks content={item.content} manifest={manifest} />
         </>
     );
 

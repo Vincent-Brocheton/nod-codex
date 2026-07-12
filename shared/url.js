@@ -7,11 +7,3 @@ export default function slugify(text) {
         .replace(/[^a-z0-9]+/g, "-")
         .replace(/^-+|-+$/g, "");
 }
-
-export function buildPageUrl(section, slug) {
-    return `/${section}/${slug}`;
-}
-
-export function buildSectionUrl(section) {
-    return `/${section}`;
-}

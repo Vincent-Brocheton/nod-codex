@@ -8,7 +8,7 @@ export default function PageRenderer({ wiki }) {
     switch (activeNavigation?.id) {
 
         case "home":
-            return <HomeView />
+            return <HomeView />;
 
         default:
             return (

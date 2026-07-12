@@ -34,9 +34,15 @@ function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
+// Erreurs ponctuelles côté Notion/Cloudflare (surcharge, redémarrage...),
+// sans rapport avec la requête elle-même : on les retente après un délai
+// croissant plutôt que de faire échouer toute la synchro pour un aléa réseau.
+const RETRYABLE_STATUSES = new Set([502, 503, 504]);
+
 /**
  * Appelle l'API Notion avec limitation de concurrence et relance
- * automatique (avec délai) sur une réponse 429 (trop de requêtes).
+ * automatique (avec délai) sur une réponse 429 (trop de requêtes) ou une
+ * erreur serveur ponctuelle (502/503/504).
  */
 export async function notionRequest(endpoint, options = {}) {
   for (let attempt = 0; attempt < 5; attempt++) {
@@ -58,6 +64,11 @@ export async function notionRequest(endpoint, options = {}) {
       continue;
     }
 
+    if (RETRYABLE_STATUSES.has(response.status)) {
+      await sleep(2 ** attempt * 1000);
+      continue;
+    }
+
     if (!response.ok) {
       const body = await response.text();
       throw new Error(`Erreur Notion ${response.status} sur ${endpoint}: ${body}`);
@@ -66,5 +77,5 @@ export async function notionRequest(endpoint, options = {}) {
     return response.json();
   }
 
-  throw new Error(`Erreur Notion: trop de tentatives après des réponses 429 sur ${endpoint}`);
+  throw new Error(`Erreur Notion: trop de tentatives après des réponses répétées sur ${endpoint}`);
 }

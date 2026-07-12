@@ -31,7 +31,7 @@ function groupConsecutive(items, keyFn) {
 // `itemHighlightField` ({ label, key }) met en avant une propriété qui
 // mérite d'être vue avant tout le reste (ex. une Restriction d'usage),
 // dans un encart distinct plutôt que noyée dans le bloc de propriétés.
-function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroups, itemHighlightField, hideGroupedProperties }) {
+function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroups, itemHighlightField, hideGroupedProperties, manifest }) {
     const highlight = itemHighlightField
         ? normalizeProperty(item.properties?.[itemHighlightField.key])
         : null;
@@ -52,6 +52,7 @@ function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroup
             <ItemDetailBody
                 item={item}
                 hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
+                manifest={manifest}
             />
         </section>
     );
@@ -161,7 +162,11 @@ export default function GroupedRuleView({
                     <div className="detailCard">
                         {singleItemStatFields ? <StatBlock item={activeItem} fields={singleItemStatFields} /> : null}
                         {singleItemRelatedGroups ? <RelatedGroups item={activeItem} groups={singleItemRelatedGroups} /> : null}
-                        <ItemDetailBody item={activeItem} hideProperties={Boolean(singleItemStatFields || singleItemRelatedGroups)} />
+                        <ItemDetailBody
+                            item={activeItem}
+                            hideProperties={Boolean(singleItemStatFields || singleItemRelatedGroups)}
+                            manifest={wiki.manifest}
+                        />
                     </div>
 
                 </article>
@@ -275,6 +280,7 @@ export default function GroupedRuleView({
                                             itemRelatedGroups={itemRelatedGroups}
                                             itemHighlightField={itemHighlightField}
                                             hideGroupedProperties={hideGroupedProperties}
+                                            manifest={wiki.manifest}
                                         />
                                     ))}
 
@@ -290,6 +296,7 @@ export default function GroupedRuleView({
                                     itemRelatedGroups={itemRelatedGroups}
                                     itemHighlightField={itemHighlightField}
                                     hideGroupedProperties={hideGroupedProperties}
+                                    manifest={wiki.manifest}
                                 />
                             ))
                         )}
