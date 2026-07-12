@@ -5,7 +5,7 @@ import { wikiCollections } from "./wiki-collections.js";
 import slugify from "../shared/url.js";
 import { loadLocalEnv, requireNotionToken } from "./notion/env.js";
 import { notionRequest } from "./notion/client.js";
-import { richTextToPlainText } from "./notion/richText.js";
+import { richTextToPlainText, richTextToSegments } from "./notion/richText.js";
 import { normalizeProperties, findTitle, extractPropertyOptions } from "./notion/properties.js";
 import { resolveWikiLinks, buildItemTargets } from "./notion/wikiLinks.js";
 import { loadCache, saveCache } from "./notion/cache.js";
@@ -63,7 +63,10 @@ async function blockToContent(block) {
   const text = richTextToPlainText(value?.rich_text || []);
   if (!text) return null;
 
-  return { type: block.type, text };
+  // `segments` porte la mise en forme (ex. gras) issue de Notion ; consommé
+  // par `applyContentLinks` pour produire les `spans` finaux, puis retiré
+  // (voir plus bas) une fois cette étape faite.
+  return { type: block.type, text, segments: richTextToSegments(value?.rich_text || []) };
 }
 
 async function queryDatabase(databaseId) {
@@ -249,9 +252,14 @@ function resolveRelations(items, registry) {
 }
 
 /**
- * Résout les marqueurs `[[cible]]` du contenu en `spans`, une fois toutes
- * les collections chargées (une cible "fiche précise" peut pointer vers
- * n'importe quelle base). Doit tourner après `buildRegistry`.
+ * Combine la mise en forme Notion (`segments`, ex. gras) et les marqueurs
+ * `[[cible]]` (résolus une fois toutes les collections chargées, une cible
+ * "fiche précise" pouvant pointer vers n'importe quelle base) en une seule
+ * liste de `spans` par bloc. Un marqueur `[[cible]]` est cherché dans le
+ * texte de chaque segment indépendamment : dans le cas rare où un marqueur
+ * chevauche deux mises en forme différentes (ex. moitié en gras), il ne
+ * sera pas reconnu comme lien, limitation acceptée plutôt que de complexifier
+ * la fusion pour un cas marginal. Doit tourner après `buildRegistry`.
  */
 function applyContentLinks(fetched, registry) {
   const itemTargets = buildItemTargets(registry);
@@ -259,10 +267,17 @@ function applyContentLinks(fetched, registry) {
   for (const { items } of fetched) {
     for (const item of items) {
       for (const block of item.content) {
-        if (typeof block.text !== "string" || !block.text) continue;
+        if (!block.segments) continue;
 
-        const spans = resolveWikiLinks(block.text, itemTargets);
-        if (spans) block.spans = spans;
+        block.spans = block.segments.flatMap((segment) => {
+          const linkSpans = resolveWikiLinks(segment.text, itemTargets);
+
+          if (!linkSpans) return [{ text: segment.text, bold: segment.bold }];
+
+          return linkSpans.map((span) => ({ ...span, bold: segment.bold }));
+        });
+
+        delete block.segments;
       }
     }
   }
@@ -343,12 +358,19 @@ async function main() {
   const registry = buildRegistry(fetched);
   applyContentLinks(fetched, registry);
 
-  await Promise.all(
+  // `allSettled` plutôt que `all` : une base en erreur (ex. slug dupliqué)
+  // ne doit jamais empêcher l'écriture des autres, ni laisser leur fichier
+  // à moitié écrit si le process s'arrêtait pendant qu'elles y sont encore.
+  const results = await Promise.allSettled(
     fetched.map(({ collection, databaseId, items, propertyOptions, description }) => {
       resolveRelations(items, registry);
       return writeCollectionFile(collection, databaseId, items, propertyOptions, description);
     })
   );
+
+  const failures = results
+    .map((result, index) => ({ result, label: fetched[index].collection.label }))
+    .filter(({ result }) => result.status === "rejected");
 
   const skippedCollections = wikiCollections.filter((collection) => !process.env[collection.envVar]);
   for (const collection of skippedCollections) {
@@ -356,6 +378,15 @@ async function main() {
   }
 
   await writeManifest();
+
+  if (failures.length > 0) {
+    console.error("\nSynchronisation terminée avec des erreurs (fichier précédent conservé pour ces bases) :");
+    for (const { label, result } of failures) {
+      console.error(`  ✗ ${label} : ${result.reason.message}`);
+    }
+    process.exit(1);
+  }
+
   console.log("Synchronisation Notion terminée.");
 }
 

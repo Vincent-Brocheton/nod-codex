@@ -1,20 +1,23 @@
+import { Fragment } from "react";
 import { Link } from "react-router-dom";
 
 function renderSpans(block, onItemClick) {
     if (!block.spans) return block.text;
 
     return block.spans.map((span, index) => {
-        if (span.path) return <Link key={index} to={span.path}>{span.text}</Link>;
+        const content = span.bold ? <strong>{span.text}</strong> : span.text;
+
+        if (span.path) return <Link key={index} to={span.path}>{content}</Link>;
 
         if (span.item) {
             return (
                 <button key={index} type="button" className="wikiItemLink" onClick={() => onItemClick?.(span.item)}>
-                    {span.text}
+                    {content}
                 </button>
             );
         }
 
-        return span.text;
+        return <Fragment key={index}>{content}</Fragment>;
     });
 }
 

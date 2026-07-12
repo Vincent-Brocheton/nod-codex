@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "",
   "notionDatabaseId": "38188b48-e48e-8055-9c50-ce87cf7642a3",
-  "generatedAt": "2026-07-12T15:37:04.339Z",
+  "generatedAt": "2026-07-12T16:22:11.834Z",
   "propertyOptions": {},
   "items": [
     {
@@ -22,63 +22,177 @@
       "content": [
         {
           "type": "heading_3",
-          "text": "Description :"
+          "text": "Description :",
+          "spans": [
+            {
+              "text": "Description :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les attributs Mentaux indiquent les aptitudes d’un personnage en matière de résolution de problèmes, d’apprentissage, de déduction et de vigilance générale."
+          "text": "Les attributs Mentaux indiquent les aptitudes d’un personnage en matière de résolution de problèmes, d’apprentissage, de déduction et de vigilance générale.",
+          "spans": [
+            {
+              "text": "Les attributs Mentaux indiquent les aptitudes d’un personnage en matière de résolution de problèmes, d’apprentissage, de déduction et de vigilance générale.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Un personnage avec des attributs Mentaux élevés est attentif, logique ou intuitif."
+          "text": "Un personnage avec des attributs Mentaux élevés est attentif, logique ou intuitif.",
+          "spans": [
+            {
+              "text": "Un personnage avec des attributs Mentaux élevés est attentif, logique ou intuitif.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "À l’inverse, un personnage avec des attributs Mentaux faibles est moins capable. Il peut être peu instruit, naïf ou lent d’esprit."
+          "text": "À l’inverse, un personnage avec des attributs Mentaux faibles est moins capable. Il peut être peu instruit, naïf ou lent d’esprit.",
+          "spans": [
+            {
+              "text": "À l’inverse, un personnage avec des attributs Mentaux faibles est moins capable. Il peut être peu instruit, naïf ou lent d’esprit.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Exemple :"
+          "text": "Exemple :",
+          "spans": [
+            {
+              "text": "Exemple :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Nixx le Tremere enquête sur une scène de crime, espérant découvrir des indices sur l’identité d’un voleur habile ayant pénétré dans la chantrie."
+          "text": "Nixx le Tremere enquête sur une scène de crime, espérant découvrir des indices sur l’identité d’un voleur habile ayant pénétré dans la chantrie.",
+          "spans": [
+            {
+              "text": "Nixx le Tremere enquête sur une scène de crime, espérant découvrir des indices sur l’identité d’un voleur habile ayant pénétré dans la chantrie.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Selon son niveau d’attributs, son focus Mentale et ses rangs dans une compétence appropriée, Nixx peut mener son enquête de différentes manières."
+          "text": "Selon son niveau d’attributs, son focus Mentale et ses rangs dans une compétence appropriée, Nixx peut mener son enquête de différentes manières.",
+          "spans": [
+            {
+              "text": "Selon son niveau d’attributs, son focus Mentale et ses rangs dans une compétence appropriée, Nixx peut mener son enquête de différentes manières.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Il peut examiner attentivement la pièce, en utilisant le focus en Perception et la compétence Investigation pour remarquer tout élément déplacé."
+          "text": "Il peut examiner attentivement la pièce, en utilisant le focus en Perception et la compétence Investigation pour remarquer tout élément déplacé.",
+          "spans": [
+            {
+              "text": "Il peut examiner attentivement la pièce, en utilisant le focus en Perception et la compétence Investigation pour remarquer tout élément déplacé.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "S’il a un focus en Astuce, il peut utiliser la compétence Connaissances académiques pour se souvenir de tout ce qui se trouvait dans la pièce et déterminer ce qui manque."
+          "text": "S’il a un focus en Astuce, il peut utiliser la compétence Connaissances académiques pour se souvenir de tout ce qui se trouvait dans la pièce et déterminer ce qui manque.",
+          "spans": [
+            {
+              "text": "S’il a un focus en Astuce, il peut utiliser la compétence Connaissances académiques pour se souvenir de tout ce qui se trouvait dans la pièce et déterminer ce qui manque.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Si Nixx a un focus en Intelligence, il peut utiliser la compétence Science : Criminalistique et examiner la pièce à la recherche d’empreintes digitales, de follicules pileux ou d’autres indices."
+          "text": "Si Nixx a un focus en Intelligence, il peut utiliser la compétence Science : Criminalistique et examiner la pièce à la recherche d’empreintes digitales, de follicules pileux ou d’autres indices.",
+          "spans": [
+            {
+              "text": "Si Nixx a un focus en Intelligence, il peut utiliser la compétence Science : Criminalistique et examiner la pièce à la recherche d’empreintes digitales, de follicules pileux ou d’autres indices.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Focus :"
+          "text": "Focus :",
+          "spans": [
+            {
+              "text": "Focus :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les trois Focus Mentaux sont Perception, Intelligence et Astuce."
+          "text": "Les trois Focus Mentaux sont Perception, Intelligence et Astuce.",
+          "spans": [
+            {
+              "text": "Les trois Focus Mentaux sont ",
+              "bold": false
+            },
+            {
+              "text": "Perception",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Intelligence",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Astuce",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les pouvoirs Mentaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique."
+          "text": "Les pouvoirs Mentaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique.",
+          "spans": [
+            {
+              "text": "Les pouvoirs Mentaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Mental de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test."
+          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Mental de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test.",
+          "spans": [
+            {
+              "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Mental de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme traduire un texte ancien en anglais, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action."
+          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme traduire un texte ancien en anglais, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action.",
+          "spans": [
+            {
+              "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme traduire un texte ancien en anglais, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action.",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -97,63 +211,281 @@
       "content": [
         {
           "type": "heading_3",
-          "text": "Description :"
+          "text": "Description :",
+          "spans": [
+            {
+              "text": "Description :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les attributs Physiques mesurent la force, l’agilité et la résistance générales de votre personnage."
+          "text": "Les attributs Physiques mesurent la force, l’agilité et la résistance générales de votre personnage.",
+          "spans": [
+            {
+              "text": "Les attributs Physiques mesurent la force, l’agilité et la résistance générales de votre personnage.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Un personnage possédant des attributs Physiques modestes n’est pas très athlétique, tandis qu’un personnage ayant des attributs Physiques élevés est exceptionnellement fort, agile ou endurant."
+          "text": "Un personnage possédant des attributs Physiques modestes n’est pas très athlétique, tandis qu’un personnage ayant des attributs Physiques élevés est exceptionnellement fort, agile ou endurant.",
+          "spans": [
+            {
+              "text": "Un personnage possédant des attributs Physiques modestes n’est pas très athlétique, tandis qu’un personnage ayant des attributs Physiques élevés est exceptionnellement fort, agile ou endurant.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et uniquement leurs attributs Physiques) pendant une courte durée."
+          "text": "Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et uniquement leurs attributs Physiques) pendant une courte durée.",
+          "spans": [
+            {
+              "text": "Les vampires peuvent dépenser des points de Sang pour augmenter surnaturellement leurs attributs Physiques (et uniquement leurs attributs Physiques) pendant une courte durée.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Exemple :"
+          "text": "Exemple :",
+          "spans": [
+            {
+              "text": "Exemple :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Vincent le Nosferatu affronte un chasseur de vampires mortel."
+          "text": "Vincent le Nosferatu affronte un chasseur de vampires mortel.",
+          "spans": [
+            {
+              "text": "Vincent le Nosferatu affronte un chasseur de vampires mortel.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Selon le niveau de ses attributs, son orientation d’attribut et ses rangs dans une compétence appropriée, il peut combattre de différentes manières."
+          "text": "Selon le niveau de ses attributs, son orientation d’attribut et ses rangs dans une compétence appropriée, il peut combattre de différentes manières.",
+          "spans": [
+            {
+              "text": "Selon le niveau de ses attributs, son orientation d’attribut et ses rangs dans une compétence appropriée, il peut combattre de différentes manières.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "S’il a le focus en Force, il peut tenter de saisir son adversaire."
+          "text": "S’il a le focus en Force, il peut tenter de saisir son adversaire.",
+          "spans": [
+            {
+              "text": "S’il a le focus en Force, il peut tenter de saisir son adversaire.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "S’il a le focus en Dextérité, il peut essayer de tirer sur le chasseur."
+          "text": "S’il a le focus en Dextérité, il peut essayer de tirer sur le chasseur.",
+          "spans": [
+            {
+              "text": "S’il a le focus en Dextérité, il peut essayer de tirer sur le chasseur.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "S’il a le focus en Vigueur, il peut tenter de résister aux attaques suffisamment longtemps pour s’échapper."
+          "text": "S’il a le focus en Vigueur, il peut tenter de résister aux attaques suffisamment longtemps pour s’échapper.",
+          "spans": [
+            {
+              "text": "S’il a le focus en Vigueur, il peut tenter de résister aux attaques suffisamment longtemps pour s’échapper.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Focus :"
+          "text": "Focus :",
+          "spans": [
+            {
+              "text": "Focus :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les trois Focus Physiques sont Force, Dextérité et Vigueur."
+          "text": "Les trois Focus Physiques sont Force, Dextérité et Vigueur.",
+          "spans": [
+            {
+              "text": "Les trois Focus Physiques sont ",
+              "bold": false
+            },
+            {
+              "text": "Force",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Dextérité",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Vigueur",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Un personnage avec un Focus en Force est vigoureux et musclé. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Force sans coût (Désarmer, Saisir, Renverser ou Transpercer le cœur)."
+          "text": "Un personnage avec un Focus en Force est vigoureux et musclé. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Force sans coût (Désarmer, Saisir, Renverser ou Transpercer le cœur).",
+          "spans": [
+            {
+              "text": "Un personnage avec un Focus en ",
+              "bold": false
+            },
+            {
+              "text": "Force",
+              "bold": true
+            },
+            {
+              "text": " est vigoureux et musclé. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Force sans coût (",
+              "bold": false
+            },
+            {
+              "text": "Désarmer",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Saisir",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Renverser",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "Transpercer le cœur",
+              "bold": true
+            },
+            {
+              "text": ").",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Un personnage avec un Focus en Dextérité est rapide et agile. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Dextérité sans coût (Accélération, Désarmer, Combattre à l’aveugle ou Dégainer rapidement)."
+          "text": "Un personnage avec un Focus en Dextérité est rapide et agile. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Dextérité sans coût (Accélération, Désarmer, Combattre à l’aveugle ou Dégainer rapidement).",
+          "spans": [
+            {
+              "text": "Un personnage avec un Focus en ",
+              "bold": false
+            },
+            {
+              "text": "Dextérité",
+              "bold": true
+            },
+            {
+              "text": " est rapide et agile. Une fois par combat, ce personnage peut utiliser une manœuvre de combat basée sur la Dextérité sans coût (",
+              "bold": false
+            },
+            {
+              "text": "Accélération",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Désarmer",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Combattre à l’aveugle",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "Dégainer rapidement",
+              "bold": true
+            },
+            {
+              "text": ").",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Un personnage avec un Focus en Vigueur est résistant et robuste. Ces personnages ne subissent pas de pénalités de blessures. De plus, ils ne peuvent pas être Assommés ni Renversés par une manœuvre de combat, sauf si l’attaquant possède un attribut Physique supérieur à celui de votre personnage."
+          "text": "Un personnage avec un Focus en Vigueur est résistant et robuste. Ces personnages ne subissent pas de pénalités de blessures. De plus, ils ne peuvent pas être Assommés ni Renversés par une manœuvre de combat, sauf si l’attaquant possède un attribut Physique supérieur à celui de votre personnage.",
+          "spans": [
+            {
+              "text": "Un personnage avec un Focus en ",
+              "bold": false
+            },
+            {
+              "text": "Vigueur",
+              "bold": true
+            },
+            {
+              "text": " est résistant et robuste. Ces personnages ne subissent pas de pénalités de blessures. De plus, ils ne peuvent pas être ",
+              "bold": false
+            },
+            {
+              "text": "Assommés",
+              "bold": true
+            },
+            {
+              "text": " ni ",
+              "bold": false
+            },
+            {
+              "text": "Renversés",
+              "bold": true
+            },
+            {
+              "text": " par une manœuvre de combat, sauf si l’attaquant possède un attribut Physique supérieur à celui de votre personnage.",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -172,67 +504,187 @@
       "content": [
         {
           "type": "heading_3",
-          "text": "Description :"
+          "text": "Description :",
+          "spans": [
+            {
+              "text": "Description :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les Vampires sont des créatures manipulatrices, utilisant les humains (et les uns les autres) comme des instruments pour faire avancer leurs ambitions personnelles."
+          "text": "Les Vampires sont des créatures manipulatrices, utilisant les humains (et les uns les autres) comme des instruments pour faire avancer leurs ambitions personnelles.",
+          "spans": [
+            {
+              "text": "Les Vampires sont des créatures manipulatrices, utilisant les humains (et les uns les autres) comme des instruments pour faire avancer leurs ambitions personnelles.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les attributs Sociaux décrivent l’apparence, le charme et la capacité d’un personnage à interagir avec autrui."
+          "text": "Les attributs Sociaux décrivent l’apparence, le charme et la capacité d’un personnage à interagir avec autrui.",
+          "spans": [
+            {
+              "text": "Les attributs Sociaux décrivent l’apparence, le charme et la capacité d’un personnage à interagir avec autrui.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Si votre personnage possède peu d’attributs Sociaux, il est maladroit, timide ou simplement banal d’apparence."
+          "text": "Si votre personnage possède peu d’attributs Sociaux, il est maladroit, timide ou simplement banal d’apparence.",
+          "spans": [
+            {
+              "text": "Si votre personnage possède peu d’attributs Sociaux, il est maladroit, timide ou simplement banal d’apparence.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Un personnage avec une valeur élevée dans ses attributs Sociaux est attirant, convaincant et à l’aise, plus apte à persuader les autres d’agir selon sa volonté."
+          "text": "Un personnage avec une valeur élevée dans ses attributs Sociaux est attirant, convaincant et à l’aise, plus apte à persuader les autres d’agir selon sa volonté.",
+          "spans": [
+            {
+              "text": "Un personnage avec une valeur élevée dans ses attributs Sociaux est attirant, convaincant et à l’aise, plus apte à persuader les autres d’agir selon sa volonté.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Exemple :"
+          "text": "Exemple :",
+          "spans": [
+            {
+              "text": "Exemple :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Rose la Toreador doit trouver un moyen de passer devant les videurs de la boîte de nuit la plus populaire de la ville : un défi à dominante Sociale."
+          "text": "Rose la Toreador doit trouver un moyen de passer devant les videurs de la boîte de nuit la plus populaire de la ville : un défi à dominante Sociale.",
+          "spans": [
+            {
+              "text": "Rose la Toreador doit trouver un moyen de passer devant les videurs de la boîte de nuit la plus populaire de la ville : un défi à dominante Sociale.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Selon son niveau d’attributs, son focus Sociale et ses rangs dans une compétence appropriée, Rose peut tenter différentes approches."
+          "text": "Selon son niveau d’attributs, son focus Sociale et ses rangs dans une compétence appropriée, Rose peut tenter différentes approches.",
+          "spans": [
+            {
+              "text": "Selon son niveau d’attributs, son focus Sociale et ses rangs dans une compétence appropriée, Rose peut tenter différentes approches.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Elle peut flirter avec les videurs, en s’appuyant sur une orientation en Apparence et la compétence Représentation."
+          "text": "Elle peut flirter avec les videurs, en s’appuyant sur une orientation en Apparence et la compétence Représentation.",
+          "spans": [
+            {
+              "text": "Elle peut flirter avec les videurs, en s’appuyant sur une orientation en Apparence et la compétence Représentation.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Si elle a le focus en Charisme, elle peut séduire les videurs grâce à son esprit vif, en utilisant Empathie pour déterminer ce qu’ils souhaitent entendre."
+          "text": "Si elle a le focus en Charisme, elle peut séduire les videurs grâce à son esprit vif, en utilisant Empathie pour déterminer ce qu’ils souhaitent entendre.",
+          "spans": [
+            {
+              "text": "Si elle a le focus en Charisme, elle peut séduire les videurs grâce à son esprit vif, en utilisant Empathie pour déterminer ce qu’ils souhaitent entendre.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Si Rose a le focus en Manipulation, elle peut tenter de convaincre les videurs qu’elle fait partie du groupe qui joue ce soir, en utilisant Subterfuge pour rendre ses mensonges aussi crédibles que possible."
+          "text": "Si Rose a le focus en Manipulation, elle peut tenter de convaincre les videurs qu’elle fait partie du groupe qui joue ce soir, en utilisant Subterfuge pour rendre ses mensonges aussi crédibles que possible.",
+          "spans": [
+            {
+              "text": "Si Rose a le focus en Manipulation, elle peut tenter de convaincre les videurs qu’elle fait partie du groupe qui joue ce soir, en utilisant Subterfuge pour rendre ses mensonges aussi crédibles que possible.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "heading_3",
-          "text": "Focus :"
+          "text": "Focus :",
+          "spans": [
+            {
+              "text": "Focus :",
+              "bold": true
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les trois Focus Sociaux sont Charisme, Manipulation et Apparence."
+          "text": "Les trois Focus Sociaux sont Charisme, Manipulation et Apparence.",
+          "spans": [
+            {
+              "text": "Les trois Focus Sociaux sont ",
+              "bold": false
+            },
+            {
+              "text": "Charisme",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Manipulation",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Apparence",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Les pouvoirs Sociaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique."
+          "text": "Les pouvoirs Sociaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique.",
+          "spans": [
+            {
+              "text": "Les pouvoirs Sociaux accordent souvent des bénéfices particuliers à un personnage possédant un Focus spécifique.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Social de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test."
+          "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Social de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test.",
+          "spans": [
+            {
+              "text": "Lorsque vous effectuez un test non lié à un pouvoir en rapport avec le Focus Social de votre personnage, le Conteur peut choisir de vous accorder un bonus de +3 à ce test.",
+              "bold": false
+            }
+          ]
         },
         {
           "type": "paragraph",
-          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme convaincre tous les avocats de la ville, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action."
+          "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme convaincre tous les avocats de la ville, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action.",
+          "spans": [
+            {
+              "text": "Alternativement, lorsque votre personnage tente une action liée à son Focus qui nécessite un investissement de temps important, comme convaincre tous les avocats de la ville, le Conteur peut réduire de moitié le temps nécessaire à la réalisation de cette action.",
+              "bold": false
+            }
+          ]
         }
       ]
     }
