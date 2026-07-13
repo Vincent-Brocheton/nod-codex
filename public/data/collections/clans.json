@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-12T17:26:16.571Z",
+  "generatedAt": "2026-07-13T12:52:54.421Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "assamites",
       "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-07-12T17:22:00.000Z",
+      "lastEditedTime": "2026-07-13T11:57:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -53,7 +53,7 @@
         },
         "Approbation": {
           "type": "checkbox",
-          "value": true
+          "value": false
         },
         "Discplines": {
           "type": "relation",
@@ -161,7 +161,7 @@
               "slug": "sorcier",
               "title": "Sorcier",
               "cout": null,
-              "approbation": true,
+              "approbation": false,
               "complet": false
             },
             {
@@ -176,7 +176,7 @@
         },
         "Complet": {
           "type": "checkbox",
-          "value": true
+          "value": false
         },
         "Nom": {
           "type": "text",

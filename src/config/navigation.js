@@ -182,6 +182,20 @@ export const navigation = [
                     COLLECTIONS.REGLES,
                 ],
             },
+
+            {
+                id: "faq",
+                type: "collection",
+                label: "FAQ",
+                path: "/faq",
+                icon: "help-circle",
+
+                view: "faq",
+
+                collections: [
+                    COLLECTIONS.FAQ,
+                ],
+            },
         ],
     },
 ];

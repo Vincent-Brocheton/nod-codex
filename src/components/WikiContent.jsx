@@ -3,6 +3,7 @@ import DetailPanel from "./DetailPanel";
 import RitualsView from "./views/RitualsView";
 import MeritsFlawsView from "./views/MeritsFlawsView";
 import CreationWizardView from "./views/CreationWizardView";
+import FaqView from "./views/FaqView";
 import SectionIndexView from "./views/SectionIndexView";
 import SearchResultsView from "./views/SearchResultsView";
 import PageRenderer from "./PageRenderer";
@@ -39,6 +40,10 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "wizard") {
         return <CreationWizardView wiki={wiki} />;
+    }
+
+    if (activeNavigation.view === "faq") {
+        return <FaqView wiki={wiki} slug={slug} />;
     }
 
     if (slug) {

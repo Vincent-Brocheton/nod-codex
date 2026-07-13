@@ -110,5 +110,12 @@
     group: "Création de personnage",
     envVar: "NOTION_DATABASE_HISTORIQUES",
     file: "/data/collections/historiques.json"
+  },
+  {
+    key: "faq",
+    label: "FAQ",
+    group: "Ressources",
+    envVar: "NOTION_DATABASE_FAQ",
+    file: "/data/collections/faq.json"
   }
 ];

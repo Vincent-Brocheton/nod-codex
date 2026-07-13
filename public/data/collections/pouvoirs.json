@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-12T17:26:16.562Z",
+  "generatedAt": "2026-07-13T12:52:54.412Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -23,7 +23,8 @@
       "Action Simple",
       "AIP",
       "3 tours",
-      "5 tours"
+      "5 tours",
+      "1 heure"
     ],
     "Durée": [
       "1 heure",
@@ -48,7 +49,9 @@
       "Dépend de l'effet choisi",
       "Jusqu'a désctruction ou choix de les détruire",
       "Jusqu'a annulation volontaire",
-      "Jusqu'a ne plus pouvoir se nourrir ou destruction"
+      "Jusqu'a ne plus pouvoir se nourrir ou destruction",
+      "1 scène",
+      "brisez le contact visuel utilisez un autre pouvoir ou si la cible est attaquée blessée ou ciblée par des pouvoirs hostiles"
     ]
   },
   "items": [
@@ -2084,6 +2087,144 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-800a-ad85-e2372cffa3ef",
+      "slug": "bras-des-abysses",
+      "title": "Bras des Abysses",
+      "notionUrl": "https://app.notion.com/p/Bras-des-Abysses-39b88b48e48e800aad85e2372cffa3ef",
+      "lastEditedTime": "2026-07-13T12:26:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a désctruction ou choix de les détruire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Bras des Abysses"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au fur et à mesure que votre maîtrise d’Obténébration grandit, vos capacités à invoquer l’Abîme deviennent encore plus terrifiantes. Vous pouvez appeler des tentacules de ténèbres des Abîmes, des créatures liées aux ombres elles-mêmes. Ces serviteurs frappent et s’enroulent à votre commandement, ils sont au service de tous vos désirs.",
+          "spans": [
+            {
+              "text": "Au fur et à mesure que votre maîtrise d’Obténébration grandit, vos capacités à invoquer l’Abîme deviennent encore plus terrifiantes. Vous pouvez appeler des tentacules de ténèbres des Abîmes, des créatures liées aux ombres elles-mêmes. Ces serviteurs frappent et s’enroulent à votre commandement, ils sont au service de tous vos désirs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 Point de Sang et une Action Simple pour lever des tentacules depuis les ombres dans votre champ de vision. Ces tentacules sont une manifestation tangible de la conscience primale du vide de l’Abîme. Quand vous activez ce pouvoir, vous créez un Bras des abysses pour chaque niveau d’Obténébration que vous possédez, incluant les techniques, jusqu’à un maximum de 5. Les Bras des abysses ne peuvent pas bouger de l’endroit où ils ont été invoqués.",
+          "spans": [
+            {
+              "text": "Dépensez 1 Point de Sang et une Action Simple pour lever des tentacules depuis les ombres dans votre champ de vision. Ces tentacules sont une manifestation tangible de la conscience primale du vide de l’Abîme. Quand vous activez ce pouvoir, vous créez un Bras des abysses pour chaque niveau d’Obténébration que vous possédez, incluant les techniques, jusqu’à un maximum de 5. Les Bras des abysses ne peuvent pas bouger de l’endroit où ils ont été invoqués.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Bras des abysses agit indépendamment des autres, fonctionnant comme une créature entièrement consciente. Un Bras des abysses a une Action Standard par tour. Il peut utiliser cette action pour attaquer n’importe quelle cible dans les 2 pas. Les Bras des abysses ont un Score d’Attaque de 8 et une attaque réussie inflige 1 point de dégât normal. Cependant, au lieu d’infliger des dommages, vous pouvez choisir qu’un Bras des abysses agrippe sa cible. De cette manière, un Bras des abysses peut utiliser la manœuvre Agripper sans dépenser de Volonté. Dans un combat de masse, les Bras des abysses peuvent fournir la tactique d’attaque assistée à un allié proche. Si cela arrive, les Bras des abysses donnent +1 de bonus au Score d’Attaque de cet allié, de la même manière qu’un PNJ Type. Les Bras des abysses ne peuvent pas Aider un Défenseur.",
+          "spans": [
+            {
+              "text": "Chaque Bras des abysses agit indépendamment des autres, fonctionnant comme une créature entièrement consciente. Un Bras des abysses a une Action Standard par tour. Il peut utiliser cette action pour attaquer n’importe quelle cible dans les 2 pas. Les Bras des abysses ont un Score d’Attaque de 8 et une attaque réussie inflige 1 point de dégât normal. Cependant, au lieu d’infliger des dommages, vous pouvez choisir qu’un Bras des abysses agrippe sa cible. De cette manière, un Bras des abysses peut utiliser la manœuvre Agripper sans dépenser de Volonté. Dans un combat de masse, les Bras des abysses peuvent fournir la tactique d’attaque assistée à un allié proche. Si cela arrive, les Bras des abysses donnent +1 de bonus au Score d’Attaque de cet allié, de la même manière qu’un PNJ Type. Les Bras des abysses ne peuvent pas Aider un Défenseur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Bras des abysses n’ont pas d’esprit et ne peuvent donc être la cible de pouvoirs Mentaux et Sociaux. Toutefois, si vous êtes incapable d’attaquer une cible, vos bras sont aussi incapables de porter une action hostile. Par exemple, si vous ne pouvez pas briser la Majesté de votre cible, vos Bras des abysses ne seront pas capables de l’attaquer non plus.",
+          "spans": [
+            {
+              "text": "Les Bras des abysses n’ont pas d’esprit et ne peuvent donc être la cible de pouvoirs Mentaux et Sociaux. Toutefois, si vous êtes incapable d’attaquer une cible, vos bras sont aussi incapables de porter une action hostile. Par exemple, si vous ne pouvez pas briser la Majesté de votre cible, vos Bras des abysses ne seront pas capables de l’attaquer non plus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Bras des abysses a 4 niveaux de santé. Les bras sont immédiatement détruits s’ils sont exposés à la lumière du jour.",
+          "spans": [
+            {
+              "text": "Un Bras des abysses a 4 niveaux de santé. Les bras sont immédiatement détruits s’ils sont exposés à la lumière du jour.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos Bras des Abysses ont un Score d’Attaque de 10. Si vous possédez au moins 1 point de Puissance, vos Bras des Abysses infligent 2 points de dégâts normaux au lieu de 1. Si vous possédez au moins 1 point de Force d'Âme, vos Bras des Abysses ont 6 niveaux de santé au lieu de 4.",
+          "spans": [
+            {
+              "text": "Vos Bras des Abysses ont un Score d’Attaque de 10. Si vous possédez au moins 1 point de Puissance, vos Bras des Abysses infligent 2 points de dégâts normaux au lieu de 1. Si vous possédez au moins 1 point de Force d'Âme, vos Bras des Abysses ont 6 niveaux de santé au lieu de 4.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8015-9e99-f9078d873410",
       "slug": "brouillard",
       "title": "Brouillard",
@@ -2205,6 +2346,144 @@
           "spans": [
             {
               "text": "Les individus dans votre brouillard instantanément créé ne peuvent pas voir au-delà de trois pas. Les personnages qui souhaitent attaquer ou utiliser un pouvoir au-delà de trois pas doivent utiliser la manœuvre de combat : Combat en Aveugle. Les pouvoirs qui vous permettent de voir dans l'obscurité complète, comme les yeux de la Bête ne peuvent pas être utilisés pour contourner Brouillard, mais les pouvoirs qui permettent de compenser votre perte de vue, comme Sens Intensifiés peuvent contourner cette restriction. Le Brouillard dur une minute pour chaque point que vous possédez dans la compétence Occultisme, mais vous pouvez le dissiper plus tôt en dépensant une action simple.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-803d-99f5-ddf3252461e9",
+      "slug": "caresse-de-baal",
+      "title": "Caresse de Baal",
+      "notionUrl": "https://app.notion.com/p/Caresse-de-Baal-39b88b48e48e803d99f5ddf3252461e9",
+      "lastEditedTime": "2026-07-13T12:41:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "3 tours"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Caresse de Baal"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En approfondissant son étude de la transformation de la Vitae, l'utilisateur de Quietus peut altérer encore plus profondément les propriétés de son sang, le transformant en un ichor particulièrement corrosif. Cet ichor détruit toutes les chairs qu'il touche, qu'elles soient vivantes ou mort-vivantes.",
+          "spans": [
+            {
+              "text": "En approfondissant son étude de la transformation de la Vitae, l'utilisateur de Quietus peut altérer encore plus profondément les propriétés de son sang, le transformant en un ichor particulièrement corrosif. Cet ichor détruit toutes les chairs qu'il touche, qu'elles soient vivantes ou mort-vivantes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Faites ensuite passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de revêtir le bord de l'arme avec une couche de votre propre Vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pour les trois prochains tours, l'arme gagne le trait \"Mortel\" et quiconque frappé par cette arme subit les dégâts de l'arme en aggravés. Notez bien que la Caresse de Baal n’accroît pas la quantité de dégâts d'une arme donnée, mais cette arme inflige maintenant des dégâts aggravés plutôt que des dégâts normaux.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Faites ensuite passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de revêtir le bord de l'arme avec une couche de votre propre Vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pour les trois prochains tours, l'arme gagne le trait \"Mortel\" et quiconque frappé par cette arme subit les dégâts de l'arme en aggravés. Notez bien que la Caresse de Baal n’accroît pas la quantité de dégâts d'une arme donnée, mais cette arme inflige maintenant des dégâts aggravés plutôt que des dégâts normaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes immunisé à votre propre Caresse de Baal, mais d'autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire blesser. Si quelqu'un d'autre utilise une arme recouverte de votre Caresse de Baal, cette personne recevra un dégât aggravé si elle perd n'importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l'arme soient blessés dans la même action. Si la personne qui manie l'arme perd de manière répétée ses tests dans le Challenge, elle subira le même nombre de dégâts aggravés.",
+          "spans": [
+            {
+              "text": "Vous êtes immunisé à votre propre Caresse de Baal, mais d'autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire blesser. Si quelqu'un d'autre utilise une arme recouverte de votre Caresse de Baal, cette personne recevra un dégât aggravé si elle perd n'importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l'arme soient blessés dans la même action. Si la personne qui manie l'arme perd de manière répétée ses tests dans le Challenge, elle subira le même nombre de dégâts aggravés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez empoisonner qu'une seule arme de la taille d'une épée ou plus petite à chaque utilisation de la Caresse de Baal. L'objet peut-être de la taille d'une dague, d'une épée, d'une flèche ou d'un carreau d'Arbalète ou bien quelque chose de similaire. Si vous recouvrer un objet non tranchant, vous devez dépenser une action standard plutôt qu'une action simple, pour ouvrir votre chair d'une autre manière et recouvrir l'arme de vitae. La Caresse de Baal ne peut pas être utilisée sur des balles ou autres équipements de type armes à feu, la chaleur et la vitesse dégagée par une arme à feu détruit le revêtement de sang de tout projectile tiré.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez empoisonner qu'une seule arme de la taille d'une épée ou plus petite à chaque utilisation de la Caresse de Baal. L'objet peut-être de la taille d'une dague, d'une épée, d'une flèche ou d'un carreau d'Arbalète ou bien quelque chose de similaire. Si vous recouvrer un objet non tranchant, vous devez dépenser une action standard plutôt qu'une action simple, pour ouvrir votre chair d'une autre manière et recouvrir l'arme de vitae. La Caresse de Baal ne peut pas être utilisée sur des balles ou autres équipements de type armes à feu, la chaleur et la vitesse dégagée par une arme à feu détruit le revêtement de sang de tout projectile tiré.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Caresse de Baal ne peut être utilisée à mains nues.",
+          "spans": [
+            {
+              "text": "La Caresse de Baal ne peut être utilisée à mains nues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes enrobées par votre Caresse de Baal restent toxiques pendant cinq tours au lieu de la durée standard de trois tours. De plus, vous pouvez choisir de suffisamment épaissir l'ichor issu de votre sang afin que d'autres individus que vous puissent manier les armes sans risquer de se blesser.",
+          "spans": [
+            {
+              "text": "Les armes enrobées par votre Caresse de Baal restent toxiques pendant cinq tours au lieu de la durée standard de trois tours. De plus, vous pouvez choisir de suffisamment épaissir l'ichor issu de votre sang afin que d'autres individus que vous puissent manier les armes sans risquer de se blesser.",
               "bold": false
             }
           ]
@@ -2797,6 +3076,164 @@
           "spans": [
             {
               "text": "Vous pouvez contraindre diverses microflores et de minuscules organismes à servir votre volonté aussi efficacement qu'une plante standard. Vous pouvez utiliser Un avec la Forêt et Ne laissez que des Empreintes à l'intérieur et dans des environnements principalement urbains comme s'il s'agissait d'un environnement extérieur.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8098-bb7f-d2e2449907e5",
+      "slug": "c-ur-des-tenebres",
+      "title": "Cœur des Ténèbres",
+      "notionUrl": "https://app.notion.com/p/C-ur-des-T-n-bres-39b88b48e48e8098bb7fd2e2449907e5",
+      "lastEditedTime": "2026-07-13T12:47:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a désctruction ou choix de les détruire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cœur des Ténèbres"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les légendes égyptiennes, les cœurs des morts sont enlevés afin qu'ils puissent être pesés contre la plume de la vérité. Ceux qui sont trouvés dans le besoin sont jetés dans un lac de feu et dévorés, tandis que ceux qui sont dignes sont acceptés dans le paradis. Il est dans votre pouvoir de retirer les cœurs des créatures mort-vivantes et de prendre en main leur jugement.",
+          "spans": [
+            {
+              "text": "Dans les légendes égyptiennes, les cœurs des morts sont enlevés afin qu'ils puissent être pesés contre la plume de la vérité. Ceux qui sont trouvés dans le besoin sont jetés dans un lac de feu et dévorés, tandis que ceux qui sont dignes sont acceptés dans le paradis. Il est dans votre pouvoir de retirer les cœurs des créatures mort-vivantes et de prendre en main leur jugement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et passez une heure pour exécuter un rituel complexe afin d'attirer le cœur d'un corps vampirique : soit le vôtre, soit celui d'un autre participant volontaire.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et passez une heure pour exécuter un rituel complexe afin d'attirer le cœur d'un corps vampirique : soit le vôtre, soit celui d'un autre participant volontaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucun test n'est nécessaire pour enlever un cœur. Ce pouvoir ne peut être utilisé que la nuit d'une nouvelle lune.",
+          "spans": [
+            {
+              "text": "Aucun test n'est nécessaire pour enlever un cœur. Ce pouvoir ne peut être utilisé que la nuit d'une nouvelle lune.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors que la plupart des chairs vampiriques pourrissent et se désintègre en un seul tour après avoir été séparé de son corps, un cœur enlevé avec ce pouvoir reste intact. Le cœur peut être replacé par une autre utilisation du Cœur des Ténèbres, tant que l'utilisateur du pouvoir possède le cœur correct à restaurer. Il n'est pas possible d'installer un cœur faux ou le cœur d'une autre personne en utilisant le Cœur des Ténèbres.",
+          "spans": [
+            {
+              "text": "Alors que la plupart des chairs vampiriques pourrissent et se désintègre en un seul tour après avoir été séparé de son corps, un cœur enlevé avec ce pouvoir reste intact. Le cœur peut être replacé par une autre utilisation du Cœur des Ténèbres, tant que l'utilisateur du pouvoir possède le cœur correct à restaurer. Il n'est pas possible d'installer un cœur faux ou le cœur d'une autre personne en utilisant le Cœur des Ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne dont le cœur est enlevé de cette manière est immunisée à la Manoeuvre Percer le Coeur. En outre, quand ce personnage tente de résister à la frénésie, il le fait comme s’il avait un Trait de Bête en moins.",
+          "spans": [
+            {
+              "text": "Toute personne dont le cœur est enlevé de cette manière est immunisée à la Manoeuvre Percer le Coeur. En outre, quand ce personnage tente de résister à la frénésie, il le fait comme s’il avait un Trait de Bête en moins.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un cœur séparé peut être pieuté, même si le vampire cible n'est pas blessé. Si le cœur est pieuté, alors ce vampire est immédiatement mis en torpeur comme si elle avait été pieutée normalement. Si le cœur est exposé à un seul point de dégâts du feu ou de la lumière du soleil, il est détruit, et son propriétaire s'embrase et est réduit en cendres, rencontrant la mort finale en un seul tour.",
+          "spans": [
+            {
+              "text": "Un cœur séparé peut être pieuté, même si le vampire cible n'est pas blessé. Si le cœur est pieuté, alors ce vampire est immédiatement mis en torpeur comme si elle avait été pieutée normalement. Si le cœur est exposé à un seul point de dégâts du feu ou de la lumière du soleil, il est détruit, et son propriétaire s'embrase et est réduit en cendres, rencontrant la mort finale en un seul tour.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De toute évidence, essayer d'utiliser ce pouvoir sur un mortel, même une goule, est désespérément mortel.",
+          "spans": [
+            {
+              "text": "De toute évidence, essayer d'utiliser ce pouvoir sur un mortel, même une goule, est désespérément mortel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez effectuer Cœur des ténèbres n'importe quelle nuit du mois, et le faire sur une cible qui ne veut pas, tant qu'elle est en torpeur.",
+          "spans": [
+            {
+              "text": "Vous pouvez effectuer Cœur des ténèbres n'importe quelle nuit du mois, et le faire sur une cible qui ne veut pas, tant qu'elle est en torpeur.",
               "bold": false
             }
           ]
@@ -3501,6 +3938,184 @@
           "spans": [
             {
               "text": "Vous avez la possibilité de soulever jusqu’à 10 tonnes.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-803a-a709-e4adade99b63",
+      "slug": "convocation",
+      "title": "Convocation",
+      "notionUrl": "https://app.notion.com/p/Convocation-39b88b48e48e803aa709e4adade99b63",
+      "lastEditedTime": "2026-07-13T12:33:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Convocation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos pouvoirs de persuasion sont tellement puissants que vous pouvez mystiquement contraindre les autres à venir quand vous les appelez, même s'ils sont à des kilomètres de distance. Le simple souvenir de votre beauté et de votre personnalité inspirante les hante alors qu'ils ressentent le doux appel de votre esprit pour qu'ils viennent à vos côtés.",
+          "spans": [
+            {
+              "text": "Vos pouvoirs de persuasion sont tellement puissants que vous pouvez mystiquement contraindre les autres à venir quand vous les appelez, même s'ils sont à des kilomètres de distance. Le simple souvenir de votre beauté et de votre personnalité inspirante les hante alors qu'ils ressentent le doux appel de votre esprit pour qu'ils viennent à vos côtés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour convoquer un autre individu, dépensez 1 Point de Sang et une Action Standard. Faites un Challenge Opposé contre la cible qui vous est familière. Pour plus d'information sur la familiarité, consultez la règle de Familiarité avec la Cible.",
+          "spans": [
+            {
+              "text": "Pour convoquer un autre individu, dépensez 1 Point de Sang et une Action Standard. Faites un Challenge Opposé contre la cible qui vous est familière. Pour plus d'information sur la familiarité, consultez la règle de Familiarité avec la Cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que vous avez commencé une convocation, vous ne pouvez pas quitter la zone d'où vous avez lancé le pouvoir ou la convocation prend immédiatement fin. Si vous réussissez, la cible prend immédiatement conscience du fait qu'elle a été affectée par l'utilisation d'un pouvoir, ainsi que de l'identité de celui qui lancé la convocation et le lieu où elle doit vous rencontrer. Si votre cible ne vous fait pas confiance, elle peut utiliser un temps bref, jusqu'à dix minutes, pour prendre des précautions avant de répondre à votre convocation.",
+          "spans": [
+            {
+              "text": "Une fois que vous avez commencé une convocation, vous ne pouvez pas quitter la zone d'où vous avez lancé le pouvoir ou la convocation prend immédiatement fin. Si vous réussissez, la cible prend immédiatement conscience du fait qu'elle a été affectée par l'utilisation d'un pouvoir, ainsi que de l'identité de celui qui lancé la convocation et le lieu où elle doit vous rencontrer. Si votre cible ne vous fait pas confiance, elle peut utiliser un temps bref, jusqu'à dix minutes, pour prendre des précautions avant de répondre à votre convocation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une cible convoquée viendra aussi vite et directement que possible, mais elle conservera ses instincts de survie. La cible ne marchera pas du haut d'une falaise ou s'engager dans une situation qu'elle peut détecter comme une embuscade.",
+          "spans": [
+            {
+              "text": "Une cible convoquée viendra aussi vite et directement que possible, mais elle conservera ses instincts de survie. La cible ne marchera pas du haut d'une falaise ou s'engager dans une situation qu'elle peut détecter comme une embuscade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "S’il n'est pas possible pour un personnage de venir se présenter physiquement à vous sans s'engager dans une situation dangereuse, la cible doit se rapprocher de vous autant que possible et vous contacter différemment, comme un appel téléphonique, forcer un humain à vous livrer une note ou envoyer un messager animal. Si la cible n'est pas consciente des risques à sa sécurité, elle répondra en personne à votre convocation, même si vos plans à son sujet sont sinistres.",
+          "spans": [
+            {
+              "text": "S’il n'est pas possible pour un personnage de venir se présenter physiquement à vous sans s'engager dans une situation dangereuse, la cible doit se rapprocher de vous autant que possible et vous contacter différemment, comme un appel téléphonique, forcer un humain à vous livrer une note ou envoyer un messager animal. Si la cible n'est pas consciente des risques à sa sécurité, elle répondra en personne à votre convocation, même si vos plans à son sujet sont sinistres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les mortels convoquer continuerons de suivre votre appel malgré toute distance et quel que soit le temps qu'il leur faudra pour vous rejoindre, tant que vous restez sur les prémices des lieux où vous avez initiez la convocation.",
+          "spans": [
+            {
+              "text": "Les mortels convoquer continuerons de suivre votre appel malgré toute distance et quel que soit le temps qu'il leur faudra pour vous rejoindre, tant que vous restez sur les prémices des lieux où vous avez initiez la convocation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Finalement, ils se présenteront à vous, même s’ils ont dû voyager pendant des jours. Les créatures surnaturelles voyagent aussi rapidement qu'elles le peuvent jusqu'à ce qu’elles vous rejoignent ou jusqu'au prochain lever du soleil, peu importe ce qui vient en premier.",
+          "spans": [
+            {
+              "text": "Finalement, ils se présenteront à vous, même s’ils ont dû voyager pendant des jours. Les créatures surnaturelles voyagent aussi rapidement qu'elles le peuvent jusqu'à ce qu’elles vous rejoignent ou jusqu'au prochain lever du soleil, peu importe ce qui vient en premier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible de votre Convocation ne sait pas que le pouvoir a été utilisé et par conséquent, ne peut pas sentir l'identité de celui qui le convoque. Elle se déplacera pour se présenter jusqu'à vous sans se rendre compte pourquoi - ni ou où elle va. La convocation prend quand même fin si votre cible ne peut pas vous approcher sans marcher dans une situation manifestement dangereuse.",
+          "spans": [
+            {
+              "text": "La cible de votre Convocation ne sait pas que le pouvoir a été utilisé et par conséquent, ne peut pas sentir l'identité de celui qui le convoque. Elle se déplacera pour se présenter jusqu'à vous sans se rendre compte pourquoi - ni ou où elle va. La convocation prend quand même fin si votre cible ne peut pas vous approcher sans marcher dans une situation manifestement dangereuse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez convoquer sans dépenser de points de sang ni d'actions standard vos serviteurs, goules et tout individu lié à vous au sang. Vous pouvez utiliser cet aspect de la convocation même en étant pieuté ou en torpeur. Ceci est la seule exception à la règle qui empêche l'utilisation de pouvoir alors qu'un personnage est en torpeur ou pieuté.",
+          "spans": [
+            {
+              "text": "Vous pouvez convoquer sans dépenser de points de sang ni d'actions standard vos serviteurs, goules et tout individu lié à vous au sang. Vous pouvez utiliser cet aspect de la convocation même en étant pieuté ou en torpeur. Ceci est la seule exception à la règle qui empêche l'utilisation de pouvoir alors qu'un personnage est en torpeur ou pieuté.",
               "bold": false
             }
           ]
@@ -5924,6 +6539,154 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80e2-9c47-e08ecbb13efa",
+      "slug": "envoutement",
+      "title": "Envoûtement",
+      "notionUrl": "https://app.notion.com/p/Envo-tement-39b88b48e48e80e29c47e08ecbb13efa",
+      "lastEditedTime": "2026-07-13T12:32:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Envoûtement"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un doux sourire peut renverser le plus dur des cœurs. Vous êtes la vedette du rassemblement, une étoile dans le ciel nuageux, le seul récepteur de l'attention. Peu sont ceux qui peuvent rivaliser face à votre beauté et votre grâce et ceux qui sont suffisamment chanceux pour attirer votre attention feront tout ce qu'ils peuvent pour la garder.",
+          "spans": [
+            {
+              "text": "Un doux sourire peut renverser le plus dur des cœurs. Vous êtes la vedette du rassemblement, une étoile dans le ciel nuageux, le seul récepteur de l'attention. Peu sont ceux qui peuvent rivaliser face à votre beauté et votre grâce et ceux qui sont suffisamment chanceux pour attirer votre attention feront tout ce qu'ils peuvent pour la garder.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour activer l’Envoûtement, dépensez 1 Point de Sang ainsi qu'une Action Standard et initiez un Challenge Opposé avec votre cible. En cas de succès, vous pliez les émotions de votre cible et capturez son cœur. Elle devient immédiatement plus réceptive envers vous, rationalisant les sentiments de dédain ou négatifs qu'elle avait pour vous avant que vous utilisiez ce pouvoir. Tandis que votre cible n'est pas votre esclave et n'obéira pas à tous vos ordres, elle vous admire grandement et est disposée à vous aider dans les limites du raisonnable.",
+          "spans": [
+            {
+              "text": "Pour activer l’Envoûtement, dépensez 1 Point de Sang ainsi qu'une Action Standard et initiez un Challenge Opposé avec votre cible. En cas de succès, vous pliez les émotions de votre cible et capturez son cœur. Elle devient immédiatement plus réceptive envers vous, rationalisant les sentiments de dédain ou négatifs qu'elle avait pour vous avant que vous utilisiez ce pouvoir. Tandis que votre cible n'est pas votre esclave et n'obéira pas à tous vos ordres, elle vous admire grandement et est disposée à vous aider dans les limites du raisonnable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A la fois durant les effets du pouvoir et après que le pouvoir ait disparu, le sujet va rationaliser les effets de l'Envoûtement. Ceux qui était déjà particulièrement disposé envers vous ne se souviennent que du fait que vous étiez particulièrement charmant ; ceux qui vous appréciait que moyennement blâme leur changement de cœur pour vous sur le compte de vos incroyables talents de persuasion. Seul un individu qui vous vilipende activement et souhaite vous nuire verra clairement que ses actions ont été manipulées. Les autres spectateurs, ceux qui peuvent voir l'individu transi peuvent mieux se rendre compte qu'il est sous l'influence de votre contrôle émotionnel - mais il sera particulièrement difficile de convaincre un individu transi que tel est le cas.",
+          "spans": [
+            {
+              "text": "A la fois durant les effets du pouvoir et après que le pouvoir ait disparu, le sujet va rationaliser les effets de l'Envoûtement. Ceux qui était déjà particulièrement disposé envers vous ne se souviennent que du fait que vous étiez particulièrement charmant ; ceux qui vous appréciait que moyennement blâme leur changement de cœur pour vous sur le compte de vos incroyables talents de persuasion. Seul un individu qui vous vilipende activement et souhaite vous nuire verra clairement que ses actions ont été manipulées. Les autres spectateurs, ceux qui peuvent voir l'individu transi peuvent mieux se rendre compte qu'il est sous l'influence de votre contrôle émotionnel - mais il sera particulièrement difficile de convaincre un individu transi que tel est le cas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages envoûtés ne peuvent se résoudre à vous faire du mal, physiquement ou politiquement et serons en général sympathique avec vous aussi raisonnablement que possible. L’Envoûtement n'est pas un contrôle mental et les personnages transis ne sont pas obligés de suivre vos instructions à la lettre. Ils feront en sorte de vous faire plaisir et rejoindrons votre front en cas de conflits ou d'argumentation, du moment qu'ils ne se mettent pas en danger ce faisant. Un personnage envoûté ne se liera pas au sang avec vous ou risquer sa vie pour vous défendre, mais il vous donnera de l'aide tant que la situation n'est pas dangereuse. Si vous attaquer quelqu'un que vous avez envoûté, le pouvoir prends immédiatement fin.",
+          "spans": [
+            {
+              "text": "Les personnages envoûtés ne peuvent se résoudre à vous faire du mal, physiquement ou politiquement et serons en général sympathique avec vous aussi raisonnablement que possible. L’Envoûtement n'est pas un contrôle mental et les personnages transis ne sont pas obligés de suivre vos instructions à la lettre. Ils feront en sorte de vous faire plaisir et rejoindrons votre front en cas de conflits ou d'argumentation, du moment qu'ils ne se mettent pas en danger ce faisant. Un personnage envoûté ne se liera pas au sang avec vous ou risquer sa vie pour vous défendre, mais il vous donnera de l'aide tant que la situation n'est pas dangereuse. Si vous attaquer quelqu'un que vous avez envoûté, le pouvoir prends immédiatement fin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous parvenez à faire un succès exceptionnel, la cible de votre Envoûtement subit une pénalité de -3 pour résister ou surmonter vos autres pouvoirs de Présence pour la durée de ses effets. Tous les pouvoirs de Présence, Pouvoirs d'Anciens et toutes les techniques basées sur la Présence bénéficie de ce malus.",
+          "spans": [
+            {
+              "text": "Si vous parvenez à faire un succès exceptionnel, la cible de votre Envoûtement subit une pénalité de -3 pour résister ou surmonter vos autres pouvoirs de Présence pour la durée de ses effets. Tous les pouvoirs de Présence, Pouvoirs d'Anciens et toutes les techniques basées sur la Présence bénéficie de ce malus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous utilisez l’Envoûtement avec succès, ses effets durent trois heures au lieu d'une.",
+          "spans": [
+            {
+              "text": "Quand vous utilisez l’Envoûtement avec succès, ses effets durent trois heures au lieu d'une.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8033-ae1c-de5e44b75d01",
       "slug": "ex-nihilo",
       "title": "Ex Nihilo",
@@ -6762,6 +7525,164 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8006-8205-fa94d2ca517a",
+      "slug": "forme-du-cobra",
+      "title": "Forme du Cobra",
+      "notionUrl": "https://app.notion.com/p/Forme-du-Cobra-39b88b48e48e80068205fa94d2ca517a",
+      "lastEditedTime": "2026-07-13T12:46:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forme du Cobra"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Mythes affirment que les anciens prêtres d'Egypte pouvaient commander à leurs bâtons de se transformer en serpents. Vous pouvez effectuer une métamorphose encore plus grande, vous transformant en un cobra massif, qui conserve la taille et le poids de votre forme originale. Cette forme de reptile donne une morsure venimeuse et la capacité de glisser à travers de petits passages, tout en vous permettant d'utiliser toutes les disciplines qui ne nécessitent pas les mains ou la parole.",
+          "spans": [
+            {
+              "text": "Les Mythes affirment que les anciens prêtres d'Egypte pouvaient commander à leurs bâtons de se transformer en serpents. Vous pouvez effectuer une métamorphose encore plus grande, vous transformant en un cobra massif, qui conserve la taille et le poids de votre forme originale. Cette forme de reptile donne une morsure venimeuse et la capacité de glisser à travers de petits passages, tout en vous permettant d'utiliser toutes les disciplines qui ne nécessitent pas les mains ou la parole.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et utilisez une Action Standard pour se transformer en un cobra massif, de taille humaine, d'environ 4.5 mètres de long.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et utilisez une Action Standard pour se transformer en un cobra massif, de taille humaine, d'environ 4.5 mètres de long.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez mettre fin à cette transformation à tout moment en dépensant une simple action.",
+          "spans": [
+            {
+              "text": "Vous pouvez mettre fin à cette transformation à tout moment en dépensant une simple action.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage en Forme du Cobra est extrêmement souple, et ne peut être Aggripé ; les attaquants qui tentent de vous Aggriper échouent automatiquement.",
+          "spans": [
+            {
+              "text": "Un personnage en Forme du Cobra est extrêmement souple, et ne peut être Aggripé ; les attaquants qui tentent de vous Aggriper échouent automatiquement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre, vous pouvez mordre vos ennemis sans les Aggriper d'abord, et vos morsures sont venimeuses. Les individus qui sont mordus par un vampire dans la Forme du Cobra doivent résister à une Toxine de virulence 15. La Toxine infligée par ce pouvoir endommage les personnages vivants et détruit le sang des vampires.",
+          "spans": [
+            {
+              "text": "En outre, vous pouvez mordre vos ennemis sans les Aggriper d'abord, et vos morsures sont venimeuses. Les individus qui sont mordus par un vampire dans la Forme du Cobra doivent résister à une Toxine de virulence 15. La Toxine infligée par ce pouvoir endommage les personnages vivants et détruit le sang des vampires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rappelez-vous que toutes les morsures vampiriques, y compris celles des personnages en Forme du Cobra, infligent des dégâts aggravés.",
+          "spans": [
+            {
+              "text": "Rappelez-vous que toutes les morsures vampiriques, y compris celles des personnages en Forme du Cobra, infligent des dégâts aggravés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La forme du Cobra est un pouvoir de transformation et ne peut être combiné avec d'autres pouvoirs de transformations.",
+          "spans": [
+            {
+              "text": "La forme du Cobra est un pouvoir de transformation et ne peut être combiné avec d'autres pouvoirs de transformations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez modifier votre Forme du Cobra, devenant aussi gros qu'un python massif, ou aussi petit qu'une vipère. Votre longueur et votre masse peuvent augmenter jusqu'à trois fois votre corps naturel.",
+          "spans": [
+            {
+              "text": "Vous pouvez modifier votre Forme du Cobra, devenant aussi gros qu'un python massif, ou aussi petit qu'une vipère. Votre longueur et votre masse peuvent augmenter jusqu'à trois fois votre corps naturel.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8064-813d-e9b709047b08",
       "slug": "forme-elementaire",
       "title": "Forme Elementaire",
@@ -6900,6 +7821,144 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80e7-9228-d49130d7dd6f",
+      "slug": "forme-tenebreuse",
+      "title": "Forme Ténébreuse",
+      "notionUrl": "https://app.notion.com/p/Forme-T-n-breuse-39b88b48e48e80e79228d49130d7dd6f",
+      "lastEditedTime": "2026-07-13T12:28:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forme Ténébreuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En invoquant ce pouvoir, vous ne vous contentez pas d'invoquer la puissance de l’Abîme ; vous permettez au vide d’entrer dans votre esprit et de se manifester dans votre âme. Votre forme physique se transmute en un corps d’ombre : une forme ondulante et liquide de vide absolu. Tant que vous êtes sous cette forme, vous pouvez vous glisser à travers les trous et les fissures et vous pouvez voir à travers toutes les formes de ténèbres.",
+          "spans": [
+            {
+              "text": "En invoquant ce pouvoir, vous ne vous contentez pas d'invoquer la puissance de l’Abîme ; vous permettez au vide d’entrer dans votre esprit et de se manifester dans votre âme. Votre forme physique se transmute en un corps d’ombre : une forme ondulante et liquide de vide absolu. Tant que vous êtes sous cette forme, vous pouvez vous glisser à travers les trous et les fissures et vous pouvez voir à travers toutes les formes de ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 Point de Sang et votrre Action Simple et Action Standard afin de vous transformer en une créature coulante d’ombre liquide. Tant que vous êtes sous Forme Ténébreuse, vous ne pouvez pas dépenser de Point de Sang, activer des pouvoirs ou attaquer physiquement, mais vous êtes aussi immunisé à toutes les attaques Physiques provenant de source autre que le feu ou la lumière du Soleil. Vous pouvez être blessé par des attaques non-physiques et vous pouvez être blessé par des armes enflammées, comme une torche ou une fusée de détresse ; toutefois, les munitions incendiaires passent au travers de votre corps trop rapidement pour infliger des dommages. Vous prenez 1 point de dégât aggravé additionnels par le feu, les armes enflammées ou la lumière du soleil tant que vous êtes sous cette forme.",
+          "spans": [
+            {
+              "text": "Dépensez 1 Point de Sang et votrre Action Simple et Action Standard afin de vous transformer en une créature coulante d’ombre liquide. Tant que vous êtes sous Forme Ténébreuse, vous ne pouvez pas dépenser de Point de Sang, activer des pouvoirs ou attaquer physiquement, mais vous êtes aussi immunisé à toutes les attaques Physiques provenant de source autre que le feu ou la lumière du Soleil. Vous pouvez être blessé par des attaques non-physiques et vous pouvez être blessé par des armes enflammées, comme une torche ou une fusée de détresse ; toutefois, les munitions incendiaires passent au travers de votre corps trop rapidement pour infliger des dommages. Vous prenez 1 point de dégât aggravé additionnels par le feu, les armes enflammées ou la lumière du soleil tant que vous êtes sous cette forme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que vous êtes sous Forme Ténébreuse, vous n’êtes pas vraiment intangible. Vous êtes capable de vous faufiler dans des petites ouvertures, passer sous les portes et de vous infiltrer dans les trous mais vous ne pouvez pas passer au travers d’objets solides.",
+          "spans": [
+            {
+              "text": "Tant que vous êtes sous Forme Ténébreuse, vous n’êtes pas vraiment intangible. Vous êtes capable de vous faufiler dans des petites ouvertures, passer sous les portes et de vous infiltrer dans les trous mais vous ne pouvez pas passer au travers d’objets solides.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage sous Forme Ténébreuse peut marcher et bouger normalement. De plus, vous pouvez bouger à vitesse normale tant que vous marchez sur une surface solide, incluant les murs et les plafonds. Même si vous ne pouvez pas voler, vous ne prenez pas de dégât de chute tant que vous êtes sous Forme Ténébreuse. Vous pouvez être touché si un individu passe sa main au travers de votre forme, et vous pouvez toucher d’autres personnages en étendant un membre ténébreux ou en glissant sur eux. Toucher ou être touché peut demander une attaque de Mêlée.",
+          "spans": [
+            {
+              "text": "Un personnage sous Forme Ténébreuse peut marcher et bouger normalement. De plus, vous pouvez bouger à vitesse normale tant que vous marchez sur une surface solide, incluant les murs et les plafonds. Même si vous ne pouvez pas voler, vous ne prenez pas de dégât de chute tant que vous êtes sous Forme Ténébreuse. Vous pouvez être touché si un individu passe sa main au travers de votre forme, et vous pouvez toucher d’autres personnages en étendant un membre ténébreux ou en glissant sur eux. Toucher ou être touché peut demander une attaque de Mêlée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Forme Ténébreuse est un pouvoir de transformation et ne peut être combinée avec d’autre pouvoir de transformation.",
+          "spans": [
+            {
+              "text": "Forme Ténébreuse est un pouvoir de transformation et ne peut être combinée avec d’autre pouvoir de transformation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser 1 Point de Sang pendant que vous êtes sous Forme Ténébreuse pour faire apparaître des yeux rouge brillant. Faire ceci vous permet d’utiliser les 3 premiers points de Domination et de Présence pendant que vous êtes en forme d’ombre, tant que vous possédez ces pouvoirs. Ceci est une exception à la règle qui interdit au personnage d’utiliser des disciplines ou de dépenser du Sang sous Forme Ténébreuse.",
+          "spans": [
+            {
+              "text": "Vous pouvez dépenser 1 Point de Sang pendant que vous êtes sous Forme Ténébreuse pour faire apparaître des yeux rouge brillant. Faire ceci vous permet d’utiliser les 3 premiers points de Domination et de Présence pendant que vous êtes en forme d’ombre, tant que vous possédez ces pouvoirs. Ceci est une exception à la règle qui interdit au personnage d’utiliser des disciplines ou de dépenser du Sang sous Forme Ténébreuse.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8033-87b7-c991d90d9a1c",
       "slug": "glyphe-changelin",
       "title": "Glyphe changelin",
@@ -6992,6 +8051,134 @@
           "spans": [
             {
               "text": "Les créatures surnaturelles subissent les mêmes contre-coups qu'un mortel à la fin de l'effet de Protection de changelin. De plus, si une créature est sortie de l'effet de Protection de changelin avant la fin de sa durée normale, elle devient confuse et subit un malus de -3 à toutes ces actions non-défensive pour les trois prochains tours.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8024-a0ea-e2f380a2c631",
+      "slug": "gout-de-la-mort",
+      "title": "Goût de la Mort",
+      "notionUrl": "https://app.notion.com/p/Go-t-de-la-Mort-39b88b48e48e8024a0eae2f380a2c631",
+      "lastEditedTime": "2026-07-13T12:42:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "3 tours"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Goût de la Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec ce niveau de maîtrise, un vampire peut transformer une petite partie de son sang en un acide caustique et qui, ainsi transmuté, permet au vampire de cracher ce sang acide sur un adversaire, brûlant la chair et corrodant ses os.",
+          "spans": [
+            {
+              "text": "Avec ce niveau de maîtrise, un vampire peut transformer une petite partie de son sang en un acide caustique et qui, ainsi transmuté, permet au vampire de cracher ce sang acide sur un adversaire, brûlant la chair et corrodant ses os.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de sang. Pour le reste du tour, vous pouvez utiliser une action standard pour cracher votre sang toxique sur votre cible. Les attaques faites avec le Goût de la Mort utilisent le Score de Test suivant : Attribut Physique + Athlétique contre l'Attribut Physique + Esquive de la cible.",
+          "spans": [
+            {
+              "text": "Dépensez un point de sang. Pour le reste du tour, vous pouvez utiliser une action standard pour cracher votre sang toxique sur votre cible. Les attaques faites avec le Goût de la Mort utilisent le Score de Test suivant : Attribut Physique + Athlétique contre l'Attribut Physique + Esquive de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous attaquer avec un Goût de la Mort, vous devez choisir si le sang que vous crachez est transmuté selon le pouvoir de Toucher du Scorpion ou celui de la Caresse de Baal. En utilisant le Toucher du Scorpion via le Goût de la Mort provoque les pénalités décrites sous ce pouvoir. Utiliser la Caresse de Baal provoque deux dégâts aggravés à votre cible.",
+          "spans": [
+            {
+              "text": "Quand vous attaquer avec un Goût de la Mort, vous devez choisir si le sang que vous crachez est transmuté selon le pouvoir de Toucher du Scorpion ou celui de la Caresse de Baal. En utilisant le Toucher du Scorpion via le Goût de la Mort provoque les pénalités décrites sous ce pouvoir. Utiliser la Caresse de Baal provoque deux dégâts aggravés à votre cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Goût de la Mort peut être utilisé pendant des rounds de Célérité.",
+          "spans": [
+            {
+              "text": "Le Goût de la Mort peut être utilisé pendant des rounds de Célérité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le Goût de la Mort est utilisé pour porter le Toucher du Scorpion, quiconque est touché par le poison subit un malus de -3 sur ses Score de Test d'Attaque Physique au lieu de la pénalité standard de -2. Si le Goût de la Mort est utilisé pour porter la Caresse de Baal, vous infligez 3 dégâts aggravés, au lieu des 2 standards.",
+          "spans": [
+            {
+              "text": "Si le Goût de la Mort est utilisé pour porter le Toucher du Scorpion, quiconque est touché par le poison subit un malus de -3 sur ses Score de Test d'Attaque Physique au lieu de la pénalité standard de -2. Si le Goût de la Mort est utilisé pour porter la Caresse de Baal, vous infligez 3 dégâts aggravés, au lieu des 2 standards.",
               "bold": false
             }
           ]
@@ -8163,6 +9350,114 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80d2-ad21-d1f430799813",
+      "slug": "intensite",
+      "title": "Intensité",
+      "notionUrl": "https://app.notion.com/p/Intensit-39b88b48e48e80d2ad21d1f430799813",
+      "lastEditedTime": "2026-07-13T12:37:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Intensité"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un tel niveau de force vous permet de projeter un véhicule à proximité, de tordre le fer et l’acier avec aisance. Vos coups sont dévastateurs pour vos malheureux ennemis se trouvant sur votre passage.",
+          "spans": [
+            {
+              "text": "Un tel niveau de force vous permet de projeter un véhicule à proximité, de tordre le fer et l’acier avec aisance. Vos coups sont dévastateurs pour vos malheureux ennemis se trouvant sur votre passage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque Succès Exceptionnel en Bagarre et en Mêlée, votre personnage inflige automatiquement 2 points de dommage supplémentaires plutôt qu’1 point, comme c’est habituellement le cas lors des Succès Exceptionnels.",
+          "spans": [
+            {
+              "text": "À chaque Succès Exceptionnel en Bagarre et en Mêlée, votre personnage inflige automatiquement 2 points de dommage supplémentaires plutôt qu’1 point, comme c’est habituellement le cas lors des Succès Exceptionnels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage inflige 4 points de dégâts, plutôt que les 3 habituels quand vous réalisez un succès exceptionnel.",
+          "spans": [
+            {
+              "text": "Votre personnage inflige 4 points de dégâts, plutôt que les 3 habituels quand vous réalisez un succès exceptionnel.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80a6-987c-ccd37bf75931",
       "slug": "inverser-la-conjuration",
       "title": "Inverser la Conjuration",
@@ -8804,6 +10099,282 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80f6-a4d3-f1e7e7a46417",
+      "slug": "jeu-d-ombres",
+      "title": "Jeu d’Ombres",
+      "notionUrl": "https://app.notion.com/p/Jeu-d-Ombres-39b88b48e48e80f6a4d3f1e7e7a46417",
+      "lastEditedTime": "2026-07-13T12:22:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Jeu d’Ombres"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À votre commandement, les ombres dans la zone se remplissent avec l’énergie de l’Abîme, se déplaçant et se reformant selon vos désirs. Ces ombres s’animent, tremblent et même parviennent à une certaine forme de conscience perverse limitée, se tendant pour porter un contact glacé à quiconque s’approcherais de trop près.",
+          "spans": [
+            {
+              "text": "À votre commandement, les ombres dans la zone se remplissent avec l’énergie de l’Abîme, se déplaçant et se reformant selon vos désirs. Ces ombres s’animent, tremblent et même parviennent à une certaine forme de conscience perverse limitée, se tendant pour porter un contact glacé à quiconque s’approcherais de trop près.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir accorde au Vampire le contrôle sur les ombres naturelles de la zone. Dépensez 1 Point de Sang  et effectuez une Action Simple pour animer une portion d’ombre se trouvant à proximité pour les 5 prochaines minutes. Vos ombres animées ne sont pas vraiment intelligentes mais elles possèdent une astuce suffisamment rudimentaire qui leur permet de suivre des instructions simples.",
+          "spans": [
+            {
+              "text": "Ce pouvoir accorde au Vampire le contrôle sur les ombres naturelles de la zone. Dépensez 1 Point de Sang  et effectuez une Action Simple pour animer une portion d’ombre se trouvant à proximité pour les 5 prochaines minutes. Vos ombres animées ne sont pas vraiment intelligentes mais elles possèdent une astuce suffisamment rudimentaire qui leur permet de suivre des instructions simples.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos ombres sont semi-solides et capable de bouger des objets pesant jusqu’à 500 grammes. Les ombres animées possèdent une Action Standard par tour et peuvent l’utiliser pour bouger de trois pas, pour effectuer une Action Simple, ou pour attaquer. Vos ombres animées bougent et attaquent toujours en groupe.",
+          "spans": [
+            {
+              "text": "Vos ombres sont semi-solides et capable de bouger des objets pesant jusqu’à 500 grammes. Les ombres animées possèdent une Action Standard par tour et peuvent l’utiliser pour bouger de trois pas, pour effectuer une Action Simple, ou pour attaquer. Vos ombres animées bougent et attaquent toujours en groupe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si elles sont commandées pour attaquer, les ombres s’enroulent autours d’une cible, tentant de lui couper la respiration. Le score d’attaque des ombres est de 8. Les morts-vivants ne sont pas affectés par cette attaque, mais les vivants prennent 1 point de dommage par attaque réussie, qui ne peut être encaissé ou réduit, pendant que votre cible perd peu à peu sa respiration. Vos ombres animées sont des créatures indépendantes et leur demander d’attaquer ne vous demande pas d’action. Si vous êtes affecté par un pouvoir Mental ou Social, vos ombres sont aussi affectées. Si vous ne pouvez pas briser la Majesté de la cible, vos ombres seront incapables de l’attaquer. Ces assistants d’ombre sont immunisés aux dégâts physiques mais sont automatiquement dissipés s’ils sont exposés au feu ou à la lumière vive. Même un seul point de dommage de feu, comme venant de balles incendiaires, est suffisant pour renvoyer ces rejetons des ombres dans les Abîmes.",
+          "spans": [
+            {
+              "text": "Si elles sont commandées pour attaquer, les ombres s’enroulent autours d’une cible, tentant de lui couper la respiration. Le score d’attaque des ombres est de 8. Les morts-vivants ne sont pas affectés par cette attaque, mais les vivants prennent 1 point de dommage par attaque réussie, qui ne peut être encaissé ou réduit, pendant que votre cible perd peu à peu sa respiration. Vos ombres animées sont des créatures indépendantes et leur demander d’attaquer ne vous demande pas d’action. Si vous êtes affecté par un pouvoir Mental ou Social, vos ombres sont aussi affectées. Si vous ne pouvez pas briser la Majesté de la cible, vos ombres seront incapables de l’attaquer. Ces assistants d’ombre sont immunisés aux dégâts physiques mais sont automatiquement dissipés s’ils sont exposés au feu ou à la lumière vive. Même un seul point de dommage de feu, comme venant de balles incendiaires, est suffisant pour renvoyer ces rejetons des ombres dans les Abîmes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut avoir qu’une seule utilisation de Jeu d’Ombres active en même temps.",
+          "spans": [
+            {
+              "text": "Un personnage ne peut avoir qu’une seule utilisation de Jeu d’Ombres active en même temps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez former vos ombres à s’accrocher à votre corps, vous rendant extrêmement intimidant à regarder. Pendant que ce pouvoir est actif, votre contenance terrifiante vous immunise contre les succès exceptionnels de Domination et Présence.",
+          "spans": [
+            {
+              "text": "Vous pouvez former vos ombres à s’accrocher à votre corps, vous rendant extrêmement intimidant à regarder. Pendant que ce pouvoir est actif, votre contenance terrifiante vous immunise contre les succès exceptionnels de Domination et Présence.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-802c-a60c-fb8116b21f5a",
+      "slug": "l-appel-de-dagon",
+      "title": "L’Appel de Dagon",
+      "notionUrl": "https://app.notion.com/p/L-Appel-de-Dagon-39b88b48e48e802ca60cfb8116b21f5a",
+      "lastEditedTime": "2026-07-13T12:41:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "L’Appel de Dagon"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir vicieux permet à un Vampire d'utiliser le sang de sa cible contre elle-même, faisant éclater les vaisseaux sanguins et provoquant dans les organes de graves hémorragies internes. Ces ruptures sont extrêmement douloureuses, délivrant une vive agonie à quiconque est affecté par ce pouvoir.",
+          "spans": [
+            {
+              "text": "Ce pouvoir vicieux permet à un Vampire d'utiliser le sang de sa cible contre elle-même, faisant éclater les vaisseaux sanguins et provoquant dans les organes de graves hémorragies internes. Ces ruptures sont extrêmement douloureuses, délivrant une vive agonie à quiconque est affecté par ce pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action standard puis engagez avec votre cible un Challenge Opposé en utilisant le Score de Test de Quietus. En cas de réussite, vous provoquez l'hémorragie et la rupture des organes de votre cible. Un personnage ciblé avec succès par l'appel de Dagon prend 2 points de dégâts normaux durant un tour au cours duquel il aura dépensé du sang. Ces dégâts se produisent au moment où la victime dépense son premier point de sang dans un tour donné.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action standard puis engagez avec votre cible un Challenge Opposé en utilisant le Score de Test de Quietus. En cas de réussite, vous provoquez l'hémorragie et la rupture des organes de votre cible. Un personnage ciblé avec succès par l'appel de Dagon prend 2 points de dégâts normaux durant un tour au cours duquel il aura dépensé du sang. Ces dégâts se produisent au moment où la victime dépense son premier point de sang dans un tour donné.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après le premier tour, vous pouvez utiliser une action simple sur chaque tour suivant afin de maintenir l'effet de ce pouvoir, pour un maximum de cinq tours au total. Les dégâts causés par l'Appel de Dagon ne peuvent être réduits ou annulés. Plusieurs utilisations de l'Appel de Dagon ne se cumulent pas. Un personnage affecté par deux utilisations de l'Appel de Dagon continu de subir 2 dégâts normaux par tour où il utilise du sang.",
+          "spans": [
+            {
+              "text": "Après le premier tour, vous pouvez utiliser une action simple sur chaque tour suivant afin de maintenir l'effet de ce pouvoir, pour un maximum de cinq tours au total. Les dégâts causés par l'Appel de Dagon ne peuvent être réduits ou annulés. Plusieurs utilisations de l'Appel de Dagon ne se cumulent pas. Un personnage affecté par deux utilisations de l'Appel de Dagon continu de subir 2 dégâts normaux par tour où il utilise du sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cible subit 3 dégâts normaux au lieu de 2, sur chaque tour pendant lequel elle utilise du sang.",
+          "spans": [
+            {
+              "text": "Votre cible subit 3 dégâts normaux au lieu de 2, sur chaque tour pendant lequel elle utilise du sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre cible à de votre sang sur sa personne (qu'elle en ait conscience ou non) ou si votre cible à ingéré du votre sang dans les dernières 24 heures, vous n'avez pas besoin d'une ligne de vue pour utiliser l'Appel de Dagon tant que votre cible est dans un rayon d'un kilomètre et demi (1 mile) de vous. Ceux qui ont été affectés par votre Toucher du Scorpion ou Caresse de Baal sont considérés comme ayant de votre sang sur eux dans le cadre de l'utilisation de l'Appel de Dagon.",
+          "spans": [
+            {
+              "text": "Si votre cible à de votre sang sur sa personne (qu'elle en ait conscience ou non) ou si votre cible à ingéré du votre sang dans les dernières 24 heures, vous n'avez pas besoin d'une ligne de vue pour utiliser l'Appel de Dagon tant que votre cible est dans un rayon d'un kilomètre et demi (1 mile) de vous. Ceux qui ont été affectés par votre Toucher du Scorpion ou Caresse de Baal sont considérés comme ayant de votre sang sur eux dans le cadre de l'utilisation de l'Appel de Dagon.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8043-964d-daa552364eab",
       "slug": "la-quatrieme-cavalier",
       "title": "La Quatrième Cavalier",
@@ -9359,6 +10930,302 @@
           "spans": [
             {
               "text": "Votre utilisation de Langue de Bois dure pendant une heure plutôt que cinq minutes. De plus, vous pouvez entendre le murmure des conversations tenues entre les objets inanimés autour de vous, ce qui vous avertit lorsqu'un autre individu s'approche. Tant que vous êtes capables d'entendre, vous êtes conscients de quiconque s'approche de cinq pas de vous. Même si vous ne pouvez pas directement voir le personnage, vous pouvez approximer son emplacement en écoutant le papotage ambiant qui vous entourent. Cet effet ne peut être utilisé pour détecter les personnages cachés par des moyens surnaturels.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8031-8b0e-c9ee2a104c1d",
+      "slug": "langue-de-l-aspic",
+      "title": "Langue de l’Aspic",
+      "notionUrl": "https://app.notion.com/p/Langue-de-l-Aspic-39b88b48e48e80318b0ec9ee2a104c1d",
+      "lastEditedTime": "2026-07-13T12:44:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Langue de l’Aspic"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En activant ce pouvoir, vous gagnez certains des pouvoirs naturels et mythiques associés aux serpents. Vous pouvez parler, contrôler et appeler des serpents. Certains utilisateurs sont particulièrement bénis et peuvent même obtenir un avantage naturel dans la persuasion orale, tout comme le Serpent d'autrefois.",
+          "spans": [
+            {
+              "text": "En activant ce pouvoir, vous gagnez certains des pouvoirs naturels et mythiques associés aux serpents. Vous pouvez parler, contrôler et appeler des serpents. Certains utilisateurs sont particulièrement bénis et peuvent même obtenir un avantage naturel dans la persuasion orale, tout comme le Serpent d'autrefois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et utilisez une Action Simple pour activer la Langue de l'Aspic pendant une heure. Pendant que ce pouvoir est actif, votre langue est bifide et vous pouvez parler à des serpents (ou des individus sous forme de serpent) dans un murmure sifflant si tranquille que le son ne peut être perçu que par quelqu'un qui possède Sens Intensifiés ou un pouvoir semblable.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et utilisez une Action Simple pour activer la Langue de l'Aspic pendant une heure. Pendant que ce pouvoir est actif, votre langue est bifide et vous pouvez parler à des serpents (ou des individus sous forme de serpent) dans un murmure sifflant si tranquille que le son ne peut être perçu que par quelqu'un qui possède Sens Intensifiés ou un pouvoir semblable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors que la langue de l'Aspic est active, vous pouvez sentir parfaitement votre environnement, même dans les profondeurs de la nuit ou dans l'obscurité non naturelle comme celle causée par Obténébration. Normalement, les personnages qui ne peuvent pas voir pendant le combat doivent utiliser la manœuvre de Combat en Aveugle. Tant que la langue de l'Aspic de votre personnage est active, vous pouvez vous battre sans avoir besoin de la manœuvre de Combat en Aveugle.",
+          "spans": [
+            {
+              "text": "Alors que la langue de l'Aspic est active, vous pouvez sentir parfaitement votre environnement, même dans les profondeurs de la nuit ou dans l'obscurité non naturelle comme celle causée par Obténébration. Normalement, les personnages qui ne peuvent pas voir pendant le combat doivent utiliser la manœuvre de Combat en Aveugle. Tant que la langue de l'Aspic de votre personnage est active, vous pouvez vous battre sans avoir besoin de la manœuvre de Combat en Aveugle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En outre, en dépensant un Point de Sang supplémentaire et une Action Standard, vous pouvez invoquer jusqu'à cinq petits serpents locaux ou deux serpents de taille moyenne. Ces serpents prennent jusqu'à 10 minutes à apparaître, et doivent être capable de voyager naturellement à votre emplacement.",
+          "spans": [
+            {
+              "text": "En outre, en dépensant un Point de Sang supplémentaire et une Action Standard, vous pouvez invoquer jusqu'à cinq petits serpents locaux ou deux serpents de taille moyenne. Ces serpents prennent jusqu'à 10 minutes à apparaître, et doivent être capable de voyager naturellement à votre emplacement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce sont des animaux agissants en tant que tel, mais ils vous sont fidèles et tenteront de faire votre volonté jusqu'à l'aube.",
+          "spans": [
+            {
+              "text": "Ce sont des animaux agissants en tant que tel, mais ils vous sont fidèles et tenteront de faire votre volonté jusqu'à l'aube.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Traitez les petits serpents comme des serviteurs à 1 point, et les serpents moyens comme des serviteurs à 3 points.",
+          "spans": [
+            {
+              "text": "Traitez les petits serpents comme des serviteurs à 1 point, et les serpents moyens comme des serviteurs à 3 points.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous utilisez la Langue de l'aspic, vous gagnez également un bonus de +1 aux tests basés sur le son de votre voix, y compris les compétences liées à la persuasion et les pouvoirs de Présence tels que Envoûtement (en supposant que vous parliez pour renforcer votre utilisation du pouvoir).",
+          "spans": [
+            {
+              "text": "Lorsque vous utilisez la Langue de l'aspic, vous gagnez également un bonus de +1 aux tests basés sur le son de votre voix, y compris les compétences liées à la persuasion et les pouvoirs de Présence tels que Envoûtement (en supposant que vous parliez pour renforcer votre utilisation du pouvoir).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8011-a65f-fbb843ee8ca5",
+      "slug": "le-toucher-du-scorpion",
+      "title": "Le Toucher du Scorpion",
+      "notionUrl": "https://app.notion.com/p/Le-Toucher-du-Scorpion-39b88b48e48e8011a65ffbb843ee8ca5",
+      "lastEditedTime": "2026-07-13T12:40:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "3 tours"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Le Toucher du Scorpion"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par la méditation, l'utilisation des concoctions de plantes et de soporifiques naturels, vous pouvez changer les propriétés de votre Vitae. En activant ce pouvoir, votre sang est transformé en un puissant poison qui ralentit les proies blessées et les prives de leur capacité à se battre.",
+          "spans": [
+            {
+              "text": "Par la méditation, l'utilisation des concoctions de plantes et de soporifiques naturels, vous pouvez changer les propriétés de votre Vitae. En activant ce pouvoir, votre sang est transformé en un puissant poison qui ralentit les proies blessées et les prives de leur capacité à se battre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Ensuite, faites passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de revêtir le bord de l'arme avec une couche de votre propre vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pendant les trois prochains tours, quiconque frappé par cette arme est empoisonné par votre sang venimeux. Ceux frappés par une arme couverte d'un Toucher du Scorpion souffrent d'une pénalité de -2 sur tous ses Scores de Test d'Attaque Physique. Ces pénalités durent 5 minutes. Chaque application du Toucher du Scorpion supplémentaire ne rajoute pas plus de pénalités physiques, mais allonge la durée des effets de 5 minutes supplémentaires. Par exemple, un personnage frappé par trois de ces attaques souffre d'une pénalité de -2 sur ses tous ses Score de Test d'Attaque Physique pendant les prochaines 15 minutes.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action simple pour méditer et faire appel aux propriétés de votre Vitae. Ensuite, faites passer une lame aiguisée sur votre peau, créant une coupure peu profonde afin de revêtir le bord de l'arme avec une couche de votre propre vitae. Cette arme doit être utilisée rapidement, avant que le sang ne sèche et perde ses propriétés surnaturelles. Pendant les trois prochains tours, quiconque frappé par cette arme est empoisonné par votre sang venimeux. Ceux frappés par une arme couverte d'un Toucher du Scorpion souffrent d'une pénalité de -2 sur tous ses Scores de Test d'Attaque Physique. Ces pénalités durent 5 minutes. Chaque application du Toucher du Scorpion supplémentaire ne rajoute pas plus de pénalités physiques, mais allonge la durée des effets de 5 minutes supplémentaires. Par exemple, un personnage frappé par trois de ces attaques souffre d'une pénalité de -2 sur ses tous ses Score de Test d'Attaque Physique pendant les prochaines 15 minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un individu qui a été touché par une arme couverte du Toucher du Scorpion subit ces pénalités, même si l'attaque n'a infligé aucun dégât après que l'adversaire ait appliqué tous ses pouvoirs défensifs. Le venin à seulement besoin de toucher sa cible, pas de lui faire des dégâts.",
+          "spans": [
+            {
+              "text": "Un individu qui a été touché par une arme couverte du Toucher du Scorpion subit ces pénalités, même si l'attaque n'a infligé aucun dégât après que l'adversaire ait appliqué tous ses pouvoirs défensifs. Le venin à seulement besoin de toucher sa cible, pas de lui faire des dégâts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes immunisé à votre propre Toucher du Scorpion, mais d'autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire empoisonner. Si quelqu'un d'autre utilise une arme recouverte de votre Toucher du Scorpion, cette personne recevra toutes les pénalités du pouvoir si elle perd n'importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l'arme soit empoisonné dans la même action. Si la personne qui manie l'arme perd de manière répétée ses tests dans le Challenge, les effets du poison sont allongés de la même manière qu'une cible qui se ferait frapper plusieurs fois.",
+          "spans": [
+            {
+              "text": "Vous êtes immunisé à votre propre Toucher du Scorpion, mais d'autres individus qui utilisent vos armes recouvertes du venin courent le risque de se faire empoisonner. Si quelqu'un d'autre utilise une arme recouverte de votre Toucher du Scorpion, cette personne recevra toutes les pénalités du pouvoir si elle perd n'importe quel test dans le Challenge. Cela se produit même si la personne gagne le Challenge global. Il est possible que la cible et celui qui manie l'arme soit empoisonné dans la même action. Si la personne qui manie l'arme perd de manière répétée ses tests dans le Challenge, les effets du poison sont allongés de la même manière qu'une cible qui se ferait frapper plusieurs fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez empoisonner qu'une seule arme de la taille d'une épée ou plus petite à chaque utilisation du Toucher du Scorpion. L'objet peut-être de la taille d'une dague, une épée ou un carreau d'Arbalète ou un objet similaire. Si vous recouvrez un objet non tranchant, vous devez dépenser une action standard plutôt qu'une action simple, pour ouvrir votre chair d'une autre manière et recouvrir l'arme de vitae. Le Toucher du Scorpion ne peut pas être utilisé sur les balles ou autres équipements de type armes à feu, la chaleur et la vitesse dégagée par une arme à feu détruit le revêtement de sang de tout projectile tiré.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez empoisonner qu'une seule arme de la taille d'une épée ou plus petite à chaque utilisation du Toucher du Scorpion. L'objet peut-être de la taille d'une dague, une épée ou un carreau d'Arbalète ou un objet similaire. Si vous recouvrez un objet non tranchant, vous devez dépenser une action standard plutôt qu'une action simple, pour ouvrir votre chair d'une autre manière et recouvrir l'arme de vitae. Le Toucher du Scorpion ne peut pas être utilisé sur les balles ou autres équipements de type armes à feu, la chaleur et la vitesse dégagée par une arme à feu détruit le revêtement de sang de tout projectile tiré.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Toucher du Scorpion ne peut être utilisé avec des attaques à mains nues.",
+          "spans": [
+            {
+              "text": "Le Toucher du Scorpion ne peut être utilisé avec des attaques à mains nues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes enrobées par votre Toucher du Scorpion restent toxiques pendant cinq tours au lieu de trois. De plus, vous pouvez choisir d'épaissir l'ichor de votre sang suffisamment pour que des personnes autres que vous puissent les manier en toute sécurité et sans risquer d'être affecté votre poison. Toute personne empoisonnée par votre Toucher du Scorpion subit une pénalité -3 à toutes les Score de Test d'Attaque Physique.",
+          "spans": [
+            {
+              "text": "Les armes enrobées par votre Toucher du Scorpion restent toxiques pendant cinq tours au lieu de trois. De plus, vous pouvez choisir d'épaissir l'ichor de votre sang suffisamment pour que des personnes autres que vous puissent les manier en toute sécurité et sans risquer d'être affecté votre poison. Toute personne empoisonnée par votre Toucher du Scorpion subit une pénalité -3 à toutes les Score de Test d'Attaque Physique.",
               "bold": false
             }
           ]
@@ -10373,6 +12240,154 @@
           "spans": [
             {
               "text": "En dépensant un point de sang et en se concentrant pendant trois tours complets, vous pouvez augmenter ou diminuer le niveau du Voile d'un niveau. Cela dure pour un mois lunaire entier ((28 jours) et vous pouvez délimiter une zone de la taille d'une grande maison.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80ed-a57a-f7a0cbf5748a",
+      "slug": "majeste",
+      "title": "Majesté",
+      "notionUrl": "https://app.notion.com/p/Majest-39b88b48e48e80eda57af7a0cbf5748a",
+      "lastEditedTime": "2026-07-13T12:34:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Majesté"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous maîtrisez la capacité à canaliser les émotions de votre Bête Vampirique, concentrant sa rage en une sombre aura régalienne qui semble presque palpable. Votre force de personnalité force les cœurs faibles à fléchir ; les individus craintifs à se baisser ou ramper alors que vous exigez leur respect. Les cœurs se brisent à votre passage et même les plus stoïques tremblent quand vous passez, submergés par l'autorité et la souveraineté de votre personnalité. Vous prenez les traits et la contenance des anciens dirigeants, tant qu'ils sont correctement exprimés - que ce soit grâce à de l'intimidation et la domination, une adoration obséquieuse, un magnétisme sexuel ou par la grâce et la pureté.",
+          "spans": [
+            {
+              "text": "Vous maîtrisez la capacité à canaliser les émotions de votre Bête Vampirique, concentrant sa rage en une sombre aura régalienne qui semble presque palpable. Votre force de personnalité force les cœurs faibles à fléchir ; les individus craintifs à se baisser ou ramper alors que vous exigez leur respect. Les cœurs se brisent à votre passage et même les plus stoïques tremblent quand vous passez, submergés par l'autorité et la souveraineté de votre personnalité. Vous prenez les traits et la contenance des anciens dirigeants, tant qu'ils sont correctement exprimés - que ce soit grâce à de l'intimidation et la domination, une adoration obséquieuse, un magnétisme sexuel ou par la grâce et la pureté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 Point de Sang et une Action Standard pour activer la Majesté.",
+          "spans": [
+            {
+              "text": "Dépensez 1 Point de Sang et une Action Standard pour activer la Majesté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant l'heure qui suit, vous apparaissez comme l'apothéose de la meilleure nature de votre personnage - étonnamment beau, épouvantablement cruel, régalien au-delà du reproche ou autre - tant qu'il reflète la personnalité de votre personnage. La sensation de la Majesté d'un personnage est variable car cela dépend de son humeur actuelle et de sa personnalité.",
+          "spans": [
+            {
+              "text": "Pendant l'heure qui suit, vous apparaissez comme l'apothéose de la meilleure nature de votre personnage - étonnamment beau, épouvantablement cruel, régalien au-delà du reproche ou autre - tant qu'il reflète la personnalité de votre personnage. La sensation de la Majesté d'un personnage est variable car cela dépend de son humeur actuelle et de sa personnalité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Majesté se manifeste comme une présence émotionnelle dominatrice, qui amplifie la nature du personnage. Tant que se pouvoir est actif, les autres ne peuvent pas vous manquer de respect et s’ils peuvent ne pas être d'accord avec vous, ils doivent le montrer avec la plus grande courtoisie. Quiconque aimerait attaquer ou être vulgaire envers votre personnage doit entreprendre un Challenge Opposé avec vous, utilisant son Score de Test de Social + Volonté contre votre Score de Test de Social + Commandement. Si l'attaquant échoue ce challenge, il ne peut pas faire d'autres tentatives contre vous pendant les prochaines 10 minutes. Il devient prisonnier des effets de votre Majesté et continuera à vous traiter avec respect et courtoisie même s’il quitte les lieux. Une fois que 10 minutes se sont écoulées, l'attaquant peut à nouveau tenter de briser votre majesté. Cet effet est aussi appliqué aux pouvoirs qui ne visent pas directement l'utilisateur de Majesté, mais vise l'endroit englobant l'utilisateur de la Majesté. Si un personnage veut enflammer une pièce et que l'un des personnages présents à sa Majesté d'activée, l'attaquant doit faire un Test contre cette Majesté pour entreprendre son action.",
+          "spans": [
+            {
+              "text": "La Majesté se manifeste comme une présence émotionnelle dominatrice, qui amplifie la nature du personnage. Tant que se pouvoir est actif, les autres ne peuvent pas vous manquer de respect et s’ils peuvent ne pas être d'accord avec vous, ils doivent le montrer avec la plus grande courtoisie. Quiconque aimerait attaquer ou être vulgaire envers votre personnage doit entreprendre un Challenge Opposé avec vous, utilisant son Score de Test de Social + Volonté contre votre Score de Test de Social + Commandement. Si l'attaquant échoue ce challenge, il ne peut pas faire d'autres tentatives contre vous pendant les prochaines 10 minutes. Il devient prisonnier des effets de votre Majesté et continuera à vous traiter avec respect et courtoisie même s’il quitte les lieux. Une fois que 10 minutes se sont écoulées, l'attaquant peut à nouveau tenter de briser votre majesté. Cet effet est aussi appliqué aux pouvoirs qui ne visent pas directement l'utilisateur de Majesté, mais vise l'endroit englobant l'utilisateur de la Majesté. Si un personnage veut enflammer une pièce et que l'un des personnages présents à sa Majesté d'activée, l'attaquant doit faire un Test contre cette Majesté pour entreprendre son action.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous attaquez un individu affecté par votre Majesté ou si vous utilisez un pouvoir contre lui, votre Majesté est immédiatement brisée pour cet individu. Il devient insensible à votre majesté pour l'heure qui suit et vous traitera tel qu'il le fera normalement, même vous attaquer comme il l’entend. Cette rupture de la Majesté n'affecte qu'un individu en particulier ; les autres affectés par Majesté de présent ne sont pas simplement libérés s'ils témoignent de votre agression envers l'un de leurs amis.",
+          "spans": [
+            {
+              "text": "Si vous attaquez un individu affecté par votre Majesté ou si vous utilisez un pouvoir contre lui, votre Majesté est immédiatement brisée pour cet individu. Il devient insensible à votre majesté pour l'heure qui suit et vous traitera tel qu'il le fera normalement, même vous attaquer comme il l’entend. Cette rupture de la Majesté n'affecte qu'un individu en particulier ; les autres affectés par Majesté de présent ne sont pas simplement libérés s'ils témoignent de votre agression envers l'un de leurs amis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant une scène de combat de masse, si vous utilisez la tactique \"Aider un Défenseur\" pour forcer quelqu'un à vous attaquer plutôt que leur cible, votre Majesté est automatiquement rompue pour cet attaquant, car vous avez agi de manière agressive envers lui. Si vous attaquez un personnage qui est assisté par la tactique \"Aider un Défenseur\", votre Majesté est rompue tant pour la nouvelle cible que la cible d'origine sauf si vous renoncez à votre attaque quand un autre joueur déclare son intention d'utiliser la tactique \"Aider un Défenseur\". Pour plus d'informations, regardez les règles de Combat de Masse.",
+          "spans": [
+            {
+              "text": "Pendant une scène de combat de masse, si vous utilisez la tactique \"Aider un Défenseur\" pour forcer quelqu'un à vous attaquer plutôt que leur cible, votre Majesté est automatiquement rompue pour cet attaquant, car vous avez agi de manière agressive envers lui. Si vous attaquez un personnage qui est assisté par la tactique \"Aider un Défenseur\", votre Majesté est rompue tant pour la nouvelle cible que la cible d'origine sauf si vous renoncez à votre attaque quand un autre joueur déclare son intention d'utiliser la tactique \"Aider un Défenseur\". Pour plus d'informations, regardez les règles de Combat de Masse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que votre Majesté est activée, vous ignorez la Majesté des autres personnages.",
+          "spans": [
+            {
+              "text": "Tant que votre Majesté est activée, vous ignorez la Majesté des autres personnages.",
               "bold": false
             }
           ]
@@ -12796,6 +14811,154 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-80f2-b6d3-ec57a4b6e694",
+      "slug": "peau-de-la-vipere",
+      "title": "Peau de la Vipère",
+      "notionUrl": "https://app.notion.com/p/Peau-de-la-Vip-re-39b88b48e48e80f2b6d3ec57a4b6e694",
+      "lastEditedTime": "2026-07-13T12:45:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Peau de la Vipère"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec seulement un moment de concentration, vous causer votre peau des éruptions brillantes, des écailles protectrices, et vos membres et les muscles s'allongent. Tant que ce pouvoir est actif, vous avez un aspect hideux, semblable à un serpent, mais vous gagner une défense significative contre les attaques physiques.",
+          "spans": [
+            {
+              "text": "Avec seulement un moment de concentration, vous causer votre peau des éruptions brillantes, des écailles protectrices, et vos membres et les muscles s'allongent. Tant que ce pouvoir est actif, vous avez un aspect hideux, semblable à un serpent, mais vous gagner une défense significative contre les attaques physiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et utilisez une Action Simple pour invoquer ce pouvoir, vous obtenez des écailles défensives et devenez extrêmement flexible.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et utilisez une Action Simple pour invoquer ce pouvoir, vous obtenez des écailles défensives et devenez extrêmement flexible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant que ce pouvoir est actif, vous avez un bonus de +2 au Scores de Tests de Défense basés sur l'Esquive.",
+          "spans": [
+            {
+              "text": "Tant que ce pouvoir est actif, vous avez un bonus de +2 au Scores de Tests de Défense basés sur l'Esquive.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les individus qui utilisent la Peau de la Vipère peuvent aussi mordre sans avoir d'abord besoin d'Aggriper leurs adversaires. Évidemment, être vu par les mortels tout en utilisant la Peau de la Vipère est un Bris de Mascarade.",
+          "spans": [
+            {
+              "text": "Les individus qui utilisent la Peau de la Vipère peuvent aussi mordre sans avoir d'abord besoin d'Aggriper leurs adversaires. Évidemment, être vu par les mortels tout en utilisant la Peau de la Vipère est un Bris de Mascarade.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Peau de la Vipère est un Pouvoir de Transformation Majeur et ne peut être combinée avec d'autres Pouvoirs Transformateurs Majeur.",
+          "spans": [
+            {
+              "text": "Peau de la Vipère est un Pouvoir de Transformation Majeur et ne peut être combinée avec d'autres Pouvoirs Transformateurs Majeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez mettre fin à cette transformation à tout moment en dépensant une Action Simple. La transformation effectuée par Peau de la Vipère est assez humanoïde pour permettre l'utilisation d'armes.",
+          "spans": [
+            {
+              "text": "Vous pouvez mettre fin à cette transformation à tout moment en dépensant une Action Simple. La transformation effectuée par Peau de la Vipère est assez humanoïde pour permettre l'utilisation d'armes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre bonus au Score de Test basés sur l'Esquive devient +3 (au lieu de la norme +2). De plus, vous recevez un bonus de +1 au Score de Test de Bagarre lorsque vous tentez de mordre votre adversaire.",
+          "spans": [
+            {
+              "text": "Votre bonus au Score de Test basés sur l'Esquive devient +3 (au lieu de la norme +2). De plus, vous recevez un bonus de +1 au Score de Test de Bagarre lorsque vous tentez de mordre votre adversaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-802d-bc1c-e22d8709a3f4",
       "slug": "peau-du-cameleon",
       "title": "Peau du Caméléon",
@@ -14560,6 +16723,94 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8066-a46f-d4839b0cce30",
+      "slug": "prouesse",
+      "title": "Prouesse",
+      "notionUrl": "https://app.notion.com/p/Prouesse-39b88b48e48e8066a46fd4839b0cce30",
+      "lastEditedTime": "2026-07-13T12:36:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Prouesse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos coups parviennent à causer des commotions remarquables, brisant les équipements de protection et les os de mortels d’un seul coup.",
+          "spans": [
+            {
+              "text": "Vos coups parviennent à causer des commotions remarquables, brisant les équipements de protection et les os de mortels d’un seul coup.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos attaques en Bagarre et en Mêlée sont perforantes. Les bonus d’armure de votre adversaire sont ignorés.",
+          "spans": [
+            {
+              "text": "Vos attaques en Bagarre et en Mêlée sont perforantes. Les bonus d’armure de votre adversaire sont ignorés.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38e88b48-e48e-80d6-9959-e899f351c1a5",
       "slug": "psychomachie",
       "title": "Psychomachie",
@@ -15975,6 +18226,252 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-8091-8608-d3da80687404",
+      "slug": "redoutable",
+      "title": "Redoutable",
+      "notionUrl": "https://app.notion.com/p/Redoutable-39b88b48e48e80918608d3da80687404",
+      "lastEditedTime": "2026-07-13T12:36:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Redoutable"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre force est clairement surnaturelle. Vous frappez avec une force redoutable, accablant vos ennemis de coups incroyables.",
+          "spans": [
+            {
+              "text": "Votre force est clairement surnaturelle. Vous frappez avec une force redoutable, accablant vos ennemis de coups incroyables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d’une attaque de Bagarre et en Mêlée réussie, votre personnage inflige automatiquement 2 points de dommage.",
+          "spans": [
+            {
+              "text": "Lors d’une attaque de Bagarre et en Mêlée réussie, votre personnage inflige automatiquement 2 points de dommage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage inflige 3 points de dommage.",
+          "spans": [
+            {
+              "text": "Votre personnage inflige 3 points de dommage.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80fa-b44a-e1de4217a1ad",
+      "slug": "regard-d-effroi",
+      "title": "Regard d’Effroi",
+      "notionUrl": "https://app.notion.com/p/Regard-d-Effroi-39b88b48e48e80fab44ae1de4217a1ad",
+      "lastEditedTime": "2026-07-13T12:30:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Regard d’Effroi"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
+          "spans": [
+            {
+              "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
+          "spans": [
+            {
+              "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
+          "spans": [
+            {
+              "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
+          "spans": [
+            {
+              "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
+          "spans": [
+            {
+              "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80b4-a2c1-d29b57a5afc4",
       "slug": "regard-des-morts",
       "title": "Regard des Morts",
@@ -16666,6 +19163,124 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-800c-b65b-df2ac3a251d3",
+      "slug": "reverence",
+      "title": "Révérence",
+      "notionUrl": "https://app.notion.com/p/R-v-rence-39b88b48e48e800cb65bdf2ac3a251d3",
+      "lastEditedTime": "2026-07-13T12:30:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 scène"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Révérence"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous vous faites remarquer même dans les salles les plus animées. Votre beauté et votre charisme attirent l'attention des autres comme des papillons de nuits vers une flamme. Même ceux qui sont en désaccord avec votre cause ou vos objectifs s'arrêterons et vous écouterons, ne serait-ce pour vous accorder le bénéfice du doute pendant un moment.",
+          "spans": [
+            {
+              "text": "Vous vous faites remarquer même dans les salles les plus animées. Votre beauté et votre charisme attirent l'attention des autres comme des papillons de nuits vers une flamme. Même ceux qui sont en désaccord avec votre cause ou vos objectifs s'arrêterons et vous écouterons, ne serait-ce pour vous accorder le bénéfice du doute pendant un moment.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour activer la Révérence, dépensez un Point de Sang et une Action Standard. Pour le reste de la scène, vous semblez plus grand que nature, plus impressionnant qu'à l'accoutumé et tout le monde à distance de conversation vous accordera son attention et sentira un fort désir d'être proche de vous. Les personnages affectés par la Révérence ne sont pas poussés à plus vous faire confiance ou à arrêter de vous attaquer, mais ils doivent vous porter une attention particulière. Une cible affectée par la Révérence est considérée comme automatiquement concentrée sur vous, selon la règle des Regards et Concentration.",
+          "spans": [
+            {
+              "text": "Pour activer la Révérence, dépensez un Point de Sang et une Action Standard. Pour le reste de la scène, vous semblez plus grand que nature, plus impressionnant qu'à l'accoutumé et tout le monde à distance de conversation vous accordera son attention et sentira un fort désir d'être proche de vous. Les personnages affectés par la Révérence ne sont pas poussés à plus vous faire confiance ou à arrêter de vous attaquer, mais ils doivent vous porter une attention particulière. Une cible affectée par la Révérence est considérée comme automatiquement concentrée sur vous, selon la règle des Regards et Concentration.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Personnages peuvent ignorer les effets de la Révérence pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+          "spans": [
+            {
+              "text": "Les Personnages peuvent ignorer les effets de la Révérence pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Personnages qui veulent surmonter votre Révérence doivent dépenser 2 points de Volonté plutôt qu'1 pour ignorer votre Révérence pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 2 points de Volonté.",
+          "spans": [
+            {
+              "text": "Les Personnages qui veulent surmonter votre Révérence doivent dépenser 2 points de Volonté plutôt qu'1 pour ignorer votre Révérence pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 2 points de Volonté.",
               "bold": false
             }
           ]
@@ -17575,6 +20190,272 @@
           "spans": [
             {
               "text": "L'Obéah se spécialise dans la défense et le soin. En dépensant un point de sang et une action simple, vous pouvez également utiliser Sentir le vivant pour recevoir un bonus de 5 pour chaques tests de Médecine ou vous si vous essayer d'évaluer la cause de la mort d'un corps",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-808c-a9f5-d994618b7876",
+      "slug": "silence-de-la-mort",
+      "title": "Silence de la Mort",
+      "notionUrl": "https://app.notion.com/p/Silence-de-la-Mort-39b88b48e48e808ca9f5d994618b7876",
+      "lastEditedTime": "2026-07-13T12:39:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Silence de la Mort"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La première leçon est celle du silence. L'anonymat et la surprise sont deux des plus redoutables armes présentes dans l'arsenal du Vampire, l'embuscade étant un avantage de poids dans n'importe quelle situation. Avec l'utilisation de ce pouvoir, vous pouvez masquer votre approche, attaquer et vous échapper. Vous pouvez étouffer les supplications désespérées de votre victime alors qu'elle essaye d'obtenir de l'aide ou votre pitié.",
+          "spans": [
+            {
+              "text": "La première leçon est celle du silence. L'anonymat et la surprise sont deux des plus redoutables armes présentes dans l'arsenal du Vampire, l'embuscade étant un avantage de poids dans n'importe quelle situation. Avec l'utilisation de ce pouvoir, vous pouvez masquer votre approche, attaquer et vous échapper. Vous pouvez étouffer les supplications désespérées de votre victime alors qu'elle essaye d'obtenir de l'aide ou votre pitié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant un point de sang et une action simple vous créez une sphère de silence absolue autour de vous qui inclut votre forme physique. Cette sphère s’étend à un maximum de trois pas autour de vous dans toutes les directions, cependant, vous pouvez choisir de réduire cette zone si vous le souhaitez. Une fois créée, vous pouvez réduire la taille de la sphère en dépensant une action simple, mais vous ne pouvez pas l'étendre au-delà de la limite des trois pas. Les sons qui proviennent de l'intérieur de votre sphère n'émettent aucun son. Les pouvoirs qui reposent sur le son, sont complètement bloqué par le Silence de Mort. Cela signifie que ces pouvoirs échouent au moment où ils sont lancés et que l'utilisateur se situe dans une zone de silence. Ou cela signifie que ces pouvoirs échouent car la cible est située à l'intérieur de la sphère de Silence. Cela inclut les pouvoirs comme le pouvoir de Melpominée, et certains pouvoirs de Domination (Mais des pouvoirs de Domination peuvent être quand même utilisés car ces utilisations peuvent s'utiliser sans bruits).",
+          "spans": [
+            {
+              "text": "En dépensant un point de sang et une action simple vous créez une sphère de silence absolue autour de vous qui inclut votre forme physique. Cette sphère s’étend à un maximum de trois pas autour de vous dans toutes les directions, cependant, vous pouvez choisir de réduire cette zone si vous le souhaitez. Une fois créée, vous pouvez réduire la taille de la sphère en dépensant une action simple, mais vous ne pouvez pas l'étendre au-delà de la limite des trois pas. Les sons qui proviennent de l'intérieur de votre sphère n'émettent aucun son. Les pouvoirs qui reposent sur le son, sont complètement bloqué par le Silence de Mort. Cela signifie que ces pouvoirs échouent au moment où ils sont lancés et que l'utilisateur se situe dans une zone de silence. Ou cela signifie que ces pouvoirs échouent car la cible est située à l'intérieur de la sphère de Silence. Cela inclut les pouvoirs comme le pouvoir de Melpominée, et certains pouvoirs de Domination (Mais des pouvoirs de Domination peuvent être quand même utilisés car ces utilisations peuvent s'utiliser sans bruits).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Notez bien que certaines utilisations de la Magie du Sang, comme la Thaumaturgie et la Nécromancie, requiert que l'utilisateur puisse parler.",
+          "spans": [
+            {
+              "text": "Notez bien que certaines utilisations de la Magie du Sang, comme la Thaumaturgie et la Nécromancie, requiert que l'utilisateur puisse parler.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, ces pouvoirs ne nécessitent pas que la cible puisse les entendre. Par conséquence, ces pouvoirs ne sont pas entravés par le Silence de Mort, même si l'utilisateur est dans la bulle de silence.",
+          "spans": [
+            {
+              "text": "Cependant, ces pouvoirs ne nécessitent pas que la cible puisse les entendre. Par conséquence, ces pouvoirs ne sont pas entravés par le Silence de Mort, même si l'utilisateur est dans la bulle de silence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Silence de Mort dure 10 minutes au maximum, sauf si l'utilisateur brise le pouvoir plus tôt au prix d'une action simple.",
+          "spans": [
+            {
+              "text": "Le Silence de Mort dure 10 minutes au maximum, sauf si l'utilisateur brise le pouvoir plus tôt au prix d'une action simple.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Silence de Mort peut maintenant s'étendre à cinq pas. Vous pouvez aussi maintenant utiliser le Silence de Mort sur un lieu statique au lieu de vous entourer. Une fois que vous avez créez un Silence de Mort statique, la sphère reste localisée au même endroit même si vous l'aviez placé sur un objet qui a été déplacé.",
+          "spans": [
+            {
+              "text": "Votre Silence de Mort peut maintenant s'étendre à cinq pas. Vous pouvez aussi maintenant utiliser le Silence de Mort sur un lieu statique au lieu de vous entourer. Une fois que vous avez créez un Silence de Mort statique, la sphère reste localisée au même endroit même si vous l'aviez placé sur un objet qui a été déplacé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8000-8173-dd2fb777ad9b",
+      "slug": "sombre-metamorphose",
+      "title": "Sombre Métamorphose",
+      "notionUrl": "https://app.notion.com/p/Sombre-M-tamorphose-39b88b48e48e80008173dd2fb777ad9b",
+      "lastEditedTime": "2026-07-13T12:27:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sombre Métamorphose"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En drapant les ténèbres de l’Abîme autours de votre corps, vous fusionnez votre corps avec la conscience des anciennes profondeurs. Des bandes de ténèbres ondulent autours de votre chair pâle et des tentacules remuants apparaissent sur votre cage thoracique, vous transformant en une créature de l’Abîme.",
+          "spans": [
+            {
+              "text": "En drapant les ténèbres de l’Abîme autours de votre corps, vous fusionnez votre corps avec la conscience des anciennes profondeurs. Des bandes de ténèbres ondulent autours de votre chair pâle et des tentacules remuants apparaissent sur votre cage thoracique, vous transformant en une créature de l’Abîme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 Point de Sang  et une Action Simple pour vous transformer en une monstrueuse créature d’ombre. La matière brute du vide vous enveloppe dans des bandes ondulantes et 4 tentacules (similaires en apparence aux Bras des Abysses) émergent de votre cage thoracique. Les membres ajoutés par la Sombre Métamorphose ne peuvent pas attaquer indépendamment, mais s’ajoutent à vos propres actions. Une fois par tour, à votre initiative, vous pouvez effectuer une attaque de Bagarre avec les bras fournis par la Sombre Métamorphose, sans dépenser d’action. Cette attaque peut cibler n’importe qui dans les 5 pas. Les Attaques faites avec la Sombre Métamorphose utilise votre score de Bagarre et inflige vos dégâts de Bagarre. Les attaques de la Sombre Métamorphose peuvent être modifiées par votre pouvoir de Puissance, incluant la Puissance d'Ancien et les techniques exigeant de la Puissance mais ne peuvent être modifiée par aucune autre discipline. La Sombre Métamorphose ne peut être utilisée pour attaquer pendant une phase de Célérité.",
+          "spans": [
+            {
+              "text": "Dépensez 1 Point de Sang  et une Action Simple pour vous transformer en une monstrueuse créature d’ombre. La matière brute du vide vous enveloppe dans des bandes ondulantes et 4 tentacules (similaires en apparence aux Bras des Abysses) émergent de votre cage thoracique. Les membres ajoutés par la Sombre Métamorphose ne peuvent pas attaquer indépendamment, mais s’ajoutent à vos propres actions. Une fois par tour, à votre initiative, vous pouvez effectuer une attaque de Bagarre avec les bras fournis par la Sombre Métamorphose, sans dépenser d’action. Cette attaque peut cibler n’importe qui dans les 5 pas. Les Attaques faites avec la Sombre Métamorphose utilise votre score de Bagarre et inflige vos dégâts de Bagarre. Les attaques de la Sombre Métamorphose peuvent être modifiées par votre pouvoir de Puissance, incluant la Puissance d'Ancien et les techniques exigeant de la Puissance mais ne peuvent être modifiée par aucune autre discipline. La Sombre Métamorphose ne peut être utilisée pour attaquer pendant une phase de Célérité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attaques de la Sombre Métamorphose peuvent être modifiées en manœuvre pour Agripper, bien que vous deviez payer le prix normal de cette manœuvre. La Sombre Métamorphose ne peut être modifiée par une manœuvre de combat autre que celle pour Agripper.",
+          "spans": [
+            {
+              "text": "Les attaques de la Sombre Métamorphose peuvent être modifiées en manœuvre pour Agripper, bien que vous deviez payer le prix normal de cette manœuvre. La Sombre Métamorphose ne peut être modifiée par une manœuvre de combat autre que celle pour Agripper.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez mettre fin à cette transformation à n’importe quel moment en dépensant une Action Simple. La Sombre Métamorphose est assez humanoïde pour permettre de porter des armes.",
+          "spans": [
+            {
+              "text": "Vous pouvez mettre fin à cette transformation à n’importe quel moment en dépensant une Action Simple. La Sombre Métamorphose est assez humanoïde pour permettre de porter des armes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant que vous êtes sous les effets de la Sombre Métamorphose, vous pouvez ressentir parfaitement votre environnement, même dans les profondeurs de la nuit ou pendant que vous êtes à l’intérieur d’autre effet d’Obténébration. Vous êtes immunisé à tous les effets du Voile de Nuit, même de la pénalité de -2 infligé par l’effet de focus du Voile de Nuit. De plus, votre figure terrifiante vous immunise aux succes exceptionnels des pouvoirs de Présence et de Domination.",
+          "spans": [
+            {
+              "text": "Pendant que vous êtes sous les effets de la Sombre Métamorphose, vous pouvez ressentir parfaitement votre environnement, même dans les profondeurs de la nuit ou pendant que vous êtes à l’intérieur d’autre effet d’Obténébration. Vous êtes immunisé à tous les effets du Voile de Nuit, même de la pénalité de -2 infligé par l’effet de focus du Voile de Nuit. De plus, votre figure terrifiante vous immunise aux succes exceptionnels des pouvoirs de Présence et de Domination.",
               "bold": false
             }
           ]
@@ -19356,6 +22237,114 @@
       ]
     },
     {
+      "id": "39b88b48-e48e-803a-a49d-f01fb9b56943",
+      "slug": "toute-puissance",
+      "title": "Toute-Puissance",
+      "notionUrl": "https://app.notion.com/p/Toute-Puissance-39b88b48e48e803aa49df01fb9b56943",
+      "lastEditedTime": "2026-07-13T12:37:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Toute-Puissance"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La force que vous pouvez rassembler est monumentale, délivrant à chaque coup une puissance phénoménale. Un tel pouvoir est au-delà du surnaturel et frise la légende.",
+          "spans": [
+            {
+              "text": "La force que vous pouvez rassembler est monumentale, délivrant à chaque coup une puissance phénoménale. Un tel pouvoir est au-delà du surnaturel et frise la légende.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous réussissez une attaque en Bagarre et en Mêlée, votre personnage inflige 3 points de dégâts. Cette somme comprend le bonus octroyé par le pouvoir Redoutable. Notez qu’Intensité ajoute toujours un point supplémentaire de dégâts, mais seulement lors d'un Succès Exceptionnel.",
+          "spans": [
+            {
+              "text": "Quand vous réussissez une attaque en Bagarre et en Mêlée, votre personnage inflige 3 points de dégâts. Cette somme comprend le bonus octroyé par le pouvoir Redoutable. Notez qu’Intensité ajoute toujours un point supplémentaire de dégâts, mais seulement lors d'un Succès Exceptionnel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre personnage inflige 5 points de dommage au lieu de 4. Ce nombre comprend le bonus du pouvoir Intensité.",
+          "spans": [
+            {
+              "text": "Votre personnage inflige 5 points de dommage au lieu de 4. Ce nombre comprend le bonus du pouvoir Intensité.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80c7-b16a-e0d45174ff08",
       "slug": "vengeance-de-samiel",
       "title": "Vengeance de Samiel",
@@ -19448,6 +22437,134 @@
           "spans": [
             {
               "text": "Votre Vengeance de Samiel vous donne des succès exceptionnel sur cette attaque, à la place de succès normaux. Votre cible peut choisir de dépenser un point de Volonté pour convertir ce succés exceptionnell en un succés normal",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8083-b490-d442ee5b60dd",
+      "slug": "vigueur",
+      "title": "Vigueur",
+      "notionUrl": "https://app.notion.com/p/Vigueur-39b88b48e48e8083b490d442ee5b60dd",
+      "lastEditedTime": "2026-07-13T12:36:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Force"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Passif"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vigueur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec une musculature aussi monumentale, vous pouvez aisément soulever des centaines de livres, et avoir assez de force pour briser des poutres de soutien en métal ou bien encore renverser des murs en brique.",
+          "spans": [
+            {
+              "text": "Avec une musculature aussi monumentale, vous pouvez aisément soulever des centaines de livres, et avoir assez de force pour briser des poutres de soutien en métal ou bien encore renverser des murs en brique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors d’une attaque en Bagarre et en Mêlée, vous obtenez un bonus de +5 pour déterminer si l’attaque est ou non un Succès Exceptionnel.",
+          "spans": [
+            {
+              "text": "Lors d’une attaque en Bagarre et en Mêlée, vous obtenez un bonus de +5 pour déterminer si l’attaque est ou non un Succès Exceptionnel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Focus",
+          "spans": [
+            {
+              "text": "Description du Focus",
               "bold": false
             }
           ]
@@ -19664,6 +22781,154 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8008-a12a-ec2ff5484e90",
+      "slug": "voile-de-nuit",
+      "title": "Voile de Nuit",
+      "notionUrl": "https://app.notion.com/p/Voile-de-Nuit-39b88b48e48e8008a12aec2ff5484e90",
+      "lastEditedTime": "2026-07-13T12:25:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a annulation volontaire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voile de Nuit"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En appelant à vous les profondeurs éternelles de l’Abîme, vous convoquez une bande de ténèbres épaisse et surnaturelle qui absorbe toute lumière et déforme les sons. Ceux qui se trouvent à l’intérieur ressentent un froid douloureux, entendent des murmures de lamentation et ressentent la pression des vagues de l’océan roulant à travers leurs corps vers...le néant.",
+          "spans": [
+            {
+              "text": "En appelant à vous les profondeurs éternelles de l’Abîme, vous convoquez une bande de ténèbres épaisse et surnaturelle qui absorbe toute lumière et déforme les sons. Ceux qui se trouvent à l’intérieur ressentent un froid douloureux, entendent des murmures de lamentation et ressentent la pression des vagues de l’océan roulant à travers leurs corps vers...le néant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 Point de Sang  et une Action Simple pour invoquer un nuage d’ombre visqueuse, l’essence même de l’Abîme. Vous pouvez convoquer ces ténèbres au sein de l'existence n'importe où dans votre ligne de vue. Le Voile de Nuit a un diamètre de 6 pas et obscurcit toutes les lumières se trouvant à l’intérieur, créant une zone artificielle de ténèbres surnaturels.",
+          "spans": [
+            {
+              "text": "Dépensez 1 Point de Sang  et une Action Simple pour invoquer un nuage d’ombre visqueuse, l’essence même de l’Abîme. Vous pouvez convoquer ces ténèbres au sein de l'existence n'importe où dans votre ligne de vue. Le Voile de Nuit a un diamètre de 6 pas et obscurcit toutes les lumières se trouvant à l’intérieur, créant une zone artificielle de ténèbres surnaturels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "N’importe qui piégé dans votre Voile de Nuit est aveuglé, sauf s’il possède des moyens surnaturels de voir au travers du vide. Les individus dans le voile doivent utiliser les règles de Combat en Aveugle pour attaquer. Les personnages possédant des pouvoirs comme les Yeux de la Bête peuvent voir au travers du Voile de Nuit et les personnages avec des pouvoirs sensoriels comme Sens Intensifiés peuvent palier à la cécité, leur permettant d’attaquer normalement.",
+          "spans": [
+            {
+              "text": "N’importe qui piégé dans votre Voile de Nuit est aveuglé, sauf s’il possède des moyens surnaturels de voir au travers du vide. Les individus dans le voile doivent utiliser les règles de Combat en Aveugle pour attaquer. Les personnages possédant des pouvoirs comme les Yeux de la Bête peuvent voir au travers du Voile de Nuit et les personnages avec des pouvoirs sensoriels comme Sens Intensifiés peuvent palier à la cécité, leur permettant d’attaquer normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À l’intérieur du voile, la plupart des créatures vivantes comme les animaux ou les gens subissent 1 point de dommage normal chaque tour lors de votre initiative, pendant que l’Abîme vole leur respiration et sape leur volonté de vivre. Ces dommages ne peuvent être encaissés ou réduits. Les Morts-vivants sont immunisés à ces effets, tous comme les créatures vivantes possédant un focus de Vigueur.",
+          "spans": [
+            {
+              "text": "À l’intérieur du voile, la plupart des créatures vivantes comme les animaux ou les gens subissent 1 point de dommage normal chaque tour lors de votre initiative, pendant que l’Abîme vole leur respiration et sape leur volonté de vivre. Ces dommages ne peuvent être encaissés ou réduits. Les Morts-vivants sont immunisés à ces effets, tous comme les créatures vivantes possédant un focus de Vigueur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes immunisé aux effets de votre propre Voile de Nuit ; vous voyez normalement à travers le voile et vous n’êtes pas troublé par son touché.",
+          "spans": [
+            {
+              "text": "Vous êtes immunisé aux effets de votre propre Voile de Nuit ; vous voyez normalement à travers le voile et vous n’êtes pas troublé par son touché.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir créé un Voile de Nuit, vous pouvez dépenser une Action Simple pour bouger votre voile de 3 pas dans n’importe quelle direction. Vous pouvez aussi dépenser une Action Simple et 1 Point de Sang pour augmenter le rayon du voile de 2 pas, après qu’il ait été invoqué par une première utilisation de ce pouvoir.",
+          "spans": [
+            {
+              "text": "Après avoir créé un Voile de Nuit, vous pouvez dépenser une Action Simple pour bouger votre voile de 3 pas dans n’importe quelle direction. Vous pouvez aussi dépenser une Action Simple et 1 Point de Sang pour augmenter le rayon du voile de 2 pas, après qu’il ait été invoqué par une première utilisation de ce pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Voile de Nuit manifeste un lien plus fort avec les énergies surnaturelles de l’Abîme. Les Morts-vivants restent immunisés aux effets de dommages de votre voile, mais les créatures vivantes perdent 3 points de dégâts au lieu d’1. Même les créatures qui ont un focus de Vigueur ne peuvent facilement se dérober aux effets ; ils prennent 2 points de dommages par tour passé dans le voile. De plus, tous les individus dans le voile souffrent d’une pénalité de -2 au Score de Test d’Attaque (Physique, Mental et Social). Les personnages utilisant des pouvoirs surnaturels pour se dérober à la cécité causée par votre voile ne sont pas immunisés à cette pénalité de -2. Les personnages utilisant les règles de Combat en Aveugle ne souffrent pas de cette pénalité de -2.",
+          "spans": [
+            {
+              "text": "Votre Voile de Nuit manifeste un lien plus fort avec les énergies surnaturelles de l’Abîme. Les Morts-vivants restent immunisés aux effets de dommages de votre voile, mais les créatures vivantes perdent 3 points de dégâts au lieu d’1. Même les créatures qui ont un focus de Vigueur ne peuvent facilement se dérober aux effets ; ils prennent 2 points de dommages par tour passé dans le voile. De plus, tous les individus dans le voile souffrent d’une pénalité de -2 au Score de Test d’Attaque (Physique, Mental et Social). Les personnages utilisant des pouvoirs surnaturels pour se dérober à la cécité causée par votre voile ne sont pas immunisés à cette pénalité de -2. Les personnages utilisant les règles de Combat en Aveugle ne souffrent pas de cette pénalité de -2.",
               "bold": false
             }
           ]
@@ -20275,6 +23540,154 @@
           "spans": [
             {
               "text": "Si un objet possède des compartiments cachés, vous les découvrez. Vous pouvez de cette manière déchiffrez les codes ou motifs nécessaire pour déverrouillez un verrou ou une porte en passant 3 tours entier à examiner l'objet. Si le verrou a besoin d'une clef, vous pouvez prendre 3 tours à étudier le verrou et serait désormais capable de reconnaître à vue la clef qui ouvre ce verrou.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80e0-be0d-c90d34680ec9",
+      "slug": "yeux-du-serpent",
+      "title": "Yeux du Serpent",
+      "notionUrl": "https://app.notion.com/p/Yeux-du-Serpent-39b88b48e48e80e0be0dc90d34680ec9",
+      "lastEditedTime": "2026-07-13T12:44:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "brisez le contact visuel utilisez un autre pouvoir ou si la cible est attaquée blessée ou ciblée par des pouvoirs hostiles"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Yeux du Serpent"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme les charmeurs de serpents d'autrefois, votre regard a le pouvoir de calmer et d'hypnotiser. Lorsque vous utilisez ce pouvoir, vos yeux prennent une teinte or brillante, captant l'attention de ceux qui rencontrent votre regard. Tant que vous tenez son attention, votre sujet reste complètement immobilisé.",
+          "spans": [
+            {
+              "text": "Comme les charmeurs de serpents d'autrefois, votre regard a le pouvoir de calmer et d'hypnotiser. Lorsque vous utilisez ce pouvoir, vos yeux prennent une teinte or brillante, captant l'attention de ceux qui rencontrent votre regard. Tant que vous tenez son attention, votre sujet reste complètement immobilisé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un Point de Sang et utilisez une Action Simple pour activer les Yeux du Serpent.",
+          "spans": [
+            {
+              "text": "Dépensez un Point de Sang et utilisez une Action Simple pour activer les Yeux du Serpent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez avoir l'attention de votre cible (voir Regard et Concentration) et engager votre cible dans un Challenge Opposé à l'aide des Scores de Test de Serpentis. Si vous réussissez, la cible est paralysée tant que vous maintenez son regard avec le vôtre.",
+          "spans": [
+            {
+              "text": "Vous devez avoir l'attention de votre cible (voir Regard et Concentration) et engager votre cible dans un Challenge Opposé à l'aide des Scores de Test de Serpentis. Si vous réussissez, la cible est paralysée tant que vous maintenez son regard avec le vôtre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous brisez le contact visuel, utilisez un autre pouvoir, ou si la cible est attaquée, blessée ou ciblée par des pouvoirs hostiles, votre pouvoir hypnotique s'arrête.",
+          "spans": [
+            {
+              "text": "Si vous brisez le contact visuel, utilisez un autre pouvoir, ou si la cible est attaquée, blessée ou ciblée par des pouvoirs hostiles, votre pouvoir hypnotique s'arrête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos Yeux du Serpent durent trois tours après rupture du contact visuel, tant que votre adversaire n'est pas attaqué, blessé, ou ciblé avec un pouvoir agressif.",
+          "spans": [
+            {
+              "text": "Vos Yeux du Serpent durent trois tours après rupture du contact visuel, tant que votre adversaire n'est pas attaqué, blessé, ou ciblé avec un pouvoir agressif.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser d'autres pouvoirs tout en maintenant une cible paralysée avec vos Yeux du Serpent. Cependant, si votre cible est attaquée ou blessée, ce sort hypnotique se brise",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser d'autres pouvoirs tout en maintenant une cible paralysée avec vos Yeux du Serpent. Cependant, si votre cible est attaquée ou blessée, ce sort hypnotique se brise",
               "bold": false
             }
           ]

@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-12T17:26:16.572Z",
+  "generatedAt": "2026-07-13T12:52:54.422Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1191,11 +1191,11 @@
       "slug": "sorcier",
       "title": "Sorcier",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-07-12T17:22:00.000Z",
+      "lastEditedTime": "2026-07-13T11:57:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
-          "value": true
+          "value": false
         },
         "Handicaps": {
           "type": "relation",
@@ -1267,8 +1267,8 @@
               "slug": "assamites",
               "title": "Assamites",
               "cout": null,
-              "approbation": true,
-              "complet": true
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -2176,8 +2176,8 @@
               "slug": "assamites",
               "title": "Assamites",
               "cout": null,
-              "approbation": true,
-              "complet": true
+              "approbation": false,
+              "complet": false
             }
           ]
         },

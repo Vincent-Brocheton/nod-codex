@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-12T17:26:16.593Z",
+  "generatedAt": "2026-07-13T12:52:54.447Z",
   "collections": [
     {
       "key": "disciplines",
@@ -96,6 +96,12 @@
       "label": "Historiques",
       "group": "Création de personnage",
       "file": "/data/collections/historiques.json"
+    },
+    {
+      "key": "faq",
+      "label": "FAQ",
+      "group": "Ressources",
+      "file": "/data/collections/faq.json"
     }
   ]
 }

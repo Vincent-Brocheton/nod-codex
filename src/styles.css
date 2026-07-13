@@ -1037,6 +1037,64 @@ a.relationChip:hover {
   font-size: 15px;
 }
 
+.faqList {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 8px;
+  max-width: 860px;
+}
+
+.faqEntry {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.faqQuestion {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: var(--text-heading);
+  cursor: pointer;
+  display: flex;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 17px;
+  gap: 16px;
+  justify-content: space-between;
+  padding: 18px 22px;
+  text-align: left;
+  width: 100%;
+}
+
+.faqQuestion:hover {
+  color: var(--accent-hover);
+}
+
+.faqChevron {
+  color: var(--accent);
+  flex: 0 0 auto;
+  transition: transform 0.2s ease;
+}
+
+.faqEntry.open .faqChevron {
+  transform: rotate(180deg);
+}
+
+.faqAnswer {
+  border-top: 1px solid var(--border);
+  padding: 18px 22px 22px;
+}
+
+.faqAnswer .contentBlocks {
+  background: none;
+  border: none;
+  border-radius: 0;
+  max-width: none;
+  padding: 0;
+}
+
 /* Grille de cartes utilisée par GroupedRuleView (Rituels, Atouts & Handicaps)
    pour choisir une catégorie/valeur groupée (ex. Niveau, Type). */
 .indexGrid {

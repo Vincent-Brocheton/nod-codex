@@ -2,6 +2,7 @@ import {
     BookOpen,
     Brain,
     Database,
+    HelpCircle,
     Home,
     ScrollText,
     Shield,
@@ -23,6 +24,7 @@ const icons = {
     star: Star,
 
     "book-open": BookOpen,
+    "help-circle": HelpCircle,
 
     database: Database,
 };

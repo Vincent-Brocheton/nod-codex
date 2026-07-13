@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-12T17:26:16.559Z",
+  "generatedAt": "2026-07-13T12:52:54.409Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -755,8 +755,8 @@
               "slug": "assamites",
               "title": "Assamites",
               "cout": null,
-              "approbation": true,
-              "complet": true
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
@@ -1344,8 +1344,8 @@
               "slug": "assamites",
               "title": "Assamites",
               "cout": null,
-              "approbation": true,
-              "complet": true
+              "approbation": false,
+              "complet": false
             },
             {
               "collectionKey": "clans",
@@ -1426,7 +1426,7 @@
               "slug": "sorcier",
               "title": "Sorcier",
               "cout": null,
-              "approbation": true,
+              "approbation": false,
               "complet": false
             },
             {
@@ -2967,8 +2967,8 @@
               "slug": "assamites",
               "title": "Assamites",
               "cout": null,
-              "approbation": true,
-              "complet": true
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3017,7 +3017,7 @@
               "slug": "sorcier",
               "title": "Sorcier",
               "cout": null,
-              "approbation": true,
+              "approbation": false,
               "complet": false
             },
             {
@@ -3575,7 +3575,7 @@
               "slug": "sorcier",
               "title": "Sorcier",
               "cout": null,
-              "approbation": true,
+              "approbation": false,
               "complet": false
             }
           ]
