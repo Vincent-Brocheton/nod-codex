@@ -18,11 +18,19 @@ export const navigation = [
                 icon: "home",
             },
             {
+                id: "recent-updates",
+                type: "page",
+                label: "Dernières mises à jour",
+                path: "/mises-a-jour",
+                icon: "book-open",
+                hidden: true,
+            },
+            {
                 id: "character-creation",
                 type: "collection",
                 label: "Créer son personnage",
                 path: "/creation",
-                icon: "user-plus",
+                icon: "user",
 
                 view: "wizard",
 
@@ -42,7 +50,7 @@ export const navigation = [
                 type: "collection",
                 label: "Clans",
                 path: "/clans",
-                icon: "shield",
+                icon: "shield-plus",
 
                 view: "list",
                 detail: "clan",
@@ -57,7 +65,7 @@ export const navigation = [
                 type: "collection",
                 label: "Disciplines",
                 path: "/disciplines",
-                icon: "sparkles",
+                icon: "droplet",
 
                 view: "list",
                 detail: "discipline",
@@ -74,7 +82,7 @@ export const navigation = [
                 type: "collection",
                 label: "Lignées",
                 path: "/lignees",
-                icon: "shield",
+                icon: "shield-plus",
 
                 view: "lignees",
                 detail: "lignee",
@@ -90,7 +98,7 @@ export const navigation = [
                 type: "collection",
                 label: "Pouvoirs",
                 path: "/pouvoirs",
-                icon: "sparkles",
+                icon: "droplet",
 
                 view: "discipline-powers",
                 detail: "power",
@@ -122,7 +130,7 @@ export const navigation = [
                 type: "collection",
                 label: "Rituels",
                 path: "/rituels",
-                icon: "scroll",
+                icon: "pentagram",
 
                 view: "rituals",
 
@@ -138,7 +146,7 @@ export const navigation = [
                 type: "collection",
                 label: "Compétences",
                 path: "/competences",
-                icon: "brain",
+                icon: "target",
 
                 view: "list",
 

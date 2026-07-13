@@ -1,4 +1,5 @@
 import HomeView from "./HomeView";
+import RecentUpdatesView from "./views/RecentUpdatesView";
 import EmptyState from "./States/EmptyState";
 
 export default function PageRenderer({ wiki }) {
@@ -8,7 +9,10 @@ export default function PageRenderer({ wiki }) {
     switch (activeNavigation?.id) {
 
         case "home":
-            return <HomeView />;
+            return <HomeView wiki={wiki} />;
+
+        case "recent-updates":
+            return <RecentUpdatesView wiki={wiki} />;
 
         default:
             return (

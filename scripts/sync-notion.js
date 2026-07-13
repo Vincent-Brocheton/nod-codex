@@ -9,6 +9,7 @@ import { richTextToPlainText, richTextToSegments } from "./notion/richText.js";
 import { normalizeProperties, findTitle, extractPropertyOptions } from "./notion/properties.js";
 import { resolveWikiLinks, buildItemTargets } from "./notion/wikiLinks.js";
 import { loadCache, saveCache } from "./notion/cache.js";
+import { navigation } from "../src/config/navigation.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -313,10 +314,56 @@ async function writeCollectionFile(collection, databaseId, items, propertyOption
   console.log(`${collection.label}: ${items.length} fiche(s)`);
 }
 
-async function writeManifest() {
+function collectionNavInfo() {
+  const info = new Map();
+
+  for (const group of navigation) {
+    for (const item of group.children) {
+      if (item.type !== "collection") continue;
+
+      for (const key of item.collections) {
+        info.set(key, { path: item.path, icon: item.icon });
+      }
+    }
+  }
+
+  return info;
+}
+
+/**
+ * Les fiches les plus récemment modifiées, toutes collections dotées d'une
+ * page de navigation confondues (les autres, ex. Historiques, ne sont
+ * accessibles que par lien interne et n'ont pas de page à elles pour ce
+ * classement). Calculé à partir des fiches déjà récupérées, sans appel
+ * Notion supplémentaire.
+ */
+function computeRecentItems(fetched, limit = 20) {
+  const navInfo = collectionNavInfo();
+
+  return fetched
+    .flatMap(({ collection, items }) => {
+      const info = navInfo.get(collection.key);
+      if (!info) return [];
+
+      return items.map((item) => ({
+        title: item.title,
+        slug: item.slug,
+        collectionKey: collection.key,
+        collectionLabel: collection.label,
+        path: info.path,
+        icon: info.icon,
+        lastEditedTime: item.lastEditedTime,
+      }));
+    })
+    .sort((a, b) => new Date(b.lastEditedTime) - new Date(a.lastEditedTime))
+    .slice(0, limit);
+}
+
+async function writeManifest(fetched) {
   const manifest = {
     generatedAt: new Date().toISOString(),
-    collections: wikiCollections.map(({ key, label, group, file }) => ({ key, label, group, file }))
+    collections: wikiCollections.map(({ key, label, group, file }) => ({ key, label, group, file })),
+    recent: computeRecentItems(fetched),
   };
 
   await writeFile(path.join(outputDataDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
@@ -384,7 +431,7 @@ async function main() {
     console.log(`${collection.label}: ignorée, ${collection.envVar} non renseignée`);
   }
 
-  await writeManifest();
+  await writeManifest(fetched);
 
   if (failures.length > 0) {
     console.error("\nSynchronisation terminée avec des erreurs (fichier précédent conservé pour ces bases) :");

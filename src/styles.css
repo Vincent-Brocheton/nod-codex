@@ -129,20 +129,11 @@ h1, h2, h3 {
   color: #b3383b;
 }
 
-.brand strong,
-.brand span {
-  display: block;
-}
-
 .brand strong {
+  display: block;
   font-family: Cinzel, Georgia, serif;
   font-size: 18px;
   letter-spacing: 0.02em;
-}
-
-.brand span {
-  color: #8c7d70;
-  font-size: 13px;
 }
 
 .themeToggle {
@@ -189,6 +180,17 @@ h1, h2, h3 {
   color: #6e6055;
 }
 
+.searchShortcut {
+  background: #1c1512;
+  border: 1px solid #302420;
+  border-radius: 5px;
+  color: #7a6c60;
+  flex: 0 0 auto;
+  font-family: inherit;
+  font-size: 11px;
+  padding: 3px 6px;
+}
+
 .collectionNav {
   display: flex;
   flex-direction: column;
@@ -203,6 +205,12 @@ h1, h2, h3 {
   letter-spacing: 0.08em;
   margin: 0 0 7px;
   text-transform: uppercase;
+}
+
+.collectionNav section {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
 }
 
 .collectionNav button {
@@ -227,14 +235,101 @@ h1, h2, h3 {
 }
 
 .collectionNav button.active {
-  background: linear-gradient(90deg, rgba(139, 27, 30, 0.22), rgba(139, 27, 30, 0.04));
+  background: linear-gradient(90deg, rgba(155, 47, 49, 0.85), rgba(155, 47, 49, 0.55));
   border-color: transparent;
-  border-left-color: #9b2f31;
-  color: #f3e9db;
+  border-left-color: #e2696c;
+  color: #f6ece0;
 }
 
 .collectionNav button.active svg {
-  color: #d24447;
+  color: #f6ece0;
+}
+
+.navChevron {
+  color: #4d3d36;
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.collectionNav button.active .navChevron {
+  color: rgba(246, 236, 224, 0.7);
+}
+
+.navDivider {
+  align-items: center;
+  color: #9b2f31;
+  display: flex;
+  gap: 10px;
+  font-size: 12px;
+}
+
+.navDivider::before,
+.navDivider::after {
+  background: #241c19;
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.sidebarHero {
+  background:
+    linear-gradient(180deg, transparent 35%, rgba(9, 5, 4, 0.92) 100%),
+    url("/images/sidebar-hero.png") center / cover no-repeat,
+    linear-gradient(160deg, #2a0f10, #0f0c0b);
+  border: 1px solid #241c19;
+  border-radius: 12px;
+  display: flex;
+  flex: 0 0 auto;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 10px;
+  min-height: 190px;
+  padding: 16px;
+  text-align: center;
+}
+
+.sidebarHero blockquote {
+  color: #f3e9db;
+  font-family: "EB Garamond", Georgia, serif;
+  font-size: 14px;
+  font-style: italic;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.sidebarHeroDivider {
+  color: #c33a3d;
+  font-size: 12px;
+}
+
+.sidebarFooter {
+  align-items: center;
+  border-top: 1px solid #241c19;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 12px;
+  padding-top: 16px;
+}
+
+.sidebarFooter svg {
+  color: #9b2f31;
+  flex: 0 0 auto;
+}
+
+.sidebarFooter strong {
+  display: block;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 13px;
+  letter-spacing: 0.03em;
+}
+
+.sidebarFooter span {
+  color: #b3383b;
+  display: block;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .listPane {
@@ -901,6 +996,10 @@ a.relationChip:hover {
 
 }
 
+.homeView {
+  max-width: 1100px;
+}
+
 .homeView .eyebrow {
   color: var(--accent-strong);
   display: block;
@@ -915,7 +1014,7 @@ a.relationChip:hover {
   color: var(--text-heading);
   font-size: clamp(32px, 5vw, 56px);
   line-height: 1.1;
-  margin: 6px 0 24px;
+  margin: 6px 0 18px;
 }
 
 .homeView blockquote {
@@ -935,6 +1034,304 @@ a.relationChip:hover {
   font-size: 16px;
   max-width: 640px;
   text-align: justify;
+}
+
+.homeHero {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-bottom: 48px;
+}
+
+.homeHeroText {
+  flex: 1 1 380px;
+  min-width: 280px;
+}
+
+.homeHeroDivider {
+  align-items: center;
+  color: var(--accent);
+  display: flex;
+  font-size: 12px;
+  gap: 10px;
+  margin: 0 0 20px;
+  max-width: 220px;
+}
+
+.homeHeroDivider::before,
+.homeHeroDivider::after {
+  background: var(--border-strong);
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.homeHeroImage {
+  background: url("/images/sidebar-hero.png") center / cover no-repeat;
+  border: 1px solid var(--border-strong);
+  border-radius: 16px;
+  flex: 1 1 380px;
+  min-height: 300px;
+  min-width: 280px;
+}
+
+.homeSection {
+  margin-bottom: 40px;
+}
+
+.homeSection > h2 {
+  align-items: center;
+  color: var(--text-heading);
+  display: flex;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 13px;
+  gap: 14px;
+  letter-spacing: 0.08em;
+  margin: 0 0 18px;
+  text-transform: uppercase;
+}
+
+.homeSection > h2::after {
+  background: var(--border-strong);
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.quickLinkGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+}
+
+.quickLinkCard {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 24px 18px;
+  text-align: center;
+  text-decoration: none;
+  transition: border-color 0.15s ease, transform 0.15s ease;
+}
+
+.quickLinkCard:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.quickLinkIcon {
+  align-items: center;
+  background: var(--accent-tint);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  display: flex;
+  height: 44px;
+  justify-content: center;
+  margin: 0 auto;
+  width: 44px;
+}
+
+.quickLinkCard strong {
+  color: var(--text-heading);
+  font-family: Cinzel, Georgia, serif;
+  font-size: 14px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.quickLinkCard p {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0;
+  max-width: none;
+  text-align: center;
+}
+
+.quickLinkArrow {
+  color: var(--text-faint);
+  margin: 0 auto;
+}
+
+.homeColumns {
+  align-items: start;
+  display: grid;
+  gap: 32px;
+  grid-template-columns: 1.1fr 1fr;
+}
+
+.recentList {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  margin: 0 0 16px;
+  padding: 0;
+}
+
+.recentList li + li {
+  border-top: 1px solid var(--border);
+}
+
+.recentRow {
+  align-items: center;
+  color: var(--text-primary);
+  display: flex;
+  gap: 12px;
+  padding: 14px 4px;
+  text-decoration: none;
+}
+
+.recentRow:hover {
+  color: var(--accent-hover);
+}
+
+.recentRow svg {
+  color: var(--accent-strong);
+  flex: 0 0 auto;
+}
+
+.recentInfo {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.recentInfo strong {
+  color: var(--text-heading);
+  font-size: 14px;
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.recentInfo span {
+  color: var(--text-muted);
+  font-size: 12px;
+}
+
+.recentDate {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  font-size: 12px;
+}
+
+.homeMoreLink {
+  align-items: center;
+  color: var(--accent-strong);
+  display: inline-flex;
+  font-size: 14px;
+  font-weight: 600;
+  gap: 6px;
+  text-decoration: none;
+}
+
+.homeMoreLink:hover {
+  color: var(--accent-hover);
+}
+
+.homeStart {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.startCard {
+  align-items: flex-start;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.startCardCreate {
+  background:
+    linear-gradient(90deg, rgba(10, 6, 5, 0.94) 38%, rgba(10, 6, 5, 0.55) 75%, rgba(10, 6, 5, 0.15) 100%),
+    url("/images/started-well.png") center right / cover no-repeat;
+  border-color: #241c19;
+  transition: border-color 0.15s ease;
+}
+
+.startCardCreate:hover {
+  border-color: var(--accent);
+}
+
+.startCardIcon {
+  align-items: center;
+  background: var(--accent);
+  border-radius: 10px;
+  color: #f6ece0;
+  display: flex;
+  flex: 0 0 auto;
+  height: 44px;
+  justify-content: center;
+  width: 44px;
+}
+
+.startCard strong {
+  color: var(--text-heading);
+  display: block;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 15px;
+  margin-bottom: 6px;
+}
+
+.startCard p {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0 0 12px;
+  max-width: none;
+  text-align: left;
+}
+
+.startCardLink,
+.startCardLinks a {
+  align-items: center;
+  color: var(--accent-strong);
+  display: inline-flex;
+  font-size: 13px;
+  font-weight: 600;
+  gap: 4px;
+  text-decoration: none;
+}
+
+.startCardLink:hover,
+.startCardLinks a:hover {
+  color: var(--accent-hover);
+}
+
+.startCardLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+/* Le texte de la carte "Créer son personnage" doit rester lisible sur la
+   photo en fond quel que soit le thème du site : couleurs fixes plutôt que
+   les variables de thème (claires en mode clair, donc peu contrastées ici). */
+.startCardCreate strong {
+  color: #f3e9db;
+}
+
+.startCardCreate p {
+  color: #c3b6a5;
+}
+
+.startCardCreate .startCardLink {
+  color: #e2696c;
+}
+
+.startCardCreate .startCardLink:hover {
+  color: #f6a2a4;
 }
 
 .indexHero {
@@ -1419,5 +1816,13 @@ a.relationChip:hover {
   .indexCard,
   .relatedRow {
     min-height: 44px;
+  }
+
+  .homeColumns {
+    grid-template-columns: 1fr;
+  }
+
+  .homeHeroImage {
+    min-height: 200px;
   }
 }
