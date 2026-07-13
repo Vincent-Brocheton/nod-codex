@@ -2,9 +2,8 @@ import { useNavigate } from "react-router-dom";
 import ItemListButton from "../ItemListButton";
 import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
-import { applyGroupFilter, selectPropertyValue } from "../../utils/groupFilter";
-
-const FALLBACK_CATEGORY = "Autres";
+import { applyGroupFilter } from "../../utils/groupFilter";
+import groupByCategory from "../../utils/groupByCategory";
 
 /**
  * Liste d'une collection groupée visuellement par une propriété select
@@ -30,23 +29,7 @@ export default function CategorizedListView({ wiki, groupProperty = "Catégorie"
     const filteredItems = applyGroupFilter(visibleItems, groupFilter);
     const showGroupTitles = !(groupFilter?.only?.length === 1);
 
-    function categoryOf(item) {
-        return selectPropertyValue(item, groupProperty) || FALLBACK_CATEGORY;
-    }
-
-    const configuredCategories = collection?.propertyOptions?.[groupProperty] || [];
-    const usedCategories = [...new Set(filteredItems.map(categoryOf))];
-
-    const orderedCategories = [
-        ...configuredCategories.filter((category) => usedCategories.includes(category)),
-        ...usedCategories.filter((category) => !configuredCategories.includes(category)),
-    ];
-
-    const groups = orderedCategories.map((category) => ({
-        key: category,
-        label: category,
-        items: filteredItems.filter((item) => categoryOf(item) === category),
-    }));
+    const groups = groupByCategory(filteredItems, collection?.propertyOptions, groupProperty);
 
     return (
         <section className="listPane">
