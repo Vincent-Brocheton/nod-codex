@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
+import { ChevronRight } from "lucide-react";
 import AppIcon from "../AppIcon";
 import ItemFlags from "../ItemFlags";
+import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
 import { applyGroupFilter } from "../../utils/groupFilter";
 
@@ -21,16 +23,7 @@ export default function SectionIndexView({ wiki }) {
     return (
         <section className="pageView indexView">
 
-            <header className="indexHero">
-                <span className="indexHeroIcon">
-                    <AppIcon name={activeNavigation.icon} size={26} />
-                </span>
-
-                <div>
-                    <span className="eyebrow">Règles</span>
-                    <h1>{activeNavigation.label}</h1>
-                </div>
-            </header>
+            <IndexPageHeader icon={activeNavigation.icon} label={activeNavigation.label} />
 
             {!loading ? (
                 <p className="indexIntro">
@@ -60,6 +53,7 @@ export default function SectionIndexView({ wiki }) {
                                             full={item.properties?.Complet?.value === true}
                                             compact
                                         />
+                                        <ChevronRight className="rowArrow" size={18} aria-hidden="true" />
                                     </Link>
                                 </li>
                             ))}

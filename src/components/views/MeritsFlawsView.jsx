@@ -59,6 +59,19 @@ function resolveBackPath(item) {
 // jamais comme catégorie parcourable dans la liste générale.
 const EXCLUDED_TYPES = ["Clan"];
 
+// Icône + accroche par type, pour les cartes enrichies de l'index (voir
+// `groupCardMeta` dans GroupedRuleView).
+const TYPE_META = {
+    Camarilla: { icon: "crown", describe: (label) => `${label} liés à la Camarilla et à ses traditions.` },
+    Sabbat: { icon: "cross", describe: (label) => `${label} liés au Sabbat et à ses doctrines.` },
+    "Général": { icon: "flower", describe: (label) => `${label} communs à tous les vampires.` },
+    "Anarch'": { icon: "anarchy", describe: (label) => `${label} liés aux Anarchs et à leur philosophie.` },
+};
+
+function typeHeadingIcon(collectionKey) {
+    return collectionKey === "atouts" ? "star" : "skull";
+}
+
 export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
 
     const { loadedCollections } = wiki.collections;
@@ -90,6 +103,9 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             singleItemStatFields={SINGLE_STAT_FIELDS}
             singleItemRelatedGroups={RELATED_GROUPS}
             resolveBackPath={resolveBackPath}
+            indexBackgroundClassName="pageAreaAtouts"
+            groupHeadingIcon={typeHeadingIcon}
+            groupCardMeta={TYPE_META}
         />
     );
 }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-13T23:30:17.243Z",
+  "generatedAt": "2026-07-16T12:40:42.804Z",
   "collections": [
     {
       "key": "disciplines",
@@ -105,6 +105,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Assamites",
+      "slug": "assamites",
+      "collectionKey": "clans",
+      "collectionLabel": "Clans",
+      "path": "/clans",
+      "icon": "shield-plus",
+      "lastEditedTime": "2026-07-15T20:13:00.000Z"
+    },
     {
       "title": "Cœur des Ténèbres",
       "slug": "c-ur-des-tenebres",
@@ -275,15 +284,6 @@
       "path": "/pouvoirs",
       "icon": "droplet",
       "lastEditedTime": "2026-07-13T12:32:00.000Z"
-    },
-    {
-      "title": "Regard d’Effroi",
-      "slug": "regard-d-effroi",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-13T12:30:00.000Z"
     }
   ]
 }

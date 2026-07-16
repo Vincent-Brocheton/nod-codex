@@ -10,6 +10,7 @@ import { normalizeProperties, findTitle, extractPropertyOptions } from "./notion
 import { resolveWikiLinks, buildItemTargets } from "./notion/wikiLinks.js";
 import { loadCache, saveCache } from "./notion/cache.js";
 import { navigation } from "../src/config/navigation.js";
+import { buildCollectionNavIndex } from "../shared/collectionNavIndex.js";
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const rootDir = path.resolve(__dirname, "..");
@@ -314,22 +315,6 @@ async function writeCollectionFile(collection, databaseId, items, propertyOption
   console.log(`${collection.label}: ${items.length} fiche(s)`);
 }
 
-function collectionNavInfo() {
-  const info = new Map();
-
-  for (const group of navigation) {
-    for (const item of group.children) {
-      if (item.type !== "collection") continue;
-
-      for (const key of item.collections) {
-        info.set(key, { path: item.path, icon: item.icon });
-      }
-    }
-  }
-
-  return info;
-}
-
 /**
  * Les fiches les plus récemment modifiées, toutes collections dotées d'une
  * page de navigation confondues (les autres, ex. Historiques, ne sont
@@ -338,7 +323,7 @@ function collectionNavInfo() {
  * Notion supplémentaire.
  */
 function computeRecentItems(fetched, limit = 20) {
-  const navInfo = collectionNavInfo();
+  const navInfo = buildCollectionNavIndex(navigation);
 
   return fetched
     .flatMap(({ collection, items }) => {

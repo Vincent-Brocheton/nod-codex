@@ -36,6 +36,7 @@ export default function RitualsView({ wiki, collectionKey, groupValue }) {
             itemStatFields={STAT_FIELDS}
             itemHighlightField={HIGHLIGHT_FIELD}
             itemSort={byTitleAlpha}
+            indexBackgroundClassName="pageAreaRituals"
         />
     );
 }

@@ -52,7 +52,7 @@ export const navigation = [
                 path: "/clans",
                 icon: "shield-plus",
 
-                view: "list",
+                view: "clans",
                 detail: "clan",
 
                 collections: [
@@ -67,7 +67,7 @@ export const navigation = [
                 path: "/disciplines",
                 icon: "droplet",
 
-                view: "list",
+                view: "disciplines",
                 detail: "discipline",
 
                 collections: [
@@ -117,7 +117,7 @@ export const navigation = [
                 path: "/techniques",
                 icon: "swords",
 
-                view: "list",
+                view: "techniques",
                 detail: "technique",
 
                 collections: [
@@ -148,7 +148,7 @@ export const navigation = [
                 path: "/competences",
                 icon: "target",
 
-                view: "list",
+                view: "competences",
 
                 collections: [
                     COLLECTIONS.COMPETENCES,

@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
+import { navigation } from "../config/navigation";
 import AppIcon from "./AppIcon";
 
-const QUICK_LINKS = [
-    { icon: "shield-plus", label: "Clans", description: "Découvrez les clans et leurs héritages.", path: "/clans" },
-    { icon: "droplet", label: "Disciplines", description: "Explorez les pouvoirs vampiriques.", path: "/disciplines" },
-    { icon: "book-open", label: "Règles", description: "Consultez toutes les règles du GN.", path: "/regles" },
-    { icon: "pentagram", label: "Rituels", description: "Maîtrisez les arts occultes.", path: "/rituels" },
-    { icon: "target", label: "Compétences", description: "Liste des compétences et utilisations.", path: "/competences" },
-];
+// Texte d'accroche des cartes "Accès rapide" ; les cartes elles-mêmes (une
+// par entrée visible de l'encart "Règles" de la sidebar, voir plus bas)
+// restent synchronisées avec la navigation sans duplication.
+const QUICK_LINK_DESCRIPTIONS = {
+    clans: "Découvrez les clans et leurs héritages.",
+    disciplines: "Explorez les pouvoirs vampiriques.",
+    techniques: "Perfectionnez vos techniques de combat.",
+    rituals: "Maîtrisez les arts occultes.",
+    skills: "Liste des compétences et utilisations.",
+    "merits-flaws": "Choisissez vos atouts et handicaps.",
+};
+
+const QUICK_LINKS = (navigation.find((group) => group.id === "rules")?.children || [])
+    .filter((item) => !item.hidden)
+    .map((item) => ({
+        icon: item.icon,
+        label: item.label,
+        path: item.path,
+        description: QUICK_LINK_DESCRIPTIONS[item.id] || "",
+    }));
 
 function formatDate(iso) {
     if (!iso) return "";

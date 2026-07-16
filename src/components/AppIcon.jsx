@@ -1,13 +1,17 @@
 import {
     BookOpen,
     Brain,
+    Crown,
+    Cross,
     Database,
     Droplet,
+    Flower,
     HelpCircle,
     Home,
     ScrollText,
     Shield,
     ShieldPlus,
+    Skull,
     Sparkles,
     Star,
     Sword,
@@ -38,6 +42,16 @@ function Ankh({ size = 16, ...props }) {
     );
 }
 
+// Symbole anarchiste ("cercle-A") : même logique, pas d'équivalent lucide.
+function Anarchy({ size = 16, ...props }) {
+    return (
+        <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" {...props}>
+            <circle cx="12" cy="12" r="9" />
+            <path d="M12 6 7 18M12 6l5 12M9 14h6" />
+        </svg>
+    );
+}
+
 const icons = {
     home: Home,
     "user-plus": UserPlus,
@@ -53,6 +67,11 @@ const icons = {
     brain: Brain,
     target: Target,
     star: Star,
+    crown: Crown,
+    cross: Cross,
+    flower: Flower,
+    skull: Skull,
+    anarchy: Anarchy,
 
     "book-open": BookOpen,
     "help-circle": HelpCircle,

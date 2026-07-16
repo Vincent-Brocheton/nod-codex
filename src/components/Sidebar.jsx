@@ -111,11 +111,6 @@ export default function Sidebar({ wiki, open, onClose, theme, onToggleTheme }) {
                     })}
                 </nav>
 
-                <div className="sidebarHero">
-                    <blockquote>« La Mascarade nous protège. La chronique nous unit. »</blockquote>
-                    <span className="sidebarHeroDivider" aria-hidden="true">✦</span>
-                </div>
-
                 <div className="sidebarFooter">
                     <AppIcon name="ankh" size={20} aria-hidden="true" />
 

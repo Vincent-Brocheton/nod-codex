@@ -1,10 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, ShieldAlert } from "lucide-react";
+import { ArrowLeft, ArrowRight, ShieldAlert } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
 import StatBlock from "../StatBlock";
 import RelatedGroups from "../RelatedGroups";
+import IndexPageHeader from "../IndexPageHeader";
+import AppIcon from "../AppIcon";
 import LoadingState from "../States/LoadingState";
 
 // Regroupe les éléments consécutifs partageant la même clé (le tableau doit
@@ -86,6 +88,17 @@ function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroup
  * ce cas `wiki.collections.computed.activeItem` est déjà résolu (recherche
  * multi-collections déjà gérée par useCollections) et on affiche cette
  * fiche seule, avec un lien retour vers `resolveBackPath` si fourni.
+ *
+ * `indexBackgroundClassName` ajoute une classe sur `.pageArea` de la page
+ * d'index (catégorie non choisie) uniquement, ex. pour l'illustration de
+ * fond des Rituels (voir `.pageAreaRituals` dans styles.css) sans l'imposer
+ * aux autres usages de ce composant (Atouts & Handicaps).
+ *
+ * `groupHeadingIcon(collectionKey)` et `groupCardMeta` (objet `{ [valeur]:
+ * { icon, describe(collectionLabel) } }`) enrichissent les cartes de
+ * l'index (icône de section, icône + accroche par carte) pour Atouts &
+ * Handicaps. Sans eux, les cartes gardent leur forme simple (juste un
+ * badge + le libellé) utilisée par Rituels.
  */
 export default function GroupedRuleView({
     wiki,
@@ -107,6 +120,9 @@ export default function GroupedRuleView({
     itemSubGroup,
     showGroupBadge = true,
     resolveBackPath,
+    indexBackgroundClassName,
+    groupHeadingIcon,
+    groupCardMeta,
 }) {
 
     const navigate = useNavigate();
@@ -176,11 +192,10 @@ export default function GroupedRuleView({
 
     if (!selected) {
         return (
-            <div className="pageArea">
+            <div className={`pageArea${indexBackgroundClassName ? ` ${indexBackgroundClassName}` : ""}`}>
                 <section className="pageView indexView">
 
-                    <span className="eyebrow">Règles</span>
-                    <h1>{activeNavigation.label}</h1>
+                    <IndexPageHeader icon={activeNavigation.icon} label={activeNavigation.label} />
 
                     {!loading ? (
                         <p className="indexIntro">{introText}</p>
@@ -192,19 +207,41 @@ export default function GroupedRuleView({
                         collections.map(collection => (
                             <div key={collection.key} className="indexGroup">
 
-                                <h2>{collection.label}</h2>
+                                <h2>
+                                    {groupHeadingIcon ? (
+                                        <AppIcon name={groupHeadingIcon(collection.key)} size={16} aria-hidden="true" />
+                                    ) : null}
+                                    {collection.label}
+                                </h2>
 
                                 <div className="indexGrid">
-                                    {groups.map(value => (
-                                        <button
-                                            key={value}
-                                            className="indexCard"
-                                            onClick={() => selectGroup(collection.key, value)}
-                                        >
-                                            {showGroupBadge ? <span className="powerLevel">{value}</span> : null}
-                                            <span>{formatGroupLabel(value)}</span>
-                                        </button>
-                                    ))}
+                                    {groups.map(value => {
+                                        const meta = groupCardMeta?.[value];
+
+                                        return (
+                                            <button
+                                                key={value}
+                                                className={`indexCard${meta ? " indexCardRich" : ""}`}
+                                                onClick={() => selectGroup(collection.key, value)}
+                                            >
+                                                {meta ? (
+                                                    <>
+                                                        <span className="indexCardIcon">
+                                                            <AppIcon name={meta.icon} size={22} />
+                                                        </span>
+                                                        <strong>{formatGroupLabel(value)}</strong>
+                                                        <p>{meta.describe(collection.label)}</p>
+                                                        <ArrowRight className="indexCardArrow" size={16} aria-hidden="true" />
+                                                    </>
+                                                ) : (
+                                                    <>
+                                                        {showGroupBadge ? <span className="powerLevel">{value}</span> : null}
+                                                        <span>{formatGroupLabel(value)}</span>
+                                                    </>
+                                                )}
+                                            </button>
+                                        );
+                                    })}
                                 </div>
 
                             </div>

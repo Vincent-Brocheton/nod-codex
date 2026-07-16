@@ -982,6 +982,49 @@ a.relationChip:hover {
   overflow-y: auto;
 }
 
+/* Illustration des pages d'index illustrées (Clans, Disciplines,
+   Techniques, Rituels, Compétences...) : posée en `background` de
+   `.pageArea` lui-même (pas un panneau séparé) pour couvrir toute la
+   hauteur et déborder partiellement derrière les cartes de la liste, qui
+   la masquent localement grâce à leur propre fond opaque. Le dégradé fait
+   le lien entre le noir (côté texte) et l'image (à droite) ; `--page-bg`
+   (définie par chaque `.pageAreaX`) est le seul réglage propre à une page,
+   pour ajouter une nouvelle page illustrée sans dupliquer tout le reste.
+   Posé en `background` plutôt qu'en ::before : un ::before positionné en
+   absolute fait partie du contenu défilant de `.pageArea` (overflow-y:
+   auto) et disparaîtrait donc au scroll, alors qu'un `background`
+   classique reste fixe par rapport à la boîte elle-même quel que soit le
+   défilement de son contenu. Réservé au thème sombre (visuels trop
+   sombres pour le clair).
+*/
+.pageAreaClans,
+.pageAreaDisciplines,
+.pageAreaTechniques,
+.pageAreaRituals,
+.pageAreaCompetences,
+.pageAreaAtouts {
+  background-image: linear-gradient(90deg, var(--bg-canvas) 20%, transparent 65%), var(--page-bg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pageAreaClans { --page-bg: url("/images/clans.png"); }
+.pageAreaDisciplines { --page-bg: url("/images/disciplines.png"); }
+.pageAreaTechniques { --page-bg: url("/images/techniques.png"); }
+.pageAreaRituals { --page-bg: url("/images/rituels.png"); }
+.pageAreaCompetences { --page-bg: url("/images/competences.png"); }
+.pageAreaAtouts { --page-bg: url("/images/atouts.png"); }
+
+:root[data-theme="light"] .pageAreaClans,
+:root[data-theme="light"] .pageAreaDisciplines,
+:root[data-theme="light"] .pageAreaTechniques,
+:root[data-theme="light"] .pageAreaRituals,
+:root[data-theme="light"] .pageAreaCompetences,
+:root[data-theme="light"] .pageAreaAtouts {
+  background-image: none;
+}
+
 .pageView {
 
     flex: 1;
@@ -1099,10 +1142,14 @@ a.relationChip:hover {
   height: 1px;
 }
 
+/* Une seule ligne sur PC (scroll horizontal si ça ne tient pas plutôt que
+   de passer à la ligne) ; repasse en grille qui s'enroule sur mobile, voir
+   le @media plus bas. */
 .quickLinkGrid {
-  display: grid;
+  display: flex;
   gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  overflow-x: auto;
+  padding-bottom: 6px;
 }
 
 .quickLinkCard {
@@ -1111,6 +1158,7 @@ a.relationChip:hover {
   border-radius: 10px;
   color: var(--text-primary);
   display: flex;
+  flex: 0 0 180px;
   flex-direction: column;
   gap: 10px;
   padding: 24px 18px;
@@ -1378,6 +1426,265 @@ a.relationChip:hover {
   max-width: 640px;
 }
 
+.pageTitleDivider {
+  align-items: center;
+  color: var(--accent);
+  display: flex;
+  font-size: 11px;
+  gap: 6px;
+  margin: 10px 0 0;
+  max-width: 70px;
+}
+
+.pageTitleDivider::before,
+.pageTitleDivider::after {
+  background: var(--border-strong);
+  content: "";
+  flex: 1;
+  height: 1px;
+}
+
+.techniquesEmpty {
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+  padding: clamp(40px, 8vw, 72px) 24px;
+  text-align: center;
+}
+
+.techniquesEmpty svg {
+  color: var(--accent);
+}
+
+.techniquesEmpty h2 {
+  color: var(--text-heading);
+  font-size: clamp(18px, 2.4vw, 22px);
+  margin: 0;
+  max-width: 420px;
+}
+
+.techniquesEmpty p {
+  color: var(--text-muted);
+  font-size: 15px;
+  margin: 0;
+  max-width: 440px;
+}
+
+.techniquesEmptyDivider {
+  margin: 0 auto;
+}
+
+.pageSearchField {
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  display: flex;
+  gap: 9px;
+  margin: 20px 0 28px;
+  max-width: 420px;
+  min-height: 44px;
+  padding: 0 14px;
+}
+
+.pageSearchField svg {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+}
+
+.pageSearchField input {
+  background: transparent;
+  border: 0;
+  color: var(--text-primary);
+  min-width: 0;
+  outline: 0;
+  width: 100%;
+}
+
+.pageSearchField input::placeholder {
+  color: var(--text-faint);
+}
+
+.clanGrid {
+  display: grid;
+  gap: 16px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+.clanCard {
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  display: flex;
+  gap: 16px;
+  padding: 16px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.clanCard:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+.clanEmblem {
+  border-radius: 10px;
+  flex: 0 0 auto;
+  height: 64px;
+  object-fit: cover;
+  width: 64px;
+}
+
+.clanEmblemFallback {
+  align-items: center;
+  background: var(--accent-tint);
+  border: 1px solid var(--border-strong);
+  color: var(--accent-strong);
+  display: flex;
+  justify-content: center;
+}
+
+.clanCardBody {
+  flex: 1;
+  min-width: 0;
+}
+
+.clanCardBody strong {
+  color: var(--text-heading);
+  display: block;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  margin-bottom: 4px;
+  text-transform: uppercase;
+}
+
+.clanCardBody p {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 0;
+}
+
+.rowArrow {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+}
+
+.listToolbar {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin: 20px 0 28px;
+}
+
+.listToolbar .pageSearchField {
+  flex: 1 1 280px;
+  margin: 0;
+}
+
+.sortField {
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text-primary);
+  cursor: pointer;
+  display: flex;
+  flex: 0 0 auto;
+  gap: 8px;
+  min-height: 44px;
+  padding: 0 12px;
+}
+
+.sortField select {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: var(--text-primary);
+  cursor: pointer;
+  font: inherit;
+  outline: 0;
+}
+
+.sortField svg {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  pointer-events: none;
+}
+
+.disciplineList {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.disciplineRow {
+  align-items: center;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 10px;
+  color: var(--text-primary);
+  display: flex;
+  gap: 16px;
+  padding: 16px 18px;
+  text-decoration: none;
+  transition: border-color 0.15s ease, background 0.15s ease;
+}
+
+.disciplineRow:hover {
+  background: var(--bg-card-hover);
+  border-color: var(--accent);
+}
+
+.disciplineIcon {
+  align-items: center;
+  background: var(--accent-tint);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  display: flex;
+  flex: 0 0 auto;
+  height: 48px;
+  justify-content: center;
+  width: 48px;
+}
+
+.disciplineBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.disciplineBody strong {
+  color: var(--text-heading);
+  display: block;
+  font-family: Cinzel, Georgia, serif;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+.disciplineBody p {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin: 4px 0 0;
+}
+
+.disciplineCount {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  font-size: 13px;
+  white-space: nowrap;
+}
+
 .indexGroup:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -1427,6 +1734,11 @@ a.relationChip:hover {
 .indexListItem svg {
   color: var(--accent-strong);
   flex: 0 0 auto;
+}
+
+.indexListItem .rowArrow {
+  color: var(--text-faint);
+  margin-left: auto;
 }
 
 .indexListItem span {
@@ -1529,6 +1841,45 @@ a.relationChip:hover {
 
 .indexCard .powerLevel {
   margin: 0;
+}
+
+/* Cartes enrichies (icône + accroche + flèche) utilisées par Atouts &
+   Handicaps ; les cartes simples (Rituels) gardent les règles ci-dessus. */
+.indexCardRich {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.indexCardIcon {
+  align-items: center;
+  background: var(--accent-tint);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  display: flex;
+  flex: 0 0 auto;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
+}
+
+.indexCardRich strong {
+  font-size: 1rem;
+}
+
+.indexCardRich p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.indexCardRich .indexCardArrow {
+  color: var(--text-faint);
+  position: absolute;
+  right: 14px;
+  top: 16px;
 }
 
 .statBlock {
@@ -1824,5 +2175,24 @@ a.relationChip:hover {
 
   .homeHeroImage {
     min-height: 200px;
+  }
+
+  .quickLinkGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    overflow-x: visible;
+  }
+
+  .quickLinkCard {
+    flex-basis: auto;
+  }
+
+  .pageAreaClans,
+  .pageAreaDisciplines,
+  .pageAreaTechniques,
+  .pageAreaRituals,
+  .pageAreaCompetences,
+  .pageAreaAtouts {
+    background-image: none;
   }
 }
