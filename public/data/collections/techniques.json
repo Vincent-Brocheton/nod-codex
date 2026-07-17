@@ -4,7 +4,2078 @@
   "group": "Techniques",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-07-16T12:40:42.769Z",
-  "propertyOptions": {},
-  "items": []
+  "generatedAt": "2026-07-17T16:44:36.313Z",
+  "propertyOptions": {
+    "Prerequis": [
+      "Chimérie •",
+      "Dissimulation ••",
+      "Présence •••",
+      "Chimérie ••",
+      "Force d'ame •••",
+      "Animalisme ••",
+      "Protéisme ••",
+      "Animalisme ••••",
+      "Présence ••••",
+      "Domination ••",
+      "Aliénation •••",
+      "Auspex ••",
+      "Obténébration •••",
+      "Force d'âme ••",
+      "Chimérie •••",
+      "Puissance •",
+      "Force d'Âme •",
+      "Animalisme •••",
+      "Puissance •••",
+      "Animalisme •",
+      "Quiétus ••",
+      "Obténébration ••",
+      "Domination •••",
+      "Aliénation ••",
+      "Protéisme ••••",
+      "Visceratika ●●",
+      "Puissance ●●",
+      "Daemonium ●●",
+      "Domination ●●●●",
+      "Célérité •••",
+      "Célérité ••",
+      "Célérité •",
+      "Serpentis ●●"
+    ]
+  },
+  "items": [
+    {
+      "id": "39f88b48-e48e-80b2-b0a0-dc3910433062",
+      "slug": "acte-de-disparition",
+      "title": "Acte de disparition",
+      "notionUrl": "https://app.notion.com/p/Acte-de-disparition-39f88b48e48e80b2b0a0dc3910433062",
+      "lastEditedTime": "2026-07-16T14:21:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Chimérie •",
+            "Dissimulation ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Acte de disparition"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une évasion audacieuse repose sur trois éléments : un timing précis, une bonne distraction et un peu de chance. Grâce à ces moyens de nombreux Ravnos ont acquis la réputation d'être des experts de l'évasion. En effet, avec les bases de Dissimulation et un peu de chance avec Chimérie, vous pouvez distraire votre cible juste le temps nécessaire pour disparaître.",
+          "spans": [
+            {
+              "text": "Une évasion audacieuse repose sur trois éléments : un timing précis, une bonne distraction et un peu de chance. Grâce à ces moyens de nombreux Ravnos ont acquis la réputation d'être des experts de l'évasion. En effet, avec les bases de Dissimulation et un peu de chance avec Chimérie, vous pouvez distraire votre cible juste le temps nécessaire pour disparaître.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes particulièrement doué dans l'art de la distraction. Si vous réussissez à créer une illusion particulièrement éblouissante, vous pouvez vous éclipser pendant que votre interlocuteur se concentre sur autre chose. Chaque fois que vous obtenez un Succès Exceptionnel dans un challenge utilisant un pouvoir de Chimérie, y compris les Techniques ou les Pouvoirs d'Anciens, vous pouvez immédiatement activer Présence Invisible  sans dépenser une action pour le faire. Vous pouvez utiliser ce pouvoir en conjonction avec Disparaître à la vue de l'esprit , si vous le possédez.",
+          "spans": [
+            {
+              "text": "Vous êtes particulièrement doué dans l'art de la distraction. Si vous réussissez à créer une illusion particulièrement éblouissante, vous pouvez vous éclipser pendant que votre interlocuteur se concentre sur autre chose. Chaque fois que vous obtenez un Succès Exceptionnel dans un challenge utilisant un pouvoir de Chimérie, y compris les Techniques ou les Pouvoirs d'Anciens, vous pouvez immédiatement activer Présence Invisible  sans dépenser une action pour le faire. Vous pouvez utiliser ce pouvoir en conjonction avec Disparaître à la vue de l'esprit , si vous le possédez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les individus contre lesquels vous avez obtenu un Succès Exceptionnel sont considérés comme ne vous regardant pas. Tous les autres personnages qui vous regardaient ne sont pas affectés par les règles normales de Présence Invisible ; vous devez trouver un autre moyen de leur échapper, en utilisant par exemple Disparaître à la vue de l'esprit. Si vous utilisez une Technique de Chimérie qui n'offre pas la possibilité d'obtenir un succès exceptionnel, vous pouvez tout de même en obtenir un normalement, en utilisant les règles des challenges opposés. Si vous obtenez une réussite exceptionnelle de cette manière, vous pouvez bénéficier de Acte de Disparition.",
+          "spans": [
+            {
+              "text": "Tous les individus contre lesquels vous avez obtenu un Succès Exceptionnel sont considérés comme ne vous regardant pas. Tous les autres personnages qui vous regardaient ne sont pas affectés par les règles normales de Présence Invisible ; vous devez trouver un autre moyen de leur échapper, en utilisant par exemple Disparaître à la vue de l'esprit. Si vous utilisez une Technique de Chimérie qui n'offre pas la possibilité d'obtenir un succès exceptionnel, vous pouvez tout de même en obtenir un normalement, en utilisant les règles des challenges opposés. Si vous obtenez une réussite exceptionnelle de cette manière, vous pouvez bénéficier de Acte de Disparition.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8036-ab2b-d087e1082a4f",
+      "slug": "affection-mal-placee",
+      "title": "Affection Mal Placée",
+      "notionUrl": "https://app.notion.com/p/Affection-Mal-Plac-e-3a088b48e48e8036ab2bd087e1082a4f",
+      "lastEditedTime": "2026-07-17T11:43:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Dissimulation ••",
+            "Présence •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Affection Mal Placée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "C'est une chose de faire tomber quelqu'un amoureux de vous. C'est une autre chose de les amener à tomber complétement amoureux de l'idée de vous - ou de quelqu'un d'autre. De telles tromperies sont le signe d'un véritable artiste, et seules les plus beaux courtisans et bardes sont capables d'exploiter leur talent et leur habileté pour accomplir une tâche si délicate.",
+          "spans": [
+            {
+              "text": "C'est une chose de faire tomber quelqu'un amoureux de vous. C'est une autre chose de les amener à tomber complétement amoureux de l'idée de vous - ou de quelqu'un d'autre. De telles tromperies sont le signe d'un véritable artiste, et seules les plus beaux courtisans et bardes sont capables d'exploiter leur talent et leur habileté pour accomplir une tâche si délicate.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous réussissez à envouter une autre personne, vous pouvez choisir un allié à proximité pour être la cible de votre Envoutement, au lieu d'attirer la cible à vous-même. Le sujet secondaire doit être prêt à faire partie de cette ruse. S'il refuse, votre Affection Mal Placé échoue, et votre cible est envoutée normalement, avec vous comme point d'attention.",
+          "spans": [
+            {
+              "text": "Lorsque vous réussissez à envouter une autre personne, vous pouvez choisir un allié à proximité pour être la cible de votre Envoutement, au lieu d'attirer la cible à vous-même. Le sujet secondaire doit être prêt à faire partie de cette ruse. S'il refuse, votre Affection Mal Placé échoue, et votre cible est envoutée normalement, avec vous comme point d'attention.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sujet secondaire de votre Envoutement doit traiter votre cible correctement et respecter toutes les autres exigences nécessaires au bon fonctionnement de ce pouvoir, sans quoi l’Envoutement prendra fin. Aux yeux de votre cible, tout semble suggérer que le sujet secondaire est l'individu qui l'a extasiée et elle doit obéir à tous les règles de ce pouvoir.",
+          "spans": [
+            {
+              "text": "Le sujet secondaire de votre Envoutement doit traiter votre cible correctement et respecter toutes les autres exigences nécessaires au bon fonctionnement de ce pouvoir, sans quoi l’Envoutement prendra fin. Aux yeux de votre cible, tout semble suggérer que le sujet secondaire est l'individu qui l'a extasiée et elle doit obéir à tous les règles de ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8053-8f54-e565320a459e",
+      "slug": "agreable-agonie",
+      "title": "Agréable Agonie",
+      "notionUrl": "https://app.notion.com/p/Agr-able-Agonie-3a088b48e48e80538f54e565320a459e",
+      "lastEditedTime": "2026-07-17T11:44:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Chimérie ••",
+            "Force d'ame •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Agréable Agonie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La douleur illusoire peut être aussi vraie que la souffrance infligée, et la vraie résistance physique est autant une question de volonté que de chair.",
+          "spans": [
+            {
+              "text": "La douleur illusoire peut être aussi vraie que la souffrance infligée, et la vraie résistance physique est autant une question de volonté que de chair.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous prenez des dégâts, vous pouvez rediriger la douleur de cette blessure vers votre cible, vous la submerger avec la même douleur qu'elle a essayé de vous infliger.",
+          "spans": [
+            {
+              "text": "Lorsque vous prenez des dégâts, vous pouvez rediriger la douleur de cette blessure vers votre cible, vous la submerger avec la même douleur qu'elle a essayé de vous infliger.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par tour, lorsque quelqu'un vous inflige des dégâts, vous pouvez dépenser 1 point de sang et cibler votre attaquant avec un test opposé en utilisant le Score de Test de Chimérie. Si vous réussissez, votre victime subit une pénalité de -3 à tous les tests d'attaque physiques, sociaux et mentaux lors de sa prochaine initiative. Agréable Agonie ne peut pas être utilisé en réponse à des attaques qui n'ont pas causé de dommages, ou lorsque vous avez annulé tous les dégâts en utilisant Force d'Âme ou des pouvoirs similaires. Agréable Agonie peut être utilisé pendant les rounds de Célérité, mais ne peut être utilisé qu'une fois par tour.",
+          "spans": [
+            {
+              "text": "Une fois par tour, lorsque quelqu'un vous inflige des dégâts, vous pouvez dépenser 1 point de sang et cibler votre attaquant avec un test opposé en utilisant le Score de Test de Chimérie. Si vous réussissez, votre victime subit une pénalité de -3 à tous les tests d'attaque physiques, sociaux et mentaux lors de sa prochaine initiative. Agréable Agonie ne peut pas être utilisé en réponse à des attaques qui n'ont pas causé de dommages, ou lorsque vous avez annulé tous les dégâts en utilisant Force d'Âme ou des pouvoirs similaires. Agréable Agonie peut être utilisé pendant les rounds de Célérité, mais ne peut être utilisé qu'une fois par tour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8088-9501-c2e1a6721cb1",
+      "slug": "allure-bestiale",
+      "title": "Allure bestiale",
+      "notionUrl": "https://app.notion.com/p/Allure-bestiale-3a088b48e48e80889501c2e1a6721cb1",
+      "lastEditedTime": "2026-07-17T16:12:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Présence •••",
+            "Animalisme ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Allure bestiale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Demandez à n'importe quel gardien de zoo : les animaux exotiques et les grands prédateurs dégagent puissance et séduction, attirant des foules titillées et fascinées par le sentiment de danger que présentent ces bêtes. Vous pouvez tirer parti de la présence frappante de ces animaux ; lorsque vous êtes à proximité d'une telle créature, les autres ne peuvent s'empêcher d'être impressionnés par votre association avec le royaume animal.",
+          "spans": [
+            {
+              "text": "Demandez à n'importe quel gardien de zoo : les animaux exotiques et les grands prédateurs dégagent puissance et séduction, attirant des foules titillées et fascinées par le sentiment de danger que présentent ces bêtes. Vous pouvez tirer parti de la présence frappante de ces animaux ; lorsque vous êtes à proximité d'une telle créature, les autres ne peuvent s'empêcher d'être impressionnés par votre association avec le royaume animal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acheté, ce pouvoir est toujours actif. Chaque fois que vous vous trouvez à moins de trois pas d'une créature que vous avez invoquée en utilisant Appel, vous n'avez pas besoin de dépenser du sang pour activer Révérence, bien que vous deviez dépenser une action pour le faire.",
+          "spans": [
+            {
+              "text": "Une fois acheté, ce pouvoir est toujours actif. Chaque fois que vous vous trouvez à moins de trois pas d'une créature que vous avez invoquée en utilisant Appel, vous n'avez pas besoin de dépenser du sang pour activer Révérence, bien que vous deviez dépenser une action pour le faire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, tant que vous vous trouvez à moins de trois pas de l'une de vos créatures appelées, cette créature peut utiliser des applications spéciales des tactiques de combat de masse Aider un Attaquant et Aider un Défenseur pour vous aider ou vous défendre dans des challenges utilisant votre attribut Social. Il s'agit d'une exception à la règle qui limite l'assistance des PNJ type aux seuls défis physiques. Vous ne pouvez utiliser cet avantage de l'Allure bestiale qu'une seule fois par tour. Notez que ces animaux sont des PNJ types et qu'ils utilisent les règles de tactiques de combat de masse pour les PNJ types, fournissant des bonus aux challenges applicables. Le montant du bonus accordé est égal à sa valeur de PNJ types ; ce bonus ne peut pas dépasser le nombre de points que vous possédez dans la compétence Animaux. Il s'agit d'une exception à la règle de la tactique de combat de masse des PNJ de stock qui limite les bonus à +1.",
+          "spans": [
+            {
+              "text": "De plus, tant que vous vous trouvez à moins de trois pas de l'une de vos créatures appelées, cette créature peut utiliser des applications spéciales des tactiques de combat de masse Aider un Attaquant et Aider un Défenseur pour vous aider ou vous défendre dans des challenges utilisant votre attribut Social. Il s'agit d'une exception à la règle qui limite l'assistance des PNJ type aux seuls défis physiques. Vous ne pouvez utiliser cet avantage de l'Allure bestiale qu'une seule fois par tour. Notez que ces animaux sont des PNJ types et qu'ils utilisent les règles de tactiques de combat de masse pour les PNJ types, fournissant des bonus aux challenges applicables. Le montant du bonus accordé est égal à sa valeur de PNJ types ; ce bonus ne peut pas dépasser le nombre de points que vous possédez dans la compétence Animaux. Il s'agit d'une exception à la règle de la tactique de combat de masse des PNJ de stock qui limite les bonus à +1.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Exemple",
+          "spans": [
+            {
+              "text": "Exemple",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Zeke a invoqué un grand puma en utilisant Appel ; cette grande créature est traitée comme un Serviteur à 5 points pour la durée de l'Appel. Une scène de combat commence, et Zeke souhaite utiliser Regard d'Effroi, qui utilise son attribut Social pour son pool de test. Confirmant que son Serviteur se trouve à moins de trois pas de sa position, le joueur de Zeke déclare son intention d'utiliser Allure Bestiale et de demander à son puma d'utiliser la tactique de combat de masse Assister l'attaquant (de PNJ Type) pour le soutenir dans le challenge. Le puma s'exécute, offrant à Zeke un bonus de +5 à son challenge pour Regard d'Effroi. Plus tard dans le tour, Zeke est pris pour cible par les Yeux du Serpent, qui utilise également son attribut Social. Comme il a déjà bénéficié de l'Allure bestiale une fois ce tour-ci, Zeke ne peut pas en bénéficier une seconde fois.",
+          "spans": [
+            {
+              "text": "Zeke a invoqué un grand puma en utilisant Appel ; cette grande créature est traitée comme un Serviteur à 5 points pour la durée de l'Appel. Une scène de combat commence, et Zeke souhaite utiliser Regard d'Effroi, qui utilise son attribut Social pour son pool de test. Confirmant que son Serviteur se trouve à moins de trois pas de sa position, le joueur de Zeke déclare son intention d'utiliser Allure Bestiale et de demander à son puma d'utiliser la tactique de combat de masse Assister l'attaquant (de PNJ Type) pour le soutenir dans le challenge. Le puma s'exécute, offrant à Zeke un bonus de +5 à son challenge pour Regard d'Effroi. Plus tard dans le tour, Zeke est pris pour cible par les Yeux du Serpent, qui utilise également son attribut Social. Comme il a déjà bénéficié de l'Allure bestiale une fois ce tour-ci, Zeke ne peut pas en bénéficier une seconde fois.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8066-a8f9-cebfc3a5e762",
+      "slug": "ameliorer-la-chevauchee-sauvage",
+      "title": "Améliorer la chevauchée sauvage",
+      "notionUrl": "https://app.notion.com/p/Am-liorer-la-chevauch-e-sauvage-3a088b48e48e8066a8f9cebfc3a5e762",
+      "lastEditedTime": "2026-07-17T16:17:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Protéisme ••",
+            "Animalisme ••••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Améliorer la chevauchée sauvage"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lien que vous partagez avec vos serviteurs animaux est absolu. En traçant une série de marques de sang et de sigles complexes sur son corps, vous pouvez imprégner un serviteur d'une partie de votre puissance physique tout en vous liant à son âme.",
+          "spans": [
+            {
+              "text": "Le lien que vous partagez avec vos serviteurs animaux est absolu. En traçant une série de marques de sang et de sigles complexes sur son corps, vous pouvez imprégner un serviteur d'une partie de votre puissance physique tout en vous liant à son âme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Gangrels revanchards sont connus pour utiliser ce pouvoir afin de poursuivre leur proie même en plein jour, donnant lieu à des histoires d'animaux possédés par de sombres pouvoirs.",
+          "spans": [
+            {
+              "text": "Les Gangrels revanchards sont connus pour utiliser ce pouvoir afin de poursuivre leur proie même en plein jour, donnant lieu à des histoires d'animaux possédés par de sombres pouvoirs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et utilisez trois actions standard pour préparer un animal en marquant sa peau avec votre sang. Une fois la préparation terminée, si vous ciblez l'animal préparé ainsi avec Soumission de l’Esprit au cours du tour suivant, l'animal absorbe les marques de sang dans sa peau et accède aux pouvoirs que vous possédez actuellement dans l'une de ces disciplines : Célérité, Force d'âme ou Puissance. L'animal ne gagne que les pouvoirs fournis par les niveaux 1 à 5 de la discipline choisie, sans aucune technique.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et utilisez trois actions standard pour préparer un animal en marquant sa peau avec votre sang. Une fois la préparation terminée, si vous ciblez l'animal préparé ainsi avec Soumission de l’Esprit au cours du tour suivant, l'animal absorbe les marques de sang dans sa peau et accède aux pouvoirs que vous possédez actuellement dans l'une de ces disciplines : Célérité, Force d'âme ou Puissance. L'animal ne gagne que les pouvoirs fournis par les niveaux 1 à 5 de la discipline choisie, sans aucune technique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'animal a déjà accès à la discipline choisie, utilisez vos propres pouvoirs de la discipline choisie, au lieu de ceux auxquels l'animal a normalement accès. Pendant la durée de l'utilisation connexe de Soumission de l’Esprit, vous pouvez utiliser librement la discipline choisie. Tous les coûts d'activation, comme les points de sang utilisés pour alimenter Célérité, sont payés à partir de la réserve de sang de l'animal ciblé, et l'animal doit avoir accès à une réserve de sang pour pouvoir l'utiliser, comme la réserve de sang que possèdent les animaux goules.",
+          "spans": [
+            {
+              "text": "Si l'animal a déjà accès à la discipline choisie, utilisez vos propres pouvoirs de la discipline choisie, au lieu de ceux auxquels l'animal a normalement accès. Pendant la durée de l'utilisation connexe de Soumission de l’Esprit, vous pouvez utiliser librement la discipline choisie. Tous les coûts d'activation, comme les points de sang utilisés pour alimenter Célérité, sont payés à partir de la réserve de sang de l'animal ciblé, et l'animal doit avoir accès à une réserve de sang pour pouvoir l'utiliser, comme la réserve de sang que possèdent les animaux goules.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Améliorer la Chevauchée Sauvage dure jusqu'à la fin de votre utilisation de Soumission de l’Esprit, qui ne prend plus fin si l'animal subit des dégâts. Pendant que Améliorer la Chevauchée sauvage est active, votre corps physique ne peut pas accéder ou bénéficier de la discipline sélectionnée, y compris la Force d'âme.",
+          "spans": [
+            {
+              "text": "Améliorer la Chevauchée Sauvage dure jusqu'à la fin de votre utilisation de Soumission de l’Esprit, qui ne prend plus fin si l'animal subit des dégâts. Pendant que Améliorer la Chevauchée sauvage est active, votre corps physique ne peut pas accéder ou bénéficier de la discipline sélectionnée, y compris la Force d'âme.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8005-be1a-f2c584cbc17f",
+      "slug": "ami-distant",
+      "title": "Ami distant",
+      "notionUrl": "https://app.notion.com/p/Ami-distant-3a088b48e48e8005be1af2c584cbc17f",
+      "lastEditedTime": "2026-07-17T16:18:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Présence ••••",
+            "Domination ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ami distant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez appris à retarder les effets de votre pouvoir de Présence sur les autres. Il en résulte que vos ennemis se retrouvent troublés d’entendre que les mots cinglants qu’ils avaient prévus pour vous descendre sonnent en fait comme des brillantes déclarations de soutien malgré leur formulation qui ne sont pas pensées pour encenser votre personnage.",
+          "spans": [
+            {
+              "text": "Vous avez appris à retarder les effets de votre pouvoir de Présence sur les autres. Il en résulte que vos ennemis se retrouvent troublés d’entendre que les mots cinglants qu’ils avaient prévus pour vous descendre sonnent en fait comme des brillantes déclarations de soutien malgré leur formulation qui ne sont pas pensées pour encenser votre personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir réussi un Envoûtement sur une cible, vous pouvez dépenser un autre point de sang pour activer “Ami distant”. Pour 1 mois, dès que votre cible parlera de vous, ou évoquera une situation qui vous concerne, elle sera automatiquement affectée par votre Envoûtement comme si vous veniez de le lancer sur elle. Cela s’applique à tous les moyens de communication, incluant les e-mails, les textes et autres communications télépathiques. Il deviendra très difficile pour elle de comploter contre vous vu qu’elle peut seulement faire des mentions favorables de votre personne.",
+          "spans": [
+            {
+              "text": "Après avoir réussi un Envoûtement sur une cible, vous pouvez dépenser un autre point de sang pour activer “Ami distant”. Pour 1 mois, dès que votre cible parlera de vous, ou évoquera une situation qui vous concerne, elle sera automatiquement affectée par votre Envoûtement comme si vous veniez de le lancer sur elle. Cela s’applique à tous les moyens de communication, incluant les e-mails, les textes et autres communications télépathiques. Il deviendra très difficile pour elle de comploter contre vous vu qu’elle peut seulement faire des mentions favorables de votre personne.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80e5-81f7-df11a636dc1d",
+      "slug": "an-da-shealladh",
+      "title": "An Da Shealladh",
+      "notionUrl": "https://app.notion.com/p/An-Da-Shealladh-3a088b48e48e80e581f7df11a636dc1d",
+      "lastEditedTime": "2026-07-17T16:19:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Aliénation •••",
+            "Auspex ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "An Da Shealladh"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour certains, la deuxième vue est une bénédiction. Pour d'autres, c'est une malédiction. Connaître quelqu'un profondément peut fournir un énorme avantage. Les Malkaviens qui apprennent ce pouvoir l'utilisent souvent pour apprendre les meilleures façons de se moquer d'une autre personne en jouant sur ses espoirs et peurs.",
+          "spans": [
+            {
+              "text": "Pour certains, la deuxième vue est une bénédiction. Pour d'autres, c'est une malédiction. Connaître quelqu'un profondément peut fournir un énorme avantage. Les Malkaviens qui apprennent ce pouvoir l'utilisent souvent pour apprendre les meilleures façons de se moquer d'une autre personne en jouant sur ses espoirs et peurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir connu sous le nom An Da Shealladh (prononcé an-DAH-she-alla) a été créé par une branche du clan Malkavien qui vivait dans les Highlands écossais. En combinant les pouvoirs de Vision du Chaos et Perception de l'Aura, vous pouvez dévoiler une foule d'informations sur votre cible. Dépensez 1 point de sang, une action standard, et faites un Challenge Opposé en utilisant le Score de Test d’Aliénation. Si vous réussissez, vous apprenez l'Archétype de votre cible, les Dérangements, le nombre actuel de Traits de Bête, et le nombre de point de Volonté actuelle.",
+          "spans": [
+            {
+              "text": "Le pouvoir connu sous le nom An Da Shealladh (prononcé an-DAH-she-alla) a été créé par une branche du clan Malkavien qui vivait dans les Highlands écossais. En combinant les pouvoirs de Vision du Chaos et Perception de l'Aura, vous pouvez dévoiler une foule d'informations sur votre cible. Dépensez 1 point de sang, une action standard, et faites un Challenge Opposé en utilisant le Score de Test d’Aliénation. Si vous réussissez, vous apprenez l'Archétype de votre cible, les Dérangements, le nombre actuel de Traits de Bête, et le nombre de point de Volonté actuelle.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80f9-acca-c0e824e46d88",
+      "slug": "armure-tenebreuse",
+      "title": "Armure Ténébreuse",
+      "notionUrl": "https://app.notion.com/p/Armure-T-n-breuse-3a088b48e48e80f9accac0e824e46d88",
+      "lastEditedTime": "2026-07-17T16:20:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Obténébration •••",
+            "Force d'âme ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Armure Ténébreuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En mélangeant les disciplines d'Obténébration et de Force d'âme, un vampire peut durcir sa chair dans un éclat d'ombre, en dissimulant et en fusionnant sa peau avec la substance de l'Abîme. Cela crée un manteau sombre, toujours murmurant de la nuit froide, le protégeant à la fois des rayons du soleil et du fléau du feu.",
+          "spans": [
+            {
+              "text": "En mélangeant les disciplines d'Obténébration et de Force d'âme, un vampire peut durcir sa chair dans un éclat d'ombre, en dissimulant et en fusionnant sa peau avec la substance de l'Abîme. Cela crée un manteau sombre, toujours murmurant de la nuit froide, le protégeant à la fois des rayons du soleil et du fléau du feu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Armure Ténébreuse ne nécessite pas d'action pour activer ou maintenir, mais ne peut être activé que sur votre initiative. Dépensez 1 point de sang pour vous envelopper dans une obscurité si puissante que même la lumière du soleil ne peut pas le dissiper facilement. Contrairement à la plupart des pouvoirs d'Obténébration, l'Armure Ténébreuse n'est pas automatiquement désintégrée par la lumière du soleil ; il est soutenu par la densité de la Force d'Âme afin de former une protection plus durable. Armure Ténébreuse dure un tour sans dépenses supplémentaires, mais vous pouvez étendre ses effets en dépensant 1 sang par tour. Alors que l'Armure Ténébreuse persiste, vous êtes à l'abri des dommages causés par la lumière du soleil. Vous réduisez également les dégats aggravés causés par un incendie ou des armes incendiaires à des dommages normaux.",
+          "spans": [
+            {
+              "text": "Armure Ténébreuse ne nécessite pas d'action pour activer ou maintenir, mais ne peut être activé que sur votre initiative. Dépensez 1 point de sang pour vous envelopper dans une obscurité si puissante que même la lumière du soleil ne peut pas le dissiper facilement. Contrairement à la plupart des pouvoirs d'Obténébration, l'Armure Ténébreuse n'est pas automatiquement désintégrée par la lumière du soleil ; il est soutenu par la densité de la Force d'Âme afin de former une protection plus durable. Armure Ténébreuse dure un tour sans dépenses supplémentaires, mais vous pouvez étendre ses effets en dépensant 1 sang par tour. Alors que l'Armure Ténébreuse persiste, vous êtes à l'abri des dommages causés par la lumière du soleil. Vous réduisez également les dégats aggravés causés par un incendie ou des armes incendiaires à des dommages normaux.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8003-9b58-d4906255377a",
+      "slug": "attraper-une-bouffee-de-folie",
+      "title": "Attraper une bouffée de folie",
+      "notionUrl": "https://app.notion.com/p/Attraper-une-bouff-e-de-folie-3a088b48e48e80039b58d4906255377a",
+      "lastEditedTime": "2026-07-17T16:21:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Aliénation •••",
+            "Auspex ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Attraper une bouffée de folie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour le vampire perspicace qui maîtrise l'aliénation, les émotions sont un kaléidoscope de couleurs, d'odeurs, de sensations et de motifs. Ainsi, de simples conversations peuvent souvent révéler les complexités les plus profondes de l'état émotionnel altéré d'une personne. Vous avez la capacité de deviner les manipulations émotionnelles des autres en observant l'aura de votre cible.",
+          "spans": [
+            {
+              "text": "Pour le vampire perspicace qui maîtrise l'aliénation, les émotions sont un kaléidoscope de couleurs, d'odeurs, de sensations et de motifs. Ainsi, de simples conversations peuvent souvent révéler les complexités les plus profondes de l'état émotionnel altéré d'une personne. Vous avez la capacité de deviner les manipulations émotionnelles des autres en observant l'aura de votre cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois appris, ce pouvoir est toujours actif. En plus des questions standard de Perception d'Aura, si vous réussissez le Challenge Opposé, vous pouvez demander à votre cible si elle est affectée par des pouvoirs altérant la pensée ou les émotions. Cela inclut les pouvoirs de Présence comme Envoûtement, les atouts comme Influence Absente, l'Aliénation, la Voie de la Corruption et les pouvoirs de Domination. L'utilisation de ce pouvoir ne révèle pas qui a utilisé le pouvoir sur votre cible ou d'autres informations. Par exemple, dans le cas d'Ordre , ce pouvoir ne révèle pas quel ordre a été donné. Au lieu de cela, ce pouvoir révèle simplement que votre cible est actuellement sous l'effet d'un pouvoir altérant l'esprit ou les émotions. Les effets passifs qui ne proviennent pas directement de pouvoirs, comme le lien du sang ou les liens infernaux, ne peuvent pas être identifiés par cette technique, car ils sont trop subtils pour être remarqués.",
+          "spans": [
+            {
+              "text": "Une fois appris, ce pouvoir est toujours actif. En plus des questions standard de Perception d'Aura, si vous réussissez le Challenge Opposé, vous pouvez demander à votre cible si elle est affectée par des pouvoirs altérant la pensée ou les émotions. Cela inclut les pouvoirs de Présence comme Envoûtement, les atouts comme Influence Absente, l'Aliénation, la Voie de la Corruption et les pouvoirs de Domination. L'utilisation de ce pouvoir ne révèle pas qui a utilisé le pouvoir sur votre cible ou d'autres informations. Par exemple, dans le cas d'Ordre , ce pouvoir ne révèle pas quel ordre a été donné. Au lieu de cela, ce pouvoir révèle simplement que votre cible est actuellement sous l'effet d'un pouvoir altérant l'esprit ou les émotions. Les effets passifs qui ne proviennent pas directement de pouvoirs, comme le lien du sang ou les liens infernaux, ne peuvent pas être identifiés par cette technique, car ils sont trop subtils pour être remarqués.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le conteur est l'arbitre final de ce qui est considéré comme un pouvoir altérant les émotions.",
+          "spans": [
+            {
+              "text": "Le conteur est l'arbitre final de ce qui est considéré comme un pouvoir altérant les émotions.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8099-8301-c86d3a638d02",
+      "slug": "augmentation-illusoire",
+      "title": "Augmentation illusoire",
+      "notionUrl": "https://app.notion.com/p/Augmentation-illusoire-3a088b48e48e80998301c86d3a638d02",
+      "lastEditedTime": "2026-07-17T16:22:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Chimérie •••",
+            "Puissance •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Augmentation illusoire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreux Ravnos qui ont eu la chance de survivre à la Semaine des cauchemars doivent leur survie à leur capacité à se battre plutôt qu'à leur maîtrise de la chicanerie ou des énigmes du dharma. Plaçant leur foi dans les outils plutôt que dans la ruse/supercherie, ils ont néanmoins réussi à mêler leurs arts de l'illusion à leurs compétences martiales de manière inattendue.",
+          "spans": [
+            {
+              "text": "De nombreux Ravnos qui ont eu la chance de survivre à la Semaine des cauchemars doivent leur survie à leur capacité à se battre plutôt qu'à leur maîtrise de la chicanerie ou des énigmes du dharma. Plaçant leur foi dans les outils plutôt que dans la ruse/supercherie, ils ont néanmoins réussi à mêler leurs arts de l'illusion à leurs compétences martiales de manière inattendue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action simple pour améliorer une arme que vous utilisez avec une illusion puissante et potentiellement dangereuse. Vous pouvez choisir une qualité d'équipement du type approprié pour votre arme dans la liste des qualités d'équipement en mêlée ou à distance. Cette qualité peut être appliquée même si elle aurait normalement enfreint les règles banales pour cette qualité. Par exemple, en utilisant Augmentation illusoire, vous pouvez accorder la qualité Aire d’effet à une arme à distance ayant une capacité de munitions de plus de 6. Pour l'heure suivante, votre arme à la qualité accordée par l'Augmentation Illusoire en plus de ses qualités normales.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action simple pour améliorer une arme que vous utilisez avec une illusion puissante et potentiellement dangereuse. Vous pouvez choisir une qualité d'équipement du type approprié pour votre arme dans la liste des qualités d'équipement en mêlée ou à distance. Cette qualité peut être appliquée même si elle aurait normalement enfreint les règles banales pour cette qualité. Par exemple, en utilisant Augmentation illusoire, vous pouvez accorder la qualité Aire d’effet à une arme à distance ayant une capacité de munitions de plus de 6. Pour l'heure suivante, votre arme à la qualité accordée par l'Augmentation Illusoire en plus de ses qualités normales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme pour les autres pouvoirs de Chimérie, cette illusion peut être percée par l'utilisation d'Auspex ou de pouvoirs similaires. Si l'illusion est percée, vous ne pouvez pas utiliser la qualité ajoutée contre la personne qui a réussi à voir à travers l'illusion.",
+          "spans": [
+            {
+              "text": "Comme pour les autres pouvoirs de Chimérie, cette illusion peut être percée par l'utilisation d'Auspex ou de pouvoirs similaires. Si l'illusion est percée, vous ne pouvez pas utiliser la qualité ajoutée contre la personne qui a réussi à voir à travers l'illusion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme ce pouvoir est illusoire, il n'a aucun effet sur une cible inerte. Par exemple, une épée avec la qualité d'équipement Enflammé ne peut pas enflammer quoi que ce soit, et un pistolet doté de la Grande Capacité ne sera pas très efficace une fois ses munitions réelles épuisées.",
+          "spans": [
+            {
+              "text": "Comme ce pouvoir est illusoire, il n'a aucun effet sur une cible inerte. Par exemple, une épée avec la qualité d'équipement Enflammé ne peut pas enflammer quoi que ce soit, et un pistolet doté de la Grande Capacité ne sera pas très efficace une fois ses munitions réelles épuisées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'arme conserve sa qualité illusoire tant qu'elle reste entre vos mains. Si vous veniez a etre désarmé ou si vous tentez de la donner à quelqu'un d'autre, les effets cessent immédiatement.",
+          "spans": [
+            {
+              "text": "L'arme conserve sa qualité illusoire tant qu'elle reste entre vos mains. Si vous veniez a etre désarmé ou si vous tentez de la donner à quelqu'un d'autre, les effets cessent immédiatement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucune arme ne peut bénéficier de plus d'une application de ce pouvoir. Si vous activez ce pouvoir alors qu'il est déjà actif, l'application précédente prend fin. Pour rappel, vous ne pouvez pas bénéficier deux fois de la même qualité, quelle qu'en soit la source. L'utilisation de ce pouvoir en combinaison avec vos attaques ne permet pas d'utiliser l'atout Clairvoyant.",
+          "spans": [
+            {
+              "text": "Aucune arme ne peut bénéficier de plus d'une application de ce pouvoir. Si vous activez ce pouvoir alors qu'il est déjà actif, l'application précédente prend fin. Pour rappel, vous ne pouvez pas bénéficier deux fois de la même qualité, quelle qu'en soit la source. L'utilisation de ce pouvoir en combinaison avec vos attaques ne permet pas d'utiliser l'atout Clairvoyant.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-804d-9f06-caf01c866605",
+      "slug": "aura-de-deplacement",
+      "title": "Aura de déplacement",
+      "notionUrl": "https://app.notion.com/p/Aura-de-d-placement-3a088b48e48e804d9f06caf01c866605",
+      "lastEditedTime": "2026-07-17T16:23:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Force d'Âme •",
+            "Dissimulation ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Aura de déplacement"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'essence de l'esquive consiste à se trouver ailleurs que là où l'on s'attend à vous trouver : une propriété qui n'est pas entièrement réservée aux personnes à la démarche rapide. Votre talent pour la dissimulation vous permet de confondre les sens de vos assaillants, à condition d'avoir toute votre tête.",
+          "spans": [
+            {
+              "text": "L'essence de l'esquive consiste à se trouver ailleurs que là où l'on s'attend à vous trouver : une propriété qui n'est pas entièrement réservée aux personnes à la démarche rapide. Votre talent pour la dissimulation vous permet de confondre les sens de vos assaillants, à condition d'avoir toute votre tête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acheté, ce pouvoir est toujours actif.",
+          "spans": [
+            {
+              "text": "Une fois acheté, ce pouvoir est toujours actif.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous êtes menacé, vous projetez une aura passive de déplacement, rendant plus difficile pour les attaquants de vous cibler. Chaque fois que vous vous défendez dans un challenge opposé qui nécessite d'utiliser votre attribut physique + Esquive comme score de test, vous pouvez substituer votre attribut mental à votre attribut physique et/ou votre compétence Furtivité à votre compétence Esquive. Vous bénéficiez de cette technique tant que vous n'êtes pas menotté. Si vous possédez la capacité d'agir pendant les rounds de Célérité, vous êtes libre, à chaque round, d'alterner entre l'utilisation du score d'Aura de Déplacement et le score classique.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes menacé, vous projetez une aura passive de déplacement, rendant plus difficile pour les attaquants de vous cibler. Chaque fois que vous vous défendez dans un challenge opposé qui nécessite d'utiliser votre attribut physique + Esquive comme score de test, vous pouvez substituer votre attribut mental à votre attribut physique et/ou votre compétence Furtivité à votre compétence Esquive. Vous bénéficiez de cette technique tant que vous n'êtes pas menotté. Si vous possédez la capacité d'agir pendant les rounds de Célérité, vous êtes libre, à chaque round, d'alterner entre l'utilisation du score d'Aura de Déplacement et le score classique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, vous bénéficiez toujours de tout bonus défensif que vous recevez de Célérité lorsque vous utilisez cette technique, même si vous utilisez votre compétence Furtivité dans votre score de défense. Tous les autres effets ou Atout qui accordent un bonus aux challenges impliquant votre compétence Esquive s'appliquent normalement lorsque vous utilisez votre compétence Furtivité pour vous défendre avec cette technique, comme ceux accordés par les mérites Grâce du Danseur ou Anguille. L'utilisation de Aura de déplacement ne vous empêche pas d'utiliser la tactique de combat de masse Aider le défenseur, et cette tactique ne vous empêche pas d'utiliser cette technique.",
+          "spans": [
+            {
+              "text": "De plus, vous bénéficiez toujours de tout bonus défensif que vous recevez de Célérité lorsque vous utilisez cette technique, même si vous utilisez votre compétence Furtivité dans votre score de défense. Tous les autres effets ou Atout qui accordent un bonus aux challenges impliquant votre compétence Esquive s'appliquent normalement lorsque vous utilisez votre compétence Furtivité pour vous défendre avec cette technique, comme ceux accordés par les mérites Grâce du Danseur ou Anguille. L'utilisation de Aura de déplacement ne vous empêche pas d'utiliser la tactique de combat de masse Aider le défenseur, et cette tactique ne vous empêche pas d'utiliser cette technique.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80e5-9dc8-e3eca22d17b4",
+      "slug": "bassin-de-fraie",
+      "title": "Bassin de fraie",
+      "notionUrl": "https://app.notion.com/p/Bassin-de-fraie-3a088b48e48e80e59dc8e3eca22d17b4",
+      "lastEditedTime": "2026-07-17T16:24:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Force d'Âme •",
+            "Animalisme •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Bassin de fraie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Maîtres des pièges et de la préparation, le clan Nosferatu a le mérite d'avoir mis au point le Bassin de fraie. Depuis, d'autres ont appris à nourrir leurs serviteurs avec de la vitae, leur conférant ainsi des capacités supérieures à celles des goules normales. Les serviteurs dotés de ces dons se donnent beaucoup de mal pour protéger la source du sang qui augmente leur puissance.",
+          "spans": [
+            {
+              "text": "Maîtres des pièges et de la préparation, le clan Nosferatu a le mérite d'avoir mis au point le Bassin de fraie. Depuis, d'autres ont appris à nourrir leurs serviteurs avec de la vitae, leur conférant ainsi des capacités supérieures à celles des goules normales. Les serviteurs dotés de ces dons se donnent beaucoup de mal pour protéger la source du sang qui augmente leur puissance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 3 points de sang et utilisez trois actions standard pour vous saigner dans l'eau. L'eau s'imprègne de la puissance de votre sang, attirant divers animaux à son emplacement. N'importe laquelle de vos goules animales qui boivent de cette eau enrichie gagnent l'atout Robuste en plus de leurs avantages normaux de goule animale pour les 30 jours suivants.",
+          "spans": [
+            {
+              "text": "Dépensez 3 points de sang et utilisez trois actions standard pour vous saigner dans l'eau. L'eau s'imprègne de la puissance de votre sang, attirant divers animaux à son emplacement. N'importe laquelle de vos goules animales qui boivent de cette eau enrichie gagnent l'atout Robuste en plus de leurs avantages normaux de goule animale pour les 30 jours suivants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également choisir d'augmenter la catégorie de taille de vos goules animales d'un niveau. Vos goules animales doivent ingérer l'eau au moins une fois tous les 30 jours pour conserver les avantages du Bassin de frai.",
+          "spans": [
+            {
+              "text": "Vous pouvez également choisir d'augmenter la catégorie de taille de vos goules animales d'un niveau. Vos goules animales doivent ingérer l'eau au moins une fois tous les 30 jours pour conserver les avantages du Bassin de frai.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les animaux qui boivent de l'eau améliorée ne consomment pas assez de sang pour devenir des goules, bien que vous puissiez choisir de les transformer en goules à l'aide de la méthode normale.",
+          "spans": [
+            {
+              "text": "Les animaux qui boivent de l'eau améliorée ne consomment pas assez de sang pour devenir des goules, bien que vous puissiez choisir de les transformer en goules à l'aide de la méthode normale.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80f2-9e54-e57182a5da8e",
+      "slug": "benediction-de-fenrir",
+      "title": "Bénédiction de Fenrir",
+      "notionUrl": "https://app.notion.com/p/B-n-diction-de-Fenrir-3a088b48e48e80f29e54e57182a5da8e",
+      "lastEditedTime": "2026-07-17T16:24:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Puissance •••",
+            "Animalisme •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Bénédiction de Fenrir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme les dieux de la forêt de la superstition antique, vous avez la capacité d'accorder force et courage aux animaux qui vous voient comme leur chef de meute. Lorsque vous vous battez entouré par les créatures de la nature sauvage, vous avez un avantage indéniable.",
+          "spans": [
+            {
+              "text": "Comme les dieux de la forêt de la superstition antique, vous avez la capacité d'accorder force et courage aux animaux qui vous voient comme leur chef de meute. Lorsque vous vous battez entouré par les créatures de la nature sauvage, vous avez un avantage indéniable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et dépensez une action standard pour stimuler la prouesse de combat des animaux à proximité. Tant qu'ils sont sous les effets de ce pouvoir, tous vos compagnons animaux et les animaux actuellement contrôlés par votre Animalisme gagnent un bonus de +2 aux tests de Bagarre, et ils infligent des dommages aggravés. Ces créatures doivent être dans votre ligne de vue pour gagner et garder cet avantage.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et dépensez une action standard pour stimuler la prouesse de combat des animaux à proximité. Tant qu'ils sont sous les effets de ce pouvoir, tous vos compagnons animaux et les animaux actuellement contrôlés par votre Animalisme gagnent un bonus de +2 aux tests de Bagarre, et ils infligent des dommages aggravés. Ces créatures doivent être dans votre ligne de vue pour gagner et garder cet avantage.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8002-b300-c10d58b31808",
+      "slug": "bete-venimeuse",
+      "title": "Bête venimeuse",
+      "notionUrl": "https://app.notion.com/p/B-te-venimeuse-3a088b48e48e8002b300c10d58b31808",
+      "lastEditedTime": "2026-07-17T16:26:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Quiétus ••",
+            "Animalisme ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Bête venimeuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les profondeurs de leurs cavernes, les Nosferatu utilisent leur sang pour engendrer des prédateurs vicieux en utilisant des animaux que d'autres pourraient considérer comme modestes. Cette technique donne à ces créations un avantage terrifiant dans un combat : des sacs venimeux ou des pustules suintantes sur le corps de l'animal. Cette dangereuse difformité fait que même les vampires les plus endurcis hésitent à les combattre, mais les rats d'égout les adorent tout de même.",
+          "spans": [
+            {
+              "text": "Dans les profondeurs de leurs cavernes, les Nosferatu utilisent leur sang pour engendrer des prédateurs vicieux en utilisant des animaux que d'autres pourraient considérer comme modestes. Cette technique donne à ces créations un avantage terrifiant dans un combat : des sacs venimeux ou des pustules suintantes sur le corps de l'animal. Cette dangereuse difformité fait que même les vampires les plus endurcis hésitent à les combattre, mais les rats d'égout les adorent tout de même.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et utilisez une action standard pour imprégner une goule d'animal, ou un animal que vous contrôlez actuellement en utilisant la discipline Animalisme, d'une seule application d'un puissant venin. Choisissez l'un des pouvoirs suivants que vous possédez : Toucher du scorpion, Caresse de Baal ou Goût de la mort. L'animal peut utiliser le pouvoir sélectionner une seule fois, en utilisant votre attribut le cas échéant. L'application de votre venin de Quiétus dure jusqu'au prochain lever de soleil.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et utilisez une action standard pour imprégner une goule d'animal, ou un animal que vous contrôlez actuellement en utilisant la discipline Animalisme, d'une seule application d'un puissant venin. Choisissez l'un des pouvoirs suivants que vous possédez : Toucher du scorpion, Caresse de Baal ou Goût de la mort. L'animal peut utiliser le pouvoir sélectionner une seule fois, en utilisant votre attribut le cas échéant. L'application de votre venin de Quiétus dure jusqu'au prochain lever de soleil.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous n'avez pas besoin d'être présent pour que l'animal venimeux puisse utiliser le pouvoir conféré, les points de sang qu'il transmet sont considérés comme les vôtres pour activer d'autres pouvoirs de Quiétus. Cette technique est une exception à la règle limitant les pouvoirs de Quietus aux armes blanches, car les animaux l'appliquent à travers leurs crocs, leurs griffes, leurs sabots ou tout autre moyen ou tout autre moyen dont ils disposent pour attaquer.",
+          "spans": [
+            {
+              "text": "Vous n'avez pas besoin d'être présent pour que l'animal venimeux puisse utiliser le pouvoir conféré, les points de sang qu'il transmet sont considérés comme les vôtres pour activer d'autres pouvoirs de Quiétus. Cette technique est une exception à la règle limitant les pouvoirs de Quietus aux armes blanches, car les animaux l'appliquent à travers leurs crocs, leurs griffes, leurs sabots ou tout autre moyen ou tout autre moyen dont ils disposent pour attaquer.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80dc-be5a-c40767bd3878",
+      "slug": "brume-noire",
+      "title": "Brume noire",
+      "notionUrl": "https://app.notion.com/p/Brume-noire-3a088b48e48e80dcbe5ac40767bd3878",
+      "lastEditedTime": "2026-07-17T16:27:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Obténébration ••",
+            "Domination •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Brume noire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les énergies entropiques du Voile de la nuit sont les Abysses manifestées : une combinaison d'énergie d'un autre monde et de l'obscurité intérieure d'un vampire. Des Lasombra astucieux ont compris que cette énergie est porteuse de pouvoir même lorsqu'elle est diluée, et peut-être en raison des liens anciens du clan avec la mer, elle peut également prendre les propriétés des modèles météorologiques. La brume noire ainsi créée a le pouvoir de confondre et d'embrouiller les mortels.",
+          "spans": [
+            {
+              "text": "Les énergies entropiques du Voile de la nuit sont les Abysses manifestées : une combinaison d'énergie d'un autre monde et de l'obscurité intérieure d'un vampire. Des Lasombra astucieux ont compris que cette énergie est porteuse de pouvoir même lorsqu'elle est diluée, et peut-être en raison des liens anciens du clan avec la mer, elle peut également prendre les propriétés des modèles météorologiques. La brume noire ainsi créée a le pouvoir de confondre et d'embrouiller les mortels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 2 points de sang et utilisez deux actions standard pour conjurer une brume noire ; un Voile de la nuit de taille, de puissance et de concentration variables. Choisissez l'un des types suivants :",
+          "spans": [
+            {
+              "text": "Dépensez 2 points de sang et utilisez deux actions standard pour conjurer une brume noire ; un Voile de la nuit de taille, de puissance et de concentration variables. Choisissez l'un des types suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lueur épouvantable : Vous créez une brume surnaturelle qui afflige l'esprit de tous les mortels qui s'y attardent, remplissant une seule pièce ou zone jusqu'à 100 pieds carrés. Une fois activée, cette fonction prend une minute pour se manifester complètement, et la visibilité à l'intérieur est réduite à 10 pas dans n'importe quelle direction. Immédiatement après que les ténèbres se soient pleinement manifestées, tout humain non surnaturel qui y respire est placé dans un état semi-hypnotique. Il poursuivra les activités qu'il menait immédiatement avant la manifestation de la brume, agissant comme si la brume ou tout ce qu'il voit ou expérimenté était parfaitement normal, tant qu'il continue à le respirer. Dès que les humains non surnaturels cessent de respirer la brume, ils oublient tout ce qu'ils ont vécu sous ses effets.",
+          "spans": [
+            {
+              "text": "Lueur épouvantable : Vous créez une brume surnaturelle qui afflige l'esprit de tous les mortels qui s'y attardent, remplissant une seule pièce ou zone jusqu'à 100 pieds carrés. Une fois activée, cette fonction prend une minute pour se manifester complètement, et la visibilité à l'intérieur est réduite à 10 pas dans n'importe quelle direction. Immédiatement après que les ténèbres se soient pleinement manifestées, tout humain non surnaturel qui y respire est placé dans un état semi-hypnotique. Il poursuivra les activités qu'il menait immédiatement avant la manifestation de la brume, agissant comme si la brume ou tout ce qu'il voit ou expérimenté était parfaitement normal, tant qu'il continue à le respirer. Dès que les humains non surnaturels cessent de respirer la brume, ils oublient tout ce qu'ils ont vécu sous ses effets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Brume ténébreuse : Vous invoquez une brume ténébreuse qui embrouille l'esprit des mortels qui tentent d'échapper à sa portée. Chaque application de ce pouvoir remplit un seul étage d'un bâtiment. Une fois activée, cette fonction met cinq minutes à se manifester pleinement, et la visibilité est réduite à 20 pas dans n'importe quelle direction. Les humains non surnaturels qui y respirent entrent dans un état de légère agitation qui se transforme en panique s'ils sont surpris. Dans ce cas, ils sont effrayés et désorientés par leur environnement, cherchent à fuir, mais sont incapables de trouver une sortie. Tout humain effrayé, non surnaturel, qui cherche à quitter une zone affectée par la brume ténébreuse doit réussir un défi statique en utilisant son attribut mental + sa compétence d'Investigation contre votre attribut mental + le nombre de pouvoirs d'Obténébration que vous possédez, y compris les techniques ou les pouvoirs des anciens, avant de pouvoir localiser une sortie. Les humains qui réussissent sont capables de conduire d'autres humains à s'échapper, si ces mortels acceptent de les suivre.",
+          "spans": [
+            {
+              "text": "Brume ténébreuse : Vous invoquez une brume ténébreuse qui embrouille l'esprit des mortels qui tentent d'échapper à sa portée. Chaque application de ce pouvoir remplit un seul étage d'un bâtiment. Une fois activée, cette fonction met cinq minutes à se manifester pleinement, et la visibilité est réduite à 20 pas dans n'importe quelle direction. Les humains non surnaturels qui y respirent entrent dans un état de légère agitation qui se transforme en panique s'ils sont surpris. Dans ce cas, ils sont effrayés et désorientés par leur environnement, cherchent à fuir, mais sont incapables de trouver une sortie. Tout humain effrayé, non surnaturel, qui cherche à quitter une zone affectée par la brume ténébreuse doit réussir un défi statique en utilisant son attribut mental + sa compétence d'Investigation contre votre attribut mental + le nombre de pouvoirs d'Obténébration que vous possédez, y compris les techniques ou les pouvoirs des anciens, avant de pouvoir localiser une sortie. Les humains qui réussissent sont capables de conduire d'autres humains à s'échapper, si ces mortels acceptent de les suivre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Banc de brouillard : Vous conjurez un brouillard sombre qui enveloppe une zone à peu près égale à un kilomètre carré. Ce pouvoir ne peut être utilisé qu'à l'extérieur. Une fois activée, cette fonction met 10 minutes à se manifester complètement, et la visibilité dans le brouillard est limitée à 100 pas dans n'importe quelle direction. Dans le brouillard, les dégâts causés aux vampires par la lumière du soleil sont réduits de moitié (arrondis au supérieur). Il s'agit d'une exception à la règle qui empêche les pouvoirs d'un vampire de réduire les dégâts qu'il reçoit de la lumière du soleil. Un vampire entièrement recouvert de vêtements peut tenter une brève exposition, subissant 1 point de dégâts aggravés pour chaque minute totale passée à la lumière du soleil dans une banque de brouillard. De plus, le brouillard provoque une légère distorsion des sens. Toute personne tentant de suivre un autre personnage à travers le brouillard reçoit une pénalité de -5 à son défi de suivi.",
+          "spans": [
+            {
+              "text": "Banc de brouillard : Vous conjurez un brouillard sombre qui enveloppe une zone à peu près égale à un kilomètre carré. Ce pouvoir ne peut être utilisé qu'à l'extérieur. Une fois activée, cette fonction met 10 minutes à se manifester complètement, et la visibilité dans le brouillard est limitée à 100 pas dans n'importe quelle direction. Dans le brouillard, les dégâts causés aux vampires par la lumière du soleil sont réduits de moitié (arrondis au supérieur). Il s'agit d'une exception à la règle qui empêche les pouvoirs d'un vampire de réduire les dégâts qu'il reçoit de la lumière du soleil. Un vampire entièrement recouvert de vêtements peut tenter une brève exposition, subissant 1 point de dégâts aggravés pour chaque minute totale passée à la lumière du soleil dans une banque de brouillard. De plus, le brouillard provoque une légère distorsion des sens. Toute personne tentant de suivre un autre personnage à travers le brouillard reçoit une pénalité de -5 à son défi de suivi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quel que soit le type choisi, la brume noire se dissipe en une heure, ou plus tôt s'il y a un vent important dans la région. La brume noire se dissipe en 10 minutes en plein soleil. Vous pouvez superposer les différents types de brume noire les uns aux autres, et vous pouvez également invoquer un Voile de la nuit ordinaire. Les effets de ces pouvoirs superposés sont cumulatifs (appliquez la pénalité de visibilité la plus restrictive). Vous pouvez choisir de conjurer une Brume noire dans une zone plus petite que sa limite maximale. Contrairement au Linceul de la nuit, vous ne pouvez pas déplacer votre Brume noire, ni augmenter sa taille. Vous ne pouvez avoir qu'une seule instance de chacun des trois types de brume noire actifs à un moment donné.",
+          "spans": [
+            {
+              "text": "Quel que soit le type choisi, la brume noire se dissipe en une heure, ou plus tôt s'il y a un vent important dans la région. La brume noire se dissipe en 10 minutes en plein soleil. Vous pouvez superposer les différents types de brume noire les uns aux autres, et vous pouvez également invoquer un Voile de la nuit ordinaire. Les effets de ces pouvoirs superposés sont cumulatifs (appliquez la pénalité de visibilité la plus restrictive). Vous pouvez choisir de conjurer une Brume noire dans une zone plus petite que sa limite maximale. Contrairement au Linceul de la nuit, vous ne pouvez pas déplacer votre Brume noire, ni augmenter sa taille. Vous ne pouvez avoir qu'une seule instance de chacun des trois types de brume noire actifs à un moment donné.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-805c-873a-c286bf76608a",
+      "slug": "ce-maudit-chat",
+      "title": "Ce Maudit Chat",
+      "notionUrl": "https://app.notion.com/p/Ce-Maudit-Chat-3a088b48e48e805c873ac286bf76608a",
+      "lastEditedTime": "2026-07-17T16:35:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Aliénation ••",
+            "Animalisme ••••",
+            "Protéisme ••••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ce Maudit Chat"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En canalisant un soupçon de folie dans votre forme animale, pouvez obliger un autre individu à vous suivre où bon vous semble. Ce voyage peut mener votre cible jusqu'à une embuscade ou l'occuper un court instant. Cependant, ceux qui vous suivent peuvent ne pas vraiment comprendre ou apprécier où ils sont conduits.",
+          "spans": [
+            {
+              "text": "En canalisant un soupçon de folie dans votre forme animale, pouvez obliger un autre individu à vous suivre où bon vous semble. Ce voyage peut mener votre cible jusqu'à une embuscade ou l'occuper un court instant. Cependant, ceux qui vous suivent peuvent ne pas vraiment comprendre ou apprécier où ils sont conduits.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Challenge",
+          "spans": [
+            {
+              "text": "Challenge",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attribut social + compétence Empathie ou Animaux contre Attribut mental + Volonté de la cible",
+          "spans": [
+            {
+              "text": "Attribut social + compétence Empathie ou Animaux contre Attribut mental + Volonté de la cible",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir ne peut être utilisé que si vous possédez un animal à l'aide du pouvoir Animalisme Soumission de l'esprit ou lorsque vous êtes sous votre forme de vol en utilisant le pouvoir Protéisme Forme de la bête. Engagez un challenge avec votre cible en utilisant le score de test d'Aliénation. Si vous réussissez, vous gagnez l'attention de la cible (voir Regard et Concentration) et elle se sent obligée de vous suivre où que vous alliez, tant que vous restez sous forme animale. Votre cible justifie les raisons pour lesquelles elle le fait comme la fascination, l'engouement ou l'indignation face à votre présence.",
+          "spans": [
+            {
+              "text": "Ce pouvoir ne peut être utilisé que si vous possédez un animal à l'aide du pouvoir Animalisme Soumission de l'esprit ou lorsque vous êtes sous votre forme de vol en utilisant le pouvoir Protéisme Forme de la bête. Engagez un challenge avec votre cible en utilisant le score de test d'Aliénation. Si vous réussissez, vous gagnez l'attention de la cible (voir Regard et Concentration) et elle se sent obligée de vous suivre où que vous alliez, tant que vous restez sous forme animale. Votre cible justifie les raisons pour lesquelles elle le fait comme la fascination, l'engouement ou l'indignation face à votre présence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible doit dépenser au moins une action pendant chaque round où elle peut agir, vous suivre pendant les 15 minutes suivantes, ou 5 rounds si vous l'utilisez en combat. Pendant ce temps, votre cible ne peut que faire des pas dans votre direction, mais elle évite les obstacles dangereux et les attaques. Si votre cible peut vous toucher, éventuellement par un challenge opposé, les effets de ce pouvoir cessent immédiatement. S'il devient impossible de vous suivre sans que votre cible ne se blesse directement, les effets de Ce Maudit Chat cessent immédiatement. Si vous ne conservez pas votre forme animale pendant que Ce Maudit Chat est actif, ou si vous quittez le champ de vision de la cible, les effets cessent immédiatement.",
+          "spans": [
+            {
+              "text": "La cible doit dépenser au moins une action pendant chaque round où elle peut agir, vous suivre pendant les 15 minutes suivantes, ou 5 rounds si vous l'utilisez en combat. Pendant ce temps, votre cible ne peut que faire des pas dans votre direction, mais elle évite les obstacles dangereux et les attaques. Si votre cible peut vous toucher, éventuellement par un challenge opposé, les effets de ce pouvoir cessent immédiatement. S'il devient impossible de vous suivre sans que votre cible ne se blesse directement, les effets de Ce Maudit Chat cessent immédiatement. Si vous ne conservez pas votre forme animale pendant que Ce Maudit Chat est actif, ou si vous quittez le champ de vision de la cible, les effets cessent immédiatement.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80f0-b610-fa2e3b7cc24d",
+      "slug": "chatiment-de-la-pierre",
+      "title": "Châtiment de la pierre",
+      "notionUrl": "https://app.notion.com/p/Ch-timent-de-la-pierre-3a088b48e48e80f0b610fa2e3b7cc24d",
+      "lastEditedTime": "2026-07-17T16:37:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Visceratika ●●",
+            "Puissance ●●"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Châtiment de la pierre"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les gargouilles ont été créées pour être des protecteurs et des soldats pendant la Guerre des Présages [Omens]. Constatant leur manque de talents physiques, les membres du clan Tremere ont cherché à inculquer à leurs serviteurs un besoin instinctif de combattre et de protéger. Il n'est donc pas surprenant que les gargouilles aient réussi à faire de l'acte de protéger les autres une arme à part entière.",
+          "spans": [
+            {
+              "text": "Les gargouilles ont été créées pour être des protecteurs et des soldats pendant la Guerre des Présages [Omens]. Constatant leur manque de talents physiques, les membres du clan Tremere ont cherché à inculquer à leurs serviteurs un besoin instinctif de combattre et de protéger. Il n'est donc pas surprenant que les gargouilles aient réussi à faire de l'acte de protéger les autres une arme à part entière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous subissez des dégâts en utilisant la tactique de combat de masse assister un défenseur, vous pouvez immédiatement activer ce pouvoir sans dépenser d'action pour le faire. Pour activer Le châtiment de la pierre, vous devez subir au moins 1 point de dégâts ; vous ne pouvez pas activer ce pouvoir si vous réduisez entièrement les dégâts, par exemple en utilisant des pouvoirs de Force d'âme. Vous pouvez également activer ce pouvoir si vous subissez des dégâts alors que vous avez également activé le pouvoir des anciens Rempart.\nTant que Le châtiment de la pierre est actif, la prochaine fois que vous réussissez un challenge opposé d'une attaque contre l'individu qui vous a blessé, cette attaque est automatiquement convertie en réussite exceptionnelle. Une fois que vous avez obtenu un succès exceptionnel en utilisant Le châtiment de la pierre, les effets de ce pouvoir cessent immédiatement. Vous pouvez activer à nouveau Le châtiment de la pierre si les conditions d'activation sont remplies.",
+          "spans": [
+            {
+              "text": "Chaque fois que vous subissez des dégâts en utilisant la tactique de combat de masse assister un défenseur, vous pouvez immédiatement activer ce pouvoir sans dépenser d'action pour le faire. Pour activer Le châtiment de la pierre, vous devez subir au moins 1 point de dégâts ; vous ne pouvez pas activer ce pouvoir si vous réduisez entièrement les dégâts, par exemple en utilisant des pouvoirs de Force d'âme. Vous pouvez également activer ce pouvoir si vous subissez des dégâts alors que vous avez également activé le pouvoir des anciens Rempart.\nTant que Le châtiment de la pierre est actif, la prochaine fois que vous réussissez un challenge opposé d'une attaque contre l'individu qui vous a blessé, cette attaque est automatiquement convertie en réussite exceptionnelle. Une fois que vous avez obtenu un succès exceptionnel en utilisant Le châtiment de la pierre, les effets de ce pouvoir cessent immédiatement. Vous pouvez activer à nouveau Le châtiment de la pierre si les conditions d'activation sont remplies.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir qu'une seule instance active de ce pouvoir à un moment donné, même si plusieurs cibles vous blessent ou si vous subissez des dégâts d'une seule cible plusieurs fois. Ce pouvoir dure 10 minutes si vous ne gagnez pas de challenge opposé contre un personnage qui vous a blessé.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir qu'une seule instance active de ce pouvoir à un moment donné, même si plusieurs cibles vous blessent ou si vous subissez des dégâts d'une seule cible plusieurs fois. Ce pouvoir dure 10 minutes si vous ne gagnez pas de challenge opposé contre un personnage qui vous a blessé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8087-8439-c8f68892204e",
+      "slug": "clause-d-evasion",
+      "title": "Clause d'évasion",
+      "notionUrl": "https://app.notion.com/p/Clause-d-vasion-3a088b48e48e80878439c8f68892204e",
+      "lastEditedTime": "2026-07-17T16:38:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Daemonium ●●",
+            "Domination ●●●●"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "daemonium",
+              "title": "Daemonium",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Clause d'évasion"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les imbéciles et les faibles prétendent que l'infernalisme implique de sacrifier sa liberté, alors que ce sont eux qui sont liés par une moralité mesquine et les structures de pouvoir auxquelles ils se plient. L'accès au pouvoir - le vrai pouvoir - est le seul moyen d'atteindre la vraie liberté, et vous avez passé un accord pour vous assurer de ne plus jamais être contrôlé. ",
+          "spans": [
+            {
+              "text": "Les imbéciles et les faibles prétendent que l'infernalisme implique de sacrifier sa liberté, alors que ce sont eux qui sont liés par une moralité mesquine et les structures de pouvoir auxquelles ils se plient. L'accès au pouvoir - le vrai pouvoir - est le seul moyen d'atteindre la vraie liberté, et vous avez passé un accord pour vous assurer de ne plus jamais être contrôlé. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir vous permet de vous appuyer sur un pacte démoniaque pour contrecarrer les effets des pouvoirs hostiles qui limitent votre libre arbitre. Chaque fois que l'effet d'un pouvoir vous contraint à faire quelque chose que vous souhaitez éviter, comme Domination, Regard d'effroi, Majesté ou Contrat de sang, vous pouvez activer ce pouvoir sans dépenser une action pour le faire. Lorsque vous le faites, un démon ou une entité infernale vous délivre une compulsion irrésistible qui contourne l'effet déclencheur pour un seul tour. L'effet déclencheur reprend immédiatement après la fin du tour, mais vous ne subissez pas de conséquences pour avoir agi contre lui. Cependant, ce service n'est pas gratuit. Chaque activation de ce pouvoir inflige 1 point de dégâts normaux qui ne peuvent être ni réduits ni annulés, plus 1 point de dégâts supplémentaires qui ne peuvent être ni réduits ni annulés pour chaque fois précédente où vous avez utilisé ce pouvoir au cours de cette session de jeu. Par exemple, si vous activez ce pouvoir pour la troisième fois dans une session de jeu, vous subissez un total de 3 points de dégâts. L'utilisation de ce pouvoir peut faire entrer votre personnage en torpeur si vous perdez exactement tous vos niveaux de santé restants. Si vous activez ce pouvoir et que les dégâts qu'il inflige dépassent vos niveaux de santé restants, vous entrez en torpeur et votre âme est immédiatement arrachée de votre corps et amenée devant votre maître démoniaque. Le retour d'une telle rencontre est laissé à la discrétion du Conteur, tout comme les conditions de votre retour. Ce pouvoir ne fonctionne que contre un seul effet à la fois. Si vous souhaitez éviter plusieurs effets à la fois, vous devez activer Clause d'évasion plusieurs fois. Ce pouvoir ne fonctionne pas si vous tentez de l'utiliser contre une entité infernale que vous servez, ou ses subordonnés désignés, si elle le désire.",
+          "spans": [
+            {
+              "text": "Ce pouvoir vous permet de vous appuyer sur un pacte démoniaque pour contrecarrer les effets des pouvoirs hostiles qui limitent votre libre arbitre. Chaque fois que l'effet d'un pouvoir vous contraint à faire quelque chose que vous souhaitez éviter, comme Domination, Regard d'effroi, Majesté ou Contrat de sang, vous pouvez activer ce pouvoir sans dépenser une action pour le faire. Lorsque vous le faites, un démon ou une entité infernale vous délivre une compulsion irrésistible qui contourne l'effet déclencheur pour un seul tour. L'effet déclencheur reprend immédiatement après la fin du tour, mais vous ne subissez pas de conséquences pour avoir agi contre lui. Cependant, ce service n'est pas gratuit. Chaque activation de ce pouvoir inflige 1 point de dégâts normaux qui ne peuvent être ni réduits ni annulés, plus 1 point de dégâts supplémentaires qui ne peuvent être ni réduits ni annulés pour chaque fois précédente où vous avez utilisé ce pouvoir au cours de cette session de jeu. Par exemple, si vous activez ce pouvoir pour la troisième fois dans une session de jeu, vous subissez un total de 3 points de dégâts. L'utilisation de ce pouvoir peut faire entrer votre personnage en torpeur si vous perdez exactement tous vos niveaux de santé restants. Si vous activez ce pouvoir et que les dégâts qu'il inflige dépassent vos niveaux de santé restants, vous entrez en torpeur et votre âme est immédiatement arrachée de votre corps et amenée devant votre maître démoniaque. Le retour d'une telle rencontre est laissé à la discrétion du Conteur, tout comme les conditions de votre retour. Ce pouvoir ne fonctionne que contre un seul effet à la fois. Si vous souhaitez éviter plusieurs effets à la fois, vous devez activer Clause d'évasion plusieurs fois. Ce pouvoir ne fonctionne pas si vous tentez de l'utiliser contre une entité infernale que vous servez, ou ses subordonnés désignés, si elle le désire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-8098-b9a1-f2af0804d8d6",
+      "slug": "commandement-instinctif",
+      "title": "Commandement instinctif",
+      "notionUrl": "https://app.notion.com/p/Commandement-instinctif-3a088b48e48e8098b9a1f2af0804d8d6",
+      "lastEditedTime": "2026-07-17T16:40:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Domination ••",
+            "Célérité •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Commandement instinctif"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez tellement maîtrisé le premier pouvoir de Domination que vous l'utilisez presque instinctivement, en émettant des ordres en un clin d'œil.",
+          "spans": [
+            {
+              "text": "Vous avez tellement maîtrisé le premier pouvoir de Domination que vous l'utilisez presque instinctivement, en émettant des ordres en un clin d'œil.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser le premier pouvoir de Domination, Ordre, comme votre action lors des rounds Célérité. Cette utilisation d’Ordre doit remplir toutes les autres exigences du pouvoir ; vous devez dépenser une action standard et annoncer une simple commande d'un mot ou faire un geste que la cible peut comprendre. Commandement instinctif ne peut être combiné avec d'autres pouvoirs ou avantage qui augmentent Ordre. Ce pouvoir est une exception à la règle interdisant l'utilisation des actions mentales au cours des rounds de célérité. Notez qu'un individu ne peut être ciblé que par un seul pouvoir mental pendant chaque tour.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser le premier pouvoir de Domination, Ordre, comme votre action lors des rounds Célérité. Cette utilisation d’Ordre doit remplir toutes les autres exigences du pouvoir ; vous devez dépenser une action standard et annoncer une simple commande d'un mot ou faire un geste que la cible peut comprendre. Commandement instinctif ne peut être combiné avec d'autres pouvoirs ou avantage qui augmentent Ordre. Ce pouvoir est une exception à la règle interdisant l'utilisation des actions mentales au cours des rounds de célérité. Notez qu'un individu ne peut être ciblé que par un seul pouvoir mental pendant chaque tour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-808b-adc4-f8c096eb9d4a",
+      "slug": "conseiller-malin",
+      "title": "Conseiller malin",
+      "notionUrl": "https://app.notion.com/p/Conseiller-malin-3a088b48e48e808badc4f8c096eb9d4a",
+      "lastEditedTime": "2026-07-17T16:41:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Serpentis ●●",
+            "Présence •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "serpentis",
+              "title": "Serpentis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Conseiller malin"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la mythologie grecque, le guérisseur Asclepius a gagné ses extraordinaires capacités après qu’un serpent a nettoyé son oreille avec sa langue en lui murmurant les secrets de la guérison, de la sagesse et de l’immortalité. Les serpents demeurèrent à ses côtés, enroulés sur son caducée et continuèrent de lui prodiguer conseils et l’éclairer. De façon similaire, vous avez la capacité d’aider les autres à révéler leur plein potentiel s’ils veulent bien de cette aide.",
+          "spans": [
+            {
+              "text": "Dans la mythologie grecque, le guérisseur Asclepius a gagné ses extraordinaires capacités après qu’un serpent a nettoyé son oreille avec sa langue en lui murmurant les secrets de la guérison, de la sagesse et de l’immortalité. Les serpents demeurèrent à ses côtés, enroulés sur son caducée et continuèrent de lui prodiguer conseils et l’éclairer. De façon similaire, vous avez la capacité d’aider les autres à révéler leur plein potentiel s’ils veulent bien de cette aide.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir passé au moins 5 minutes à écouter les buts et envies de votre cible, vous pouvez dépenser 1 point de sang et 3 actions standards consécutives à donner des conseils à votre cible. Si votre cible est consentante, elle se sent inspirée et peut gagner jusqu'à 3 points d’attribut qu’elle peut attribuer pour 1 ou plusieurs catégories dans laquelle elle a moins de 10 points. Allez au-delà de 10 point de cette façon n’est pas autorisé. Utiliser cette technique sur un PNJ type fait passer ce PNJ à 1 niveau supérieur jusqu’au niveau 5. Les personnages qui ont déjà réparti tous leurs points d’attribut ou qui sont des PNJ de niveau 5 ne reçoivent pas de bonus par ce pouvoir.",
+          "spans": [
+            {
+              "text": "Après avoir passé au moins 5 minutes à écouter les buts et envies de votre cible, vous pouvez dépenser 1 point de sang et 3 actions standards consécutives à donner des conseils à votre cible. Si votre cible est consentante, elle se sent inspirée et peut gagner jusqu'à 3 points d’attribut qu’elle peut attribuer pour 1 ou plusieurs catégories dans laquelle elle a moins de 10 points. Allez au-delà de 10 point de cette façon n’est pas autorisé. Utiliser cette technique sur un PNJ type fait passer ce PNJ à 1 niveau supérieur jusqu’au niveau 5. Les personnages qui ont déjà réparti tous leurs points d’attribut ou qui sont des PNJ de niveau 5 ne reçoivent pas de bonus par ce pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets de cette technique durent 7 jours maximum (durée décidée au moment de l’utilisation de la technique), après cela le pouvoir se dissipe. Vous pouvez indiquer la durée de l’effet à votre conteur pour que votre cible, ne soit pas au courant de la durée. Cependant, la cible se rendra compte qu’un pouvoir a été utilisé sur elle au moment où l’effet de celui-ci se dissipera. Quand le pouvoir disparaît, la perte des bénéfices semble naturel pour votre cible, quoique frustrant. La cible va intuitivement faire comme si elle bénéficiait de vos conseils encore, bien que cela puisse aider ou non dans leurs objectifs.",
+          "spans": [
+            {
+              "text": "Les effets de cette technique durent 7 jours maximum (durée décidée au moment de l’utilisation de la technique), après cela le pouvoir se dissipe. Vous pouvez indiquer la durée de l’effet à votre conteur pour que votre cible, ne soit pas au courant de la durée. Cependant, la cible se rendra compte qu’un pouvoir a été utilisé sur elle au moment où l’effet de celui-ci se dissipera. Quand le pouvoir disparaît, la perte des bénéfices semble naturel pour votre cible, quoique frustrant. La cible va intuitivement faire comme si elle bénéficiait de vos conseils encore, bien que cela puisse aider ou non dans leurs objectifs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quand vous activez ce pouvoir, vous pouvez faire une “recommandation” pour la cible, mettant une condition à l’obtention du pouvoir, par exemple “Passer 10 coups de fils la semaine prochaine” ou “Rompt avec ton/ta partenaire” et ajouter un délai supplémentaire de 7 jours maximum. En fonction de l’approbation de votre Conteur, si votre cible effectue votre “recommandation”, la durée du pouvoir s’étend par un nombre déterminé de jours. Un personnage ne peut bénéficier que d’une seule instance de ce pouvoir à la fois, la potentielle nouvelle utilisation du pouvoir prenant la place de la précédente. Vous pouvez maintenir autant de “Conseillé rusé” par personne et en même temps que votre niveau en Subterfuge, les nouvelles utilisations chassant les précédentes. Vous ne pouvez pas utiliser ce pouvoir sur vous-même.",
+          "spans": [
+            {
+              "text": "Quand vous activez ce pouvoir, vous pouvez faire une “recommandation” pour la cible, mettant une condition à l’obtention du pouvoir, par exemple “Passer 10 coups de fils la semaine prochaine” ou “Rompt avec ton/ta partenaire” et ajouter un délai supplémentaire de 7 jours maximum. En fonction de l’approbation de votre Conteur, si votre cible effectue votre “recommandation”, la durée du pouvoir s’étend par un nombre déterminé de jours. Un personnage ne peut bénéficier que d’une seule instance de ce pouvoir à la fois, la potentielle nouvelle utilisation du pouvoir prenant la place de la précédente. Vous pouvez maintenir autant de “Conseillé rusé” par personne et en même temps que votre niveau en Subterfuge, les nouvelles utilisations chassant les précédentes. Vous ne pouvez pas utiliser ce pouvoir sur vous-même.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80dc-b057-f724658a8940",
+      "slug": "controle-de-la-bete-sauvage",
+      "title": "Contrôle de la bête sauvage",
+      "notionUrl": "https://app.notion.com/p/Contr-le-de-la-b-te-sauvage-3a088b48e48e80dcb057f724658a8940",
+      "lastEditedTime": "2026-07-17T16:44:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Animalisme •••",
+            "Domination ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Contrôle de la bête sauvage"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre bête est un chasseur dominant, sauvage et contrôlant. Lorsqu'elle prend conscience d'une autre de son genre, elle tente instinctivement de l'arracher, en exigeant son obéissance.",
+          "spans": [
+            {
+              "text": "Votre bête est un chasseur dominant, sauvage et contrôlant. Lorsqu'elle prend conscience d'une autre de son genre, elle tente instinctivement de l'arracher, en exigeant son obéissance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action standard pour dominer l'esprit d'un vampire qui est en frénésie près de vous ; à un degré, vous pouvez contrôler ses actions. La cible doit toujours se battre, se nourrir ou fuir, comme l'exige son type particulier de frénésie, mais vous pouvez décider quelle cible votre victime attaque, quel sang mortel elle boit et dans quelle direction elle s'enfuit. Contrôle de la bête sauvage n'a pas besoin d'un test pour être activer et ne fonctionne que sur les vampires en pleine frénésie naturelle. Les frénésies provoquées par l'utilisation de la discipline d'Animalisme ne peuvent pas être contrôlés avec ce pouvoir.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action standard pour dominer l'esprit d'un vampire qui est en frénésie près de vous ; à un degré, vous pouvez contrôler ses actions. La cible doit toujours se battre, se nourrir ou fuir, comme l'exige son type particulier de frénésie, mais vous pouvez décider quelle cible votre victime attaque, quel sang mortel elle boit et dans quelle direction elle s'enfuit. Contrôle de la bête sauvage n'a pas besoin d'un test pour être activer et ne fonctionne que sur les vampires en pleine frénésie naturelle. Les frénésies provoquées par l'utilisation de la discipline d'Animalisme ne peuvent pas être contrôlés avec ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }
