@@ -4,7 +4,7 @@
   "group": "Techniques",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-07-17T16:44:36.313Z",
+  "generatedAt": "2026-07-17T17:51:58.729Z",
   "propertyOptions": {
     "Prerequis": [
       "Chimérie •",
@@ -39,7 +39,9 @@
       "Célérité •••",
       "Célérité ••",
       "Célérité •",
-      "Serpentis ●●"
+      "Serpentis ●●",
+      "Vicissitude ●●",
+      "Présence ••"
     ]
   },
   "items": [
@@ -2071,6 +2073,265 @@
           "spans": [
             {
               "text": "Dépensez 1 point de sang et une action standard pour dominer l'esprit d'un vampire qui est en frénésie près de vous ; à un degré, vous pouvez contrôler ses actions. La cible doit toujours se battre, se nourrir ou fuir, comme l'exige son type particulier de frénésie, mais vous pouvez décider quelle cible votre victime attaque, quel sang mortel elle boit et dans quelle direction elle s'enfuit. Contrôle de la bête sauvage n'a pas besoin d'un test pour être activer et ne fonctionne que sur les vampires en pleine frénésie naturelle. Les frénésies provoquées par l'utilisation de la discipline d'Animalisme ne peuvent pas être contrôlés avec ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-805b-ac80-f61eccbd89fa",
+      "slug": "cul-sec",
+      "title": "Cul-sec",
+      "notionUrl": "https://app.notion.com/p/Cul-sec-3a088b48e48e805bac80f61eccbd89fa",
+      "lastEditedTime": "2026-07-17T17:24:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Protéisme ••",
+            "Animalisme •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Cul-sec"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires font souvent le parallèle entre se nourrir et la gastronomie. Cependant, il arrive que le temps vous soit compté et un fast-food ou un repas sur le pouce doit faire l’affaire. Avec “Cul-sec”, vous pouvez ingérer de grandes quantités de sang plus vite qu’un vampire lambda. Si nécessaire, vous pouvez même absorber des mares de sang par osmose via simple toucher avec vos mains.",
+          "spans": [
+            {
+              "text": "Les vampires font souvent le parallèle entre se nourrir et la gastronomie. Cependant, il arrive que le temps vous soit compté et un fast-food ou un repas sur le pouce doit faire l’affaire. Avec “Cul-sec”, vous pouvez ingérer de grandes quantités de sang plus vite qu’un vampire lambda. Si nécessaire, vous pouvez même absorber des mares de sang par osmose via simple toucher avec vos mains.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois acquise, cette technique vous permet lorsque vous drainez du sang avec une attaque de morsure, d’absorber 2 points de sang par action standard, au lieu d’1 comme à l’accoutumée. De plus, via une action simple, vous pouvez toucher une mare de sang et complètement l’absorber pour aspirer jusqu'à 3 points de sang. Ainsi, vous les ajoutez à votre réserve de point de sang au moment de l’acte. Cependant, cela constitue un risque de bris de mascarade. Le sang aspiré par contact a toutes ses propriétés normales. Ingérer une mare de sang provenant d’un semblable créé un lien de sang. Si le sang est empoisonné, vous le serez. De même, s’il provient d’une personne malade, vous attraperez la maladie, etc.",
+          "spans": [
+            {
+              "text": "Une fois acquise, cette technique vous permet lorsque vous drainez du sang avec une attaque de morsure, d’absorber 2 points de sang par action standard, au lieu d’1 comme à l’accoutumée. De plus, via une action simple, vous pouvez toucher une mare de sang et complètement l’absorber pour aspirer jusqu'à 3 points de sang. Ainsi, vous les ajoutez à votre réserve de point de sang au moment de l’acte. Cependant, cela constitue un risque de bris de mascarade. Le sang aspiré par contact a toutes ses propriétés normales. Ingérer une mare de sang provenant d’un semblable créé un lien de sang. Si le sang est empoisonné, vous le serez. De même, s’il provient d’une personne malade, vous attraperez la maladie, etc.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-804c-94eb-f5844dbd7cf7",
+      "slug": "dechirer-la-chair",
+      "title": "Déchirer la chair",
+      "notionUrl": "https://app.notion.com/p/D-chirer-la-chair-3a088b48e48e804c94ebf5844dbd7cf7",
+      "lastEditedTime": "2026-07-17T17:29:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Vicissitude ●●",
+            "Puissance ●●"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Déchirer la chair"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des adeptes de Vicissitude considèrent la Sculpture de la Chair comme un art, une pratique délicate dont la maîtrise nécessite une vie entière d'entraînement. La lignée des revenants Bratovitch fait figure d'exception notable, n'hésitant pas à utiliser leurs talents comme des armes. Grâce à ce pouvoir, vous pouvez mettre toute votre force à profit pour déchirer la chair de vos ennemis.",
+          "spans": [
+            {
+              "text": "La plupart des adeptes de Vicissitude considèrent la Sculpture de la Chair comme un art, une pratique délicate dont la maîtrise nécessite une vie entière d'entraînement. La lignée des revenants Bratovitch fait figure d'exception notable, n'hésitant pas à utiliser leurs talents comme des armes. Grâce à ce pouvoir, vous pouvez mettre toute votre force à profit pour déchirer la chair de vos ennemis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour activer Déchirer la chair. Pendant toute la durée du pouvoir, vous pouvez tenter une attaque avec la compétence Bagarre, similaire à l'attaque effectuée avec le pouvoir de niveau 2 Vicissitude Sculpture de la chair. Si vous réussissez le challenge d'attaque, cette attaque inflige 2 points de dégâts en cas de réussite normale et 3 points de dégâts en cas de réussite exceptionnelle. Si vous possédez le Focus Manipulation, cette attaque inflige 3 points de dégâts en cas de réussite normale et 4 points de dégâts en cas de réussite exceptionnelle. De plus, si vous possédez le pouvoir de Puissance Vigueur, ou le Focus Force, leur bonus s'appliquent également à cette attaque. Les dégâts infligés par Déchirer la chair ne peuvent être réduits ou annulés.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour activer Déchirer la chair. Pendant toute la durée du pouvoir, vous pouvez tenter une attaque avec la compétence Bagarre, similaire à l'attaque effectuée avec le pouvoir de niveau 2 Vicissitude Sculpture de la chair. Si vous réussissez le challenge d'attaque, cette attaque inflige 2 points de dégâts en cas de réussite normale et 3 points de dégâts en cas de réussite exceptionnelle. Si vous possédez le Focus Manipulation, cette attaque inflige 3 points de dégâts en cas de réussite normale et 4 points de dégâts en cas de réussite exceptionnelle. De plus, si vous possédez le pouvoir de Puissance Vigueur, ou le Focus Force, leur bonus s'appliquent également à cette attaque. Les dégâts infligés par Déchirer la chair ne peuvent être réduits ou annulés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour tenter une attaque avec Déchirer la chair, vous devez toucher physiquement votre cible avec vos mains tout en tirant pour lui arracher la peau. Les dégâts infligés par ce pouvoir ne peuvent pas être augmentés par d'autres pouvoirs, tels que les pouvoirs Puissance autres que ceux énumérés ci-dessus, et ils ne peuvent pas être convertis en dégâts aggravés, par exemple en utilisant le pouvoir de Protéisme Griffes Bestiales ou le pouvoir de Vicissitude Forme Monstrueuse. Tous les dégâts, y compris les dégâts supplémentaires infligés par Redoutable, sont considérés comme provenant d'une seule source.",
+          "spans": [
+            {
+              "text": "Pour tenter une attaque avec Déchirer la chair, vous devez toucher physiquement votre cible avec vos mains tout en tirant pour lui arracher la peau. Les dégâts infligés par ce pouvoir ne peuvent pas être augmentés par d'autres pouvoirs, tels que les pouvoirs Puissance autres que ceux énumérés ci-dessus, et ils ne peuvent pas être convertis en dégâts aggravés, par exemple en utilisant le pouvoir de Protéisme Griffes Bestiales ou le pouvoir de Vicissitude Forme Monstrueuse. Tous les dégâts, y compris les dégâts supplémentaires infligés par Redoutable, sont considérés comme provenant d'une seule source.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a088b48-e48e-80f4-ab4c-c4cffe1e447b",
+      "slug": "deni-de-la-faveur-d-aphrodite",
+      "title": "Déni de la faveur d’Aphrodite",
+      "notionUrl": "https://app.notion.com/p/D-ni-de-la-faveur-d-Aphrodite-3a088b48e48e80f4ab4cc4cffe1e447b",
+      "lastEditedTime": "2026-07-17T17:51:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Présence ••",
+            "Domination ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Déni de la faveur d’Aphrodite"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Développé par le clan Ventrue, ce pouvoir est conçu pour défendre un vampire contre les mêmes pouvoirs que le clan exerce. Comme les rois implacablement manipulent les autres, ils ont un dédain pour être manipulé eux-mêmes. Avec ce pouvoir, vous pouvez vous protéger contre ceux qui vous séduiraient.",
+          "spans": [
+            {
+              "text": "Développé par le clan Ventrue, ce pouvoir est conçu pour défendre un vampire contre les mêmes pouvoirs que le clan exerce. Comme les rois implacablement manipulent les autres, ils ont un dédain pour être manipulé eux-mêmes. Avec ce pouvoir, vous pouvez vous protéger contre ceux qui vous séduiraient.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ignorez automatiquement le pouvoir de présence Révérence, et vous gagnez un bonus de +3 à toute tentative de résister à Regard d’Effroi ou Transe.",
+          "spans": [
+            {
+              "text": "Vous ignorez automatiquement le pouvoir de présence Révérence, et vous gagnez un bonus de +3 à toute tentative de résister à Regard d’Effroi ou Transe.",
               "bold": false
             }
           ]
