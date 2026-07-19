@@ -4,7 +4,7 @@
   "group": "Techniques",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-07-17T17:51:58.729Z",
+  "generatedAt": "2026-07-19T12:00:00.862Z",
   "propertyOptions": {
     "Prerequis": [
       "Chimérie •",
@@ -41,7 +41,13 @@
       "Célérité •",
       "Serpentis ●●",
       "Vicissitude ●●",
-      "Présence ••"
+      "Présence ••",
+      "Auspex ••••",
+      "Auspex •••",
+      "Présence •",
+      "Vicissitude ●●●",
+      "Obténébration •",
+      "Dissimulation ••••"
     ]
   },
   "items": [
@@ -2332,6 +2338,1109 @@
           "spans": [
             {
               "text": "Vous ignorez automatiquement le pouvoir de présence Révérence, et vous gagnez un bonus de +3 à toute tentative de résister à Regard d’Effroi ou Transe.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80e0-830e-f9149688366b",
+      "slug": "deverrouiller-le-potentiel-cache",
+      "title": "Déverrouiller le potentiel caché",
+      "notionUrl": "https://app.notion.com/p/D-verrouiller-le-potentiel-cach-3a288b48e48e80e0830ef9149688366b",
+      "lastEditedTime": "2026-07-19T10:57:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Présence •••",
+            "Auspex ••••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Déverrouiller le potentiel caché"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas tout faire par vous-même, quelquefois, il faut s’appuyer sur les autres. En projetant votre charisme directement sur la psyché d’un allié, vous pouvez faire en sorte qu’il réussisse au-delà de ses capacités normales. En faisant cela, votre bénéficiaire déverrouille un potentiel qui lui était jusque-là inconnu résultant en de formidables réussites pour une période de temps donnée.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez pas tout faire par vous-même, quelquefois, il faut s’appuyer sur les autres. En projetant votre charisme directement sur la psyché d’un allié, vous pouvez faire en sorte qu’il réussisse au-delà de ses capacités normales. En faisant cela, votre bénéficiaire déverrouille un potentiel qui lui était jusque-là inconnu résultant en de formidables réussites pour une période de temps donnée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que vous avez réussi à entrer en télépathie avec une cible consentante, vous pouvez utiliser 1 point de sang et une action standard pour utiliser “Déverrouiller le potentiel caché”. Pendant que vous (ou votre cible) réalisez une tâche déterminée, vous communiquez et recevez des indices télépathiques, des conseils et des messages d’encouragement. Cela vous permet à vous deux d’offrir et de recevoir de l’aide lors de challenges statiques.",
+          "spans": [
+            {
+              "text": "Une fois que vous avez réussi à entrer en télépathie avec une cible consentante, vous pouvez utiliser 1 point de sang et une action standard pour utiliser “Déverrouiller le potentiel caché”. Pendant que vous (ou votre cible) réalisez une tâche déterminée, vous communiquez et recevez des indices télépathiques, des conseils et des messages d’encouragement. Cela vous permet à vous deux d’offrir et de recevoir de l’aide lors de challenges statiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès qu’un personnage est impliqué dans un challenge statique pour utiliser une compétence, ce personnage est considéré comme “compétent” tant qu’au moins un des membres impliqués dans la télépathie est qualifié dans la compétence en question et maintient le lien psychique. En plus de cela, si un personnage qualifié dans cette compétence dépense un nombre équivalent d’actions à ce que la tâche demande, il peut offrir une assistance télépathique et peut accorder un bonus +3 joker à 1 des participants de la télépathie tant que cela concerne un challenge statique. Un personnage ne peut seulement recevoir qu’un seul bonus de la sorte de cette manière. Le bonus accordé par ““Déverrouiller le potentiel” peut uniquement être utilisé pour des tâches mondaines et ne peut pas être mobilisé pour améliorer un score lié à une discipline ou une technique. Il ne peut pas être utilisé en combat non plus.",
+          "spans": [
+            {
+              "text": "Dès qu’un personnage est impliqué dans un challenge statique pour utiliser une compétence, ce personnage est considéré comme “compétent” tant qu’au moins un des membres impliqués dans la télépathie est qualifié dans la compétence en question et maintient le lien psychique. En plus de cela, si un personnage qualifié dans cette compétence dépense un nombre équivalent d’actions à ce que la tâche demande, il peut offrir une assistance télépathique et peut accorder un bonus +3 joker à 1 des participants de la télépathie tant que cela concerne un challenge statique. Un personnage ne peut seulement recevoir qu’un seul bonus de la sorte de cette manière. Le bonus accordé par ““Déverrouiller le potentiel” peut uniquement être utilisé pour des tâches mondaines et ne peut pas être mobilisé pour améliorer un score lié à une discipline ou une technique. Il ne peut pas être utilisé en combat non plus.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80dd-83c3-d46903cd8f62",
+      "slug": "donnez-leur-l-enfer",
+      "title": "Donnez-leur l'enfer",
+      "notionUrl": "https://app.notion.com/p/Donnez-leur-l-enfer-3a288b48e48e80dd83c3d46903cd8f62",
+      "lastEditedTime": "2026-07-19T10:58:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Auspex •••",
+            "Présence ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Donnez-leur l'enfer"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au cœur de la bataille, même les tactiques et les stratégies bien préparées peuvent s'effondrer. Que ce soit grâce à votre enthousiasme, à votre courage ou à votre capacité à naviguer dans le chaos, vous avez le pouvoir de diriger et d'inspirer les autres à réaliser des prouesses de coordination tactique, en frappant de façon répétée et en succession rapide.",
+          "spans": [
+            {
+              "text": "Au cœur de la bataille, même les tactiques et les stratégies bien préparées peuvent s'effondrer. Que ce soit grâce à votre enthousiasme, à votre courage ou à votre capacité à naviguer dans le chaos, vous avez le pouvoir de diriger et d'inspirer les autres à réaliser des prouesses de coordination tactique, en frappant de façon répétée et en succession rapide.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Challenge",
+          "spans": [
+            {
+              "text": "Challenge",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Utilisez votre Attribut social + Compétence en Commandement contre l'attribut social + Volonté de la cible.",
+          "spans": [
+            {
+              "text": "Utilisez votre Attribut social + Compétence en Commandement contre l'attribut social + Volonté de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et utilisez une action standard pour effectuer une attaque contre la cible de votre choix. Si vous réussissez un Challenge opposé, pour le reste du tour en cours et pour les deux prochains tours, vous et vos alliés  pouvez attaquer la cible comme si elle était plus grande d'une catégorie de taille que sa taille actuelle, ce qui permet à vos alliés de cibler le personnage désigné avec des attaques physiques.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et utilisez une action standard pour effectuer une attaque contre la cible de votre choix. Si vous réussissez un Challenge opposé, pour le reste du tour en cours et pour les deux prochains tours, vous et vos alliés  pouvez attaquer la cible comme si elle était plus grande d'une catégorie de taille que sa taille actuelle, ce qui permet à vos alliés de cibler le personnage désigné avec des attaques physiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour pouvoir utiliser ce pouvoir, vos alliés doivent pouvoir entendre vos instructions et vos encouragements. Par exemple, ce pouvoir ne fonctionne pas si vous êtes affecté par des pouvoirs comme Silence de la Mort ou le pouvoir loup-garou Silence des morts.",
+          "spans": [
+            {
+              "text": "Pour pouvoir utiliser ce pouvoir, vos alliés doivent pouvoir entendre vos instructions et vos encouragements. Par exemple, ce pouvoir ne fonctionne pas si vous êtes affecté par des pouvoirs comme Silence de la Mort ou le pouvoir loup-garou Silence des morts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les utilisations multiples de ce pouvoir ne provoquent pas d'effets supplémentaires au-delà de la première utilisation. Si une cible est affectée par ce pouvoir une seconde fois, la durée du pouvoir est réinitialisée.",
+          "spans": [
+            {
+              "text": "Les utilisations multiples de ce pouvoir ne provoquent pas d'effets supplémentaires au-delà de la première utilisation. Si une cible est affectée par ce pouvoir une seconde fois, la durée du pouvoir est réinitialisée.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8053-9867-e16ec0713039",
+      "slug": "echo-de-psychose",
+      "title": "Écho de psychose",
+      "notionUrl": "https://app.notion.com/p/cho-de-psychose-3a288b48e48e80539867e16ec0713039",
+      "lastEditedTime": "2026-07-19T11:16:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Aliénation •••",
+            "Présence •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "alienation",
+              "title": "Aliénation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Écho de psychose"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre compréhension de la folie vous permet de voir à travers les fissures des masques sociaux d'autres personnes. A l'instant même où leur concentration vacille, vous percutez les murs, saisissez le moment et assailliez leur psyché avec les profondeurs de votre folie.",
+          "spans": [
+            {
+              "text": "Votre compréhension de la folie vous permet de voir à travers les fissures des masques sociaux d'autres personnes. A l'instant même où leur concentration vacille, vous percutez les murs, saisissez le moment et assailliez leur psyché avec les profondeurs de votre folie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que quelqu'un dépense un point de Volonté pour ignorer votre Révérence, vous pouvez lui lancer Passion sur la même initiative. Si vous avez Majesté et qu'un personnage tente de briser votre Majesté et échoue, vous pouvez immédiatement la cibler avec Hantise. Pour utiliser avec succès la Passion et la Hantise avec Écho Psychose, vous devez faire tous les tests appropriés, mais vous n'êtes pas tenu de dépenser du sang ou d'utiliser une action pour les activer. Utiliser Passion ou Hantise via Écho de Psychose ne met pas fin à votre majesté.",
+          "spans": [
+            {
+              "text": "Chaque fois que quelqu'un dépense un point de Volonté pour ignorer votre Révérence, vous pouvez lui lancer Passion sur la même initiative. Si vous avez Majesté et qu'un personnage tente de briser votre Majesté et échoue, vous pouvez immédiatement la cibler avec Hantise. Pour utiliser avec succès la Passion et la Hantise avec Écho Psychose, vous devez faire tous les tests appropriés, mais vous n'êtes pas tenu de dépenser du sang ou d'utiliser une action pour les activer. Utiliser Passion ou Hantise via Écho de Psychose ne met pas fin à votre majesté.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8003-a1aa-f6bdae3701ab",
+      "slug": "eclat-de-la-forme-souple",
+      "title": "Eclat de la forme souple",
+      "notionUrl": "https://app.notion.com/p/Eclat-de-la-forme-souple-3a288b48e48e8003a1aaf6bdae3701ab",
+      "lastEditedTime": "2026-07-19T11:17:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Vicissitude ●●●",
+            "Force d'âme ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Eclat de la forme souple"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez transformé l'utilisation de la discipline de la Vicissitude en une forme d'art, dont vous êtes le premier modèle. Votre corps s'adapte aux modifications comme un poisson dans l'eau : un corps d'argile doux et flexible entre les mains d'un sculpteur expérimenté. La maîtrise de cette technique peut s'avérer une arme à double tranchant, les praticiens se retrouvent recherchés par les aînés en mal d'expérimentations.",
+          "spans": [
+            {
+              "text": "Vous avez transformé l'utilisation de la discipline de la Vicissitude en une forme d'art, dont vous êtes le premier modèle. Votre corps s'adapte aux modifications comme un poisson dans l'eau : un corps d'argile doux et flexible entre les mains d'un sculpteur expérimenté. La maîtrise de cette technique peut s'avérer une arme à double tranchant, les praticiens se retrouvent recherchés par les aînés en mal d'expérimentations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous êtes ciblé par des pouvoirs de Vicissitude tels que Visage malléable ou Sculpture des os, vous pouvez choisir de limiter les pénalités appliquées par tout pouvoir de Vicissitude applicable à un seul attribut ou niveau de santé. Par exemple, gagner l'attribut Apparence grâce à Visage malléable n'entraîne qu'une pénalité de -1 à l'attribut Social et l'utilisation de Sculpture d'os pour ajouter un membre supplémentaire n'exige que le sacrifice d'un seul niveau de santé. Si vous bénéficiez de l'effet Résistant de Sculpture des os, vous recevez jusqu'à trois niveaux de santé en sacrifiant seulement 1 point de votre attribut Physique. Vous bénéficiez de l'éclat de la forme souple si vous utilisez sculpture de la chaire ou Sculpture des os sur vous-même, ou si un autre personnage vous ciblez avec son utilisation de Vicissitude. Ce pouvoir ne fonctionne pas en conjonction avec le pouvoir de Vicissitude Forme Monstrueuse.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes ciblé par des pouvoirs de Vicissitude tels que Visage malléable ou Sculpture des os, vous pouvez choisir de limiter les pénalités appliquées par tout pouvoir de Vicissitude applicable à un seul attribut ou niveau de santé. Par exemple, gagner l'attribut Apparence grâce à Visage malléable n'entraîne qu'une pénalité de -1 à l'attribut Social et l'utilisation de Sculpture d'os pour ajouter un membre supplémentaire n'exige que le sacrifice d'un seul niveau de santé. Si vous bénéficiez de l'effet Résistant de Sculpture des os, vous recevez jusqu'à trois niveaux de santé en sacrifiant seulement 1 point de votre attribut Physique. Vous bénéficiez de l'éclat de la forme souple si vous utilisez sculpture de la chaire ou Sculpture des os sur vous-même, ou si un autre personnage vous ciblez avec son utilisation de Vicissitude. Ce pouvoir ne fonctionne pas en conjonction avec le pouvoir de Vicissitude Forme Monstrueuse.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8085-8ecd-d9fbd93f5db1",
+      "slug": "enterrement-brutal",
+      "title": "Enterrement brutal",
+      "notionUrl": "https://app.notion.com/p/Enterrement-brutal-3a288b48e48e80858ecdd9fbd93f5db1",
+      "lastEditedTime": "2026-07-19T11:21:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Protéisme ••••",
+            "Force d'Âme •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Enterrement brutal"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La capacité à s'immerger dans le sol est plus qu'une simple transformation. plus qu'une simple transformation - elle vous accorde mystiquement avec le sol sous-jacent. Grâce à votre maîtrise de ce processus, vous avez le pouvoir de fondre les autres dans la terre, les immobilisant via une submersion partielle.",
+          "spans": [
+            {
+              "text": "La capacité à s'immerger dans le sol est plus qu'une simple transformation. plus qu'une simple transformation - elle vous accorde mystiquement avec le sol sous-jacent. Grâce à votre maîtrise de ce processus, vous avez le pouvoir de fondre les autres dans la terre, les immobilisant via une submersion partielle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Challenge ",
+          "spans": [
+            {
+              "text": "Challenge ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attribut social + survie contre physique + esquive",
+          "spans": [
+            {
+              "text": "Attribut social + survie contre physique + esquive",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et dépensez une action standard pour cibler un personnage se tenant sur n'importe quel type de revêtement de sol, y compris la terre, le béton, la roche, le métal, le plastique ou le bois. Si vous réussissez le défi opposé, vous provoquez l'agrippement de votre cible, qui s'enfonce dans le sol à une profondeur atteignant juste le dessous de ses genoux. Pendant que votre adversaire est ainsi grappinée, vous pouvez vous déplacer et agir normalement sans mettre fin aux effets du grappin ; il s'agit d'une exception aux règles limitant votre capacité à vous déplacer de plus d'un pas ou à cibler d'autres personnages tout en maintenant un grappin. Si un individu agrippé par ce pouvoir tente de s'échapper, il doit réussir un défi statique en utilisant son attribut physique + compétence de bagarre ou de mêlée (s'il est correctement armé) contre votre attribut social + compétence de survie. Vous ne pouvez pas utiliser la Volonté pour tester à nouveau les défis d'un adversaire pour échapper aux grappins établis par Enterrement brutal.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et dépensez une action standard pour cibler un personnage se tenant sur n'importe quel type de revêtement de sol, y compris la terre, le béton, la roche, le métal, le plastique ou le bois. Si vous réussissez le défi opposé, vous provoquez l'agrippement de votre cible, qui s'enfonce dans le sol à une profondeur atteignant juste le dessous de ses genoux. Pendant que votre adversaire est ainsi grappinée, vous pouvez vous déplacer et agir normalement sans mettre fin aux effets du grappin ; il s'agit d'une exception aux règles limitant votre capacité à vous déplacer de plus d'un pas ou à cibler d'autres personnages tout en maintenant un grappin. Si un individu agrippé par ce pouvoir tente de s'échapper, il doit réussir un défi statique en utilisant son attribut physique + compétence de bagarre ou de mêlée (s'il est correctement armé) contre votre attribut social + compétence de survie. Vous ne pouvez pas utiliser la Volonté pour tester à nouveau les défis d'un adversaire pour échapper aux grappins établis par Enterrement brutal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, vous pouvez cibler des objets inanimés avec Enterrement brutal à condition qu'ils ne contiennent pas créatures vivantes ou mortes-vivantes. Dépensez 1 point de Sang et utilisez une action simple pour faire en sorte qu'un objet, ou une cachette d'objets pas plus grands qu'une petite voiture, à s'enfoncer complètement dans la terre. Vous pouvez dépenser une action simple pour ramener les objets fusionnés à la surface. Pendant que fusionnés, les objets existent dans un état semi-tangible. Si retournés à la surface ou déterrés manuellement, ces objets ne montrent aucun effet néfaste pour avoir été internés.",
+          "spans": [
+            {
+              "text": "De plus, vous pouvez cibler des objets inanimés avec Enterrement brutal à condition qu'ils ne contiennent pas créatures vivantes ou mortes-vivantes. Dépensez 1 point de Sang et utilisez une action simple pour faire en sorte qu'un objet, ou une cachette d'objets pas plus grands qu'une petite voiture, à s'enfoncer complètement dans la terre. Vous pouvez dépenser une action simple pour ramener les objets fusionnés à la surface. Pendant que fusionnés, les objets existent dans un état semi-tangible. Si retournés à la surface ou déterrés manuellement, ces objets ne montrent aucun effet néfaste pour avoir été internés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si Enterrement brutal est utilisé sur une cible qui qui possède le pouvoir de protéisme Fusion avec la terre, ce personnage personnage peut activer Fusion avec la terre normalement, ce qui lui permet échapper au grappin. Cette utilisation de la fusion avec la terre fonctionne normalement pour les personnages ciblés, même si la cible a été a été enfermée dans une substance dure qu'elle ne pourrait normalement pas affecter avec. Cette technique n'est pas un pouvoir de transformation ; les personnages utilisant ou ou affectés avec succès par Enterrement brutal et qui sont aussi en train d'utiliser un pouvoir de transformation ne sont pas obliger de l'annuler quand ils sont ciblés par Enterrement Brutal.",
+          "spans": [
+            {
+              "text": "Si Enterrement brutal est utilisé sur une cible qui qui possède le pouvoir de protéisme Fusion avec la terre, ce personnage personnage peut activer Fusion avec la terre normalement, ce qui lui permet échapper au grappin. Cette utilisation de la fusion avec la terre fonctionne normalement pour les personnages ciblés, même si la cible a été a été enfermée dans une substance dure qu'elle ne pourrait normalement pas affecter avec. Cette technique n'est pas un pouvoir de transformation ; les personnages utilisant ou ou affectés avec succès par Enterrement brutal et qui sont aussi en train d'utiliser un pouvoir de transformation ne sont pas obliger de l'annuler quand ils sont ciblés par Enterrement Brutal.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8019-adf6-c8230502c9dd",
+      "slug": "essaim-d-animaux",
+      "title": "Essaim d’animaux",
+      "notionUrl": "https://app.notion.com/p/Essaim-d-animaux-3a288b48e48e8019adf6c8230502c9dd",
+      "lastEditedTime": "2026-07-19T11:23:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Protéisme ••••",
+            "Célérité ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Essaim d’animaux"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Attention : Transformation majeure",
+          "spans": [
+            {
+              "text": "Attention : Transformation majeure",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans l'un, il y en a beaucoup. Notre conscience se meut en toutes choses, et comme un essaim de bêtes sait instinctivement la volonté de son chef, vous pouvez aussi diviser votre chair et incarner en de nombreuses créatures à la fois - chacune étant unifiée par votre esprit.",
+          "spans": [
+            {
+              "text": "Dans l'un, il y en a beaucoup. Notre conscience se meut en toutes choses, et comme un essaim de bêtes sait instinctivement la volonté de son chef, vous pouvez aussi diviser votre chair et incarner en de nombreuses créatures à la fois - chacune étant unifiée par votre esprit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous activez Forme de la Bête, vous pouvez choisir de vous transformer en un essaim d’animaux au lieu d’une créature. Vous vous transformez en versions légèrement plus petites du même animal que votre Forme de la Bête. Si votre Forme de la Bête vous permet de vous transformer en une chauve-souris, vous pouvez vous transformer en plusieurs petites chauves-souris à l’aide d'Essaim d'animaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous activez Forme de la Bête, vous pouvez choisir de vous transformer en un essaim d’animaux au lieu d’une créature. Vous vous transformez en versions légèrement plus petites du même animal que votre Forme de la Bête. Si votre Forme de la Bête vous permet de vous transformer en une chauve-souris, vous pouvez vous transformer en plusieurs petites chauves-souris à l’aide d'Essaim d'animaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet essaim consiste en un animal pour chaque point de Célérité que vous possédez. Les pouvoirs des aînés et les techniques basées sur la célérité n’augmentent pas le nombre d'animaux créés par Essaim d’animaux. Chaque animal peut agir indépendamment et peut utiliser une action simple et une action standard à chaque tour. En utilisant Essaim d’animaux, vous ne pouvez pas dépenser de sang ni ne pouvez utiliser vos autres pouvoirs.",
+          "spans": [
+            {
+              "text": "Cet essaim consiste en un animal pour chaque point de Célérité que vous possédez. Les pouvoirs des aînés et les techniques basées sur la célérité n’augmentent pas le nombre d'animaux créés par Essaim d’animaux. Chaque animal peut agir indépendamment et peut utiliser une action simple et une action standard à chaque tour. En utilisant Essaim d’animaux, vous ne pouvez pas dépenser de sang ni ne pouvez utiliser vos autres pouvoirs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même les pouvoirs qui ont été activés avant d’utiliser Essaim d'animaux cessent de fonctionner sous cette forme. Activer Essaim d’animaux n’interrompt pas les altérations physiques permanentes. Par exemple, si votre cœur est enlevé, il ne réapparaîtra pas lorsque vous activez ce pouvoir.",
+          "spans": [
+            {
+              "text": "Même les pouvoirs qui ont été activés avant d’utiliser Essaim d'animaux cessent de fonctionner sous cette forme. Activer Essaim d’animaux n’interrompt pas les altérations physiques permanentes. Par exemple, si votre cœur est enlevé, il ne réapparaîtra pas lorsque vous activez ce pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chacun de vos animaux à vos attributs mentaux, sociaux, focus et compétences. Par défaut, ces animaux infligent 1 point de dégâts aggravés avec une attaque Bagarre réussie. Si votre personnage possède n’importe quel niveau de Puissance, les attaques de vos animaux sont perce-armure (qualité) et infligent 2 points de dégâts aggravés. Chaque créature a 5 niveaux de santé (1 en santé, 2 blessés et 2 en incapacité). Vos avantages, vos handicaps et vos pouvoirs n’affectent pas le niveau de santé de votre Essaim d'animaux. Si votre personnage possède n’importe quel niveau de Force d'âme, chacun de vos animaux annule automatiquement 1 point de dégâts normaux ou aggravés chaque fois qu’ils subissent des dégâts. Si vos animaux tentent de re-test au combat, chaque animal doit dépenser la Volonté séparément ; ils utilisent votre réserve de volonté pour le faire.",
+          "spans": [
+            {
+              "text": "Chacun de vos animaux à vos attributs mentaux, sociaux, focus et compétences. Par défaut, ces animaux infligent 1 point de dégâts aggravés avec une attaque Bagarre réussie. Si votre personnage possède n’importe quel niveau de Puissance, les attaques de vos animaux sont perce-armure (qualité) et infligent 2 points de dégâts aggravés. Chaque créature a 5 niveaux de santé (1 en santé, 2 blessés et 2 en incapacité). Vos avantages, vos handicaps et vos pouvoirs n’affectent pas le niveau de santé de votre Essaim d'animaux. Si votre personnage possède n’importe quel niveau de Force d'âme, chacun de vos animaux annule automatiquement 1 point de dégâts normaux ou aggravés chaque fois qu’ils subissent des dégâts. Si vos animaux tentent de re-test au combat, chaque animal doit dépenser la Volonté séparément ; ils utilisent votre réserve de volonté pour le faire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant qu’Essaim d’animaux est activé en forme de vol, chaque animal gagne un bonus de 1 en Esquive pour les tests défensifs et peut voler à votre vitesse de déplacement normale. En forme de vol, votre attribut physique est considéré comme 1 lorsque vous attaquez.",
+          "spans": [
+            {
+              "text": "Tant qu’Essaim d’animaux est activé en forme de vol, chaque animal gagne un bonus de 1 en Esquive pour les tests défensifs et peut voler à votre vitesse de déplacement normale. En forme de vol, votre attribut physique est considéré comme 1 lorsque vous attaquez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En forme de combat, chacun de vos animaux à un attribut physique égal à la moitié de votre propre attribut physique (arrondi au supérieur). Les autres bonus de Forme de la bête ne s’appliquent pas lorsque vous utilisez Essaim d'animaux.",
+          "spans": [
+            {
+              "text": "En forme de combat, chacun de vos animaux à un attribut physique égal à la moitié de votre propre attribut physique (arrondi au supérieur). Les autres bonus de Forme de la bête ne s’appliquent pas lorsque vous utilisez Essaim d'animaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les animaux créés par Essaim d’animaux peuvent se séparer et effectuer des tâches individuelles, mais doivent rester à moins d'un mile (1.6km) les uns des autres. Vous pouvez utiliser une action standard pour revenir à votre forme humaine à l’emplacement de tout animal créé par ce pouvoir. Lorsque vous revenez à la forme humaine, vous réabsorbez automatiquement tous vos animaux qui sont dans votre ligne de mire. Les animaux qui ne sont pas dans votre ligne de vue s’effritent au même moment, se transformant en cendres. Quand Essaim d’animaux se termine, vous prenez 2 points de dégâts aggravés pour chaque animal qui a été détruit, 1 point de dégâts aggravés pour chaque animal qui a été blessé ou est en incapacité, ET vous perdez 2 Sang pour chaque animal qui était en dehors de votre ligne de mire lorsque vous vous êtes réformé. Les dommages causés par le retour à la forme humaine ne peuvent pas être réduits ou annulés, mais ne peuvent pas tuer votre personnage (bien que cela puisse entraîner une torpeur). Si tous les animaux d’un essaim sont détruits, l’utilisateur d’Essaim d’animaux meurt.",
+          "spans": [
+            {
+              "text": "Les animaux créés par Essaim d’animaux peuvent se séparer et effectuer des tâches individuelles, mais doivent rester à moins d'un mile (1.6km) les uns des autres. Vous pouvez utiliser une action standard pour revenir à votre forme humaine à l’emplacement de tout animal créé par ce pouvoir. Lorsque vous revenez à la forme humaine, vous réabsorbez automatiquement tous vos animaux qui sont dans votre ligne de mire. Les animaux qui ne sont pas dans votre ligne de vue s’effritent au même moment, se transformant en cendres. Quand Essaim d’animaux se termine, vous prenez 2 points de dégâts aggravés pour chaque animal qui a été détruit, 1 point de dégâts aggravés pour chaque animal qui a été blessé ou est en incapacité, ET vous perdez 2 Sang pour chaque animal qui était en dehors de votre ligne de mire lorsque vous vous êtes réformé. Les dommages causés par le retour à la forme humaine ne peuvent pas être réduits ou annulés, mais ne peuvent pas tuer votre personnage (bien que cela puisse entraîner une torpeur). Si tous les animaux d’un essaim sont détruits, l’utilisateur d’Essaim d’animaux meurt.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les animaux créés par ce pouvoir sont considérés comme une entité pour les pouvoirs qui modifient le comportement d’un individu. Si un animal est dominé, tous les animaux de l’essaim subissent les effets de ce pouvoir. Si un animal ne peut pas briser la Majesté d’un individu, aucun des animaux de l’essaim ne peut attaquer cet individu.",
+          "spans": [
+            {
+              "text": "Les animaux créés par ce pouvoir sont considérés comme une entité pour les pouvoirs qui modifient le comportement d’un individu. Si un animal est dominé, tous les animaux de l’essaim subissent les effets de ce pouvoir. Si un animal ne peut pas briser la Majesté d’un individu, aucun des animaux de l’essaim ne peut attaquer cet individu.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80b0-9622-db9a6746d4aa",
+      "slug": "expulsion-sanguine",
+      "title": "Expulsion Sanguine",
+      "notionUrl": "https://app.notion.com/p/Expulsion-Sanguine-3a288b48e48e80b09622db9a6746d4aa",
+      "lastEditedTime": "2026-07-19T11:33:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Puissance •",
+            "Force d'âme ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Expulsion Sanguine"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Supposément crée par de “très puissants Ancillas” , cette technique vous permet d’ingérer de petites quantités de sang sans les absorber dans votre système, seulement pour une courte période de temps. Après avoir ingéré le sang, vous devez le régurgiter quelques minutes après pour vous prévenir de ses effets.",
+          "spans": [
+            {
+              "text": "Supposément crée par de “très puissants Ancillas” , cette technique vous permet d’ingérer de petites quantités de sang sans les absorber dans votre système, seulement pour une courte période de temps. Après avoir ingéré le sang, vous devez le régurgiter quelques minutes après pour vous prévenir de ses effets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Immédiatement après avoir ingéré 1 point de sang ou plus (et avant qu’ils soient ajoutés à votre réserve de sang) vous pouvez dépenser 1 point de sang pour prévenir le sang étranger d’intégrer votre corps. Vous pouvez retenir ce sang pour un maximum de 10 minutes. Pendant ce temps, vous n’êtes affecté par aucune propriété surnaturelle (poison, drogues, médicaments, maladies) ou effets du sang. Vous ne subirez pas l’effet d’un vinculum durant une Vaulderie, vous ne subirez pas de dégât provenant du sang d’un Tzimisce connaissant “Sang acide”, ni ne deviendrez lié au sang à la source de celui-ci. Si vous n’avez pas dépensé d’actions standard pour expulser le sang au cours des 10 minutes, le sang sera consommé par votre corps et vous subirez les potentiels effets susmentionnés. Si vous expulsez le sang avant la limite dès 10 minutes, vous pouvez faire le choix de garder ses effets. En utilisant “Expulsion Sanguine”, si vous êtes amené à utiliser un point de sang, les effets de la technique disparaîtront, causant l’absorption immédiate du sang étranger et les effets qui vont avec.",
+          "spans": [
+            {
+              "text": "Immédiatement après avoir ingéré 1 point de sang ou plus (et avant qu’ils soient ajoutés à votre réserve de sang) vous pouvez dépenser 1 point de sang pour prévenir le sang étranger d’intégrer votre corps. Vous pouvez retenir ce sang pour un maximum de 10 minutes. Pendant ce temps, vous n’êtes affecté par aucune propriété surnaturelle (poison, drogues, médicaments, maladies) ou effets du sang. Vous ne subirez pas l’effet d’un vinculum durant une Vaulderie, vous ne subirez pas de dégât provenant du sang d’un Tzimisce connaissant “Sang acide”, ni ne deviendrez lié au sang à la source de celui-ci. Si vous n’avez pas dépensé d’actions standard pour expulser le sang au cours des 10 minutes, le sang sera consommé par votre corps et vous subirez les potentiels effets susmentionnés. Si vous expulsez le sang avant la limite dès 10 minutes, vous pouvez faire le choix de garder ses effets. En utilisant “Expulsion Sanguine”, si vous êtes amené à utiliser un point de sang, les effets de la technique disparaîtront, causant l’absorption immédiate du sang étranger et les effets qui vont avec.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8041-bc67-d283cca7c50b",
+      "slug": "fabrication-des-ombres",
+      "title": "Fabrication des ombres",
+      "notionUrl": "https://app.notion.com/p/Fabrication-des-ombres-3a288b48e48e8041bc67d283cca7c50b",
+      "lastEditedTime": "2026-07-19T11:34:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Obténébration •",
+            "Puissance •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "obtenebration",
+              "title": "Obténébration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Fabrication des ombres"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les philosophes anciens et mesquins assimilaient les ombres à des mensonges, en invoquant leur caractère fugace et intangible. Pour vous, cette épistémologie étroite n'est pas pertinente ; après tout, les philosophes sont morts et vous ne l'êtes pas. En effet, vous avez le pouvoir de réfuter leurs notions erronées par un moyen qui consiste d'infuser l'ombre naturelle avec le pouvoir de votre sang. Ce processus lui confère forme, substance et permanence, ce qui permet la création d'une variété d'objets utiles. Ces objets servent aussi bien d'objets d'art que d'armes de guerre.",
+          "spans": [
+            {
+              "text": "Les philosophes anciens et mesquins assimilaient les ombres à des mensonges, en invoquant leur caractère fugace et intangible. Pour vous, cette épistémologie étroite n'est pas pertinente ; après tout, les philosophes sont morts et vous ne l'êtes pas. En effet, vous avez le pouvoir de réfuter leurs notions erronées par un moyen qui consiste d'infuser l'ombre naturelle avec le pouvoir de votre sang. Ce processus lui confère forme, substance et permanence, ce qui permet la création d'une variété d'objets utiles. Ces objets servent aussi bien d'objets d'art que d'armes de guerre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez le pouvoir de transformer l'ombre en substance solide, en fabriquant une variété d'objets utiles et artistiques. Pour ce faire, vous devez dépenser une partie de votre sang en fabriquant un objet à partir d'une source naturelle d'ombre.\nDépensez 1 point de sang et effectuez une action standard pour créer des objets suffisamment petits pour être soulevés ou maniés d'une seule main. Pour la création d'objets nécessitant deux mains pour être soulevés ou pour les utiliser, il faut dépenser 2 points de sang et effectuer deux actions standard. La création d'objets de la taille d'une personne, comme une armure, nécessite de dépenser 3 points de sang et trois actions standard. Vous pouvez choisir de créer des objets encore plus grands, en dépensant du sang et des tours successifs si nécessaire, à condition qu'il y ait une ombre naturelle de taille comparable sur laquelle s'appuyer.\nCette ombre solidifiée est froide au toucher, durable et suffisamment tranchante pour être utilisée comme arme. Les objets créés grâce à la fabrication de l'ombres sont impressionnants ; cependant, ils semblent manifestement surnaturels et, s'ils sont vus par des mortels, peuvent causer des problèmes avec la mascarade. Les objets créés pendant les sessions durent le reste de la nuit. Cependant, vous pouvez choisir d'utiliser ce pouvoir en conjonction avec vos actions d'AIP pour créer des objets à partir d'une ombre plus durable, conformément en accord avec les règles d'artisanat.",
+          "spans": [
+            {
+              "text": "Vous avez le pouvoir de transformer l'ombre en substance solide, en fabriquant une variété d'objets utiles et artistiques. Pour ce faire, vous devez dépenser une partie de votre sang en fabriquant un objet à partir d'une source naturelle d'ombre.\nDépensez 1 point de sang et effectuez une action standard pour créer des objets suffisamment petits pour être soulevés ou maniés d'une seule main. Pour la création d'objets nécessitant deux mains pour être soulevés ou pour les utiliser, il faut dépenser 2 points de sang et effectuer deux actions standard. La création d'objets de la taille d'une personne, comme une armure, nécessite de dépenser 3 points de sang et trois actions standard. Vous pouvez choisir de créer des objets encore plus grands, en dépensant du sang et des tours successifs si nécessaire, à condition qu'il y ait une ombre naturelle de taille comparable sur laquelle s'appuyer.\nCette ombre solidifiée est froide au toucher, durable et suffisamment tranchante pour être utilisée comme arme. Les objets créés grâce à la fabrication de l'ombres sont impressionnants ; cependant, ils semblent manifestement surnaturels et, s'ils sont vus par des mortels, peuvent causer des problèmes avec la mascarade. Les objets créés pendant les sessions durent le reste de la nuit. Cependant, vous pouvez choisir d'utiliser ce pouvoir en conjonction avec vos actions d'AIP pour créer des objets à partir d'une ombre plus durable, conformément en accord avec les règles d'artisanat.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous créez des objets en utilisant ce pouvoir, vous déterminez la forme de l'objet et ses qualités d'équipement en utilisant les règles normales de sélection de l'équipement ; Cependant, vous ne pouvez pas utiliser ce pouvoir pour créer quoi que ce soit de nature mécanique, tel qu'un ordinateur ou une automobile. Tous les objets créés à l'aide de la Fabrication de l'ombre gagnent également le bonus de qualité Cristallin, qui n'est pas pris en compte dans le nombre maximum d'équipements.",
+          "spans": [
+            {
+              "text": "Lorsque vous créez des objets en utilisant ce pouvoir, vous déterminez la forme de l'objet et ses qualités d'équipement en utilisant les règles normales de sélection de l'équipement ; Cependant, vous ne pouvez pas utiliser ce pouvoir pour créer quoi que ce soit de nature mécanique, tel qu'un ordinateur ou une automobile. Tous les objets créés à l'aide de la Fabrication de l'ombre gagnent également le bonus de qualité Cristallin, qui n'est pas pris en compte dans le nombre maximum d'équipements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cristallin : Cet objet est fait d'une façon qui serait impossible d'après les lois de la nature. Cet objet peux avoir l'atout “Composition étrange”, même si ce n'est pas possible normalement pour ce type d'objet. Il s'agit d'un bris évident de mascarade.",
+          "spans": [
+            {
+              "text": "Cristallin : Cet objet est fait d'une façon qui serait impossible d'après les lois de la nature. Cet objet peux avoir l'atout “Composition étrange”, même si ce n'est pas possible normalement pour ce type d'objet. Il s'agit d'un bris évident de mascarade.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-808a-8002-ef273bc697ac",
+      "slug": "faiblesse-de-l-acier",
+      "title": "Faiblesse de l'acier",
+      "notionUrl": "https://app.notion.com/p/Faiblesse-de-l-acier-3a288b48e48e808a8002ef273bc697ac",
+      "lastEditedTime": "2026-07-19T11:35:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Quiétus ••",
+            "Auspex •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Faiblesse de l'acier"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La science de la métallurgie nous enseigne que trop de dureté peut rendre l'acier cassant, et que trop peu peut rendre une pièce molle. Chaque type d'acier a ses avantages, ses applications et ses faiblesses. Développée par les Vizirs Assamite, cette technique permet de concentrer ses sens aiguisés sur l'analyse rapide des armes et armures de vos ennemis, ce qui vous permet de calculer le meilleur moyen de les briser.",
+          "spans": [
+            {
+              "text": "La science de la métallurgie nous enseigne que trop de dureté peut rendre l'acier cassant, et que trop peu peut rendre une pièce molle. Chaque type d'acier a ses avantages, ses applications et ses faiblesses. Développée par les Vizirs Assamite, cette technique permet de concentrer ses sens aiguisés sur l'analyse rapide des armes et armures de vos ennemis, ce qui vous permet de calculer le meilleur moyen de les briser.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et utilisez une action standard pour étudier votre cible et son armement tout en fortifiant l'arme que vous tenez actuellement avec une application de Toucher du Scorpion. Après avoir réussi à frapper votre cible avec l'arme désignée, vous pouvez choisir un seul objet en sa possession et le détruire automatiquement. Si vous le faites, votre attaque n'inflige pas de dégâts et ne transmet pas d'effets supplémentaires, tels que les manœuvres de combat ou d'autres applications de pouvoir de Quiétus. Faiblesse de l'acier n'a d'effet qu'une seule fois, après quoi elle prend fin immédiatement.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et utilisez une action standard pour étudier votre cible et son armement tout en fortifiant l'arme que vous tenez actuellement avec une application de Toucher du Scorpion. Après avoir réussi à frapper votre cible avec l'arme désignée, vous pouvez choisir un seul objet en sa possession et le détruire automatiquement. Si vous le faites, votre attaque n'inflige pas de dégâts et ne transmet pas d'effets supplémentaires, tels que les manœuvres de combat ou d'autres applications de pouvoir de Quiétus. Faiblesse de l'acier n'a d'effet qu'une seule fois, après quoi elle prend fin immédiatement.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80e2-927f-ec3c8288d01a",
+      "slug": "faille-memorielle",
+      "title": "Faille mémorielle",
+      "notionUrl": "https://app.notion.com/p/Faille-m-morielle-3a288b48e48e80e2927fec3c8288d01a",
+      "lastEditedTime": "2026-07-19T11:36:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Dissimulation ••••",
+            "Domination •••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Faille mémorielle"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La capacité à disparaître de la vue d’autrui laisse vos ennemis avec de précieuses informations. Cependant, grâce à “Faille Mémorielle”, vous avez la possibilité de disparaître non-seulement de leur vue, mais aussi de leur mémoire. Vous emportez avec vous le souvenir de votre présence durant la rencontre et laissez votre ennemi confus et inapte à se souvenir des éléments qui vous impliquent.",
+          "spans": [
+            {
+              "text": "La capacité à disparaître de la vue d’autrui laisse vos ennemis avec de précieuses informations. Cependant, grâce à “Faille Mémorielle”, vous avez la possibilité de disparaître non-seulement de leur vue, mais aussi de leur mémoire. Vous emportez avec vous le souvenir de votre présence durant la rencontre et laissez votre ennemi confus et inapte à se souvenir des éléments qui vous impliquent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir réussi à utiliser “Disparition à la vue de l'esprit” (Dissimulation ●●●●) vous pouvez utiliser une action simple pour immédiatement utiliser Altération mémorielle (Domination●●●) sur la même cible. Ceci est une exception à la règle qui spécifie que vous devez croiser le regard de la cible et vous concentrer pour utiliser Domination. Si ce challenge implique plusieurs cibles, utiliser un point de volonté pour retest contre une unique cible vous permet aussi d’utiliser un point de volonté pour retest contre n’importe quelle cible du groupe en question sur laquelle vous n’avez pas encore utilisé votre discipline. Cet usage de Alteration mémorielle devrait seulement être utilisé pour effacer ou altérer la mémoire de votre présence et de vos actions de l’esprit de votre cible. Ce pouvoir concerne les dix minutes avant son lancement ; aucune autre altération mémorielle ne devrait être réalisée. L’utilisation de “Faille mémorielle” ne brise pas votre dissimulation. Cette technique est aussi une exception à la règle qui explique que si vous interagissez avec votre environnement, parlez avec un autre personnage, ou attirez l’attention vers vous, votre Présence invisible se brisera et vous redeviendrez visible. “Faille mémorielle” ne peut pas être utilisé pendant les tours de Célérité ni ne peut être combiné avec d’autre pouvoirs ou atout qui amplifient Altération mémorielle ou Disparition à la vue de l'esprit.",
+          "spans": [
+            {
+              "text": "Après avoir réussi à utiliser “Disparition à la vue de l'esprit” (Dissimulation ●●●●) vous pouvez utiliser une action simple pour immédiatement utiliser Altération mémorielle (Domination●●●) sur la même cible. Ceci est une exception à la règle qui spécifie que vous devez croiser le regard de la cible et vous concentrer pour utiliser Domination. Si ce challenge implique plusieurs cibles, utiliser un point de volonté pour retest contre une unique cible vous permet aussi d’utiliser un point de volonté pour retest contre n’importe quelle cible du groupe en question sur laquelle vous n’avez pas encore utilisé votre discipline. Cet usage de Alteration mémorielle devrait seulement être utilisé pour effacer ou altérer la mémoire de votre présence et de vos actions de l’esprit de votre cible. Ce pouvoir concerne les dix minutes avant son lancement ; aucune autre altération mémorielle ne devrait être réalisée. L’utilisation de “Faille mémorielle” ne brise pas votre dissimulation. Cette technique est aussi une exception à la règle qui explique que si vous interagissez avec votre environnement, parlez avec un autre personnage, ou attirez l’attention vers vous, votre Présence invisible se brisera et vous redeviendrez visible. “Faille mémorielle” ne peut pas être utilisé pendant les tours de Célérité ni ne peut être combiné avec d’autre pouvoirs ou atout qui amplifient Altération mémorielle ou Disparition à la vue de l'esprit.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8043-86f7-e23c1d1e640a",
+      "slug": "feinte-deloyale",
+      "title": "Feinte déloyale",
+      "notionUrl": "https://app.notion.com/p/Feinte-d-loyale-3a288b48e48e804386f7e23c1d1e640a",
+      "lastEditedTime": "2026-07-19T11:38:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Auspex •••",
+            "Présence •"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Feinte déloyale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En poussant subtilement les émotions de votre adversaire jusqu'à ce qu'elle réagisse, vous créez une faiblesse dans sa défense que vous découvrez et exploiter.",
+          "spans": [
+            {
+              "text": "En poussant subtilement les émotions de votre adversaire jusqu'à ce qu'elle réagisse, vous créez une faiblesse dans sa défense que vous découvrez et exploiter.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au lieu de dépenser un point de Volonté pour utiliser une manœuvre de combat, vous pouvez choisir de dépenser 1 Sang à la place.",
+          "spans": [
+            {
+              "text": "Au lieu de dépenser un point de Volonté pour utiliser une manœuvre de combat, vous pouvez choisir de dépenser 1 Sang à la place.",
               "bold": false
             }
           ]
