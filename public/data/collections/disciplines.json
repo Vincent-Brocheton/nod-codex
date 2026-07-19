@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-19T12:00:00.825Z",
+  "generatedAt": "2026-07-19T19:19:10.042Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -141,7 +141,88 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "an-da-shealladh",
+              "title": "An Da Shealladh",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "attraper-une-bouffee-de-folie",
+              "title": "Attraper une bouffée de folie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ce-maudit-chat",
+              "title": "Ce Maudit Chat",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "echo-de-psychose",
+              "title": "Écho de psychose",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "gemissements-de-banshee",
+              "title": "Gémissements de Banshee",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "pensees-empoisonnees",
+              "title": "Pensées empoisonnées",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "plume-de-l-homme-fou",
+              "title": "Plume de l'homme fou",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "renard-fou",
+              "title": "Renard Fou",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "rire-malgre-la-douleur",
+              "title": "Rire malgré la douleur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ver-d-oreille",
+              "title": "Ver d'oreille",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -324,7 +405,128 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "allure-bestiale",
+              "title": "Allure bestiale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ameliorer-la-chevauchee-sauvage",
+              "title": "Améliorer la chevauchée sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "bassin-de-fraie",
+              "title": "Bassin de fraie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "benediction-de-fenrir",
+              "title": "Bénédiction de Fenrir",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "bete-venimeuse",
+              "title": "Bête venimeuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ce-maudit-chat",
+              "title": "Ce Maudit Chat",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "controle-de-la-bete-sauvage",
+              "title": "Contrôle de la bête sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "cul-sec",
+              "title": "Cul-sec",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "forme-dynamique",
+              "title": "Forme dynamique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "lion-gardien",
+              "title": "Lion gardien",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "nourrir-la-bete",
+              "title": "Nourrir la bête",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "provocation-sauvage",
+              "title": "Provocation sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sang-de-loup",
+              "title": "Sang de loup",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "succulence-animale",
+              "title": "Succulence animale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vigueur-de-la-bete",
+              "title": "Vigueur de la Bête ",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -504,7 +706,136 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "an-da-shealladh",
+              "title": "An Da Shealladh",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "attraper-une-bouffee-de-folie",
+              "title": "Attraper une bouffée de folie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "deverrouiller-le-potentiel-cache",
+              "title": "Déverrouiller le potentiel caché",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "donnez-leur-l-enfer",
+              "title": "Donnez-leur l'enfer",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "faiblesse-de-l-acier",
+              "title": "Faiblesse de l'acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "feinte-deloyale",
+              "title": "Feinte déloyale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "innervation-de-la-psyche",
+              "title": "Innervation de la psyché",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "instruction-telepathique",
+              "title": "Instruction Télépathique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "mains-rapides-travail-rapide",
+              "title": "Mains rapides, Travail rapide",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "il-de-l-aigle",
+              "title": "Œil de L’Aigle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "pensees-empoisonnees",
+              "title": "Pensées empoisonnées",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "plume-de-l-homme-fou",
+              "title": "Plume de l'homme fou",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vehicule-furtif",
+              "title": "Véhicule furtif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "veille-des-gardiens",
+              "title": "Veille des gardiens",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "visages-familiers",
+              "title": "Visages familiers",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vision-de-la-forme-veritable",
+              "title": "Vision de la Forme Véritable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -609,8 +940,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -745,7 +1076,104 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "commandement-instinctif",
+              "title": "Commandement instinctif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "essaim-d-animaux",
+              "title": "Essaim d’animaux",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "grace-surnaturelle",
+              "title": "Grâce surnaturelle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "langue-aceree",
+              "title": "Langue acérée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "mains-rapides-travail-rapide",
+              "title": "Mains rapides, Travail rapide",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "il-de-l-aigle",
+              "title": "Œil de L’Aigle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "poursuite-implacable",
+              "title": "Poursuite implacable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "retenir-le-flux-sanguin",
+              "title": "Retenir le flux sanguin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sang-rapide",
+              "title": "Sang rapide",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "transformation-instantanee",
+              "title": "Transformation Instantanée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "translocation",
+              "title": "Translocation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "veille-des-gardiens",
+              "title": "Veille des gardiens",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -1052,7 +1480,32 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "acte-de-disparition",
+              "title": "Acte de disparition",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "agreable-agonie",
+              "title": "Agréable Agonie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "augmentation-illusoire",
+              "title": "Augmentation illusoire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -1197,7 +1650,32 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "clause-d-evasion",
+              "title": "Clause d'évasion",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "flamme-fletrie",
+              "title": "Flamme flétrie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "possession-symbiotique",
+              "title": "Possession symbiotique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -1334,7 +1812,72 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "acte-de-disparition",
+              "title": "Acte de disparition",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "affection-mal-placee",
+              "title": "Affection Mal Placée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "aura-de-deplacement",
+              "title": "Aura de déplacement",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "faille-memorielle",
+              "title": "Faille mémorielle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "monologue",
+              "title": "Monologue",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "nid-de-serpents",
+              "title": "Nid de serpents",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "plaies-trompeuses",
+              "title": "Plaies trompeuses",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vehicule-furtif",
+              "title": "Véhicule furtif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -1717,7 +2260,120 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "ami-distant",
+              "title": "Ami distant",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "brume-noire",
+              "title": "Brume noire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "clause-d-evasion",
+              "title": "Clause d'évasion",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "commandement-instinctif",
+              "title": "Commandement instinctif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "controle-de-la-bete-sauvage",
+              "title": "Contrôle de la bête sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "deni-de-la-faveur-d-aphrodite",
+              "title": "Déni de la faveur d’Aphrodite",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "faille-memorielle",
+              "title": "Faille mémorielle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "innervation-de-la-psyche",
+              "title": "Innervation de la psyché",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "instruction-telepathique",
+              "title": "Instruction Télépathique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "la-lamentation-de-ligeia",
+              "title": "La Lamentation de Ligeia",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "possession-symbiotique",
+              "title": "Possession symbiotique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ravissement",
+              "title": "Ravissement",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "regard-rayonnant",
+              "title": "Regard rayonnant",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "reglage-du-tempo",
+              "title": "Réglage du tempo",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -1996,7 +2652,200 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "agreable-agonie",
+              "title": "Agréable Agonie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "armure-tenebreuse",
+              "title": "Armure Ténébreuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "aura-de-deplacement",
+              "title": "Aura de déplacement",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "bassin-de-fraie",
+              "title": "Bassin de fraie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "eclat-de-la-forme-souple",
+              "title": "Eclat de la forme souple",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "enterrement-brutal",
+              "title": "Enterrement brutal",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "expulsion-sanguine",
+              "title": "Expulsion Sanguine",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "flamme-fletrie",
+              "title": "Flamme flétrie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "grace-surnaturelle",
+              "title": "Grâce surnaturelle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "peau-du-blaireau",
+              "title": "Peau du blaireau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "peau-du-serpent",
+              "title": "Peau du serpent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "plaies-trompeuses",
+              "title": "Plaies trompeuses",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "prodige-de-la-sculpture-des-os",
+              "title": "Prodige de la Sculpture des Os",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "rire-malgre-la-douleur",
+              "title": "Rire malgré la douleur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sang-rapide",
+              "title": "Sang rapide",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "second-souffle",
+              "title": "Second Souffle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "succulence-animale",
+              "title": "Succulence animale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "syntonisation-alchimique",
+              "title": "Syntonisation alchimique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "transformation-instantanee",
+              "title": "Transformation Instantanée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "trempe-du-sang",
+              "title": "Trempe du sang",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "veille-des-gardiens",
+              "title": "Veille des gardiens",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vigueur-de-la-bete",
+              "title": "Vigueur de la Bête ",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vitalite-mercurielle",
+              "title": "Vitalité mercurielle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "volonte-de-survivre",
+              "title": "Volonté de survivre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -2168,7 +3017,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "sentir-les-liens",
+              "title": "Sentir les liens",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "attenuer-l-harmonie",
+              "title": "Atténuer l'harmonie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "renforcer-l-harmonie",
+              "title": "Renforcer l'harmonie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "connectique-liee",
+              "title": "Connectique liée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "transfert-de-douleur",
+              "title": "Transfert de douleur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -2211,8 +3101,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2257,7 +3147,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "jeu-d-ombres",
+              "title": "Jeu d’Ombres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "voile-de-nuit",
+              "title": "Voile de Nuit",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "bras-des-abysses",
+              "title": "Bras des Abysses",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "sombre-metamorphose",
+              "title": "Sombre Métamorphose",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "forme-tenebreuse",
+              "title": "Forme Ténébreuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -2271,7 +3202,48 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "armure-tenebreuse",
+              "title": "Armure Ténébreuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "brume-noire",
+              "title": "Brume noire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "fabrication-des-ombres",
+              "title": "Fabrication des ombres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "festin-des-ombres",
+              "title": "Festin des ombres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "terreur-tentaculaire",
+              "title": "Terreur tentaculaire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -2389,7 +3361,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "reverence",
+              "title": "Révérence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "regard-d-effroi",
+              "title": "Regard d’Effroi",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "envoutement",
+              "title": "Envoûtement",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "convocation",
+              "title": "Convocation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "majeste",
+              "title": "Majesté",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -2404,7 +3417,160 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "affection-mal-placee",
+              "title": "Affection Mal Placée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "allure-bestiale",
+              "title": "Allure bestiale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ami-distant",
+              "title": "Ami distant",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "conseiller-malin",
+              "title": "Conseiller malin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "deni-de-la-faveur-d-aphrodite",
+              "title": "Déni de la faveur d’Aphrodite",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "deverrouiller-le-potentiel-cache",
+              "title": "Déverrouiller le potentiel caché",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "donnez-leur-l-enfer",
+              "title": "Donnez-leur l'enfer",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "echo-de-psychose",
+              "title": "Écho de psychose",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "feinte-deloyale",
+              "title": "Feinte déloyale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "grace-surnaturelle",
+              "title": "Grâce surnaturelle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "langue-aceree",
+              "title": "Langue acérée",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "monologue",
+              "title": "Monologue",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "provocation-sauvage",
+              "title": "Provocation sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ravissement",
+              "title": "Ravissement",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "regard-d-acier",
+              "title": "Regard d'acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "renard-fou",
+              "title": "Renard Fou",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "rire-malgre-la-douleur",
+              "title": "Rire malgré la douleur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "souffle-craintif",
+              "title": "Souffle craintif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "volonte-de-survivre",
+              "title": "Volonté de survivre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -2652,7 +3818,96 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "ameliorer-la-chevauchee-sauvage",
+              "title": "Améliorer la chevauchée sauvage",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ce-maudit-chat",
+              "title": "Ce Maudit Chat",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "cul-sec",
+              "title": "Cul-sec",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "enterrement-brutal",
+              "title": "Enterrement brutal",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "essaim-d-animaux",
+              "title": "Essaim d’animaux",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "forme-de-la-tempete",
+              "title": "Forme de la tempête",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "forme-dynamique",
+              "title": "Forme dynamique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ichor-feroce",
+              "title": "Ichor Féroce",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "peau-du-blaireau",
+              "title": "Peau du blaireau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sang-de-loup",
+              "title": "Sang de loup",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "translocation",
+              "title": "Translocation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -2749,7 +4004,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "prouesse",
+              "title": "Prouesse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "redoutable",
+              "title": "Redoutable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vigueur",
+              "title": "Vigueur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "intensite",
+              "title": "Intensité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "toute-puissance",
+              "title": "Toute-Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -2763,7 +4059,136 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "augmentation-illusoire",
+              "title": "Augmentation illusoire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "benediction-de-fenrir",
+              "title": "Bénédiction de Fenrir",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "chatiment-de-la-pierre",
+              "title": "Châtiment de la pierre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "dechirer-la-chair",
+              "title": "Déchirer la chair",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "expulsion-sanguine",
+              "title": "Expulsion Sanguine",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "fabrication-des-ombres",
+              "title": "Fabrication des ombres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "festin-des-ombres",
+              "title": "Festin des ombres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "forme-de-la-tempete",
+              "title": "Forme de la tempête",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "nourrir-la-bete",
+              "title": "Nourrir la bête",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "poing-de-pierre",
+              "title": "Poing de pierre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "poursuite-implacable",
+              "title": "Poursuite implacable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "regard-d-acier",
+              "title": "Regard d'acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "second-souffle",
+              "title": "Second Souffle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "souffle-craintif",
+              "title": "Souffle craintif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "terreur-tentaculaire",
+              "title": "Terreur tentaculaire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vitalite-mercurielle",
+              "title": "Vitalité mercurielle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -2942,7 +4367,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "silence-de-la-mort",
+              "title": "Silence de la Mort",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "le-toucher-du-scorpion",
+              "title": "Le Toucher du Scorpion",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "l-appel-de-dagon",
+              "title": "L’Appel de Dagon",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "caresse-de-baal",
+              "title": "Caresse de Baal",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "gout-de-la-mort",
+              "title": "Goût de la Mort",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -2957,7 +4423,48 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "bete-venimeuse",
+              "title": "Bête venimeuse",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "faiblesse-de-l-acier",
+              "title": "Faiblesse de l'acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "ichor-feroce",
+              "title": "Ichor Féroce",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "retenir-le-flux-sanguin",
+              "title": "Retenir le flux sanguin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "trempe-du-sang",
+              "title": "Trempe du sang",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -3142,7 +4649,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "yeux-du-serpent",
+              "title": "Yeux du Serpent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "langue-de-l-aspic",
+              "title": "Langue de l’Aspic",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "peau-de-la-vipere",
+              "title": "Peau de la Vipère",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "forme-du-cobra",
+              "title": "Forme du Cobra",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "c-ur-des-tenebres",
+              "title": "Cœur des Ténèbres",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -3157,7 +4705,40 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "conseiller-malin",
+              "title": "Conseiller malin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "nid-de-serpents",
+              "title": "Nid de serpents",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "peau-du-serpent",
+              "title": "Peau du serpent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "regard-rayonnant",
+              "title": "Regard rayonnant",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -3356,7 +4937,48 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "dechirer-la-chair",
+              "title": "Déchirer la chair",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "eclat-de-la-forme-souple",
+              "title": "Eclat de la forme souple",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "prodige-de-la-sculpture-des-os",
+              "title": "Prodige de la Sculpture des Os",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vision-de-la-forme-veritable",
+              "title": "Vision de la Forme Véritable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "vitalite-mercurielle",
+              "title": "Vitalité mercurielle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -3561,7 +5183,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -3623,7 +5254,7 @@
       "slug": "voie-de-l-eau",
       "title": "Voie de l’Eau",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39388b48e48e8035b703db5062698197",
-      "lastEditedTime": "2026-07-04T23:15:00.000Z",
+      "lastEditedTime": "2026-07-19T15:05:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3639,7 +5270,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "blocage-aqueux",
+              "title": "Blocage aqueux",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "ressentir-l-eau",
+              "title": "Ressentir l'Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vibrations-de-l-eau",
+              "title": "Vibrations de l'Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "protection-aquatique",
+              "title": "Protection aquatique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-elementaire-eau",
+              "title": "Fusion élémentaire (Eau)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -3679,7 +5351,22 @@
           "value": "Voie de l’Eau"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Eau\" dont le niveau augmente avec le niveau de \"Voie de l'Eau\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Eau\".",
+          "spans": [
+            {
+              "text": "Effet passif",
+              "bold": true
+            },
+            {
+              "text": " : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Eau\" dont le niveau augmente avec le niveau de \"Voie de l'Eau\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Eau\".",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
@@ -3947,7 +5634,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -3955,7 +5651,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -3974,6 +5679,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "3a288b48-e48e-80f2-9ff5-d4950c7d9533",
+      "slug": "voie-de-l-eveil-de-l-acier",
+      "title": "Voie de l'Éveil de l'Acier",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-veil-de-l-Acier-3a288b48e48e80f29ff5d4950c7d9533",
+      "lastEditedTime": "2026-07-19T19:14:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Dextérité"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l'Éveil de l'Acier"
+        }
+      },
+      "content": []
     },
     {
       "id": "38188b48-e48e-80f8-ae9b-f73c225542bb",
@@ -4059,7 +5818,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4067,7 +5835,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -4171,7 +5948,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4323,7 +6109,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4350,6 +6145,60 @@
           ]
         }
       ]
+    },
+    {
+      "id": "3a288b48-e48e-800b-837d-f482a2301743",
+      "slug": "voie-de-la-musique-des-spheres",
+      "title": "Voie de la Musique des Sphères",
+      "notionUrl": "https://app.notion.com/p/Voie-de-la-Musique-des-Sph-res-3a288b48e48e800b837df482a2301743",
+      "lastEditedTime": "2026-07-19T19:14:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": []
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de la Musique des Sphères"
+        }
+      },
+      "content": []
     },
     {
       "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
@@ -4435,7 +6284,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4443,7 +6301,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -4547,7 +6414,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4590,7 +6466,7 @@
       "slug": "voie-de-la-terre",
       "title": "Voie de la Terre",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39388b48e48e80f487cbecb95089d48b",
-      "lastEditedTime": "2026-07-04T23:15:00.000Z",
+      "lastEditedTime": "2026-07-19T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4606,7 +6482,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "ronces-entravantes",
+              "title": "Ronces entravantes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fortification",
+              "title": "Fortification",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "pieges-sismiques",
+              "title": "Pièges sismiques",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "armure-complete-de-thorinir",
+              "title": "Armure complète de Thorïnir",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-elementaire-terre",
+              "title": "Fusion élémentaire (Terre)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -4646,7 +6563,18 @@
           "value": "Voie de la Terre"
         }
       },
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'une des Voies les plus prisées par les Kuei Jin, cette voie permet d'avoir une capacité d'entrave tout en se défendant efficacement. Les adeptes de la Voie de la Terre ont longtemps procédé à garder leurs traditions tout en les apprenant au plus grand nombre, aussi cette voie est restée la même des années durant.\nCette Voie se base sur la Dextérité et la Vigueur d'un Vampire",
+          "spans": [
+            {
+              "text": "L'une des Voies les plus prisées par les Kuei Jin, cette voie permet d'avoir une capacité d'entrave tout en se défendant efficacement. Les adeptes de la Voie de la Terre ont longtemps procédé à garder leurs traditions tout en les apprenant au plus grand nombre, aussi cette voie est restée la même des années durant.\nCette Voie se base sur la Dextérité et la Vigueur d'un Vampire",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
@@ -4985,6 +6913,101 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8055-a6bb-f1ad62ce51ca",
+      "slug": "voie-des-vents-du-chasseur",
+      "title": "Voie des Vents du Chasseur",
+      "notionUrl": "https://app.notion.com/p/Voie-des-Vents-du-Chasseur-3a288b48e48e8055a6bbf1ad62ce51ca",
+      "lastEditedTime": "2026-07-19T19:15:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "outrepasser-l-odorat",
+              "title": "Outrepasser l'odorat",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "peau-du-cameleon-assam",
+              "title": "Peau du caméléon (Assam)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "posture-de-l-humble",
+              "title": "Posture de l'Humble",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "bouffee-du-khalif",
+              "title": "Bouffée du Khalif",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "marche-spectrale",
+              "title": "Marche spectrale",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie des Vents du Chasseur"
+        }
+      },
+      "content": []
+    },
+    {
       "id": "38188b48-e48e-8084-a587-c429a6a500e6",
       "slug": "voie-du-cimetiere",
       "title": "Voie du Cimetière",
@@ -5128,7 +7151,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -5260,7 +7292,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -5268,7 +7309,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -5399,7 +7449,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "arsenal-d-am-riet-dague-d-akazi",
+              "title": "Arsenal d'Am'Riet : Dague d'Akazi",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "arsenal-de-kazamar-balle-d-imri",
+              "title": "Arsenal de Kazamar : Balle d'Imri",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "arsenal-d-am-riet-les-lames-d-erizzoth",
+              "title": "Arsenal d'Am'Riet : Les lames d'Erizzoth",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "arsenal-de-kazamar-lance-d-oreis",
+              "title": "Arsenal de Kazamar : Lance d'Oréis",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-elementaire-feu",
+              "title": "Fusion élémentaire (Feu)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -5542,7 +7633,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -5704,7 +7804,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "pas-aerien",
+              "title": "Pas aérien",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vents-violents",
+              "title": "Vents violents",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "toucher-aerien",
+              "title": "Toucher aérien",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "il-du-cyclone",
+              "title": "Œil du cyclone",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-elementaire-air",
+              "title": "Fusion élémentaire (Air)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -5731,8 +7872,8 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5830,7 +7971,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",

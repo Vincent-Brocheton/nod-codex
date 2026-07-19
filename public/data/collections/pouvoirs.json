@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-19T12:00:00.829Z",
+  "generatedAt": "2026-07-19T19:19:10.046Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -15,7 +15,8 @@
       "Charisme",
       "Vigueur",
       "Dexterité",
-      "Force"
+      "Force",
+      "???"
     ],
     "Type d'action": [
       "Action Standard",
@@ -1158,6 +1159,134 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-80cf-8d29-d097b30949f5",
+      "slug": "armure-complete-de-thorinir",
+      "title": "Armure complète de Thorïnir",
+      "notionUrl": "https://app.notion.com/p/Armure-compl-te-de-Thor-nir-3a288b48e48e80cf8d29d097b30949f5",
+      "lastEditedTime": "2026-07-19T15:24:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Armure complète de Thorïnir"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Thorinïr accorde sa confiance et sa protection à son Elémentaliste.",
+          "spans": [
+            {
+              "text": "Thorinïr accorde sa confiance et sa protection à son Elémentaliste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur se transforme en une armure de pierre intégrale.\nIl est protégé de l'intégralité des dégâts physiques, mais ne peut pas bouger.\nIl peut, quand il le souhaite, retirer l'armure, la faisant éclater en envoyant des stalactites sur les cibles proches, leur infligeant 2 dégâts.",
+          "spans": [
+            {
+              "text": "Le lanceur se transforme en une armure de pierre intégrale.\nIl est protégé de l'intégralité des dégâts physiques, mais ne peut pas bouger.\nIl peut, quand il le souhaite, retirer l'armure, la faisant éclater en envoyant des stalactites sur les cibles proches, leur infligeant 2 dégâts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les stalactites infligent 3 dégâts.",
+          "spans": [
+            {
+              "text": "Les stalactites infligent 3 dégâts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur peut se déplacer de 1 pas / tour.",
+          "spans": [
+            {
+              "text": "Le lanceur peut se déplacer de 1 pas / tour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8029-b98c-d4803511f11e",
       "slug": "armure-de-la-furie-de-cain",
       "title": "Armure de la Furie de Cain",
@@ -1369,6 +1498,486 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-804b-af06-dd2bb047f156",
+      "slug": "arsenal-d-am-riet-dague-d-akazi",
+      "title": "Arsenal d'Am'Riet : Dague d'Akazi",
+      "notionUrl": "https://app.notion.com/p/Arsenal-d-Am-Riet-Dague-d-Akazi-3a288b48e48e804baf06dd2bb047f156",
+      "lastEditedTime": "2026-07-19T18:51:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Arsenal d'Am'Riet : Dague d'Akazi"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes d'Am'Riet sont basées sur les lames. Vous en empruntez une dague.",
+          "spans": [
+            {
+              "text": "Les armes d'Am'Riet sont basées sur les lames. Vous en empruntez une dague.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous obtenez une dague qui permet d'effectuer 2 attaques avant de se briser, en respectant les règles du Combat en Mêlée.",
+          "spans": [
+            {
+              "text": "Vous obtenez une dague qui permet d'effectuer 2 attaques avant de se briser, en respectant les règles du Combat en Mêlée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La dague tient 4 attaques avant de se briser.",
+          "spans": [
+            {
+              "text": "La dague tient 4 attaques avant de se briser.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire de Feu\" dont le niveau augmente avec le niveau de \"Voie du Feu\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie du Feu\".\n\n",
+          "spans": [
+            {
+              "text": "Effet passif",
+              "bold": true
+            },
+            {
+              "text": " : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire de Feu\" dont le niveau augmente avec le niveau de \"Voie du Feu\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie du Feu\".\n\n",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8072-8312-faad21e89d04",
+      "slug": "arsenal-d-am-riet-les-lames-d-erizzoth",
+      "title": "Arsenal d'Am'Riet : Les lames d'Erizzoth",
+      "notionUrl": "https://app.notion.com/p/Arsenal-d-Am-Riet-Les-lames-d-Erizzoth-3a288b48e48e80728312faad21e89d04",
+      "lastEditedTime": "2026-07-19T18:53:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Arsenal d'Am'Riet : Les lames d'Erizzoth"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les légendes racontent qu'Am'Riet a dompté le démon Erizzoth, et que depuis, il crée des lames à l'infini.",
+          "spans": [
+            {
+              "text": "Les légendes racontent qu'Am'Riet a dompté le démon Erizzoth, et que depuis, il crée des lames à l'infini.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur invoque une lame qu'il peut manier en suivant les règles de Combat en Mêlée.\nIl peut choisir, contre une action standard, de détruire sa lame et la transformer en boule de feu qu'il lance immédiatement sur une cible en suivant le test indiqué.\nLa boule de feu inflige 2 dégâts aggravés.\nUne seule lame peut être active à la fois, et demande 3 tours de recharge après avoir été détruite pour en recréer une.",
+          "spans": [
+            {
+              "text": "Le lanceur invoque une lame qu'il peut manier en suivant les règles de Combat en Mêlée.\nIl peut choisir, contre une action standard, de détruire sa lame et la transformer en boule de feu qu'il lance immédiatement sur une cible en suivant le test indiqué.\nLa boule de feu inflige 2 dégâts aggravés.\nUne seule lame peut être active à la fois, et demande 3 tours de recharge après avoir été détruite pour en recréer une.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La boule de feu inflige 3 dégâts aggravés au lieu de 2.",
+          "spans": [
+            {
+              "text": "La boule de feu inflige 3 dégâts aggravés au lieu de 2.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps de recharge passe à 1 tour",
+          "spans": [
+            {
+              "text": "Le temps de recharge passe à 1 tour",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Votre Servant Elémentaire de Feu peut vous assister au combat\n",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            },
+            {
+              "text": " Votre Servant Elémentaire de Feu peut vous assister au combat\n",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80f7-b50c-eda7a072dee7",
+      "slug": "arsenal-de-kazamar-balle-d-imri",
+      "title": "Arsenal de Kazamar : Balle d'Imri",
+      "notionUrl": "https://app.notion.com/p/Arsenal-de-Kazamar-Balle-d-Imri-3a288b48e48e80f7b50ceda7a072dee7",
+      "lastEditedTime": "2026-07-19T18:52:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Arsenal de Kazamar : Balle d'Imri"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes de Kazamar mènent la victoire à distance. Empruntez donc son pistolet !",
+          "spans": [
+            {
+              "text": "Les armes de Kazamar mènent la victoire à distance. Empruntez donc son pistolet !",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous obtenez un pistolet qui contient 3 balles, non rechargeable et qui disparaît lorsqu'il est vide, en respectant les règles du Combat à distance.",
+          "spans": [
+            {
+              "text": "Vous obtenez un pistolet qui contient 3 balles, non rechargeable et qui disparaît lorsqu'il est vide, en respectant les règles du Combat à distance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le chargeur contient 6 balles",
+          "spans": [
+            {
+              "text": "Le chargeur contient 6 balles",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8041-aa9f-f56bc1838893",
+      "slug": "arsenal-de-kazamar-lance-d-oreis",
+      "title": "Arsenal de Kazamar : Lance d'Oréis",
+      "notionUrl": "https://app.notion.com/p/Arsenal-de-Kazamar-Lance-d-Or-is-3a288b48e48e8041aa9ff56bc1838893",
+      "lastEditedTime": "2026-07-19T18:54:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Arsenal de Kazamar : Lance d'Oréis"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Kazamar aurait effectué un marché avec l'ange Oréis. En échange de sa lance, il devenait la rage de l'ange.",
+          "spans": [
+            {
+              "text": "Kazamar aurait effectué un marché avec l'ange Oréis. En échange de sa lance, il devenait la rage de l'ange.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur invoque une lance qu'il peut manier en suivant les règles de Combat en Mêlée.\nIl peut choisir, contre une action standard, de lancer sa lance en indiquant un endroit physique statique.\nLa lance se dirige immédiatement à cet endroit, et est inarrêtable. Elle se brise à l'impact, laissant une zone enflammée circulaire de 3 pas de rayon, durant 3 tours.\nChaque personne dans la zone d'impact subit 2 dégâts aggravés.\nAu début de chaque tour (initiative ou de Célérité), si la personne est dans la zone, elle subit 1 dégât aggravé. Cependant, elle ne peut subir ces dégâts qu'une seule fois par tour (initiative ou de Célérité).",
+          "spans": [
+            {
+              "text": "Le lanceur invoque une lance qu'il peut manier en suivant les règles de Combat en Mêlée.\nIl peut choisir, contre une action standard, de lancer sa lance en indiquant un endroit physique statique.\nLa lance se dirige immédiatement à cet endroit, et est inarrêtable. Elle se brise à l'impact, laissant une zone enflammée circulaire de 3 pas de rayon, durant 3 tours.\nChaque personne dans la zone d'impact subit 2 dégâts aggravés.\nAu début de chaque tour (initiative ou de Célérité), si la personne est dans la zone, elle subit 1 dégât aggravé. Cependant, elle ne peut subir ces dégâts qu'une seule fois par tour (initiative ou de Célérité).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La zone dure 5 tours et fait 5 pas de rayon.",
+          "spans": [
+            {
+              "text": "La zone dure 5 tours et fait 5 pas de rayon.",
               "bold": false
             }
           ]
@@ -1682,6 +2291,134 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8003-bc4f-dcfae445286b",
+      "slug": "attenuer-l-harmonie",
+      "title": "Atténuer l'harmonie",
+      "notionUrl": "https://app.notion.com/p/Att-nuer-l-harmonie-3a288b48e48e8003bc4fdcfae445286b",
+      "lastEditedTime": "2026-07-19T19:11:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "???"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Atténuer l'harmonie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'énergie qui fluctue dans les liens entre les êtres peut être manipulée et bloquée, tel un câble qui se compresse.",
+          "spans": [
+            {
+              "text": "L'énergie qui fluctue dans les liens entre les êtres peut être manipulée et bloquée, tel un câble qui se compresse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur établit un contact physique avec une cible.\nLe lanceur crée une image mentale d'une personne avec son nom.\nSi la cible est liée au sang avec l'image mentale, alors le lien de sang est réduit de un niveau pendant 1h.\nSi la cible est liée par un Vinculum avec l'image mentale, alors le niveau du Vinculum est réduit de 3 pendant 1h.\nSeule la cible ressent la réduction du niveau du lien.\nSi la cible n'est pas liée à l'image mentale, alors il ne se passe rien.",
+          "spans": [
+            {
+              "text": "Le lanceur établit un contact physique avec une cible.\nLe lanceur crée une image mentale d'une personne avec son nom.\nSi la cible est liée au sang avec l'image mentale, alors le lien de sang est réduit de un niveau pendant 1h.\nSi la cible est liée par un Vinculum avec l'image mentale, alors le niveau du Vinculum est réduit de 3 pendant 1h.\nSeule la cible ressent la réduction du niveau du lien.\nSi la cible n'est pas liée à l'image mentale, alors il ne se passe rien.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lien ou le Vinculum est réduit jusqu'à la prochaine torpeur du lanceur, volontaire ou non.",
+          "spans": [
+            {
+              "text": "Le lien ou le Vinculum est réduit jusqu'à la prochaine torpeur du lanceur, volontaire ou non.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne nécessitez désormais que d'un contact visuel pour activer votre pouvoir",
+          "spans": [
+            {
+              "text": "Vous ne nécessitez désormais que d'un contact visuel pour activer votre pouvoir",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-802a-afad-da914c56b900",
       "slug": "attirail-mortel",
       "title": "Attirail Mortel",
@@ -1952,6 +2689,242 @@
           "spans": [
             {
               "text": "Vos utilisations de Bénédiction royale peuvent également amener la paix à ceux qui souffrent de troubles et blessures psychologiques, et même soigner les dérangements. Après avoir dépensé tous les prérequis de ce pouvoir, vous pouvez également retirer un dérangement d'un individu. Remarquez que ce pouvoir ne peut retirer le dérangement primaire d'un Malkavian de manière permanente, bien qu'il le soulage de son dérangement momentanément. Un Malkavien ne gagne pas de trait de dérangement, qu'importe le nombre de fois où sont dérangement primaire est déclenché, pour une durée d'une heure",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80cb-b53b-dfd1f24b4d14",
+      "slug": "blocage-aqueux",
+      "title": "Blocage aqueux",
+      "notionUrl": "https://app.notion.com/p/Blocage-aqueux-3a288b48e48e80cbb53bdfd1f24b4d14",
+      "lastEditedTime": "2026-07-19T15:04:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Blocage aqueux"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Eau ralentit ce qui fluctue autour d'elle.",
+          "spans": [
+            {
+              "text": "L'Eau ralentit ce qui fluctue autour d'elle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur lance un jet d'eau sur une cible en mouvement.\nLa cible est ralentie d'un pas par tour pendant 3 tours au contact de l'eau.\nSi la cible est un objet, un test de chance sur réussites uniquement peut le stopper.\nCe pouvoir n'affecte pas les cibles en Célérité.",
+          "spans": [
+            {
+              "text": "Le lanceur lance un jet d'eau sur une cible en mouvement.\nLa cible est ralentie d'un pas par tour pendant 3 tours au contact de l'eau.\nSi la cible est un objet, un test de chance sur réussites uniquement peut le stopper.\nCe pouvoir n'affecte pas les cibles en Célérité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le ralentissement est de 2 pas.",
+          "spans": [
+            {
+              "text": "Le ralentissement est de 2 pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le ralentissement de base est de 2 pas. Sur un succès critique, la cible est entièrement stoppée.",
+          "spans": [
+            {
+              "text": "Le ralentissement de base est de 2 pas. Sur un succès critique, la cible est entièrement stoppée.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80ab-b72c-f98f030fb183",
+      "slug": "bouffee-du-khalif",
+      "title": "Bouffée du Khalif",
+      "notionUrl": "https://app.notion.com/p/Bouff-e-du-Khalif-3a288b48e48e80abb72cf98f030fb183",
+      "lastEditedTime": "2026-07-19T19:18:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Bouffée du Khalif"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible de cet effet génère une aura physiquement enivrante pour quiconque la regarde directement. Les personnes affectées peuvent se laisser aller à une rêverie agréable ou simplement rester bouche bée tandis que la cible poursuit son chemin.",
+          "spans": [
+            {
+              "text": "La cible de cet effet génère une aura physiquement enivrante pour quiconque la regarde directement. Les personnes affectées peuvent se laisser aller à une rêverie agréable ou simplement rester bouche bée tandis que la cible poursuit son chemin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque personne qui regarde le sorcier se retrouve dans un état d'ivresse pour 3 tours.\nLes personnes affectées sont incapables d'entreprendre la moindre action, hormis fixer dans le vide des visions qu'elles seules perçoivent ou, peut-être, ricaner de temps à autre.\nToute menace directe à l'encontre d'une personne affectée dissipe immédiatement cet état d'ivresse.",
+          "spans": [
+            {
+              "text": "Chaque personne qui regarde le sorcier se retrouve dans un état d'ivresse pour 3 tours.\nLes personnes affectées sont incapables d'entreprendre la moindre action, hormis fixer dans le vide des visions qu'elles seules perçoivent ou, peut-être, ricaner de temps à autre.\nToute menace directe à l'encontre d'une personne affectée dissipe immédiatement cet état d'ivresse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'effet dure une scène.",
+          "spans": [
+            {
+              "text": "L'effet dure une scène.",
               "bold": false
             }
           ]
@@ -3648,6 +4621,114 @@
           "spans": [
             {
               "text": "Vous pouvez utiliser Conflagration pendant les tours de Célérité.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-803a-961a-ce032dc16550",
+      "slug": "connectique-liee",
+      "title": "Connectique liée",
+      "notionUrl": "https://app.notion.com/p/Connectique-li-e-3a288b48e48e803a961ace032dc16550",
+      "lastEditedTime": "2026-07-19T19:12:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "???"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Connectique liée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les êtres ayant atteint un haut niveau de maîtrise de l'énergie sortant des liens peut l'utiliser pour faire propager des informations via lesdits liens.",
+          "spans": [
+            {
+              "text": "Les êtres ayant atteint un haut niveau de maîtrise de l'énergie sortant des liens peut l'utiliser pour faire propager des informations via lesdits liens.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur établit une connexion entre lui et 2 personnes qui possèdent un lien de sang avec vous.\nDans cette connexion, vous pouvez communiquer quelle que soit votre localisation, et partager vos sens.\nSi le lanceur tombe en torpeur, la connexion s'arrête instantanément.\nSi le lanceur possède Télépathie, il peut ajouter les personnes en télépathie à la connexion.",
+          "spans": [
+            {
+              "text": "Le lanceur établit une connexion entre lui et 2 personnes qui possèdent un lien de sang avec vous.\nDans cette connexion, vous pouvez communiquer quelle que soit votre localisation, et partager vos sens.\nSi le lanceur tombe en torpeur, la connexion s'arrête instantanément.\nSi le lanceur possède Télépathie, il peut ajouter les personnes en télépathie à la connexion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez connecter autant de personnes que votre niveau d'Harmonisation.",
+          "spans": [
+            {
+              "text": "Vous pouvez connecter autant de personnes que votre niveau d'Harmonisation.",
               "bold": false
             }
           ]
@@ -7952,6 +9033,818 @@
           "spans": [
             {
               "text": "Vous pouvez dépenser 1 Point de Sang pendant que vous êtes sous Forme Ténébreuse pour faire apparaître des yeux rouge brillant. Faire ceci vous permet d’utiliser les 3 premiers points de Domination et de Présence pendant que vous êtes en forme d’ombre, tant que vous possédez ces pouvoirs. Ceci est une exception à la règle qui interdit au personnage d’utiliser des disciplines ou de dépenser du Sang sous Forme Ténébreuse.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80e2-8f59-f693aba4befb",
+      "slug": "fortification",
+      "title": "Fortification",
+      "notionUrl": "https://app.notion.com/p/Fortification-3a288b48e48e80e28f59f693aba4befb",
+      "lastEditedTime": "2026-07-19T15:15:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fortification"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Terre protège et renforce son Elémentaliste.",
+          "spans": [
+            {
+              "text": "La Terre protège et renforce son Elémentaliste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure classique.\nCette transformation dure 5 tours.",
+          "spans": [
+            {
+              "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure classique.\nCette transformation dure 5 tours.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures classiques.",
+          "spans": [
+            {
+              "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures classiques.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8062-ab18-cd9a8ca8ee7b",
+      "slug": "fusion-elementaire-air",
+      "title": "Fusion élémentaire (Air)",
+      "notionUrl": "https://app.notion.com/p/Fusion-l-mentaire-Air-3a288b48e48e8062ab18cd9a8ca8ee7b",
+      "lastEditedTime": "2026-07-19T19:01:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 scène"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fusion élémentaire (Air)"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vampire devient un élément aérien en fusionnant avec son Servant Elémentaire d'Air.",
+          "spans": [
+            {
+              "text": "Le Vampire devient un élément aérien en fusionnant avec son Servant Elémentaire d'Air.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire devient un être aérien presque intangible.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de l'Air sous cette forme.\nLe vampire est sensible à la solidification ou à la chaleur, il prend les mêmes caractéristiques que l'Air.\nSa transformation dure 1 scène.",
+          "spans": [
+            {
+              "text": "Le vampire devient un être aérien presque intangible.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de l'Air sous cette forme.\nLe vampire est sensible à la solidification ou à la chaleur, il prend les mêmes caractéristiques que l'Air.\nSa transformation dure 1 scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+          "spans": [
+            {
+              "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacte d'Axodil :",
+          "spans": [
+            {
+              "text": "Pacte d'Axodil :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le lanceur a effectué un pacte avec Axodil, il obtient les avantages suivants :",
+          "spans": [
+            {
+              "text": "Si le lanceur a effectué un pacte avec Axodil, il obtient les avantages suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armée de l'Air : 2 élémentaires d'Air sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+          "spans": [
+            {
+              "text": "Armée de l'Air :",
+              "bold": true
+            },
+            {
+              "text": " 2 élémentaires d'Air sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Mur de vent : Une fois par fusion, au prix d'une action standard, le lanceur peut faire apparaître un mur de vent, nécessitant un jet de chance sans relance pour le traverser. Le mur est forcément une ligne droite partant du lanceur.",
+          "spans": [
+            {
+              "text": "Mur de vent :",
+              "bold": true
+            },
+            {
+              "text": " Une fois par fusion, au prix d'une action standard, le lanceur peut faire apparaître un mur de vent, nécessitant un jet de chance sans relance pour le traverser. Le mur est forcément une ligne droite partant du lanceur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif :",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez accéder au Plan de l'Air depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire d'Air durant 5 minutes. Le retour du Plan de l'Air vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+          "spans": [
+            {
+              "text": "Vous pouvez accéder au Plan de l'Air depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire d'Air durant 5 minutes. Le retour du Plan de l'Air vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8021-a592-e7b982a84182",
+      "slug": "fusion-elementaire-eau",
+      "title": "Fusion élémentaire (Eau)",
+      "notionUrl": "https://app.notion.com/p/Fusion-l-mentaire-Eau-3a288b48e48e8021a592e7b982a84182",
+      "lastEditedTime": "2026-07-19T18:47:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fusion élémentaire (Eau)"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire d'Eau.",
+          "spans": [
+            {
+              "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire d'Eau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire devient un être d'eau liquide.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de l'Eau sous cette forme.\nLe vampire est sensible à l'évaporation ou à la glaciation, il prend les mêmes caractéristiques que l'Eau.\nSa transformation dure 1 scène.",
+          "spans": [
+            {
+              "text": "Le vampire devient un être d'eau liquide.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de l'Eau sous cette forme.\nLe vampire est sensible à l'évaporation ou à la glaciation, il prend les mêmes caractéristiques que l'Eau.\nSa transformation dure 1 scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+          "spans": [
+            {
+              "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacte de Varimir :",
+          "spans": [
+            {
+              "text": "Pacte de Varimir :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le lanceur a effectué un pacte avec Varimir, il obtient les avantages suivants :",
+          "spans": [
+            {
+              "text": "Si le lanceur a effectué un pacte avec Varimir, il obtient les avantages suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armée de l'Eau : 2 élémentaires d'Eau sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+          "spans": [
+            {
+              "text": "Armée de l'Eau :",
+              "bold": true
+            },
+            {
+              "text": " 2 élémentaires d'Eau sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pluie purificatrice : Au lancement de la fusion, vous invoquez une pluie qui dure jusqu'à votre prochain tour d'initiative sur l'ensemble de la scène en cours. Cette pluie supprime les effets de l'ensemble des disciplines mentales et sociales, et empêche l'utilisation des Sens Aiguisés durant son activation. La pluie touche aussi bien les alliés que les adversaires.",
+          "spans": [
+            {
+              "text": "Pluie purificatrice :",
+              "bold": true
+            },
+            {
+              "text": " Au lancement de la fusion, vous invoquez une pluie qui dure jusqu'à votre prochain tour d'initiative sur l'ensemble de la scène en cours. Cette pluie supprime les effets de l'ensemble des disciplines mentales et sociales, et empêche l'utilisation des Sens Aiguisés durant son activation. La pluie touche aussi bien les alliés que les adversaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif :",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez accéder au Plan de l'Eau depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire d'Eau durant 5 minutes. Le retour du Plan del'Eau vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+          "spans": [
+            {
+              "text": "Vous pouvez accéder au Plan de l'Eau depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire d'Eau durant 5 minutes. Le retour du Plan del'Eau vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80b7-9cb3-cffc67eb27d6",
+      "slug": "fusion-elementaire-feu",
+      "title": "Fusion élémentaire (Feu)",
+      "notionUrl": "https://app.notion.com/p/Fusion-l-mentaire-Feu-3a288b48e48e80b79cb3cffc67eb27d6",
+      "lastEditedTime": "2026-07-19T18:55:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fusion élémentaire (Feu)"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire de Feu.",
+          "spans": [
+            {
+              "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire de Feu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire devient un être enflammé.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie du Feu sous cette forme.\nLe vampire est sensible à l'eau ou à l'absence d'oxygène, il prend les mêmes caractéristiques que le Feu.\nSa transformation dure 1 scène.",
+          "spans": [
+            {
+              "text": "Le vampire devient un être enflammé.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie du Feu sous cette forme.\nLe vampire est sensible à l'eau ou à l'absence d'oxygène, il prend les mêmes caractéristiques que le Feu.\nSa transformation dure 1 scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+          "spans": [
+            {
+              "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacte de Kazamar et d'Am'Riet :",
+          "spans": [
+            {
+              "text": "Pacte de Kazamar et d'Am'Riet :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le lanceur a effectué un pacte avec Kazamar ou Am'Riet, il obtient les avantages suivants :",
+          "spans": [
+            {
+              "text": "Si le lanceur a effectué un pacte avec Kazamar ou Am'Riet, il obtient les avantages suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armée du Feu : 2 élémentaires de Feu sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+          "spans": [
+            {
+              "text": "Armée du Feu :",
+              "bold": true
+            },
+            {
+              "text": " 2 élémentaires de Feu sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Arsenal militaire : Une fois par fusion, au prix d'une action standard, le lanceur peut faire apparaître l'ensemble des armes de l'arsenal. Ces dernières restent sous les règles des 4 disciplines précédentes.",
+          "spans": [
+            {
+              "text": "Arsenal militaire :",
+              "bold": true
+            },
+            {
+              "text": " Une fois par fusion, au prix d'une action standard, le lanceur peut faire apparaître l'ensemble des armes de l'arsenal. Ces dernières restent sous les règles des 4 disciplines précédentes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif :",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez accéder au Plan du Feu depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire de Feu durant 5 minutes. Le retour du Plan du Feu vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+          "spans": [
+            {
+              "text": "Vous pouvez accéder au Plan du Feu depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire de Feu durant 5 minutes. Le retour du Plan du Feu vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-807c-b3e8-d21075452644",
+      "slug": "fusion-elementaire-terre",
+      "title": "Fusion élémentaire (Terre)",
+      "notionUrl": "https://app.notion.com/p/Fusion-l-mentaire-Terre-3a288b48e48e807cb3e8d21075452644",
+      "lastEditedTime": "2026-07-19T18:46:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fusion élémentaire (Terre)"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire de Terre.",
+          "spans": [
+            {
+              "text": "Le Vampire devient un élément enflammé en fusionnant avec son Servant Elémentaire de Terre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire devient un être de pierre montagneuse.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de la Terre sous cette forme.\nLe vampire est sensible à l'humidification ou à la fragilisation, il prend les mêmes caractéristiques que la Terre.\nSa transformation dure 1 scène.",
+          "spans": [
+            {
+              "text": "Le vampire devient un être de pierre montagneuse.\nLe vampire peut utiliser l'ensemble de ses disciplines de la Voie de la Terre sous cette forme.\nLe vampire est sensible à l'humidification ou à la fragilisation, il prend les mêmes caractéristiques que la Terre.\nSa transformation dure 1 scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+          "spans": [
+            {
+              "text": "La transformation dure jusqu'à interruption par le lanceur, ou jusqu'à la fin de la nuit (le plus court des deux).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pacte de Thorïnir :",
+          "spans": [
+            {
+              "text": "Pacte de Thorïnir :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le lanceur a effectué un pacte avec Thorïnir, il obtient les avantages suivants :",
+          "spans": [
+            {
+              "text": "Si le lanceur a effectué un pacte avec Thorïnir, il obtient les avantages suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armée de la Terre : 2 élémentaires de Terre sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+          "spans": [
+            {
+              "text": "Armée de la Terre :",
+              "bold": true
+            },
+            {
+              "text": " 2 élémentaires de Terre sous contrôle du lanceur sont invoqués lors de la fusion élémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bouclier de Thorïnir : Une fois par fusion, vous créez un bouclier de pierre qui entoure jusqu'à 3 alliés proches. Ces boucliers encaissent chacun 2 dégâts, mais à expiration, 1 dégât vous est renvoyé.",
+          "spans": [
+            {
+              "text": "Bouclier de Thorïnir :",
+              "bold": true
+            },
+            {
+              "text": " Une fois par fusion, vous créez un bouclier de pierre qui entoure jusqu'à 3 alliés proches. Ces boucliers encaissent chacun 2 dégâts, mais à expiration, 1 dégât vous est renvoyé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif :",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez accéder au Plan de la Terre depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire de Terre durant 5 minutes. Le retour du Plan de la Terre vous renvoie à l'endroit depuis lequel vous y avez accédé.",
+          "spans": [
+            {
+              "text": "Vous pouvez accéder au Plan de la Terre depuis n'importe où. Cela consiste en un rituel avec votre Servant Elémentaire de Terre durant 5 minutes. Le retour du Plan de la Terre vous renvoie à l'endroit depuis lequel vous y avez accédé.",
               "bold": false
             }
           ]
@@ -12692,6 +14585,114 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-80a6-84df-d54283eb158d",
+      "slug": "marche-spectrale",
+      "title": "Marche spectrale",
+      "notionUrl": "https://app.notion.com/p/Marche-spectrale-3a288b48e48e80a684dfd54283eb158d",
+      "lastEditedTime": "2026-07-19T19:18:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Marche spectrale"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En tant qu'effet particulièrement puissant, \"Marche spectrale\" exige du sorcier qu'il dépense trois points de sang au lieu du point habituel. Lorsque l'effet est activé, la cible devient totalement invisible, inaudible et intangible ; elle peut se déplacer librement à travers n'importe quel obstacle, à l'exception des protections contre les vampires.",
+          "spans": [
+            {
+              "text": "En tant qu'effet particulièrement puissant, \"Marche spectrale\" exige du sorcier qu'il dépense trois points de sang au lieu du point habituel. Lorsque l'effet est activé, la cible devient totalement invisible, inaudible et intangible ; elle peut se déplacer librement à travers n'importe quel obstacle, à l'exception des protections contre les vampires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier médite puis devient immatériel à presque tous les égards, et ne peut être détecté par aucune discipline.\nIl peut traverser les objets solides, mais ne peut interagir avec le monde physique de quelque manière que ce soit. Il ne peut également pas utiliser de discipline.\nIl ne peut interagir avec les fantômes ou les individus sous l'effet de \"Projection astrale\", et vice-versa.",
+          "spans": [
+            {
+              "text": "Le sorcier médite puis devient immatériel à presque tous les égards, et ne peut être détecté par aucune discipline.\nIl peut traverser les objets solides, mais ne peut interagir avec le monde physique de quelque manière que ce soit. Il ne peut également pas utiliser de discipline.\nIl ne peut interagir avec les fantômes ou les individus sous l'effet de \"Projection astrale\", et vice-versa.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": " Vous pouvez maintenant utiliser Auspex et les deux premiers niveaux de n’importe quelle discipline de clan Sociale ou Mentale que vous possédez. ",
+          "spans": [
+            {
+              "text": " Vous pouvez maintenant utiliser Auspex et les deux premiers niveaux de n’importe quelle discipline de clan Sociale ou Mentale que vous possédez. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8049-84de-dcf0553c3e98",
       "slug": "marchesprit",
       "title": "Marchesprit",
@@ -14299,6 +16300,134 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8067-be37-c8f32766f39a",
+      "slug": "il-du-cyclone",
+      "title": "Œil du cyclone",
+      "notionUrl": "https://app.notion.com/p/il-du-cyclone-3a288b48e48e8067be37c8f32766f39a",
+      "lastEditedTime": "2026-07-19T19:00:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Œil du cyclone"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire peut enfermer ses cibles au sein de cyclones tourbillonnants, divisant le champ de bataille adverse.",
+          "spans": [
+            {
+              "text": "Le vampire peut enfermer ses cibles au sein de cyclones tourbillonnants, divisant le champ de bataille adverse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible se retrouve enfermée dans un cyclone invisible à l'œil nu, repoussant inconsciemment toute personne qui s'en approche.\nLa cible doit effectuer 1 challenge de chance avec retest de Volonté possible pour en sortir.",
+          "spans": [
+            {
+              "text": "La cible se retrouve enfermée dans un cyclone invisible à l'œil nu, repoussant inconsciemment toute personne qui s'en approche.\nLa cible doit effectuer 1 challenge de chance avec retest de Volonté possible pour en sortir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les challenges de chance ne sont pas retestables.",
+          "spans": [
+            {
+              "text": "Les challenges de chance ne sont pas retestables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si 2 cibles (ou plus) sont à moins de trois pas, vous pouvez les enfermer dans le même cyclone.",
+          "spans": [
+            {
+              "text": "Si 2 cibles (ou plus) sont à moins de trois pas, vous pouvez les enfermer dans le même cyclone.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8020-90dd-d9db22ac5147",
       "slug": "ordre",
       "title": "Ordre",
@@ -14420,6 +16549,236 @@
           "spans": [
             {
               "text": "Un individu ayant subi avec succès un Commandement doit suivre votre ordre pendant trois tours (au lieu d’un seul).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8034-89e6-d45ee2296ed8",
+      "slug": "outrepasser-l-odorat",
+      "title": "Outrepasser l'odorat",
+      "notionUrl": "https://app.notion.com/p/Outrepasser-l-odorat-3a288b48e48e803489e6d45ee2296ed8",
+      "lastEditedTime": "2026-07-19T19:16:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Outrepasser l'odorat"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible de ce pouvoir acquiert la capacité de modifier son odeur ou de l'éliminer complètement.",
+          "spans": [
+            {
+              "text": "La cible de ce pouvoir acquiert la capacité de modifier son odeur ou de l'éliminer complètement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier change son odeur pour prendre celle de quelqu'un d'autre ou complètement la supprimer.\nCe pouvoir impose un malus de 2 pour traquer le sorcier.",
+          "spans": [
+            {
+              "text": "Le sorcier change son odeur pour prendre celle de quelqu'un d'autre ou complètement la supprimer.\nCe pouvoir impose un malus de 2 pour traquer le sorcier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir impose un malus de 3 à la place. ",
+          "spans": [
+            {
+              "text": "Le pouvoir impose un malus de 3 à la place. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8034-a58e-ea1183e511f0",
+      "slug": "pas-aerien",
+      "title": "Pas aérien",
+      "notionUrl": "https://app.notion.com/p/Pas-a-rien-3a288b48e48e8034a58eea1183e511f0",
+      "lastEditedTime": "2026-07-19T18:56:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 scène"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Pas aérien"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire entend son élément et devient aussi léger que l'air.",
+          "spans": [
+            {
+              "text": "Le vampire entend son élément et devient aussi léger que l'air.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'utilisateur du pouvoir ne laisse aucune empreinte, et ne fait aucun bruit de pas sur son déplacement.",
+          "spans": [
+            {
+              "text": "L'utilisateur du pouvoir ne laisse aucune empreinte, et ne fait aucun bruit de pas sur son déplacement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'utilisateur du pouvoir peut léviter",
+          "spans": [
+            {
+              "text": "L'utilisateur du pouvoir peut léviter",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Air\" dont le niveau augmente avec le niveau de \"Voie de l'Air\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Air\".\n",
+          "spans": [
+            {
+              "text": "Effet passif",
+              "bold": true
+            },
+            {
+              "text": " : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Air\" dont le niveau augmente avec le niveau de \"Voie de l'Air\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Air\".\n",
               "bold": false
             }
           ]
@@ -15078,6 +17437,114 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8050-9d28-e8e9bbd0b006",
+      "slug": "peau-du-cameleon-assam",
+      "title": "Peau du caméléon (Assam)",
+      "notionUrl": "https://app.notion.com/p/Peau-du-cam-l-on-Assam-3a288b48e48e80509d28e8e9bbd0b006",
+      "lastEditedTime": "2026-07-19T19:19:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Peau du caméléon (Assam)"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La peau et les vêtements de la cible adoptent automatiquement la couleur et la texture de tout ce qui se trouve à proximité immédiate.",
+          "spans": [
+            {
+              "text": "La peau et les vêtements de la cible adoptent automatiquement la couleur et la texture de tout ce qui se trouve à proximité immédiate.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut, pour la durée de la scène, prendre l'apparence de ce qui se trouve derrière lui.\nLe pouvoir est actif seulement quand il est immobile.",
+          "spans": [
+            {
+              "text": "Le sorcier peut, pour la durée de la scène, prendre l'apparence de ce qui se trouve derrière lui.\nLe pouvoir est actif seulement quand il est immobile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir est aussi actif en mouvement.",
+          "spans": [
+            {
+              "text": "Le pouvoir est aussi actif en mouvement.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8050-9088-fd539d8ebd16",
       "slug": "perception-au-dela-du-voile",
       "title": "Perception au-delà du Voile",
@@ -15698,6 +18165,128 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8096-b4db-cbf9226f325d",
+      "slug": "pieges-sismiques",
+      "title": "Pièges sismiques",
+      "notionUrl": "https://app.notion.com/p/Pi-ges-sismiques-3a288b48e48e8096b4dbcbf9226f325d",
+      "lastEditedTime": "2026-07-19T15:17:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Pièges sismiques"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Terre elle-même tremble sous les adversaires de son Elémentaliste.",
+          "spans": [
+            {
+              "text": "La Terre elle-même tremble sous les adversaires de son Elémentaliste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur détermine une position visible dans un rayon de 500m et y place un piège.\nSi une personne passe dedans, elle doit effectuer un Jet de chance sans égalité. Si cette personne possède le focus Vigueur, le jet de chance contient les égalités.\nSi le piège ne fait tomber personne, il reste actif.\nSi le lanceur s'éloigne de plus de 500m du piège, celui-ci disparaît.",
+          "spans": [
+            {
+              "text": "Le lanceur détermine une position visible dans un rayon de 500m et y place un piège.\nSi une personne passe dedans, elle doit effectuer un Jet de chance sans égalité. Si cette personne possède le focus Vigueur, le jet de chance contient les égalités.\nSi le piège ne fait tomber personne, il reste actif.\nSi le lanceur s'éloigne de plus de 500m du piège, celui-ci disparaît.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le piège peut être lancé sur une position non visible dans un rayon de 500m.",
+          "spans": [
+            {
+              "text": "Le piège peut être lancé sur une position non visible dans un rayon de 500m.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Votre Servant Elémentaire de Terre peut vous assister au combat.",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            },
+            {
+              "text": " Votre Servant Elémentaire de Terre peut vous assister au combat.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8051-95f1-cc8b5a830382",
       "slug": "pilier-de-feu",
       "title": "Pilier de Feu",
@@ -15967,6 +18556,114 @@
           "spans": [
             {
               "text": "Vous pouvez utiliser les deux premiers niveaux de vos Disciplines de clan Mentales et Sociales tout en utilisant Possession, mais vous ne pouvez employer ni pouvoirs anciens ni techniques.\nSi vous possédez une goule, vous pouvez dépenser jusqu’à 5 points de Sang pour alimenter ces Disciplines de clan, au rythme d’1 point de Sang par tour, quelle que soit la Génération de votre personnage.\nLes vampires possédant ce Focus et ayant Domination comme Discipline de clan peuvent activer Possession alors qu’ils sont déjà en état de Possession, transférant directement leur conscience d’un corps hôte à un autre.\nChaque nouvelle utilisation de Possession nécessite une action standard, un contact visuel direct et un défi opposé réussi, conformément aux règles normales de ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80a9-8f9d-da8374a2ca07",
+      "slug": "posture-de-l-humble",
+      "title": "Posture de l'Humble",
+      "notionUrl": "https://app.notion.com/p/Posture-de-l-Humble-3a288b48e48e80a98f9dda8374a2ca07",
+      "lastEditedTime": "2026-07-19T19:17:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Posture de l'Humble"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible se fond sans effort dans n'importe quelle foule. Toutes les personnes présentes, y compris d'éventuels poursuivants, supposeront qu'elle est à sa place.",
+          "spans": [
+            {
+              "text": "La cible se fond sans effort dans n'importe quelle foule. Toutes les personnes présentes, y compris d'éventuels poursuivants, supposeront qu'elle est à sa place.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir fonctionne de la même manière que \"Masque aux Mille Visages\".",
+          "spans": [
+            {
+              "text": "Ce pouvoir fonctionne de la même manière que \"Masque aux Mille Visages\".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez drastiquement changer l'apparence de votre garde-robe et de votre équipement. Vous êtes capables de faire apparaître un téléphone portable comme un fusil à pompe ou d'autres prouesses comme faire apparaître votre jean comme une robe de bal.",
+          "spans": [
+            {
+              "text": "Vous pouvez drastiquement changer l'apparence de votre garde-robe et de votre équipement. Vous êtes capables de faire apparaître un téléphone portable comme un fusil à pompe ou d'autres prouesses comme faire apparaître votre jean comme une robe de bal.",
               "bold": false
             }
           ]
@@ -16716,6 +19413,134 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80ec-91c0-c60cb8686ca5",
+      "slug": "protection-aquatique",
+      "title": "Protection aquatique",
+      "notionUrl": "https://app.notion.com/p/Protection-aquatique-3a288b48e48e80ec91c0c60cb8686ca5",
+      "lastEditedTime": "2026-07-19T15:11:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Protection aquatique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Eau protège et agit.",
+          "spans": [
+            {
+              "text": "L'Eau protège et agit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur crée un champ de force aquatique autour de lui d'un rayon allant jusqu'à 10 pas.\nTout objet ou créature entrant dans le champ de force est ralentie de 1 pas / action de déplacement et subit 1 dégât / tour (normal ou de célérité). Cela n'affecte pas les entités présentes dans le champ de force à sa création.\nLe lanceur canalise son champ de force et ne peut rien faire d'autre comme action pour le maintenir actif. S'il subit un dégât par n'importe quelle source, la canalisation s'arrête. Il peut également décider d'arrêter volontairement la canalisation.\nA la fin de la canalisation, le champ de force explose. Les entités à l'intérieur du champ de force (hormis celles qui étaient présentes à sa création) sont repoussées de 3 pas. Les entités à l'extérieur du champ de force et à moins de 50m du lanceur sont ciblées par de violents jets d'eau les repoussant de 2 pas.",
+          "spans": [
+            {
+              "text": "Le lanceur crée un champ de force aquatique autour de lui d'un rayon allant jusqu'à 10 pas.\nTout objet ou créature entrant dans le champ de force est ralentie de 1 pas / action de déplacement et subit 1 dégât / tour (normal ou de célérité). Cela n'affecte pas les entités présentes dans le champ de force à sa création.\nLe lanceur canalise son champ de force et ne peut rien faire d'autre comme action pour le maintenir actif. S'il subit un dégât par n'importe quelle source, la canalisation s'arrête. Il peut également décider d'arrêter volontairement la canalisation.\nA la fin de la canalisation, le champ de force explose. Les entités à l'intérieur du champ de force (hormis celles qui étaient présentes à sa création) sont repoussées de 3 pas. Les entités à l'extérieur du champ de force et à moins de 50m du lanceur sont ciblées par de violents jets d'eau les repoussant de 2 pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'explosion du champ de force fait repousser de 5 pas les entités à l'intérieur, et de 3 pas les entités à l'extérieur.",
+          "spans": [
+            {
+              "text": "L'explosion du champ de force fait repousser de 5 pas les entités à l'intérieur, et de 3 pas les entités à l'extérieur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le champ de force peut aller jusqu'à 15 pas de rayon, et peut être lancé dans une zone située dans un rayon de 50m du lanceur.",
+          "spans": [
+            {
+              "text": "Le champ de force peut aller jusqu'à 15 pas de rayon, et peut être lancé dans une zone située dans un rayon de 50m du lanceur.",
               "bold": false
             }
           ]
@@ -18688,6 +21513,134 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-8011-80f6-ff6769664235",
+      "slug": "renforcer-l-harmonie",
+      "title": "Renforcer l'harmonie",
+      "notionUrl": "https://app.notion.com/p/Renforcer-l-harmonie-3a288b48e48e801180f6ff6769664235",
+      "lastEditedTime": "2026-07-19T19:11:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "???"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Renforcer l'harmonie"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De la même manière que l'énergie peut être atténuée, elle peut être renforcée grâce à la puissance contenue dans celui qui la ressent.",
+          "spans": [
+            {
+              "text": "De la même manière que l'énergie peut être atténuée, elle peut être renforcée grâce à la puissance contenue dans celui qui la ressent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur établit un contact physique avec une cible.\nLe lanceur crée une image mentale d'une personne avec son nom.\nSi la cible est liée au sang avec l'image mentale, alors le lien de sang augmente de 1 niveau pendant 1h.\nSi la cible est liée par un Vinculum avec l'image mentale, alors le niveau du Vinculum augmente de 3 pendant 1h.\nSi la cible est Vassale, elle est la seule à ressentir l'augmentation du niveau du lien.\nSi la cible est Suzeraine, elle, comme son Vassal, ressentent tous deux l'augmentation du niveau du lien.\nSi la cible n'est pas liée à l'image mentale, alors il ne se passe rien.",
+          "spans": [
+            {
+              "text": "Le lanceur établit un contact physique avec une cible.\nLe lanceur crée une image mentale d'une personne avec son nom.\nSi la cible est liée au sang avec l'image mentale, alors le lien de sang augmente de 1 niveau pendant 1h.\nSi la cible est liée par un Vinculum avec l'image mentale, alors le niveau du Vinculum augmente de 3 pendant 1h.\nSi la cible est Vassale, elle est la seule à ressentir l'augmentation du niveau du lien.\nSi la cible est Suzeraine, elle, comme son Vassal, ressentent tous deux l'augmentation du niveau du lien.\nSi la cible n'est pas liée à l'image mentale, alors il ne se passe rien.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lien ou le Vinculum est augmenté jusqu'à la prochaine torpeur du lanceur, volontaire ou non.",
+          "spans": [
+            {
+              "text": "Le lien ou le Vinculum est augmenté jusqu'à la prochaine torpeur du lanceur, volontaire ou non.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne nécessitez désormais que d'un contact visuel pour activer votre pouvoir.",
+          "spans": [
+            {
+              "text": "Vous ne nécessitez désormais que d'un contact visuel pour activer votre pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8085-ac0a-d8c5926561b1",
       "slug": "repos-de-la-belladone",
       "title": "Repos de la Belladone",
@@ -19170,6 +22123,114 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-80fb-a5e2-f4f4412a03c3",
+      "slug": "ressentir-l-eau",
+      "title": "Ressentir l'Eau",
+      "notionUrl": "https://app.notion.com/p/Ressentir-l-Eau-3a288b48e48e80fba5e2f4f4412a03c3",
+      "lastEditedTime": "2026-07-19T15:08:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ressentir l'Eau"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Eau circule et observe.",
+          "spans": [
+            {
+              "text": "L'Eau circule et observe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur peut discuter avec une source d'eau visible dans un rayon de 50m.\nLe lanceur peut poser 3 questions fermées à la source d'eau.",
+          "spans": [
+            {
+              "text": "Le lanceur peut discuter avec une source d'eau visible dans un rayon de 50m.\nLe lanceur peut poser 3 questions fermées à la source d'eau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le rayon pour discuter passe à 100m, et le nombre de questions passe à 5.",
+          "spans": [
+            {
+              "text": "Le rayon pour discuter passe à 100m, et le nombre de questions passe à 5.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-800c-b65b-df2ac3a251d3",
       "slug": "reverence",
       "title": "Révérence",
@@ -19281,6 +22342,148 @@
           "spans": [
             {
               "text": "Les Personnages qui veulent surmonter votre Révérence doivent dépenser 2 points de Volonté plutôt qu'1 pour ignorer votre Révérence pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 2 points de Volonté.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-8087-b0d0-c27568d34b78",
+      "slug": "ronces-entravantes",
+      "title": "Ronces entravantes",
+      "notionUrl": "https://app.notion.com/p/Ronces-entravantes-3a288b48e48e8087b0d0c27568d34b78",
+      "lastEditedTime": "2026-07-19T15:14:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ronces entravantes"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Terre elle-même agit auprès de son Elémentaliste, entravant ses adversaires.",
+          "spans": [
+            {
+              "text": "La Terre elle-même agit auprès de son Elémentaliste, entravant ses adversaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des ronces entravent le déplacement de la cible, réduisant de 1 pas les actions de déplacement de ses 3 prochains tours (normaux ou de Célérité).",
+          "spans": [
+            {
+              "text": "Des ronces entravent le déplacement de la cible, réduisant de 1 pas les actions de déplacement de ses 3 prochains tours (normaux ou de Célérité).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les ronces entravent de 2 pas",
+          "spans": [
+            {
+              "text": "Les ronces entravent de 2 pas",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les déplacements sont affectés pendant 5 tours.",
+          "spans": [
+            {
+              "text": "Les déplacements sont affectés pendant 5 tours.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire de Terre\" dont le niveau augmente avec le niveau de \"Voie de la Terre\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de la Terre\".\n\n",
+          "spans": [
+            {
+              "text": "Effet passif",
+              "bold": true
+            },
+            {
+              "text": " : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire de Terre\" dont le niveau augmente avec le niveau de \"Voie de la Terre\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de la Terre\".\n\n",
               "bold": false
             }
           ]
@@ -20021,6 +23224,134 @@
           "spans": [
             {
               "text": "Valeren se concentre sur l'offensife et le fait de blesser. Ainsi, tnat que Sentir le Vivant est actif, vous n'avez pas besoin de dépenser de Volonté pour utiliser la manoeuvre de combat Percer le Coeur",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-800c-836d-c14e8c438bae",
+      "slug": "sentir-les-liens",
+      "title": "Sentir les liens",
+      "notionUrl": "https://app.notion.com/p/Sentir-les-liens-3a288b48e48e800c836dc14e8c438bae",
+      "lastEditedTime": "2026-07-19T19:10:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "???"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sentir les liens"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les liens entre les êtres de la nuit sont semblables à une énergie qui fluctue entre ces êtres. L'Harmonie qui en dégage est sensibles de ceux qui savent la voir.",
+          "spans": [
+            {
+              "text": "Les liens entre les êtres de la nuit sont semblables à une énergie qui fluctue entre ces êtres. L'Harmonie qui en dégage est sensibles de ceux qui savent la voir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur analyse sa cible et perçoit l'ensemble des liens de sang mineurs qu'elle entretient, vassale comme suzeraine.",
+          "spans": [
+            {
+              "text": "Le lanceur analyse sa cible et perçoit l'ensemble des liens de sang mineurs qu'elle entretient, vassale comme suzeraine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les liens de sang majeurs sont également visibles.",
+          "spans": [
+            {
+              "text": "Les liens de sang majeurs sont également visibles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous obtenez également la génération ou le type (goule, mortel, ...) des personnes liées.",
+          "spans": [
+            {
+              "text": "Vous obtenez également la génération ou le type (goule, mortel, ...) des personnes liées.",
               "bold": false
             }
           ]
@@ -22010,6 +25341,148 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-808a-a880-fb36087c465d",
+      "slug": "toucher-aerien",
+      "title": "Toucher aérien",
+      "notionUrl": "https://app.notion.com/p/Toucher-a-rien-3a288b48e48e808aa880fb36087c465d",
+      "lastEditedTime": "2026-07-19T19:00:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Toucher aérien"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+          "spans": [
+            {
+              "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+          "spans": [
+            {
+              "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+          "spans": [
+            {
+              "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps de vol passe jusqu'à une scène complète.",
+          "spans": [
+            {
+              "text": "Le temps de vol passe jusqu'à une scène complète.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Votre Servant Elémentaire d'Air peut vous assister au combat. ",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            },
+            {
+              "text": " Votre Servant Elémentaire d'Air peut vous assister au combat. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8058-808a-eeb88c23954d",
       "slug": "toucher-anesthesique",
       "title": "Toucher anesthésique",
@@ -22345,6 +25818,114 @@
       ]
     },
     {
+      "id": "3a288b48-e48e-807a-87ed-c804b6a59ab5",
+      "slug": "transfert-de-douleur",
+      "title": "Transfert de douleur",
+      "notionUrl": "https://app.notion.com/p/Transfert-de-douleur-3a288b48e48e807a87edc804b6a59ab5",
+      "lastEditedTime": "2026-07-19T19:12:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "???"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Transfert de douleur"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez parfait vos liens et maîtrisez l'énergie qui en découle. Vos propres états physiques se répercutent via cette énergie.",
+          "spans": [
+            {
+              "text": "Vous avez parfait vos liens et maîtrisez l'énergie qui en découle. Vos propres états physiques se répercutent via cette énergie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur désigne une personne dont il est Suzerain avec qui il est lié au niveau Majeur au minimum, et qui n'a pas été ciblée par le pouvoir \"Transfert de douleur\" du lanceur durant la nuit en cours.\nLes 3 prochaines fois où le lanceur subit des dégâts, 1 de ces dégâts (normal ou aggravé) est absorbé et envoyé à la cible sous la forme de dégât mental non réductible.",
+          "spans": [
+            {
+              "text": "Le lanceur désigne une personne dont il est Suzerain avec qui il est lié au niveau Majeur au minimum, et qui n'a pas été ciblée par le pouvoir \"Transfert de douleur\" du lanceur durant la nuit en cours.\nLes 3 prochaines fois où le lanceur subit des dégâts, 1 de ces dégâts (normal ou aggravé) est absorbé et envoyé à la cible sous la forme de dégât mental non réductible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez cibler vos propres Suzerains avec ce pouvoir.",
+          "spans": [
+            {
+              "text": "Vous pouvez cibler vos propres Suzerains avec ce pouvoir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80c7-b16a-e0d45174ff08",
       "slug": "vengeance-de-samiel",
       "title": "Vengeance de Samiel",
@@ -22437,6 +26018,262 @@
           "spans": [
             {
               "text": "Votre Vengeance de Samiel vous donne des succès exceptionnel sur cette attaque, à la place de succès normaux. Votre cible peut choisir de dépenser un point de Volonté pour convertir ce succés exceptionnell en un succés normal",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80cb-9ef5-d3851342fae8",
+      "slug": "vents-violents",
+      "title": "Vents violents",
+      "notionUrl": "https://app.notion.com/p/Vents-violents-3a288b48e48e80cb9ef5d3851342fae8",
+      "lastEditedTime": "2026-07-19T18:59:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vents violents"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire projette un vent froid et rapide sur un adversaire, ce qui peut le projeter en arrière, le déstabiliser voire le faire tomber. Il peut même être plaqué contre un mur ou un obstacle.",
+          "spans": [
+            {
+              "text": "Le vampire projette un vent froid et rapide sur un adversaire, ce qui peut le projeter en arrière, le déstabiliser voire le faire tomber. Il peut même être plaqué contre un mur ou un obstacle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'utilisateur lance une bourrasque de vent froid sur sa cible, la faisant reculer de 2 pas",
+          "spans": [
+            {
+              "text": "L'utilisateur lance une bourrasque de vent froid sur sa cible, la faisant reculer de 2 pas",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible ne peut pas se déplacer lors de sa prochaine action simple (tour normal ou de Célérité)",
+          "spans": [
+            {
+              "text": "La cible ne peut pas se déplacer lors de sa prochaine action simple (tour normal ou de Célérité)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible recule de 4 pas au lieu de 2.",
+          "spans": [
+            {
+              "text": "La cible recule de 4 pas au lieu de 2.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-80ca-b0e4-c451db66a4b7",
+      "slug": "vibrations-de-l-eau",
+      "title": "Vibrations de l'Eau",
+      "notionUrl": "https://app.notion.com/p/Vibrations-de-l-Eau-3a288b48e48e80cab0e4c451db66a4b7",
+      "lastEditedTime": "2026-07-19T15:09:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vibrations de l'Eau"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Eau vibre et étudie.",
+          "spans": [
+            {
+              "text": "L'Eau vibre et étudie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une zone de bruine de 50m de rayon, passant au travers les murs, se forme autour du lanceur.\nToute personne entrant dans la bruine est détectée par le lanceur si le test est une réussite.\nLa bruine laisse une odeur d'humidité mais n'est pas palpable.\nSi le lanceur se déplace, la bruine disparaît.",
+          "spans": [
+            {
+              "text": "Une zone de bruine de 50m de rayon, passant au travers les murs, se forme autour du lanceur.\nToute personne entrant dans la bruine est détectée par le lanceur si le test est une réussite.\nLa bruine laisse une odeur d'humidité mais n'est pas palpable.\nSi le lanceur se déplace, la bruine disparaît.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur sait quel est le type de la créature qui est entrée dans la bruine.",
+          "spans": [
+            {
+              "text": "Le lanceur sait quel est le type de la créature qui est entrée dans la bruine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le déplacement est possible à raison d'un pas de moins par action de déplacement.",
+          "spans": [
+            {
+              "text": "Le déplacement est possible à raison d'un pas de moins par action de déplacement.",
               "bold": false
             }
           ]

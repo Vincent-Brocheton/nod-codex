@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-19T12:00:00.852Z",
+  "generatedAt": "2026-07-19T19:19:10.065Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1191,7 +1191,7 @@
       "slug": "sorcier",
       "title": "Sorcier",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-07-13T11:57:00.000Z",
+      "lastEditedTime": "2026-07-19T18:48:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1253,6 +1253,46 @@
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
               "title": "Voie de l’Attrait des Flammes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-conjuration",
+              "title": "Voie de la Conjuration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sang",
+              "title": "Voie du Sang",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-esprit",
+              "title": "Voie de l’Esprit",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-puissance-de-neptune",
+              "title": "Voie de la Puissance de Neptune",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cosmos",
+              "title": "Voie du Cosmos",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2337,6 +2377,109 @@
       ]
     },
     {
+      "id": "39588b48-e48e-80e0-98f0-f6c0a5a6c980",
+      "slug": "voie-de-l-air",
+      "title": "Voie de l’Air",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39588b48e48e80e098f0f6c0a5a6c980",
+      "lastEditedTime": "2026-07-19T19:01:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-vent",
+              "title": "Voie du Vent",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": []
+        },
+        "Name": {
+          "type": "text",
+          "value": "Voie de l’Air"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ecrire la présentation de la Lignée",
+          "spans": [
+            {
+              "text": "Ecrire la présentation de la Lignée",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39588b48-e48e-8082-9cd6-e602562146f4",
       "slug": "voie-de-l-eau",
       "title": "Voie de l’Eau",
@@ -2639,109 +2782,6 @@
           "spans": [
             {
               "text": "Faiblesse de Clan",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "39588b48-e48e-80e0-98f0-f6c0a5a6c980",
-      "slug": "voie-du-vent",
-      "title": "Voie du Vent",
-      "notionUrl": "https://app.notion.com/p/Voie-du-Vent-39588b48e48e80e098f0f6c0a5a6c980",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
-      "properties": {
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Handicaps": {
-          "type": "relation",
-          "value": []
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "auspex",
-              "title": "Auspex",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "harmonisation",
-              "title": "Harmonisation",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "kuei-jin",
-              "title": "Kuei-Jin",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": []
-        },
-        "Name": {
-          "type": "text",
-          "value": "Voie du Vent"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation",
-          "spans": [
-            {
-              "text": "Présentation",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée",
-          "spans": [
-            {
-              "text": "Ecrire la présentation de la Lignée",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Faiblesse de clan",
-          "spans": [
-            {
-              "text": "Faiblesse de clan",
               "bold": false
             }
           ]

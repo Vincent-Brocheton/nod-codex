@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Test de description pour les clans",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-19T12:00:00.849Z",
+  "generatedAt": "2026-07-19T19:19:10.063Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1646,8 +1646,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3631,7 +3631,7 @@
       "slug": "tremere",
       "title": "Tremere",
       "notionUrl": "https://app.notion.com/p/Tremere-39388b48e48e8020bbe9c00213d83f59",
-      "lastEditedTime": "2026-07-07T11:46:00.000Z",
+      "lastEditedTime": "2026-07-19T18:49:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -3697,6 +3697,86 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-sang",
               "title": "Voie du Sang",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cosmos",
+              "title": "Voie du Cosmos",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-puissance-de-neptune",
+              "title": "Voie de la Puissance de Neptune",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-esprit",
+              "title": "Voie de l’Esprit",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-conjuration",
+              "title": "Voie de la Conjuration",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-verte",
+              "title": "Voie Verte",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-controle-du-climat",
+              "title": "Voie du Contrôle du Climat",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-attrait-des-flammes",
+              "title": "Voie de l’Attrait des Flammes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-technomancie",
+              "title": "Voie de la Technomancie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-corruption",
+              "title": "Voie de la Corruption",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-maitrise-elementaire",
+              "title": "Voie de la Maîtrise Elémentaire",
               "cout": null,
               "approbation": false,
               "complet": false
