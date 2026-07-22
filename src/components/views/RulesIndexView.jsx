@@ -23,7 +23,7 @@ export default function RulesIndexView({ wiki, groupProperty = "Catégorie" }) {
     const groupFilter = activeNavigation.groupFilter;
 
     const filteredItems = applyGroupFilter(collection?.items || [], groupFilter);
-    const groups = groupByCategory(filteredItems, collection?.propertyOptions, groupProperty);
+    const groups = groupByCategory(filteredItems, groupProperty);
 
     return (
         <section className="pageView indexView">

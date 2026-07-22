@@ -7,8 +7,8 @@ import groupByCategory from "../../utils/groupByCategory";
 
 /**
  * Liste d'une collection groupée visuellement par une propriété select
- * (ex. les Règles par Catégorie), plutôt qu'une liste plate. L'ordre des
- * groupes suit celui configuré dans Notion (`propertyOptions`) ; seules
+ * (ex. les Règles par Catégorie), plutôt qu'une liste plate. Les groupes
+ * sont triés par ordre alphabétique (voir `groupByCategory`) ; seules
  * les catégories qui ont au moins une fiche sont affichées.
  *
  * `activeNavigation.groupFilter` permet de restreindre les fiches visibles
@@ -29,7 +29,7 @@ export default function CategorizedListView({ wiki, groupProperty = "Catégorie"
     const filteredItems = applyGroupFilter(visibleItems, groupFilter);
     const showGroupTitles = !(groupFilter?.only?.length === 1);
 
-    const groups = groupByCategory(filteredItems, collection?.propertyOptions, groupProperty);
+    const groups = groupByCategory(filteredItems, groupProperty);
 
     return (
         <section className="listPane">
