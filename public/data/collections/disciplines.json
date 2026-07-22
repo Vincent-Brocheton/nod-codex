@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-19T19:19:10.042Z",
+  "generatedAt": "2026-07-22T07:26:23.480Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -5100,6 +5100,110 @@
       ]
     },
     {
+      "id": "39388b48-e48e-8004-87b4-c071f7b82eea",
+      "slug": "voie-de-l-air",
+      "title": "Voie de l’Air",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39388b48e48e800487b4c071f7b82eea",
+      "lastEditedTime": "2026-07-21T13:50:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": ""
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "pas-aerien",
+              "title": "Pas aérien",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vents-violents",
+              "title": "Vents violents",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "sans-titre",
+              "title": "Sans titre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "il-du-cyclone",
+              "title": "Œil du cyclone",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-elementaire-air",
+              "title": "Fusion élémentaire (Air)",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": []
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": ""
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l’Air"
+        }
+      },
+      "content": []
+    },
+    {
       "id": "38188b48-e48e-8036-be4a-c31d527d4284",
       "slug": "voie-de-l-attrait-des-flammes",
       "title": "Voie de l’Attrait des Flammes",
@@ -7782,110 +7886,6 @@
           ]
         }
       ]
-    },
-    {
-      "id": "39388b48-e48e-8004-87b4-c071f7b82eea",
-      "slug": "voie-du-vent",
-      "title": "Voie du Vent",
-      "notionUrl": "https://app.notion.com/p/Voie-du-Vent-39388b48e48e800487b4c071f7b82eea",
-      "lastEditedTime": "2026-07-04T23:15:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": ""
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "pas-aerien",
-              "title": "Pas aérien",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "vents-violents",
-              "title": "Vents violents",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "toucher-aerien",
-              "title": "Toucher aérien",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "il-du-cyclone",
-              "title": "Œil du cyclone",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "fusion-elementaire-air",
-              "title": "Fusion élémentaire (Air)",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": []
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": ""
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie du Vent"
-        }
-      },
-      "content": []
     },
     {
       "id": "38188b48-e48e-8024-b3d1-c7475b10e765",

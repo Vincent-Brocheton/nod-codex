@@ -89,11 +89,6 @@ function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroup
  * multi-collections déjà gérée par useCollections) et on affiche cette
  * fiche seule, avec un lien retour vers `resolveBackPath` si fourni.
  *
- * `indexBackgroundClassName` ajoute une classe sur `.pageArea` de la page
- * d'index (catégorie non choisie) uniquement, ex. pour l'illustration de
- * fond des Rituels (voir `.pageAreaRituals` dans styles.css) sans l'imposer
- * aux autres usages de ce composant (Atouts & Handicaps).
- *
  * `groupHeadingIcon(collectionKey)` et `groupCardMeta` (objet `{ [valeur]:
  * { icon, describe(collectionLabel) } }`) enrichissent les cartes de
  * l'index (icône de section, icône + accroche par carte) pour Atouts &
@@ -120,7 +115,6 @@ export default function GroupedRuleView({
     itemSubGroup,
     showGroupBadge = true,
     resolveBackPath,
-    indexBackgroundClassName,
     groupHeadingIcon,
     groupCardMeta,
 }) {
@@ -192,7 +186,7 @@ export default function GroupedRuleView({
 
     if (!selected) {
         return (
-            <div className={`pageArea${indexBackgroundClassName ? ` ${indexBackgroundClassName}` : ""}`}>
+            <div className="pageArea">
                 <section className="pageView indexView">
 
                     <IndexPageHeader icon={activeNavigation.icon} label={activeNavigation.label} />
@@ -214,29 +208,29 @@ export default function GroupedRuleView({
                                     {collection.label}
                                 </h2>
 
-                                <div className="indexGrid">
+                                <div className="listRows">
                                     {groups.map(value => {
                                         const meta = groupCardMeta?.[value];
 
                                         return (
                                             <button
                                                 key={value}
-                                                className={`indexCard${meta ? " indexCardRich" : ""}`}
+                                                className={`listRow${meta ? " listRowRich" : ""}`}
                                                 onClick={() => selectGroup(collection.key, value)}
                                             >
                                                 {meta ? (
                                                     <>
-                                                        <span className="indexCardIcon">
+                                                        <span className="listRowIcon">
                                                             <AppIcon name={meta.icon} size={22} />
                                                         </span>
                                                         <strong>{formatGroupLabel(value)}</strong>
                                                         <p>{meta.describe(collection.label)}</p>
-                                                        <ArrowRight className="indexCardArrow" size={16} aria-hidden="true" />
+                                                        <ArrowRight className="rowArrow" size={16} aria-hidden="true" />
                                                     </>
                                                 ) : (
                                                     <>
                                                         {showGroupBadge ? <span className="powerLevel">{value}</span> : null}
-                                                        <span>{formatGroupLabel(value)}</span>
+                                                        <span className="listRowLabel">{formatGroupLabel(value)}</span>
                                                     </>
                                                 )}
                                             </button>

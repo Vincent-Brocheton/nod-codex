@@ -75,9 +75,9 @@ export default function ClansIndexView({ wiki }) {
             {loading ? (
                 <LoadingState message="Chargement..." />
             ) : (
-                <div className="clanGrid">
+                <div className="listRows">
                     {items.map((item) => (
-                        <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="clanCard">
+                        <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">
                             <ClanEmblem slug={item.slug} />
 
                             <span className="clanCardBody">

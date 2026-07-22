@@ -53,15 +53,15 @@ export default function RulesIndexView({ wiki, groupProperty = "Catégorie" }) {
 
                         <h2>{group.label}</h2>
 
-                        <div className="indexGrid">
+                        <div className="listRows">
                             {group.items.map((item) => (
                                 <Link
                                     key={item.id}
                                     to={`${activeNavigation.path}/${item.slug}`}
-                                    className="indexCard"
+                                    className="listRow"
                                 >
                                     <FileText aria-hidden="true" size={17} />
-                                    <span>{item.title}</span>
+                                    <span className="listRowLabel">{item.title}</span>
                                 </Link>
                             ))}
                         </div>

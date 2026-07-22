@@ -42,26 +42,24 @@ export default function SectionIndexView({ wiki }) {
                 groups.map(group => (
                     <div key={group.key} className="indexGroup">
 
-                        <ul className="indexList">
+                        <div className="listRows">
                             {group.items.map(item => (
-                                <li key={item.id}>
-                                    <Link to={`${activeNavigation.path}/${item.slug}`} className="indexListItem">
-                                        <AppIcon name={activeNavigation.icon} size={16} aria-hidden="true" />
-                                        <span>{item.title}</span>
-                                        <ItemFlags
-                                            needsApproval={item.properties?.Approbation?.value === true}
-                                            full={item.properties?.Complet?.value === true}
-                                            compact
-                                        />
-                                        <ChevronRight className="rowArrow" size={18} aria-hidden="true" />
-                                    </Link>
-                                </li>
+                                <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">
+                                    <AppIcon name={activeNavigation.icon} size={16} aria-hidden="true" />
+                                    <span className="listRowLabel">{item.title}</span>
+                                    <ItemFlags
+                                        needsApproval={item.properties?.Approbation?.value === true}
+                                        full={item.properties?.Complet?.value === true}
+                                        compact
+                                    />
+                                    <ChevronRight className="rowArrow" size={18} aria-hidden="true" />
+                                </Link>
                             ))}
 
                             {group.items.length === 0 ? (
                                 <p className="empty">Aucune fiche dans cette base pour le moment.</p>
                             ) : null}
-                        </ul>
+                        </div>
 
                     </div>
                 ))

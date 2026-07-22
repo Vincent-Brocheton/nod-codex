@@ -57,20 +57,19 @@ export default function SearchResultsView({ wiki }) {
 
                                 <h2>{group.label}</h2>
 
-                                <ul className="indexList">
+                                <div className="listRows">
                                     {group.items.map((item) => (
-                                        <li key={item.id}>
-                                            <Link
-                                                to={`${collectionNavPath(item.collectionKey)}/${item.slug}`}
-                                                className="indexListItem"
-                                                onClick={() => setQuery("")}
-                                            >
-                                                <FileText size={16} aria-hidden="true" />
-                                                <span>{item.title}</span>
-                                            </Link>
-                                        </li>
+                                        <Link
+                                            key={item.id}
+                                            to={`${collectionNavPath(item.collectionKey)}/${item.slug}`}
+                                            className="listRow"
+                                            onClick={() => setQuery("")}
+                                        >
+                                            <FileText size={16} aria-hidden="true" />
+                                            <span className="listRowLabel">{item.title}</span>
+                                        </Link>
                                     ))}
-                                </ul>
+                                </div>
 
                             </div>
                         ))}

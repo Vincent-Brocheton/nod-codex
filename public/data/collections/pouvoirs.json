@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-19T19:19:10.046Z",
+  "generatedAt": "2026-07-22T07:26:23.484Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -25,7 +25,8 @@
       "AIP",
       "3 tours",
       "5 tours",
-      "1 heure"
+      "1 heure",
+      "1 tour"
     ],
     "Durée": [
       "1 heure",
@@ -3671,6 +3672,546 @@
       ]
     },
     {
+      "id": "3a388b48-e48e-8012-957c-c45366f4ad13",
+      "slug": "chant-de-jupiter",
+      "title": "Chant de Jupiter",
+      "notionUrl": "https://app.notion.com/p/Chant-de-Jupiter-3a388b48e48e8012957cc45366f4ad13",
+      "lastEditedTime": "2026-07-20T10:53:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chant de Jupiter"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les accords puissants et soutenus de Jupiter, planète de la puissance et du statut, renforcent le courage et la détermination. Les auditeurs se sentent résolus et intrépides, tels des rois.",
+          "spans": [
+            {
+              "text": "Les accords puissants et soutenus de Jupiter, planète de la puissance et du statut, renforcent le courage et la détermination. Les auditeurs se sentent résolus et intrépides, tels des rois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier chante ou joue de son instrument, permettant de protéger son audience.\nCette mélodie permet d'annuler les effets de la Présence.\nL'effet dure tant que le chant est actif.",
+          "spans": [
+            {
+              "text": "Le sorcier chante ou joue de son instrument, permettant de protéger son audience.\nCette mélodie permet d'annuler les effets de la Présence.\nL'effet dure tant que le chant est actif.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La mélodie entraîne un malus de -2 à tous les challenges impliquant des contrôles ou altérations mentales (tel que la Domination, l'Aliénation ou la Voie de la Musique des Sphères par exemple).",
+          "spans": [
+            {
+              "text": "La mélodie entraîne un malus de -2 à tous les challenges impliquant des contrôles ou altérations mentales (tel que la Domination, l'Aliénation ou la Voie de la Musique des Sphères par exemple).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-8021-a61d-e659f8a506e6",
+      "slug": "chant-de-mars",
+      "title": "Chant de Mars",
+      "notionUrl": "https://app.notion.com/p/Chant-de-Mars-3a388b48e48e8021a61de659f8a506e6",
+      "lastEditedTime": "2026-07-20T10:52:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chant de Mars"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les accords âpres et les rythmes impétueux de Mars suscitent des sentiments de colère et d'agressivité. Le sorcier peut amener son public à haïr une cible précise ou même pousser les auditeurs jusqu'à des accès de rage.",
+          "spans": [
+            {
+              "text": "Les accords âpres et les rythmes impétueux de Mars suscitent des sentiments de colère et d'agressivité. Le sorcier peut amener son public à haïr une cible précise ou même pousser les auditeurs jusqu'à des accès de rage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier chante ou joue de son instrument, permettant d'amener son public, pour le reste de la scène, à mépriser une personne ou une organisation cible (l'équivalent de l'inverse du Chant de Vénus). La cible n'a pas besoin d'être présente.\nLes Personnages peuvent ignorer les effets du Chant de Mars pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+          "spans": [
+            {
+              "text": "Le sorcier chante ou joue de son instrument, permettant d'amener son public, pour le reste de la scène, à mépriser une personne ou une organisation cible (l'équivalent de l'inverse du Chant de Vénus). La cible n'a pas besoin d'être présente.\nLes Personnages peuvent ignorer les effets du Chant de Mars pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La mélodie permet de faire rentrer en frénésie son auditoire (en cas d'échec au challenge). ",
+          "spans": [
+            {
+              "text": "La mélodie permet de faire rentrer en frénésie son auditoire (en cas d'échec au challenge). ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-80d7-96fe-f539e6200a09",
+      "slug": "chant-de-mercure",
+      "title": "Chant de Mercure",
+      "notionUrl": "https://app.notion.com/p/Chant-de-Mercure-3a388b48e48e80d796fef539e6200a09",
+      "lastEditedTime": "2026-07-20T10:49:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chant de Mercure"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La musique de Mercure, la planète qui régit la pensée abstraite, émousse les émotions. Les rapides cascades de notes distraient les auditeurs et apaisent leur âme.",
+          "spans": [
+            {
+              "text": "La musique de Mercure, la planète qui régit la pensée abstraite, émousse les émotions. Les rapides cascades de notes distraient les auditeurs et apaisent leur âme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier chante ou joue de son instrument, permettant de calmer les cœurs.\nCette mélodie permet d'annuler les effets mineurs qui altèrent les émotions d'une cible, incluant les deux premiers niveaux de chaque discipline.",
+          "spans": [
+            {
+              "text": "Le sorcier chante ou joue de son instrument, permettant de calmer les cœurs.\nCette mélodie permet d'annuler les effets mineurs qui altèrent les émotions d'une cible, incluant les deux premiers niveaux de chaque discipline.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La mélodie permet également de calmer la Frénésie et la Transe Toréador.",
+          "spans": [
+            {
+              "text": "La mélodie permet également de calmer la Frénésie et la Transe Toréador.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-8063-8db3-dba3937abce6",
+      "slug": "chant-de-saturne",
+      "title": "Chant de Saturne",
+      "notionUrl": "https://app.notion.com/p/Chant-de-Saturne-3a388b48e48e80638db3dba3937abce6",
+      "lastEditedTime": "2026-07-20T10:55:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 2
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chant de Saturne"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les accords menaçants de Saturne, planète de la mort et de la restriction, inspirent la terreur à ceux qui les entendent. Les personnes affectées par cette musique magique ont besoin de tout leur courage et de toute leur volonté pour résister à l'envie de céder.",
+          "spans": [
+            {
+              "text": "Les accords menaçants de Saturne, planète de la mort et de la restriction, inspirent la terreur à ceux qui les entendent. Les personnes affectées par cette musique magique ont besoin de tout leur courage et de toute leur volonté pour résister à l'envie de céder.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier chante ou joue de son instrument pour inspirer la terreur.\nCette mélodie fait entrer immédiatement tout vampire en Frénésie de peur. Les mortels, quant à eux, sont terrifiés.\nIl est possible de dépenser 2 points de Volonté pour ignorer cet effet.",
+          "spans": [
+            {
+              "text": "Le sorcier chante ou joue de son instrument pour inspirer la terreur.\nCette mélodie fait entrer immédiatement tout vampire en Frénésie de peur. Les mortels, quant à eux, sont terrifiés.\nIl est possible de dépenser 2 points de Volonté pour ignorer cet effet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Personnages qui veulent surmonter votre Chant de Saturne doivent dépenser 3 points de Volonté plutôt que 2 pour l'ignorer pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 3 points de Volonté. ",
+          "spans": [
+            {
+              "text": "Les Personnages qui veulent surmonter votre Chant de Saturne doivent dépenser 3 points de Volonté plutôt que 2 pour l'ignorer pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 3 points de Volonté. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-8085-b6ca-d787255cec74",
+      "slug": "chant-de-venus",
+      "title": "Chant de Vénus",
+      "notionUrl": "https://app.notion.com/p/Chant-de-V-nus-3a388b48e48e8085b6cad787255cec74",
+      "lastEditedTime": "2026-07-20T10:51:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Chant de Vénus"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La douce musique de Vénus suscite des sentiments d'affection qu'un musicien occulte peut orienter à sa guise. Le sorcier peut se faire apprécier, ou faire apprécier toute autre personne de son choix, pour une durée limitée.",
+          "spans": [
+            {
+              "text": "La douce musique de Vénus suscite des sentiments d'affection qu'un musicien occulte peut orienter à sa guise. Le sorcier peut se faire apprécier, ou faire apprécier toute autre personne de son choix, pour une durée limitée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier chante ou joue de son instrument, permettant d'obtenir les mêmes effets que le Niveau 1 de Présence, \"Révérence\" pour le reste de la scène, à ceci près qu'il peut désigner, s'il le souhaite, un autre personnage pour en bénéficier.\nLes Personnages peuvent ignorer les effets du Chant de Vénus pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+          "spans": [
+            {
+              "text": "Le sorcier chante ou joue de son instrument, permettant d'obtenir les mêmes effets que le Niveau 1 de Présence, \"Révérence\" pour le reste de la scène, à ceci près qu'il peut désigner, s'il le souhaite, un autre personnage pour en bénéficier.\nLes Personnages peuvent ignorer les effets du Chant de Vénus pendant une heure, même si elle provient de différents individus en dépensant un point de Volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Personnages qui veulent surmonter votre Chant de Vénus doivent dépenser 2 points de Volonté plutôt qu'1 pour l'ignorer pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 2 points de Volonté.",
+          "spans": [
+            {
+              "text": "Les Personnages qui veulent surmonter votre Chant de Vénus doivent dépenser 2 points de Volonté plutôt qu'1 pour l'ignorer pendant la prochaine heure. Peu importe le nombre de personnages dans la zone avec ce focus, ils sont tous ignorés avec la dépense de 2 points de Volonté.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-80bc-841c-e8e112ac2c03",
       "slug": "chasseuse-de-l-umbra",
       "title": "Chasseuse de l'Umbra",
@@ -5019,6 +5560,194 @@
           "spans": [
             {
               "text": "Vous avez la possibilité de soulever jusqu’à 10 tonnes.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-8053-9467-f2d80003ae60",
+      "slug": "converser-avec-la-lame",
+      "title": "Converser avec la lame",
+      "notionUrl": "https://app.notion.com/p/Converser-avec-la-lame-3a388b48e48e80539467f2d80003ae60",
+      "lastEditedTime": "2026-07-20T10:58:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Converser avec la lame"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut percevoir des informations sur l'histoire et l'état actuel d'une arme en établissant une connexion mystique avec elle. Cela inclut des détails sur sa fabrication, les événements marquants auxquels elle a participé, et les enchantements éventuels qu'elle possède.",
+          "spans": [
+            {
+              "text": "Le sorcier peut percevoir des informations sur l'histoire et l'état actuel d'une arme en établissant une connexion mystique avec elle. Cela inclut des détails sur sa fabrication, les événements marquants auxquels elle a participé, et les enchantements éventuels qu'elle possède.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier touche l'épée et obtient immédiatement les informations suivantes sur l'arme :",
+          "spans": [
+            {
+              "text": "Le sorcier touche l'épée et obtient immédiatement les informations suivantes sur l'arme :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Longueur exacte, poids, matériaux, équilibre et qualités.",
+          "spans": [
+            {
+              "text": "Longueur exacte, poids, matériaux, équilibre et qualités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lieu et date de forge, nom du forgeron et événements importants autour de sa création.",
+          "spans": [
+            {
+              "text": "Lieu et date de forge, nom du forgeron et événements importants autour de sa création.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Rituels liés à la lame, effets, nom des sorciers ayant agit sur elle.",
+          "spans": [
+            {
+              "text": "Rituels liés à la lame, effets, nom des sorciers ayant agit sur elle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier obtient également :",
+          "spans": [
+            {
+              "text": "Le sorcier obtient également :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Des informations sur les épisodes majeurs de la vie de la lame, les grandes batailles et les propriétaires importants.",
+          "spans": [
+            {
+              "text": "Des informations sur les épisodes majeurs de la vie de la lame, les grandes batailles et les propriétaires importants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pour les sept prochains jours, il reconnait le goût du sang que fera verser la lame s'il y a déjà goûté.",
+          "spans": [
+            {
+              "text": "Pour les sept prochains jours, il reconnait le goût du sang que fera verser la lame s'il y a déjà goûté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La lame devient une véritable extension du sorcier. Diminue de 1 la difficulté pour le prochain rituel appliqué sur l'arme",
+          "spans": [
+            {
+              "text": "La lame devient une véritable extension du sorcier. Diminue de 1 la difficulté pour le prochain rituel appliqué sur l'arme",
               "bold": false
             }
           ]
@@ -8606,6 +9335,144 @@
       ]
     },
     {
+      "id": "3a388b48-e48e-80e6-aa54-e76827fce213",
+      "slug": "forge-vivante",
+      "title": "Forge vivante",
+      "notionUrl": "https://app.notion.com/p/Forge-vivante-3a388b48e48e80e6aa54e76827fce213",
+      "lastEditedTime": "2026-07-20T11:05:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "1 tour"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forge vivante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire peut manipuler les métaux à grande échelle, leur donnant une forme ou une fonction spécifique en temps réel. Une structure entière peut être remodelée ou une armure entièrement forgée à partir de matériaux bruts.",
+          "spans": [
+            {
+              "text": "Le vampire peut manipuler les métaux à grande échelle, leur donnant une forme ou une fonction spécifique en temps réel. Une structure entière peut être remodelée ou une armure entièrement forgée à partir de matériaux bruts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire doit être au contact du métal qu’il souhaite manipuler.",
+          "spans": [
+            {
+              "text": "Le vampire doit être au contact du métal qu’il souhaite manipuler.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut alors créer un objet de taille moyenne (arme ou armure) avec une des qualités suivantes :",
+          "spans": [
+            {
+              "text": "Il peut alors créer un objet de taille moyenne (arme ou armure) avec une des qualités suivantes :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "--> Lame : Brutale, Facilement dégainée, Mortelle, Perce-armure, Pieu, Précise, Rapide, Souffle.\n---> Armure : Absorption d’impact, Balistique, Plaque pectorale, Renforcée, Robuste",
+          "spans": [
+            {
+              "text": "--> Lame : Brutale, Facilement dégainée, Mortelle, Perce-armure, Pieu, Précise, Rapide, Souffle.\n---> Armure : Absorption d’impact, Balistique, Plaque pectorale, Renforcée, Robuste",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut également manipuler le métal pour altérer légèrement sa forme (ex. : déformer une porte blindée ou une poutre métallique).",
+          "spans": [
+            {
+              "text": "Il peut également manipuler le métal pour altérer légèrement sa forme (ex. : déformer une porte blindée ou une poutre métallique).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut maintenant créer un objet de taille moyenne (arme ou armure) avec deux qualités, ou alors altérer entièrement la forme du métal (ex. : ouvrir la porte blindée, plier la poutre métallique).",
+          "spans": [
+            {
+              "text": "Le sorcier peut maintenant créer un objet de taille moyenne (arme ou armure) avec deux qualités, ou alors altérer entièrement la forme du métal (ex. : ouvrir la porte blindée, plier la poutre métallique).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8006-8205-fa94d2ca517a",
       "slug": "forme-du-cobra",
       "title": "Forme du Cobra",
@@ -9148,6 +10015,124 @@
       ]
     },
     {
+      "id": "3a388b48-e48e-805e-8459-d4a0ec7fc8d8",
+      "slug": "fusion-avec-l-acier",
+      "title": "Fusion avec l’Acier",
+      "notionUrl": "https://app.notion.com/p/Fusion-avec-l-Acier-3a388b48e48e805e8459d4a0ec7fc8d8",
+      "lastEditedTime": "2026-07-20T11:04:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Vigueur"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fusion avec l’Acier"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire peut fusionner avec un objet métallique ou le faire s’incorporer à son propre corps. Il peut, par exemple, transformer ses bras en lames ou absorber une armure métallique pour augmenter sa défense.",
+          "spans": [
+            {
+              "text": "Le vampire peut fusionner avec un objet métallique ou le faire s’incorporer à son propre corps. Il peut, par exemple, transformer ses bras en lames ou absorber une armure métallique pour augmenter sa défense.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut absorber jusqu'à une lame ou une armure métallique, bénéficiant des qualités des objets absorbés, avec les bonus et malus appliqué.",
+          "spans": [
+            {
+              "text": "Le sorcier peut absorber jusqu'à une lame ou une armure métallique, bénéficiant des qualités des objets absorbés, avec les bonus et malus appliqué.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier ne peut alors plus être désarmé.",
+          "spans": [
+            {
+              "text": "Le sorcier ne peut alors plus être désarmé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut absorber une lame ET une armure métallique, et peut utiliser \"Renforcement temporaire\" sans utiliser de point de sang sur l'objet absorbé. ",
+          "spans": [
+            {
+              "text": "Le sorcier peut absorber une lame ET une armure métallique, et peut utiliser \"Renforcement temporaire\" sans utiliser de point de sang sur l'objet absorbé. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3a288b48-e48e-8062-ab18-cd9a8ca8ee7b",
       "slug": "fusion-elementaire-air",
       "title": "Fusion élémentaire (Air)",
@@ -9175,8 +10160,8 @@
           "value": [
             {
               "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -16327,8 +17312,8 @@
           "value": [
             {
               "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -16691,8 +17676,8 @@
           "value": [
             {
               "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -21513,6 +22498,152 @@
       ]
     },
     {
+      "id": "3a388b48-e48e-80e2-a095-e82821012185",
+      "slug": "renforcement-temporaire",
+      "title": "Renforcement temporaire",
+      "notionUrl": "https://app.notion.com/p/Renforcement-temporaire-3a388b48e48e80e2a095e82821012185",
+      "lastEditedTime": "2026-07-20T11:01:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 scène"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Renforcement temporaire"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut temporairement améliorer la qualité d’un objet métallique, le rendant plus solide, plus tranchant ou plus efficace. Les lames infligent plus de dégâts, les armures deviennent plus résistantes, et les outils gagnent en précision.",
+          "spans": [
+            {
+              "text": "Le sorcier peut temporairement améliorer la qualité d’un objet métallique, le rendant plus solide, plus tranchant ou plus efficace. Les lames infligent plus de dégâts, les armures deviennent plus résistantes, et les outils gagnent en précision.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier touche une lame ou une armure métallique. Il peut alors lui rajouter gratuitement un trait (pour un total de 2 maximum par objet) parmi les traits suivants :",
+          "spans": [
+            {
+              "text": "Le sorcier touche une lame ou une armure métallique. Il peut alors lui rajouter gratuitement un trait (pour un total de 2 maximum par objet) parmi les traits suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lame : Brutale, Facilement dégainée, Mortelle, Perce-armure, Pieu, Précise, Rapide, Souffle.",
+          "spans": [
+            {
+              "text": "Lame : ",
+              "bold": true
+            },
+            {
+              "text": "Brutale, Facilement dégainée, Mortelle, Perce-armure, Pieu, Précise, Rapide, Souffle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armure : Absorption d’impact, Balistique, Plaque pectorale, Renforcée, Robuste",
+          "spans": [
+            {
+              "text": "Armure : ",
+              "bold": true
+            },
+            {
+              "text": "Absorption d’impact, Balistique, Plaque pectorale, Renforcée, Robuste",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet effet dure une scène.",
+          "spans": [
+            {
+              "text": "Cet effet dure une scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut dépasser la limite et atteindre 3 traits maximum par objet",
+          "spans": [
+            {
+              "text": "Le sorcier peut dépasser la limite et atteindre 3 traits maximum par objet",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3a288b48-e48e-8011-80f6-ff6769664235",
       "slug": "renforcer-l-harmonie",
       "title": "Renforcer l'harmonie",
@@ -22700,6 +23831,148 @@
           "spans": [
             {
               "text": "Vous pouvez utiliser ce pouvoir 2 fois/ nuit au lieu d’une seule fois.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-808a-a880-fb36087c465d",
+      "slug": "sans-titre",
+      "title": "Sans titre",
+      "notionUrl": "https://app.notion.com/p/3a288b48e48e808aa880fb36087c465d",
+      "lastEditedTime": "2026-07-21T13:50:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": ""
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+          "spans": [
+            {
+              "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+          "spans": [
+            {
+              "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+          "spans": [
+            {
+              "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps de vol passe jusqu'à une scène complète.",
+          "spans": [
+            {
+              "text": "Le temps de vol passe jusqu'à une scène complète.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Votre Servant Elémentaire d'Air peut vous assister au combat. ",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            },
+            {
+              "text": " Votre Servant Elémentaire d'Air peut vous assister au combat. ",
               "bold": false
             }
           ]
@@ -24484,6 +25757,114 @@
       ]
     },
     {
+      "id": "3a388b48-e48e-80e8-8d2c-f26b9e4de063",
+      "slug": "symbiose-metallique",
+      "title": "Symbiose métallique",
+      "notionUrl": "https://app.notion.com/p/Symbiose-m-tallique-3a388b48e48e80e88d2cf26b9e4de063",
+      "lastEditedTime": "2026-07-20T11:03:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 scène"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Symbiose métallique"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire établit un lien surnaturel avec une lame, lui permettant de le contrôler sa structure à distance.",
+          "spans": [
+            {
+              "text": "Le vampire établit un lien surnaturel avec une lame, lui permettant de le contrôler sa structure à distance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire peut prendre le contrôle d'une lame dans un rayon de 10 mètres et s'en servir comme une extension de son propre corps. Cet effet dure jusqu'à la fin de la scène.",
+          "spans": [
+            {
+              "text": "Le vampire peut prendre le contrôle d'une lame dans un rayon de 10 mètres et s'en servir comme une extension de son propre corps. Cet effet dure jusqu'à la fin de la scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sorcier peut manipuler jusqu'à deux lames à la fois, et peut utiliser les qualités de l'arme principale et l’une des qualités de l'arme secondaire, autorisant les deux à augmenter son attaque. (Vous ne pouvez pas utiliser le même bonus deux fois dans un seul challenge.) ",
+          "spans": [
+            {
+              "text": "Le sorcier peut manipuler jusqu'à deux lames à la fois, et peut utiliser les qualités de l'arme principale et l’une des qualités de l'arme secondaire, autorisant les deux à augmenter son attaque. (Vous ne pouvez pas utiliser le même bonus deux fois dans un seul challenge.) ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8076-90aa-eea634c1ac03",
       "slug": "syzygie",
       "title": "Syzygie",
@@ -25341,148 +26722,6 @@
       ]
     },
     {
-      "id": "3a288b48-e48e-808a-a880-fb36087c465d",
-      "slug": "toucher-aerien",
-      "title": "Toucher aérien",
-      "notionUrl": "https://app.notion.com/p/Toucher-a-rien-3a288b48e48e808aa880fb36087c465d",
-      "lastEditedTime": "2026-07-19T19:00:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Dexterité"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": ""
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 3
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 1
-        },
-        "Name": {
-          "type": "text",
-          "value": "Toucher aérien"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
-          "spans": [
-            {
-              "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
-          "spans": [
-            {
-              "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Réussite Critique",
-          "spans": [
-            {
-              "text": "Réussite Critique",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
-          "spans": [
-            {
-              "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le temps de vol passe jusqu'à une scène complète.",
-          "spans": [
-            {
-              "text": "Le temps de vol passe jusqu'à une scène complète.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Effet passif : Votre Servant Elémentaire d'Air peut vous assister au combat. ",
-          "spans": [
-            {
-              "text": "Effet passif :",
-              "bold": true
-            },
-            {
-              "text": " Votre Servant Elémentaire d'Air peut vous assister au combat. ",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "39b88b48-e48e-8058-808a-eeb88c23954d",
       "slug": "toucher-anesthesique",
       "title": "Toucher anesthésique",
@@ -26052,8 +27291,8 @@
           "value": [
             {
               "collectionKey": "disciplines",
-              "slug": "voie-du-vent",
-              "title": "Voie du Vent",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
               "cout": null,
               "approbation": false,
               "complet": false

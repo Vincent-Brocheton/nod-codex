@@ -3,6 +3,14 @@ import { Feather } from "lucide-react";
 import AppIcon from "../AppIcon";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
+import { normalizeProperty } from "../../utils/property";
+
+// "Prerequis" est un multi_select Notion (ex. "Chimérie •", "Dissimulation
+// ••" : discipline + niveau requis), affiché tel quel sous le titre.
+function prereqText(item) {
+    const { value } = normalizeProperty(item.properties?.Prerequis);
+    return Array.isArray(value) && value.length ? value.join(", ") : null;
+}
 
 /**
  * Page d'index des Techniques : liste simple (pas d'icône dédiée par fiche
@@ -47,16 +55,22 @@ export default function TechniquesIndexView({ wiki }) {
                     </p>
                 </div>
             ) : (
-                <ul className="indexList">
-                    {items.map((item) => (
-                        <li key={item.id}>
-                            <Link to={`${activeNavigation.path}/${item.slug}`} className="indexListItem">
+                <div className="listRows">
+                    {items.map((item) => {
+                        const prereqs = prereqText(item);
+
+                        return (
+                            <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">
                                 <AppIcon name={activeNavigation.icon} size={16} aria-hidden="true" />
-                                <span>{item.title}</span>
+
+                                <span className="techniqueBody">
+                                    <strong className="listRowLabel">{item.title}</strong>
+                                    {prereqs ? <span className="techniquePrereq">Prérequis : {prereqs}</span> : null}
+                                </span>
                             </Link>
-                        </li>
-                    ))}
-                </ul>
+                        );
+                    })}
+                </div>
             )}
 
         </section>

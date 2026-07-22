@@ -60,7 +60,7 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "clans" && !slug) {
         return (
-            <div className="pageArea pageAreaClans">
+            <div className="pageArea">
                 <ClansIndexView wiki={wiki} />
             </div>
         );
@@ -68,7 +68,7 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "disciplines" && !slug) {
         return (
-            <div className="pageArea pageAreaDisciplines">
+            <div className="pageArea">
                 <DisciplinesIndexView wiki={wiki} />
             </div>
         );
@@ -76,7 +76,7 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "techniques" && !slug) {
         return (
-            <div className="pageArea pageAreaTechniques">
+            <div className="pageArea">
                 <TechniquesIndexView wiki={wiki} />
             </div>
         );
@@ -84,7 +84,7 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "competences" && !slug) {
         return (
-            <div className="pageArea pageAreaCompetences">
+            <div className="pageArea">
                 <SectionIndexView wiki={wiki} />
             </div>
         );

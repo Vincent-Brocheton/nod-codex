@@ -982,49 +982,6 @@ a.relationChip:hover {
   overflow-y: auto;
 }
 
-/* Illustration des pages d'index illustrées (Clans, Disciplines,
-   Techniques, Rituels, Compétences...) : posée en `background` de
-   `.pageArea` lui-même (pas un panneau séparé) pour couvrir toute la
-   hauteur et déborder partiellement derrière les cartes de la liste, qui
-   la masquent localement grâce à leur propre fond opaque. Le dégradé fait
-   le lien entre le noir (côté texte) et l'image (à droite) ; `--page-bg`
-   (définie par chaque `.pageAreaX`) est le seul réglage propre à une page,
-   pour ajouter une nouvelle page illustrée sans dupliquer tout le reste.
-   Posé en `background` plutôt qu'en ::before : un ::before positionné en
-   absolute fait partie du contenu défilant de `.pageArea` (overflow-y:
-   auto) et disparaîtrait donc au scroll, alors qu'un `background`
-   classique reste fixe par rapport à la boîte elle-même quel que soit le
-   défilement de son contenu. Réservé au thème sombre (visuels trop
-   sombres pour le clair).
-*/
-.pageAreaClans,
-.pageAreaDisciplines,
-.pageAreaTechniques,
-.pageAreaRituals,
-.pageAreaCompetences,
-.pageAreaAtouts {
-  background-image: linear-gradient(90deg, var(--bg-canvas) 20%, transparent 65%), var(--page-bg);
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-.pageAreaClans { --page-bg: url("/images/clans.png"); }
-.pageAreaDisciplines { --page-bg: url("/images/disciplines.png"); }
-.pageAreaTechniques { --page-bg: url("/images/techniques.png"); }
-.pageAreaRituals { --page-bg: url("/images/rituels.png"); }
-.pageAreaCompetences { --page-bg: url("/images/competences.png"); }
-.pageAreaAtouts { --page-bg: url("/images/atouts.png"); }
-
-:root[data-theme="light"] .pageAreaClans,
-:root[data-theme="light"] .pageAreaDisciplines,
-:root[data-theme="light"] .pageAreaTechniques,
-:root[data-theme="light"] .pageAreaRituals,
-:root[data-theme="light"] .pageAreaCompetences,
-:root[data-theme="light"] .pageAreaAtouts {
-  background-image: none;
-}
-
 .pageView {
 
     flex: 1;
@@ -1510,28 +1467,89 @@ a.relationChip:hover {
   color: var(--text-faint);
 }
 
-.clanGrid {
-  display: grid;
-  gap: 16px;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+/* Habillage commun à toutes les listes d'index (Clans, Disciplines,
+   Techniques, Compétences, Rituels, Atouts & Handicaps...) : même carte
+   (fond, bordure, arrondi, survol) pour chaque ligne, quel que soit son
+   contenu propre (embème, icône, compteur, description...). `.listRowRich`
+   passe en colonne pour les lignes avec description (Atouts & Handicaps).
+*/
+.listRows {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
-.clanCard {
+.listRow {
   align-items: center;
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text-primary);
+  cursor: pointer;
   display: flex;
+  font: inherit;
   gap: 16px;
-  padding: 16px;
+  padding: 16px 18px;
+  text-align: left;
   text-decoration: none;
   transition: border-color 0.15s ease, background 0.15s ease;
 }
 
-.clanCard:hover {
+.listRow:hover {
   background: var(--bg-card-hover);
   border-color: var(--accent);
+}
+
+.listRow svg {
+  color: var(--accent-strong);
+  flex: 0 0 auto;
+}
+
+.listRow .powerLevel {
+  margin: 0;
+}
+
+.listRow .rowArrow {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  margin-left: auto;
+}
+
+.listRowRich {
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 8px;
+  padding: 16px;
+  position: relative;
+}
+
+.listRowRich strong {
+  font-size: 1rem;
+}
+
+.listRowRich p {
+  color: var(--text-secondary);
+  font-size: 0.85rem;
+  margin: 0;
+}
+
+.listRowRich .rowArrow {
+  margin-left: 0;
+  position: absolute;
+  right: 14px;
+  top: 16px;
+}
+
+.listRowIcon {
+  align-items: center;
+  background: var(--accent-tint);
+  border-radius: 999px;
+  color: var(--accent-strong);
+  display: flex;
+  flex: 0 0 auto;
+  height: 40px;
+  justify-content: center;
+  width: 40px;
 }
 
 .clanEmblem {
@@ -1570,11 +1588,6 @@ a.relationChip:hover {
   color: var(--text-muted);
   font-size: 13px;
   margin: 0;
-}
-
-.rowArrow {
-  color: var(--text-faint);
-  flex: 0 0 auto;
 }
 
 .listToolbar {
@@ -1620,30 +1633,6 @@ a.relationChip:hover {
   pointer-events: none;
 }
 
-.disciplineList {
-  display: flex;
-  flex-direction: column;
-  gap: 10px;
-}
-
-.disciplineRow {
-  align-items: center;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text-primary);
-  display: flex;
-  gap: 16px;
-  padding: 16px 18px;
-  text-decoration: none;
-  transition: border-color 0.15s ease, background 0.15s ease;
-}
-
-.disciplineRow:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--accent);
-}
-
 .disciplineIcon {
   align-items: center;
   background: var(--accent-tint);
@@ -1685,6 +1674,19 @@ a.relationChip:hover {
   white-space: nowrap;
 }
 
+.techniqueBody {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  min-width: 0;
+}
+
+.techniquePrereq {
+  color: var(--text-muted);
+  font-size: 13px;
+  margin-top: 4px;
+}
+
 .indexGroup:not(:last-child) {
   margin-bottom: 32px;
 }
@@ -1697,51 +1699,7 @@ a.relationChip:hover {
   padding-bottom: 8px;
 }
 
-.indexList {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-.indexList li {
-  border-bottom: 1px solid var(--border);
-}
-
-.indexList li:last-child {
-  border-bottom: none;
-}
-
-.indexListItem {
-  align-items: center;
-  color: var(--text-primary);
-  cursor: pointer;
-  display: flex;
-  font: inherit;
-  gap: 12px;
-  padding: 13px 4px;
-  text-align: left;
-  text-decoration: none;
-  transition: color 0.15s ease, padding-left 0.15s ease;
-}
-
-.indexListItem:hover {
-  color: var(--accent-hover);
-  padding-left: 8px;
-}
-
-.indexListItem svg {
-  color: var(--accent-strong);
-  flex: 0 0 auto;
-}
-
-.indexListItem .rowArrow {
-  color: var(--text-faint);
-  margin-left: auto;
-}
-
-.indexListItem span {
+.listRowLabel {
   font-family: Cinzel, Georgia, serif;
   font-size: 15px;
 }
@@ -1802,84 +1760,6 @@ a.relationChip:hover {
   border-radius: 0;
   max-width: none;
   padding: 0;
-}
-
-/* Grille de cartes utilisée par GroupedRuleView (Rituels, Atouts & Handicaps)
-   pour choisir une catégorie/valeur groupée (ex. Niveau, Type). */
-.indexGrid {
-  display: grid;
-  gap: 10px;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-}
-
-.indexCard {
-  align-items: center;
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  color: var(--text-primary);
-  cursor: pointer;
-  display: flex;
-  font: inherit;
-  gap: 10px;
-  padding: 12px 14px;
-  text-align: left;
-  text-decoration: none;
-  transition: border-color 0.15s ease, background 0.15s ease;
-}
-
-.indexCard:hover {
-  background: var(--bg-card-hover);
-  border-color: var(--accent);
-  color: var(--accent-hover);
-}
-
-.indexCard svg {
-  color: var(--accent-strong);
-  flex: 0 0 auto;
-}
-
-.indexCard .powerLevel {
-  margin: 0;
-}
-
-/* Cartes enrichies (icône + accroche + flèche) utilisées par Atouts &
-   Handicaps ; les cartes simples (Rituels) gardent les règles ci-dessus. */
-.indexCardRich {
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 8px;
-  padding: 16px;
-  position: relative;
-}
-
-.indexCardIcon {
-  align-items: center;
-  background: var(--accent-tint);
-  border-radius: 999px;
-  color: var(--accent-strong);
-  display: flex;
-  flex: 0 0 auto;
-  height: 40px;
-  justify-content: center;
-  width: 40px;
-}
-
-.indexCardRich strong {
-  font-size: 1rem;
-}
-
-.indexCardRich p {
-  color: var(--text-secondary);
-  font-size: 0.85rem;
-  margin: 0;
-}
-
-.indexCardRich .indexCardArrow {
-  color: var(--text-faint);
-  position: absolute;
-  right: 14px;
-  top: 16px;
 }
 
 .statBlock {
@@ -2163,8 +2043,7 @@ a.relationChip:hover {
 
   .collectionNav button,
   .itemList button,
-  .indexListItem,
-  .indexCard,
+  .listRow,
   .relatedRow {
     min-height: 44px;
   }
@@ -2185,14 +2064,5 @@ a.relationChip:hover {
 
   .quickLinkCard {
     flex-basis: auto;
-  }
-
-  .pageAreaClans,
-  .pageAreaDisciplines,
-  .pageAreaTechniques,
-  .pageAreaRituals,
-  .pageAreaCompetences,
-  .pageAreaAtouts {
-    background-image: none;
   }
 }

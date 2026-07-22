@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-19T19:19:10.083Z",
+  "generatedAt": "2026-07-22T07:26:23.511Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -19,10 +19,120 @@
       "Défi",
       "Bête",
       "Frénésie",
-      "Equipement"
+      "Equipement",
+      "Création de personnage"
     ]
   },
   "items": [
+    {
+      "id": "3a388b48-e48e-8028-8735-c5843c9c0023",
+      "slug": "absence-lors-des-scenes-pre-parties",
+      "title": "Absence lors des scènes pré-parties",
+      "notionUrl": "https://app.notion.com/p/Absence-lors-des-sc-nes-pr-parties-3a388b48e48e80288735c5843c9c0023",
+      "lastEditedTime": "2026-07-20T11:23:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "AIP"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Absence lors des scènes pré-parties"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Si je suis absent alors qu’une AIP doit se faire en pré-partie.",
+          "spans": [
+            {
+              "text": "Si je suis absent alors qu’une AIP doit se faire en pré-partie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas ou vous devriez être absent lors d’une AIP qui aurait lieu en scène pré partie merci de prévenir votre conteurs ou le conteur devant gérer la scène et joueurs impliqué s’il y en a. ",
+          "spans": [
+            {
+              "text": "Dans le cas ou vous devriez être absent lors d’une AIP qui aurait lieu en scène pré partie merci de prévenir votre conteurs ou le conteur devant gérer la scène et joueurs impliqué s’il y en a. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il y a 3 solutions possibles : ",
+          "spans": [
+            {
+              "text": "Il y a 3 solutions possibles : ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Planification anticipée de la scène",
+          "spans": [
+            {
+              "text": "Planification anticipée de la scène",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas où vous devriez impérativement être dans la scène pour des raisons RP, il sera tenté, autant que possible et en fonction des dispos de chacun, de planifier la scène après la fin de dépots des AIPs. Cela ne pourra cependant pas se faire au dépend d’un autre joueur. ",
+          "spans": [
+            {
+              "text": "Dans le cas où vous devriez impérativement être dans la scène pour des raisons RP, il sera tenté, autant que possible et en fonction des dispos de chacun, de planifier la scène après la fin de dépots des AIPs. Cela ne pourra cependant pas se faire au dépend d’un autre joueur. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Planification lors de la partie",
+          "spans": [
+            {
+              "text": "Planification lors de la partie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si cela est possible, alors il pourrait être envisagée de faire la scène pendant la partie. Cela se fera uniquement si le conteur considère que cela peut servir la partie et ne se fera pas au détriment de celle ci. ",
+          "spans": [
+            {
+              "text": "Si cela est possible, alors il pourrait être envisagée de faire la scène pendant la partie. Cela se fera uniquement si le conteur considère que cela peut servir la partie et ne se fera pas au détriment de celle ci. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Vous serez absent et en subirez les conséquences",
+          "spans": [
+            {
+              "text": "Vous serez absent et en subirez les conséquences",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si aucune des précédentes solution n’est possible alors votre personnage sera considéré comme ne participant pas à l’AIP. Si des conséquences doivent survenir suite à cette absence celle ci ne pourra pas être atténuée. ",
+          "spans": [
+            {
+              "text": "Si aucune des précédentes solution n’est possible alors votre personnage sera considéré comme ne participant pas à l’AIP. Si des conséquences doivent survenir suite à cette absence celle ci ne pourra pas être atténuée. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "39688b48-e48e-8060-87fd-c762d4628b48",
       "slug": "actions-de-combat",
@@ -11622,6 +11732,85 @@
             },
             {
               "text": " empale automatiquement les PNJ de type figurants, quel que soit leur niveau actuel de dégâts, car ils n’utilisent pas de piste de santé.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a388b48-e48e-8042-a715-e54df1f4ddd7",
+      "slug": "notions-d-approbation",
+      "title": "Notions d’Approbation",
+      "notionUrl": "https://app.notion.com/p/Notions-d-Approbation-3a388b48e48e8042a715e54df1f4ddd7",
+      "lastEditedTime": "2026-07-20T14:53:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Création de personnage"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Notions d’Approbation"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "La nécessité de l’approbation",
+          "spans": [
+            {
+              "text": "La nécessité de l’approbation",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La notion d’approbation peut paraître rébarbative. Malheureusement l’expérience nous a montré qu’il était parfois bon de fixer certaines contraintes afin d’éviter des problématique dans certains clans. Trop de fois nous avons entendu que le jeu de certains n’était pas en accord avec les principe d’un clan et causait un trop grand écart. Ces niveaux d’approbation ne sont sans doute pas la meilleure des solutions mais ils permettent à un conteur fatigué à 4h00 du matin de savoir ce qu’il peut faire sans autorisation et ce qu’il ne peut pas faire.",
+          "spans": [
+            {
+              "text": "La notion d’approbation peut paraître rébarbative. Malheureusement l’expérience nous a montré qu’il était parfois bon de fixer certaines contraintes afin d’éviter des problématique dans certains clans. Trop de fois nous avons entendu que le jeu de certains n’était pas en accord avec les principe d’un clan et causait un trop grand écart. Ces niveaux d’approbation ne sont sans doute pas la meilleure des solutions mais ils permettent à un conteur fatigué à 4h00 du matin de savoir ce qu’il peut faire sans autorisation et ce qu’il ne peut pas faire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous l’aurez compris c’est un moyen simple pour un Conteur de ne pas faire de boulette. Lorsqu’un conteur veut introduire un élément qui nécessite une approbation, il doit demander l’autorisation au membre du conte  et attendre la réponse. Cela peut parfois prendre du temps car il peut être nécessaire d’avoir une discussion en interne.",
+          "spans": [
+            {
+              "text": "Vous l’aurez compris c’est un moyen simple pour un Conteur de ne pas faire de boulette. Lorsqu’un conteur veut introduire un élément qui nécessite une approbation, il doit demander l’autorisation au membre du conte  et attendre la réponse. Cela peut parfois prendre du temps car il peut être nécessaire d’avoir une discussion en interne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Processus d’Approbation",
+          "spans": [
+            {
+              "text": "Processus d’Approbation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour éviter le chaos il semble judicieux de réexpliquer le processus de demande d’approbation.",
+          "spans": [
+            {
+              "text": "Pour éviter le chaos il semble judicieux de réexpliquer le processus de demande d’approbation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un PJ contact un conteur via son canal RP soumettant la demande nécessitant l’approbation. Dans la plupart des cas cela concerne des choses de la création de personnage et donc un conteur sera déjà présent. Cependant, il n’est pas impossible que cela arrive sur des actions ou autre.",
+          "spans": [
+            {
+              "text": "Un PJ contact un conteur via son canal RP soumettant la demande nécessitant l’approbation. Dans la plupart des cas cela concerne des choses de la création de personnage et donc un conteur sera déjà présent. Cependant, il n’est pas impossible que cela arrive sur des actions ou autre.",
               "bold": false
             }
           ]

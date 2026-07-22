@@ -72,13 +72,13 @@ export default function DisciplinesIndexView({ wiki }) {
             {loading ? (
                 <LoadingState message="Chargement..." />
             ) : (
-                <div className="disciplineList">
+                <div className="listRows">
                     {items.map((item) => {
                         const Icon = disciplineIcon(item.slug);
                         const count = powerCount(item.slug);
 
                         return (
-                            <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="disciplineRow">
+                            <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">
                                 <span className="disciplineIcon" aria-hidden="true">
                                     <Icon size={22} />
                                 </span>

@@ -103,7 +103,6 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             singleItemStatFields={SINGLE_STAT_FIELDS}
             singleItemRelatedGroups={RELATED_GROUPS}
             resolveBackPath={resolveBackPath}
-            indexBackgroundClassName="pageAreaAtouts"
             groupHeadingIcon={typeHeadingIcon}
             groupCardMeta={TYPE_META}
         />
