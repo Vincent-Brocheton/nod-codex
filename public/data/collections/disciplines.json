@@ -2,9 +2,9 @@
   "key": "disciplines",
   "label": "Disciplines",
   "group": "Disciplines et Pouvoirs",
-  "description": "",
+  "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-22T15:03:05.181Z",
+  "generatedAt": "2026-07-22T15:23:00.379Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -58,6 +58,14 @@
       "Vigueur",
       "Dextérité",
       "Force"
+    ],
+    "Type": [
+      "Assamite",
+      "Elementaire",
+      "Exotique",
+      "Commune",
+      "Thaumaturgie",
+      "Nécromancie"
     ]
   },
   "items": [
@@ -66,7 +74,7 @@
       "slug": "alienation",
       "title": "Aliénation",
       "notionUrl": "https://app.notion.com/p/Ali-nation-38188b48e48e80dd8229db7e59244ad1",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -274,6 +282,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -330,7 +342,7 @@
       "slug": "animalisme",
       "title": "Animalisme",
       "notionUrl": "https://app.notion.com/p/Animalisme-38188b48e48e80be9d6fd753cb568367",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -594,6 +606,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -631,7 +647,7 @@
       "slug": "auspex",
       "title": "Auspex",
       "notionUrl": "https://app.notion.com/p/Auspex-38188b48e48e800b8e45cb4052605c7f",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -911,6 +927,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -1003,7 +1023,7 @@
       "slug": "celerite",
       "title": "Célérité",
       "notionUrl": "https://app.notion.com/p/C-l-rit-38188b48e48e80d48a18e777f4cfe98f",
-      "lastEditedTime": "2026-07-12T16:24:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1249,6 +1269,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -1405,7 +1429,7 @@
       "slug": "chimerie",
       "title": "Chimerie",
       "notionUrl": "https://app.notion.com/p/Chimerie-38188b48e48e8064a85de47e38304c23",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1548,6 +1572,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -1575,7 +1603,7 @@
       "slug": "daemonium",
       "title": "Daemonium",
       "notionUrl": "https://app.notion.com/p/Daemonium-38188b48e48e8019b2abf5fc37ae8ec7",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1710,6 +1738,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -1737,7 +1769,7 @@
       "slug": "dissimulation",
       "title": "Dissimulation",
       "notionUrl": "https://app.notion.com/p/Dissimulation-38188b48e48e8033aa12f53c1385944a",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:12:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1960,6 +1992,10 @@
               "complet": false
             }
           ]
+        },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
         },
         "Lignées": {
           "type": "relation",
@@ -2185,7 +2221,7 @@
       "slug": "domination",
       "title": "Domination",
       "notionUrl": "https://app.notion.com/p/Domination-38188b48e48e80669b99cef01468ad90",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2465,6 +2501,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -2579,7 +2619,7 @@
       "slug": "force-d-ame",
       "title": "Force d’Âme",
       "notionUrl": "https://app.notion.com/p/Force-d-me-38188b48e48e8043bf96ffdd08a3e4db",
-      "lastEditedTime": "2026-07-12T16:25:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2905,6 +2945,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -3001,7 +3045,7 @@
       "slug": "harmonisation",
       "title": "Harmonisation",
       "notionUrl": "https://app.notion.com/p/Harmonisation-39388b48e48e8076a194e6ec8753396b",
-      "lastEditedTime": "2026-07-04T23:15:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3080,6 +3124,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -3129,7 +3177,7 @@
       "slug": "obtenebration",
       "title": "Obténébration",
       "notionUrl": "https://app.notion.com/p/Obt-n-bration-38188b48e48e80449bb5ec3250319ef2",
-      "lastEditedTime": "2026-07-12T16:27:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3295,6 +3343,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -3342,7 +3394,7 @@
       "slug": "presence",
       "title": "Présence",
       "notionUrl": "https://app.notion.com/p/Pr-sence-38188b48e48e80ea8f49ce3f45662ebe",
-      "lastEditedTime": "2026-07-12T16:27:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3654,6 +3706,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -3786,7 +3842,7 @@
       "slug": "proteisme",
       "title": "Protéisme",
       "notionUrl": "https://app.notion.com/p/Prot-isme-38188b48e48e805e9d8ff7d3bfcf3e04",
-      "lastEditedTime": "2026-07-12T16:27:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -3950,6 +4006,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -3986,7 +4046,7 @@
       "slug": "puissance",
       "title": "Puissance",
       "notionUrl": "https://app.notion.com/p/Puissance-38188b48e48e8001bb41f68a2f1d25e7",
-      "lastEditedTime": "2026-07-12T16:28:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4272,6 +4332,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Commune"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -4348,7 +4412,7 @@
       "slug": "quietus",
       "title": "Quietus",
       "notionUrl": "https://app.notion.com/p/Quietus-38188b48e48e80afa1dac36fac6431b3",
-      "lastEditedTime": "2026-07-12T16:28:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4516,6 +4580,10 @@
             }
           ]
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -4630,7 +4698,7 @@
       "slug": "serpentis",
       "title": "Serpentis",
       "notionUrl": "https://app.notion.com/p/Serpentis-38188b48e48e8023a7e3e62cfff445c4",
-      "lastEditedTime": "2026-07-12T16:29:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4757,6 +4825,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -4793,7 +4865,7 @@
       "slug": "temporis",
       "title": "Temporis",
       "notionUrl": "https://app.notion.com/p/Temporis-38188b48e48e804786d5d53d78ab5efd",
-      "lastEditedTime": "2026-07-12T16:29:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4878,6 +4950,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -4905,7 +4981,7 @@
       "slug": "vicissitude",
       "title": "Vicissitude",
       "notionUrl": "https://app.notion.com/p/Vicissitude-38188b48e48e80089dedeb7c177a735c",
-      "lastEditedTime": "2026-07-12T16:30:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -4996,6 +5072,10 @@
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Exotique"
         },
         "Lignées": {
           "type": "relation",
@@ -5104,7 +5184,7 @@
       "slug": "voie-de-l-air",
       "title": "Voie de l’Air",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39388b48e48e800487b4c071f7b82eea",
-      "lastEditedTime": "2026-07-21T13:50:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5183,6 +5263,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Elementaire"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -5208,7 +5292,7 @@
       "slug": "voie-de-l-attrait-des-flammes",
       "title": "Voie de l’Attrait des Flammes",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Attrait-des-Flammes-38188b48e48e8036be4ac31d527d4284",
-      "lastEditedTime": "2026-07-12T15:07:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5302,6 +5386,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -5358,7 +5446,7 @@
       "slug": "voie-de-l-eau",
       "title": "Voie de l’Eau",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39388b48e48e8035b703db5062698197",
-      "lastEditedTime": "2026-07-19T15:05:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5437,6 +5525,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Elementaire"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -5477,7 +5569,7 @@
       "slug": "voie-de-l-emprisonnement-des-ames",
       "title": "Voie de l’Emprisonnement des Âmes",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Emprisonnement-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
-      "lastEditedTime": "2026-07-12T16:42:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5561,6 +5653,10 @@
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
         },
         "Lignées": {
           "type": "relation",
@@ -5659,7 +5755,7 @@
       "slug": "voie-de-l-esprit",
       "title": "Voie de l’Esprit",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
-      "lastEditedTime": "2026-07-12T16:31:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5753,6 +5849,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -5789,7 +5889,7 @@
       "slug": "voie-de-l-eveil-de-l-acier",
       "title": "Voie de l'Éveil de l'Acier",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-veil-de-l-Acier-3a288b48e48e80f29ff5d4950c7d9533",
-      "lastEditedTime": "2026-07-19T19:14:00.000Z",
+      "lastEditedTime": "2026-07-22T15:13:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5805,7 +5905,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "converser-avec-la-lame",
+              "title": "Converser avec la lame",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "renforcement-temporaire",
+              "title": "Renforcement temporaire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "symbiose-metallique",
+              "title": "Symbiose métallique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "fusion-avec-l-acier",
+              "title": "Fusion avec l’Acier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "forge-vivante",
+              "title": "Forge vivante",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -5827,6 +5968,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Assamite"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -5843,7 +5988,7 @@
       "slug": "voie-de-la-conjuration",
       "title": "Voie de la Conjuration",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Conjuration-38188b48e48e80f8ae9bf73c225542bb",
-      "lastEditedTime": "2026-07-12T16:31:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5937,6 +6082,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -5973,7 +6122,7 @@
       "slug": "voie-de-la-corruption",
       "title": "Voie de la Corruption",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Corruption-38188b48e48e802aa423f559c6caf9fa",
-      "lastEditedTime": "2026-07-12T16:31:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6067,6 +6216,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6134,7 +6287,7 @@
       "slug": "voie-de-la-maitrise-elementaire",
       "title": "Voie de la Maîtrise Elémentaire",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Ma-trise-El-mentaire-38188b48e48e8000b617f7cb1d9dd516",
-      "lastEditedTime": "2026-07-12T15:03:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6228,6 +6381,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6255,7 +6412,7 @@
       "slug": "voie-de-la-musique-des-spheres",
       "title": "Voie de la Musique des Sphères",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Musique-des-Sph-res-3a288b48e48e800b837df482a2301743",
-      "lastEditedTime": "2026-07-19T19:14:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6271,7 +6428,48 @@
         },
         "Pouvoirs": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chant-de-mercure",
+              "title": "Chant de Mercure",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chant-de-venus",
+              "title": "Chant de Vénus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chant-de-mars",
+              "title": "Chant de Mars",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chant-de-jupiter",
+              "title": "Chant de Jupiter",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "chant-de-saturne",
+              "title": "Chant de Saturne",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Jet d'attaque": {
           "type": "multi_select",
@@ -6293,6 +6491,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Assamite"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6309,7 +6511,7 @@
       "slug": "voie-de-la-puissance-de-neptune",
       "title": "Voie de la Puissance de Neptune",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Puissance-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
-      "lastEditedTime": "2026-07-12T14:51:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6403,6 +6605,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -6439,7 +6645,7 @@
       "slug": "voie-de-la-technomancie",
       "title": "Voie de la Technomancie",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Technomancie-38188b48e48e808fa4eccabd8fa19802",
-      "lastEditedTime": "2026-07-12T16:32:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6533,6 +6739,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6570,7 +6780,7 @@
       "slug": "voie-de-la-terre",
       "title": "Voie de la Terre",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39388b48e48e80f487cbecb95089d48b",
-      "lastEditedTime": "2026-07-19T15:13:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6649,6 +6859,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Elementaire"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -6685,7 +6899,7 @@
       "slug": "voie-de-mortis",
       "title": "Voie de Mortis",
       "notionUrl": "https://app.notion.com/p/Voie-de-Mortis-38188b48e48e80baa0b1cd7a36d0ee57",
-      "lastEditedTime": "2026-07-12T16:49:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6770,6 +6984,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6797,7 +7015,7 @@
       "slug": "voie-des-cendres",
       "title": "Voie des Cendres",
       "notionUrl": "https://app.notion.com/p/Voie-des-Cendres-38188b48e48e803ab7a1ff66349a805c",
-      "lastEditedTime": "2026-07-12T16:33:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6882,6 +7100,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -6909,7 +7131,7 @@
       "slug": "voie-des-ossements",
       "title": "Voie des Ossements",
       "notionUrl": "https://app.notion.com/p/Voie-des-Ossements-38188b48e48e80e9bee5c14b66cc21ce",
-      "lastEditedTime": "2026-07-12T16:37:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6994,6 +7216,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7021,7 +7247,7 @@
       "slug": "voie-des-vents-du-chasseur",
       "title": "Voie des Vents du Chasseur",
       "notionUrl": "https://app.notion.com/p/Voie-des-Vents-du-Chasseur-3a288b48e48e8055a6bbf1ad62ce51ca",
-      "lastEditedTime": "2026-07-19T19:15:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7100,6 +7326,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Assamite"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7116,7 +7346,7 @@
       "slug": "voie-du-cimetiere",
       "title": "Voie du Cimetière",
       "notionUrl": "https://app.notion.com/p/Voie-du-Cimeti-re-38188b48e48e8084a587c429a6a500e6",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7160,6 +7390,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7176,7 +7410,7 @@
       "slug": "voie-du-controle-du-climat",
       "title": "Voie du Contrôle du Climat",
       "notionUrl": "https://app.notion.com/p/Voie-du-Contr-le-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
-      "lastEditedTime": "2026-07-12T15:13:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7270,6 +7504,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7317,7 +7555,7 @@
       "slug": "voie-du-cosmos",
       "title": "Voie du Cosmos",
       "notionUrl": "https://app.notion.com/p/Voie-du-Cosmos-38188b48e48e80cdbc9ae210783802c4",
-      "lastEditedTime": "2026-07-12T15:18:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7411,6 +7649,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -7477,7 +7719,7 @@
       "slug": "voie-du-deuil",
       "title": "Voie du Deuil",
       "notionUrl": "https://app.notion.com/p/Voie-du-Deuil-38188b48e48e80fe8f9ffd97ef5fba2f",
-      "lastEditedTime": "2026-07-04T23:00:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7521,6 +7763,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7537,7 +7783,7 @@
       "slug": "voie-du-feu",
       "title": "Voie du Feu",
       "notionUrl": "https://app.notion.com/p/Voie-du-Feu-39388b48e48e80a0a267f68582659b1c",
-      "lastEditedTime": "2026-07-04T23:15:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7616,6 +7862,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Elementaire"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -7641,7 +7891,7 @@
       "slug": "voie-du-sang",
       "title": "Voie du Sang",
       "notionUrl": "https://app.notion.com/p/Voie-du-Sang-38188b48e48e80fcb1f9dcc48a2b3ec4",
-      "lastEditedTime": "2026-07-12T16:34:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7735,6 +7985,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
         "Lignées": {
           "type": "relation",
           "value": [
@@ -7771,7 +8025,7 @@
       "slug": "voie-du-sepulcre",
       "title": "Voie du Sepulcre",
       "notionUrl": "https://app.notion.com/p/Voie-du-Sepulcre-38188b48e48e80db9f82cc7350ecdb53",
-      "lastEditedTime": "2026-07-12T16:55:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7865,6 +8119,10 @@
           "type": "relation",
           "value": []
         },
+        "Type": {
+          "type": "select",
+          "value": "Nécromancie"
+        },
         "Lignées": {
           "type": "relation",
           "value": []
@@ -7892,7 +8150,7 @@
       "slug": "voie-verte",
       "title": "Voie Verte",
       "notionUrl": "https://app.notion.com/p/Voie-Verte-38188b48e48e8024b3d1c7475b10e765",
-      "lastEditedTime": "2026-07-12T15:29:00.000Z",
+      "lastEditedTime": "2026-07-22T15:14:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7985,6 +8243,10 @@
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
         },
         "Lignées": {
           "type": "relation",

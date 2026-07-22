@@ -93,7 +93,7 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             propertyName="Type"
             groups={types}
             formatGroupLabel={(value) => value}
-            introText="Voici les atouts et handicaps de la chronique, classés par type."
+            introText="Personnalisez votre personnage grâce à des avantages uniques et des faiblesses marquantes."
             emptyMessage="Aucune fiche de ce type pour le moment."
             itemFilter={isGeneral}
             itemSort={byCoutThenAlpha}

@@ -32,13 +32,24 @@ export default function DisciplineDetailView({ wiki }) {
     const techniquesPath = collectionNavPath("techniques");
 
     return (
-        <DetailShell wiki={wiki} backPath={activeNavigation.path}>
+        <DetailShell
+            wiki={wiki}
+            backPath={activeNavigation.path}
+            subtitle={(item) => item.properties?.Type?.value || null}
+            subtitleLabel="Type"
+        >
             {(activeItem) => {
-                const groups = POWER_GROUPS.map(({ key, label }) => ({
-                    key,
-                    label,
-                    items: powersForDiscipline(loadedCollections[key], activeItem.slug),
-                }));
+                // Groupes masqués s'ils sont vides plutôt qu'un message
+                // "Aucun..." systématique : ex. Pouvoirs d'Anciens ne
+                // concerne aujourd'hui aucune Voie, mais rien à coder si ça
+                // change demain, la section apparaîtra d'elle-même.
+                const groups = POWER_GROUPS
+                    .map(({ key, label }) => ({
+                        key,
+                        label,
+                        items: powersForDiscipline(loadedCollections[key], activeItem.slug),
+                    }))
+                    .filter((group) => group.items.length > 0);
 
                 const techniques = techniquesForDiscipline(loadedCollections.techniques, activeItem.slug);
 
@@ -54,41 +65,35 @@ export default function DisciplineDetailView({ wiki }) {
 
                                     <h2>{group.label}</h2>
 
-                                    {group.items.length === 0 ? (
-                                        <p className="empty">Aucun pouvoir dans cette catégorie.</p>
-                                    ) : (
-                                        <div className="relatedList">
-                                            {group.items.map((item) => {
-                                                const content = (
-                                                    <>
-                                                        <span className="powerLevel">{levelLabel(item)}</span>
-                                                        <span>{item.title}</span>
-                                                    </>
-                                                );
+                                    <div className="relatedList">
+                                        {group.items.map((item) => {
+                                            const content = (
+                                                <>
+                                                    <span className="powerLevel">{levelLabel(item)}</span>
+                                                    <span>{item.title}</span>
+                                                </>
+                                            );
 
-                                                return powersPath ? (
-                                                    <Link key={item.id} to={`${powersPath}/${item.slug}`} className="relatedRow">
-                                                        {content}
-                                                    </Link>
-                                                ) : (
-                                                    <span key={item.id} className="relatedRow">
-                                                        {content}
-                                                    </span>
-                                                );
-                                            })}
-                                        </div>
-                                    )}
+                                            return powersPath ? (
+                                                <Link key={item.id} to={`${powersPath}/${item.slug}`} className="relatedRow">
+                                                    {content}
+                                                </Link>
+                                            ) : (
+                                                <span key={item.id} className="relatedRow">
+                                                    {content}
+                                                </span>
+                                            );
+                                        })}
+                                    </div>
 
                                 </section>
                             ))}
 
-                            <section className="relatedGroup">
+                            {techniques.length > 0 ? (
+                                <section className="relatedGroup">
 
-                                <h2>Techniques</h2>
+                                    <h2>Techniques</h2>
 
-                                {techniques.length === 0 ? (
-                                    <p className="empty">Aucune technique ne nécessite cette discipline.</p>
-                                ) : (
                                     <div className="listRows">
                                         {techniques.map((item) => {
                                             const prereqs = techniquePrereqText(item);
@@ -110,9 +115,9 @@ export default function DisciplineDetailView({ wiki }) {
                                             );
                                         })}
                                     </div>
-                                )}
 
-                            </section>
+                                </section>
+                            ) : null}
                         </div>
                     </>
                 );

@@ -1704,7 +1704,9 @@ img.clanEmblem {
   border: 0;
   color: var(--text-primary);
   cursor: pointer;
-  font: inherit;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.02em;
   outline: 0;
 }
 
@@ -1751,7 +1753,9 @@ img.clanEmblem {
 .disciplineCount {
   color: var(--text-faint);
   flex: 0 0 auto;
-  font-size: 13px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.03em;
   white-space: nowrap;
 }
 

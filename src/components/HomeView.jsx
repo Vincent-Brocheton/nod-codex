@@ -1,29 +1,43 @@
+import { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight } from "lucide-react";
 import { navigation } from "../config/navigation";
+import { getCollection } from "../services/wikiServices";
 import AppIcon from "./AppIcon";
 
 // Accroche + code de classement des cartes "Accès rapide" ; les cartes
 // elles-mêmes (une par entrée visible de l'encart "Règles" de la sidebar,
 // voir plus bas) restent synchronisées avec la navigation sans duplication.
+// La description des Disciplines n'est pas ici : elle vient de la donnée
+// synchronisée (`collection.description`), voir plus bas.
 const QUICK_LINK_META = {
     clans: { code: "CLA", description: "Découvrez les clans et leurs héritages." },
-    disciplines: { code: "DIS", description: "Explorez les pouvoirs vampiriques." },
+    disciplines: { code: "DIS" },
     techniques: { code: "TEC", description: "Perfectionnez vos techniques de combat." },
-    rituals: { code: "RIT", description: "Maîtrisez les arts occultes." },
+    rituals: {
+        code: "RIT",
+        description: "Consultez les rituels occultes permettant de manipuler le Sang, les esprits et les forces mystiques.",
+    },
     skills: { code: "CMP", description: "Liste des compétences et utilisations." },
-    "merits-flaws": { code: "A&H", description: "Choisissez vos atouts et handicaps." },
+    "merits-flaws": {
+        code: "A&H",
+        description: "Personnalisez votre personnage grâce à des avantages uniques et des faiblesses marquantes.",
+    },
 };
 
-const QUICK_LINKS = (navigation.find((group) => group.id === "rules")?.children || [])
-    .filter((item) => !item.hidden)
-    .map((item) => ({
-        icon: item.icon,
-        label: item.label,
-        path: item.path,
-        code: QUICK_LINK_META[item.id]?.code || "—",
-        description: QUICK_LINK_META[item.id]?.description || "",
-    }));
+function buildQuickLinks(disciplineDescription) {
+    return (navigation.find((group) => group.id === "rules")?.children || [])
+        .filter((item) => !item.hidden)
+        .map((item) => ({
+            icon: item.icon,
+            label: item.label,
+            path: item.path,
+            code: QUICK_LINK_META[item.id]?.code || "—",
+            description: item.id === "disciplines"
+                ? disciplineDescription
+                : QUICK_LINK_META[item.id]?.description || "",
+        }));
+}
 
 function formatDate(iso) {
     if (!iso) return "";
@@ -33,6 +47,29 @@ function formatDate(iso) {
 export default function HomeView({ wiki }) {
 
     const recent = (wiki?.manifest?.recent || []).slice(0, 4);
+
+    // La collection Disciplines n'est chargée que si le joueur a déjà visité
+    // sa page (chargement à la demande, voir useCollections) : pas fiable
+    // pour l'accroche de la carte d'accueil, donc on va chercher sa
+    // description directement (même cache que le reste de l'appli).
+    const [disciplineDescription, setDisciplineDescription] = useState("");
+
+    useEffect(() => {
+        const config = wiki?.manifest?.collections?.find((entry) => entry.key === "disciplines");
+        if (!config) return;
+
+        let cancelled = false;
+
+        getCollection(config.file).then((collection) => {
+            if (!cancelled) setDisciplineDescription(collection.description || "");
+        });
+
+        return () => {
+            cancelled = true;
+        };
+    }, [wiki?.manifest]);
+
+    const quickLinks = buildQuickLinks(disciplineDescription);
 
     return (
         <main>
@@ -58,7 +95,7 @@ export default function HomeView({ wiki }) {
                     <h2>Accès rapide</h2>
 
                     <div className="quickLinkGrid">
-                        {QUICK_LINKS.map((link) => (
+                        {quickLinks.map((link) => (
                             <Link key={link.path} to={link.path} className="quickLinkCard">
                                 <span className="quickLinkTab">{link.code}</span>
 

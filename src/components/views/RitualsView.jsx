@@ -31,7 +31,7 @@ export default function RitualsView({ wiki, collectionKey, groupValue }) {
             propertyName="Niveau"
             groups={LEVELS}
             formatGroupLabel={(value) => `Niveau ${value}`}
-            introText="Voici les rituels de la chronique, classés par catégorie et par niveau (1 à 5)."
+            introText="Consultez les rituels occultes permettant de manipuler le Sang, les esprits et les forces mystiques."
             emptyMessage="Aucun rituel à ce niveau pour le moment."
             itemStatFields={STAT_FIELDS}
             itemHighlightField={HIGHLIGHT_FIELD}
