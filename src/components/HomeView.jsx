@@ -50,8 +50,7 @@ export default function HomeView({ wiki }) {
                     </blockquote>
 
                     <p>
-                        Clans, disciplines, règles : tout ce qu'il faut pour incarner votre
-                        personnage dans la chronique.
+                        Clans, disciplines, règles : tout pour incarner votre personnage.
                     </p>
                 </div>
 

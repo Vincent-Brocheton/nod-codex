@@ -1040,6 +1040,14 @@ a.relationChip:hover {
   margin-bottom: 48px;
 }
 
+/* Le hero n'a plus de photo à côté pour partager l'espace : la ligne
+   d'intro a droit à une largeur propre à elle plutôt que le plafond
+   générique de .homeView p, qui la faisait casser au milieu d'un mot. */
+.homeHero p {
+  max-width: 760px;
+  text-align: left;
+}
+
 .homeHeroDivider {
   align-items: center;
   color: var(--accent);
