@@ -74,6 +74,7 @@ export const navigation = [
                     COLLECTIONS.DISCIPLINES,
                     COLLECTIONS.POUVOIRS,
                     COLLECTIONS.POUVOIRS_ANCIENS,
+                    COLLECTIONS.TECHNIQUES,
                 ],
             },
 

@@ -3,14 +3,7 @@ import { Feather } from "lucide-react";
 import AppIcon from "../AppIcon";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
-import { normalizeProperty } from "../../utils/property";
-
-// "Prerequis" est un multi_select Notion (ex. "Chimérie •", "Dissimulation
-// ••" : discipline + niveau requis), affiché tel quel sous le titre.
-function prereqText(item) {
-    const { value } = normalizeProperty(item.properties?.Prerequis);
-    return Array.isArray(value) && value.length ? value.join(", ") : null;
-}
+import { techniquePrereqText } from "../../utils/techniques";
 
 /**
  * Page d'index des Techniques : liste simple (pas d'icône dédiée par fiche
@@ -57,7 +50,7 @@ export default function TechniquesIndexView({ wiki }) {
             ) : (
                 <div className="listRows">
                     {items.map((item) => {
-                        const prereqs = prereqText(item);
+                        const prereqs = techniquePrereqText(item);
 
                         return (
                             <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">

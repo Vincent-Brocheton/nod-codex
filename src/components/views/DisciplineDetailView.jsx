@@ -3,6 +3,7 @@ import ContentBlocks from "../ContentBlocks";
 import StatBlock from "../StatBlock";
 import DetailShell from "../DetailShell";
 import { itemNiveau, powersForDiscipline } from "../../utils/disciplinePowers";
+import { techniquePrereqText, techniquesForDiscipline } from "../../utils/techniques";
 import collectionNavPath from "../../utils/collectionNavPath";
 
 const STAT_FIELDS = [
@@ -28,6 +29,7 @@ export default function DisciplineDetailView({ wiki }) {
     const { activeNavigation } = wiki.navigation;
 
     const powersPath = collectionNavPath("pouvoirs");
+    const techniquesPath = collectionNavPath("techniques");
 
     return (
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
@@ -37,6 +39,8 @@ export default function DisciplineDetailView({ wiki }) {
                     label,
                     items: powersForDiscipline(loadedCollections[key], activeItem.slug),
                 }));
+
+                const techniques = techniquesForDiscipline(loadedCollections.techniques, activeItem.slug);
 
                 return (
                     <>
@@ -77,6 +81,38 @@ export default function DisciplineDetailView({ wiki }) {
 
                                 </section>
                             ))}
+
+                            <section className="relatedGroup">
+
+                                <h2>Techniques</h2>
+
+                                {techniques.length === 0 ? (
+                                    <p className="empty">Aucune technique ne nécessite cette discipline.</p>
+                                ) : (
+                                    <div className="listRows">
+                                        {techniques.map((item) => {
+                                            const prereqs = techniquePrereqText(item);
+                                            const body = (
+                                                <span className="techniqueBody">
+                                                    <strong className="listRowLabel">{item.title}</strong>
+                                                    {prereqs ? <span className="techniquePrereq">Prérequis : {prereqs}</span> : null}
+                                                </span>
+                                            );
+
+                                            return techniquesPath ? (
+                                                <Link key={item.id} to={`${techniquesPath}/${item.slug}`} className="listRow">
+                                                    {body}
+                                                </Link>
+                                            ) : (
+                                                <span key={item.id} className="listRow">
+                                                    {body}
+                                                </span>
+                                            );
+                                        })}
+                                    </div>
+                                )}
+
+                            </section>
                         </div>
                     </>
                 );
