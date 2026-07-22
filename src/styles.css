@@ -1768,7 +1768,9 @@ img.clanEmblem {
 
 .techniquePrereq {
   color: var(--text-muted);
-  font-size: 13px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.02em;
   margin-top: 4px;
 }
 

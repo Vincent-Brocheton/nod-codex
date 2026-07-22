@@ -1,15 +1,21 @@
+import { useState } from "react";
 import { Link } from "react-router-dom";
-import { Feather } from "lucide-react";
+import { Feather, Search } from "lucide-react";
 import AppIcon from "../AppIcon";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
-import { techniquePrereqText } from "../../utils/techniques";
+import { isLearnable, techniquePrereqText } from "../../utils/techniques";
 
 /**
- * Page d'index des Techniques : liste simple (pas d'icône dédiée par fiche
- * ni de recherche, contrairement à Clans/Disciplines — une collection plus
- * modeste ne le justifie pas), avec un encart dédié tant qu'aucune fiche
- * n'est encore publiée.
+ * Page d'index des Techniques : recherche par nom, triée alphabétiquement
+ * (même gabarit que Clans/Disciplines), plus un encart dédié tant qu'aucune
+ * fiche n'est encore publiée. Pas de groupement par discipline requise : une
+ * technique peut avoir plusieurs disciplines en prérequis (voir
+ * `Disciplines`, relation multiple), donc pas de partition propre possible.
+ *
+ * Les techniques dont un prérequis ne résout à aucune discipline existante
+ * (ex. Visceratika, Melpominée : pas dans la base Disciplines) ne sont pas
+ * réellement apprenables et sont exclues, voir `isLearnable`.
  */
 export default function TechniquesIndexView({ wiki }) {
 
@@ -17,9 +23,17 @@ export default function TechniquesIndexView({ wiki }) {
     const { loadedCollections, computed } = wiki.collections;
     const { loading } = computed;
 
+    const [query, setQuery] = useState("");
+
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
-    const items = collection?.items || [];
+    const allItems = (collection?.items || []).filter(isLearnable);
+
+    const normalizedQuery = query.trim().toLowerCase();
+
+    const items = allItems
+        .filter((item) => item.title.toLowerCase().includes(normalizedQuery))
+        .sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
     return (
         <section className="pageView indexView">
@@ -32,9 +46,22 @@ export default function TechniquesIndexView({ wiki }) {
                 </p>
             ) : null}
 
+            {!loading && allItems.length > 0 ? (
+                <div className="listToolbar">
+                    <label className="pageSearchField">
+                        <Search size={18} aria-hidden="true" />
+                        <input
+                            value={query}
+                            onChange={(event) => setQuery(event.target.value)}
+                            placeholder="Rechercher une technique..."
+                        />
+                    </label>
+                </div>
+            ) : null}
+
             {loading ? (
                 <LoadingState message="Chargement..." />
-            ) : items.length === 0 ? (
+            ) : allItems.length === 0 ? (
                 <div className="techniquesEmpty">
                     <Feather size={40} aria-hidden="true" />
 
@@ -63,6 +90,8 @@ export default function TechniquesIndexView({ wiki }) {
                             </Link>
                         );
                     })}
+
+                    {items.length === 0 ? <p className="empty">Aucune technique ne correspond à ta recherche.</p> : null}
                 </div>
             )}
 
