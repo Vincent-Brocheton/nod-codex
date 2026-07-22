@@ -13,9 +13,19 @@ import EmptyState from "./States/EmptyState";
  * `emblem`, optionnel, est aussi appelé avec la fiche active et affiché à
  * côté du titre (ex. l'emblème de clan) : seules les vues qui le passent
  * changent de mise en page, les autres gardent l'en-tête d'origine à
- * l'identique.
+ * l'identique. `subtitle`, même principe, affiche une ligne libellée
+ * (`subtitleLabel`) sous le titre (ex. les surnoms d'un clan) quand la
+ * fonction renvoie une valeur non vide.
  */
-export default function DetailShell({ wiki, backPath, backLabel = "Retour à la liste", emblem, children }) {
+export default function DetailShell({
+    wiki,
+    backPath,
+    backLabel = "Retour à la liste",
+    emblem,
+    subtitle,
+    subtitleLabel = "Surnoms",
+    children,
+}) {
 
     const { activeItem, pageNotFound, loading } = wiki.collections.computed;
 
@@ -31,6 +41,20 @@ export default function DetailShell({ wiki, backPath, backLabel = "Retour à la 
         return <EmptyState />;
     }
 
+    const subtitleText = subtitle ? subtitle(activeItem) : null;
+
+    const titleBlock = (
+        <>
+            <span>{activeItem.collectionLabel}</span>
+            <h1>{activeItem.title}</h1>
+            {subtitleText ? (
+                <p className="detailHeaderSubtitle">
+                    <span>{subtitleLabel}</span> {subtitleText}
+                </p>
+            ) : null}
+        </>
+    );
+
     return (
         <article className="detailPane">
 
@@ -43,16 +67,10 @@ export default function DetailShell({ wiki, backPath, backLabel = "Retour à la 
                 {emblem ? (
                     <div className="detailHeaderRow">
                         <div className="detailHeaderEmblem">{emblem(activeItem)}</div>
-                        <div className="detailHeaderText">
-                            <span>{activeItem.collectionLabel}</span>
-                            <h1>{activeItem.title}</h1>
-                        </div>
+                        <div className="detailHeaderText">{titleBlock}</div>
                     </div>
                 ) : (
-                    <>
-                        <span>{activeItem.collectionLabel}</span>
-                        <h1>{activeItem.title}</h1>
-                    </>
+                    titleBlock
                 )}
             </header>
 

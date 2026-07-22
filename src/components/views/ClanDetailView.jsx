@@ -27,6 +27,7 @@ export default function ClanDetailView({ wiki }) {
             wiki={wiki}
             backPath={activeNavigation.path}
             emblem={(item) => <ClanEmblem slug={item.slug} title={item.title} />}
+            subtitle={(item) => item.properties?.Surnoms?.value || null}
         >
             {(activeItem) => (
                 <>

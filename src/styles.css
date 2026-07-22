@@ -511,18 +511,42 @@ h1 {
   min-width: 0;
 }
 
+/* Ligne "alias" façon dossier : label de classement en mono, valeur en
+   italique comme une citation, plutôt qu'un sous-titre neutre. */
+.detailHeaderSubtitle {
+  color: var(--text-body-muted);
+  font-family: var(--font-body);
+  font-size: 15px;
+  font-style: italic;
+  margin: 8px 0 0;
+}
+
+.detailHeaderSubtitle span {
+  color: var(--accent-strong);
+  font-family: var(--font-mono);
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  margin-right: 6px;
+  text-transform: uppercase;
+}
+
+/* La colonne de texte (éventail + titre + surnoms) peut dépasser 100px de
+   haut une fois les trois lignes empilées : l'emblème doit suivre, sinon il
+   flotte, minuscule, à côté d'un pavé de texte bien plus grand. */
 .detailHeaderEmblem .clanEmblem {
-  border-radius: 14px;
-  height: 88px;
-  width: 88px;
+  border-radius: 16px;
+  height: 108px;
+  width: 108px;
 }
 
 .detailHeaderEmblem img.clanEmblem {
-  padding: 12px;
+  padding: 14px;
 }
 
 .detailHeaderEmblem .clanEmblemFallback {
-  font-size: 22px;
+  font-size: 26px;
 }
 
 /* Le parcours de création n'a pas de colonne liste à côté (contrairement
