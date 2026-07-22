@@ -274,6 +274,7 @@ h1, h2, h3 {
 .sidebarHero {
   background:
     linear-gradient(180deg, transparent 35%, rgba(9, 5, 4, 0.92) 100%),
+    url("/images/sidebar-hero.png") center / cover no-repeat,
     linear-gradient(160deg, #2a0f10, #0f0c0b);
   border: 1px solid #241c19;
   border-radius: 12px;
@@ -1067,6 +1068,7 @@ a.relationChip:hover {
 }
 
 .homeHeroImage {
+  background: url("/images/sidebar-hero.png") center / cover no-repeat;
   border: 1px solid var(--border-strong);
   border-radius: 16px;
   flex: 1 1 380px;
@@ -1258,7 +1260,8 @@ a.relationChip:hover {
 
 .startCardCreate {
   background:
-    linear-gradient(90deg, rgba(10, 6, 5, 0.94) 38%, rgba(10, 6, 5, 0.55) 75%, rgba(10, 6, 5, 0.15) 100%);
+    linear-gradient(90deg, rgba(10, 6, 5, 0.94) 38%, rgba(10, 6, 5, 0.55) 75%, rgba(10, 6, 5, 0.15) 100%),
+    url("/images/started-well.png") center right / cover no-repeat;
   border-color: #241c19;
   transition: border-color 0.15s ease;
 }
