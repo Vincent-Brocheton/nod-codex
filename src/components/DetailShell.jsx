@@ -9,8 +9,13 @@ import EmptyState from "./States/EmptyState";
  * chargement/404/vide, puis affiche le lien retour et l'en-tête (libellé de
  * collection + titre). Le contenu propre à chaque fiche est fourni via
  * `children`, appelé avec la fiche active une fois celle-ci résolue.
+ *
+ * `emblem`, optionnel, est aussi appelé avec la fiche active et affiché à
+ * côté du titre (ex. l'emblème de clan) : seules les vues qui le passent
+ * changent de mise en page, les autres gardent l'en-tête d'origine à
+ * l'identique.
  */
-export default function DetailShell({ wiki, backPath, backLabel = "Retour à la liste", children }) {
+export default function DetailShell({ wiki, backPath, backLabel = "Retour à la liste", emblem, children }) {
 
     const { activeItem, pageNotFound, loading } = wiki.collections.computed;
 
@@ -35,8 +40,20 @@ export default function DetailShell({ wiki, backPath, backLabel = "Retour à la 
             </Link>
 
             <header>
-                <span>{activeItem.collectionLabel}</span>
-                <h1>{activeItem.title}</h1>
+                {emblem ? (
+                    <div className="detailHeaderRow">
+                        <div className="detailHeaderEmblem">{emblem(activeItem)}</div>
+                        <div className="detailHeaderText">
+                            <span>{activeItem.collectionLabel}</span>
+                            <h1>{activeItem.title}</h1>
+                        </div>
+                    </div>
+                ) : (
+                    <>
+                        <span>{activeItem.collectionLabel}</span>
+                        <h1>{activeItem.title}</h1>
+                    </>
+                )}
             </header>
 
             <div className="detailCard">

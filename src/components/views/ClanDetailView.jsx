@@ -2,6 +2,7 @@ import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
 import ItemFlags from "../ItemFlags";
 import DetailShell from "../DetailShell";
+import ClanEmblem from "../ClanEmblem";
 
 // Le nom "Discplines" reprend une coquille du champ Notion : le libellé
 // affiché, lui, reste correctement orthographié. Les Atouts/Handicaps de
@@ -22,7 +23,11 @@ export default function ClanDetailView({ wiki }) {
     const { activeNavigation } = wiki.navigation;
 
     return (
-        <DetailShell wiki={wiki} backPath={activeNavigation.path}>
+        <DetailShell
+            wiki={wiki}
+            backPath={activeNavigation.path}
+            emblem={(item) => <ClanEmblem slug={item.slug} title={item.title} />}
+        >
             {(activeItem) => (
                 <>
                     <ItemFlags

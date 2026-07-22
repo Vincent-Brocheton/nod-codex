@@ -3,35 +3,7 @@ import { Link } from "react-router-dom";
 import { ChevronRight, Search } from "lucide-react";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
-
-/**
- * Emblème d'un clan (illustration dédiée par fiche, voir public/images/clans).
- * Retombe sur un sigle de classement (3 premières lettres, même langage que
- * les codes des cartes "Accès rapide") si le fichier n'existe pas encore,
- * plutôt qu'une icône générique identique pour tous les clans.
- */
-function ClanEmblem({ slug, title }) {
-    const [failed, setFailed] = useState(false);
-
-    if (failed) {
-        const code = title.replace(/[^\p{L}]/gu, "").slice(0, 3).toUpperCase();
-
-        return (
-            <span className="clanEmblem clanEmblemFallback" aria-hidden="true">
-                {code}
-            </span>
-        );
-    }
-
-    return (
-        <img
-            className="clanEmblem"
-            src={`/images/clans/${slug}.png`}
-            alt=""
-            onError={() => setFailed(true)}
-        />
-    );
-}
+import ClanEmblem from "../ClanEmblem";
 
 /**
  * Page d'index des Clans : grille de cartes illustrées avec recherche par
