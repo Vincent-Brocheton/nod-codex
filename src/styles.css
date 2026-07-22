@@ -1037,16 +1037,7 @@ a.relationChip:hover {
 }
 
 .homeHero {
-  align-items: center;
-  display: flex;
-  flex-wrap: wrap;
-  gap: 40px;
   margin-bottom: 48px;
-}
-
-.homeHeroText {
-  flex: 1 1 380px;
-  min-width: 280px;
 }
 
 .homeHeroDivider {
@@ -1065,15 +1056,6 @@ a.relationChip:hover {
   content: "";
   flex: 1;
   height: 1px;
-}
-
-.homeHeroImage {
-  background: url("/images/sidebar-hero.png") center / cover no-repeat;
-  border: 1px solid var(--border-strong);
-  border-radius: 16px;
-  flex: 1 1 380px;
-  min-height: 300px;
-  min-width: 280px;
 }
 
 .homeSection {
@@ -1109,17 +1091,19 @@ a.relationChip:hover {
   padding-bottom: 6px;
 }
 
+/* Fiche de classement plutôt que carte fonctionnalité : alignée à gauche
+   comme un vrai document, pas centrée comme un gabarit marketing. */
 .quickLinkCard {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 10px;
   color: var(--text-primary);
   display: flex;
-  flex: 0 0 180px;
+  flex: 0 0 200px;
   flex-direction: column;
   gap: 10px;
-  padding: 24px 18px;
-  text-align: center;
+  padding: 18px;
+  text-align: left;
   text-decoration: none;
   transition: border-color 0.15s ease, transform 0.15s ease;
 }
@@ -1129,22 +1113,37 @@ a.relationChip:hover {
   transform: translateY(-2px);
 }
 
-.quickLinkIcon {
-  align-items: center;
+/* Code de classement (3-4 lettres), comme l'onglet d'une fiche cartonnée
+   dans un tiroir d'archives — une vraie abréviation de catégorie, pas un
+   numéro décoratif. */
+.quickLinkTab {
+  align-self: flex-start;
   background: var(--accent-tint);
-  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  border-radius: 3px;
   color: var(--accent-strong);
+  font-family: var(--font-mono);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  padding: 3px 7px;
+}
+
+.quickLinkHead {
+  align-items: center;
   display: flex;
-  height: 44px;
-  justify-content: center;
-  margin: 0 auto;
-  width: 44px;
+  gap: 9px;
+}
+
+.quickLinkHead svg {
+  color: var(--accent-strong);
+  flex: 0 0 auto;
 }
 
 .quickLinkCard strong {
   color: var(--text-heading);
   font-family: var(--font-mono);
-  font-size: 14px;
+  font-size: 13px;
   font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -1155,12 +1154,13 @@ a.relationChip:hover {
   font-size: 13px;
   margin: 0;
   max-width: none;
-  text-align: center;
+  text-align: left;
 }
 
 .quickLinkArrow {
   color: var(--text-faint);
-  margin: 0 auto;
+  margin-left: auto;
+  margin-top: auto;
 }
 
 .homeColumns {
@@ -1218,13 +1218,17 @@ a.relationChip:hover {
 
 .recentInfo span {
   color: var(--text-muted);
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .recentDate {
   color: var(--text-faint);
   flex: 0 0 auto;
-  font-size: 12px;
+  font-family: var(--font-mono);
+  font-size: 11px;
 }
 
 .homeMoreLink {
@@ -1530,7 +1534,7 @@ a.relationChip:hover {
 }
 
 .listRowRich p {
-  color: var(--text-secondary);
+  color: var(--text-muted);
   font-size: 0.85rem;
   margin: 0;
 }
@@ -2053,10 +2057,6 @@ a.relationChip:hover {
 
   .homeColumns {
     grid-template-columns: 1fr;
-  }
-
-  .homeHeroImage {
-    min-height: 200px;
   }
 
   .quickLinkGrid {

@@ -3,16 +3,16 @@ import { ChevronRight } from "lucide-react";
 import { navigation } from "../config/navigation";
 import AppIcon from "./AppIcon";
 
-// Texte d'accroche des cartes "Accès rapide" ; les cartes elles-mêmes (une
-// par entrée visible de l'encart "Règles" de la sidebar, voir plus bas)
-// restent synchronisées avec la navigation sans duplication.
-const QUICK_LINK_DESCRIPTIONS = {
-    clans: "Découvrez les clans et leurs héritages.",
-    disciplines: "Explorez les pouvoirs vampiriques.",
-    techniques: "Perfectionnez vos techniques de combat.",
-    rituals: "Maîtrisez les arts occultes.",
-    skills: "Liste des compétences et utilisations.",
-    "merits-flaws": "Choisissez vos atouts et handicaps.",
+// Accroche + code de classement des cartes "Accès rapide" ; les cartes
+// elles-mêmes (une par entrée visible de l'encart "Règles" de la sidebar,
+// voir plus bas) restent synchronisées avec la navigation sans duplication.
+const QUICK_LINK_META = {
+    clans: { code: "CLA", description: "Découvrez les clans et leurs héritages." },
+    disciplines: { code: "DIS", description: "Explorez les pouvoirs vampiriques." },
+    techniques: { code: "TEC", description: "Perfectionnez vos techniques de combat." },
+    rituals: { code: "RIT", description: "Maîtrisez les arts occultes." },
+    skills: { code: "CMP", description: "Liste des compétences et utilisations." },
+    "merits-flaws": { code: "A&H", description: "Choisissez vos atouts et handicaps." },
 };
 
 const QUICK_LINKS = (navigation.find((group) => group.id === "rules")?.children || [])
@@ -21,7 +21,8 @@ const QUICK_LINKS = (navigation.find((group) => group.id === "rules")?.children 
         icon: item.icon,
         label: item.label,
         path: item.path,
-        description: QUICK_LINK_DESCRIPTIONS[item.id] || "",
+        code: QUICK_LINK_META[item.id]?.code || "—",
+        description: QUICK_LINK_META[item.id]?.description || "",
     }));
 
 function formatDate(iso) {
@@ -38,26 +39,20 @@ export default function HomeView({ wiki }) {
             <section className="pageView homeView">
 
                 <div className="homeHero">
+                    <span className="eyebrow">Wiki de chronique</span>
 
-                    <div className="homeHeroText">
-                        <span className="eyebrow">Wiki de chronique</span>
+                    <h1>Vampire : la Mascarade</h1>
 
-                        <h1>Vampire : la Mascarade</h1>
+                    <div className="homeHeroDivider" aria-hidden="true"><span>✦</span></div>
 
-                        <div className="homeHeroDivider" aria-hidden="true"><span>✦</span></div>
+                    <blockquote>
+                        « La Mascarade nous protège. Ici commence votre histoire parmi les enfants de Caïn. »
+                    </blockquote>
 
-                        <blockquote>
-                            « La Mascarade nous protège. Ici commence votre histoire parmi les enfants de Caïn. »
-                        </blockquote>
-
-                        <p>
-                            Bienvenue sur le wiki de la chronique. Retrouvez ici les clans, les disciplines,
-                            les règles et tout ce qu'il faut savoir pour incarner votre personnage.
-                        </p>
-                    </div>
-
-                    <div className="homeHeroImage" aria-hidden="true" />
-
+                    <p>
+                        Clans, disciplines, règles : tout ce qu'il faut pour incarner votre
+                        personnage dans la chronique.
+                    </p>
                 </div>
 
                 <section className="homeSection">
@@ -66,14 +61,16 @@ export default function HomeView({ wiki }) {
                     <div className="quickLinkGrid">
                         {QUICK_LINKS.map((link) => (
                             <Link key={link.path} to={link.path} className="quickLinkCard">
-                                <span className="quickLinkIcon">
-                                    <AppIcon name={link.icon} size={22} />
+                                <span className="quickLinkTab">{link.code}</span>
+
+                                <span className="quickLinkHead">
+                                    <AppIcon name={link.icon} size={17} aria-hidden="true" />
+                                    <strong>{link.label}</strong>
                                 </span>
 
-                                <strong>{link.label}</strong>
                                 <p>{link.description}</p>
 
-                                <ChevronRight className="quickLinkArrow" size={16} aria-hidden="true" />
+                                <ChevronRight className="quickLinkArrow" size={15} aria-hidden="true" />
                             </Link>
                         ))}
                     </div>
