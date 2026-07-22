@@ -1580,7 +1580,11 @@ a.relationChip:hover {
   border: 1px solid var(--border-strong);
   color: var(--accent-strong);
   display: flex;
+  font-family: var(--font-mono);
+  font-size: 16px;
+  font-weight: 700;
   justify-content: center;
+  letter-spacing: 0.03em;
 }
 
 .clanCardBody {

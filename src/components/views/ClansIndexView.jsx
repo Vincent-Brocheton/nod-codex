@@ -1,22 +1,24 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronRight, Search, ShieldPlus } from "lucide-react";
+import { ChevronRight, Search } from "lucide-react";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
 
 /**
  * Emblème d'un clan (illustration dédiée par fiche, voir public/images/clans).
- * Retombe sur une icône générique si le fichier n'existe pas encore, pour
- * ne jamais casser la mise en page en attendant que les images soient
- * fournies.
+ * Retombe sur un sigle de classement (3 premières lettres, même langage que
+ * les codes des cartes "Accès rapide") si le fichier n'existe pas encore,
+ * plutôt qu'une icône générique identique pour tous les clans.
  */
-function ClanEmblem({ slug }) {
+function ClanEmblem({ slug, title }) {
     const [failed, setFailed] = useState(false);
 
     if (failed) {
+        const code = title.replace(/[^\p{L}]/gu, "").slice(0, 3).toUpperCase();
+
         return (
             <span className="clanEmblem clanEmblemFallback" aria-hidden="true">
-                <ShieldPlus size={26} />
+                {code}
             </span>
         );
     }
@@ -78,7 +80,7 @@ export default function ClansIndexView({ wiki }) {
                 <div className="listRows">
                     {items.map((item) => (
                         <Link key={item.id} to={`${activeNavigation.path}/${item.slug}`} className="listRow">
-                            <ClanEmblem slug={item.slug} />
+                            <ClanEmblem slug={item.slug} title={item.title} />
 
                             <span className="clanCardBody">
                                 <strong>{item.title}</strong>
