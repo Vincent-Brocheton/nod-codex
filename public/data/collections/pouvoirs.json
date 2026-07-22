@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-22T08:52:39.231Z",
+  "generatedAt": "2026-07-22T09:19:20.036Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -23838,148 +23838,6 @@
       ]
     },
     {
-      "id": "3a288b48-e48e-808a-a880-fb36087c465d",
-      "slug": "sans-titre",
-      "title": "Sans titre",
-      "notionUrl": "https://app.notion.com/p/3a288b48e48e808aa880fb36087c465d",
-      "lastEditedTime": "2026-07-21T13:50:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Dexterité"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": ""
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 3
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 1
-        },
-        "Name": {
-          "type": "text",
-          "value": ""
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
-          "spans": [
-            {
-              "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
-          "spans": [
-            {
-              "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Réussite Critique",
-          "spans": [
-            {
-              "text": "Réussite Critique",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
-          "spans": [
-            {
-              "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le temps de vol passe jusqu'à une scène complète.",
-          "spans": [
-            {
-              "text": "Le temps de vol passe jusqu'à une scène complète.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Effet passif : Votre Servant Elémentaire d'Air peut vous assister au combat. ",
-          "spans": [
-            {
-              "text": "Effet passif :",
-              "bold": true
-            },
-            {
-              "text": " Votre Servant Elémentaire d'Air peut vous assister au combat. ",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "39b88b48-e48e-808a-a41f-c0e599f26faa",
       "slug": "se-lier-a-la-montagne",
       "title": "Se lier à la Montagne",
@@ -26715,6 +26573,148 @@
           "spans": [
             {
               "text": "Ceux qui ont subit votre Touché brûlant ont gardé des séquelles de cette douleur dans leurs subconscients. La menace de cette torture de la part d'un utilisateur du Valeren donne à réfléchir même aux personnages les plus tétûs. Quiconque a été touché par votre Touché brûlant a un malus de -5 pour résister aux tests liés à l'intimidation. Cet effet ne peut être utiliser pour augmenter des pouvoirs surnaturelles.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a288b48-e48e-808a-a880-fb36087c465d",
+      "slug": "toucher-aerien",
+      "title": "Toucher aérien",
+      "notionUrl": "https://app.notion.com/p/Toucher-a-rien-3a288b48e48e808aa880fb36087c465d",
+      "lastEditedTime": "2026-07-22T09:19:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Toucher aérien"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+          "spans": [
+            {
+              "text": "Le vampire maîtrise l'élément aérien à un niveau beaucoup plus important. Celui-ci peut désormais voler, et par son simple toucher, permettre à ses cibles de voler également.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+          "spans": [
+            {
+              "text": "Le lanceur, ou sa cible, peut voler pendant les 5 prochains tours.\nA la fin, la personne volante redescendra en lévitant, consommant ainsi son action simple de déplacement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+          "spans": [
+            {
+              "text": "Le lanceur décide si la cible redescend en lévitant, ou en tombant lourdement. De plus, le lanceur décide du nombre de tour durant laquelle la cible reste dans les airs, allant de 1 à 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps de vol passe jusqu'à une scène complète.",
+          "spans": [
+            {
+              "text": "Le temps de vol passe jusqu'à une scène complète.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet passif : Votre Servant Elémentaire d'Air peut vous assister au combat. ",
+          "spans": [
+            {
+              "text": "Effet passif :",
+              "bold": true
+            },
+            {
+              "text": " Votre Servant Elémentaire d'Air peut vous assister au combat. ",
               "bold": false
             }
           ]

@@ -1,8 +1,7 @@
 :root {
   /* Thème sombre (par défaut) */
   --bg-canvas: #0e0b0a;
-  --bg-canvas-glow-1: rgba(139, 27, 30, 0.16);
-  --bg-canvas-glow-2: rgba(90, 20, 22, 0.12);
+  --bg-canvas-glow-1: rgba(139, 27, 30, 0.13);
   --bg-panel: #120e0c;
   --bg-card: #140f0d;
   --bg-card-hover: #1a1310;
@@ -22,16 +21,29 @@
   --scrollbar-thumb: #3a2a26;
   --scrollbar-thumb-hover: #59201f;
 
+  /* Deuxième teinte, réservée au système de tampons/classification
+     (cachet "complet", plaque du raccourci recherche) : sceau de cire
+     vert-de-gris plutôt qu'un rouge unique décliné partout. */
+  --seal: #5f7a63;
+  --seal-strong: #7d9c81;
+  --seal-tint: rgba(95, 122, 99, 0.14);
+  --brass: #a9895a;
+  --brass-tint: rgba(169, 137, 90, 0.12);
+
+  --font-display: "Cinzel", Georgia, serif;
+  --font-body: "EB Garamond", Georgia, serif;
+  --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --font-ui: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+
   color: var(--text-primary);
   background: var(--bg-canvas);
-  font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  font-family: var(--font-ui);
   line-height: 1.5;
 }
 
 :root[data-theme="light"] {
   --bg-canvas: #f6f2ec;
   --bg-canvas-glow-1: transparent;
-  --bg-canvas-glow-2: transparent;
   --bg-panel: #fdfaf4;
   --bg-card: #fffdf8;
   --bg-card-hover: #f5ece0;
@@ -50,6 +62,12 @@
   --accent-tint: rgba(155, 47, 49, 0.09);
   --scrollbar-thumb: #ddd0bd;
   --scrollbar-thumb-hover: #c9b89f;
+
+  --seal: #4f6853;
+  --seal-strong: #4f6853;
+  --seal-tint: rgba(79, 104, 83, 0.09);
+  --brass: #8a6d3f;
+  --brass-tint: rgba(138, 109, 63, 0.09);
 }
 
 * {
@@ -59,9 +77,10 @@
 body {
   margin: 0;
   min-width: 320px;
+  /* Une seule source, comme une bougie posée en haut à gauche du bureau,
+     plutôt que deux halos symétriques qui éclairent toute la page. */
   background:
-    radial-gradient(ellipse 900px 500px at 15% -10%, var(--bg-canvas-glow-1), transparent 60%),
-    radial-gradient(ellipse 900px 600px at 100% 0%, var(--bg-canvas-glow-2), transparent 55%),
+    radial-gradient(ellipse 700px 420px at 10% -8%, var(--bg-canvas-glow-1), transparent 62%),
     var(--bg-canvas);
 }
 
@@ -93,8 +112,11 @@ input {
   font: inherit;
 }
 
-h1, h2, h3 {
-  font-family: Cinzel, Georgia, serif;
+/* Le serif d'apparat (Cinzel) est réservé aux titres, pas à tout h2/h3 :
+   beaucoup de ces derniers sont des libellés d'archive (sections, badges,
+   métadonnées) qui passent en `--font-mono`, voir plus bas. */
+h1 {
+  font-family: var(--font-display);
   letter-spacing: 0.01em;
 }
 
@@ -131,7 +153,7 @@ h1, h2, h3 {
 
 .brand strong {
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 18px;
   letter-spacing: 0.02em;
 }
@@ -182,27 +204,33 @@ h1, h2, h3 {
 
 .searchShortcut {
   background: #1c1512;
-  border: 1px solid #302420;
-  border-radius: 5px;
-  color: #7a6c60;
+  border: 1px solid #4a3a22;
+  border-radius: 4px;
+  color: var(--brass);
   flex: 0 0 auto;
-  font-family: inherit;
+  font-family: var(--font-mono);
   font-size: 11px;
   padding: 3px 6px;
 }
 
+/* Grandit pour occuper l'espace restant (flex + min-height:0, sinon un
+   enfant flex ne peut pas rétrécir sous sa hauteur de contenu) : la nav
+   défile sur elle-même quand elle déborde, pendant que le footer reste
+   ancré en bas du rail au lieu de suivre juste après le dernier item. */
 .collectionNav {
   display: flex;
+  flex: 1;
   flex-direction: column;
   gap: 18px;
+  min-height: 0;
   overflow: auto;
 }
 
 .collectionNav h2 {
   color: #7a6c60;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   margin: 0 0 7px;
   text-transform: uppercase;
 }
@@ -271,64 +299,28 @@ h1, h2, h3 {
   height: 1px;
 }
 
-.sidebarHero {
-  background:
-    linear-gradient(180deg, transparent 35%, rgba(9, 5, 4, 0.92) 100%),
-    url("/images/sidebar-hero.png") center / cover no-repeat,
-    linear-gradient(160deg, #2a0f10, #0f0c0b);
-  border: 1px solid #241c19;
-  border-radius: 12px;
-  display: flex;
-  flex: 0 0 auto;
-  flex-direction: column;
-  align-items: center;
-  justify-content: flex-end;
-  gap: 10px;
-  min-height: 190px;
-  padding: 16px;
-  text-align: center;
-}
-
-.sidebarHero blockquote {
-  color: #f3e9db;
-  font-family: "EB Garamond", Georgia, serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 1.5;
-  margin: 0;
-}
-
-.sidebarHeroDivider {
-  color: #c33a3d;
-  font-size: 12px;
-}
-
 .sidebarFooter {
   align-items: center;
   border-top: 1px solid #241c19;
   display: flex;
   flex: 0 0 auto;
-  gap: 12px;
+  gap: 10px;
   padding-top: 16px;
 }
 
 .sidebarFooter svg {
-  color: #9b2f31;
+  color: #7d6a45;
   flex: 0 0 auto;
 }
 
-.sidebarFooter strong {
-  display: block;
-  font-family: Cinzel, Georgia, serif;
-  font-size: 13px;
-  letter-spacing: 0.03em;
-}
-
-.sidebarFooter span {
-  color: #b3383b;
-  display: block;
-  font-size: 11px;
-  letter-spacing: 0.05em;
+/* Ligne de colophon plutôt qu'une deuxième signature : le brand en haut
+   suffit à identifier le site, ce bas de rail rappelle juste qu'on
+   consulte des archives, pas une refonte du même titre. */
+.sidebarFooterLabel {
+  color: #7a6c60;
+  font-family: var(--font-mono);
+  font-size: 10.5px;
+  letter-spacing: 0.06em;
   text-transform: uppercase;
 }
 
@@ -352,10 +344,10 @@ h1, h2, h3 {
 .listPane header span,
 .detailPane header span {
   color: var(--accent-strong);
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
@@ -391,10 +383,10 @@ h1, h2, h3 {
 
 .itemGroup h2 {
   color: var(--accent-strong);
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   margin: 14px 0 7px;
   text-transform: uppercase;
 }
@@ -444,36 +436,42 @@ h1, h2, h3 {
 }
 
 .itemFlags .flagFull {
-  color: var(--text-muted);
+  color: var(--seal-strong);
 }
 
 .itemFlagsDetail {
   flex-wrap: wrap;
-  gap: 10px;
-  margin: 0 0 20px;
+  gap: 14px;
+  margin: 0 0 24px;
 }
 
+/* Le badge redevient un tampon d'archive plutôt qu'une pastille pleine :
+   encre transparente (currentColor), coins presque droits, légère
+   rotation. Le rouge (en attente) et le vert-de-gris (clos) restent
+   distincts même sans lire le texte. */
 .itemFlag {
   align-items: center;
-  border-radius: 6px;
+  background: transparent;
+  border: 2px solid currentColor;
+  border-radius: 3px;
   display: flex;
-  font-size: 14px;
-  font-weight: 600;
+  font-family: var(--font-mono);
+  font-size: 12px;
+  font-weight: 700;
   gap: 8px;
-  padding: 10px 14px;
+  letter-spacing: 0.08em;
+  padding: 9px 12px;
+  text-transform: uppercase;
+  transform: rotate(-1.5deg);
   width: fit-content;
 }
 
 .itemFlagApproval {
-  background: var(--accent-tint);
-  border: 1px solid var(--accent);
   color: var(--accent-strong);
 }
 
 .itemFlagFull {
-  background: var(--bg-card-hover);
-  border: 1px solid var(--border-strong);
-  color: var(--text-muted);
+  color: var(--seal-strong);
 }
 
 .empty {
@@ -567,10 +565,10 @@ h1, h2, h3 {
   color: #f6ece0;
   cursor: pointer;
   display: inline-block;
-  font-family: Cinzel, Georgia, serif;
-  font-size: 14px;
+  font-family: var(--font-mono);
+  font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.04em;
+  letter-spacing: 0.06em;
   padding: 14px 32px;
   text-decoration: none;
   text-transform: uppercase;
@@ -657,7 +655,7 @@ h1, h2, h3 {
   border: 1px solid var(--border);
   border-radius: 8px;
   color: var(--text-primary);
-  font-family: "EB Garamond", Georgia, serif;
+  font-family: var(--font-body);
   max-width: 860px;
   padding: clamp(22px, 4vw, 42px);
 }
@@ -750,7 +748,7 @@ h1, h2, h3 {
 .contentBlocks th {
   background: var(--bg-stat-card);
   color: var(--accent-strong);
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 12px;
   font-weight: 700;
   letter-spacing: 0.04em;
@@ -882,6 +880,7 @@ a.relationChip:hover {
 .ritualEntry h2,
 .ritualEntry h3 {
   color: var(--text-heading);
+  font-family: var(--font-display);
   font-size: clamp(24px, 4vw, 32px);
   margin: 0 0 16px;
 }
@@ -935,9 +934,10 @@ a.relationChip:hover {
 .detailSubGroupTitle {
   border-bottom: 1px solid var(--border);
   color: var(--accent-strong);
+  font-family: var(--font-mono);
   font-size: 13px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   margin: 40px 0 20px;
   padding-bottom: 10px;
   text-transform: uppercase;
@@ -1003,10 +1003,10 @@ a.relationChip:hover {
 .homeView .eyebrow {
   color: var(--accent-strong);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -1020,7 +1020,7 @@ a.relationChip:hover {
 .homeView blockquote {
   border-left: 3px solid var(--accent);
   color: var(--text-quote);
-  font-family: "EB Garamond", Georgia, serif;
+  font-family: var(--font-body);
   font-size: 19px;
   font-style: italic;
   margin: 0 0 20px;
@@ -1084,10 +1084,10 @@ a.relationChip:hover {
   align-items: center;
   color: var(--text-heading);
   display: flex;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 13px;
   gap: 14px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   margin: 0 0 18px;
   text-transform: uppercase;
 }
@@ -1143,8 +1143,9 @@ a.relationChip:hover {
 
 .quickLinkCard strong {
   color: var(--text-heading);
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 14px;
+  font-weight: 700;
   letter-spacing: 0.02em;
   text-transform: uppercase;
 }
@@ -1285,7 +1286,7 @@ a.relationChip:hover {
 .startCard strong {
   color: var(--text-heading);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 15px;
   margin-bottom: 6px;
 }
@@ -1362,10 +1363,10 @@ a.relationChip:hover {
 .indexView .eyebrow {
   color: var(--accent-strong);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   text-transform: uppercase;
 }
 
@@ -1420,6 +1421,7 @@ a.relationChip:hover {
 
 .techniquesEmpty h2 {
   color: var(--text-heading);
+  font-family: var(--font-display);
   font-size: clamp(18px, 2.4vw, 22px);
   margin: 0;
   max-width: 420px;
@@ -1577,7 +1579,7 @@ a.relationChip:hover {
 .clanCardBody strong {
   color: var(--text-heading);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 16px;
   letter-spacing: 0.02em;
   margin-bottom: 4px;
@@ -1655,7 +1657,7 @@ a.relationChip:hover {
 .disciplineBody strong {
   color: var(--text-heading);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 16px;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -1700,7 +1702,7 @@ a.relationChip:hover {
 }
 
 .listRowLabel {
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 15px;
 }
 
@@ -1726,7 +1728,7 @@ a.relationChip:hover {
   color: var(--text-heading);
   cursor: pointer;
   display: flex;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-display);
   font-size: 17px;
   gap: 16px;
   justify-content: space-between;
@@ -1782,10 +1784,10 @@ a.relationChip:hover {
 .statLabel {
   color: var(--accent-strong);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 11px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.03em;
   margin-bottom: 6px;
   text-transform: uppercase;
 }
@@ -1865,7 +1867,7 @@ a.relationChip:hover {
   color: #f6ece0;
   display: flex;
   flex: 0 0 auto;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
   height: 22px;
@@ -1919,15 +1921,16 @@ a.relationChip:hover {
 .modalHeader span {
   color: var(--accent-strong);
   display: block;
-  font-family: Cinzel, Georgia, serif;
+  font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.04em;
   text-transform: uppercase;
 }
 
 .modalHeader h2 {
   color: var(--text-heading);
+  font-family: var(--font-display);
   font-size: clamp(24px, 4vw, 32px);
   margin: 4px 0 0;
 }
@@ -1986,7 +1989,7 @@ a.relationChip:hover {
   }
 
   .mobileTopBar strong {
-    font-family: Cinzel, Georgia, serif;
+    font-family: var(--font-display);
     font-size: 16px;
   }
 

@@ -2,6 +2,7 @@ import { Fragment, useEffect, useRef } from "react";
 import { BookOpen, ChevronRight, Moon, Search, Sun, X } from "lucide-react";
 import { navigation } from "../config/navigation";
 import AppIcon from "./AppIcon";
+import { version } from "../../package.json";
 
 export default function Sidebar({ wiki, open, onClose, theme, onToggleTheme }) {
 
@@ -112,12 +113,8 @@ export default function Sidebar({ wiki, open, onClose, theme, onToggleTheme }) {
                 </nav>
 
                 <div className="sidebarFooter">
-                    <AppIcon name="ankh" size={20} aria-hidden="true" />
-
-                    <div>
-                        <strong>Vampire la Mascarade</strong>
-                        <span>Wiki de chronique</span>
-                    </div>
+                    <AppIcon name="ankh" size={16} aria-hidden="true" />
+                    <span className="sidebarFooterLabel">V.{version}</span>
                 </div>
 
             </aside>
