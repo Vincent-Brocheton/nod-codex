@@ -424,6 +424,22 @@ h1 {
   flex: 0 0 auto;
 }
 
+/* L'emblème de clan (base 64px, voir .clanEmblem) réduit à la taille d'une
+   icône de ligne, pour la colonne liste des fiches Clan. */
+.itemList .clanEmblem {
+  border-radius: 5px;
+  height: 22px;
+  width: 22px;
+}
+
+.itemList img.clanEmblem {
+  padding: 2px;
+}
+
+.itemList .clanEmblemFallback {
+  font-size: 8px;
+}
+
 .itemFlags {
   align-items: center;
   display: flex;
