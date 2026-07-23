@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-07-23T12:59:15.864Z",
+  "generatedAt": "2026-07-23T13:32:34.111Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1002,7 +1002,7 @@
       "slug": "mystere",
       "title": "Mystère",
       "notionUrl": "https://app.notion.com/p/Myst-re-38288b48e48e8095a1fce6f54f4f1b7c",
-      "lastEditedTime": "2026-06-17T11:02:00.000Z",
+      "lastEditedTime": "2026-07-23T13:20:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1021,11 +1021,761 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "La compétence Mystères représente les connaissances qu'un personnage possède sur le Monde des Ténèbres et les forces surnaturelles qui le composent.",
+          "spans": [
+            {
+              "text": "La compétence ",
+              "bold": false
+            },
+            {
+              "text": "Mystères",
+              "bold": true
+            },
+            {
+              "text": " représente les connaissances qu'un personnage possède sur le Monde des Ténèbres et les forces surnaturelles qui le composent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout vampire apprend naturellement les bases de sa propre condition. Il sait qu'il doit se nourrir de sang, comprend progressivement l'influence de sa Bête et découvre rapidement les dangers que représentent le soleil, le feu ou encore la Foi véritable.",
+          "spans": [
+            {
+              "text": "Tout vampire apprend naturellement les bases de sa propre condition. Il sait qu'il doit se nourrir de sang, comprend progressivement l'influence de sa Bête et découvre rapidement les dangers que représentent le soleil, le feu ou encore la Foi véritable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après quelques temps passés au sein de la société vampirique, il acquiert également les connaissances communes de sa secte : les principaux clans présents dans la chronique, leurs Disciplines les plus connues, ainsi que les grandes règles qui régissent la société des Damnés.",
+          "spans": [
+            {
+              "text": "Après quelques temps passés au sein de la société vampirique, il acquiert également les connaissances communes de sa secte : les principaux clans présents dans la chronique, leurs Disciplines les plus connues, ainsi que les grandes règles qui régissent la société des Damnés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au-delà de ces connaissances élémentaires, toute compréhension du surnaturel passe par les Mystères.",
+          "spans": [
+            {
+              "text": "Au-delà de ces connaissances élémentaires, toute compréhension du surnaturel passe par les ",
+              "bold": false
+            },
+            {
+              "text": "Mystères",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence permet d'étudier des sujets aussi variés que les clans vampiriques, les lignées de sang, les Lupins, les Mages, les Spectres, les Fées, les sociétés secrètes, les textes anciens ou encore les grandes légendes du Monde des Ténèbres.",
+          "spans": [
+            {
+              "text": "Cette compétence permet d'étudier des sujets aussi variés que les clans vampiriques, les lignées de sang, les Lupins, les Mages, les Spectres, les Fées, les sociétés secrètes, les textes anciens ou encore les grandes légendes du Monde des Ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est important de distinguer Mystères de Érudition.",
+          "spans": [
+            {
+              "text": "Il est important de distinguer ",
+              "bold": false
+            },
+            {
+              "text": "Mystères",
+              "bold": true
+            },
+            {
+              "text": " de ",
+              "bold": false
+            },
+            {
+              "text": "Érudition",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Érudition couvre les connaissances académiques et historiques du monde mortel.",
+          "spans": [
+            {
+              "text": "Érudition",
+              "bold": true
+            },
+            {
+              "text": " couvre les connaissances académiques et historiques du monde mortel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Mystères concerne exclusivement les connaissances relatives au surnaturel.",
+          "spans": [
+            {
+              "text": "Mystères",
+              "bold": true
+            },
+            {
+              "text": " concerne exclusivement les connaissances relatives au surnaturel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les différents domaines de Mystères disponibles sont définis par les Conteurs en fonction de la chronique.",
+          "spans": [
+            {
+              "text": "Les différents domaines de Mystères disponibles sont définis par les Conteurs en fonction de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "heading_2",
           "text": "Système",
           "spans": [
             {
               "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Connaissances de départ",
+          "spans": [
+            {
+              "text": "Connaissances de départ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout personnage débute automatiquement avec un niveau 2 dans les domaines de Mystères suivants :",
+          "spans": [
+            {
+              "text": "Tout personnage débute automatiquement avec un niveau ",
+              "bold": false
+            },
+            {
+              "text": "2",
+              "bold": true
+            },
+            {
+              "text": " dans les domaines de Mystères suivants :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sa Race (Vampire, Mage, Lupin, etc.) ;",
+          "spans": [
+            {
+              "text": "sa ",
+              "bold": false
+            },
+            {
+              "text": "Race",
+              "bold": true
+            },
+            {
+              "text": " (Vampire, Mage, Lupin, etc.) ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sa Secte ou organisation (Camarilla, Sabbat, Anarch, Inquisition, etc.) ;",
+          "spans": [
+            {
+              "text": "sa ",
+              "bold": false
+            },
+            {
+              "text": "Secte ou organisation",
+              "bold": true
+            },
+            {
+              "text": " (Camarilla, Sabbat, Anarch, Inquisition, etc.) ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "son Clan.",
+          "spans": [
+            {
+              "text": "son ",
+              "bold": false
+            },
+            {
+              "text": "Clan",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces connaissances représentent tout ce qu'un membre normalement intégré à son organisation est censé connaître.",
+          "spans": [
+            {
+              "text": "Ces connaissances représentent tout ce qu'un membre normalement intégré à son organisation est censé connaître.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Acquérir de nouveaux Mystères",
+          "spans": [
+            {
+              "text": "Acquérir de nouveaux Mystères",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Mystères ne s'achètent pas librement.",
+          "spans": [
+            {
+              "text": "Les Mystères ne s'achètent pas librement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils s'acquièrent par le jeu, au travers :",
+          "spans": [
+            {
+              "text": "Ils s'acquièrent par le jeu, au travers :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des découvertes réalisées pendant les parties ;",
+          "spans": [
+            {
+              "text": "des découvertes réalisées pendant les parties ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des recherches personnelles ;",
+          "spans": [
+            {
+              "text": "des recherches personnelles ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de l'étude de documents ;",
+          "spans": [
+            {
+              "text": "de l'étude de documents ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des enseignements d'un mentor ;",
+          "spans": [
+            {
+              "text": "des enseignements d'un mentor ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou de toute autre source de savoir validée par les Conteurs.",
+          "spans": [
+            {
+              "text": "ou de toute autre source de savoir validée par les Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage considère comme vraies toutes les informations qu'il apprend en jeu, qu'elles soient exactes… ou non.",
+          "spans": [
+            {
+              "text": "Un personnage considère comme vraies toutes les informations qu'il apprend en jeu, qu'elles soient exactes… ou non.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les rumeurs, mensonges, manipulations et erreurs d'interprétation font pleinement partie de la progression des Mystères.",
+          "spans": [
+            {
+              "text": "Les rumeurs, mensonges, manipulations et erreurs d'interprétation font pleinement partie de la progression des Mystères.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après avoir accumulé suffisamment de connaissances sur un sujet, les Conteurs pourront autoriser le personnage à développer le Mystère correspondant.",
+          "spans": [
+            {
+              "text": "Après avoir accumulé suffisamment de connaissances sur un sujet, les Conteurs pourront autoriser le personnage à développer le Mystère correspondant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'obtention d'un niveau de Mystère reste toujours soumise à leur validation.",
+          "spans": [
+            {
+              "text": "L'obtention d'un niveau de Mystère reste toujours soumise à leur validation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Mentorat",
+          "spans": [
+            {
+              "text": "Mentorat",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut apprendre des Mystères auprès d'un autre Semblable possédant les connaissances nécessaires.",
+          "spans": [
+            {
+              "text": "Un personnage peut apprendre des Mystères auprès d'un autre Semblable possédant les connaissances nécessaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le mentor doit naturellement maîtriser le niveau qu'il souhaite enseigner.",
+          "spans": [
+            {
+              "text": "Le mentor doit naturellement maîtriser le niveau qu'il souhaite enseigner.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le coût en Actions Inter-Parties est le suivant :",
+          "spans": [
+            {
+              "text": "Le coût en Actions Inter-Parties est le suivant :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Niveaux 1 et 2 : le personnage qui apprend dépense 1 AIP.",
+          "spans": [
+            {
+              "text": "Niveaux 1 et 2",
+              "bold": true
+            },
+            {
+              "text": " : le personnage qui apprend dépense ",
+              "bold": false
+            },
+            {
+              "text": "1 AIP",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Niveaux 3 à 5 : le mentor et l'élève dépensent chacun 1 AIP minimum. Les Conteurs peuvent demander un investissement supérieur si la transmission du savoir le justifie.",
+          "spans": [
+            {
+              "text": "Niveaux 3 à 5",
+              "bold": true
+            },
+            {
+              "text": " : le mentor ",
+              "bold": false
+            },
+            {
+              "text": "et",
+              "bold": true
+            },
+            {
+              "text": " l'élève dépensent chacun ",
+              "bold": false
+            },
+            {
+              "text": "1 AIP",
+              "bold": true
+            },
+            {
+              "text": " minimum. Les Conteurs peuvent demander un investissement supérieur si la transmission du savoir le justifie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme tout mentorat, cet enseignement est soumis au Système de Dettes.",
+          "spans": [
+            {
+              "text": "Comme tout mentorat, cet enseignement est soumis au ",
+              "bold": false
+            },
+            {
+              "text": "Système de Dettes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'augmentation d'un Mystère n'est jamais automatique et nécessite toujours la validation des Conteurs.",
+          "spans": [
+            {
+              "text": "L'augmentation d'un Mystère n'est jamais automatique et nécessite toujours la validation des Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Niveaux de Mystères",
+          "spans": [
+            {
+              "text": "Niveaux de Mystères",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Niveau 1 - Connaissances élémentaires",
+          "spans": [
+            {
+              "text": "Niveau 1 - Connaissances élémentaires",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage possède une connaissance superficielle du sujet.",
+          "spans": [
+            {
+              "text": "Le personnage possède une connaissance superficielle du sujet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il connaît les concepts les plus répandus et les informations généralement accessibles au sein de son milieu.",
+          "spans": [
+            {
+              "text": "Il connaît les concepts les plus répandus et les informations généralement accessibles au sein de son milieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce niveau correspond aux connaissances d'un infant récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
+          "spans": [
+            {
+              "text": "Ce niveau correspond aux connaissances d'un infant récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Niveau 2 - Connaissances courantes",
+          "spans": [
+            {
+              "text": "Niveau 2 - Connaissances courantes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage maîtrise les bases du sujet et comprend son fonctionnement général.",
+          "spans": [
+            {
+              "text": "Le personnage maîtrise les bases du sujet et comprend son fonctionnement général.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il a entendu parler de certaines lignées de sang, de sociétés particulières ou de secrets mineurs sans pour autant en maîtriser tous les détails.",
+          "spans": [
+            {
+              "text": "Il a entendu parler de certaines lignées de sang, de sociétés particulières ou de secrets mineurs sans pour autant en maîtriser tous les détails.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est capable de distinguer les faits les plus communément admis des simples rumeurs.",
+          "spans": [
+            {
+              "text": "Il est capable de distinguer les faits les plus communément admis des simples rumeurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Niveau 3 - Connaissances spécialisées",
+          "spans": [
+            {
+              "text": "Niveau 3 - Connaissances spécialisées",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage a consacré un véritable travail d'étude à ce domaine.",
+          "spans": [
+            {
+              "text": "Le personnage a consacré un véritable travail d'étude à ce domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il connaît l'existence de nombreuses organisations secrètes, comprend leurs objectifs généraux et peut parfois identifier certains de leurs membres.",
+          "spans": [
+            {
+              "text": "Il connaît l'existence de nombreuses organisations secrètes, comprend leurs objectifs généraux et peut parfois identifier certains de leurs membres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il distingue les enjeux politiques ou mystiques cachés derrière les événements les plus importants.",
+          "spans": [
+            {
+              "text": "Il distingue les enjeux politiques ou mystiques cachés derrière les événements les plus importants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Niveau 4 - Connaissances approfondies",
+          "spans": [
+            {
+              "text": "Niveau 4 - Connaissances approfondies",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage maîtrise les secrets connus uniquement des érudits, des Anciens ou des spécialistes du sujet.",
+          "spans": [
+            {
+              "text": "Le personnage maîtrise les secrets connus uniquement des érudits, des Anciens ou des spécialistes du sujet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il comprend les véritables objectifs de nombreuses factions, connaît des événements oubliés de l'Histoire et peut accéder à des informations rarement transmises.",
+          "spans": [
+            {
+              "text": "Il comprend les véritables objectifs de nombreuses factions, connaît des événements oubliés de l'Histoire et peut accéder à des informations rarement transmises.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nombre de ces connaissances proviennent d'ouvrages rares, de témoignages anciens ou d'expériences personnelles.",
+          "spans": [
+            {
+              "text": "Nombre de ces connaissances proviennent d'ouvrages rares, de témoignages anciens ou d'expériences personnelles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Niveau 5 - Maîtrise exceptionnelle",
+          "spans": [
+            {
+              "text": "Niveau 5 - Maîtrise exceptionnelle",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage atteint un degré de compréhension exceptionnel.",
+          "spans": [
+            {
+              "text": "Le personnage atteint un degré de compréhension exceptionnel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sa connaissance du sujet est comparable à celle des plus grands érudits du Monde des Ténèbres.",
+          "spans": [
+            {
+              "text": "Sa connaissance du sujet est comparable à celle des plus grands érudits du Monde des Ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est capable d'interpréter des textes antiques, de replacer des événements dans leur contexte historique et de comprendre des vérités que très peu de créatures connaissent encore.",
+          "spans": [
+            {
+              "text": "Il est capable d'interpréter des textes antiques, de replacer des événements dans leur contexte historique et de comprendre des vérités que très peu de créatures connaissent encore.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un tel niveau de savoir demande généralement des siècles de recherches, d'expériences et de transmissions.",
+          "spans": [
+            {
+              "text": "Un tel niveau de savoir demande généralement des siècles de recherches, d'expériences et de transmissions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En conséquence, le niveau 5 de Mystères est extrêmement rare et n'est généralement accessible qu'aux créatures immortelles ou aux morts-vivants ayant consacré une grande partie de leur existence à l'étude de ce domaine.",
+          "spans": [
+            {
+              "text": "En conséquence, le niveau ",
+              "bold": false
+            },
+            {
+              "text": "5",
+              "bold": true
+            },
+            {
+              "text": " de Mystères est extrêmement rare et n'est généralement accessible qu'aux créatures immortelles ou aux morts-vivants ayant consacré une grande partie de leur existence à l'étude de ce domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Principe d'interprétation",
+          "spans": [
+            {
+              "text": "Principe d'interprétation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Posséder un niveau élevé dans un Mystère ne signifie pas que toutes les informations connues sont exactes.",
+          "spans": [
+            {
+              "text": "Posséder un niveau élevé dans un Mystère ne signifie pas que toutes les informations connues sont exactes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les connaissances d'un personnage reflètent ce qu'il a appris au cours de son existence. Elles peuvent être incomplètes, biaisées, manipulées ou erronées.",
+          "spans": [
+            {
+              "text": "Les connaissances d'un personnage reflètent ce qu'il a appris au cours de son existence. Elles peuvent être incomplètes, biaisées, manipulées ou erronées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs demeurent seuls décisionnaires de la véracité des informations détenues par les personnages ainsi que des connaissances auxquelles chaque niveau de Mystère donne effectivement accès au sein de la chronique.",
+          "spans": [
+            {
+              "text": "Les Conteurs demeurent seuls décisionnaires de la véracité des informations détenues par les personnages ainsi que des connaissances auxquelles chaque niveau de Mystère donne effectivement accès au sein de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette approche permet de préserver le mystère propre à Vampire : la Mascarade, où même les plus anciens érudits ne détiennent jamais toute la vérité.",
+          "spans": [
+            {
+              "text": "Cette approche permet de préserver le mystère propre à Vampire : la Mascarade, où même les plus anciens érudits ne détiennent jamais toute la vérité.",
               "bold": false
             }
           ]

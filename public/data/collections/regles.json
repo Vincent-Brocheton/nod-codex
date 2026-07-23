@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-23T12:59:15.865Z",
+  "generatedAt": "2026-07-23T13:32:34.112Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -21,7 +21,8 @@
       "Frénésie",
       "Equipement",
       "Création de personnage",
-      "Coteries"
+      "Coteries",
+      "Divers"
     ]
   },
   "items": [
@@ -1330,6 +1331,485 @@
           "spans": [
             {
               "text": "Tout ce qui ne rentre pas dans les cas précédents.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a688b48-e48e-8041-b24c-eb8e068dc28c",
+      "slug": "aips-supplementaires",
+      "title": "AIPs supplémentaires",
+      "notionUrl": "https://app.notion.com/p/AIPs-suppl-mentaires-3a688b48e48e8041b24ceb8e068dc28c",
+      "lastEditedTime": "2026-07-23T13:11:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "AIP"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "AIPs supplémentaires"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Chaque personnage dispose de trois Actions Inter-Parties (AIP) de base entre deux sessions de jeu.",
+          "spans": [
+            {
+              "text": "Chaque personnage dispose de ",
+              "bold": false
+            },
+            {
+              "text": "trois Actions Inter-Parties (AIP)",
+              "bold": true
+            },
+            {
+              "text": " de base entre deux sessions de jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines compétences, Atouts ou Alliés permettent d'obtenir des AIP supplémentaires. Ces actions bonus sont soumises aux restrictions décrites ci-dessous.",
+          "spans": [
+            {
+              "text": "Certaines compétences, Atouts ou Alliés permettent d'obtenir des AIP supplémentaires. Ces actions bonus sont soumises aux restrictions décrites ci-dessous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Informatique",
+          "spans": [
+            {
+              "text": "Informatique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant au moins un point en Informatique obtient une AIP supplémentaire.",
+          "spans": [
+            {
+              "text": "Un personnage possédant ",
+              "bold": false
+            },
+            {
+              "text": "au moins un point en Informatique",
+              "bold": true
+            },
+            {
+              "text": " obtient ",
+              "bold": false
+            },
+            {
+              "text": "une AIP supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette AIP peut être utilisée de deux façons :",
+          "spans": [
+            {
+              "text": "Cette AIP peut être utilisée de deux façons :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Effectuer une AIP standard, telle que décrite dans les règles des Actions Inter-Parties. Cette AIP représente le temps gagné grâce à l'utilisation des outils informatiques.",
+          "spans": [
+            {
+              "text": "Effectuer une AIP standard",
+              "bold": true
+            },
+            {
+              "text": ", telle que décrite dans les règles des Actions Inter-Parties. Cette AIP représente le temps gagné grâce à l'utilisation des outils informatiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Utiliser les capacités propres à l'Informatique, décrites ci-dessous.",
+          "spans": [
+            {
+              "text": "Utiliser les capacités propres à l'Informatique",
+              "bold": true
+            },
+            {
+              "text": ", décrites ci-dessous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Espionnage numérique",
+          "spans": [
+            {
+              "text": "Espionnage numérique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez tenter d'espionner une personne par des moyens informatiques.",
+          "spans": [
+            {
+              "text": "Vous pouvez tenter d'espionner une personne par des moyens informatiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour cela, vous devez connaître au minimum son nom ou disposer d'une description physique suffisamment précise pour permettre son identification.",
+          "spans": [
+            {
+              "text": "Pour cela, vous devez connaître ",
+              "bold": false
+            },
+            {
+              "text": "au minimum son nom",
+              "bold": true
+            },
+            {
+              "text": " ou disposer d'une ",
+              "bold": false
+            },
+            {
+              "text": "description physique suffisamment précise",
+              "bold": true
+            },
+            {
+              "text": " pour permettre son identification.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les informations obtenues dépendent de vos compétences, des protections de votre cible et de la décision des Conteurs.",
+          "spans": [
+            {
+              "text": "Les informations obtenues dépendent de vos compétences, des protections de votre cible et de la décision des Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Sabotage numérique",
+          "spans": [
+            {
+              "text": "Sabotage numérique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les mêmes conditions que l'espionnage, vous pouvez tenter d'empêcher une autre personne d'effectuer une de ses AIP.",
+          "spans": [
+            {
+              "text": "Dans les mêmes conditions que l'espionnage, vous pouvez tenter d'empêcher une autre personne d'effectuer une de ses AIP.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette tentative peut cibler aussi bien un Personnage Joueur (PJ) qu'un Personnage Non Joueur (PNJ).",
+          "spans": [
+            {
+              "text": "Cette tentative peut cibler aussi bien un ",
+              "bold": false
+            },
+            {
+              "text": "Personnage Joueur (PJ)",
+              "bold": true
+            },
+            {
+              "text": " qu'un ",
+              "bold": false
+            },
+            {
+              "text": "Personnage Non Joueur (PNJ)",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La réussite dépend des capacités respectives des protagonistes et de l'arbitrage des Conteurs.",
+          "spans": [
+            {
+              "text": "La réussite dépend des capacités respectives des protagonistes et de l'arbitrage des Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Science",
+          "spans": [
+            {
+              "text": "Science",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant la compétence Science obtient une AIP supplémentaire.",
+          "spans": [
+            {
+              "text": "Un personnage possédant la compétence ",
+              "bold": false
+            },
+            {
+              "text": "Science",
+              "bold": true
+            },
+            {
+              "text": " obtient ",
+              "bold": false
+            },
+            {
+              "text": "une AIP supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette AIP ne peut être utilisée que pour réaliser une action directement liée à l'un de ses domaines d'étude.",
+          "spans": [
+            {
+              "text": "Cette AIP ne peut être utilisée que pour réaliser une action directement liée à ",
+              "bold": false
+            },
+            {
+              "text": "l'un de ses domaines d'étude",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :",
+          "spans": [
+            {
+              "text": "Par exemple :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un personnage possédant Science : Mathématiques peut consacrer cette AIP à résoudre un problème mathématique complexe, développer un algorithme ou effectuer des calculs avancés ;",
+          "spans": [
+            {
+              "text": "un personnage possédant ",
+              "bold": false
+            },
+            {
+              "text": "Science : Mathématiques",
+              "bold": true
+            },
+            {
+              "text": " peut consacrer cette AIP à résoudre un problème mathématique complexe, développer un algorithme ou effectuer des calculs avancés ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un personnage possédant Science : Botanique peut réaliser des recherches sur des végétaux, développer un nouvel hybride ou analyser une espèce.",
+          "spans": [
+            {
+              "text": "un personnage possédant ",
+              "bold": false
+            },
+            {
+              "text": "Science : Botanique",
+              "bold": true
+            },
+            {
+              "text": " peut réaliser des recherches sur des végétaux, développer un nouvel hybride ou analyser une espèce.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, cette AIP ne peut pas être utilisée pour une action sans rapport avec le domaine étudié, comme enquêter sur une maison abandonnée ou suivre une cible.",
+          "spans": [
+            {
+              "text": "En revanche, cette AIP ne peut pas être utilisée pour une action sans rapport avec le domaine étudié, comme enquêter sur une maison abandonnée ou suivre une cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Domaines d'étude supplémentaires",
+          "spans": [
+            {
+              "text": "Domaines d'étude supplémentaires",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque domaine d'étude supplémentaire possédé à 3 points ou plus, le personnage reçoit une AIP supplémentaire.",
+          "spans": [
+            {
+              "text": "Pour ",
+              "bold": false
+            },
+            {
+              "text": "chaque domaine d'étude supplémentaire",
+              "bold": true
+            },
+            {
+              "text": " possédé à ",
+              "bold": false
+            },
+            {
+              "text": "3 points ou plus",
+              "bold": true
+            },
+            {
+              "text": ", le personnage reçoit ",
+              "bold": false
+            },
+            {
+              "text": "une AIP supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque AIP ainsi obtenue ne peut être dépensée que pour une action relevant de l'un de ses domaines scientifiques.",
+          "spans": [
+            {
+              "text": "Chaque AIP ainsi obtenue ne peut être dépensée que pour une action relevant de l'un de ses domaines scientifiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Alliés",
+          "spans": [
+            {
+              "text": "Alliés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines compétences d'Allié, notamment Influent, permettent d'effectuer des actions entre les parties.",
+          "spans": [
+            {
+              "text": "Certaines compétences d'",
+              "bold": false
+            },
+            {
+              "text": "Allié",
+              "bold": true
+            },
+            {
+              "text": ", notamment ",
+              "bold": false
+            },
+            {
+              "text": "Influent",
+              "bold": true
+            },
+            {
+              "text": ", permettent d'effectuer des actions entre les parties.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces actions sont indépendantes des AIP du personnage : elles représentent les démarches réalisées directement par l'Allié.",
+          "spans": [
+            {
+              "text": "Ces actions sont ",
+              "bold": false
+            },
+            {
+              "text": "indépendantes",
+              "bold": true
+            },
+            {
+              "text": " des AIP du personnage : elles représentent les démarches réalisées directement par l'Allié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Allié ne peut agir que dans son ou ses domaines d'expertise, conformément aux compétences qu'il possède. Les actions qu'il entreprend sont résolues selon les règles des Influences et des Alliés.",
+          "spans": [
+            {
+              "text": "Un Allié ne peut agir que dans son ou ses ",
+              "bold": false
+            },
+            {
+              "text": "domaines d'expertise",
+              "bold": true
+            },
+            {
+              "text": ", conformément aux compétences qu'il possède. Les actions qu'il entreprend sont résolues selon les règles des Influences et des Alliés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les AIP accordées par les Alliés sont cumulables avec celles du personnage, mais restent limitées aux capacités de l'Allié et ne peuvent jamais être utilisées pour réaliser des actions que celui-ci ne serait pas crédiblement en mesure d'accomplir.",
+          "spans": [
+            {
+              "text": "Les AIP accordées par les Alliés sont cumulables avec celles du personnage, mais restent limitées aux capacités de l'Allié et ne peuvent jamais être utilisées pour réaliser des actions que celui-ci ne serait pas crédiblement en mesure d'accomplir.",
               "bold": false
             }
           ]
@@ -9910,6 +10390,251 @@
       ]
     },
     {
+      "id": "3a688b48-e48e-80a4-9820-e27affd6d878",
+      "slug": "gestion-du-hrp",
+      "title": "Gestion du HRP",
+      "notionUrl": "https://app.notion.com/p/Gestion-du-HRP-3a688b48e48e80a49820e27affd6d878",
+      "lastEditedTime": "2026-07-23T13:32:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Divers"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Gestion du HRP"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'immersion est au cœur de la chronique.",
+          "spans": [
+            {
+              "text": "L'immersion est au cœur de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les incompréhensions, maladresses, tensions ou ambiguïtés entre personnages font partie intégrante du jeu et doivent, autant que possible, être interprétées en rôle (RP).",
+          "spans": [
+            {
+              "text": "Les incompréhensions, maladresses, tensions ou ambiguïtés entre personnages font partie intégrante du jeu et doivent, autant que possible, être interprétées ",
+              "bold": false
+            },
+            {
+              "text": "en rôle (RP)",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre personnage ne comprend pas les intentions ou les paroles d'un autre personnage, cette incompréhension doit être jouée plutôt que résolue hors personnage.",
+          "spans": [
+            {
+              "text": "Si votre personnage ne comprend pas les intentions ou les paroles d'un autre personnage, cette incompréhension doit être jouée plutôt que résolue hors personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Hors-RP (HRP) doit rester exceptionnel et être utilisé uniquement lorsque cela est réellement nécessaire.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Hors-RP (HRP)",
+              "bold": true
+            },
+            {
+              "text": " doit rester exceptionnel et être utilisé uniquement lorsque cela est réellement nécessaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Quand utiliser le Hors-RP ?",
+          "spans": [
+            {
+              "text": "Quand utiliser le Hors-RP ?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Hors-RP est autorisé dans les situations suivantes :",
+          "spans": [
+            {
+              "text": "Le Hors-RP est autorisé dans les situations suivantes :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Question de règles : lorsqu'un point de règle doit être clarifié afin d'éviter une erreur de jeu.",
+          "spans": [
+            {
+              "text": "Question de règles",
+              "bold": true
+            },
+            {
+              "text": " : lorsqu'un point de règle doit être clarifié afin d'éviter une erreur de jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Situation inconfortable : lorsqu'une scène dépasse les limites d'un joueur (violence verbale, discrimination, harcèlement, scène intime ou tout autre contenu mettant un participant mal à l'aise).",
+          "spans": [
+            {
+              "text": "Situation inconfortable",
+              "bold": true
+            },
+            {
+              "text": " : lorsqu'une scène dépasse les limites d'un joueur (violence verbale, discrimination, harcèlement, scène intime ou tout autre contenu mettant un participant mal à l'aise).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Information extérieure au jeu : lorsqu'une information n'a aucun lien avec l'interprétation des personnages (organisation, logistique, urgence réelle, etc.).",
+          "spans": [
+            {
+              "text": "Information extérieure au jeu",
+              "bold": true
+            },
+            {
+              "text": " : lorsqu'une information n'a aucun lien avec l'interprétation des personnages (organisation, logistique, urgence réelle, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dehors de ces situations, les échanges doivent rester en personnage.",
+          "spans": [
+            {
+              "text": "En dehors de ces situations, les échanges doivent rester en personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Interrompre une scène",
+          "spans": [
+            {
+              "text": "Interrompre une scène",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si une intervention Hors-RP est nécessaire, le joueur peut lever le poing fermé (✊).",
+          "spans": [
+            {
+              "text": "Si une intervention Hors-RP est nécessaire, le joueur peut lever ",
+              "bold": false
+            },
+            {
+              "text": "le poing fermé (✊)",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce geste permet d'interrompre immédiatement la scène ou de signaler qu'une parenthèse Hors-RP est nécessaire.",
+          "spans": [
+            {
+              "text": "Ce geste permet d'interrompre immédiatement la scène ou de signaler qu'une parenthèse Hors-RP est nécessaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ensemble des participants doit alors suspendre le jeu le temps de résoudre le problème avant de reprendre la scène.",
+          "spans": [
+            {
+              "text": "L'ensemble des participants doit alors suspendre le jeu le temps de résoudre le problème avant de reprendre la scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Préserver l'immersion",
+          "spans": [
+            {
+              "text": "Préserver l'immersion",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Hors-RP est un outil destiné à garantir le bon déroulement du jeu, non à faciliter les interactions entre personnages.",
+          "spans": [
+            {
+              "text": "Le Hors-RP est un outil destiné à garantir le bon déroulement du jeu, non à faciliter les interactions entre personnages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Évitez les explications, justifications ou commentaires Hors-RP lorsqu'ils peuvent être résolus par le jeu lui-même.",
+          "spans": [
+            {
+              "text": "Évitez les explications, justifications ou commentaires Hors-RP lorsqu'ils peuvent être résolus par le jeu lui-même.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus les échanges restent en personnage, plus l'immersion est forte et plus les interactions gagnent en richesse.",
+          "spans": [
+            {
+              "text": "Plus les échanges restent en personnage, plus l'immersion est forte et plus les interactions gagnent en richesse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de difficulté persistante ou de désaccord, n'hésitez pas à solliciter un Conteur, qui pourra intervenir pour clarifier la situation ou arbitrer le différend.",
+          "spans": [
+            {
+              "text": "En cas de difficulté persistante ou de désaccord, n'hésitez pas à solliciter un Conteur, qui pourra intervenir pour clarifier la situation ou arbitrer le différend.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-8006-aa1d-e41f89ec561f",
       "slug": "humanite",
       "title": "Humanité",
@@ -10368,6 +11093,515 @@
       ]
     },
     {
+      "id": "3a688b48-e48e-8026-af18-d9821956e445",
+      "slug": "l-experience",
+      "title": "L’Expérience",
+      "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
+      "lastEditedTime": "2026-07-23T13:29:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Apprentissage"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "L’Expérience"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Coût des améliorations",
+          "spans": [
+            {
+              "text": "Coût des améliorations",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les coûts suivants s'appliquent aussi bien aux XP de départ qu'aux XP gagnés, sauf indication contraire.",
+          "spans": [
+            {
+              "text": "Les coûts suivants s'appliquent aussi bien aux ",
+              "bold": false
+            },
+            {
+              "text": "XP de départ",
+              "bold": true
+            },
+            {
+              "text": " qu'aux ",
+              "bold": false
+            },
+            {
+              "text": "XP gagnés",
+              "bold": true
+            },
+            {
+              "text": ", sauf indication contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Attribut",
+              "3 XP par niveau"
+            ],
+            [
+              "Discipline de clan",
+              "Nouveau niveau × 3 XP"
+            ],
+            [
+              "Récupérer un niveau de Moralité perdu",
+              "10 XP"
+            ],
+            [
+              "Atout",
+              "égal à sa valeur en points"
+            ],
+            [
+              "Rituel de Thaumaturgie ou de Nécromancie",
+              "Niveau du rituel × 2 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Nouveau-né",
+          "spans": [
+            {
+              "text": "Nouveau-né",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×1"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×1"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "12 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancilla",
+          "spans": [
+            {
+              "text": "Ancilla",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "12 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Apprenti Ancien",
+          "spans": [
+            {
+              "text": "Apprenti Ancien",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Technique",
+              "20 XP"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP (maximum un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan)"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "24 XP (même limite)"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancien",
+          "spans": [
+            {
+              "text": "Ancien",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×4"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "24 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ancien Confirmé",
+          "spans": [
+            {
+              "text": "Ancien Confirmé",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Élément",
+              "Coût"
+            ],
+            [
+              "Historique",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Compétence",
+              "Nouveau niveau ×2"
+            ],
+            [
+              "Discipline hors-clan",
+              "Nouveau niveau ×5"
+            ],
+            [
+              "Pouvoir Ancien de clan",
+              "18 XP"
+            ],
+            [
+              "Pouvoir Ancien hors-clan",
+              "30 XP"
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Restrictions",
+          "spans": [
+            {
+              "text": "Restrictions",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Deux éléments ne peuvent jamais être achetés avec des XP gagnés :",
+          "spans": [
+            {
+              "text": "Deux éléments ",
+              "bold": false
+            },
+            {
+              "text": "ne peuvent jamais être achetés avec des XP gagnés",
+              "bold": true
+            },
+            {
+              "text": " :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la Génération ;",
+          "spans": [
+            {
+              "text": "la ",
+              "bold": false
+            },
+            {
+              "text": "Génération",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les Atouts de Lignée.",
+          "spans": [
+            {
+              "text": "les ",
+              "bold": false
+            },
+            {
+              "text": "Atouts de Lignée",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils ne peuvent être acquis qu'à la création du personnage.",
+          "spans": [
+            {
+              "text": "Ils ne peuvent être acquis qu'à la création du personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par la suite, ils ne changent qu'à la suite d'événements exceptionnels, comme une Diablerie.",
+          "spans": [
+            {
+              "text": "Par la suite, ils ne changent qu'à la suite d'événements exceptionnels, comme une ",
+              "bold": false
+            },
+            {
+              "text": "Diablerie",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Disciplines hors-clan après la création",
+          "spans": [
+            {
+              "text": "Disciplines hors-clan après la création",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les XP gagnés permettent :",
+          "spans": [
+            {
+              "text": "Les XP gagnés permettent :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'acheter des niveaux au-delà du troisième dans une Discipline hors-clan ;",
+          "spans": [
+            {
+              "text": "d'acheter des niveaux ",
+              "bold": false
+            },
+            {
+              "text": "au-delà du troisième",
+              "bold": true
+            },
+            {
+              "text": " dans une Discipline hors-clan ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'acquérir des Disciplines hors-clan rares ou peu communes.",
+          "spans": [
+            {
+              "text": "d'acquérir des Disciplines hors-clan ",
+              "bold": false
+            },
+            {
+              "text": "rares ou peu communes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à la création du personnage, cet apprentissage nécessite obligatoirement un mentor.",
+          "spans": [
+            {
+              "text": "Contrairement à la création du personnage, cet apprentissage nécessite obligatoirement un ",
+              "bold": false
+            },
+            {
+              "text": "mentor",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Récompenses d’ XP",
+          "spans": [
+            {
+              "text": "Récompenses d’ XP",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous gagnerez de l’expérience à chaque partie en suivant ce tableau : ",
+          "spans": [
+            {
+              "text": "Vous gagnerez de l’expérience à chaque partie en suivant ce tableau : ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Expérience totale du vampire (acquis EJ)",
+              "Rythme de progression",
+              "Mois de jeu",
+              "Temps de jeu"
+            ],
+            [
+              "0 - 72",
+              "3 XP par mois de présence",
+              "24 mois",
+              "0 - 24 mois"
+            ],
+            [
+              "73 - 120",
+              "2 XP par mois de présence",
+              "24 mois",
+              "24 - 48 mois"
+            ],
+            [
+              "121 – 216",
+              "1 XP par mois de présence",
+              "96 mois",
+              "48 - 144 mois"
+            ],
+            [
+              "217 - 312",
+              "1 XP par 2 mois de présence",
+              "192 mois",
+              "144 - 336 mois"
+            ],
+            [
+              "+ 312",
+              "1 XP par an de présence",
+              "-----",
+              "336 mois et +"
+            ]
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-8046-b4d0-c9f5c76f540f",
       "slug": "la-bete-et-les-traits-de-betes",
       "title": "La Bête et les Traits de Bêtes",
@@ -10705,7 +11939,7 @@
       "slug": "les-coteries",
       "title": "Les Coteries",
       "notionUrl": "https://app.notion.com/p/Les-Coteries-3a688b48e48e802690b2c35ad597104e",
-      "lastEditedTime": "2026-07-23T10:53:00.000Z",
+      "lastEditedTime": "2026-07-23T13:15:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -10719,10 +11953,62 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Une coterie est une alliance de vampires qui se regroupent dans un but commun ou des circonstances particulières. Ils vont s'établir, la plupart du temps, dans un lieu donné et essayer de regrouper des historiques pour faire gagner en puissance leur assemblée.",
+          "text": "Une coterie est une alliance durable de vampires réunis autour d'un objectif commun, d'une idéologie ou de circonstances particulières. Ses membres mettent en commun leurs ressources, leurs relations et leurs compétences afin d'accroître leur influence et leur puissance.",
           "spans": [
             {
-              "text": "Une coterie est une alliance de vampires qui se regroupent dans un but commun ou des circonstances particulières. Ils vont s'établir, la plupart du temps, dans un lieu donné et essayer de regrouper des historiques pour faire gagner en puissance leur assemblée.",
+              "text": "Une ",
+              "bold": false
+            },
+            {
+              "text": "coterie",
+              "bold": true
+            },
+            {
+              "text": " est une alliance durable de vampires réunis autour d'un objectif commun, d'une idéologie ou de circonstances particulières. Ses membres mettent en commun leurs ressources, leurs relations et leurs compétences afin d'accroître leur influence et leur puissance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des coteries s'établissent sur un domaine, qu'elles protègent, développent et cherchent à faire prospérer au fil des chroniques.",
+          "spans": [
+            {
+              "text": "La plupart des coteries s'établissent sur un ",
+              "bold": false
+            },
+            {
+              "text": "domaine",
+              "bold": true
+            },
+            {
+              "text": ", qu'elles protègent, développent et cherchent à faire prospérer au fil des chroniques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une coterie est représentée par des Attributs de domaine et des Historiques, qui reflètent sa puissance collective et son implantation dans le Monde des Ténèbres.",
+          "spans": [
+            {
+              "text": "Une coterie est représentée par des ",
+              "bold": false
+            },
+            {
+              "text": "Attributs de domaine",
+              "bold": true
+            },
+            {
+              "text": " et des ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": ", qui reflètent sa puissance collective et son implantation dans le Monde des Ténèbres.",
               "bold": false
             }
           ]
@@ -10739,276 +12025,1873 @@
         },
         {
           "type": "paragraph",
-          "text": "--> In fine, la création d'une coterie est soumise à la discrétion des conteurs.",
+          "text": "La création d'une coterie demeure à la discrétion des Conteurs. Ceux-ci peuvent accepter, refuser ou demander des modifications afin de préserver la cohérence de la chronique.",
           "spans": [
             {
-              "text": "--> In fine, la création d'une coterie est soumise à la discrétion des conteurs.",
+              "text": "La création d'une coterie demeure ",
               "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Une coterie comporte 3 joueurs au minimum.",
-          "spans": [
+            },
             {
-              "text": "Une coterie comporte 3 joueurs au minimum.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Il est impossible d'être dans plus d'une coterie à la fois.",
-          "spans": [
-            {
-              "text": "Il est impossible d'être dans plus d'une coterie à la fois.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "La coterie ne peut être créée en jeu qu'avec l'aval d'un des Anciens en présence.",
-          "spans": [
-            {
-              "text": "La coterie ne peut être créée en jeu qu'avec l'aval d'un des Anciens en présence.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Attributs de coterie",
-          "spans": [
-            {
-              "text": "Attributs de coterie",
+              "text": "à la discrétion des Conteurs",
               "bold": true
+            },
+            {
+              "text": ". Ceux-ci peuvent accepter, refuser ou demander des modifications afin de préserver la cohérence de la chronique.",
+              "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "--> Chaque point en Rempart retire un dé au groupement d'un ennemi pour tenter une action telle que pénétrer dans le domaine, enquêter sur lui ou le surveiller sans que la coterie l'apprenne.\n--> Chaque point de Servage ajoute un dé aux groupements d'un membre de la coterie pour tenter des actions telles qu'enquêter ou se renseigner sur les rumeurs, le tout au sein du domaine.\n--> Chaque point de Viandis permet d'obtenir 2 disponible dans la réserve de la coterie. L'utilisation de ces  est réservée à la coterie et doit être décidée en commun accord.",
+          "text": "Les règles suivantes s'appliquent à toutes les coteries :",
           "spans": [
             {
-              "text": "--> Chaque point en Rempart retire un dé au groupement d'un ennemi pour tenter une action telle que pénétrer dans le domaine, enquêter sur lui ou le surveiller sans que la coterie l'apprenne.\n--> Chaque point de Servage ajoute un dé aux groupements d'un membre de la coterie pour tenter des actions telles qu'enquêter ou se renseigner sur les rumeurs, le tout au sein du domaine.\n--> Chaque point de Viandis permet d'obtenir 2 disponible dans la réserve de la coterie. L'utilisation de ces  est réservée à la coterie et doit être décidée en commun accord.",
+              "text": "Les règles suivantes s'appliquent à toutes les coteries :",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Rempart : Ce trait décrit à quel point le domaine est bien protégé contre les intrus et les fauteurs de trouble, que ce soit d'autres vampires, des polices ou des prédateurs humains.",
+          "text": "Une coterie doit compter au minimum trois personnages joueurs.",
           "spans": [
             {
-              "text": "Rempart :",
+              "text": "Une coterie doit compter ",
+              "bold": false
+            },
+            {
+              "text": "au minimum trois personnages joueurs",
               "bold": true
             },
             {
-              "text": " Ce trait décrit à quel point le domaine est bien protégé contre les intrus et les fauteurs de trouble, que ce soit d'autres vampires, des polices ou des prédateurs humains.",
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Servage : Ce trait décrit à quel point la coterie est bien intégrée à son domaine.",
+          "text": "Un personnage ne peut appartenir qu'à une seule coterie à la fois.",
           "spans": [
             {
-              "text": "Servage :",
+              "text": "Un personnage ne peut appartenir qu'à ",
+              "bold": false
+            },
+            {
+              "text": "une seule coterie à la fois",
               "bold": true
             },
             {
-              "text": " Ce trait décrit à quel point la coterie est bien intégrée à son domaine.",
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Viandis : Ce trait décrit à quel point les proies présentes dans le domaine sont nombreuses, aisées à chasser et diverses. Il décrit également la taille physique du domaine de manière abstraite : cette caractéristique varie énormément selon la géographie de la ville concernée.",
+          "text": "La création d'une coterie doit être jouée en partie et recevoir l'approbation d'au moins un Ancien présent lors de sa fondation.",
           "spans": [
             {
-              "text": "Viandis :",
+              "text": "La création d'une coterie doit être ",
+              "bold": false
+            },
+            {
+              "text": "jouée en partie",
               "bold": true
             },
             {
-              "text": " Ce trait décrit à quel point les proies présentes dans le domaine sont nombreuses, aisées à chasser et diverses. Il décrit également la taille physique du domaine de manière abstraite : cette caractéristique varie énormément selon la géographie de la ville concernée.",
+              "text": " et recevoir l'approbation d'au moins ",
+              "bold": false
+            },
+            {
+              "text": "un Ancien",
+              "bold": true
+            },
+            {
+              "text": " présent lors de sa fondation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une coterie possède un domaine, représentant son territoire d'influence principal.",
+          "spans": [
+            {
+              "text": "Une coterie possède un ",
+              "bold": false
+            },
+            {
+              "text": "domaine",
+              "bold": true
+            },
+            {
+              "text": ", représentant son territoire d'influence principal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Attributs du domaine",
+          "spans": [
+            {
+              "text": "Attributs du domaine",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Attributs de domaine représentent les forces principales de la coterie. Ils influencent directement les actions réalisées sur ou depuis son territoire.",
+          "spans": [
+            {
+              "text": "Les Attributs de domaine représentent les forces principales de la coterie. Ils influencent directement les actions réalisées sur ou depuis son territoire.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_3",
+          "text": "Rempart",
+          "spans": [
+            {
+              "text": "Rempart",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Rempart représente la sécurité du domaine : surveillance, protections physiques, dispositifs d'alerte, gardiens, complices ou toute autre mesure empêchant les intrusions.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Rempart",
+              "bold": true
+            },
+            {
+              "text": " représente la sécurité du domaine : surveillance, protections physiques, dispositifs d'alerte, gardiens, complices ou toute autre mesure empêchant les intrusions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point de Rempart retire un dé aux groupements adverses cherchant à :",
+          "spans": [
+            {
+              "text": "Chaque point de Rempart ",
+              "bold": false
+            },
+            {
+              "text": "retire un dé",
+              "bold": true
+            },
+            {
+              "text": " aux groupements adverses cherchant à :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "infiltrer le domaine ;",
+          "spans": [
+            {
+              "text": "infiltrer le domaine ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "enquêter sur la coterie ;",
+          "spans": [
+            {
+              "text": "enquêter sur la coterie ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "surveiller ses membres ;",
+          "spans": [
+            {
+              "text": "surveiller ses membres ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "mener toute autre action clandestine sur son territoire.",
+          "spans": [
+            {
+              "text": "mener toute autre action clandestine sur son territoire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Servage",
+          "spans": [
+            {
+              "text": "Servage",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Servage représente l'intégration de la coterie dans son domaine. Il mesure les liens entretenus avec les habitants, commerçants, associations, criminels, employés ou toute autre personne vivant ou travaillant sur le territoire.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Servage",
+              "bold": true
+            },
+            {
+              "text": " représente l'intégration de la coterie dans son domaine. Il mesure les liens entretenus avec les habitants, commerçants, associations, criminels, employés ou toute autre personne vivant ou travaillant sur le territoire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point de Servage ajoute un dé aux groupements d'un membre de la coterie lorsqu'il réalise une action liée au domaine, notamment :",
+          "spans": [
+            {
+              "text": "Chaque point de Servage ",
+              "bold": false
+            },
+            {
+              "text": "ajoute un dé",
+              "bold": true
+            },
+            {
+              "text": " aux groupements d'un membre de la coterie lorsqu'il réalise une action liée au domaine, notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "recueillir des informations ;",
+          "spans": [
+            {
+              "text": "recueillir des informations ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "enquêter ;",
+          "spans": [
+            {
+              "text": "enquêter ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "obtenir des rumeurs ;",
+          "spans": [
+            {
+              "text": "obtenir des rumeurs ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "retrouver une personne ;",
+          "spans": [
+            {
+              "text": "retrouver une personne ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou toute autre action reposant sur le réseau local.",
+          "spans": [
+            {
+              "text": "ou toute autre action reposant sur le réseau local.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Viandis",
+          "spans": [
+            {
+              "text": "Viandis",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Viandis représente la qualité du territoire de chasse de la coterie. Il traduit la densité des proies disponibles, leur diversité, ainsi que la facilité avec laquelle les membres peuvent s'y nourrir sans attirer l'attention.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Viandis",
+              "bold": true
+            },
+            {
+              "text": " représente la qualité du territoire de chasse de la coterie. Il traduit la densité des proies disponibles, leur diversité, ainsi que la facilité avec laquelle les membres peuvent s'y nourrir sans attirer l'attention.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point de Viandis fournit 2 points de Réserve de Sang à la coterie.",
+          "spans": [
+            {
+              "text": "Chaque point de Viandis fournit ",
+              "bold": false
+            },
+            {
+              "text": "2 points de Réserve de Sang",
+              "bold": true
+            },
+            {
+              "text": " à la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette réserve est commune à tous les membres et son utilisation doit être décidée collectivement.",
+          "spans": [
+            {
+              "text": "Cette réserve est commune à tous les membres et son utilisation doit être décidée collectivement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Viandis représente également, de manière abstraite, l'étendue du domaine contrôlé par la coterie.",
+          "spans": [
+            {
+              "text": "Le Viandis représente également, de manière abstraite, l'étendue du domaine contrôlé par la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
           "text": "Historiques de coterie",
           "spans": [
             {
               "text": "Historiques de coterie",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Atouts",
-          "spans": [
-            {
-              "text": "Atouts",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Armurerie [1-5] : un endroit pour entreposer vos armes. Chaque point investi permet de stocker <Nombre de membres (Max 6.)> x <Niv. Armurerie> armes.",
-          "spans": [
-            {
-              "text": "Armurerie [1-5] : un endroit pour entreposer vos armes. Chaque point investi permet de stocker <Nombre de membres (Max 6.)> x <Niv. Armurerie> armes.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Bibliothèque [1-5] : un endroit contenant différents ouvrage. Chaque point investi permet d'accéder à un type d'ouvrages spécifiques simplifiant vos recherches.",
-          "spans": [
-            {
-              "text": "Bibliothèque [1-5] : un endroit contenant différents ouvrage. Chaque point investi permet d'accéder à un type d'ouvrages spécifiques simplifiant vos recherches.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Garage [1-5] : un endroit pour stocker des véhicules. Chaque point investi permet d'entreposer un véhicule supplémentaire.",
-          "spans": [
-            {
-              "text": "Garage [1-5] : un endroit pour stocker des véhicules. Chaque point investi permet d'entreposer un véhicule supplémentaire.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Habitué [1-5] : un mortel vivant sur votre domaine qui vous informe ponctuellement des événements sur votre coterie et aux alentours proches. Chaque point investi augmente la quantité d'habitués.",
-          "spans": [
-            {
-              "text": "Habitué [1-5] : un mortel vivant sur votre domaine qui vous informe ponctuellement des événements sur votre coterie et aux alentours proches. Chaque point investi augmente la quantité d'habitués.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Refuge [1-5] : lieu où les vampires peuvent dormir en sûreté pendant la journée ou organiser leurs opérations. Chaque point investi augmente la sécurité du refuge.",
-          "spans": [
-            {
-              "text": "Refuge [1-5] : lieu où les vampires peuvent dormir en sûreté pendant la journée ou organiser leurs opérations. Chaque point investi augmente la sécurité du refuge.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Ressources [1-5] : la richesse de la coterie. Chaque point investi augmente la quantité dépensable d'argent chaque mois.",
-          "spans": [
-            {
-              "text": "Ressources [1-5] : la richesse de la coterie. Chaque point investi augmente la quantité dépensable d'argent chaque mois.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Renommée [1-5] : le rayonnement du domaine. Chaque point investi augmente le périmètre de votre renommée.",
-          "spans": [
-            {
-              "text": "Renommée [1-5] : le rayonnement du domaine. Chaque point investi augmente le périmètre de votre renommée.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Créer sa coterie",
-          "spans": [
-            {
-              "text": "Créer sa coterie",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "--> Un Adversaire est un vampire, un être surnaturel ou un humain surpuissant tel qu'un Inquisiteur ou un Hunter. Chaque point en Adversaire augmente la puissance de ce dernier.",
+          "text": "Les Historiques représentent les infrastructures, ressources et avantages développés par la coterie.",
           "spans": [
             {
-              "text": "--> Un Adversaire est un vampire, un être surnaturel ou un humain surpuissant tel qu'un Inquisiteur ou un Hunter. Chaque point en Adversaire augmente la puissance de ce dernier.",
+              "text": "Les Historiques représentent les infrastructures, ressources et avantages développés par la coterie.",
               "bold": false
             }
           ]
         },
         {
-          "type": "bulleted_list_item",
-          "text": "Nombre de points à la création : 7",
+          "type": "paragraph",
+          "text": "Chaque Historique est noté de 1 à 5.",
           "spans": [
             {
-              "text": "Nombre de points à la création :",
+              "text": "Chaque Historique est noté de ",
+              "bold": false
+            },
+            {
+              "text": "1 à 5",
               "bold": true
             },
             {
-              "text": " 7",
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
-          "type": "bulleted_list_item",
-          "text": "Il est obligatoire de dépenser 3 points dans le Domaine (Rempart, Viandis, Servage)",
+          "type": "heading_3",
+          "text": "Armurerie (1 à 5)",
           "spans": [
             {
-              "text": "Il est obligatoire de dépenser 3 points dans le Domaine (Rempart, Viandis, Servage)",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Il est nécessaire de dépenser des AIP en lien avec les historiques voulues par la coterie.",
-          "spans": [
-            {
-              "text": "Il est nécessaire de dépenser des AIP en lien avec les historiques voulues par la coterie.",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "La coterie peut prendre jusqu'à 3 points en \"Adversaire\" pour obtenir jusqu'à 3 point à répartir supplémentaire.",
-          "spans": [
-            {
-              "text": "La coterie peut prendre jusqu'à 3 points en \"Adversaire\" pour obtenir jusqu'à 3 point à répartir supplémentaire.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Développer sa coterie",
-          "spans": [
-            {
-              "text": "Développer sa coterie",
+              "text": "Armurerie (1 à 5)",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Pour développer sa coterie, il faut effectuer des AIP de coterie, voire des AIP personnelles, pour permettre à la coterie de rayonner.\nL'augmentation des historiques se fera à l'appréciation des conteurs.",
+          "text": "La coterie possède un ou plusieurs lieux sécurisés permettant d'entreposer armes et équipements.",
           "spans": [
             {
-              "text": "Pour développer sa coterie, il faut effectuer des AIP de coterie, voire des AIP personnelles, pour permettre à la coterie de rayonner.\nL'augmentation des historiques se fera à l'appréciation des conteurs.",
+              "text": "La coterie possède un ou plusieurs lieux sécurisés permettant d'entreposer armes et équipements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau permet de stocker :",
+          "spans": [
+            {
+              "text": "Chaque niveau permet de stocker :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nombre de membres de la coterie (maximum 6) × Niveau d'Armurerie armes.",
+          "spans": [
+            {
+              "text": "Nombre de membres de la coterie (maximum 6) × Niveau d'Armurerie",
+              "bold": true
+            },
+            {
+              "text": " armes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Bibliothèque (1 à 5)",
+          "spans": [
+            {
+              "text": "Bibliothèque (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La coterie possède une collection d'ouvrages, d'archives ou de documents rares.",
+          "spans": [
+            {
+              "text": "La coterie possède une collection d'ouvrages, d'archives ou de documents rares.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau investi donne accès à un nouveau domaine documentaire, facilitant les recherches entreprises par les membres de la coterie.",
+          "spans": [
+            {
+              "text": "Chaque niveau investi donne accès à un nouveau domaine documentaire, facilitant les recherches entreprises par les membres de la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La nature exacte des ouvrages est définie avec les Conteurs.",
+          "spans": [
+            {
+              "text": "La nature exacte des ouvrages est définie avec les Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Garage (1 à 5)",
+          "spans": [
+            {
+              "text": "Garage (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La coterie dispose d'un espace permettant d'entreposer des véhicules.",
+          "spans": [
+            {
+              "text": "La coterie dispose d'un espace permettant d'entreposer des véhicules.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau permet d'abriter un véhicule supplémentaire.",
+          "spans": [
+            {
+              "text": "Chaque niveau permet d'abriter ",
+              "bold": false
+            },
+            {
+              "text": "un véhicule supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Habitués (1 à 5)",
+          "spans": [
+            {
+              "text": "Habitués (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des mortels vivant ou travaillant sur le domaine transmettent régulièrement des informations à la coterie.",
+          "spans": [
+            {
+              "text": "Des mortels vivant ou travaillant sur le domaine transmettent régulièrement des informations à la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau représente un Habitué supplémentaire capable de signaler des événements inhabituels ou des mouvements suspects autour du domaine.",
+          "spans": [
+            {
+              "text": "Chaque niveau représente un Habitué supplémentaire capable de signaler des événements inhabituels ou des mouvements suspects autour du domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Refuge (1 à 5)",
+          "spans": [
+            {
+              "text": "Refuge (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Refuge constitue le sanctuaire principal de la coterie.",
+          "spans": [
+            {
+              "text": "Le Refuge constitue le sanctuaire principal de la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il offre un lieu sûr pour dormir durant la journée, entreposer du matériel ou préparer des opérations.",
+          "spans": [
+            {
+              "text": "Il offre un lieu sûr pour dormir durant la journée, entreposer du matériel ou préparer des opérations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau renforce progressivement sa sécurité, sa discrétion et sa résistance aux intrusions.",
+          "spans": [
+            {
+              "text": "Chaque niveau renforce progressivement sa sécurité, sa discrétion et sa résistance aux intrusions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ressources (1 à 5)",
+          "spans": [
+            {
+              "text": "Ressources (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La coterie dispose de moyens financiers communs.",
+          "spans": [
+            {
+              "text": "La coterie dispose de moyens financiers communs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau augmente le budget mensuel dont la coterie peut disposer pour financer ses activités.",
+          "spans": [
+            {
+              "text": "Chaque niveau augmente le budget mensuel dont la coterie peut disposer pour financer ses activités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les modalités précises sont définies par les règles relatives aux Ressources.",
+          "spans": [
+            {
+              "text": "Les modalités précises sont définies par les règles relatives aux Ressources.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Renommée (1 à 5)",
+          "spans": [
+            {
+              "text": "Renommée (1 à 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Renommée représente la réputation et l'influence publique ou clandestine de la coterie.",
+          "spans": [
+            {
+              "text": "La Renommée représente la réputation et l'influence publique ou clandestine de la coterie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque niveau accroît l'étendue géographique et sociale de cette réputation, facilitant certaines interactions et permettant au nom de la coterie d'être davantage reconnu.",
+          "spans": [
+            {
+              "text": "Chaque niveau accroît l'étendue géographique et sociale de cette réputation, facilitant certaines interactions et permettant au nom de la coterie d'être davantage reconnu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Créer une coterie",
+          "spans": [
+            {
+              "text": "Créer une coterie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de sa création, une coterie reçoit 7 points à répartir entre ses Attributs de domaine et ses Historiques.",
+          "spans": [
+            {
+              "text": "Lors de sa création, une coterie reçoit ",
+              "bold": false
+            },
+            {
+              "text": "7 points",
+              "bold": true
+            },
+            {
+              "text": " à répartir entre ses Attributs de domaine et ses Historiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les restrictions suivantes s'appliquent :",
+          "spans": [
+            {
+              "text": "Les restrictions suivantes s'appliquent :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Au moins 3 points doivent obligatoirement être investis dans les Attributs du domaine (Rempart, Servage et Viandis).",
+          "spans": [
+            {
+              "text": "Au moins ",
+              "bold": false
+            },
+            {
+              "text": "3 points",
+              "bold": true
+            },
+            {
+              "text": " doivent obligatoirement être investis dans les ",
+              "bold": false
+            },
+            {
+              "text": "Attributs du domaine",
+              "bold": true
+            },
+            {
+              "text": " (Rempart, Servage et Viandis).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Historiques choisis doivent être développés en jeu. Les membres devront consacrer des Actions Inter-Parties (AIP) afin d'obtenir les ressources, infrastructures ou contacts correspondants.",
+          "spans": [
+            {
+              "text": "Les Historiques choisis doivent être développés ",
+              "bold": false
+            },
+            {
+              "text": "en jeu",
+              "bold": true
+            },
+            {
+              "text": ". Les membres devront consacrer des ",
+              "bold": false
+            },
+            {
+              "text": "Actions Inter-Parties (AIP)",
+              "bold": true
+            },
+            {
+              "text": " afin d'obtenir les ressources, infrastructures ou contacts correspondants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Conteurs peuvent demander plusieurs AIP avant qu'un Historique ne soit effectivement acquis.",
+          "spans": [
+            {
+              "text": "Les Conteurs peuvent demander plusieurs AIP avant qu'un Historique ne soit effectivement acquis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Adversaire",
+          "spans": [
+            {
+              "text": "Adversaire",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une coterie peut choisir de commencer la chronique avec un ou plusieurs Adversaires.",
+          "spans": [
+            {
+              "text": "Une coterie peut choisir de commencer la chronique avec un ou plusieurs ",
+              "bold": false
+            },
+            {
+              "text": "Adversaires",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Adversaire représente une menace durable pour la coterie : vampire rival, créature surnaturelle, organisation, Hunter, Inquisiteur ou toute autre puissance hostile.",
+          "spans": [
+            {
+              "text": "Un Adversaire représente une menace durable pour la coterie : vampire rival, créature surnaturelle, organisation, Hunter, Inquisiteur ou toute autre puissance hostile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point investi en Adversaire augmente la dangerosité et les moyens de cet ennemi.",
+          "spans": [
+            {
+              "text": "Chaque point investi en ",
+              "bold": false
+            },
+            {
+              "text": "Adversaire",
+              "bold": true
+            },
+            {
+              "text": " augmente la dangerosité et les moyens de cet ennemi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En contrepartie, la coterie reçoit un point supplémentaire à répartir lors de sa création.",
+          "spans": [
+            {
+              "text": "En contrepartie, la coterie reçoit ",
+              "bold": false
+            },
+            {
+              "text": "un point supplémentaire",
+              "bold": true
+            },
+            {
+              "text": " à répartir lors de sa création.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une coterie peut obtenir jusqu'à 3 points supplémentaires de cette manière.",
+          "spans": [
+            {
+              "text": "Une coterie peut obtenir ",
+              "bold": false
+            },
+            {
+              "text": "jusqu'à 3 points supplémentaires",
+              "bold": true
+            },
+            {
+              "text": " de cette manière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La nature exacte de l'Adversaire est déterminée conjointement avec les Conteurs.",
+          "spans": [
+            {
+              "text": "La nature exacte de l'Adversaire est déterminée conjointement avec les Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Développer une coterie",
+          "spans": [
+            {
+              "text": "Développer une coterie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une coterie est amenée à évoluer tout au long de la chronique.",
+          "spans": [
+            {
+              "text": "Une coterie est amenée à évoluer tout au long de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ses membres peuvent consacrer leurs AIP personnelles, afin de développer leur domaine, améliorer leurs Historiques ou renforcer leurs Attributs.",
+          "spans": [
+            {
+              "text": "Ses membres peuvent consacrer leurs ",
+              "bold": false
+            },
+            {
+              "text": "AIP personnelles",
+              "bold": true
+            },
+            {
+              "text": ", afin de développer leur domaine, améliorer leurs Historiques ou renforcer leurs Attributs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'évolution d'une coterie n'est jamais automatique.",
+          "spans": [
+            {
+              "text": "L'évolution d'une coterie n'est jamais automatique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs évaluent les actions entreprises, leur cohérence, les moyens mobilisés et les conséquences en jeu avant de valider toute progression.",
+          "spans": [
+            {
+              "text": "Les Conteurs évaluent les actions entreprises, leur cohérence, les moyens mobilisés et les conséquences en jeu avant de valider toute progression.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une coterie active, investie dans la chronique et développant son domaine pourra ainsi voir sa puissance grandir au fil des sessions, tandis qu'une coterie inactive conservera difficilement son influence et ses acquis.",
+          "spans": [
+            {
+              "text": "Une coterie active, investie dans la chronique et développant son domaine pourra ainsi voir sa puissance grandir au fil des sessions, tandis qu'une coterie inactive conservera difficilement son influence et ses acquis.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a688b48-e48e-800d-95f0-fa60b0631c0e",
+      "slug": "les-dettes",
+      "title": "Les Dettes",
+      "notionUrl": "https://app.notion.com/p/Les-Dettes-3a688b48e48e800d95f0fa60b0631c0e",
+      "lastEditedTime": "2026-07-23T13:24:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Vie"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Les Dettes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le système de Dettes (ou Prestations) est l'un des fondements de la société vampirique.",
+          "spans": [
+            {
+              "text": "Le système de ",
+              "bold": false
+            },
+            {
+              "text": "Dettes",
+              "bold": true
+            },
+            {
+              "text": " (ou ",
+              "bold": false
+            },
+            {
+              "text": "Prestations",
+              "bold": true
+            },
+            {
+              "text": ") est l'un des fondements de la société vampirique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le Monde des Ténèbres, rares sont les vampires qui rendent service gratuitement. La plupart des échanges ne se font ni contre de l'argent ni contre des biens matériels, mais contre des Prestations qui pourront être réclamées ultérieurement.",
+          "spans": [
+            {
+              "text": "Dans le Monde des Ténèbres, rares sont les vampires qui rendent service gratuitement. La plupart des échanges ne se font ni contre de l'argent ni contre des biens matériels, mais contre des ",
+              "bold": false
+            },
+            {
+              "text": "Prestations",
+              "bold": true
+            },
+            {
+              "text": " qui pourront être réclamées ultérieurement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contracter une dette crée un lien entre deux vampires :",
+          "spans": [
+            {
+              "text": "Contracter une dette crée un lien entre deux vampires :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le Créancier, qui a rendu le service ;",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "Créancier",
+              "bold": true
+            },
+            {
+              "text": ", qui a rendu le service ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le Débiteur, qui devra un jour rendre une prestation équivalente.",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "Débiteur",
+              "bold": true
+            },
+            {
+              "text": ", qui devra un jour rendre une prestation équivalente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Dettes sont un puissant levier politique. Certains clans, comme les Setites, en ont même fait une véritable spécialité, bâtissant leur influence sur les obligations qu'ils accumulent auprès des autres Caïnites.",
+          "spans": [
+            {
+              "text": "Les Dettes sont un puissant levier politique. Certains clans, comme les ",
+              "bold": false
+            },
+            {
+              "text": "Setites",
+              "bold": true
+            },
+            {
+              "text": ", en ont même fait une véritable spécialité, bâtissant leur influence sur les obligations qu'ils accumulent auprès des autres Caïnites.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Principes généraux",
+          "spans": [
+            {
+              "text": "Principes généraux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette est un engagement reconnu par la société vampirique.",
+          "spans": [
+            {
+              "text": "Une Dette est un engagement reconnu par la société vampirique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un vampire accepte une Prestation, il reconnaît publiquement devoir un service d'une valeur équivalente.",
+          "spans": [
+            {
+              "text": "Lorsqu'un vampire accepte une Prestation, il reconnaît publiquement devoir un service d'une valeur équivalente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le remboursement exact est laissé à l'appréciation des deux parties, tant que la valeur de la Prestation demeure comparable à celle de la Dette contractée.",
+          "spans": [
+            {
+              "text": "Le remboursement exact est laissé à l'appréciation des deux parties, tant que la valeur de la Prestation demeure comparable à celle de la Dette contractée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Dettes constituent l'un des principaux moteurs des relations politiques entre vampires et doivent être prises au sérieux.",
+          "spans": [
+            {
+              "text": "Les Dettes constituent l'un des principaux moteurs des relations politiques entre vampires et doivent être prises au sérieux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Refuser d'honorer une Dette peut entraîner des conséquences sociales, politiques ou judiciaires selon les lois en vigueur dans la chronique.",
+          "spans": [
+            {
+              "text": "Refuser d'honorer une Dette peut entraîner des conséquences sociales, politiques ou judiciaires selon les lois en vigueur dans la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Contracter une Dette",
+          "spans": [
+            {
+              "text": "Contracter une Dette",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette est créée lorsque les deux parties s'accordent sur la valeur d'un service.",
+          "spans": [
+            {
+              "text": "Une Dette est créée lorsque les deux parties s'accordent sur la valeur d'un service.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois cet accord conclu, les protagonistes doivent en informer le Maître ou la Maîtresse des Harpies, qui inscrit officiellement la Dette dans le Livre des Dettes.",
+          "spans": [
+            {
+              "text": "Une fois cet accord conclu, les protagonistes doivent en informer le ",
+              "bold": false
+            },
+            {
+              "text": "Maître ou la Maîtresse des Harpies",
+              "bold": true
+            },
+            {
+              "text": ", qui inscrit officiellement la Dette dans le ",
+              "bold": false
+            },
+            {
+              "text": "Livre des Dettes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seules les Dettes enregistrées peuvent être reconnues officiellement par les autorités vampiriques.",
+          "spans": [
+            {
+              "text": "Seules les Dettes enregistrées peuvent être reconnues officiellement par les autorités vampiriques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs restent libres d'arbitrer les situations litigieuses ou les Dettes dont l'existence est contestée.",
+          "spans": [
+            {
+              "text": "Les Conteurs restent libres d'arbitrer les situations litigieuses ou les Dettes dont l'existence est contestée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Honorer une Dette",
+          "spans": [
+            {
+              "text": "Honorer une Dette",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Créancier réclame le paiement d'une Dette, le Débiteur est tenu d'y répondre dans un délai raisonnable.",
+          "spans": [
+            {
+              "text": "Lorsqu'un Créancier réclame le paiement d'une Dette, le Débiteur est tenu d'y répondre dans un délai raisonnable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le service demandé doit rester cohérent avec la valeur de la Dette contractée.",
+          "spans": [
+            {
+              "text": "Le service demandé doit rester cohérent avec la valeur de la Dette contractée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Créancier ne peut exiger une prestation manifestement disproportionnée.",
+          "spans": [
+            {
+              "text": "Un Créancier ne peut exiger une prestation manifestement disproportionnée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de désaccord, les autorités compétentes ou les Conteurs trancheront le litige.",
+          "spans": [
+            {
+              "text": "En cas de désaccord, les autorités compétentes ou les Conteurs trancheront le litige.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le refus injustifié d'honorer une Dette peut entraîner des sanctions politiques, sociales ou judiciaires, selon les usages de la cité.",
+          "spans": [
+            {
+              "text": "Le refus injustifié d'honorer une Dette peut entraîner des sanctions politiques, sociales ou judiciaires, selon les usages de la cité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Les niveaux de Dette",
+          "spans": [
+            {
+              "text": "Les niveaux de Dette",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les Prestations n'ont pas la même valeur.",
+          "spans": [
+            {
+              "text": "Toutes les Prestations n'ont pas la même valeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système distingue cinq niveaux de Dette.",
+          "spans": [
+            {
+              "text": "Le système distingue cinq niveaux de Dette.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dette triviale",
+          "spans": [
+            {
+              "text": "Dette triviale",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Dette triviale représente un service simple, demandant peu d'efforts et n'engageant pratiquement aucun risque.",
+          "spans": [
+            {
+              "text": "La Dette triviale représente un service simple, demandant peu d'efforts et n'engageant pratiquement aucun risque.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce type de Dette est généralement réglé au cours de la même nuit et ne crée qu'une faible obligation.",
+          "spans": [
+            {
+              "text": "Ce type de Dette est généralement réglé au cours de la même nuit et ne crée qu'une faible obligation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Exemples",
+          "spans": [
+            {
+              "text": "Exemples",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Soutenir publiquement quelqu'un lorsque cela ne présente aucun risque.",
+          "spans": [
+            {
+              "text": "Soutenir publiquement quelqu'un lorsque cela ne présente aucun risque.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Utiliser une Discipline ou une compétence pour rendre un petit service.",
+          "spans": [
+            {
+              "text": "Utiliser une Discipline ou une compétence pour rendre un petit service.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Effectuer une démarche simple demandant peu de temps.",
+          "spans": [
+            {
+              "text": "Effectuer une démarche simple demandant peu de temps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dette mineure",
+          "spans": [
+            {
+              "text": "Dette mineure",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette mineure implique un véritable investissement de la part du Créancier.",
+          "spans": [
+            {
+              "text": "Une Dette mineure implique un véritable investissement de la part du Créancier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle demande du temps, de l'organisation ou expose légèrement celui qui rend le service.",
+          "spans": [
+            {
+              "text": "Elle demande du temps, de l'organisation ou expose légèrement celui qui rend le service.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Exemples",
+          "spans": [
+            {
+              "text": "Exemples",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Accompagner quelqu'un à travers un territoire hostile.",
+          "spans": [
+            {
+              "text": "Accompagner quelqu'un à travers un territoire hostile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Se compromettre légèrement pour le compte d'un autre vampire.",
+          "spans": [
+            {
+              "text": "Se compromettre légèrement pour le compte d'un autre vampire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Révéler des informations importantes (sans trahir un secret majeur ou un secret de clan).",
+          "spans": [
+            {
+              "text": "Révéler des informations importantes (sans trahir un secret majeur ou un secret de clan).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Soutenir politiquement ou socialement un vampire en prenant un risque mesuré.",
+          "spans": [
+            {
+              "text": "Soutenir politiquement ou socialement un vampire en prenant un risque mesuré.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Enseigner une Discipline cardinale, une Compétence ou tout autre pouvoir de niveau 1 ou 2 à un membre d'un autre clan.",
+          "spans": [
+            {
+              "text": "Enseigner une Discipline cardinale, une Compétence ou tout autre pouvoir de ",
+              "bold": false
+            },
+            {
+              "text": "niveau 1 ou 2",
+              "bold": true
+            },
+            {
+              "text": " à un membre d'un autre clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dette majeure",
+          "spans": [
+            {
+              "text": "Dette majeure",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette majeure représente un engagement important.",
+          "spans": [
+            {
+              "text": "Une Dette majeure représente un engagement important.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Créancier consacre une part significative de son temps, de ses ressources ou accepte un risque réel pour venir en aide à son Débiteur.",
+          "spans": [
+            {
+              "text": "Le Créancier consacre une part significative de son temps, de ses ressources ou accepte un risque réel pour venir en aide à son Débiteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Exemples",
+          "spans": [
+            {
+              "text": "Exemples",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Fournir un Refuge sûr.",
+          "spans": [
+            {
+              "text": "Fournir un Refuge sûr.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Se compromettre durablement pour protéger quelqu'un.",
+          "spans": [
+            {
+              "text": "Se compromettre durablement pour protéger quelqu'un.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Se mettre au service de son Créancier pendant une durée déterminée, sans aller jusqu'à risquer sa non-vie.",
+          "spans": [
+            {
+              "text": "Se mettre au service de son Créancier pendant une durée déterminée, sans aller jusqu'à risquer sa non-vie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Apporter un soutien politique majeur face à des autorités importantes.",
+          "spans": [
+            {
+              "text": "Apporter un soutien politique majeur face à des autorités importantes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Enseigner une Discipline cardinale, une Compétence ou tout autre pouvoir de niveau 3 ou 4 à un membre d'un autre clan.",
+          "spans": [
+            {
+              "text": "Enseigner une Discipline cardinale, une Compétence ou tout autre pouvoir de ",
+              "bold": false
+            },
+            {
+              "text": "niveau 3 ou 4",
+              "bold": true
+            },
+            {
+              "text": " à un membre d'un autre clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dette de sang",
+          "spans": [
+            {
+              "text": "Dette de sang",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette de sang est contractée lorsqu'un vampire accepte de mettre sa non-vie en danger afin d'aider une autre personne.",
+          "spans": [
+            {
+              "text": "Une Dette de sang est contractée lorsqu'un vampire accepte de mettre sa non-vie en danger afin d'aider une autre personne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le risque encouru est suffisamment important pour que le Créancier accepte de verser son propre sang ou de s'exposer à la torpeur.",
+          "spans": [
+            {
+              "text": "Le risque encouru est suffisamment important pour que le Créancier accepte de verser son propre sang ou de s'exposer à la torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Exemples",
+          "spans": [
+            {
+              "text": "Exemples",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Se mettre au service de son Créancier dans une mission pouvant conduire au combat ou à la torpeur.",
+          "spans": [
+            {
+              "text": "Se mettre au service de son Créancier dans une mission pouvant conduire au combat ou à la torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Remplacer son Créancier lors d'un duel à mort contre un adversaire réputé moins dangereux que soi.",
+          "spans": [
+            {
+              "text": "Remplacer son Créancier lors d'un duel à mort contre un adversaire réputé moins dangereux que soi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Prendre une position politique susceptible de mettre directement sa non-vie en péril.",
+          "spans": [
+            {
+              "text": "Prendre une position politique susceptible de mettre directement sa non-vie en péril.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Enseigner une Discipline cardinale ou une Compétence de niveau 5 à un membre d'un autre clan.",
+          "spans": [
+            {
+              "text": "Enseigner une Discipline cardinale ou une Compétence de ",
+              "bold": false
+            },
+            {
+              "text": "niveau 5",
+              "bold": true
+            },
+            {
+              "text": " à un membre d'un autre clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Enseigner une Discipline exotique de niveau 1 ou un Rituel à un membre d'un autre clan.",
+          "spans": [
+            {
+              "text": "Enseigner une ",
+              "bold": false
+            },
+            {
+              "text": "Discipline exotique de niveau 1",
+              "bold": true
+            },
+            {
+              "text": " ou un ",
+              "bold": false
+            },
+            {
+              "text": "Rituel",
+              "bold": true
+            },
+            {
+              "text": " à un membre d'un autre clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dette de vie",
+          "spans": [
+            {
+              "text": "Dette de vie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Dette de vie est la plus sacrée et la plus précieuse de toutes.",
+          "spans": [
+            {
+              "text": "La Dette de vie est la plus sacrée et la plus précieuse de toutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle est contractée lorsqu'un vampire risque véritablement sa destruction finale afin de sauver l'existence d'un autre.",
+          "spans": [
+            {
+              "text": "Elle est contractée lorsqu'un vampire risque véritablement sa destruction finale afin de sauver l'existence d'un autre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une telle Dette est considérée comme quasiment inestimable et confère au Créancier une autorité morale exceptionnelle sur son Débiteur.",
+          "spans": [
+            {
+              "text": "Une telle Dette est considérée comme quasiment inestimable et confère au Créancier une autorité morale exceptionnelle sur son Débiteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même si elle ne constitue pas un lien de sang, elle est souvent perçue comme une obligation presque absolue.",
+          "spans": [
+            {
+              "text": "Même si elle ne constitue pas un lien de sang, elle est souvent perçue comme une obligation presque absolue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Exemples",
+          "spans": [
+            {
+              "text": "Exemples",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sauver un vampire d'une destruction certaine.",
+          "spans": [
+            {
+              "text": "Sauver un vampire d'une destruction certaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Prendre sa place lors d'un duel à mort contre un adversaire réputé plus puissant que soi.",
+          "spans": [
+            {
+              "text": "Prendre sa place lors d'un duel à mort contre un adversaire réputé plus puissant que soi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Accomplir tout acte exposant volontairement sa propre destruction finale afin d'assurer la survie du Débiteur.",
+          "spans": [
+            {
+              "text": "Accomplir tout acte exposant volontairement sa propre destruction finale afin d'assurer la survie du Débiteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Les Conteurs et les Dettes",
+          "spans": [
+            {
+              "text": "Les Conteurs et les Dettes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les situations ne peuvent être prévues par ces règles.",
+          "spans": [
+            {
+              "text": "Toutes les situations ne peuvent être prévues par ces règles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les exemples présentés ci-dessus servent uniquement d'indication afin d'aider les joueurs à évaluer la valeur d'une Prestation.",
+          "spans": [
+            {
+              "text": "Les exemples présentés ci-dessus servent uniquement d'indication afin d'aider les joueurs à évaluer la valeur d'une Prestation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs demeurent seuls décisionnaires du niveau de Dette réellement contracté, en tenant compte :",
+          "spans": [
+            {
+              "text": "Les Conteurs demeurent seuls décisionnaires du niveau de Dette réellement contracté, en tenant compte :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des risques encourus ;",
+          "spans": [
+            {
+              "text": "des risques encourus ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "du temps investi ;",
+          "spans": [
+            {
+              "text": "du temps investi ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des ressources mobilisées ;",
+          "spans": [
+            {
+              "text": "des ressources mobilisées ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des conséquences politiques ou sociales ;",
+          "spans": [
+            {
+              "text": "des conséquences politiques ou sociales ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "du contexte particulier de la chronique.",
+          "spans": [
+            {
+              "text": "du contexte particulier de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de doute, leur décision fait foi.",
+          "spans": [
+            {
+              "text": "En cas de doute, leur décision fait foi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Dette ne peut jamais obliger un vampire à accepter sa destruction finale, à se soumettre à un lien de sang, à trahir irrévocablement son clan ou sa secte, ni à accomplir un acte manifestement contraire aux Lois de la cité, sauf s'il l'accepte volontairement. Une Prestation doit rester proportionnelle à la Dette contractée et ne peut servir de prétexte à réduire un personnage en esclavage permanent.\n\n",
+          "spans": [
+            {
+              "text": "Une Dette ne peut jamais obliger un vampire à accepter sa destruction finale, à se soumettre à un lien de sang, à trahir irrévocablement son clan ou sa secte, ni à accomplir un acte manifestement contraire aux Lois de la cité, sauf s'il l'accepte volontairement.",
+              "bold": true
+            },
+            {
+              "text": " Une Prestation doit rester proportionnelle à la Dette contractée et ne peut servir de prétexte à réduire un personnage en esclavage permanent.\n\n",
               "bold": false
             }
           ]
@@ -12377,6 +15260,325 @@
             },
             {
               "text": " et regardant le Prince au moment du test a une chance de remarquer l’attaque.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a688b48-e48e-8079-b9a7-dcd71b3ad0dc",
+      "slug": "rencontre-entre-personnages",
+      "title": "Rencontre entre personnages",
+      "notionUrl": "https://app.notion.com/p/Rencontre-entre-personnages-3a688b48e48e8079b9a7dcd71b3ad0dc",
+      "lastEditedTime": "2026-07-23T13:27:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Vie"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Rencontre entre personnages"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "En dehors des sessions de jeu, les personnages peuvent se rencontrer afin d'échanger des informations, conclure des accords ou mener des actions communes.",
+          "spans": [
+            {
+              "text": "En dehors des sessions de jeu, les personnages peuvent se rencontrer afin d'échanger des informations, conclure des accords ou mener des actions communes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces rencontres permettent de faire vivre la chronique entre les parties et sont encouragées.",
+          "spans": [
+            {
+              "text": "Ces rencontres permettent de faire vivre la chronique entre les parties et sont encouragées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon ce qui est réalisé durant la rencontre, les règles suivantes s'appliquent.",
+          "spans": [
+            {
+              "text": "Selon ce qui est réalisé durant la rencontre, les règles suivantes s'appliquent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Rencontres avec actions",
+          "spans": [
+            {
+              "text": "Rencontres avec actions",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si les personnages souhaitent réaliser une ou plusieurs actions ayant un impact sur la chronique (recherches, enquêtes, rituels, négociations, mentorat, opérations communes, etc.), un Conteur doit être présent afin de valider les actions entreprises et d'en arbitrer les conséquences.",
+          "spans": [
+            {
+              "text": "Si les personnages souhaitent réaliser ",
+              "bold": false
+            },
+            {
+              "text": "une ou plusieurs actions ayant un impact sur la chronique",
+              "bold": true
+            },
+            {
+              "text": " (recherches, enquêtes, rituels, négociations, mentorat, opérations communes, etc.), ",
+              "bold": false
+            },
+            {
+              "text": "un Conteur doit être présent",
+              "bold": true
+            },
+            {
+              "text": " afin de valider les actions entreprises et d'en arbitrer les conséquences.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aucune action ayant un effet mécanique ou narratif important ne peut être considérée comme réalisée sans cette validation.",
+          "spans": [
+            {
+              "text": "Aucune action ayant un effet mécanique ou narratif important ne peut être considérée comme réalisée sans cette validation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Rencontres sans Conteur",
+          "spans": [
+            {
+              "text": "Rencontres sans Conteur",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages peuvent également se rencontrer afin de discuter, négocier ou préparer de futures actions.",
+          "spans": [
+            {
+              "text": "Les personnages peuvent également se rencontrer afin de discuter, négocier ou préparer de futures actions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils peuvent notamment conclure des accords, élaborer des plans ou répartir les tâches que chacun effectuera ensuite au moyen de ses propres Actions Inter-Parties.",
+          "spans": [
+            {
+              "text": "Ils peuvent notamment conclure des accords, élaborer des plans ou répartir les tâches que chacun effectuera ensuite au moyen de ses propres Actions Inter-Parties.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas, les engagements pris entre les personnages restent entièrement narratifs et ne constituent pas une preuve officielle en cas de litige.",
+          "spans": [
+            {
+              "text": "Dans ce cas, les engagements pris entre les personnages restent ",
+              "bold": false
+            },
+            {
+              "text": "entièrement narratifs",
+              "bold": true
+            },
+            {
+              "text": " et ne constituent pas une preuve officielle en cas de litige.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un accord doit avoir une valeur officielle (Prestation, contrat, engagement reconnu par les autorités...), il appartient aux personnages de le formaliser selon les règles appropriées.",
+          "spans": [
+            {
+              "text": "Si un accord doit avoir une valeur officielle (Prestation, contrat, engagement reconnu par les autorités...), il appartient aux personnages de le formaliser selon les règles appropriées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Échange d'informations",
+          "spans": [
+            {
+              "text": "Échange d'informations",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le simple échange d'informations entre personnages est libre.",
+          "spans": [
+            {
+              "text": "Le simple échange d'informations entre personnages est libre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il ne nécessite ni la présence d'un Conteur, ni l'utilisation des canaux d'Actions Inter-Parties.",
+          "spans": [
+            {
+              "text": "Il ne nécessite ni la présence d'un Conteur, ni l'utilisation des canaux d'Actions Inter-Parties.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les joueurs restent toutefois responsables de la véracité des informations que leurs personnages transmettent : un mensonge, une rumeur ou une manipulation font pleinement partie du jeu.",
+          "spans": [
+            {
+              "text": "Les joueurs restent toutefois responsables de la véracité des informations que leurs personnages transmettent : un mensonge, une rumeur ou une manipulation font pleinement partie du jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Organiser une rencontre",
+          "spans": [
+            {
+              "text": "Organiser une rencontre",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour pouvoir contacter un autre personnage, vous devez disposer de ses coordonnées en jeu.",
+          "spans": [
+            {
+              "text": "Pour pouvoir contacter un autre personnage, vous devez disposer ",
+              "bold": false
+            },
+            {
+              "text": "de ses coordonnées en jeu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage dont vous ne connaissez pas le numéro de téléphone, l'adresse ou tout autre moyen de communication ne peut pas être contacté librement.",
+          "spans": [
+            {
+              "text": "Un personnage dont vous ne connaissez pas le numéro de téléphone, l'adresse ou tout autre moyen de communication ne peut pas être contacté librement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les moyens de communication utilisés en jeu ne sont jamais totalement sûrs.",
+          "spans": [
+            {
+              "text": "Les moyens de communication utilisés en jeu ne sont jamais totalement sûrs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un téléphone peut être piraté, des messages interceptés, ou un personnage peut être suivi jusqu'au lieu de rendez-vous.",
+          "spans": [
+            {
+              "text": "Un téléphone peut être piraté, des messages interceptés, ou un personnage peut être suivi jusqu'au lieu de rendez-vous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs peuvent utiliser ces éléments lorsqu'ils sont cohérents avec la situation.",
+          "spans": [
+            {
+              "text": "Les Conteurs peuvent utiliser ces éléments lorsqu'ils sont cohérents avec la situation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Traçabilité",
+          "spans": [
+            {
+              "text": "Traçabilité",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Afin d'assurer un suivi cohérent de la chronique, toute rencontre entre personnages doit faire l'objet d'un résumé.",
+          "spans": [
+            {
+              "text": "Afin d'assurer un suivi cohérent de la chronique, ",
+              "bold": false
+            },
+            {
+              "text": "toute rencontre entre personnages doit faire l'objet d'un résumé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'issue de la rencontre, un des participants (ou plusieurs) devra publier un compte rendu dans le canal prévu à cet effet.",
+          "spans": [
+            {
+              "text": "À l'issue de la rencontre, un des participants (ou plusieurs) devra publier un compte rendu dans le canal prévu à cet effet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce résumé n'a pas vocation à retranscrire l'intégralité des échanges, mais doit permettre aux Conteurs de connaître les principaux sujets abordés, les décisions prises et les événements importants.",
+          "spans": [
+            {
+              "text": "Ce résumé n'a pas vocation à retranscrire l'intégralité des échanges, mais doit permettre aux Conteurs de connaître les principaux sujets abordés, les décisions prises et les événements importants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette traçabilité est indispensable au bon suivi de la chronique et pourra être utilisée par les Conteurs pour arbitrer les conséquences des actions entreprises.",
+          "spans": [
+            {
+              "text": "Cette traçabilité est indispensable au bon suivi de la chronique et pourra être utilisée par les Conteurs pour arbitrer les conséquences des actions entreprises.",
               "bold": false
             }
           ]
