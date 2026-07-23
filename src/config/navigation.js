@@ -3,7 +3,7 @@ import { COLLECTIONS } from "./collections.js";
 // Ancienne catégorie Règles utilisée avant la base "Personnage" dédiée à
 // l'assistant de création : gardée pour ne pas faire réapparaître d'anciens
 // contenus non migrés dans la liste générale des Règles.
-const CHARACTER_CREATION_CATEGORY = "Création de Personnage";
+const CHARACTER_CREATION_CATEGORY = "Création de personnage";
 
 export const navigation = [
     {
