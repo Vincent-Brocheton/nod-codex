@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-22T15:23:00.427Z",
+  "generatedAt": "2026-07-23T10:54:11.226Z",
   "collections": [
     {
       "key": "disciplines",
@@ -105,6 +105,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Les Coteries",
+      "slug": "les-coteries",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-07-23T10:53:00.000Z"
+    },
     {
       "title": "Voie de la Conjuration",
       "slug": "voie-de-la-conjuration",
@@ -275,15 +284,6 @@
       "path": "/disciplines",
       "icon": "droplet",
       "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Domination",
-      "slug": "domination",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z"
     }
   ]
 }

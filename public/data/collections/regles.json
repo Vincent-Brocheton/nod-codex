@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-22T15:23:00.413Z",
+  "generatedAt": "2026-07-23T10:54:11.209Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -20,7 +20,8 @@
       "Bête",
       "Frénésie",
       "Equipement",
-      "Création de personnage"
+      "Création de personnage",
+      "Coteries"
     ]
   },
   "items": [
@@ -10693,6 +10694,321 @@
           "spans": [
             {
               "text": "Si un vampire passe une journée entière à dormir, la Bête est apaisée et tous ses traits de Bête disparaissent.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a688b48-e48e-8026-90b2-c35ad597104e",
+      "slug": "les-coteries",
+      "title": "Les Coteries",
+      "notionUrl": "https://app.notion.com/p/Les-Coteries-3a688b48e48e802690b2c35ad597104e",
+      "lastEditedTime": "2026-07-23T10:53:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Coteries"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Les Coteries"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une coterie est une alliance de vampires qui se regroupent dans un but commun ou des circonstances particulières. Ils vont s'établir, la plupart du temps, dans un lieu donné et essayer de regrouper des historiques pour faire gagner en puissance leur assemblée.",
+          "spans": [
+            {
+              "text": "Une coterie est une alliance de vampires qui se regroupent dans un but commun ou des circonstances particulières. Ils vont s'établir, la plupart du temps, dans un lieu donné et essayer de regrouper des historiques pour faire gagner en puissance leur assemblée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Règles générales",
+          "spans": [
+            {
+              "text": "Règles générales",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "--> In fine, la création d'une coterie est soumise à la discrétion des conteurs.",
+          "spans": [
+            {
+              "text": "--> In fine, la création d'une coterie est soumise à la discrétion des conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une coterie comporte 3 joueurs au minimum.",
+          "spans": [
+            {
+              "text": "Une coterie comporte 3 joueurs au minimum.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Il est impossible d'être dans plus d'une coterie à la fois.",
+          "spans": [
+            {
+              "text": "Il est impossible d'être dans plus d'une coterie à la fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La coterie ne peut être créée en jeu qu'avec l'aval d'un des Anciens en présence.",
+          "spans": [
+            {
+              "text": "La coterie ne peut être créée en jeu qu'avec l'aval d'un des Anciens en présence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Attributs de coterie",
+          "spans": [
+            {
+              "text": "Attributs de coterie",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "--> Chaque point en Rempart retire un dé au groupement d'un ennemi pour tenter une action telle que pénétrer dans le domaine, enquêter sur lui ou le surveiller sans que la coterie l'apprenne.\n--> Chaque point de Servage ajoute un dé aux groupements d'un membre de la coterie pour tenter des actions telles qu'enquêter ou se renseigner sur les rumeurs, le tout au sein du domaine.\n--> Chaque point de Viandis permet d'obtenir 2 disponible dans la réserve de la coterie. L'utilisation de ces  est réservée à la coterie et doit être décidée en commun accord.",
+          "spans": [
+            {
+              "text": "--> Chaque point en Rempart retire un dé au groupement d'un ennemi pour tenter une action telle que pénétrer dans le domaine, enquêter sur lui ou le surveiller sans que la coterie l'apprenne.\n--> Chaque point de Servage ajoute un dé aux groupements d'un membre de la coterie pour tenter des actions telles qu'enquêter ou se renseigner sur les rumeurs, le tout au sein du domaine.\n--> Chaque point de Viandis permet d'obtenir 2 disponible dans la réserve de la coterie. L'utilisation de ces  est réservée à la coterie et doit être décidée en commun accord.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Rempart : Ce trait décrit à quel point le domaine est bien protégé contre les intrus et les fauteurs de trouble, que ce soit d'autres vampires, des polices ou des prédateurs humains.",
+          "spans": [
+            {
+              "text": "Rempart :",
+              "bold": true
+            },
+            {
+              "text": " Ce trait décrit à quel point le domaine est bien protégé contre les intrus et les fauteurs de trouble, que ce soit d'autres vampires, des polices ou des prédateurs humains.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Servage : Ce trait décrit à quel point la coterie est bien intégrée à son domaine.",
+          "spans": [
+            {
+              "text": "Servage :",
+              "bold": true
+            },
+            {
+              "text": " Ce trait décrit à quel point la coterie est bien intégrée à son domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Viandis : Ce trait décrit à quel point les proies présentes dans le domaine sont nombreuses, aisées à chasser et diverses. Il décrit également la taille physique du domaine de manière abstraite : cette caractéristique varie énormément selon la géographie de la ville concernée.",
+          "spans": [
+            {
+              "text": "Viandis :",
+              "bold": true
+            },
+            {
+              "text": " Ce trait décrit à quel point les proies présentes dans le domaine sont nombreuses, aisées à chasser et diverses. Il décrit également la taille physique du domaine de manière abstraite : cette caractéristique varie énormément selon la géographie de la ville concernée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Historiques de coterie",
+          "spans": [
+            {
+              "text": "Historiques de coterie",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Atouts",
+          "spans": [
+            {
+              "text": "Atouts",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Armurerie [1-5] : un endroit pour entreposer vos armes. Chaque point investi permet de stocker <Nombre de membres (Max 6.)> x <Niv. Armurerie> armes.",
+          "spans": [
+            {
+              "text": "Armurerie [1-5] : un endroit pour entreposer vos armes. Chaque point investi permet de stocker <Nombre de membres (Max 6.)> x <Niv. Armurerie> armes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bibliothèque [1-5] : un endroit contenant différents ouvrage. Chaque point investi permet d'accéder à un type d'ouvrages spécifiques simplifiant vos recherches.",
+          "spans": [
+            {
+              "text": "Bibliothèque [1-5] : un endroit contenant différents ouvrage. Chaque point investi permet d'accéder à un type d'ouvrages spécifiques simplifiant vos recherches.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Garage [1-5] : un endroit pour stocker des véhicules. Chaque point investi permet d'entreposer un véhicule supplémentaire.",
+          "spans": [
+            {
+              "text": "Garage [1-5] : un endroit pour stocker des véhicules. Chaque point investi permet d'entreposer un véhicule supplémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Habitué [1-5] : un mortel vivant sur votre domaine qui vous informe ponctuellement des événements sur votre coterie et aux alentours proches. Chaque point investi augmente la quantité d'habitués.",
+          "spans": [
+            {
+              "text": "Habitué [1-5] : un mortel vivant sur votre domaine qui vous informe ponctuellement des événements sur votre coterie et aux alentours proches. Chaque point investi augmente la quantité d'habitués.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Refuge [1-5] : lieu où les vampires peuvent dormir en sûreté pendant la journée ou organiser leurs opérations. Chaque point investi augmente la sécurité du refuge.",
+          "spans": [
+            {
+              "text": "Refuge [1-5] : lieu où les vampires peuvent dormir en sûreté pendant la journée ou organiser leurs opérations. Chaque point investi augmente la sécurité du refuge.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ressources [1-5] : la richesse de la coterie. Chaque point investi augmente la quantité dépensable d'argent chaque mois.",
+          "spans": [
+            {
+              "text": "Ressources [1-5] : la richesse de la coterie. Chaque point investi augmente la quantité dépensable d'argent chaque mois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Renommée [1-5] : le rayonnement du domaine. Chaque point investi augmente le périmètre de votre renommée.",
+          "spans": [
+            {
+              "text": "Renommée [1-5] : le rayonnement du domaine. Chaque point investi augmente le périmètre de votre renommée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Créer sa coterie",
+          "spans": [
+            {
+              "text": "Créer sa coterie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "--> Un Adversaire est un vampire, un être surnaturel ou un humain surpuissant tel qu'un Inquisiteur ou un Hunter. Chaque point en Adversaire augmente la puissance de ce dernier.",
+          "spans": [
+            {
+              "text": "--> Un Adversaire est un vampire, un être surnaturel ou un humain surpuissant tel qu'un Inquisiteur ou un Hunter. Chaque point en Adversaire augmente la puissance de ce dernier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Nombre de points à la création : 7",
+          "spans": [
+            {
+              "text": "Nombre de points à la création :",
+              "bold": true
+            },
+            {
+              "text": " 7",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Il est obligatoire de dépenser 3 points dans le Domaine (Rempart, Viandis, Servage)",
+          "spans": [
+            {
+              "text": "Il est obligatoire de dépenser 3 points dans le Domaine (Rempart, Viandis, Servage)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Il est nécessaire de dépenser des AIP en lien avec les historiques voulues par la coterie.",
+          "spans": [
+            {
+              "text": "Il est nécessaire de dépenser des AIP en lien avec les historiques voulues par la coterie.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La coterie peut prendre jusqu'à 3 points en \"Adversaire\" pour obtenir jusqu'à 3 point à répartir supplémentaire.",
+          "spans": [
+            {
+              "text": "La coterie peut prendre jusqu'à 3 points en \"Adversaire\" pour obtenir jusqu'à 3 point à répartir supplémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Développer sa coterie",
+          "spans": [
+            {
+              "text": "Développer sa coterie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour développer sa coterie, il faut effectuer des AIP de coterie, voire des AIP personnelles, pour permettre à la coterie de rayonner.\nL'augmentation des historiques se fera à l'appréciation des conteurs.",
+          "spans": [
+            {
+              "text": "Pour développer sa coterie, il faut effectuer des AIP de coterie, voire des AIP personnelles, pour permettre à la coterie de rayonner.\nL'augmentation des historiques se fera à l'appréciation des conteurs.",
               "bold": false
             }
           ]
