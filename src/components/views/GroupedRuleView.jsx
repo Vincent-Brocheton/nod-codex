@@ -1,5 +1,6 @@
+import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, ArrowRight, ShieldAlert } from "lucide-react";
+import { ArrowLeft, ArrowRight, ChevronDown, ShieldAlert } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
@@ -33,22 +34,34 @@ function groupConsecutive(items, keyFn) {
 // `itemHighlightField` ({ label, key }) met en avant une propriété qui
 // mérite d'être vue avant tout le reste (ex. une Restriction d'usage),
 // dans un encart distinct plutôt que noyée dans le bloc de propriétés.
-function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroups, itemHighlightField, hideGroupedProperties, manifest }) {
+//
+// `collapsible` (Rituels : un niveau peut compter jusqu'à 18 fiches) replie
+// chaque fiche par défaut derrière un bouton titre + accroche, plutôt que
+// tout dérouler d'un coup ; `open`/`onToggle` pilotent l'état depuis le
+// parent (plusieurs fiches peuvent rester ouvertes en même temps, contrairement
+// à la FAQ qui n'en garde qu'une). Atouts & Handicaps ne passe pas cette
+// prop et garde le comportement d'origine, toujours déployé.
+function ItemEntry({
+    item,
+    headingTag: Heading,
+    itemStatFields,
+    itemRelatedGroups,
+    itemHighlightField,
+    hideGroupedProperties,
+    manifest,
+    collapsible = false,
+    open = true,
+    onToggle,
+}) {
     const highlight = itemHighlightField
         ? normalizeProperty(item.properties?.[itemHighlightField.key])
         : null;
+    const highlightText = highlight && !isPropertyEmpty(highlight)
+        ? `${itemHighlightField.label} : ${propertyText(highlight)}`
+        : null;
 
-    return (
-        <section className="ritualEntry">
-            <Heading>{item.title}</Heading>
-
-            {highlight && !isPropertyEmpty(highlight) ? (
-                <p className="itemHighlight">
-                    <ShieldAlert size={14} aria-hidden="true" />
-                    {itemHighlightField.label} : <strong>{propertyText(highlight)}</strong>
-                </p>
-            ) : null}
-
+    const body = (
+        <>
             {itemStatFields ? <StatBlock item={item} fields={itemStatFields} /> : null}
             {itemRelatedGroups ? <RelatedGroups item={item} groups={itemRelatedGroups} /> : null}
             <ItemDetailBody
@@ -56,6 +69,35 @@ function ItemEntry({ item, headingTag: Heading, itemStatFields, itemRelatedGroup
                 hideProperties={hideGroupedProperties || Boolean(itemStatFields || itemRelatedGroups)}
                 manifest={manifest}
             />
+        </>
+    );
+
+    if (!collapsible) {
+        return (
+            <section className="ritualEntry">
+                <Heading>{item.title}</Heading>
+
+                {highlightText ? (
+                    <p className="itemHighlight">
+                        <ShieldAlert size={14} aria-hidden="true" />
+                        {highlightText}
+                    </p>
+                ) : null}
+
+                {body}
+            </section>
+        );
+    }
+
+    return (
+        <section className="ritualEntry">
+            <button type="button" className="ritualEntryToggle" onClick={onToggle} aria-expanded={open}>
+                <Heading>{item.title}</Heading>
+                {highlightText ? <span className="ritualEntryHighlight">{highlightText}</span> : null}
+                <ChevronDown className="ritualEntryChevron" size={18} aria-hidden="true" />
+            </button>
+
+            {open ? <div className="ritualEntryBody">{body}</div> : null}
         </section>
     );
 }
@@ -117,12 +159,26 @@ export default function GroupedRuleView({
     resolveBackPath,
     groupHeadingIcon,
     groupCardMeta,
+    collapsible = false,
 }) {
 
     const navigate = useNavigate();
     const { loadedCollections, computed } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
     const { loading, activeItem } = computed;
+
+    // Plusieurs fiches repliables peuvent rester ouvertes en même temps
+    // (comparer deux rituels côte à côte), contrairement à la FAQ.
+    const [openIds, setOpenIds] = useState(() => new Set());
+
+    function toggleOpen(id) {
+        setOpenIds((current) => {
+            const next = new Set(current);
+            if (next.has(id)) next.delete(id);
+            else next.add(id);
+            return next;
+        });
+    }
 
     const collections = activeNavigation.collections
         .map(key => loadedCollections[key])
@@ -312,6 +368,9 @@ export default function GroupedRuleView({
                                             itemHighlightField={itemHighlightField}
                                             hideGroupedProperties={hideGroupedProperties}
                                             manifest={wiki.manifest}
+                                            collapsible={collapsible}
+                                            open={openIds.has(item.id)}
+                                            onToggle={() => toggleOpen(item.id)}
                                         />
                                     ))}
 
@@ -328,6 +387,9 @@ export default function GroupedRuleView({
                                     itemHighlightField={itemHighlightField}
                                     hideGroupedProperties={hideGroupedProperties}
                                     manifest={wiki.manifest}
+                                    collapsible={collapsible}
+                                    open={openIds.has(item.id)}
+                                    onToggle={() => toggleOpen(item.id)}
                                 />
                             ))
                         )}

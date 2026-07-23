@@ -985,6 +985,51 @@ a.relationChip:hover {
   max-width: none;
 }
 
+/* Fiche repliable (Rituels, `collapsible` sur GroupedRuleView) : le titre
+   redevient un déclencheur de taille "liste" plutôt que le grand format
+   .ritualEntry h2/h3, qui n'a de sens que déployé en solo. */
+.ritualEntryToggle {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: inherit;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  font: inherit;
+  gap: 8px 14px;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+}
+
+.ritualEntryToggle h2,
+.ritualEntryToggle h3 {
+  font-size: 17px;
+  margin: 0;
+}
+
+.ritualEntryHighlight {
+  color: var(--accent-strong);
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.ritualEntryChevron {
+  color: var(--text-faint);
+  flex: 0 0 auto;
+  margin-left: auto;
+  transition: transform 0.2s ease;
+}
+
+.ritualEntryToggle[aria-expanded="true"] .ritualEntryChevron {
+  transform: rotate(180deg);
+}
+
+.ritualEntryBody {
+  margin-top: 20px;
+}
+
 .detailSubGroupTitle {
   border-bottom: 1px solid var(--border);
   color: var(--accent-strong);
@@ -1778,12 +1823,22 @@ img.clanEmblem {
   margin-bottom: 32px;
 }
 
+/* `groupHeadingIcon` (Rituels, Atouts & Handicaps) insère une icône avant
+   le libellé : sans ce bloc, elle et le texte se touchaient sans espace. */
 .indexGroup h2 {
+  align-items: center;
   border-bottom: 1px solid var(--border);
   color: var(--text-primary);
+  display: flex;
   font-size: 15px;
+  gap: 9px;
   margin: 0 0 14px;
   padding-bottom: 8px;
+}
+
+.indexGroup h2 svg {
+  color: var(--accent-strong);
+  flex: 0 0 auto;
 }
 
 .listRowLabel {
