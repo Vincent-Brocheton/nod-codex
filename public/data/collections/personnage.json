@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-07-23T12:58:36.542Z",
+  "generatedAt": "2026-07-23T12:59:15.871Z",
   "propertyOptions": {},
   "items": [
     {
@@ -4798,11 +4798,7 @@
           "text": "[[Contact]]",
           "spans": [
             {
-              "text": "Contact",
-              "item": {
-                "collectionKey": "historiques",
-                "slug": "contact"
-              },
+              "text": "[[Contact]]",
               "bold": false
             }
           ]
