@@ -46,6 +46,36 @@ export const navigation = [
         label: "Règles",
         children: [
             {
+                id: "merits-flaws",
+                type: "collection",
+                label: "Atouts & Handicaps",
+                path: "/atouts",
+                icon: "star",
+
+                view: "merits-flaws",
+
+                collections: [
+                    COLLECTIONS.MERITS,
+                    COLLECTIONS.FLAWS,
+                ],
+            },
+
+            {
+                id: "attributs",
+                type: "collection",
+                label: "Attributs",
+                path: "/attributs",
+                icon: "brain",
+
+                view: "attributs",
+                searchLabel: "attribut",
+
+                collections: [
+                    COLLECTIONS.ATTRIBUTS,
+                ],
+            },
+
+            {
                 id: "clans",
                 type: "collection",
                 label: "Clans",
@@ -57,6 +87,20 @@ export const navigation = [
 
                 collections: [
                     COLLECTIONS.CLANS,
+                ],
+            },
+
+            {
+                id: "skills",
+                type: "collection",
+                label: "Compétences",
+                path: "/competences",
+                icon: "target",
+
+                view: "competences",
+
+                collections: [
+                    COLLECTIONS.COMPETENCES,
                 ],
             },
 
@@ -75,6 +119,21 @@ export const navigation = [
                     COLLECTIONS.POUVOIRS,
                     COLLECTIONS.POUVOIRS_ANCIENS,
                     COLLECTIONS.TECHNIQUES,
+                ],
+            },
+
+            {
+                id: "historiques",
+                type: "collection",
+                label: "Historiques",
+                path: "/historiques",
+                icon: "scroll",
+
+                view: "historiques",
+                searchLabel: "historique",
+
+                collections: [
+                    COLLECTIONS.HISTORIQUES,
                 ],
             },
 
@@ -112,21 +171,6 @@ export const navigation = [
             },
 
             {
-                id: "techniques",
-                type: "collection",
-                label: "Techniques",
-                path: "/techniques",
-                icon: "swords",
-
-                view: "techniques",
-                detail: "technique",
-
-                collections: [
-                    COLLECTIONS.TECHNIQUES,
-                ],
-            },
-
-            {
                 id: "rituals",
                 type: "collection",
                 label: "Rituels",
@@ -143,31 +187,17 @@ export const navigation = [
             },
 
             {
-                id: "skills",
+                id: "techniques",
                 type: "collection",
-                label: "Compétences",
-                path: "/competences",
-                icon: "target",
+                label: "Techniques",
+                path: "/techniques",
+                icon: "swords",
 
-                view: "competences",
+                view: "techniques",
+                detail: "technique",
 
                 collections: [
-                    COLLECTIONS.COMPETENCES,
-                ],
-            },
-
-            {
-                id: "merits-flaws",
-                type: "collection",
-                label: "Atouts & Handicaps",
-                path: "/atouts",
-                icon: "star",
-
-                view: "merits-flaws",
-
-                collections: [
-                    COLLECTIONS.MERITS,
-                    COLLECTIONS.FLAWS,
+                    COLLECTIONS.TECHNIQUES,
                 ],
             },
         ],

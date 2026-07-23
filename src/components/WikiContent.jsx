@@ -9,6 +9,7 @@ import ClansIndexView from "./views/ClansIndexView";
 import DisciplinesIndexView from "./views/DisciplinesIndexView";
 import TechniquesIndexView from "./views/TechniquesIndexView";
 import CompetencesIndexView from "./views/CompetencesIndexView";
+import ExcerptIndexView from "./views/ExcerptIndexView";
 import SectionIndexView from "./views/SectionIndexView";
 import SearchResultsView from "./views/SearchResultsView";
 import PageRenderer from "./PageRenderer";
@@ -87,6 +88,14 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
         return (
             <div className="pageArea">
                 <CompetencesIndexView wiki={wiki} />
+            </div>
+        );
+    }
+
+    if ((activeNavigation.view === "historiques" || activeNavigation.view === "attributs") && !slug) {
+        return (
+            <div className="pageArea">
+                <ExcerptIndexView wiki={wiki} />
             </div>
         );
     }

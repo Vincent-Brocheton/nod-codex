@@ -1,4 +1,6 @@
 export const COLLECTIONS = {
+    ATTRIBUTS: "attributs",
+
     CLANS: "clans",
     LIGNEES: "lignees",
 
