@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-23T10:54:11.215Z",
+  "generatedAt": "2026-07-23T12:58:36.544Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-07-12T12:30:00.000Z",
+      "lastEditedTime": "2026-07-23T12:57:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -22,237 +22,881 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "L'Historique Alliés représente les mortels qui soutiennent votre personnage et lui viennent en aide. Il peut s'agir de membres de sa famille, d'amis de confiance, ou même d'une entreprise ou d'une organisation criminelle qui lui est favorable.",
+          "text": "Un Allié représente une personne de confiance sur laquelle votre personnage peut compter. Il peut s'agir d'un ami, d'un proche, d'un employé fidèle, d'un informateur ou de toute autre relation privilégiée.",
           "spans": [
             {
-              "text": "L'Historique ",
+              "text": "Un ",
               "bold": false
             },
             {
-              "text": "Alliés",
+              "text": "Allié",
               "bold": true
             },
             {
-              "text": " représente les mortels qui soutiennent votre personnage et lui viennent en aide. Il peut s'agir de membres de sa famille, d'amis de confiance, ou même d'une entreprise ou d'une organisation criminelle qui lui est favorable.",
+              "text": " représente une personne de confiance sur laquelle votre personnage peut compter. Il peut s'agir d'un ami, d'un proche, d'un employé fidèle, d'un informateur ou de toute autre relation privilégiée.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Vos Alliés peuvent être des employés de la morgue, un journaliste influent, un groupe de motards, un réseau de hackers, une organisation caritative ou encore des personnalités appartenant aux hautes sphères de la société. Grâce à eux, quelques appels téléphoniques ou quelques services rendus suffisent souvent à obtenir une aide précieuse.",
+          "text": "Contrairement aux Influences, un Allié est un individu unique. Il possède ses propres compétences et peut être amélioré au fil du temps.",
           "spans": [
             {
-              "text": "Vos Alliés peuvent être des employés de la morgue, un journaliste influent, un groupe de motards, un réseau de hackers, une organisation caritative ou encore des personnalités appartenant aux hautes sphères de la société. Grâce à eux, quelques appels téléphoniques ou quelques services rendus suffisent souvent à obtenir une aide précieuse.",
+              "text": "Contrairement aux Influences, un Allié est un individu unique. Il possède ses propres compétences et peut être amélioré au fil du temps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Niveau d'un Allié",
+          "spans": [
+            {
+              "text": "Niveau d'un Allié",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Les Alliés restent toutefois des mortels. Ils ignorent l'existence du Monde des Ténèbres et considèrent sincèrement votre personnage comme un ami ou un bienfaiteur. Comme dans toute relation, ils pourront eux aussi demander un service en retour. Si votre personnage refuse systématiquement de les aider, ou les abandonne lorsqu'ils ont besoin de lui, le Conteur peut réduire temporairement ou définitivement cet Historique.",
+          "text": "Chaque Allié possède un niveau compris entre 1 et 5.",
           "spans": [
             {
-              "text": "Les Alliés restent toutefois des ",
+              "text": "Chaque Allié possède un ",
               "bold": false
             },
             {
-              "text": "mortels",
+              "text": "niveau compris entre 1 et 5",
               "bold": true
             },
             {
-              "text": ". Ils ignorent l'existence du Monde des Ténèbres et considèrent sincèrement votre personnage comme un ami ou un bienfaiteur. Comme dans toute relation, ils pourront eux aussi demander un service en retour. Si votre personnage refuse systématiquement de les aider, ou les abandonne lorsqu'ils ont besoin de lui, le Conteur peut réduire temporairement ou définitivement cet Historique.",
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le niveau représente son importance, ses capacités et l'étendue de ce qu'il est capable d'accomplir.",
+          "spans": [
+            {
+              "text": "Le niveau représente son importance, ses capacités et l'étendue de ce qu'il est capable d'accomplir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque niveau de l'Allié, vous choisissez une compétence parmi la liste ci-dessous.",
+          "spans": [
+            {
+              "text": "À ",
+              "bold": false
+            },
+            {
+              "text": "chaque niveau",
+              "bold": true
+            },
+            {
+              "text": " de l'Allié, vous choisissez ",
+              "bold": false
+            },
+            {
+              "text": "une compétence",
+              "bold": true
+            },
+            {
+              "text": " parmi la liste ci-dessous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Allié de niveau 3 possédera donc trois compétences, tandis qu'un Allié de niveau 5 en possédera cinq.",
+          "spans": [
+            {
+              "text": "Un Allié de niveau 3 possédera donc ",
+              "bold": false
+            },
+            {
+              "text": "trois compétences",
+              "bold": true
+            },
+            {
+              "text": ", tandis qu'un Allié de niveau 5 en possédera ",
+              "bold": false
+            },
+            {
+              "text": "cinq",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une même compétence ne peut être choisie qu'une seule fois, sauf mention contraire.",
+          "spans": [
+            {
+              "text": "Une même compétence ne peut être choisie qu'une seule fois, sauf mention contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Domaine d'expertise",
+          "spans": [
+            {
+              "text": "Domaine d'expertise",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Allié possède un domaine d'expertise, représentant son métier, son réseau ou son environnement.",
+          "spans": [
+            {
+              "text": "Chaque Allié possède ",
+              "bold": false
+            },
+            {
+              "text": "un domaine d'expertise",
+              "bold": true
+            },
+            {
+              "text": ", représentant son métier, son réseau ou son environnement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez un domaine parmi la liste suivante :",
+          "spans": [
+            {
+              "text": "Choisissez un domaine parmi la liste suivante :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bureaucratie : administration, justice, services publics, archives.",
+          "spans": [
+            {
+              "text": "Bureaucratie",
+              "bold": true
+            },
+            {
+              "text": " : administration, justice, services publics, archives.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Crime : crime organisé, contrebande, pègre.",
+          "spans": [
+            {
+              "text": "Crime",
+              "bold": true
+            },
+            {
+              "text": " : crime organisé, contrebande, pègre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Arts & Éducation : écoles, universités, recherche académique.",
+          "spans": [
+            {
+              "text": "Arts & Éducation",
+              "bold": true
+            },
+            {
+              "text": " : écoles, universités, recherche académique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Finances & Industrie : banques, entreprises, commerce, industrie.",
+          "spans": [
+            {
+              "text": "Finances & Industrie",
+              "bold": true
+            },
+            {
+              "text": " : banques, entreprises, commerce, industrie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Haute Société & Politique : élites, noblesse, réseaux d'influence, élus, partis politiques.",
+          "spans": [
+            {
+              "text": "Haute Société & Politique",
+              "bold": true
+            },
+            {
+              "text": " : élites, noblesse, réseaux d'influence, élus, partis politiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Média : presse, télévision, communication, réseaux sociaux.",
+          "spans": [
+            {
+              "text": "Média",
+              "bold": true
+            },
+            {
+              "text": " : presse, télévision, communication, réseaux sociaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Occulte & Religion : institutions religieuses, cultes, sociétés secrètes, ésotérisme.",
+          "spans": [
+            {
+              "text": "Occulte & Religion",
+              "bold": true
+            },
+            {
+              "text": " : institutions religieuses, cultes, sociétés secrètes, ésotérisme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Police : forces de l'ordre, renseignement, sécurité.",
+          "spans": [
+            {
+              "text": "Police",
+              "bold": true
+            },
+            {
+              "text": " : forces de l'ordre, renseignement, sécurité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Rue & Transport : quartiers populaires, gangs locaux, transport, logistique.",
+          "spans": [
+            {
+              "text": "Rue & Transport",
+              "bold": true
+            },
+            {
+              "text": " : quartiers populaires, gangs locaux, transport, logistique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Santé & Social : hôpitaux, médecine, laboratoires, urgences, sciences sociales.",
+          "spans": [
+            {
+              "text": "Santé & Social",
+              "bold": true
+            },
+            {
+              "text": " : hôpitaux, médecine, laboratoires, urgences, sciences sociales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le domaine d'expertise détermine les types d'actions que l'Allié est capable d'effectuer lorsqu'une de ses compétences le lui permet.",
+          "spans": [
+            {
+              "text": "Le domaine d'expertise détermine les types d'actions que l'Allié est capable d'effectuer lorsqu'une de ses compétences le lui permet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Compétences",
+          "spans": [
+            {
+              "text": "Compétences",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque niveau gagné, choisissez une des compétences suivantes.",
+          "spans": [
+            {
+              "text": "À chaque niveau gagné, choisissez ",
+              "bold": false
+            },
+            {
+              "text": "une",
+              "bold": true
+            },
+            {
+              "text": " des compétences suivantes.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_3",
-          "text": "Système",
+          "text": "Double expertise",
           "spans": [
             {
-              "text": "Système",
+              "text": "Double expertise",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Pour chaque point investi dans Alliés, choisissez un groupe de personnes lié à votre personnage.",
+          "text": "L'Allié acquiert un second domaine d'expertise parmi la liste précédente.",
           "spans": [
             {
-              "text": "Pour chaque point investi dans ",
+              "text": "L'Allié acquiert un ",
               "bold": false
             },
             {
-              "text": "Alliés",
+              "text": "second domaine d'expertise",
               "bold": true
             },
             {
-              "text": ", choisissez un groupe de personnes lié à votre personnage.",
+              "text": " parmi la liste précédente.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ainsi, un personnage possédant Alliés ●●● pourrait disposer des contacts suivants :",
+          "text": "Cette compétence n'accorde aucun niveau d'Influence supplémentaire ; elle élargit simplement les domaines dans lesquels l'Allié peut intervenir.",
           "spans": [
             {
-              "text": "Ainsi, un personnage possédant ",
+              "text": "Cette compétence n'accorde ",
               "bold": false
             },
             {
-              "text": "Alliés ●●●",
+              "text": "aucun niveau d'Influence supplémentaire",
               "bold": true
             },
             {
-              "text": " pourrait disposer des contacts suivants :",
+              "text": " ; elle élargit simplement les domaines dans lesquels l'Allié peut intervenir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Contact",
+          "spans": [
+            {
+              "text": "Contact",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Allié peut fournir des informations de contact durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "L'Allié peut fournir des ",
+              "bold": false
+            },
+            {
+              "text": "informations de contact",
+              "bold": true
+            },
+            {
+              "text": " durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces informations sont fournies par les Conteurs.",
+          "spans": [
+            {
+              "text": "Ces informations sont fournies par les Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Nocturne",
+          "spans": [
+            {
+              "text": "Nocturne",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Allié est disponible durant la nuit.",
+          "spans": [
+            {
+              "text": "Votre Allié est disponible durant la nuit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Influent (2 / 4 / 5)",
+          "spans": [
+            {
+              "text": "Influent (2 / 4 / 5)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette compétence peut être choisie en version Influent 2, Influent 4 ou Influent 5.",
+          "spans": [
+            {
+              "text": "Cette compétence peut être choisie en version ",
+              "bold": false
+            },
+            {
+              "text": "Influent 2",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Influent 4",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "Influent 5",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Allié peut désormais effectuer des actions d'Influence entre les sessions de jeu.",
+          "spans": [
+            {
+              "text": "Votre Allié peut désormais effectuer des ",
+              "bold": false
+            },
+            {
+              "text": "actions d'Influence entre les sessions de jeu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le niveau maximal des actions qu'il peut entreprendre correspond au niveau choisi :",
+          "spans": [
+            {
+              "text": "Le niveau maximal des actions qu'il peut entreprendre correspond au niveau choisi :",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "le personnel de la morgue municipale ;",
+          "text": "Influent 2 : actions d'Influence de niveau 2 maximum.",
           "spans": [
             {
-              "text": "le personnel de la morgue municipale ;",
+              "text": "Influent 2",
+              "bold": true
+            },
+            {
+              "text": " : actions d'Influence de niveau 2 maximum.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "un gang local ;",
+          "text": "Influent 4 : actions d'Influence de niveau 4 maximum.",
           "spans": [
             {
-              "text": "un gang local ;",
+              "text": "Influent 4",
+              "bold": true
+            },
+            {
+              "text": " : actions d'Influence de niveau 4 maximum.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "un groupe de rock indépendant.",
+          "text": "Influent 5 : actions d'Influence de niveau 5 maximum.",
           "spans": [
             {
-              "text": "un groupe de rock indépendant.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Lorsque vous faites appel à vos Alliés, indiquez au Conteur quel groupe intervient et expliquez pourquoi il est en mesure de vous aider dans la situation concernée.",
-          "spans": [
-            {
-              "text": "Lorsque vous faites appel à vos Alliés, indiquez au Conteur quel groupe intervient et expliquez pourquoi il est en mesure de vous aider dans la situation concernée.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les Alliés peuvent accomplir des tâches raisonnables. Ils sont particulièrement efficaces lorsque celles-ci correspondent à leur domaine de compétence.",
-          "spans": [
-            {
-              "text": "Les Alliés peuvent accomplir des tâches raisonnables. Ils sont particulièrement efficaces lorsque celles-ci correspondent à leur domaine de compétence.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Par exemple, les employés d'une morgue pourront facilement faire disparaître un cadavre ou obtenir des informations médico-légales. En revanche, cambrioler une banque ne relève clairement pas de leurs compétences. Pour ce type d'opération, le gang serait bien plus approprié.",
-          "spans": [
-            {
-              "text": "Par exemple, les employés d'une morgue pourront facilement faire disparaître un cadavre ou obtenir des informations médico-légales. En revanche, cambrioler une banque ne relève clairement pas de leurs compétences. Pour ce type d'opération, le gang serait bien plus approprié.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si une scène nécessite l'intervention directe de vos Alliés, le Conteur crée jusqu'à trois PNJ simplifiés :",
-          "spans": [
-            {
-              "text": "Si une scène nécessite l'intervention directe de vos Alliés, le Conteur crée jusqu'à ",
-              "bold": false
-            },
-            {
-              "text": "trois PNJ simplifiés",
+              "text": "Influent 5",
               "bold": true
             },
             {
-              "text": " :",
+              "text": " : actions d'Influence de niveau 5 maximum.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions doivent toujours relever du ou des domaines d'expertise de l'Allié.",
+          "spans": [
+            {
+              "text": "Les actions doivent toujours relever du ou des domaines d'expertise de l'Allié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Expert",
+          "spans": [
+            {
+              "text": "Expert",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Allié maîtrise parfaitement son domaine.",
+          "spans": [
+            {
+              "text": "Votre Allié maîtrise parfaitement son domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Allié +1, dans la limite des règles du système.",
+          "spans": [
+            {
+              "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence ",
+              "bold": false
+            },
+            {
+              "text": "égal au niveau de l'Allié +1",
+              "bold": true
+            },
+            {
+              "text": ", dans la limite des règles du système.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Remplaçable",
+          "spans": [
+            {
+              "text": "Remplaçable",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire.",
+          "spans": [
+            {
+              "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nouvel Allié possède le même niveau et les mêmes compétences.",
+          "spans": [
+            {
+              "text": "Le nouvel Allié possède le ",
+              "bold": false
+            },
+            {
+              "text": "même niveau",
+              "bold": true
+            },
+            {
+              "text": " et les ",
+              "bold": false
+            },
+            {
+              "text": "mêmes compétences",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce remplacement intervient au maximum deux mois après sa disparition.",
+          "spans": [
+            {
+              "text": "Ce remplacement intervient au maximum ",
+              "bold": false
+            },
+            {
+              "text": "deux mois",
+              "bold": true
+            },
+            {
+              "text": " après sa disparition.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Ressources",
+          "spans": [
+            {
+              "text": "Ressources",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Allié dispose d'importants moyens financiers.",
+          "spans": [
+            {
+              "text": "Votre Allié dispose d'importants moyens financiers.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'il réalise une action d'Influence permettant d'obtenir de l'argent :",
+          "spans": [
+            {
+              "text": "Lorsqu'il réalise une action d'Influence permettant d'obtenir de l'argent :",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "un PNJ de niveau 3 ;",
+          "text": "les gains obtenus sont doublés ;",
           "spans": [
             {
-              "text": "un PNJ de niveau 3 ;",
+              "text": "les gains obtenus sont ",
+              "bold": false
+            },
+            {
+              "text": "doublés",
+              "bold": true
+            },
+            {
+              "text": " ;",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "deux PNJ de niveau 1.",
+          "text": "leur durée est également doublée.",
           "spans": [
             {
-              "text": "deux PNJ de niveau 1.",
+              "text": "leur durée est également ",
+              "bold": false
+            },
+            {
+              "text": "doublée",
+              "bold": true
+            },
+            {
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ces PNJ sont toujours des mortels et ne possèdent aucun pouvoir surnaturel.",
+          "text": "Si votre Allié ne possède pas la compétence Influent, il peut malgré tout effectuer une telle demande une fois tous les deux mois, afin de procurer un bonus temporaire de Ressources.",
           "spans": [
             {
-              "text": "Ces PNJ sont toujours des ",
+              "text": "Si votre Allié ne possède pas la compétence ",
               "bold": false
             },
             {
-              "text": "mortels",
+              "text": "Influent",
               "bold": true
             },
             {
-              "text": " et ne possèdent aucun pouvoir surnaturel.",
+              "text": ", il peut malgré tout effectuer une telle demande ",
+              "bold": false
+            },
+            {
+              "text": "une fois tous les deux mois",
+              "bold": true
+            },
+            {
+              "text": ", afin de procurer un bonus temporaire de Ressources.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Sécurité",
+          "spans": [
+            {
+              "text": "Sécurité",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Les Alliés sont capables de se défendre, mais ils ne constituent pas une armée personnelle. Si tous vos Alliés sont tués, vous perdez l'accès à cet Historique pendant deux parties ou un mois (selon la période la plus longue).",
+          "text": "Votre Allié bénéficie d'une protection importante (gardes du corps, procédures de sécurité, anonymat, réseau de protection...).",
           "spans": [
             {
-              "text": "Les Alliés sont capables de se défendre, mais ils ne constituent pas une armée personnelle. Si tous vos Alliés sont tués, vous perdez l'accès à cet Historique pendant ",
-              "bold": false
-            },
-            {
-              "text": "deux parties ou un mois",
-              "bold": true
-            },
-            {
-              "text": " (selon la période la plus longue).",
+              "text": "Votre Allié bénéficie d'une protection importante (gardes du corps, procédures de sécurité, anonymat, réseau de protection...).",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Vous pouvez faire appel à vos Alliés une fois par partie et par point possédé dans cet Historique.",
+          "text": "Lorsqu'il est utilisé dans une attaque d'Influence ou une défense d'Influence, les valeurs de l'action sont doublées.",
           "spans": [
             {
-              "text": "Vous pouvez faire appel à vos Alliés une fois par partie et par point possédé dans cet Historique.",
+              "text": "Lorsqu'il est utilisé dans une ",
+              "bold": false
+            },
+            {
+              "text": "attaque d'Influence",
               "bold": true
+            },
+            {
+              "text": " ou une ",
+              "bold": false
+            },
+            {
+              "text": "défense d'Influence",
+              "bold": true
+            },
+            {
+              "text": ", les valeurs de l'action sont ",
+              "bold": false
+            },
+            {
+              "text": "doublées",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre Allié ne possède pas la compétence Influent, il vous procure malgré tout une défense d'AIP personnelle par mois.",
+          "spans": [
+            {
+              "text": "Si votre Allié ne possède pas la compétence ",
+              "bold": false
+            },
+            {
+              "text": "Influent",
+              "bold": true
+            },
+            {
+              "text": ", il vous procure malgré tout ",
+              "bold": false
+            },
+            {
+              "text": "une défense d'AIP personnelle par mois",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Principe de cohérence : Un Allié ne peut intervenir que dans les domaines correspondant à son ou ses domaines d'expertise et uniquement lorsque l'action est crédible au regard de sa profession, de son statut et de son niveau. Les Conteurs restent seuls décisionnaires de ce qu'un Allié peut ou ne peut pas accomplir. Cette règle prime sur toute autre description des compétences.",
+          "spans": [
+            {
+              "text": "Principe de cohérence",
+              "bold": true
+            },
+            {
+              "text": " : Un Allié ne peut intervenir que dans les domaines correspondant à son ou ses domaines d'expertise et uniquement lorsque l'action est crédible au regard de sa profession, de son statut et de son niveau. Les Conteurs restent seuls décisionnaires de ce qu'un Allié peut ou ne peut pas accomplir. Cette règle prime sur toute autre description des compétences.",
+              "bold": false
             }
           ]
         }
@@ -2627,7 +3271,7 @@
       "slug": "influences",
       "title": "Influences",
       "notionUrl": "https://app.notion.com/p/Influences-39b88b48e48e8031b3b0fcbb7a779b7f",
-      "lastEditedTime": "2026-07-12T12:41:00.000Z",
+      "lastEditedTime": "2026-07-23T12:58:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2637,206 +3281,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "L'Historique Influences représente les réseaux, relations, faveurs et leviers de pouvoir que votre personnage exerce sur le monde des mortels.",
+          "text": "En cours d’écriture",
           "spans": [
             {
-              "text": "L'Historique ",
-              "bold": false
-            },
-            {
-              "text": "Influences",
-              "bold": true
-            },
-            {
-              "text": " représente les réseaux, relations, faveurs et leviers de pouvoir que votre personnage exerce sur le monde des mortels.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Contrairement aux Contacts, les Influences ne correspondent pas à des individus précis, mais à une capacité durable d'agir sur une partie de la société.",
-          "spans": [
-            {
-              "text": "Contrairement aux Contacts, les Influences ne correspondent pas à des individus précis, mais à une capacité durable d'agir sur une partie de la société.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez acheter jusqu'à 5 points dans chacune des catégories suivantes.",
-          "spans": [
-            {
-              "text": "Vous pouvez acheter jusqu'à ",
-              "bold": false
-            },
-            {
-              "text": "5 points",
-              "bold": true
-            },
-            {
-              "text": " dans chacune des catégories suivantes.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Gotha",
-          "spans": [
-            {
-              "text": "Gotha",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous exercez une influence sur les sphères dirigeantes de la société :",
-          "spans": [
-            {
-              "text": "Vous exercez une influence sur les sphères dirigeantes de la société :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "dirigeants d'entreprises ;",
-          "spans": [
-            {
-              "text": "dirigeants d'entreprises ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "responsables politiques ;",
-          "spans": [
-            {
-              "text": "responsables politiques ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "institutions importantes ;",
-          "spans": [
-            {
-              "text": "institutions importantes ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "grandes fortunes ;",
-          "spans": [
-            {
-              "text": "grandes fortunes ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "personnalités influentes.",
-          "spans": [
-            {
-              "text": "personnalités influentes.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous évoluez parmi les puissants.",
-          "spans": [
-            {
-              "text": "Vous évoluez parmi les puissants.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Pègre",
-          "spans": [
-            {
-              "text": "Pègre",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous contrôlez les milieux criminels ou marginaux :",
-          "spans": [
-            {
-              "text": "Vous contrôlez les milieux criminels ou marginaux :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "gangs ;",
-          "spans": [
-            {
-              "text": "gangs ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "contrebandiers ;",
-          "spans": [
-            {
-              "text": "contrebandiers ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "trafiquants ;",
-          "spans": [
-            {
-              "text": "trafiquants ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "réseaux clandestins ;",
-          "spans": [
-            {
-              "text": "réseaux clandestins ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "communautés vivant en dehors des structures officielles.",
-          "spans": [
-            {
-              "text": "communautés vivant en dehors des structures officielles.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous connaissez les rumeurs, les marchés noirs et les secrets de la rue.",
-          "spans": [
-            {
-              "text": "Vous connaissez les rumeurs, les marchés noirs et les secrets de la rue.",
+              "text": "En cours d’écriture",
               "bold": false
             }
           ]

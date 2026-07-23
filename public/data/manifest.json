@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T10:54:11.226Z",
+  "generatedAt": "2026-07-23T12:58:36.552Z",
   "collections": [
     {
       "key": "disciplines",
@@ -105,6 +105,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Influences",
+      "slug": "influences",
+      "collectionKey": "historiques",
+      "collectionLabel": "Historiques",
+      "path": "/historiques",
+      "icon": "scroll",
+      "lastEditedTime": "2026-07-23T12:58:00.000Z"
+    },
+    {
+      "title": "Alliés",
+      "slug": "allies",
+      "collectionKey": "historiques",
+      "collectionLabel": "Historiques",
+      "path": "/historiques",
+      "icon": "scroll",
+      "lastEditedTime": "2026-07-23T12:57:00.000Z"
+    },
     {
       "title": "Les Coteries",
       "slug": "les-coteries",
@@ -261,24 +279,6 @@
     {
       "title": "Voie du Sang",
       "slug": "voie-du-sang",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Voie du Sepulcre",
-      "slug": "voie-du-sepulcre",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Voie Verte",
-      "slug": "voie-verte",
       "collectionKey": "disciplines",
       "collectionLabel": "Disciplines",
       "path": "/disciplines",
