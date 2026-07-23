@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-23T13:32:34.122Z",
+  "generatedAt": "2026-07-23T13:37:15.531Z",
   "propertyOptions": {},
   "items": [
     {
@@ -3062,7 +3062,7 @@
       "slug": "influences",
       "title": "Influences",
       "notionUrl": "https://app.notion.com/p/Influences-39b88b48e48e8031b3b0fcbb7a779b7f",
-      "lastEditedTime": "2026-07-23T12:58:00.000Z",
+      "lastEditedTime": "2026-07-23T13:36:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -3072,10 +3072,328 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "En cours d’écriture",
+          "text": "Les Influences permettent de réaliser des Actions d'Influence entre deux parties.",
           "spans": [
             {
-              "text": "En cours d’écriture",
+              "text": "Les Influences permettent de réaliser des ",
+              "bold": false
+            },
+            {
+              "text": "Actions d'Influence",
+              "bold": true
+            },
+            {
+              "text": " entre deux parties.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe deux grandes catégories d'actions.",
+          "spans": [
+            {
+              "text": "Il existe deux grandes catégories d'actions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Actions générales",
+          "spans": [
+            {
+              "text": "Actions générales",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions générales permettent d'agir sur le monde mortel.",
+          "spans": [
+            {
+              "text": "Les actions générales permettent d'agir sur le monde mortel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Selon le domaine concerné, elles peuvent notamment permettre :",
+          "spans": [
+            {
+              "text": "Selon le domaine concerné, elles peuvent notamment permettre :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'obtenir des renseignements ;",
+          "spans": [
+            {
+              "text": "d'obtenir des renseignements ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de faciliter une enquête ;",
+          "spans": [
+            {
+              "text": "de faciliter une enquête ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "d'obtenir du matériel ;",
+          "spans": [
+            {
+              "text": "d'obtenir du matériel ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de faire pression sur une administration ;",
+          "spans": [
+            {
+              "text": "de faire pression sur une administration ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de protéger une zone ;",
+          "spans": [
+            {
+              "text": "de protéger une zone ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de lancer une campagne médiatique ;",
+          "spans": [
+            {
+              "text": "de lancer une campagne médiatique ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "de financer une opération ;",
+          "spans": [
+            {
+              "text": "de financer une opération ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou toute autre action cohérente avec le domaine de l'Allié.",
+          "spans": [
+            {
+              "text": "ou toute autre action cohérente avec le domaine de l'Allié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque domaine d'Influence possède sa propre liste d'actions classées par niveau.",
+          "spans": [
+            {
+              "text": "Chaque domaine d'Influence possède sa propre liste d'actions classées par niveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour réaliser une action, l'Allié doit posséder un niveau d'Influence au moins égal au niveau demandé.",
+          "spans": [
+            {
+              "text": "Pour réaliser une action, l'Allié doit posséder un niveau d'Influence au moins égal au niveau demandé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Actions ciblées",
+          "spans": [
+            {
+              "text": "Actions ciblées",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines actions permettent d'interagir directement avec les Influences d'autres personnages ou d'autres Alliés.",
+          "spans": [
+            {
+              "text": "Certaines actions permettent d'interagir directement avec les Influences d'autres personnages ou d'autres Alliés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces actions sont plus rares et nécessitent généralement plusieurs Alliés ou une préparation importante.",
+          "spans": [
+            {
+              "text": "Ces actions sont plus rares et nécessitent généralement plusieurs Alliés ou une préparation importante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elles comprennent notamment :",
+          "spans": [
+            {
+              "text": "Elles comprennent notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Attaquer une Influence ;",
+          "spans": [
+            {
+              "text": "Attaquer",
+              "bold": true
+            },
+            {
+              "text": " une Influence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Défendre une Influence ;",
+          "spans": [
+            {
+              "text": "Défendre",
+              "bold": true
+            },
+            {
+              "text": " une Influence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bloquer une Influence ;",
+          "spans": [
+            {
+              "text": "Bloquer",
+              "bold": true
+            },
+            {
+              "text": " une Influence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Renforcer temporairement l'Influence d'un autre Allié.",
+          "spans": [
+            {
+              "text": "Renforcer",
+              "bold": true
+            },
+            {
+              "text": " temporairement l'Influence d'un autre Allié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les modalités précises de ces actions sont définies dans les règles d'Influence.",
+          "spans": [
+            {
+              "text": "Les modalités précises de ces actions sont définies dans les règles d'Influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Spécialisation d'Allié",
+          "spans": [
+            {
+              "text": "Spécialisation d'Allié",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le domaine d'expertise d'un Allié représente une spécialisation particulièrement développée.",
+          "spans": [
+            {
+              "text": "Le domaine d'expertise d'un Allié représente une spécialisation particulièrement développée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'une action est directement liée à cette spécialisation, les Conteurs peuvent considérer que l'Allié agit comme s'il disposait d'un niveau d'Influence supérieur d'un niveau, dans la limite de ce qui reste crédible.",
+          "spans": [
+            {
+              "text": "Lorsqu'une action est directement liée à cette spécialisation, les Conteurs peuvent considérer que l'Allié agit comme s'il disposait d'un ",
+              "bold": false
+            },
+            {
+              "text": "niveau d'Influence supérieur d'un niveau",
+              "bold": true
+            },
+            {
+              "text": ", dans la limite de ce qui reste crédible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un Allié spécialisé en Police aura davantage de facilité à obtenir un rapport d'enquête qu'un Allié spécialisé en Santé & Social, même si les deux possèdent le même niveau d'Influence.",
+          "spans": [
+            {
+              "text": "Par exemple, un Allié spécialisé en ",
+              "bold": false
+            },
+            {
+              "text": "Police",
+              "bold": true
+            },
+            {
+              "text": " aura davantage de facilité à obtenir un rapport d'enquête qu'un Allié spécialisé en ",
+              "bold": false
+            },
+            {
+              "text": "Santé & Social",
+              "bold": true
+            },
+            {
+              "text": ", même si les deux possèdent le même niveau d'Influence.",
               "bold": false
             }
           ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:32:34.138Z",
+  "generatedAt": "2026-07-23T13:37:15.538Z",
   "collections": [
     {
       "key": "disciplines",
@@ -106,6 +106,15 @@
   ],
   "recent": [
     {
+      "title": "Influences",
+      "slug": "influences",
+      "collectionKey": "historiques",
+      "collectionLabel": "Historiques",
+      "path": "/historiques",
+      "icon": "scroll",
+      "lastEditedTime": "2026-07-23T13:36:00.000Z"
+    },
+    {
       "title": "Gestion du HRP",
       "slug": "gestion-du-hrp",
       "collectionKey": "regles",
@@ -167,15 +176,6 @@
       "path": "/regles",
       "icon": "book-open",
       "lastEditedTime": "2026-07-23T13:11:00.000Z"
-    },
-    {
-      "title": "Influences",
-      "slug": "influences",
-      "collectionKey": "historiques",
-      "collectionLabel": "Historiques",
-      "path": "/historiques",
-      "icon": "scroll",
-      "lastEditedTime": "2026-07-23T12:58:00.000Z"
     },
     {
       "title": "Alliés",
