@@ -1,9 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight, Search } from "lucide-react";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
 import ClanEmblem from "../ClanEmblem";
+import useTitleFilter from "../../utils/useTitleFilter";
 
 /**
  * Page d'index des Clans : grille de cartes illustrées avec recherche par
@@ -18,15 +18,10 @@ export default function ClansIndexView({ wiki }) {
     const { loadedCollections, computed } = wiki.collections;
     const { loading } = computed;
 
-    const [query, setQuery] = useState("");
-
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
 
-    const normalizedQuery = query.trim().toLowerCase();
-    const items = (collection?.items || []).filter((item) =>
-        item.title.toLowerCase().includes(normalizedQuery)
-    );
+    const { query, setQuery, filtered: items } = useTitleFilter(collection?.items || []);
 
     return (
         <section className="pageView indexView">

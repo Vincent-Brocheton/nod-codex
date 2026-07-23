@@ -37,10 +37,11 @@ function groupConsecutive(items, keyFn) {
 //
 // `collapsible` (Rituels : un niveau peut compter jusqu'à 18 fiches) replie
 // chaque fiche par défaut derrière un bouton titre + accroche, plutôt que
-// tout dérouler d'un coup ; `open`/`onToggle` pilotent l'état depuis le
-// parent (plusieurs fiches peuvent rester ouvertes en même temps, contrairement
-// à la FAQ qui n'en garde qu'une). Atouts & Handicaps ne passe pas cette
-// prop et garde le comportement d'origine, toujours déployé.
+// tout dérouler d'un coup. L'état ouvert/fermé est local à chaque fiche
+// (pas remonté au parent) : plusieurs peuvent rester ouvertes en même temps
+// (contrairement à la FAQ qui n'en garde qu'une), et basculer l'une d'elles
+// ne re-rend qu'elle-même, pas tout le groupe. Atouts & Handicaps ne passe
+// pas cette prop et garde le comportement d'origine, toujours déployé.
 function ItemEntry({
     item,
     headingTag: Heading,
@@ -50,9 +51,9 @@ function ItemEntry({
     hideGroupedProperties,
     manifest,
     collapsible = false,
-    open = true,
-    onToggle,
 }) {
+    const [open, setOpen] = useState(false);
+
     const highlight = itemHighlightField
         ? normalizeProperty(item.properties?.[itemHighlightField.key])
         : null;
@@ -91,7 +92,7 @@ function ItemEntry({
 
     return (
         <section className="ritualEntry">
-            <button type="button" className="ritualEntryToggle" onClick={onToggle} aria-expanded={open}>
+            <button type="button" className="ritualEntryToggle" onClick={() => setOpen((current) => !current)} aria-expanded={open}>
                 <Heading>{item.title}</Heading>
                 {highlightText ? <span className="ritualEntryHighlight">{highlightText}</span> : null}
                 <ChevronDown className="ritualEntryChevron" size={18} aria-hidden="true" />
@@ -166,19 +167,6 @@ export default function GroupedRuleView({
     const { loadedCollections, computed } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
     const { loading, activeItem } = computed;
-
-    // Plusieurs fiches repliables peuvent rester ouvertes en même temps
-    // (comparer deux rituels côte à côte), contrairement à la FAQ.
-    const [openIds, setOpenIds] = useState(() => new Set());
-
-    function toggleOpen(id) {
-        setOpenIds((current) => {
-            const next = new Set(current);
-            if (next.has(id)) next.delete(id);
-            else next.add(id);
-            return next;
-        });
-    }
 
     const collections = activeNavigation.collections
         .map(key => loadedCollections[key])
@@ -369,8 +357,6 @@ export default function GroupedRuleView({
                                             hideGroupedProperties={hideGroupedProperties}
                                             manifest={wiki.manifest}
                                             collapsible={collapsible}
-                                            open={openIds.has(item.id)}
-                                            onToggle={() => toggleOpen(item.id)}
                                         />
                                     ))}
 
@@ -388,8 +374,6 @@ export default function GroupedRuleView({
                                     hideGroupedProperties={hideGroupedProperties}
                                     manifest={wiki.manifest}
                                     collapsible={collapsible}
-                                    open={openIds.has(item.id)}
-                                    onToggle={() => toggleOpen(item.id)}
                                 />
                             ))
                         )}

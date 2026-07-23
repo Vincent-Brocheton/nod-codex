@@ -12,15 +12,18 @@ function clanIcon(item) {
     return <ClanEmblem slug={item.slug} title={item.title} />;
 }
 
-function disciplineIconFor(item) {
-    const Icon = disciplineIcon(item.slug);
-    return <Icon size={17} aria-hidden="true" />;
+// `disciplineIcon`/`skillIcon` renvoient toutes deux un composant icône par
+// slug (même contrat) : une seule fabrique pour les deux plutôt qu'une
+// fonction dédiée par collection.
+function iconResolver(resolve) {
+    return (item) => {
+        const Icon = resolve(item.slug);
+        return <Icon size={17} aria-hidden="true" />;
+    };
 }
 
-function skillIconFor(item) {
-    const Icon = skillIcon(item.slug);
-    return <Icon size={17} aria-hidden="true" />;
-}
+const disciplineIconFor = iconResolver(disciplineIcon);
+const skillIconFor = iconResolver(skillIcon);
 
 export default function ItemList({ wiki }) {
 

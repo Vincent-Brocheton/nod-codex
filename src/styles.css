@@ -342,7 +342,8 @@ h1 {
 }
 
 .listPane header span,
-.detailPane header span {
+.detailPane header span,
+.detailHeaderSubtitle span {
   color: var(--accent-strong);
   font-family: var(--font-mono);
   font-size: 12px;
@@ -427,17 +428,10 @@ h1 {
 /* L'emblème de clan (base 64px, voir .clanEmblem) réduit à la taille d'une
    icône de ligne, pour la colonne liste des fiches Clan. */
 .itemList .clanEmblem {
-  border-radius: 5px;
-  height: 22px;
-  width: 22px;
-}
-
-.itemList img.clanEmblem {
-  padding: 2px;
-}
-
-.itemList .clanEmblemFallback {
-  font-size: 8px;
+  --emblem-size: 22px;
+  --emblem-radius: 5px;
+  --emblem-padding: 2px;
+  --emblem-fallback-font: 8px;
 }
 
 .itemFlags {
@@ -537,32 +531,24 @@ h1 {
   margin: 8px 0 0;
 }
 
+/* Écarts par rapport à la recette "eyebrow" partagée ci-dessus : un cran
+   plus petit, tracking plus large, et non-italique (le paragraphe parent
+   l'est déjà en entier). */
 .detailHeaderSubtitle span {
-  color: var(--accent-strong);
-  font-family: var(--font-mono);
   font-size: 11px;
   font-style: normal;
-  font-weight: 700;
   letter-spacing: 0.06em;
   margin-right: 6px;
-  text-transform: uppercase;
 }
 
 /* La colonne de texte (éventail + titre + surnoms) peut dépasser 100px de
    haut une fois les trois lignes empilées : l'emblème doit suivre, sinon il
    flotte, minuscule, à côté d'un pavé de texte bien plus grand. */
 .detailHeaderEmblem .clanEmblem {
-  border-radius: 16px;
-  height: 108px;
-  width: 108px;
-}
-
-.detailHeaderEmblem img.clanEmblem {
-  padding: 14px;
-}
-
-.detailHeaderEmblem .clanEmblemFallback {
-  font-size: 26px;
+  --emblem-size: 108px;
+  --emblem-radius: 16px;
+  --emblem-padding: 14px;
+  --emblem-fallback-font: 26px;
 }
 
 /* Le parcours de création n'a pas de colonne liste à côté (contrairement
@@ -1681,11 +1667,20 @@ a.relationChip:hover {
   width: 40px;
 }
 
+/* Trois tailles d'emblème (liste compacte 22px, carte d'index 64px, en-tête
+   de fiche 108px) partagent cette seule règle : chaque contexte se contente
+   de redéfinir ces variables (voir .itemList/.detailHeaderEmblem) plutôt que
+   de répéter taille/rayon/padding/police à chaque fois. */
 .clanEmblem {
-  border-radius: 10px;
+  --emblem-size: 64px;
+  --emblem-radius: 10px;
+  --emblem-padding: 8px;
+  --emblem-fallback-font: 16px;
+
+  border-radius: var(--emblem-radius);
   flex: 0 0 auto;
-  height: 64px;
-  width: 64px;
+  height: var(--emblem-size);
+  width: var(--emblem-size);
 }
 
 /* Les sceaux de clan sont de l'encre noire sur fond transparent : une
@@ -1695,7 +1690,7 @@ img.clanEmblem {
   background: #ece1d0;
   border: 1px solid var(--border-strong);
   object-fit: contain;
-  padding: 8px;
+  padding: var(--emblem-padding);
 }
 
 .clanEmblemFallback {
@@ -1705,7 +1700,7 @@ img.clanEmblem {
   color: var(--accent-strong);
   display: flex;
   font-family: var(--font-mono);
-  font-size: 16px;
+  font-size: var(--emblem-fallback-font);
   font-weight: 700;
   justify-content: center;
   letter-spacing: 0.03em;

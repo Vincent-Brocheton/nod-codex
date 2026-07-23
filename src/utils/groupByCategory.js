@@ -12,11 +12,14 @@ const FALLBACK_CATEGORY = "Autres";
  */
 export default function groupByCategory(items, groupProperty) {
 
-    function categoryOf(item) {
-        return selectPropertyValue(item, groupProperty) || FALLBACK_CATEGORY;
-    }
+    // Résolue une fois par fiche plutôt qu'une fois par catégorie testée
+    // (le filtre plus bas la redemandait pour chaque fiche à chaque
+    // catégorie, un travail redondant sur des propriétés statiques).
+    const categoryByItem = new Map(
+        items.map((item) => [item, selectPropertyValue(item, groupProperty) || FALLBACK_CATEGORY])
+    );
 
-    const usedCategories = [...new Set(items.map(categoryOf))];
+    const usedCategories = [...new Set(categoryByItem.values())];
 
     const orderedCategories = [
         ...usedCategories
@@ -28,6 +31,6 @@ export default function groupByCategory(items, groupProperty) {
     return orderedCategories.map((category) => ({
         key: category,
         label: category,
-        items: items.filter((item) => categoryOf(item) === category),
+        items: items.filter((item) => categoryByItem.get(item) === category),
     }));
 }

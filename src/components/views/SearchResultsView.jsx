@@ -2,6 +2,15 @@ import { Link } from "react-router-dom";
 import { FileText, Search } from "lucide-react";
 import LoadingState from "../States/LoadingState";
 import collectionNavPath from "../../utils/collectionNavPath";
+import { isLearnable } from "../../utils/techniques";
+
+// Une technique dont un prérequis ne résout à aucune discipline existante
+// n'est pas apprenable et est déjà exclue de la liste générale et des
+// fiches Discipline (voir isLearnable) : elle ne doit pas non plus rester
+// trouvable par la recherche globale, seul chemin qui y menait encore.
+function isSearchable(item) {
+    return item.collectionKey !== "techniques" || isLearnable(item);
+}
 
 function groupByCollection(results) {
     const groups = [];
@@ -27,7 +36,8 @@ export default function SearchResultsView({ wiki }) {
     const { query, setQuery } = wiki.search;
     const { results, loading } = wiki.globalSearch;
 
-    const groups = groupByCollection(results);
+    const searchableResults = results.filter(isSearchable);
+    const groups = groupByCollection(searchableResults);
 
     return (
         <div className="pageArea">
@@ -49,7 +59,7 @@ export default function SearchResultsView({ wiki }) {
                 ) : (
                     <>
                         <p className="indexIntro">
-                            {results.length} résultat{results.length > 1 ? "s" : ""}.
+                            {searchableResults.length} résultat{searchableResults.length > 1 ? "s" : ""}.
                         </p>
 
                         {groups.map((group) => (
@@ -74,7 +84,7 @@ export default function SearchResultsView({ wiki }) {
                             </div>
                         ))}
 
-                        {results.length === 0 ? (
+                        {searchableResults.length === 0 ? (
                             <p className="empty">Aucun résultat pour cette recherche.</p>
                         ) : null}
                     </>

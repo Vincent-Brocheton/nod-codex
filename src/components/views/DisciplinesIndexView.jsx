@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight, Search } from "lucide-react";
 import LoadingState from "../States/LoadingState";
@@ -6,6 +6,7 @@ import IndexPageHeader from "../IndexPageHeader";
 import disciplineIcon from "../../utils/disciplineIcon";
 import { powersForDiscipline } from "../../utils/disciplinePowers";
 import groupByCategory from "../../utils/groupByCategory";
+import useTitleFilter from "../../utils/useTitleFilter";
 
 /**
  * Page d'index des Disciplines : liste illustrée (icône générique par
@@ -40,8 +41,6 @@ export default function DisciplinesIndexView({ wiki }) {
     const { loadedCollections, computed } = wiki.collections;
     const { loading } = computed;
 
-    const [query, setQuery] = useState("");
-
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
     const powers = loadedCollections.pouvoirs;
@@ -51,20 +50,16 @@ export default function DisciplinesIndexView({ wiki }) {
         return powersForDiscipline(powers, slug).length + powersForDiscipline(powersAnciens, slug).length;
     }
 
-    function sortItems(list) {
-        return [...list].sort((a, b) => a.title.localeCompare(b.title, "fr"));
-    }
+    const { query, setQuery, filtered } = useTitleFilter(collection?.items || []);
 
-    const allItems = collection?.items || [];
+    // Regroupement + tri recalculés à chaque frappe sinon (la liste ne
+    // change qu'avec `filtered`, pas à chaque rendu du composant).
+    const groups = useMemo(() => {
+        const sortItems = (list) => [...list].sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
-    const normalizedQuery = query.trim().toLowerCase();
-
-    const filtered = allItems.filter((item) =>
-        item.title.toLowerCase().includes(normalizedQuery)
-    );
-
-    const groups = orderByTypePriority(groupByCategory(filtered, "Type"))
-        .map((group) => ({ ...group, items: sortItems(group.items) }));
+        return orderByTypePriority(groupByCategory(filtered, "Type"))
+            .map((group) => ({ ...group, items: sortItems(group.items) }));
+    }, [filtered]);
 
     return (
         <section className="pageView indexView">

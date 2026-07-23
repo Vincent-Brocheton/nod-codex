@@ -1,9 +1,9 @@
-import { useState } from "react";
 import { Link } from "react-router-dom";
 import { ChevronRight, Search } from "lucide-react";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
 import skillIcon from "../../utils/skillIcon";
+import useTitleFilter from "../../utils/useTitleFilter";
 
 /**
  * Page d'index des Compétences : recherche par nom + icône thématique par
@@ -17,15 +17,11 @@ export default function CompetencesIndexView({ wiki }) {
     const { loadedCollections, computed } = wiki.collections;
     const { loading } = computed;
 
-    const [query, setQuery] = useState("");
-
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
 
-    const normalizedQuery = query.trim().toLowerCase();
-    const items = (collection?.items || [])
-        .filter((item) => item.title.toLowerCase().includes(normalizedQuery))
-        .sort((a, b) => a.title.localeCompare(b.title, "fr"));
+    const { query, setQuery, filtered } = useTitleFilter(collection?.items || []);
+    const items = [...filtered].sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
     return (
         <section className="pageView indexView">

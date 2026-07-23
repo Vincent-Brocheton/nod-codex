@@ -1,10 +1,11 @@
-import { useState } from "react";
+import { useMemo } from "react";
 import { Link } from "react-router-dom";
 import { Feather, Search } from "lucide-react";
 import AppIcon from "../AppIcon";
 import IndexPageHeader from "../IndexPageHeader";
 import LoadingState from "../States/LoadingState";
 import { isLearnable, techniquePrereqText } from "../../utils/techniques";
+import useTitleFilter from "../../utils/useTitleFilter";
 
 /**
  * Page d'index des Techniques : recherche par nom, triée alphabétiquement
@@ -23,17 +24,15 @@ export default function TechniquesIndexView({ wiki }) {
     const { loadedCollections, computed } = wiki.collections;
     const { loading } = computed;
 
-    const [query, setQuery] = useState("");
-
     const collectionKey = activeNavigation.collections[0];
     const collection = loadedCollections[collectionKey];
-    const allItems = (collection?.items || []).filter(isLearnable);
+    const allItems = useMemo(
+        () => (collection?.items || []).filter(isLearnable),
+        [collection]
+    );
 
-    const normalizedQuery = query.trim().toLowerCase();
-
-    const items = allItems
-        .filter((item) => item.title.toLowerCase().includes(normalizedQuery))
-        .sort((a, b) => a.title.localeCompare(b.title, "fr"));
+    const { query, setQuery, filtered } = useTitleFilter(allItems);
+    const items = [...filtered].sort((a, b) => a.title.localeCompare(b.title, "fr"));
 
     return (
         <section className="pageView indexView">
