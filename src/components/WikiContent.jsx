@@ -8,6 +8,7 @@ import RulesIndexView from "./views/RulesIndexView";
 import ClansIndexView from "./views/ClansIndexView";
 import DisciplinesIndexView from "./views/DisciplinesIndexView";
 import TechniquesIndexView from "./views/TechniquesIndexView";
+import CompetencesIndexView from "./views/CompetencesIndexView";
 import SectionIndexView from "./views/SectionIndexView";
 import SearchResultsView from "./views/SearchResultsView";
 import PageRenderer from "./PageRenderer";
@@ -85,7 +86,7 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
     if (activeNavigation.view === "competences" && !slug) {
         return (
             <div className="pageArea">
-                <SectionIndexView wiki={wiki} />
+                <CompetencesIndexView wiki={wiki} />
             </div>
         );
     }
