@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-23T13:37:15.538Z",
+  "generatedAt": "2026-07-23T15:30:49.558Z",
   "collections": [
     {
       "key": "disciplines",
@@ -105,6 +105,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Gestion de la Génération",
+      "slug": "gestion-de-la-generation",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-07-23T15:30:00.000Z"
+    },
+    {
+      "title": "Un vampire peut-il fusionner du sang avec du vin et de la nourriture? ",
+      "slug": "un-vampire-peut-il-fusionner-du-sang-avec-du-vin-et-de-la-nourriture",
+      "collectionKey": "faq",
+      "collectionLabel": "FAQ",
+      "path": "/faq",
+      "icon": "help-circle",
+      "lastEditedTime": "2026-07-23T15:24:00.000Z"
+    },
     {
       "title": "Influences",
       "slug": "influences",
@@ -261,24 +279,6 @@
     {
       "title": "Voie des Cendres",
       "slug": "voie-des-cendres",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Voie des Ossements",
-      "slug": "voie-des-ossements",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Voie des Vents du Chasseur",
-      "slug": "voie-des-vents-du-chasseur",
       "collectionKey": "disciplines",
       "collectionLabel": "Disciplines",
       "path": "/disciplines",
