@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-23T15:30:49.538Z",
+  "generatedAt": "2026-07-23T15:41:29.707Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -10394,7 +10394,7 @@
       "slug": "gestion-de-la-generation",
       "title": "Gestion de la Génération",
       "notionUrl": "https://app.notion.com/p/Gestion-de-la-G-n-ration-3a688b48e48e80b6aa43f62dcbf965ea",
-      "lastEditedTime": "2026-07-23T15:30:00.000Z",
+      "lastEditedTime": "2026-07-23T15:38:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -10439,7 +10439,7 @@
               "+3"
             ],
             [
-              "Ancien Maître",
+              "Ancien",
               "7e",
               "20",
               "4",
@@ -10452,6 +10452,1154 @@
               "5",
               "+5"
             ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Nouveau-né",
+          "spans": [
+            {
+              "text": "Nouveau-né",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nouveaux-nés possèdent un Sang à la puissance encore faible. Ils sont généralement des vampires récemment Étreints et demeurent, de ce fait, les plus proches du monde moderne.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Nouveaux-nés",
+              "bold": true
+            },
+            {
+              "text": " possèdent un Sang à la puissance encore faible. Ils sont généralement des vampires récemment Étreints et demeurent, de ce fait, les plus proches du monde moderne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur vitae est trop diluée pour leur permettre de développer les plus puissants pouvoirs des Anciens. En revanche, cette faible concentration de Sang leur confère une grande souplesse, leur permettant d'apprendre et d'utiliser plus facilement les Techniques.",
+          "spans": [
+            {
+              "text": "Leur vitae est trop diluée pour leur permettre de développer les plus puissants pouvoirs des Anciens. En revanche, cette faible concentration de Sang leur confère une grande souplesse, leur permettant d'apprendre et d'utiliser plus facilement les ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec 1 point en Génération, le personnage appartient à la 11ᵉ génération.",
+          "spans": [
+            {
+              "text": "Avec ",
+              "bold": false
+            },
+            {
+              "text": "1 point en Génération",
+              "bold": true
+            },
+            {
+              "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "11ᵉ génération",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le joueur peut choisir de prendre un ou plusieurs Handicaps afin de réduire sa génération d'un ou deux degrés (12ᵉ ou 13ᵉ génération). Ces générations sont également considérées comme des Nouveaux-nés.",
+          "spans": [
+            {
+              "text": "Le joueur peut choisir de prendre un ou plusieurs Handicaps afin de réduire sa génération d'un ou deux degrés (12ᵉ ou 13ᵉ génération). Ces générations sont également considérées comme des ",
+              "bold": false
+            },
+            {
+              "text": "Nouveaux-nés",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Nouveau-né possède :",
+          "spans": [
+            {
+              "text": "Un Nouveau-né possède :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 10 ;",
+          "spans": [
+            {
+              "text": "une ",
+              "bold": false
+            },
+            {
+              "text": "Réserve de Sang de 10",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 1 point de Sang par tour.",
+          "spans": [
+            {
+              "text": "peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Sang par tour",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Nouveaux-nés peuvent apprendre autant de Techniques qu'ils le souhaitent, au coût normal.",
+          "spans": [
+            {
+              "text": "Les Nouveaux-nés peuvent apprendre autant de ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": " qu'ils le souhaitent, au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils bénéficient également d'un apprentissage plus rapide des Compétences et des Historiques, qui s'achètent au coût de :",
+          "spans": [
+            {
+              "text": "Ils bénéficient également d'un apprentissage plus rapide des ",
+              "bold": false
+            },
+            {
+              "text": "Compétences",
+              "bold": true
+            },
+            {
+              "text": " et des ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": ", qui s'achètent au coût de :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nouveau niveau × 1",
+          "spans": [
+            {
+              "text": "Nouveau niveau × 1",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "au lieu du coût habituel :",
+          "spans": [
+            {
+              "text": "au lieu du coût habituel :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nouveau niveau × 2.",
+          "spans": [
+            {
+              "text": "Nouveau niveau × 2",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Ancilla",
+          "spans": [
+            {
+              "text": "Ancilla",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Sang d'une Ancilla est plus puissant que celui d'un Nouveau-né, mais demeure insuffisamment concentré pour maîtriser pleinement les pouvoirs des Anciens.",
+          "spans": [
+            {
+              "text": "Le Sang d'une ",
+              "bold": false
+            },
+            {
+              "text": "Ancilla",
+              "bold": true
+            },
+            {
+              "text": " est plus puissant que celui d'un Nouveau-né, mais demeure insuffisamment concentré pour maîtriser pleinement les pouvoirs des Anciens.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ancillae conservent cependant une vitae suffisamment souple pour apprendre et utiliser les Techniques.",
+          "spans": [
+            {
+              "text": "Les Ancillae conservent cependant une vitae suffisamment souple pour apprendre et utiliser les ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces vampires sont généralement âgés de plusieurs décennies, voire de quelques siècles, et restent capables de s'adapter au monde moderne, bien qu'avec moins d'aisance que les Nouveaux-nés.",
+          "spans": [
+            {
+              "text": "Ces vampires sont généralement âgés de plusieurs décennies, voire de quelques siècles, et restent capables de s'adapter au monde moderne, bien qu'avec moins d'aisance que les Nouveaux-nés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec 2 points en Génération, le personnage appartient à la 9ᵉ génération.",
+          "spans": [
+            {
+              "text": "Avec ",
+              "bold": false
+            },
+            {
+              "text": "2 points en Génération",
+              "bold": true
+            },
+            {
+              "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "9ᵉ génération",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le joueur peut choisir un Handicap afin de réduire sa génération d'un degré (10ᵉ génération), qui reste considérée comme une Ancilla.",
+          "spans": [
+            {
+              "text": "Le joueur peut choisir un Handicap afin de réduire sa génération d'un degré (10ᵉ génération), qui reste considérée comme une ",
+              "bold": false
+            },
+            {
+              "text": "Ancilla",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Ancilla possède :",
+          "spans": [
+            {
+              "text": "Une Ancilla possède :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 12 ;",
+          "spans": [
+            {
+              "text": "une ",
+              "bold": false
+            },
+            {
+              "text": "Réserve de Sang de 12",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 2 points de Sang par tour.",
+          "spans": [
+            {
+              "text": "peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "2 points de Sang par tour",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ancillae peuvent apprendre autant de Techniques qu'elles le souhaitent, au coût normal.",
+          "spans": [
+            {
+              "text": "Les Ancillae peuvent apprendre autant de ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": " qu'elles le souhaitent, au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Compétences et Historiques sont acquis au coût normal.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Compétences",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": " sont acquis au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Ancien Prétendant",
+          "spans": [
+            {
+              "text": "Ancien Prétendant",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Anciens Prétendants possèdent une vitae suffisamment puissante pour soutenir les premiers Pouvoirs d'Ancien, mais pas davantage.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Anciens Prétendants",
+              "bold": true
+            },
+            {
+              "text": " possèdent une vitae suffisamment puissante pour soutenir les premiers ",
+              "bold": false
+            },
+            {
+              "text": "Pouvoirs d'Ancien",
+              "bold": true
+            },
+            {
+              "text": ", mais pas davantage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À ce stade, leur Sang conserve encore une certaine souplesse, leur permettant de continuer à apprendre des Techniques, bien que plus difficilement que les générations plus faibles.",
+          "spans": [
+            {
+              "text": "À ce stade, leur Sang conserve encore une certaine souplesse, leur permettant de continuer à apprendre des ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": ", bien que plus difficilement que les générations plus faibles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart de ces vampires sont âgés de plusieurs siècles.",
+          "spans": [
+            {
+              "text": "La plupart de ces vampires sont âgés de plusieurs siècles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec 3 points en Génération, le personnage appartient à la 8ᵉ génération.",
+          "spans": [
+            {
+              "text": "Avec ",
+              "bold": false
+            },
+            {
+              "text": "3 points en Génération",
+              "bold": true
+            },
+            {
+              "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "8ᵉ génération",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Ancien Prétendant possède :",
+          "spans": [
+            {
+              "text": "Un Ancien Prétendant possède :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 15 ;",
+          "spans": [
+            {
+              "text": "une ",
+              "bold": false
+            },
+            {
+              "text": "Réserve de Sang de 15",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 3 points de Sang par tour.",
+          "spans": [
+            {
+              "text": "peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "3 points de Sang par tour",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut :",
+          "spans": [
+            {
+              "text": "Il peut :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "apprendre autant de Techniques qu'il le souhaite, mais chacune coûte 20 PX ;",
+          "spans": [
+            {
+              "text": "apprendre autant de ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": " qu'il le souhaite, mais chacune coûte ",
+              "bold": false
+            },
+            {
+              "text": "20 PX",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "apprendre un seul Pouvoir d'Ancien, qu'il soit de clan ou hors clan, au coût normal.",
+          "spans": [
+            {
+              "text": "apprendre ",
+              "bold": false
+            },
+            {
+              "text": "un seul Pouvoir d'Ancien",
+              "bold": true
+            },
+            {
+              "text": ", qu'il soit de clan ou hors clan, au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Compétences et Historiques sont acquis au coût normal.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Compétences",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": " sont acquis au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Ancien",
+          "spans": [
+            {
+              "text": "Ancien",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Anciens Maîtres figurent parmi les plus puissants représentants de leur clan.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Anciens Maîtres",
+              "bold": true
+            },
+            {
+              "text": " figurent parmi les plus puissants représentants de leur clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur Sang est devenu extrêmement concentré et suffisamment pur pour maîtriser plusieurs Pouvoirs d'Ancien.",
+          "spans": [
+            {
+              "text": "Leur Sang est devenu extrêmement concentré et suffisamment pur pour maîtriser plusieurs ",
+              "bold": false
+            },
+            {
+              "text": "Pouvoirs d'Ancien",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En contrepartie, cette puissance rend leur vitae rigide et moins adaptable. Ils ne sont plus capables d'apprendre de nouvelles Techniques.",
+          "spans": [
+            {
+              "text": "En contrepartie, cette puissance rend leur vitae rigide et moins adaptable. Ils ne sont plus capables d'apprendre de nouvelles ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec 4 points en Génération, le personnage appartient à la 7ᵉ génération.",
+          "spans": [
+            {
+              "text": "Avec ",
+              "bold": false
+            },
+            {
+              "text": "4 points en Génération",
+              "bold": true
+            },
+            {
+              "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "7ᵉ génération",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Ancien Maître possède :",
+          "spans": [
+            {
+              "text": "Un Ancien Maître possède :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 20 ;",
+          "spans": [
+            {
+              "text": "une ",
+              "bold": false
+            },
+            {
+              "text": "Réserve de Sang de 20",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 4 points de Sang par tour.",
+          "spans": [
+            {
+              "text": "peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "4 points de Sang par tour",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut apprendre autant de Pouvoirs d'Ancien qu'il le souhaite, qu'ils soient de clan ou hors clan.",
+          "spans": [
+            {
+              "text": "Il peut apprendre autant de ",
+              "bold": false
+            },
+            {
+              "text": "Pouvoirs d'Ancien",
+              "bold": true
+            },
+            {
+              "text": " qu'il le souhaite, qu'ils soient de clan ou hors clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, il ne peut plus acquérir de Techniques.",
+          "spans": [
+            {
+              "text": "En revanche, il ne peut plus acquérir de ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Compétences et Historiques sont acquis au coût normal.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Compétences",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": " sont acquis au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Ancien Luminaire",
+          "spans": [
+            {
+              "text": "Ancien Luminaire",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Anciens Luminaires comptent parmi les créatures les plus redoutables du Monde des Ténèbres.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Anciens Luminaires",
+              "bold": true
+            },
+            {
+              "text": " comptent parmi les créatures les plus redoutables du Monde des Ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur Sang est extraordinairement pur et puissant, rappelant celui des antiques fondateurs de leurs lignées.",
+          "spans": [
+            {
+              "text": "Leur Sang est extraordinairement pur et puissant, rappelant celui des antiques fondateurs de leurs lignées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette puissance leur permet de maîtriser sans difficulté les Pouvoirs d'Ancien, mais la pureté de leur vitae les rend beaucoup moins réceptifs aux Disciplines étrangères à leur clan.",
+          "spans": [
+            {
+              "text": "Cette puissance leur permet de maîtriser sans difficulté les ",
+              "bold": false
+            },
+            {
+              "text": "Pouvoirs d'Ancien",
+              "bold": true
+            },
+            {
+              "text": ", mais la pureté de leur vitae les rend beaucoup moins réceptifs aux Disciplines étrangères à leur clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec 5 points en Génération, le personnage appartient à la 6ᵉ génération.",
+          "spans": [
+            {
+              "text": "Avec ",
+              "bold": false
+            },
+            {
+              "text": "5 points en Génération",
+              "bold": true
+            },
+            {
+              "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "6ᵉ génération",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Ancien Luminaire possède :",
+          "spans": [
+            {
+              "text": "Un Ancien Luminaire possède :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Réserve de Sang de 30 ;",
+          "spans": [
+            {
+              "text": "une ",
+              "bold": false
+            },
+            {
+              "text": "Réserve de Sang de 30",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "peut dépenser 5 points de Sang par tour.",
+          "spans": [
+            {
+              "text": "peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "5 points de Sang par tour",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut apprendre autant de Pouvoirs d'Ancien qu'il le souhaite, qu'ils soient de clan ou hors clan.",
+          "spans": [
+            {
+              "text": "Il peut apprendre autant de ",
+              "bold": false
+            },
+            {
+              "text": "Pouvoirs d'Ancien",
+              "bold": true
+            },
+            {
+              "text": " qu'il le souhaite, qu'ils soient de clan ou hors clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut également développer toutes ses Compétences jusqu'au niveau 6.",
+          "spans": [
+            {
+              "text": "Il peut également développer toutes ses ",
+              "bold": false
+            },
+            {
+              "text": "Compétences jusqu'au niveau 6",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche :",
+          "spans": [
+            {
+              "text": "En revanche :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "il ne peut plus apprendre de Techniques ;",
+          "spans": [
+            {
+              "text": "il ne peut plus apprendre de ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "toutes les Disciplines hors clan, y compris les Pouvoirs d'Ancien, lui coûtent davantage d'expérience.",
+          "spans": [
+            {
+              "text": "toutes les ",
+              "bold": false
+            },
+            {
+              "text": "Disciplines hors clan",
+              "bold": true
+            },
+            {
+              "text": ", y compris les Pouvoirs d'Ancien, lui coûtent davantage d'expérience.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le coût d'une Discipline hors clan devient :",
+          "spans": [
+            {
+              "text": "Le coût d'une Discipline hors clan devient :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nouveau niveau × 5",
+          "spans": [
+            {
+              "text": "Nouveau niveau × 5",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "au lieu du coût habituel de :",
+          "spans": [
+            {
+              "text": "au lieu du coût habituel de :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Nouveau niveau × 4.",
+          "spans": [
+            {
+              "text": "Nouveau niveau × 4",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Compétences et Historiques sont acquis au coût normal.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Compétences",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": " sont acquis au coût normal.",
+              "bold": false
+            }
           ]
         }
       ]
@@ -11164,7 +12312,7 @@
       "slug": "l-experience",
       "title": "L’Expérience",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-07-23T13:29:00.000Z",
+      "lastEditedTime": "2026-07-23T15:41:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -11239,6 +12387,10 @@
             [
               "Rituel de Thaumaturgie ou de Nécromancie",
               "Niveau du rituel × 2 XP"
+            ],
+            [
+              "Racheter un Handicap",
+              "2XP x le nombre de points que celui ci a couté"
             ]
           ]
         },
