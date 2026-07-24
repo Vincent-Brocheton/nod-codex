@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-23T15:41:29.707Z",
+  "generatedAt": "2026-07-24T11:12:01.545Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -22,7 +22,8 @@
       "Equipement",
       "Création de personnage",
       "Coteries",
-      "Divers"
+      "Divers",
+      "Gestion de la Fiche"
     ]
   },
   "items": [
@@ -16229,6 +16230,1457 @@
           "spans": [
             {
               "text": "Un PJ contact un conteur via son canal RP soumettant la demande nécessitant l’approbation. Dans la plupart des cas cela concerne des choses de la création de personnage et donc un conteur sera déjà présent. Cependant, il n’est pas impossible que cela arrive sur des actions ou autre.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-8059-90ec-fb340a88e0d6",
+      "slug": "onglet-allies",
+      "title": "Onglet Alliés",
+      "notionUrl": "https://app.notion.com/p/Onglet-Alli-s-3a788b48e48e805990ecfb340a88e0d6",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Alliés"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Alliés permet de gérer l'ensemble des Alliés de votre personnage. Un Allié représente une personne de confiance capable d'agir pour votre compte grâce à ses compétences, son réseau et son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Alliés",
+              "bold": true
+            },
+            {
+              "text": " permet de gérer l'ensemble des Alliés de votre personnage. Un Allié représente une personne de confiance capable d'agir pour votre compte grâce à ses compétences, son réseau et son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Allié dispose de sa propre fiche, regroupant les informations nécessaires à son utilisation en jeu.",
+          "spans": [
+            {
+              "text": "Chaque Allié dispose de sa propre fiche, regroupant les informations nécessaires à son utilisation en jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son nom.",
+          "spans": [
+            {
+              "text": "Son nom",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son niveau, représentant son importance et ses capacités.",
+          "spans": [
+            {
+              "text": "Son niveau",
+              "bold": true
+            },
+            {
+              "text": ", représentant son importance et ses capacités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son type, permettant d'identifier la nature de la relation (ami, informateur, fonctionnaire, criminel, médecin, etc.).",
+          "spans": [
+            {
+              "text": "Son type",
+              "bold": true
+            },
+            {
+              "text": ", permettant d'identifier la nature de la relation (ami, informateur, fonctionnaire, criminel, médecin, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une description, rappelant son identité, son rôle ou son histoire.",
+          "spans": [
+            {
+              "text": "Une description",
+              "bold": true
+            },
+            {
+              "text": ", rappelant son identité, son rôle ou son histoire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son ou ses domaines d'expertise, qui déterminent les actions qu'il peut accomplir.",
+          "spans": [
+            {
+              "text": "Son ou ses domaines d'expertise",
+              "bold": true
+            },
+            {
+              "text": ", qui déterminent les actions qu'il peut accomplir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'onglet permet également de suivre l'ensemble des compétences propres à chaque Allié :",
+          "spans": [
+            {
+              "text": "L'onglet permet également de suivre l'ensemble des compétences propres à chaque Allié :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Double expertise, lui donnant accès à un second domaine d'expertise.",
+          "spans": [
+            {
+              "text": "Double expertise",
+              "bold": true
+            },
+            {
+              "text": ", lui donnant accès à un second domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Contact, lui permettant de fournir des informations de contact en jeu.",
+          "spans": [
+            {
+              "text": "Contact",
+              "bold": true
+            },
+            {
+              "text": ", lui permettant de fournir des informations de contact en jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Nocturne, lui permettant d'agir pendant les nuits de partie.",
+          "spans": [
+            {
+              "text": "Nocturne",
+              "bold": true
+            },
+            {
+              "text": ", lui permettant d'agir pendant les nuits de partie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Influent, donnant accès aux Actions d'Influence entre les sessions.",
+          "spans": [
+            {
+              "text": "Influent",
+              "bold": true
+            },
+            {
+              "text": ", donnant accès aux Actions d'Influence entre les sessions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Expert, lui permettant de réaliser des actions d'Influence plus puissantes dans son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "Expert",
+              "bold": true
+            },
+            {
+              "text": ", lui permettant de réaliser des actions d'Influence plus puissantes dans son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Remplaçable, facilitant son remplacement en cas de disparition.",
+          "spans": [
+            {
+              "text": "Remplaçable",
+              "bold": true
+            },
+            {
+              "text": ", facilitant son remplacement en cas de disparition.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ressources, augmentant les bénéfices financiers qu'il peut générer.",
+          "spans": [
+            {
+              "text": "Ressources",
+              "bold": true
+            },
+            {
+              "text": ", augmentant les bénéfices financiers qu'il peut générer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sécurité, améliorant sa protection ainsi que son efficacité lors des actions offensives ou défensives.",
+          "spans": [
+            {
+              "text": "Sécurité",
+              "bold": true
+            },
+            {
+              "text": ", améliorant sa protection ainsi que son efficacité lors des actions offensives ou défensives.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet offre une vue d'ensemble de tous les Alliés du personnage et de leurs capacités. Il facilite leur gestion entre les parties et permet d'identifier rapidement lequel est le plus adapté à chaque AIP ou situation rencontrée au cours de la chronique.",
+          "spans": [
+            {
+              "text": "Cet onglet offre une vue d'ensemble de tous les Alliés du personnage et de leurs capacités. Il facilite leur gestion entre les parties et permet d'identifier rapidement lequel est le plus adapté à chaque AIP ou situation rencontrée au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-8097-a18d-dee3ec92533e",
+      "slug": "onglet-equipement",
+      "title": "Onglet Equipement",
+      "notionUrl": "https://app.notion.com/p/Onglet-Equipement-3a788b48e48e8097a18ddee3ec92533e",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Equipement"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Équipement permet de gérer l'ensemble des objets possédés par votre personnage au cours de la chronique.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Équipement",
+              "bold": true
+            },
+            {
+              "text": " permet de gérer l'ensemble des objets possédés par votre personnage au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque objet dispose de sa propre fiche permettant d'en détailler les caractéristiques, sa qualité et son utilisation en jeu.",
+          "spans": [
+            {
+              "text": "Chaque objet dispose de sa propre fiche permettant d'en détailler les caractéristiques, sa qualité et son utilisation en jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le nom de l'objet.",
+          "spans": [
+            {
+              "text": "Le nom",
+              "bold": true
+            },
+            {
+              "text": " de l'objet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sa quantité, lorsqu'il est possédé en plusieurs exemplaires.",
+          "spans": [
+            {
+              "text": "Sa quantité",
+              "bold": true
+            },
+            {
+              "text": ", lorsqu'il est possédé en plusieurs exemplaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son type, permettant de le classer (arme, protection, outil, œuvre d'art, véhicule, objet occulte, etc.).",
+          "spans": [
+            {
+              "text": "Son type",
+              "bold": true
+            },
+            {
+              "text": ", permettant de le classer (arme, protection, outil, œuvre d'art, véhicule, objet occulte, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sa description, afin de conserver les informations importantes le concernant.",
+          "spans": [
+            {
+              "text": "Sa description",
+              "bold": true
+            },
+            {
+              "text": ", afin de conserver les informations importantes le concernant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son ou ses niveaux de qualité, représentant les éventuelles améliorations ou propriétés particulières de l'objet.",
+          "spans": [
+            {
+              "text": "Son ou ses niveaux de qualité",
+              "bold": true
+            },
+            {
+              "text": ", représentant les éventuelles améliorations ou propriétés particulières de l'objet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains objets peuvent également être identifiés comme :",
+          "spans": [
+            {
+              "text": "Certains objets peuvent également être identifiés comme :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Œuvre d'art, lorsqu'ils présentent une valeur artistique particulière.",
+          "spans": [
+            {
+              "text": "Œuvre d'art",
+              "bold": true
+            },
+            {
+              "text": ", lorsqu'ils présentent une valeur artistique particulière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Antiquité, lorsqu'ils possèdent une valeur historique ou patrimoniale importante.",
+          "spans": [
+            {
+              "text": "Antiquité",
+              "bold": true
+            },
+            {
+              "text": ", lorsqu'ils possèdent une valeur historique ou patrimoniale importante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet permet de conserver un inventaire clair et organisé du matériel de votre personnage, qu'il s'agisse d'équipements courants, d'objets rares, de trésors, d'artefacts ou de possessions acquises au fil de la chronique. Il facilite également le suivi de leurs caractéristiques et de leurs éventuelles améliorations.",
+          "spans": [
+            {
+              "text": "Cet onglet permet de conserver un inventaire clair et organisé du matériel de votre personnage, qu'il s'agisse d'équipements courants, d'objets rares, de trésors, d'artefacts ou de possessions acquises au fil de la chronique. Il facilite également le suivi de leurs caractéristiques et de leurs éventuelles améliorations.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-8039-8ca2-c4774363afd3",
+      "slug": "onglet-historique",
+      "title": "Onglet Historique",
+      "notionUrl": "https://app.notion.com/p/Onglet-Historique-3a788b48e48e80398ca2c4774363afd3",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Historique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Historiques regroupe l'ensemble des ressources, possessions, réseaux et avantages permanents de votre personnage. Il permet de suivre tous les éléments extérieurs à ses capacités personnelles qui peuvent l'aider au cours de la chronique.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Historiques",
+              "bold": true
+            },
+            {
+              "text": " regroupe l'ensemble des ressources, possessions, réseaux et avantages permanents de votre personnage. Il permet de suivre tous les éléments extérieurs à ses capacités personnelles qui peuvent l'aider au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Havres, avec leurs différents avantages et aménagements.",
+          "spans": [
+            {
+              "text": "Les Havres",
+              "bold": true
+            },
+            {
+              "text": ", avec leurs différents avantages et aménagements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La Génération, ainsi que les informations liées à votre puissance de Sang.",
+          "spans": [
+            {
+              "text": "La Génération",
+              "bold": true
+            },
+            {
+              "text": ", ainsi que les informations liées à votre puissance de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Ressources, permettant de suivre votre niveau de richesse ainsi que le montant d'argent liquide disponible chaque mois.",
+          "spans": [
+            {
+              "text": "Les Ressources",
+              "bold": true
+            },
+            {
+              "text": ", permettant de suivre votre niveau de richesse ainsi que le montant d'argent liquide disponible chaque mois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La Renommée, représentant la réputation de votre personnage dans le Monde des Ténèbres.",
+          "spans": [
+            {
+              "text": "La Renommée",
+              "bold": true
+            },
+            {
+              "text": ", représentant la réputation de votre personnage dans le Monde des Ténèbres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Fausses Identités, utilisées pour évoluer dans le monde des mortels sous différentes couvertures.",
+          "spans": [
+            {
+              "text": "Les Fausses Identités",
+              "bold": true
+            },
+            {
+              "text": ", utilisées pour évoluer dans le monde des mortels sous différentes couvertures.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le Troupeau, regroupant les mortels dont votre personnage se nourrit régulièrement.",
+          "spans": [
+            {
+              "text": "Le Troupeau",
+              "bold": true
+            },
+            {
+              "text": ", regroupant les mortels dont votre personnage se nourrit régulièrement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet permet également de gérer certains éléments spécifiques à la chronique, tels que :",
+          "spans": [
+            {
+              "text": "Cet onglet permet également de gérer certains éléments spécifiques à la chronique, tels que :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Rituels Sabbatiques, lorsque votre personnage en possède.",
+          "spans": [
+            {
+              "text": "Les Rituels Sabbatiques",
+              "bold": true
+            },
+            {
+              "text": ", lorsque votre personnage en possède.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Historiques Partagés, représentant les ressources communes appartenant à plusieurs personnages (coterie, organisation, domaine, etc.).",
+          "spans": [
+            {
+              "text": "Les Historiques Partagés",
+              "bold": true
+            },
+            {
+              "text": ", représentant les ressources communes appartenant à plusieurs personnages (coterie, organisation, domaine, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ensemble de ces Historiques est directement utilisé par les différents systèmes de jeu (AIP, Influences, chasse, ressources, etc.) et évolue au fil de la chronique selon les actions de votre personnage.",
+          "spans": [
+            {
+              "text": "L'ensemble de ces Historiques est directement utilisé par les différents systèmes de jeu (AIP, Influences, chasse, ressources, etc.) et évolue au fil de la chronique selon les actions de votre personnage.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-8023-b96a-e42cb9ee72c3",
+      "slug": "onglet-mentorat",
+      "title": "Onglet Mentorat",
+      "notionUrl": "https://app.notion.com/p/Onglet-Mentorat-3a788b48e48e8023b96ae42cb9ee72c3",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Mentorat"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Mentorat permet de suivre l'ensemble des enseignements reçus par votre personnage au cours de la chronique.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Mentorat",
+              "bold": true
+            },
+            {
+              "text": " permet de suivre l'ensemble des enseignements reçus par votre personnage au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il centralise les informations nécessaires à la validation des apprentissages réalisés en jeu et garantit leur traçabilité auprès de l'équipe de Conteurs.",
+          "spans": [
+            {
+              "text": "Il centralise les informations nécessaires à la validation des apprentissages réalisés en jeu et garantit leur traçabilité auprès de l'équipe de Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les mentorats de Disciplines hors clan, qu'elles soient communes ou rares.",
+          "spans": [
+            {
+              "text": "Les mentorats de Disciplines hors clan",
+              "bold": true
+            },
+            {
+              "text": ", qu'elles soient communes ou rares.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les mentorats des spécialisations de la compétence Mystères.",
+          "spans": [
+            {
+              "text": "Les mentorats des spécialisations de la compétence Mystères",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque mentorat, la fiche permet d'enregistrer :",
+          "spans": [
+            {
+              "text": "Pour chaque mentorat, la fiche permet d'enregistrer :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la Discipline ou la Spécialisation de Mystères concernée ;",
+          "spans": [
+            {
+              "text": "la ",
+              "bold": false
+            },
+            {
+              "text": "Discipline",
+              "bold": true
+            },
+            {
+              "text": " ou la ",
+              "bold": false
+            },
+            {
+              "text": "Spécialisation de Mystères",
+              "bold": true
+            },
+            {
+              "text": " concernée ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le niveau enseigné ;",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "niveau",
+              "bold": true
+            },
+            {
+              "text": " enseigné ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le nom du mentor ;",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "nom du mentor",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la date à laquelle l'enseignement a eu lieu ;",
+          "spans": [
+            {
+              "text": "la ",
+              "bold": false
+            },
+            {
+              "text": "date",
+              "bold": true
+            },
+            {
+              "text": " à laquelle l'enseignement a eu lieu ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le Conteur valideur ;",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "Conteur valideur",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le nom du Conteur ayant validé l'apprentissage.",
+          "spans": [
+            {
+              "text": "le ",
+              "bold": false
+            },
+            {
+              "text": "nom du Conteur",
+              "bold": true
+            },
+            {
+              "text": " ayant validé l'apprentissage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet constitue un historique de la progression du personnage. Il permet de justifier l'acquisition des connaissances et pouvoirs nécessitant un mentorat, conformément aux règles de la chronique, tout en facilitant le suivi des validations réalisées par les Conteurs.",
+          "spans": [
+            {
+              "text": "Cet onglet constitue un historique de la progression du personnage. Il permet de justifier l'acquisition des connaissances et pouvoirs nécessitant un mentorat, conformément aux règles de la chronique, tout en facilitant le suivi des validations réalisées par les Conteurs.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-80f1-a0b9-ccde8f75522b",
+      "slug": "onglet-personnage",
+      "title": "Onglet Personnage",
+      "notionUrl": "https://app.notion.com/p/Onglet-Personnage-3a788b48e48e80f1a0b9ccde8f75522b",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Personnage"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Personnage rassemble l'ensemble des informations principales concernant votre personnage. Il constitue le cœur de votre fiche et permet de retrouver, en un seul endroit, ses caractéristiques, ses capacités et son évolution au cours de la chronique.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Personnage",
+              "bold": true
+            },
+            {
+              "text": " rassemble l'ensemble des informations principales concernant votre personnage. Il constitue le cœur de votre fiche et permet de retrouver, en un seul endroit, ses caractéristiques, ses capacités et son évolution au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les informations générales : identité, race, secte, clan ou lignée, génération, concept, archétype, voie d'éthique, dates importantes (naissance, Étreinte, création de la fiche...).",
+          "spans": [
+            {
+              "text": "Les informations générales",
+              "bold": true
+            },
+            {
+              "text": " : identité, race, secte, clan ou lignée, génération, concept, archétype, voie d'éthique, dates importantes (naissance, Étreinte, création de la fiche...).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le suivi du personnage : durée de jeu, temps passé en torpeur ou en tant que Goule, statut au sein du clan, notes personnelles et diverses informations de suivi.",
+          "spans": [
+            {
+              "text": "Le suivi du personnage",
+              "bold": true
+            },
+            {
+              "text": " : durée de jeu, temps passé en torpeur ou en tant que Goule, statut au sein du clan, notes personnelles et diverses informations de suivi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Atouts et Handicaps, ainsi que les Dérangements et les éventuels Liens de Sang.",
+          "spans": [
+            {
+              "text": "Les Atouts et Handicaps",
+              "bold": true
+            },
+            {
+              "text": ", ainsi que les Dérangements et les éventuels Liens de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Attributs, leur Focus, la Réserve de Sang, la Volonté et les différentes valeurs propres au personnage.",
+          "spans": [
+            {
+              "text": "Les Attributs",
+              "bold": true
+            },
+            {
+              "text": ", leur Focus, la Réserve de Sang, la Volonté et les différentes valeurs propres au personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Compétences, leurs spécialisations, les domaines de Science, les Mystères et les langues connues.",
+          "spans": [
+            {
+              "text": "Les Compétences",
+              "bold": true
+            },
+            {
+              "text": ", leurs spécialisations, les domaines de Science, les Mystères et les langues connues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Disciplines, Techniques et Rituels maîtrisés par le personnage.",
+          "spans": [
+            {
+              "text": "Les Disciplines",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Techniques",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Rituels",
+              "bold": true
+            },
+            {
+              "text": " maîtrisés par le personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet centralise également un grand nombre de calculs automatiques, comme les coûts d'expérience, les limites liées à la Génération ou encore certaines valeurs dérivées, afin de faciliter la gestion de votre personnage.",
+          "spans": [
+            {
+              "text": "Cet onglet centralise également un grand nombre de calculs automatiques, comme les coûts d'expérience, les limites liées à la Génération ou encore certaines valeurs dérivées, afin de faciliter la gestion de votre personnage.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-8006-be23-f25f3342c7f1",
+      "slug": "onglet-resume",
+      "title": "Onglet Résumé",
+      "notionUrl": "https://app.notion.com/p/Onglet-R-sum-3a788b48e48e8006be23f25f3342c7f1",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Résumé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Résumé regroupe, sur une ou deux pages, toutes les informations essentielles dont vous avez besoin pendant une partie.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Résumé",
+              "bold": true
+            },
+            {
+              "text": " regroupe, sur une ou deux pages, toutes les informations essentielles dont vous avez besoin pendant une partie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Conçu comme une véritable feuille de jeu, il rassemble les principales caractéristiques de votre personnage afin d'éviter de naviguer entre les différents onglets de la fiche.",
+          "spans": [
+            {
+              "text": "Conçu comme une véritable feuille de jeu, il rassemble les principales caractéristiques de votre personnage afin d'éviter de naviguer entre les différents onglets de la fiche.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Attributs, leur Focus ainsi que les principales caractéristiques du personnage.",
+          "spans": [
+            {
+              "text": "Les Attributs",
+              "bold": true
+            },
+            {
+              "text": ", leur Focus ainsi que les principales caractéristiques du personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Compétences, les domaines de Science, les Mystères, les Atouts, les Handicaps et les Disciplines.",
+          "spans": [
+            {
+              "text": "Les Compétences",
+              "bold": true
+            },
+            {
+              "text": ", les domaines de ",
+              "bold": false
+            },
+            {
+              "text": "Science",
+              "bold": true
+            },
+            {
+              "text": ", les ",
+              "bold": false
+            },
+            {
+              "text": "Mystères",
+              "bold": true
+            },
+            {
+              "text": ", les ",
+              "bold": false
+            },
+            {
+              "text": "Atouts",
+              "bold": true
+            },
+            {
+              "text": ", les ",
+              "bold": false
+            },
+            {
+              "text": "Handicaps",
+              "bold": true
+            },
+            {
+              "text": " et les ",
+              "bold": false
+            },
+            {
+              "text": "Disciplines",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Techniques et Rituels maîtrisés.",
+          "spans": [
+            {
+              "text": "Les Techniques",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Rituels",
+              "bold": true
+            },
+            {
+              "text": " maîtrisés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les ressources de jeu, comme la Réserve de Sang, le Sang dépensable par tour, la Volonté, le score d'Éthique, les Traits de Bête, les Points de Folie et les langues connues.",
+          "spans": [
+            {
+              "text": "Les ressources de jeu",
+              "bold": true
+            },
+            {
+              "text": ", comme la Réserve de Sang, le Sang dépensable par tour, la Volonté, le score d'Éthique, les Traits de Bête, les Points de Folie et les langues connues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les éléments de contexte, tels que l'Archétype, les Dérangements, les Dons Infernaux, les spécialisations d'Artisanat ou de Représentation, ainsi que les précisions liées aux Atouts et Handicaps.",
+          "spans": [
+            {
+              "text": "Les éléments de contexte",
+              "bold": true
+            },
+            {
+              "text": ", tels que l'Archétype, les Dérangements, les Dons Infernaux, les spécialisations d'Artisanat ou de Représentation, ainsi que les précisions liées aux Atouts et Handicaps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les principaux Historiques, comme la Renommée, les Ressources, le Troupeau, les Fausses Identités et les Alliés.",
+          "spans": [
+            {
+              "text": "Les principaux Historiques",
+              "bold": true
+            },
+            {
+              "text": ", comme la Renommée, les Ressources, le Troupeau, les Fausses Identités et les Alliés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'onglet présente également l'ensemble des valeurs utiles lors des résolutions de jeu :",
+          "spans": [
+            {
+              "text": "L'onglet présente également l'ensemble des valeurs utiles lors des résolutions de jeu :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les scores d'Initiative ;",
+          "spans": [
+            {
+              "text": "les scores d'Initiative ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "les différents scores d'Attaque (tir, mêlée, lancer, combat à mains nues, armes archaïques) ;",
+          "spans": [
+            {
+              "text": "les différents scores d'Attaque (tir, mêlée, lancer, combat à mains nues, armes archaïques) ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le score d'Esquive.",
+          "spans": [
+            {
+              "text": "le score d'Esquive.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Enfin, cette feuille regroupe plusieurs outils indispensables pendant les scènes de jeu :",
+          "spans": [
+            {
+              "text": "Enfin, cette feuille regroupe plusieurs outils indispensables pendant les scènes de jeu :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les Manœuvres de combat, avec leur coût éventuel en Volonté.",
+          "spans": [
+            {
+              "text": "Les Manœuvres de combat",
+              "bold": true
+            },
+            {
+              "text": ", avec leur coût éventuel en Volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le suivi des Blessures, qu'elles soient normales ou aggravées.",
+          "spans": [
+            {
+              "text": "Le suivi des Blessures",
+              "bold": true
+            },
+            {
+              "text": ", qu'elles soient normales ou aggravées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une vue simplifiée des Serviteurs.",
+          "spans": [
+            {
+              "text": "Une vue simplifiée des Serviteurs",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Un inventaire rapide de l'Équipement.",
+          "spans": [
+            {
+              "text": "Un inventaire rapide de l'Équipement",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet est conçu pour être la feuille de référence pendant les parties. Il synthétise les informations les plus fréquemment utilisées afin de faciliter le jeu, tout en renvoyant vers les autres onglets pour les détails complets de chaque élément.",
+          "spans": [
+            {
+              "text": "Cet onglet est conçu pour être la ",
+              "bold": false
+            },
+            {
+              "text": "feuille de référence pendant les parties",
+              "bold": true
+            },
+            {
+              "text": ". Il synthétise les informations les plus fréquemment utilisées afin de faciliter le jeu, tout en renvoyant vers les autres onglets pour les détails complets de chaque élément.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3a788b48-e48e-80a5-904c-ff6c59abc657",
+      "slug": "onglet-serviteurs",
+      "title": "Onglet Serviteurs",
+      "notionUrl": "https://app.notion.com/p/Onglet-Serviteurs-3a788b48e48e80a5904cff6c59abc657",
+      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de la Fiche"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Onglet Serviteurs"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'onglet Serviteurs permet de gérer l'ensemble des personnes ou animaux fidèles qui assistent votre personnage dans ses activités.",
+          "spans": [
+            {
+              "text": "L'onglet ",
+              "bold": false
+            },
+            {
+              "text": "Serviteurs",
+              "bold": true
+            },
+            {
+              "text": " permet de gérer l'ensemble des personnes ou animaux fidèles qui assistent votre personnage dans ses activités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque serviteur dispose de sa propre fiche récapitulant ses principales caractéristiques, son niveau, son type, sa description ainsi que ses éventuelles spécialités.",
+          "spans": [
+            {
+              "text": "Chaque serviteur dispose de sa propre fiche récapitulant ses principales caractéristiques, son niveau, son type, sa description ainsi que ses éventuelles spécialités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous y retrouverez notamment :",
+          "spans": [
+            {
+              "text": "Vous y retrouverez notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le nom de chaque serviteur.",
+          "spans": [
+            {
+              "text": "Le nom",
+              "bold": true
+            },
+            {
+              "text": " de chaque serviteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son niveau, représentant sa compétence et son efficacité.",
+          "spans": [
+            {
+              "text": "Son niveau",
+              "bold": true
+            },
+            {
+              "text": ", représentant sa compétence et son efficacité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Son type (goule, humain, animal, créature particulière, etc.).",
+          "spans": [
+            {
+              "text": "Son type",
+              "bold": true
+            },
+            {
+              "text": " (goule, humain, animal, créature particulière, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une description, permettant de rappeler son identité, son rôle ou son histoire.",
+          "spans": [
+            {
+              "text": "Une description",
+              "bold": true
+            },
+            {
+              "text": ", permettant de rappeler son identité, son rôle ou son histoire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ses spécialités, qui définissent les domaines dans lesquels il excelle.",
+          "spans": [
+            {
+              "text": "Ses spécialités",
+              "bold": true
+            },
+            {
+              "text": ", qui définissent les domaines dans lesquels il excelle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les serviteurs animaux disposent d'une gestion spécifique permettant notamment de suivre leur disponibilité au cours de la chronique.",
+          "spans": [
+            {
+              "text": "Les serviteurs animaux disposent d'une gestion spécifique permettant notamment de suivre leur disponibilité au cours de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet onglet constitue un outil de suivi pour tous les serviteurs acquis par votre personnage, qu'ils proviennent d'un Historique, d'un Atout, d'une Discipline ou d'un événement de jeu. Il facilite leur gestion entre les parties et permet de conserver une vue d'ensemble de leurs capacités et de leur état.",
+          "spans": [
+            {
+              "text": "Cet onglet constitue un outil de suivi pour tous les serviteurs acquis par votre personnage, qu'ils proviennent d'un Historique, d'un Atout, d'une Discipline ou d'un événement de jeu. Il facilite leur gestion entre les parties et permet de conserver une vue d'ensemble de leurs capacités et de leur état.",
               "bold": false
             }
           ]
