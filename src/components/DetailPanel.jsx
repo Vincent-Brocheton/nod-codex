@@ -5,29 +5,29 @@ import ClanDetailView from "./views/ClanDetailView";
 import TechniqueDetailView from "./views/TechniqueDetailView";
 import LigneeDetailView from "./views/LigneeDetailView";
 
-export default function DetailPanel({ wiki, listCollapsed, onToggleListPane }) {
+export default function DetailPanel({ wiki }) {
 
     const { activeNavigation } = wiki.navigation;
 
     switch (activeNavigation?.detail) {
 
         case "discipline":
-            return <DisciplineDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <DisciplineDetailView wiki={wiki} />;
 
         case "power":
-            return <PowerDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <PowerDetailView wiki={wiki} />;
 
         case "clan":
-            return <ClanDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <ClanDetailView wiki={wiki} />;
 
         case "technique":
-            return <TechniqueDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <TechniqueDetailView wiki={wiki} />;
 
         case "lignee":
-            return <LigneeDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <LigneeDetailView wiki={wiki} />;
 
         default:
-            return <GenericDetailView wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
+            return <GenericDetailView wiki={wiki} />;
     }
 
 }

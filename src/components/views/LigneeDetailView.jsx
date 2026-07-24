@@ -17,7 +17,7 @@ const RELATED_GROUPS = [
     { key: "Handicaps", label: "Handicaps", modal: true, modalStatFields: MODAL_STAT_FIELDS },
 ];
 
-export default function LigneeDetailView({ wiki, listCollapsed, onToggleListPane }) {
+export default function LigneeDetailView({ wiki }) {
 
     const { activeItem } = wiki.collections.computed;
 
@@ -32,8 +32,6 @@ export default function LigneeDetailView({ wiki, listCollapsed, onToggleListPane
             wiki={wiki}
             backPath={backPath}
             backLabel="Retour au clan"
-            listCollapsed={listCollapsed}
-            onToggleListPane={onToggleListPane}
         >
             {(item) => (
                 <>

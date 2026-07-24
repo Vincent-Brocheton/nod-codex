@@ -2036,6 +2036,17 @@ img.clanEmblem {
   padding-bottom: 8px;
 }
 
+/* Techniques d'une Discipline : une colonne de fiches pleine largeur
+   dépasse largement l'écran dès qu'il y en a beaucoup (jusqu'à 24 pour
+   Force d'Âme) — la grille garde la même carte .listRow, juste répartie
+   sur plusieurs colonnes. Modificateur explicite plutôt qu'un sélecteur
+   d'ascendance : seule DisciplineDetailView l'applique, les .listRows
+   des pages d'index n'ont pas ce problème et restent en une colonne. */
+.listRowsGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+}
+
 /* Puces qui s'enchaînent en ligne plutôt qu'une liste verticale d'une
    fiche par ligne : beaucoup plus compact pour des groupes à 5-10 fiches
    (ex. les Atouts de clan). */

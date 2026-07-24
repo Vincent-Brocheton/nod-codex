@@ -36,14 +36,12 @@ function byTitleAlpha(a, b) {
     return a.title.localeCompare(b.title, "fr");
 }
 
-export default function RitualsView({ wiki, collectionKey, groupValue, listCollapsed, onToggleListPane }) {
+export default function RitualsView({ wiki, collectionKey, groupValue }) {
     return (
         <GroupedRuleView
             wiki={wiki}
             collectionKey={collectionKey}
             groupValue={groupValue}
-            listCollapsed={listCollapsed}
-            onToggleListPane={onToggleListPane}
             propertyName="Niveau"
             groups={LEVELS}
             formatGroupLabel={(value) => `Niveau ${value}`}

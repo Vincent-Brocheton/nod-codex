@@ -1,7 +1,7 @@
 import { useNavigate } from "react-router-dom";
-import { PanelLeftClose } from "lucide-react";
 import ItemListButton from "../ItemListButton";
 import LoadingState from "../States/LoadingState";
+import { ListPaneCollapseButton } from "../ListPaneControls";
 import { disciplineRefs, powersForDiscipline } from "../../utils/disciplinePowers";
 
 const GROUPS = [
@@ -9,7 +9,7 @@ const GROUPS = [
     { key: "pouvoirs-anciens", label: "Pouvoirs d'Anciens" },
 ];
 
-export default function DisciplinePowersView({ wiki, onToggleListPane }) {
+export default function DisciplinePowersView({ wiki }) {
 
     const navigate = useNavigate();
     const { loadedCollections, computed } = wiki.collections;
@@ -32,17 +32,7 @@ export default function DisciplinePowersView({ wiki, onToggleListPane }) {
                 <h1>{discipline ? discipline.title : "Pouvoirs"}</h1>
                 {!loading && !discipline ? <p>Sélectionne un pouvoir depuis sa discipline.</p> : null}
 
-                {onToggleListPane ? (
-                    <button
-                        type="button"
-                        className="listPaneCollapse"
-                        onClick={onToggleListPane}
-                        aria-label="Masquer la liste"
-                        title="Masquer la liste"
-                    >
-                        <PanelLeftClose size={16} aria-hidden="true" />
-                    </button>
-                ) : null}
+                <ListPaneCollapseButton onToggle={wiki.layout.toggleListPane} />
             </header>
 
             {loading ? (

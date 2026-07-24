@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, ArrowRight, ChevronDown, PanelLeftClose, PanelLeftOpen, ShieldAlert } from "lucide-react";
+import { ArrowLeft, ArrowRight, ChevronDown, ShieldAlert } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
@@ -8,6 +8,7 @@ import StatBlock from "../StatBlock";
 import RelatedGroups from "../RelatedGroups";
 import IndexPageHeader from "../IndexPageHeader";
 import AppIcon from "../AppIcon";
+import { ListPaneCollapseButton, ListPaneRevealButton } from "../ListPaneControls";
 import LoadingState from "../States/LoadingState";
 
 // Regroupe les éléments consécutifs partageant la même clé (le tableau doit
@@ -161,8 +162,6 @@ export default function GroupedRuleView({
     groupHeadingIcon,
     groupCardMeta,
     collapsible = false,
-    listCollapsed,
-    onToggleListPane,
 }) {
 
     const navigate = useNavigate();
@@ -301,17 +300,7 @@ export default function GroupedRuleView({
                     <span>Règles</span>
                     <h1>{activeNavigation.label}</h1>
 
-                    {onToggleListPane ? (
-                        <button
-                            type="button"
-                            className="listPaneCollapse"
-                            onClick={onToggleListPane}
-                            aria-label="Masquer la liste"
-                            title="Masquer la liste"
-                        >
-                            <PanelLeftClose size={16} aria-hidden="true" />
-                        </button>
-                    ) : null}
+                    <ListPaneCollapseButton onToggle={wiki.layout.toggleListPane} />
                 </header>
 
                 <div className="itemList">
@@ -336,16 +325,7 @@ export default function GroupedRuleView({
             </section>
 
             <article className="detailPane">
-                {listCollapsed && onToggleListPane ? (
-                    <button
-                        type="button"
-                        className="listPaneReveal"
-                        onClick={onToggleListPane}
-                    >
-                        <PanelLeftOpen size={15} aria-hidden="true" />
-                        Afficher la liste
-                    </button>
-                ) : null}
+                {wiki.layout.listCollapsed ? <ListPaneRevealButton onToggle={wiki.layout.toggleListPane} /> : null}
 
                 <Link to={activeNavigation.path} className="backLink">
                     <ArrowLeft aria-hidden="true" size={16} />

@@ -4,7 +4,7 @@ import ItemFlags from "../ItemFlags";
 import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 
-export default function ListView({ wiki, onToggleListPane }) {
+export default function ListView({ wiki }) {
 
     const navigate = useNavigate();
     const { collections, navigation } = wiki;
@@ -20,7 +20,7 @@ export default function ListView({ wiki, onToggleListPane }) {
                 label={activeCollection?.label}
                 loading={loading}
                 count={visibleItems.length}
-                onToggleListPane={onToggleListPane}
+                onToggleListPane={wiki.layout.toggleListPane}
             />
 
             {loading ? (

@@ -15,7 +15,7 @@ const STAT_FIELDS = [
     { label: "Coût en sang", tokens: ["cout", "sang"] },
 ];
 
-export default function PowerDetailView({ wiki, listCollapsed, onToggleListPane }) {
+export default function PowerDetailView({ wiki }) {
 
     const { activeItem } = wiki.collections.computed;
 
@@ -30,8 +30,6 @@ export default function PowerDetailView({ wiki, listCollapsed, onToggleListPane 
             wiki={wiki}
             backPath={backPath}
             backLabel="Retour à la discipline"
-            listCollapsed={listCollapsed}
-            onToggleListPane={onToggleListPane}
         >
             {(item) => (
                 <>

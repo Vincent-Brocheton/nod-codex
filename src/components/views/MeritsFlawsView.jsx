@@ -72,7 +72,7 @@ function typeHeadingIcon(collectionKey) {
     return collectionKey === "atouts" ? "star" : "skull";
 }
 
-export default function MeritsFlawsView({ wiki, collectionKey, groupValue, listCollapsed, onToggleListPane }) {
+export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
 
     const { loadedCollections } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
@@ -90,8 +90,6 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue, listC
             wiki={wiki}
             collectionKey={collectionKey}
             groupValue={groupValue}
-            listCollapsed={listCollapsed}
-            onToggleListPane={onToggleListPane}
             propertyName="Type"
             groups={types}
             formatGroupLabel={(value) => value}

@@ -4,12 +4,15 @@ import useGlobalSearch from "./useGlobalSearch";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import useNavigation from "./useNavigation";
+import useListPaneCollapsed from "./useListPaneCollapsed";
 
 export default function useWiki({
     section,
     slug,
 } = {}) {
     const [query, setQuery] = useState("");
+
+    const { collapsed: listCollapsed, toggle: toggleListPane } = useListPaneCollapsed();
 
     const { manifest, loading, error } = useManifest();
 
@@ -46,6 +49,10 @@ export default function useWiki({
         search: {
             query,
             setQuery,
-        }
+        },
+        layout: {
+            listCollapsed,
+            toggleListPane,
+        },
     };
 }

@@ -19,10 +19,10 @@ const QUICK_LINK_FALLBACK = {
     historiques: "Havre, Influence, Renommée : les antécédents qui ont façonné votre personnage avant sa Damnation.",
 };
 
-function quickLinkItems() {
-    return (navigation.find((group) => group.id === "rules")?.children || [])
-        .filter((item) => !item.hidden);
-}
+// Statique (dérivé de la config de nav importée) : calculé une seule fois
+// au chargement du module plutôt qu'à chaque montage de HomeView.
+const QUICK_LINK_ITEMS = (navigation.find((group) => group.id === "rules")?.children || [])
+    .filter((item) => !item.hidden);
 
 function formatDate(iso) {
     if (!iso) return "";
@@ -33,14 +33,15 @@ export default function HomeView({ wiki }) {
 
     const recent = (wiki?.manifest?.recent || []).slice(0, 4);
 
-    const items = useMemo(() => quickLinkItems(), []);
-
     // Les collections liées à la nav ne sont chargées que si le joueur a
     // déjà visité leur page (chargement à la demande, voir useCollections) :
     // pas fiable pour les accroches de l'accueil, donc on va chercher la
     // description de chacune directement (même cache que le reste de
     // l'appli), en se basant sur sa collection "primaire" (la première de
     // `item.collections`, ex. Disciplines pour la carte Disciplines).
+    // Chaque description s'affiche dès que sa propre requête répond,
+    // plutôt que d'attendre que toutes aient fini (une grosse collection
+    // ne doit pas retarder l'affichage des accroches déjà résolues).
     const [descriptions, setDescriptions] = useState({});
 
     useEffect(() => {
@@ -49,27 +50,27 @@ export default function HomeView({ wiki }) {
 
         let cancelled = false;
 
-        Promise.all(items.map(async (item) => {
+        QUICK_LINK_ITEMS.forEach((item) => {
             const config = manifestCollections.find((entry) => entry.key === item.collections?.[0]);
-            if (!config) return [item.id, ""];
+            if (!config) return;
 
-            const collection = await getCollection(config.file);
-            return [item.id, collection.description || ""];
-        })).then((pairs) => {
-            if (!cancelled) setDescriptions(Object.fromEntries(pairs));
+            getCollection(config.file).then((collection) => {
+                if (cancelled || !collection.description) return;
+                setDescriptions((current) => ({ ...current, [item.id]: collection.description }));
+            });
         });
 
         return () => {
             cancelled = true;
         };
-    }, [wiki?.manifest, items]);
+    }, [wiki?.manifest]);
 
-    const quickLinks = useMemo(() => items.map((item) => ({
+    const quickLinks = useMemo(() => QUICK_LINK_ITEMS.map((item) => ({
         icon: item.icon,
         label: item.label,
         path: item.path,
         description: descriptions[item.id] || QUICK_LINK_FALLBACK[item.id] || "",
-    })), [items, descriptions]);
+    })), [descriptions]);
 
     return (
         <main>

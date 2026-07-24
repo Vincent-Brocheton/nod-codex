@@ -15,7 +15,7 @@ import groupByCategory from "../../utils/groupByCategory";
  * (ex. n'afficher que la catégorie "Création de Personnage" sous /creation,
  * et l'exclure sous /regles) sans dupliquer ce composant.
  */
-export default function CategorizedListView({ wiki, groupProperty = "Catégorie", onToggleListPane }) {
+export default function CategorizedListView({ wiki, groupProperty = "Catégorie" }) {
 
     const navigate = useNavigate();
     const { loadedCollections, computed } = wiki.collections;
@@ -39,7 +39,7 @@ export default function CategorizedListView({ wiki, groupProperty = "Catégorie"
                 label={activeNavigation.label}
                 loading={loading}
                 count={filteredItems.length}
-                onToggleListPane={onToggleListPane}
+                onToggleListPane={wiki.layout.toggleListPane}
             />
 
             {loading ? (
