@@ -30,6 +30,14 @@
   --brass: #a9895a;
   --brass-tint: rgba(169, 137, 90, 0.12);
 
+  /* Cire des sceaux de statut (voir .itemFlag) : deux nuances par couleur
+     pour un dégradé radial qui donne du relief au disque, dérivées de
+     --accent/--seal plutôt que deux teintes neuves. */
+  --wax-red-1: #7a1f22;
+  --wax-red-2: #4a1114;
+  --wax-green-1: #4f6853;
+  --wax-green-2: #2c3b2e;
+
   --font-display: "Cinzel", Georgia, serif;
   --font-body: "EB Garamond", Georgia, serif;
   --font-mono: "Space Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
@@ -68,6 +76,11 @@
   --seal-tint: rgba(79, 104, 83, 0.09);
   --brass: #8a6d3f;
   --brass-tint: rgba(138, 109, 63, 0.09);
+
+  --wax-red-1: #9b2f31;
+  --wax-red-2: #6e1417;
+  --wax-green-1: #4f6853;
+  --wax-green-2: #34452f;
 }
 
 * {
@@ -122,9 +135,26 @@ h1 {
 
 .wikiShell {
   display: grid;
-  grid-template-columns: 280px minmax(230px, 340px) 1fr;
+  grid-template-columns: 280px minmax(210px, 280px) 1fr;
   height: 100vh;
   overflow: hidden;
+}
+
+/* Colonne liste repliée à la demande (voir useListPaneCollapsed) : même
+   bascule que celle déjà utilisée en mobile (une colonne, .listPane
+   masquée), déclenchée manuellement plutôt que par la largeur d'écran.
+   Restreint à partir de 981px : en dessous, .wikiShell repasse de toute
+   façon en une seule colonne (voir le média-query plus bas) et cette
+   règle, avec sa spécificité plus forte, écraserait sinon cette mise en
+   page mobile même quand l'utilisateur n'a rien demandé de tel. */
+@media (min-width: 981px) {
+  .wikiShell.listCollapsed {
+    grid-template-columns: 280px 1fr;
+  }
+}
+
+.wikiShell.listCollapsed .listPane {
+  display: none;
 }
 
 /* La sidebar reste volontairement sombre dans les deux thèmes (rail de
@@ -330,18 +360,29 @@ h1 {
   display: flex;
   flex-direction: column;
   min-width: 0;
-  padding: 24px 18px;
+  padding: 18px 16px;
   height: 100%;
   overflow-y: auto;
 }
 
-.listPane header {
+/* En-tête de colonne compact : le libellé de groupe, le titre et le
+   décompte s'empilent dans une seule colonne étroite pendant que le bouton
+   de repli occupe toute la hauteur à droite, plutôt que trois lignes
+   pleine largeur qui poussaient la liste vers le bas. */
+.listPane .listPaneHeader {
   border-bottom: 1px solid var(--border);
-  margin-bottom: 14px;
-  padding-bottom: 16px;
+  column-gap: 10px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
 }
 
-.listPane header span,
+.listPane .listPaneHeader > *:not(.listPaneCollapse) {
+  grid-column: 1;
+}
+
+.listPane .listPaneHeader span,
 .detailPane header span,
 .detailHeaderSubtitle span {
   color: var(--accent-strong);
@@ -352,6 +393,61 @@ h1 {
   text-transform: uppercase;
 }
 
+.listPaneCollapse {
+  align-items: center;
+  align-self: center;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  color: var(--text-faint);
+  cursor: pointer;
+  display: flex;
+  flex-shrink: 0;
+  grid-column: 2;
+  grid-row: 1 / -1;
+  height: 28px;
+  justify-content: center;
+  width: 28px;
+}
+
+.listPaneCollapse:hover {
+  border-color: var(--border-strong);
+  color: var(--text-primary);
+}
+
+.listPaneCollapse:focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 2px;
+}
+
+/* Même gabarit que .backLink (texte simple, pas un bouton plein) : c'est
+   un contrôle secondaire, pas une action principale de la fiche — il ne
+   doit pas peser plus lourd que le lien qu'il remplace visuellement. */
+.listPaneReveal {
+  align-items: center;
+  background: none;
+  border: none;
+  color: var(--accent-strong);
+  cursor: pointer;
+  display: inline-flex;
+  font-family: var(--font-ui);
+  font-size: 14px;
+  font-weight: 700;
+  gap: 6px;
+  margin-bottom: 18px;
+  padding: 0;
+  width: fit-content;
+}
+
+.listPaneReveal:hover {
+  color: var(--accent-hover);
+}
+
+.listPaneReveal:focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 2px;
+}
+
 .listPane h1,
 .detailPane h1 {
   color: var(--text-heading);
@@ -360,7 +456,8 @@ h1 {
 }
 
 .listPane h1 {
-  font-size: 26px;
+  font-size: 17px;
+  margin: 2px 0 0;
 }
 
 .listPane p {
@@ -455,33 +552,45 @@ h1 {
   margin: 0 0 24px;
 }
 
-/* Le badge redevient un tampon d'archive plutôt qu'une pastille pleine :
-   encre transparente (currentColor), coins presque droits, légère
-   rotation. Le rouge (en attente) et le vert-de-gris (clos) restent
-   distincts même sans lire le texte. */
+/* Le badge redevient un sceau de cire plutôt qu'un tampon d'encre plat :
+   disque en dégradé radial (relief pressé) portant l'icône en clair,
+   libellé à côté plutôt que dans le disque (illisible à cette taille).
+   Le rouge (en attente) et le vert-de-gris (clos) restent distincts même
+   sans lire le texte. */
 .itemFlag {
   align-items: center;
-  background: transparent;
-  border: 2px solid currentColor;
-  border-radius: 3px;
+  color: var(--text-primary);
   display: flex;
   font-family: var(--font-mono);
   font-size: 12px;
   font-weight: 700;
-  gap: 8px;
+  gap: 10px;
   letter-spacing: 0.08em;
-  padding: 9px 12px;
   text-transform: uppercase;
-  transform: rotate(-1.5deg);
   width: fit-content;
 }
 
-.itemFlagApproval {
-  color: var(--accent-strong);
+.itemFlag svg {
+  border-radius: 50%;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25);
+  box-sizing: border-box;
+  color: rgba(255, 255, 255, 0.86);
+  flex-shrink: 0;
+  height: 34px;
+  padding: 9px;
+  width: 34px;
 }
 
-.itemFlagFull {
-  color: var(--seal-strong);
+.itemFlagApproval svg {
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.22), transparent 45%),
+    radial-gradient(circle at 35% 32%, var(--wax-red-1), var(--wax-red-2) 78%);
+}
+
+.itemFlagFull svg {
+  background:
+    radial-gradient(circle at 32% 28%, rgba(255, 255, 255, 0.22), transparent 45%),
+    radial-gradient(circle at 35% 32%, var(--wax-green-1), var(--wax-green-2) 78%);
 }
 
 .empty {
@@ -636,13 +745,14 @@ h1 {
 }
 
 /* Carte unique pour le corps d'une fiche (propriétés + contenu + fiches
-   liées) : même traitement que .ritualEntry et .modalPanel, pour que
-   StatBlock/ContentBlocks ne forment pas des boîtes séparées empilées. */
+   liées) : même traitement que .ritualEntry et .modalPanel (pleine
+   largeur, pas de plafond de lecture), pour que StatBlock/ContentBlocks
+   ne forment pas des boîtes séparées empilées et que toutes les fiches
+   (simples ou empilées) partagent le même gabarit. */
 .detailCard {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
-  max-width: 860px;
   padding: clamp(20px, 4vw, 32px);
 }
 
@@ -733,6 +843,25 @@ h1 {
 .contentBlocks ul:first-child,
 .contentBlocks ol:first-child {
   margin-top: 0;
+}
+
+/* Lettrine de dossier : réservée aux fiches singulières (Clan, Lignée,
+   Discipline, Pouvoir, Technique...), qui passent toutes par .detailCard.
+   Les fiches empilées (Rituels, Atouts & Handicaps via .ritualEntry, FAQ
+   via .faqAnswer, popup via .modalPanel) définissent leur propre contexte
+   .contentBlocks et ne sont donc jamais concernées : une lettrine répétée
+   à chaque fiche dépliée deviendrait du bruit plutôt qu'un repère. */
+.detailCard .contentBlocks p:first-of-type::first-letter {
+  background: var(--brass-tint);
+  border: 1px solid var(--brass);
+  color: var(--brass);
+  float: left;
+  font-family: var(--font-display);
+  font-size: 3.6em;
+  font-weight: 600;
+  line-height: 0.82;
+  margin-right: 0.1em;
+  padding: 0.1em 0.14em 0 0.06em;
 }
 
 .contentBlocks ul,
@@ -1968,7 +2097,6 @@ img.clanEmblem {
   flex-direction: column;
   gap: 24px;
   margin-top: 32px;
-  max-width: 860px;
 }
 
 .relatedGroup h2 {
@@ -2198,6 +2326,13 @@ img.clanEmblem {
 
   .backLink {
     display: flex;
+  }
+
+  /* .listPane est déjà masquée en continu à cette largeur (colonne unique,
+     navigation par la sidebar) : le bouton de réaffichage n'aurait rien à
+     réafficher et ferait doublon avec la navigation mobile. */
+  .listPaneReveal {
+    display: none;
   }
 
   .collectionNav button,

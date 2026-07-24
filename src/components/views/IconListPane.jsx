@@ -17,7 +17,7 @@ import LoadingState from "../States/LoadingState";
  * d'exclure des fiches (ex. les techniques non apprenables, voir
  * `isLearnable`).
  */
-export default function IconListPane({ wiki, renderIcon, itemFilter = () => true }) {
+export default function IconListPane({ wiki, renderIcon, itemFilter = () => true, onToggleListPane }) {
 
     const navigate = useNavigate();
     const { collections, navigation } = wiki;
@@ -35,6 +35,7 @@ export default function IconListPane({ wiki, renderIcon, itemFilter = () => true
                 label={activeCollection?.label}
                 loading={loading}
                 count={items.length}
+                onToggleListPane={onToggleListPane}
             />
 
             {loading ? (

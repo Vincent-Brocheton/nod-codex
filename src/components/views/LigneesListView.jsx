@@ -14,7 +14,7 @@ function clanRefOf(item) {
  * Lignées du même Clan plutôt que la liste complète, pour rester cohérent
  * avec le contexte de navigation (on arrive ici depuis une fiche Clan).
  */
-export default function LigneesListView({ wiki }) {
+export default function LigneesListView({ wiki, onToggleListPane }) {
 
     const navigate = useNavigate();
     const { computed } = wiki.collections;
@@ -35,6 +35,7 @@ export default function LigneesListView({ wiki }) {
                 label={activeCollection?.label}
                 loading={loading}
                 count={items.length}
+                onToggleListPane={onToggleListPane}
             />
 
             {loading ? (

@@ -6,6 +6,7 @@ import WikiContent from "../components/WikiContent";
 import ErrorState from "../components/States/ErrorState";
 import useWiki from "../hooks/useWiki";
 import useTheme from "../hooks/useTheme";
+import useListPaneCollapsed from "../hooks/useListPaneCollapsed";
 import { useParams } from "react-router-dom";
 import NotFoundPage from "./NotFoundPage";
 
@@ -13,6 +14,7 @@ function HomePage() {
     const { section, slug, collectionKey, groupValue } = useParams();
     const [navOpen, setNavOpen] = useState(false);
     const { theme, toggleTheme } = useTheme();
+    const { collapsed: listCollapsed, toggle: toggleListPane } = useListPaneCollapsed();
 
     const wiki = useWiki({
         section,
@@ -56,7 +58,7 @@ function HomePage() {
     }
 
     return (
-        <main className="wikiShell">
+        <main className={`wikiShell${listCollapsed ? " listCollapsed" : ""}`}>
 
             <header className="mobileTopBar">
                 <button
@@ -90,6 +92,8 @@ function HomePage() {
                 collectionKey={collectionKey}
                 groupValue={groupValue}
                 slug={slug}
+                listCollapsed={listCollapsed}
+                onToggleListPane={toggleListPane}
             />
 
         </main>

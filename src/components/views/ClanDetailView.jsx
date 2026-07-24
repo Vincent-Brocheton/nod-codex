@@ -18,7 +18,7 @@ const RELATED_GROUPS = [
     { key: "Lignées", label: "Lignées" },
 ];
 
-export default function ClanDetailView({ wiki }) {
+export default function ClanDetailView({ wiki, listCollapsed, onToggleListPane }) {
 
     const { activeNavigation } = wiki.navigation;
 
@@ -28,6 +28,8 @@ export default function ClanDetailView({ wiki }) {
             backPath={activeNavigation.path}
             emblem={(item) => <ClanEmblem slug={item.slug} title={item.title} />}
             subtitle={(item) => item.properties?.Surnoms?.value || null}
+            listCollapsed={listCollapsed}
+            onToggleListPane={onToggleListPane}
         >
             {(activeItem) => (
                 <>

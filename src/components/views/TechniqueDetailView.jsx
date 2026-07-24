@@ -13,12 +13,17 @@ const RELATED_GROUPS = [
     { key: "Disciplines", label: "Disciplines" },
 ];
 
-export default function TechniqueDetailView({ wiki }) {
+export default function TechniqueDetailView({ wiki, listCollapsed, onToggleListPane }) {
 
     const { activeNavigation } = wiki.navigation;
 
     return (
-        <DetailShell wiki={wiki} backPath={activeNavigation.path}>
+        <DetailShell
+            wiki={wiki}
+            backPath={activeNavigation.path}
+            listCollapsed={listCollapsed}
+            onToggleListPane={onToggleListPane}
+        >
             {(activeItem) => (
                 <>
                     <StatBlock item={activeItem} fields={STAT_FIELDS} />

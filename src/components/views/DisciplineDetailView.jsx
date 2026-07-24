@@ -23,7 +23,7 @@ function levelLabel(item) {
     return Number.isFinite(value) ? value : "?";
 }
 
-export default function DisciplineDetailView({ wiki }) {
+export default function DisciplineDetailView({ wiki, listCollapsed, onToggleListPane }) {
 
     const { loadedCollections } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
@@ -37,6 +37,8 @@ export default function DisciplineDetailView({ wiki }) {
             backPath={activeNavigation.path}
             subtitle={(item) => item.properties?.Type?.value || null}
             subtitleLabel="Type"
+            listCollapsed={listCollapsed}
+            onToggleListPane={onToggleListPane}
         >
             {(activeItem) => {
                 // Groupes masqués s'ils sont vides plutôt qu'un message

@@ -17,7 +17,7 @@ const RELATED_GROUPS = [
     { key: "Handicaps", label: "Handicaps", modal: true, modalStatFields: MODAL_STAT_FIELDS },
 ];
 
-export default function LigneeDetailView({ wiki }) {
+export default function LigneeDetailView({ wiki, listCollapsed, onToggleListPane }) {
 
     const { activeItem } = wiki.collections.computed;
 
@@ -28,7 +28,13 @@ export default function LigneeDetailView({ wiki }) {
     const backPath = clanRef && clanPath ? `${clanPath}/${clanRef.slug}` : "/clans";
 
     return (
-        <DetailShell wiki={wiki} backPath={backPath} backLabel="Retour au clan">
+        <DetailShell
+            wiki={wiki}
+            backPath={backPath}
+            backLabel="Retour au clan"
+            listCollapsed={listCollapsed}
+            onToggleListPane={onToggleListPane}
+        >
             {(item) => (
                 <>
                     <ItemFlags

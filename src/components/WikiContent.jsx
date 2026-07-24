@@ -20,7 +20,7 @@ import PageRenderer from "./PageRenderer";
  * l'URL (fiche précise vs simple index). Une recherche active prend le pas
  * sur tout le reste, quelle que soit la section affichée.
  */
-export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
+export default function WikiContent({ wiki, collectionKey, groupValue, slug, listCollapsed, onToggleListPane }) {
 
     const { activeNavigation } = wiki.navigation;
 
@@ -37,11 +37,11 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
     }
 
     if (activeNavigation.view === "rituals") {
-        return <RitualsView wiki={wiki} collectionKey={collectionKey} groupValue={groupValue} />;
+        return <RitualsView wiki={wiki} collectionKey={collectionKey} groupValue={groupValue} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
     }
 
     if (activeNavigation.view === "merits-flaws") {
-        return <MeritsFlawsView wiki={wiki} collectionKey={collectionKey} groupValue={groupValue} />;
+        return <MeritsFlawsView wiki={wiki} collectionKey={collectionKey} groupValue={groupValue} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />;
     }
 
     if (activeNavigation.view === "wizard") {
@@ -103,8 +103,8 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
     if (slug) {
         return (
             <>
-                <ItemList wiki={wiki} />
-                <DetailPanel wiki={wiki} />
+                <ItemList wiki={wiki} onToggleListPane={onToggleListPane} />
+                <DetailPanel wiki={wiki} listCollapsed={listCollapsed} onToggleListPane={onToggleListPane} />
             </>
         );
     }

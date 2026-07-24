@@ -25,36 +25,36 @@ function iconResolver(resolve) {
 const disciplineIconFor = iconResolver(disciplineIcon);
 const skillIconFor = iconResolver(skillIcon);
 
-export default function ItemList({ wiki }) {
+export default function ItemList({ wiki, onToggleListPane }) {
 
     const { activeNavigation } = wiki.navigation;
 
     switch (activeNavigation?.view) {
 
         case "discipline-powers":
-            return <DisciplinePowersView wiki={wiki} />;
+            return <DisciplinePowersView wiki={wiki} onToggleListPane={onToggleListPane} />;
 
         case "grouped-list":
-            return <CategorizedListView wiki={wiki} />;
+            return <CategorizedListView wiki={wiki} onToggleListPane={onToggleListPane} />;
 
         case "lignees":
-            return <LigneesListView wiki={wiki} />;
+            return <LigneesListView wiki={wiki} onToggleListPane={onToggleListPane} />;
 
         case "clans":
-            return <IconListPane wiki={wiki} renderIcon={clanIcon} />;
+            return <IconListPane wiki={wiki} renderIcon={clanIcon} onToggleListPane={onToggleListPane} />;
 
         case "disciplines":
-            return <IconListPane wiki={wiki} renderIcon={disciplineIconFor} />;
+            return <IconListPane wiki={wiki} renderIcon={disciplineIconFor} onToggleListPane={onToggleListPane} />;
 
         case "techniques":
-            return <IconListPane wiki={wiki} itemFilter={isLearnable} />;
+            return <IconListPane wiki={wiki} itemFilter={isLearnable} onToggleListPane={onToggleListPane} />;
 
         case "competences":
-            return <IconListPane wiki={wiki} renderIcon={skillIconFor} />;
+            return <IconListPane wiki={wiki} renderIcon={skillIconFor} onToggleListPane={onToggleListPane} />;
 
         case "list":
         default:
-            return <ListView wiki={wiki} />;
+            return <ListView wiki={wiki} onToggleListPane={onToggleListPane} />;
     }
 
 }

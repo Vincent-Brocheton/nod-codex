@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { ArrowLeft } from "lucide-react";
+import { ArrowLeft, PanelLeftOpen } from "lucide-react";
 import LoadingState from "./States/LoadingState";
 import PageNotFoundState from "./States/PageNotFoundState";
 import EmptyState from "./States/EmptyState";
@@ -24,6 +24,8 @@ export default function DetailShell({
     emblem,
     subtitle,
     subtitleLabel = "Surnoms",
+    listCollapsed,
+    onToggleListPane,
     children,
 }) {
 
@@ -57,6 +59,17 @@ export default function DetailShell({
 
     return (
         <article className="detailPane">
+
+            {listCollapsed && onToggleListPane ? (
+                <button
+                    type="button"
+                    className="listPaneReveal"
+                    onClick={onToggleListPane}
+                >
+                    <PanelLeftOpen size={15} aria-hidden="true" />
+                    Afficher la liste
+                </button>
+            ) : null}
 
             <Link to={backPath} className="backLink">
                 <ArrowLeft aria-hidden="true" size={16} />
