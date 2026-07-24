@@ -1,42 +1,27 @@
 import { useEffect, useMemo, useState } from "react";
 import { Link } from "react-router-dom";
-import { ChevronRight } from "lucide-react";
+import { ArrowRight, ChevronRight } from "lucide-react";
 import { navigation } from "../config/navigation";
 import { getCollection } from "../services/wikiServices";
 import AppIcon from "./AppIcon";
 
-// Accroche + code de classement des cartes "Accès rapide" ; les cartes
-// elles-mêmes (une par entrée visible de l'encart "Règles" de la sidebar,
-// voir plus bas) restent synchronisées avec la navigation sans duplication.
-// La description des Disciplines n'est pas ici : elle vient de la donnée
-// synchronisée (`collection.description`), voir plus bas.
-const QUICK_LINK_META = {
-    clans: { code: "CLA", description: "Découvrez les clans et leurs héritages." },
-    disciplines: { code: "DIS" },
-    techniques: { code: "TEC", description: "Perfectionnez vos techniques de combat." },
-    rituals: {
-        code: "RIT",
-        description: "Consultez les rituels occultes permettant de manipuler le Sang, les esprits et les forces mystiques.",
-    },
-    skills: { code: "CMP", description: "Liste des compétences et utilisations." },
-    "merits-flaws": {
-        code: "A&H",
-        description: "Personnalisez votre personnage grâce à des avantages uniques et des faiblesses marquantes.",
-    },
+// Accroche de secours des cartes "Accès rapide", utilisée seulement tant
+// que la collection correspondante n'a pas (encore) de description
+// synchronisée depuis Notion (voir l'effet plus bas, qui va chercher la
+// vraie donnée pour chaque carte et la préfère dès qu'elle existe).
+const QUICK_LINK_FALLBACK = {
+    clans: "Découvrez les clans et leurs héritages.",
+    techniques: "Perfectionnez vos techniques de combat.",
+    rituals: "Consultez les rituels occultes permettant de manipuler le Sang, les esprits et les forces mystiques.",
+    skills: "Liste des compétences et utilisations.",
+    "merits-flaws": "Personnalisez votre personnage grâce à des avantages uniques et des faiblesses marquantes.",
+    attributs: "Force, Dextérité, Manipulation : les capacités innées de votre personnage.",
+    historiques: "Havre, Influence, Renommée : les antécédents qui ont façonné votre personnage avant sa Damnation.",
 };
 
-function buildQuickLinks(disciplineDescription) {
+function quickLinkItems() {
     return (navigation.find((group) => group.id === "rules")?.children || [])
-        .filter((item) => !item.hidden)
-        .map((item) => ({
-            icon: item.icon,
-            label: item.label,
-            path: item.path,
-            code: QUICK_LINK_META[item.id]?.code || "—",
-            description: item.id === "disciplines"
-                ? disciplineDescription
-                : QUICK_LINK_META[item.id]?.description || "",
-        }));
+        .filter((item) => !item.hidden);
 }
 
 function formatDate(iso) {
@@ -48,28 +33,43 @@ export default function HomeView({ wiki }) {
 
     const recent = (wiki?.manifest?.recent || []).slice(0, 4);
 
-    // La collection Disciplines n'est chargée que si le joueur a déjà visité
-    // sa page (chargement à la demande, voir useCollections) : pas fiable
-    // pour l'accroche de la carte d'accueil, donc on va chercher sa
-    // description directement (même cache que le reste de l'appli).
-    const [disciplineDescription, setDisciplineDescription] = useState("");
+    const items = useMemo(() => quickLinkItems(), []);
+
+    // Les collections liées à la nav ne sont chargées que si le joueur a
+    // déjà visité leur page (chargement à la demande, voir useCollections) :
+    // pas fiable pour les accroches de l'accueil, donc on va chercher la
+    // description de chacune directement (même cache que le reste de
+    // l'appli), en se basant sur sa collection "primaire" (la première de
+    // `item.collections`, ex. Disciplines pour la carte Disciplines).
+    const [descriptions, setDescriptions] = useState({});
 
     useEffect(() => {
-        const config = wiki?.manifest?.collections?.find((entry) => entry.key === "disciplines");
-        if (!config) return;
+        const manifestCollections = wiki?.manifest?.collections;
+        if (!manifestCollections) return;
 
         let cancelled = false;
 
-        getCollection(config.file).then((collection) => {
-            if (!cancelled) setDisciplineDescription(collection.description || "");
+        Promise.all(items.map(async (item) => {
+            const config = manifestCollections.find((entry) => entry.key === item.collections?.[0]);
+            if (!config) return [item.id, ""];
+
+            const collection = await getCollection(config.file);
+            return [item.id, collection.description || ""];
+        })).then((pairs) => {
+            if (!cancelled) setDescriptions(Object.fromEntries(pairs));
         });
 
         return () => {
             cancelled = true;
         };
-    }, [wiki?.manifest]);
+    }, [wiki?.manifest, items]);
 
-    const quickLinks = useMemo(() => buildQuickLinks(disciplineDescription), [disciplineDescription]);
+    const quickLinks = useMemo(() => items.map((item) => ({
+        icon: item.icon,
+        label: item.label,
+        path: item.path,
+        description: descriptions[item.id] || QUICK_LINK_FALLBACK[item.id] || "",
+    })), [items, descriptions]);
 
     return (
         <main>
@@ -96,17 +96,16 @@ export default function HomeView({ wiki }) {
 
                     <div className="quickLinkGrid">
                         {quickLinks.map((link) => (
-                            <Link key={link.path} to={link.path} className="quickLinkCard">
-                                <span className="quickLinkTab">{link.code}</span>
-
-                                <span className="quickLinkHead">
-                                    <AppIcon name={link.icon} size={17} aria-hidden="true" />
-                                    <strong>{link.label}</strong>
+                            <Link key={link.path} to={link.path} className="listRow listRowRich">
+                                <span className="listRowIcon">
+                                    <AppIcon name={link.icon} size={22} aria-hidden="true" />
                                 </span>
+
+                                <strong>{link.label}</strong>
 
                                 <p>{link.description}</p>
 
-                                <ChevronRight className="quickLinkArrow" size={15} aria-hidden="true" />
+                                <ArrowRight className="rowArrow" size={16} aria-hidden="true" />
                             </Link>
                         ))}
                     </div>

@@ -1319,86 +1319,15 @@ a.relationChip:hover {
   height: 1px;
 }
 
-/* Une seule ligne sur PC (scroll horizontal si ça ne tient pas plutôt que
-   de passer à la ligne) ; repasse en grille qui s'enroule sur mobile, voir
-   le @media plus bas. */
+/* Grille (pas de défilement horizontal) : mêmes cartes .listRow/.listRowRich
+   que les index Atouts & Handicaps et Rituels, pour ne pas avoir un
+   composant "Accès rapide" propre au reste de l'app. En grille plutôt
+   qu'empilées en une colonne : 8 entrées tiennent sur 2 rangées au lieu
+   de 8, sans scroll ajouté à l'accueil. */
 .quickLinkGrid {
-  display: flex;
+  display: grid;
   gap: 16px;
-  overflow-x: auto;
-  padding-bottom: 6px;
-}
-
-/* Fiche de classement plutôt que carte fonctionnalité : alignée à gauche
-   comme un vrai document, pas centrée comme un gabarit marketing. */
-.quickLinkCard {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 10px;
-  color: var(--text-primary);
-  display: flex;
-  flex: 0 0 200px;
-  flex-direction: column;
-  gap: 10px;
-  padding: 18px;
-  text-align: left;
-  text-decoration: none;
-  transition: border-color 0.15s ease, transform 0.15s ease;
-}
-
-.quickLinkCard:hover {
-  border-color: var(--accent);
-  transform: translateY(-2px);
-}
-
-/* Code de classement (3-4 lettres), comme l'onglet d'une fiche cartonnée
-   dans un tiroir d'archives — une vraie abréviation de catégorie, pas un
-   numéro décoratif. */
-.quickLinkTab {
-  align-self: flex-start;
-  background: var(--accent-tint);
-  border: 1px solid var(--border-strong);
-  border-radius: 3px;
-  color: var(--accent-strong);
-  font-family: var(--font-mono);
-  font-size: 10px;
-  font-weight: 700;
-  letter-spacing: 0.08em;
-  padding: 3px 7px;
-}
-
-.quickLinkHead {
-  align-items: center;
-  display: flex;
-  gap: 9px;
-}
-
-.quickLinkHead svg {
-  color: var(--accent-strong);
-  flex: 0 0 auto;
-}
-
-.quickLinkCard strong {
-  color: var(--text-heading);
-  font-family: var(--font-mono);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  text-transform: uppercase;
-}
-
-.quickLinkCard p {
-  color: var(--text-muted);
-  font-size: 13px;
-  margin: 0;
-  max-width: none;
-  text-align: left;
-}
-
-.quickLinkArrow {
-  color: var(--text-faint);
-  margin-left: auto;
-  margin-top: auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
 }
 
 .homeColumns {
@@ -2347,12 +2276,6 @@ img.clanEmblem {
   }
 
   .quickLinkGrid {
-    display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    overflow-x: visible;
-  }
-
-  .quickLinkCard {
-    flex-basis: auto;
   }
 }
