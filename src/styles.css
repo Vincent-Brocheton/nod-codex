@@ -2021,6 +2021,17 @@ img.clanEmblem {
   font-size: 17px;
 }
 
+.statCard strong.withIcon {
+  align-items: center;
+  display: flex;
+  gap: 6px;
+}
+
+.statCard strong.withIcon svg {
+  color: var(--accent-hover);
+  flex-shrink: 0;
+}
+
 .relatedGroups {
   display: flex;
   flex-direction: column;

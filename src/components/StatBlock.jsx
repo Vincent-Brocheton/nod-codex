@@ -1,4 +1,5 @@
 import PropertyValue from "./PropertyValue";
+import AppIcon from "./AppIcon";
 import findPropertyValue from "../utils/findPropertyValue";
 import { normalizeProperty, isPropertyEmpty } from "../utils/property";
 
@@ -10,14 +11,16 @@ import { normalizeProperty, isPropertyEmpty } from "../utils/property";
  *
  * `separator` est optionnel : pour une valeur à choix multiples affichée
  * comme une formule (ex. un jet "Social + Empathie"), il remplace le
- * séparateur ", " par défaut.
+ * séparateur ", " par défaut. `icon`, optionnel, affiche un pictogramme
+ * devant la valeur (ex. une goutte pour le Coût en sang) plutôt qu'un
+ * chiffre nu.
  */
 export default function StatBlock({ item, fields }) {
 
     const stats = fields
-        .map(({ label, key, tokens, separator }) => {
+        .map(({ label, key, tokens, separator, icon }) => {
             const raw = tokens ? findPropertyValue(item, tokens) : item.properties?.[key];
-            return { label, property: normalizeProperty(raw), separator };
+            return { label, property: normalizeProperty(raw), separator, icon };
         })
         .filter(({ property }) => !isPropertyEmpty(property));
 
@@ -25,10 +28,11 @@ export default function StatBlock({ item, fields }) {
 
     return (
         <div className="statBlock">
-            {stats.map(({ label, property, separator }) => (
+            {stats.map(({ label, property, separator, icon }) => (
                 <div key={label} className="statCard">
                     <span className="statLabel">{label}</span>
-                    <strong>
+                    <strong className={icon ? "withIcon" : undefined}>
+                        {icon ? <AppIcon name={icon} size={14} aria-hidden="true" /> : null}
                         {separator && Array.isArray(property.value)
                             ? property.value.join(separator)
                             : <PropertyValue property={property} />}

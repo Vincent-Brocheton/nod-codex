@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-07-24T11:12:01.549Z",
+  "generatedAt": "2026-07-25T16:05:34.661Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "creer-son-personnage",
       "title": "Créer son Personnage",
       "notionUrl": "https://app.notion.com/p/Cr-er-son-Personnage-39988b48e48e80a29e33cf5dc4ba10fe",
-      "lastEditedTime": "2026-07-11T15:23:00.000Z",
+      "lastEditedTime": "2026-07-25T15:58:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -260,10 +260,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si vous souhaitez incarner un clan considéré comme rare ou inhabituel dans votre chronique, votre personnage devra généralement acquérir un Mérite de Rareté correspondant (voirles Atouts et Handicaps).",
+          "text": "Si vous souhaitez incarner un clan considéré comme rare ou inhabituel dans votre chronique, votre personnage devra généralement acquérir un Atout de Rareté correspondant.",
           "spans": [
             {
-              "text": "Si vous souhaitez incarner un clan considéré comme rare ou inhabituel dans votre chronique, votre personnage devra généralement acquérir un Mérite de Rareté correspondant (voirles Atouts et Handicaps).",
+              "text": "Si vous souhaitez incarner un clan considéré comme rare ou inhabituel dans votre chronique, votre personnage devra généralement acquérir un Atout de Rareté correspondant.",
               "bold": false
             }
           ]
@@ -1471,7 +1471,7 @@
       "slug": "etape-2-xp-de-depart",
       "title": "Etape 2 : XP de départ",
       "notionUrl": "https://app.notion.com/p/Etape-2-XP-de-d-part-39988b48e48e80f2b61bd6571387859f",
-      "lastEditedTime": "2026-07-11T15:40:00.000Z",
+      "lastEditedTime": "2026-07-25T15:58:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1499,10 +1499,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Conservez une trace de ces XP de départ, car ils seront utilisés au cours de la création du personnage pour acquérir des Attributs, Compétences, Historiques, Mérites, Disciplines et les autres éléments de votre fiche.",
+          "text": "Conservez une trace de ces XP de départ, car ils seront utilisés au cours de la création du personnage pour acquérir des Attributs, Compétences, Historiques, Atouts, Disciplines et les autres éléments de votre fiche.",
           "spans": [
             {
-              "text": "Conservez une trace de ces XP de départ, car ils seront utilisés au cours de la création du personnage pour acquérir des Attributs, Compétences, Historiques, Mérites, Disciplines et les autres éléments de votre fiche.",
+              "text": "Conservez une trace de ces XP de départ, car ils seront utilisés au cours de la création du personnage pour acquérir des Attributs, Compétences, Historiques, Atouts, Disciplines et les autres éléments de votre fiche.",
               "bold": false
             }
           ]
@@ -1524,7 +1524,7 @@
       "slug": "etape-3-choisir-son-clan",
       "title": "Etape 3 : Choisir son clan",
       "notionUrl": "https://app.notion.com/p/Etape-3-Choisir-son-clan-39a88b48e48e80cb9ac5ce2afd95291e",
-      "lastEditedTime": "2026-07-11T15:48:00.000Z",
+      "lastEditedTime": "2026-07-25T15:59:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -1560,10 +1560,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le clan de votre personnage détermine sa place au sein de la société vampirique, les stéréotypes que les autres Kindred lui attribueront ainsi que les attentes auxquelles elle devra répondre. Il définit également ses Disciplines de clan, ainsi que ses forces et ses faiblesses propres.",
+          "text": "Le clan de votre personnage détermine sa place au sein de la société vampirique, les stéréotypes que les autres Caïnite lui attribueront ainsi que les attentes auxquelles elle devra répondre. Il définit également ses Disciplines de clan, ainsi que ses forces et ses faiblesses propres.",
           "spans": [
             {
-              "text": "Le clan de votre personnage détermine sa place au sein de la société vampirique, les stéréotypes que les autres Kindred lui attribueront ainsi que les attentes auxquelles elle devra répondre. Il définit également ses Disciplines de clan, ainsi que ses forces et ses faiblesses propres.",
+              "text": "Le clan de votre personnage détermine sa place au sein de la société vampirique, les stéréotypes que les autres Caïnite lui attribueront ainsi que les attentes auxquelles elle devra répondre. Il définit également ses Disciplines de clan, ainsi que ses forces et ses faiblesses propres.",
               "bold": false
             }
           ]
@@ -1808,58 +1808,6 @@
         },
         {
           "type": "heading_2",
-          "text": "Les clans mineurs",
-          "spans": [
-            {
-              "text": "Les clans mineurs",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "En plus des grands clans, quelques clans plus rares, plus discrets ou moins nombreux subsistent encore. Il s'agit notamment des Baali, Cappadociens, Ravnos et Salubri.",
-          "spans": [
-            {
-              "text": "En plus des grands clans, quelques clans plus rares, plus discrets ou moins nombreux subsistent encore. Il s'agit notamment des ",
-              "bold": false
-            },
-            {
-              "text": "Baali",
-              "bold": true
-            },
-            {
-              "text": ", ",
-              "bold": false
-            },
-            {
-              "text": "Cappadociens",
-              "bold": true
-            },
-            {
-              "text": ", ",
-              "bold": false
-            },
-            {
-              "text": "Ravnos",
-              "bold": true
-            },
-            {
-              "text": " et ",
-              "bold": false
-            },
-            {
-              "text": "Salubri",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
           "text": "Les lignées",
           "spans": [
             {
@@ -1870,7 +1818,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La plupart des clans disposent d'un ou plusieurs Atouts de Lignée. Une fois votre clan choisi, vous pouvez décider d'acquérir l'un de ces Mérites.",
+          "text": "La plupart des clans disposent d'un ou plusieurs Atouts de Lignée. Une fois votre clan choisi, vous pouvez décider d'acquérir l'un de ces Atouts.",
           "spans": [
             {
               "text": "La plupart des clans disposent d'un ou plusieurs ",
@@ -1881,7 +1829,7 @@
               "bold": true
             },
             {
-              "text": ". Une fois votre clan choisi, vous pouvez décider d'acquérir l'un de ces Mérites.",
+              "text": ". Une fois votre clan choisi, vous pouvez décider d'acquérir l'un de ces Atouts.",
               "bold": false
             }
           ]
@@ -1918,32 +1866,6 @@
           "spans": [
             {
               "text": "Les lignées représentent une fraction seulement de leur clan d'origine. Elles sont issues d'une branche dont le sang a été altéré volontairement ou non et qui possède désormais des caractéristiques différentes du reste du clan. La plupart des membres d'une lignée se considèrent toujours comme appartenant à leur clan d'origine. D'autres, en revanche, nourrissent une profonde rancœur envers celui-ci, voire s'en sont totalement séparés.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Deux lignées particulièrement rares, les Filles de la Cacophonie et les Gargouilles, ne sont rattachées à aucun clan parent.",
-          "spans": [
-            {
-              "text": "Deux lignées particulièrement rares, les ",
-              "bold": false
-            },
-            {
-              "text": "Filles de la Cacophonie",
-              "bold": true
-            },
-            {
-              "text": " et les ",
-              "bold": false
-            },
-            {
-              "text": "Gargouilles",
-              "bold": true
-            },
-            {
-              "text": ", ne sont rattachées à aucun clan parent.",
               "bold": false
             }
           ]
@@ -3408,7 +3330,7 @@
       "slug": "etape-5-repartir-les-competences-de-depart",
       "title": "Étape 5 : Répartir les Compétences de départ",
       "notionUrl": "https://app.notion.com/p/tape-5-R-partir-les-Comp-tences-de-d-part-39a88b48e48e805d864bd1898820f039",
-      "lastEditedTime": "2026-07-12T12:02:00.000Z",
+      "lastEditedTime": "2026-07-25T16:01:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -3572,8 +3494,12 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Novice : vous maîtrisez les bases de cette discipline.",
+          "text": "• Novice : vous maîtrisez les bases de cette discipline.",
           "spans": [
+            {
+              "text": "• ",
+              "bold": false
+            },
             {
               "text": "Novice",
               "bold": true
@@ -3586,10 +3512,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "• Pratiquant : vous possédez une solide maîtrise des fondamentaux.",
+          "text": "•• Pratiquant : vous possédez une solide maîtrise des fondamentaux.",
           "spans": [
             {
-              "text": "• ",
+              "text": "•• ",
               "bold": false
             },
             {
@@ -3604,10 +3530,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "•• Compétent : votre niveau est suffisant pour exercer cette activité de manière professionnelle.",
+          "text": "••• Compétent : votre niveau est suffisant pour exercer cette activité de manière professionnelle.",
           "spans": [
             {
-              "text": "•• ",
+              "text": "••• ",
               "bold": false
             },
             {
@@ -3622,10 +3548,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "••• Expert : vous dépassez la majorité des praticiens et êtes reconnu comme un spécialiste.",
+          "text": "•••• Expert : vous dépassez la majorité des praticiens et êtes reconnu comme un spécialiste.",
           "spans": [
             {
-              "text": "••• ",
+              "text": "•••• ",
               "bold": false
             },
             {
@@ -3640,10 +3566,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "•••• Maître : vous faites partie des meilleurs dans ce domaine, avec un niveau de renommée internationale.",
+          "text": "••••• Maître : vous faites partie des meilleurs dans ce domaine, avec un niveau de renommée internationale.",
           "spans": [
             {
-              "text": "•••• ",
+              "text": "••••• ",
               "bold": false
             },
             {
@@ -4111,24 +4037,6 @@
           ]
         },
         {
-          "type": "bulleted_list_item",
-          "text": "ou même Occultisme : Architecture,",
-          "spans": [
-            {
-              "text": "ou même ",
-              "bold": false
-            },
-            {
-              "text": "Occultisme : Architecture",
-              "bold": true
-            },
-            {
-              "text": ",",
-              "bold": false
-            }
-          ]
-        },
-        {
           "type": "paragraph",
           "text": "selon la manière dont il a été formé, les aspects qu'il a étudiés ou la façon dont il met ses connaissances en pratique durant la chronique.",
           "spans": [
@@ -4495,7 +4403,7 @@
       "slug": "etape-6-historique-de-depart",
       "title": "Etape 6 : Historique de départ",
       "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-07-12T12:40:00.000Z",
+      "lastEditedTime": "2026-07-25T16:02:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -4677,18 +4585,18 @@
         },
         {
           "type": "paragraph",
-          "text": "Les autres joueurs peuvent également chercher à affaiblir vos Historiques. Ces attaques n'en réduisent généralement les effets que temporairement. En règle générale, il faut deux parties ou un mois (selon la période la plus longue) pour récupérer un point perdu dans un Historique.",
+          "text": "Les autres joueurs peuvent également chercher à affaiblir vos Historiques. Ces attaques n'en réduisent généralement les effets que temporairement. En règle générale, il faut deux parties pour récupérer un point perdu dans un Historique.",
           "spans": [
             {
               "text": "Les autres joueurs peuvent également chercher à affaiblir vos Historiques. Ces attaques n'en réduisent généralement les effets que temporairement. En règle générale, il faut ",
               "bold": false
             },
             {
-              "text": "deux parties ou un mois",
+              "text": "deux parties ",
               "bold": true
             },
             {
-              "text": " (selon la période la plus longue) pour récupérer ",
+              "text": "pour récupérer ",
               "bold": false
             },
             {
@@ -4703,7 +4611,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, si votre Serviteur à trois points est tué, il faudra six parties ou trois mois avant que vous puissiez lui trouver un remplaçant équivalent.",
+          "text": "Par exemple, si votre Serviteur à trois points est tué, il faudra six parties avant que vous puissiez lui trouver un remplaçant équivalent.",
           "spans": [
             {
               "text": "Par exemple, si votre ",
@@ -4718,7 +4626,7 @@
               "bold": false
             },
             {
-              "text": "six parties ou trois mois",
+              "text": "six parties",
               "bold": true
             },
             {
@@ -4788,30 +4696,6 @@
               "item": {
                 "collectionKey": "historiques",
                 "slug": "ressources"
-              },
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "[[Contact]]",
-          "spans": [
-            {
-              "text": "[[Contact]]",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "[[Influences]]",
-          "spans": [
-            {
-              "text": "Influences",
-              "item": {
-                "collectionKey": "historiques",
-                "slug": "influences"
               },
               "bold": false
             }
@@ -5564,7 +5448,7 @@
       "slug": "etape-9-depenser-ses-px",
       "title": "Étape 9 : Dépenser ses PX",
       "notionUrl": "https://app.notion.com/p/tape-9-D-penser-ses-PX-39a88b48e48e80da8eefc6df14decc26",
-      "lastEditedTime": "2026-07-12T16:19:00.000Z",
+      "lastEditedTime": "2026-07-25T16:02:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -6438,50 +6322,6 @@
         },
         {
           "type": "heading_3",
-          "text": "Apprenti Ancien",
-          "spans": [
-            {
-              "text": "Apprenti Ancien",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "hasColumnHeader": true,
-          "rows": [
-            [
-              "Élément",
-              "Coût"
-            ],
-            [
-              "Historique",
-              "Nouveau niveau ×2"
-            ],
-            [
-              "Compétence",
-              "Nouveau niveau ×2"
-            ],
-            [
-              "Discipline hors-clan",
-              "Nouveau niveau ×4"
-            ],
-            [
-              "Technique",
-              "20 XP"
-            ],
-            [
-              "Pouvoir Ancien de clan",
-              "18 XP (maximum un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan)"
-            ],
-            [
-              "Pouvoir Ancien hors-clan",
-              "24 XP (même limite)"
-            ]
-          ]
-        },
-        {
-          "type": "heading_3",
           "text": "Ancien",
           "spans": [
             {
@@ -6522,10 +6362,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Ancien Confirmé",
+          "text": "Vénérable",
           "spans": [
             {
-              "text": "Ancien Confirmé",
+              "text": "Vénérable",
               "bold": false
             }
           ]

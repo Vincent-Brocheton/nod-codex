@@ -8,7 +8,7 @@ const LEVELS = [1, 2, 3, 4, 5];
 // de StatBlock), donc rien ne s'affiche pour les rituels sans Ingrédients
 // par exemple.
 const STAT_FIELDS = [
-    { label: "Coût en sang", tokens: ["cout", "sang"] },
+    { label: "Coût en sang", tokens: ["cout", "sang"], icon: "droplet" },
     { label: "Durée", key: "Durée" },
     { label: "Temps de préparation", key: "Temps de préparation" },
     { label: "Ingrédients", key: "Ingrédients" },

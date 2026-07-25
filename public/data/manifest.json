@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-24T11:12:01.559Z",
+  "generatedAt": "2026-07-25T16:05:34.667Z",
   "collections": [
     {
       "key": "disciplines",
@@ -106,6 +106,78 @@
   ],
   "recent": [
     {
+      "title": "Etape 6 : Historique de départ",
+      "slug": "etape-6-historique-de-depart",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T16:02:00.000Z"
+    },
+    {
+      "title": "Étape 9 : Dépenser ses PX",
+      "slug": "etape-9-depenser-ses-px",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T16:02:00.000Z"
+    },
+    {
+      "title": "Étape 5 : Répartir les Compétences de départ",
+      "slug": "etape-5-repartir-les-competences-de-depart",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T16:01:00.000Z"
+    },
+    {
+      "title": "Etape 3 : Choisir son clan",
+      "slug": "etape-3-choisir-son-clan",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T15:59:00.000Z"
+    },
+    {
+      "title": "Créer son Personnage",
+      "slug": "creer-son-personnage",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T15:58:00.000Z"
+    },
+    {
+      "title": "Etape 2 : XP de départ",
+      "slug": "etape-2-xp-de-depart",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-25T15:58:00.000Z"
+    },
+    {
+      "title": "Gestion de la Génération",
+      "slug": "gestion-de-la-generation",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-07-25T15:56:00.000Z"
+    },
+    {
+      "title": "L’Expérience",
+      "slug": "l-experience",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-07-25T15:56:00.000Z"
+    },
+    {
       "title": "Onglet Alliés",
       "slug": "onglet-allies",
       "collectionKey": "regles",
@@ -169,24 +241,6 @@
       "lastEditedTime": "2026-07-24T11:10:00.000Z"
     },
     {
-      "title": "L’Expérience",
-      "slug": "l-experience",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T15:41:00.000Z"
-    },
-    {
-      "title": "Gestion de la Génération",
-      "slug": "gestion-de-la-generation",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T15:38:00.000Z"
-    },
-    {
       "title": "Un vampire peut-il fusionner du sang avec du vin et de la nourriture? ",
       "slug": "un-vampire-peut-il-fusionner-du-sang-avec-du-vin-et-de-la-nourriture",
       "collectionKey": "faq",
@@ -194,15 +248,6 @@
       "path": "/faq",
       "icon": "help-circle",
       "lastEditedTime": "2026-07-23T15:24:00.000Z"
-    },
-    {
-      "title": "Influences",
-      "slug": "influences",
-      "collectionKey": "historiques",
-      "collectionLabel": "Historiques",
-      "path": "/historiques",
-      "icon": "scroll",
-      "lastEditedTime": "2026-07-23T13:36:00.000Z"
     },
     {
       "title": "Gestion du HRP",
@@ -239,51 +284,6 @@
       "path": "/competences",
       "icon": "target",
       "lastEditedTime": "2026-07-23T13:20:00.000Z"
-    },
-    {
-      "title": "Les Coteries",
-      "slug": "les-coteries",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T13:15:00.000Z"
-    },
-    {
-      "title": "AIPs supplémentaires",
-      "slug": "aips-supplementaires",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T13:11:00.000Z"
-    },
-    {
-      "title": "Alliés",
-      "slug": "allies",
-      "collectionKey": "historiques",
-      "collectionLabel": "Historiques",
-      "path": "/historiques",
-      "icon": "scroll",
-      "lastEditedTime": "2026-07-23T12:57:00.000Z"
-    },
-    {
-      "title": "Voie de la Conjuration",
-      "slug": "voie-de-la-conjuration",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
-    },
-    {
-      "title": "Voie de la Corruption",
-      "slug": "voie-de-la-corruption",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z"
     }
   ]
 }

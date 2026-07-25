@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-24T11:12:01.545Z",
+  "generatedAt": "2026-07-25T16:05:34.651Z",
   "propertyOptions": {
     "Catégorie": [
       "Vie",
@@ -10395,7 +10395,7 @@
       "slug": "gestion-de-la-generation",
       "title": "Gestion de la Génération",
       "notionUrl": "https://app.notion.com/p/Gestion-de-la-G-n-ration-3a688b48e48e80b6aa43f62dcbf965ea",
-      "lastEditedTime": "2026-07-23T15:38:00.000Z",
+      "lastEditedTime": "2026-07-25T15:56:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -10433,22 +10433,15 @@
               "+2"
             ],
             [
-              "Ancien Prétendant",
-              "8e",
-              "15",
-              "3",
-              "+3"
-            ],
-            [
               "Ancien",
-              "7e",
+              "8e à 7e",
               "20",
               "4",
               "+4"
             ],
             [
-              "Ancien Luminaire",
-              "6e",
+              "Vénérable",
+              "6e et +",
               "30",
               "5",
               "+5"
@@ -10881,232 +10874,6 @@
         },
         {
           "type": "heading_2",
-          "text": "Ancien Prétendant",
-          "spans": [
-            {
-              "text": "Ancien Prétendant",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les Anciens Prétendants possèdent une vitae suffisamment puissante pour soutenir les premiers Pouvoirs d'Ancien, mais pas davantage.",
-          "spans": [
-            {
-              "text": "Les ",
-              "bold": false
-            },
-            {
-              "text": "Anciens Prétendants",
-              "bold": true
-            },
-            {
-              "text": " possèdent une vitae suffisamment puissante pour soutenir les premiers ",
-              "bold": false
-            },
-            {
-              "text": "Pouvoirs d'Ancien",
-              "bold": true
-            },
-            {
-              "text": ", mais pas davantage.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "À ce stade, leur Sang conserve encore une certaine souplesse, leur permettant de continuer à apprendre des Techniques, bien que plus difficilement que les générations plus faibles.",
-          "spans": [
-            {
-              "text": "À ce stade, leur Sang conserve encore une certaine souplesse, leur permettant de continuer à apprendre des ",
-              "bold": false
-            },
-            {
-              "text": "Techniques",
-              "bold": true
-            },
-            {
-              "text": ", bien que plus difficilement que les générations plus faibles.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "La plupart de ces vampires sont âgés de plusieurs siècles.",
-          "spans": [
-            {
-              "text": "La plupart de ces vampires sont âgés de plusieurs siècles.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Avec 3 points en Génération, le personnage appartient à la 8ᵉ génération.",
-          "spans": [
-            {
-              "text": "Avec ",
-              "bold": false
-            },
-            {
-              "text": "3 points en Génération",
-              "bold": true
-            },
-            {
-              "text": ", le personnage appartient à la ",
-              "bold": false
-            },
-            {
-              "text": "8ᵉ génération",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Un Ancien Prétendant possède :",
-          "spans": [
-            {
-              "text": "Un Ancien Prétendant possède :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "une Réserve de Sang de 15 ;",
-          "spans": [
-            {
-              "text": "une ",
-              "bold": false
-            },
-            {
-              "text": "Réserve de Sang de 15",
-              "bold": true
-            },
-            {
-              "text": " ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "peut dépenser 3 points de Sang par tour.",
-          "spans": [
-            {
-              "text": "peut dépenser ",
-              "bold": false
-            },
-            {
-              "text": "3 points de Sang par tour",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Il peut :",
-          "spans": [
-            {
-              "text": "Il peut :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "apprendre autant de Techniques qu'il le souhaite, mais chacune coûte 20 PX ;",
-          "spans": [
-            {
-              "text": "apprendre autant de ",
-              "bold": false
-            },
-            {
-              "text": "Techniques",
-              "bold": true
-            },
-            {
-              "text": " qu'il le souhaite, mais chacune coûte ",
-              "bold": false
-            },
-            {
-              "text": "20 PX",
-              "bold": true
-            },
-            {
-              "text": " ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "apprendre un seul Pouvoir d'Ancien, qu'il soit de clan ou hors clan, au coût normal.",
-          "spans": [
-            {
-              "text": "apprendre ",
-              "bold": false
-            },
-            {
-              "text": "un seul Pouvoir d'Ancien",
-              "bold": true
-            },
-            {
-              "text": ", qu'il soit de clan ou hors clan, au coût normal.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les Compétences et Historiques sont acquis au coût normal.",
-          "spans": [
-            {
-              "text": "Les ",
-              "bold": false
-            },
-            {
-              "text": "Compétences",
-              "bold": true
-            },
-            {
-              "text": " et ",
-              "bold": false
-            },
-            {
-              "text": "Historiques",
-              "bold": true
-            },
-            {
-              "text": " sont acquis au coût normal.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
           "text": "Ancien",
           "spans": [
             {
@@ -11181,7 +10948,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Avec 4 points en Génération, le personnage appartient à la 7ᵉ génération.",
+          "text": "Avec 4 points en Génération, le personnage appartient à la 8ᵉ génération ou 7ᵉ génération.",
           "spans": [
             {
               "text": "Avec ",
@@ -11193,6 +10960,14 @@
             },
             {
               "text": ", le personnage appartient à la ",
+              "bold": false
+            },
+            {
+              "text": "8ᵉ génération ou",
+              "bold": true
+            },
+            {
+              "text": " ",
               "bold": false
             },
             {
@@ -11315,24 +11090,24 @@
         },
         {
           "type": "heading_2",
-          "text": "Ancien Luminaire",
+          "text": "Vénérable",
           "spans": [
             {
-              "text": "Ancien Luminaire",
+              "text": "Vénérable",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Les Anciens Luminaires comptent parmi les créatures les plus redoutables du Monde des Ténèbres.",
+          "text": "Les Vénérables comptent parmi les créatures les plus redoutables du Monde des Ténèbres.",
           "spans": [
             {
-              "text": "Les ",
+              "text": "Les Vénérable",
               "bold": false
             },
             {
-              "text": "Anciens Luminaires",
+              "text": "s",
               "bold": true
             },
             {
@@ -12313,7 +12088,7 @@
       "slug": "l-experience",
       "title": "L’Expérience",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-07-23T15:41:00.000Z",
+      "lastEditedTime": "2026-07-25T15:56:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -12469,50 +12244,6 @@
         },
         {
           "type": "heading_3",
-          "text": "Apprenti Ancien",
-          "spans": [
-            {
-              "text": "Apprenti Ancien",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "table",
-          "hasColumnHeader": true,
-          "rows": [
-            [
-              "Élément",
-              "Coût"
-            ],
-            [
-              "Historique",
-              "Nouveau niveau ×2"
-            ],
-            [
-              "Compétence",
-              "Nouveau niveau ×2"
-            ],
-            [
-              "Discipline hors-clan",
-              "Nouveau niveau ×4"
-            ],
-            [
-              "Technique",
-              "20 XP"
-            ],
-            [
-              "Pouvoir Ancien de clan",
-              "18 XP (maximum un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan)"
-            ],
-            [
-              "Pouvoir Ancien hors-clan",
-              "24 XP (même limite)"
-            ]
-          ]
-        },
-        {
-          "type": "heading_3",
           "text": "Ancien",
           "spans": [
             {
@@ -12553,10 +12284,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Ancien Confirmé",
+          "text": "Vénérable",
           "spans": [
             {
-              "text": "Ancien Confirmé",
+              "text": "Vénérable",
               "bold": false
             }
           ]

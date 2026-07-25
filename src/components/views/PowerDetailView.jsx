@@ -12,7 +12,7 @@ const STAT_FIELDS = [
     { label: "Durée", key: "Durée" },
     { label: "Jet d'attaque", key: "Jet d'attaque", separator: " + " },
     { label: "Jet de défense", key: "Jet de défense", separator: " + " },
-    { label: "Coût en sang", tokens: ["cout", "sang"] },
+    { label: "Coût en sang", tokens: ["cout", "sang"], icon: "droplet" },
 ];
 
 export default function PowerDetailView({ wiki }) {
