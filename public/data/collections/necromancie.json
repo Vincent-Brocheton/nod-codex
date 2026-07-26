@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "Informations sur les rituels de nécromancie",
   "notionDatabaseId": "39088b48-e48e-80f7-b261-df57f306e6a1",
-  "generatedAt": "2026-07-25T16:05:34.649Z",
+  "generatedAt": "2026-07-26T13:42:31.389Z",
   "propertyOptions": {
     "Temps de préparation": [
       "5 minutes",
@@ -27,7 +27,7 @@
       "slug": "appel-des-morts-affames",
       "title": "Appel des Morts Affamés",
       "notionUrl": "https://app.notion.com/p/Appel-des-Morts-Affam-s-39188b48e48e805f826fc986fff77fd1",
-      "lastEditedTime": "2026-07-12T13:26:00.000Z",
+      "lastEditedTime": "2026-07-26T13:38:00.000Z",
       "properties": {
         "Cout en point de sang": {
           "type": "number",
@@ -79,10 +79,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Quand un nécromancien lance Appel des Morts Affamés, il doit cibler une victime dans un rayon de 1,6 km (1 mile). Si vous réussissez le challenge d'opposition, la victime est hantée par les murmures des spectres qui franchissent le Voile. Ces voix murmurent dans la nuit, rendant confuse la cible, distordant ses perceptions et augmentant sa paranoïa. La prochaine fois que la cible gagnera des actions d’inter-parties, elle en gagnera une de moins pour la période. Les effets de ce rituel ne se cumulent pas.",
+          "text": "Quand un nécromancien lance Appel des Morts Affamés, il doit cibler une victime dans un rayon de 1,6 km (1 mile). Si vous réussissez le challenge d'opposition, la victime est hantée par les murmures des spectres qui franchissent le Voile. Ces voix murmurent dans la nuit, rendant confuse la cible, distordant ses perceptions et augmentant sa paranoïa. La prochaine fois que la cible gagnera des AIP, elle en gagnera une de moins pour la période. Les effets de ce rituel ne se cumulent pas.",
           "spans": [
             {
-              "text": "Quand un nécromancien lance Appel des Morts Affamés, il doit cibler une victime dans un rayon de 1,6 km (1 mile). Si vous réussissez le challenge d'opposition, la victime est hantée par les murmures des spectres qui franchissent le Voile. Ces voix murmurent dans la nuit, rendant confuse la cible, distordant ses perceptions et augmentant sa paranoïa. La prochaine fois que la cible gagnera des actions d’inter-parties, elle en gagnera une de moins pour la période. Les effets de ce rituel ne se cumulent pas.",
+              "text": "Quand un nécromancien lance Appel des Morts Affamés, il doit cibler une victime dans un rayon de 1,6 km (1 mile). Si vous réussissez le challenge d'opposition, la victime est hantée par les murmures des spectres qui franchissent le Voile. Ces voix murmurent dans la nuit, rendant confuse la cible, distordant ses perceptions et augmentant sa paranoïa. La prochaine fois que la cible gagnera des AIP, elle en gagnera une de moins pour la période. Les effets de ce rituel ne se cumulent pas.",
               "bold": false
             }
           ]
@@ -1403,7 +1403,7 @@
       "slug": "exploitation-des-faiblesses",
       "title": "Exploitation des faiblesses",
       "notionUrl": "https://app.notion.com/p/Exploitation-des-faiblesses-39b88b48e48e800ab2b2c454351f793a",
-      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "lastEditedTime": "2026-07-26T13:36:00.000Z",
       "properties": {
         "Cout en point de sang": {
           "type": "number",
@@ -1475,10 +1475,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La cible n’est pas mise au courant du changement et cela peut nécessiter qu’elle dépense une action inter-partie pour s’en rendre compte. Une cible ne peut être visée par qu’une seule occurrence de ce rituel et si elle est déjà affectée par ce rituel ou par la faiblesse de clan Ventru, le rituel ne fonctionne pas. Il persiste 30 nuits après avoir été lancé.",
+          "text": "La cible n’est pas mise au courant du changement et cela peut nécessiter qu’elle dépense une AIP pour s’en rendre compte. Une cible ne peut être visée par qu’une seule occurrence de ce rituel et si elle est déjà affectée par ce rituel ou par la faiblesse de clan Ventru, le rituel ne fonctionne pas. Il persiste 30 nuits après avoir été lancé.",
           "spans": [
             {
-              "text": "La cible n’est pas mise au courant du changement et cela peut nécessiter qu’elle dépense une action inter-partie pour s’en rendre compte. Une cible ne peut être visée par qu’une seule occurrence de ce rituel et si elle est déjà affectée par ce rituel ou par la faiblesse de clan Ventru, le rituel ne fonctionne pas. Il persiste 30 nuits après avoir été lancé.",
+              "text": "La cible n’est pas mise au courant du changement et cela peut nécessiter qu’elle dépense une AIP pour s’en rendre compte. Une cible ne peut être visée par qu’une seule occurrence de ce rituel et si elle est déjà affectée par ce rituel ou par la faiblesse de clan Ventru, le rituel ne fonctionne pas. Il persiste 30 nuits après avoir été lancé.",
               "bold": false
             }
           ]
@@ -1905,7 +1905,7 @@
       "slug": "forteresse-stygienne",
       "title": "Forteresse Stygienne",
       "notionUrl": "https://app.notion.com/p/Forteresse-Stygienne-39b88b48e48e80d680edecd7de5ca8c5",
-      "lastEditedTime": "2026-07-12T13:38:00.000Z",
+      "lastEditedTime": "2026-07-26T13:37:00.000Z",
       "properties": {
         "Cout en point de sang": {
           "type": "number",
@@ -1987,10 +1987,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La porte et la forteresse durent 30 jours. Le rituel peut être prolongé tous les mois par une action inter-partie. Si le rituel arrive à terme, il peut être relancé à nouveau pour avoir accès à la même forteresse avec les mêmes qualités.",
+          "text": "La porte et la forteresse durent 30 jours. Le rituel peut être prolongé tous les mois par une AIP. Si le rituel arrive à terme, il peut être relancé à nouveau pour avoir accès à la même forteresse avec les mêmes qualités.",
           "spans": [
             {
-              "text": "La porte et la forteresse durent 30 jours. Le rituel peut être prolongé tous les mois par une action inter-partie. Si le rituel arrive à terme, il peut être relancé à nouveau pour avoir accès à la même forteresse avec les mêmes qualités.",
+              "text": "La porte et la forteresse durent 30 jours. Le rituel peut être prolongé tous les mois par une AIP. Si le rituel arrive à terme, il peut être relancé à nouveau pour avoir accès à la même forteresse avec les mêmes qualités.",
               "bold": false
             }
           ]

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-07-25T16:05:34.667Z",
+  "generatedAt": "2026-07-26T13:42:31.405Z",
   "collections": [
     {
       "key": "disciplines",
@@ -106,13 +106,148 @@
   ],
   "recent": [
     {
+      "title": "Croisé",
+      "slug": "croise",
+      "collectionKey": "lignees",
+      "collectionLabel": "Lignées",
+      "path": "/lignees",
+      "icon": "shield-plus",
+      "lastEditedTime": "2026-07-26T13:40:00.000Z"
+    },
+    {
+      "title": "Fétiche alimentaire",
+      "slug": "fetiche-alimentaire",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-07-26T13:40:00.000Z"
+    },
+    {
+      "title": "Humble jardinier",
+      "slug": "humble-jardinier",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-07-26T13:40:00.000Z"
+    },
+    {
+      "title": "Âme de l’Homoncule",
+      "slug": "ame-de-l-homoncule",
+      "collectionKey": "thaumaturgie",
+      "collectionLabel": "Thaumaturgie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-07-26T13:40:00.000Z"
+    },
+    {
+      "title": "Appel des Morts Affamés",
+      "slug": "appel-des-morts-affames",
+      "collectionKey": "necromancie",
+      "collectionLabel": "Nécromancie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-07-26T13:38:00.000Z"
+    },
+    {
+      "title": "Mystère",
+      "slug": "mystere",
+      "collectionKey": "competences",
+      "collectionLabel": "Compétences",
+      "path": "/competences",
+      "icon": "target",
+      "lastEditedTime": "2026-07-26T13:38:00.000Z"
+    },
+    {
+      "title": "Ventrue",
+      "slug": "ventrue",
+      "collectionKey": "clans",
+      "collectionLabel": "Clans",
+      "path": "/clans",
+      "icon": "shield-plus",
+      "lastEditedTime": "2026-07-26T13:37:00.000Z"
+    },
+    {
+      "title": "Forteresse Stygienne",
+      "slug": "forteresse-stygienne",
+      "collectionKey": "necromancie",
+      "collectionLabel": "Nécromancie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-07-26T13:37:00.000Z"
+    },
+    {
+      "title": "Réceptacle Obscur",
+      "slug": "receptacle-obscur",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-07-26T13:36:00.000Z"
+    },
+    {
+      "title": "Parfum de la tromperie",
+      "slug": "parfum-de-la-tromperie",
+      "collectionKey": "thaumaturgie",
+      "collectionLabel": "Thaumaturgie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-07-26T13:36:00.000Z"
+    },
+    {
+      "title": "Exploitation des faiblesses",
+      "slug": "exploitation-des-faiblesses",
+      "collectionKey": "necromancie",
+      "collectionLabel": "Nécromancie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-07-26T13:36:00.000Z"
+    },
+    {
+      "title": "Tech Junkie",
+      "slug": "tech-junkie",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-07-26T13:35:00.000Z"
+    },
+    {
       "title": "Etape 6 : Historique de départ",
       "slug": "etape-6-historique-de-depart",
       "collectionKey": "personnage",
       "collectionLabel": "Étapes de création",
       "path": "/creation",
       "icon": "user",
-      "lastEditedTime": "2026-07-25T16:02:00.000Z"
+      "lastEditedTime": "2026-07-26T13:33:00.000Z"
+    },
+    {
+      "title": "Étape 5 : Répartir les Compétences de départ",
+      "slug": "etape-5-repartir-les-competences-de-depart",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-26T13:32:00.000Z"
+    },
+    {
+      "title": "Étape 1 : L'inspiration",
+      "slug": "etape-1-l-inspiration",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-26T13:27:00.000Z"
+    },
+    {
+      "title": "Créer son Personnage",
+      "slug": "creer-son-personnage",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-07-26T08:41:00.000Z"
     },
     {
       "title": "Étape 9 : Dépenser ses PX",
@@ -124,15 +259,6 @@
       "lastEditedTime": "2026-07-25T16:02:00.000Z"
     },
     {
-      "title": "Étape 5 : Répartir les Compétences de départ",
-      "slug": "etape-5-repartir-les-competences-de-depart",
-      "collectionKey": "personnage",
-      "collectionLabel": "Étapes de création",
-      "path": "/creation",
-      "icon": "user",
-      "lastEditedTime": "2026-07-25T16:01:00.000Z"
-    },
-    {
       "title": "Etape 3 : Choisir son clan",
       "slug": "etape-3-choisir-son-clan",
       "collectionKey": "personnage",
@@ -140,15 +266,6 @@
       "path": "/creation",
       "icon": "user",
       "lastEditedTime": "2026-07-25T15:59:00.000Z"
-    },
-    {
-      "title": "Créer son Personnage",
-      "slug": "creer-son-personnage",
-      "collectionKey": "personnage",
-      "collectionLabel": "Étapes de création",
-      "path": "/creation",
-      "icon": "user",
-      "lastEditedTime": "2026-07-25T15:58:00.000Z"
     },
     {
       "title": "Etape 2 : XP de départ",
@@ -167,123 +284,6 @@
       "path": "/regles",
       "icon": "book-open",
       "lastEditedTime": "2026-07-25T15:56:00.000Z"
-    },
-    {
-      "title": "L’Expérience",
-      "slug": "l-experience",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-25T15:56:00.000Z"
-    },
-    {
-      "title": "Onglet Alliés",
-      "slug": "onglet-allies",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Equipement",
-      "slug": "onglet-equipement",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Historique",
-      "slug": "onglet-historique",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Mentorat",
-      "slug": "onglet-mentorat",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Personnage",
-      "slug": "onglet-personnage",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Résumé",
-      "slug": "onglet-resume",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Onglet Serviteurs",
-      "slug": "onglet-serviteurs",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z"
-    },
-    {
-      "title": "Un vampire peut-il fusionner du sang avec du vin et de la nourriture? ",
-      "slug": "un-vampire-peut-il-fusionner-du-sang-avec-du-vin-et-de-la-nourriture",
-      "collectionKey": "faq",
-      "collectionLabel": "FAQ",
-      "path": "/faq",
-      "icon": "help-circle",
-      "lastEditedTime": "2026-07-23T15:24:00.000Z"
-    },
-    {
-      "title": "Gestion du HRP",
-      "slug": "gestion-du-hrp",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T13:32:00.000Z"
-    },
-    {
-      "title": "Rencontre entre personnages",
-      "slug": "rencontre-entre-personnages",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T13:27:00.000Z"
-    },
-    {
-      "title": "Les Dettes",
-      "slug": "les-dettes",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-07-23T13:24:00.000Z"
-    },
-    {
-      "title": "Mystère",
-      "slug": "mystere",
-      "collectionKey": "competences",
-      "collectionLabel": "Compétences",
-      "path": "/competences",
-      "icon": "target",
-      "lastEditedTime": "2026-07-23T13:20:00.000Z"
     }
   ]
 }

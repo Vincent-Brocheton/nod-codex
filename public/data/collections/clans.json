@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-25T16:05:34.636Z",
+  "generatedAt": "2026-07-26T13:42:31.376Z",
   "propertyOptions": {},
   "items": [
     {
@@ -4511,7 +4511,7 @@
       "slug": "ventrue",
       "title": "Ventrue",
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
-      "lastEditedTime": "2026-07-22T14:51:00.000Z",
+      "lastEditedTime": "2026-07-26T13:37:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -4921,14 +4921,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une action d'inter-partie supplémentaire pour commencer la partie avec une réserve de Sang complète.",
+          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une AIP supplémentaire pour commencer la partie avec une réserve de Sang complète.",
           "spans": [
             {
               "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit ",
               "bold": false
             },
             {
-              "text": "dépenser une action d'inter-partie supplémentaire",
+              "text": "dépenser une AIP supplémentaire",
               "bold": true
             },
             {

@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-07-25T16:05:34.661Z",
+  "generatedAt": "2026-07-26T13:42:31.400Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "creer-son-personnage",
       "title": "Créer son Personnage",
       "notionUrl": "https://app.notion.com/p/Cr-er-son-Personnage-39988b48e48e80a29e33cf5dc4ba10fe",
-      "lastEditedTime": "2026-07-25T15:58:00.000Z",
+      "lastEditedTime": "2026-07-26T08:41:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -70,10 +70,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les règles de Mind's Eye Theatre (MET) fournissent un cadre commun permettant à tous les joueurs de créer des personnages équilibrés tout en laissant une grande liberté d'interprétation.",
+          "text": "Les règles du Mind's Eye Theatre (MET) fournissent un cadre commun permettant à tous les joueurs de créer des personnages équilibrés tout en laissant une grande liberté d'interprétation.",
           "spans": [
             {
-              "text": "Les règles de Mind's Eye Theatre (MET) fournissent un cadre commun permettant à tous les joueurs de créer des personnages équilibrés tout en laissant une grande liberté d'interprétation.",
+              "text": "Les règles du Mind's Eye Theatre (MET) fournissent un cadre commun permettant à tous les joueurs de créer des personnages équilibrés tout en laissant une grande liberté d'interprétation.",
               "bold": false
             }
           ]
@@ -100,10 +100,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque chronique possède son propre cadre de jeu (setting), qui définit l'histoire, la culture, les organisations et les règles particulières applicables aux vampires de cet univers.",
+          "text": "Chaque chronique possède son propre cadre de jeu, qui définit l'histoire, la culture, les organisations et les règles particulières applicables aux vampires de cet univers.",
           "spans": [
             {
-              "text": "Chaque chronique possède son propre cadre de jeu (setting), qui définit l'histoire, la culture, les organisations et les règles particulières applicables aux vampires de cet univers.",
+              "text": "Chaque chronique possède son propre cadre de jeu, qui définit l'histoire, la culture, les organisations et les règles particulières applicables aux vampires de cet univers.",
               "bold": false
             }
           ]
@@ -120,10 +120,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le livre MET : Vampire – The Masquerade propose trois cadres de jeu principaux :",
+          "text": "Le MET propose trois cadres de jeu principaux :",
           "spans": [
             {
-              "text": "Le livre MET : Vampire – The Masquerade propose trois cadres de jeu principaux :",
+              "text": "Le MET propose trois cadres de jeu principaux :",
               "bold": false
             }
           ]
@@ -160,10 +160,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Les règles présentées dans ce chapitre sont volontairement génériques et peuvent être utilisées dans n'importe lequel de ces cadres. Toutefois, chaque univers possède ses propres particularités et peut modifier certaines règles de création de personnage.",
+          "text": "Chez nous, ces règles ont également été adapté au cadre de jeu de l’Empire.",
           "spans": [
             {
-              "text": "Les règles présentées dans ce chapitre sont volontairement génériques et peuvent être utilisées dans n'importe lequel de ces cadres. Toutefois, chaque univers possède ses propres particularités et peut modifier certaines règles de création de personnage.",
+              "text": "Chez nous, ces règles ont également été adapté au cadre de jeu de l’Empire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les règles présentées sont volontairement génériques et peuvent être utilisées dans n'importe lequel de ces cadres. Toutefois, chaque univers possède ses propres particularités et peut modifier certaines règles de création de personnage.",
+          "spans": [
+            {
+              "text": "Les règles présentées sont volontairement génériques et peuvent être utilisées dans n'importe lequel de ces cadres. Toutefois, chaque univers possède ses propres particularités et peut modifier certaines règles de création de personnage.",
               "bold": false
             }
           ]
@@ -210,10 +220,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "de nouveaux Mérites et Défauts.",
+          "text": "de nouveaux Atouts et Handicaps.",
           "spans": [
             {
-              "text": "de nouveaux Mérites et Défauts.",
+              "text": "de nouveaux Atouts et Handicaps.",
               "bold": false
             }
           ]
@@ -285,7 +295,7 @@
       "slug": "etape-1-l-inspiration",
       "title": "Étape 1 : L'inspiration",
       "notionUrl": "https://app.notion.com/p/tape-1-L-inspiration-39988b48e48e80e5ba69f7daf0f88f01",
-      "lastEditedTime": "2026-07-11T15:35:00.000Z",
+      "lastEditedTime": "2026-07-26T13:27:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -393,10 +403,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ces réponses serviront de fondation à votre personnage et guideront naturellement son comportement tout au long de la chronique.",
+          "text": "Ces réponses serviront de fondation à votre personnage et guideront naturellement son comportement tout au long de la chronique. Vous pouvez les retrouver dans la partie Background de votre canal.",
           "spans": [
             {
-              "text": "Ces réponses serviront de fondation à votre personnage et guideront naturellement son comportement tout au long de la chronique.",
+              "text": "Ces réponses serviront de fondation à votre personnage et guideront naturellement son comportement tout au long de la chronique. Vous pouvez les retrouver dans la partie Background de votre canal.",
               "bold": false
             }
           ]
@@ -520,156 +530,164 @@
               "Description"
             ],
             [
+              "Ange-Gardien",
+              "Vous protégez le faible, cultivez l’ignorant et faites des pieds et des mains pour les autres."
+            ],
+            [
               "Architecte",
-              "Vous aimez les structures, les institutions et les organisations. Ceux qui agissent en dehors du système vous inspirent la méfiance."
+              "Vous adorez les structures physiques et sociales et abhorrez quiconque se situe hors du système."
             ],
             [
               "Artiste",
-              "Vous vivez pour la création, l'émotion et l'inspiration."
+              "Vous vous focalisez sur l’inspiration, l’émotion, la force créatrice. Vous existez pour votre art."
+            ],
+            [
+              "Battant",
+              "Vous affrontez des problèmes au quotidien et vous aimez vous y attaquer de front. La bataille est toujours une option."
             ],
             [
               "Brute",
-              "Vous imposez votre volonté par la force et aimez rappeler votre supériorité."
-            ],
-            [
-              "Combattant",
-              "Vous affrontez les difficultés de front et ne fuyez pas les conflits."
+              "Vous êtes fier de votre supériorité et tout le monde le sait. Il vaut mieux pour eux vous laisser agir à votre guise."
             ],
             [
               "Compétiteur",
-              "Vous recherchez les défis et aimez prouver votre valeur."
+              "Vous aimez relever des défis. La victoire n’a de saveur que si elle comprend un risque."
             ],
             [
               "Conformiste",
-              "Vous cherchez à vous intégrer et à suivre les attentes du groupe."
+              "Vous gardez un regard attentif sur la société et veillez à vous y adapter. Peu importe ce que le groupe veut, vous le voulez aussi."
             ],
             [
-              "Cultivé",
-              "Vous appréciez le raffinement, l'élégance et l'excellence."
+              "Conservateur",
+              "Le par cœur et l’habitude ont votre vote, vous préférez le prévisible à la nouveauté."
             ],
             [
               "Curieux",
-              "Les mystères vous attirent irrésistiblement."
+              "Vous êtes indiscret, y compris à votre dépens et vous ne pouvez abandonner un puzzle inachevé."
+            ],
+            [
+              "Danger public",
+              "Énergique et excessivement impatient, vous êtes prompt à agir de manière irréfléchie."
+            ],
+            [
+              "Dirigeant",
+              "Vous avez un but, l’énergie et les idées. Vous voulez être aux commandes."
             ],
             [
               "Enfant",
-              "Votre vision du monde est naïve et innocente."
-            ],
-            [
-              "Énigmatique",
-              "Votre personnalité demeure difficile à comprendre."
+              "Votre compréhension de la nature humaine est naïve et simpliste. Vous avez beaucoup à apprendre."
             ],
             [
               "Escroc",
-              "Mensonge, manipulation et tromperie sont votre quotidien."
+              "Vous êtes un filou, un menteur et un tricheur. Parfois, c’est une raison de vivre − et d’autres fois c’est un art."
             ],
             [
               "Esprit libre",
-              "Vous détestez les règles et refusez toute contrainte."
+              "Vous êtes incontrôlable, imprévisible et cela vous plaît. Vous haïssez les règles."
             ],
             [
               "Fanatique",
-              "Une cause domine entièrement votre existence."
+              "Une cause vous inspire. Rien d’autre n’a d’importance."
             ],
             [
-              "Fauteur de troubles",
-              "Vous aimez défier l'autorité et provoquer les révoltes."
+              "Filou",
+              "Vous êtes un imposteur, un espiègle personnage qui préfère gagner au travers de la ruse."
             ],
             [
-              "Flagorneur",
-              "Vous vous attachez aux puissants afin de profiter de leur influence."
-            ],
-            [
-              "Grincheux",
-              "Vous critiquez facilement et faites rarement confiance."
+              "Flatteur",
+              "Vous restez dans le sillon des personnalités influentes et profitez de leurs victoires."
             ],
             [
               "Imperturbable",
-              "Vous gardez toujours votre calme, quelles que soient les circonstances."
+              "Vous êtes toujours calme et détendu, que ce soit dans la victoire ou la défaite. Quand il vous arrive de ressentir de l’enthousiasme, cela vous obsède, jusqu’à ce que, à son tour, il disparaisse aussi."
+            ],
+            [
+              "Indigne de confiance",
+              "C’est toujours chacun pour sa pomme finalement, pourquoi s’en cacher ?"
             ],
             [
               "Introverti",
-              "Vous êtes discret, réfléchi et réservé."
+              "Vous êtes centré sur vous-même. Réfléchi, timide et réservé, vous préférez rester silencieux."
+            ],
+            [
+              "Je-Sais-Tout",
+              "Vous êtes un érudit, un cerveau et aimez le montrer. Autrui devrait admirer votre intelligence."
             ],
             [
               "Juge",
-              "Vous estimez que chacun doit répondre de ses actes."
+              "Vous soutenez une norme comportementale ; ceux qui ne s’y conforment pas sont punis ou bannis."
             ],
             [
-              "Leader",
-              "Vous prenez naturellement les commandes et inspirez les autres."
+              "Lettré",
+              "Vous êtes raffiné et n’acceptez que le meilleur. Vous faites partie du gotha."
             ],
             [
               "Martyr",
-              "Vous supportez les souffrances afin d'aider ou d'inspirer les autres."
+              "Vous prouvez votre valeur par la souffrance et le travail pour gagner la sympathie d’autrui."
             ],
             [
               "Médiateur",
-              "Vous excellez dans la résolution des conflits."
+              "Doté d’un talent inné pour résoudre les conflits, vous êtes sous votre meilleur jour lors de négociations."
             ],
             [
               "Mercenaire",
-              "Votre loyauté a un prix."
+              "Votre loyauté s’achète et se vend ; vous ferez n’importe quoi tant que le prix est adéquat."
             ],
             [
               "Monstre",
-              "Vous prenez plaisir à inspirer la peur et la souffrance."
+              "Rien ne vous fait plus plaisir que de faire naître l’horreur à travers la méchanceté, la cruauté ou le vice."
+            ],
+            [
+              "Mystère",
+              "Vous êtes décalé, étrange et souvent incompris. Vous n’êtes tout simplement pas très en phase avec les autres."
             ],
             [
               "Noble",
-              "Vous vous considérez naturellement destiné à gouverner."
+              "Vous êtes une personne royale, meilleur qu’autrui de manière innée et vous acceptez la responsabilité allant de pair avec votre position."
             ],
             [
               "Pénitent",
-              "Vous cherchez à expier une faute passée."
+              "Vous devez expier vos fautes ; vous cherchez constamment le pardon."
             ],
             [
-              "Perfectionniste",
-              "Vous exigez l'excellence, de vous comme des autres."
+              "Personnalité de type A",
+              "Habile, mais autocritique, vous exigez la perfection de vous-même et d’autrui."
             ],
             [
-              "Peu digne de confiance",
-              "Vous considérez que chacun agit avant tout pour son propre intérêt."
+              "Perturbateur",
+              "Vous aimez défier l’autorité, pousser à la rébellion et à l’inciter à la désobéissance."
             ],
             [
               "Professeur",
-              "Vous aimez transmettre votre savoir et être reconnu comme une référence."
+              "Transmettre le savoir à autrui vous réjouis et vous vous attendez à être reconnu comme une pointure dans votre domaine."
             ],
             [
               "Protecteur",
-              "Vous prenez naturellement la défense des plus faibles."
+              "Défendre ce que vous aimez est votre raison d’être ; vous maintenez le cap."
             ],
             [
-              "Provocateur",
-              "Vous aimez choquer et remettre en cause les conventions."
+              "Râleur",
+              "Le doute, la critique et le mépris sont vos armes. Rien de vous ennuie plus que la confiance."
             ],
             [
               "Rationaliste",
-              "La logique guide chacune de vos décisions."
-            ],
-            [
-              "Savant",
-              "Vous aimez démontrer votre intelligence et partager vos connaissances."
+              "La raison et la logique sont vos guides. Vous rejetez toute décision basée sur l’émotion."
             ],
             [
               "Solitaire",
-              "Vous préférez agir seul plutôt que dépendre des autres."
+              "Vous n’êtes pas un engrenage du système. Vous vous attendez à être rejeté et préférez travailler seul."
             ],
             [
               "Survivant",
-              "Rien ne compte davantage que votre propre survie."
+              "Vous ferez tout ce qu’il faut, peu importe l’avilissement ou qui vous devrez trahir pour rester en vie."
             ],
             [
-              "Tête brûlée",
-              "Vous agissez souvent avant de réfléchir."
+              "Tordu",
+              "Vous aimez choquer et dégoûter autrui, réduisant à néant leurs confortables hypothèses."
             ],
             [
-              "Traditionaliste",
-              "Vous privilégiez les traditions et les méthodes éprouvées."
-            ],
-            [
-              "Trickster",
-              "Vous préférez triompher par la ruse plutôt que par la force."
+              "Autre (Préciser)",
+              "Remplir la case \"archétype personalisé\" à Droite"
             ]
           ]
         }
@@ -3330,7 +3348,7 @@
       "slug": "etape-5-repartir-les-competences-de-depart",
       "title": "Étape 5 : Répartir les Compétences de départ",
       "notionUrl": "https://app.notion.com/p/tape-5-R-partir-les-Comp-tences-de-d-part-39a88b48e48e805d864bd1898820f039",
-      "lastEditedTime": "2026-07-25T16:01:00.000Z",
+      "lastEditedTime": "2026-07-26T13:32:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -3583,6 +3601,30 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Attention : Si vous tentez d’effectuer une action sans posséder la compétence appropriée et que vous perdez le test, vous échouez de manière spectaculaire.",
+          "spans": [
+            {
+              "text": "Attention : ",
+              "bold": true
+            },
+            {
+              "text": "Si vous tentez d’effectuer une action sans posséder la compétence appropriée et que vous perdez le test, vous échouez de manière spectaculaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si vous n’avez pas de point dans la compétence d’Athlétisme, que vous tentez d’escalader un mur et que vous échouez, cela sera considéré comme un échec critique et des conséquence seront établi.",
+          "spans": [
+            {
+              "text": "Par exemple, si vous n’avez pas de point dans la compétence d’Athlétisme, que vous tentez d’escalader un mur et que vous échouez, cela sera considéré comme un échec critique et des conséquence seront établi.",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "heading_2",
           "text": "Choisir les Compétences",
           "spans": [
@@ -3614,7 +3656,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Choisissez une Compétence et attribuez-lui 4 points.",
+          "text": "Choisissez une Compétence et attribuez lui 4 points.",
           "spans": [
             {
               "text": "Choisissez ",
@@ -3625,7 +3667,7 @@
               "bold": true
             },
             {
-              "text": " et attribuez-lui ",
+              "text": " et attribuez lui ",
               "bold": false
             },
             {
@@ -3640,7 +3682,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Choisissez deux Compétences et attribuez-leur 3 points chacune.",
+          "text": "Choisissez deux Compétences et attribuez leur 3 points chacune.",
           "spans": [
             {
               "text": "Choisissez ",
@@ -3651,7 +3693,7 @@
               "bold": true
             },
             {
-              "text": " et attribuez-leur ",
+              "text": " et attribuez leur ",
               "bold": false
             },
             {
@@ -3666,7 +3708,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Choisissez trois Compétences et attribuez-leur 2 points chacune.",
+          "text": "Choisissez trois Compétences et attribuez leur 2 points chacune.",
           "spans": [
             {
               "text": "Choisissez ",
@@ -3677,7 +3719,7 @@
               "bold": true
             },
             {
-              "text": " et attribuez-leur ",
+              "text": " et attribuez leur ",
               "bold": false
             },
             {
@@ -3692,7 +3734,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Choisissez quatre Compétences et attribuez-leur 1 point chacune.",
+          "text": "Choisissez quatre Compétences et attribuez leur 1 point chacune.",
           "spans": [
             {
               "text": "Choisissez ",
@@ -3703,7 +3745,7 @@
               "bold": true
             },
             {
-              "text": " et attribuez-leur ",
+              "text": " et attribuez leur ",
               "bold": false
             },
             {
@@ -4403,7 +4445,7 @@
       "slug": "etape-6-historique-de-depart",
       "title": "Etape 6 : Historique de départ",
       "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-07-25T16:02:00.000Z",
+      "lastEditedTime": "2026-07-26T13:33:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -4519,7 +4561,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Génération : si vous n'attribuez aucun de ces points gratuits à l'Historique Génération, votre personnage débute la partie en tant que mortel (ou Goule). Les règles de création des Goules sont détaillées au Chapitre Sept : Systèmes dramatiques.",
+          "text": "Génération : si vous n'attribuez aucun de ces points gratuits à l'Historique Génération, votre personnage débute la partie en tant que mortel (ou Goule).",
           "spans": [
             {
               "text": "Génération :",
@@ -4550,7 +4592,7 @@
               "bold": true
             },
             {
-              "text": "). Les règles de création des Goules sont détaillées au Chapitre Sept : Systèmes dramatiques.",
+              "text": ").",
               "bold": false
             }
           ]
