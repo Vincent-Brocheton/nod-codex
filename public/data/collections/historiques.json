@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-26T13:42:31.401Z",
+  "generatedAt": "2026-07-26T13:48:12.437Z",
   "propertyOptions": {},
   "items": [
     {
@@ -3804,7 +3804,7 @@
       "slug": "serviteurs",
       "title": "Serviteurs",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
-      "lastEditedTime": "2026-07-12T12:51:00.000Z",
+      "lastEditedTime": "2026-07-26T13:47:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -4753,7 +4753,11 @@
           "text": "Courageux : Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ.",
           "spans": [
             {
-              "text": "Courageux : Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ.",
+              "text": "Courageux ",
+              "bold": true
+            },
+            {
+              "text": ": Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ.",
               "bold": false
             }
           ]
@@ -4763,7 +4767,11 @@
           "text": "Féroce : Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
           "spans": [
             {
-              "text": "Féroce : Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
+              "text": "Féroce ",
+              "bold": true
+            },
+            {
+              "text": ": Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
               "bold": false
             }
           ]
@@ -4773,7 +4781,11 @@
           "text": "Rapide : Si votre Serviteur dépense à la fois ses actions simples et standard pour se déplacer, il peut se déplacer de neuf pas en un round au lieu des six pas standard.",
           "spans": [
             {
-              "text": "Rapide : Si votre Serviteur dépense à la fois ses actions simples et standard pour se déplacer, il peut se déplacer de neuf pas en un round au lieu des six pas standard.",
+              "text": "Rapide ",
+              "bold": true
+            },
+            {
+              "text": ": Si votre Serviteur dépense à la fois ses actions simples et standard pour se déplacer, il peut se déplacer de neuf pas en un round au lieu des six pas standard.",
               "bold": false
             }
           ]
@@ -4783,7 +4795,11 @@
           "text": "Énorme : Votre Serviteur est un grand membre de son espèce, et gagne 2 niveaux de santé supplémentaires.",
           "spans": [
             {
-              "text": "Énorme : Votre Serviteur est un grand membre de son espèce, et gagne 2 niveaux de santé supplémentaires.",
+              "text": "Énorme ",
+              "bold": true
+            },
+            {
+              "text": ": Votre Serviteur est un grand membre de son espèce, et gagne 2 niveaux de santé supplémentaires.",
               "bold": false
             }
           ]
@@ -4793,7 +4809,11 @@
           "text": "Imposant : Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
           "spans": [
             {
-              "text": "Imposant : Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
+              "text": "Imposant ",
+              "bold": true
+            },
+            {
+              "text": ": Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
               "bold": false
             }
           ]
@@ -4803,7 +4823,11 @@
           "text": "Furtif : En raison de sa taille, de son camouflage naturel ou de ses habitudes de chasse, votre Serviteur est naturellement doué pour se cacher. Il bénéficie d'un bonus de +3 aux tests de furtivité.",
           "spans": [
             {
-              "text": "Furtif : En raison de sa taille, de son camouflage naturel ou de ses habitudes de chasse, votre Serviteur est naturellement doué pour se cacher. Il bénéficie d'un bonus de +3 aux tests de furtivité.",
+              "text": "Furtif ",
+              "bold": true
+            },
+            {
+              "text": ": En raison de sa taille, de son camouflage naturel ou de ses habitudes de chasse, votre Serviteur est naturellement doué pour se cacher. Il bénéficie d'un bonus de +3 aux tests de furtivité.",
               "bold": false
             }
           ]
@@ -4823,7 +4847,11 @@
           "text": "Combattant aquatique : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre.",
           "spans": [
             {
-              "text": "Combattant aquatique : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre.",
+              "text": "Combattant aquatique",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre.",
               "bold": false
             }
           ]
@@ -4833,7 +4861,11 @@
           "text": "Fouisseur : Votre Serviteur peut se déplacer sous terre à sa vitesse normale. Il ne peut pas traverser des matériaux qui ne sont pas de la terre, comme de la roche, de l'eau, du béton ou un épais enchevêtrement de racines.",
           "spans": [
             {
-              "text": "Fouisseur : Votre Serviteur peut se déplacer sous terre à sa vitesse normale. Il ne peut pas traverser des matériaux qui ne sont pas de la terre, comme de la roche, de l'eau, du béton ou un épais enchevêtrement de racines.",
+              "text": "Fouisseur ",
+              "bold": true
+            },
+            {
+              "text": ": Votre Serviteur peut se déplacer sous terre à sa vitesse normale. Il ne peut pas traverser des matériaux qui ne sont pas de la terre, comme de la roche, de l'eau, du béton ou un épais enchevêtrement de racines.",
               "bold": false
             }
           ]
@@ -4843,7 +4875,11 @@
           "text": "Escalade : Votre Serviteur peut se coller à des surfaces solides, escalader des murs ou même marcher à l'envers sur un plafond.",
           "spans": [
             {
-              "text": "Escalade : Votre Serviteur peut se coller à des surfaces solides, escalader des murs ou même marcher à l'envers sur un plafond.",
+              "text": "Escalade ",
+              "bold": true
+            },
+            {
+              "text": ": Votre Serviteur peut se coller à des surfaces solides, escalader des murs ou même marcher à l'envers sur un plafond.",
               "bold": false
             }
           ]
@@ -4853,7 +4889,11 @@
           "text": "Grappin : Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
           "spans": [
             {
-              "text": "Grappin : Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
+              "text": "Grappin ",
+              "bold": true
+            },
+            {
+              "text": ": Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
               "bold": false
             }
           ]
@@ -4863,7 +4903,11 @@
           "text": "Endurci : Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance.",
           "spans": [
             {
-              "text": "Endurci : Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance.",
+              "text": "Endurci ",
+              "bold": true
+            },
+            {
+              "text": ": Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance.",
               "bold": false
             }
           ]
@@ -4873,7 +4917,11 @@
           "text": "Armes naturelles : Votre Serviteur possède des défenses, des griffes ou des dents surdéveloppées qui semblent maximiser sa capacité à infliger de la douleur. Chaque fois que votre Serviteur obtient une réussite exceptionnelle à une attaque basée sur la compétence Bagarre, il inflige un point de dégâts supplémentaire.",
           "spans": [
             {
-              "text": "Armes naturelles : Votre Serviteur possède des défenses, des griffes ou des dents surdéveloppées qui semblent maximiser sa capacité à infliger de la douleur. Chaque fois que votre Serviteur obtient une réussite exceptionnelle à une attaque basée sur la compétence Bagarre, il inflige un point de dégâts supplémentaire.",
+              "text": "Armes naturelles",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur possède des défenses, des griffes ou des dents surdéveloppées qui semblent maximiser sa capacité à infliger de la douleur. Chaque fois que votre Serviteur obtient une réussite exceptionnelle à une attaque basée sur la compétence Bagarre, il inflige un point de dégâts supplémentaire.",
               "bold": false
             }
           ]
@@ -4893,7 +4941,11 @@
           "text": "Prédateur d'embuscade : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence.",
           "spans": [
             {
-              "text": "Prédateur d'embuscade : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence.",
+              "text": "Prédateur d'embuscade",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence.",
               "bold": false
             }
           ]
@@ -4903,7 +4955,11 @@
           "text": "Monture de combat : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur.",
           "spans": [
             {
-              "text": "Monture de combat : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur.",
+              "text": "Monture de combat",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur.",
               "bold": false
             }
           ]
@@ -4913,7 +4969,11 @@
           "text": "Insaisissable : Votre animal est particulièrement rusé et difficile à trouver. Il gagne un bonus de joker de +3 à tous les challenges défensifs basés sur l'esquive.",
           "spans": [
             {
-              "text": "Insaisissable : Votre animal est particulièrement rusé et difficile à trouver. Il gagne un bonus de joker de +3 à tous les challenges défensifs basés sur l'esquive.",
+              "text": "Insaisissable ",
+              "bold": true
+            },
+            {
+              "text": ": Votre animal est particulièrement rusé et difficile à trouver. Il gagne un bonus de joker de +3 à tous les challenges défensifs basés sur l'esquive.",
               "bold": false
             }
           ]
@@ -4923,7 +4983,11 @@
           "text": "Intelligent : Votre Serviteur a une compréhension plus profonde de vos demandes qu'un exemple normal de son type. Vous pouvez donner à votre Serviteur des tâches complexes à accomplir, et il fera de son mieux pour les accomplir.",
           "spans": [
             {
-              "text": "Intelligent : Votre Serviteur a une compréhension plus profonde de vos demandes qu'un exemple normal de son type. Vous pouvez donner à votre Serviteur des tâches complexes à accomplir, et il fera de son mieux pour les accomplir.",
+              "text": "Intelligent ",
+              "bold": true
+            },
+            {
+              "text": ": Votre Serviteur a une compréhension plus profonde de vos demandes qu'un exemple normal de son type. Vous pouvez donner à votre Serviteur des tâches complexes à accomplir, et il fera de son mieux pour les accomplir.",
               "bold": false
             }
           ]
@@ -4933,7 +4997,11 @@
           "text": "Espèce Alpha : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
           "spans": [
             {
-              "text": "Espèce Alpha : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
+              "text": "Espèce Alpha",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
               "bold": false
             }
           ]
