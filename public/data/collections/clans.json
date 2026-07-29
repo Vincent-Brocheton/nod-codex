@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-07-26T13:48:12.412Z",
+  "generatedAt": "2026-07-29T15:14:42.961Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1599,7 +1599,7 @@
       "slug": "kuei-jin",
       "title": "Kuei-Jin",
       "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
-      "lastEditedTime": "2026-07-22T15:02:00.000Z",
+      "lastEditedTime": "2026-07-29T07:22:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -1688,10 +1688,146 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du clan...",
+          "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnite et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
           "spans": [
             {
-              "text": "Description du clan...",
+              "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnite et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur société est profondément marquée par leur lien avec les éléments. Chaque Kuei-Jin appartient à l'une des quatre grandes lignées élémentaires :",
+          "spans": [
+            {
+              "text": "Leur société est profondément marquée par leur lien avec les éléments. Chaque Kuei-Jin appartient à l'une des quatre grandes lignées élémentaires :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La Terre, symbole de résistance et de persévérance.",
+          "spans": [
+            {
+              "text": "La Terre",
+              "bold": true
+            },
+            {
+              "text": ", symbole de résistance et de persévérance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "L'Air, représentant l'adaptabilité et la liberté de mouvement.",
+          "spans": [
+            {
+              "text": "L'Air",
+              "bold": true
+            },
+            {
+              "text": ", représentant l'adaptabilité et la liberté de mouvement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Le Feu, incarnant la volonté et la destruction.",
+          "spans": [
+            {
+              "text": "Le Feu",
+              "bold": true
+            },
+            {
+              "text": ", incarnant la volonté et la destruction.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "L'Eau, associée à la patience et au repérage.",
+          "spans": [
+            {
+              "text": "L'Eau",
+              "bold": true
+            },
+            {
+              "text": ", associée à la patience et au repérage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces lignées influencent leur vision du monde, leurs traditions et les pouvoirs qu'ils développent au cours de leur existence.",
+          "spans": [
+            {
+              "text": "Ces lignées influencent leur vision du monde, leurs traditions et les pouvoirs qu'ils développent au cours de leur existence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Kuei-Jin vivent majoritairement en Asie, où ils possèdent leurs propres domaines et leur propre organisation politique. Ils entretiennent des relations variables avec les autres vampires, allant de la coopération à la rivalité selon les époques, les territoires et les intérêts en jeu.",
+          "spans": [
+            {
+              "text": "Les Kuei-Jin vivent majoritairement en Asie, où ils possèdent leurs propres domaines et leur propre organisation politique. Ils entretiennent des relations variables avec les autres vampires, allant de la coopération à la rivalité selon les époques, les territoires et les intérêts en jeu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien qu'ils soient rarement rencontrés en Europe, leur présence n'est pas exceptionnelle. Certains voyagent en tant qu'émissaires, érudits ou diplomates, tandis que d'autres poursuivent des objectifs plus personnels loin de leurs terres d'origine.",
+          "spans": [
+            {
+              "text": "Bien qu'ils soient rarement rencontrés en Europe, leur présence n'est pas exceptionnelle. Certains voyagent en tant qu'émissaires, érudits ou diplomates, tandis que d'autres poursuivent des objectifs plus personnels loin de leurs terres d'origine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+          "spans": [
+            {
+              "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
               "bold": false
             }
           ]

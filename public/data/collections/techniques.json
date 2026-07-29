@@ -4,7 +4,7 @@
   "group": "Techniques",
   "description": "Retrouvez l'ensemble des techniques accessibles à votre personnage en combinant ses disciplines.",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-07-26T13:48:12.418Z",
+  "generatedAt": "2026-07-29T15:14:42.971Z",
   "propertyOptions": {
     "Prerequis": [
       "Chimérie •",
@@ -32,20 +32,20 @@
       "Domination •••",
       "Aliénation ••",
       "Protéisme ••••",
-      "Visceratika ●●",
-      "Puissance ●●",
-      "Daemonium ●●",
-      "Domination ●●●●",
+      "Visceratika ••",
+      "Puissance ••",
+      "Daemonium ••",
+      "Domination ••••",
       "Célérité •••",
       "Célérité ••",
       "Célérité •",
-      "Serpentis ●●",
-      "Vicissitude ●●",
+      "Serpentis ••",
+      "Vicissitude ••",
       "Présence ••",
       "Auspex ••••",
       "Auspex •••",
       "Présence •",
-      "Vicissitude ●●●",
+      "Vicissitude •••",
       "Obténébration •",
       "Dissimulation ••••",
       "Protéisme •••••",
@@ -53,12 +53,12 @@
       "Aliénation ••••",
       "Domination •",
       "Melpominée ••",
-      "Serpentis ●●●●",
+      "Serpentis ••••",
       "Protéisme •••",
-      "Serpentis ●●●",
+      "Serpentis •••",
       "Dissimulation •••",
-      "Visceratika ●●●",
-      "Daemonium ●●●",
+      "Visceratika •••",
+      "Daemonium •••",
       "Aliénation •",
       "Melpominée ••••",
       "Protéisme •",
@@ -101,6 +101,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -195,6 +199,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Affection Mal Placée"
@@ -288,6 +296,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Agréable Agonie"
@@ -380,6 +392,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -494,6 +510,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Améliorer la chevauchée sauvage"
@@ -607,6 +627,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Ami distant"
@@ -689,6 +713,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -773,6 +801,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Armure Ténébreuse"
@@ -855,6 +887,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -948,6 +984,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1072,6 +1112,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Aura de déplacement"
@@ -1174,6 +1218,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1278,6 +1326,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Bénédiction de Fenrir"
@@ -1360,6 +1412,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1453,6 +1509,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1586,6 +1646,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Ce Maudit Chat"
@@ -1669,13 +1733,13 @@
       "slug": "chatiment-de-la-pierre",
       "title": "Châtiment de la pierre",
       "notionUrl": "https://app.notion.com/p/Ch-timent-de-la-pierre-3a088b48e48e80f0b610fa2e3b7cc24d",
-      "lastEditedTime": "2026-07-17T16:37:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Visceratika ●●",
-            "Puissance ●●"
+            "Visceratika ••",
+            "Puissance ••"
           ]
         },
         "Disciplines": {
@@ -1690,6 +1754,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1754,13 +1822,13 @@
       "slug": "clause-d-evasion",
       "title": "Clause d'évasion",
       "notionUrl": "https://app.notion.com/p/Clause-d-vasion-3a088b48e48e80878439c8f68892204e",
-      "lastEditedTime": "2026-07-17T16:38:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Daemonium ●●",
-            "Domination ●●●●"
+            "Daemonium ••",
+            "Domination ••••"
           ]
         },
         "Disciplines": {
@@ -1783,6 +1851,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -1867,6 +1939,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Commandement instinctif"
@@ -1920,12 +1996,12 @@
       "slug": "conseiller-malin",
       "title": "Conseiller malin",
       "notionUrl": "https://app.notion.com/p/Conseiller-malin-3a088b48e48e808badc4f8c096eb9d4a",
-      "lastEditedTime": "2026-07-17T16:41:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Serpentis ●●",
+            "Serpentis ••",
             "Présence •••"
           ]
         },
@@ -1949,6 +2025,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2053,6 +2133,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Contrôle de la bête sauvage"
@@ -2136,6 +2220,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Cul-sec"
@@ -2189,13 +2277,13 @@
       "slug": "dechirer-la-chair",
       "title": "Déchirer la chair",
       "notionUrl": "https://app.notion.com/p/D-chirer-la-chair-3a088b48e48e804c94ebf5844dbd7cf7",
-      "lastEditedTime": "2026-07-17T17:29:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Vicissitude ●●",
-            "Puissance ●●"
+            "Vicissitude ••",
+            "Puissance ••"
           ]
         },
         "Disciplines": {
@@ -2218,6 +2306,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2312,6 +2404,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Déni de la faveur d’Aphrodite"
@@ -2394,6 +2490,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2487,6 +2587,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2611,6 +2715,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Écho de psychose"
@@ -2664,12 +2772,12 @@
       "slug": "eclat-de-la-forme-souple",
       "title": "Eclat de la forme souple",
       "notionUrl": "https://app.notion.com/p/Eclat-de-la-forme-souple-3a288b48e48e8003a1aaf6bdae3701ab",
-      "lastEditedTime": "2026-07-19T11:17:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Vicissitude ●●●",
+            "Vicissitude •••",
             "Force d'âme ••"
           ]
         },
@@ -2693,6 +2801,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2747,13 +2859,13 @@
       "slug": "enterrement-brutal",
       "title": "Enterrement brutal",
       "notionUrl": "https://app.notion.com/p/Enterrement-brutal-3a288b48e48e80858ecdd9fbd93f5db1",
-      "lastEditedTime": "2026-07-19T11:21:00.000Z",
+      "lastEditedTime": "2026-07-28T08:01:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Protéisme ••••",
-            "Force d'Âme •"
+            "Force d'Âme •",
+            "Protéisme •••"
           ]
         },
         "Disciplines": {
@@ -2776,6 +2888,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -2899,6 +3015,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3063,6 +3183,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Expulsion Sanguine"
@@ -3145,6 +3269,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3249,6 +3377,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Faiblesse de l'acier"
@@ -3331,6 +3463,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3415,6 +3551,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Feinte déloyale"
@@ -3498,6 +3638,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Festin des ombres"
@@ -3561,12 +3705,12 @@
       "slug": "flamme-fletrie",
       "title": "Flamme flétrie",
       "notionUrl": "https://app.notion.com/p/Flamme-fl-trie-3a288b48e48e80d1a483eb41e2d607d4",
-      "lastEditedTime": "2026-07-19T13:50:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Daemonium ●●",
+            "Daemonium ••",
             "Force d'âme ••"
           ]
         },
@@ -3590,6 +3734,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3673,6 +3821,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3776,6 +3928,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -3882,6 +4038,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Gémissements de Banshee"
@@ -3984,6 +4144,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Grâce surnaturelle"
@@ -4067,6 +4231,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Ichor Féroce"
@@ -4149,6 +4317,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -4252,6 +4424,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -4358,6 +4534,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "La Lamentation de Ligeia"
@@ -4441,6 +4621,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Langue acérée"
@@ -4514,12 +4698,12 @@
       "slug": "lion-gardien",
       "title": "Lion gardien",
       "notionUrl": "https://app.notion.com/p/Lion-gardien-3a288b48e48e80f99297e783520570df",
-      "lastEditedTime": "2026-07-19T14:06:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Visceratika ●●",
+            "Visceratika ••",
             "Animalisme ••"
           ]
         },
@@ -4535,6 +4719,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -4619,6 +4807,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Mains rapides, Travail rapide"
@@ -4702,6 +4894,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Monologue"
@@ -4755,12 +4951,12 @@
       "slug": "nid-de-serpents",
       "title": "Nid de serpents",
       "notionUrl": "https://app.notion.com/p/Nid-de-serpents-3a288b48e48e80c48c71d53f5e31baa9",
-      "lastEditedTime": "2026-07-19T14:11:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Serpentis ●●●●",
+            "Serpentis ••••",
             "Dissimulation ••"
           ]
         },
@@ -4784,6 +4980,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -4838,13 +5038,13 @@
       "slug": "nourrir-la-bete",
       "title": "Nourrir la bête",
       "notionUrl": "https://app.notion.com/p/Nourrir-la-b-te-3a288b48e48e80bea31cf99077bd4a95",
-      "lastEditedTime": "2026-07-19T14:15:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
             "Animalisme •••",
-            "Puissance ●●"
+            "Puissance ••"
           ]
         },
         "Disciplines": {
@@ -4867,6 +5067,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -4950,6 +5154,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5064,6 +5272,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Peau du blaireau"
@@ -5127,12 +5339,12 @@
       "slug": "peau-du-serpent",
       "title": "Peau du serpent",
       "notionUrl": "https://app.notion.com/p/Peau-du-serpent-3a288b48e48e808badcffb581302642e",
-      "lastEditedTime": "2026-07-19T14:18:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Serpentis ●●●",
+            "Serpentis •••",
             "Force d'âme ••"
           ]
         },
@@ -5156,6 +5368,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5280,6 +5496,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Pensées empoisonnées"
@@ -5362,6 +5582,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5456,6 +5680,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Plume de l'homme fou"
@@ -5529,12 +5757,12 @@
       "slug": "poing-de-pierre",
       "title": "Poing de pierre",
       "notionUrl": "https://app.notion.com/p/Poing-de-pierre-3a288b48e48e8036a044db6eff6aafc3",
-      "lastEditedTime": "2026-07-19T14:23:00.000Z",
+      "lastEditedTime": "2026-07-28T08:04:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Visceratika ●●●",
+            "Visceratika •••",
             "Puissance •••"
           ]
         },
@@ -5550,6 +5778,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5604,12 +5836,12 @@
       "slug": "possession-symbiotique",
       "title": "Possession symbiotique",
       "notionUrl": "https://app.notion.com/p/Possession-symbiotique-3a288b48e48e80e1a4ccd822e6f7c9c9",
-      "lastEditedTime": "2026-07-19T14:24:00.000Z",
+      "lastEditedTime": "2026-07-28T08:04:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Daemonium ●●●",
+            "Daemonium •••",
             "Domination ••"
           ]
         },
@@ -5633,6 +5865,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5697,12 +5933,12 @@
       "slug": "poursuite-implacable",
       "title": "Poursuite implacable",
       "notionUrl": "https://app.notion.com/p/Poursuite-implacable-3a288b48e48e80b28671de843efee1cb",
-      "lastEditedTime": "2026-07-19T14:25:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Puissance ●●",
+            "Puissance ••",
             "Célérité ••"
           ]
         },
@@ -5726,6 +5962,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5780,12 +6020,12 @@
       "slug": "prodige-de-la-sculpture-des-os",
       "title": "Prodige de la Sculpture des Os",
       "notionUrl": "https://app.notion.com/p/Prodige-de-la-Sculpture-des-Os-3a288b48e48e80528204d0caf2990530",
-      "lastEditedTime": "2026-07-19T14:26:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Vicissitude ●●●",
+            "Vicissitude •••",
             "Force d'ame •••"
           ]
         },
@@ -5809,6 +6049,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -5969,6 +6213,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Provocation sauvage"
@@ -6072,6 +6320,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Ravissement"
@@ -6155,6 +6407,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Regard d'acier"
@@ -6208,12 +6464,12 @@
       "slug": "regard-rayonnant",
       "title": "Regard rayonnant",
       "notionUrl": "https://app.notion.com/p/Regard-rayonnant-3a288b48e48e80f2b676fe135573856a",
-      "lastEditedTime": "2026-07-19T14:30:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Serpentis ●●",
+            "Serpentis ••",
             "Domination •••"
           ]
         },
@@ -6237,6 +6493,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -6312,6 +6572,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -6416,6 +6680,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Renard Fou"
@@ -6509,6 +6777,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Retenir le flux sanguin"
@@ -6601,6 +6873,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Rire malgré la douleur"
@@ -6683,6 +6959,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -6767,6 +7047,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Sang rapide"
@@ -6850,6 +7134,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Second Souffle"
@@ -6903,12 +7191,12 @@
       "slug": "souffle-craintif",
       "title": "Souffle craintif",
       "notionUrl": "https://app.notion.com/p/Souffle-craintif-3a288b48e48e80f39173ddd3cf01e5e4",
-      "lastEditedTime": "2026-07-19T14:41:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Puissance ●●",
+            "Puissance ••",
             "Présence ••"
           ]
         },
@@ -6932,6 +7220,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7016,6 +7308,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Succulence animale"
@@ -7069,12 +7365,12 @@
       "slug": "syntonisation-alchimique",
       "title": "Syntonisation alchimique",
       "notionUrl": "https://app.notion.com/p/Syntonisation-alchimique-3a288b48e48e801598e0e27bd38defdf",
-      "lastEditedTime": "2026-07-19T14:44:00.000Z",
+      "lastEditedTime": "2026-07-28T08:04:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Visceratika ●●●",
+            "Visceratika •••",
             "Force d'Âme •"
           ]
         },
@@ -7090,6 +7386,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7200,13 +7500,13 @@
       "slug": "terreur-tentaculaire",
       "title": "Terreur tentaculaire",
       "notionUrl": "https://app.notion.com/p/Terreur-tentaculaire-3a288b48e48e808d8329cb3e05dc3cfa",
-      "lastEditedTime": "2026-07-19T14:46:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
             "Obténébration •••",
-            "Puissance ●●"
+            "Puissance ••"
           ]
         },
         "Disciplines": {
@@ -7229,6 +7529,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7313,6 +7617,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Transformation Instantanée"
@@ -7396,6 +7704,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Translocation"
@@ -7478,6 +7790,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7642,6 +7958,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Véhicule furtif"
@@ -7733,6 +8053,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7828,6 +8152,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -7932,6 +8260,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Nom": {
           "type": "text",
           "value": "Vigueur de la Bête "
@@ -8015,12 +8347,12 @@
       "slug": "visages-familiers",
       "title": "Visages familiers",
       "notionUrl": "https://app.notion.com/p/Visages-familiers-3a288b48e48e80beb56fdfc4e493a429",
-      "lastEditedTime": "2026-07-19T14:56:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Visceratika ●●",
+            "Visceratika ••",
             "Auspex ••"
           ]
         },
@@ -8036,6 +8368,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -8120,12 +8456,12 @@
       "slug": "vision-de-la-forme-veritable",
       "title": "Vision de la Forme Véritable",
       "notionUrl": "https://app.notion.com/p/Vision-de-la-Forme-V-ritable-3a288b48e48e80c99d97cff6590cc709",
-      "lastEditedTime": "2026-07-19T14:56:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Vicissitude ●●",
+            "Vicissitude ••",
             "Auspex •••"
           ]
         },
@@ -8149,6 +8485,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -8213,12 +8553,12 @@
       "slug": "vitalite-mercurielle",
       "title": "Vitalité mercurielle",
       "notionUrl": "https://app.notion.com/p/Vitalit-mercurielle-3a288b48e48e801d973aedba7579f7bb",
-      "lastEditedTime": "2026-07-19T14:58:00.000Z",
+      "lastEditedTime": "2026-07-28T08:03:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
           "value": [
-            "Vicissitude ●●",
+            "Vicissitude ••",
             "Puissance •",
             "Force d'Âme •"
           ]
@@ -8251,6 +8591,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",
@@ -8344,6 +8688,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Nom": {
           "type": "text",

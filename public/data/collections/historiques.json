@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-26T13:48:12.437Z",
+  "generatedAt": "2026-07-29T15:14:42.989Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-07-23T12:57:00.000Z",
+      "lastEditedTime": "2026-07-29T06:56:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -188,6 +188,20 @@
         },
         {
           "type": "bulleted_list_item",
+          "text": "Arts & Éducation : écoles, universités, recherche académique.",
+          "spans": [
+            {
+              "text": "Arts & Éducation",
+              "bold": true
+            },
+            {
+              "text": " : écoles, universités, recherche académique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
           "text": "Bureaucratie : administration, justice, services publics, archives.",
           "spans": [
             {
@@ -210,20 +224,6 @@
             },
             {
               "text": " : crime organisé, contrebande, pègre.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Arts & Éducation : écoles, universités, recherche académique.",
-          "spans": [
-            {
-              "text": "Arts & Éducation",
-              "bold": true
-            },
-            {
-              "text": " : écoles, universités, recherche académique.",
               "bold": false
             }
           ]
@@ -366,6 +366,44 @@
         },
         {
           "type": "heading_3",
+          "text": "Contact",
+          "spans": [
+            {
+              "text": "Contact",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Allié peut fournir des informations de contact durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+          "spans": [
+            {
+              "text": "L'Allié peut fournir des ",
+              "bold": false
+            },
+            {
+              "text": "informations de contact",
+              "bold": true
+            },
+            {
+              "text": " durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces informations sont fournies par les Conteurs.",
+          "spans": [
+            {
+              "text": "Ces informations sont fournies par les Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
           "text": "Double expertise",
           "spans": [
             {
@@ -412,68 +450,48 @@
         },
         {
           "type": "heading_3",
-          "text": "Contact",
+          "text": "Expert",
           "spans": [
             {
-              "text": "Contact",
+              "text": "Expert",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "L'Allié peut fournir des informations de contact durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+          "text": "Votre Allié maîtrise parfaitement son domaine.",
           "spans": [
             {
-              "text": "L'Allié peut fournir des ",
+              "text": "Votre Allié maîtrise parfaitement son domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Allié +1, dans la limite des règles du système.",
+          "spans": [
+            {
+              "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence ",
               "bold": false
             },
             {
-              "text": "informations de contact",
+              "text": "égal au niveau de l'Allié +1",
               "bold": true
             },
             {
-              "text": " durant une partie, lorsque cela est cohérent avec son domaine d'expertise.",
+              "text": ", dans la limite des règles du système.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ces informations sont fournies par les Conteurs.",
+          "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
           "spans": [
             {
-              "text": "Ces informations sont fournies par les Conteurs.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Nocturne",
-          "spans": [
-            {
-              "text": "Nocturne",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre Allié est disponible durant la nuit.",
-          "spans": [
-            {
-              "text": "Votre Allié est disponible durant la nuit.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
-          "spans": [
-            {
-              "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
+              "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
               "bold": false
             }
           ]
@@ -604,48 +622,30 @@
         },
         {
           "type": "heading_3",
-          "text": "Expert",
+          "text": "Nocturne",
           "spans": [
             {
-              "text": "Expert",
+              "text": "Nocturne",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Votre Allié maîtrise parfaitement son domaine.",
+          "text": "Votre Allié est disponible durant la nuit.",
           "spans": [
             {
-              "text": "Votre Allié maîtrise parfaitement son domaine.",
+              "text": "Votre Allié est disponible durant la nuit.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Allié +1, dans la limite des règles du système.",
+          "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
           "spans": [
             {
-              "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence ",
-              "bold": false
-            },
-            {
-              "text": "égal au niveau de l'Allié +1",
-              "bold": true
-            },
-            {
-              "text": ", dans la limite des règles du système.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
-          "spans": [
-            {
-              "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
+              "text": "Une fois par partie, il peut réaliser une action directe pour votre personnage, sous réserve qu'elle reste cohérente avec son domaine d'expertise.",
               "bold": false
             }
           ]

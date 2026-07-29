@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-26T13:48:12.402Z",
+  "generatedAt": "2026-07-29T15:14:42.946Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -159,114 +159,6 @@
           "spans": [
             {
               "text": "Vous passez automatiquement n'importe quelle sécurité informatique classique sur l'appareil que vous ciblez. Vous aurez peut-être besoin d'effectuer un jet s'il est protégé par un autre Technomancien. Avec ce pouvoir, vous pouvez avoir accès automatiquement à un ordinateur sans en connaître le mot de passe.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "38388b48-e48e-8075-95b7-cc969a88e139",
-      "slug": "affreuse-realite",
-      "title": "Affreuse Réalité",
-      "notionUrl": "https://app.notion.com/p/Affreuse-R-alit-38388b48e48e807595b7cc969a88e139",
-      "lastEditedTime": "2026-06-18T11:19:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Charisme"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": ""
-        },
-        "Durée": {
-          "type": "select",
-          "value": ""
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 5
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "chimerie",
-              "title": "Chimerie",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 1
-        },
-        "Name": {
-          "type": "text",
-          "value": "Affreuse Réalité"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du pouvoir",
-          "spans": [
-            {
-              "text": "Description du pouvoir",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Succès Exceptionnel",
-          "spans": [
-            {
-              "text": "Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
-          "spans": [
-            {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Focus",
-          "spans": [
-            {
-              "text": "Description du Focus",
               "bold": false
             }
           ]
@@ -750,7 +642,7 @@
       "slug": "apparition",
       "title": "Apparition",
       "notionUrl": "https://app.notion.com/p/Apparition-38388b48e48e80e0a772fe239deb3326",
-      "lastEditedTime": "2026-06-18T11:19:00.000Z",
+      "lastEditedTime": "2026-07-28T07:37:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -758,7 +650,7 @@
         },
         "Type d'action": {
           "type": "select",
-          "value": ""
+          "value": "Action Standard"
         },
         "Durée": {
           "type": "select",
@@ -803,30 +695,80 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Plus limitées par les frontières de la réalité, vos illusions sont des inventions indépendantes du rêve. Elles se déplacent comme vous les dirigez, soit dans une boucle de répétition ou en suivant vos instructions continues, étape par étape. Vous pouvez donner à vos illusions un semblant de vie, créer des êtres illusoires qui peuvent se déplacer ou parler, l'eau illusoire goutte et ondule, et la musique illusoire peut passer d'une chanson à une autre.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Plus limitées par les frontières de la réalité, vos illusions sont des inventions indépendantes du rêve. Elles se déplacent comme vous les dirigez, soit dans une boucle de répétition ou en suivant vos instructions continues, étape par étape. Vous pouvez donner à vos illusions un semblant de vie, créer des êtres illusoires qui peuvent se déplacer ou parler, l'eau illusoire goutte et ondule, et la musique illusoire peut passer d'une chanson à une autre.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Dépensez 1 point de sang et une action standard pour créer une illusion indépendante qui semble réelle à tous les sens. Cette illusion peut se déplacer soit dans une boucle prédéterminée, soit, part une concentration continue par le créateur, peut changer comme il le souhaite. Un feu d'artifice peut dévier de trajectoire et changer de couleur, un policier illusoire peut sembler marcher à son rythme autour d'un bloc, et ainsi de suite. Les objets illusoires semblent remplir leurs fonctions standards ; un fusil illusoire peut armer son marteau ou tirer une balle illusoire (qui ne cause aucun dommage), et un moteur illusoire peut être démonté et remis ensemble.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
+              "text": "Dépensez 1 point de sang et une action standard pour créer une illusion indépendante qui semble réelle à tous les sens. Cette illusion peut se déplacer soit dans une boucle prédéterminée, soit, part une concentration continue par le créateur, peut changer comme il le souhaite. Un feu d'artifice peut dévier de trajectoire et changer de couleur, un policier illusoire peut sembler marcher à son rythme autour d'un bloc, et ainsi de suite. Les objets illusoires semblent remplir leurs fonctions standards ; un fusil illusoire peut armer son marteau ou tirer une balle illusoire (qui ne cause aucun dommage), et un moteur illusoire peut être démonté et remis ensemble.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, vos Apparitions réagiront automatiquement lorsqu'elles interagissent avec des forces ou des obstacles externes. Un drapeau chimérique soufflera dans le vent, et une personne chimérique contournera d'un objet solide placé sur son chemin.",
+          "spans": [
+            {
+              "text": "De plus, vos Apparitions réagiront automatiquement lorsqu'elles interagissent avec des forces ou des obstacles externes. Un drapeau chimérique soufflera dans le vent, et une personne chimérique contournera d'un objet solide placé sur son chemin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous créez une Apparition, vous déterminez un modèle simple d'actions pour que l'illusion les mettent en œuvre, comme la marche décontractée habituelle d'un flic de proximité dans le quartier. Par la suite, vous pouvez dépenser une action simple pour modifier l'activité de votre illusion pour un round, peut-être faire arrêter le flic de proximité afin d’avoir une brève conversation avec quelqu'un (dépenser une action simple pour chaque round que vous faites rester immobile et parler ou écouter). Si vous dépensez une action standard au lieu d'une simple action, vous pouvez ajouter, supprimer ou faire un changement permanent dans les motifs préétablis de l'Apparition, comme faire en sorte que le flic s'arrête et siffle une brève note chaque fois qu'il atteint un certain coin dans son parcours routinier.",
+          "spans": [
+            {
+              "text": "Lorsque vous créez une Apparition, vous déterminez un modèle simple d'actions pour que l'illusion les mettent en œuvre, comme la marche décontractée habituelle d'un flic de proximité dans le quartier. Par la suite, vous pouvez dépenser une action simple pour modifier l'activité de votre illusion pour un round, peut-être faire arrêter le flic de proximité afin d’avoir une brève conversation avec quelqu'un (dépenser une action simple pour chaque round que vous faites rester immobile et parler ou écouter). Si vous dépensez une action standard au lieu d'une simple action, vous pouvez ajouter, supprimer ou faire un changement permanent dans les motifs préétablis de l'Apparition, comme faire en sorte que le flic s'arrête et siffle une brève note chaque fois qu'il atteint un certain coin dans son parcours routinier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De telles altérations au modèle de l'Apparition sont accomplies silencieusement, par un acte de concentration par le créateur de l'illusion. Notez que votre personnage ne reçoit aucune capacité spéciale de voir ou d'entendre via son Apparition. Si le créateur du flic ne peut pas entendre les questions posées par la personne parlant avec son policier illusoire, il ne peut pas ordonner au policier de répondre correctement.",
+          "spans": [
+            {
+              "text": "De telles altérations au modèle de l'Apparition sont accomplies silencieusement, par un acte de concentration par le créateur de l'illusion. Notez que votre personnage ne reçoit aucune capacité spéciale de voir ou d'entendre via son Apparition. Si le créateur du flic ne peut pas entendre les questions posées par la personne parlant avec son policier illusoire, il ne peut pas ordonner au policier de répondre correctement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Apparition ne peut pas être utilisée pour faire une illusion avec une masse totale supérieure à 10 pieds cubes, bien que la masse puisse être façonnée de la manière que vous choisissez. Des illusions de créatures ou d'individus peuvent se déplacer, selon leur type de créature. Par exemple, un flic illusoire peut marcher en avant et en arrière dans une rue.",
+          "spans": [
+            {
+              "text": "Apparition ne peut pas être utilisée pour faire une illusion avec une masse totale supérieure à 10 pieds cubes, bien que la masse puisse être façonnée de la manière que vous choisissez. Des illusions de créatures ou d'individus peuvent se déplacer, selon leur type de créature. Par exemple, un flic illusoire peut marcher en avant et en arrière dans une rue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Apparition dure une heure, à moins que le pouvoir ne soit arrêté par son créateur, ou que le créateur meurt.",
+          "spans": [
+            {
+              "text": "Apparition dure une heure, à moins que le pouvoir ne soit arrêté par son créateur, ou que le créateur meurt.",
               "bold": false
             }
           ]
@@ -843,10 +785,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Vous pouvez dépenser une action simple pour configurer une réponse déclenchée pour votre Apparition. Vous pouvez créer un enfant illusoire, lisant un livre dans le coin de votre havre et lui donner pour instruction de lever les yeux et dire « bonjour » quand quelqu'un entre dans la pièce ou quand une personne spécifique entre dans la pièce. Chaque Apparition ne peut maintenir qu'un déclencheur à la fois, mais les actions pré-arrangées se produiront à chaque fois que l'élément déclencheur se produira. En utilisant l'exemple ci-dessus, l'enfant illusoire dira « bonjour » à tous ceux qui entrent dans la pièce jusqu'à ce que vous modifiiez le modèle.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Vous pouvez dépenser une action simple pour configurer une réponse déclenchée pour votre Apparition. Vous pouvez créer un enfant illusoire, lisant un livre dans le coin de votre havre et lui donner pour instruction de lever les yeux et dire « bonjour » quand quelqu'un entre dans la pièce ou quand une personne spécifique entre dans la pièce. Chaque Apparition ne peut maintenir qu'un déclencheur à la fois, mais les actions pré-arrangées se produiront à chaque fois que l'élément déclencheur se produira. En utilisant l'exemple ci-dessus, l'enfant illusoire dira « bonjour » à tous ceux qui entrent dans la pièce jusqu'à ce que vous modifiiez le modèle.",
               "bold": false
             }
           ]
@@ -8635,6 +8577,144 @@
       ]
     },
     {
+      "id": "38388b48-e48e-80b8-8393-f88a307a0306",
+      "slug": "fata-morgana",
+      "title": "Fata Morgana",
+      "notionUrl": "https://app.notion.com/p/Fata-Morgana-38388b48e48e80b88393f88a307a0306",
+      "lastEditedTime": "2026-07-28T07:36:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Fata Morgana"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre contrôle sur les fils de maya a augmenté au point que vos illusions peuvent tromper tous les sens à la fois. Bien que vous ayez à ancrer ces illusions plus substantielles dans la réalité, elles ont une profondeur et une stabilité beaucoup plus grandes.",
+          "spans": [
+            {
+              "text": "Votre contrôle sur les fils de maya a augmenté au point que vos illusions peuvent tromper tous les sens à la fois. Bien que vous ayez à ancrer ces illusions plus substantielles dans la réalité, elles ont une profondeur et une stabilité beaucoup plus grandes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez une action standard pour modifier l'apparence d'un objet inanimé. Mirage ne peut pas être utilisé sur des créatures ou des individus.",
+          "spans": [
+            {
+              "text": "Dépensez une action standard pour modifier l'apparence d'un objet inanimé. Mirage ne peut pas être utilisé sur des créatures ou des individus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rappelez-vous que Chimérie peut être utilisé pour ajouter à un élément, ou pour couvrir ce qui est déjà là, mais il ne peut pas être utilisé pour soustraire quelque chose de l'élément ou de l'environnement. Vous ne pouvez pas utiliser ce pouvoir pour réduire la taille d'un objet, mais vous pouvez augmenter sa taille jusqu'à 10% de sa taille actuelle. Vous pouvez modifier la façon dont les gens voient l'objet, les odeurs, les sons, les goûts ou les sentiments - ou tout en même temps. Vous pouvez faire voir une chaise en lambeaux comme un trône opulent, faire qu'un verre d'eau semble être un grand millésime, ou de changer une civière roulante en une table d'acajou couverte de bougies. Cette illusion durera jusqu'à une heure.",
+          "spans": [
+            {
+              "text": "Rappelez-vous que Chimérie peut être utilisé pour ajouter à un élément, ou pour couvrir ce qui est déjà là, mais il ne peut pas être utilisé pour soustraire quelque chose de l'élément ou de l'environnement. Vous ne pouvez pas utiliser ce pouvoir pour réduire la taille d'un objet, mais vous pouvez augmenter sa taille jusqu'à 10% de sa taille actuelle. Vous pouvez modifier la façon dont les gens voient l'objet, les odeurs, les sons, les goûts ou les sentiments - ou tout en même temps. Vous pouvez faire voir une chaise en lambeaux comme un trône opulent, faire qu'un verre d'eau semble être un grand millésime, ou de changer une civière roulante en une table d'acajou couverte de bougies. Cette illusion durera jusqu'à une heure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les utilisateurs de Mirage doivent couvrir complètement l'objet qu'ils modifient ; Toute partie de la fondation qui n'est pas couverte sera visible à travers l'illusion. Par exemple, vous pouvez faire ressembler une civière à une table d'acajou, mais vous ne pouvez pas faire qu’un meuble classeur ressemble à une table - le corps solide du meuble classeur serait visible entre les jambes de la table. Vous pourriez, cependant, faire du meuble classeur, une table avec une nappe accrochée au sol, couvrant ainsi l'intégralité du meuble classeur.",
+          "spans": [
+            {
+              "text": "Les utilisateurs de Mirage doivent couvrir complètement l'objet qu'ils modifient ; Toute partie de la fondation qui n'est pas couverte sera visible à travers l'illusion. Par exemple, vous pouvez faire ressembler une civière à une table d'acajou, mais vous ne pouvez pas faire qu’un meuble classeur ressemble à une table - le corps solide du meuble classeur serait visible entre les jambes de la table. Vous pourriez, cependant, faire du meuble classeur, une table avec une nappe accrochée au sol, couvrant ainsi l'intégralité du meuble classeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Mirage ne peut pas être utilisé pour modifier l'apparence des individus vivants ou morts-vivants, car c'est le domaine de la discipline de Dissimulation. Il peut être utilisé pour apporter des modifications simples aux vêtements, comme la couleur, le matériau ou la qualité générale.",
+          "spans": [
+            {
+              "text": "Mirage ne peut pas être utilisé pour modifier l'apparence des individus vivants ou morts-vivants, car c'est le domaine de la discipline de Dissimulation. Il peut être utilisé pour apporter des modifications simples aux vêtements, comme la couleur, le matériau ou la qualité générale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quiconque tente de ne pas croire votre utilisation de Fata Morgana souffre d'une pénalité -3 à son test de décrédibiliser.",
+          "spans": [
+            {
+              "text": "Quiconque tente de ne pas croire votre utilisation de Fata Morgana souffre d'une pénalité -3 à son test de décrédibiliser.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8016-85f3-c53a2808f11f",
       "slug": "fleau",
       "title": "Fléau",
@@ -11898,7 +11978,7 @@
       "slug": "ignus-fatuus",
       "title": "Ignus Fatuus",
       "notionUrl": "https://app.notion.com/p/Ignus-Fatuus-38388b48e48e80768b0ef2669fa44e49",
-      "lastEditedTime": "2026-06-18T11:18:00.000Z",
+      "lastEditedTime": "2026-07-28T07:35:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -11906,7 +11986,7 @@
         },
         "Type d'action": {
           "type": "select",
-          "value": ""
+          "value": "Action Standard"
         },
         "Durée": {
           "type": "select",
@@ -11951,10 +12031,40 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Maya est une substance délicate, tissée comme un fil de tulle de la substance des rêves mortels. Vous pouvez tisser une illusion simple à partir de ce matériau délicat, le rendant assez réel pour tromper un seul sens.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Maya est une substance délicate, tissée comme un fil de tulle de la substance des rêves mortels. Vous pouvez tisser une illusion simple à partir de ce matériau délicat, le rendant assez réel pour tromper un seul sens.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 point de sang et en utilisant votre action standard, vous créez une illusion sensorielle insubstantielle. Les illusions créées avec Ignis Fatuus ne peuvent affecter que l'un des sens suivants : la vue, l'ouïe, l'odorat ou le goût. Avec ce pouvoir, vous pourriez produire un bruit énorme pour faire distraction, donner à une lettre la douce odeur d'un parfum, ou lire à la lumière d'une bougie chimérique. Ces illusions sont incapables de mouvement ou de changement une fois qu'elles ont été créées. Les illusions créées avec Ignis Fatuus durent jusqu'à un tour par niveau de la compétence Subterfuge que vous possédez.",
+          "spans": [
+            {
+              "text": "En dépensant 1 point de sang et en utilisant votre action standard, vous créez une illusion sensorielle insubstantielle. Les illusions créées avec Ignis Fatuus ne peuvent affecter que l'un des sens suivants : la vue, l'ouïe, l'odorat ou le goût. Avec ce pouvoir, vous pourriez produire un bruit énorme pour faire distraction, donner à une lettre la douce odeur d'un parfum, ou lire à la lumière d'une bougie chimérique. Ces illusions sont incapables de mouvement ou de changement une fois qu'elles ont été créées. Les illusions créées avec Ignis Fatuus durent jusqu'à un tour par niveau de la compétence Subterfuge que vous possédez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage utilisant Ignis Fatuus au combat peut distraire et étourdir ses adversaires avec une fausse émotion sensorielle. Pour ce faire, vous devez payer les coûts de ce pouvoir et ensuite faire un test opposé en utilisant le Score de Test de Chimérie. En cas de succès, votre cible est momentanément distraite et perd son action simple la prochaine fois que son initiative est utilisée. Cette utilisation d'Ignis Fatuus repose sur la surprise et, par conséquent, ne peut pas être utilisé sur une personne spécifique plus d'une fois par combat.",
+          "spans": [
+            {
+              "text": "Un personnage utilisant Ignis Fatuus au combat peut distraire et étourdir ses adversaires avec une fausse émotion sensorielle. Pour ce faire, vous devez payer les coûts de ce pouvoir et ensuite faire un test opposé en utilisant le Score de Test de Chimérie. En cas de succès, votre cible est momentanément distraite et perd son action simple la prochaine fois que son initiative est utilisée. Cette utilisation d'Ignis Fatuus repose sur la surprise et, par conséquent, ne peut pas être utilisé sur une personne spécifique plus d'une fois par combat.",
               "bold": false
             }
           ]
@@ -11971,10 +12081,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Si vous obtenez un succès exceptionnel avec Ignis Fatuus, votre cible perd ses deux prochaines actions standard et simples.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
+              "text": "Si vous obtenez un succès exceptionnel avec Ignis Fatuus, votre cible perd ses deux prochaines actions standard et simples.",
               "bold": false
             }
           ]
@@ -11991,10 +12101,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Ceux affectés par votre utilisation d'Ignis Fatuus ne peuvent pas utiliser les manœuvres de combat pour le reste du tour, y compris tous les rounds de ce tour.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Ceux affectés par votre utilisation d'Ignis Fatuus ne peuvent pas utiliser les manœuvres de combat pour le reste du tour, y compris tous les rounds de ce tour.",
               "bold": false
             }
           ]
@@ -16476,114 +16586,6 @@
       ]
     },
     {
-      "id": "38388b48-e48e-80b8-8393-f88a307a0306",
-      "slug": "mirage",
-      "title": "Mirage",
-      "notionUrl": "https://app.notion.com/p/Mirage-38388b48e48e80b88393f88a307a0306",
-      "lastEditedTime": "2026-06-18T11:19:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": ""
-        },
-        "Durée": {
-          "type": "select",
-          "value": ""
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 2
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "chimerie",
-              "title": "Chimerie",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 0
-        },
-        "Name": {
-          "type": "text",
-          "value": "Mirage"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du pouvoir",
-          "spans": [
-            {
-              "text": "Description du pouvoir",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Succès Exceptionnel",
-          "spans": [
-            {
-              "text": "Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
-          "spans": [
-            {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Focus",
-          "spans": [
-            {
-              "text": "Description du Focus",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "39b88b48-e48e-8035-ac9c-e670db4830e0",
       "slug": "moment-de-reflexion",
       "title": "Moment de Réflexion",
@@ -18760,7 +18762,7 @@
       "slug": "permanence-chimerie",
       "title": "Permanence (Chimérie)",
       "notionUrl": "https://app.notion.com/p/Permanence-Chim-rie-38388b48e48e80e4919ee0e94e69282e",
-      "lastEditedTime": "2026-07-12T16:21:00.000Z",
+      "lastEditedTime": "2026-07-28T07:37:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -18768,7 +18770,7 @@
         },
         "Type d'action": {
           "type": "select",
-          "value": ""
+          "value": "Action Simple"
         },
         "Durée": {
           "type": "select",
@@ -18813,30 +18815,30 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Les illusions que vous créez ont presque leur vie propre, existant sans votre concentration et ont le maintien d'une existence continue en s'appuyant sur l'essence du rêve. Vous pouvez doter vos simples illusions de cette capacité, leur fournissant une durée de vie pouvant surpasser la vôtre.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Les illusions que vous créez ont presque leur vie propre, existant sans votre concentration et ont le maintien d'une existence continue en s'appuyant sur l'essence du rêve. Vous pouvez doter vos simples illusions de cette capacité, leur fournissant une durée de vie pouvant surpasser la vôtre.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Dépensez 1 point de sang et une action simple pour rendre permanent un Mirage ou une Apparition déjà créé. L'illusion durera jusqu'à ce que vous choisissiez de la dissiper, jusqu'à ce qu'elle soit irrévocablement incapable de continuer, ou jusqu'à ce qu'elle soit soumise à la lumière du soleil. Une illusion permanente est irrévocablement incapable de continuer si elle est vraisemblablement détruite, par exemple en jetant un pistolet chimérique dans un bassin de métal fondu, ou si la route du flic est complètement bloquée par un gros tracteur-remorque.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
+              "text": "Dépensez 1 point de sang et une action simple pour rendre permanent un Mirage ou une Apparition déjà créé. L'illusion durera jusqu'à ce que vous choisissiez de la dissiper, jusqu'à ce qu'elle soit irrévocablement incapable de continuer, ou jusqu'à ce qu'elle soit soumise à la lumière du soleil. Une illusion permanente est irrévocablement incapable de continuer si elle est vraisemblablement détruite, par exemple en jetant un pistolet chimérique dans un bassin de métal fondu, ou si la route du flic est complètement bloquée par un gros tracteur-remorque.",
               "bold": false
             }
           ]
@@ -18853,10 +18855,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Lorsque vous activez Permanence, vous pouvez passer trois tours complets pour éviter de payer le coût du sang de cette puissance ou vous pouvez dépenser un point Sang supplémentaire pour activer Permanence sans utiliser une action.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Lorsque vous activez Permanence, vous pouvez passer trois tours complets pour éviter de payer le coût du sang de cette puissance ou vous pouvez dépenser un point Sang supplémentaire pour activer Permanence sans utiliser une action.",
               "bold": false
             }
           ]
@@ -21639,6 +21641,224 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "38388b48-e48e-8075-95b7-cc969a88e139",
+      "slug": "realite-monstrueuse",
+      "title": "Réalité monstrueuse",
+      "notionUrl": "https://app.notion.com/p/R-alit-monstrueuse-38388b48e48e807595b7cc969a88e139",
+      "lastEditedTime": "2026-07-28T07:39:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Réalité monstrueuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La croyance est une chose tangible, capable de choses presque miraculeuses. Vous pouvez transformer le rêve en réalité, apportant une véritable vraisemblance à vos créations imaginaires. Vos fantasmes obtiennent une réalité tangible et sont capables d'interagir avec le monde réel de façon concrète - même causé des dommages à vos ennemis, si vous le souhaitez.",
+          "spans": [
+            {
+              "text": "La croyance est une chose tangible, capable de choses presque miraculeuses. Vous pouvez transformer le rêve en réalité, apportant une véritable vraisemblance à vos créations imaginaires. Vos fantasmes obtiennent une réalité tangible et sont capables d'interagir avec le monde réel de façon concrète - même causé des dommages à vos ennemis, si vous le souhaitez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de sang et une action standard pour augmenter une de vos Apparitions déjà existantes avec Réalité Monstrueuse. Pour les cinq prochaines minutes, cette illusion ne peut pas être discréditée et est imprégnée du pouvoir d'interagir physiquement avec les gens. Une illusion crédibilisé grâce à la Réalité Monstrueuse ne peut pas interagir avec des objets inanimés, mais peut causer des dommages durables aux mortels, aux créatures surnaturelles et aux animaux.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de sang et une action standard pour augmenter une de vos Apparitions déjà existantes avec Réalité Monstrueuse. Pour les cinq prochaines minutes, cette illusion ne peut pas être discréditée et est imprégnée du pouvoir d'interagir physiquement avec les gens. Une illusion crédibilisé grâce à la Réalité Monstrueuse ne peut pas interagir avec des objets inanimés, mais peut causer des dommages durables aux mortels, aux créatures surnaturelles et aux animaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Apparitions qui ont été augmentées par Réalité Monstrueuse peuvent être utilisée pour attaquer, soit par des moyens secondaires (comme le tir d'un pistolet chimérique), soit comme un attaquant principal - l'illusion du flic de proximité se fend et frappe avec sa matraque. Dans les deux cas, le personnage qui a créé l'Apparition augmentée est l'attaquant réel, et l'attaque se produit sur l'initiative de ce personnage dans un round.",
+          "spans": [
+            {
+              "text": "Les Apparitions qui ont été augmentées par Réalité Monstrueuse peuvent être utilisée pour attaquer, soit par des moyens secondaires (comme le tir d'un pistolet chimérique), soit comme un attaquant principal - l'illusion du flic de proximité se fend et frappe avec sa matraque. Dans les deux cas, le personnage qui a créé l'Apparition augmentée est l'attaquant réel, et l'attaque se produit sur l'initiative de ce personnage dans un round.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour attaquer avec une Apparition augmentée par la Réalité Monstrueuse, dépensez votre action standard et faites un test opposé contre une seule cible, en utilisant votre Attribut Social + Subterfuge contre Physique + Esquive de la cible. En cas de succès, votre cible subit des dégâts de l'objet ou créature créée avec ce pouvoir. Réalité Monstrueuse ne peut pas être utilisé pour infliger des conditions de victoire autres que des dommages.",
+          "spans": [
+            {
+              "text": "Pour attaquer avec une Apparition augmentée par la Réalité Monstrueuse, dépensez votre action standard et faites un test opposé contre une seule cible, en utilisant votre Attribut Social + Subterfuge contre Physique + Esquive de la cible. En cas de succès, votre cible subit des dégâts de l'objet ou créature créée avec ce pouvoir. Réalité Monstrueuse ne peut pas être utilisé pour infliger des conditions de victoire autres que des dommages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les dégâts infligés par l'utilisation de Réalité Monstrueuse reflètent le mode d'attaque apparent de l'illusion et infligent 3 points de dégâts normaux ou 2 points de dégâts aggravés. Un officier de police illusoire tirant au pistolet ou utilisant un mousqueton inflige un maximum de 3 points de dégâts normaux, tandis qu'un lance-flammes illusoire inflige un maximum de 2 points de dégâts aggravés. Force d'âme (et les pouvoirs semblables) peuvent réduire les dommages infligés par la Réalité Monstrueuse.",
+          "spans": [
+            {
+              "text": "Les dégâts infligés par l'utilisation de Réalité Monstrueuse reflètent le mode d'attaque apparent de l'illusion et infligent 3 points de dégâts normaux ou 2 points de dégâts aggravés. Un officier de police illusoire tirant au pistolet ou utilisant un mousqueton inflige un maximum de 3 points de dégâts normaux, tandis qu'un lance-flammes illusoire inflige un maximum de 2 points de dégâts aggravés. Force d'âme (et les pouvoirs semblables) peuvent réduire les dommages infligés par la Réalité Monstrueuse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même si l'illusion semble affecter plusieurs personnes ou objets, comme l'illusion d'un lance-flammes, la Réalité Monstrueuse ne peut causer des dommages qu'à une cible à la fois. Cette limitation n'interdit pas les problèmes normaux causés par une telle Apparition. Si vous brûlez trois individus dans un jet de lance-flammes de Réalité Monstrueuse, choisissez une personne potentiellement nuisible qui prendra les dégâts. Les deux autres peuvent encore entrer en frénésie à cause du feu. Ils ne peuvent cependant pas être endommagés par cette attaque.",
+          "spans": [
+            {
+              "text": "Même si l'illusion semble affecter plusieurs personnes ou objets, comme l'illusion d'un lance-flammes, la Réalité Monstrueuse ne peut causer des dommages qu'à une cible à la fois. Cette limitation n'interdit pas les problèmes normaux causés par une telle Apparition. Si vous brûlez trois individus dans un jet de lance-flammes de Réalité Monstrueuse, choisissez une personne potentiellement nuisible qui prendra les dégâts. Les deux autres peuvent encore entrer en frénésie à cause du feu. Ils ne peuvent cependant pas être endommagés par cette attaque.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les individus, créatures ou objets créés avec ce pouvoir ont un nombre maximal de niveaux de santé égal à vos points dans Subterfuge, 1 point au minimum. Vous pouvez créer un objet avec moins de niveaux de santé (un morceau illusoire de papier ne serait pas crédible s’il avait 5 niveaux de santé). Les illusions chimériques ne peuvent pas vous empêcher directement d'être blessé. Un mur chimérique ne peut pas arrêter une balle.",
+          "spans": [
+            {
+              "text": "Les individus, créatures ou objets créés avec ce pouvoir ont un nombre maximal de niveaux de santé égal à vos points dans Subterfuge, 1 point au minimum. Vous pouvez créer un objet avec moins de niveaux de santé (un morceau illusoire de papier ne serait pas crédible s’il avait 5 niveaux de santé). Les illusions chimériques ne peuvent pas vous empêcher directement d'être blessé. Un mur chimérique ne peut pas arrêter une balle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois que la Réalité Monstrueuse a été utilisée pour augmenter une Apparition, l'illusion augmentée peut attaquer une cible à plusieurs reprises ; il s'agit d'une exception à la règle interdisant à un personnage d'utiliser un pouvoir social sur la même cible immédiatement après l'échec. Si vous échouez une attaque Réalité Monstrueuse contre un adversaire, vous pouvez essayer de nouveau contre ce même adversaire, ou quelqu'un d'autre, au tour suivant.",
+          "spans": [
+            {
+              "text": "Une fois que la Réalité Monstrueuse a été utilisée pour augmenter une Apparition, l'illusion augmentée peut attaquer une cible à plusieurs reprises ; il s'agit d'une exception à la règle interdisant à un personnage d'utiliser un pouvoir social sur la même cible immédiatement après l'échec. Si vous échouez une attaque Réalité Monstrueuse contre un adversaire, vous pouvez essayer de nouveau contre ce même adversaire, ou quelqu'un d'autre, au tour suivant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous utilisez un élément créé par Réalité Monstrueuse ou créez un individu illusoire, les attaques sont précisément synchronisées avec la volonté du créateur ; c'est pourquoi les Apparitions augmentées avec Réalité Monstrueuse ne peuvent être utilisées par personne d’autre que leur créateur. Si vous donnez une arme illusoire augmentée à un autre individu, elle perd son potentiel de causer des dégâts.",
+          "spans": [
+            {
+              "text": "Lorsque vous utilisez un élément créé par Réalité Monstrueuse ou créez un individu illusoire, les attaques sont précisément synchronisées avec la volonté du créateur ; c'est pourquoi les Apparitions augmentées avec Réalité Monstrueuse ne peuvent être utilisées par personne d’autre que leur créateur. Si vous donnez une arme illusoire augmentée à un autre individu, elle perd son potentiel de causer des dégâts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Apparition augmentée ne peut pas attaquer pendant les rounds de Célérité, même si c'est une arme utilisée pendant les rounds de Célérité.",
+          "spans": [
+            {
+              "text": "Une Apparition augmentée ne peut pas attaquer pendant les rounds de Célérité, même si c'est une arme utilisée pendant les rounds de Célérité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets nuisibles de la Réalité Monstrueuse sont fugaces, car ils sont basés dans la substance du rêve. Les dommages causés par Réalité Monstrueuse peuvent plonger un individu dans l'inconscience ou dans la torpeur, mais ils ne peuvent pas tuer. Après cinq minutes, les effets de Réalité Monstrueuse s’effacent ; les blessures s‘effacent et les individus inconscients ou torpeurs se réveillent.",
+          "spans": [
+            {
+              "text": "Les effets nuisibles de la Réalité Monstrueuse sont fugaces, car ils sont basés dans la substance du rêve. Les dommages causés par Réalité Monstrueuse peuvent plonger un individu dans l'inconscience ou dans la torpeur, mais ils ne peuvent pas tuer. Après cinq minutes, les effets de Réalité Monstrueuse s’effacent ; les blessures s‘effacent et les individus inconscients ou torpeurs se réveillent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Succès Exceptionnel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attaques de votre Réalité Monstrueuse infligent soit 4 points de dégâts normaux, soit 3 points de dégâts aggravés, selon le mode d'attaque de l'illusion.",
+          "spans": [
+            {
+              "text": "Les attaques de votre Réalité Monstrueuse infligent soit 4 points de dégâts normaux, soit 3 points de dégâts aggravés, selon le mode d'attaque de l'illusion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous dépensez vos actions simple et standard pour votre Réalité Monstrueuse pour attaquer, vous pouvez appliquer une manœuvre de combat, tant que la manœuvre s'appliquerait logiquement au mode d'attaque. Par exemple, votre flic illusoire peut essayer d'agripper votre ennemi ou de planter un pieu en bois dans son cœur. Cet effet ne contourne pas les conditions normales d'utilisation d'une manœuvre de combat ; votre cible doit être dans la zone de blessure « Incapacité » avant que vous puissiez tenter de la pieuter avec Réalité Monstrueuse. Les effets du pieutage (ou d’agripper) sont fugaces et, comme les dégâts de Réalité Monstrueuse, se fanent après cinq minutes. Un personnage agrippé par une Apparition augmentée peut s'échapper en dépensant une action simple et en faisant un test opposé en utilisant son attribut Physique + Bagarre ou Mêlée contre votre attribut Social + Subterfuge.",
+          "spans": [
+            {
+              "text": "Si vous dépensez vos actions simple et standard pour votre Réalité Monstrueuse pour attaquer, vous pouvez appliquer une manœuvre de combat, tant que la manœuvre s'appliquerait logiquement au mode d'attaque. Par exemple, votre flic illusoire peut essayer d'agripper votre ennemi ou de planter un pieu en bois dans son cœur. Cet effet ne contourne pas les conditions normales d'utilisation d'une manœuvre de combat ; votre cible doit être dans la zone de blessure « Incapacité » avant que vous puissiez tenter de la pieuter avec Réalité Monstrueuse. Les effets du pieutage (ou d’agripper) sont fugaces et, comme les dégâts de Réalité Monstrueuse, se fanent après cinq minutes. Un personnage agrippé par une Apparition augmentée peut s'échapper en dépensant une action simple et en faisant un test opposé en utilisant son attribut Physique + Bagarre ou Mêlée contre votre attribut Social + Subterfuge.",
               "bold": false
             }
           ]

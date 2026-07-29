@@ -1,6 +1,7 @@
 import ContentBlocks from "../ContentBlocks";
 import RelatedGroups from "../RelatedGroups";
 import StatBlock from "../StatBlock";
+import ItemFlags from "../ItemFlags";
 import DetailShell from "../DetailShell";
 
 // "Prerequis" est un multi_select Notion (discipline + niveau requis, ex.
@@ -21,6 +22,11 @@ export default function TechniqueDetailView({ wiki }) {
         <DetailShell wiki={wiki} backPath={activeNavigation.path}>
             {(activeItem) => (
                 <>
+                    <ItemFlags
+                        needsApproval={activeItem.properties?.Approbation?.value === true}
+                        full={activeItem.properties?.Complet?.value === true}
+                    />
+
                     <StatBlock item={activeItem} fields={STAT_FIELDS} />
 
                     <ContentBlocks content={activeItem.content} manifest={wiki.manifest} />

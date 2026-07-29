@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-07-26T13:48:12.413Z",
+  "generatedAt": "2026-07-29T15:14:42.963Z",
   "propertyOptions": {},
   "items": [
     {
@@ -2381,7 +2381,7 @@
       "slug": "voie-de-l-air",
       "title": "Voie de l’Air",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39588b48e48e80e098f0f6c0a5a6c980",
-      "lastEditedTime": "2026-07-19T19:01:00.000Z",
+      "lastEditedTime": "2026-07-29T07:24:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2459,10 +2459,28 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée",
+          "text": "Les Kuei-Jin de l'Air sont guidés par le mouvement et l'adaptabilité. Curieux et insaisissables, ils excellent dans l'observation, l'exploration et la capacité à s'adapter à toutes les situations.",
           "spans": [
             {
-              "text": "Ecrire la présentation de la Lignée",
+              "text": "Les Kuei-Jin de ",
+              "bold": false
+            },
+            {
+              "text": "l'Air",
+              "bold": true
+            },
+            {
+              "text": " sont guidés par le mouvement et l'adaptabilité. Curieux et insaisissables, ils excellent dans l'observation, l'exploration et la capacité à s'adapter à toutes les situations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur philosophie les pousse à éviter les obstacles plutôt qu'à les affronter frontalement, privilégiant la réflexion, la mobilité et l'anticipation.",
+          "spans": [
+            {
+              "text": "Leur philosophie les pousse à éviter les obstacles plutôt qu'à les affronter frontalement, privilégiant la réflexion, la mobilité et l'anticipation.",
               "bold": false
             }
           ]
@@ -2476,6 +2494,36 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+          "spans": [
+            {
+              "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -2484,7 +2532,7 @@
       "slug": "voie-de-l-eau",
       "title": "Voie de l’Eau",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39588b48e48e80829cd6e602562146f4",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-29T07:25:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2562,10 +2610,28 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée",
+          "text": "Les Kuei-Jin de l'Eau incarnent la patience et l'observation. À l'image d'un cours d'eau qui trouve toujours son chemin, ils préfèrent analyser leur environnement avant d'agir.",
           "spans": [
             {
-              "text": "Ecrire la présentation de la Lignée",
+              "text": "Les Kuei-Jin de ",
+              "bold": false
+            },
+            {
+              "text": "l'Eau",
+              "bold": true
+            },
+            {
+              "text": " incarnent la patience et l'observation. À l'image d'un cours d'eau qui trouve toujours son chemin, ils préfèrent analyser leur environnement avant d'agir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Discrets et calculateurs, ils excellent dans le repérage, la collecte d'informations et la compréhension de leur entourage. Leur force réside dans leur capacité à attendre le moment opportun pour intervenir.",
+          "spans": [
+            {
+              "text": "Discrets et calculateurs, ils excellent dans le repérage, la collecte d'informations et la compréhension de leur entourage. Leur force réside dans leur capacité à attendre le moment opportun pour intervenir.",
               "bold": false
             }
           ]
@@ -2579,6 +2645,36 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+          "spans": [
+            {
+              "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -2587,7 +2683,7 @@
       "slug": "voie-de-la-terre",
       "title": "Voie de la Terre",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39588b48e48e80458eccd099df9aa030",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-29T07:24:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2665,10 +2761,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée",
+          "text": "Les Kuei-Jin de la Terre incarnent la solidité et l'endurance. Ils sont les piliers de leur société, capables de faire face aux épreuves sans jamais fléchir. Leur philosophie repose sur la patience, la discipline et la persévérance.",
           "spans": [
             {
-              "text": "Ecrire la présentation de la Lignée",
+              "text": "Les Kuei-Jin de la Terre incarnent la solidité et l'endurance. Ils sont les piliers de leur société, capables de faire face aux épreuves sans jamais fléchir. Leur philosophie repose sur la patience, la discipline et la persévérance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils privilégient une approche méthodique des conflits, convaincus que le temps et la détermination finissent toujours par triompher de la précipitation.",
+          "spans": [
+            {
+              "text": "Ils privilégient une approche méthodique des conflits, convaincus que le temps et la détermination finissent toujours par triompher de la précipitation.",
               "bold": false
             }
           ]
@@ -2682,6 +2788,36 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+          "spans": [
+            {
+              "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -2690,7 +2826,7 @@
       "slug": "voie-du-feu",
       "title": "Voie du Feu",
       "notionUrl": "https://app.notion.com/p/Voie-du-Feu-39588b48e48e809fae41fe0633da645a",
-      "lastEditedTime": "2026-07-06T11:07:00.000Z",
+      "lastEditedTime": "2026-07-29T07:25:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2768,20 +2904,68 @@
         },
         {
           "type": "paragraph",
-          "text": "Ecrire la présentation de la Lignée",
+          "text": "Les Kuei-Jin du Feu représentent la volonté, la passion et la force d'action. Ils affrontent les difficultés de front et considèrent que seule une détermination sans faille permet d'atteindre ses objectifs.",
           "spans": [
             {
-              "text": "Ecrire la présentation de la Lignée",
+              "text": "Les Kuei-Jin du ",
+              "bold": false
+            },
+            {
+              "text": "Feu",
+              "bold": true
+            },
+            {
+              "text": " représentent la volonté, la passion et la force d'action. Ils affrontent les difficultés de front et considèrent que seule une détermination sans faille permet d'atteindre ses objectifs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Impulsifs mais profondément loyaux envers leurs convictions, ils n'hésitent pas à prendre des risques lorsque la situation l'exige.",
+          "spans": [
+            {
+              "text": "Impulsifs mais profondément loyaux envers leurs convictions, ils n'hésitent pas à prendre des risques lorsque la situation l'exige.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Faiblesse de Clan",
+          "text": "Faiblesse de clan",
           "spans": [
             {
-              "text": "Faiblesse de Clan",
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+          "spans": [
+            {
+              "text": "L'affiliation à un élément vous rend plus résistant.e à cet élément, mais vous affaiblit grandement face à son contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément, vous obtenez une réduction de moitié des dégâts infligés par cet élément dans la limite de dégâts superficiels. Ainsi, des dégâts aggravés deviennent superficiels, et des dégâts létaux deviennent des dégâts aggravés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
+          "spans": [
+            {
+              "text": "Lorsque vous êtes face à votre élément contraire, vous prenez double dégâts. Ainsi, des dégâts superficiels deviennent aggravés, et des dégâts aggravés deviennent létaux.",
               "bold": false
             }
           ]

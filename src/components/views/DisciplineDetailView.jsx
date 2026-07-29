@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import ContentBlocks from "../ContentBlocks";
 import StatBlock from "../StatBlock";
+import ItemFlags from "../ItemFlags";
 import DetailShell from "../DetailShell";
 import { itemNiveau, powersForDiscipline } from "../../utils/disciplinePowers";
 import { techniquePrereqText, techniquesForDiscipline } from "../../utils/techniques";
@@ -55,6 +56,11 @@ export default function DisciplineDetailView({ wiki }) {
 
                 return (
                     <>
+                        <ItemFlags
+                            needsApproval={activeItem.properties?.Approbation?.value === true}
+                            full={activeItem.properties?.Complet?.value === true}
+                        />
+
                         <StatBlock item={activeItem} fields={STAT_FIELDS} />
 
                         <ContentBlocks content={activeItem.content} manifest={wiki.manifest} />

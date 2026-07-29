@@ -4,9 +4,10 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-26T13:48:12.432Z",
+  "generatedAt": "2026-07-29T15:14:42.982Z",
   "propertyOptions": {
     "Catégorie": [
+      "Quêtes et Lieux d'intérêts",
       "Vie",
       "Liens de sang",
       "Diablerie",
@@ -23,7 +24,8 @@
       "Création de personnage",
       "Coteries",
       "Divers",
-      "Gestion de la Fiche"
+      "Gestion de la Fiche",
+      "RolePlay"
     ]
   },
   "items": [
@@ -32,11 +34,15 @@
       "slug": "absence-lors-des-scenes-pre-parties",
       "title": "Absence lors des scènes pré-parties",
       "notionUrl": "https://app.notion.com/p/Absence-lors-des-sc-nes-pr-parties-3a388b48e48e80288735c5843c9c0023",
-      "lastEditedTime": "2026-07-20T11:23:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "AIP"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -141,11 +147,15 @@
       "slug": "actions-de-combat",
       "title": "Actions de Combat",
       "notionUrl": "https://app.notion.com/p/Actions-de-Combat-39688b48e48e806087fdc762d4628b48",
-      "lastEditedTime": "2026-07-13T12:00:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -1096,11 +1106,15 @@
       "slug": "aips",
       "title": "AIPs",
       "notionUrl": "https://app.notion.com/p/AIPs-39c88b48e48e80f289d6c57b05661ebf",
-      "lastEditedTime": "2026-07-13T12:00:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "AIP"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -1343,11 +1357,15 @@
       "slug": "aips-supplementaires",
       "title": "AIPs supplémentaires",
       "notionUrl": "https://app.notion.com/p/AIPs-suppl-mentaires-3a688b48e48e8041b24ceb8e068dc28c",
-      "lastEditedTime": "2026-07-23T13:11:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "AIP"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -1822,11 +1840,15 @@
       "slug": "apprendre-des-disciplines",
       "title": "Apprendre des Disciplines",
       "notionUrl": "https://app.notion.com/p/Apprendre-des-Disciplines-39c88b48e48e800f9917e6e1affcfc3b",
-      "lastEditedTime": "2026-07-13T12:01:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Apprentissage"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -2081,11 +2103,15 @@
       "slug": "armes-a-distance",
       "title": "Armes à Distance",
       "notionUrl": "https://app.notion.com/p/Armes-Distance-39c88b48e48e808ea4d6db4cef4dcdfd",
-      "lastEditedTime": "2026-07-13T12:01:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -3220,11 +3246,15 @@
       "slug": "armes-de-melee",
       "title": "Armes de Mêlée",
       "notionUrl": "https://app.notion.com/p/Armes-de-M-l-e-39c88b48e48e802b8458d9b9ef7fb7d4",
-      "lastEditedTime": "2026-07-13T12:02:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -4209,11 +4239,15 @@
       "slug": "armures",
       "title": "Armures",
       "notionUrl": "https://app.notion.com/p/Armures-39c88b48e48e80bf9ef0dc1ddd0ab72b",
-      "lastEditedTime": "2026-07-13T12:02:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -4768,11 +4802,15 @@
       "slug": "combat-de-masse",
       "title": "Combat de masse",
       "notionUrl": "https://app.notion.com/p/Combat-de-masse-39888b48e48e8097a0b9f25574cd30fa",
-      "lastEditedTime": "2026-07-13T12:02:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -5899,11 +5937,15 @@
       "slug": "creation-d-equipement",
       "title": "Création d’équipement",
       "notionUrl": "https://app.notion.com/p/Cr-ation-d-quipement-39c88b48e48e806d9c9eefcf984c6ade",
-      "lastEditedTime": "2026-07-13T12:03:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -6114,11 +6156,15 @@
       "slug": "creation-d-un-antag",
       "title": "Création d’un Antag",
       "notionUrl": "https://app.notion.com/p/Cr-ation-d-un-Antag-39c88b48e48e808aa6aec590bbb59679",
-      "lastEditedTime": "2026-07-13T12:05:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Antag"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -6278,11 +6324,15 @@
       "slug": "creation-d-un-pnj-generique",
       "title": "Création d’un PNJ Générique",
       "notionUrl": "https://app.notion.com/p/Cr-ation-d-un-PNJ-G-n-rique-39c88b48e48e80218cccf38194e56ac3",
-      "lastEditedTime": "2026-07-13T12:06:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Antag"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -6497,11 +6547,15 @@
       "slug": "derangements",
       "title": "Dérangements",
       "notionUrl": "https://app.notion.com/p/D-rangements-39c88b48e48e80588607cf6b79870ee6",
-      "lastEditedTime": "2026-07-13T12:08:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Dérangements"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -7820,11 +7874,15 @@
       "slug": "deroulement-d-un-combat",
       "title": "Déroulement d’un Combat",
       "notionUrl": "https://app.notion.com/p/D-roulement-d-un-Combat-39c88b48e48e80f2ad39e7897f087a09",
-      "lastEditedTime": "2026-07-13T12:09:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -8377,11 +8435,15 @@
       "slug": "diablerie",
       "title": "Diablerie",
       "notionUrl": "https://app.notion.com/p/Diablerie-39c88b48e48e8020bd93d04f87ff0544",
-      "lastEditedTime": "2026-07-13T12:12:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Diablerie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -8576,11 +8638,15 @@
       "slug": "drogues-et-poisons",
       "title": "Drogues et Poisons",
       "notionUrl": "https://app.notion.com/p/Drogues-et-Poisons-39c88b48e48e80f1ac11e14eb72bb8f2",
-      "lastEditedTime": "2026-07-13T12:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -9035,11 +9101,15 @@
       "slug": "equipement-divers",
       "title": "Equipement Divers",
       "notionUrl": "https://app.notion.com/p/Equipement-Divers-39c88b48e48e8046ab59df97a7049985",
-      "lastEditedTime": "2026-07-13T12:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Equipement"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -10014,11 +10084,15 @@
       "slug": "frenesie",
       "title": "Frenesie",
       "notionUrl": "https://app.notion.com/p/Frenesie-39688b48e48e806db336ed085bae903a",
-      "lastEditedTime": "2026-07-13T12:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Frénésie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -10200,6 +10274,16 @@
         },
         {
           "type": "bulleted_list_item",
+          "text": "Humiliation publique (Frénésie de Rage)",
+          "spans": [
+            {
+              "text": "Humiliation publique (Frénésie de Rage)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
           "text": "Subit un coup infligeant 4 dégâts ou plus (frénésie de rage)",
           "spans": [
             {
@@ -10250,6 +10334,16 @@
         },
         {
           "type": "bulleted_list_item",
+          "text": "Provocation Physique (Frénésie de Rage)",
+          "spans": [
+            {
+              "text": "Provocation Physique (Frénésie de Rage)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
           "text": "Subit un coup infligeant 3 dégâts ou plus (frénésie de rage)",
           "spans": [
             {
@@ -10290,6 +10384,16 @@
         },
         {
           "type": "bulleted_list_item",
+          "text": "Harcèlement ou accusations agressives (Frénésie de Rage)",
+          "spans": [
+            {
+              "text": "Harcèlement ou accusations agressives (Frénésie de Rage)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
           "text": "Subit un coup infligeant 2 dégâts ou plus (frénésie de rage)",
           "spans": [
             {
@@ -10325,6 +10429,16 @@
             {
               "text": "4 traits de Bête",
               "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Insultes ou remarques acerbes (Frénésie de Rage)",
+          "spans": [
+            {
+              "text": "Insultes ou remarques acerbes (Frénésie de Rage)",
+              "bold": false
             }
           ]
         },
@@ -10395,11 +10509,15 @@
       "slug": "gestion-de-la-generation",
       "title": "Gestion de la Génération",
       "notionUrl": "https://app.notion.com/p/Gestion-de-la-G-n-ration-3a688b48e48e80b6aa43f62dcbf965ea",
-      "lastEditedTime": "2026-07-25T15:56:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Divers"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -11385,11 +11503,15 @@
       "slug": "gestion-du-hrp",
       "title": "Gestion du HRP",
       "notionUrl": "https://app.notion.com/p/Gestion-du-HRP-3a688b48e48e80a49820e27affd6d878",
-      "lastEditedTime": "2026-07-23T13:32:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Divers"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -11630,11 +11752,15 @@
       "slug": "humanite",
       "title": "Humanité",
       "notionUrl": "https://app.notion.com/p/Humanit-39c88b48e48e8006aa1de41f89ec561f",
-      "lastEditedTime": "2026-07-13T12:11:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Humanité"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -11985,15 +12111,272 @@
       ]
     },
     {
+      "id": "3ab88b48-e48e-805f-a08e-f0561ff19b64",
+      "slug": "interpreter-les-traits-de-bete",
+      "title": "Interpréter les Traits de Bête",
+      "notionUrl": "https://app.notion.com/p/Interpr-ter-les-Traits-de-B-te-3ab88b48e48e805fa08ef0561ff19b64",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "RolePlay"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Interpréter les Traits de Bête"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'un des thèmes les plus marquants du monde de Vampire est la lente et douloureuse perte d'Humanité, à mesure qu'un personnage s'éloigne peu à peu de la personne qu'il était autrefois.",
+          "spans": [
+            {
+              "text": "L'un des thèmes les plus marquants du monde de Vampire est la lente et douloureuse perte d'Humanité, à mesure qu'un personnage s'éloigne peu à peu de la personne qu'il était autrefois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains vampires s'accrochent à leur Humanité de toutes leurs forces, désespérés à l'idée de conserver le dernier fragment de l'âme qui faisait d'eux des êtres humains. D'autres, au contraire, accueillent la dépravation de la Bête et s'abandonnent entièrement à ses pulsions. Même certains Anciens vénérables, qui quittent rarement l'Élysium, sont confrontés chaque nuit à des choix susceptibles de renforcer leur Bête.",
+          "spans": [
+            {
+              "text": "Certains vampires s'accrochent à leur Humanité de toutes leurs forces, désespérés à l'idée de conserver le dernier fragment de l'âme qui faisait d'eux des êtres humains. D'autres, au contraire, accueillent la dépravation de la Bête et s'abandonnent entièrement à ses pulsions. Même certains Anciens vénérables, qui quittent rarement l'Élysium, sont confrontés chaque nuit à des choix susceptibles de renforcer leur Bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À mesure qu'un personnage accumule des Traits de Bête, celle-ci prend progressivement le contrôle de son être. Les actes de violence deviennent plus faciles à commettre, tandis que la voix de la Bête devient de plus en plus difficile à ignorer.",
+          "spans": [
+            {
+              "text": "À mesure qu'un personnage accumule des Traits de Bête, celle-ci prend progressivement le contrôle de son être. Les actes de violence deviennent plus faciles à commettre, tandis que la voix de la Bête devient de plus en plus difficile à ignorer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Trait de Bête supplémentaire apporte son lot de pulsions, de complications et de tentations.",
+          "spans": [
+            {
+              "text": "Chaque Trait de Bête supplémentaire apporte son lot de pulsions, de complications et de tentations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Voici quelques informations et conseil de Roleplay pour incarner ces traits de bête en jeu. ",
+          "spans": [
+            {
+              "text": "Voici quelques informations et conseil de Roleplay pour incarner ces traits de bête en jeu. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "1 Trait de Bête",
+          "spans": [
+            {
+              "text": "1 Trait de Bête",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez laissé la Bête planter ses griffes dans votre âme. Sa voix commence à résonner au fond de votre esprit. Vous pouvez encore ressentir de la culpabilité pour vos actes, mais cette voix vous pousse à ignorer vos remords, à accepter ce que vous avez fait… et tout ce que vous pourriez encore accomplir. Il existe une certaine ivresse à laisser libre cours à votre nature monstrueuse.",
+          "spans": [
+            {
+              "text": "Vous avez laissé la Bête planter ses griffes dans votre âme. Sa voix commence à résonner au fond de votre esprit. Vous pouvez encore ressentir de la culpabilité pour vos actes, mais cette voix vous pousse à ignorer vos remords, à accepter ce que vous avez fait… et tout ce que vous pourriez encore accomplir. Il existe une certaine ivresse à laisser libre cours à votre nature monstrueuse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour certains vampires, c'est même le seul moment où ils ont encore l'impression d'être véritablement vivants.",
+          "spans": [
+            {
+              "text": "Pour certains vampires, c'est même le seul moment où ils ont encore l'impression d'être véritablement vivants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "2 Traits de Bête",
+          "spans": [
+            {
+              "text": "2 Traits de Bête",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Bête est désormais éveillée et observe chacun de vos gestes. Vous percevez parfois son murmure. Il vous arrive encore de ne pas reconnaître cette voix, mais les Caïnites ayant déjà connu cette descente savent immédiatement qu'il s'agit de celle de la corruption.",
+          "spans": [
+            {
+              "text": "La Bête est désormais éveillée et observe chacun de vos gestes. Vous percevez parfois son murmure. Il vous arrive encore de ne pas reconnaître cette voix, mais les Caïnites ayant déjà connu cette descente savent immédiatement qu'il s'agit de celle de la corruption.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À chacune de vos décisions, elle tente d'influencer votre choix, vous poussant vers la solution la plus facile, la plus instinctive ou la plus brutale. À ce stade, la Bête commence également à se manifester physiquement. ",
+          "spans": [
+            {
+              "text": "À chacune de vos décisions, elle tente d'influencer votre choix, vous poussant vers la solution la plus facile, la plus instinctive ou la plus brutale. À ce stade, la Bête commence également à se manifester physiquement. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Paradoxalement, elle vous donne une apparence à la fois plus monstrueuse… et plus humaine, vos joues reprennent des couleurs, votre cœur mort semble s'emballer tandis qu'une poussée d'adrénaline envahit votre corps.",
+          "spans": [
+            {
+              "text": "Paradoxalement, elle vous donne une apparence à la fois plus monstrueuse… et plus humaine, vos joues reprennent des couleurs, votre cœur mort semble s'emballer tandis qu'une poussée d'adrénaline envahit votre corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette sensation d'exaltation est devenue extrêmement rare depuis votre Étreinte, et vous prenez un plaisir troublant à l'éprouver de nouveau.",
+          "spans": [
+            {
+              "text": "Cette sensation d'exaltation est devenue extrêmement rare depuis votre Étreinte, et vous prenez un plaisir troublant à l'éprouver de nouveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "3 Traits de Bête",
+          "spans": [
+            {
+              "text": "3 Traits de Bête",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous approchez dangereusement du point de rupture et la Bête est désormais pleinement installée dans votre âme.",
+          "spans": [
+            {
+              "text": "Vous approchez dangereusement du point de rupture et la Bête est désormais pleinement installée dans votre âme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les murmures sont devenus une voix claire, distincte et parfaitement compréhensible. À chaque instant, elle vous souffle de céder à vos pulsions, tandis que votre Humanité tente encore de retenir votre main.",
+          "spans": [
+            {
+              "text": "Les murmures sont devenus une voix claire, distincte et parfaitement compréhensible. À chaque instant, elle vous souffle de céder à vos pulsions, tandis que votre Humanité tente encore de retenir votre main.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les manifestations physiques de la Bête s'intensifient. Chaque fois que vous résistez à ses appels, votre corps réclame une nouvelle montée d'émotions, une nouvelle poussée d'adrénaline.",
+          "spans": [
+            {
+              "text": "Les manifestations physiques de la Bête s'intensifient. Chaque fois que vous résistez à ses appels, votre corps réclame une nouvelle montée d'émotions, une nouvelle poussée d'adrénaline.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres commencent également à remarquer votre état. Les mortels vous trouvent inquiétant, instable ou dangereux, comme si vous étiez sous l'emprise d'une substance. Les vampires, eux, reconnaissent immédiatement les signes d'une Bête qui commence à prendre le dessus.",
+          "spans": [
+            {
+              "text": "Les autres commencent également à remarquer votre état. Les mortels vous trouvent inquiétant, instable ou dangereux, comme si vous étiez sous l'emprise d'une substance. Les vampires, eux, reconnaissent immédiatement les signes d'une Bête qui commence à prendre le dessus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "4 Traits de Bête",
+          "spans": [
+            {
+              "text": "4 Traits de Bête",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Bête est désormais profondément ancrée dans votre âme. Sa voix ne vous quitte plus un seul instant. À ce stade, votre esprit est tellement corrompu qu'il vous devient difficile de distinguer le bien du mal, ou même de vous soucier des conséquences de vos actes.",
+          "spans": [
+            {
+              "text": "La Bête est désormais profondément ancrée dans votre âme. Sa voix ne vous quitte plus un seul instant. À ce stade, votre esprit est tellement corrompu qu'il vous devient difficile de distinguer le bien du mal, ou même de vous soucier des conséquences de vos actes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La voix de la Bête est une présence constante, vous poussant sans relâche à satisfaire ses désirs. Vous êtes désormais au bord de perdre un nouveau fragment de votre Humanité. Cette corruption devient également visible. Votre peau prend une teinte pâle et cireuse, quel que soit votre niveau permanent d'Humanité.",
+          "spans": [
+            {
+              "text": "La voix de la Bête est une présence constante, vous poussant sans relâche à satisfaire ses désirs. Vous êtes désormais au bord de perdre un nouveau fragment de votre Humanité. Cette corruption devient également visible. Votre peau prend une teinte pâle et cireuse, quel que soit votre niveau permanent d'Humanité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos yeux se parent d'une légère coloration rougeâtre. Les mortels cherchent instinctivement à vous éviter lorsqu'ils vous croisent. Les autres vampires sentent que votre Bête lutte pour se libérer et peuvent tenter de vous maîtriser ou de vous empêcher de sombrer davantage. Les plaisirs qui vous satisfaisaient auparavant ne suffisent plus.",
+          "spans": [
+            {
+              "text": "Vos yeux se parent d'une légère coloration rougeâtre. Les mortels cherchent instinctivement à vous éviter lorsqu'ils vous croisent. Les autres vampires sentent que votre Bête lutte pour se libérer et peuvent tenter de vous maîtriser ou de vous empêcher de sombrer davantage. Les plaisirs qui vous satisfaisaient auparavant ne suffisent plus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seuls les actes les plus monstrueux vous procurent encore cette euphorie que vous ressentiez aux premiers stades de votre dégénérescence. Vous recherchez de plus en plus désespérément des occasions de nourrir votre Bête. Au fond de vous, vous savez que vous êtes sur le point de perdre définitivement le combat contre votre Humanité. Pourtant, l'ivresse que procure l'abandon à la Bête est si intense qu'il devient presque impossible de se soucier de ce que l'avenir vous réserve.",
+          "spans": [
+            {
+              "text": "Seuls les actes les plus monstrueux vous procurent encore cette euphorie que vous ressentiez aux premiers stades de votre dégénérescence. Vous recherchez de plus en plus désespérément des occasions de nourrir votre Bête. Au fond de vous, vous savez que vous êtes sur le point de perdre définitivement le combat contre votre Humanité. Pourtant, l'ivresse que procure l'abandon à la Bête est si intense qu'il devient presque impossible de se soucier de ce que l'avenir vous réserve.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-80f3-903a-c0c9ca3ebf27",
       "slug": "journee",
       "title": "Journée",
       "notionUrl": "https://app.notion.com/p/Journ-e-39c88b48e48e80f3903ac0c9ca3ebf27",
-      "lastEditedTime": "2026-07-13T12:11:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -12088,11 +12471,15 @@
       "slug": "l-experience",
       "title": "L’Expérience",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-07-25T15:56:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Apprentissage"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -12557,11 +12944,15 @@
       "slug": "la-bete-et-les-traits-de-betes",
       "title": "La Bête et les Traits de Bêtes",
       "notionUrl": "https://app.notion.com/p/La-B-te-et-les-Traits-de-B-tes-39c88b48e48e8046b4d0c9f5c76f540f",
-      "lastEditedTime": "2026-07-13T12:11:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Bête"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -12890,11 +13281,15 @@
       "slug": "les-coteries",
       "title": "Les Coteries",
       "notionUrl": "https://app.notion.com/p/Les-Coteries-3a688b48e48e802690b2c35ad597104e",
-      "lastEditedTime": "2026-07-23T13:15:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Coteries"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -13927,11 +14322,15 @@
       "slug": "les-dettes",
       "title": "Les Dettes",
       "notionUrl": "https://app.notion.com/p/Les-Dettes-3a688b48e48e800d95f0fa60b0631c0e",
-      "lastEditedTime": "2026-07-23T13:24:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -14854,11 +15253,15 @@
       "slug": "les-voies-de-l-illuminations",
       "title": "Les Voies de l’Illuminations",
       "notionUrl": "https://app.notion.com/p/Les-Voies-de-l-Illuminations-39c88b48e48e80aea3ffeb816c7e7dc9",
-      "lastEditedTime": "2026-07-13T12:12:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Humanité"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -15053,11 +15456,15 @@
       "slug": "liens-de-sang",
       "title": "Liens de sang",
       "notionUrl": "https://app.notion.com/p/Liens-de-sang-39c88b48e48e80909c61f9db980e9fd8",
-      "lastEditedTime": "2026-07-13T12:13:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Liens de sang"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -15155,14 +15562,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Troisième prise : Lien de sang complet. À ce stade, le buveur est entièrement asservi au vampire. Celui-ci devient la personne la plus importante de sa vie ; amants, proches et même enfants passent au second plan face à cette passion dévorante. Le Vassal doit dépenser un point de Volonté chaque fois qu’il souhaite agir d’une manière qu’il pense désapprouvée par son Domitor , et 3 points de Volonté par heure pour tenter de lui nuire directement. De plus, ses réserves de tests Sociaux et Mentaux défensifs pour résister aux pouvoirs de son Domitor subissent un malus de -3.",
+          "text": "Troisième prise : Lien de sang complet. À ce stade, le buveur est entièrement asservi au vampire. Celui-ci devient la personne la plus importante de sa vie ; amants, proches et même enfants passent au second plan face à cette passion dévorante. Le Vassal doit dépenser un point de Volonté chaque fois qu’il souhaite agir d’une manière qu’il pense désapprouvée par son Domitor , et 3 points de Volonté par heure pour tenter de lui nuire directement. De plus, ses réserves de tests Sociaux et Mentaux défensifs pour résister aux pouvoirs de son Domitor subissent un malus de -3. De plus, le Vampire est immunisé à tout autre lien de sang jusqu’a ce que celui-ci passe niveau 2.",
           "spans": [
             {
               "text": "Troisième prise :",
               "bold": true
             },
             {
-              "text": " Lien de sang complet. À ce stade, le buveur est entièrement asservi au vampire. Celui-ci devient la personne la plus importante de sa vie ; amants, proches et même enfants passent au second plan face à cette passion dévorante. Le Vassal doit dépenser un point de Volonté chaque fois qu’il souhaite agir d’une manière qu’il pense désapprouvée par son Domitor , et 3 points de Volonté par heure pour tenter de lui nuire directement. De plus, ses réserves de tests Sociaux et Mentaux défensifs pour résister aux pouvoirs de son Domitor subissent un malus de -3.",
+              "text": " Lien de sang complet. À ce stade, le buveur est entièrement asservi au vampire. Celui-ci devient la personne la plus importante de sa vie ; amants, proches et même enfants passent au second plan face à cette passion dévorante. Le Vassal doit dépenser un point de Volonté chaque fois qu’il souhaite agir d’une manière qu’il pense désapprouvée par son Domitor , et 3 points de Volonté par heure pour tenter de lui nuire directement. De plus, ses réserves de tests Sociaux et Mentaux défensifs pour résister aux pouvoirs de son Domitor subissent un malus de -3. De plus, le Vampire est immunisé à tout autre lien de sang jusqu’a ce que celui-ci passe niveau 2.",
               "bold": false
             }
           ]
@@ -15234,11 +15641,15 @@
       "slug": "man-uvre-de-combat",
       "title": "Manœuvre de Combat",
       "notionUrl": "https://app.notion.com/p/Man-uvre-de-Combat-39c88b48e48e80cf9167d794da6edcb7",
-      "lastEditedTime": "2026-07-13T12:13:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -15893,11 +16304,15 @@
       "slug": "notions-d-approbation",
       "title": "Notions d’Approbation",
       "notionUrl": "https://app.notion.com/p/Notions-d-Approbation-3a388b48e48e8042a715e54df1f4ddd7",
-      "lastEditedTime": "2026-07-20T14:53:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Création de personnage"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -15972,11 +16387,15 @@
       "slug": "onglet-allies",
       "title": "Onglet Alliés",
       "notionUrl": "https://app.notion.com/p/Onglet-Alli-s-3a788b48e48e805990ecfb340a88e0d6",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -16231,11 +16650,15 @@
       "slug": "onglet-equipement",
       "title": "Onglet Equipement",
       "notionUrl": "https://app.notion.com/p/Onglet-Equipement-3a788b48e48e8097a18ddee3ec92533e",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -16406,11 +16829,15 @@
       "slug": "onglet-historique",
       "title": "Onglet Historique",
       "notionUrl": "https://app.notion.com/p/Onglet-Historique-3a788b48e48e80398ca2c4774363afd3",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -16585,11 +17012,15 @@
       "slug": "onglet-mentorat",
       "title": "Onglet Mentorat",
       "notionUrl": "https://app.notion.com/p/Onglet-Mentorat-3a788b48e48e8023b96ae42cb9ee72c3",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -16806,11 +17237,15 @@
       "slug": "onglet-personnage",
       "title": "Onglet Personnage",
       "notionUrl": "https://app.notion.com/p/Onglet-Personnage-3a788b48e48e80f1a0b9ccde8f75522b",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -16963,11 +17398,15 @@
       "slug": "onglet-resume",
       "title": "Onglet Résumé",
       "notionUrl": "https://app.notion.com/p/Onglet-R-sum-3a788b48e48e8006be23f25f3342c7f1",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -17276,11 +17715,15 @@
       "slug": "onglet-serviteurs",
       "title": "Onglet Serviteurs",
       "notionUrl": "https://app.notion.com/p/Onglet-Serviteurs-3a788b48e48e80a5904cff6c59abc657",
-      "lastEditedTime": "2026-07-24T11:10:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Gestion de la Fiche"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -17423,11 +17866,15 @@
       "slug": "percevoir-les-attaques",
       "title": "Percevoir les attaques",
       "notionUrl": "https://app.notion.com/p/Percevoir-les-attaques-39c88b48e48e80d796cbfe6e977b7d36",
-      "lastEditedTime": "2026-07-13T12:13:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -17673,11 +18120,15 @@
       "slug": "rencontre-entre-personnages",
       "title": "Rencontre entre personnages",
       "notionUrl": "https://app.notion.com/p/Rencontre-entre-personnages-3a688b48e48e8079b9a7dcd71b3ad0dc",
-      "lastEditedTime": "2026-07-23T13:27:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -17992,11 +18443,15 @@
       "slug": "sante-et-degats",
       "title": "Santé et Dégâts",
       "notionUrl": "https://app.notion.com/p/Sant-et-D-g-ts-39c88b48e48e803890c4dca04b397b46",
-      "lastEditedTime": "2026-07-13T12:14:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -19145,11 +19600,15 @@
       "slug": "se-nourrir",
       "title": "Se Nourrir",
       "notionUrl": "https://app.notion.com/p/Se-Nourrir-39c88b48e48e80828c36c1f3542672cb",
-      "lastEditedTime": "2026-07-13T12:14:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -19508,11 +19967,15 @@
       "slug": "soins",
       "title": "Soins",
       "notionUrl": "https://app.notion.com/p/Soins-39c88b48e48e800bbda7e03432bf2fda",
-      "lastEditedTime": "2026-07-13T12:15:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -19757,11 +20220,15 @@
       "slug": "tests-et-defis",
       "title": "Tests et Défis",
       "notionUrl": "https://app.notion.com/p/Tests-et-D-fis-39c88b48e48e80a78e9afea518f30485",
-      "lastEditedTime": "2026-07-13T12:17:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Défi"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -20872,11 +21339,15 @@
       "slug": "types-d-attaques-et-degats",
       "title": "Types d’attaques et dégats",
       "notionUrl": "https://app.notion.com/p/Types-d-attaques-et-d-gats-39c88b48e48e80b18585e198b3230c79",
-      "lastEditedTime": "2026-07-13T12:18:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -21101,11 +21572,15 @@
       "slug": "utiliser-une-discipline",
       "title": "Utiliser une Discipline",
       "notionUrl": "https://app.notion.com/p/Utiliser-une-Discipline-39c88b48e48e801bb214f0716b34f8cf",
-      "lastEditedTime": "2026-07-13T12:18:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Combat"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",
@@ -21190,11 +21665,15 @@
       "slug": "volonte",
       "title": "Volonté",
       "notionUrl": "https://app.notion.com/p/Volont-39c88b48e48e8038a2c7f5e76b48270d",
-      "lastEditedTime": "2026-07-13T12:19:00.000Z",
+      "lastEditedTime": "2026-07-28T14:11:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
           "value": "Vie"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
         },
         "Nom": {
           "type": "text",

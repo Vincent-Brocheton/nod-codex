@@ -4,6 +4,7 @@ import { ArrowLeft, ArrowRight, ChevronDown, ShieldAlert } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
+import ItemFlags from "../ItemFlags";
 import StatBlock from "../StatBlock";
 import RelatedGroups from "../RelatedGroups";
 import IndexPageHeader from "../IndexPageHeader";
@@ -79,6 +80,11 @@ function ItemEntry({
             <section className="ritualEntry">
                 <Heading>{item.title}</Heading>
 
+                <ItemFlags
+                    needsApproval={item.properties?.Approbation?.value === true}
+                    full={item.properties?.Complet?.value === true}
+                />
+
                 {highlightText ? (
                     <p className="itemHighlight">
                         <ShieldAlert size={14} aria-hidden="true" />
@@ -96,6 +102,11 @@ function ItemEntry({
             <button type="button" className="ritualEntryToggle" onClick={() => setOpen((current) => !current)} aria-expanded={open}>
                 <Heading>{item.title}</Heading>
                 {highlightText ? <span className="ritualEntryHighlight">{highlightText}</span> : null}
+                <ItemFlags
+                    needsApproval={item.properties?.Approbation?.value === true}
+                    full={item.properties?.Complet?.value === true}
+                    compact
+                />
                 <ChevronDown className="ritualEntryChevron" size={18} aria-hidden="true" />
             </button>
 
@@ -213,6 +224,11 @@ export default function GroupedRuleView({
                         <span>{activeItem.collectionLabel}</span>
                         <h1>{activeItem.title}</h1>
                     </header>
+
+                    <ItemFlags
+                        needsApproval={activeItem.properties?.Approbation?.value === true}
+                        full={activeItem.properties?.Complet?.value === true}
+                    />
 
                     <div className="detailCard">
                         {singleItemStatFields ? <StatBlock item={activeItem} fields={singleItemStatFields} /> : null}

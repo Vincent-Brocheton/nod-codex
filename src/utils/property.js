@@ -51,8 +51,10 @@ export function propertyText(property) {
 // Propriété "titre" Notion (Nom/Name) : déjà affichée comme titre de la
 // fiche, donc redondante dans un tableau de propriétés. "Visible" est une
 // propriété technique (filtre déjà appliqué à la synchro), pas une donnée
-// de jeu à afficher.
-const META_PROPERTY_NAMES = new Set(["nom", "name", "visible"]);
+// de jeu à afficher. "Approbation"/"Complet" sont déjà affichées comme
+// badges dédiés par `ItemFlags` partout où elles existent (voir
+// `RelatedGroups`, `ItemFlags`), donc redondantes dans ce tableau générique.
+const META_PROPERTY_NAMES = new Set(["nom", "name", "visible", "approbation", "complet"]);
 
 /**
  * Propriétés d'une fiche prêtes à afficher : normalisées, sans les valeurs

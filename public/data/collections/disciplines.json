@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-07-26T13:48:12.399Z",
+  "generatedAt": "2026-07-29T15:14:42.942Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -244,6 +244,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -569,6 +573,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -889,6 +897,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -1232,6 +1244,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -1459,8 +1475,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "affreuse-realite",
-              "title": "Affreuse Réalité",
+              "slug": "realite-monstrueuse",
+              "title": "Réalité monstrueuse",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1483,8 +1499,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "mirage",
-              "title": "Mirage",
+              "slug": "fata-morgana",
+              "title": "Fata Morgana",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1534,6 +1550,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -1708,6 +1728,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -1955,6 +1979,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -2464,6 +2492,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -2908,6 +2940,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -3120,6 +3156,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -3305,6 +3345,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -3669,6 +3713,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -3968,6 +4016,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4295,6 +4347,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": [
@@ -4542,6 +4598,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -4821,6 +4881,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -4946,6 +5010,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -5068,6 +5136,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -5259,6 +5331,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -5381,6 +5457,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -5521,6 +5601,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -5649,6 +5733,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -5845,6 +5933,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -5964,6 +6056,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -6077,6 +6173,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -6211,6 +6311,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -6377,6 +6481,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -6486,6 +6594,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -6600,6 +6712,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -6735,6 +6851,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -6854,6 +6974,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -6980,6 +7104,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -7095,6 +7223,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -7212,6 +7344,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -7322,6 +7458,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -7385,6 +7525,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -7499,6 +7643,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -7645,6 +7793,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -7759,6 +7911,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -7857,6 +8013,10 @@
         "Clans": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -7980,6 +8140,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",
@@ -8115,6 +8279,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Pouvoirs d’Anciens": {
           "type": "relation",
           "value": []
@@ -8239,6 +8407,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Pouvoirs d’Anciens": {
           "type": "relation",

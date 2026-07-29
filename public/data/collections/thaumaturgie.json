@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-80ce-b46b-dd1a2b4aebea",
-  "generatedAt": "2026-07-26T13:48:12.421Z",
+  "generatedAt": "2026-07-29T15:14:42.974Z",
   "propertyOptions": {
     "Ingrédients": [
       "1 pts de sang de la cible",
@@ -159,6 +159,10 @@
             "Vasque en terre cuite"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -290,6 +294,10 @@
             "un serpent venimeux"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -368,6 +376,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -449,6 +461,10 @@
           "value": [
             "un morceau de bois provenant d'un arbre frappé par la foudre"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -551,6 +567,10 @@
             "1 mêche de cheveux ou du sang de la cible"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -631,6 +651,10 @@
           "value": [
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -722,6 +746,10 @@
           "value": [
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -891,6 +919,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -1143,6 +1175,10 @@
             "Braise incandescante"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -1233,6 +1269,10 @@
           "value": [
             "1 pts de sang de la cible"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -1356,6 +1396,10 @@
             "1 brasero de pierre"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -1444,6 +1488,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -1543,6 +1591,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -1717,6 +1769,10 @@
             "1 récipent"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -1798,6 +1854,10 @@
             "un cristal de quartz parfaitement clair",
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -1889,6 +1949,10 @@
           "value": [
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -2001,6 +2065,10 @@
             "1 pts de votre sang"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -2091,6 +2159,10 @@
           "value": [
             "1 écharde"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -2184,6 +2256,10 @@
             "1 peau de serpent"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -2276,6 +2352,10 @@
             "flammes d’un feu contenant des documents ou des enregistrements personnels"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -2357,6 +2437,10 @@
             "Un récipent",
             "Autant de votre sang que necessaire"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -2491,6 +2575,10 @@
             "de la terre de votre sol ancestral"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -2572,6 +2660,10 @@
             "1 petit miroir",
             "argent liquide"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -2675,6 +2767,10 @@
             "venin de serpent"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "25 minutes"
@@ -2766,6 +2862,10 @@
             "1 objet a offrir"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -2846,6 +2946,10 @@
           "value": [
             "fumée de kalif"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -2946,6 +3050,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "20 minutes"
@@ -3035,6 +3143,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -3117,6 +3229,10 @@
             "3 points de sang",
             "Feu de bois de chêne"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3249,6 +3365,10 @@
             "une sculpture d'équilibre à partir de pierres de taille non raffinées"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -3329,6 +3449,10 @@
           "value": [
             "Nom de naissance de la cible ou un portrait réalisé par quelqu'un avec au moins 2 pts d'artisanat"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3441,6 +3565,10 @@
             "une plume plongée dans le sang d’un homme « bon »"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -3521,6 +3649,10 @@
           "value": [
             "une page d'un tome ou d'un traité magique reconnu"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3622,6 +3754,10 @@
           "value": [
             "1 pts de sang de la cible"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3734,6 +3870,10 @@
             "un coeur d'enfant mortel"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "20 minutes"
@@ -3812,6 +3952,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3893,6 +4037,10 @@
           "value": [
             "1 lame"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -3984,6 +4132,10 @@
           "value": [
             "1 lame"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -4096,6 +4248,10 @@
             "sang des parties prenantes"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "25 minutes"
@@ -4199,6 +4355,10 @@
             "un ruban de soie noire"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -4279,6 +4439,10 @@
           "value": [
             "venin d'un animal"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -4389,6 +4553,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "1 nuit"
@@ -4467,6 +4635,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -4580,6 +4752,10 @@
             "1 flamme vive"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -4661,6 +4837,10 @@
             "une poignée de baies vénéneuses"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -4741,6 +4921,10 @@
           "value": [
             "2 miroirs identiques"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -4832,6 +5016,10 @@
           "value": [
             "braises de charbon"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -4933,6 +5121,10 @@
           "value": [
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -5066,6 +5258,10 @@
             "1 pts de votre sang"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -5167,6 +5363,10 @@
             "un miroir"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "3 nuits"
@@ -5256,6 +5456,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -5334,6 +5538,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -5454,6 +5662,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -5534,6 +5746,10 @@
           "value": [
             "un miroir"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -5636,6 +5852,10 @@
             "un cordon de soie bleu"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -5736,6 +5956,10 @@
           "value": [
             "Bout de papier avec le nom et la silhouette de la cible"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -5838,6 +6062,10 @@
             "1 petit caillou",
             "une mixture constituée d’un point de votre sang et d’autres éléments étranges"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -5958,6 +6186,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "20 minutes"
@@ -6070,6 +6302,10 @@
             "L'objet impacté"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -6161,6 +6397,10 @@
             "1 petit feu"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -6242,6 +6482,10 @@
             "argent",
             "verre"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -6341,6 +6585,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -6453,6 +6701,10 @@
             "1 cercle de 13 bougies"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -6534,6 +6786,10 @@
             "1 poignée de la terre de la ville de votre naissance mortelle",
             "2 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -6623,6 +6879,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -6715,6 +6975,10 @@
             "1 pts de votre sang",
             "1 chaudron en fonte"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -6818,6 +7082,10 @@
             "1 chaudron en fonte"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "5 minutes"
@@ -6908,6 +7176,10 @@
           "value": [
             "une poignée de sable pur"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7031,6 +7303,10 @@
             "eau de source"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "20 minutes"
@@ -7111,6 +7387,10 @@
           "value": [
             "Autant de votre sang que necessaire"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7193,6 +7473,10 @@
             "électricité à faible ampérage",
             "1 pts de votre sang"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7285,6 +7569,10 @@
             "encens",
             "Un récipient en terre cuite"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7388,6 +7676,10 @@
             "1 points de sang tout les 5 jours"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "30 jours"
@@ -7476,6 +7768,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7575,6 +7871,10 @@
         "Ingrédients": {
           "type": "multi_select",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",
@@ -7695,6 +7995,10 @@
           "type": "multi_select",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "15 minutes"
@@ -7776,6 +8080,10 @@
             "1 oiseau"
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Temps de préparation": {
           "type": "select",
           "value": "10 minutes"
@@ -7856,6 +8164,10 @@
           "value": [
             "sang d'animal"
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Temps de préparation": {
           "type": "select",

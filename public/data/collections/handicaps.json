@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-07-26T13:48:12.417Z",
+  "generatedAt": "2026-07-29T15:14:42.969Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -32,6 +32,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -73,6 +77,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -195,6 +203,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -236,6 +248,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -276,6 +292,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -326,6 +346,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -387,6 +411,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -427,6 +455,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -498,6 +530,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -538,6 +574,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -588,6 +628,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -646,6 +690,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -707,6 +755,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -767,6 +819,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -807,6 +863,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -849,6 +909,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -889,6 +953,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -931,6 +999,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Camarilla"
@@ -971,6 +1043,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1042,6 +1118,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -1092,6 +1172,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1144,6 +1228,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Sabbat"
@@ -1184,6 +1272,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1226,6 +1318,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -1267,6 +1363,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -1307,6 +1407,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1362,11 +1466,15 @@
       "slug": "diablerie-pardonnee",
       "title": "Diablerie pardonnée",
       "notionUrl": "https://app.notion.com/p/Diablerie-pardonn-e-39588b48e48e800dba6dfc6f190e9589",
-      "lastEditedTime": "2026-07-09T15:47:00.000Z",
+      "lastEditedTime": "2026-07-28T07:55:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1388,10 +1496,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Vous avez peut-être commis la diablerie durant une chasse au sang en tant que récompense, ou vous avez diablé avant la création de la Camarilla. Vous avez une autorisation signée par un Prince ou un Justicar. Bien que vous ne puissiez être puni publiquement pour cet écart du passé, vous vous êtes fait à coup sûr des ennemis et certains Anciens seraient ravi de vous voir Détruit. Les membres de la Camarilla ayant ce handicap souffrent de \"Greater status ban\", mais ne peuvent pas êtes exécuté publiquement, bannis ou avoir un malus à leur statut lié à cette Diablerie pardonnée.",
+          "text": "Vous avez peut-être commis la diablerie durant une chasse au sang en tant que récompense, ou vous avez diablé avant la création de la Camarilla. Vous avez une autorisation signée par un Prince ou un Justicar. Bien que vous ne puissiez être puni publiquement pour cet écart du passé, vous vous êtes fait à coup sûr des ennemis et certains Anciens seraient ravi de vous voir Détruit. Les membres de la Camarilla possédant ce Handicap sont frappés par l'interdiction majeure de Statut imposée par la secte, mais ne peuvent pas êtes exécuté publiquement, bannis ou avoir un malus à leur statut lié à cette Diablerie pardonnée.",
           "spans": [
             {
-              "text": "Vous avez peut-être commis la diablerie durant une chasse au sang en tant que récompense, ou vous avez diablé avant la création de la Camarilla. Vous avez une autorisation signée par un Prince ou un Justicar. Bien que vous ne puissiez être puni publiquement pour cet écart du passé, vous vous êtes fait à coup sûr des ennemis et certains Anciens seraient ravi de vous voir Détruit. Les membres de la Camarilla ayant ce handicap souffrent de \"Greater status ban\", mais ne peuvent pas êtes exécuté publiquement, bannis ou avoir un malus à leur statut lié à cette Diablerie pardonnée.",
+              "text": "Vous avez peut-être commis la diablerie durant une chasse au sang en tant que récompense, ou vous avez diablé avant la création de la Camarilla. Vous avez une autorisation signée par un Prince ou un Justicar. Bien que vous ne puissiez être puni publiquement pour cet écart du passé, vous vous êtes fait à coup sûr des ennemis et certains Anciens seraient ravi de vous voir Détruit. Les membres de la Camarilla possédant ce Handicap sont frappés par l'interdiction majeure de Statut imposée par la secte, mais ne peuvent pas êtes exécuté publiquement, bannis ou avoir un malus à leur statut lié à cette Diablerie pardonnée.",
               "bold": false
             }
           ]
@@ -1425,6 +1533,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1486,6 +1598,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -1527,6 +1643,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Anarch'"
@@ -1567,6 +1687,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1619,6 +1743,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Camarilla"
@@ -1659,6 +1787,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1701,6 +1833,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -1741,6 +1877,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -1849,6 +1989,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -1909,6 +2053,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -1949,6 +2097,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2018,6 +2170,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -2078,6 +2234,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2119,6 +2279,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Sabbat"
@@ -2159,6 +2323,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2220,6 +2388,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2260,6 +2432,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2302,6 +2478,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2342,6 +2522,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2403,6 +2587,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2444,6 +2632,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2484,6 +2676,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2545,6 +2741,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2585,6 +2785,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2636,6 +2840,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2677,6 +2885,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Anarch'"
@@ -2717,6 +2929,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2798,6 +3014,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -2838,6 +3058,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -2916,6 +3140,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -2986,6 +3214,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3026,6 +3258,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3068,6 +3304,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3108,6 +3348,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3160,6 +3404,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Sabbat"
@@ -3201,6 +3449,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Anarch'"
@@ -3241,6 +3493,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3292,6 +3548,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3333,6 +3593,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Sabbat"
@@ -3373,6 +3637,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3434,6 +3702,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3475,6 +3747,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3515,6 +3791,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3586,6 +3866,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3627,6 +3911,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3667,6 +3955,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3719,6 +4011,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Anarch'"
@@ -3760,6 +4056,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3800,6 +4100,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3850,6 +4154,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -3911,6 +4219,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -3951,6 +4263,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4012,6 +4328,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4052,6 +4372,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4103,6 +4427,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4191,6 +4519,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -4261,6 +4593,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4301,6 +4637,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4343,6 +4683,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4383,6 +4727,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4425,6 +4773,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4465,6 +4817,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4507,6 +4863,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4547,6 +4907,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4589,6 +4953,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4630,6 +4998,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4670,6 +5042,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4732,6 +5108,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -4782,6 +5162,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4822,6 +5206,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4864,6 +5252,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -4904,6 +5296,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -4962,6 +5358,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5023,6 +5423,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -5083,6 +5487,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -5123,6 +5531,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5184,6 +5596,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Camarilla"
@@ -5224,6 +5640,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5266,6 +5686,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -5306,6 +5730,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5348,6 +5776,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -5388,6 +5820,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5430,6 +5866,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -5470,6 +5910,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5520,6 +5964,10 @@
               "complet": false
             }
           ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5598,6 +6046,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -5657,6 +6109,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5736,6 +6192,10 @@
             }
           ]
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -5796,6 +6256,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Anarch'"
@@ -5836,6 +6300,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
@@ -5907,6 +6375,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Clan"
@@ -5967,6 +6439,10 @@
           "type": "relation",
           "value": []
         },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
         "Type": {
           "type": "select",
           "value": "Général"
@@ -6007,6 +6483,10 @@
         "Lignées": {
           "type": "relation",
           "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
         },
         "Type": {
           "type": "select",
