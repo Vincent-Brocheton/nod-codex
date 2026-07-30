@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-07-30T14:01:29.338Z",
+  "generatedAt": "2026-07-30T22:44:35.562Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -22364,144 +22364,6 @@
       ]
     },
     {
-      "id": "39b88b48-e48e-80fa-b44a-e1de4217a1ad",
-      "slug": "regard-d-effroi",
-      "title": "Regard d’Effroi",
-      "notionUrl": "https://app.notion.com/p/Regard-d-Effroi-39b88b48e48e80fab44ae1de4217a1ad",
-      "lastEditedTime": "2026-07-13T12:30:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": "5 minutes"
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 2
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "presence",
-              "title": "Présence",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 0
-        },
-        "Name": {
-          "type": "text",
-          "value": "Regard d’Effroi"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
-          "spans": [
-            {
-              "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
-          "spans": [
-            {
-              "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
-          "spans": [
-            {
-              "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Réussite Critique",
-          "spans": [
-            {
-              "text": "Réussite Critique",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
-          "spans": [
-            {
-              "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
-          "spans": [
-            {
-              "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "39b88b48-e48e-80b4-a2c1-d29b57a5afc4",
       "slug": "regard-des-morts",
       "title": "Regard des Morts",
@@ -22603,6 +22465,144 @@
           "spans": [
             {
               "text": "En dépensant 1 Point de Sang, vous pouvez déguisez les causes de la mort d'un corps, modifiant toute les traces et les blessures sur celui-ci. Une fois que vous avez modifié un corps de cette façon, les utilisations supplémentaires de Regard des Morts n'indiqueront pas que le corps a été modifié.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80fa-b44a-e1de4217a1ad",
+      "slug": "regard-terrifiant",
+      "title": "Regard Terrifiant",
+      "notionUrl": "https://app.notion.com/p/Regard-Terrifiant-39b88b48e48e80fab44ae1de4217a1ad",
+      "lastEditedTime": "2026-07-30T22:43:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "5 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Regard Terrifiant"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
+          "spans": [
+            {
+              "text": "La bête d'un vampire est une entité terrifiante, férale et prédatrice. Utiliser le Regard d'Effroi permet à la Bête de faire surface, concentrant sa rage contre un seul individu. La nature sanguinaire du Vampire est révélée par ses traits alors que la Bête crache ou rugit d'une colère noire et primitive. Ceux ciblés par ce terrifiant pouvoir tremblent en le voyant ou fuient devant la fureur de la bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
+          "spans": [
+            {
+              "text": "Dépensez une Action Standard alors que votre personnage montre ses crocs en sifflant ou hurlant à sa cible et initier un Challenge Opposé avec votre cible. Si vous remporter le challenge, il est submergé par la peur. Et la cible ne viendra pas de son plein gré à moins de 5 pas de vous pendant les 5 prochaines minutes, cherchant activement à éviter votre présence et votre colère.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
+          "spans": [
+            {
+              "text": "Un personnage affecté par votre Regard d'Effroi ne vous attaquera pas, sauf s’il n'a plus aucun recours. Si elle est confinée à un endroit avec vous, la victime peut vous combattre pour vous échapper, mais s'éloignera et interrompra le combat à la première occasion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
+          "spans": [
+            {
+              "text": "Pour le reste de la soirée, si vous faites un mouvement un tant soit peu agressif vers un individu qui a subi avec succès votre Regard d'Effroi, subira à nouveau l'effet du pouvoir et la forcera à battre en retraite, subissant les effets du Regard d'Effroi pendant cinq nouvelles minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
+          "spans": [
+            {
+              "text": "Vous pouvez exposer la fureur de votre bête sans révéler votre nature vampirique. Au lieu de sortir vos crocs et siffler, vous fixez votre cible des yeux. Ils semblent brillants et perçants, vos sourcils froncés et vos traits brièvement déformés par la colère ; vos mouvements deviennent prédateurs mais votre visage n'est pas un bris de Mascarade. Les observateurs noteront que vous apparaissez comme agressif envers votre cible mais rien ne peut leur faire penser que vous êtes un Vampire.",
               "bold": false
             }
           ]
