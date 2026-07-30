@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-07-29T15:14:42.982Z",
+  "generatedAt": "2026-07-30T14:01:29.367Z",
   "propertyOptions": {
     "Catégorie": [
       "Quêtes et Lieux d'intérêts",
@@ -18109,6 +18109,989 @@
             },
             {
               "text": " et regardant le Prince au moment du test a une chance de remarquer l’attaque.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ab88b48-e48e-8082-b3f0-d0f0e398c868",
+      "slug": "quetes",
+      "title": "Quêtes",
+      "notionUrl": "https://app.notion.com/p/Qu-tes-3ab88b48e48e8082b3f0d0f0e398c868",
+      "lastEditedTime": "2026-07-29T16:31:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Quêtes et Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Quêtes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Quêtes représentent des aventures importantes qui ne peuvent être résolues par une simple Action d'Interpartie. Elles permettent de vivre des événements majeurs sans nécessiter un scénario dédié.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Quêtes",
+              "bold": true
+            },
+            {
+              "text": " représentent des aventures importantes qui ne peuvent être résolues par une simple Action d'Interpartie. Elles permettent de vivre des événements majeurs sans nécessiter un scénario dédié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur détermine :",
+          "spans": [
+            {
+              "text": "Le Conteur détermine :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "l'objectif de la quête ;",
+          "spans": [
+            {
+              "text": "l'objectif de la quête ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sa catégorie ;",
+          "spans": [
+            {
+              "text": "sa catégorie ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sa difficulté ;",
+          "spans": [
+            {
+              "text": "sa difficulté ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ses prérequis.",
+          "spans": [
+            {
+              "text": "ses prérequis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une quête peut être accomplie seul ou en groupe.",
+          "spans": [
+            {
+              "text": "Une quête peut être accomplie seul ou en groupe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un conteur est libre de ne pas utiliser le système de quêtes s’il n’en ressent pas le besoin.",
+          "spans": [
+            {
+              "text": "Un conteur est libre de ne pas utiliser le système de quêtes s’il n’en ressent pas le besoin.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Catégories de Quêtes",
+          "spans": [
+            {
+              "text": "Catégories de Quêtes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Catégorie",
+              "Scénarios",
+              "Type de défis"
+            ],
+            [
+              "Simple",
+              "1",
+              "Missions locales, recherches, récupération d'objets, chasse…"
+            ],
+            [
+              "Complexe",
+              "1 à 5",
+              "Missions longues, infiltrations, suppression de Handicaps, grands voyages…"
+            ],
+            [
+              "Épique",
+              "2 à 10",
+              "Événements majeurs, artefacts légendaires, Mathusalems, secrets anciens…"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque quête possède une difficulté de 1 à 5.",
+          "spans": [
+            {
+              "text": "Chaque quête possède une ",
+              "bold": false
+            },
+            {
+              "text": "difficulté de 1 à 5",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette difficulté détermine :",
+          "spans": [
+            {
+              "text": "Cette difficulté détermine :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le nombre de prérequis ;",
+          "spans": [
+            {
+              "text": "le nombre de prérequis ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le nombre de scénarios ;",
+          "spans": [
+            {
+              "text": "le nombre de scénarios ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "l'importance des défis.",
+          "spans": [
+            {
+              "text": "l'importance des défis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Le groupe",
+          "spans": [
+            {
+              "text": "Le groupe",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque quête possède un chef de quête.",
+          "spans": [
+            {
+              "text": "Chaque quête possède un ",
+              "bold": false
+            },
+            {
+              "text": "chef de quête",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nombre maximum de participants est égal à :",
+          "spans": [
+            {
+              "text": "Le nombre maximum de participants est égal à :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "2 personnages supplémentaires par niveau de Leadership du chef de quête.",
+          "spans": [
+            {
+              "text": "2 personnages supplémentaires par niveau de Leadership du chef de quête.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut participer qu'à une seule Quête complexe ou épique à la fois.",
+          "spans": [
+            {
+              "text": "Un personnage ne peut participer qu'à ",
+              "bold": false
+            },
+            {
+              "text": "une seule Quête complexe ou épique à la fois",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Les prérequis",
+          "spans": [
+            {
+              "text": "Les prérequis",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant de commencer une quête, le groupe doit remplir un certain nombre de prérequis.",
+          "spans": [
+            {
+              "text": "Avant de commencer une quête, le groupe doit remplir un certain nombre de prérequis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces prérequis peuvent concerner :",
+          "spans": [
+            {
+              "text": "Ces prérequis peuvent concerner :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un clan, une Lignée ou une Secte ;",
+          "spans": [
+            {
+              "text": "un clan, une Lignée ou une Secte ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Compétence ;",
+          "spans": [
+            {
+              "text": "une Compétence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Historique ;",
+          "spans": [
+            {
+              "text": "un Historique ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Atout ;",
+          "spans": [
+            {
+              "text": "un Atout ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une Discipline.",
+          "spans": [
+            {
+              "text": "une Discipline.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils peuvent être remplis :",
+          "spans": [
+            {
+              "text": "Ils peuvent être remplis :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "par les participants ;",
+          "spans": [
+            {
+              "text": "par les participants ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou grâce au soutien d'un Mécène.",
+          "spans": [
+            {
+              "text": "ou grâce au soutien d'un ",
+              "bold": false
+            },
+            {
+              "text": "Mécène",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Le mécénat",
+          "spans": [
+            {
+              "text": "Le mécénat",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut aider une quête sans y participer.",
+          "spans": [
+            {
+              "text": "Un personnage peut aider une quête sans y participer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour satisfaire un prérequis, il peut notamment :",
+          "spans": [
+            {
+              "text": "Pour satisfaire un prérequis, il peut notamment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dépenser une Action d'Interpartie ;",
+          "spans": [
+            {
+              "text": "dépenser une Action d'Interpartie ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dépenser un Trait de Statut ;",
+          "spans": [
+            {
+              "text": "dépenser un Trait de Statut ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dépenser 3 points de Sang ;",
+          "spans": [
+            {
+              "text": "dépenser ",
+              "bold": false
+            },
+            {
+              "text": "3 points de Sang",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "utiliser 3 niveaux d'Historiques ;",
+          "spans": [
+            {
+              "text": "utiliser ",
+              "bold": false
+            },
+            {
+              "text": "3 niveaux d'Historiques",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dépenser 1 point de Volonté ;",
+          "spans": [
+            {
+              "text": "dépenser ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Volonté",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "prêter un objet adapté.",
+          "spans": [
+            {
+              "text": "prêter un objet adapté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur décide si cette contribution répond au prérequis.",
+          "spans": [
+            {
+              "text": "Le Conteur décide si cette contribution répond au prérequis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Déroulement d'un scénario",
+          "spans": [
+            {
+              "text": "Déroulement d'un scénario",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque scénario est résolu individuellement.",
+          "spans": [
+            {
+              "text": "Chaque scénario est résolu individuellement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque participant effectue un Pierre – Feuille – Ciseaux.",
+          "spans": [
+            {
+              "text": "Chaque participant effectue un ",
+              "bold": false
+            },
+            {
+              "text": "Pierre – Feuille – Ciseaux",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Résultat",
+              "Effet"
+            ],
+            [
+              "Victoire",
+              "Réussite. Aucune conséquence."
+            ],
+            [
+              "Égalité",
+              "Réussite, mais une conséquence est subie."
+            ],
+            [
+              "Défaite",
+              "Échec et conséquence."
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois tous les tests effectués :",
+          "spans": [
+            {
+              "text": "Une fois tous les tests effectués :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "si au moins la moitié des participants réussissent, le scénario est réussi ;",
+          "spans": [
+            {
+              "text": "si ",
+              "bold": false
+            },
+            {
+              "text": "au moins la moitié",
+              "bold": true
+            },
+            {
+              "text": " des participants réussissent, le scénario est réussi ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sinon, le scénario échoue et devra être recommencé.",
+          "spans": [
+            {
+              "text": "sinon, le scénario échoue et devra être recommencé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les tests ne peuvent pas être relancés avec la Volonté, mais peuvent l'être grâce à l'Atout Chanceux.",
+          "spans": [
+            {
+              "text": "Les tests ne peuvent pas être relancés avec la ",
+              "bold": false
+            },
+            {
+              "text": "Volonté",
+              "bold": true
+            },
+            {
+              "text": ", mais peuvent l'être grâce à l'Atout ",
+              "bold": false
+            },
+            {
+              "text": "Chanceux",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Les conséquences",
+          "spans": [
+            {
+              "text": "Les conséquences",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque conséquence est choisie dans la liste correspondant à la catégorie de la quête.",
+          "spans": [
+            {
+              "text": "Chaque conséquence est choisie dans la liste correspondant à la catégorie de la quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conséquences peuvent notamment provoquer :",
+          "spans": [
+            {
+              "text": "Les conséquences peuvent notamment provoquer :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une perte de Sang ;",
+          "spans": [
+            {
+              "text": "une perte de Sang ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une perte de Volonté ;",
+          "spans": [
+            {
+              "text": "une perte de Volonté ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des Traits de Bête ;",
+          "spans": [
+            {
+              "text": "des Traits de Bête ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "une perte d'Humanité ;",
+          "spans": [
+            {
+              "text": "une perte d'Humanité ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Dérangement ;",
+          "spans": [
+            {
+              "text": "un Dérangement ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "un Handicap temporaire ;",
+          "spans": [
+            {
+              "text": "un Handicap temporaire ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la perte temporaire d'un équipement ou d'Historiques.",
+          "spans": [
+            {
+              "text": "la perte temporaire d'un équipement ou d'Historiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conséquences restent actives jusqu'à la fin du scénario.",
+          "spans": [
+            {
+              "text": "Les conséquences restent actives jusqu'à la fin du scénario.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une même conséquence ne peut être choisie deux fois lors d'un même scénario tant que toutes les autres n'ont pas été sélectionnées.",
+          "spans": [
+            {
+              "text": "Une même conséquence ne peut être choisie deux fois lors d'un même scénario tant que toutes les autres n'ont pas été sélectionnées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Abandon",
+          "spans": [
+            {
+              "text": "Abandon",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après un scénario, chaque participant peut abandonner la quête.",
+          "spans": [
+            {
+              "text": "Après un scénario, chaque participant peut abandonner la quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le chef de quête abandonne, la quête échoue immédiatement.",
+          "spans": [
+            {
+              "text": "Si le chef de quête abandonne, la quête échoue immédiatement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ayant abandonné une Quête complexe ou épique ne peut plus la rejoindre.",
+          "spans": [
+            {
+              "text": "Un personnage ayant abandonné une Quête complexe ou épique ne peut plus la rejoindre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Entre deux scénarios",
+          "spans": [
+            {
+              "text": "Entre deux scénarios",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre deux scénarios, les personnages continuent à participer normalement aux parties de la chronique.",
+          "spans": [
+            {
+              "text": "Entre deux scénarios, les personnages continuent à participer normalement aux parties de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils récupèrent leur Santé, leur Sang et leur Volonté conformément aux règles habituelles.",
+          "spans": [
+            {
+              "text": "Ils récupèrent leur Santé, leur Sang et leur Volonté conformément aux règles habituelles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les ressources ou effets spécifiquement dépensés par les conséquences de la quête ne sont récupérés qu'à la fin du scénario concerné.",
+          "spans": [
+            {
+              "text": "Les ressources ou effets spécifiquement dépensés par les conséquences de la quête ne sont récupérés qu'à la fin du scénario concerné.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Coût des Quêtes",
+          "spans": [
+            {
+              "text": "Coût des Quêtes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Quêtes complexes",
+          "spans": [
+            {
+              "text": "Quêtes complexes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant chaque scénario, chaque participant doit dépenser 1 Action d'Interpartie.",
+          "spans": [
+            {
+              "text": "Avant chaque scénario, chaque participant doit dépenser ",
+              "bold": false
+            },
+            {
+              "text": "1 Action d'Interpartie",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne disposant plus d'Action d'Interpartie doit abandonner la quête.",
+          "spans": [
+            {
+              "text": "Un personnage ne disposant plus d'Action d'Interpartie doit abandonner la quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Quêtes épiques",
+          "spans": [
+            {
+              "text": "Quêtes épiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus de l'Action d'Interpartie avant chaque scénario, chaque participant dépense 1 point de Volonté permanent au début de la quête.",
+          "spans": [
+            {
+              "text": "En plus de l'Action d'Interpartie avant chaque scénario, chaque participant dépense ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Volonté permanent",
+              "bold": true
+            },
+            {
+              "text": " au début de la quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce point est récupéré uniquement lorsque la quête est terminée ou abandonnée.",
+          "spans": [
+            {
+              "text": "Ce point est récupéré uniquement lorsque la quête est terminée ou abandonnée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Fin de la quête",
+          "spans": [
+            {
+              "text": "Fin de la quête",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le dernier scénario est réussi, les joueurs décrivent ensemble le déroulement de leur aventure en tenant compte :",
+          "spans": [
+            {
+              "text": "Lorsque le dernier scénario est réussi, les joueurs décrivent ensemble le déroulement de leur aventure en tenant compte :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des prérequis remplis ;",
+          "spans": [
+            {
+              "text": "des prérequis remplis ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des conséquences subies ;",
+          "spans": [
+            {
+              "text": "des conséquences subies ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des réussites et des échecs rencontrés.",
+          "spans": [
+            {
+              "text": "des réussites et des échecs rencontrés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur valide ensuite ce récit, qui devient officiel dans la chronique.",
+          "spans": [
+            {
+              "text": "Le Conteur valide ensuite ce récit, qui devient officiel dans la chronique.",
               "bold": false
             }
           ]

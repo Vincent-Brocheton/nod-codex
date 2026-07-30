@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80ff-b7ea-e7d248d3ca4b",
-  "generatedAt": "2026-07-29T15:14:42.958Z",
+  "generatedAt": "2026-07-30T14:01:29.345Z",
   "propertyOptions": {},
   "items": [
     {
@@ -482,7 +482,7 @@
       "slug": "armure-personnelle",
       "title": "Armure Personnelle",
       "notionUrl": "https://app.notion.com/p/Armure-Personnelle-38388b48e48e800498cdd78d9b44321d",
-      "lastEditedTime": "2026-06-18T10:55:00.000Z",
+      "lastEditedTime": "2026-07-30T13:50:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -523,50 +523,60 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Votre peau est aussi dure que du fer et votre corps dur comme la pierre. Les armes cassent et rompent contre vous, se brisant grâce à la force avec laquelle elles sont maniées. Les Vampires qui ont maîtrisés ce Pouvoir d'Ancien sont comme des titans, presque inarrêtable et difficile à blesser.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Votre peau est aussi dure que du fer et votre corps dur comme la pierre. Les armes cassent et rompent contre vous, se brisant grâce à la force avec laquelle elles sont maniées. Les Vampires qui ont maîtrisés ce Pouvoir d'Ancien sont comme des titans, presque inarrêtable et difficile à blesser.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Pour activer l'Armure Personnelle, vous devez dépenser 2 points de sang et une action simple. Pendant l'heure qui suit, à n'importe quel moment où vous êtes touché par une arme de mêlée ou tout autre objet inanimé, cet objet se brise contre peau et devient inutile. Les armes qui sont brisées par l'Armure Personnelle infligent des dégâts avant qu'ils ne se cassent, mais ne peuvent pas percer votre cœur ; ainsi, l'Armure Personnelle vous empêche effectivement d'être pieuté.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Pour activer l'Armure Personnelle, vous devez dépenser 2 points de sang et une action simple. Pendant l'heure qui suit, à n'importe quel moment où vous êtes touché par une arme de mêlée ou tout autre objet inanimé, cet objet se brise contre peau et devient inutile. Les armes qui sont brisées par l'Armure Personnelle infligent des dégâts avant qu'ils ne se cassent, mais ne peuvent pas percer votre cœur ; ainsi, l'Armure Personnelle vous empêche effectivement d'être pieuté.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Si vous êtes frappés par une attaque de Bagarre, un peu de la force de cette attaque est réfléchie à l'attaquant qui subit l’équivalent de la moitié des dégâts a qu’il vous assigne. L'individu qui vous frappe de cette manière vous assigne ses dégâts normaux et prend la moitié (arrondis au supérieur) des dégâts qu'il a assignés. Par la suite, vous pouvez choisir de réduire les dégâts que vous avez pris en utilisant des pouvoirs tels que ceux de Force d'âme.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Si vous êtes frappés par une attaque de Bagarre, un peu de la force de cette attaque est réfléchie à l'attaquant qui subit l’équivalent de la moitié des dégâts a qu’il vous assigne. L'individu qui vous frappe de cette manière vous assigne ses dégâts normaux et prend la moitié (arrondis au supérieur) des dégâts qu'il a assignés. Par la suite, vous pouvez choisir de réduire les dégâts que vous avez pris en utilisant des pouvoirs tels que ceux de Force d'âme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Réduire les dégâts de cette manière ne peut en aucun cas réduire les dégâts que votre adversaire subit ; donc le total est déterminé par le montant assigné par son attaque avant que vous ne l'ayez réduit.",
+          "spans": [
+            {
+              "text": "Réduire les dégâts de cette manière ne peut en aucun cas réduire les dégâts que votre adversaire subit ; donc le total est déterminé par le montant assigné par son attaque avant que vous ne l'ayez réduit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attaques à distance et les attaques qui ne frappent pas directement votre chair, comme le pouvoir de Puissance, Intensité, ne sont pas affectés par l'armure personnelle, à l'exception de projectiles en bois, qui vont se briser avant qu'ils ne puissent percer votre cœur.",
+          "spans": [
+            {
+              "text": "Les attaques à distance et les attaques qui ne frappent pas directement votre chair, comme le pouvoir de Puissance, Intensité, ne sont pas affectés par l'armure personnelle, à l'exception de projectiles en bois, qui vont se briser avant qu'ils ne puissent percer votre cœur.",
               "bold": false
             }
           ]
@@ -578,7 +588,7 @@
       "slug": "assaut-psychique",
       "title": "Assaut Psychique",
       "notionUrl": "https://app.notion.com/p/Assaut-Psychique-38388b48e48e8035a019cc898f387cc0",
-      "lastEditedTime": "2026-07-07T14:05:00.000Z",
+      "lastEditedTime": "2026-07-30T13:50:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -619,10 +629,50 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "La plupart des usages de l'Augure sont subtiles, rassembler des informations ou passer des pensées de manière douce et discrète. L'Assaut",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "La plupart des usages de l'Augure sont subtiles, rassembler des informations ou passer des pensées de manière douce et discrète. L'Assaut",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Psychique n'est rien de ces choses-là. Un Vampire qui maîtrise ce pouvoir à la capacité d'attaquer un autre individu en utilisant la force de son acuité mentale, martelant sa cible malchanceuse avec un barrage incompréhensible de volonté et de pensées.",
+          "spans": [
+            {
+              "text": "Psychique n'est rien de ces choses-là. Un Vampire qui maîtrise ce pouvoir à la capacité d'attaquer un autre individu en utilisant la force de son acuité mentale, martelant sa cible malchanceuse avec un barrage incompréhensible de volonté et de pensées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez un point de sang et une action standard pour attaquer l'esprit de votre adversaire avec un Assaut Psychique. Faites un challenge opposé contre votre adversaire en utilisant le Score de Test d'Auspex. Si vous réussissez, votre victime prendre 4 points de dégâts normaux. Les dégâts infligés par un Assaut Psychique ne peuvent pas être réduits ou annulés par l'armure ou des protections surnaturelles comme la Force d'âme.",
+          "spans": [
+            {
+              "text": "Dépensez un point de sang et une action standard pour attaquer l'esprit de votre adversaire avec un Assaut Psychique. Faites un challenge opposé contre votre adversaire en utilisant le Score de Test d'Auspex. Si vous réussissez, votre victime prendre 4 points de dégâts normaux. Les dégâts infligés par un Assaut Psychique ne peuvent pas être réduits ou annulés par l'armure ou des protections surnaturelles comme la Force d'âme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage attaqué par un Assaut Psychique sait immédiatement d'où provient l'attaque et de qui elle vient dans ce lieu (s’il y a plus d'une personne dans les lieux). Vous pouvez activer ce pouvoir de manière répétée contre la même cible ; c'est une exception à la règle qui interdit un personnage d'utiliser un pouvoir sur la même cible après avoir échoué. Si vous échouez à faire votre Assaut Psychique contre votre cible, vous pouvez essayer encore contre le même adversaire (ou quelqu'un d'autre) au tour d'après.",
+          "spans": [
+            {
+              "text": "Un personnage attaqué par un Assaut Psychique sait immédiatement d'où provient l'attaque et de qui elle vient dans ce lieu (s’il y a plus d'une personne dans les lieux). Vous pouvez activer ce pouvoir de manière répétée contre la même cible ; c'est une exception à la règle qui interdit un personnage d'utiliser un pouvoir sur la même cible après avoir échoué. Si vous échouez à faire votre Assaut Psychique contre votre cible, vous pouvez essayer encore contre le même adversaire (ou quelqu'un d'autre) au tour d'après.",
               "bold": false
             }
           ]
@@ -639,30 +689,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Votre Assaut Psychique inflige 5 points de dégâts normaux au lieu de 4.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Focus",
-          "spans": [
-            {
-              "text": "Description du Focus",
+              "text": "Votre Assaut Psychique inflige 5 points de dégâts normaux au lieu de 4.",
               "bold": false
             }
           ]
@@ -674,7 +704,7 @@
       "slug": "atrocite-mouvante",
       "title": "Atrocité Mouvante",
       "notionUrl": "https://app.notion.com/p/Atrocit-Mouvante-39688b48e48e80ca932ccd8a1e25a5a0",
-      "lastEditedTime": "2026-07-07T14:19:00.000Z",
+      "lastEditedTime": "2026-07-30T13:56:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -1155,7 +1185,7 @@
       "slug": "chaine-de-commandement",
       "title": "Chaîne de Commandement",
       "notionUrl": "https://app.notion.com/p/Cha-ne-de-Commandement-39688b48e48e80cb8b7cc5df1cc1f8a7",
-      "lastEditedTime": "2026-07-07T14:33:00.000Z",
+      "lastEditedTime": "2026-07-30T13:57:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -1226,10 +1256,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Dès que le messager rencontre la personne qui doit recevoir votre message, ou quelqu'un qu'il croit sincèrement être cette personne, le messager prendra les mesures nécessaires pour établir le Regard et Concentration de cette personne et utilisera son action standard pour transmettre l'Hypnose. Ce faisant, votre messager répétera l'ordre que vous lui avez donné à la lettre et dira qu'elle vient de vous. Si votre messagère ne connaît pas votre identité, elle peut vous appeler « mon maître » ou simplement « Je suis chargé de vous le dire. . . .» Si votre messager réussit un Challenge Opposé en utilisant votre score de test Domination, le destinataire de votre commande doit respecter l'Hypnose comme s'elle venait de vous. Si le messager perd le challenge et ne parvient pas à transmettre l'Hypnose au destinataire, il peut faire un re-test de Volonté s'il le souhaite.",
+          "text": "Dès que le messager rencontre la personne qui doit recevoir votre message, ou quelqu'un qu'il croit sincèrement être cette personne, le messager prendra les mesures nécessaires pour établir le Regard et Concentration de cette personne et utilisera son action standard pour transmettre l'Hypnose. Ce faisant, votre messager répétera l'ordre que vous lui avez donné à la lettre et dira qu'elle vient de vous. Si votre messagère ne connaît pas votre identité, elle peut vous appeler “mon maître” ou simplement “Je suis chargé de vous le dire. . . .” Si votre messager réussit un Challenge Opposé en utilisant votre score de test Domination, le destinataire de votre commande doit respecter l'Hypnose comme s'elle venait de vous. Si le messager perd le challenge et ne parvient pas à transmettre l'Hypnose au destinataire, il peut faire un re-test de Volonté s'il le souhaite.",
           "spans": [
             {
-              "text": "Dès que le messager rencontre la personne qui doit recevoir votre message, ou quelqu'un qu'il croit sincèrement être cette personne, le messager prendra les mesures nécessaires pour établir le Regard et Concentration de cette personne et utilisera son action standard pour transmettre l'Hypnose. Ce faisant, votre messager répétera l'ordre que vous lui avez donné à la lettre et dira qu'elle vient de vous. Si votre messagère ne connaît pas votre identité, elle peut vous appeler « mon maître » ou simplement « Je suis chargé de vous le dire. . . .» Si votre messager réussit un Challenge Opposé en utilisant votre score de test Domination, le destinataire de votre commande doit respecter l'Hypnose comme s'elle venait de vous. Si le messager perd le challenge et ne parvient pas à transmettre l'Hypnose au destinataire, il peut faire un re-test de Volonté s'il le souhaite.",
+              "text": "Dès que le messager rencontre la personne qui doit recevoir votre message, ou quelqu'un qu'il croit sincèrement être cette personne, le messager prendra les mesures nécessaires pour établir le Regard et Concentration de cette personne et utilisera son action standard pour transmettre l'Hypnose. Ce faisant, votre messager répétera l'ordre que vous lui avez donné à la lettre et dira qu'elle vient de vous. Si votre messagère ne connaît pas votre identité, elle peut vous appeler “mon maître” ou simplement “Je suis chargé de vous le dire. . . .” Si votre messager réussit un Challenge Opposé en utilisant votre score de test Domination, le destinataire de votre commande doit respecter l'Hypnose comme s'elle venait de vous. Si le messager perd le challenge et ne parvient pas à transmettre l'Hypnose au destinataire, il peut faire un re-test de Volonté s'il le souhaite.",
               "bold": false
             }
           ]
@@ -1493,7 +1523,7 @@
       "slug": "clairvoyance",
       "title": "Clairvoyance",
       "notionUrl": "https://app.notion.com/p/Clairvoyance-38188b48e48e805bbc5fe96c6c19478d",
-      "lastEditedTime": "2026-06-18T10:38:00.000Z",
+      "lastEditedTime": "2026-07-30T13:49:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -1534,50 +1564,100 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Votre maîtrise de la vision surnaturelle vous permet de jeter votre esprit au loin et voir des événements lointains, localisation ou individus comme si vous étiez en sa présence. Ce pouvoir a inspiré des légendes et des mythes, transmettant la sensation que quel que soit l'endroit où vous vous cachez- vous ne pouvez échapper au vampire.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Votre maîtrise de la vision surnaturelle vous permet de jeter votre esprit au loin et voir des événements lointains, localisation ou individus comme si vous étiez en sa présence. Ce pouvoir a inspiré des légendes et des mythes, transmettant la sensation que quel que soit l'endroit où vous vous cachez- vous ne pouvez échapper au vampire.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Pour activer Clairvoyance, dépensez 1 point de sang et une action standard. Vous perceptions se scindent, vous permettant de vous concentrer sur une personne familière, lieu ou objet sans perdre la possibilité de ressentir vos environs actuels. Pour plus d'information sur comment cibler une cible familière, consultez Utiliser des Disciplines, Familiarité avec la Cible.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Pour activer Clairvoyance, dépensez 1 point de sang et une action standard. Vous perceptions se scindent, vous permettant de vous concentrer sur une personne familière, lieu ou objet sans perdre la possibilité de ressentir vos environs actuels. Pour plus d'information sur comment cibler une cible familière, consultez Utiliser des Disciplines, Familiarité avec la Cible.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Si vous utilisez Clairvoyance sur une créature surnaturelle ou sur un objet en la possession d'une créature surnaturelle, vous devez faire un challenge opposé contre votre cible ou l'individu qui contrôle l'objet, en utilisant le Score de Test d'Auspex.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Si vous utilisez Clairvoyance sur une créature surnaturelle ou sur un objet en la possession d'une créature surnaturelle, vous devez faire un challenge opposé contre votre cible ou l'individu qui contrôle l'objet, en utilisant le Score de Test d'Auspex.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez, vous pouvez voir, entendre et par ailleurs sentir l'endroit autour de votre cible comme si vous étiez en sa présence. Si vous observez une localisation avec laquelle vous êtes déjà familier, il n'y a pas de challenges requis et votre Clairvoyance réussie automatiquement.",
+          "spans": [
+            {
+              "text": "Si vous réussissez, vous pouvez voir, entendre et par ailleurs sentir l'endroit autour de votre cible comme si vous étiez en sa présence. Si vous observez une localisation avec laquelle vous êtes déjà familier, il n'y a pas de challenges requis et votre Clairvoyance réussie automatiquement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre Clairvoyance dure pendant cinq minutes pour chaque point que vous possédez dans la compétence Investigation. Si vous utilisez Clairvoyance sur un personnage qui est à plusieurs endroits en même temps ou une créature dont la forme physique a été divisée en plus d’une pièce, vous devez choisir quelle localisation vous voulez percevoir en activant Clairvoyance. Ensuite, si vous choisissez de percevoir la position alternative, vous devez activer Clairvoyance une nouvelle fois.",
+          "spans": [
+            {
+              "text": "Votre Clairvoyance dure pendant cinq minutes pour chaque point que vous possédez dans la compétence Investigation. Si vous utilisez Clairvoyance sur un personnage qui est à plusieurs endroits en même temps ou une créature dont la forme physique a été divisée en plus d’une pièce, vous devez choisir quelle localisation vous voulez percevoir en activant Clairvoyance. Ensuite, si vous choisissez de percevoir la position alternative, vous devez activer Clairvoyance une nouvelle fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple : Si vous utilisez Clairvoyance pour espionner une cible qui utilise Possession ou Projection Psychique, vous pouvez choisir d'espionner le corps de la cible ou la localisation de son esprit. De manière similaire, si vous choisissez d'espionner un personnage dont le cœur a été retirer, vous pouvez choisir de percevoir les lieux autour du corps ou l'endroit où est localisé le cœur de la cible.",
+          "spans": [
+            {
+              "text": "Par exemple : Si vous utilisez Clairvoyance pour espionner une cible qui utilise Possession ou Projection Psychique, vous pouvez choisir d'espionner le corps de la cible ou la localisation de son esprit. De manière similaire, si vous choisissez d'espionner un personnage dont le cœur a été retirer, vous pouvez choisir de percevoir les lieux autour du corps ou l'endroit où est localisé le cœur de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez qu'utiliser d'autres pouvoirs d'Auspex, pas de pouvoirs d'ancien ou de techniques, au travers de la Clairvoyance, tant que vous pouvez remplir les prérequis de ces pouvoirs. Un personnage peut utiliser l'intensification des sens pour sentir une bougie au travers de la Clairvoyance, mais vous ne pouvez pas toucher la cire pour activer Psychométrie. Parce que vous n'êtes pas présent physiquement, vos sens intensifiés ne peuvent pas vous prévenir de la proximité d'un individu occulté ou d'illusions. Vous pouvez toujours dépenser un point de sang pour aiguiser vos sens dans l'espoir de détecter de tels effets.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez qu'utiliser d'autres pouvoirs d'Auspex, pas de pouvoirs d'ancien ou de techniques, au travers de la Clairvoyance, tant que vous pouvez remplir les prérequis de ces pouvoirs. Un personnage peut utiliser l'intensification des sens pour sentir une bougie au travers de la Clairvoyance, mais vous ne pouvez pas toucher la cire pour activer Psychométrie. Parce que vous n'êtes pas présent physiquement, vos sens intensifiés ne peuvent pas vous prévenir de la proximité d'un individu occulté ou d'illusions. Vous pouvez toujours dépenser un point de sang pour aiguiser vos sens dans l'espoir de détecter de tels effets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre cible est cachée par un pouvoir qui lui confère l'invisibilité, comme la Présence Invisible, vous devez d'abord surmonter la Dissimulation de la cible pour pouvoir utiliser Clairvoyance sur cet individu. Faites un challenge en utilisant vos attributs Mental + Investigation contre le Mental + Furtivité ou Mental + Volonté de votre cible (c'est à sa guise).",
+          "spans": [
+            {
+              "text": "Si votre cible est cachée par un pouvoir qui lui confère l'invisibilité, comme la Présence Invisible, vous devez d'abord surmonter la Dissimulation de la cible pour pouvoir utiliser Clairvoyance sur cet individu. Faites un challenge en utilisant vos attributs Mental + Investigation contre le Mental + Furtivité ou Mental + Volonté de votre cible (c'est à sa guise).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut pas avoir plusieurs applications de la Clairvoyance actif en même temps.",
+          "spans": [
+            {
+              "text": "Un personnage ne peut pas avoir plusieurs applications de la Clairvoyance actif en même temps.",
               "bold": false
             }
           ]
@@ -2157,7 +2237,7 @@
       "slug": "ecart-agile",
       "title": "Écart Agile",
       "notionUrl": "https://app.notion.com/p/cart-Agile-38388b48e48e806b9ceccd41f6f24415",
-      "lastEditedTime": "2026-06-18T11:12:00.000Z",
+      "lastEditedTime": "2026-07-30T13:53:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -2198,50 +2278,50 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "“La discrétion est souvent la meilleure partie de la Valeur”, et vous avez appris à adopter pleinement cet ancien adage. Plutôt que de frapper vos ennemis à plusieurs reprises, vous consacrez votre vitesse extraordinaire à vous protéger en vous désengageant rapidement, même dans les situations les plus dangereuses.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "“La discrétion est souvent la meilleure partie de la Valeur”, et vous avez appris à adopter pleinement cet ancien adage. Plutôt que de frapper vos ennemis à plusieurs reprises, vous consacrez votre vitesse extraordinaire à vous protéger en vous désengageant rapidement, même dans les situations les plus dangereuses.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Dépensez 2 points de sang pour activer Écart Agile pour le tour et annoncer votre intention de vous enfuir. Vous pouvez activer ce pouvoir en dehors de votre ordre d'initiative, comme les autres activations des pouvoirs de Célérité. Tant que ce pouvoir est actif, votre score de test d'Esquive est augmenté par le nombre de pouvoirs de Célérité que vous possédez, y compris les pouvoirs d'anciens et de Vénérables et les techniques basées sur la Célérité. Cependant, vous ne pouvez pas initier de challenge en opposition à moins que le but de ce challenge soit de vous enfuir ou d'échapper à ceux qui vous empêchent de partir.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Dépensez 2 points de sang pour activer Écart Agile pour le tour et annoncer votre intention de vous enfuir. Vous pouvez activer ce pouvoir en dehors de votre ordre d'initiative, comme les autres activations des pouvoirs de Célérité. Tant que ce pouvoir est actif, votre score de test d'Esquive est augmenté par le nombre de pouvoirs de Célérité que vous possédez, y compris les pouvoirs d'anciens et de Vénérables et les techniques basées sur la Célérité. Cependant, vous ne pouvez pas initier de challenge en opposition à moins que le but de ce challenge soit de vous enfuir ou d'échapper à ceux qui vous empêchent de partir.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "De plus, tant que Écart Agile est actif, votre évasion n'est pas annulée si vous êtes impliqué dans un challenge de Physique, tant que vous remportez tous les challenges de Physique dans lesquels vous êtes impliqué. Si vous êtes la cible de challenges Sociaux ou Mentaux qui pourraient gêner votre évasion, vous devez les remporter également. Vous ne pouvez pas activer ce pouvoir si vous avez déjà initié un challenge en opposition dans le tour en cours.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "De plus, tant que Écart Agile est actif, votre évasion n'est pas annulée si vous êtes impliqué dans un challenge de Physique, tant que vous remportez tous les challenges de Physique dans lesquels vous êtes impliqué. Si vous êtes la cible de challenges Sociaux ou Mentaux qui pourraient gêner votre évasion, vous devez les remporter également. Vous ne pouvez pas activer ce pouvoir si vous avez déjà initié un challenge en opposition dans le tour en cours.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous remplissez tous les critères d'évasion au moment où vous activez ce pouvoir, vous pouvez vous enfuir immédiatement sans dépenser d'action ou vous pouvez retenir cette option jusqu'à la fin du tour suivant. Si vous choisissez de retenir cette option, vous pourrez vous enfuir au prix d'une action standard. Si vous perdez un challenge en opposition avant d'utiliser l'action d'évasion, vous perdez les effets et devez activer ce pouvoir à nouveau.",
+          "spans": [
+            {
+              "text": "Si vous remplissez tous les critères d'évasion au moment où vous activez ce pouvoir, vous pouvez vous enfuir immédiatement sans dépenser d'action ou vous pouvez retenir cette option jusqu'à la fin du tour suivant. Si vous choisissez de retenir cette option, vous pourrez vous enfuir au prix d'une action standard. Si vous perdez un challenge en opposition avant d'utiliser l'action d'évasion, vous perdez les effets et devez activer ce pouvoir à nouveau.",
               "bold": false
             }
           ]
@@ -2516,7 +2596,7 @@
       "slug": "esprit-resilient",
       "title": "Esprit Résilient",
       "notionUrl": "https://app.notion.com/p/Esprit-R-silient-38388b48e48e80d6bb80ff97437713de",
-      "lastEditedTime": "2026-06-18T10:55:00.000Z",
+      "lastEditedTime": "2026-07-30T13:51:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -2557,50 +2637,40 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Votre résilience physique a évolué pour protéger vos facultés mentales. Vous pouvez temporairement ignorer toute maladie non physique accumulée au fil des siècles et résister facilement aux attaques mentales. Avec ce pouvoir, votre esprit est aussi difficile à briser que votre chair.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Votre résilience physique a évolué pour protéger vos facultés mentales. Vous pouvez temporairement ignorer toute maladie non physique accumulée au fil des siècles et résister facilement aux attaques mentales. Avec ce pouvoir, votre esprit est aussi difficile à briser que votre chair.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Dépensez 1 point de Sang et une action simple pour protéger votre esprit des attaques. Pendant la durée de Esprit Résilient, aucun de vos dérangements, y compris les dérangements temporaires résultant de pouvoirs, de bizarreries animales (telles que le handicap du clan Gangrel) ou de défauts psychologiques (tels que Repoussé par l'ail ou Incapacité de traverser l'eau courante) ne vous affecte.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Dépensez 1 point de Sang et une action simple pour protéger votre esprit des attaques. Pendant la durée de Esprit Résilient, aucun de vos dérangements, y compris les dérangements temporaires résultant de pouvoirs, de bizarreries animales (telles que le handicap du clan Gangrel) ou de défauts psychologiques (tels que Repoussé par l'ail ou Incapacité de traverser l'eau courante) ne vous affecte.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "De plus, chaque fois que vous dépensez un point de Volonté pour retester un pouvoir Mental ou Social qui attaque votre santé mentale, comme la Démence, vous récupérez immédiatement un point de Volonté. L'esprit Résilient dure 30 minutes.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "De plus, chaque fois que vous dépensez un point de Volonté pour retester un pouvoir Mental ou Social qui attaque votre santé mentale, comme la Démence, vous récupérez immédiatement un point de Volonté. L'esprit Résilient dure 30 minutes.",
               "bold": false
             }
           ]
@@ -2844,7 +2914,7 @@
       "slug": "freres-d-armes",
       "title": "Frères d’Armes",
       "notionUrl": "https://app.notion.com/p/Fr-res-d-Armes-39688b48e48e80729361f14d2f850156",
-      "lastEditedTime": "2026-07-07T14:56:00.000Z",
+      "lastEditedTime": "2026-07-30T13:59:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -2925,30 +2995,30 @@
         },
         {
           "type": "paragraph",
-          "text": "De la même manière, quand un de vos frères d’arme réussit un succès exceptionnel, vous devenez «Inspiré».",
+          "text": "De la même manière, quand un de vos frères d’arme réussit un succès exceptionnel, vous devenez “Inspiré”.",
           "spans": [
             {
-              "text": "De la même manière, quand un de vos frères d’arme réussit un succès exceptionnel, vous devenez «Inspiré».",
+              "text": "De la même manière, quand un de vos frères d’arme réussit un succès exceptionnel, vous devenez “Inspiré”.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Quand un individu est «Inspiré», la prochaine fois qu’il dépense un point de Volonté pour retest, il regagne un point de volonté et perd l’état «Inspiré». Cet état dure uniquement pour la durée du combat Si le combat se termine, vous perdez l’état «Inspiré».",
+          "text": "Quand un individu est “Inspiré”, la prochaine fois qu’il dépense un point de Volonté pour retest, il regagne un point de volonté et perd l’état “Inspiré”. Cet état dure uniquement pour la durée du combat Si le combat se termine, vous perdez l’état «Inspiré».",
           "spans": [
             {
-              "text": "Quand un individu est «Inspiré», la prochaine fois qu’il dépense un point de Volonté pour retest, il regagne un point de volonté et perd l’état «Inspiré». Cet état dure uniquement pour la durée du combat Si le combat se termine, vous perdez l’état «Inspiré».",
+              "text": "Quand un individu est “Inspiré”, la prochaine fois qu’il dépense un point de Volonté pour retest, il regagne un point de volonté et perd l’état “Inspiré”. Cet état dure uniquement pour la durée du combat Si le combat se termine, vous perdez l’état «Inspiré».",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Afin de bénéficier de cet effet, le succès exceptionnel doit être réalisé par des moyens normaux : les pouvoirs et effets qui convertissent un succès en succès exceptionnel comme « Dans la Cible » ou encore Force des Titans , ou l’atout « Point de Rupture » n’activent pas ce pouvoir. Vous pouvez être sujet à de multiples activations de ce pouvoir, pouvant ainsi donner et recevoir le bénéfice de ce pouvoir à plusieurs personnes différentes. Cependant, vous ne pouvez pas avoir plus d’un état «Inspiré» à la fois à n’importe quel moment.",
+          "text": "Afin de bénéficier de cet effet, le succès exceptionnel doit être réalisé par des moyens normaux : les pouvoirs et effets qui convertissent un succès en succès exceptionnel comme “Dans la Cible” ou encore Force des Titans , ou l’atout “Point de Rupture” n’activent pas ce pouvoir. Vous pouvez être sujet à de multiples activations de ce pouvoir, pouvant ainsi donner et recevoir le bénéfice de ce pouvoir à plusieurs personnes différentes. Cependant, vous ne pouvez pas avoir plus d’un état «Inspiré» à la fois à n’importe quel moment.",
           "spans": [
             {
-              "text": "Afin de bénéficier de cet effet, le succès exceptionnel doit être réalisé par des moyens normaux : les pouvoirs et effets qui convertissent un succès en succès exceptionnel comme « Dans la Cible » ou encore Force des Titans , ou l’atout « Point de Rupture » n’activent pas ce pouvoir. Vous pouvez être sujet à de multiples activations de ce pouvoir, pouvant ainsi donner et recevoir le bénéfice de ce pouvoir à plusieurs personnes différentes. Cependant, vous ne pouvez pas avoir plus d’un état «Inspiré» à la fois à n’importe quel moment.",
+              "text": "Afin de bénéficier de cet effet, le succès exceptionnel doit être réalisé par des moyens normaux : les pouvoirs et effets qui convertissent un succès en succès exceptionnel comme “Dans la Cible” ou encore Force des Titans , ou l’atout “Point de Rupture” n’activent pas ce pouvoir. Vous pouvez être sujet à de multiples activations de ce pouvoir, pouvant ainsi donner et recevoir le bénéfice de ce pouvoir à plusieurs personnes différentes. Cependant, vous ne pouvez pas avoir plus d’un état «Inspiré» à la fois à n’importe quel moment.",
               "bold": false
             }
           ]
@@ -3066,7 +3136,7 @@
       "slug": "furie-pourpre",
       "title": "Furie Pourpre",
       "notionUrl": "https://app.notion.com/p/Furie-Pourpre-38188b48e48e8016a3d5ee9f659065a5",
-      "lastEditedTime": "2026-06-18T10:37:00.000Z",
+      "lastEditedTime": "2026-07-30T13:48:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -3107,50 +3177,50 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "La bête d'un Vampire est souvent perçue comme quelque chose de tangible, rageant dans les ombres de l'âme et tranchant la conscience d'un Vampire pour chercher la libération. Un Ancien avec ce pouvoir peut autoriser la force et la rage de sa bête à être goûtée dans son sang, offrant une certaine protection contre quiconque tenterait de la drainer de sa vitae.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "La bête d'un Vampire est souvent perçue comme quelque chose de tangible, rageant dans les ombres de l'âme et tranchant la conscience d'un Vampire pour chercher la libération. Un Ancien avec ce pouvoir peut autoriser la force et la rage de sa bête à être goûtée dans son sang, offrant une certaine protection contre quiconque tenterait de la drainer de sa vitae.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Quiconque goûte votre vitae peut sentir la furie à peine contenue de votre Bête. Vous mordre ou boire 1 point ou plus de votre Sang causera l'individu à partir en frénésie et fuir de terreur. Ce pouvoir ne requiert pas un challenge ; la furie est automatique et ne peut pas être résistée avec un point de Volonté.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Quiconque goûte votre vitae peut sentir la furie à peine contenue de votre Bête. Vous mordre ou boire 1 point ou plus de votre Sang causera l'individu à partir en frénésie et fuir de terreur. Ce pouvoir ne requiert pas un challenge ; la furie est automatique et ne peut pas être résistée avec un point de Volonté.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "La Furie Pourpre affectera tous les personnages qui vous mordent ou boivent votre sang, même les individus qui sont normalement immunisés à la frénésie, comme les mortels, goules ou les Vampire affecté par Calmer la Bête. Quiconque devient lié au sang après que vous ayez acheté ce pouvoir devient immunisé à ces effets et portera la marque de votre Bête dans son Sang. Quiconque boit le sang de quelqu'un qui vous sera lié, en la mordant ou en buvant d'elle, souffrent des effets de la Furie Pourpre bien qu'elle a peur du protecteur mystique de l'individu (vous, bien qu’il ne vous connaisse pas) au lieu d'avoir peur de votre vassal.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "La Furie Pourpre affectera tous les personnages qui vous mordent ou boivent votre sang, même les individus qui sont normalement immunisés à la frénésie, comme les mortels, goules ou les Vampire affecté par Calmer la Bête. Quiconque devient lié au sang après que vous ayez acheté ce pouvoir devient immunisé à ces effets et portera la marque de votre Bête dans son Sang. Quiconque boit le sang de quelqu'un qui vous sera lié, en la mordant ou en buvant d'elle, souffrent des effets de la Furie Pourpre bien qu'elle a peur du protecteur mystique de l'individu (vous, bien qu’il ne vous connaisse pas) au lieu d'avoir peur de votre vassal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un autre personnage arrive à vous diabler, votre Bête survie en lui, déchirant son âme. Le Diaboliste meurt dans les trois prochaines nuits, alors que votre bête va lentement et douloureusement le déchirer de l'intérieur. Cet effet n'est pas passé à ceux qui vous sont liés au sang.",
+          "spans": [
+            {
+              "text": "Si un autre personnage arrive à vous diabler, votre Bête survie en lui, déchirant son âme. Le Diaboliste meurt dans les trois prochaines nuits, alors que votre bête va lentement et douloureusement le déchirer de l'intérieur. Cet effet n'est pas passé à ceux qui vous sont liés au sang.",
               "bold": false
             }
           ]
@@ -3354,7 +3424,7 @@
       "slug": "intimider-la-bete",
       "title": "Intimider la Bête",
       "notionUrl": "https://app.notion.com/p/Intimider-la-B-te-38188b48e48e80e79807fdffde65bee2",
-      "lastEditedTime": "2026-06-18T10:37:00.000Z",
+      "lastEditedTime": "2026-07-30T13:49:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -3395,50 +3465,70 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "La Bête est un prédateur qui n'aime rien d'autre qu'exercer son influence sur un autre membre de son espèce. Quand vous utilisez ce pouvoir, vous relâchez la pleine puissance du monstre en vous, conduisant les autres vampires à paniquer de peur devant le pouvoir écrasant de votre Bête.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "La Bête est un prédateur qui n'aime rien d'autre qu'exercer son influence sur un autre membre de son espèce. Quand vous utilisez ce pouvoir, vous relâchez la pleine puissance du monstre en vous, conduisant les autres vampires à paniquer de peur devant le pouvoir écrasant de votre Bête.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Vous ne pouvez que cibler des vampires, ou d'autres créatures surnaturelles capables de la frénésie, avec ce pouvoir.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Vous ne pouvez que cibler des vampires, ou d'autres créatures surnaturelles capables de la frénésie, avec ce pouvoir.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Quand vous êtes l'objet de l'attention d'un autre personnage (Comme le Regard et la Concentration), vous pouvez dépenser 2 points de Sang, dépenser votre action standard et faire un Challenge opposé contre votre victime en utilisant votre Score de Test d'Animalisme.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Quand vous êtes l'objet de l'attention d'un autre personnage (Comme le Regard et la Concentration), vous pouvez dépenser 2 points de Sang, dépenser votre action standard et faire un Challenge opposé contre votre victime en utilisant votre Score de Test d'Animalisme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez, votre Bête va surnaturellement prendre d'assaut la Bête de votre cible, la faisant paniquer. A chaque fois que la victime vous confronte, votre bête va déchirer sa psyché, la forçant à reculer de ce qu'elle perçoit comme étant un prédateur plus puissant.",
+          "spans": [
+            {
+              "text": "Si vous réussissez, votre Bête va surnaturellement prendre d'assaut la Bête de votre cible, la faisant paniquer. A chaque fois que la victime vous confronte, votre bête va déchirer sa psyché, la forçant à reculer de ce qu'elle perçoit comme étant un prédateur plus puissant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La victime doit immédiatement détourner le regard de vous où elle prendra 2 points de dégâts aggravés, qui ne peuvent pas être réduits ou annulés. Pendant les dix prochaines minutes, à chaque fois que votre victime vous regarde, tente de vous parler, de vous confronter, ou de vous attaquer de quelques manières que ce soit, elle prend 2 points de dégâts qui ne peuvent pas être réduits ou annulés, alors que sa bête érupte d'horreur. La victime de votre Intimider la Bête peut éviter de prendre des dégâts en baissant le regard ou en évitant toutes formes de confrontation. Une victime de ce pouvoir sait instinctivement quelles actions vont lui causer des dégâts.",
+          "spans": [
+            {
+              "text": "La victime doit immédiatement détourner le regard de vous où elle prendra 2 points de dégâts aggravés, qui ne peuvent pas être réduits ou annulés. Pendant les dix prochaines minutes, à chaque fois que votre victime vous regarde, tente de vous parler, de vous confronter, ou de vous attaquer de quelques manières que ce soit, elle prend 2 points de dégâts qui ne peuvent pas être réduits ou annulés, alors que sa bête érupte d'horreur. La victime de votre Intimider la Bête peut éviter de prendre des dégâts en baissant le regard ou en évitant toutes formes de confrontation. Une victime de ce pouvoir sait instinctivement quelles actions vont lui causer des dégâts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Intimider la Bête ne peut pas causer des dégâts à un personnage plus d'une fois par tour et n'a aucun effet sur les personnages qui ne possèdent pas de bête.",
+          "spans": [
+            {
+              "text": "Intimider la Bête ne peut pas causer des dégâts à un personnage plus d'une fois par tour et n'a aucun effet sur les personnages qui ne possèdent pas de bête.",
               "bold": false
             }
           ]
@@ -3596,7 +3686,7 @@
       "slug": "l-epouvantable-lame-des-demons",
       "title": "L'épouvantable lame des démons",
       "notionUrl": "https://app.notion.com/p/L-pouvantable-lame-des-d-mons-39688b48e48e80a8af0bd86207e8971b",
-      "lastEditedTime": "2026-07-07T14:16:00.000Z",
+      "lastEditedTime": "2026-07-30T13:55:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -3677,10 +3767,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les armes ainsi créées sont considérées comme des armes magiques de niveau 5. En plus d'avoir 2 qualités standard (Voir chapitre Influence et Équipement), les armes créées par ce pouvoir peuvent avoir jusqu'à 5 points d'amélioration Chimérique comme détaillé ci-dessous. Comme ces armes ne sont techniquement pas réelles, elles ne peuvent pas être renforcées par des pouvoirs tels que Quietus.",
+          "text": "Les armes ainsi créées sont considérées comme des armes magiques de niveau 5. En plus d'avoir 2 qualités standard, les armes créées par ce pouvoir peuvent avoir jusqu'à 5 points d'amélioration Chimérique comme détaillé ci-dessous. Comme ces armes ne sont techniquement pas réelles, elles ne peuvent pas être renforcées par des pouvoirs tels que Quietus.",
           "spans": [
             {
-              "text": "Les armes ainsi créées sont considérées comme des armes magiques de niveau 5. En plus d'avoir 2 qualités standard (Voir chapitre Influence et Équipement), les armes créées par ce pouvoir peuvent avoir jusqu'à 5 points d'amélioration Chimérique comme détaillé ci-dessous. Comme ces armes ne sont techniquement pas réelles, elles ne peuvent pas être renforcées par des pouvoirs tels que Quietus.",
+              "text": "Les armes ainsi créées sont considérées comme des armes magiques de niveau 5. En plus d'avoir 2 qualités standard, les armes créées par ce pouvoir peuvent avoir jusqu'à 5 points d'amélioration Chimérique comme détaillé ci-dessous. Comme ces armes ne sont techniquement pas réelles, elles ne peuvent pas être renforcées par des pouvoirs tels que Quietus.",
               "bold": false
             }
           ]
@@ -3737,10 +3827,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Puissante : L'application de cette amélioration génère une puissante vague de force permettant à l'arme de mêlée de blesser les ennemis à distance, transmettant ainsi tous ses effets et ses qualités. Vous pouvez acheter cette amélioration plusieurs fois. À chaque fois que vous achetez cette amélioration, la portée de votre arme augmente de 2 niveaux supplémentaires. Cette amélioration d'arme est cumulative avec la qualité Portée. (Voir chapitre Influence et Équipement)",
+          "text": "Puissante : L'application de cette amélioration génère une puissante vague de force permettant à l'arme de mêlée de blesser les ennemis à distance, transmettant ainsi tous ses effets et ses qualités. Vous pouvez acheter cette amélioration plusieurs fois. À chaque fois que vous achetez cette amélioration, la portée de votre arme augmente de 2 niveaux supplémentaires. Cette amélioration d'arme est cumulative avec la qualité Portée.",
           "spans": [
             {
-              "text": "Puissante : L'application de cette amélioration génère une puissante vague de force permettant à l'arme de mêlée de blesser les ennemis à distance, transmettant ainsi tous ses effets et ses qualités. Vous pouvez acheter cette amélioration plusieurs fois. À chaque fois que vous achetez cette amélioration, la portée de votre arme augmente de 2 niveaux supplémentaires. Cette amélioration d'arme est cumulative avec la qualité Portée. (Voir chapitre Influence et Équipement)",
+              "text": "Puissante : L'application de cette amélioration génère une puissante vague de force permettant à l'arme de mêlée de blesser les ennemis à distance, transmettant ainsi tous ses effets et ses qualités. Vous pouvez acheter cette amélioration plusieurs fois. À chaque fois que vous achetez cette amélioration, la portée de votre arme augmente de 2 niveaux supplémentaires. Cette amélioration d'arme est cumulative avec la qualité Portée.",
               "bold": false
             }
           ]
@@ -3807,10 +3897,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Douloureuse : Cette arme inflige toujours 2 points de dégâts normaux lorsqu'elle touche avec succès. Ces dégâts ne peuvent pas être augmentés par des bonus comme un succès exceptionnel ou réduit par des pouvoirs tels que\nla Force d'Âme. Cette qualité ne fonctionne pas si l'arme est utilisée pour une manœuvre de combat. La qualité Robuste fonctionne normalement contre cette qualité, infligeant 2 points de dégâts par rapport aux niveaux de santé bonus Robuste lorsqu'elle est frappée.",
+          "text": "Douloureuse : Cette arme inflige toujours 2 points de dégâts normaux lorsqu'elle touche avec succès. Ces dégâts ne peuvent pas être augmentés par des bonus comme un succès exceptionnel ou réduit par des pouvoirs tels que la Force d'Âme. Cette qualité ne fonctionne pas si l'arme est utilisée pour une manœuvre de combat. La qualité Robuste fonctionne normalement contre cette qualité, infligeant 2 points de dégâts par rapport aux niveaux de santé bonus Robuste lorsqu'elle est frappée.",
           "spans": [
             {
-              "text": "Douloureuse : Cette arme inflige toujours 2 points de dégâts normaux lorsqu'elle touche avec succès. Ces dégâts ne peuvent pas être augmentés par des bonus comme un succès exceptionnel ou réduit par des pouvoirs tels que\nla Force d'Âme. Cette qualité ne fonctionne pas si l'arme est utilisée pour une manœuvre de combat. La qualité Robuste fonctionne normalement contre cette qualité, infligeant 2 points de dégâts par rapport aux niveaux de santé bonus Robuste lorsqu'elle est frappée.",
+              "text": "Douloureuse : Cette arme inflige toujours 2 points de dégâts normaux lorsqu'elle touche avec succès. Ces dégâts ne peuvent pas être augmentés par des bonus comme un succès exceptionnel ou réduit par des pouvoirs tels que la Force d'Âme. Cette qualité ne fonctionne pas si l'arme est utilisée pour une manœuvre de combat. La qualité Robuste fonctionne normalement contre cette qualité, infligeant 2 points de dégâts par rapport aux niveaux de santé bonus Robuste lorsqu'elle est frappée.",
               "bold": false
             }
           ]
@@ -3847,10 +3937,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Fracassante : Si vous réussissez un succès exceptionnel lorsque vous utilisez cette arme, vous pouvez choisir de rendre inopérante l'arme ou l'armure que porte votre adversaire. Une personne qui cherche à réparer l'objet doit\ndépenser une AIP et réussir un challenge statique utilisant sont attribut Physique + Artisanat contre l'attribut Physique de l'attaquant pour marquer la difficulté. Si l'arme ou l'armure possède la qualité Indestructible, cette amélioration n'a aucun effet.",
+          "text": "Fracassante : Si vous réussissez un succès exceptionnel lorsque vous utilisez cette arme, vous pouvez choisir de rendre inopérante l'arme ou l'armure que porte votre adversaire. Une personne qui cherche à réparer l'objet doit dépenser une AIP et réussir un challenge statique utilisant sont attribut Physique + Artisanat contre l'attribut Physique de l'attaquant pour marquer la difficulté. Si l'arme ou l'armure possède la qualité Indestructible, cette amélioration n'a aucun effet.",
           "spans": [
             {
-              "text": "Fracassante : Si vous réussissez un succès exceptionnel lorsque vous utilisez cette arme, vous pouvez choisir de rendre inopérante l'arme ou l'armure que porte votre adversaire. Une personne qui cherche à réparer l'objet doit\ndépenser une AIP et réussir un challenge statique utilisant sont attribut Physique + Artisanat contre l'attribut Physique de l'attaquant pour marquer la difficulté. Si l'arme ou l'armure possède la qualité Indestructible, cette amélioration n'a aucun effet.",
+              "text": "Fracassante : Si vous réussissez un succès exceptionnel lorsque vous utilisez cette arme, vous pouvez choisir de rendre inopérante l'arme ou l'armure que porte votre adversaire. Une personne qui cherche à réparer l'objet doit dépenser une AIP et réussir un challenge statique utilisant sont attribut Physique + Artisanat contre l'attribut Physique de l'attaquant pour marquer la difficulté. Si l'arme ou l'armure possède la qualité Indestructible, cette amélioration n'a aucun effet.",
               "bold": false
             }
           ]
@@ -3948,7 +4038,7 @@
       "slug": "lamentation-de-llorona",
       "title": "Lamentation de Llorona",
       "notionUrl": "https://app.notion.com/p/Lamentation-de-Llorona-38388b48e48e80819ae5f5702f7a3c41",
-      "lastEditedTime": "2026-06-29T13:31:00.000Z",
+      "lastEditedTime": "2026-07-30T13:53:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -4009,20 +4099,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Dépensez 1 point de Sang et une action simple pour faire naître des sentiments de désespoir et d'angoisse. Vous devez alors émettre une interdiction de votre choix à toute personne se trouvant à proximité. Par exemple, vous pourriez dire « ne dérangez pas mes roses » à quelqu’un qui s’apprête à piétiner votre jardin, ou « ne souillez pas le sanctuaire » à un groupe de cambrioleurs qui ont pénétré par effraction dans votre propriété.",
+          "text": "Dépensez 1 point de Sang et une action simple pour faire naître des sentiments de désespoir et d'angoisse. Vous devez alors émettre une interdiction de votre choix à toute personne se trouvant à proximité. Par exemple, vous pourriez dire \"ne dérangez pas mes roses\" à quelqu’un qui s’apprête à piétiner votre jardin, ou \"ne souillez pas le sanctuaire\" à un groupe de cambrioleurs qui ont pénétré par effraction dans votre propriété.",
           "spans": [
             {
-              "text": "Dépensez 1 point de Sang et une action simple pour faire naître des sentiments de désespoir et d'angoisse. Vous devez alors émettre une interdiction de votre choix à toute personne se trouvant à proximité. Par exemple, vous pourriez dire « ne dérangez pas mes roses » à quelqu’un qui s’apprête à piétiner votre jardin, ou « ne souillez pas le sanctuaire » à un groupe de cambrioleurs qui ont pénétré par effraction dans votre propriété.",
+              "text": "Dépensez 1 point de Sang et une action simple pour faire naître des sentiments de désespoir et d'angoisse. Vous devez alors émettre une interdiction de votre choix à toute personne se trouvant à proximité. Par exemple, vous pourriez dire \"ne dérangez pas mes roses\" à quelqu’un qui s’apprête à piétiner votre jardin, ou \"ne souillez pas le sanctuaire\" à un groupe de cambrioleurs qui ont pénétré par effraction dans votre propriété.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Quelle que soit son affiliation avec vous, chaque fois qu'un personnage dans votre champ de vision dépense une action pour violer votre interdiction, il gagne un point de Désespoir. Il gagne ce point, qu’il réussisse ou non l’action. Par exemple, si vous avez proclamé « ne me faites pas de mal » à un personnage et que ce personnage tente de vous attaquer mais échoue, ce personnage gagne un point de Désespoir.",
+          "text": "Quelle que soit son affiliation avec vous, chaque fois qu'un personnage dans votre champ de vision dépense une action pour violer votre interdiction, il gagne un point de Désespoir. Il gagne ce point, qu’il réussisse ou non l’action. Par exemple, si vous avez proclamé \"ne me faites pas de mal\" à un personnage et que ce personnage tente de vous attaquer mais échoue, ce personnage gagne un point de Désespoir.",
           "spans": [
             {
-              "text": "Quelle que soit son affiliation avec vous, chaque fois qu'un personnage dans votre champ de vision dépense une action pour violer votre interdiction, il gagne un point de Désespoir. Il gagne ce point, qu’il réussisse ou non l’action. Par exemple, si vous avez proclamé « ne me faites pas de mal » à un personnage et que ce personnage tente de vous attaquer mais échoue, ce personnage gagne un point de Désespoir.",
+              "text": "Quelle que soit son affiliation avec vous, chaque fois qu'un personnage dans votre champ de vision dépense une action pour violer votre interdiction, il gagne un point de Désespoir. Il gagne ce point, qu’il réussisse ou non l’action. Par exemple, si vous avez proclamé \"ne me faites pas de mal\" à un personnage et que ce personnage tente de vous attaquer mais échoue, ce personnage gagne un point de Désespoir.",
               "bold": false
             }
           ]
@@ -4039,10 +4129,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si ce pouvoir est activé hors combat, vous devez dépenser 1 point de Sang toutes les 5 minutes pour le maintenir. Une fois le combat commencé, ce pouvoir dure jusqu'à votre prochaine action lors du nouveau round, et vous devez dépenser 1 point de Sang et une action simple à chaque tour où vous souhaitez le maintenir. En combat, vous pouvez modifier l'interdiction de votre action en en prononçant une nouvelle à haute voix. Cela ne coûte pas une action. Les traits de désespoir disparaissent à un rythme égal à un toutes les 5 minutes. L'interdiction donnée doit être simple et directe. Les interdictions qui sont des ordres détournés ou qui nécessitent de tirer des conclusions d’une déclaration, telles que « ne lui permettez pas de vivre une seconde de plus », ce qui implique que quelqu’un doit être tué, sont invalides. Ce pouvoir ne peut pas être utilisé pour obtenir des informations au moyen de formulations spécifiques telles que « aucun diableriste ne doit garder le silence ». Les non-vampires affectés par ce pouvoir sont capables de pleurer de véritables larmes et ne perdent pas de sang lorsqu'ils sont submergés par le chagrin.",
+          "text": "Si ce pouvoir est activé hors combat, vous devez dépenser 1 point de Sang toutes les 5 minutes pour le maintenir. Une fois le combat commencé, ce pouvoir dure jusqu'à votre prochaine action lors du nouveau round, et vous devez dépenser 1 point de Sang et une action simple à chaque tour où vous souhaitez le maintenir. En combat, vous pouvez modifier l'interdiction de votre action en en prononçant une nouvelle à haute voix. Cela ne coûte pas une action. Les traits de désespoir disparaissent à un rythme égal à un toutes les 5 minutes. L'interdiction donnée doit être simple et directe. Les interdictions qui sont des ordres détournés ou qui nécessitent de tirer des conclusions d’une déclaration, telles que \"ne lui permettez pas de vivre une seconde de plus”, ce qui implique que quelqu’un doit être tué, sont invalides. Ce pouvoir ne peut pas être utilisé pour obtenir des informations au moyen de formulations spécifiques telles que \"aucun diableriste ne doit garder le silence”. Les non-vampires affectés par ce pouvoir sont capables de pleurer de véritables larmes et ne perdent pas de sang lorsqu'ils sont submergés par le chagrin.",
           "spans": [
             {
-              "text": "Si ce pouvoir est activé hors combat, vous devez dépenser 1 point de Sang toutes les 5 minutes pour le maintenir. Une fois le combat commencé, ce pouvoir dure jusqu'à votre prochaine action lors du nouveau round, et vous devez dépenser 1 point de Sang et une action simple à chaque tour où vous souhaitez le maintenir. En combat, vous pouvez modifier l'interdiction de votre action en en prononçant une nouvelle à haute voix. Cela ne coûte pas une action. Les traits de désespoir disparaissent à un rythme égal à un toutes les 5 minutes. L'interdiction donnée doit être simple et directe. Les interdictions qui sont des ordres détournés ou qui nécessitent de tirer des conclusions d’une déclaration, telles que « ne lui permettez pas de vivre une seconde de plus », ce qui implique que quelqu’un doit être tué, sont invalides. Ce pouvoir ne peut pas être utilisé pour obtenir des informations au moyen de formulations spécifiques telles que « aucun diableriste ne doit garder le silence ». Les non-vampires affectés par ce pouvoir sont capables de pleurer de véritables larmes et ne perdent pas de sang lorsqu'ils sont submergés par le chagrin.",
+              "text": "Si ce pouvoir est activé hors combat, vous devez dépenser 1 point de Sang toutes les 5 minutes pour le maintenir. Une fois le combat commencé, ce pouvoir dure jusqu'à votre prochaine action lors du nouveau round, et vous devez dépenser 1 point de Sang et une action simple à chaque tour où vous souhaitez le maintenir. En combat, vous pouvez modifier l'interdiction de votre action en en prononçant une nouvelle à haute voix. Cela ne coûte pas une action. Les traits de désespoir disparaissent à un rythme égal à un toutes les 5 minutes. L'interdiction donnée doit être simple et directe. Les interdictions qui sont des ordres détournés ou qui nécessitent de tirer des conclusions d’une déclaration, telles que \"ne lui permettez pas de vivre une seconde de plus”, ce qui implique que quelqu’un doit être tué, sont invalides. Ce pouvoir ne peut pas être utilisé pour obtenir des informations au moyen de formulations spécifiques telles que \"aucun diableriste ne doit garder le silence”. Les non-vampires affectés par ce pouvoir sont capables de pleurer de véritables larmes et ne perdent pas de sang lorsqu'ils sont submergés par le chagrin.",
               "bold": false
             }
           ]
@@ -4650,7 +4740,7 @@
       "slug": "masque-d-ame",
       "title": "Masque d’âme",
       "notionUrl": "https://app.notion.com/p/Masque-d-me-39688b48e48e80d7a596c4433b2f032c",
-      "lastEditedTime": "2026-07-07T14:29:00.000Z",
+      "lastEditedTime": "2026-07-30T13:56:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -4721,10 +4811,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si d'autres soupçonnent une tromperie dans votre aura, ils peuvent tenter de percer le masque d'âme en utilisant les pouvoirs d'Auspex s'ils possèdent au moins un pouvoir d'ancien Auspex (voir Chapitre : Disciplines). S'ils réussissent, ils peuvent utiliser normalement le pouvoir qu'ils ont choisi ou recevoir les résultats de leur pouvoir s'ils ont déjà testé et gagné.",
+          "text": "Si d'autres soupçonnent une tromperie dans votre aura, ils peuvent tenter de percer le masque d'âme en utilisant les pouvoirs d'Auspex s'ils possèdent au moins un pouvoir d'ancien Auspex. S'ils réussissent, ils peuvent utiliser normalement le pouvoir qu'ils ont choisi ou recevoir les résultats de leur pouvoir s'ils ont déjà testé et gagné.",
           "spans": [
             {
-              "text": "Si d'autres soupçonnent une tromperie dans votre aura, ils peuvent tenter de percer le masque d'âme en utilisant les pouvoirs d'Auspex s'ils possèdent au moins un pouvoir d'ancien Auspex (voir Chapitre : Disciplines). S'ils réussissent, ils peuvent utiliser normalement le pouvoir qu'ils ont choisi ou recevoir les résultats de leur pouvoir s'ils ont déjà testé et gagné.",
+              "text": "Si d'autres soupçonnent une tromperie dans votre aura, ils peuvent tenter de percer le masque d'âme en utilisant les pouvoirs d'Auspex s'ils possèdent au moins un pouvoir d'ancien Auspex. S'ils réussissent, ils peuvent utiliser normalement le pouvoir qu'ils ont choisi ou recevoir les résultats de leur pouvoir s'ils ont déjà testé et gagné.",
               "bold": false
             }
           ]
@@ -4736,7 +4826,7 @@
       "slug": "peau-de-marbre",
       "title": "Peau de Marbre",
       "notionUrl": "https://app.notion.com/p/Peau-de-Marbre-39688b48e48e807c99ead0f34a75b5e6",
-      "lastEditedTime": "2026-07-07T14:55:00.000Z",
+      "lastEditedTime": "2026-07-30T13:59:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -4807,10 +4897,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Une fois que ces qualités sont appliquées à votre peau de Marbre, elles ne sont pas affectées par la qualité «Perce Armure» . Peau de Marbre est considérée comme une transformation mineure.",
+          "text": "Une fois que ces qualités sont appliquées à votre peau de Marbre, elles ne sont pas affectées par la qualité “Perce Armure” . Peau de Marbre est considérée comme une transformation mineure.",
           "spans": [
             {
-              "text": "Une fois que ces qualités sont appliquées à votre peau de Marbre, elles ne sont pas affectées par la qualité «Perce Armure» . Peau de Marbre est considérée comme une transformation mineure.",
+              "text": "Une fois que ces qualités sont appliquées à votre peau de Marbre, elles ne sont pas affectées par la qualité “Perce Armure” . Peau de Marbre est considérée comme une transformation mineure.",
               "bold": false
             }
           ]
@@ -4832,7 +4922,7 @@
       "slug": "projectile",
       "title": "Projectile",
       "notionUrl": "https://app.notion.com/p/Projectile-38388b48e48e8012a50de6acd910adf1",
-      "lastEditedTime": "2026-06-18T11:13:00.000Z",
+      "lastEditedTime": "2026-07-30T13:53:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -4873,50 +4963,70 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Un Vampire avec cette capacité à maîtriser la capacité de donner de la vitesse à des objets lancés et des armes de jet. Même des objets mondains, tels que des crayons ou des pierres, peuvent être meurtriers dans les mains d'un Ancien accompli.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Un Vampire avec cette capacité à maîtriser la capacité de donner de la vitesse à des objets lancés et des armes de jet. Même des objets mondains, tels que des crayons ou des pierres, peuvent être meurtriers dans les mains d'un Ancien accompli.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Quand vous faites une attaque physique à distance, comme avec des armes de jets ou jetées, dépensez un point de sang pour activer projectile.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Quand vous faites une attaque physique à distance, comme avec des armes de jets ou jetées, dépensez un point de sang pour activer projectile.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Cette attaque reçoit un bonus de +3 à ses Score de Test d'Attaque et inflige un point de dégâts supplémentaire.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Cette attaque reçoit un bonus de +3 à ses Score de Test d'Attaque et inflige un point de dégâts supplémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Projectile peut être utilisé pour augmenter une attaque à distance qui ne causerait normalement pas de dégâts, comme jeter avec violence une pièce.",
+          "spans": [
+            {
+              "text": "Projectile peut être utilisé pour augmenter une attaque à distance qui ne causerait normalement pas de dégâts, comme jeter avec violence une pièce.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si Projectile booste ce type d'attaque, traiter la comme une attaque à armes à feu normale, qui fait deux points de dégâts par défaut, 3 si vous faites un succès exceptionnel. De telles attaques ne reçoivent pas le bonus de +3 ou un point de dégât supplémentaire de l'utilisation de Projectile.",
+          "spans": [
+            {
+              "text": "Si Projectile booste ce type d'attaque, traiter la comme une attaque à armes à feu normale, qui fait deux points de dégâts par défaut, 3 si vous faites un succès exceptionnel. De telles attaques ne reçoivent pas le bonus de +3 ou un point de dégât supplémentaire de l'utilisation de Projectile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La dépense de Sang pour Projectile est additionnée à tout autre Sang dépensé sur Célérité lors de ce tour. Vous pouvez choisir d'utiliser ce pouvoir même si vous ne souhaitez pas activer le reste de votre Célérité. Projectile peut être utilisé pendant les rounds de Célérité, mais vous devez payer le coût de Sang à chaque fois que vous utilisez ce pouvoir.",
+          "spans": [
+            {
+              "text": "La dépense de Sang pour Projectile est additionnée à tout autre Sang dépensé sur Célérité lors de ce tour. Vous pouvez choisir d'utiliser ce pouvoir même si vous ne souhaitez pas activer le reste de votre Célérité. Projectile peut être utilisé pendant les rounds de Célérité, mais vous devez payer le coût de Sang à chaque fois que vous utilisez ce pouvoir.",
               "bold": false
             }
           ]
@@ -5206,7 +5316,7 @@
       "slug": "reparer-la-chair-non-morte",
       "title": "Réparer la chair non-morte",
       "notionUrl": "https://app.notion.com/p/R-parer-la-chair-non-morte-38388b48e48e8086a64df347bb0732d5",
-      "lastEditedTime": "2026-06-18T10:55:00.000Z",
+      "lastEditedTime": "2026-07-30T13:51:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -5247,50 +5357,30 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Un Vampire avec ce pouvoir à la maîtrise sur le sang, les os et la chair de sa forme physique et il peut les commander afin qu'ils puissent accomplir des exploits de guérison au-delà de la simple capacité des Vampires normaux. Il peut convoquer son sang avec une efficacité remarquable, scellant même la plus horrible des blessures.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Un Vampire avec ce pouvoir à la maîtrise sur le sang, les os et la chair de sa forme physique et il peut les commander afin qu'ils puissent accomplir des exploits de guérison au-delà de la simple capacité des Vampires normaux. Il peut convoquer son sang avec une efficacité remarquable, scellant même la plus horrible des blessures.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Vous pouvez dépenser 2 points de Sang pour guérir instantanément d'un 1 point de dégât aggravé. Ce pouvoir fonctionne comme un pouvoir normal de guérison et ne nécessite pas la dépense d'une action pour être réalisée.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Focus",
-          "spans": [
-            {
-              "text": "Description du Focus",
+              "text": "Vous pouvez dépenser 2 points de Sang pour guérir instantanément d'un 1 point de dégât aggravé. Ce pouvoir fonctionne comme un pouvoir normal de guérison et ne nécessite pas la dépense d'une action pour être réalisée.",
               "bold": false
             }
           ]
@@ -5418,7 +5508,7 @@
       "slug": "revelations-de-l-essence-sanguine",
       "title": "Révélations de l’essence sanguine",
       "notionUrl": "https://app.notion.com/p/R-v-lations-de-l-essence-sanguine-39688b48e48e8080a1acfdd23452f4f1",
-      "lastEditedTime": "2026-07-07T15:05:00.000Z",
+      "lastEditedTime": "2026-07-30T14:00:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -5529,10 +5619,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ces cibles reçoivent également les pénalités de la diablerie, incluant la perte potentielle d’humanité, selon votre chronique (voir chapitre : Système Dramatique). Parmi les Assamites loyalistes, l’inclusion de vampires dans cet acte qui ne sont ni Assamites, ni dévoués à la Voie du Sang est perçue comme hérétique. Cependant, les Assamites antitribus sont beaucoup plus libéraux pour son application.",
+          "text": "Ces cibles reçoivent également les pénalités de la diablerie, incluant la perte potentielle d’humanité, selon votre chronique. Parmi les Assamites loyalistes, l’inclusion de vampires dans cet acte qui ne sont ni Assamites, ni dévoués à la Voie du Sang est perçue comme hérétique. Cependant, les Assamites antitribus sont beaucoup plus libéraux pour son application.",
           "spans": [
             {
-              "text": "Ces cibles reçoivent également les pénalités de la diablerie, incluant la perte potentielle d’humanité, selon votre chronique (voir chapitre : Système Dramatique). Parmi les Assamites loyalistes, l’inclusion de vampires dans cet acte qui ne sont ni Assamites, ni dévoués à la Voie du Sang est perçue comme hérétique. Cependant, les Assamites antitribus sont beaucoup plus libéraux pour son application.",
+              "text": "Ces cibles reçoivent également les pénalités de la diablerie, incluant la perte potentielle d’humanité, selon votre chronique. Parmi les Assamites loyalistes, l’inclusion de vampires dans cet acte qui ne sont ni Assamites, ni dévoués à la Voie du Sang est perçue comme hérétique. Cependant, les Assamites antitribus sont beaucoup plus libéraux pour son application.",
               "bold": false
             }
           ]
@@ -5621,7 +5711,7 @@
       "slug": "roi-de-la-montagne",
       "title": "Roi de la montagne",
       "notionUrl": "https://app.notion.com/p/Roi-de-la-montagne-38388b48e48e80f7b409f9852e2b7204",
-      "lastEditedTime": "2026-06-18T10:55:00.000Z",
+      "lastEditedTime": "2026-07-30T13:51:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -5662,50 +5752,40 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Avec votre maîtrise de Force d'âme, aucune menace n’est imparable. Les attaquants rebondissent sur vous comme si vous étiez un mur de briques, et la force des attaques qui pourraient vous déplacer se retourne contre votre assaillant.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Avec votre maîtrise de Force d'âme, aucune menace n’est imparable. Les attaquants rebondissent sur vous comme si vous étiez un mur de briques, et la force des attaques qui pourraient vous déplacer se retourne contre votre assaillant.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Vous ne bougez pas à moins que vous ne vouliez bouger. Toute influence extérieure, effet, pouvoir, manœuvre de combat ou trait d'arme qui vous ferait quitter votre position actuelle en faisant des pas (Recul), en tombant à terre (Renverser ou K.O.) ou en vous désarmant (Désarmer), échoue automatiquement. Roi de la Montagne n'affecte que les pouvoirs qui cherchent directement à infliger ces effets. Par exemple, un vampire utilisant le pouvoir Mouvement de l'esprit Répulsion pour vous déplacer échouerait automatiquement, mais l'utilisation d'un pouvoir Domination pour vous obliger à vous allonger ou à abandonner votre arme fonctionne normalement.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Vous ne bougez pas à moins que vous ne vouliez bouger. Toute influence extérieure, effet, pouvoir, manœuvre de combat ou trait d'arme qui vous ferait quitter votre position actuelle en faisant des pas (Recul), en tombant à terre (Renverser ou K.O.) ou en vous désarmant (Désarmer), échoue automatiquement. Roi de la Montagne n'affecte que les pouvoirs qui cherchent directement à infliger ces effets. Par exemple, un vampire utilisant le pouvoir Mouvement de l'esprit Répulsion pour vous déplacer échouerait automatiquement, mais l'utilisation d'un pouvoir Domination pour vous obliger à vous allonger ou à abandonner votre arme fonctionne normalement.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "De plus, si un adversaire utilise sans succès une attaque au corps à corps ou à mains nues contre vous, il recule de 2 pas par rapport au point d'impact. Les personnages dont la trajectoire arrière les amène à entrer en collision avec un objet solide subissent 1 point de dégâts normaux. Une fois appris, ce pouvoir est toujours actif sauf si vous choisissez de ne pas l'utiliser.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "De plus, si un adversaire utilise sans succès une attaque au corps à corps ou à mains nues contre vous, il recule de 2 pas par rapport au point d'impact. Les personnages dont la trajectoire arrière les amène à entrer en collision avec un objet solide subissent 1 point de dégâts normaux. Une fois appris, ce pouvoir est toujours actif sauf si vous choisissez de ne pas l'utiliser.",
               "bold": false
             }
           ]
@@ -6072,7 +6152,7 @@
       "slug": "vitesse",
       "title": "Vitesse",
       "notionUrl": "https://app.notion.com/p/Vitesse-38388b48e48e8005b7e1f3f05069f663",
-      "lastEditedTime": "2026-06-18T11:13:00.000Z",
+      "lastEditedTime": "2026-07-30T13:54:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -6113,50 +6193,30 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Avec ce niveau de rapidité augmentée, vous devenez une figure floue et indistincte, tellement accélérée dans ses actions qu'il est difficile de percevoir les détails. Le monde ralenti autour de vous, vous permettant de frapper votre ennemi à plusieurs reprises avant qu'ils ne puissent réagir.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Avec ce niveau de rapidité augmentée, vous devenez une figure floue et indistincte, tellement accélérée dans ses actions qu'il est difficile de percevoir les détails. Le monde ralenti autour de vous, vous permettant de frapper votre ennemi à plusieurs reprises avant qu'ils ne puissent réagir.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Quand vous activez Célérité, vous gagnez un round supplémentaire d'actions, qui comprennent une action simple et une action standard. Résolvez ces actions pendant le troisième tour de Célérité dans le tour.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Description du Focus",
-          "spans": [
-            {
-              "text": "Description du Focus",
+              "text": "Quand vous activez Célérité, vous gagnez un round supplémentaire d'actions, qui comprennent une action simple et une action standard. Résolvez ces actions pendant le troisième tour de Célérité dans le tour.",
               "bold": false
             }
           ]
@@ -6285,7 +6345,7 @@
       "slug": "zephyr",
       "title": "Zéphyr",
       "notionUrl": "https://app.notion.com/p/Z-phyr-38388b48e48e805ca29ef4a6237e217d",
-      "lastEditedTime": "2026-06-18T11:13:00.000Z",
+      "lastEditedTime": "2026-07-30T13:54:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -6326,50 +6386,50 @@
         },
         {
           "type": "paragraph",
-          "text": "Description du pouvoir",
+          "text": "Sans voler, votre maîtrise de la Célérité vous donne la possibilité de réaliser certaines acrobaties aériennes. Comme le dieu grec Hermès, vous pouvez courir sur l'eau, sur les murs, à l'envers sur les plafonds et même très brièvement dans l'air lui-même.",
           "spans": [
             {
-              "text": "Description du pouvoir",
+              "text": "Sans voler, votre maîtrise de la Célérité vous donne la possibilité de réaliser certaines acrobaties aériennes. Comme le dieu grec Hermès, vous pouvez courir sur l'eau, sur les murs, à l'envers sur les plafonds et même très brièvement dans l'air lui-même.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_2",
-          "text": "Succès Exceptionnel",
+          "text": "Système",
           "spans": [
             {
-              "text": "Succès Exceptionnel",
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Succès Exceptionnel",
+          "text": "Dépensez 1 point de Sang pour doubler votre mouvement standard et acquérir la capacité de courir sur n’importe quelle surface tangible. D'autres effets ou pouvoirs qui augmentent votre vitesse sont ajoutés après cet effet de doublement.",
           "spans": [
             {
-              "text": "Description du Succès Exceptionnel",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
+              "text": "Dépensez 1 point de Sang pour doubler votre mouvement standard et acquérir la capacité de courir sur n’importe quelle surface tangible. D'autres effets ou pouvoirs qui augmentent votre vitesse sont ajoutés après cet effet de doublement.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Description du Focus",
+          "text": "Une fois Zephyr activé, vous devez dépenser au moins votre action simple ou standard en déplacement ou en fin d'effets de Zephyr. À condition que vous terminiez votre mouvement sur une surface solide, vous pouvez traverser des espaces vides intermédiaires, par exemple au-dessus des ruelles entre les toits des bâtiments. Pendant que Zephyr est actif, vous pouvez utiliser les manœuvres de combat aérien Échapper et Frappe.",
           "spans": [
             {
-              "text": "Description du Focus",
+              "text": "Une fois Zephyr activé, vous devez dépenser au moins votre action simple ou standard en déplacement ou en fin d'effets de Zephyr. À condition que vous terminiez votre mouvement sur une surface solide, vous pouvez traverser des espaces vides intermédiaires, par exemple au-dessus des ruelles entre les toits des bâtiments. Pendant que Zephyr est actif, vous pouvez utiliser les manœuvres de combat aérien Échapper et Frappe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous terminez un tour et que vous n'êtes pas debout sur une surface solide, ou si vous n'avez pas effectué d'action de mouvement durant le tour, Zephyr se termine. Si Zephyr se termine alors que vous êtes sur une surface verticale, à l'envers ou dans les airs, vous commencez immédiatement à tomber au sol. Pendant la chute, si la nature d'une surface à proximité est propice, votre conteur peut autoriser un challenge d'athlétisme pour vous permettre de saisir une prise pour mettre fin à la chute libre. Une fois que vous êtes de retour sur une surface solide, vous pouvez dépenser 1 point de Sang pour réactiver Zephyr et commencer à vous déplacer comme normalement dicté par ce pouvoir.",
+          "spans": [
+            {
+              "text": "Si vous terminez un tour et que vous n'êtes pas debout sur une surface solide, ou si vous n'avez pas effectué d'action de mouvement durant le tour, Zephyr se termine. Si Zephyr se termine alors que vous êtes sur une surface verticale, à l'envers ou dans les airs, vous commencez immédiatement à tomber au sol. Pendant la chute, si la nature d'une surface à proximité est propice, votre conteur peut autoriser un challenge d'athlétisme pour vous permettre de saisir une prise pour mettre fin à la chute libre. Une fois que vous êtes de retour sur une surface solide, vous pouvez dépenser 1 point de Sang pour réactiver Zephyr et commencer à vous déplacer comme normalement dicté par ce pouvoir.",
               "bold": false
             }
           ]
