@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-07-30T22:44:35.603Z",
+  "generatedAt": "2026-08-02T15:05:02.383Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-07-29T06:56:00.000Z",
+      "lastEditedTime": "2026-08-01T14:28:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -34,16 +34,6 @@
             },
             {
               "text": " représente une personne de confiance sur laquelle votre personnage peut compter. Il peut s'agir d'un ami, d'un proche, d'un employé fidèle, d'un informateur ou de toute autre relation privilégiée.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Contrairement aux Influences, un Allié est un individu unique. Il possède ses propres compétences et peut être amélioré au fil du temps.",
-          "spans": [
-            {
-              "text": "Contrairement aux Influences, un Allié est un individu unique. Il possède ses propres compétences et peut être amélioré au fil du temps.",
               "bold": false
             }
           ]
@@ -896,6 +886,1678 @@
             },
             {
               "text": " : Un Allié ne peut intervenir que dans les domaines correspondant à son ou ses domaines d'expertise et uniquement lorsque l'action est crédible au regard de sa profession, de son statut et de son niveau. Les Conteurs restent seuls décisionnaires de ce qu'un Allié peut ou ne peut pas accomplir. Cette règle prime sur toute autre description des compétences.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Spécialisations d’Influence",
+          "spans": [
+            {
+              "text": "Spécialisations d’Influence",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque point d’Influence que possède un personnage, vous devez choisir une spécialisation. Ces spécialisations définissent la nature du réseau social du personnage : les types d’individus qui lui doivent des faveurs et les domaines dans lesquels il exerce son influence.",
+          "spans": [
+            {
+              "text": "Pour chaque point d’Influence que possède un personnage, vous devez choisir une spécialisation. Ces spécialisations définissent la nature du réseau social du personnage : les types d’individus qui lui doivent des faveurs et les domaines dans lesquels il exerce son influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est possible de choisir la même spécialisation dans les deux catégories d’Influence.",
+          "spans": [
+            {
+              "text": "Il est possible de choisir la même spécialisation dans les deux catégories d’Influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, une spécialisation « police » dans l’Élite (Gotha) peut représenter des liens avec des inspecteurs prestigieux, des responsables d’unités spéciales ou des contributions à des fonds politiques.",
+          "spans": [
+            {
+              "text": "Par exemple, une spécialisation « police » dans ",
+              "bold": false
+            },
+            {
+              "text": "l’Élite (Gotha)",
+              "bold": true
+            },
+            {
+              "text": " peut représenter des liens avec des inspecteurs prestigieux, des responsables d’unités spéciales ou des contributions à des fonds politiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le Milieu criminel (Pègre), elle représenterait plutôt des policiers corrompus, des agents infiltrés ou du personnel subalterne.",
+          "spans": [
+            {
+              "text": "Dans le ",
+              "bold": false
+            },
+            {
+              "text": "Milieu criminel (Pègre)",
+              "bold": true
+            },
+            {
+              "text": ", elle représenterait plutôt des policiers corrompus, des agents infiltrés ou du personnel subalterne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute structure sociale cohérente et influente peut constituer une spécialisation. Le Conteur doit encourager la variété, mais refuser les catégories trop larges. Toute spécialisation doit être validée.",
+          "spans": [
+            {
+              "text": "Toute structure sociale cohérente et influente peut constituer une spécialisation. Le Conteur doit encourager la variété, mais refuser les catégories trop larges. Toute spécialisation doit être validée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemples :",
+          "spans": [
+            {
+              "text": "Exemples :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Blogueurs",
+          "spans": [
+            {
+              "text": "Blogueurs",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chaînes de télévision",
+          "spans": [
+            {
+              "text": "Chaînes de télévision",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Banques",
+          "spans": [
+            {
+              "text": "Banques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Gangs de rue",
+          "spans": [
+            {
+              "text": "Gangs de rue",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Industrie de la mode",
+          "spans": [
+            {
+              "text": "Industrie de la mode",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Aéroports",
+          "spans": [
+            {
+              "text": "Aéroports",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sidérurgie",
+          "spans": [
+            {
+              "text": "Sidérurgie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Théâtre",
+          "spans": [
+            {
+              "text": "Théâtre",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Syndicats de transport",
+          "spans": [
+            {
+              "text": "Syndicats de transport",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sans-abri",
+          "spans": [
+            {
+              "text": "Sans-abri",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Entreprises de jeux vidéo",
+          "spans": [
+            {
+              "text": "Entreprises de jeux vidéo",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Églises catholiques",
+          "spans": [
+            {
+              "text": "Églises catholiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pompes funèbres",
+          "spans": [
+            {
+              "text": "Pompes funèbres",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Chauffeurs de taxi",
+          "spans": [
+            {
+              "text": "Chauffeurs de taxi",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des spécialisations trop générales (« médecins », « gouvernement », « commerce ») doivent être restreintes (ex. : « pathologistes », « administration municipale », « université spécifique »).",
+          "spans": [
+            {
+              "text": "Des spécialisations trop générales (« médecins », « gouvernement », « commerce ») doivent être restreintes (ex. : « pathologistes », « administration municipale », « université spécifique »).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Actions d’Influence",
+          "spans": [
+            {
+              "text": "Actions d’Influence",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque point dans un Historique d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
+          "spans": [
+            {
+              "text": "Chaque point dans un Historique d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences — les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
+          "spans": [
+            {
+              "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences — les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions d’Influence ne peuvent pas être conservées d’un mois à l’autre. Un personnage doit être capable de dépenser l’intégralité des actions nécessaires à un effet donné au cours d’un même mois.",
+          "spans": [
+            {
+              "text": "Les actions d’Influence ne peuvent pas être conservées d’un mois à l’autre. Un personnage doit être capable de dépenser l’intégralité des actions nécessaires à un effet donné au cours d’un même mois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Actions d’Influence ciblées",
+          "spans": [
+            {
+              "text": "Actions d’Influence ciblées",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions ciblées permettent les opérations suivantes :",
+          "spans": [
+            {
+              "text": "Les actions ciblées permettent les opérations suivantes :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Attaquer",
+          "spans": [
+            {
+              "text": "Attaquer",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Bloquer",
+          "spans": [
+            {
+              "text": "Bloquer",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Renforcer",
+          "spans": [
+            {
+              "text": "Renforcer",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Défendre",
+          "spans": [
+            {
+              "text": "Défendre",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attaque",
+          "spans": [
+            {
+              "text": "Attaque",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser des actions d’Influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
+          "spans": [
+            {
+              "text": "Vous pouvez dépenser des actions d’Influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même catégorie : ",
+          "spans": [
+            {
+              "text": "Même catégorie : ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "2 actions par point réduit",
+          "spans": [
+            {
+              "text": "2 actions par point réduit",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Catégorie opposée : 3 actions par point réduit",
+          "spans": [
+            {
+              "text": "Catégorie opposée : 3 actions par point réduit",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple :",
+          "spans": [
+            {
+              "text": "Exemple :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sariah possède une Influence Élite de 4 et souhaite affaiblir Persephone. Réduire l’Influence Élite de Persephone de 1 coûte 2 actions ; réduire son Influence Milieu criminel de 1 coûte 3 actions. Réduire son Influence Élite de 2 nécessite 4 actions. En revanche, réduire son Influence Milieu criminel de 2 nécessiterait 6 actions, ce que Sariah ne peut accomplir seule.",
+          "spans": [
+            {
+              "text": "Sariah possède une Influence Élite de 4 et souhaite affaiblir Persephone. Réduire l’Influence Élite de Persephone de 1 coûte 2 actions ; réduire son Influence Milieu criminel de 1 coûte 3 actions. Réduire son Influence Élite de 2 nécessite 4 actions. En revanche, réduire son Influence Milieu criminel de 2 nécessiterait 6 actions, ce que Sariah ne peut accomplir seule.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour attaquer une Influence, vous devez avoir observé la cible interagir avec celle-ci au cours du dernier mois, ou avoir enquêté sur les résultats de ses actions. Il n’est pas nécessaire d’identifier le propriétaire de l’Influence.",
+          "spans": [
+            {
+              "text": "Pour attaquer une Influence, vous devez avoir observé la cible interagir avec celle-ci au cours du dernier mois, ou avoir enquêté sur les résultats de ses actions. Il n’est pas nécessaire d’identifier le propriétaire de l’Influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent d’actions non dépensées. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+          "spans": [
+            {
+              "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent d’actions non dépensées. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les niveaux d’Influence perdus (ainsi que les actions associées) sont récupérés après deux parties ou un mois. Les actions perdues ne sont pas récupérées.",
+          "spans": [
+            {
+              "text": "Les niveaux d’Influence perdus (ainsi que les actions associées) sont récupérés après deux parties ou un mois. Les actions perdues ne sont pas récupérées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Défense",
+          "spans": [
+            {
+              "text": "Défense",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant des actions d’Influence pour défendre, vous protégez vos Influences pendant un mois. Chaque action dépensée réduit la perte potentielle d’un niveau.",
+          "spans": [
+            {
+              "text": "En dépensant des actions d’Influence pour défendre, vous protégez vos Influences pendant un mois. Chaque action dépensée réduit la perte potentielle d’un niveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante.",
+          "spans": [
+            {
+              "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions de défense doivent être déclarées avant toute attaque.",
+          "spans": [
+            {
+              "text": "Les actions de défense doivent être déclarées avant toute attaque.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Blocage",
+          "spans": [
+            {
+              "text": "Blocage",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser des actions pour augmenter la difficulté des actions générales.",
+          "spans": [
+            {
+              "text": "Vous pouvez dépenser des actions pour augmenter la difficulté des actions générales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque action de blocage impose un coût supplémentaire d’une action pour l’activité ciblée.",
+          "spans": [
+            {
+              "text": "Chaque action de blocage impose un coût supplémentaire d’une action pour l’activité ciblée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à en dépenser 3 au total pour y parvenir.",
+          "spans": [
+            {
+              "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à en dépenser 3 au total pour y parvenir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le blocage ne s’applique qu’aux actions générales.",
+          "spans": [
+            {
+              "text": "Le blocage ne s’applique qu’aux actions générales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Renforcement",
+          "spans": [
+            {
+              "text": "Renforcement",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez augmenter temporairement l’Influence d’un autre personnage.",
+          "spans": [
+            {
+              "text": "Vous pouvez augmenter temporairement l’Influence d’un autre personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le coût est égal au niveau actuel de la cible.",
+          "spans": [
+            {
+              "text": "Le coût est égal au niveau actuel de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple : passer de 5 à 6 nécessite 5 actions.",
+          "spans": [
+            {
+              "text": "Exemple : passer de 5 à 6 nécessite 5 actions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Maximum : ",
+          "spans": [
+            {
+              "text": "Maximum : ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "niveau 10",
+          "spans": [
+            {
+              "text": "niveau 10",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Même catégorie uniquement",
+          "spans": [
+            {
+              "text": "Même catégorie uniquement",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Effet valable jusqu’à la fin du mois",
+          "spans": [
+            {
+              "text": "Effet valable jusqu’à la fin du mois",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Impossible de se renforcer soi-même",
+          "spans": [
+            {
+              "text": "Impossible de se renforcer soi-même",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_1",
+          "text": "Actions d’Influence générales",
+          "spans": [
+            {
+              "text": "Actions d’Influence générales",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque catégorie d’Influence propose des actions spécifiques selon le niveau.",
+          "spans": [
+            {
+              "text": "Chaque catégorie d’Influence propose des actions spécifiques selon le niveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour obtenir un effet, vous devez dépenser 1 action et posséder le niveau requis.",
+          "spans": [
+            {
+              "text": "Pour obtenir un effet, vous devez dépenser 1 action et posséder le niveau requis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l’action correspond à une spécialisation, votre Influence est considérée comme supérieure de 1 niveau.",
+          "spans": [
+            {
+              "text": "Si l’action correspond à une spécialisation, votre Influence est considérée comme supérieure de 1 niveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions générales ne peuvent pas être combinées entre catégories.",
+          "spans": [
+            {
+              "text": "Les actions générales ne peuvent pas être combinées entre catégories.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attaques indirectes",
+          "spans": [
+            {
+              "text": "Attaques indirectes",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les actions générales peuvent être utilisées pour nuire à d’autres personnages.",
+          "spans": [
+            {
+              "text": "Les actions générales peuvent être utilisées pour nuire à d’autres personnages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut : ",
+          "spans": [
+            {
+              "text": "Le Conteur peut : ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "jouer la scène",
+          "spans": [
+            {
+              "text": "jouer la scène",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou appliquer un effet mécanique",
+          "spans": [
+            {
+              "text": "ou appliquer un effet mécanique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effet mécanique :",
+          "spans": [
+            {
+              "text": "Effet mécanique :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Perte de 1 action d’intervalle par tranche de 2 niveaux d’Influence",
+          "spans": [
+            {
+              "text": "Perte de 1 action d’intervalle par tranche de 2 niveaux d’Influence",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si insuffisant :",
+          "spans": [
+            {
+              "text": "Si insuffisant :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "perte totale des actions puis perte d’un autre Historique",
+          "spans": [
+            {
+              "text": "perte totale des actions puis perte d’un autre Historique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "sinon : réduction de 3 points de Sang",
+          "spans": [
+            {
+              "text": "sinon : réduction de 3 points de Sang",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Durée : deux parties ou un mois.",
+          "spans": [
+            {
+              "text": "Durée : deux parties ou un mois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_1",
+          "text": "Actions d’Influence — Élite",
+          "spans": [
+            {
+              "text": "Actions d’Influence — Élite",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 1 : Un ami dans le besoin",
+          "spans": [
+            {
+              "text": "Niveau 1 : Un ami dans le besoin",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service — voire à vous prêter leurs biens — tant que vous entretenez de bonnes relations.",
+          "spans": [
+            {
+              "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service — voire à vous prêter leurs biens — tant que vous entretenez de bonnes relations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous pouvez « emprunter » les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de 1 000 $ par point d’Influence Élite que vous possédez.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous pouvez « emprunter » les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de ",
+              "bold": false
+            },
+            {
+              "text": "1 000 $ par point d’Influence Élite",
+              "bold": true
+            },
+            {
+              "text": " que vous possédez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut s’agir, par exemple, d’un yacht pour organiser une réception, d’un penthouse pour une réunion privée ou encore d’une galerie d’art pour impressionner votre sire.",
+          "spans": [
+            {
+              "text": "Il peut s’agir, par exemple, d’un yacht pour organiser une réception, d’un penthouse pour une réunion privée ou encore d’une galerie d’art pour impressionner votre sire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 2 : Rumeurs et délits d’initiés",
+          "spans": [
+            {
+              "text": "Niveau 2 : Rumeurs et délits d’initiés",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les rumeurs circulent dans les cercles de la haute société comme des carpes dans un bassin tranquille, suivant les flux et reflux du pouvoir. Ceux qui savent peuvent faire la différence entre rester au sommet ou disparaître.",
+          "spans": [
+            {
+              "text": "Les rumeurs circulent dans les cercles de la haute société comme des carpes dans un bassin tranquille, suivant les flux et reflux du pouvoir. Ceux qui savent peuvent faire la différence entre rester au sommet ou disparaître.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez des informations concernant toute utilisation récente de l’Influence Élite (au cours des 3 derniers mois) en lien avec vos spécialisations.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez des informations concernant toute utilisation récente de l’Influence Élite (au cours des 3 derniers mois) en lien avec vos spécialisations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous apprenez quelles institutions ou quels mortels sont impliqués, ainsi que la nature des actions entreprises. Vous n’apprenez pas l’identité du ou des responsables.",
+          "spans": [
+            {
+              "text": "Vous apprenez quelles institutions ou quels mortels sont impliqués, ainsi que la nature des actions entreprises. Vous n’apprenez pas l’identité du ou des responsables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces informations peuvent être utilisées pour cibler ces Influences via une action d’attaque. Le Conteur peut également fournir des indices liés à l’intrigue ou à des événements inhabituels.",
+          "spans": [
+            {
+              "text": "Ces informations peuvent être utilisées pour cibler ces Influences via une action d’attaque. Le Conteur peut également fournir des indices liés à l’intrigue ou à des événements inhabituels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 3 : Erreurs administratives",
+          "spans": [
+            {
+              "text": "Niveau 3 : Erreurs administratives",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes — et facilement manipulables.",
+          "spans": [
+            {
+              "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes — et facilement manipulables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous manipulez le système afin d’obtenir des avantages coûteux et généralement légaux : modification de dossiers administratifs, altération de rapports, arrestation abusive d’un mortel, mobilisation policière, acquisition d’une arme légale, obtention de faux papiers, etc.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous manipulez le système afin d’obtenir des avantages coûteux et généralement légaux : modification de dossiers administratifs, altération de rapports, arrestation abusive d’un mortel, mobilisation policière, acquisition d’une arme légale, obtention de faux papiers, etc.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 4 : Faire disparaître les problèmes",
+          "spans": [
+            {
+              "text": "Niveau 4 : Faire disparaître les problèmes",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque problème a une solution — surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
+          "spans": [
+            {
+              "text": "Chaque problème a une solution — surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous effacez un problème gênant : témoins réduits au silence, articles supprimés, alibis fabriqués, violations de la Mascarade dissimulées.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous effacez un problème gênant : témoins réduits au silence, articles supprimés, alibis fabriqués, violations de la Mascarade dissimulées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 5 : Accès restreint",
+          "spans": [
+            {
+              "text": "Niveau 5 : Accès restreint",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains lieux ne sont accessibles qu’à une élite triée sur le volet, protégés par des mesures de sécurité strictes.",
+          "spans": [
+            {
+              "text": "Certains lieux ne sont accessibles qu’à une élite triée sur le volet, protégés par des mesures de sécurité strictes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous sécurisez une zone équivalente à un manoir ou un petit bâtiment. Pendant 24 heures :",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous sécurisez une zone équivalente à un manoir ou un petit bâtiment. Pendant 24 heures :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous contrôlez la sécuritévous influencez la réponse policière",
+          "spans": [
+            {
+              "text": "vous contrôlez la sécuritévous influencez la réponse policière",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous régulez l’accès dans un rayon d’environ 800 mètres",
+          "spans": [
+            {
+              "text": "vous régulez l’accès dans un rayon d’environ 800 mètres",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Obfuscation).",
+          "spans": [
+            {
+              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Obfuscation).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative d’Influence hostile doit surmonter un blocage de niveau 5.",
+          "spans": [
+            {
+              "text": "Toute tentative d’Influence hostile doit surmonter un ",
+              "bold": false
+            },
+            {
+              "text": "blocage de niveau 5",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 6 : Tout a un prix",
+          "spans": [
+            {
+              "text": "Niveau 6 : Tout a un prix",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le monde appartient à ceux qui savent acheter, manipuler ou détruire. La morale n’est qu’une variable secondaire.",
+          "spans": [
+            {
+              "text": "Le monde appartient à ceux qui savent acheter, manipuler ou détruire. La morale n’est qu’une variable secondaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez une faveur majeure, même illégale : évasion de prison, acquisition de drogues, manipulation médiatique, obtention d’armes illégales, sabotage personnel, etc.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez une faveur majeure, même illégale : évasion de prison, acquisition de drogues, manipulation médiatique, obtention d’armes illégales, sabotage personnel, etc.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 7 : Collection privée",
+          "spans": [
+            {
+              "text": "Niveau 7 : Collection privée",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Accéder aux objets les plus rares exige des connexions exceptionnelles.",
+          "spans": [
+            {
+              "text": "Accéder aux objets les plus rares exige des connexions exceptionnelles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez l’accès temporaire à un objet rare ou unique (artefact, œuvre, etc.).",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez l’accès temporaire à un objet rare ou unique (artefact, œuvre, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l’objet est perdu, volé ou endommagé, votre Influence est réduite de 2 niveaux pendant 4 parties ou 2 mois.",
+          "spans": [
+            {
+              "text": "Si l’objet est perdu, volé ou endommagé, votre Influence est réduite de ",
+              "bold": false
+            },
+            {
+              "text": "2 niveaux",
+              "bold": true
+            },
+            {
+              "text": " pendant ",
+              "bold": false
+            },
+            {
+              "text": "4 parties ou 2 mois",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne peut pas cibler des objets appartenant à des personnages joueurs.",
+          "spans": [
+            {
+              "text": "Ne peut pas cibler des objets appartenant à des personnages joueurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 8 : Scandale médiatique",
+          "spans": [
+            {
+              "text": "Niveau 8 : Scandale médiatique",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une crise bien orchestrée attire toute l’attention et détourne les regards.",
+          "spans": [
+            {
+              "text": "Une crise bien orchestrée attire toute l’attention et détourne les regards.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur à l’échelle d’une ville : mobilisation médiatique, crise publique, perturbation sociale, décisions politiques ou économiques importantes.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur à l’échelle d’une ville : mobilisation médiatique, crise publique, perturbation sociale, décisions politiques ou économiques importantes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 9 : Le pouvoir derrière le trône",
+          "spans": [
+            {
+              "text": "Niveau 9 : Le pouvoir derrière le trône",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le véritable pouvoir ne se montre pas — il agit dans l’ombre.",
+          "spans": [
+            {
+              "text": "Le véritable pouvoir ne se montre pas — il agit dans l’ombre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous provoquez un événement durable et majeur :",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous provoquez un événement durable et majeur :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "élection manipulée, paralysie des services publics, sabotage massif, destruction de propriété, etc.",
+          "spans": [
+            {
+              "text": "élection manipulée, paralysie des services publics, sabotage massif, destruction de propriété, etc.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 10 : Influence régionale",
+          "spans": [
+            {
+              "text": "Niveau 10 : Influence régionale",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre pouvoir s’étend bien au-delà d’une ville : vous façonnez la société elle-même.",
+          "spans": [
+            {
+              "text": "Votre pouvoir s’étend bien au-delà d’une ville : vous façonnez la société elle-même.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets de vos actions générales d’Influence s’appliquent à toute une région (État, territoire ou petit pays).",
+          "spans": [
+            {
+              "text": "Les effets de vos actions générales d’Influence s’appliquent à ",
+              "bold": false
+            },
+            {
+              "text": "toute une région",
+              "bold": true
+            },
+            {
+              "text": " (État, territoire ou petit pays).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette capacité n’affecte pas les actions ciblées.",
+          "spans": [
+            {
+              "text": "Cette capacité n’affecte pas les actions ciblées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_1",
+          "text": "Influence — Pègre",
+          "spans": [
+            {
+              "text": "Influence — Pègre",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 1 : Libre circulation",
+          "spans": [
+            {
+              "text": "Niveau 1 : Libre circulation",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vols, agressions, trafics : certains quartiers sont tout simplement trop dangereux pour être traversés sans protection.",
+          "spans": [
+            {
+              "text": "Vols, agressions, trafics : certains quartiers sont tout simplement trop dangereux pour être traversés sans protection.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous pouvez circuler librement dans n’importe quelle zone de la ville sans être inquiété par les gangs ou les criminels. De plus, les forces de l’ordre auront tendance à fermer les yeux, vous permettant de vous déplacer discrètement et sans surveillance dans les quartiers sensibles.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous pouvez circuler librement dans n’importe quelle zone de la ville sans être inquiété par les gangs ou les criminels. De plus, les forces de l’ordre auront tendance à fermer les yeux, vous permettant de vous déplacer discrètement et sans surveillance dans les quartiers sensibles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 2 : Bruits de la rue",
+          "spans": [
+            {
+              "text": "Niveau 2 : Bruits de la rue",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les rumeurs se faufilent dans les bas-fonds et se propagent dans les rues, révélant les secrets du quotidien. Ce qui semblait perdu peut être reconstitué avec patience et les bons contacts.",
+          "spans": [
+            {
+              "text": "Les rumeurs se faufilent dans les bas-fonds et se propagent dans les rues, révélant les secrets du quotidien. Ce qui semblait perdu peut être reconstitué avec patience et les bons contacts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez des informations concernant toute utilisation récente de l’Influence du Milieu criminel (au cours des 3 derniers mois) liée à vos spécialisations.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez des informations concernant toute utilisation récente de l’Influence du Milieu criminel (au cours des 3 derniers mois) liée à vos spécialisations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous apprenez quelles institutions ou quels mortels sont impliqués, ainsi que la nature des actions effectuées, sans connaître l’identité du ou des responsables.",
+          "spans": [
+            {
+              "text": "Vous apprenez quelles institutions ou quels mortels sont impliqués, ainsi que la nature des actions effectuées, sans connaître l’identité du ou des responsables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces informations peuvent être utilisées pour lancer une attaque ciblée contre ces Influences. Le Conteur peut également fournir des informations sur des intrigues locales ou des événements inhabituels.",
+          "spans": [
+            {
+              "text": "Ces informations peuvent être utilisées pour lancer une attaque ciblée contre ces Influences. Le Conteur peut également fournir des informations sur des intrigues locales ou des événements inhabituels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 3 : Faveurs illégales",
+          "spans": [
+            {
+              "text": "Niveau 3 : Faveurs illégales",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses — tant qu’elles ne font pas de vagues.",
+          "spans": [
+            {
+              "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses — tant qu’elles ne font pas de vagues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez une faveur importante, généralement illégale : évasion, acquisition de drogues, manipulation médiatique, obtention d’armes non enregistrées, ou nuisance ciblée envers un individu.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez une faveur importante, généralement illégale : évasion, acquisition de drogues, manipulation médiatique, obtention d’armes non enregistrées, ou nuisance ciblée envers un individu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 4 : Exposer le linge sale",
+          "spans": [
+            {
+              "text": "Niveau 4 : Exposer le linge sale",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le scandale attire toujours l’attention. Il suffit de savoir où frapper.",
+          "spans": [
+            {
+              "text": "Le scandale attire toujours l’attention. Il suffit de savoir où frapper.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur à l’échelle d’une ville : mobilisation médiatique, manifestations, troubles publics.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur à l’échelle d’une ville : mobilisation médiatique, manifestations, troubles publics.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ standard (niveau 4 ou inférieur).",
+          "spans": [
+            {
+              "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ standard (niveau 4 ou inférieur).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 5 : Verrouillage",
+          "spans": [
+            {
+              "text": "Niveau 5 : Verrouillage",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque territoire appartient à quelqu’un — et vous savez à qui.",
+          "spans": [
+            {
+              "text": "Chaque territoire appartient à quelqu’un — et vous savez à qui.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous sécurisez une zone équivalente à un grand entrepôt ou un petit bâtiment. Pendant 24 heures :",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous sécurisez une zone équivalente à un grand entrepôt ou un petit bâtiment. Pendant 24 heures :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous contrôlez la sécurité ",
+          "spans": [
+            {
+              "text": "vous contrôlez la sécurité ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous influencez la réponse policière ",
+          "spans": [
+            {
+              "text": "vous influencez la réponse policière ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous régulez l’accès dans un rayon d’environ 800 mètres",
+          "spans": [
+            {
+              "text": "vous régulez l’accès dans un rayon d’environ 800 mètres",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Obfuscation).",
+          "spans": [
+            {
+              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Obfuscation).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative d’Influence hostile doit surmonter un blocage de niveau 5.",
+          "spans": [
+            {
+              "text": "Toute tentative d’Influence hostile doit surmonter un ",
+              "bold": false
+            },
+            {
+              "text": "blocage de niveau 5",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 6 : Tirer les ficelles",
+          "spans": [
+            {
+              "text": "Niveau 6 : Tirer les ficelles",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à vos relations et votre sens des affaires, vous pouvez manipuler les rouages du système.",
+          "spans": [
+            {
+              "text": "Grâce à vos relations et votre sens des affaires, vous pouvez manipuler les rouages du système.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez des faveurs importantes et généralement légales : redirection de fonds, influence politique locale, mobilisation policière, acquisition d’armes légales, organisation d’événements urbains majeurs.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez des faveurs importantes et généralement légales : redirection de fonds, influence politique locale, mobilisation policière, acquisition d’armes légales, organisation d’événements urbains majeurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 7 : Fermer les yeux",
+          "spans": [
+            {
+              "text": "Niveau 7 : Fermer les yeux",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La survie dépend souvent du silence — et vous savez imposer ce silence.",
+          "spans": [
+            {
+              "text": "La survie dépend souvent du silence — et vous savez imposer ce silence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous effacez un problème gênant : témoins achetés, preuves supprimées, alibis fabriqués, violations de la Mascarade dissimulées.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous effacez un problème gênant : témoins achetés, preuves supprimées, alibis fabriqués, violations de la Mascarade dissimulées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 8 : Vouloir. Prendre. Posséder.",
+          "spans": [
+            {
+              "text": "Niveau 8 : Vouloir. Prendre. Posséder.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe toujours une faille dans un système — et quelqu’un prêt à en profiter.",
+          "spans": [
+            {
+              "text": "Il existe toujours une faille dans un système — et quelqu’un prêt à en profiter.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous obtenez un objet rare ou unique (artefact, pièce précieuse, etc.).",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous obtenez un objet rare ou unique (artefact, pièce précieuse, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à l’Élite, vous pouvez perdre ou endommager cet objet sans pénalité mécanique, mais cela peut attirer l’attention des autorités.",
+          "spans": [
+            {
+              "text": "Contrairement à l’Élite, vous pouvez perdre ou endommager cet objet sans pénalité mécanique, mais cela peut attirer l’attention des autorités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ne peut pas cibler des objets appartenant à des personnages joueurs.",
+          "spans": [
+            {
+              "text": "Ne peut pas cibler des objets appartenant à des personnages joueurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 9 : Une offre impossible à refuser",
+          "spans": [
+            {
+              "text": "Niveau 9 : Une offre impossible à refuser",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir véritable réside dans la contrainte — et dans les choix qui n’en sont pas.",
+          "spans": [
+            {
+              "text": "Le pouvoir véritable réside dans la contrainte — et dans les choix qui n’en sont pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur et durable : légalisation d’activités illégales, scandales publics, émeutes, manipulation judiciaire, délocalisations économiques, truquage d’événements importants.",
+          "spans": [
+            {
+              "text": "En dépensant 1 action d’Influence, vous provoquez un événement majeur et durable : légalisation d’activités illégales, scandales publics, émeutes, manipulation judiciaire, délocalisations économiques, truquage d’événements importants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau 10 : Influence régionale",
+          "spans": [
+            {
+              "text": "Niveau 10 : Influence régionale",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre pouvoir s’étend à l’échelle d’une région entière.",
+          "spans": [
+            {
+              "text": "Votre pouvoir s’étend à l’échelle d’une région entière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les effets de vos actions générales s’appliquent à l’ensemble d’une région (État, territoire ou petit pays).",
+          "spans": [
+            {
+              "text": "Les effets de vos actions générales s’appliquent à ",
+              "bold": false
+            },
+            {
+              "text": "l’ensemble d’une région",
+              "bold": true
+            },
+            {
+              "text": " (État, territoire ou petit pays).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette capacité n’affecte pas les actions ciblées.",
+          "spans": [
+            {
+              "text": "Cette capacité n’affecte pas les actions ciblées.",
               "bold": false
             }
           ]

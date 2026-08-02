@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-07-30T22:44:35.582Z",
+  "generatedAt": "2026-08-02T15:05:02.353Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -4213,7 +4213,7 @@
       "slug": "notoriete",
       "title": "Notoriété",
       "notionUrl": "https://app.notion.com/p/Notori-t-39688b48e48e80ed8b95cb3f92eb63cc",
-      "lastEditedTime": "2026-07-09T15:48:00.000Z",
+      "lastEditedTime": "2026-08-01T15:52:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -4247,6 +4247,16 @@
           "spans": [
             {
               "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous avez une mauvaise réputation parmi les vampires. Cela peut provenir de quelque chose que vous avez fait dans le passé ou peut-être est-ce lié à votre père, votre lignée, ou autres choses.",
+          "spans": [
+            {
+              "text": "Vous avez une mauvaise réputation parmi les vampires. Cela peut provenir de quelque chose que vous avez fait dans le passé ou peut-être est-ce lié à votre père, votre lignée, ou autres choses.",
               "bold": false
             }
           ]
@@ -4677,7 +4687,7 @@
       "slug": "porteur-de-maladie",
       "title": "Porteur de Maladie",
       "notionUrl": "https://app.notion.com/p/Porteur-de-Maladie-39688b48e48e80348ecbd6108b9a015b",
-      "lastEditedTime": "2026-07-09T15:50:00.000Z",
+      "lastEditedTime": "2026-08-01T15:53:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -4711,6 +4721,16 @@
           "spans": [
             {
               "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre sang porte une maladie mortelle et hautement contagieuse. Cette maladie peut être n'importe quoi de la peste noire, à la rage ou encore la variole. Les mortels dont vous vous nourrissez contractent toujours cette maladie, et c'est habituellement mortel. Quand vous vous nourrissez sur un mortel spécialisé en Endurance, il se rétablit en cinq jours. Les autres mortels meurent toujours.\nLorsque vous utilisez une action d'immobilisation pour vous nourrir, vous devez passer une action supplémentaire pour vous nourrir en toute sécurité, sinon vous êtes consciemment en train d’assassiner les mortels en propageant votre maladie. Si vous ne vous nourrissez pas en toute sécurité, vous gagnez des traits de Bête au début du prochain jeu, comme si vous aviez commis un meurtre. Si vous devez vous nourrir pendant le jeu, vous devez dépenser deux fois plus longtemps pour vous nourrir, ou vous ne vous êtes pas nourri en toute sécurité, et vous souffrez immédiatement de cette même pénalité.",
+          "spans": [
+            {
+              "text": "Votre sang porte une maladie mortelle et hautement contagieuse. Cette maladie peut être n'importe quoi de la peste noire, à la rage ou encore la variole. Les mortels dont vous vous nourrissez contractent toujours cette maladie, et c'est habituellement mortel. Quand vous vous nourrissez sur un mortel spécialisé en Endurance, il se rétablit en cinq jours. Les autres mortels meurent toujours.\nLorsque vous utilisez une action d'immobilisation pour vous nourrir, vous devez passer une action supplémentaire pour vous nourrir en toute sécurité, sinon vous êtes consciemment en train d’assassiner les mortels en propageant votre maladie. Si vous ne vous nourrissez pas en toute sécurité, vous gagnez des traits de Bête au début du prochain jeu, comme si vous aviez commis un meurtre. Si vous devez vous nourrir pendant le jeu, vous devez dépenser deux fois plus longtemps pour vous nourrir, ou vous ne vous êtes pas nourri en toute sécurité, et vous souffrez immédiatement de cette même pénalité.",
               "bold": false
             }
           ]
