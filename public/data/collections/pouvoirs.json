@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-02T16:09:54.895Z",
+  "generatedAt": "2026-08-02T16:53:45.890Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -10076,6 +10076,652 @@
           "spans": [
             {
               "text": "Quand vous assumez la Forme Élémentaire, vous pouvez devenir un objet aussi petit que la moitié de votre taille normale ou aussi large que le double que votre taille normale.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b088b48-e48e-8037-a54a-fc38b37fe8f2",
+      "slug": "forme-monstrueuse",
+      "title": "Forme Monstrueuse",
+      "notionUrl": "https://app.notion.com/p/Forme-Monstrueuse-3b088b48e48e8037a54afc38b37fe8f2",
+      "lastEditedTime": "2026-08-02T16:49:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forme Monstrueuse"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre corps peut se transformer en une abomination monstrueuse et difforme, se tordant jusqu'à devenir une créature digne des cauchemars de H. R. Giger.",
+          "spans": [
+            {
+              "text": "Votre corps peut se transformer en une abomination monstrueuse et difforme, se tordant jusqu'à devenir une créature digne des cauchemars de H. R. Giger.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des pointes osseuses peuvent jaillir de votre corps, vous pouvez vous couvrir de fourrure ou de poils, développer de nombreux yeux ou adopter toute autre caractéristique que votre imagination perverse peut concevoir.",
+          "spans": [
+            {
+              "text": "Des pointes osseuses peuvent jaillir de votre corps, vous pouvez vous couvrir de fourrure ou de poils, développer de nombreux yeux ou adopter toute autre caractéristique que votre imagination perverse peut concevoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en un immense monstre inhumain.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en un immense monstre inhumain.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous Forme Horrible :",
+          "spans": [
+            {
+              "text": "Sous Forme Horrible :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous subissez 3 à vos Attributs Mental et Social ;",
+          "spans": [
+            {
+              "text": "vous subissez 3 à vos Attributs Mental et Social ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous obtenez le Focus Physique Force ;",
+          "spans": [
+            {
+              "text": "vous obtenez le Focus Physique Force ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous bénéficiez de +3 à votre Attribut Physique lors de vos attaques de Bagarre ;",
+          "spans": [
+            {
+              "text": "vous bénéficiez de +3 à votre Attribut Physique lors de vos attaques de Bagarre ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vos attaques de Bagarre infligent des dégâts aggravés.",
+          "spans": [
+            {
+              "text": "vos attaques de Bagarre infligent des dégâts aggravés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Forme Monstrueuse est un pouvoir de transformation et ne peut donc pas être combinée avec un autre pouvoir de transformation.",
+          "spans": [
+            {
+              "text": "Forme Monstrueuse est un pouvoir de transformation et ne peut donc pas être combinée avec un autre pouvoir de transformation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre bonus aux attaques basées sur Bagarre passe de +3 à +5.",
+          "spans": [
+            {
+              "text": "Votre bonus aux attaques basées sur Bagarre passe de +3 à +5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre apparence est également terrifiante.",
+          "spans": [
+            {
+              "text": "Votre apparence est également terrifiante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les adversaires dont la Volonté actuelle est inférieure à la vôtre subissent un malus de -2 lorsqu'ils vous attaquent avec des attaques ou pouvoirs basés sur Mêlée ou Bagarre.",
+          "spans": [
+            {
+              "text": "Les adversaires dont la Volonté actuelle est inférieure à la vôtre subissent un malus de -2 lorsqu'ils vous attaquent avec des attaques ou pouvoirs basés sur Mêlée ou Bagarre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce malus s'applique toujours aux PNJ ne possédant pas de valeur de Volonté.",
+          "spans": [
+            {
+              "text": "Ce malus s'applique toujours aux PNJ ne possédant pas de valeur de Volonté.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b088b48-e48e-80fa-a654-cd8beaaefedb",
+      "slug": "forme-sanglante",
+      "title": "Forme Sanglante",
+      "notionUrl": "https://app.notion.com/p/Forme-Sanglante-3b088b48e48e80faa654cd8beaaefedb",
+      "lastEditedTime": "2026-08-02T16:50:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Forme Sanglante"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En vous concentrant brièvement, vous pouvez liquéfier votre corps jusqu'à devenir une mare de sang.",
+          "spans": [
+            {
+              "text": "En vous concentrant brièvement, vous pouvez liquéfier votre corps jusqu'à devenir une mare de sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous cette forme, vous restez conscient et capable de percevoir le monde qui vous entoure. Vous êtes désormais une créature liquide évoluant dans un monde d'êtres prisonniers de leur forme solide.",
+          "spans": [
+            {
+              "text": "Sous cette forme, vous restez conscient et capable de percevoir le monde qui vous entoure. Vous êtes désormais une créature liquide évoluant dans un monde d'êtres prisonniers de leur forme solide.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en une mare de sang.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en une mare de sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous Forme de Sang, vous ne pouvez pas :",
+          "spans": [
+            {
+              "text": "Sous Forme de Sang, vous ne pouvez pas :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "dépenser de Sang ;",
+          "spans": [
+            {
+              "text": "dépenser de Sang ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "parler ;",
+          "spans": [
+            {
+              "text": "parler ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "activer de pouvoirs ;",
+          "spans": [
+            {
+              "text": "activer de pouvoirs ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "effectuer d'attaques physiques.",
+          "spans": [
+            {
+              "text": "effectuer d'attaques physiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En revanche, vous êtes immunisé contre les attaques Physiques, à l'exception de celles provenant du feu ou de la lumière du soleil.",
+          "spans": [
+            {
+              "text": "En revanche, vous êtes immunisé contre les attaques Physiques, à l'exception de celles provenant du feu ou de la lumière du soleil.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attaques non Physiques peuvent toujours vous blesser.",
+          "spans": [
+            {
+              "text": "Les attaques non Physiques peuvent toujours vous blesser.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les armes enflammées, comme une torche ou une fusée de détresse, peuvent également vous infliger des dégâts. Les munitions incendiaires traversent cependant votre forme trop rapidement pour vous blesser.",
+          "spans": [
+            {
+              "text": "Les armes enflammées, comme une torche ou une fusée de détresse, peuvent également vous infliger des dégâts. Les munitions incendiaires traversent cependant votre forme trop rapidement pour vous blesser.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous êtes touché par une arme enflammée, vous pouvez dépenser 1 point de Sang afin d'éteindre immédiatement la flamme au moment où elle vous touche.",
+          "spans": [
+            {
+              "text": "Si vous êtes touché par une arme enflammée, vous pouvez dépenser 1 point de Sang afin d'éteindre immédiatement la flamme au moment où elle vous touche.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre forme est semi-gélatineuse, mais incapable de conserver une structure solide. Elle n'est pas humanoïde et ne peut ni marcher ni parler.",
+          "spans": [
+            {
+              "text": "Votre forme est semi-gélatineuse, mais incapable de conserver une structure solide. Elle n'est pas humanoïde et ne peut ni marcher ni parler.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Boire votre sang",
+          "spans": [
+            {
+              "text": "Boire votre sang",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres personnages peuvent tenter de boire directement votre Forme de Sang.",
+          "spans": [
+            {
+              "text": "Les autres personnages peuvent tenter de boire directement votre Forme de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'attaquant effectue un défi basé sur :",
+          "spans": [
+            {
+              "text": "L'attaquant effectue un défi basé sur :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attribut Physique + Bagarre",
+          "spans": [
+            {
+              "text": "Attribut Physique + Bagarre",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "contre :",
+          "spans": [
+            {
+              "text": "contre :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "votre Attribut Physique + Esquive",
+          "spans": [
+            {
+              "text": "votre Attribut Physique + Esquive",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, l'attaquant boit 1 point de votre Sang.",
+          "spans": [
+            {
+              "text": "En cas de réussite, l'attaquant boit 1 point de votre Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre réserve de Sang tombe à 0 sous cette forme, que ce soit parce qu'un personnage boit votre vitae ou en raison d'une dépense de Sang, vous subissez immédiatement la Mort Ultime.",
+          "spans": [
+            {
+              "text": "Si votre réserve de Sang tombe à 0 sous cette forme, que ce soit parce qu'un personnage boit votre vitae ou en raison d'une dépense de Sang, vous subissez immédiatement la Mort Ultime.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages disposant de très peu de Sang doivent donc se montrer particulièrement prudents avant d'utiliser ce pouvoir.",
+          "spans": [
+            {
+              "text": "Les personnages disposant de très peu de Sang doivent donc se montrer particulièrement prudents avant d'utiliser ce pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Déplacement",
+          "spans": [
+            {
+              "text": "Déplacement",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous Forme de Sang, vous pouvez traverser toute fissure, ouverture ou passage qu'un liquide pourrait normalement franchir.",
+          "spans": [
+            {
+              "text": "Sous Forme de Sang, vous pouvez traverser toute fissure, ouverture ou passage qu'un liquide pourrait normalement franchir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas :",
+          "spans": [
+            {
+              "text": "Vous ne pouvez pas :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "traverser des objets solides ;",
+          "spans": [
+            {
+              "text": "traverser des objets solides ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "franchir des passages hermétiques ;",
+          "spans": [
+            {
+              "text": "franchir des passages hermétiques ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "traverser une vitre ;",
+          "spans": [
+            {
+              "text": "traverser une vitre ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "voler.",
+          "spans": [
+            {
+              "text": "voler.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez cependant vous déplacer le long de surfaces inclinées ou verticales, notamment remonter un mur.",
+          "spans": [
+            {
+              "text": "Vous pouvez cependant vous déplacer le long de surfaces inclinées ou verticales, notamment remonter un mur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne subissez aucun dégât de chute.",
+          "spans": [
+            {
+              "text": "Vous ne subissez aucun dégât de chute.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre vitae liquide possède toujours une présence physique tangible. Un personnage peut vous toucher en passant sa main à travers votre forme, et vous pouvez toucher quelqu'un en vous écoulant jusqu'à lui.",
+          "spans": [
+            {
+              "text": "Votre vitae liquide possède toujours une présence physique tangible. Un personnage peut vous toucher en passant sa main à travers votre forme, et vous pouvez toucher quelqu'un en vous écoulant jusqu'à lui.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toucher quelqu'un ou éviter d'être touché peut nécessiter une attaque de Bagarre.",
+          "spans": [
+            {
+              "text": "Toucher quelqu'un ou éviter d'être touché peut nécessiter une attaque de Bagarre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Forme de Sang est un pouvoir de transformation et ne peut être combinée avec un autre pouvoir de transformation.",
+          "spans": [
+            {
+              "text": "Forme de Sang est un pouvoir de transformation et ne peut être combinée avec un autre pouvoir de transformation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au lieu de prendre la forme d'une simple mare de sang, vous pouvez adopter une forme gélatineuse vaguement humanoïde.",
+          "spans": [
+            {
+              "text": "Au lieu de prendre la forme d'une simple mare de sang, vous pouvez adopter une forme gélatineuse vaguement humanoïde.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette forme peut rester debout, conserver sa cohésion en marchant, effectuer des activités simples et parler.",
+          "spans": [
+            {
+              "text": "Cette forme peut rester debout, conserver sa cohésion en marchant, effectuer des activités simples et parler.",
               "bold": false
             }
           ]
@@ -24582,6 +25228,692 @@
       ]
     },
     {
+      "id": "3b088b48-e48e-801c-ba32-c95f829a2590",
+      "slug": "sculpture-de-la-chair",
+      "title": "Sculpture de la chair",
+      "notionUrl": "https://app.notion.com/p/Sculpture-de-la-chair-3b088b48e48e801cba32c95f829a2590",
+      "lastEditedTime": "2026-08-02T16:46:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sculpture de la chair"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La chair des autres créatures devient comme de l'argile entre vos mains, s'étirant et se déformant selon votre volonté. Vous pouvez apporter des modifications considérables à la chair et aux organes de toute créature que vous touchez.",
+          "spans": [
+            {
+              "text": "La chair des autres créatures devient comme de l'argile entre vos mains, s'étirant et se déformant selon votre volonté. Vous pouvez apporter des modifications considérables à la chair et aux organes de toute créature que vous touchez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible est consentante, dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier son apparence, selon les mêmes règles que Visage Malléable.",
+          "spans": [
+            {
+              "text": "Si la cible est consentante, dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier son apparence, selon les mêmes règles que Visage Malléable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En combat, vous pouvez utiliser 1 Action standard et dépenser 1 point de Sang pour effectuer une attaque basée sur Bagarre, augmentée par la Vicissitude.",
+          "spans": [
+            {
+              "text": "En combat, vous pouvez utiliser 1 Action standard et dépenser 1 point de Sang pour effectuer une attaque basée sur Bagarre, augmentée par la Vicissitude.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'attaque réussit, vous tordez, écrasez ou arrachez brutalement des morceaux de chair de votre cible, lui infligeant 1 point de dégâts normaux.",
+          "spans": [
+            {
+              "text": "Si l'attaque réussit, vous tordez, écrasez ou arrachez brutalement des morceaux de chair de votre cible, lui infligeant 1 point de dégâts normaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces dégâts :",
+          "spans": [
+            {
+              "text": "Ces dégâts :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peuvent être réduits ou annulés ;",
+          "spans": [
+            {
+              "text": "ne peuvent être réduits ou annulés ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peuvent être augmentés ou modifiés par d'autres pouvoirs ;",
+          "spans": [
+            {
+              "text": "ne peuvent être augmentés ou modifiés par d'autres pouvoirs ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peuvent pas être augmentés grâce à Puissance ;",
+          "spans": [
+            {
+              "text": "ne peuvent pas être augmentés grâce à Puissance ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peuvent pas devenir aggravés grâce à Griffes Sauvages ou un pouvoir similaire.",
+          "spans": [
+            {
+              "text": "ne peuvent pas devenir aggravés grâce à Griffes Sauvages ou un pouvoir similaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme les autres pouvoirs de Vicissitude, Modelage de la Chair nécessite de manipuler physiquement le corps de la cible.",
+          "spans": [
+            {
+              "text": "Comme les autres pouvoirs de Vicissitude, Modelage de la Chair nécessite de manipuler physiquement le corps de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce n'est pas un pouvoir de transformation et ses effets ne s'appliquent qu'à la forme normale de la cible.",
+          "spans": [
+            {
+              "text": "Ce n'est pas un pouvoir de transformation et ses effets ne s'appliquent qu'à la forme normale de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre attaque basée sur Bagarre inflige 2 points de dégâts normaux.",
+          "spans": [
+            {
+              "text": "Votre attaque basée sur Bagarre inflige 2 points de dégâts normaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces dégâts ne peuvent être réduits, annulés ou modifiés par d'autres pouvoirs.",
+          "spans": [
+            {
+              "text": "Ces dégâts ne peuvent être réduits, annulés ou modifiés par d'autres pouvoirs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser Modelage de la Chair sur une cible consentante en 3 Actions standards au lieu de 5.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser Modelage de la Chair sur une cible consentante en 3 Actions standards au lieu de 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les attaques utilisant ce pouvoir infligent désormais 2 dégâts normaux de base, ou 3 dégâts normaux en cas de Réussite exceptionnelle.",
+          "spans": [
+            {
+              "text": "Les attaques utilisant ce pouvoir infligent désormais 2 dégâts normaux de base, ou 3 dégâts normaux en cas de Réussite exceptionnelle.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b088b48-e48e-803f-afae-f5014871806e",
+      "slug": "sculpture-des-os",
+      "title": "Sculpture des os",
+      "notionUrl": "https://app.notion.com/p/Sculpture-des-os-3b088b48e48e803fafaef5014871806e",
+      "lastEditedTime": "2026-08-02T16:48:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sculpture des os"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À ce niveau de maîtrise, vous pouvez briser les os d'un simple toucher, les allonger ou les raccourcir selon votre volonté.",
+          "spans": [
+            {
+              "text": "À ce niveau de maîtrise, vous pouvez briser les os d'un simple toucher, les allonger ou les raccourcir selon votre volonté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les secrets de l'anatomie et de la forme physique sont désormais à votre portée, vous permettant d'infliger des transformations terribles ou de créer des jouets difformes faits de chair et d'os.",
+          "spans": [
+            {
+              "text": "Les secrets de l'anatomie et de la forme physique sont désormais à votre portée, vous permettant d'infliger des transformations terribles ou de créer des jouets difformes faits de chair et d'os.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier radicalement votre propre corps ou celui d'un personnage consentant ou incapable de bouger.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier radicalement votre propre corps ou celui d'un personnage consentant ou incapable de bouger.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez déplacer ou retirer :",
+          "spans": [
+            {
+              "text": "Vous pouvez déplacer ou retirer :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des os ;",
+          "spans": [
+            {
+              "text": "des os ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des groupes musculaires ;",
+          "spans": [
+            {
+              "text": "des groupes musculaires ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des terminaisons nerveuses ;",
+          "spans": [
+            {
+              "text": "des terminaisons nerveuses ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "des organes internes.",
+          "spans": [
+            {
+              "text": "des organes internes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez ainsi transformer un corps en une forme radicalement différente, voire anatomiquement improbable.",
+          "spans": [
+            {
+              "text": "Vous pouvez ainsi transformer un corps en une forme radicalement différente, voire anatomiquement improbable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous utilisez Modelage des Os, choisissez l'un des effets suivants.",
+          "spans": [
+            {
+              "text": "Lorsque vous utilisez Modelage des Os, choisissez l'un des effets suivants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ne peut être affecté que par une seule application de Modelage des Os à la fois.",
+          "spans": [
+            {
+              "text": "Un personnage ne peut être affecté que par une seule application de Modelage des Os à la fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Membres supplémentaires",
+          "spans": [
+            {
+              "text": "Membres supplémentaires",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sacrifiez 2 niveaux de Santé pour faire pousser un ou plusieurs membres supplémentaires.",
+          "spans": [
+            {
+              "text": "Sacrifiez 2 niveaux de Santé pour faire pousser un ou plusieurs membres supplémentaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par tour, vous pouvez utiliser votre Action simple pour attaquer avec ces membres.",
+          "spans": [
+            {
+              "text": "Une fois par tour, vous pouvez utiliser votre Action simple pour attaquer avec ces membres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces attaques utilisent votre réserve de test normale, mais ne bénéficient d'aucun bonus provenant des Disciplines. Puissance, par exemple, ne peut pas améliorer ces attaques.",
+          "spans": [
+            {
+              "text": "Ces attaques utilisent votre réserve de test normale, mais ne bénéficient d'aucun bonus provenant des Disciplines. Puissance, par exemple, ne peut pas améliorer ces attaques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les membres supplémentaires ne peuvent pas être utilisés pendant les rounds de Célérité.",
+          "spans": [
+            {
+              "text": "Les membres supplémentaires ne peuvent pas être utilisés pendant les rounds de Célérité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Résistant",
+          "spans": [
+            {
+              "text": "Résistant",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sacrifiez jusqu'à 3 points de votre Attribut Physique pour obtenir autant de niveaux de Santé supplémentaires.",
+          "spans": [
+            {
+              "text": "Sacrifiez jusqu'à 3 points de votre Attribut Physique pour obtenir autant de niveaux de Santé supplémentaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous ces niveaux sont ajoutés à votre niveau de blessure Indemne.",
+          "spans": [
+            {
+              "text": "Tous ces niveaux sont ajoutés à votre niveau de blessure Indemne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Biologie transformée",
+          "spans": [
+            {
+              "text": "Biologie transformée",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cœur et éventuellement vos autres organes sont déplacés vers des emplacements inhabituels.",
+          "spans": [
+            {
+              "text": "Votre cœur et éventuellement vos autres organes sont déplacés vers des emplacements inhabituels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez plus être pieuxé et pouvez devenir particulièrement difficile à tuer.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez plus être pieuxé et pouvez devenir particulièrement difficile à tuer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Séparer votre cerveau de votre cœur provoque toujours votre Mort Ultime, mais décapiter un vampire ayant placé son cerveau dans un endroit inhabituel peut s'avérer particulièrement difficile.",
+          "spans": [
+            {
+              "text": "Séparer votre cerveau de votre cœur provoque toujours votre Mort Ultime, mais décapiter un vampire ayant placé son cerveau dans un endroit inhabituel peut s'avérer particulièrement difficile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Estropié",
+          "spans": [
+            {
+              "text": "Estropié",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous transformez votre cible de manière à l'empêcher de combattre, voire de se déplacer.",
+          "spans": [
+            {
+              "text": "Vous transformez votre cible de manière à l'empêcher de combattre, voire de se déplacer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez lui retirer :",
+          "spans": [
+            {
+              "text": "Vous pouvez lui retirer :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "son Action simple ;",
+          "spans": [
+            {
+              "text": "son Action simple ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "son Action standard ;",
+          "spans": [
+            {
+              "text": "son Action standard ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou les deux.",
+          "spans": [
+            {
+              "text": "ou les deux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Arme corporelle",
+          "spans": [
+            {
+              "text": "Arme corporelle",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sacrifiez 1 niveau de Santé afin de transformer une partie de votre corps en arme.",
+          "spans": [
+            {
+              "text": "Sacrifiez 1 niveau de Santé afin de transformer une partie de votre corps en arme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Créez cette arme normalement selon les règles de création des armes.",
+          "spans": [
+            {
+              "text": "Créez cette arme normalement selon les règles de création des armes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre arme corporelle ne peut pas être désarmée. Si elle est brisée, vous pouvez la reformer en dépensant 1 point de Sang.",
+          "spans": [
+            {
+              "text": "Votre arme corporelle ne peut pas être désarmée. Si elle est brisée, vous pouvez la reformer en dépensant 1 point de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les niveaux de Santé et points d'Attribut sacrifiés par Modelage des Os ne peuvent pas être récupérés tant que la modification n'a pas été annulée.",
+          "spans": [
+            {
+              "text": "Les niveaux de Santé et points d'Attribut sacrifiés par Modelage des Os ne peuvent pas être récupérés tant que la modification n'a pas été annulée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme les autres pouvoirs de Vicissitude, ce pouvoir nécessite de modeler physiquement le corps de la cible.",
+          "spans": [
+            {
+              "text": "Comme les autres pouvoirs de Vicissitude, ce pouvoir nécessite de modeler physiquement le corps de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous activez Modelage des Os, vous pouvez appliquer deux modifications différentes au lieu d'une.",
+          "spans": [
+            {
+              "text": "Lorsque vous activez Modelage des Os, vous pouvez appliquer deux modifications différentes au lieu d'une.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas sélectionner deux fois la même modification.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez pas sélectionner deux fois la même modification.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-808a-a41f-c0e599f26faa",
       "slug": "se-lier-a-la-montagne",
       "title": "Se lier à la Montagne",
@@ -28565,6 +29897,274 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b088b48-e48e-80a6-8034-d0e6e283978c",
+      "slug": "visage-maleable",
+      "title": "Visage Maléable",
+      "notionUrl": "https://app.notion.com/p/Visage-Mal-able-3b088b48e48e80a68034d0e6e283978c",
+      "lastEditedTime": "2026-08-02T16:44:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Visage Maléable"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à ce pouvoir, un modeleur de chair peut modifier son apparence, façonnant sa chair et ses tissus afin de reproduire le visage d'un autre individu. La personne imitée peut être quelqu'un de précis, ou vous pouvez simplement créer l'apparence de votre choix.",
+          "spans": [
+            {
+              "text": "Grâce à ce pouvoir, un modeleur de chair peut modifier son apparence, façonnant sa chair et ses tissus afin de reproduire le visage d'un autre individu. La personne imitée peut être quelqu'un de précis, ou vous pouvez simplement créer l'apparence de votre choix.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier votre corps.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et utilisez 5 Actions standards pour modifier votre corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Visage Malléable nécessite de sculpter physiquement vos traits, en tirant et modelant la chair sous vos mains.",
+          "spans": [
+            {
+              "text": "Visage Malléable nécessite de sculpter physiquement vos traits, en tirant et modelant la chair sous vos mains.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir permet de modifier votre apparence dans les limites normales d'un être humain. Vous pouvez notamment modifier :",
+          "spans": [
+            {
+              "text": "Ce pouvoir permet de modifier votre apparence dans les limites normales d'un être humain. Vous pouvez notamment modifier :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "votre visage ;",
+          "spans": [
+            {
+              "text": "votre visage ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "votre taille ;",
+          "spans": [
+            {
+              "text": "votre taille ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "votre sexe ;",
+          "spans": [
+            {
+              "text": "votre sexe ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la couleur de votre peau ;",
+          "spans": [
+            {
+              "text": "la couleur de votre peau ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la couleur de vos cheveux ;",
+          "spans": [
+            {
+              "text": "la couleur de vos cheveux ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vos signes distinctifs.",
+          "spans": [
+            {
+              "text": "vos signes distinctifs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez modifier votre taille jusqu'à environ 30 cm en plus ou en moins, mais vous ne pouvez pas prendre une forme non humaine, comme celle d'un animal, ni réorganiser vos organes.",
+          "spans": [
+            {
+              "text": "Vous pouvez modifier votre taille jusqu'à environ 30 cm en plus ou en moins, mais vous ne pouvez pas prendre une forme non humaine, comme celle d'un animal, ni réorganiser vos organes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également modifier votre voix en dépensant 1 point de Sang supplémentaire lors de l'activation du pouvoir.",
+          "spans": [
+            {
+              "text": "Vous pouvez également modifier votre voix en dépensant 1 point de Sang supplémentaire lors de l'activation du pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour imiter de manière crédible l'apparence d'une personne précise, vous devez posséder au moins Médecine ●● et observer cette personne sous différents angles pendant au moins 5 minutes, afin d'étudier ses expressions faciales, ses mouvements et ses autres caractéristiques distinctives.",
+          "spans": [
+            {
+              "text": "Pour imiter de manière crédible l'apparence d'une personne précise, vous devez posséder au moins Médecine ●● et observer cette personne sous différents angles pendant au moins 5 minutes, afin d'étudier ses expressions faciales, ses mouvements et ses autres caractéristiques distinctives.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez reproduire le visage d'une personne à partir d'une photographie, mais votre déguisement ne trompera pas ceux qui l'ont déjà rencontrée : vous ne disposez pas de suffisamment d'informations pour reproduire fidèlement sa manière d'être.",
+          "spans": [
+            {
+              "text": "Vous pouvez reproduire le visage d'une personne à partir d'une photographie, mais votre déguisement ne trompera pas ceux qui l'ont déjà rencontrée : vous ne disposez pas de suffisamment d'informations pour reproduire fidèlement sa manière d'être.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour reproduire fidèlement la voix d'un personnage, vous devez posséder au moins Médecine ●●● et l'écouter parler pendant au moins 5 minutes, en utilisant des mots et expressions variés.",
+          "spans": [
+            {
+              "text": "Pour reproduire fidèlement la voix d'un personnage, vous devez posséder au moins Médecine ●●● et l'écouter parler pendant au moins 5 minutes, en utilisant des mots et expressions variés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un simple enregistrement ne permet pas une reproduction parfaite : votre imitation manquera des subtilités nécessaires pour tromper quelqu'un ayant déjà directement parlé avec cette personne.",
+          "spans": [
+            {
+              "text": "Un simple enregistrement ne permet pas une reproduction parfaite : votre imitation manquera des subtilités nécessaires pour tromper quelqu'un ayant déjà directement parlé avec cette personne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également utiliser ce pouvoir pour vous donner une apparence plus belle, quoique légèrement surnaturelle. Dans ce cas, vous subissez un malus de -2 à votre Attribut Social, mais obtenez le Focus Apparence.",
+          "spans": [
+            {
+              "text": "Vous pouvez également utiliser ce pouvoir pour vous donner une apparence plus belle, quoique légèrement surnaturelle. Dans ce cas, vous subissez un malus de -2 à votre Attribut Social, mais obtenez le Focus Apparence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Visage Malléable n'est pas un pouvoir de transformation, mais ses effets ne s'appliquent qu'à votre forme normale. Si vous utilisez un pouvoir de transformation, les modifications apportées par Visage Malléable ne sont pas transférées à votre nouvelle forme.",
+          "spans": [
+            {
+              "text": "Visage Malléable n'est pas un pouvoir de transformation, mais ses effets ne s'appliquent qu'à votre forme normale. Si vous utilisez un pouvoir de transformation, les modifications apportées par Visage Malléable ne sont pas transférées à votre nouvelle forme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez modeler votre chair en utilisant seulement 1 Action standard et n'avez plus besoin d'utiliser physiquement vos mains pour façonner votre visage.",
+          "spans": [
+            {
+              "text": "Vous pouvez modeler votre chair en utilisant seulement 1 Action standard et n'avez plus besoin d'utiliser physiquement vos mains pour façonner votre visage.",
               "bold": false
             }
           ]
