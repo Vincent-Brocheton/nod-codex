@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-02T15:05:02.353Z",
+  "generatedAt": "2026-08-02T16:09:54.918Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -6442,6 +6442,89 @@
           "spans": [
             {
               "text": "Vous ne pouvez pas acheter plus de 2 points dans n'importe quel Historique relatif au monde des mortels. Cela inclut les Historiques  Alliés, Contacts, Influences et Troupeau.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b088b48-e48e-80d8-aa15-f59698445efa",
+      "slug": "vieux-jeu",
+      "title": "Vieux jeu",
+      "notionUrl": "https://app.notion.com/p/Vieux-jeu-3b088b48e48e80d8aa15f59698445efa",
+      "lastEditedTime": "2026-08-02T16:07:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "croise",
+              "title": "Croisé",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Vieux jeu"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous avez une vision du monde dépassée, fondée sur des normes rétrogrades et des coutumes d’un autre temps. Si cela pourrait simplement paraître maladroit chez certains, vous avez tendance à exprimer ces opinions avec une franchise qui irrite votre entourage.",
+          "spans": [
+            {
+              "text": "Vous avez une vision du monde dépassée, fondée sur des normes rétrogrades et des coutumes d’un autre temps. Si cela pourrait simplement paraître maladroit chez certains, vous avez tendance à exprimer ces opinions avec une franchise qui irrite votre entourage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne dépensant un Statut pour vous attribuer le Statut négatif “Vulgaire” récupère immédiatement le Statut ainsi dépensé.",
+          "spans": [
+            {
+              "text": "Toute personne dépensant un Statut pour vous attribuer le Statut négatif “Vulgaire” récupère immédiatement le Statut ainsi dépensé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Handicap ne vous oblige pas à adopter un comportement déplacé, mais représente la réputation que vous avez acquise en raison de votre attitude.",
+          "spans": [
+            {
+              "text": "Cet Handicap ne vous oblige pas à adopter un comportement déplacé, mais représente la réputation que vous avez acquise en raison de votre attitude.",
               "bold": false
             }
           ]

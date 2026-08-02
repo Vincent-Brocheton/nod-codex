@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-02T15:05:02.402Z",
+  "generatedAt": "2026-08-02T16:09:54.951Z",
   "collections": [
     {
       "key": "disciplines",
@@ -105,6 +105,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Vieux jeu",
+      "slug": "vieux-jeu",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-02T16:07:00.000Z"
+    },
     {
       "title": "Porteur de Maladie",
       "slug": "porteur-de-maladie",
@@ -275,15 +284,6 @@
       "path": "/pouvoirs",
       "icon": "droplet",
       "lastEditedTime": "2026-08-01T11:05:00.000Z"
-    },
-    {
-      "title": "Projection Astrale",
-      "slug": "projection-astrale",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-01T11:04:00.000Z"
     }
   ]
 }
