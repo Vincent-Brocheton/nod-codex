@@ -1042,6 +1042,35 @@ a.relationChip:hover {
   color: var(--accent-hover);
 }
 
+.subGroupFilterRow {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 20px;
+}
+
+.subGroupFilterChip {
+  background: var(--bg-card);
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  color: var(--text-primary);
+  cursor: pointer;
+  font-size: 13px;
+  padding: 4px 12px;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.subGroupFilterChip:hover {
+  border-color: var(--accent);
+  color: var(--accent-hover);
+}
+
+.subGroupFilterChip.active {
+  background: var(--accent);
+  border-color: var(--accent);
+  color: #f6ece0;
+}
+
 .relationPending {
   color: var(--text-muted);
   font-size: 13px;

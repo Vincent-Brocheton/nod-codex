@@ -3,6 +3,12 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.1.0] - 2026-08-02
+
+- Nouvelle catégorie "Clan" dans Atouts & Handicaps : regroupe les fiches propres à un clan (Assamites, Brujah, Caïtiff, Giovanni, Lasombra, Malkavien, Nosfératu, Setite, Toréador, Tremere, Tzimisces, Ventrue), sous-groupées par clan
+- Filtres par puces (clan, ou coût sur les autres catégories) pour sauter directement à un sous-groupe sans faire défiler toute la liste
+- Coût affiché directement sur les fiches de la catégorie "Clan", sans avoir à les déplier
+
 ## [1.0.2] - 2026-08-02
 
 - Tri alphabétique des catégories dans le menu Atouts & Handicaps

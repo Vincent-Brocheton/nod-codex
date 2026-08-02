@@ -127,6 +127,20 @@ function ItemEntry({
  * `showGroupBadge` masque le badge rond (peu lisible pour un texte long
  * comme un nom de type) sur les cartes de l'index.
  *
+ * `itemFilter(item, groupValue)` peut varier selon le groupe sélectionné
+ * (ex. Atouts & Handicaps : la catégorie "Clan" ne montre que les fiches
+ * liées à un clan, les autres catégories excluent celles liées à un
+ * clan/une lignée). `itemSubGroup` et `itemHighlightField` acceptent aussi
+ * une fonction de la valeur du groupe sélectionné plutôt qu'une valeur
+ * fixe, pour la même raison (ex. sous-groupé par clan + Coût affiché en
+ * évidence sur "Clan", par coût ailleurs). Un sous-groupe avec
+ * `filterable: true` (ex. le sous-groupe par clan ou par coût) affiche en
+ * plus une rangée de puces au-dessus de la liste, pour sauter directement à
+ * une seule valeur plutôt que de faire défiler tous les sous-groupes ;
+ * `filterLabel(value)` personnalise le texte de la puce (par défaut la
+ * valeur brute, ex. le nom d'un clan — utile pour un libellé du genre
+ * "2 points" sur une valeur numérique de coût).
+ *
  * `itemStatFields`/`itemRelatedGroups` sont optionnels : quand fournis, ils
  * remplacent le tableau générique de propriétés pour chaque fiche affichée
  * dans un groupe (mêmes composants que sur les fiches Discipline/Pouvoir/Clan).
@@ -199,10 +213,40 @@ export default function GroupedRuleView({
     const filteredItems = selected
         ? (loadedCollections[selected.key]?.items || [])
             .filter(item => itemGroupValue(item) === selected.value)
-            .filter(itemFilter)
+            .filter(item => itemFilter(item, selected.value))
         : [];
 
     const selectedItems = itemSort ? [...filteredItems].sort(itemSort) : filteredItems;
+
+    const subGroup = selected
+        ? (typeof itemSubGroup === "function" ? itemSubGroup(selected.value) : itemSubGroup)
+        : null;
+
+    const highlightField = selected
+        ? (typeof itemHighlightField === "function" ? itemHighlightField(selected.value) : itemHighlightField)
+        : itemHighlightField;
+
+    // Portée à "collection:groupe" plutôt qu'un simple booléen : en changeant
+    // de groupe (ex. Clan -> Camarilla), une ancienne valeur filtrée (un nom
+    // de clan) doit être ignorée plutôt que masquer silencieusement le
+    // nouveau groupe entier.
+    const filterScope = selected ? `${selected.key}:${selected.value}` : null;
+    const [subGroupFilter, setSubGroupFilterState] = useState(null);
+    const activeFilterValue = subGroupFilter?.scope === filterScope ? subGroupFilter.value : null;
+
+    function setSubGroupFilter(value) {
+        setSubGroupFilterState(filterScope ? { scope: filterScope, value } : null);
+    }
+
+    const subGroupFilterOptions = subGroup?.filterable
+        ? [...new Set(selectedItems.map(subGroup.key))].sort((a, b) => (
+            typeof a === "number" && typeof b === "number" ? a - b : String(a).localeCompare(String(b), "fr")
+        ))
+        : [];
+
+    const itemsToRender = activeFilterValue !== null
+        ? selectedItems.filter(item => subGroup.key(item) === activeFilterValue)
+        : selectedItems;
 
     function selectGroup(key, value) {
         navigate(`${activeNavigation.path}/${key}/${encodeURIComponent(value)}`);
@@ -357,24 +401,47 @@ export default function GroupedRuleView({
                             <h1>{formatGroupLabel(selected.value)}</h1>
                         </header>
 
-                        {selectedItems.length === 0 ? (
+                        {subGroupFilterOptions.length > 1 ? (
+                            <div className="subGroupFilterRow">
+                                <button
+                                    type="button"
+                                    className={`subGroupFilterChip${activeFilterValue === null ? " active" : ""}`}
+                                    onClick={() => setSubGroupFilter(null)}
+                                >
+                                    Tous
+                                </button>
+
+                                {subGroupFilterOptions.map(value => (
+                                    <button
+                                        key={value}
+                                        type="button"
+                                        className={`subGroupFilterChip${activeFilterValue === value ? " active" : ""}`}
+                                        onClick={() => setSubGroupFilter(value)}
+                                    >
+                                        {subGroup.filterLabel ? subGroup.filterLabel(value) : value}
+                                    </button>
+                                ))}
+                            </div>
+                        ) : null}
+
+                        {itemsToRender.length === 0 ? (
                             <p className="empty">{emptyMessage}</p>
-                        ) : itemSubGroup ? (
-                            groupConsecutive(selectedItems, itemSubGroup.key).map(subGroup => (
-                                <div key={subGroup.key} className="detailSubGroup">
+                        ) : subGroup ? (
+                            groupConsecutive(itemsToRender, subGroup.key).map(consecutiveGroup => (
+                                <div key={consecutiveGroup.key} className="detailSubGroup">
 
                                     <h2 className="detailSubGroupTitle">
-                                        {itemSubGroup.label(subGroup.key, loadedCollections[selected.key]?.label)}
+                                        {subGroup.label(consecutiveGroup.key, loadedCollections[selected.key]?.label)}
                                     </h2>
 
-                                    {subGroup.items.map(item => (
+                                    {consecutiveGroup.items.map(item => (
                                         <ItemEntry
                                             key={item.id}
                                             item={item}
                                             headingTag="h3"
                                             itemStatFields={itemStatFields}
                                             itemRelatedGroups={itemRelatedGroups}
-                                            itemHighlightField={itemHighlightField}
+                                            itemHighlightField={highlightField}
                                             hideGroupedProperties={hideGroupedProperties}
                                             manifest={wiki.manifest}
                                             collapsible={collapsible}
@@ -384,14 +451,14 @@ export default function GroupedRuleView({
                                 </div>
                             ))
                         ) : (
-                            selectedItems.map(item => (
+                            itemsToRender.map(item => (
                                 <ItemEntry
                                     key={item.id}
                                     item={item}
                                     headingTag="h2"
                                     itemStatFields={itemStatFields}
                                     itemRelatedGroups={itemRelatedGroups}
-                                    itemHighlightField={itemHighlightField}
+                                    itemHighlightField={highlightField}
                                     hideGroupedProperties={hideGroupedProperties}
                                     manifest={wiki.manifest}
                                     collapsible={collapsible}
