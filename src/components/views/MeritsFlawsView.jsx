@@ -83,7 +83,9 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
     const types = [...new Set(
         activeNavigation.collections
             .flatMap(key => loadedCollections[key]?.propertyOptions?.Type || [])
-    )].filter(type => !EXCLUDED_TYPES.includes(type));
+    )]
+        .filter(type => !EXCLUDED_TYPES.includes(type))
+        .sort((a, b) => a.localeCompare(b, "fr"));
 
     return (
         <GroupedRuleView
@@ -105,6 +107,7 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             resolveBackPath={resolveBackPath}
             groupHeadingIcon={typeHeadingIcon}
             groupCardMeta={TYPE_META}
+            collapsible
         />
     );
 }
