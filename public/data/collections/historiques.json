@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-03T21:08:54.182Z",
+  "generatedAt": "2026-08-03T21:34:54.088Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-01T14:28:00.000Z",
+      "lastEditedTime": "2026-08-03T21:30:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -560,42 +560,42 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 2 : actions d'Influence de niveau 2 maximum.",
+          "text": "Influent 2 : actions d'Influence de niveau 2 maximum. (Coute un niveau de spé Alliés)",
           "spans": [
             {
               "text": "Influent 2",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 2 maximum.",
+              "text": " : actions d'Influence de niveau 2 maximum. (Coute un niveau de spé Alliés)",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 4 : actions d'Influence de niveau 4 maximum.",
+          "text": "Influent 4 : actions d'Influence de niveau 4 maximum. (Coute deux niveau de spé Alliés)",
           "spans": [
             {
               "text": "Influent 4",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 4 maximum.",
+              "text": " : actions d'Influence de niveau 4 maximum. (Coute deux niveau de spé Alliés)",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 5 : actions d'Influence de niveau 5 maximum.",
+          "text": "Influent 5 : actions d'Influence de niveau 5 maximum. (Coute trois niveau de spé Alliés)",
           "spans": [
             {
               "text": "Influent 5",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 5 maximum.",
+              "text": " : actions d'Influence de niveau 5 maximum. (Coute trois niveau de spé Alliés)",
               "bold": false
             }
           ]
