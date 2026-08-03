@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-03T18:39:06.274Z",
+  "generatedAt": "2026-08-03T20:34:28.635Z",
   "propertyOptions": {},
   "items": [
     {
@@ -828,6 +828,14 @@
               "cout": "3",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "vieux-jeu",
+              "title": "Vieux jeu",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1180,6 +1188,252 @@
             },
             {
               "text": " pour commencer la partie avec une réserve de Sang complète.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b188b48-e48e-8096-8d24-f5efbf40c403",
+      "slug": "guerrier",
+      "title": "Guerrier",
+      "notionUrl": "https://app.notion.com/p/Guerrier-3b188b48e48e80968d24f5efbf40c403",
+      "lastEditedTime": "2026-08-03T20:22:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": []
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "quietus",
+              "title": "Quietus",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "le-chuchoteur-de-lame",
+              "title": "Le chuchoteur de lame",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "benediction-de-bane",
+              "title": "Bénédiction de Bane",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "toile-de-couteaux",
+              "title": "Toile de couteaux",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "attaque-surprise",
+              "title": "Attaque Surprise",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "reveil-de-l-acier",
+              "title": "Réveil de l’Acier",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-guerrier",
+              "title": "Lignée : Guerrier",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Guerrier"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le passé, les Assamites n’étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
+          "spans": [
+            {
+              "text": "Dans le passé, les Assamites n’étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Depuis la levée de la malédiction des Tremere, les Assamites ont retrouvé leur ancienne soif de sang.",
+          "spans": [
+            {
+              "text": "Depuis la levée de la malédiction des Tremere, les Assamites ont retrouvé leur ancienne soif de sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le sang des vampires exerce sur eux une attraction irrésistible et profondément addictive.",
+          "spans": [
+            {
+              "text": "Le sang des vampires exerce sur eux une attraction irrésistible et profondément addictive.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Assamite boit du sang vampirique, il gagne immédiatement 2 Traits de Bête pendant les 10 minutes suivantes.",
+          "spans": [
+            {
+              "text": "Lorsqu'un Assamite boit du sang vampirique, il gagne immédiatement ",
+              "bold": false
+            },
+            {
+              "text": "2 Traits de Bête",
+              "bold": true
+            },
+            {
+              "text": " pendant les ",
+              "bold": false
+            },
+            {
+              "text": "10 minutes",
+              "bold": true
+            },
+            {
+              "text": " suivantes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'Assamite entre en frénésie durant cette période, il tentera de diableriser le dernier vampire dont il a goûté le sang.",
+          "spans": [
+            {
+              "text": "Si l'Assamite entre en frénésie durant cette période, il tentera de ",
+              "bold": false
+            },
+            {
+              "text": "diableriser",
+              "bold": true
+            },
+            {
+              "text": " le dernier vampire dont il a goûté le sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux Traits de Bête normaux :",
+          "spans": [
+            {
+              "text": "Contrairement aux Traits de Bête normaux :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ils ne sont pas pris en compte pour déterminer une éventuelle perte de Moralité ;",
+          "spans": [
+            {
+              "text": "ils ne sont pas pris en compte pour déterminer une éventuelle perte de Moralité ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ils disparaissent automatiquement au terme des 10 minutes.",
+          "spans": [
+            {
+              "text": "ils disparaissent automatiquement au terme des 10 minutes.",
               "bold": false
             }
           ]
@@ -2130,247 +2384,6 @@
             {
               "text": "Les réserves de test défensives ne sont pas affectées par ce malus.",
               "bold": true
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "39388b48-e48e-8088-880d-f1858938a1f1",
-      "slug": "vizirs",
-      "title": "Vizirs",
-      "notionUrl": "https://app.notion.com/p/Vizirs-39388b48e48e8088880df1858938a1f1",
-      "lastEditedTime": "2026-07-07T10:21:00.000Z",
-      "properties": {
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Handicaps": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "handicaps",
-              "slug": "double-caste",
-              "title": "Double Caste",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "sang-dilue",
-              "title": "Sang Dilué",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "intact",
-              "title": "Intact",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "auspex",
-              "title": "Auspex",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "celerite",
-              "title": "Célérité",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "quietus",
-              "title": "Quietus",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "atouts",
-              "slug": "reveil-de-l-acier",
-              "title": "Réveil de l’Acier",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-vizir",
-              "title": "Lignée : Vizir",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "attaque-surprise",
-              "title": "Attaque Surprise",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "etude-obsessionnelle",
-              "title": "Etude obsessionnelle",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "secret-du-sang",
-              "title": "Secret du sang",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "epreuves-du-sang",
-              "title": "Epreuves du Sang",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Name": {
-          "type": "text",
-          "value": "Vizirs"
-        }
-      },
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation",
-          "spans": [
-            {
-              "text": "Présentation",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Autrefois, les Vizirs assamites étaient chargés de préserver et de consigner les connaissances du clan : culture, gouvernement, arts et religion. Cependant, lors du schisme religieux qui divisa les Descendants d'Haqim, les Vizirs, majoritairement musulmans, refusèrent le culte exclusif d'Haqim et quittèrent Alamut.",
-          "spans": [
-            {
-              "text": "Autrefois, les Vizirs assamites étaient chargés de préserver et de consigner les connaissances du clan : culture, gouvernement, arts et religion. Cependant, lors du schisme religieux qui divisa les Descendants d'Haqim, les Vizirs, majoritairement musulmans, refusèrent le culte exclusif d'Haqim et quittèrent Alamut.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Depuis lors, les Vizirs sont animés par une soif insatiable de savoir. Ils accumulent connaissances, manuscrits et secrets avec une obsession qui dépasse souvent toute raison. Peu de choses leur importent davantage que la découverte d'un savoir oublié, et beaucoup sont prêts à sacrifier leur sécurité, leurs alliances, voire leur existence, pour mettre la main sur une vérité interdite.",
-          "spans": [
-            {
-              "text": "Depuis lors, les Vizirs sont animés par une soif insatiable de savoir. Ils accumulent connaissances, manuscrits et secrets avec une obsession qui dépasse souvent toute raison. Peu de choses leur importent davantage que la découverte d'un savoir oublié, et beaucoup sont prêts à sacrifier leur sécurité, leurs alliances, voire leur existence, pour mettre la main sur une vérité interdite.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Faiblesse de clan",
-          "spans": [
-            {
-              "text": "Faiblesse de clan",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette faiblesse remplace la faiblesse de clan.",
-          "spans": [
-            {
-              "text": "Cette faiblesse remplace la faiblesse de clan.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les Vizirs souffrent automatiquement du dérangement Obsession, dont le déclencheur est « Connaissance inconnue ».",
-          "spans": [
-            {
-              "text": "Les Vizirs souffrent automatiquement du dérangement ",
-              "bold": false
-            },
-            {
-              "text": "Obsession",
-              "bold": true
-            },
-            {
-              "text": ", dont le déclencheur est ",
-              "bold": false
-            },
-            {
-              "text": "« Connaissance inconnue »",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Ils ne gagnent aucun point d'expérience pour ce dérangement.",
-          "spans": [
-            {
-              "text": "Ils ne gagnent ",
-              "bold": false
-            },
-            {
-              "text": "aucun point d'expérience",
-              "bold": true
-            },
-            {
-              "text": " pour ce dérangement.",
-              "bold": false
             }
           ]
         }

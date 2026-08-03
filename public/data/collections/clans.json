@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-03T18:39:06.273Z",
+  "generatedAt": "2026-08-03T20:34:28.633Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "assamites",
       "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-07-30T14:03:00.000Z",
+      "lastEditedTime": "2026-08-03T20:34:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -97,22 +97,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-sorcier",
-              "title": "Lignée : Sorcier",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-vizir",
-              "title": "Lignée : Vizir",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
               "cout": "1",
@@ -121,32 +105,24 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "le-chuchoteur-de-lame",
-              "title": "Le chuchoteur de lame",
+              "slug": "etude-obsessionnelle",
+              "title": "Etude obsessionnelle",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "doue-en-thaumaturgie",
-              "title": "Doué en Thaumaturgie",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "benediction-de-bane",
-              "title": "Bénédiction de Bane",
+              "slug": "secret-du-sang",
+              "title": "Secret du sang",
               "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "toile-de-couteaux",
-              "title": "Toile de couteaux",
+              "slug": "epreuves-du-sang",
+              "title": "Epreuves du Sang",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -166,8 +142,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -470,94 +446,44 @@
         },
         {
           "type": "paragraph",
-          "text": "Depuis la levée de la malédiction des Tremere, les Assamites ont retrouvé leur ancienne soif de sang.",
+          "text": "Les Vizirs souffrent automatiquement du dérangement Obsession, dont le déclencheur est « Connaissance inconnue ».",
           "spans": [
             {
-              "text": "Depuis la levée de la malédiction des Tremere, les Assamites ont retrouvé leur ancienne soif de sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le sang des vampires exerce sur eux une attraction irrésistible et profondément addictive.",
-          "spans": [
-            {
-              "text": "Le sang des vampires exerce sur eux une attraction irrésistible et profondément addictive.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Lorsqu'un Assamite boit du sang vampirique, il gagne immédiatement 2 Traits de Bête pendant les 10 minutes suivantes.",
-          "spans": [
-            {
-              "text": "Lorsqu'un Assamite boit du sang vampirique, il gagne immédiatement ",
+              "text": "Les Vizirs souffrent automatiquement du dérangement ",
               "bold": false
             },
             {
-              "text": "2 Traits de Bête",
+              "text": "Obsession",
               "bold": true
             },
             {
-              "text": " pendant les ",
+              "text": ", dont le déclencheur est ",
               "bold": false
             },
             {
-              "text": "10 minutes",
+              "text": "« Connaissance inconnue »",
               "bold": true
             },
             {
-              "text": " suivantes.",
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Si l'Assamite entre en frénésie durant cette période, il tentera de diableriser le dernier vampire dont il a goûté le sang.",
+          "text": "Ils ne gagnent aucun point d'expérience pour ce dérangement.",
           "spans": [
             {
-              "text": "Si l'Assamite entre en frénésie durant cette période, il tentera de ",
+              "text": "Ils ne gagnent ",
               "bold": false
             },
             {
-              "text": "diableriser",
+              "text": "aucun point d'expérience",
               "bold": true
             },
             {
-              "text": " le dernier vampire dont il a goûté le sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Contrairement aux Traits de Bête normaux :",
-          "spans": [
-            {
-              "text": "Contrairement aux Traits de Bête normaux :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "ils ne sont pas pris en compte pour déterminer une éventuelle perte de Moralité ;",
-          "spans": [
-            {
-              "text": "ils ne sont pas pris en compte pour déterminer une éventuelle perte de Moralité ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "ils disparaissent automatiquement au terme des 10 minutes.",
-          "spans": [
-            {
-              "text": "ils disparaissent automatiquement au terme des 10 minutes.",
+              "text": " pour ce dérangement.",
               "bold": false
             }
           ]

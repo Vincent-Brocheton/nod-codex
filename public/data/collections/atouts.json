@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-03T18:39:06.275Z",
+  "generatedAt": "2026-08-03T20:34:28.637Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -963,7 +963,7 @@
       "slug": "attaque-surprise",
       "title": "Attaque Surprise",
       "notionUrl": "https://app.notion.com/p/Attaque-Surprise-39888b48e48e80a78a9efeb7594c01ac",
-      "lastEditedTime": "2026-07-09T15:08:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -974,16 +974,16 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
+              "slug": "sorcier",
+              "title": "Sorcier",
               "cout": null,
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "lignees",
-              "slug": "sorcier",
-              "title": "Sorcier",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1215,7 +1215,7 @@
       "slug": "benediction-de-bane",
       "title": "Bénédiction de Bane",
       "notionUrl": "https://app.notion.com/p/B-n-diction-de-Bane-39888b48e48e807c8c1bda59e9320cbe",
-      "lastEditedTime": "2026-07-09T15:55:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1223,7 +1223,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -1235,16 +1244,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -3043,7 +3043,7 @@
       "slug": "doue-en-thaumaturgie",
       "title": "Doué en Thaumaturgie",
       "notionUrl": "https://app.notion.com/p/Dou-en-Thaumaturgie-39888b48e48e80f7b7f6d9f445fe3c3a",
-      "lastEditedTime": "2026-07-09T15:54:00.000Z",
+      "lastEditedTime": "2026-08-03T20:32:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -3072,16 +3072,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -3696,7 +3687,7 @@
       "slug": "epreuves-du-sang",
       "title": "Epreuves du Sang",
       "notionUrl": "https://app.notion.com/p/Epreuves-du-Sang-39888b48e48e80a2a97ad059f1974ef8",
-      "lastEditedTime": "2026-07-09T15:57:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -3704,16 +3695,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Approbation": {
           "type": "checkbox",
@@ -3725,7 +3707,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -4005,7 +3996,7 @@
       "slug": "etude-obsessionnelle",
       "title": "Etude obsessionnelle",
       "notionUrl": "https://app.notion.com/p/Etude-obsessionnelle-39888b48e48e80d7a8a3ce37dec5bd4c",
-      "lastEditedTime": "2026-07-09T15:53:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -4013,16 +4004,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Approbation": {
           "type": "checkbox",
@@ -4034,7 +4016,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -6231,7 +6222,7 @@
       "slug": "le-chuchoteur-de-lame",
       "title": "Le chuchoteur de lame",
       "notionUrl": "https://app.notion.com/p/Le-chuchoteur-de-lame-39888b48e48e80b5be17f2a32557c07d",
-      "lastEditedTime": "2026-07-09T15:54:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -6239,7 +6230,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -6251,16 +6251,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -6751,6 +6742,70 @@
       ]
     },
     {
+      "id": "3b188b48-e48e-80aa-bad8-e6083c1e6e70",
+      "slug": "lignee-guerrier",
+      "title": "Lignée : Guerrier",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Guerrier-3b188b48e48e80aabad8e6083c1e6e70",
+      "lastEditedTime": "2026-08-03T20:32:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : Guerrier"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes membre de la lignée des Guerriers, des combattants et assassins dont une majorité est restée à la montagne.",
+          "spans": [
+            {
+              "text": "Vous êtes membre de la lignée des Guerriers, des combattants et assassins dont une majorité est restée à la montagne.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos disciplines de clan sont : Célérité, Dissimulation et Quietus.",
+          "spans": [
+            {
+              "text": "Vos disciplines de clan sont : Célérité, Dissimulation et Quietus.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39888b48-e48e-801d-a9d8-ee40c4f9f389",
       "slug": "lignee-ihtarri",
       "title": "Lignée : Ihtarri",
@@ -7092,7 +7147,7 @@
       "slug": "lignee-sorcier",
       "title": "Lignée : Sorcier",
       "notionUrl": "https://app.notion.com/p/Lign-e-Sorcier-39888b48e48e804da6a9d69ccc0139fa",
-      "lastEditedTime": "2026-07-30T22:22:00.000Z",
+      "lastEditedTime": "2026-08-03T20:32:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -7121,16 +7176,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -7348,77 +7394,6 @@
             },
             {
               "text": "Puissance, Présence et Serpentis",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "39888b48-e48e-807e-b37e-e7337b31fbb2",
-      "slug": "lignee-vizir",
-      "title": "Lignée : Vizir",
-      "notionUrl": "https://app.notion.com/p/Lign-e-Vizir-39888b48e48e807eb37ee7337b31fbb2",
-      "lastEditedTime": "2026-07-30T22:25:00.000Z",
-      "properties": {
-        "Coût": {
-          "type": "select",
-          "value": "2"
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Type": {
-          "type": "select",
-          "value": "Clan"
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Lignée : Vizir"
-        }
-      },
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Vous êtes membre de la lignée des Vizirs, érudits et philosophes qui défièrent l’Ancêtre et refusèrent de vénérer Haqim au-dessus d’Allah. Les Vizirs ont fui la montagne d’Alamut et ne servent plus l’Ancien du clan.\nVos disciplines de clan sont Auspex, Célérité, Quietus.",
-          "spans": [
-            {
-              "text": "Vous êtes membre de la lignée des Vizirs, érudits et philosophes qui défièrent l’Ancêtre et refusèrent de vénérer Haqim au-dessus d’Allah. Les Vizirs ont fui la montagne d’Alamut et ne servent plus l’Ancien du clan.\nVos disciplines de clan sont ",
-              "bold": false
-            },
-            {
-              "text": "Auspex, Célérité, Quietus",
               "bold": true
             },
             {
@@ -10754,7 +10729,7 @@
       "slug": "reveil-de-l-acier",
       "title": "Réveil de l’Acier",
       "notionUrl": "https://app.notion.com/p/R-veil-de-l-Acier-39888b48e48e8003a83ad022d917f7af",
-      "lastEditedTime": "2026-07-09T15:56:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -10773,8 +10748,8 @@
             },
             {
               "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -11770,7 +11745,7 @@
       "slug": "secret-du-sang",
       "title": "Secret du sang",
       "notionUrl": "https://app.notion.com/p/Secret-du-sang-39888b48e48e80d7982cedfecad27b3e",
-      "lastEditedTime": "2026-07-09T15:55:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -11778,16 +11753,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Approbation": {
           "type": "checkbox",
@@ -11799,7 +11765,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -13300,7 +13275,7 @@
       "slug": "toile-de-couteaux",
       "title": "Toile de couteaux",
       "notionUrl": "https://app.notion.com/p/Toile-de-couteaux-39888b48e48e809cb5abc38b76f526ba",
-      "lastEditedTime": "2026-07-09T17:10:00.000Z",
+      "lastEditedTime": "2026-08-03T20:26:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -13308,7 +13283,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -13320,16 +13304,7 @@
         },
         "Clan": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "assamites",
-              "title": "Assamites",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",

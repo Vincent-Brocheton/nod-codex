@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-03T18:39:06.280Z",
+  "generatedAt": "2026-08-03T20:34:28.646Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -1516,14 +1516,6 @@
         "Lignées": {
           "type": "relation",
           "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
@@ -3122,14 +3114,6 @@
         "Lignées": {
           "type": "relation",
           "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
             {
               "collectionKey": "lignees",
               "slug": "sorcier",
@@ -5365,14 +5349,6 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
               "cout": null,
               "approbation": false,
               "complet": false

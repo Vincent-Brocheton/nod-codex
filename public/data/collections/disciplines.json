@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-03T18:39:06.244Z",
+  "generatedAt": "2026-08-03T20:34:28.601Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -948,14 +948,6 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
               "cout": null,
@@ -1291,16 +1283,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -4651,14 +4634,6 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "vizirs",
-              "title": "Vizirs",
               "cout": null,
               "approbation": false,
               "complet": false
