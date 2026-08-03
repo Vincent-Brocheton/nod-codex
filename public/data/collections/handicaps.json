@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-03T20:34:28.646Z",
+  "generatedAt": "2026-08-03T20:41:55.108Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -1511,7 +1511,7 @@
       "slug": "double-caste",
       "title": "Double Caste",
       "notionUrl": "https://app.notion.com/p/Double-Caste-39888b48e48e80d68072ee08ead32c37",
-      "lastEditedTime": "2026-07-09T15:58:00.000Z",
+      "lastEditedTime": "2026-08-03T20:41:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -1520,6 +1520,14 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3109,7 +3117,7 @@
       "slug": "intact",
       "title": "Intact",
       "notionUrl": "https://app.notion.com/p/Intact-39888b48e48e804a9646ea053d4cf3ca",
-      "lastEditedTime": "2026-07-09T15:59:00.000Z",
+      "lastEditedTime": "2026-08-03T20:41:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -3118,6 +3126,14 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5340,7 +5356,7 @@
       "slug": "sang-dilue",
       "title": "Sang Dilué",
       "notionUrl": "https://app.notion.com/p/Sang-Dilu-39888b48e48e80f38949e08bce385d42",
-      "lastEditedTime": "2026-07-09T15:59:00.000Z",
+      "lastEditedTime": "2026-08-03T20:41:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -5349,6 +5365,14 @@
               "collectionKey": "lignees",
               "slug": "sorcier",
               "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "guerrier",
+              "title": "Guerrier",
               "cout": null,
               "approbation": false,
               "complet": false
