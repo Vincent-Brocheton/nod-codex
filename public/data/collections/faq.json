@@ -4,7 +4,7 @@
   "group": "Ressources",
   "description": "Toutes les questions qui peuvent se poser concernant les règles",
   "notionDatabaseId": "39688b48-e48e-80cf-8963-d9185a5f3a0e",
-  "generatedAt": "2026-08-03T20:41:55.135Z",
+  "generatedAt": "2026-08-03T20:44:39.859Z",
   "propertyOptions": {},
   "items": [
     {
@@ -26,6 +26,106 @@
           "spans": [
             {
               "text": " Le focus Apparence de la Majesté vous permet d'ignorer la Majesté des autres personnages lorsque votre Majesté est active. Si vous décidez d'attaquer quelqu'un, votre Majesté s’arrête pour ce personnage, mais votre Majesté est toujours considérée comme active, ce qui vous permet de continuer à profiter du focus Apparence.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b188b48-e48e-80db-95c5-e70598c70693",
+      "slug": "comment-marche-exactement-la-competence-representation",
+      "title": "Comment marche exactement la compétence  représentation ?",
+      "notionUrl": "https://app.notion.com/p/Comment-marche-exactement-la-comp-tence-repr-sentation-3b188b48e48e80db95c5e70598c70693",
+      "lastEditedTime": "2026-08-03T20:44:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Comment marche exactement la compétence  représentation ?"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+          "spans": [
+            {
+              "text": "Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b188b48-e48e-8011-bb8c-e397f46ba648",
+      "slug": "comment-marche-exactement-la-competence-artisanat",
+      "title": "Comment marche exactement la compétence artisanat ?",
+      "notionUrl": "https://app.notion.com/p/Comment-marche-exactement-la-comp-tence-artisanat-3b188b48e48e8011bb8ce397f46ba648",
+      "lastEditedTime": "2026-08-03T20:43:00.000Z",
+      "properties": {
+        "Nom": {
+          "type": "text",
+          "value": "Comment marche exactement la compétence artisanat ?"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+          "spans": [
+            {
+              "text": "Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+          "spans": [
+            {
+              "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Artisanat (spécialité) 1 à 2 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.).",
+          "spans": [
+            {
+              "text": "Artisanat (spécialité) 1 à 2 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+          "spans": [
+            {
+              "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+          "spans": [
+            {
+              "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
+          "spans": [
+            {
+              "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
               "bold": false
             }
           ]
