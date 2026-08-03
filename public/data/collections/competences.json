@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-08-03T20:44:39.849Z",
+  "generatedAt": "2026-08-03T21:08:54.173Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1897,7 +1897,7 @@
       "slug": "sciences",
       "title": "Sciences",
       "notionUrl": "https://app.notion.com/p/Sciences-38288b48e48e80afbc5edec6f5d16dc0",
-      "lastEditedTime": "2026-07-06T11:17:00.000Z",
+      "lastEditedTime": "2026-08-03T21:08:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1941,6 +1941,34 @@
           "spans": [
             {
               "text": "Un personnage possédant Science bénéficie d’une AIP supplémentaire, utilisable uniquement pour des activités liées à cette spécialité. Chaque spécialisation en Science confère une action d’intervalle supplémentaire distincte, chacune limitée à son domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un personnage possédant Science : Mathématiques peut dépenser cette  Action Inter Partie supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une  Action Inter Partie supplémentaire pour enquêter sur une maison sinistre.",
+          "spans": [
+            {
+              "text": "Par exemple, un personnage possédant ",
+              "bold": false
+            },
+            {
+              "text": "Science : Mathématiques",
+              "bold": true
+            },
+            {
+              "text": " peut dépenser cette  Action Inter Partie supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une  Action Inter Partie supplémentaire pour enquêter sur une maison sinistre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensé que pour une tâche en rapport avec l'un de ses domaines d'étude.",
+          "spans": [
+            {
+              "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensé que pour une tâche en rapport avec l'un de ses domaines d'étude.",
               "bold": false
             }
           ]
