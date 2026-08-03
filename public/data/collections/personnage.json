@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-08-02T16:56:54.149Z",
+  "generatedAt": "2026-08-03T18:39:06.302Z",
   "propertyOptions": {},
   "items": [
     {
@@ -4445,7 +4445,7 @@
       "slug": "etape-6-historique-de-depart",
       "title": "Etape 6 : Historique de départ",
       "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-07-26T13:33:00.000Z",
+      "lastEditedTime": "2026-08-03T18:36:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -4609,18 +4609,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le Conteur peut retirer définitivement un Historique si les circonstances de votre personnage changent de manière significative. Par exemple, un personnage qui met en scène sa mort et change complètement d'identité perdra probablement son Historique Célébrité.",
+          "text": "Le Conteur peut retirer définitivement un Historique si les circonstances de votre personnage changent de manière significative. Par exemple, un personnage qui met en scène sa mort et change complètement d'identité perdra probablement son Historique Renommée.",
           "spans": [
             {
-              "text": "Le Conteur peut retirer définitivement un Historique si les circonstances de votre personnage changent de manière significative. Par exemple, un personnage qui met en scène sa mort et change complètement d'identité perdra probablement son Historique ",
-              "bold": false
-            },
-            {
-              "text": "Célébrité",
-              "bold": true
-            },
-            {
-              "text": ".",
+              "text": "Le Conteur peut retirer définitivement un Historique si les circonstances de votre personnage changent de manière significative. Par exemple, un personnage qui met en scène sa mort et change complètement d'identité perdra probablement son Historique Renommée.",
               "bold": false
             }
           ]

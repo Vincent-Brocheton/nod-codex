@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-02T16:56:54.127Z",
+  "generatedAt": "2026-08-03T18:39:06.280Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -5835,7 +5835,7 @@
       "slug": "sombre-secret",
       "title": "Sombre Secret",
       "notionUrl": "https://app.notion.com/p/Sombre-Secret-39688b48e48e8078a692e6cfdfc59285",
-      "lastEditedTime": "2026-07-09T15:48:00.000Z",
+      "lastEditedTime": "2026-08-03T11:57:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -5865,10 +5865,50 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Vous cachez un secret issu de votre passé, qui provoquerait une grande honte s’il venait à être révélé par vos ennemis.\nSi ce secret devient public, vous devez racheter cet Handicap.\nComme pour tous les Handicaps, le Conteur ne devrait pas autoriser un Sombre Secret qui n’aurait aucun impact réel sur la survie potentielle du personnage s’il était révélé, ou qui reproduirait simplement une difficulté inhérente au type de personnage joué.\nUn personnage ne peut posséder qu’un seul Sombre Secret.\nQuelques exemples de Sombres Secrets :\n• Vous entretenez une relation amoureuse avec un membre d’une autre secte ou avec un infernaliste.\n• Vous avez commis un crime puni par les lois de votre secte.\n• Vous avez trahi votre clan ou votre lignée.",
+          "text": "Vous cachez un secret issu de votre passé, qui provoquerait une grande honte s’il venait à être révélé par vos ennemis.\nSi ce secret devient public, vous devez racheter cet Handicap.\nComme pour tous les Handicaps, le Conteur ne devrait pas autoriser un Sombre Secret qui n’aurait aucun impact réel sur la survie potentielle du personnage s’il était révélé, ou qui reproduirait simplement une difficulté inhérente au type de personnage joué.\nUn personnage ne peut posséder qu’un seul Sombre Secret.",
           "spans": [
             {
-              "text": "Vous cachez un secret issu de votre passé, qui provoquerait une grande honte s’il venait à être révélé par vos ennemis.\nSi ce secret devient public, vous devez racheter cet Handicap.\nComme pour tous les Handicaps, le Conteur ne devrait pas autoriser un Sombre Secret qui n’aurait aucun impact réel sur la survie potentielle du personnage s’il était révélé, ou qui reproduirait simplement une difficulté inhérente au type de personnage joué.\nUn personnage ne peut posséder qu’un seul Sombre Secret.\nQuelques exemples de Sombres Secrets :\n• Vous entretenez une relation amoureuse avec un membre d’une autre secte ou avec un infernaliste.\n• Vous avez commis un crime puni par les lois de votre secte.\n• Vous avez trahi votre clan ou votre lignée.",
+              "text": "Vous cachez un secret issu de votre passé, qui provoquerait une grande honte s’il venait à être révélé par vos ennemis.\nSi ce secret devient public, vous devez racheter cet Handicap.\nComme pour tous les Handicaps, le Conteur ne devrait pas autoriser un Sombre Secret qui n’aurait aucun impact réel sur la survie potentielle du personnage s’il était révélé, ou qui reproduirait simplement une difficulté inhérente au type de personnage joué.\nUn personnage ne peut posséder qu’un seul Sombre Secret.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelques exemples de Sombres Secrets :",
+          "spans": [
+            {
+              "text": "Quelques exemples de Sombres Secrets :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous entretenez une relation amoureuse avec un membre d’une autre secte ou avec un infernaliste.",
+          "spans": [
+            {
+              "text": "Vous entretenez une relation amoureuse avec un membre d’une autre secte ou avec un infernaliste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous avez commis un crime puni par les lois de votre secte.",
+          "spans": [
+            {
+              "text": "Vous avez commis un crime puni par les lois de votre secte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous avez trahi votre clan ou votre lignée.",
+          "spans": [
+            {
+              "text": "Vous avez trahi votre clan ou votre lignée.",
               "bold": false
             }
           ]

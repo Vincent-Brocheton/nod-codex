@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-08-02T16:56:54.143Z",
+  "generatedAt": "2026-08-03T18:39:06.296Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1787,7 +1787,7 @@
       "slug": "occultisme",
       "title": "Occultisme",
       "notionUrl": "https://app.notion.com/p/Occultisme-38288b48e48e80768716c892c55e1679",
-      "lastEditedTime": "2026-07-06T11:17:00.000Z",
+      "lastEditedTime": "2026-08-03T18:37:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1827,10 +1827,10 @@
         },
         {
           "type": "paragraph",
-          "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Refuge (voir Historique Refuge). Cet avantage ne peut s’appliquer qu’à son propre refuge.",
+          "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir Historique Havre ). Cet avantage ne peut s’appliquer qu’à son propre havre.",
           "spans": [
             {
-              "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Refuge (voir Historique Refuge). Cet avantage ne peut s’appliquer qu’à son propre refuge.",
+              "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir Historique Havre ). Cet avantage ne peut s’appliquer qu’à son propre havre.",
               "bold": false
             }
           ]
@@ -1952,7 +1952,7 @@
       "slug": "securite",
       "title": "Sécurité",
       "notionUrl": "https://app.notion.com/p/S-curit-38288b48e48e80b491c8f4e3f5041a20",
-      "lastEditedTime": "2026-07-12T12:03:00.000Z",
+      "lastEditedTime": "2026-08-03T18:37:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1992,10 +1992,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Refuge. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
+          "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
           "spans": [
             {
-              "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Refuge. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
+              "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
               "bold": false
             }
           ]

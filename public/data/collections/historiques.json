@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-02T16:56:54.151Z",
+  "generatedAt": "2026-08-03T18:39:06.303Z",
   "propertyOptions": {},
   "items": [
     {
@@ -4724,7 +4724,7 @@
       "slug": "renommee",
       "title": "Renommée",
       "notionUrl": "https://app.notion.com/p/Renomm-e-39b88b48e48e8081ab3de3d460b94fc8",
-      "lastEditedTime": "2026-07-12T12:31:00.000Z",
+      "lastEditedTime": "2026-08-03T18:36:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -4744,18 +4744,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La Célébrité est généralement réservée aux jeunes vampires. Avec les siècles, même les plus grands noms tombent dans l'oubli. Un personnage particulièrement ancien devra justifier auprès du Conteur les raisons pour lesquelles il reste connu du public.",
+          "text": "La Renommée est généralement réservée aux jeunes vampires. Avec les siècles, même les plus grands noms tombent dans l'oubli. Un personnage particulièrement ancien devra justifier auprès du Conteur les raisons pour lesquelles il reste connu du public.",
           "spans": [
             {
-              "text": "La ",
-              "bold": false
-            },
-            {
-              "text": "Célébrité",
-              "bold": true
-            },
-            {
-              "text": " est généralement réservée aux jeunes vampires. Avec les siècles, même les plus grands noms tombent dans l'oubli. Un personnage particulièrement ancien devra justifier auprès du Conteur les raisons pour lesquelles il reste connu du public.",
+              "text": "La Renommée est généralement réservée aux jeunes vampires. Avec les siècles, même les plus grands noms tombent dans l'oubli. Un personnage particulièrement ancien devra justifier auprès du Conteur les raisons pour lesquelles il reste connu du public.",
               "bold": false
             }
           ]
