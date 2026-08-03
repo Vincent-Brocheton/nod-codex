@@ -3,6 +3,12 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.2.0] - 2026-08-03
+
+- Nouvelle lignée "Guerrier" (Assamites), qui remplace "Vizirs"
+- Ajout de deux entrées FAQ sur le fonctionnement des compétences Artisanat et Représentation
+- Corrections et mises à jour de contenu (compétences, historiques, pouvoirs, atouts, handicaps, clans)
+
 ## [1.1.0] - 2026-08-02
 
 - Nouvelle catégorie "Clan" dans Atouts & Handicaps : regroupe les fiches propres à un clan (Assamites, Brujah, Caïtiff, Giovanni, Lasombra, Malkavien, Nosfératu, Setite, Toréador, Tremere, Tzimisces, Ventrue), sous-groupées par clan
