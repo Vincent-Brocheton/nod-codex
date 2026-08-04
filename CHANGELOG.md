@@ -3,6 +3,11 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.3.0] - 2026-08-04
+
+- Les fiches "Lignée : X" apparaissent désormais dans la liste des atouts de leur clan (ex. Guerrier et Sorcier avec les atouts Assamites)
+- Sur la catégorie "Clan" des Atouts & Handicaps, chaque fiche précise si elle est réservée à une lignée précise ou ouverte à tout le clan sans lignée particulière (rien n'est affiché quand elle est disponible aux deux)
+
 ## [1.2.0] - 2026-08-03
 
 - Nouvelle lignée "Guerrier" (Assamites), qui remplace "Vizirs"

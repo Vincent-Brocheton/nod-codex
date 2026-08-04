@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
-import { ArrowLeft, ArrowRight, ChevronDown, ShieldAlert } from "lucide-react";
+import { ArrowLeft, ArrowRight, ChevronDown, ShieldAlert, Users } from "lucide-react";
 import { normalizeProperty, isPropertyEmpty, propertyText } from "../../utils/property";
 import ItemListButton from "../ItemListButton";
 import ItemDetailBody from "../ItemDetailBody";
@@ -50,6 +50,7 @@ function ItemEntry({
     itemStatFields,
     itemRelatedGroups,
     itemHighlightField,
+    itemNote,
     hideGroupedProperties,
     manifest,
     collapsible = false,
@@ -62,6 +63,8 @@ function ItemEntry({
     const highlightText = highlight && !isPropertyEmpty(highlight)
         ? `${itemHighlightField.label} : ${propertyText(highlight)}`
         : null;
+
+    const noteText = itemNote ? itemNote(item) : null;
 
     const body = (
         <>
@@ -92,6 +95,13 @@ function ItemEntry({
                     </p>
                 ) : null}
 
+                {noteText ? (
+                    <p className="itemHighlight itemScopeNote">
+                        <Users size={14} aria-hidden="true" />
+                        {noteText}
+                    </p>
+                ) : null}
+
                 {body}
             </section>
         );
@@ -102,6 +112,7 @@ function ItemEntry({
             <button type="button" className="ritualEntryToggle" onClick={() => setOpen((current) => !current)} aria-expanded={open}>
                 <Heading>{item.title}</Heading>
                 {highlightText ? <span className="ritualEntryHighlight">{highlightText}</span> : null}
+                {noteText ? <span className="ritualEntryHighlight ritualEntryScopeNote">{noteText}</span> : null}
                 <ItemFlags
                     needsApproval={item.properties?.Approbation?.value === true}
                     full={item.properties?.Complet?.value === true}
@@ -146,6 +157,9 @@ function ItemEntry({
  * dans un groupe (mêmes composants que sur les fiches Discipline/Pouvoir/Clan).
  * `itemHighlightField` met une propriété en évidence dans un encart distinct
  * (ex. Restriction d'un rituel), plutôt que noyée dans `itemStatFields`.
+ * `itemNote(item)` affiche un second encart calculé (pas une propriété
+ * brute) juste en dessous, ex. Atouts & Handicaps précisant si une fiche est
+ * ouverte à tout un clan ou réservée à une lignée précise.
  * `singleItemStatFields`/`singleItemRelatedGroups` jouent le même rôle mais
  * pour une fiche ouverte seule (voir plus bas) : utile quand une info comme
  * le coût est déjà répétée dans le titre du groupe et n'a donc pas besoin
@@ -176,6 +190,7 @@ export default function GroupedRuleView({
     itemStatFields,
     itemRelatedGroups,
     itemHighlightField,
+    itemNote,
     hideGroupedProperties = false,
     singleItemStatFields,
     singleItemRelatedGroups,
@@ -442,6 +457,7 @@ export default function GroupedRuleView({
                                             itemStatFields={itemStatFields}
                                             itemRelatedGroups={itemRelatedGroups}
                                             itemHighlightField={highlightField}
+                                            itemNote={itemNote}
                                             hideGroupedProperties={hideGroupedProperties}
                                             manifest={wiki.manifest}
                                             collapsible={collapsible}
@@ -459,6 +475,7 @@ export default function GroupedRuleView({
                                     itemStatFields={itemStatFields}
                                     itemRelatedGroups={itemRelatedGroups}
                                     itemHighlightField={highlightField}
+                                    itemNote={itemNote}
                                     hideGroupedProperties={hideGroupedProperties}
                                     manifest={wiki.manifest}
                                     collapsible={collapsible}

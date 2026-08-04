@@ -1118,6 +1118,19 @@ a.relationChip:hover {
   color: var(--accent-hover);
 }
 
+/* Portée d'un Atout/Handicap (clan entier vs lignée précise) : réutilise la
+   teinte "sceau" (voir --seal plus haut), pas le rouge d'accent déjà pris
+   par le Coût, pour rester lisible quand les deux encarts se suivent. */
+.itemScopeNote {
+  background: var(--seal-tint);
+  border-color: var(--seal);
+  color: var(--seal-strong);
+}
+
+.ritualEntryScopeNote {
+  color: var(--seal-strong);
+}
+
 .ritualEntry .statBlock {
   background: none;
   border: none;

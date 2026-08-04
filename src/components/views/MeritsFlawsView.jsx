@@ -1,6 +1,8 @@
+import { useEffect, useMemo, useState } from "react";
 import GroupedRuleView from "./GroupedRuleView";
 import collectionNavPath from "../../utils/collectionNavPath";
 import { normalizeProperty } from "../../utils/property";
+import { getCollection } from "../../services/wikiServices";
 
 const SINGLE_STAT_FIELDS = [
     { label: "Coût", key: "Coût" },
@@ -50,8 +52,18 @@ function relationRef(item, key) {
     return property?.type === "relation" ? property.value[0] : null;
 }
 
-function clanOf(item) {
-    return relationRef(item, "Clan")?.title || null;
+// Certains atouts/handicaps ne sont propres qu'à une lignée (pas au clan
+// entier) : côté Notion, ils ne portent donc qu'une relation "Lignées", pas
+// de relation "Clan" directe. Ils doivent malgré tout apparaître dans la
+// même liste que les atouts de leur clan (ex. "Lignée : Croisé" avec les
+// atouts Ventrue) : à défaut de Clan direct, on résout le clan via la fiche
+// de la lignée (`ligneeClanMap`, slug de lignée -> nom de clan).
+function clanOf(item, ligneeClanMap) {
+    const direct = relationRef(item, "Clan")?.title;
+    if (direct) return direct;
+
+    const ligneeRef = relationRef(item, "Lignées");
+    return (ligneeRef && ligneeClanMap?.get(ligneeRef.slug)) || null;
 }
 
 // Sous-titre entre les fiches d'un même clan sur la catégorie "Clan".
@@ -63,16 +75,18 @@ function clanSubGroupLabel(value, collectionLabel) {
 // par clan (voir `clanSubGroup`) ; sur les autres catégories, `clanOf` vaut
 // toujours null (ces fiches en sont exclues par `isVisibleForGroup`) et le
 // tri revient donc au comportement d'origine, par coût.
-function byClanThenCoutThenAlpha(a, b) {
-    const clanA = clanOf(a);
-    const clanB = clanOf(b);
-    if (clanA !== clanB) return (clanA || "").localeCompare(clanB || "", "fr");
-    return byCoutThenAlpha(a, b);
+function byClanThenCoutThenAlpha(ligneeClanMap) {
+    return (a, b) => {
+        const clanA = clanOf(a, ligneeClanMap);
+        const clanB = clanOf(b, ligneeClanMap);
+        if (clanA !== clanB) return (clanA || "").localeCompare(clanB || "", "fr");
+        return byCoutThenAlpha(a, b);
+    };
 }
 
-function subGroupFor(typeValue) {
+function subGroupFor(typeValue, ligneeClanMap) {
     return typeValue === "Clan"
-        ? { key: clanOf, label: clanSubGroupLabel, filterable: true }
+        ? { key: (item) => clanOf(item, ligneeClanMap), label: clanSubGroupLabel, filterable: true }
         : { key: coutOf, label: coutSubGroupLabel, filterable: true, filterLabel: coutFilterLabel };
 }
 
@@ -80,15 +94,38 @@ function highlightFieldFor(typeValue) {
     return typeValue === "Clan" ? COUT_HIGHLIGHT_FIELD : undefined;
 }
 
+// Une relation "Lignées" sur un atout ne veut pas dire qu'il est réservé à
+// cette lignée : côté Notion, la fiche d'une lignée liste dans ses propres
+// "Atouts" à la fois son atout exclusif et tous les atouts génériques de son
+// clan (ex. la fiche "Croisé" liste "Aura de commandement", un atout Ventrue
+// ordinaire) — la relation inverse "Lignées" apparaît alors aussi sur cet
+// atout générique, sans qu'il soit exclusif à cette lignée pour autant. Le
+// seul signal fiable pour "ouvert à tout le clan" est la liste "Atouts de
+// clan" de la fiche Clan elle-même (`clanAtoutsMap`, nom de clan -> slugs) :
+// un atout qui y figure est disponible pour tout le clan (donc rien à
+// marquer, même s'il est aussi rattaché à une lignée) ; un atout qui n'y
+// figure pas mais porte une relation Lignées est réservé à cette lignée.
+function scopeNoteFor(item, ligneeClanMap, clanAtoutsMap) {
+    const clan = clanOf(item, ligneeClanMap);
+    if (clan && clanAtoutsMap?.get(clan)?.has(item.slug)) return null;
+
+    const ligneeRef = relationRef(item, "Lignées");
+    if (ligneeRef) return `Réservé à la lignée ${ligneeRef.title}`;
+
+    if (clan) return `Réservé au clan ${clan} sans lignée`;
+
+    return null;
+}
+
 // Sur les catégories générales (Camarilla, Sabbat, Général, Anarch'), un
 // atout/handicap lié à un Clan ou une Lignée n'apparaît que sur la fiche de
-// ce Clan/cette Lignée, pas ici. Sur la catégorie "Clan", à l'inverse, seules
-// les fiches dont le Clan est renseigné apparaissent : celles liées
-// uniquement à une Lignée restent sur leur fiche Lignée, et celles sans
-// aucune relation appartiennent à un clan non joué dans ce GN (données
+// ce Clan/cette Lignée, pas ici. Sur la catégorie "Clan", à l'inverse,
+// apparaissent les fiches dont le clan se résout (directement, ou via leur
+// lignée grâce à `ligneeClanMap` — voir `clanOf`) ; celles dont ni l'un ni
+// l'autre ne se résout appartiennent à un clan non joué dans ce GN (données
 // Notion incomplètes côté clan, pas encore de fiche Clan à rattacher).
-function isVisibleForGroup(item, typeValue) {
-    if (typeValue === "Clan") return Boolean(relationRef(item, "Clan"));
+function isVisibleForGroup(item, typeValue, ligneeClanMap) {
+    if (typeValue === "Clan") return Boolean(clanOf(item, ligneeClanMap));
     return !relationRef(item, "Clan") && !relationRef(item, "Lignées");
 }
 
@@ -130,6 +167,57 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             .flatMap(key => loadedCollections[key]?.propertyOptions?.Type || [])
     )].sort((a, b) => a.localeCompare(b, "fr"));
 
+    // Chargées à part (hors de `activeNavigation.collections`, qui ne couvre
+    // que Atouts + Handicaps ici) pour résoudre le clan des atouts propres à
+    // une lignée sans clan direct (`clanOf`) et savoir quels atouts sont
+    // ouverts à tout un clan (`scopeNoteFor`).
+    const [lignees, setLignees] = useState(null);
+    const [clans, setClans] = useState(null);
+
+    useEffect(() => {
+        let cancelled = false;
+
+        [["lignees", setLignees], ["clans", setClans]].forEach(([key, setter]) => {
+            const config = wiki.manifest.collections.find(entry => entry.key === key);
+            if (!config) return;
+
+            getCollection(config.file).then(collection => {
+                if (!cancelled) setter(collection);
+            });
+        });
+
+        return () => {
+            cancelled = true;
+        };
+    }, [wiki.manifest]);
+
+    const ligneeClanMap = useMemo(() => {
+        const map = new Map();
+        (lignees?.items || []).forEach(item => {
+            const clan = relationRef(item, "Clan")?.title;
+            if (clan) map.set(item.slug, clan);
+        });
+        return map;
+    }, [lignees]);
+
+    // Union Atouts + Handicaps : cette vue mélange les deux collections sous
+    // le même groupement "Type", et `scopeNoteFor` n'a besoin que de savoir
+    // si le slug figure dans la liste du clan, peu importe laquelle.
+    const clanAtoutsMap = useMemo(() => {
+        const map = new Map();
+        (clans?.items || []).forEach(item => {
+            const slugsOf = (key) => {
+                const property = item.properties?.[key];
+                return property?.type === "relation" ? property.value.map(ref => ref.slug) : [];
+            };
+            map.set(item.title, new Set([
+                ...slugsOf("Atouts de clan"),
+                ...slugsOf("Handicaps de Clan"),
+            ]));
+        });
+        return map;
+    }, [clans]);
+
     return (
         <GroupedRuleView
             wiki={wiki}
@@ -140,10 +228,11 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             formatGroupLabel={(value) => value}
             introText="Personnalisez votre personnage grâce à des avantages uniques et des faiblesses marquantes."
             emptyMessage="Aucune fiche de ce type pour le moment."
-            itemFilter={isVisibleForGroup}
-            itemSort={byClanThenCoutThenAlpha}
-            itemSubGroup={subGroupFor}
+            itemFilter={(item, typeValue) => isVisibleForGroup(item, typeValue, ligneeClanMap)}
+            itemSort={byClanThenCoutThenAlpha(ligneeClanMap)}
+            itemSubGroup={(typeValue) => subGroupFor(typeValue, ligneeClanMap)}
             itemHighlightField={highlightFieldFor}
+            itemNote={(item) => scopeNoteFor(item, ligneeClanMap, clanAtoutsMap)}
             hideGroupedProperties
             showGroupBadge={false}
             singleItemStatFields={SINGLE_STAT_FIELDS}
