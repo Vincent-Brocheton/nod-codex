@@ -4,10 +4,10 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-03T21:34:54.081Z",
+  "generatedAt": "2026-08-04T19:40:31.202Z",
   "propertyOptions": {
     "Catégorie": [
-      "Quêtes et Lieux d'intérêts",
+      "Lieux d'intérêts",
       "Vie",
       "Liens de sang",
       "Diablerie",
@@ -25,7 +25,8 @@
       "Coteries",
       "Divers",
       "Gestion de la Fiche",
-      "RolePlay"
+      "RolePlay",
+      "Quêtes"
     ]
   },
   "items": [
@@ -1095,6 +1096,121 @@
           "spans": [
             {
               "text": "Attaque à distance à plus de 3 pas → Bonus de 2 pour vous défendre.\nAttaque physique à moins de 3 pas → Malus de 2 pour vous défendre.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80f3-b069-f704e7de2d3a",
+      "slug": "affaiblir-les-lieux-d-interets",
+      "title": "Affaiblir les Lieux d’Intérêts",
+      "notionUrl": "https://app.notion.com/p/Affaiblir-les-Lieux-d-Int-r-ts-3b288b48e48e80f3b069f704e7de2d3a",
+      "lastEditedTime": "2026-08-04T12:16:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Affaiblir les Lieux d’Intérêts"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les assauts physiques directs sont les outils les plus brutaux et les plus simples de l'arsenal d'un vampire. Les personnages rusés et inventifs disposent cependant d'un éventail de possibilités bien plus vaste, leur permettant de ruiner les liens d'un rival avec le monde mortel sans avoir à recourir à l'indélicatesse d'une attaque directe.",
+          "spans": [
+            {
+              "text": "Les assauts physiques directs sont les outils les plus brutaux et les plus simples de l'arsenal d'un vampire. Les personnages rusés et inventifs disposent cependant d'un éventail de possibilités bien plus vaste, leur permettant de ruiner les liens d'un rival avec le monde mortel sans avoir à recourir à l'indélicatesse d'une attaque directe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les règles suivantes présentent différentes méthodes permettant d'affecter un lieu contrôlé par un autre personnage en lui imposant une Qualité négative de Lieu d'intérêt.",
+          "spans": [
+            {
+              "text": "Les règles suivantes présentent différentes méthodes permettant d'affecter un lieu contrôlé par un autre personnage en lui imposant une ",
+              "bold": false
+            },
+            {
+              "text": "Qualité négative de Lieu d'intérêt",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Qualités négatives représentent les difficultés, dégradations ou problèmes pesant sur un lieu et son propriétaire. Les accumuler peut finir par ruiner les possessions d'un rival ou faciliter leur prise de contrôle.",
+          "spans": [
+            {
+              "text": "Les Qualités négatives représentent les difficultés, dégradations ou problèmes pesant sur un lieu et son propriétaire. Les accumuler peut finir par ruiner les possessions d'un rival ou faciliter leur prise de contrôle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Qualités négatives sont gérées par le Conteur et chacune possède ses propres effets et conditions. Contrairement aux Qualités ordinaires, le Conteur peut décider de garder secrètes certaines ou toutes les Qualités négatives d'un lieu. Son propriétaire devra alors découvrir ou déduire l'existence de ces problèmes à l'aide de ses Compétences, Pouvoirs ou Historiques.",
+          "spans": [
+            {
+              "text": "Les Qualités négatives sont gérées par le ",
+              "bold": false
+            },
+            {
+              "text": "Conteur",
+              "bold": true
+            },
+            {
+              "text": " et chacune possède ses propres effets et conditions. Contrairement aux Qualités ordinaires, le Conteur peut décider de garder secrètes certaines ou toutes les Qualités négatives d'un lieu. Son propriétaire devra alors découvrir ou déduire l'existence de ces problèmes à l'aide de ses Compétences, Pouvoirs ou Historiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour imposer une Qualité négative, choisissez la Qualité souhaitée puis entreprenez une Quête de la catégorie appropriée, avec une difficulté égale au niveau du lieu, à laquelle s'ajoutent les éventuels modificateurs.",
+          "spans": [
+            {
+              "text": "Pour imposer une Qualité négative, choisissez la Qualité souhaitée puis entreprenez une ",
+              "bold": false
+            },
+            {
+              "text": "Quête de la catégorie appropriée",
+              "bold": true
+            },
+            {
+              "text": ", avec une difficulté égale au ",
+              "bold": false
+            },
+            {
+              "text": "niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ", à laquelle s'ajoutent les éventuels modificateurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, le lieu reçoit la Qualité négative choisie.",
+          "spans": [
+            {
+              "text": "En cas de réussite, le lieu reçoit la Qualité négative choisie.",
               "bold": false
             }
           ]
@@ -9097,6 +9213,691 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-8004-baa1-e93205a1e838",
+      "slug": "elysium",
+      "title": "Élysium",
+      "notionUrl": "https://app.notion.com/p/lysium-3b288b48e48e8004baa1e93205a1e838",
+      "lastEditedTime": "2026-08-04T12:28:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Élysium"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "N'importe quel bâtiment ne mérite pas d'être désigné comme Élysium. Pour qu'un lieu soit considéré comme digne de ce statut, il doit posséder quelque chose de particulier.",
+          "spans": [
+            {
+              "text": "N'importe quel bâtiment ne mérite pas d'être désigné comme ",
+              "bold": false
+            },
+            {
+              "text": "Élysium",
+              "bold": true
+            },
+            {
+              "text": ". Pour qu'un lieu soit considéré comme digne de ce statut, il doit posséder quelque chose de particulier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Très souvent, un Élysium est un lieu suffisamment important ou remarquable par sa beauté pour que le \"Prince\"souhaite le placer sous sa protection. De la même manière, les autorités municipales choisissent souvent des lieux possédant une importance historique, culturelle ou locale.",
+          "spans": [
+            {
+              "text": "Très souvent, un Élysium est un lieu suffisamment important ou remarquable par sa beauté pour que le \"Prince\"souhaite le placer sous sa protection. De la même manière, les autorités municipales choisissent souvent des lieux possédant une importance historique, culturelle ou locale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les vampires voient généralement d'un mauvais œil le choix d'un lieu uniquement pour ses capacités défensives. Un tel choix est considéré comme le signe d'un \"Prince\"faible et paranoïaque, dont le pouvoir serait insuffisant pour protéger un lieu ayant une véritable valeur.",
+          "spans": [
+            {
+              "text": "Les vampires voient généralement d'un mauvais œil le choix d'un lieu uniquement pour ses capacités défensives. Un tel choix est considéré comme le signe d'un \"Prince\"faible et paranoïaque, dont le pouvoir serait insuffisant pour protéger un lieu ayant une véritable valeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les coutumes propres à chaque Élysium sont uniques et dépendent du poids des traditions locales ainsi que des Courtoisies du Prince.",
+          "spans": [
+            {
+              "text": "Les coutumes propres à chaque Élysium sont uniques et dépendent du poids des traditions locales ainsi que des ",
+              "bold": false
+            },
+            {
+              "text": "Courtoisies du Prince",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un Conteur crée un Élysium, il doit utiliser les règles des Lieux d'intérêt afin de déterminer ses Qualités ordinaires. Il devrait ensuite discuter avec les joueurs du type d'Élysium qu'ils souhaitent créer. À partir de ces informations, le Conteur peut déterminer les Qualités d'Élysium les mieux adaptées à ce Lieu d'intérêt.",
+          "spans": [
+            {
+              "text": "Lorsqu'un Conteur crée un Élysium, il doit utiliser les règles des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux d'intérêt",
+              "bold": true
+            },
+            {
+              "text": " afin de déterminer ses Qualités ordinaires. Il devrait ensuite discuter avec les joueurs du type d'Élysium qu'ils souhaitent créer. À partir de ces informations, le Conteur peut déterminer les ",
+              "bold": false
+            },
+            {
+              "text": "Qualités d'Élysium",
+              "bold": true
+            },
+            {
+              "text": " les mieux adaptées à ce Lieu d'intérêt.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Choix de l'Élysium",
+          "spans": [
+            {
+              "text": "Choix de l'Élysium",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il appartient au \"Prince\" de choisir le lieu accueillant les rassemblements du Domaine. Ce privilège constitue un outil subtil dans l'arsenal politique du dirigeant.",
+          "spans": [
+            {
+              "text": "Il appartient au ",
+              "bold": false
+            },
+            {
+              "text": "\"Prince\" ",
+              "bold": true
+            },
+            {
+              "text": "de choisir le lieu accueillant les rassemblements du Domaine. Ce privilège constitue un outil subtil dans l'arsenal politique du dirigeant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant chaque rassemblement de la Cour, le \"Prince\" fait connaître son choix au Gardien de l'Élysium, lui laissant suffisamment de temps pour préparer les lieux. Un \"Prince\"capricieux ou indécis peut toutefois prévenir beaucoup plus tardivement, obligeant le Gardien à préparer le lieu dans l'urgence.",
+          "spans": [
+            {
+              "text": "Avant chaque rassemblement de la Cour, le \"Prince\" fait connaître son choix au ",
+              "bold": false
+            },
+            {
+              "text": "Gardien de l'Élysium",
+              "bold": true
+            },
+            {
+              "text": ", lui laissant suffisamment de temps pour préparer les lieux. Un \"Prince\"capricieux ou indécis peut toutefois prévenir beaucoup plus tardivement, obligeant le Gardien à préparer le lieu dans l'urgence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le moment et le lieu choisis pour les rassemblements d'un Domaine peuvent offrir de nombreux avantages.",
+          "spans": [
+            {
+              "text": "Le moment et le lieu choisis pour les rassemblements d'un Domaine peuvent offrir de nombreux avantages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un \"Prince\" peut décider de tenir sa Cour sur le site d'une ancienne victoire, rappelant subtilement à ses citoyens ses exploits passés. Si le Domaine connaît des problèmes liés à la Mascarade, il peut choisir un endroit isolé. Si les violences au sein de l'Élysium sont devenues problématiques, il peut sélectionner un lieu où celles-ci sont naturellement découragées. Face à la menace d'une attaque extérieure, un lieu particulièrement fortifié peut également représenter un choix idéal.",
+          "spans": [
+            {
+              "text": "Un \"Prince\" peut décider de tenir sa Cour sur le site d'une ancienne victoire, rappelant subtilement à ses citoyens ses exploits passés. Si le Domaine connaît des problèmes liés à la ",
+              "bold": false
+            },
+            {
+              "text": "Mascarade",
+              "bold": true
+            },
+            {
+              "text": ", il peut choisir un endroit isolé. Si les violences au sein de l'Élysium sont devenues problématiques, il peut sélectionner un lieu où celles-ci sont naturellement découragées. Face à la menace d'une attaque extérieure, un lieu particulièrement fortifié peut également représenter un choix idéal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des dirigeants privilégient toutefois des lieux reconnus pour leur art et leur esthétique. Organiser un rassemblement sans incident dans un lieu prestigieux constitue une démonstration implicite du pouvoir du Prince.",
+          "spans": [
+            {
+              "text": "La plupart des dirigeants privilégient toutefois des lieux reconnus pour leur ",
+              "bold": false
+            },
+            {
+              "text": "art et leur esthétique",
+              "bold": true
+            },
+            {
+              "text": ". Organiser un rassemblement sans incident dans un lieu prestigieux constitue une démonstration implicite du pouvoir du Prince.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Après tout, si un \"Prince\" est capable de conserver le contrôle d'un lieu particulièrement remarquable et d'en assurer la sécurité, il est certainement un dirigeant doté d'une grande compétence et d'une influence considérable.",
+          "spans": [
+            {
+              "text": "Après tout, si un \"Prince\" est capable de conserver le contrôle d'un lieu particulièrement remarquable et d'en assurer la sécurité, il est certainement un dirigeant doté d'une grande compétence et d'une influence considérable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_1",
+          "text": "Lois de l'Élysium",
+          "spans": [
+            {
+              "text": "Lois de l'Élysium",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La règle fondamentale suivie par tous les Élysiums est simple :",
+          "spans": [
+            {
+              "text": "La règle fondamentale suivie par tous les Élysiums est simple :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La violence est interdite en terre sacrée.",
+          "spans": [
+            {
+              "text": "La violence est interdite en terre sacrée.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Courtoisies propres à chaque Domaine déterminent précisément quelles actions constituent une violation de l'Élysium.",
+          "spans": [
+            {
+              "text": "Les Courtoisies propres à chaque Domaine déterminent précisément quelles actions constituent une violation de l'Élysium.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En raison de cette tradition, les Gardiens de l'Élysium travaillent généralement avec les Harpies afin de s'assurer que chaque Semblable connaisse les règles particulières du Domaine concernant l'Élysium.",
+          "spans": [
+            {
+              "text": "En raison de cette tradition, les ",
+              "bold": false
+            },
+            {
+              "text": "Gardiens de l'Élysium",
+              "bold": true
+            },
+            {
+              "text": " travaillent généralement avec les ",
+              "bold": false
+            },
+            {
+              "text": "Harpies",
+              "bold": true
+            },
+            {
+              "text": " afin de s'assurer que chaque Semblable connaisse les règles particulières du Domaine concernant l'Élysium.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Interdictions courantes de l'Élysium",
+          "spans": [
+            {
+              "text": "Interdictions courantes de l'Élysium",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Élysium est différent et ses interdictions peuvent donc varier. L'ignorance n'est jamais une excuse. Les visiteurs sont tenus de connaître les interdictions de l'Élysium avant d'y pénétrer.",
+          "spans": [
+            {
+              "text": "Chaque Élysium est différent et ses interdictions peuvent donc varier. ",
+              "bold": false
+            },
+            {
+              "text": "L'ignorance n'est jamais une excuse.",
+              "bold": true
+            },
+            {
+              "text": " Les visiteurs sont tenus de connaître les interdictions de l'Élysium avant d'y pénétrer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Que les imprudents qui les ignorent en assument les conséquences.",
+          "spans": [
+            {
+              "text": "Que les imprudents qui les ignorent en assument les conséquences.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Parmi les interdictions les plus courantes, bien qu'elles ne soient pas appliquées dans tous les Élysiums :",
+          "spans": [
+            {
+              "text": "Parmi les interdictions les plus courantes, bien qu'elles ne soient pas appliquées dans tous les Élysiums :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "L'Élysium et ce qu'il contient sont sacrés et ne doivent pas être endommagés. Nul ne peut détruire une œuvre d'art se trouvant dans l'Élysium. La définition d'”œuvre d'art” a parfois été étendue jusqu'à inclure l'artiste lui-même, faisant des vampires du clan Toreador certains des plus fervents défenseurs de l'Élysium.",
+          "spans": [
+            {
+              "text": "L'Élysium et ce qu'il contient sont sacrés et ne doivent pas être endommagés.",
+              "bold": true
+            },
+            {
+              "text": " Nul ne peut détruire une œuvre d'art se trouvant dans l'Élysium. La définition d'”œuvre d'art” a parfois été étendue jusqu'à inclure l'artiste lui-même, faisant des vampires du clan Toreador certains des plus fervents défenseurs de l'Élysium.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La parole du Gardien fait loi sur ces terres. Traditionnellement, il peut punir, voire exécuter, toute personne violant l'Élysium sans pour autant enfreindre les Traditions.",
+          "spans": [
+            {
+              "text": "La parole du Gardien fait loi sur ces terres.",
+              "bold": true
+            },
+            {
+              "text": " Traditionnellement, il peut punir, voire exécuter, toute personne violant l'Élysium sans pour autant enfreindre les Traditions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "L'Élysium est considéré comme un territoire neutre et sanctifié, séparé des Sectes et de la politique. Tout vampire y est le bienvenu, quelle que soit sa Secte ou sa position politique.",
+          "spans": [
+            {
+              "text": "L'Élysium est considéré comme un territoire neutre et sanctifié",
+              "bold": true
+            },
+            {
+              "text": ", séparé des Sectes et de la politique. Tout vampire y est le bienvenu, quelle que soit sa Secte ou sa position politique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toute forme de violence est strictement interdite sur les terres de l'Élysium. Dans certaines villes, les Courtoisies étendent cette protection au trajet permettant de se rendre à l'Élysium ou de le quitter.",
+          "spans": [
+            {
+              "text": "Toute forme de violence est strictement interdite sur les terres de l'Élysium.",
+              "bold": true
+            },
+            {
+              "text": " Dans certaines villes, les Courtoisies étendent cette protection au trajet permettant de se rendre à l'Élysium ou de le quitter.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Aucun pouvoir surnaturel ne peut être utilisé dans l'Élysium. Cette interdiction comprend notamment l'utilisation de Disciplines, même les plus subtiles comme Domination ou Présence, sur les autres invités. Les Nosferatu bénéficient souvent d'une exception leur permettant d'utiliser Occultation pour dissimuler leur véritable apparence. Même lorsqu'il n'existe aucun risque pour la Mascarade, ils sont encouragés à continuer d'utiliser Occultation afin de ne pas indisposer les autres invités.",
+          "spans": [
+            {
+              "text": "Aucun pouvoir surnaturel ne peut être utilisé dans l'Élysium.",
+              "bold": true
+            },
+            {
+              "text": " Cette interdiction comprend notamment l'utilisation de Disciplines, même les plus subtiles comme Domination ou Présence, sur les autres invités. Les Nosferatu bénéficient souvent d'une exception leur permettant d'utiliser Occultation pour dissimuler leur véritable apparence. Même lorsqu'il n'existe aucun risque pour la Mascarade, ils sont encouragés à continuer d'utiliser Occultation afin de ne pas indisposer les autres invités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Aucune arme ne peut être introduite dans l'Élysium.",
+          "spans": [
+            {
+              "text": "Aucune arme ne peut être introduite dans l'Élysium.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Nul ne peut volontairement provoquer ou attiser la Bête, qu'il s'agisse de la sienne ou de celle d'un autre, dans l'enceinte de l'Élysium.",
+          "spans": [
+            {
+              "text": "Nul ne peut volontairement provoquer ou attiser la Bête",
+              "bold": true
+            },
+            {
+              "text": ", qu'il s'agisse de la sienne ou de celle d'un autre, dans l'enceinte de l'Élysium.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'un vampire amène à l'Élysium un invité non-vampire ou non Reconnu, il est responsable du comportement de cet invité.",
+          "spans": [
+            {
+              "text": "Lorsqu'un vampire amène à l'Élysium un invité ",
+              "bold": false
+            },
+            {
+              "text": "non-vampire ou non Reconnu",
+              "bold": true
+            },
+            {
+              "text": ", il est responsable du comportement de cet invité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "La présence des Bêtes de la Lune (Loups-Garous), des Sauvages (Fées) et de ceux ayant bu le sang du cœur (Diableristes) est interdite.",
+          "spans": [
+            {
+              "text": "La présence des ",
+              "bold": false
+            },
+            {
+              "text": "Bêtes de la Lune",
+              "bold": true
+            },
+            {
+              "text": " (Loups-Garous), des ",
+              "bold": false
+            },
+            {
+              "text": "Sauvages",
+              "bold": true
+            },
+            {
+              "text": " (Fées) et de ceux ayant ",
+              "bold": false
+            },
+            {
+              "text": "bu le sang du cœur",
+              "bold": true
+            },
+            {
+              "text": " (Diableristes) est interdite.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Toute chasse est interdite dans les environs de l'Élysium.",
+          "spans": [
+            {
+              "text": "Toute chasse est interdite dans les environs de l'Élysium.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Interdictions inhabituelles",
+          "spans": [
+            {
+              "text": "Interdictions inhabituelles",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains Domaines possèdent des Courtoisies locales particulièrement excentriques qui ont donné naissance à des interdictions inhabituelles.",
+          "spans": [
+            {
+              "text": "Certains Domaines possèdent des Courtoisies locales particulièrement excentriques qui ont donné naissance à des interdictions inhabituelles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Boston : les membres du clan Toreador ont l'interdiction de porter la couleur jaune. Cette règle remonte à environ deux siècles et trouve son origine dans une violente lutte de Praxis.",
+          "spans": [
+            {
+              "text": "Boston :",
+              "bold": true
+            },
+            {
+              "text": " les membres du clan Toreador ont l'interdiction de porter la couleur jaune. Cette règle remonte à environ deux siècles et trouve son origine dans une violente lutte de Praxis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "New York : aucun Goule ou Serviteur ne peut être amené dans l'Élysium. Cette interdiction remonte à une incursion du Sabbat durant laquelle plusieurs Lasombra possédèrent des corps mortels afin de recueillir des renseignements.",
+          "spans": [
+            {
+              "text": "New York :",
+              "bold": true
+            },
+            {
+              "text": " aucun Goule ou Serviteur ne peut être amené dans l'Élysium. Cette interdiction remonte à une incursion du Sabbat durant laquelle plusieurs Lasombra possédèrent des corps mortels afin de recueillir des renseignements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_1",
+          "text": "Avantages d'un Élysium ancien",
+          "spans": [
+            {
+              "text": "Avantages d'un Élysium ancien",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Plus un Élysium demeure longtemps sans subir de violation, plus il acquiert de Qualités d'Élysium.",
+          "spans": [
+            {
+              "text": "Plus un Élysium demeure longtemps sans subir de violation, plus il acquiert de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités d'Élysium",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsqu'un \"Prince\" déclare officiellement un lieu comme Élysium, celui-ci commence avec 1 Qualité d'Élysium.",
+          "spans": [
+            {
+              "text": "Lorsqu'un \"Prince\" déclare officiellement un lieu comme Élysium, celui-ci commence avec ",
+              "bold": false
+            },
+            {
+              "text": "1 Qualité d'Élysium",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Si l'Élysium demeure 10 ans sans aucune violation, il gagne une deuxième Qualité d'Élysium.",
+          "spans": [
+            {
+              "text": "Si l'Élysium demeure ",
+              "bold": false
+            },
+            {
+              "text": "10 ans sans aucune violation",
+              "bold": true
+            },
+            {
+              "text": ", il gagne une ",
+              "bold": false
+            },
+            {
+              "text": "deuxième Qualité d'Élysium",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Par la suite, pour chaque période de 100 ans sans violation, l'Élysium gagne 1 Qualité d'Élysium supplémentaire.",
+          "spans": [
+            {
+              "text": "Par la suite, pour chaque période de ",
+              "bold": false
+            },
+            {
+              "text": "100 ans sans violation",
+              "bold": true
+            },
+            {
+              "text": ", l'Élysium gagne ",
+              "bold": false
+            },
+            {
+              "text": "1 Qualité d'Élysium supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le \"Prince\"et le Gardien de l'Élysium organisent traditionnellement une grande réception pour célébrer chacune de ces étapes.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "\"Prince\"",
+              "bold": true
+            },
+            {
+              "text": "et le ",
+              "bold": false
+            },
+            {
+              "text": "Gardien de l'Élysium",
+              "bold": true
+            },
+            {
+              "text": " organisent traditionnellement une grande réception pour célébrer chacune de ces étapes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreuses villes possèdent même des Courtoisies locales permettant de demander le pardon pour d'anciens crimes lors de ces célébrations.",
+          "spans": [
+            {
+              "text": "De nombreuses villes possèdent même des Courtoisies locales permettant de demander le pardon pour d'anciens crimes lors de ces célébrations.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il s'agit notamment de l'une des rares occasions durant lesquelles un \"Prince\" peut retirer le Statut négatif “Chassé au sang” à un vampire sans subir de pénalité.",
+          "spans": [
+            {
+              "text": "Il s'agit notamment de l'une des rares occasions durant lesquelles un \"Prince\" peut retirer le ",
+              "bold": false
+            },
+            {
+              "text": "Statut négatif “Chassé au sang” ",
+              "bold": true
+            },
+            {
+              "text": "à un vampire ",
+              "bold": false
+            },
+            {
+              "text": "sans subir de pénalité",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-8046-ab59-df97a7049985",
       "slug": "equipement-divers",
       "title": "Equipement Divers",
@@ -15637,6 +16438,2598 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-80fb-9c39-f12227d14564",
+      "slug": "lieux-d-interet-et-challenge",
+      "title": "Lieux d’intérêt et Challenge",
+      "notionUrl": "https://app.notion.com/p/Lieux-d-int-r-t-et-Challenge-3b288b48e48e80fb9c39f12227d14564",
+      "lastEditedTime": "2026-08-04T12:09:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lieux d’intérêt et Challenge"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Au cours du jeu, les personnages peuvent entreprendre des actions les opposant directement aux systèmes de sécurité, à la structure ou aux systèmes informatiques d'un bâtiment.",
+          "spans": [
+            {
+              "text": "Au cours du jeu, les personnages peuvent entreprendre des actions les opposant directement aux systèmes de sécurité, à la structure ou aux systèmes informatiques d'un bâtiment.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Prendre un lieu pour cible",
+          "spans": [
+            {
+              "text": "Prendre un lieu pour cible",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est inévitable que les personnages finissent par s'attaquer aux lieux et aux possessions de leurs rivaux.",
+          "spans": [
+            {
+              "text": "Il est inévitable que les personnages finissent par s'attaquer aux lieux et aux possessions de leurs rivaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant qu'un personnage puisse infiltrer, affaiblir ou détruire le lieu d'un adversaire, il doit disposer de certaines informations élémentaires à son sujet.",
+          "spans": [
+            {
+              "text": "Avant qu'un personnage puisse ",
+              "bold": false
+            },
+            {
+              "text": "infiltrer, affaiblir ou détruire",
+              "bold": true
+            },
+            {
+              "text": " le lieu d'un adversaire, il doit disposer de certaines informations élémentaires à son sujet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un personnage peut prendre un lieu pour cible s'il :",
+          "spans": [
+            {
+              "text": "Par exemple, un personnage peut prendre un lieu pour cible s'il :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "s'y est personnellement rendu ;",
+          "spans": [
+            {
+              "text": "s'y est personnellement rendu ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "connaît son adresse ;",
+          "spans": [
+            {
+              "text": "connaît son adresse ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou a découvert l'identité du véritable propriétaire d'un Lieu Prestigieux.",
+          "spans": [
+            {
+              "text": "ou a découvert l'identité du véritable propriétaire d'un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu Prestigieux",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, un personnage peut dépenser 1 point de l'Historique Contacts afin de déterminer quels lieux, le cas échéant, sont contrôlés par un autre personnage.",
+          "spans": [
+            {
+              "text": "De plus, un personnage peut ",
+              "bold": false
+            },
+            {
+              "text": "dépenser 1 point de l'Historique Contacts",
+              "bold": true
+            },
+            {
+              "text": " afin de déterminer quels lieux, le cas échéant, sont contrôlés par un autre personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Challenges contre un lieu pendant une partie",
+          "spans": [
+            {
+              "text": "Challenges contre un lieu pendant une partie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "S'introduire dans un lieu peut être une entreprise complexe et constituer une excellente base pour une intrigue.",
+          "spans": [
+            {
+              "text": "S'introduire dans un lieu peut être une entreprise complexe et constituer une excellente base pour une intrigue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur est libre de gérer une infiltration comme une sorte d'exploration grandeur nature : une séquence de jeu au cours de laquelle les personnages doivent réagir aux différents obstacles et problèmes à mesure qu'ils se présentent.",
+          "spans": [
+            {
+              "text": "Le Conteur est libre de gérer une infiltration comme une sorte d'exploration grandeur nature : une séquence de jeu au cours de laquelle les personnages doivent réagir aux différents obstacles et problèmes à mesure qu'ils se présentent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ce cas, le Conteur attribue à tout Challenge effectué contre le bâtiment ou ses systèmes de sécurité une difficulté de base égale à :",
+          "spans": [
+            {
+              "text": "Dans ce cas, le Conteur attribue à tout Challenge effectué contre le bâtiment ou ses systèmes de sécurité une ",
+              "bold": false
+            },
+            {
+              "text": "difficulté de base égale à :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Niveau du Lieu d'intérêt × 5",
+          "spans": [
+            {
+              "text": "Niveau du Lieu d'intérêt × 5",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette difficulté est ensuite modifiée par les Qualités du lieu ainsi que par toute autre circonstance que le Conteur juge pertinente.",
+          "spans": [
+            {
+              "text": "Cette difficulté est ensuite modifiée par les ",
+              "bold": false
+            },
+            {
+              "text": "Qualités du lieu",
+              "bold": true
+            },
+            {
+              "text": " ainsi que par toute autre circonstance que le Conteur juge pertinente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette difficulté s'applique à toutes sortes d'actions entreprises contre le lieu, qu'il s'agisse de crocheter une serrure, contourner un système de sécurité ou pirater un ordinateur.",
+          "spans": [
+            {
+              "text": "Cette difficulté s'applique à toutes sortes d'actions entreprises contre le lieu, qu'il s'agisse de ",
+              "bold": false
+            },
+            {
+              "text": "crocheter une serrure, contourner un système de sécurité ou pirater un ordinateur",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Challenges contre un lieu en Inter-Parties",
+          "spans": [
+            {
+              "text": "Challenges contre un lieu en Inter-Parties",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un personnage souhaite infiltrer un lieu au moyen d'une Action Inter-Parties, le Conteur peut résoudre cette tentative en utilisant le système de Quêtes.",
+          "spans": [
+            {
+              "text": "Si un personnage souhaite infiltrer un lieu au moyen d'une ",
+              "bold": false
+            },
+            {
+              "text": "Action Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": ", le Conteur peut résoudre cette tentative en utilisant le système de ",
+              "bold": false
+            },
+            {
+              "text": "Quêtes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage doit entreprendre une Quête correspondant au type du lieu, avec une difficulté égale à son niveau.",
+          "spans": [
+            {
+              "text": "Le personnage doit entreprendre une Quête correspondant au ",
+              "bold": false
+            },
+            {
+              "text": "type du lieu",
+              "bold": true
+            },
+            {
+              "text": ", avec une difficulté égale à son ",
+              "bold": false
+            },
+            {
+              "text": "niveau",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages impliqués doivent choisir un objectif de réussite unique et simple. Par exemple :",
+          "spans": [
+            {
+              "text": "Les personnages impliqués doivent choisir ",
+              "bold": false
+            },
+            {
+              "text": "un objectif de réussite unique et simple",
+              "bold": true
+            },
+            {
+              "text": ". Par exemple :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "voler un objet précis ;",
+          "spans": [
+            {
+              "text": "voler un objet précis ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "placer de fausses preuves ;",
+          "spans": [
+            {
+              "text": "placer de fausses preuves ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "libérer un prisonnier.",
+          "spans": [
+            {
+              "text": "libérer un prisonnier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la Quête est réussie, cet objectif est accompli.",
+          "spans": [
+            {
+              "text": "Si la Quête est réussie, cet objectif est accompli.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour un Lieu Standard, cette Quête peut rester relativement simple. En revanche, les systèmes de sécurité et les dispositifs de protection des Lieux Prestigieux et des Lieux Emblématiques sont beaucoup plus complexes. Les infiltrer devrait davantage ressembler à la préparation et à l'exécution d'un véritable casse.",
+          "spans": [
+            {
+              "text": "Pour un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu Standard",
+              "bold": true
+            },
+            {
+              "text": ", cette Quête peut rester relativement simple. En revanche, les systèmes de sécurité et les dispositifs de protection des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux Prestigieux",
+              "bold": true
+            },
+            {
+              "text": " et des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux Emblématiques",
+              "bold": true
+            },
+            {
+              "text": " sont beaucoup plus complexes. Les infiltrer devrait davantage ressembler à la préparation et à l'exécution d'un véritable casse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur doit modifier la difficulté en fonction des Qualités du lieu, et peut également l'ajuster selon toute autre circonstance qu'il juge pertinente.",
+          "spans": [
+            {
+              "text": "Le Conteur doit modifier la difficulté en fonction des ",
+              "bold": false
+            },
+            {
+              "text": "Qualités du lieu",
+              "bold": true
+            },
+            {
+              "text": ", et peut également l'ajuster selon toute autre circonstance qu'il juge pertinente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Qualités d'un lieu peuvent ainsi faire monter la difficulté d'une Quête à 6 ou davantage.",
+          "spans": [
+            {
+              "text": "Les Qualités d'un lieu peuvent ainsi faire monter la ",
+              "bold": false
+            },
+            {
+              "text": "difficulté d'une Quête à 6 ou davantage",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Discrétion et recours au surnaturel",
+          "spans": [
+            {
+              "text": "Discrétion et recours au surnaturel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce système part du principe que les personnages agissent avec un minimum de discrétion.",
+          "spans": [
+            {
+              "text": "Ce système part du principe que les personnages agissent avec un minimum de ",
+              "bold": false
+            },
+            {
+              "text": "discrétion",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un personnage décide de pénétrer dans un bâtiment par la force, par exemple en faisant ouvertement usage de Disciplines vampiriques ou en adoptant la forme Crinos, il doit s'attendre à subir de lourdes conséquences imposées par le Conteur.",
+          "spans": [
+            {
+              "text": "Si un personnage décide de pénétrer dans un bâtiment par la force, par exemple en faisant ouvertement usage de ",
+              "bold": false
+            },
+            {
+              "text": "Disciplines vampiriques",
+              "bold": true
+            },
+            {
+              "text": " ou en adoptant la ",
+              "bold": false
+            },
+            {
+              "text": "forme Crinos",
+              "bold": true
+            },
+            {
+              "text": ", il doit s'attendre à subir de lourdes conséquences imposées par le Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'inverse, un personnage qui parvient à s'introduire discrètement dans un lieu, sans être découvert et en limitant autant que possible l'exposition de sa nature surnaturelle, agit conformément au fonctionnement prévu par ce système.",
+          "spans": [
+            {
+              "text": "À l'inverse, un personnage qui parvient à s'introduire discrètement dans un lieu, sans être découvert et en limitant autant que possible l'exposition de sa nature surnaturelle, agit conformément au fonctionnement prévu par ce système.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3ab88b48-e48e-8045-afc3-d22a374ac3eb",
+      "slug": "lieux-d-interets",
+      "title": "Lieux d’intérêts",
+      "notionUrl": "https://app.notion.com/p/Lieux-d-int-r-ts-3ab88b48e48e8045afc3d22a374ac3eb",
+      "lastEditedTime": "2026-08-04T11:59:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lieux d’intérêts"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Lieux d’intérêts",
+          "spans": [
+            {
+              "text": "Lieux d’intérêts",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Havre est le lieu le plus important pour un vampire, mais les Conteurs et les joueurs peuvent parfois souhaiter mettre en avant d'autres endroits. Un GN peut ainsi se dérouler à bord du Queen Mary, dans un casino de Las Vegas ou dans une plantation du sud des États-Unis. Certaines chroniques se prêtent également particulièrement bien à un fonctionnement de type « bac à sable » : les Conteurs définissent les lieux importants, puis laissent les personnages lutter pour le contrôle du domaine, n'intervenant que pour arbitrer leurs actions.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Havre",
+              "bold": true
+            },
+            {
+              "text": " est le lieu le plus important pour un vampire, mais les Conteurs et les joueurs peuvent parfois souhaiter mettre en avant d'autres endroits. Un GN peut ainsi se dérouler à bord du Queen Mary, dans un casino de Las Vegas ou dans une plantation du sud des États-Unis. Certaines chroniques se prêtent également particulièrement bien à un fonctionnement de type « bac à sable » : les Conteurs définissent les lieux importants, puis laissent les personnages lutter pour le contrôle du domaine, n'intervenant que pour arbitrer leurs actions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le système des Lieux d’intérêts est conçu pour proposer des défis aux joueurs et donner davantage de profondeur à leurs interactions avec leur environnement, sans s'encombrer de cartes détaillées, de plans d'étage ou d'autres éléments propres au jeu de rôle sur table.",
+          "spans": [
+            {
+              "text": "Le système des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux d’intérêts",
+              "bold": true
+            },
+            {
+              "text": " est conçu pour proposer des défis aux joueurs et donner davantage de profondeur à leurs interactions avec leur environnement, sans s'encombrer de cartes détaillées, de plans d'étage ou d'autres éléments propres au jeu de rôle sur table.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Caractéristiques d'un Lieux d’intérêts",
+          "spans": [
+            {
+              "text": "Caractéristiques d'un Lieux d’intérêts",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Lieux d’intérêts possède ses propres caractéristiques. Lors de sa création, le Conteur doit les consigner.",
+          "spans": [
+            {
+              "text": "Chaque Lieux d’intérêts possède ses propres caractéristiques. Lors de sa création, le Conteur doit les consigner.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux objets, les informations concernant un lieu sont conservées par le Conteur, même lorsque celui-ci est contrôlé par un personnage-joueur. Un joueur devrait néanmoins connaître la plupart des informations concernant les lieux qu'il contrôle.",
+          "spans": [
+            {
+              "text": "Contrairement aux objets, les informations concernant un lieu sont conservées par le Conteur, même lorsque celui-ci est contrôlé par un personnage-joueur. Un joueur devrait néanmoins connaître la plupart des informations concernant les lieux qu'il contrôle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Niveau du Lieu",
+          "spans": [
+            {
+              "text": "Niveau du Lieu",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque lieu possède un niveau compris entre 1 et 5, utilisé notamment pour déterminer le nombre de Qualités qu'il peut posséder.",
+          "spans": [
+            {
+              "text": "Chaque lieu possède un ",
+              "bold": false
+            },
+            {
+              "text": "niveau compris entre 1 et 5",
+              "bold": true
+            },
+            {
+              "text": ", utilisé notamment pour déterminer le nombre de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités",
+              "bold": true
+            },
+            {
+              "text": " qu'il peut posséder.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce niveau représente la complexité de l'installation ainsi que les avantages particuliers qu'elle peut offrir.",
+          "spans": [
+            {
+              "text": "Ce niveau représente la complexité de l'installation ainsi que les avantages particuliers qu'elle peut offrir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le niveau d'un lieu n'est pas représentatif de sa taille. Un petit endroit parfaitement dissimulé peut posséder un niveau élevé, tandis qu'un immense entrepôt vide peut n'avoir qu'un niveau très faible.",
+          "spans": [
+            {
+              "text": "Le niveau d'un lieu n'est ",
+              "bold": false
+            },
+            {
+              "text": "pas représentatif de sa taille",
+              "bold": true
+            },
+            {
+              "text": ". Un petit endroit parfaitement dissimulé peut posséder un niveau élevé, tandis qu'un immense entrepôt vide peut n'avoir qu'un niveau très faible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Qualités du Lieu",
+          "spans": [
+            {
+              "text": "Qualités du Lieu",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Qualité de Lieu confère un effet particulier.",
+          "spans": [
+            {
+              "text": "Chaque ",
+              "bold": false
+            },
+            {
+              "text": "Qualité de Lieu",
+              "bold": true
+            },
+            {
+              "text": " confère un effet particulier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines Qualités accordent des avantages au personnage qui contrôle le lieu, tandis que d'autres permettent au lieu de mieux résister aux actes de sabotage ou rendent son infiltration plus difficile.",
+          "spans": [
+            {
+              "text": "Certaines Qualités accordent des avantages au personnage qui contrôle le lieu, tandis que d'autres permettent au lieu de mieux résister aux actes de sabotage ou rendent son infiltration plus difficile.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Types de Lieux standards",
+          "spans": [
+            {
+              "text": "Types de Lieux standards",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lieux sont répartis en trois catégories : Ordinaires, Prestigieux et iconiques.",
+          "spans": [
+            {
+              "text": "Les lieux sont répartis en trois catégories : ",
+              "bold": false
+            },
+            {
+              "text": "Ordinaires",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Prestigieux",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "iconiques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Lieux standard",
+          "spans": [
+            {
+              "text": "Lieux standard",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lieux standard sont des endroits relativement communs remplissant une fonction précise, mais ne présentant rien de particulièrement remarquable.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Lieux standard",
+              "bold": true
+            },
+            {
+              "text": " sont des endroits relativement communs remplissant une fonction précise, mais ne présentant rien de particulièrement remarquable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les entrepôts, la plupart des immeubles de bureaux, les commerces et les ateliers sont considérés comme des Lieux standard.",
+          "spans": [
+            {
+              "text": "Les entrepôts, la plupart des immeubles de bureaux, les commerces et les ateliers sont considérés comme des Lieux standard.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces lieux ne sont généralement pas connus du grand public et leurs caractéristiques sont relativement faciles à remplacer. En contrepartie, ce sont les lieux les plus simples à acquérir et à entretenir.",
+          "spans": [
+            {
+              "text": "Ces lieux ne sont généralement pas connus du grand public et leurs caractéristiques sont relativement faciles à remplacer. En contrepartie, ce sont les lieux les plus simples à acquérir et à entretenir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "N'importe qui peut contrôler un Lieu standard. Les créatures surnaturelles s'approprient et abandonnent régulièrement ce genre d'endroits selon leurs besoins, les utilisant à toutes sortes de fins.",
+          "spans": [
+            {
+              "text": "N'importe qui peut contrôler un Lieu standard. Les créatures surnaturelles s'approprient et abandonnent régulièrement ce genre d'endroits selon leurs besoins, les utilisant à toutes sortes de fins.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour affecter le Lieu standard d'un autre personnage ou modifier l'un de vos propres Lieux standard, vous devez réussir une Quête Simple dont la difficulté est égale au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Pour ",
+              "bold": false
+            },
+            {
+              "text": "affecter le Lieu standard d'un autre personnage",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "modifier l'un de vos propres Lieux standard",
+              "bold": true
+            },
+            {
+              "text": ", vous devez réussir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Simple",
+              "bold": true
+            },
+            {
+              "text": " dont la difficulté est égale au niveau du lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Lieu standard peut posséder un nombre maximal de Qualités égal à son niveau.",
+          "spans": [
+            {
+              "text": "Un Lieu standard peut posséder un nombre maximal de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités égal à son niveau",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Lieux prestigieux",
+          "spans": [
+            {
+              "text": "Lieux prestigieux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lieux prestigieux sont des endroits considérés comme remarquables par le grand public et constituent souvent des points de repère locaux.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Lieux prestigieux",
+              "bold": true
+            },
+            {
+              "text": " sont des endroits considérés comme remarquables par le grand public et constituent souvent des points de repère locaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils possèdent généralement quelque chose de particulier ou de grandiose : une architecture remarquable, un monument, ou une importance historique ou culturelle spécifique.",
+          "spans": [
+            {
+              "text": "Ils possèdent généralement quelque chose de particulier ou de grandiose : une architecture remarquable, un monument, ou une importance historique ou culturelle spécifique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'hôtel de ville d'une commune, un gratte-ciel célèbre ou un parc naturel régional sont des exemples de Lieux prestigieux.",
+          "spans": [
+            {
+              "text": "L'hôtel de ville d'une commune, un gratte-ciel célèbre ou un parc naturel régional sont des exemples de Lieux prestigieux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôler un tel lieu est exigeant. Dans certains cas, il est même impossible d'en être directement propriétaire.",
+          "spans": [
+            {
+              "text": "Contrôler un tel lieu est exigeant. Dans certains cas, il est même impossible d'en être directement propriétaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage-joueur ne peut contrôler un Lieu prestigieux que dans sa propre ville. Cette restriction représente la complexité nécessaire pour prendre le contrôle d'un tel endroit : manipulation d'un conseil d'administration, création de sociétés-écrans, obtention d'un accès exclusif ou prise de contrôle indirecte d'un lieu officiellement public.",
+          "spans": [
+            {
+              "text": "Un personnage-joueur ne peut contrôler un Lieu prestigieux que ",
+              "bold": false
+            },
+            {
+              "text": "dans sa propre ville",
+              "bold": true
+            },
+            {
+              "text": ". Cette restriction représente la complexité nécessaire pour prendre le contrôle d'un tel endroit : manipulation d'un conseil d'administration, création de sociétés-écrans, obtention d'un accès exclusif ou prise de contrôle indirecte d'un lieu officiellement public.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si une personne extérieure à la ville souhaite prendre le contrôle d'un Lieu prestigieux, elle doit d'abord trouver quelqu'un sur place capable de le gérer pour elle, comme un autre personnage-joueur ou un Serviteur spécifiquement affecté à cette tâche.",
+          "spans": [
+            {
+              "text": "Si une personne extérieure à la ville souhaite prendre le contrôle d'un Lieu prestigieux, elle doit d'abord trouver quelqu'un sur place capable de le gérer pour elle, comme un autre personnage-joueur ou un ",
+              "bold": false
+            },
+            {
+              "text": "Serviteur",
+              "bold": true
+            },
+            {
+              "text": " spécifiquement affecté à cette tâche.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour affecter le Lieu prestigieux d'un autre personnage ou modifier l'un de vos propres Lieux prestigieux, vous devez réussir une Quête Complexe dont la difficulté est égale au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Pour ",
+              "bold": false
+            },
+            {
+              "text": "affecter le Lieu prestigieux d'un autre personnage",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "modifier l'un de vos propres Lieux prestigieux",
+              "bold": true
+            },
+            {
+              "text": ", vous devez réussir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Complexe",
+              "bold": true
+            },
+            {
+              "text": " dont la difficulté est égale au niveau du lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Lieu prestigieux peut posséder un nombre maximal de Qualités égal au double de son niveau.",
+          "spans": [
+            {
+              "text": "Un Lieu prestigieux peut posséder un nombre maximal de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités égal au double de son niveau",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux iconiques",
+          "spans": [
+            {
+              "text": "Lieux iconiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains endroits du monde sont véritablement uniques et exceptionnels. Certains peuvent même être de nature surnaturelle.",
+          "spans": [
+            {
+              "text": "Certains endroits du monde sont véritablement uniques et exceptionnels. Certains peuvent même être de nature surnaturelle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Lieu iconique est connu bien au-delà de sa région et peut même être célèbre, ou tristement célèbre, dans le monde entier.",
+          "spans": [
+            {
+              "text": "Un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu iconique",
+              "bold": true
+            },
+            {
+              "text": " est connu bien au-delà de sa région et peut même être célèbre, ou tristement célèbre, dans le monde entier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Bourse de New York, le Louvre ou La Haye constituent des exemples de Lieux iconiques.",
+          "spans": [
+            {
+              "text": "La Bourse de New York, le Louvre ou La Haye constituent des exemples de Lieux iconiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une ville moyenne ou de petite taille peut ne posséder aucun Lieu iconique, tandis qu'une métropole mondialement connue peut en abriter plusieurs.",
+          "spans": [
+            {
+              "text": "Une ville moyenne ou de petite taille peut ne posséder aucun Lieu iconique, tandis qu'une métropole mondialement connue peut en abriter plusieurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lieux surnaturels uniques appartiennent également à cette catégorie, comme le Mausolée Noir, Ceoris ou l'un des derniers Grands Caerns.",
+          "spans": [
+            {
+              "text": "Les lieux surnaturels uniques appartiennent également à cette catégorie, comme le ",
+              "bold": false
+            },
+            {
+              "text": "Mausolée Noir",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Ceoris",
+              "bold": true
+            },
+            {
+              "text": " ou l'un des derniers ",
+              "bold": false
+            },
+            {
+              "text": "Grands Caerns",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur détermine si un personnage-joueur peut ou non prendre le contrôle d'un tel endroit. Dans de nombreux cas, cela sera tout simplement impossible. Dans d'autres, un certain degré de contrôle pourra être obtenu.",
+          "spans": [
+            {
+              "text": "Le Conteur détermine si un personnage-joueur peut ou non prendre le contrôle d'un tel endroit. Dans de nombreux cas, cela sera tout simplement impossible. Dans d'autres, un certain degré de contrôle pourra être obtenu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un tel contrôle reste néanmoins toujours conditionnel.",
+          "spans": [
+            {
+              "text": "Un tel contrôle reste néanmoins ",
+              "bold": false
+            },
+            {
+              "text": "toujours conditionnel",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative visant à modifier considérablement, piller ou détruire un Lieu iconique provoquera inévitablement l'intervention de puissantes forces. L'individu responsable risque alors d'attirer sur lui une attention particulièrement indésirable, aussi bien de la part d'entités mortelles que surnaturelles.",
+          "spans": [
+            {
+              "text": "Toute tentative visant à modifier considérablement, piller ou détruire un Lieu iconique provoquera inévitablement l'intervention de puissantes forces. L'individu responsable risque alors d'attirer sur lui une attention particulièrement indésirable, aussi bien de la part d'entités mortelles que surnaturelles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour affecter le Lieu iconique d'un autre personnage ou modifier un Lieu iconique que vous contrôlez, vous devez réussir une Quête Héroïque.",
+          "spans": [
+            {
+              "text": "Pour ",
+              "bold": false
+            },
+            {
+              "text": "affecter le Lieu iconique d'un autre personnage",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "modifier un Lieu iconique que vous contrôlez",
+              "bold": true
+            },
+            {
+              "text": ", vous devez réussir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Héroïque",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Lieu iconique peut posséder un nombre maximal de Qualités égal au double de son niveau.",
+          "spans": [
+            {
+              "text": "Un Lieu iconique peut posséder un nombre maximal de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités égal au double de son niveau",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il dispose également d'un accès aux Qualités de Lieu iconique.",
+          "spans": [
+            {
+              "text": "Il dispose également d'un accès aux ",
+              "bold": false
+            },
+            {
+              "text": "Qualités de Lieu iconique",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Type de lieu",
+              "Quête nécessaire pour l'obtenir, le modifier ou l'affecter"
+            ],
+            [
+              "Lieu standard",
+              "Quête Simple"
+            ],
+            [
+              "Lieu prestigieux",
+              "Quête Complexe"
+            ],
+            [
+              "Lieu iconique",
+              "Quête Héroïque"
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Contrôler un Lieux d’intérêts",
+          "spans": [
+            {
+              "text": "Contrôler un Lieux d’intérêts",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrôler un lieu signifie que vous disposez d'un accès physique à celui-ci et à ses Qualités, que vous pouvez utiliser ou partager avec d'autres personnages.",
+          "spans": [
+            {
+              "text": "Contrôler un lieu signifie que vous disposez d'un ",
+              "bold": false
+            },
+            {
+              "text": "accès physique à celui-ci et à ses Qualités",
+              "bold": true
+            },
+            {
+              "text": ", que vous pouvez utiliser ou partager avec d'autres personnages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage contrôlant un lieu peut librement accorder un accès temporaire à quelqu'un d'autre, voire lui céder entièrement son contrôle, en échange de services, de Faveurs ou de tout autre arrangement qui lui convient.",
+          "spans": [
+            {
+              "text": "Le personnage contrôlant un lieu peut librement accorder un accès temporaire à quelqu'un d'autre, voire lui céder entièrement son contrôle, en échange de services, de ",
+              "bold": false
+            },
+            {
+              "text": "Faveurs",
+              "bold": true
+            },
+            {
+              "text": " ou de tout autre arrangement qui lui convient.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut contrôler jusqu'à cinq lieux distincts, plus un lieu supplémentaire pour chaque point qu'il possède dans les Historiques Serviteur ou Parentèle.",
+          "spans": [
+            {
+              "text": "Un personnage peut contrôler jusqu'à ",
+              "bold": false
+            },
+            {
+              "text": "cinq lieux distincts",
+              "bold": true
+            },
+            {
+              "text": ", plus ",
+              "bold": false
+            },
+            {
+              "text": "un lieu supplémentaire pour chaque point qu'il possède dans les Historiques Serviteur ou Parentèle",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La propriété d'un lieu peut être complexe. Tous les endroits ne peuvent pas être « possédés » au sens classique du terme, avec un titre de propriété officiellement enregistré au nom du personnage.",
+          "spans": [
+            {
+              "text": "La propriété d'un lieu peut être complexe. Tous les endroits ne peuvent pas être « possédés » au sens classique du terme, avec un titre de propriété officiellement enregistré au nom du personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreux lieux intéressants appartiennent au domaine public et ne peuvent donc pas être entièrement possédés par une personne ou une organisation privée.",
+          "spans": [
+            {
+              "text": "De nombreux lieux intéressants appartiennent au domaine public et ne peuvent donc pas être entièrement possédés par une personne ou une organisation privée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les créatures surnaturelles disposent cependant de nombreux moyens pour exercer leur influence sur les mortels. Obtenir le contrôle de fait d'un lieu est tout aussi efficace qu'en posséder le contrôle légal.",
+          "spans": [
+            {
+              "text": "Les créatures surnaturelles disposent cependant de nombreux moyens pour exercer leur influence sur les mortels. Obtenir le ",
+              "bold": false
+            },
+            {
+              "text": "contrôle de fait",
+              "bold": true
+            },
+            {
+              "text": " d'un lieu est tout aussi efficace qu'en posséder le contrôle légal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce contrôle peut être obtenu indirectement. Un vampire peut, par exemple, soumettre une personne importante à un Lien de Sang, un loup-garou peut placer des membres de sa Parentèle à des postes stratégiques, tandis qu'un changelin peut tisser une complexe toile de séduction autour d'un membre du conseil municipal.",
+          "spans": [
+            {
+              "text": "Ce contrôle peut être obtenu indirectement. Un vampire peut, par exemple, soumettre une personne importante à un ",
+              "bold": false
+            },
+            {
+              "text": "Lien de Sang",
+              "bold": true
+            },
+            {
+              "text": ", un loup-garou peut placer des membres de sa Parentèle à des postes stratégiques, tandis qu'un changelin peut tisser une complexe toile de séduction autour d'un membre du conseil municipal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cadre de ce système, la manière exacte dont ce contrôle est exercé n'a d'importance que pour l'histoire. Mécaniquement, toutes les formes de contrôle sont considérées comme équivalentes.",
+          "spans": [
+            {
+              "text": "Dans le cadre de ce système, la manière exacte dont ce contrôle est exercé n'a d'importance que pour l'histoire. ",
+              "bold": false
+            },
+            {
+              "text": "Mécaniquement, toutes les formes de contrôle sont considérées comme équivalentes.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les lieux ne peuvent cependant pas être obtenus. Le Conteur reste libre de déterminer si un endroit particulier peut être contrôlé dans sa chronique.",
+          "spans": [
+            {
+              "text": "Tous les lieux ne peuvent cependant pas être obtenus. Le Conteur reste libre de déterminer si un endroit particulier peut être contrôlé dans sa chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un lieu peut être contrôlé, le Conteur devrait créer une fiche pour celui-ci indiquant notamment qui le contrôle actuellement et quelles sont ses Qualités.",
+          "spans": [
+            {
+              "text": "Lorsqu'un lieu peut être contrôlé, le Conteur devrait créer une fiche pour celui-ci indiquant notamment ",
+              "bold": false
+            },
+            {
+              "text": "qui le contrôle actuellement et quelles sont ses Qualités",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages ont accès aux informations publiques concernant les lieux qu'ils contrôlent. Certaines informations peuvent néanmoins leur être inconnues, notamment si le lieu a été secrètement compromis.",
+          "spans": [
+            {
+              "text": "Les personnages ont accès aux informations publiques concernant les lieux qu'ils contrôlent. Certaines informations peuvent néanmoins leur être inconnues, notamment si le lieu a été secrètement compromis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il n'est pas nécessaire pour le Conteur de créer une fiche pour chaque endroit existant dans la chronique. En revanche, lorsqu'un lieu devient important et que son contrôle est pertinent pour l'intrigue, une fiche devrait être créée.",
+          "spans": [
+            {
+              "text": "Il n'est pas nécessaire pour le Conteur de créer une fiche pour chaque endroit existant dans la chronique. En revanche, lorsqu'un lieu devient important et que son contrôle est pertinent pour l'intrigue, une fiche devrait être créée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Nouveaux lieux",
+          "spans": [
+            {
+              "text": "Nouveaux lieux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut parfois avoir besoin d'un lieu pour répondre à un besoin temporaire. Un joueur peut également souhaiter commencer la partie en contrôlant déjà un endroit correspondant au concept de son personnage.",
+          "spans": [
+            {
+              "text": "Un personnage peut parfois avoir besoin d'un lieu pour répondre à un besoin temporaire. Un joueur peut également souhaiter commencer la partie en contrôlant déjà un endroit correspondant au concept de son personnage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans ces situations, il est possible de créer un nouveau lieu, c'est-à-dire un endroit qui n'a encore jamais joué de rôle dans la chronique et qui reste relativement facile à obtenir.",
+          "spans": [
+            {
+              "text": "Dans ces situations, il est possible de créer un ",
+              "bold": false
+            },
+            {
+              "text": "nouveau lieu",
+              "bold": true
+            },
+            {
+              "text": ", c'est-à-dire un endroit qui n'a encore jamais joué de rôle dans la chronique et qui reste relativement facile à obtenir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour entrer dans cette catégorie, il doit s'agir d'un Lieu standard sans caractéristique particulièrement remarquable et n'ayant aucune influence directe sur les intrigues existantes.",
+          "spans": [
+            {
+              "text": "Pour entrer dans cette catégorie, il doit s'agir d'un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu standard sans caractéristique particulièrement remarquable et n'ayant aucune influence directe sur les intrigues existantes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, un bâtiment municipal ne pourrait pas être considéré comme un nouveau lieu. En revanche, un joueur souhaitant commencer la partie en étant propriétaire d'un bar local peut créer ce bar, lui donner un nom et éventuellement rédiger son histoire avec l'accord du Conteur.",
+          "spans": [
+            {
+              "text": "Par exemple, un bâtiment municipal ne pourrait pas être considéré comme un nouveau lieu. En revanche, un joueur souhaitant commencer la partie en étant propriétaire d'un bar local peut créer ce bar, lui donner un nom et éventuellement rédiger son histoire avec l'accord du Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage cherche plutôt à prendre le contrôle d'un lieu déjà existant, par exemple en souhaitant acheter un bar, le joueur détermine les caractéristiques recherchées. Son personnage peut alors écarter les lieux qui ne possèdent pas les Qualités souhaitées jusqu'à trouver celui qui correspond le mieux à ses besoins.",
+          "spans": [
+            {
+              "text": "Lorsqu'un personnage cherche plutôt à prendre le contrôle d'un lieu déjà existant, par exemple en souhaitant acheter un bar, le joueur détermine les caractéristiques recherchées. Son personnage peut alors écarter les lieux qui ne possèdent pas les Qualités souhaitées jusqu'à trouver celui qui correspond le mieux à ses besoins.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour prendre le contrôle d'un nouveau lieu, le Conteur devrait déterminer avec le joueur le type de lieu recherché, puis lui faire entreprendre une Quête correspondant au type et au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Pour prendre le contrôle d'un nouveau lieu, le Conteur devrait déterminer avec le joueur ",
+              "bold": false
+            },
+            {
+              "text": "le type de lieu recherché",
+              "bold": true
+            },
+            {
+              "text": ", puis lui faire entreprendre une ",
+              "bold": false
+            },
+            {
+              "text": "Quête correspondant au type et au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, le Conteur crée la fiche du lieu, qui entre alors officiellement dans la chronique sous le contrôle du personnage.",
+          "spans": [
+            {
+              "text": "En cas de réussite, le Conteur crée la fiche du lieu, qui entre alors officiellement dans la chronique ",
+              "bold": false
+            },
+            {
+              "text": "sous le contrôle du personnage",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux non contrôlés",
+          "spans": [
+            {
+              "text": "Lieux non contrôlés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès qu'un lieu apparaît en jeu, il est considéré comme un lieu existant. Les Lieux prestigieux appartiennent toujours à cette catégorie.",
+          "spans": [
+            {
+              "text": "Dès qu'un lieu apparaît en jeu, il est considéré comme un ",
+              "bold": false
+            },
+            {
+              "text": "lieu existant",
+              "bold": true
+            },
+            {
+              "text": ". Les ",
+              "bold": false
+            },
+            {
+              "text": "Lieux prestigieux",
+              "bold": true
+            },
+            {
+              "text": " appartiennent toujours à cette catégorie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces lieux sont traités différemment, car ils représentent des endroits précis et demandent davantage d'efforts pour être obtenus. Après tout, un personnage cherchant simplement un entrepôt dispose probablement de nombreuses possibilités. En revanche, un personnage souhaitant prendre le contrôle d'un entrepôt précis afin de maîtriser les marchandises qui y transitent poursuit un objectif bien différent.",
+          "spans": [
+            {
+              "text": "Ces lieux sont traités différemment, car ils représentent des endroits précis et demandent davantage d'efforts pour être obtenus. Après tout, un personnage cherchant simplement un entrepôt dispose probablement de nombreuses possibilités. En revanche, un personnage souhaitant prendre le contrôle ",
+              "bold": false
+            },
+            {
+              "text": "d'un entrepôt précis",
+              "bold": true
+            },
+            {
+              "text": " afin de maîtriser les marchandises qui y transitent poursuit un objectif bien différent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur détermine le niveau de ces lieux ainsi que les Qualités qu'ils possèdent.",
+          "spans": [
+            {
+              "text": "Le Conteur détermine le ",
+              "bold": false
+            },
+            {
+              "text": "niveau",
+              "bold": true
+            },
+            {
+              "text": " de ces lieux ainsi que les ",
+              "bold": false
+            },
+            {
+              "text": "Qualités",
+              "bold": true
+            },
+            {
+              "text": " qu'ils possèdent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour prendre le contrôle d'un lieu actuellement non contrôlé, les personnages doivent réussir une Quête correspondant au type et au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Pour prendre le contrôle d'un lieu actuellement non contrôlé, les personnages doivent réussir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête correspondant au type et au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, un seul personnage parmi les membres du groupe ayant accompli la Quête obtient le contrôle du lieu.",
+          "spans": [
+            {
+              "text": "En cas de réussite, ",
+              "bold": false
+            },
+            {
+              "text": "un seul personnage",
+              "bold": true
+            },
+            {
+              "text": " parmi les membres du groupe ayant accompli la Quête obtient le contrôle du lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux contrôlés",
+          "spans": [
+            {
+              "text": "Lieux contrôlés",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lieux contrôlés sont considérés comme étant sous le contrôle de personnages-joueurs ou de PNJ importants, qui en conservent la maîtrise.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Lieux contrôlés",
+              "bold": true
+            },
+            {
+              "text": " sont considérés comme étant sous le contrôle de personnages-joueurs ou de PNJ importants, qui en conservent la maîtrise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces lieux ne peuvent pas être obtenus par des moyens conventionnels.",
+          "spans": [
+            {
+              "text": "Ces lieux ",
+              "bold": false
+            },
+            {
+              "text": "ne peuvent pas être obtenus par des moyens conventionnels",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs doivent garder à l'esprit que tous les PNJ ordinaires ne devraient pas nécessairement contrôler des lieux de cette manière. Ce type de contrôle devrait être réservé aux PNJ pour lesquels cela présente un véritable intérêt dans la chronique.",
+          "spans": [
+            {
+              "text": "Les Conteurs doivent garder à l'esprit que tous les PNJ ordinaires ne devraient pas nécessairement contrôler des lieux de cette manière. Ce type de contrôle devrait être réservé aux PNJ pour lesquels cela présente un véritable intérêt dans la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un personnage-joueur ou un PNJ souhaite prendre le contrôle d'un lieu déjà contrôlé, il doit d'abord compromettre le contrôle exercé sur ce lieu.",
+          "spans": [
+            {
+              "text": "Si un personnage-joueur ou un PNJ souhaite prendre le contrôle d'un lieu déjà contrôlé, il doit d'abord ",
+              "bold": false
+            },
+            {
+              "text": "compromettre le contrôle exercé sur ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Voir Compromettre un Lieu, ci-dessous.",
+          "spans": [
+            {
+              "text": "Voir ",
+              "bold": false
+            },
+            {
+              "text": "Compromettre un Lieu",
+              "bold": true
+            },
+            {
+              "text": ", ci-dessous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux incontrôlables",
+          "spans": [
+            {
+              "text": "Lieux incontrôlables",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut librement désigner n'importe quel lieu comme étant incontrôlable, empêchant ainsi les personnages-joueurs d'y avoir accès en tant que lieu contrôlé ou d'en prendre le contrôle.",
+          "spans": [
+            {
+              "text": "Le Conteur peut librement désigner n'importe quel lieu comme étant ",
+              "bold": false
+            },
+            {
+              "text": "incontrôlable",
+              "bold": true
+            },
+            {
+              "text": ", empêchant ainsi les personnages-joueurs d'y avoir accès en tant que lieu contrôlé ou d'en prendre le contrôle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut notamment s'agir de bâtiments publics, de bases militaires, de terrains appartenant au domaine public, ainsi que de certains, voire de la totalité, des Lieux iconiques de la chronique.",
+          "spans": [
+            {
+              "text": "Il peut notamment s'agir de bâtiments publics, de bases militaires, de terrains appartenant au domaine public, ainsi que de certains, voire de la totalité, des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux iconiques",
+              "bold": true
+            },
+            {
+              "text": " de la chronique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour ces lieux, le Conteur est libre de créer des fiches de Lieu standard s'il estime qu'elles sont utiles, ou de ne simplement pas utiliser ce système.",
+          "spans": [
+            {
+              "text": "Pour ces lieux, le Conteur est libre de créer des fiches de Lieu standard s'il estime qu'elles sont utiles, ou de ne simplement pas utiliser ce système.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Qualités des Lieux",
+          "spans": [
+            {
+              "text": "Qualités des Lieux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu possède un nombre variable de Qualités, déterminé par son type et son niveau.",
+          "spans": [
+            {
+              "text": "Un lieu possède un nombre variable de ",
+              "bold": false
+            },
+            {
+              "text": "Qualités",
+              "bold": true
+            },
+            {
+              "text": ", déterminé par son ",
+              "bold": false
+            },
+            {
+              "text": "type",
+              "bold": true
+            },
+            {
+              "text": " et son ",
+              "bold": false
+            },
+            {
+              "text": "niveau",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Type de lieu",
+              "Nombre maximal de Qualités"
+            ],
+            [
+              "Lieu standard",
+              "Niveau du lieu × 1"
+            ],
+            [
+              "Lieu prestigieux",
+              "Niveau du lieu × 2"
+            ],
+            [
+              "Lieu iconique",
+              "Niveau du lieu × 2"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Lieux iconiques peuvent également posséder des Qualités iconiques.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Lieux iconiques ",
+              "bold": true
+            },
+            {
+              "text": "peuvent également posséder des ",
+              "bold": false
+            },
+            {
+              "text": "Qualités iconiques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu ne peut posséder que des Qualités correspondant à son type. Par exemple, un Lieu standard ne peut pas posséder de Qualité iconique.",
+          "spans": [
+            {
+              "text": "Un lieu ne peut posséder que des Qualités correspondant à son type. Par exemple, un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu standard ne peut pas posséder de Qualité iconique",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains lieux particuliers, notamment les lieux surnaturels ou les Élysiums, disposent de Qualités qui leur sont propres. Chacune de ces Qualités particulières possède ses propres conditions concernant son acquisition, sa modification ou son maintien.",
+          "spans": [
+            {
+              "text": "Certains lieux particuliers, notamment les ",
+              "bold": false
+            },
+            {
+              "text": "lieux surnaturels",
+              "bold": true
+            },
+            {
+              "text": " ou les ",
+              "bold": false
+            },
+            {
+              "text": "Élysiums",
+              "bold": true
+            },
+            {
+              "text": ", disposent de Qualités qui leur sont propres. Chacune de ces Qualités particulières possède ses propres conditions concernant son acquisition, sa modification ou son maintien.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux d'intérêt, Havres et Refuges",
+          "spans": [
+            {
+              "text": "Lieux d'intérêt, Havres et Refuges",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que les règles des Lieux d'intérêt puissent, à première vue, sembler destinées à remplacer l'Historique Havre, les deux systèmes sont en réalité conçus pour coexister. L'objectif est notamment de préserver l'intérêt d'investir dans l'Historique Havre.",
+          "spans": [
+            {
+              "text": "Bien que les règles des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux d'intérêt",
+              "bold": true
+            },
+            {
+              "text": " puissent, à première vue, sembler destinées à remplacer l'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Havre",
+              "bold": true
+            },
+            {
+              "text": ", les deux systèmes sont en réalité conçus pour coexister. L'objectif est notamment de préserver l'intérêt d'investir dans l'Historique Havre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alors qu'un Lieu d'intérêt peut être obtenu sans dépenser d'XP, par exemple en échangeant des faveurs, en utilisant des Influences ou en réussissant des Quêtes, acheter un Havre avec de l'XP continue d'offrir plusieurs avantages importants.",
+          "spans": [
+            {
+              "text": "Alors qu'un Lieu d'intérêt peut être obtenu sans dépenser d'XP, par exemple en échangeant des faveurs, en utilisant des Influences ou en réussissant des Quêtes, acheter un ",
+              "bold": false
+            },
+            {
+              "text": "Havre avec de l'XP",
+              "bold": true
+            },
+            {
+              "text": " continue d'offrir plusieurs avantages importants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le plus important est probablement qu'un personnage ne peut pas perdre définitivement les points investis dans ses Historiques Havre ou Refuge. Si un lieu représenté par l'un de ces Historiques venait à être détruit, le joueur doit simplement dépenser une Action Inter-Parties pour le rétablir avec les mêmes avantages.",
+          "spans": [
+            {
+              "text": "Le plus important est probablement qu'un personnage ",
+              "bold": false
+            },
+            {
+              "text": "ne peut pas perdre définitivement les points investis dans ses Historiques Havre ou Refuge",
+              "bold": true
+            },
+            {
+              "text": ". Si un lieu représenté par l'un de ces Historiques venait à être détruit, le joueur doit simplement dépenser ",
+              "bold": false
+            },
+            {
+              "text": "une Action Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": " pour le rétablir avec les mêmes avantages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, les Havres ne peuvent pas être pris pour cible de la même manière que les Lieux d'intérêt. Ils sont immunisés contre les attaques financières, bureaucratiques ou portant atteinte à leur réputation (voir Compromettre un Lieu, ci-dessous).",
+          "spans": [
+            {
+              "text": "De plus, les Havres ne peuvent pas être pris pour cible de la même manière que les Lieux d'intérêt. Ils sont immunisés contre les ",
+              "bold": false
+            },
+            {
+              "text": "attaques financières, bureaucratiques ou portant atteinte à leur réputation",
+              "bold": true
+            },
+            {
+              "text": " (voir ",
+              "bold": false
+            },
+            {
+              "text": "Compromettre un Lieu",
+              "bold": true
+            },
+            {
+              "text": ", ci-dessous).",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage ayant investi des XP dans son Havre a également établi un certain degré de secret autour de celui-ci. Par conséquent, un Havre ne peut pas être découvert ou affecté de la même manière qu'un Lieu d'intérêt.",
+          "spans": [
+            {
+              "text": "Un personnage ayant investi des XP dans son Havre a également établi un certain degré de secret autour de celui-ci. Par conséquent, ",
+              "bold": false
+            },
+            {
+              "text": "un Havre ne peut pas être découvert ou affecté de la même manière qu'un Lieu d'intérêt",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rien n'empêche un personnage de faire d'un Lieu d'intérêt sa résidence. Cependant, tant qu'il n'a pas acheté l'Historique Havre, ce lieu ne bénéficie pas du même niveau de protection que celui d'un personnage ayant investi dans cet Historique.",
+          "spans": [
+            {
+              "text": "Rien n'empêche un personnage de faire d'un Lieu d'intérêt sa résidence. Cependant, tant qu'il n'a pas acheté l'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Havre",
+              "bold": true
+            },
+            {
+              "text": ", ce lieu ne bénéficie pas du même niveau de protection que celui d'un personnage ayant investi dans cet Historique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certaines des Qualités présentées dans cette section peuvent également être acquises pour un Havre. Cela comprend notamment des versions mises à jour de Qualités provenant de précédentes versions des règles.",
+          "spans": [
+            {
+              "text": "Certaines des ",
+              "bold": false
+            },
+            {
+              "text": "Qualités",
+              "bold": true
+            },
+            {
+              "text": " présentées dans cette section peuvent également être acquises pour un Havre. Cela comprend notamment des versions mises à jour de Qualités provenant de précédentes versions des règles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si un personnage possède déjà l'une de ces Qualités pour son Havre, il bénéficie désormais des effets actualisés décrits dans cette section.",
+          "spans": [
+            {
+              "text": "Si un personnage possède déjà l'une de ces Qualités pour son Havre, il bénéficie désormais ",
+              "bold": false
+            },
+            {
+              "text": "des effets actualisés décrits dans cette section",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Ressources et Lieux d'intérêt",
+          "spans": [
+            {
+              "text": "Ressources et Lieux d'intérêt",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme le dit l'adage, l'argent fait tourner le monde. Disposer de revenus importants facilite considérablement l'acquisition et la modification de lieux.",
+          "spans": [
+            {
+              "text": "Comme le dit l'adage, ",
+              "bold": false
+            },
+            {
+              "text": "l'argent fait tourner le monde",
+              "bold": true
+            },
+            {
+              "text": ". Disposer de revenus importants facilite considérablement l'acquisition et la modification de lieux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'Historique Ressources vous permet de prendre des raccourcis au cours des Quêtes visant à acquérir un Lieu d'intérêt ou à modifier un lieu existant, que vous choisissiez d'employer des moyens légaux ou illicites pour parvenir à vos fins.",
+          "spans": [
+            {
+              "text": "L'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Ressources",
+              "bold": true
+            },
+            {
+              "text": " vous permet de prendre des raccourcis au cours des Quêtes visant à ",
+              "bold": false
+            },
+            {
+              "text": "acquérir un Lieu d'intérêt ou à modifier un lieu existant",
+              "bold": true
+            },
+            {
+              "text": ", que vous choisissiez d'employer des moyens légaux ou illicites pour parvenir à vos fins.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez dépenser temporairement un nombre de points de Ressources égal à la difficulté de la Quête pour obtenir automatiquement une réussite lors d'une étape de votre Quête.",
+          "spans": [
+            {
+              "text": "Vous pouvez ",
+              "bold": false
+            },
+            {
+              "text": "dépenser temporairement un nombre de points de Ressources égal à la difficulté de la Quête",
+              "bold": true
+            },
+            {
+              "text": " pour obtenir automatiquement ",
+              "bold": false
+            },
+            {
+              "text": "une réussite lors d'une étape de votre Quête",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette réussite automatique s'ajoute au test normalement effectué pour déterminer votre réussite. Vous pouvez utiliser cet avantage plusieurs fois, notamment en faisant appel aux Ressources des autres participants de la Quête ou aux Ressources d'autres personnages dont vous avez obtenu l'aide en échange de services, de Faveurs ou de tout autre arrangement.",
+          "spans": [
+            {
+              "text": "Cette réussite automatique s'ajoute au ",
+              "bold": false
+            },
+            {
+              "text": "test normalement effectué pour déterminer votre réussite",
+              "bold": true
+            },
+            {
+              "text": ". Vous pouvez utiliser cet avantage plusieurs fois, notamment en faisant appel aux Ressources des autres participants de la Quête ou aux Ressources d'autres personnages dont vous avez obtenu l'aide en échange de services, de Faveurs ou de tout autre arrangement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le nombre de points de Ressources dépensés dépasse la difficulté de la Quête, chaque point supplémentaire accorde une réussite supplémentaire, à raison d'une réussite par point excédentaire.",
+          "spans": [
+            {
+              "text": "Si le nombre de points de Ressources dépensés ",
+              "bold": false
+            },
+            {
+              "text": "dépasse la difficulté de la Quête",
+              "bold": true
+            },
+            {
+              "text": ", chaque point supplémentaire accorde ",
+              "bold": false
+            },
+            {
+              "text": "une réussite supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ", à raison d'une réussite par point excédentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Exemple",
+          "spans": [
+            {
+              "text": "Exemple",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alex Giovanni cherche à acquérir un établissement médical constituant un Lieu d'intérêt de niveau 3.",
+          "spans": [
+            {
+              "text": "Alex Giovanni",
+              "bold": true
+            },
+            {
+              "text": " cherche à acquérir un établissement médical constituant un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu d'intérêt de niveau 3",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il décide pour cela d'utiliser son Historique Ressources à 5.",
+          "spans": [
+            {
+              "text": "Il décide pour cela d'utiliser son Historique ",
+              "bold": false
+            },
+            {
+              "text": "Ressources à 5",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La difficulté de la Quête étant de 3, les 3 premiers points de Ressources lui accordent automatiquement 1 réussite.",
+          "spans": [
+            {
+              "text": "La difficulté de la Quête étant de ",
+              "bold": false
+            },
+            {
+              "text": "3",
+              "bold": true
+            },
+            {
+              "text": ", les 3 premiers points de Ressources lui accordent automatiquement ",
+              "bold": false
+            },
+            {
+              "text": "1 réussite",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ses Ressources dépassent cependant la difficulté de 2 points. Ces deux points supplémentaires lui accordent donc 2 réussites supplémentaires.",
+          "spans": [
+            {
+              "text": "Ses Ressources dépassent cependant la difficulté de ",
+              "bold": false
+            },
+            {
+              "text": "2 points",
+              "bold": true
+            },
+            {
+              "text": ". Ces deux points supplémentaires lui accordent donc ",
+              "bold": false
+            },
+            {
+              "text": "2 réussites supplémentaires",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Alex obtient ainsi un total de 3 réussites automatiques grâce à ses Ressources, en plus du test normalement effectué pour la Quête.",
+          "spans": [
+            {
+              "text": "Alex obtient ainsi un total de ",
+              "bold": false
+            },
+            {
+              "text": "3 réussites automatiques",
+              "bold": true
+            },
+            {
+              "text": " grâce à ses Ressources, en plus du test normalement effectué pour la Quête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Lieux et contrôle partagé",
+          "spans": [
+            {
+              "text": "Lieux et contrôle partagé",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Parmi les vampires, il n'est pas rare que certains Semblables disparaissent. Conserver le contrôle de lieux essentiels, tels qu'une Fondation Tremere, un Fief, un Caern ou un Élysium, ne devrait donc pas devenir une épreuve pour les personnages-joueurs, à moins que la sécurisation de ces lieux ne fasse spécifiquement partie de l'intrigue.",
+          "spans": [
+            {
+              "text": "Parmi les vampires, il n'est pas rare que certains Semblables disparaissent. Conserver le contrôle de lieux essentiels, tels qu'une ",
+              "bold": false
+            },
+            {
+              "text": "Fondation Tremere",
+              "bold": true
+            },
+            {
+              "text": ", un ",
+              "bold": false
+            },
+            {
+              "text": "Fief",
+              "bold": true
+            },
+            {
+              "text": ", un ",
+              "bold": false
+            },
+            {
+              "text": "Caern",
+              "bold": true
+            },
+            {
+              "text": " ou un ",
+              "bold": false
+            },
+            {
+              "text": "Élysium",
+              "bold": true
+            },
+            {
+              "text": ", ne devrait donc pas devenir une épreuve pour les personnages-joueurs, à moins que la sécurisation de ces lieux ne fasse spécifiquement partie de l'intrigue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut décider que certains lieux, en particulier ceux régulièrement utilisés comme cadres pour les intrigues de la chronique, sont placés sous contrôle partagé. Il peut également décider que leur contrôle est simplement transféré si le personnage qui les contrôlait venait à disparaître.",
+          "spans": [
+            {
+              "text": "Le Conteur peut décider que certains lieux, en particulier ceux régulièrement utilisés comme cadres pour les intrigues de la chronique, sont placés sous ",
+              "bold": false
+            },
+            {
+              "text": "contrôle partagé",
+              "bold": true
+            },
+            {
+              "text": ". Il peut également décider que leur contrôle est simplement transféré si le personnage qui les contrôlait venait à disparaître.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Afin de représenter cette situation, le Conteur peut réattribuer le contrôle d'un lieu à un personnage occupant une fonction appropriée, à l'héritier présumé du personnage disparu, ou décider que le lieu est temporairement placé sous la responsabilité d'un PNJ approprié.",
+          "spans": [
+            {
+              "text": "Afin de représenter cette situation, le Conteur peut réattribuer le contrôle d'un lieu à ",
+              "bold": false
+            },
+            {
+              "text": "un personnage occupant une fonction appropriée",
+              "bold": true
+            },
+            {
+              "text": ", à ",
+              "bold": false
+            },
+            {
+              "text": "l'héritier présumé du personnage disparu",
+              "bold": true
+            },
+            {
+              "text": ", ou décider que le lieu est temporairement placé sous la responsabilité ",
+              "bold": false
+            },
+            {
+              "text": "d'un PNJ approprié",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Qualités des Lieux Standards",
+          "spans": [
+            {
+              "text": "Qualités des Lieux Standards",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Qualités de cette catégorie sont ordinaires et non surnaturelles. Elles peuvent être attribuées à n'importe quel Lieu d'intérêt, quel que soit son niveau.",
+          "spans": [
+            {
+              "text": "Les Qualités de cette catégorie sont ",
+              "bold": false
+            },
+            {
+              "text": "ordinaires et non surnaturelles",
+              "bold": true
+            },
+            {
+              "text": ". Elles peuvent être attribuées à n'importe quel Lieu d'intérêt, quel que soit son niveau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu ne peut pas posséder plusieurs fois la même Qualité, sauf indication contraire.",
+          "spans": [
+            {
+              "text": "Un lieu ne peut pas posséder plusieurs fois la même Qualité, sauf indication contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Qualités des Lieux Iconiques",
+          "spans": [
+            {
+              "text": "Qualités des Lieux Iconiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces Qualités sont exclusivement réservées aux Lieux iconiques.",
+          "spans": [
+            {
+              "text": "Ces Qualités sont exclusivement réservées aux ",
+              "bold": false
+            },
+            {
+              "text": "Lieux iconiques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les lieux possédant de telles Qualités sont véritablement exceptionnels. Ils attirent des visiteurs venus du monde entier et se distinguent par une architecture unique ou des installations à la pointe de la technologie.",
+          "spans": [
+            {
+              "text": "Les lieux possédant de telles Qualités sont véritablement exceptionnels. Ils attirent des visiteurs venus du monde entier et se distinguent par une architecture unique ou des installations à la pointe de la technologie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les vampires, ces lieux sont à double tranchant. D'un côté, la puissance et le prestige que procure le contrôle d'un Lieu Emblématique sont trop séduisants pour que la plupart de ceux qui recherchent le pouvoir puissent y résister. De l'autre, les risques associés à ces lieux sont immenses : même les Anciens les plus puissants peuvent être abattus par des forces mystérieuses s'ils s'exposent trop ouvertement.",
+          "spans": [
+            {
+              "text": "Pour les vampires, ces lieux sont à double tranchant. D'un côté, la puissance et le prestige que procure le contrôle d'un Lieu Emblématique sont trop séduisants pour que la plupart de ceux qui recherchent le pouvoir puissent y résister. De l'autre, les risques associés à ces lieux sont immenses : même les Anciens les plus puissants peuvent être abattus par des forces mystérieuses s'ils s'exposent trop ouvertement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains Semblables murmurent avec inquiétude que de nombreux gouvernements et leurs agences secrètes ont été infiltrés par la Seconde Inquisition, et que ces organisations n'hésiteront pas à éliminer un vampire qui attirerait trop l'attention sur lui.",
+          "spans": [
+            {
+              "text": "Certains Semblables murmurent avec inquiétude que de nombreux gouvernements et leurs agences secrètes ont été infiltrés par la ",
+              "bold": false
+            },
+            {
+              "text": "Seconde Inquisition",
+              "bold": true
+            },
+            {
+              "text": ", et que ces organisations n'hésiteront pas à éliminer un vampire qui attirerait trop l'attention sur lui.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Qualités Surnaturelles des Lieux d'intérêt",
+          "spans": [
+            {
+              "text": "Qualités Surnaturelles des Lieux d'intérêt",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avec l'autorisation du Conteur, un personnage peut choisir une Qualité Surnaturelle de Lieu d'intérêt à la place d'une Qualité standard.",
+          "spans": [
+            {
+              "text": "Avec l'autorisation du Conteur, un personnage peut choisir une ",
+              "bold": false
+            },
+            {
+              "text": "Qualité Surnaturelle de Lieu d'intérêt",
+              "bold": true
+            },
+            {
+              "text": " à la place d'une Qualité standard.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Qualité Surnaturelle d'un lieu ne doit pas nécessairement avoir une origine surnaturelle. Il suffit que les caractéristiques particulières du lieu provoquent un phénomène produisant l'effet décrit.",
+          "spans": [
+            {
+              "text": "La Qualité Surnaturelle d'un lieu ne doit pas nécessairement avoir une origine surnaturelle. Il suffit que les caractéristiques particulières du lieu provoquent un phénomène produisant l'effet décrit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Lieu d'intérêt ne peut posséder qu'une seule Qualité Surnaturelle.",
+          "spans": [
+            {
+              "text": "Un Lieu d'intérêt ne peut posséder qu'une seule Qualité Surnaturelle.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-80cf-9167-d794da6edcb7",
       "slug": "man-uvre-de-combat",
       "title": "Manœuvre de Combat",
@@ -16295,6 +19688,259 @@
               "text": " empale automatiquement les PNJ de type figurants, quel que soit leur niveau actuel de dégâts, car ils n’utilisent pas de piste de santé.",
               "bold": false
             }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8007-9aba-c7d2bdfec53d",
+      "slug": "modifier-les-qualites-d-un-lieu",
+      "title": "Modifier les qualités d’un lieu",
+      "notionUrl": "https://app.notion.com/p/Modifier-les-qualit-s-d-un-lieu-3b288b48e48e80079abac7d2bdfec53d",
+      "lastEditedTime": "2026-08-04T12:08:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Modifier les qualités d’un lieu"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Un Lieu d'intérêt acquiert de nouvelles Qualités lorsque son propriétaire augmente son niveau. Une telle amélioration nécessite du temps et des investissements.",
+          "spans": [
+            {
+              "text": "Un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu d'intérêt",
+              "bold": true
+            },
+            {
+              "text": " acquiert de nouvelles Qualités lorsque son propriétaire augmente son niveau. Une telle amélioration nécessite du temps et des investissements.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour augmenter le niveau d'un lieu, le personnage qui le contrôle doit entreprendre une Quête correspondant au type du lieu et à son niveau actuel.",
+          "spans": [
+            {
+              "text": "Pour augmenter le niveau d'un lieu, le personnage qui le contrôle doit entreprendre une ",
+              "bold": false
+            },
+            {
+              "text": "Quête correspondant au type du lieu et à son niveau actuel",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut également remplacer une Qualité existante par une autre. Pour cela, il doit accomplir une Quête d'une catégorie inférieure à celle normalement nécessaire pour améliorer le lieu, avec un minimum d'une Quête Simple.",
+          "spans": [
+            {
+              "text": "Un personnage peut également remplacer une Qualité existante par une autre. Pour cela, il doit accomplir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête d'une catégorie inférieure",
+              "bold": true
+            },
+            {
+              "text": " à celle normalement nécessaire pour améliorer le lieu, avec un minimum d'une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Simple",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut librement modifier les éléments purement esthétiques de ses Lieux Standards.",
+          "spans": [
+            {
+              "text": "Un personnage peut librement modifier les éléments purement esthétiques de ses ",
+              "bold": false
+            },
+            {
+              "text": "Lieux Standards",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas des Lieux Prestigieux, le Conteur devrait refuser toute modification ou tout ajout qui ne correspond pas à la nature du lieu. Par exemple, ajouter une piscine à un musée d'art public ne serait probablement pas possible.",
+          "spans": [
+            {
+              "text": "Dans le cas des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux Prestigieux",
+              "bold": true
+            },
+            {
+              "text": ", le Conteur devrait refuser toute modification ou tout ajout qui ne correspond pas à la nature du lieu. Par exemple, ajouter une piscine à un musée d'art public ne serait probablement pas possible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cas des Lieux Iconiques, ces restrictions devraient être appliquées de manière encore plus stricte.",
+          "spans": [
+            {
+              "text": "Dans le cas des ",
+              "bold": false
+            },
+            {
+              "text": "Lieux Iconiques",
+              "bold": true
+            },
+            {
+              "text": ", ces restrictions devraient être appliquées de manière encore plus stricte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Type de lieu",
+              "Quête pour ajouter des Qualités",
+              "Quête pour changer des Qualités"
+            ],
+            [
+              "Lieu Standard",
+              "Quête Simple",
+              "Quête Simple"
+            ],
+            [
+              "Lieu Prestigieux",
+              "Quête Complexe",
+              "Quête Simple"
+            ],
+            [
+              "Lieu Iconique",
+              "Quête Héroïque",
+              "Quête Complexe"
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Améliorer le type d'un lieu",
+          "spans": [
+            {
+              "text": "Améliorer le type d'un lieu",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la plupart des circonstances, le type d'un lieu - Standard, Prestigieux ou Iconique - ne peut pas être modifié.",
+          "spans": [
+            {
+              "text": "Dans la plupart des circonstances, le type d'un lieu - ",
+              "bold": false
+            },
+            {
+              "text": "Standard, Prestigieux ou Iconique",
+              "bold": true
+            },
+            {
+              "text": " - ne peut pas être modifié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages souhaitant disposer de Lieux d'intérêt constateront généralement qu'il est beaucoup plus facile de prendre le contrôle de lieux existants que d'en créer de nouveaux ou d'améliorer ceux qu'ils possèdent déjà.",
+          "spans": [
+            {
+              "text": "Les personnages souhaitant disposer de Lieux d'intérêt constateront généralement qu'il est beaucoup plus facile de prendre le contrôle de lieux existants que d'en créer de nouveaux ou d'améliorer ceux qu'ils possèdent déjà.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutefois, le Conteur peut autoriser un personnage à améliorer considérablement l'un de ses lieux.",
+          "spans": [
+            {
+              "text": "Toutefois, le Conteur peut autoriser un personnage à améliorer considérablement l'un de ses lieux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour cela, les personnages doivent réussir une Quête d'une difficulté égale au niveau actuel du lieu, mais d'une catégorie supérieure à celle normalement associée à ce type de lieu, comme indiqué ci-dessous :",
+          "spans": [
+            {
+              "text": "Pour cela, les personnages doivent réussir une ",
+              "bold": false
+            },
+            {
+              "text": "Quête d'une difficulté égale au niveau actuel du lieu",
+              "bold": true
+            },
+            {
+              "text": ", mais d'une catégorie supérieure à celle normalement associée à ce type de lieu, comme indiqué ci-dessous :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Type actuel",
+              "Quête nécessaire pour l'améliorer"
+            ],
+            [
+              "Lieu Standard",
+              "Quête Complexe pour devenir un Lieu Prestigieux"
+            ],
+            [
+              "Lieu Prestigieux",
+              "Quête Héroïque pour devenir un Lieu Iconique"
+            ],
+            [
+              "Lieu Iconique",
+              "Ne peut pas être amélioré davantage"
+            ]
           ]
         }
       ]
@@ -18116,15 +21762,834 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-80a2-a365-c4b507f8bc8d",
+      "slug": "qualites-negatives-des-lieux-d-interet",
+      "title": "Qualités négatives des Lieux d'intérêt",
+      "notionUrl": "https://app.notion.com/p/Qualit-s-n-gatives-des-Lieux-d-int-r-t-3b288b48e48e80a2a365c4b507f8bc8d",
+      "lastEditedTime": "2026-08-04T12:18:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Lieux d'intérêts"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Qualités négatives des Lieux d'intérêt"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Qualités négatives fonctionnent différemment des Qualités ordinaires.",
+          "spans": [
+            {
+              "text": "Les Qualités négatives fonctionnent différemment des Qualités ordinaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un même lieu peut recevoir plusieurs occurrences d'une même Qualité négative, dont les effets sont cumulatifs. Une fois la pénalité maximale atteinte, le lieu ne peut plus recevoir de nouvelles occurrences de cette Qualité.",
+          "spans": [
+            {
+              "text": "Un même lieu peut recevoir ",
+              "bold": false
+            },
+            {
+              "text": "plusieurs occurrences d'une même Qualité négative",
+              "bold": true
+            },
+            {
+              "text": ", dont les effets sont cumulatifs. Une fois la pénalité maximale atteinte, le lieu ne peut plus recevoir de nouvelles occurrences de cette Qualité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la plupart des cas, cette limite est de trois occurrences d'une même Qualité négative. Certaines Qualités du lieu peuvent toutefois lui permettre d'en supporter davantage.",
+          "spans": [
+            {
+              "text": "Dans la plupart des cas, cette limite est de ",
+              "bold": false
+            },
+            {
+              "text": "trois occurrences d'une même Qualité négative",
+              "bold": true
+            },
+            {
+              "text": ". Certaines Qualités du lieu peuvent toutefois lui permettre d'en supporter davantage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Endommagé",
+          "spans": [
+            {
+              "text": "Endommagé",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Affaiblir un lieu de cette manière consiste à lui infliger des dégâts physiques, généralement par du vandalisme, du sabotage ou d'autres méthodes violentes.",
+          "spans": [
+            {
+              "text": "Affaiblir un lieu de cette manière consiste à lui infliger des dégâts physiques, généralement par du vandalisme, du sabotage ou d'autres méthodes violentes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque occurrence d'Endommagé peut être supprimée en dépensant un nombre de points de l'Historique Ressources égal au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Chaque occurrence d'",
+              "bold": false
+            },
+            {
+              "text": "Endommagé",
+              "bold": true
+            },
+            {
+              "text": " peut être supprimée en dépensant un nombre de points de l'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Ressources égal au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Endommagé ×1 : Le lieu a subi des dégâts structurels ou présente d'importantes traces de vandalisme. Le Conteur choisit une Qualité du lieu, qui devient inutilisable jusqu'à ce que toutes les occurrences d'Endommagé soient supprimées.",
+          "spans": [
+            {
+              "text": "Endommagé ×1 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu a subi des dégâts structurels ou présente d'importantes traces de vandalisme. Le Conteur choisit ",
+              "bold": false
+            },
+            {
+              "text": "une Qualité du lieu",
+              "bold": true
+            },
+            {
+              "text": ", qui devient inutilisable jusqu'à ce que toutes les occurrences d'Endommagé soient supprimées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Endommagé ×2 : Le lieu est dans un état de délabrement important. S'il possède encore des Qualités Standards fonctionnelles, le Conteur en choisit une seule qui reste utilisable. Toutes les autres Qualités deviennent indisponibles jusqu'à ce que les dégâts soient réparés.",
+          "spans": [
+            {
+              "text": "Endommagé ×2 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est dans un état de délabrement important. S'il possède encore des Qualités Standards fonctionnelles, le Conteur en choisit ",
+              "bold": false
+            },
+            {
+              "text": "une seule qui reste utilisable",
+              "bold": true
+            },
+            {
+              "text": ". Toutes les autres Qualités deviennent indisponibles jusqu'à ce que les dégâts soient réparés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Endommagé ×3 : Le lieu est détruit et perd définitivement toutes ses Qualités Standards. Si toutes les occurrences d'Endommagé sont ensuite supprimées, le lieu redevient un Lieu d'intérêt de niveau 1, en conservant son type d'origine et en possédant une seule Qualité Standard. Son niveau pourra ensuite être augmenté normalement.",
+          "spans": [
+            {
+              "text": "Endommagé ×3 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est ",
+              "bold": false
+            },
+            {
+              "text": "détruit",
+              "bold": true
+            },
+            {
+              "text": " et perd définitivement toutes ses Qualités Standards. Si toutes les occurrences d'Endommagé sont ensuite supprimées, le lieu redevient un ",
+              "bold": false
+            },
+            {
+              "text": "Lieu d'intérêt de niveau 1",
+              "bold": true
+            },
+            {
+              "text": ", en conservant son type d'origine et en possédant une seule Qualité Standard. Son niveau pourra ensuite être augmenté normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Insolvable",
+          "spans": [
+            {
+              "text": "Insolvable",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De nombreux lieux fonctionnent comme des entreprises ou nécessitent d'importantes ressources financières pour poursuivre leurs activités.",
+          "spans": [
+            {
+              "text": "De nombreux lieux fonctionnent comme des entreprises ou nécessitent d'importantes ressources financières pour poursuivre leurs activités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette méthode consiste à s'attaquer aux finances du lieu, notamment à ses sources de financement, ses crédits ou sa solvabilité.",
+          "spans": [
+            {
+              "text": "Cette méthode consiste à s'attaquer aux finances du lieu, notamment à ses sources de financement, ses crédits ou sa solvabilité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque occurrence d'Insolvable peut être supprimée en dépensant un nombre de points d'Influence de l'Élite égal au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Chaque occurrence d'",
+              "bold": false
+            },
+            {
+              "text": "Insolvable",
+              "bold": true
+            },
+            {
+              "text": " peut être supprimée en dépensant un nombre de points d'",
+              "bold": false
+            },
+            {
+              "text": "Influence de l'Élite égal au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Insolvable ×1 : Le lieu ne génère plus suffisamment de revenus pour couvrir ses dépenses, éventuellement en raison d'une perturbation de ses activités ou de problèmes d'approvisionnement. Son contrôleur ne peut plus bénéficier de la Qualité Rentable, s'il la possède.",
+          "spans": [
+            {
+              "text": "Insolvable ×1 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu ne génère plus suffisamment de revenus pour couvrir ses dépenses, éventuellement en raison d'une perturbation de ses activités ou de problèmes d'approvisionnement. Son contrôleur ne peut plus bénéficier de la Qualité ",
+              "bold": false
+            },
+            {
+              "text": "Rentable",
+              "bold": true
+            },
+            {
+              "text": ", s'il la possède.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Insolvable ×2 : Le lieu ne génère plus suffisamment de revenus pour couvrir ses dépenses et devient un véritable gouffre financier. Son contrôleur doit abandonner le contrôle du lieu si son niveau est supérieur à son nombre de points en Ressources.",
+          "spans": [
+            {
+              "text": "Insolvable ×2 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu ne génère plus suffisamment de revenus pour couvrir ses dépenses et devient un véritable gouffre financier. Son contrôleur doit ",
+              "bold": false
+            },
+            {
+              "text": "abandonner le contrôle du lieu si son niveau est supérieur à son nombre de points en Ressources",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Insolvable ×3 : Le lieu est totalement surendetté et menacé de saisie. N'importe quel personnage peut entreprendre une Quête Complexe, d'une difficulté égale au niveau du lieu, afin d'en prendre le contrôle.",
+          "spans": [
+            {
+              "text": "Insolvable ×3 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est totalement surendetté et menacé de saisie. N'importe quel personnage peut entreprendre une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Complexe",
+              "bold": true
+            },
+            {
+              "text": ", d'une difficulté égale au niveau du lieu, afin d'en prendre le contrôle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si cette Quête est achevée avant que la Qualité négative ne soit supprimée, le personnage devient le nouveau contrôleur du lieu. Toutes les occurrences d'Insolvable sont alors supprimées.",
+          "spans": [
+            {
+              "text": "Si cette Quête est achevée avant que la Qualité négative ne soit supprimée, le personnage devient le nouveau contrôleur du lieu. Toutes les occurrences d'Insolvable sont alors supprimées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres Qualités négatives, telles qu'Endommagé, demeurent toutefois en place.",
+          "spans": [
+            {
+              "text": "Les autres Qualités négatives, telles qu'",
+              "bold": false
+            },
+            {
+              "text": "Endommagé",
+              "bold": true
+            },
+            {
+              "text": ", demeurent toutefois en place.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Compromis",
+          "spans": [
+            {
+              "text": "Compromis",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les êtres surnaturels accordent une importance capitale à leur discrétion. Cette Qualité négative représente un lieu ayant attiré l'attention de forces hostiles.",
+          "spans": [
+            {
+              "text": "Les êtres surnaturels accordent une importance capitale à leur discrétion. Cette Qualité négative représente un lieu ayant attiré l'attention de forces hostiles.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque occurrence de Compromis ne peut être supprimée qu'en dépensant un nombre de points d'Influence de la Pègre égal au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Chaque occurrence de ",
+              "bold": false
+            },
+            {
+              "text": "Compromis",
+              "bold": true
+            },
+            {
+              "text": " ne peut être supprimée qu'en dépensant un nombre de points d'",
+              "bold": false
+            },
+            {
+              "text": "Influence de la Pègre égal au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Compromis ×1 : Le lieu est surveillé passivement par des PNJ hostiles à son propriétaire et à ses alliés. Ils observent et recueillent des informations sur tous les personnages entrant et sortant du lieu.",
+          "spans": [
+            {
+              "text": "Compromis ×1 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est surveillé passivement par des PNJ hostiles à son propriétaire et à ses alliés. Ils observent et recueillent des informations sur tous les personnages entrant et sortant du lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité peut être attribuée à l'insu du propriétaire. Lorsqu'elle est enregistrée, le Conteur doit préciser quel groupe surveille le lieu : Loups-Garous, Chasseurs, autorités mortelles, etc.",
+          "spans": [
+            {
+              "text": "Cette Qualité peut être attribuée à l'insu du propriétaire. Lorsqu'elle est enregistrée, le Conteur doit préciser quel groupe surveille le lieu : ",
+              "bold": false
+            },
+            {
+              "text": "Loups-Garous, Chasseurs, autorités mortelles",
+              "bold": true
+            },
+            {
+              "text": ", etc.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Compromis ×2 : Le lieu fait l'objet d'une surveillance active de la part de PNJ hostiles à son propriétaire et à ses alliés. Ceux-ci réagissent avec force s'ils découvrent la présence du personnage sur place.",
+          "spans": [
+            {
+              "text": "Compromis ×2 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu fait l'objet d'une ",
+              "bold": false
+            },
+            {
+              "text": "surveillance active",
+              "bold": true
+            },
+            {
+              "text": " de la part de PNJ hostiles à son propriétaire et à ses alliés. Ceux-ci réagissent avec force s'ils découvrent la présence du personnage sur place.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité peut également être attribuée à l'insu du propriétaire. Le Conteur doit noter quel groupe compromet le lieu.",
+          "spans": [
+            {
+              "text": "Cette Qualité peut également être attribuée à l'insu du propriétaire. Le Conteur doit noter quel groupe compromet le lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Compromis ×3 : À ce stade, aucune action ne peut être entreprise dans ce lieu sans que les forces hostiles en soient informées.",
+          "spans": [
+            {
+              "text": "Compromis ×3 :",
+              "bold": true
+            },
+            {
+              "text": " À ce stade, aucune action ne peut être entreprise dans ce lieu sans que les forces hostiles en soient informées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute utilisation d'une Qualité Standard du lieu entraîne une conséquence déterminée par le Conteur, pouvant notamment provoquer un combat ou faire courir le risque d'une violation de la Mascarade ou du Voile.",
+          "spans": [
+            {
+              "text": "Toute utilisation d'une Qualité Standard du lieu entraîne une ",
+              "bold": false
+            },
+            {
+              "text": "conséquence déterminée par le Conteur",
+              "bold": true
+            },
+            {
+              "text": ", pouvant notamment provoquer un combat ou faire courir le risque d'une violation de la ",
+              "bold": false
+            },
+            {
+              "text": "Mascarade",
+              "bold": true
+            },
+            {
+              "text": " ou du ",
+              "bold": false
+            },
+            {
+              "text": "Voile",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Non conforme",
+          "spans": [
+            {
+              "text": "Non conforme",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Comme le dit le vieil adage, on ne lutte pas contre l'administration.",
+          "spans": [
+            {
+              "text": "Comme le dit le vieil adage, on ne lutte pas contre l'administration.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité négative représente les problèmes rencontrés par le propriétaire d'un lieu avec les autorités administratives : non-respect des normes, problèmes de licence ou d'autorisation, irrégularités administratives ou simplement fonctionnaires corrompus décidés à lui nuire.",
+          "spans": [
+            {
+              "text": "Cette Qualité négative représente les problèmes rencontrés par le propriétaire d'un lieu avec les autorités administratives : non-respect des normes, problèmes de licence ou d'autorisation, irrégularités administratives ou simplement fonctionnaires corrompus décidés à lui nuire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Supprimer une occurrence de Non conforme nécessite de dépenser un nombre de points d'Influence de la Pègre égal au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Supprimer une occurrence de ",
+              "bold": false
+            },
+            {
+              "text": "Non conforme",
+              "bold": true
+            },
+            {
+              "text": " nécessite de dépenser un nombre de points d'",
+              "bold": false
+            },
+            {
+              "text": "Influence de la Pègre égal au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Non conforme ×1 : Une partie de l'activité, de la construction ou de l'utilisation du lieu n'est pas légalement autorisée, et les autorités en ont connaissance.",
+          "spans": [
+            {
+              "text": "Non conforme ×1 :",
+              "bold": true
+            },
+            {
+              "text": " Une partie de l'activité, de la construction ou de l'utilisation du lieu n'est pas légalement autorisée, et les autorités en ont connaissance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu possédant cette Qualité ne peut pas recevoir directement une seconde occurrence de Non conforme. En revanche, si la Qualité n'est pas supprimée dans les deux parties suivantes, il gagne automatiquement une nouvelle occurrence.",
+          "spans": [
+            {
+              "text": "Un lieu possédant cette Qualité ne peut pas recevoir directement une seconde occurrence de Non conforme. En revanche, si la Qualité n'est pas supprimée dans les ",
+              "bold": false
+            },
+            {
+              "text": "deux parties suivantes",
+              "bold": true
+            },
+            {
+              "text": ", il gagne automatiquement une nouvelle occurrence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Non conforme ×2 : Le lieu est sur le point d'être fermé par les autorités administratives.",
+          "spans": [
+            {
+              "text": "Non conforme ×2 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est sur le point d'être fermé par les autorités administratives.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il ne peut pas recevoir directement une occurrence supplémentaire de Non conforme, mais en gagne automatiquement une si le problème n'est pas résolu dans les deux parties suivantes.",
+          "spans": [
+            {
+              "text": "Il ne peut pas recevoir directement une occurrence supplémentaire de Non conforme, mais en gagne automatiquement une si le problème n'est pas résolu dans les ",
+              "bold": false
+            },
+            {
+              "text": "deux parties suivantes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Non conforme ×3 : Le lieu a été fermé par les autorités. Aucune de ses Qualités ne peut être utilisée tant que toutes les occurrences de Non conforme n'ont pas été supprimées.",
+          "spans": [
+            {
+              "text": "Non conforme ×3 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu a été ",
+              "bold": false
+            },
+            {
+              "text": "fermé par les autorités",
+              "bold": true
+            },
+            {
+              "text": ". Aucune de ses Qualités ne peut être utilisée tant que toutes les occurrences de Non conforme n'ont pas été supprimées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Rejeté",
+          "spans": [
+            {
+              "text": "Rejeté",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité négative résulte d'attaques contre la réputation du lieu auprès de la communauté, par l'intermédiaire de rumeurs, de scandales ou d'une mauvaise publicité.",
+          "spans": [
+            {
+              "text": "Cette Qualité négative résulte d'attaques contre la réputation du lieu auprès de la communauté, par l'intermédiaire de rumeurs, de scandales ou d'une mauvaise publicité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque occurrence de Rejeté peut être supprimée en dépensant un nombre de points d'Influence de l'Élite égal au niveau du lieu.",
+          "spans": [
+            {
+              "text": "Chaque occurrence de ",
+              "bold": false
+            },
+            {
+              "text": "Rejeté",
+              "bold": true
+            },
+            {
+              "text": " peut être supprimée en dépensant un nombre de points d'",
+              "bold": false
+            },
+            {
+              "text": "Influence de l'Élite égal au niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rejeté ×1 : Le lieu a acquis une mauvaise réputation auprès des personnes qui le fréquenteraient normalement. Son contrôleur ne peut plus bénéficier des Qualités Artistique, Décadent, Chic ou Mal famé.",
+          "spans": [
+            {
+              "text": "Rejeté ×1 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu a acquis une mauvaise réputation auprès des personnes qui le fréquenteraient normalement. Son contrôleur ne peut plus bénéficier des Qualités ",
+              "bold": false
+            },
+            {
+              "text": "Artistique, Décadent, Chic",
+              "bold": true
+            },
+            {
+              "text": " ou ",
+              "bold": false
+            },
+            {
+              "text": "Mal famé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rejeté ×2 : Le lieu est devenu notoirement mal réputé. Son contrôleur soustrait le niveau du lieu à son nombre de points dans l'Historique Célébrité.",
+          "spans": [
+            {
+              "text": "Rejeté ×2 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu est devenu notoirement mal réputé. Son contrôleur soustrait le ",
+              "bold": false
+            },
+            {
+              "text": "niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": " à son nombre de points dans l'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Célébrité",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ce lieu est un Élyséum, les personnages qui le fréquentent ne peuvent pas obtenir de Statut positif en assistant à la Cour qui s'y déroule.",
+          "spans": [
+            {
+              "text": "Si ce lieu est un ",
+              "bold": false
+            },
+            {
+              "text": "Élyséum",
+              "bold": true
+            },
+            {
+              "text": ", les personnages qui le fréquentent ne peuvent pas obtenir de ",
+              "bold": false
+            },
+            {
+              "text": "Statut positif",
+              "bold": true
+            },
+            {
+              "text": " en assistant à la Cour qui s'y déroule.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rejeté ×3 : Le lieu possède désormais une réputation exécrable. Son propriétaire perd entièrement l'accès à son Historique Célébrité et ne peut plus dépenser d'XP afin d'augmenter ses Influences tant qu'il contrôle ce lieu.",
+          "spans": [
+            {
+              "text": "Rejeté ×3 :",
+              "bold": true
+            },
+            {
+              "text": " Le lieu possède désormais une réputation exécrable. Son propriétaire perd entièrement l'accès à son Historique ",
+              "bold": false
+            },
+            {
+              "text": "Célébrité",
+              "bold": true
+            },
+            {
+              "text": " et ne peut plus dépenser d'XP afin d'augmenter ses ",
+              "bold": false
+            },
+            {
+              "text": "Influences",
+              "bold": true
+            },
+            {
+              "text": " tant qu'il contrôle ce lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut volontairement abandonner le lieu afin d'échapper à cette pénalité. Dans ce cas, le nouveau propriétaire en prend le contrôle avec toutes les occurrences de Rejeté toujours présentes.",
+          "spans": [
+            {
+              "text": "Il peut volontairement abandonner le lieu afin d'échapper à cette pénalité. Dans ce cas, le nouveau propriétaire en prend le contrôle avec ",
+              "bold": false
+            },
+            {
+              "text": "toutes les occurrences de Rejeté toujours présentes",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3ab88b48-e48e-8082-b3f0-d0f0e398c868",
       "slug": "quetes",
       "title": "Quêtes",
       "notionUrl": "https://app.notion.com/p/Qu-tes-3ab88b48e48e8082b3f0d0f0e398c868",
-      "lastEditedTime": "2026-07-29T16:31:00.000Z",
+      "lastEditedTime": "2026-08-04T11:57:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
-          "value": "Quêtes et Lieux d'intérêts"
+          "value": "Quêtes"
         },
         "Visible": {
           "type": "checkbox",

@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-03T21:34:54.057Z",
+  "generatedAt": "2026-08-04T19:40:31.179Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1188,6 +1188,527 @@
             },
             {
               "text": " pour commencer la partie avec une réserve de Sang complète.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8039-b769-cda159a60a3d",
+      "slug": "de-la-cour-doree-d-asie-du-sud-est",
+      "title": "De la Cour Dorée d’Asie du Sud-Est",
+      "notionUrl": "https://app.notion.com/p/De-la-Cour-Dor-e-d-Asie-du-Sud-Est-3b288b48e48e8039b769cda159a60a3d",
+      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Elémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-doree-d-asie-du-sud-est",
+              "title": "Lignée : De la Cour Dorée d’Asie du Sud-Est",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "adversaire-de-l-infernal",
+              "title": "Adversaire de l'Infernal ",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "De la Cour Dorée d’Asie du Sud-Est"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80a8-a092-d90074c88bb5",
+      "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+      "title": "De la Cour du Tonnerre Infini d'Inde",
+      "notionUrl": "https://app.notion.com/p/De-la-Cour-du-Tonnerre-Infini-d-Inde-3b288b48e48e80a8a092d90074c88bb5",
+      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Elémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "Lignée : De la Cour du Tonnerre Infini d’Inde",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "diplomate",
+              "title": "Diplomate",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "De la Cour du Tonnerre Infini d'Inde"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8004-87ed-f73917b5c33f",
+      "slug": "de-la-cour-verte-de-coree",
+      "title": "De la Cour Verte de Corée",
+      "notionUrl": "https://app.notion.com/p/De-la-Cour-Verte-de-Cor-e-3b288b48e48e800487edf73917b5c33f",
+      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Elémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sepulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l’Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-verte-de-coree",
+              "title": "Lignée : De la Cour Verte de Corée",
+              "cout": "4",
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voie-necromantique-supplementaire",
+              "title": "Voie nécromantique supplémentaire ",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "De la Cour Verte de Corée"
+        }
+      },
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Verte, une cour de marchants aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Verte, une cour de marchants aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
               "bold": false
             }
           ]

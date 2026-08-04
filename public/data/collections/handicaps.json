@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-03T21:34:54.063Z",
+  "generatedAt": "2026-08-04T19:40:31.187Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -1398,6 +1398,85 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-8011-bf82-ee9277b7046e",
+      "slug": "demon-interieur",
+      "title": "Démon intérieur",
+      "notionUrl": "https://app.notion.com/p/D-mon-int-rieur-3b288b48e48e8011bf82ee9277b7046e",
+      "lastEditedTime": "2026-08-04T14:04:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Démon intérieur"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Certains Kuei Jin ne possèdent pas de Bête, mais un Démon intérieur. Vous en faites partie. Lors d'un passage en frénésie, vous empestez le soufre et avez une apparence de Démon.",
+          "spans": [
+            {
+              "text": "Certains Kuei Jin ne possèdent pas de Bête, mais un Démon intérieur. Vous en faites partie. Lors d'un passage en frénésie, vous empestez le soufre et avez une apparence de Démon.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39888b48-e48e-8083-9558-c55963fd1273",
       "slug": "deux-fois-lie-au-conseil",
       "title": "Deux fois lié au Conseil",
@@ -1588,6 +1667,85 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-8059-b663-f1e2f982b57d",
+      "slug": "double-faiblesse",
+      "title": "Double Faiblesse",
+      "notionUrl": "https://app.notion.com/p/Double-Faiblesse-3b288b48e48e8059b663f1e2f982b57d",
+      "lastEditedTime": "2026-08-04T14:03:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Double Faiblesse"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre constitution est plus fragile, ou votre passé ne vous a confronté ni au bois, ni au métal. De ce fait, vous subissez les deux faiblesses du clan : le bois et le métal vous infligent 1 dégât aggravé supplémentaire, quelle que soit la source.",
+          "spans": [
+            {
+              "text": "Votre constitution est plus fragile, ou votre passé ne vous a confronté ni au bois, ni au métal. De ce fait, vous subissez les deux faiblesses du clan : le bois et le métal vous infligent 1 dégât aggravé supplémentaire, quelle que soit la source.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39588b48-e48e-8098-bb7c-fcefeae5c0a3",
       "slug": "douillet",
       "title": "Douillet",
@@ -1626,6 +1784,85 @@
           "spans": [
             {
               "text": "Vous êtes une créature délicate et fragile, peu réputée pour sa résistance.\nVous venez peut-être d’une société décadente ou d’une lignée noble n’ayant jamais eu à effectuer le moindre travail physique important.\nEn conséquence, vous possédez un niveau de santé en moins dans vos niveaux de blessure Blessé et Incapacité.\nVos niveaux Sain ne sont pas affectés par cet Handicap.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8091-86f0-e0c3d24d9e57",
+      "slug": "elementaire-incomplet",
+      "title": "Elémentaire incomplet",
+      "notionUrl": "https://app.notion.com/p/El-mentaire-incomplet-3b288b48e48e809186f0e0c3d24d9e57",
+      "lastEditedTime": "2026-08-04T14:03:00.000Z",
+      "properties": {
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Name": {
+          "type": "text",
+          "value": "Elémentaire incomplet"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre puissance élémentaire n'arrive pas à incarner correctement vos élémentaires dans le plan métaphysique. Même si ces derniers vous permettent d'utiliser vos pouvoirs, et d'accéder aux Plans Elémentaires, vous ne pouvez pas obtenir l'atout gratuit \"Servant\" quand vous débloquez une Voie, et ne pouvez pas vous faire assister de vos élémentaires au combat.",
+          "spans": [
+            {
+              "text": "Votre puissance élémentaire n'arrive pas à incarner correctement vos élémentaires dans le plan métaphysique. Même si ces derniers vous permettent d'utiliser vos pouvoirs, et d'accéder aux Plans Elémentaires, vous ne pouvez pas obtenir l'atout gratuit \"Servant\" quand vous débloquez une Voie, et ne pouvez pas vous faire assister de vos élémentaires au combat.",
               "bold": false
             }
           ]

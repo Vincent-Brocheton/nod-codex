@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-03T21:34:54.088Z",
+  "generatedAt": "2026-08-04T19:40:31.217Z",
   "propertyOptions": {},
   "items": [
     {
@@ -12,7 +12,7 @@
       "slug": "allies",
       "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-03T21:30:00.000Z",
+      "lastEditedTime": "2026-08-04T07:11:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -460,14 +460,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Allié +1, dans la limite des règles du système.",
+          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Influence +1, dans la limite des règles du système.",
           "spans": [
             {
               "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence ",
               "bold": false
             },
             {
-              "text": "égal au niveau de l'Allié +1",
+              "text": "égal au niveau de l'Influence +1",
               "bold": true
             },
             {
@@ -478,10 +478,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
+          "text": "Par exemple, un Allié avec un niveau d’influence de niveau 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
           "spans": [
             {
-              "text": "Par exemple, un Allié de niveau 3 pourra réaliser une action de niveau 4 dans son domaine d'expertise.",
+              "text": "Par exemple, un Allié avec un niveau d’influence de niveau 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
               "bold": false
             }
           ]
@@ -1667,11 +1667,11 @@
           ]
         },
         {
-          "type": "heading_1",
-          "text": "Actions d’Influence — Élite",
+          "type": "heading_2",
+          "text": "Actions d’Influence - Élite (Gotha)",
           "spans": [
             {
-              "text": "Actions d’Influence — Élite",
+              "text": "Actions d’Influence - Élite (Gotha)",
               "bold": true
             }
           ]
@@ -1688,24 +1688,24 @@
         },
         {
           "type": "paragraph",
-          "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service — voire à vous prêter leurs biens — tant que vous entretenez de bonnes relations.",
+          "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service - voire à vous prêter leurs biens - tant que vous entretenez de bonnes relations.",
           "spans": [
             {
-              "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service — voire à vous prêter leurs biens — tant que vous entretenez de bonnes relations.",
+              "text": "Votre réputation de richesse et d’influence vous précède. Naturellement, les gens sont enclins à vous rendre service - voire à vous prêter leurs biens - tant que vous entretenez de bonnes relations.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "En dépensant 1 action d’Influence, vous pouvez « emprunter » les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de 1 000 $ par point d’Influence Élite que vous possédez.",
+          "text": "En dépensant 1 action d’Influence, vous pouvez “emprunter” les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de 1 000 € par point d’Influence Élite que vous possédez.",
           "spans": [
             {
-              "text": "En dépensant 1 action d’Influence, vous pouvez « emprunter » les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de ",
+              "text": "En dépensant 1 action d’Influence, vous pouvez “emprunter” les ressources d’un ami fortuné, d’une entreprise ou d’une institution publique, pour une valeur locative maximale de ",
               "bold": false
             },
             {
-              "text": "1 000 $ par point d’Influence Élite",
+              "text": "1 000 € par point d’Influence Élite",
               "bold": true
             },
             {
@@ -1786,10 +1786,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes — et facilement manipulables.",
+          "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes - et facilement manipulables.",
           "spans": [
             {
-              "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes — et facilement manipulables.",
+              "text": "Entre paperasse interminable, réunions d’influence et accords implicites, les rouages administratifs sont complexes - et facilement manipulables.",
               "bold": false
             }
           ]
@@ -1816,10 +1816,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque problème a une solution — surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
+          "text": "Chaque problème a une solution - surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
           "spans": [
             {
-              "text": "Chaque problème a une solution — surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
+              "text": "Chaque problème a une solution - surtout lorsqu’on dispose de leviers suffisants. Secrets étouffés, témoins achetés, vérités arrangées.",
               "bold": false
             }
           ]
@@ -1866,10 +1866,20 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "vous contrôlez la sécuritévous influencez la réponse policière",
+          "text": "vous contrôlez la sécurité ",
           "spans": [
             {
-              "text": "vous contrôlez la sécuritévous influencez la réponse policière",
+              "text": "vous contrôlez la sécurité ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "vous influencez la réponse policière",
+          "spans": [
+            {
+              "text": "vous influencez la réponse policière",
               "bold": false
             }
           ]
@@ -2050,10 +2060,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le véritable pouvoir ne se montre pas — il agit dans l’ombre.",
+          "text": "Le véritable pouvoir ne se montre pas - il agit dans l’ombre.",
           "spans": [
             {
-              "text": "Le véritable pouvoir ne se montre pas — il agit dans l’ombre.",
+              "text": "Le véritable pouvoir ne se montre pas - il agit dans l’ombre.",
               "bold": false
             }
           ]
@@ -2128,10 +2138,10 @@
         },
         {
           "type": "heading_1",
-          "text": "Influence — Pègre",
+          "text": "Influence - Pègre",
           "spans": [
             {
-              "text": "Influence — Pègre",
+              "text": "Influence - Pègre",
               "bold": true
             }
           ]
@@ -2228,10 +2238,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses — tant qu’elles ne font pas de vagues.",
+          "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses - tant qu’elles ne font pas de vagues.",
           "spans": [
             {
-              "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses — tant qu’elles ne font pas de vagues.",
+              "text": "Dans l’ombre, peu de gens prêtent attention aux activités douteuses - tant qu’elles ne font pas de vagues.",
               "bold": false
             }
           ]
@@ -2298,10 +2308,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque territoire appartient à quelqu’un — et vous savez à qui.",
+          "text": "Chaque territoire appartient à quelqu’un - et vous savez à qui.",
           "spans": [
             {
-              "text": "Chaque territoire appartient à quelqu’un — et vous savez à qui.",
+              "text": "Chaque territoire appartient à quelqu’un - et vous savez à qui.",
               "bold": false
             }
           ]
@@ -2416,10 +2426,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La survie dépend souvent du silence — et vous savez imposer ce silence.",
+          "text": "La survie dépend souvent du silence - et vous savez imposer ce silence.",
           "spans": [
             {
-              "text": "La survie dépend souvent du silence — et vous savez imposer ce silence.",
+              "text": "La survie dépend souvent du silence - et vous savez imposer ce silence.",
               "bold": false
             }
           ]
@@ -2446,10 +2456,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Il existe toujours une faille dans un système — et quelqu’un prêt à en profiter.",
+          "text": "Il existe toujours une faille dans un système - et quelqu’un prêt à en profiter.",
           "spans": [
             {
-              "text": "Il existe toujours une faille dans un système — et quelqu’un prêt à en profiter.",
+              "text": "Il existe toujours une faille dans un système - et quelqu’un prêt à en profiter.",
               "bold": false
             }
           ]
@@ -2496,10 +2506,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le pouvoir véritable réside dans la contrainte — et dans les choix qui n’en sont pas.",
+          "text": "Le pouvoir véritable réside dans la contrainte - et dans les choix qui n’en sont pas.",
           "spans": [
             {
-              "text": "Le pouvoir véritable réside dans la contrainte — et dans les choix qui n’en sont pas.",
+              "text": "Le pouvoir véritable réside dans la contrainte - et dans les choix qui n’en sont pas.",
               "bold": false
             }
           ]
@@ -2569,7 +2579,7 @@
       "slug": "fausse-identite",
       "title": "Fausse Identité",
       "notionUrl": "https://app.notion.com/p/Fausse-Identit-39b88b48e48e80719305cf1c617afd85",
-      "lastEditedTime": "2026-07-12T12:30:00.000Z",
+      "lastEditedTime": "2026-08-04T08:05:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2579,236 +2589,420 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Votre personnage possède une seconde identité parfaitement documentée : papiers officiels, certificats de naissance, permis de conduire, historique administratif et tous les justificatifs nécessaires.",
+          "text": "Vous entretenez une Fausse Identité, accompagnée de papiers, actes de naissance et de tout autre document nécessaire pour en garantir la crédibilité.",
           "spans": [
             {
-              "text": "Votre personnage possède une seconde identité parfaitement documentée : papiers officiels, certificats de naissance, permis de conduire, historique administratif et tous les justificatifs nécessaires.",
+              "text": "Vous entretenez une Fausse Identité, accompagnée de papiers, actes de naissance et de tout autre document nécessaire pour en garantir la crédibilité.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Cette identité peut servir à dissimuler votre véritable existence parmi les mortels, ou constituer une couverture destinée à infiltrer un autre clan ou une autre secte.",
+          "text": "Cette identité s'applique normalement au monde mortel, mais elle peut également servir à infiltrer des groupes surnaturels, tels que d'autres clans, si vous possédez au moins 4 points dans cet Historique.",
           "spans": [
             {
-              "text": "Cette identité peut servir à dissimuler votre véritable existence parmi les mortels, ou constituer une couverture destinée à infiltrer un autre clan ou une autre secte.",
+              "text": "Cette identité s'applique normalement au monde mortel, mais elle peut également servir à infiltrer des groupes surnaturels, tels que d'autres clans, si vous possédez ",
+              "bold": false
+            },
+            {
+              "text": "au moins 4 points dans cet Historique",
+              "bold": true
+            },
+            {
+              "text": ".",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Cet Historique peut être acheté plusieurs fois. Chaque achat représente une identité totalement indépendante des autres.",
+          "text": "Vous pouvez acheter cet Historique plusieurs fois, chaque acquisition représentant une identité de couverture entièrement distincte.",
           "spans": [
             {
-              "text": "Cet Historique peut être acheté plusieurs fois. Chaque achat représente une identité totalement indépendante des autres.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "●",
-          "spans": [
-            {
-              "text": "●",
+              "text": "Vous pouvez acheter cet Historique plusieurs fois, chaque acquisition représentant une identité de couverture entièrement distincte.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Votre couverture est superficielle.",
+          "text": "Les Atouts de Lignée peuvent compromettre votre capacité à infiltrer efficacement d'autres clans ou groupes surnaturels, à la discrétion du Conteur.",
           "spans": [
             {
-              "text": "Votre couverture est superficielle.",
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Atouts de Lignée",
+              "bold": true
+            },
+            {
+              "text": " peuvent compromettre votre capacité à infiltrer efficacement d'autres clans ou groupes surnaturels, à la discrétion du Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Vous possédez quelques documents officiels, comme un permis de conduire ou une carte d'identité, capables de résister à une vérification rapide.",
+          "text": "Pour déterminer si un personnage utilise une Fausse Identité, vous pouvez choisir de dépenser un certain nombre d'Actions Inter-Parties afin d'enquêter sur un personnage que vous soupçonnez d'utiliser une telle identité et de vérifier l'authenticité de son passé.",
           "spans": [
             {
-              "text": "Vous possédez quelques documents officiels, comme un permis de conduire ou une carte d'identité, capables de résister à une vérification rapide.",
+              "text": "Pour déterminer si un personnage utilise une Fausse Identité, vous pouvez choisir de dépenser un certain nombre d'",
               "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "●●",
-          "spans": [
+            },
             {
-              "text": "●●",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre identité est solide.",
-          "spans": [
+              "text": "Actions Inter-Parties",
+              "bold": true
+            },
             {
-              "text": "Votre identité est solide.",
+              "text": " afin d'enquêter sur un personnage que vous soupçonnez d'utiliser une telle identité et de vérifier l'authenticité de son passé.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Elle peut résister à une enquête administrative classique et comprend notamment un acte de naissance, un numéro d'identification officiel et plusieurs traces crédibles de votre existence.",
+          "text": "Après avoir dépensé le nombre d'Actions Inter-Parties de votre choix, effectuez un défi :",
           "spans": [
             {
-              "text": "Elle peut résister à une enquête administrative classique et comprend notamment un acte de naissance, un numéro d'identification officiel et plusieurs traces crédibles de votre existence.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "●●●",
-          "spans": [
-            {
-              "text": "●●●",
+              "text": "Après avoir dépensé le nombre d'Actions Inter-Parties de votre choix, effectuez un défi :",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Votre couverture est particulièrement crédible.",
+          "text": "Attribut Mental + Investigation",
           "spans": [
             {
-              "text": "Votre couverture est particulièrement crédible.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Elle comprend un historique cohérent, des proches, des témoins capables d'attester de votre identité et de nombreuses preuves de votre existence passée.",
-          "spans": [
-            {
-              "text": "Elle comprend un historique cohérent, des proches, des témoins capables d'attester de votre identité et de nombreuses preuves de votre existence passée.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Dans la société vampirique, cela peut représenter un jeune vampire dont le sire est officiellement décédé mais dont l'histoire est parfaitement documentée.",
-          "spans": [
-            {
-              "text": "Dans la société vampirique, cela peut représenter un jeune vampire dont le sire est officiellement décédé mais dont l'histoire est parfaitement documentée.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "●●●●",
-          "spans": [
-            {
-              "text": "●●●●",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre identité est conçue pour infiltrer un autre clan ou une autre secte.",
-          "spans": [
-            {
-              "text": "Votre identité est conçue pour infiltrer un autre clan ou une autre secte.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous disposez d'un sire vivant prêt à confirmer votre histoire, et plusieurs événements connus corroborent officiellement votre présence parmi ce groupe.",
-          "spans": [
-            {
-              "text": "Vous disposez d'un sire vivant prêt à confirmer votre histoire, et plusieurs événements connus corroborent officiellement votre présence parmi ce groupe.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "●●●●●",
-          "spans": [
-            {
-              "text": "●●●●●",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre couverture est pratiquement parfaite.",
-          "spans": [
-            {
-              "text": "Votre couverture est pratiquement parfaite.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre identité occupe une place importante dans la société mortelle ou vampirique. Elle bénéficie d'une histoire ancienne, d'une généalogie complète et résiste même aux investigations surnaturelles ordinaires.",
-          "spans": [
-            {
-              "text": "Votre identité occupe une place importante dans la société mortelle ou vampirique. Elle bénéficie d'une histoire ancienne, d'une généalogie complète et résiste même aux investigations surnaturelles ordinaires.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Cela ne signifie pas pour autant qu'elle soit impossible à compromettre : une erreur de votre part ou une enquête suffisamment approfondie pourront toujours révéler la vérité.",
-          "spans": [
-            {
-              "text": "Cela ne signifie pas pour autant qu'elle soit impossible à compromettre : une erreur de votre part ou une enquête suffisamment approfondie pourront toujours révéler la vérité.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Une Identité secondaire ne trompe pas les pouvoirs surnaturels permettant directement de lire l'esprit ou de percevoir la véritable nature d'un individu.",
-          "spans": [
-            {
-              "text": "Une Identité secondaire ne trompe pas les pouvoirs surnaturels permettant directement de lire l'esprit ou de percevoir la véritable nature d'un individu.",
+              "text": "Attribut Mental + Investigation",
               "bold": true
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Une Identité secondaire peut également obtenir une Acceptation et des Statuts propres dans une autre organisation vampirique.",
+          "text": "contre :",
           "spans": [
             {
-              "text": "Une Identité secondaire peut également obtenir une ",
+              "text": "contre :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attribut Mental + Subterfuge de la cible",
+          "spans": [
+            {
+              "text": "Attribut Mental + Subterfuge de la cible",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous réussissez ce défi et que vous avez dépensé un nombre d'Actions Inter-Parties supérieur ou égal au niveau de la Fausse Identité de votre cible, vous découvrez sa véritable identité.",
+          "spans": [
+            {
+              "text": "Si vous réussissez ce défi ",
               "bold": false
             },
             {
-              "text": "Acceptation",
+              "text": "et",
               "bold": true
             },
             {
-              "text": " et des ",
+              "text": " que vous avez dépensé un nombre d'Actions Inter-Parties ",
               "bold": false
             },
             {
-              "text": "Statuts",
+              "text": "supérieur ou égal au niveau de la Fausse Identité de votre cible",
               "bold": true
             },
             {
-              "text": " propres dans une autre organisation vampirique.",
+              "text": ", vous découvrez sa véritable identité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'Actions Inter-Parties par rapport au niveau de son Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, l'identité vous paraît parfaitement légitime.",
+          "spans": [
+            {
+              "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'Actions Inter-Parties par rapport au niveau de son Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, ",
+              "bold": false
+            },
+            {
+              "text": "l'identité vous paraît parfaitement légitime",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur devrait effectuer ce défi secrètement afin de ne pas révéler si le personnage utilise ou non une Fausse Identité.",
+          "spans": [
+            {
+              "text": "Le Conteur devrait effectuer ce défi secrètement afin de ne pas révéler si le personnage utilise ou non une Fausse Identité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'Actions Inter-Parties seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
+          "spans": [
+            {
+              "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'Actions Inter-Parties seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "● Identité superficielle",
+          "spans": [
+            {
+              "text": "● Identité superficielle",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est très sommaire.",
+          "spans": [
+            {
+              "text": "Votre identité est très sommaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous disposez d'un permis de conduire ou de quelques documents administratifs mineurs, et votre identité peut résister à une recherche superficielle sur Internet.",
+          "spans": [
+            {
+              "text": "Vous disposez d'un permis de conduire ou de quelques documents administratifs mineurs, et votre identité peut résister à une recherche superficielle sur Internet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "●● Identité établie",
+          "spans": [
+            {
+              "text": "●● Identité établie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité repose sur des bases solides et peut résister à l'examen d'une enquête criminelle mineure.",
+          "spans": [
+            {
+              "text": "Votre identité repose sur des bases solides et peut résister à l'examen d'une enquête criminelle mineure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut notamment comprendre des actes de naissance, numéros de sécurité sociale et autres documents administratifs similaires.",
+          "spans": [
+            {
+              "text": "Elle peut notamment comprendre des actes de naissance, numéros de sécurité sociale et autres documents administratifs similaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "●●● Identité solide",
+          "spans": [
+            {
+              "text": "●●● Identité solide",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est particulièrement bien établie et résiste à presque toutes les investigations, à l'exception des plus approfondies.",
+          "spans": [
+            {
+              "text": "Votre identité est particulièrement bien établie et résiste à presque toutes les investigations, à l'exception des plus approfondies.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette identité possède une histoire longue et crédible, comprenant notamment des amis, une famille et des personnes capables de témoigner de son existence et de son passé.",
+          "spans": [
+            {
+              "text": "Cette identité possède une histoire longue et crédible, comprenant notamment des amis, une famille et des personnes capables de témoigner de son existence et de son passé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●● Identité d'infiltration",
+          "spans": [
+            {
+              "text": "●●●● Identité d'infiltration",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est spécifiquement conçue pour infiltrer un autre clan ou une organisation surnaturelle.",
+          "spans": [
+            {
+              "text": "Votre identité est spécifiquement conçue pour infiltrer ",
+              "bold": false
+            },
+            {
+              "text": "un autre clan ou une organisation surnaturelle",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À ce niveau, vous avez établi une identité crédible en tant que membre nouveau, ou relativement récent, de l'organisation choisie.",
+          "spans": [
+            {
+              "text": "À ce niveau, vous avez établi une identité crédible en tant que membre nouveau, ou relativement récent, de l'organisation choisie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "●●●●● Identité reconnue",
+          "spans": [
+            {
+              "text": "●●●●● Identité reconnue",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre identité est celle d'un membre respecté de la société.",
+          "spans": [
+            {
+              "text": "Votre identité est celle d'un ",
+              "bold": false
+            },
+            {
+              "text": "membre respecté de la société",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut occuper une fonction importante dans le monde mortel ou au sein du groupe surnaturel que vous avez choisi d'infiltrer.",
+          "spans": [
+            {
+              "text": "Elle peut occuper une fonction importante dans le monde mortel ou au sein du groupe surnaturel que vous avez choisi d'infiltrer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous disposez d'une histoire longue et particulièrement détaillée, et votre couverture est suffisamment solide pour résister même à des moyens surnaturels de vérification.",
+          "spans": [
+            {
+              "text": "Vous disposez d'une histoire longue et particulièrement détaillée, et votre couverture est suffisamment solide pour résister ",
+              "bold": false
+            },
+            {
+              "text": "même à des moyens surnaturels de vérification",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela ne signifie toutefois pas que votre personnage ne peut jamais être démasqué. Si vous commettez une erreur et que d'autres personnages découvrent des incohérences, votre véritable identité peut toujours être révélée.",
+          "spans": [
+            {
+              "text": "Cela ne signifie toutefois pas que votre personnage ne peut jamais être démasqué. Si vous commettez une erreur et que d'autres personnages découvrent des incohérences, votre véritable identité peut toujours être révélée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Limites de Fausse Identité",
+          "spans": [
+            {
+              "text": "Limites de Fausse Identité",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même la meilleure Fausse Identité finira par s'effondrer si vous êtes incapable de préserver votre secret, si vous ne respectez pas les usages et comportements attendus de l'identité que vous incarnez, ou si vous êtes directement surpris en train de compromettre votre couverture.",
+          "spans": [
+            {
+              "text": "Même la meilleure Fausse Identité finira par s'effondrer si vous êtes incapable de préserver votre secret, si vous ne respectez pas les usages et comportements attendus de l'identité que vous incarnez, ou si vous êtes directement surpris en train de compromettre votre couverture.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre histoire et vos documents peuvent résister à une enquête approfondie, certains pouvoirs surnaturels capables de vous examiner directement peuvent néanmoins compromettre votre Fausse Identité, à la discrétion du Conteur.",
+          "spans": [
+            {
+              "text": "Si votre histoire et vos documents peuvent résister à une enquête approfondie, certains ",
+              "bold": false
+            },
+            {
+              "text": "pouvoirs surnaturels capables de vous examiner directement",
+              "bold": true
+            },
+            {
+              "text": " peuvent néanmoins compromettre votre Fausse Identité, à la discrétion du Conteur.",
               "bold": false
             }
           ]

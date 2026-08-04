@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-03T21:34:54.058Z",
+  "generatedAt": "2026-08-04T19:40:31.181Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -284,6 +284,60 @@
           "spans": [
             {
               "text": "Appendices Préhensible : Vos membres sont allongés ou déformés (tentaculaires, ventouses, etc.).\nVous n’avez pas besoin de dépenser de Volonté pour agripper et gagnez un bonus de +2 aux tests de lutte.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80e1-97c2-c0a256563e01",
+      "slug": "adversaire-de-l-infernal",
+      "title": "Adversaire de l'Infernal ",
+      "notionUrl": "https://app.notion.com/p/Adversaire-de-l-Infernal-3b288b48e48e80e197c2c0a256563e01",
+      "lastEditedTime": "2026-08-04T14:06:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Adversaire de l'Infernal "
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vos affrontements face aux forces infernales vous ont préparé lorsque vous les affronterez à nouveau. Dans un combat face à une force infernale, vous avez un bonus de +3 pour chaque action que vous entreprenez (attaque comme défense) sur cette force.",
+          "spans": [
+            {
+              "text": "Vos affrontements face aux forces infernales vous ont préparé lorsque vous les affronterez à nouveau. Dans un combat face à une force infernale, vous avez un bonus de +3 pour chaque action que vous entreprenez (attaque comme défense) sur cette force.",
               "bold": false
             }
           ]
@@ -2897,6 +2951,60 @@
           "spans": [
             {
               "text": "Vos systèmes physiques sont extrêmement efficaces et vous tirez davantage de nourriture du sang que la plupart des vampires.\nLorsque vous vous nourrissez d’animaux, la quantité de Sang gagnée n’est pas réduite de moitié.\nLorsque vous vous nourrissez de mortels, vous gagnez un point de Sang supplémentaire pour chaque point consommé.\nCet Atout double l’efficacité du Background Troupeau lorsqu’il est utilisé pendant une session de jeu.\nPar exemple, un personnage possédant cet Atout et 3 points de Troupeau gagne 6 points de Sang au lieu des 3 habituels après cinq minutes hors-jeu.\nCet Atout ne vous permet pas de dépasser le maximum de votre réserve de Sang.\nDigestion Efficace ne fonctionne que sur le sang mortel ou animal ; il ne fonctionne pas sur le sang vampirique, y compris celui ingéré par des goules.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80ad-8188-f10ad4ce50fb",
+      "slug": "diplomate",
+      "title": "Diplomate",
+      "notionUrl": "https://app.notion.com/p/Diplomate-3b288b48e48e80ad8188f10ad4ce50fb",
+      "lastEditedTime": "2026-08-04T14:06:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Diplomate"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes versés dans l'art de la diplomatie, et savez comment manipuler vos adversaires pour arriver à vos fins. A l'obtention de cet atout, sélectionnez un focus supplémentaire social entre Charisme et Manipulation.",
+          "spans": [
+            {
+              "text": "Vous êtes versés dans l'art de la diplomatie, et savez comment manipuler vos adversaires pour arriver à vos fins. A l'obtention de cet atout, sélectionnez un focus supplémentaire social entre Charisme et Manipulation.",
               "bold": false
             }
           ]
@@ -5573,6 +5681,85 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-8032-b189-cea92ee5d3a1",
+      "slug": "initie-spirituel",
+      "title": "Initié spirituel",
+      "notionUrl": "https://app.notion.com/p/Initi-spirituel-3b288b48e48e8032b189cea92ee5d3a1",
+      "lastEditedTime": "2026-08-04T14:05:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Initié spirituel"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous êtes un prodige capable de maîtriser une deuxième Voie Elémentaire. Celle-ci est considérée comme une discipline dans votre Sang.",
+          "spans": [
+            {
+              "text": "Vous êtes un prodige capable de maîtriser une deuxième Voie Elémentaire. Celle-ci est considérée comme une discipline dans votre Sang.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8004-b431-c8cccd8675af",
       "slug": "intrepide",
       "title": "Intrépide",
@@ -6742,11 +6929,210 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-80b3-a77c-c823765e7bc7",
+      "slug": "lignee-de-la-cour-doree-d-asie-du-sud-est",
+      "title": "Lignée : De la Cour Dorée d’Asie du Sud-Est",
+      "notionUrl": "https://app.notion.com/p/Lign-e-De-la-Cour-Dor-e-d-Asie-du-Sud-Est-3b288b48e48e80b3a77cc823765e7bc7",
+      "lastEditedTime": "2026-08-04T13:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : De la Cour Dorée d’Asie du Sud-Est"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8048-b7ce-e24e6b62272c",
+      "slug": "lignee-de-la-cour-du-tonnerre-infini-d-inde",
+      "title": "Lignée : De la Cour du Tonnerre Infini d’Inde",
+      "notionUrl": "https://app.notion.com/p/Lign-e-De-la-Cour-du-Tonnerre-Infini-d-Inde-3b288b48e48e8048b7cee24e6b62272c",
+      "lastEditedTime": "2026-08-04T13:55:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : De la Cour du Tonnerre Infini d’Inde"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-807c-afd6-ce00944d6d97",
+      "slug": "lignee-de-la-cour-verte-de-coree",
+      "title": "Lignée : De la Cour Verte de Corée",
+      "notionUrl": "https://app.notion.com/p/Lign-e-De-la-Cour-Verte-de-Cor-e-3b288b48e48e807cafd6ce00944d6d97",
+      "lastEditedTime": "2026-08-04T13:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "4"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lignée : De la Cour Verte de Corée"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Verte, une cour de marchants aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.\nVos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Verte, une cour de marchants aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.\nVos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3b188b48-e48e-80aa-bad8-e6083c1e6e70",
       "slug": "lignee-guerrier",
       "title": "Lignée : Guerrier",
       "notionUrl": "https://app.notion.com/p/Lign-e-Guerrier-3b188b48e48e80aabad8e6083c1e6e70",
-      "lastEditedTime": "2026-08-03T20:32:00.000Z",
+      "lastEditedTime": "2026-08-04T14:02:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -6775,7 +7161,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -6807,10 +7202,10 @@
     },
     {
       "id": "39888b48-e48e-801d-a9d8-ee40c4f9f389",
-      "slug": "lignee-ihtarri",
-      "title": "Lignée : Ihtarri",
-      "notionUrl": "https://app.notion.com/p/Lign-e-Ihtarri-39888b48e48e801da9d8ee40c4f9f389",
-      "lastEditedTime": "2026-07-09T14:45:00.000Z",
+      "slug": "lignee-ishtarri",
+      "title": "Lignée : Ishtarri",
+      "notionUrl": "https://app.notion.com/p/Lign-e-Ishtarri-39888b48e48e801da9d8ee40c4f9f389",
+      "lastEditedTime": "2026-08-04T07:07:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -6843,7 +7238,7 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Lignée : Ihtarri"
+          "value": "Lignée : Ishtarri"
         }
       },
       "content": [
@@ -7147,7 +7542,7 @@
       "slug": "lignee-sorcier",
       "title": "Lignée : Sorcier",
       "notionUrl": "https://app.notion.com/p/Lign-e-Sorcier-39888b48e48e804da6a9d69ccc0139fa",
-      "lastEditedTime": "2026-08-03T20:32:00.000Z",
+      "lastEditedTime": "2026-08-04T14:01:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -7176,7 +7571,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "assamites",
+              "title": "Assamites",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -9016,6 +9420,60 @@
           "spans": [
             {
               "text": "Si vous perdez l'objet, vous perdez immédiatement l'accès à son pouvoir. Vous devez passer un minimum de quatre actions interpartie pour obtenir un remplacement, qui doit avoir toutes les mêmes caractéristiques que l'ancien, ou vous pouvez en créer un nouveau, en le liant à une compétence différente. Le processus d'obtention d'un nouvel objet de pouvoir implique de rompre votre connexion avec l'ancien. Si vous récupérez votre ancien objet de pouvoir par la suite, il n'offre aucun avantage.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8056-8020-cb95e701679d",
+      "slug": "il-affute",
+      "title": "Œil affuté",
+      "notionUrl": "https://app.notion.com/p/il-affut-3b288b48e48e80568020cb95e701679d",
+      "lastEditedTime": "2026-08-04T14:05:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Œil affuté"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Votre vision ne vous trompe jamais. Lorsque vous utilisez Auspex - Sens aiguisés, votre sens visuel est toujours actif.",
+          "spans": [
+            {
+              "text": "Votre vision ne vous trompe jamais. Lorsque vous utilisez Auspex - Sens aiguisés, votre sens visuel est toujours actif.",
               "bold": false
             }
           ]
@@ -13890,6 +14348,60 @@
           "spans": [
             {
               "text": "La malédiction de Caïn coule puissamment dans vos veines.\nVous pouvez dépenser 1 point de Sang supplémentaire par tour au-delà de ce que votre Génération autorise normalement.\nLes Nouveau-Nés et les Ancilla peuvent acheter cet Atout pour 2 points, tandis que les Anciens de toute Génération doivent payer le coût complet de 3 points.\nLes personnages ayant commis une diablerie au-dessus de la 9e Génération doivent dépenser de l’XP supplémentaire afin de compenser l’augmentation du coût.\nSi votre personnage est incapable de payer ce coût supplémentaire, ou si ce coût dépasse la limite de 7 points d’Atouts, vous perdez cet Atout et l’XP dépensée est remboursée.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8002-952f-ff1a5922fcee",
+      "slug": "voie-necromantique-supplementaire",
+      "title": "Voie nécromantique supplémentaire ",
+      "notionUrl": "https://app.notion.com/p/Voie-n-cromantique-suppl-mentaire-3b288b48e48e8002952fff1a5922fcee",
+      "lastEditedTime": "2026-08-04T14:07:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "1"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie nécromantique supplémentaire "
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez acheter une voie nécromantique supplémentaire, considérée dans votre sang. Le niveau de cette voie ne peut pas excéder votre niveau de Voie du Sépulcre.",
+          "spans": [
+            {
+              "text": "Vous pouvez acheter une voie nécromantique supplémentaire, considérée dans votre sang. Le niveau de cette voie ne peut pas excéder votre niveau de Voie du Sépulcre.",
               "bold": false
             }
           ]

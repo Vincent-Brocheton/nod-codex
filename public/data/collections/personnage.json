@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-08-03T21:34:54.087Z",
+  "generatedAt": "2026-08-04T19:40:31.215Z",
   "propertyOptions": {},
   "items": [
     {
@@ -4443,9 +4443,9 @@
     {
       "id": "39a88b48-e48e-80bf-bca1-ca4795f9d15b",
       "slug": "etape-6-historique-de-depart",
-      "title": "Etape 6 : Historique de départ",
-      "notionUrl": "https://app.notion.com/p/Etape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
-      "lastEditedTime": "2026-08-03T18:36:00.000Z",
+      "title": "Étape 6 : Historique de départ",
+      "notionUrl": "https://app.notion.com/p/tape-6-Historique-de-d-part-39a88b48e48e80bfbca1ca4795f9d15b",
+      "lastEditedTime": "2026-08-04T08:08:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -4457,7 +4457,7 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Etape 6 : Historique de départ"
+          "value": "Étape 6 : Historique de départ"
         }
       },
       "content": [
@@ -5075,7 +5075,7 @@
       "slug": "etape-8-choisir-les-atouts-et-les-handicaps",
       "title": "Étape 8: Choisir les Atouts et les Handicaps",
       "notionUrl": "https://app.notion.com/p/tape-8-Choisir-les-Atouts-et-les-Handicaps-39a88b48e48e80e887c5d20ed0ec822e",
-      "lastEditedTime": "2026-07-12T13:11:00.000Z",
+      "lastEditedTime": "2026-08-04T07:45:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -5233,6 +5233,36 @@
             },
             {
               "text": " au total, toutes catégories confondues.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attention : En ce qui concerne les atouts de clan, vous ne pouvez prendre qu’un atout de clan par niveau. ",
+          "spans": [
+            {
+              "text": "Attention : En ce qui concerne les atouts de clan, vous ne pouvez prendre qu’un atout de clan par niveau. ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple : ",
+          "spans": [
+            {
+              "text": "Exemple : ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Hervé le Brujah choisi l’atout Brujah “Fraternité” de niveau 1, il ne peux donc pas prendre l’autre atout Brujah de niveau 1 “Point de Rupture”. Par contre il peut prendre l’atout de niveau 2 “Colère Brulante”.",
+          "spans": [
+            {
+              "text": "Hervé le Brujah choisi l’atout Brujah “Fraternité” de niveau 1, il ne peux donc pas prendre l’autre atout Brujah de niveau 1 “Point de Rupture”. Par contre il peut prendre l’atout de niveau 2 “Colère Brulante”.",
               "bold": false
             }
           ]
