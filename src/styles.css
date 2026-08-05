@@ -861,7 +861,14 @@ h1 {
   font-weight: 600;
   line-height: 0.82;
   margin-right: 0.1em;
-  padding: 0.1em 0.14em 0 0.06em;
+  padding: 0.1em 0.14em 0.08em 0.06em;
+}
+
+/* Sans ce clear, un float posé par ::first-letter déborde de son propre
+   paragraphe : s'il est plus court que la lettrine, les paragraphes
+   suivants viennent se coller contre elle au lieu de commencer dessous. */
+.detailCard .contentBlocks p:first-of-type ~ p {
+  clear: left;
 }
 
 .contentBlocks ul,
