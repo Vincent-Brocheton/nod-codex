@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-04T19:40:31.225Z",
+  "generatedAt": "2026-08-05T06:27:22.687Z",
   "collections": [
     {
       "key": "disciplines",
@@ -102,6 +102,12 @@
       "label": "FAQ",
       "group": "Ressources",
       "file": "/data/collections/faq.json"
+    },
+    {
+      "key": "atouts-lieux",
+      "label": "Atouts de Lieux",
+      "group": "Atouts de Lieux",
+      "file": "/data/collections/atouts-lieux.json"
     }
   ],
   "recent": [
@@ -250,40 +256,40 @@
       "lastEditedTime": "2026-08-04T13:55:00.000Z"
     },
     {
-      "title": "Élysium",
-      "slug": "elysium",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-04T12:28:00.000Z"
+      "title": "Souillure du Ver",
+      "slug": "souillure-du-ver",
+      "collectionKey": "atouts-lieux",
+      "collectionLabel": "Atouts de Lieux",
+      "path": "/atouts-lieux",
+      "icon": "map-pin",
+      "lastEditedTime": "2026-08-04T13:23:00.000Z"
     },
     {
-      "title": "Qualités négatives des Lieux d'intérêt",
-      "slug": "qualites-negatives-des-lieux-d-interet",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-04T12:18:00.000Z"
+      "title": "Acceptation Universelle",
+      "slug": "acceptation-universelle",
+      "collectionKey": "atouts-lieux",
+      "collectionLabel": "Atouts de Lieux",
+      "path": "/atouts-lieux",
+      "icon": "map-pin",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z"
     },
     {
-      "title": "Affaiblir les Lieux d’Intérêts",
-      "slug": "affaiblir-les-lieux-d-interets",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-04T12:16:00.000Z"
+      "title": "Isolé (Elysium)",
+      "slug": "isole-elysium",
+      "collectionKey": "atouts-lieux",
+      "collectionLabel": "Atouts de Lieux",
+      "path": "/atouts-lieux",
+      "icon": "map-pin",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z"
     },
     {
-      "title": "Lieux d’intérêt et Challenge",
-      "slug": "lieux-d-interet-et-challenge",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-04T12:09:00.000Z"
+      "title": "Sélectif",
+      "slug": "selectif",
+      "collectionKey": "atouts-lieux",
+      "collectionLabel": "Atouts de Lieux",
+      "path": "/atouts-lieux",
+      "icon": "map-pin",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z"
     }
   ]
 }

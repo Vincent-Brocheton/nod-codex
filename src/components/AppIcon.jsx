@@ -8,6 +8,7 @@ import {
     Flower,
     HelpCircle,
     Home,
+    MapPin,
     ScrollText,
     Shield,
     ShieldPlus,
@@ -75,6 +76,7 @@ const icons = {
 
     "book-open": BookOpen,
     "help-circle": HelpCircle,
+    "map-pin": MapPin,
 
     ankh: Ankh,
 

@@ -117,5 +117,12 @@
     group: "Ressources",
     envVar: "NOTION_DATABASE_FAQ",
     file: "/data/collections/faq.json"
+  },
+  {
+    key: "atouts-lieux",
+    label: "Atouts de Lieux",
+    group: "Atouts de Lieux",
+    envVar: "NOTION_DATABASE_ATOUTS_LIEUX",
+    file: "/data/collections/atouts-lieux.json"
   }
 ];

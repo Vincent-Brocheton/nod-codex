@@ -1,0 +1,3421 @@
+{
+  "key": "atouts-lieux",
+  "label": "Atouts de Lieux",
+  "group": "Atouts de Lieux",
+  "description": "Atouts spécifiques pour les lieux d’intêret",
+  "notionDatabaseId": "3ab88b48-e48e-80d6-9156-eb378ad6cd54",
+  "generatedAt": "2026-08-05T06:27:22.675Z",
+  "propertyOptions": {
+    "Catégorie": [
+      "Surnaturel",
+      "Iconique",
+      "Standard"
+    ],
+    "Spécifique": [
+      "Elysium"
+    ]
+  },
+  "items": [
+    {
+      "id": "3b288b48-e48e-8005-b6cd-c559db0243cf",
+      "slug": "a-la-pointe-de-la-technologie",
+      "title": "À la pointe de la technologie",
+      "notionUrl": "https://app.notion.com/p/la-pointe-de-la-technologie-3b288b48e48e8005b6cdc559db0243cf",
+      "lastEditedTime": "2026-08-04T11:15:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "À la pointe de la technologie"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est une merveille de conception technologique moderne. L'ensemble de ses infrastructures a été conçu dans un seul objectif : offrir une expérience technologique particulièrement impressionnante.",
+          "spans": [
+            {
+              "text": "Ce lieu est une merveille de conception technologique moderne. L'ensemble de ses infrastructures a été conçu dans un seul objectif : offrir une expérience technologique particulièrement impressionnante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non spécialisé du pouvoir Analyse de la Voie de Technomancie.",
+          "spans": [
+            {
+              "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non spécialisé du pouvoir Analyse de la Voie de Technomancie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, lorsqu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un bonus générique de +3 aux défis utilisant la compétence Informatique.",
+          "spans": [
+            {
+              "text": "De plus, lorsqu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un bonus générique de +3 aux défis utilisant la compétence Informatique.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8050-a66b-ddbb11dc1494",
+      "slug": "abondant",
+      "title": "Abondant",
+      "notionUrl": "https://app.notion.com/p/Abondant-3b288b48e48e8050a66bddbb11dc1494",
+      "lastEditedTime": "2026-08-04T11:51:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Abondant"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu constitue un terrain de chasse exceptionnel pour les vampires.",
+          "spans": [
+            {
+              "text": "Ce lieu constitue un terrain de chasse exceptionnel pour les vampires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nombre de points de Sang obtenus en se nourrissant est doublé.",
+          "spans": [
+            {
+              "text": "Le nombre de ",
+              "bold": false
+            },
+            {
+              "text": "points de Sang obtenus en se nourrissant est doublé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-800f-bbf1-f19864528266",
+      "slug": "acceptation-universelle",
+      "title": "Acceptation Universelle",
+      "notionUrl": "https://app.notion.com/p/Acceptation-Universelle-3b288b48e48e800fbbf1f19864528266",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Acceptation Universelle"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium se trouve dans un lieu possédant une importance historique telle que toutes les Sectes vampiriques lui accordent le même respect.",
+          "spans": [
+            {
+              "text": "Cet Élysium se trouve dans un lieu possédant une importance historique telle que ",
+              "bold": false
+            },
+            {
+              "text": "toutes les Sectes vampiriques lui accordent le même respect",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute violation d'un Élysium possédant la Qualité Acceptation Universelle entraîne systématiquement l'attribution du Statut négatif Disgracié au responsable par les officiers de sa propre Secte.",
+          "spans": [
+            {
+              "text": "Toute violation d'un Élysium possédant la Qualité ",
+              "bold": false
+            },
+            {
+              "text": "Acceptation Universelle",
+              "bold": true
+            },
+            {
+              "text": " entraîne systématiquement l'attribution du ",
+              "bold": false
+            },
+            {
+              "text": "Statut négatif Disgracié",
+              "bold": true
+            },
+            {
+              "text": " au responsable par les officiers de ",
+              "bold": false
+            },
+            {
+              "text": "sa propre Secte",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8004-9190-ed58056ebc0e",
+      "slug": "apaisant",
+      "title": "Apaisant",
+      "notionUrl": "https://app.notion.com/p/Apaisant-3b288b48e48e80049190ed58056ebc0e",
+      "lastEditedTime": "2026-08-04T13:18:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Apaisant"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu apaise les tumultes de la Bête.",
+          "spans": [
+            {
+              "text": "Ce lieu apaise les tumultes de la ",
+              "bold": false
+            },
+            {
+              "text": "Bête",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois par partie passée dans ce lieu, un personnage peut consacrer 10 minutes à une activité paisible, comme contempler une œuvre d'art, méditer ou participer à une conversation calme. Il peut alors retirer 1 Trait de Bête.",
+          "spans": [
+            {
+              "text": "Une fois par partie passée dans ce lieu, un personnage peut consacrer ",
+              "bold": false
+            },
+            {
+              "text": "10 minutes à une activité paisible",
+              "bold": true
+            },
+            {
+              "text": ", comme contempler une œuvre d'art, méditer ou participer à une conversation calme. Il peut alors retirer ",
+              "bold": false
+            },
+            {
+              "text": "1 Trait de Bête",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, des visites répétées dans cet Élysium peuvent servir de justification narrative à l'achat de points de Moralité.",
+          "spans": [
+            {
+              "text": "De plus, des visites répétées dans cet Élysium peuvent servir de justification narrative à l'achat de ",
+              "bold": false
+            },
+            {
+              "text": "points de Moralité",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80c0-8935-dc23ed3d90a4",
+      "slug": "arene",
+      "title": "Arène",
+      "notionUrl": "https://app.notion.com/p/Ar-ne-3b288b48e48e80c08935dc23ed3d90a4",
+      "lastEditedTime": "2026-08-04T13:15:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Arène"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité est relativement récente, puisqu'elle n'est apparue qu'au cours du XXe siècle. Certaines Harpies la considèrent encore comme scandaleuse, et certains Anciens particulièrement traditionalistes refusent même de se rendre dans un prétendu Élysium possédant une telle Qualité.",
+          "spans": [
+            {
+              "text": "Cette Qualité est relativement récente, puisqu'elle n'est apparue qu'au cours du XXe siècle. Certaines Harpies la considèrent encore comme scandaleuse, et certains Anciens particulièrement traditionalistes refusent même de se rendre dans un prétendu Élysium possédant une telle Qualité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium dispose d'une zone spécialement consacrée au sport ou au combat, dans laquelle les créatures surnaturelles peuvent participer à des affrontements martiaux.",
+          "spans": [
+            {
+              "text": "Cet Élysium dispose d'une zone spécialement consacrée au ",
+              "bold": false
+            },
+            {
+              "text": "sport ou au combat",
+              "bold": true
+            },
+            {
+              "text": ", dans laquelle les créatures surnaturelles peuvent participer à des affrontements martiaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les circonstances dans lesquelles le Prince autorise de tels affrontements, ainsi que leurs règles, dépendent des Courtoisies locales.",
+          "spans": [
+            {
+              "text": "Les circonstances dans lesquelles le Prince autorise de tels affrontements, ainsi que leurs règles, dépendent des ",
+              "bold": false
+            },
+            {
+              "text": "Courtoisies locales",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité est incompatible avec les Qualités d'Élysium Terre Intimidante et Traditionnel.",
+          "spans": [
+            {
+              "text": "Cette Qualité est incompatible avec les Qualités d'Élysium ",
+              "bold": false
+            },
+            {
+              "text": "Terre Intimidante",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Traditionnel",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80f3-a911-e090e986b942",
+      "slug": "artistique",
+      "title": "Artistique",
+      "notionUrl": "https://app.notion.com/p/Artistique-3b288b48e48e80f3a911e090e986b942",
+      "lastEditedTime": "2026-08-04T11:13:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Artistique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu constitue une véritable œuvre d'art à part entière.",
+          "spans": [
+            {
+              "text": "Ce lieu constitue une véritable œuvre d'art à part entière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui contrôle ce Lieu d'intérêt bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
+          "spans": [
+            {
+              "text": "Le personnage qui contrôle ce Lieu d'intérêt bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80aa-941b-e539d17793e0",
+      "slug": "atelier",
+      "title": "Atelier",
+      "notionUrl": "https://app.notion.com/p/Atelier-3b288b48e48e80aa941be539d17793e0",
+      "lastEditedTime": "2026-08-04T11:41:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Atelier"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est spécifiquement aménagé pour fabriquer ou créer des objets.",
+          "spans": [
+            {
+              "text": "Ce lieu est spécifiquement aménagé pour fabriquer ou créer des objets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez une spécialisation d'Artisanat.",
+          "spans": [
+            {
+              "text": "Choisissez une ",
+              "bold": false
+            },
+            {
+              "text": "spécialisation d'Artisanat",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lieu accorde un bonus générique de +3 aux défis liés à cette spécialisation.",
+          "spans": [
+            {
+              "text": "Le lieu accorde un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3 aux défis liés à cette spécialisation",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu peut posséder plusieurs fois la Qualité Atelier, mais chaque acquisition doit concerner une spécialisation d'Artisanat différente.",
+          "spans": [
+            {
+              "text": "Un lieu peut posséder plusieurs fois la Qualité Atelier, mais ",
+              "bold": false
+            },
+            {
+              "text": "chaque acquisition doit concerner une spécialisation d'Artisanat différente",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-801d-aa2d-de6097c71fe9",
+      "slug": "bibliotheque",
+      "title": "Bibliothèque",
+      "notionUrl": "https://app.notion.com/p/Biblioth-que-3b288b48e48e801daa2dde6097c71fe9",
+      "lastEditedTime": "2026-08-04T11:34:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Bibliothèque"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le lieu abrite une vaste bibliothèque consacrée à différents sujets, comprenant notamment des connaissances auxquelles les mortels n'ont normalement pas accès.",
+          "spans": [
+            {
+              "text": "Le lieu abrite une vaste bibliothèque consacrée à différents sujets, comprenant notamment des connaissances auxquelles les mortels n'ont normalement pas accès.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant d'effectuer un test d’Erudition, un personnage peut passer 1 heure à effectuer des recherches dans la bibliothèque afin de recevoir un bonus générique de +3 à son groupement de test.",
+          "spans": [
+            {
+              "text": "Avant d'effectuer un test d’Erudition, un personnage peut passer ",
+              "bold": false
+            },
+            {
+              "text": "1 heure à effectuer des recherches dans la bibliothèque",
+              "bold": true
+            },
+            {
+              "text": " afin de recevoir un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3",
+              "bold": true
+            },
+            {
+              "text": " à son groupement de test.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-801c-93e4-e0b84de0660a",
+      "slug": "celebrite",
+      "title": "Célébrité",
+      "notionUrl": "https://app.notion.com/p/C-l-brit-3b288b48e48e801c93e4e0b84de0660a",
+      "lastEditedTime": "2026-08-04T11:46:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Iconique"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Célébrité"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est si célèbre que toute personne qui lui est publiquement associée devient une célébrité internationale.",
+          "spans": [
+            {
+              "text": "Ce lieu est si célèbre que toute personne qui lui est publiquement associée devient une célébrité internationale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage contrôlant ce lieu reçoit 5 points temporaires à répartir entre ses Historiques mondains. La répartition de ces points peut être modifiée une fois par mois, mais ils ne peuvent pas se cumuler avec un Historique existant de manière à faire dépasser celui-ci 6 points.",
+          "spans": [
+            {
+              "text": "Un personnage contrôlant ce lieu reçoit ",
+              "bold": false
+            },
+            {
+              "text": "5 points temporaires à répartir entre ses Historiques mondains",
+              "bold": true
+            },
+            {
+              "text": ". La répartition de ces points peut être modifiée ",
+              "bold": false
+            },
+            {
+              "text": "une fois par mois",
+              "bold": true
+            },
+            {
+              "text": ", mais ils ne peuvent pas se cumuler avec un Historique existant de manière à faire dépasser celui-ci ",
+              "bold": false
+            },
+            {
+              "text": "6 points",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une telle célébrité a cependant un prix. Le personnage doit dépenser 3 Actions Inter-Parties à chaque cycle afin d'éviter de briser la Mascarade en raison de l'attention excessive des médias.",
+          "spans": [
+            {
+              "text": "Une telle célébrité a cependant un prix. Le personnage doit dépenser ",
+              "bold": false
+            },
+            {
+              "text": "3 Actions Inter-Parties à chaque cycle",
+              "bold": true
+            },
+            {
+              "text": " afin d'éviter de briser la Mascarade en raison de l'attention excessive des médias.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8079-a203-f7ddedb6b417",
+      "slug": "cercle-de-l-elite",
+      "title": "Cercle de l’Élite",
+      "notionUrl": "https://app.notion.com/p/Cercle-de-l-lite-3b288b48e48e8079a203f7ddedb6b417",
+      "lastEditedTime": "2026-08-04T13:17:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Cercle de l’Élite"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium a délibérément été établi à proximité des sphères de la haute société mortelle. Il peut, par exemple, s'agir d'une loge maçonnique, d'un musée prestigieux ou d'une autre institution fréquentée par l'élite.",
+          "spans": [
+            {
+              "text": "Cet Élysium a délibérément été établi à proximité des sphères de la haute société mortelle. Il peut, par exemple, s'agir d'une ",
+              "bold": false
+            },
+            {
+              "text": "loge maçonnique",
+              "bold": true
+            },
+            {
+              "text": ", d'un musée prestigieux ou d'une autre institution fréquentée par l'élite.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l'intégralité de la soirée se déroule sans aucun incident lié à la Mascarade, tous les participants gagnent 1 point supplémentaire dans l'Historique Célébrité pendant 1 mois ou 2 parties, selon la durée la plus longue.",
+          "spans": [
+            {
+              "text": "Si l'intégralité de la soirée se déroule ",
+              "bold": false
+            },
+            {
+              "text": "sans aucun incident lié à la Mascarade",
+              "bold": true
+            },
+            {
+              "text": ", tous les participants gagnent ",
+              "bold": false
+            },
+            {
+              "text": "1 point supplémentaire dans l'Historique Célébrité",
+              "bold": true
+            },
+            {
+              "text": " pendant ",
+              "bold": false
+            },
+            {
+              "text": "1 mois ou 2 parties, selon la durée la plus longue",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-804b-a29c-fa3ff3898fc0",
+      "slug": "chasse-aisee",
+      "title": "Chasse aisée",
+      "notionUrl": "https://app.notion.com/p/Chasse-ais-e-3b288b48e48e804ba29cfa3ff3898fc0",
+      "lastEditedTime": "2026-08-04T13:16:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Chasse aisée"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium se trouve à proximité immédiate de l'un des principaux terrains de chasse de la ville.",
+          "spans": [
+            {
+              "text": "Cet Élysium se trouve à proximité immédiate de l'un des principaux ",
+              "bold": false
+            },
+            {
+              "text": "terrains de chasse",
+              "bold": true
+            },
+            {
+              "text": " de la ville.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage peut s'y nourrir en accomplissant une Quête Simple de difficulté 1, nécessitant au maximum 5 minutes hors-jeu.",
+          "spans": [
+            {
+              "text": "Un personnage peut s'y nourrir en accomplissant une ",
+              "bold": false
+            },
+            {
+              "text": "Quête Simple de difficulté 1",
+              "bold": true
+            },
+            {
+              "text": ", nécessitant au maximum ",
+              "bold": false
+            },
+            {
+              "text": "5 minutes hors-jeu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages bénéficiant de cette Qualité doivent néanmoins veiller à ne pas enfreindre les éventuelles Courtoisies interdisant de se nourrir à proximité de l'Élysium.",
+          "spans": [
+            {
+              "text": "Les personnages bénéficiant de cette Qualité doivent néanmoins veiller à ne pas enfreindre les éventuelles Courtoisies interdisant de se nourrir à proximité de l'Élysium.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8008-83fc-d222bb52c8db",
+      "slug": "emplacement",
+      "title": "Emplacement",
+      "notionUrl": "https://app.notion.com/p/Emplacement-3b288b48e48e800883fcd222bb52c8db",
+      "lastEditedTime": "2026-08-04T11:36:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Emplacement"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le lieu se trouve dans un environnement lui offrant une certaine protection : un quartier prestigieux, le sommet d'une montagne isolée, l'extrémité d'une longue route privée, etc.",
+          "spans": [
+            {
+              "text": "Le lieu se trouve dans un environnement lui offrant une certaine protection : un quartier prestigieux, le sommet d'une montagne isolée, l'extrémité d'une longue route privée, etc.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne utilisant des Actions Inter-Parties afin d'affecter négativement ce lieu doit dépenser deux fois plus d'Actions Inter-Parties.",
+          "spans": [
+            {
+              "text": "Toute personne utilisant des ",
+              "bold": false
+            },
+            {
+              "text": "Actions Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": " afin d'affecter négativement ce lieu doit dépenser ",
+              "bold": false
+            },
+            {
+              "text": "deux fois plus d'Actions Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur peut également accorder certains avantages narratifs correspondant à l'emplacement : intervention rapide de la police lorsqu'elle est appelée, routes avoisinantes déneigées en priorité lors d'intempéries, etc.",
+          "spans": [
+            {
+              "text": "Le Conteur peut également accorder certains avantages narratifs correspondant à l'emplacement : intervention rapide de la police lorsqu'elle est appelée, routes avoisinantes déneigées en priorité lors d'intempéries, etc.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8099-8075-edc292d2c1d9",
+      "slug": "fortifie",
+      "title": "Fortifié",
+      "notionUrl": "https://app.notion.com/p/Fortifi-3b288b48e48e80998075edc292d2c1d9",
+      "lastEditedTime": "2026-08-04T11:46:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Iconique"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Fortifié"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est particulièrement résistant aux assauts extérieurs.",
+          "spans": [
+            {
+              "text": "Ce lieu est particulièrement résistant aux assauts extérieurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il ne peut être détruit par aucun moyen physique inférieur à une attaque de niveau militaire.",
+          "spans": [
+            {
+              "text": "Il ne peut être détruit par aucun moyen physique inférieur à une ",
+              "bold": false
+            },
+            {
+              "text": "attaque de niveau militaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative visant à pénétrer dans le lieu depuis l'extérieur est considérée comme étant de difficulté Épique ou supérieure, avec une difficulté de 30 ou plus.",
+          "spans": [
+            {
+              "text": "Toute tentative visant à pénétrer dans le lieu depuis l'extérieur est considérée comme étant de ",
+              "bold": false
+            },
+            {
+              "text": "difficulté Épique ou supérieure",
+              "bold": true
+            },
+            {
+              "text": ", avec une difficulté de ",
+              "bold": false
+            },
+            {
+              "text": "30 ou plus",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute tentative visant à contourner ses systèmes de sécurité internes possède une difficulté de 25 ou plus.",
+          "spans": [
+            {
+              "text": "Toute tentative visant à contourner ses systèmes de sécurité internes possède une difficulté de ",
+              "bold": false
+            },
+            {
+              "text": "25 ou plus",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80e4-9416-e0567c8a5033",
+      "slug": "gardes",
+      "title": "Gardes",
+      "notionUrl": "https://app.notion.com/p/Gardes-3b288b48e48e80e49416e0567c8a5033",
+      "lastEditedTime": "2026-08-04T11:19:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Gardes"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Des gardes armés patrouillent régulièrement dans ce lieu.",
+          "spans": [
+            {
+              "text": "Des gardes armés patrouillent régulièrement dans ce lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne tentant de s'y infiltrer doit faire face à l'équivalent de 5 points de Serviteurs chargés de sa protection.",
+          "spans": [
+            {
+              "text": "Toute personne tentant de s'y infiltrer doit faire face à l'équivalent de ",
+              "bold": false
+            },
+            {
+              "text": "5 points de Serviteurs",
+              "bold": true
+            },
+            {
+              "text": " chargés de sa protection.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors de l'acquisition de cette Qualité, le joueur peut répartir ces points comme il le souhaite : cinq Serviteurs de niveau 1, un Serviteur de niveau 5, ou toute autre combinaison dont le total est égal à 5.",
+          "spans": [
+            {
+              "text": "Lors de l'acquisition de cette Qualité, le joueur peut répartir ces points comme il le souhaite : cinq Serviteurs de niveau 1, un Serviteur de niveau 5, ou toute autre combinaison dont le total est égal à 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Gardes augmentent également de +1 la difficulté de toute Quête visant à infiltrer physiquement le lieu.",
+          "spans": [
+            {
+              "text": "Les Gardes augmentent également de ",
+              "bold": false
+            },
+            {
+              "text": "+1 la difficulté de toute Quête visant à infiltrer physiquement le lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces Gardes protègent uniquement ce lieu et ne peuvent pas l'accompagner à l'extérieur.",
+          "spans": [
+            {
+              "text": "Ces Gardes protègent uniquement ce lieu et ",
+              "bold": false
+            },
+            {
+              "text": "ne peuvent pas l'accompagner à l'extérieur",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-807d-9943-cebce56b540e",
+      "slug": "goulet",
+      "title": "Goulet",
+      "notionUrl": "https://app.notion.com/p/Goulet-3b288b48e48e807d9943cebce56b540e",
+      "lastEditedTime": "2026-08-04T11:52:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Goulet"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le Voile est particulièrement épais dans ce lieu, rendant plus difficile le passage des Changeformes vers l'Umbra ou leur retour dans le monde physique.",
+          "spans": [
+            {
+              "text": "Le Voile est particulièrement épais dans ce lieu, rendant plus difficile le passage des Changeformes vers l'Umbra ou leur retour dans le monde physique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps nécessaire pour traverser le Voile est doublé dans ce lieu.",
+          "spans": [
+            {
+              "text": "Le temps nécessaire pour traverser le Voile est ",
+              "bold": false
+            },
+            {
+              "text": "doublé dans ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-803b-b3cb-d706c988ddfb",
+      "slug": "hante",
+      "title": "Hanté",
+      "notionUrl": "https://app.notion.com/p/Hant-3b288b48e48e803bb3cbd706c988ddfb",
+      "lastEditedTime": "2026-08-04T11:52:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Hanté"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le Voile séparant le monde des vivants de celui des morts est particulièrement faible dans ce lieu. Au début de chaque journée, son niveau revient systématiquement à faible.",
+          "spans": [
+            {
+              "text": "Le ",
+              "bold": false
+            },
+            {
+              "text": "Voile",
+              "bold": true
+            },
+            {
+              "text": " séparant le monde des vivants de celui des morts est particulièrement faible dans ce lieu. Au début de chaque journée, son niveau revient systématiquement à ",
+              "bold": false
+            },
+            {
+              "text": "faible",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les nécromanciens bénéficient d'un bonus générique de +3 à toutes leurs interactions avec les fantômes dans ce lieu.",
+          "spans": [
+            {
+              "text": "Tous les nécromanciens bénéficient d'un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3 à toutes leurs interactions avec les fantômes dans ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8028-a081-cf2e5e0a1d1d",
+      "slug": "historique",
+      "title": "Historique",
+      "notionUrl": "https://app.notion.com/p/Historique-3b288b48e48e8028a081cf2e5e0a1d1d",
+      "lastEditedTime": "2026-08-04T11:25:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Historique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu possède une importance culturelle ou historique qui rend sa prise de contrôle beaucoup plus complexe.",
+          "spans": [
+            {
+              "text": "Ce lieu possède une importance culturelle ou historique qui rend sa prise de contrôle beaucoup plus complexe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Augmentez de +1 la difficulté de toute Quête visant à prendre le contrôle de ce lieu.",
+          "spans": [
+            {
+              "text": "Augmentez de ",
+              "bold": false
+            },
+            {
+              "text": "+1 la difficulté de toute Quête visant à prendre le contrôle de ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8077-8807-d68edd2145ec",
+      "slug": "hors-reseau",
+      "title": "Hors Réseau",
+      "notionUrl": "https://app.notion.com/p/Hors-R-seau-3b288b48e48e80778807d68edd2145ec",
+      "lastEditedTime": "2026-08-04T11:37:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Hors Réseau"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu ne dépend d'aucun système électronique pour fonctionner, tout en restant parfaitement opérationnel dans tous les autres domaines, y compris sa sécurité.",
+          "spans": [
+            {
+              "text": "Ce lieu ne dépend d'",
+              "bold": false
+            },
+            {
+              "text": "aucun système électronique",
+              "bold": true
+            },
+            {
+              "text": " pour fonctionner, tout en restant parfaitement opérationnel dans tous les autres domaines, y compris sa sécurité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est impossible d'infiltrer ce lieu par Internet ou de l'affecter par des moyens bureaucratiques conventionnels.",
+          "spans": [
+            {
+              "text": "Il est impossible d'infiltrer ce lieu par Internet ou de l'affecter par des ",
+              "bold": false
+            },
+            {
+              "text": "moyens bureaucratiques conventionnels",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80ae-af2c-de67ba63efaf",
+      "slug": "isole",
+      "title": "Isolé",
+      "notionUrl": "https://app.notion.com/p/Isol-3b288b48e48e80aeaf2cde67ba63efaf",
+      "lastEditedTime": "2026-08-04T11:26:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Isolé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est isolé des mortels et présente donc relativement peu de risques pour la Mascarade.",
+          "spans": [
+            {
+              "text": "Ce lieu est isolé des mortels et présente donc relativement peu de risques pour la ",
+              "bold": false
+            },
+            {
+              "text": "Mascarade",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seules les violations les plus flagrantes de la Mascarade sont susceptibles d'attirer l'attention extérieure.",
+          "spans": [
+            {
+              "text": "Seules les violations les plus flagrantes de la Mascarade sont susceptibles d'attirer l'attention extérieure.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80c5-a2f2-d50fec2e016c",
+      "slug": "isole-elysium",
+      "title": "Isolé (Elysium)",
+      "notionUrl": "https://app.notion.com/p/Isol-Elysium-3b288b48e48e80c5a2f2d50fec2e016c",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Isolé (Elysium)"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu a été sécurisé et minutieusement contrôlé afin de garantir son isolement complet contre toute forme de surveillance extérieure.",
+          "spans": [
+            {
+              "text": "Ce lieu a été sécurisé et minutieusement contrôlé afin de garantir son ",
+              "bold": false
+            },
+            {
+              "text": "isolement complet contre toute forme de surveillance extérieure",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est pratiquement impossible de provoquer une violation de la Mascarade tant que l'on se trouve dans l'enceinte de cet Élysium.",
+          "spans": [
+            {
+              "text": "Il est pratiquement impossible de provoquer une ",
+              "bold": false
+            },
+            {
+              "text": "violation de la Mascarade",
+              "bold": true
+            },
+            {
+              "text": " tant que l'on se trouve dans l'enceinte de cet Élysium.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80ea-8657-cfc4b4a59c3e",
+      "slug": "laboratoire",
+      "title": "Laboratoire",
+      "notionUrl": "https://app.notion.com/p/Laboratoire-3b288b48e48e80ea8657cfc4b4a59c3e",
+      "lastEditedTime": "2026-08-04T11:27:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Laboratoire"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu contient un laboratoire de recherche hautement spécialisé.",
+          "spans": [
+            {
+              "text": "Ce lieu contient un laboratoire de recherche hautement spécialisé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez une spécialisation de Science.",
+          "spans": [
+            {
+              "text": "Choisissez une ",
+              "bold": false
+            },
+            {
+              "text": "spécialisation de Science",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lieu accorde un bonus générique de +3 aux défis liés à ce domaine d'étude.",
+          "spans": [
+            {
+              "text": "Le lieu accorde un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3",
+              "bold": true
+            },
+            {
+              "text": " aux défis liés à ce domaine d'étude.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu peut posséder plusieurs fois la Qualité Laboratoire, mais chaque acquisition doit concerner une spécialisation de Science différente.",
+          "spans": [
+            {
+              "text": "Un lieu peut posséder plusieurs fois la Qualité Laboratoire, mais ",
+              "bold": false
+            },
+            {
+              "text": "chaque acquisition doit concerner une spécialisation de Science différente",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80c8-be0f-deb4620ec1ee",
+      "slug": "lieu-de-rencontre",
+      "title": "Lieu de Rencontre",
+      "notionUrl": "https://app.notion.com/p/Lieu-de-Rencontre-3b288b48e48e80c8be0fdeb4620ec1ee",
+      "lastEditedTime": "2026-08-04T11:36:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Lieu de Rencontre"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu constitue un point de rassemblement pour des mortels issus de différents milieux.",
+          "spans": [
+            {
+              "text": "Ce lieu constitue un point de rassemblement pour des mortels issus de différents milieux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui le contrôle bénéficie d'un Contact dans le domaine du lieux d'intérêt.",
+          "spans": [
+            {
+              "text": "Le personnage qui le contrôle bénéficie d'un Contact dans le domaine du lieux d'intérêt.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet avantage n'augmente pas le niveau d'un Historique Allié déjà possédé : il est considéré comme un Contact distinct.",
+          "spans": [
+            {
+              "text": "Cet avantage n'augmente pas le niveau d'un Historique Allié déjà possédé : il est considéré comme ",
+              "bold": false
+            },
+            {
+              "text": "un Contact distinct",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8027-9a4e-fe898581c4a2",
+      "slug": "luxe",
+      "title": "Luxe",
+      "notionUrl": "https://app.notion.com/p/Luxe-3b288b48e48e80279a4efe898581c4a2",
+      "lastEditedTime": "2026-08-04T11:36:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Luxe"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs, œuvres d'art ou autres installations luxueuses.",
+          "spans": [
+            {
+              "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs, œuvres d'art ou autres installations luxueuses.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui contrôle le lieu bénéficie d'un bonus de +3 aux tests d'Attribut Social contre des mortels lorsqu'il se trouve dans ce lieu.",
+          "spans": [
+            {
+              "text": "Le personnage qui contrôle le lieu bénéficie d'un ",
+              "bold": false
+            },
+            {
+              "text": "bonus de +3 aux tests d'Attribut Social contre des mortels lorsqu'il se trouve dans ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-800a-a592-ed40359fa3d4",
+      "slug": "malfame",
+      "title": "Malfamé",
+      "notionUrl": "https://app.notion.com/p/Malfam-3b288b48e48e800aa592ed40359fa3d4",
+      "lastEditedTime": "2026-08-04T11:25:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Malfamé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est fréquenté par les figures du milieu criminel, ce qui facilite grandement l'organisation d'accords et d'activités clandestines.",
+          "spans": [
+            {
+              "text": "Ce lieu est fréquenté par les figures du milieu criminel, ce qui facilite grandement l'organisation d'accords et d'activités clandestines.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui contrôle ce lieu reçoit 1 Action d'Influence Pègre supplémentaire à chaque cycle d'Actions Inter-Parties.",
+          "spans": [
+            {
+              "text": "Le personnage qui contrôle ce lieu reçoit ",
+              "bold": false
+            },
+            {
+              "text": "1 Action d'Influence Pègre supplémentaire à chaque cycle d'Actions Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8016-a267-f84448cf9abf",
+      "slug": "nationalise",
+      "title": "Nationalisé",
+      "notionUrl": "https://app.notion.com/p/Nationalis-3b288b48e48e8016a267f84448cf9abf",
+      "lastEditedTime": "2026-08-04T11:47:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Iconique"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Nationalisé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est passé sous le contrôle du gouvernement mortel.",
+          "spans": [
+            {
+              "text": "Ce lieu est passé sous le contrôle du gouvernement mortel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'ampleur du soutien financier, politique et juridique dont il bénéficie rend toute tentative visant à en prendre le contrôle ou à l'endommager particulièrement risquée.",
+          "spans": [
+            {
+              "text": "L'ampleur du soutien financier, politique et juridique dont il bénéficie rend toute tentative visant à en prendre le contrôle ou à l'endommager particulièrement risquée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les conséquences subies lors de Quêtes impliquant ce lieu sont doublées.",
+          "spans": [
+            {
+              "text": "Toutes les conséquences subies lors de Quêtes impliquant ce lieu sont doublées.",
+              "bold": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8017-a90b-d785e99235fe",
+      "slug": "pare-feu",
+      "title": "Pare-Feu",
+      "notionUrl": "https://app.notion.com/p/Pare-Feu-3b288b48e48e8017a90bd785e99235fe",
+      "lastEditedTime": "2026-08-04T11:18:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Pare-Feu"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu a été conçu pour empêcher tout accès à distance à ses données et à ses systèmes de sécurité.",
+          "spans": [
+            {
+              "text": "Ce lieu a été conçu pour empêcher tout accès à distance à ses données et à ses systèmes de sécurité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La difficulté de toute tentative visant à pénétrer les systèmes informatiques de ce lieu est augmentée de 3.",
+          "spans": [
+            {
+              "text": "La difficulté de toute tentative visant à pénétrer les systèmes informatiques de ce lieu est ",
+              "bold": false
+            },
+            {
+              "text": "augmentée de 3",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage possédant la compétence Informatique et ayant acheté l'Historique Havre pour ce lieu bénéficie gratuitement de la Qualité Pare-feu.",
+          "spans": [
+            {
+              "text": "Un personnage possédant la compétence ",
+              "bold": false
+            },
+            {
+              "text": "Informatique",
+              "bold": true
+            },
+            {
+              "text": " et ayant acheté l'Historique ",
+              "bold": false
+            },
+            {
+              "text": "Havre",
+              "bold": true
+            },
+            {
+              "text": " pour ce lieu bénéficie gratuitement de la Qualité Pare-feu.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8089-9795-ee5de2088a3c",
+      "slug": "personnel",
+      "title": "Personnel",
+      "notionUrl": "https://app.notion.com/p/Personnel-3b288b48e48e80899795ee5de2088a3c",
+      "lastEditedTime": "2026-08-04T11:40:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Personnel"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le lieu dispose de plusieurs employés ou domestiques chargés de répondre aux besoins de son propriétaire et de ses invités.",
+          "spans": [
+            {
+              "text": "Le lieu dispose de plusieurs employés ou domestiques chargés de répondre aux besoins de son propriétaire et de ses invités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Personnel ne combat normalement pas. S'il est contraint de le faire, considérez ses membres comme des Serviteurs à 1 point sans spécialisation de combat.",
+          "spans": [
+            {
+              "text": "Le Personnel ne combat normalement pas. S'il est contraint de le faire, considérez ses membres comme des ",
+              "bold": false
+            },
+            {
+              "text": "Serviteurs à 1 point sans spécialisation de combat",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Personnel est disponible en permanence, mais n'est pas entièrement autonome. Il ne peut pas être utilisé pour augmenter le nombre maximal de lieux qu'un personnage peut contrôler.",
+          "spans": [
+            {
+              "text": "Le Personnel est disponible en permanence, mais n'est pas entièrement autonome. Il ",
+              "bold": false
+            },
+            {
+              "text": "ne peut pas être utilisé pour augmenter le nombre maximal de lieux qu'un personnage peut contrôler",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-806f-89f2-c4ad111a5d04",
+      "slug": "perturbant",
+      "title": "Perturbant",
+      "notionUrl": "https://app.notion.com/p/Perturbant-3b288b48e48e806f89f2c4ad111a5d04",
+      "lastEditedTime": "2026-08-04T11:17:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Perturbant"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Une caractéristique particulière de ce lieu, comme une musique assourdissante, des lumières clignotantes ou au contraire une obscurité totale, rend particulièrement difficile le fait de suivre précisément les événements ou les personnes présentes.",
+          "spans": [
+            {
+              "text": "Une caractéristique particulière de ce lieu, comme une musique assourdissante, des lumières clignotantes ou au contraire une obscurité totale, rend particulièrement difficile le fait de suivre précisément les événements ou les personnes présentes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les pouvoirs Sens Accrus, Sens du Loup, ainsi que tout autre pouvoir comparable améliorant les sens, ne fonctionnent pas dans ce lieu, y compris pour le personnage qui le contrôle.",
+          "spans": [
+            {
+              "text": "Les pouvoirs ",
+              "bold": false
+            },
+            {
+              "text": "Sens Accrus",
+              "bold": true
+            },
+            {
+              "text": ", ",
+              "bold": false
+            },
+            {
+              "text": "Sens du Loup",
+              "bold": true
+            },
+            {
+              "text": ", ainsi que tout autre pouvoir comparable améliorant les sens, ",
+              "bold": false
+            },
+            {
+              "text": "ne fonctionnent pas dans ce lieu",
+              "bold": true
+            },
+            {
+              "text": ", y compris pour le personnage qui le contrôle.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80d7-913d-ea8c5b1756fc",
+      "slug": "planque",
+      "title": "Planqué",
+      "notionUrl": "https://app.notion.com/p/Planqu-3b288b48e48e80d7913dea8c5b1756fc",
+      "lastEditedTime": "2026-08-04T11:26:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Planqué"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est particulièrement difficile à trouver lorsqu'on ne sait pas précisément ce que l'on cherche.",
+          "spans": [
+            {
+              "text": "Ce lieu est particulièrement difficile à trouver lorsqu'on ne sait pas précisément ce que l'on cherche.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lieu ne peut pas être pris pour cible ou affecté par un autre personnage à moins que celui-ci ne s'y soit personnellement rendu.",
+          "spans": [
+            {
+              "text": "Le lieu ",
+              "bold": false
+            },
+            {
+              "text": "ne peut pas être pris pour cible ou affecté par un autre personnage à moins que celui-ci ne s'y soit personnellement rendu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80c5-aec3-c1a3a0231ceb",
+      "slug": "propriete-publique",
+      "title": "Propriété Publique",
+      "notionUrl": "https://app.notion.com/p/Propri-t-Publique-3b288b48e48e80c5aec3c1a3a0231ceb",
+      "lastEditedTime": "2026-08-04T11:38:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Propriété Publique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est une installation publique appartenant aux autorités locales, mais contrôlée par un vampire.",
+          "spans": [
+            {
+              "text": "Ce lieu est une installation publique appartenant aux autorités locales, mais contrôlée par un vampire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La difficulté de toute action bureaucratique visant ce lieu est augmentée de +3.",
+          "spans": [
+            {
+              "text": "La difficulté de toute ",
+              "bold": false
+            },
+            {
+              "text": "action bureaucratique",
+              "bold": true
+            },
+            {
+              "text": " visant ce lieu est augmentée de ",
+              "bold": false
+            },
+            {
+              "text": "+3",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, le lieu ignore la première application de la Qualité négative Non conforme.",
+          "spans": [
+            {
+              "text": "De plus, le lieu ignore la première application de la Qualité négative ",
+              "bold": false
+            },
+            {
+              "text": "Non conforme",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La deuxième application de Non conforme est donc considérée comme la première. Il faut ainsi atteindre quatre applications de Non conforme pour rendre le lieu inutilisable.",
+          "spans": [
+            {
+              "text": "La deuxième application de Non conforme est donc considérée comme la première. Il faut ainsi atteindre ",
+              "bold": false
+            },
+            {
+              "text": "quatre applications de Non conforme",
+              "bold": true
+            },
+            {
+              "text": " pour rendre le lieu inutilisable.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8062-92df-e9f45d295ef1",
+      "slug": "protege",
+      "title": "Protégé",
+      "notionUrl": "https://app.notion.com/p/Prot-g-3b288b48e48e806292dfe9f45d295ef1",
+      "lastEditedTime": "2026-08-04T11:48:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Iconique"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Protégé"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu bénéficie de protections juridiques, politiques et mystiques.",
+          "spans": [
+            {
+              "text": "Ce lieu bénéficie de protections ",
+              "bold": false
+            },
+            {
+              "text": "juridiques, politiques et mystiques",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Plusieurs agences gouvernementales ont directement intérêt à assurer sa sécurité. Des Sectes entières dépensent leur Influence afin de s'assurer que les éléments indésirables restent à distance.",
+          "spans": [
+            {
+              "text": "Plusieurs agences gouvernementales ont directement intérêt à assurer sa sécurité. Des Sectes entières dépensent leur Influence afin de s'assurer que les éléments indésirables restent à distance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains murmurent même que de mystérieuses cabales surnaturelles ont tissé autour du lieu un enchantement contraignant la réalité elle-même à conspirer contre ceux qui chercheraient à lui nuire.",
+          "spans": [
+            {
+              "text": "Certains murmurent même que de mystérieuses cabales surnaturelles ont tissé autour du lieu un enchantement contraignant la réalité elle-même à conspirer contre ceux qui chercheraient à lui nuire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs sont encouragés à créer autant de coïncidences, d'incidents fortuits ou de concours de circonstances que nécessaire afin d'empêcher une violation de la Mascarade ou tout autre dommage porté à ce lieu.",
+          "spans": [
+            {
+              "text": "Les Conteurs sont encouragés à créer autant de coïncidences, d'incidents fortuits ou de concours de circonstances que nécessaire afin d'empêcher une violation de la Mascarade ou tout autre dommage porté à ce lieu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En définitive, ce lieu ne peut tout simplement pas être endommagé, profané ou forcé.",
+          "spans": [
+            {
+              "text": "En définitive, ",
+              "bold": false
+            },
+            {
+              "text": "ce lieu ne peut tout simplement pas être endommagé, profané ou forcé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8076-a5ad-ca58fffa0db7",
+      "slug": "raffine",
+      "title": "Raffiné",
+      "notionUrl": "https://app.notion.com/p/Raffin-3b288b48e48e8076a5adca58fffa0db7",
+      "lastEditedTime": "2026-08-04T11:17:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Raffiné"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu se trouve dans un environnement où les personnes riches et élégantes aiment se retrouver, facilitant l'organisation d'accords et de négociations en coulisses.",
+          "spans": [
+            {
+              "text": "Ce lieu se trouve dans un environnement où les personnes riches et élégantes aiment se retrouver, facilitant l'organisation d'accords et de négociations en coulisses.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui contrôle ce lieu reçoit 1 Action d'Influence Élite supplémentaire à chaque cycle d'Actions Inter-Parties.",
+          "spans": [
+            {
+              "text": "Le personnage qui contrôle ce lieu reçoit ",
+              "bold": false
+            },
+            {
+              "text": "1 Action d'Influence Élite supplémentaire à chaque cycle d'Actions Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8009-9c93-c17be6a24207",
+      "slug": "refuge",
+      "title": "Refuge",
+      "notionUrl": "https://app.notion.com/p/Refuge-3b288b48e48e80099c93c17be6a24207",
+      "lastEditedTime": "2026-08-04T11:39:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Refuge"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu dispose d'un système d'alimentation électrique de secours ainsi que de réserves de nourriture, comprenant également du sang lorsqu'il est contrôlé par un vampire.",
+          "spans": [
+            {
+              "text": "Ce lieu dispose d'un système d'alimentation électrique de secours ainsi que de réserves de nourriture, comprenant également du sang lorsqu'il est contrôlé par un vampire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour chaque niveau du lieu, celui-ci contient suffisamment de ressources pour permettre à une personne de rester enfermée pendant 30 jours sans avoir à sortir.",
+          "spans": [
+            {
+              "text": "Pour ",
+              "bold": false
+            },
+            {
+              "text": "chaque niveau du lieu",
+              "bold": true
+            },
+            {
+              "text": ", celui-ci contient suffisamment de ressources pour permettre à ",
+              "bold": false
+            },
+            {
+              "text": "une personne de rester enfermée pendant 30 jours sans avoir à sortir",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui contrôle le lieu peut répartir ces réserves entre plusieurs personnes, réduisant proportionnellement leur durée, ou les concentrer sur un nombre plus faible d'individus afin de prolonger leur autonomie.",
+          "spans": [
+            {
+              "text": "Le personnage qui contrôle le lieu peut répartir ces réserves entre plusieurs personnes, réduisant proportionnellement leur durée, ou les concentrer sur un nombre plus faible d'individus afin de prolonger leur autonomie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8095-8f34-c692cf8e04e3",
+      "slug": "renommee-mondiale",
+      "title": "Renommée Mondiale",
+      "notionUrl": "https://app.notion.com/p/Renomm-e-Mondiale-3b288b48e48e80958f34c692cf8e04e3",
+      "lastEditedTime": "2026-08-04T11:48:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Iconique"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Renommée Mondiale"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est mondialement reconnu dans un domaine particulier et exerce, de ce fait, une influence internationale dans ce domaine.",
+          "spans": [
+            {
+              "text": "Ce lieu est mondialement reconnu dans un domaine particulier et exerce, de ce fait, une influence internationale dans ce domaine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage contrôlant ce lieu peut dépenser de l'Influence partout dans le monde, tant que cette dépense est directement liée au domaine pour lequel le lieu est célèbre.",
+          "spans": [
+            {
+              "text": "Un personnage contrôlant ce lieu peut ",
+              "bold": false
+            },
+            {
+              "text": "dépenser de l'Influence partout dans le monde",
+              "bold": true
+            },
+            {
+              "text": ", tant que cette dépense est directement liée au domaine pour lequel le lieu est célèbre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, la Bibliothèque du Congrès est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de Célébrité.",
+          "spans": [
+            {
+              "text": "Par exemple, la ",
+              "bold": false
+            },
+            {
+              "text": "Bibliothèque du Congrès",
+              "bold": true
+            },
+            {
+              "text": " est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de Célébrité.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80a2-ab29-e6763d862f08",
+      "slug": "rentable",
+      "title": "Rentable",
+      "notionUrl": "https://app.notion.com/p/Rentable-3b288b48e48e80a2ab29e6763d862f08",
+      "lastEditedTime": "2026-08-04T11:37:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Rentable"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu génère des revenus pour le personnage qui le contrôle.",
+          "spans": [
+            {
+              "text": "Ce lieu génère des revenus pour le personnage qui le contrôle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Celui-ci bénéficie d'une instance supplémentaire de l'Historique Ressources à 1 point.",
+          "spans": [
+            {
+              "text": "Celui-ci bénéficie d'une ",
+              "bold": false
+            },
+            {
+              "text": "instance supplémentaire de l'Historique Ressources à 1 point",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cet avantage n'augmente pas son Historique Ressources existant : il est considéré comme un Historique distinct.",
+          "spans": [
+            {
+              "text": "Cet avantage n'augmente pas son Historique Ressources existant : il est considéré comme ",
+              "bold": false
+            },
+            {
+              "text": "un Historique distinct",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-806d-9be7-df1acb142af0",
+      "slug": "robuste",
+      "title": "Robuste",
+      "notionUrl": "https://app.notion.com/p/Robuste-3b288b48e48e806d9be7df1acb142af0",
+      "lastEditedTime": "2026-08-04T11:41:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Robuste"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Grâce à sa construction particulièrement solide, ce lieu est difficile à endommager.",
+          "spans": [
+            {
+              "text": "Grâce à sa construction particulièrement solide, ce lieu est difficile à endommager.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Augmentez de +3 la difficulté de toute action visant à infliger des dégâts physiques au lieu, comme défoncer une porte.",
+          "spans": [
+            {
+              "text": "Augmentez de ",
+              "bold": false
+            },
+            {
+              "text": "+3 la difficulté de toute action visant à infliger des dégâts physiques au lieu",
+              "bold": true
+            },
+            {
+              "text": ", comme défoncer une porte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, le lieu ignore la première application de la Qualité négative Endommagé.",
+          "spans": [
+            {
+              "text": "De plus, le lieu ignore la première application de la Qualité négative ",
+              "bold": false
+            },
+            {
+              "text": "Endommagé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La deuxième application d'Endommagé est donc considérée comme la première. Il faut ainsi atteindre quatre applications d'Endommagé pour détruire le lieu.",
+          "spans": [
+            {
+              "text": "La deuxième application d'Endommagé est donc considérée comme la première. Il faut ainsi atteindre ",
+              "bold": false
+            },
+            {
+              "text": "quatre applications d'Endommagé pour détruire le lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-804e-bbc7-cf37da5dd125",
+      "slug": "salle-de-spectacle",
+      "title": "Salle de Spectacle",
+      "notionUrl": "https://app.notion.com/p/Salle-de-Spectacle-3b288b48e48e804ebbc7cf37da5dd125",
+      "lastEditedTime": "2026-08-04T11:41:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Salle de Spectacle"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est particulièrement adapté aux représentations artistiques.",
+          "spans": [
+            {
+              "text": "Ce lieu est particulièrement adapté aux représentations artistiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Choisissez une spécialisation de Représentation.",
+          "spans": [
+            {
+              "text": "Choisissez une ",
+              "bold": false
+            },
+            {
+              "text": "spécialisation de Représentation",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le lieu accorde un bonus générique de +3 aux défis non surnaturels liés à cette spécialisation.",
+          "spans": [
+            {
+              "text": "Le lieu accorde un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3 aux défis non surnaturels",
+              "bold": true
+            },
+            {
+              "text": " liés à cette spécialisation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de spectacle, mais chaque acquisition doit concerner une spécialisation de Représentation différente.",
+          "spans": [
+            {
+              "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de spectacle, mais ",
+              "bold": false
+            },
+            {
+              "text": "chaque acquisition doit concerner une spécialisation de Représentation différente",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80c1-ab60-f1c6562bfe06",
+      "slug": "securite",
+      "title": "Sécurité",
+      "notionUrl": "https://app.notion.com/p/S-curit-3b288b48e48e80c1ab60f1c6562bfe06",
+      "lastEditedTime": "2026-08-04T11:39:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sécurité"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le lieu dispose d'un système de sécurité standard.",
+          "spans": [
+            {
+              "text": "Le lieu dispose d'un système de sécurité standard.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tout défi visant à s'introduire dans le lieu subit une pénalité de -3.",
+          "spans": [
+            {
+              "text": "Tout défi visant à s'introduire dans le lieu subit une ",
+              "bold": false
+            },
+            {
+              "text": "pénalité de -3",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si le personnage qui contrôle le lieu est présent lorsqu'une tentative d'intrusion se produit, il bénéficie toujours d'au moins un tour d'avertissement, quelle que soit la qualité du résultat obtenu par l'assaillant.",
+          "spans": [
+            {
+              "text": "De plus, si le personnage qui contrôle le lieu est présent lorsqu'une tentative d'intrusion se produit, il bénéficie toujours ",
+              "bold": false
+            },
+            {
+              "text": "d'au moins un tour d'avertissement",
+              "bold": true
+            },
+            {
+              "text": ", quelle que soit la qualité du résultat obtenu par l'assaillant.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages possédant la compétence Sécurité peuvent obtenir gratuitement cette Qualité pour un lieu désigné comme leur Havre.",
+          "spans": [
+            {
+              "text": "Les personnages possédant la compétence ",
+              "bold": false
+            },
+            {
+              "text": "Sécurité",
+              "bold": true
+            },
+            {
+              "text": " peuvent obtenir gratuitement cette Qualité pour un lieu désigné comme leur ",
+              "bold": false
+            },
+            {
+              "text": "Havre",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, la Qualité Sécurité doit être acquise séparément pour chaque autre lieu.",
+          "spans": [
+            {
+              "text": "Cependant, la Qualité Sécurité doit être acquise séparément pour chaque autre lieu.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8063-8ecd-d69cf1b4a7fa",
+      "slug": "selectif",
+      "title": "Sélectif",
+      "notionUrl": "https://app.notion.com/p/S-lectif-3b288b48e48e80638ecdd69cf1b4a7fa",
+      "lastEditedTime": "2026-08-04T13:19:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sélectif"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Quelque chose dans ce lieu - protections surnaturelles, phénomène magique ou autre forme de défense - repousse une catégorie précise de créatures surnaturelles.",
+          "spans": [
+            {
+              "text": "Quelque chose dans ce lieu - protections surnaturelles, phénomène magique ou autre forme de défense - repousse une ",
+              "bold": false
+            },
+            {
+              "text": "catégorie précise de créatures surnaturelles",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour les créatures concernées, pénétrer dans le lieu est soit totalement impossible, soit suffisamment dangereux pour être fortement dissuasif.",
+          "spans": [
+            {
+              "text": "Pour les créatures concernées, pénétrer dans le lieu est soit ",
+              "bold": false
+            },
+            {
+              "text": "totalement impossible",
+              "bold": true
+            },
+            {
+              "text": ", soit suffisamment dangereux pour être fortement dissuasif.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur détermine les mécaniques exactes de cette Qualité. Il peut par exemple appliquer une augmentation progressive de la Banalité aux Fées ou une perte de Gnose provoquée par l'argent aux Changeformes.",
+          "spans": [
+            {
+              "text": "Le Conteur détermine les mécaniques exactes de cette Qualité. Il peut par exemple appliquer une augmentation progressive de la ",
+              "bold": false
+            },
+            {
+              "text": "Banalité",
+              "bold": true
+            },
+            {
+              "text": " aux Fées ou une perte de ",
+              "bold": false
+            },
+            {
+              "text": "Gnose provoquée par l'argent",
+              "bold": true
+            },
+            {
+              "text": " aux Changeformes.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8009-a784-e736b7596003",
+      "slug": "souillure-du-ver",
+      "title": "Souillure du Ver",
+      "notionUrl": "https://app.notion.com/p/Souillure-du-Ver-3b288b48e48e8009a784e736b7596003",
+      "lastEditedTime": "2026-08-04T13:23:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Souillure du Ver"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu porte une forme de Souillure du Ver.",
+          "spans": [
+            {
+              "text": "Ce lieu porte une forme de ",
+              "bold": false
+            },
+            {
+              "text": "Souillure du Ver",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne passant plus de 5 minutes dans ce lieu gagne 1 point de Souillure du Ver.",
+          "spans": [
+            {
+              "text": "Toute personne passant ",
+              "bold": false
+            },
+            {
+              "text": "plus de 5 minutes",
+              "bold": true
+            },
+            {
+              "text": " dans ce lieu gagne ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Souillure du Ver",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage qui y demeure pendant 8 heures peut gagner jusqu'à 1 point supplémentaire de Souillure du Ver.",
+          "spans": [
+            {
+              "text": "Un personnage qui y demeure pendant ",
+              "bold": false
+            },
+            {
+              "text": "8 heures",
+              "bold": true
+            },
+            {
+              "text": " peut gagner jusqu'à ",
+              "bold": false
+            },
+            {
+              "text": "1 point supplémentaire de Souillure du Ver",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité ne peut jamais faire gagner à un personnage son 5e point de Souillure du Ver.",
+          "spans": [
+            {
+              "text": "Cette Qualité ne peut jamais faire gagner à un personnage son ",
+              "bold": false
+            },
+            {
+              "text": "5e point de Souillure du Ver",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Changeformes Gaïens ne peuvent pas traverser le Voile depuis ce lieu.",
+          "spans": [
+            {
+              "text": "Les Changeformes Gaïens ",
+              "bold": false
+            },
+            {
+              "text": "ne peuvent pas traverser le Voile depuis ce lieu",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80cd-934e-ec75d61f27fe",
+      "slug": "sterile",
+      "title": "Stérile",
+      "notionUrl": "https://app.notion.com/p/St-rile-3b288b48e48e80cd934eec75d61f27fe",
+      "lastEditedTime": "2026-08-04T11:50:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Stérile"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est particulièrement mauvais pour permettre aux vampires de se nourrir.",
+          "spans": [
+            {
+              "text": "Ce lieu est particulièrement mauvais pour permettre aux vampires de se nourrir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le nombre de points de Sang obtenus en se nourrissant est réduit de moitié, arrondi au supérieur.",
+          "spans": [
+            {
+              "text": "Le nombre de ",
+              "bold": false
+            },
+            {
+              "text": "points de Sang obtenus en se nourrissant est réduit de moitié, arrondi au supérieur",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8015-bee9-c6f8c5935cbb",
+      "slug": "tentaculaire",
+      "title": "Tentaculaire",
+      "notionUrl": "https://app.notion.com/p/Tentaculaire-3b288b48e48e8015bee9c6f8c5935cbb",
+      "lastEditedTime": "2026-08-04T11:40:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Tentaculaire"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'agencement du lieu est particulièrement complexe et déroutant pour ceux qui ne le connaissent pas.",
+          "spans": [
+            {
+              "text": "L'agencement du lieu est particulièrement complexe et déroutant pour ceux qui ne le connaissent pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnages souhaitant discuter en privé doivent en informer le Conteur. Ils sont alors considérés comme se trouvant dans un lieu différent aux fins de déterminer qui peut les observer.",
+          "spans": [
+            {
+              "text": "Les personnages souhaitant discuter en privé doivent en informer le Conteur. Ils sont alors considérés comme se trouvant ",
+              "bold": false
+            },
+            {
+              "text": "dans un lieu différent aux fins de déterminer qui peut les observer",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, les personnages qui ne contrôlent pas ce Lieu d'intérêt ne peuvent pas déclarer de Fuite Équitable tant qu'ils s'y trouvent.",
+          "spans": [
+            {
+              "text": "De plus, les personnages qui ne contrôlent pas ce Lieu d'intérêt ",
+              "bold": false
+            },
+            {
+              "text": "ne peuvent pas déclarer de Fuite Équitable tant qu'ils s'y trouvent",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage souhaitant quitter le lieu doit passer 5 minutes sans être confronté à un défi avant de pouvoir en sortir.",
+          "spans": [
+            {
+              "text": "Un personnage souhaitant quitter le lieu doit passer ",
+              "bold": false
+            },
+            {
+              "text": "5 minutes sans être confronté à un défi",
+              "bold": true
+            },
+            {
+              "text": " avant de pouvoir en sortir.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8012-8f93-d055a993bfd6",
+      "slug": "terre-intimidante",
+      "title": "Terre Intimidante",
+      "notionUrl": "https://app.notion.com/p/Terre-Intimidante-3b288b48e48e80128f93d055a993bfd6",
+      "lastEditedTime": "2026-08-04T13:17:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Terre Intimidante"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "L'atmosphère de cet Élysium est si imposante qu'un personnage souhaitant entreprendre volontairement une action qui violerait les règles de l'Élysium doit dépenser 1 point de Volonté pour pouvoir le faire.",
+          "spans": [
+            {
+              "text": "L'atmosphère de cet Élysium est si imposante qu'un personnage souhaitant entreprendre volontairement une action qui violerait les règles de l'Élysium doit ",
+              "bold": false
+            },
+            {
+              "text": "dépenser 1 point de Volonté",
+              "bold": true
+            },
+            {
+              "text": " pour pouvoir le faire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité est incompatible avec les Qualités d'Élysium Arène et Traditionnel.",
+          "spans": [
+            {
+              "text": "Cette Qualité est incompatible avec les Qualités d'Élysium ",
+              "bold": false
+            },
+            {
+              "text": "Arène",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Traditionnel",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8098-969b-c5756ef677fc",
+      "slug": "terre-sacree",
+      "title": "Terre sacrée",
+      "notionUrl": "https://app.notion.com/p/Terre-sacr-e-3b288b48e48e8098969bc5756ef677fc",
+      "lastEditedTime": "2026-08-04T13:16:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Terre sacrée"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium possède une forme d'aura spirituelle.",
+          "spans": [
+            {
+              "text": "Cet Élysium possède une forme d'",
+              "bold": false
+            },
+            {
+              "text": "aura spirituelle",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne qui profane volontairement ce lieu sacré perd automatiquement 1 point de Moralité.",
+          "spans": [
+            {
+              "text": "Toute personne qui profane volontairement ce lieu sacré ",
+              "bold": false
+            },
+            {
+              "text": "perd automatiquement 1 point de Moralité",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De tels lieux sont rarement choisis comme Élysium principal. Cependant, un Prince peut décider d'en sélectionner un afin de contraindre ses citoyens à désamorcer leurs conflits.",
+          "spans": [
+            {
+              "text": "De tels lieux sont rarement choisis comme Élysium principal. Cependant, un Prince peut décider d'en sélectionner un afin de contraindre ses citoyens à désamorcer leurs conflits.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité déclenche également les effets du Handicap Repoussé par la Religion.",
+          "spans": [
+            {
+              "text": "Cette Qualité déclenche également les effets du Handicap ",
+              "bold": false
+            },
+            {
+              "text": "Repoussé par la Religion",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80b9-9c01-fc49bdec631e",
+      "slug": "traditionnel",
+      "title": "Traditionnel",
+      "notionUrl": "https://app.notion.com/p/Traditionnel-3b288b48e48e80b99c01fc49bdec631e",
+      "lastEditedTime": "2026-08-04T13:18:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Elysium"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Traditionnel"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Cet Élysium est reconnu par la Camarilla comme un bastion de ses valeurs traditionnelles. Être vu dans ce lieu revêt une importance particulière au sein de la société vampirique.",
+          "spans": [
+            {
+              "text": "Cet Élysium est reconnu par la ",
+              "bold": false
+            },
+            {
+              "text": "Camarilla comme un bastion de ses valeurs traditionnelles",
+              "bold": true
+            },
+            {
+              "text": ". Être vu dans ce lieu revêt une importance particulière au sein de la société vampirique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les vampires participant à un rassemblement organisé dans cet Élysium gagnent le Statut éphémère Courtois une fois toutes les 3 parties.",
+          "spans": [
+            {
+              "text": "Tous les vampires participant à un rassemblement organisé dans cet Élysium gagnent le ",
+              "bold": false
+            },
+            {
+              "text": "Statut éphémère Courtois",
+              "bold": true
+            },
+            {
+              "text": " une fois toutes les ",
+              "bold": false
+            },
+            {
+              "text": "3 parties",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette Qualité est incompatible avec les Qualités d'Élysium Arène et Terre Intimidante.",
+          "spans": [
+            {
+              "text": "Cette Qualité est incompatible avec les Qualités d'Élysium ",
+              "bold": false
+            },
+            {
+              "text": "Arène",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Terre Intimidante",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8085-bab4-cdd6e2899e5c",
+      "slug": "vaste",
+      "title": "Vaste",
+      "notionUrl": "https://app.notion.com/p/Vaste-3b288b48e48e8085bab4cdd6e2899e5c",
+      "lastEditedTime": "2026-08-04T11:40:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Vaste"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu est immense, comprenant des dizaines de pièces ou un très vaste espace clos.",
+          "spans": [
+            {
+              "text": "Ce lieu est immense, comprenant des dizaines de pièces ou un très vaste espace clos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il permet de dissimuler en toute sécurité l'équivalent du contenu d'un entrepôt : marchandises, matériel, provisions, personnes ou toute autre chose devant être cachée au monde extérieur.",
+          "spans": [
+            {
+              "text": "Il permet de dissimuler en toute sécurité l'équivalent du contenu d'un entrepôt : marchandises, matériel, provisions, personnes ou toute autre chose devant être cachée au monde extérieur.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80f7-b079-ebb10da04f10",
+      "slug": "zone-morte",
+      "title": "Zone morte",
+      "notionUrl": "https://app.notion.com/p/Zone-morte-3b288b48e48e80f7b079ebb10da04f10",
+      "lastEditedTime": "2026-08-04T11:16:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Standard"
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": ""
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Zone morte"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce bâtiment est totalement coupé des réseaux cellulaires et d'Internet.",
+          "spans": [
+            {
+              "text": "Ce bâtiment est totalement coupé des réseaux cellulaires et d'Internet.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est impossible de se connecter à Internet ou même de passer un appel téléphonique sans disposer d'un accès particulier, comme une ligne fixe ou un réseau Wi-Fi dédié, si le propriétaire décide d'en fournir un.",
+          "spans": [
+            {
+              "text": "Il est impossible de se connecter à Internet ou même de passer un appel téléphonique sans disposer d'un accès particulier, comme une ligne fixe ou un réseau Wi-Fi dédié, si le propriétaire décide d'en fournir un.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler ou de perturber la technologie, comme la Voie de Technomancie de la magie du sang ou le Don des Loups-Garous Brouillage Technologique.",
+          "spans": [
+            {
+              "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler ou de perturber la technologie, comme la ",
+              "bold": false
+            },
+            {
+              "text": "Voie de Technomancie",
+              "bold": true
+            },
+            {
+              "text": " de la magie du sang ou le Don des Loups-Garous ",
+              "bold": false
+            },
+            {
+              "text": "Brouillage Technologique",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains supposent que d'autres factions, encore inconnues, limitent l'influence du surnaturel dans ces endroits. D'autres pensent que ces lieux pourraient être affectés par la Seconde Inquisition.",
+          "spans": [
+            {
+              "text": "Certains supposent que d'autres factions, encore inconnues, limitent l'influence du surnaturel dans ces endroits. D'autres pensent que ces lieux pourraient être affectés par la ",
+              "bold": false
+            },
+            {
+              "text": "Seconde Inquisition",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -3,6 +3,10 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.4.0] - 2026-08-05
+
+- Nouvelle section "Atouts de Lieux" dans les Règles : atouts propres aux lieux (Elysium, refuges, etc.), regroupés par catégorie (Surnaturel, Iconique, Standard)
+
 ## [1.3.0] - 2026-08-04
 
 - Les fiches "Lignée : X" apparaissent désormais dans la liste des atouts de leur clan (ex. Guerrier et Sorcier avec les atouts Assamites)

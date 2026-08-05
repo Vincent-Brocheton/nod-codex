@@ -18,6 +18,7 @@ export const COLLECTIONS = {
 
     MERITS: "atouts",
     FLAWS: "handicaps",
+    ATOUTS_LIEUX: "atouts-lieux",
 
     REGLES: "regles",
     PERSONNAGE: "personnage",

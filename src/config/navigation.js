@@ -61,6 +61,20 @@ export const navigation = [
             },
 
             {
+                id: "atouts-lieux",
+                type: "collection",
+                label: "Atouts de Lieux",
+                path: "/atouts-lieux",
+                icon: "map-pin",
+
+                view: "grouped-list",
+
+                collections: [
+                    COLLECTIONS.ATOUTS_LIEUX,
+                ],
+            },
+
+            {
                 id: "attributs",
                 type: "collection",
                 label: "Attributs",
