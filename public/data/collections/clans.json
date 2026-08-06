@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-05T07:50:20.619Z",
+  "generatedAt": "2026-08-06T11:09:21.922Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1525,7 +1525,7 @@
       "slug": "kuei-jin",
       "title": "Kuei-Jin",
       "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
-      "lastEditedTime": "2026-07-29T07:22:00.000Z",
+      "lastEditedTime": "2026-08-06T11:06:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -1533,7 +1533,32 @@
         },
         "Handicaps de Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Elémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Surnoms": {
           "type": "text",
@@ -1545,17 +1570,25 @@
         },
         "Discplines": {
           "type": "relation",
-          "value": []
-        },
-        "Atouts de clan": {
-          "type": "relation",
-          "value": []
-        },
-        "Lignées": {
-          "type": "relation",
           "value": [
             {
-              "collectionKey": "lignees",
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
               "slug": "voie-du-feu",
               "title": "Voie du Feu",
               "cout": null,
@@ -1563,7 +1596,7 @@
               "complet": false
             },
             {
-              "collectionKey": "lignees",
+              "collectionKey": "disciplines",
               "slug": "voie-de-l-eau",
               "title": "Voie de l’Eau",
               "cout": null,
@@ -1571,7 +1604,7 @@
               "complet": false
             },
             {
-              "collectionKey": "lignees",
+              "collectionKey": "disciplines",
               "slug": "voie-de-l-air",
               "title": "Voie de l’Air",
               "cout": null,
@@ -1579,9 +1612,115 @@
               "complet": false
             },
             {
-              "collectionKey": "lignees",
+              "collectionKey": "disciplines",
               "slug": "voie-de-la-terre",
               "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "Lignée : De la Cour du Tonnerre Infini d’Inde",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-doree-d-asie-du-sud-est",
+              "title": "Lignée : De la Cour Dorée d’Asie du Sud-Est",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-de-la-cour-verte-de-coree",
+              "title": "Lignée : De la Cour Verte de Corée",
+              "cout": "4",
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "il-affute",
+              "title": "Œil affuté",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-classique",
+              "title": "Sang classique",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "proximite-du-maelstrom",
+              "title": "Proximité du Maelstrom",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1714,6 +1853,86 @@
           "spans": [
             {
               "text": "Bien qu'ils soient rarement rencontrés en Europe, leur présence n'est pas exceptionnelle. Certains voyagent en tant qu'émissaires, érudits ou diplomates, tandis que d'autres poursuivent des objectifs plus personnels loin de leurs terres d'origine.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Les Élémentaires",
+          "spans": [
+            {
+              "text": "Les Élémentaires",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Kuei-jin sont connu pour leurs lien avec les éléments et notamment la personnification de ceux-ci. ",
+          "spans": [
+            {
+              "text": "Les Kuei-jin sont connu pour leurs lien avec les éléments et notamment la personnification de ceux-ci. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "A partir du premier niveau de voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
+          "spans": [
+            {
+              "text": "A partir du premier niveau de voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L’Élémentaire en question devient un Serviteur de niveau 1, il pourra-t-être améliorer en dépensant de l’XP dans son amélioration comme pour n’importe quel autre serviteur.",
+          "spans": [
+            {
+              "text": "L’Élémentaire en question devient un Serviteur de niveau 1, il pourra-t-être améliorer en dépensant de l’XP dans son amélioration comme pour n’importe quel autre serviteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De manière générale, a partir du niveau 3 dans une voie, l’élémentaire devient assez tangible pour se joindre aux combats. Sauf mention contraire.",
+          "spans": [
+            {
+              "text": "De manière générale, a partir du niveau 3 dans une voie, l’élémentaire devient assez tangible pour se joindre aux combats. Sauf mention contraire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La santé d’un Élémentaire est égale à son niveau de serviteur.",
+          "spans": [
+            {
+              "text": "La santé d’un Élémentaire est égale à son niveau de serviteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Physique et Mental de l’Élémentaire est égale à ceux de l’élémentaliste.",
+          "spans": [
+            {
+              "text": "Le Physique et Mental de l’Élémentaire est égale à ceux de l’élémentaliste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "spans": [
+            {
+              "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
               "bold": false
             }
           ]

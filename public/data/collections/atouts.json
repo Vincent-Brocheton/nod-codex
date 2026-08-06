@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-05T07:50:20.623Z",
+  "generatedAt": "2026-08-06T11:09:21.925Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -1525,6 +1525,60 @@
           "spans": [
             {
               "text": "Vous avez tout vu, tout fait et tout connu.\nIl est notoirement difficile de vous impressionner, et vous possédez un talent particulier pour considérer les faits sans coloration émotionnelle.\nVous obtenez un retest gratuit lorsque vous résistez aux effets de Démence, Melpominee et Présence.\nCe retest peut être utilisé avant ou après un retest de Volonté normal et constitue une exception à la règle limitant les retests à un seul par défi.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-8055-913a-e2d5360033e2",
+      "slug": "breloques-mortuaires",
+      "title": "Breloques mortuaires",
+      "notionUrl": "https://app.notion.com/p/Breloques-mortuaires-3b488b48e48e8055913ae2d5360033e2",
+      "lastEditedTime": "2026-08-06T10:59:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": ""
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Breloques mortuaires"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Le plus grand danger du Voile est le fait que l'ensemble des vampires n'a aucune connaissance de son existence. Tel un prophète des temps déchus, vous avez la capacité de créer des breloques contenant un rituel de Nécromancie en votre possession allant jusqu'au niveau 3.\nLa création d'une breloque prend une Action Inter-Partie, et une breloque persiste pendant 3 mois à compter de sa création. Vous pouvez avoir autant de breloques créées que votre niveau en Occultisme.\nDépensez une action simple pour activer le rituel à l'intérieur de la breloque. Celle-ci est détruite après utilisation.\nVous pouvez également fournir une breloque à une autre personne. Dans ce cas, même si la breloque compte toujours dans votre nombre de breloques actives, c'est à la personne qui la possède de dépenser son action simple pour activer le rituel. C'est cette même personne qui devient \"Lanceur du rituel\", même si ce rituel n'est pas connu du lanceur. Tant que la breloque est en sa possession, cette personne perçoit le Voile et ses habitants, mais ne peut pas interagir avec eux autrement qu'avec le rituel. Une fois la breloque détruite, toute perception du Voile disparaît...pour le moment.",
+          "spans": [
+            {
+              "text": "Le plus grand danger du Voile est le fait que l'ensemble des vampires n'a aucune connaissance de son existence. Tel un prophète des temps déchus, vous avez la capacité de créer des breloques contenant un rituel de Nécromancie en votre possession allant jusqu'au niveau 3.\nLa création d'une breloque prend une Action Inter-Partie, et une breloque persiste pendant 3 mois à compter de sa création. Vous pouvez avoir autant de breloques créées que votre niveau en Occultisme.\nDépensez une action simple pour activer le rituel à l'intérieur de la breloque. Celle-ci est détruite après utilisation.\nVous pouvez également fournir une breloque à une autre personne. Dans ce cas, même si la breloque compte toujours dans votre nombre de breloques actives, c'est à la personne qui la possède de dépenser son action simple pour activer le rituel. C'est cette même personne qui devient \"Lanceur du rituel\", même si ce rituel n'est pas connu du lanceur. Tant que la breloque est en sa possession, cette personne perçoit le Voile et ses habitants, mais ne peut pas interagir avec eux autrement qu'avec le rituel. Une fois la breloque détruite, toute perception du Voile disparaît...pour le moment.",
               "bold": false
             }
           ]
@@ -3562,6 +3616,114 @@
       ]
     },
     {
+      "id": "3b488b48-e48e-8051-93e4-c2cdf0f17f57",
+      "slug": "elementaire-fortifie",
+      "title": "Elémentaire fortifié",
+      "notionUrl": "https://app.notion.com/p/El-mentaire-fortifi-3b488b48e48e805193e4c2cdf0f17f57",
+      "lastEditedTime": "2026-08-06T10:59:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Elémentaire fortifié"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vos affrontements permanents contre l'Infernal ont changé vos tactiques de combat. Vous n'êtes jamais seul à combattre : vos Elémentaires vous aident constamment.\nA l'acquisition de cet atout, vos Elémentaires peuvent vous assister au combat dès le premier niveau de vos Voies, tout en possédant un niveau de santé minimal équivalent à 3. De plus, vos Elémentaires possèdent l'équivalent de votre niveau de Force d'âme et peuvent, une fois par combat, effectuer deux actions de déplacement avant d'effectuer une action standard.\nUne fois par combat, vous pouvez, pour le prix d'une action simple, échanger votre place avec un de vos Elémentaires, à condition que celui-ci soit dans un rayon de 1 km.\nSi vous venez à tomber en torpeur, vos Elémentaires restent au combat. Ils disparaissent si vous venez à être détruit.",
+          "spans": [
+            {
+              "text": "Vos affrontements permanents contre l'Infernal ont changé vos tactiques de combat. Vous n'êtes jamais seul à combattre : vos Elémentaires vous aident constamment.\nA l'acquisition de cet atout, vos Elémentaires peuvent vous assister au combat dès le premier niveau de vos Voies, tout en possédant un niveau de santé minimal équivalent à 3. De plus, vos Elémentaires possèdent l'équivalent de votre niveau de Force d'âme et peuvent, une fois par combat, effectuer deux actions de déplacement avant d'effectuer une action standard.\nUne fois par combat, vous pouvez, pour le prix d'une action simple, échanger votre place avec un de vos Elémentaires, à condition que celui-ci soit dans un rayon de 1 km.\nSi vous venez à tomber en torpeur, vos Elémentaires restent au combat. Ils disparaissent si vous venez à être détruit.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-8067-a8be-de9de638bbd7",
+      "slug": "elementaire-necrotique",
+      "title": "Elémentaire Nécrotique",
+      "notionUrl": "https://app.notion.com/p/El-mentaire-N-crotique-3b488b48e48e8067a8bede9de638bbd7",
+      "lastEditedTime": "2026-08-06T10:57:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Elémentaire Nécrotique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vos années passées aux portes du Voile ont modifié la constitution de votre Elémentaire. Lorsque vous affrontez une entité du Voile, vous pouvez utiliser vos pouvoirs de Voies Elémentaires contre elles. De plus, votre Elémentaire peut également s'attaquer à elle. Votre Elémentaire peut aussi utiliser une fois par session de jeu les trois premiers niveaux de vos Voies de Nécromancie.",
+          "spans": [
+            {
+              "text": "Vos années passées aux portes du Voile ont modifié la constitution de votre Elémentaire. Lorsque vous affrontez une entité du Voile, vous pouvez utiliser vos pouvoirs de Voies Elémentaires contre elles. De plus, votre Elémentaire peut également s'attaquer à elle. Votre Elémentaire peut aussi utiliser une fois par session de jeu les trois premiers niveaux de vos Voies de Nécromancie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39888b48-e48e-8054-a545-e0c5cbadf75a",
       "slug": "elite-sociale",
       "title": "Elite sociale",
@@ -3694,6 +3856,132 @@
           "spans": [
             {
               "text": "Tout Semblable présent à une réunion de la Camarilla en fait parti. Vous n'êtes pas reconnu, mais vous comprenez les règles du jeu politique de la tour d'Ivoire, pour les utiliser à votre bénéfice. Vous êtes peut-être un Giovanni, ou un prêtre Setite prêt a aider la Camarilla … et profiter des guerres internes de celle-ci. Tant que vous n'êtes pas reconnu par une secte, vous pouvez avoir un Statut éphémère de plus au sein de la Camarilla. Ceci est une exception à la règle empêchant des individus non reconnu d'avoir le moindre statut de secte.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-801d-993e-e97f2b296da3",
+      "slug": "entoure-d-un-reseau",
+      "title": "Entouré d'un réseau",
+      "notionUrl": "https://app.notion.com/p/Entour-d-un-r-seau-3b488b48e48e801d993ee97f2b296da3",
+      "lastEditedTime": "2026-08-06T10:58:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Entouré d'un réseau"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous avez, grâce à d'habiles manoeuvres, réussi à vous entourer d'un réseau conséquent. Vous savez qui contacter et par quels intermédiaires il faut passer pour obtenir l'information rêvée. \nUne fois par session de jeu, vous pouvez soit :",
+          "spans": [
+            {
+              "text": "Vous avez, grâce à d'habiles manoeuvres, réussi à vous entourer d'un réseau conséquent. Vous savez qui contacter et par quels intermédiaires il faut passer pour obtenir l'information rêvée. \nUne fois par session de jeu, vous pouvez soit :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "poser une question fermée concernant le monde des mortels à un Conteur.",
+          "spans": [
+            {
+              "text": "poser une question ",
+              "bold": false
+            },
+            {
+              "text": "fermée",
+              "bold": true
+            },
+            {
+              "text": " concernant le monde des mortels à un Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "poser une question ouverte concernant le monde des mortels OU poser une question fermée concernant le Monde de la Nuit à un Conteur. Vous effectuerez un challenge et, sur une réussite ou une égalité, vous aurez la réponse.",
+          "spans": [
+            {
+              "text": "poser une question ",
+              "bold": false
+            },
+            {
+              "text": "ouverte",
+              "bold": true
+            },
+            {
+              "text": " concernant le monde des mortels OU poser une question ",
+              "bold": false
+            },
+            {
+              "text": "fermée",
+              "bold": true
+            },
+            {
+              "text": " concernant le Monde de la Nuit à un Conteur. Vous effectuerez un challenge et, sur une réussite ou une égalité, vous aurez la réponse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "poser une question ouverte concernant le Monde de la Nuit à un Conteur. Vous effectuerez un challenge et, sur une réussite uniquement, vous aurez la réponse.",
+          "spans": [
+            {
+              "text": "poser une question ",
+              "bold": false
+            },
+            {
+              "text": "ouverte",
+              "bold": true
+            },
+            {
+              "text": " concernant le Monde de la Nuit à un Conteur. Vous effectuerez un challenge et, sur une réussite uniquement, vous aurez la réponse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les challenges ci-dessus ne permettent pas de relance. Le Conteur se réserve le droit d'autoriser ou non la question, s'il la refuse, cet atout reste actif jusqu'à ce qu'une question soit validée.",
+          "spans": [
+            {
+              "text": "Les challenges ci-dessus ne permettent pas de relance. Le Conteur se réserve le droit d'autoriser ou non la question, s'il la refuse, cet atout reste actif jusqu'à ce qu'une question soit validée.",
               "bold": false
             }
           ]
@@ -9481,6 +9769,156 @@
       ]
     },
     {
+      "id": "3b488b48-e48e-807f-9930-edb1f046ad04",
+      "slug": "paix-interieure",
+      "title": "Paix intérieure",
+      "notionUrl": "https://app.notion.com/p/Paix-int-rieure-3b488b48e48e807f9930edb1f046ad04",
+      "lastEditedTime": "2026-08-06T10:56:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Paix intérieure"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Kuei Jin ont vécu l'expérience de la mort imminente, et vous savez exactement la damnation qui vous attend si la Bête prend le contrôle. Vous avez, durant votre Non-Vie, suivi des enseignements spirituels et apaisants, ainsi que des rites d'apaisement que vous pouvez transmettre.\nTracez un cercle autour de votre cible qui doit se mettre en position \"yoga\". Parlez avec elle de spiritualité et d'apaisement pendant 5 minutes. Une fois cela effectué, votre cible perd 1 trait de Bête. Si vous avez la compétence \"Animaux\", elle en perd 1 supplémentaire.\nLa cible récupère également un trait \"Apaisé\" qui, durant la prochaine heure de jeu, réduit de 1 la prochaine prise de trait de Bête.\nUne personne ayant perdu des traits de Bête ne peut pas en reperdre durant la même session de jeu.",
+          "spans": [
+            {
+              "text": "Les Kuei Jin ont vécu l'expérience de la mort imminente, et vous savez exactement la damnation qui vous attend si la Bête prend le contrôle. Vous avez, durant votre Non-Vie, suivi des enseignements spirituels et apaisants, ainsi que des rites d'apaisement que vous pouvez transmettre.\nTracez un cercle autour de votre cible qui doit se mettre en position \"yoga\". Parlez avec elle de spiritualité et d'apaisement pendant 5 minutes. Une fois cela effectué, votre cible perd 1 trait de Bête. Si vous avez la compétence \"Animaux\", elle en perd 1 supplémentaire.\nLa cible récupère également un trait \"Apaisé\" qui, durant la prochaine heure de jeu, réduit de 1 la prochaine prise de trait de Bête.\nUne personne ayant perdu des traits de Bête ne peut pas en reperdre durant la même session de jeu.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-80ca-804f-fdf6d8c120bc",
+      "slug": "par-dela-les-plans",
+      "title": "Par delà les Plans",
+      "notionUrl": "https://app.notion.com/p/Par-del-les-Plans-3b488b48e48e80ca804ffdf6d8c120bc",
+      "lastEditedTime": "2026-08-06T10:58:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-verte-de-coree",
+              "title": "De la Cour Verte de Corée",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Par delà les Plans"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous avez une maîtrise de vos Voies Elémentaires et vous avez une connexion parfaite avec les Plans Elémentaires qui leur sont associés. Vous savez comment aller et venir, et établir des connexions avec votre rune d'accès principale.\nVous pouvez utiliser 2 tours complets pour tracer une rune complexe qui vous mène jusqu'aux Plans Elémentaires. Vous pouvez passer jusqu'à 3 tours supplémentaires pour agrémenter cette rune d'accès pour autoriser des compagnons à vous accompagner, dans le cadre d'1 compagnon / tour supplémentaire dépensé.\nDans les Plans, vous savez automatiquement vous rendre à l'endroit connecté à votre rune principale, mais la durée du trajet est à interprétation du Conte (aucun trajet ne peut dépasser 2h). De plus, chaque personne non habituée à voyager dans les Plans subira les violentes contraintes que subissent les Elémentalistes au début de leur formation, et subiront 1 dégât aggravé non encaissable / 15min à l'intérieur.\nUne rune complexe persiste jusqu'à 3 mois, et maintient une connexion avec la rune d'accès principale dans les deux sens durant ce laps de temps. L'Elémentaliste peut annuler une rune complexe à n'importe quel moment, et peut avoir autant de runes complexes actives en même temps que son niveau d'Occultisme.",
+          "spans": [
+            {
+              "text": "Vous avez une maîtrise de vos Voies Elémentaires et vous avez une connexion parfaite avec les Plans Elémentaires qui leur sont associés. Vous savez comment aller et venir, et établir des connexions avec votre rune d'accès principale.\nVous pouvez utiliser 2 tours complets pour tracer une rune complexe qui vous mène jusqu'aux Plans Elémentaires. Vous pouvez passer jusqu'à 3 tours supplémentaires pour agrémenter cette rune d'accès pour autoriser des compagnons à vous accompagner, dans le cadre d'1 compagnon / tour supplémentaire dépensé.\nDans les Plans, vous savez automatiquement vous rendre à l'endroit connecté à votre rune principale, mais la durée du trajet est à interprétation du Conte (aucun trajet ne peut dépasser 2h). De plus, chaque personne non habituée à voyager dans les Plans subira les violentes contraintes que subissent les Elémentalistes au début de leur formation, et subiront 1 dégât aggravé non encaissable / 15min à l'intérieur.\nUne rune complexe persiste jusqu'à 3 mois, et maintient une connexion avec la rune d'accès principale dans les deux sens durant ce laps de temps. L'Elémentaliste peut annuler une rune complexe à n'importe quel moment, et peut avoir autant de runes complexes actives en même temps que son niveau d'Occultisme.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39888b48-e48e-8091-8d09-dbcb16e3762c",
       "slug": "parangon",
       "title": "Parangon",
@@ -10964,6 +11402,60 @@
       ]
     },
     {
+      "id": "3b488b48-e48e-8075-b87a-f6fdd52dc954",
+      "slug": "proximite-du-maelstrom",
+      "title": "Proximité du Maelstrom",
+      "notionUrl": "https://app.notion.com/p/Proximit-du-Maelstrom-3b488b48e48e8075b87af6fdd52dc954",
+      "lastEditedTime": "2026-08-06T11:00:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Proximité du Maelstrom"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Contrairement aux jeux de cour, vous le sentez arriver : le 6e Maelstrom est déjà là. Il amène avec lui l'arrivée du 6e Âge, et l'arrivée de toutes les catastrophes dont les anciennes prophéties parlent. Le monde autour de vous s'agite, et vous savez comment y réagir.\nA chaque session de jeu, vous pouvez utiliser une action standard pour ressentir l'énergie du monde autour de vous, et toucher du doigt l'énergie du Maelstrom. Ce faisant, vous débloquez un pouvoir parmi :\nEn plus de ce pouvoir, vous ressentez le Maelstrom, et tout ce qui implique derrière... Mais c'est pour une autre fois.",
+          "spans": [
+            {
+              "text": "Contrairement aux jeux de cour, vous le sentez arriver : le 6e Maelstrom est déjà là. Il amène avec lui l'arrivée du 6e Âge, et l'arrivée de toutes les catastrophes dont les anciennes prophéties parlent. Le monde autour de vous s'agite, et vous savez comment y réagir.\nA chaque session de jeu, vous pouvez utiliser une action standard pour ressentir l'énergie du monde autour de vous, et toucher du doigt l'énergie du Maelstrom. Ce faisant, vous débloquez un pouvoir parmi :\nEn plus de ce pouvoir, vous ressentez le Maelstrom, et tout ce qui implique derrière... Mais c'est pour une autre fois.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39888b48-e48e-8064-aa1c-e1c406647b1d",
       "slug": "quixotic",
       "title": "Quixotic",
@@ -11685,6 +12177,60 @@
           "spans": [
             {
               "text": "Quiconque est assez imprudent pour goûter à votre Sang en devient dépendant.\nLa prochaine fois que cette créature aura l’occasion de boire votre Sang, elle devra dépenser 1 point de Volonté pour refuser. Cette dépense lui permet de résister à son addiction pendant 10 minutes sans dépense supplémentaire.\nAprès avoir résisté à votre Sang de cette manière cinq fois consécutives, l’addiction est brisée.\nSi vous possédez le pouvoir de Présence Fascination, toute personne buvant votre Sang devient également sous votre emprise pour le reste de la nuit.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-803d-9825-dd1fb630e4a1",
+      "slug": "sang-classique",
+      "title": "Sang classique",
+      "notionUrl": "https://app.notion.com/p/Sang-classique-3b488b48e48e803d9825dd1fb630e4a1",
+      "lastEditedTime": "2026-08-06T10:57:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sang classique"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les cours de Chine et du Japon sont un entremêlement de manipulation et de trahison. Vous avez appris à cacher votre sang de plusieurs manières, par protection ou par aspect offensif.\nLorsque votre sang est expulsé de votre corps de façon volontaire ou non, il conserve ses qualités surnaturelles pendant 30 minutes au lieu des 10 habituelles. Cependant, quiconque tente d'analyser votre sang durant ce laps de temps ne verra qu'un sang mortel et non surnaturel. Durant le même laps de temps, quiconque boit votre sang aura l'impression de boire ou de sentir du sang de mortel.",
+          "spans": [
+            {
+              "text": "Les cours de Chine et du Japon sont un entremêlement de manipulation et de trahison. Vous avez appris à cacher votre sang de plusieurs manières, par protection ou par aspect offensif.\nLorsque votre sang est expulsé de votre corps de façon volontaire ou non, il conserve ses qualités surnaturelles pendant 30 minutes au lieu des 10 habituelles. Cependant, quiconque tente d'analyser votre sang durant ce laps de temps ne verra qu'un sang mortel et non surnaturel. Durant le même laps de temps, quiconque boit votre sang aura l'impression de boire ou de sentir du sang de mortel.",
               "bold": false
             }
           ]
@@ -14310,6 +14856,60 @@
       ]
     },
     {
+      "id": "3b488b48-e48e-80d3-9871-ec28c16de98a",
+      "slug": "visions-d-anthelios",
+      "title": "Visions d'Anthélios",
+      "notionUrl": "https://app.notion.com/p/Visions-d-Anth-lios-3b488b48e48e80d39871ec28c16de98a",
+      "lastEditedTime": "2026-08-06T11:00:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "3"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
+              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Visions d'Anthélios"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous la voyez toujours. L'étoile rouge qui brille dans le ciel nocturne. Celle qui est apparue lors de la guerre contre les Ravnos, à la fin du millénaire précédent. Ceux qui la voient disent qu'elle apporte avec elle la fin de toute chose, mais ceux qui la voient restent rares. Pourtant, elle est là, et la regarder vous plonge dans un état second.\nUne fois par session de jeu, vous pouvez regarder l'astre rouge d'Anthélios, visible même si vous n'êtes pas en extérieur : vous savez exactement où il se trouve. En faisant cela, vos 3 prochaines utilisations de disciplines ou de techniques ne coûtent pas de sang pour être lancées, et n'ont pas de temps d'incantation.\nQuand vous êtes sous l'effet d'Anthélios, vous devenez attirant, et quiconque se trouve autour de vous ressent votre aura. Vous gagnez les 3 focus sociaux durant ce laps de temps.\nSi, au bout de 5 tours, vous n'avez pas utilisé l'effet d'Anthélios, celui-ci s'estompe automatiquement.\nCependant, voir Anthélios ne vous laisse pas insensible, et les visions apocalyptiques que l'astre rouge apporte pourraient très bien arriver plus tôt que prévu...",
+          "spans": [
+            {
+              "text": "Vous la voyez toujours. L'étoile rouge qui brille dans le ciel nocturne. Celle qui est apparue lors de la guerre contre les Ravnos, à la fin du millénaire précédent. Ceux qui la voient disent qu'elle apporte avec elle la fin de toute chose, mais ceux qui la voient restent rares. Pourtant, elle est là, et la regarder vous plonge dans un état second.\nUne fois par session de jeu, vous pouvez regarder l'astre rouge d'Anthélios, visible même si vous n'êtes pas en extérieur : vous savez exactement où il se trouve. En faisant cela, vos 3 prochaines utilisations de disciplines ou de techniques ne coûtent pas de sang pour être lancées, et n'ont pas de temps d'incantation.\nQuand vous êtes sous l'effet d'Anthélios, vous devenez attirant, et quiconque se trouve autour de vous ressent votre aura. Vous gagnez les 3 focus sociaux durant ce laps de temps.\nSi, au bout de 5 tours, vous n'avez pas utilisé l'effet d'Anthélios, celui-ci s'estompe automatiquement.\nCependant, voir Anthélios ne vous laisse pas insensible, et les visions apocalyptiques que l'astre rouge apporte pourraient très bien arriver plus tôt que prévu...",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39688b48-e48e-80c5-a7f7-e3cfae1d62d0",
       "slug": "vitalite-intense",
       "title": "Vitalité intense",
@@ -14492,6 +15092,60 @@
           "spans": [
             {
               "text": "En atteignant un niveau de maîtrise mentale digne des plus grands maîtres martiaux ou des érudits les plus disciplinés, vous avez développé une structure mentale d’une rigidité exceptionnelle.\nVous pouvez utiliser cette résolution intérieure afin de concentrer votre esprit et résister à la torture, à l’intimidation et aux pouvoirs cherchant directement à vous contrôler.\nVous obtenez un retest gratuit lorsque vous résistez aux effets d’Auspex, Animalisme et Domination.\nVolonté de Fer ne peut pas être utilisée pour retenter des tentatives visant à percer Dissimulation ou Chimérie, mais elle accorde un retest contre des pouvoirs tels que Télépathie ou Assaut Psychique.\nCe retest peut être utilisé avant ou après un retest normal de Volonté et constitue une exception à la règle limitant les retests à un seul par défi.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b488b48-e48e-80d7-947e-e3c5f54357a0",
+      "slug": "volonte-de-vaincre",
+      "title": "Volonté de vaincre",
+      "notionUrl": "https://app.notion.com/p/Volont-de-vaincre-3b488b48e48e80d7947ee3c5f54357a0",
+      "lastEditedTime": "2026-08-06T10:58:00.000Z",
+      "properties": {
+        "Coût": {
+          "type": "select",
+          "value": "2"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "de-la-cour-doree-d-asie-du-sud-est",
+              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Type": {
+          "type": "select",
+          "value": "Clan"
+        },
+        "Clan": {
+          "type": "relation",
+          "value": []
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Volonté de vaincre"
+        }
+      },
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Vous savez que l'Infernal cherchera toujours à vous affaiblir, mais pourtant, votre volonté ne fléchit jamais. A chaque fois que vous effectuez une action liée à votre Archétype qui devrait vous donner une relance de Volonté gratuite, vous récupérez en plus 1 point de Volonté. De plus, une fois par session de jeu, lorsque vous descendez à 1 point de Volonté restant, votre prochaine relance de Volonté est forcément gratuite.",
+          "spans": [
+            {
+              "text": "Vous savez que l'Infernal cherchera toujours à vous affaiblir, mais pourtant, votre volonté ne fléchit jamais. A chaque fois que vous effectuez une action liée à votre Archétype qui devrait vous donner une relance de Volonté gratuite, vous récupérez en plus 1 point de Volonté. De plus, une fois par session de jeu, lorsque vous descendez à 1 point de Volonté restant, votre prochaine relance de Volonté est forcément gratuite.",
               "bold": false
             }
           ]
