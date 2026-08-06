@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-06T11:09:21.904Z",
+  "generatedAt": "2026-08-06T12:11:25.863Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -946,38 +946,6 @@
         "Lignées": {
           "type": "relation",
           "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
             {
               "collectionKey": "lignees",
               "slug": "ananke",
@@ -3153,40 +3121,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -5320,16 +5255,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -5590,16 +5516,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -7026,16 +6943,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
@@ -8076,16 +7984,7 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
+          "value": []
         },
         "Nom": {
           "type": "text",
