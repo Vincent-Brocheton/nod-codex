@@ -4,13 +4,11 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-08-06T12:11:25.902Z",
+  "generatedAt": "2026-08-06T12:44:26.247Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "38288b48-e48e-80f5-bdcb-f000a0503cc0",
-      "slug": "animaux",
-      "title": "Animaux",
       "notionUrl": "https://app.notion.com/p/Animaux-38288b48e48e80f5bdcbf000a0503cc0",
       "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
@@ -19,6 +17,8 @@
           "value": "Animaux"
         }
       },
+      "title": "Animaux",
+      "slug": "animaux",
       "content": [
         {
           "type": "heading_2",
@@ -64,8 +64,6 @@
     },
     {
       "id": "38288b48-e48e-80a2-bca3-d75dfe4df4c5",
-      "slug": "arme-a-feu",
-      "title": "Arme à feu",
       "notionUrl": "https://app.notion.com/p/Arme-feu-38288b48e48e80a2bca3d75dfe4df4c5",
       "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
@@ -74,6 +72,8 @@
           "value": "Arme à feu"
         }
       },
+      "title": "Arme à feu",
+      "slug": "arme-a-feu",
       "content": [
         {
           "type": "heading_2",
@@ -119,8 +119,6 @@
     },
     {
       "id": "38288b48-e48e-806a-b639-e5d746157dbc",
-      "slug": "artisanat",
-      "title": "Artisanat",
       "notionUrl": "https://app.notion.com/p/Artisanat-38288b48e48e806ab639e5d746157dbc",
       "lastEditedTime": "2026-07-06T11:08:00.000Z",
       "properties": {
@@ -129,6 +127,8 @@
           "value": "Artisanat"
         }
       },
+      "title": "Artisanat",
+      "slug": "artisanat",
       "content": [
         {
           "type": "heading_2",
@@ -174,8 +174,6 @@
     },
     {
       "id": "38288b48-e48e-80da-b742-f0a41524d837",
-      "slug": "athletisme",
-      "title": "Athlétisme",
       "notionUrl": "https://app.notion.com/p/Athl-tisme-38288b48e48e80dab742f0a41524d837",
       "lastEditedTime": "2026-07-12T11:51:00.000Z",
       "properties": {
@@ -184,6 +182,8 @@
           "value": "Athlétisme"
         }
       },
+      "title": "Athlétisme",
+      "slug": "athletisme",
       "content": [
         {
           "type": "heading_2",
@@ -229,8 +229,6 @@
     },
     {
       "id": "38288b48-e48e-80d4-8477-de1827d947b0",
-      "slug": "bagarre",
-      "title": "Bagarre",
       "notionUrl": "https://app.notion.com/p/Bagarre-38288b48e48e80d48477de1827d947b0",
       "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
@@ -239,6 +237,8 @@
           "value": "Bagarre"
         }
       },
+      "title": "Bagarre",
+      "slug": "bagarre",
       "content": [
         {
           "type": "heading_2",
@@ -284,8 +284,6 @@
     },
     {
       "id": "38288b48-e48e-8052-a367-edff40b22126",
-      "slug": "commandement",
-      "title": "Commandement",
       "notionUrl": "https://app.notion.com/p/Commandement-38288b48e48e8052a367edff40b22126",
       "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
@@ -294,6 +292,8 @@
           "value": "Commandement"
         }
       },
+      "title": "Commandement",
+      "slug": "commandement",
       "content": [
         {
           "type": "heading_2",
@@ -339,8 +339,6 @@
     },
     {
       "id": "38288b48-e48e-804f-b160-d205110dd76c",
-      "slug": "conduite",
-      "title": "Conduite",
       "notionUrl": "https://app.notion.com/p/Conduite-38288b48e48e804fb160d205110dd76c",
       "lastEditedTime": "2026-07-06T11:09:00.000Z",
       "properties": {
@@ -349,6 +347,8 @@
           "value": "Conduite"
         }
       },
+      "title": "Conduite",
+      "slug": "conduite",
       "content": [
         {
           "type": "heading_2",
@@ -394,8 +394,6 @@
     },
     {
       "id": "38288b48-e48e-806d-a4d0-e2f2a6ebbfeb",
-      "slug": "empathie",
-      "title": "Empathie",
       "notionUrl": "https://app.notion.com/p/Empathie-38288b48e48e806da4d0e2f2a6ebbfeb",
       "lastEditedTime": "2026-07-06T11:10:00.000Z",
       "properties": {
@@ -404,6 +402,8 @@
           "value": "Empathie"
         }
       },
+      "title": "Empathie",
+      "slug": "empathie",
       "content": [
         {
           "type": "heading_2",
@@ -449,8 +449,6 @@
     },
     {
       "id": "38288b48-e48e-80fc-9394-caf6cbb1b285",
-      "slug": "erudition",
-      "title": "Érudition",
       "notionUrl": "https://app.notion.com/p/rudition-38288b48e48e80fc9394caf6cbb1b285",
       "lastEditedTime": "2026-07-06T11:10:00.000Z",
       "properties": {
@@ -459,6 +457,8 @@
           "value": "Érudition"
         }
       },
+      "title": "Érudition",
+      "slug": "erudition",
       "content": [
         {
           "type": "heading_2",
@@ -504,8 +504,6 @@
     },
     {
       "id": "38288b48-e48e-8097-8a02-e17fae496ff2",
-      "slug": "esquive",
-      "title": "Esquive",
       "notionUrl": "https://app.notion.com/p/Esquive-38288b48e48e80978a02e17fae496ff2",
       "lastEditedTime": "2026-07-06T11:11:00.000Z",
       "properties": {
@@ -514,6 +512,8 @@
           "value": "Esquive"
         }
       },
+      "title": "Esquive",
+      "slug": "esquive",
       "content": [
         {
           "type": "heading_2",
@@ -559,8 +559,6 @@
     },
     {
       "id": "38288b48-e48e-80c7-aab4-cd76bcce0559",
-      "slug": "experience-de-la-rue",
-      "title": "Expérience de la rue",
       "notionUrl": "https://app.notion.com/p/Exp-rience-de-la-rue-38288b48e48e80c7aab4cd76bcce0559",
       "lastEditedTime": "2026-07-06T11:11:00.000Z",
       "properties": {
@@ -569,6 +567,8 @@
           "value": "Expérience de la rue"
         }
       },
+      "title": "Expérience de la rue",
+      "slug": "experience-de-la-rue",
       "content": [
         {
           "type": "heading_2",
@@ -614,8 +614,6 @@
     },
     {
       "id": "38288b48-e48e-804d-abd9-d1ea87f17ee4",
-      "slug": "furtivite",
-      "title": "Furtivité",
       "notionUrl": "https://app.notion.com/p/Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
       "lastEditedTime": "2026-07-12T12:06:00.000Z",
       "properties": {
@@ -624,6 +622,8 @@
           "value": "Furtivité"
         }
       },
+      "title": "Furtivité",
+      "slug": "furtivite",
       "content": [
         {
           "type": "heading_2",
@@ -669,8 +669,6 @@
     },
     {
       "id": "38288b48-e48e-80a5-8ff3-fb3c5d0430e5",
-      "slug": "informatique",
-      "title": "Informatique",
       "notionUrl": "https://app.notion.com/p/Informatique-38288b48e48e80a58ff3fb3c5d0430e5",
       "lastEditedTime": "2026-07-06T11:12:00.000Z",
       "properties": {
@@ -679,6 +677,8 @@
           "value": "Informatique"
         }
       },
+      "title": "Informatique",
+      "slug": "informatique",
       "content": [
         {
           "type": "heading_2",
@@ -724,8 +724,6 @@
     },
     {
       "id": "39588b48-e48e-8026-8152-dcc1f918a4e3",
-      "slug": "intimidation",
-      "title": "Intimidation",
       "notionUrl": "https://app.notion.com/p/Intimidation-39588b48e48e80268152dcc1f918a4e3",
       "lastEditedTime": "2026-07-06T11:15:00.000Z",
       "properties": {
@@ -734,6 +732,8 @@
           "value": "Intimidation"
         }
       },
+      "title": "Intimidation",
+      "slug": "intimidation",
       "content": [
         {
           "type": "heading_2",
@@ -779,8 +779,6 @@
     },
     {
       "id": "39588b48-e48e-80d0-887a-f4dd1b7720c3",
-      "slug": "investigation",
-      "title": "Investigation",
       "notionUrl": "https://app.notion.com/p/Investigation-39588b48e48e80d0887af4dd1b7720c3",
       "lastEditedTime": "2026-07-06T11:14:00.000Z",
       "properties": {
@@ -789,6 +787,8 @@
           "value": "Investigation"
         }
       },
+      "title": "Investigation",
+      "slug": "investigation",
       "content": [
         {
           "type": "heading_2",
@@ -834,8 +834,6 @@
     },
     {
       "id": "38288b48-e48e-80d8-8a29-ed936b85e70f",
-      "slug": "linguistique",
-      "title": "Linguistique",
       "notionUrl": "https://app.notion.com/p/Linguistique-38288b48e48e80d88a29ed936b85e70f",
       "lastEditedTime": "2026-07-06T11:16:00.000Z",
       "properties": {
@@ -844,6 +842,8 @@
           "value": "Linguistique"
         }
       },
+      "title": "Linguistique",
+      "slug": "linguistique",
       "content": [
         {
           "type": "heading_2",
@@ -889,8 +889,6 @@
     },
     {
       "id": "38288b48-e48e-80c5-9b45-e5e3ea0c7ecc",
-      "slug": "medecine",
-      "title": "Médecine",
       "notionUrl": "https://app.notion.com/p/M-decine-38288b48e48e80c59b45e5e3ea0c7ecc",
       "lastEditedTime": "2026-07-06T11:16:00.000Z",
       "properties": {
@@ -899,6 +897,8 @@
           "value": "Médecine"
         }
       },
+      "title": "Médecine",
+      "slug": "medecine",
       "content": [
         {
           "type": "heading_2",
@@ -944,8 +944,6 @@
     },
     {
       "id": "38288b48-e48e-8015-8344-db584fe23a49",
-      "slug": "melee",
-      "title": "Mêlée",
       "notionUrl": "https://app.notion.com/p/M-l-e-38288b48e48e80158344db584fe23a49",
       "lastEditedTime": "2026-07-12T12:02:00.000Z",
       "properties": {
@@ -954,6 +952,8 @@
           "value": "Mêlée"
         }
       },
+      "title": "Mêlée",
+      "slug": "melee",
       "content": [
         {
           "type": "heading_2",
@@ -999,8 +999,6 @@
     },
     {
       "id": "38288b48-e48e-8095-a1fc-e6f54f4f1b7c",
-      "slug": "mystere",
-      "title": "Mystère",
       "notionUrl": "https://app.notion.com/p/Myst-re-38288b48e48e8095a1fce6f54f4f1b7c",
       "lastEditedTime": "2026-07-26T13:38:00.000Z",
       "properties": {
@@ -1009,6 +1007,8 @@
           "value": "Mystère"
         }
       },
+      "title": "Mystère",
+      "slug": "mystere",
       "content": [
         {
           "type": "heading_2",
@@ -1784,8 +1784,6 @@
     },
     {
       "id": "38288b48-e48e-8076-8716-c892c55e1679",
-      "slug": "occultisme",
-      "title": "Occultisme",
       "notionUrl": "https://app.notion.com/p/Occultisme-38288b48e48e80768716c892c55e1679",
       "lastEditedTime": "2026-08-03T18:37:00.000Z",
       "properties": {
@@ -1794,6 +1792,8 @@
           "value": "Occultisme"
         }
       },
+      "title": "Occultisme",
+      "slug": "occultisme",
       "content": [
         {
           "type": "heading_2",
@@ -1839,8 +1839,6 @@
     },
     {
       "id": "38288b48-e48e-8027-a003-d0833c92301e",
-      "slug": "representation",
-      "title": "Représentation",
       "notionUrl": "https://app.notion.com/p/Repr-sentation-38288b48e48e8027a003d0833c92301e",
       "lastEditedTime": "2026-07-06T11:17:00.000Z",
       "properties": {
@@ -1849,6 +1847,8 @@
           "value": "Représentation"
         }
       },
+      "title": "Représentation",
+      "slug": "representation",
       "content": [
         {
           "type": "heading_2",
@@ -1894,8 +1894,6 @@
     },
     {
       "id": "38288b48-e48e-80af-bc5e-dec6f5d16dc0",
-      "slug": "sciences",
-      "title": "Sciences",
       "notionUrl": "https://app.notion.com/p/Sciences-38288b48e48e80afbc5edec6f5d16dc0",
       "lastEditedTime": "2026-08-03T21:08:00.000Z",
       "properties": {
@@ -1904,6 +1902,8 @@
           "value": "Sciences"
         }
       },
+      "title": "Sciences",
+      "slug": "sciences",
       "content": [
         {
           "type": "heading_2",
@@ -1977,8 +1977,6 @@
     },
     {
       "id": "38288b48-e48e-80b4-91c8-f4e3f5041a20",
-      "slug": "securite",
-      "title": "Sécurité",
       "notionUrl": "https://app.notion.com/p/S-curit-38288b48e48e80b491c8f4e3f5041a20",
       "lastEditedTime": "2026-08-03T18:37:00.000Z",
       "properties": {
@@ -1987,6 +1985,8 @@
           "value": "Sécurité"
         }
       },
+      "title": "Sécurité",
+      "slug": "securite",
       "content": [
         {
           "type": "heading_2",
@@ -2032,8 +2032,6 @@
     },
     {
       "id": "38288b48-e48e-8028-ae16-d9f8e3641512",
-      "slug": "subterfuge",
-      "title": "Subterfuge",
       "notionUrl": "https://app.notion.com/p/Subterfuge-38288b48e48e8028ae16d9f8e3641512",
       "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
@@ -2042,6 +2040,8 @@
           "value": "Subterfuge"
         }
       },
+      "title": "Subterfuge",
+      "slug": "subterfuge",
       "content": [
         {
           "type": "heading_2",
@@ -2087,8 +2087,6 @@
     },
     {
       "id": "38288b48-e48e-804f-8696-f858a277484f",
-      "slug": "survie",
-      "title": "Survie",
       "notionUrl": "https://app.notion.com/p/Survie-38288b48e48e804f8696f858a277484f",
       "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
@@ -2097,6 +2095,8 @@
           "value": "Survie"
         }
       },
+      "title": "Survie",
+      "slug": "survie",
       "content": [
         {
           "type": "heading_2",
@@ -2142,8 +2142,6 @@
     },
     {
       "id": "38288b48-e48e-807a-aa5d-d9b861343244",
-      "slug": "vigilance",
-      "title": "Vigilance",
       "notionUrl": "https://app.notion.com/p/Vigilance-38288b48e48e807aaa5dd9b861343244",
       "lastEditedTime": "2026-07-06T11:18:00.000Z",
       "properties": {
@@ -2152,6 +2150,8 @@
           "value": "Vigilance"
         }
       },
+      "title": "Vigilance",
+      "slug": "vigilance",
       "content": [
         {
           "type": "heading_2",

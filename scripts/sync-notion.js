@@ -104,8 +104,15 @@ async function listBlockChildren(blockId) {
   return results;
 }
 
-async function normalizePage(page) {
-  const blocks = await listBlockChildren(page.id);
+// Propriétés/titre/slug : déjà inclus dans la réponse de `queryDatabase`,
+// donc sans coût d'appel API supplémentaire. Recalculés à chaque sync, que
+// la fiche soit considérée "inchangée" ou non (voir `fetchCollectionItems`)
+// car `page.last_edited_time` n'est pas un signal fiable pour elles : Notion
+// ne le met pas à jour quand une relation change côté opposé (ex. on édite
+// le champ "Lignées" d'un Atout, qui doit se répercuter sur le champ
+// "Atouts" de la Lignée visée), donc s'y fier ferait resservir des valeurs
+// de relation périmées.
+function normalizePageMeta(page) {
   const properties = normalizeProperties(page.properties);
   const title = findTitle(page.properties);
 
@@ -113,17 +120,16 @@ async function normalizePage(page) {
     properties.Slug?.value ||
     slugify(title);
 
-  const content = (await Promise.all(blocks.map((block) => blockToContent(block)))).filter(Boolean);
+  return { properties, title, slug };
+}
 
-  return {
-    id: page.id,
-    slug,
-    title,
-    notionUrl: page.url,
-    lastEditedTime: page.last_edited_time,
-    properties,
-    content
-  };
+// Contenu (blocs) : seule partie encore raisonnable à mettre en cache, car
+// son coût (un appel `/blocks/{id}/children` par fiche) est bien réel et
+// `last_edited_time` reste un signal fiable pour elle (un changement de
+// contenu ne peut venir que d'une édition directe de la fiche).
+async function normalizePageContent(page) {
+  const blocks = await listBlockChildren(page.id);
+  return (await Promise.all(blocks.map((block) => blockToContent(block)))).filter(Boolean);
 }
 
 async function fetchDatabase(databaseId) {
@@ -179,22 +185,33 @@ async function fetchCollectionItems(collection) {
   const unchangedIds = [];
 
   const items = await Promise.all(
-    pages.map((page) => {
+    pages.map(async (page) => {
       const cached = cache.get(page.id);
+      const meta = normalizePageMeta(page);
 
       if (cached && cached.lastEditedTime === page.last_edited_time) {
         unchangedIds.push(page.id);
-        return cached.item;
+        return { ...cached.item, ...meta, notionUrl: page.url };
       }
 
       (cached ? modifiedIds : addedIds).push(page.id);
-      return normalizePage(page);
+      const content = await normalizePageContent(page);
+
+      return {
+        id: page.id,
+        notionUrl: page.url,
+        lastEditedTime: page.last_edited_time,
+        ...meta,
+        content
+      };
     })
   );
 
   // Écrit avant toute résolution de relations/liens (qui mute les fiches en
-  // place plus tard dans `main`) : le cache doit garder la forme brute de
-  // `normalizePage`, seule réutilisable telle quelle au prochain sync.
+  // place plus tard dans `main`) : le cache garde la forme brute (dont le
+  // `content`, seule partie réutilisable telle quelle au prochain sync ; les
+  // propriétés sont, elles, toujours recalculées à partir de `page.properties`
+  // fraîchement récupéré, cf. `normalizePageMeta`).
   const nextCache = pages.map((page, index) => [page.id, { lastEditedTime: page.last_edited_time, item: items[index] }]);
   await saveCache(collection.key, database.last_edited_time, nextCache);
 

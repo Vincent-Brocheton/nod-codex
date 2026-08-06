@@ -9,12 +9,14 @@ const cacheDir = path.join(rootDir, "scripts", ".cache");
 // nouveau champ sur les blocs de contenu) : un cache d'une version
 // différente est ignoré (resync complet une fois), pour ne jamais resservir
 // une fiche dont la structure ne correspond plus à ce qu'attend le script.
-const CACHE_VERSION = 2;
+const CACHE_VERSION = 3;
 
 /**
- * Cache local (non versionné dans git) du résultat brut de `normalizePage`
- * par fiche, pour éviter de re-télécharger le contenu (blocs) des fiches
- * inchangées d'un sync à l'autre. Indexé par id de page Notion, avec le
+ * Cache local (non versionné dans git) du résultat brut par fiche, pour
+ * éviter de re-télécharger le contenu (blocs) des fiches inchangées d'un
+ * sync à l'autre — les propriétés, elles, ne sont jamais servies depuis ce
+ * cache (voir `normalizePageMeta` dans sync-notion.js). Indexé par id de
+ * page Notion, avec le
  * `last_edited_time` observé au moment de la mise en cache : une entrée
  * n'est réutilisable que si ce timestamp n'a pas bougé depuis.
  *

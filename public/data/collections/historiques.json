@@ -4,13 +4,11 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-06T12:11:25.916Z",
+  "generatedAt": "2026-08-06T12:44:26.259Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39b88b48-e48e-8094-81ae-f701b5042562",
-      "slug": "allies",
-      "title": "Alliés",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
       "lastEditedTime": "2026-08-04T07:11:00.000Z",
       "properties": {
@@ -19,6 +17,8 @@
           "value": "Alliés"
         }
       },
+      "title": "Alliés",
+      "slug": "allies",
       "content": [
         {
           "type": "paragraph",
@@ -2576,8 +2576,6 @@
     },
     {
       "id": "39b88b48-e48e-8071-9305-cf1c617afd85",
-      "slug": "fausse-identite",
-      "title": "Fausse Identité",
       "notionUrl": "https://app.notion.com/p/Fausse-Identit-39b88b48e48e80719305cf1c617afd85",
       "lastEditedTime": "2026-08-04T08:05:00.000Z",
       "properties": {
@@ -2586,6 +2584,8 @@
           "value": "Fausse Identité"
         }
       },
+      "title": "Fausse Identité",
+      "slug": "fausse-identite",
       "content": [
         {
           "type": "paragraph",
@@ -3011,8 +3011,6 @@
     },
     {
       "id": "39b88b48-e48e-8039-bad8-c38d39db26a4",
-      "slug": "generation",
-      "title": "Génération",
       "notionUrl": "https://app.notion.com/p/G-n-ration-39b88b48e48e8039bad8c38d39db26a4",
       "lastEditedTime": "2026-07-12T12:34:00.000Z",
       "properties": {
@@ -3021,6 +3019,8 @@
           "value": "Génération"
         }
       },
+      "title": "Génération",
+      "slug": "generation",
       "content": [
         {
           "type": "paragraph",
@@ -4374,8 +4374,6 @@
     },
     {
       "id": "39b88b48-e48e-80d8-a571-c35c900f934c",
-      "slug": "havre",
-      "title": "Havre",
       "notionUrl": "https://app.notion.com/p/Havre-39b88b48e48e80d8a571c35c900f934c",
       "lastEditedTime": "2026-07-12T12:39:00.000Z",
       "properties": {
@@ -4384,6 +4382,8 @@
           "value": "Havre"
         }
       },
+      "title": "Havre",
+      "slug": "havre",
       "content": [
         {
           "type": "paragraph",
@@ -4915,8 +4915,6 @@
     },
     {
       "id": "39b88b48-e48e-8081-ab3d-e3d460b94fc8",
-      "slug": "renommee",
-      "title": "Renommée",
       "notionUrl": "https://app.notion.com/p/Renomm-e-39b88b48e48e8081ab3de3d460b94fc8",
       "lastEditedTime": "2026-08-03T18:36:00.000Z",
       "properties": {
@@ -4925,6 +4923,8 @@
           "value": "Renommée"
         }
       },
+      "title": "Renommée",
+      "slug": "renommee",
       "content": [
         {
           "type": "paragraph",
@@ -5086,8 +5086,6 @@
     },
     {
       "id": "39b88b48-e48e-809b-a056-f1fb261ceb8d",
-      "slug": "ressources",
-      "title": "Ressources",
       "notionUrl": "https://app.notion.com/p/Ressources-39b88b48e48e809ba056f1fb261ceb8d",
       "lastEditedTime": "2026-07-12T12:57:00.000Z",
       "properties": {
@@ -5096,6 +5094,8 @@
           "value": "Ressources"
         }
       },
+      "title": "Ressources",
+      "slug": "ressources",
       "content": [
         {
           "type": "paragraph",
@@ -5649,8 +5649,6 @@
     },
     {
       "id": "39b88b48-e48e-8095-957b-de71ddd13735",
-      "slug": "serviteurs",
-      "title": "Serviteurs",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
       "lastEditedTime": "2026-07-26T13:47:00.000Z",
       "properties": {
@@ -5659,6 +5657,8 @@
           "value": "Serviteurs"
         }
       },
+      "title": "Serviteurs",
+      "slug": "serviteurs",
       "content": [
         {
           "type": "paragraph",
@@ -6878,8 +6878,6 @@
     },
     {
       "id": "39b88b48-e48e-8053-9f76-ed5fbd4c21e7",
-      "slug": "troupeau",
-      "title": "Troupeau",
       "notionUrl": "https://app.notion.com/p/Troupeau-39b88b48e48e80539f76ed5fbd4c21e7",
       "lastEditedTime": "2026-07-12T12:40:00.000Z",
       "properties": {
@@ -6888,6 +6886,8 @@
           "value": "Troupeau"
         }
       },
+      "title": "Troupeau",
+      "slug": "troupeau",
       "content": [
         {
           "type": "paragraph",

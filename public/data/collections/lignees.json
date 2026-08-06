@@ -4,13 +4,11 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-06T12:11:25.886Z",
+  "generatedAt": "2026-08-06T12:44:26.228Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39588b48-e48e-800d-9846-c61bda685c85",
-      "slug": "ananke",
-      "title": "Ananke",
       "notionUrl": "https://app.notion.com/p/Ananke-39588b48e48e800d9846c61bda685c85",
       "lastEditedTime": "2026-07-07T11:34:00.000Z",
       "properties": {
@@ -183,6 +181,8 @@
           "value": "Ananke"
         }
       },
+      "title": "Ananke",
+      "slug": "ananke",
       "content": [
         {
           "type": "heading_2",
@@ -420,8 +420,6 @@
     },
     {
       "id": "39588b48-e48e-8089-add2-c082b0f8e0c3",
-      "slug": "chevalier-de-la-lune",
-      "title": "Chevalier de la Lune",
       "notionUrl": "https://app.notion.com/p/Chevalier-de-la-Lune-39588b48e48e8089add2c082b0f8e0c3",
       "lastEditedTime": "2026-07-07T11:34:00.000Z",
       "properties": {
@@ -586,6 +584,8 @@
           "value": "Chevalier de la Lune"
         }
       },
+      "title": "Chevalier de la Lune",
+      "slug": "chevalier-de-la-lune",
       "content": [
         {
           "type": "heading_2",
@@ -801,8 +801,6 @@
     },
     {
       "id": "39588b48-e48e-80d9-b2da-de128f1618cd",
-      "slug": "croise",
-      "title": "Croisé",
       "notionUrl": "https://app.notion.com/p/Crois-39588b48e48e80d9b2dade128f1618cd",
       "lastEditedTime": "2026-07-26T13:40:00.000Z",
       "properties": {
@@ -975,6 +973,8 @@
           "value": "Croisé"
         }
       },
+      "title": "Croisé",
+      "slug": "croise",
       "content": [
         {
           "type": "heading_2",
@@ -1196,10 +1196,8 @@
     },
     {
       "id": "3b288b48-e48e-8039-b769-cda159a60a3d",
-      "slug": "de-la-cour-doree-d-asie-du-sud-est",
-      "title": "De la Cour Dorée d’Asie du Sud-Est",
       "notionUrl": "https://app.notion.com/p/De-la-Cour-Dor-e-d-Asie-du-Sud-Est-3b288b48e48e8039b769cda159a60a3d",
-      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "lastEditedTime": "2026-08-06T12:22:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1330,6 +1328,30 @@
               "cout": "1",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "volonte-de-vaincre",
+              "title": "Volonté de vaincre",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "elementaire-fortifie",
+              "title": "Elémentaire fortifié",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1338,6 +1360,8 @@
           "value": "De la Cour Dorée d’Asie du Sud-Est"
         }
       },
+      "title": "De la Cour Dorée d’Asie du Sud-Est",
+      "slug": "de-la-cour-doree-d-asie-du-sud-est",
       "content": [
         {
           "type": "heading_2",
@@ -1363,10 +1387,8 @@
     },
     {
       "id": "3b288b48-e48e-80a8-a092-d90074c88bb5",
-      "slug": "de-la-cour-du-tonnerre-infini-d-inde",
-      "title": "De la Cour du Tonnerre Infini d'Inde",
       "notionUrl": "https://app.notion.com/p/De-la-Cour-du-Tonnerre-Infini-d-Inde-3b288b48e48e80a8a092d90074c88bb5",
-      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "lastEditedTime": "2026-08-06T12:22:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1497,6 +1519,38 @@
               "cout": "1",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "entoure-d-un-reseau",
+              "title": "Entouré d'un réseau",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "visions-d-anthelios",
+              "title": "Visions d'Anthélios",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1505,6 +1559,8 @@
           "value": "De la Cour du Tonnerre Infini d'Inde"
         }
       },
+      "title": "De la Cour du Tonnerre Infini d'Inde",
+      "slug": "de-la-cour-du-tonnerre-infini-d-inde",
       "content": [
         {
           "type": "heading_2",
@@ -1530,10 +1586,8 @@
     },
     {
       "id": "3b288b48-e48e-8004-87ed-f73917b5c33f",
-      "slug": "de-la-cour-verte-de-coree",
-      "title": "De la Cour Verte de Corée",
       "notionUrl": "https://app.notion.com/p/De-la-Cour-Verte-de-Cor-e-3b288b48e48e800487edf73917b5c33f",
-      "lastEditedTime": "2026-08-04T14:00:00.000Z",
+      "lastEditedTime": "2026-08-06T12:22:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1664,6 +1718,38 @@
               "cout": "1",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "elementaire-necrotique",
+              "title": "Elémentaire Nécrotique",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "breloques-mortuaires",
+              "title": "Breloques mortuaires",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -1672,6 +1758,8 @@
           "value": "De la Cour Verte de Corée"
         }
       },
+      "title": "De la Cour Verte de Corée",
+      "slug": "de-la-cour-verte-de-coree",
       "content": [
         {
           "type": "heading_2",
@@ -1717,8 +1805,6 @@
     },
     {
       "id": "3b188b48-e48e-8096-8d24-f5efbf40c403",
-      "slug": "guerrier",
-      "title": "Guerrier",
       "notionUrl": "https://app.notion.com/p/Guerrier-3b188b48e48e80968d24f5efbf40c403",
       "lastEditedTime": "2026-08-03T20:22:00.000Z",
       "properties": {
@@ -1728,7 +1814,32 @@
         },
         "Handicaps": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-caste",
+              "title": "Double Caste",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "sang-dilue",
+              "title": "Sang Dilué",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "intact",
+              "title": "Intact",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Visible": {
           "type": "checkbox",
@@ -1834,6 +1945,8 @@
           "value": "Guerrier"
         }
       },
+      "title": "Guerrier",
+      "slug": "guerrier",
       "content": [
         {
           "type": "heading_2",
@@ -1963,8 +2076,6 @@
     },
     {
       "id": "39388b48-e48e-8041-ab7a-eea663f2f5c1",
-      "slug": "sorcier",
-      "title": "Sorcier",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
       "lastEditedTime": "2026-07-19T18:48:00.000Z",
       "properties": {
@@ -2145,6 +2256,8 @@
           "value": "Sorcier"
         }
       },
+      "title": "Sorcier",
+      "slug": "sorcier",
       "content": [
         {
           "type": "heading_2",
@@ -2274,8 +2387,6 @@
     },
     {
       "id": "39588b48-e48e-8068-ac17-fcf6689b8353",
-      "slug": "tlacique",
-      "title": "Tlacique",
       "notionUrl": "https://app.notion.com/p/Tlacique-39588b48e48e8068ac17fcf6689b8353",
       "lastEditedTime": "2026-07-07T10:51:00.000Z",
       "properties": {
@@ -2424,6 +2535,8 @@
           "value": "Tlacique"
         }
       },
+      "title": "Tlacique",
+      "slug": "tlacique",
       "content": [
         {
           "type": "heading_2",
@@ -2577,8 +2690,6 @@
     },
     {
       "id": "39588b48-e48e-80f4-afd3-f91a1ea50727",
-      "slug": "vipere",
-      "title": "Vipère",
       "notionUrl": "https://app.notion.com/p/Vip-re-39588b48e48e80f4afd3f91a1ea50727",
       "lastEditedTime": "2026-07-07T10:51:00.000Z",
       "properties": {
@@ -2751,6 +2862,8 @@
           "value": "Vipère"
         }
       },
+      "title": "Vipère",
+      "slug": "vipere",
       "content": [
         {
           "type": "heading_2",

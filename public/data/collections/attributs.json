@@ -4,13 +4,11 @@
   "group": "Attributs et Compétences",
   "description": "Les attributs de base de votre personnage",
   "notionDatabaseId": "38188b48-e48e-8055-9c50-ce87cf7642a3",
-  "generatedAt": "2026-08-06T12:11:25.902Z",
+  "generatedAt": "2026-08-06T12:44:26.247Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "38188b48-e48e-8019-9e06-e16a9b966f28",
-      "slug": "mental",
-      "title": "Mental",
       "notionUrl": "https://app.notion.com/p/Mental-38188b48e48e80199e06e16a9b966f28",
       "lastEditedTime": "2026-08-01T14:29:00.000Z",
       "properties": {
@@ -19,6 +17,8 @@
           "value": "Mental"
         }
       },
+      "title": "Mental",
+      "slug": "mental",
       "content": [
         {
           "type": "heading_3",
@@ -198,8 +198,6 @@
     },
     {
       "id": "38188b48-e48e-80a9-a896-c28b0ea8e401",
-      "slug": "physique",
-      "title": "Physique",
       "notionUrl": "https://app.notion.com/p/Physique-38188b48e48e80a9a896c28b0ea8e401",
       "lastEditedTime": "2026-06-17T10:41:00.000Z",
       "properties": {
@@ -208,6 +206,8 @@
           "value": "Physique"
         }
       },
+      "title": "Physique",
+      "slug": "physique",
       "content": [
         {
           "type": "heading_3",
@@ -491,8 +491,6 @@
     },
     {
       "id": "38188b48-e48e-80df-a01b-e5c5054378d3",
-      "slug": "social",
-      "title": "Social",
       "notionUrl": "https://app.notion.com/p/Social-38188b48e48e80dfa01be5c5054378d3",
       "lastEditedTime": "2026-06-17T10:41:00.000Z",
       "properties": {
@@ -501,6 +499,8 @@
           "value": "Social"
         }
       },
+      "title": "Social",
+      "slug": "social",
       "content": [
         {
           "type": "heading_3",

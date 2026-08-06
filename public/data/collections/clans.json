@@ -4,13 +4,11 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-06T12:11:25.884Z",
+  "generatedAt": "2026-08-06T12:44:26.226Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "38f88b48-e48e-8083-882e-fe263e4e7ae4",
-      "slug": "assamites",
-      "title": "Assamites",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
       "lastEditedTime": "2026-08-03T20:34:00.000Z",
       "properties": {
@@ -126,6 +124,22 @@
               "cout": "3",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-sorcier",
+              "title": "Lignée : Sorcier",
+              "cout": "4",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-guerrier",
+              "title": "Lignée : Guerrier",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -163,6 +177,8 @@
           "value": "Assamites"
         }
       },
+      "title": "Assamites",
+      "slug": "assamites",
       "content": [
         {
           "type": "heading_2",
@@ -492,8 +508,6 @@
     },
     {
       "id": "39388b48-e48e-8012-a4d0-f789e9f94d47",
-      "slug": "brujah",
-      "title": "Brujah",
       "notionUrl": "https://app.notion.com/p/Brujah-39388b48e48e8012a4d0f789e9f94d47",
       "lastEditedTime": "2026-07-22T14:49:00.000Z",
       "properties": {
@@ -645,6 +659,8 @@
           "value": "Brujah"
         }
       },
+      "title": "Brujah",
+      "slug": "brujah",
       "content": [
         {
           "type": "heading_2",
@@ -840,8 +856,6 @@
     },
     {
       "id": "39388b48-e48e-8078-8c8b-de632bfd877e",
-      "slug": "caitiff",
-      "title": "Caitiff",
       "notionUrl": "https://app.notion.com/p/Caitiff-39388b48e48e80788c8bde632bfd877e",
       "lastEditedTime": "2026-07-22T14:49:00.000Z",
       "properties": {
@@ -1025,6 +1039,8 @@
           "value": "Caitiff"
         }
       },
+      "title": "Caitiff",
+      "slug": "caitiff",
       "content": [
         {
           "type": "heading_2",
@@ -1192,8 +1208,6 @@
     },
     {
       "id": "39388b48-e48e-8038-be5b-dbf240066a35",
-      "slug": "giovanni",
-      "title": "Giovanni",
       "notionUrl": "https://app.notion.com/p/Giovanni-39388b48e48e8038be5bdbf240066a35",
       "lastEditedTime": "2026-07-22T14:49:00.000Z",
       "properties": {
@@ -1345,6 +1359,8 @@
           "value": "Giovanni"
         }
       },
+      "title": "Giovanni",
+      "slug": "giovanni",
       "content": [
         {
           "type": "heading_2",
@@ -1522,8 +1538,6 @@
     },
     {
       "id": "39388b48-e48e-8036-b45f-dcff0d7575c5",
-      "slug": "kuei-jin",
-      "title": "Kuei-Jin",
       "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
       "lastEditedTime": "2026-08-06T11:06:00.000Z",
       "properties": {
@@ -1740,6 +1754,8 @@
           "value": "Kuei-Jin"
         }
       },
+      "title": "Kuei-Jin",
+      "slug": "kuei-jin",
       "content": [
         {
           "type": "heading_2",
@@ -1981,8 +1997,6 @@
     },
     {
       "id": "39388b48-e48e-80fe-9a2a-dbf1aa7f1c2e",
-      "slug": "lasombra",
-      "title": "Lasombra",
       "notionUrl": "https://app.notion.com/p/Lasombra-39388b48e48e80fe9a2adbf1aa7f1c2e",
       "lastEditedTime": "2026-07-30T22:19:00.000Z",
       "properties": {
@@ -2126,6 +2140,8 @@
           "value": "Lasombra"
         }
       },
+      "title": "Lasombra",
+      "slug": "lasombra",
       "content": [
         {
           "type": "heading_2",
@@ -2325,8 +2341,6 @@
     },
     {
       "id": "39088b48-e48e-8067-8798-d933c5240fbc",
-      "slug": "malkavien",
-      "title": "Malkavien",
       "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
       "lastEditedTime": "2026-07-22T15:02:00.000Z",
       "properties": {
@@ -2503,6 +2517,8 @@
           "value": "Malkavien"
         }
       },
+      "title": "Malkavien",
+      "slug": "malkavien",
       "content": [
         {
           "type": "heading_2",
@@ -2700,8 +2716,6 @@
     },
     {
       "id": "39388b48-e48e-8015-a98b-f6ff61cf19c4",
-      "slug": "nosferatu",
-      "title": "Nosfératu",
       "notionUrl": "https://app.notion.com/p/Nosf-ratu-39388b48e48e8015a98bf6ff61cf19c4",
       "lastEditedTime": "2026-07-30T22:19:00.000Z",
       "properties": {
@@ -2853,6 +2867,8 @@
           "value": "Nosfératu"
         }
       },
+      "title": "Nosfératu",
+      "slug": "nosferatu",
       "content": [
         {
           "type": "heading_2",
@@ -3048,8 +3064,6 @@
     },
     {
       "id": "39388b48-e48e-80d7-beef-fcf179f7022b",
-      "slug": "setite",
-      "title": "Setite",
       "notionUrl": "https://app.notion.com/p/Setite-39388b48e48e80d7beeffcf179f7022b",
       "lastEditedTime": "2026-07-22T14:50:00.000Z",
       "properties": {
@@ -3226,6 +3240,8 @@
           "value": "Setite"
         }
       },
+      "title": "Setite",
+      "slug": "setite",
       "content": [
         {
           "type": "heading_2",
@@ -3511,8 +3527,6 @@
     },
     {
       "id": "39088b48-e48e-806a-a6f8-dc92c296cd5d",
-      "slug": "toreador",
-      "title": "Toréador",
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
       "lastEditedTime": "2026-07-22T14:50:00.000Z",
       "properties": {
@@ -3672,6 +3686,8 @@
           "value": "Toréador"
         }
       },
+      "title": "Toréador",
+      "slug": "toreador",
       "content": [
         {
           "type": "heading_2",
@@ -3909,8 +3925,6 @@
     },
     {
       "id": "39388b48-e48e-8020-bbe9-c00213d83f59",
-      "slug": "tremere",
-      "title": "Tremere",
       "notionUrl": "https://app.notion.com/p/Tremere-39388b48e48e8020bbe9c00213d83f59",
       "lastEditedTime": "2026-07-22T15:02:00.000Z",
       "properties": {
@@ -4142,6 +4156,8 @@
           "value": "Tremere"
         }
       },
+      "title": "Tremere",
+      "slug": "tremere",
       "content": [
         {
           "type": "heading_2",
@@ -4389,8 +4405,6 @@
     },
     {
       "id": "39388b48-e48e-8075-82c1-e9bf4f4f8736",
-      "slug": "tzimices",
-      "title": "Tzimices",
       "notionUrl": "https://app.notion.com/p/Tzimices-39388b48e48e807582c1e9bf4f4f8736",
       "lastEditedTime": "2026-07-22T14:50:00.000Z",
       "properties": {
@@ -4542,6 +4556,8 @@
           "value": "Tzimices"
         }
       },
+      "title": "Tzimices",
+      "slug": "tzimices",
       "content": [
         {
           "type": "heading_2",
@@ -4789,8 +4805,6 @@
     },
     {
       "id": "39088b48-e48e-803c-aa13-c539b82a9a8e",
-      "slug": "ventrue",
-      "title": "Ventrue",
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
       "lastEditedTime": "2026-07-26T13:37:00.000Z",
       "properties": {
@@ -4814,6 +4828,14 @@
               "slug": "suiveur",
               "title": "Suiveur",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "vieux-jeu",
+              "title": "Vieux jeu",
+              "cout": "1",
               "approbation": false,
               "complet": false
             }
@@ -4943,6 +4965,8 @@
           "value": "Ventrue"
         }
       },
+      "title": "Ventrue",
+      "slug": "ventrue",
       "content": [
         {
           "type": "heading_2",
