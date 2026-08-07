@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-06T12:44:26.226Z",
+  "generatedAt": "2026-08-07T13:23:05.695Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1539,7 +1539,7 @@
     {
       "id": "39388b48-e48e-8036-b45f-dcff0d7575c5",
       "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
-      "lastEditedTime": "2026-08-06T11:06:00.000Z",
+      "lastEditedTime": "2026-08-07T13:11:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -1905,40 +1905,60 @@
         },
         {
           "type": "paragraph",
-          "text": "L’Élémentaire en question devient un Serviteur de niveau 1, il pourra-t-être améliorer en dépensant de l’XP dans son amélioration comme pour n’importe quel autre serviteur.",
+          "text": "L'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de voie mais ne peut apprendre aucune spécialisation. Son niveau servira a déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
           "spans": [
             {
-              "text": "L’Élémentaire en question devient un Serviteur de niveau 1, il pourra-t-être améliorer en dépensant de l’XP dans son amélioration comme pour n’importe quel autre serviteur.",
+              "text": "L'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de voie mais ne peut apprendre aucune spécialisation. Son niveau servira a déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "De manière générale, a partir du niveau 3 dans une voie, l’élémentaire devient assez tangible pour se joindre aux combats. Sauf mention contraire.",
+          "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci à un effet passif :",
           "spans": [
             {
-              "text": "De manière générale, a partir du niveau 3 dans une voie, l’élémentaire devient assez tangible pour se joindre aux combats. Sauf mention contraire.",
+              "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci à un effet passif :",
               "bold": false
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "La santé d’un Élémentaire est égale à son niveau de serviteur.",
+          "type": "bulleted_list_item",
+          "text": "Feu : l’Élémentaire change 1 dégât normal qu’il inflige en 1 dégât aggravé",
           "spans": [
             {
-              "text": "La santé d’un Élémentaire est égale à son niveau de serviteur.",
+              "text": "Feu : l’Élémentaire change 1 dégât normal qu’il inflige en 1 dégât aggravé",
               "bold": false
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Le Physique et Mental de l’Élémentaire est égale à ceux de l’élémentaliste.",
+          "type": "bulleted_list_item",
+          "text": "Terre : l’Élémentaire encaisse 1 dégât normal / tour",
           "spans": [
             {
-              "text": "Le Physique et Mental de l’Élémentaire est égale à ceux de l’élémentaliste.",
+              "text": "Terre : l’Élémentaire encaisse 1 dégât normal / tour",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Eau : l’Élémentaire repousse d'1 pas un ennemi en l’attaquant",
+          "spans": [
+            {
+              "text": "Eau : l’Élémentaire repousse d'1 pas un ennemi en l’attaquant",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Air : l’Élémentaire se déplace d'1 pas en plus lors de son mouvement",
+          "spans": [
+            {
+              "text": "Air : l’Élémentaire se déplace d'1 pas en plus lors de son mouvement",
               "bold": false
             }
           ]

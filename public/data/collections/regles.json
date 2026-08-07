@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-06T12:44:26.248Z",
+  "generatedAt": "2026-08-07T13:23:05.722Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -13270,7 +13270,7 @@
     {
       "id": "3a688b48-e48e-8026-af18-d9821956e445",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-07T13:08:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -13356,6 +13356,26 @@
               "Racheter un Handicap",
               "2XP x le nombre de points que celui ci a couté"
             ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attention : Les règles des Atouts s’appliquent également après la création de personnage. Vous ne pouvez en aucun cas dépasser les 7 points d’Atouts a moins d’en oublier afin de n’avoir qu’un maximum de 7 points. ",
+          "spans": [
+            {
+              "text": "Attention : Les règles des Atouts s’appliquent également après la création de personnage. Vous ne pouvez en aucun cas dépasser les 7 points d’Atouts a moins d’en oublier afin de n’avoir qu’un maximum de 7 points. ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, si pendant le jeu, des atouts venait à être ajouté ou des handicaps retiré, il faut que cela soit justifié RP. Par exemple, un personnage avec le handicaps “Archaïque” pourrait se le voir retirer en dépensant de l’XP si celui ci passe assez de temps entouré d’objet moderne et a essayer de les utiliser.",
+          "spans": [
+            {
+              "text": "De plus, si pendant le jeu, des atouts venait à être ajouté ou des handicaps retiré, il faut que cela soit justifié RP. Par exemple, un personnage avec le handicaps “Archaïque” pourrait se le voir retirer en dépensant de l’XP si celui ci passe assez de temps entouré d’objet moderne et a essayer de les utiliser.",
+              "bold": true
+            }
           ]
         },
         {
@@ -22583,7 +22603,7 @@
     {
       "id": "3ab88b48-e48e-8082-b3f0-d0f0e398c868",
       "notionUrl": "https://app.notion.com/p/Qu-tes-3ab88b48e48e8082b3f0d0f0e398c868",
-      "lastEditedTime": "2026-08-04T11:57:00.000Z",
+      "lastEditedTime": "2026-08-07T13:22:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -22823,10 +22843,10 @@
         },
         {
           "type": "paragraph",
-          "text": "2 personnages supplémentaires par niveau de Leadership du chef de quête.",
+          "text": "2 personnages supplémentaires par niveau de Commandement du chef de quête.",
           "spans": [
             {
-              "text": "2 personnages supplémentaires par niveau de Leadership du chef de quête.",
+              "text": "2 personnages supplémentaires par niveau de Commandement du chef de quête.",
               "bold": true
             }
           ]

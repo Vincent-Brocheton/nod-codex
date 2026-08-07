@@ -3,6 +3,13 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.4.1] - 2026-08-07
+
+- Précisions sur les Atouts/Handicaps : rappel de la limite de 7 points après la création de personnage, et nécessité de justifier RP tout ajout/retrait en jeu
+- Précision sur la Linguistique : la première langue connue doit être indiquée comme langue natale (ex. "Langue Natale (Français)")
+- Kuei-Jin (voie des Éléments) : refonte des règles de l'Élémentaire-Serviteur, avec un effet passif propre à chaque type (Feu, Terre, Eau, Air)
+- Correction Quêtes : "Commandement" remplace "Leadership" dans le calcul des personnages supplémentaires
+
 ## [1.4.0] - 2026-08-05
 
 - Nouvelle section "Atouts de Lieux" dans les Règles : atouts propres aux lieux (Elysium, refuges, etc.), regroupés par catégorie (Surnaturel, Iconique, Standard)

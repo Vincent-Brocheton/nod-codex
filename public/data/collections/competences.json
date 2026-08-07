@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-08-06T12:44:26.247Z",
+  "generatedAt": "2026-08-07T13:23:05.721Z",
   "propertyOptions": {},
   "items": [
     {
@@ -835,7 +835,7 @@
     {
       "id": "38288b48-e48e-80d8-8a29-ed936b85e70f",
       "notionUrl": "https://app.notion.com/p/Linguistique-38288b48e48e80d88a29ed936b85e70f",
-      "lastEditedTime": "2026-07-06T11:16:00.000Z",
+      "lastEditedTime": "2026-08-07T13:09:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -882,6 +882,16 @@
             {
               "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Grâce au don \"Don pour les langues\" il parle alors 2 langues supplémentaire par point de Linguistique en plus de sa langue maternelle.",
               "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèse de cette manière \"Langue Natale (Français)”",
+          "spans": [
+            {
+              "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèse de cette manière \"Langue Natale (Français)”",
+              "bold": true
             }
           ]
         }
