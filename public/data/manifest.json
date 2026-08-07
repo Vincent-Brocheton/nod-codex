@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T16:59:15.726Z",
+  "generatedAt": "2026-08-07T17:07:26.151Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Tests et Défis",
+      "slug": "tests-et-defis",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-08-07T17:07:00.000Z"
+    },
     {
       "title": "Vigueur",
       "slug": "vigueur",
@@ -281,15 +290,6 @@
       "path": "/atouts",
       "icon": "star",
       "lastEditedTime": "2026-08-06T10:57:00.000Z"
-    },
-    {
-      "title": "Paix intérieure",
-      "slug": "paix-interieure",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-06T10:56:00.000Z"
     }
   ]
 }

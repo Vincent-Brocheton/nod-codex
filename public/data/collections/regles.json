@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-07T16:59:15.705Z",
+  "generatedAt": "2026-08-07T17:07:26.124Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -25686,7 +25686,7 @@
     {
       "id": "39c88b48-e48e-80a7-8e9a-fea518f30485",
       "notionUrl": "https://app.notion.com/p/Tests-et-D-fis-39c88b48e48e80a78e9afea518f30485",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-07T17:07:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -26501,12 +26501,12 @@
           ]
         },
         {
-          "type": "bulleted_list_item",
-          "text": "*Note **: seul l’attaquant peut obtenir une réussite exceptionnelle. Vous pouvez en obtenir une lorsque vous tentez d’abattre un agresseur ou de séduire un videur, mais pas lorsque vous résistez à une attaque mentale ou que vous esquivez une balle.",
+          "type": "paragraph",
+          "text": "Note: seul l’attaquant peut obtenir une réussite exceptionnelle. Vous pouvez en obtenir une lorsque vous tentez d’abattre un agresseur ou de séduire un videur, mais pas lorsque vous résistez à une attaque mentale ou que vous esquivez une balle.",
           "spans": [
             {
-              "text": "*Note **: seul l’attaquant peut obtenir une réussite exceptionnelle. Vous pouvez en obtenir une lorsque vous tentez d’abattre un agresseur ou de séduire un videur, mais pas lorsque vous résistez à une attaque mentale ou que vous esquivez une balle.",
-              "bold": false
+              "text": "Note: seul l’attaquant peut obtenir une réussite exceptionnelle. Vous pouvez en obtenir une lorsque vous tentez d’abattre un agresseur ou de séduire un videur, mais pas lorsque vous résistez à une attaque mentale ou que vous esquivez une balle.",
+              "bold": true
             }
           ]
         },
