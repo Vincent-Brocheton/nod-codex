@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-07T14:24:18.479Z",
+  "generatedAt": "2026-08-07T16:59:15.685Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -70,7 +70,7 @@
     {
       "id": "39588b48-e48e-80d4-b51e-c4282d6b937b",
       "notionUrl": "https://app.notion.com/p/Addiction-39588b48e48e80d4b51ec4282d6b937b",
-      "lastEditedTime": "2026-07-09T15:48:00.000Z",
+      "lastEditedTime": "2026-08-07T16:40:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -162,31 +162,43 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Amphétamines :",
+          "text": "Amphétamines : Vous subissez une pénalité de -1 à tous les défis Mentaux ainsi qu’à tous les défis nécessitant coordination ou dextérité mentale.",
           "spans": [
             {
-              "text": "Amphétamines :",
+              "text": "Amphétamines : ",
               "bold": true
+            },
+            {
+              "text": "Vous subissez une pénalité de -1 à tous les défis Mentaux ainsi qu’à tous les défis nécessitant coordination ou dextérité mentale.",
+              "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Hallucinogènes :",
+          "text": "Hallucinogènes : Vous êtes agité et ne pouvez récupérer aucun point de Volonté pendant l’heure suivante.",
           "spans": [
             {
-              "text": "Hallucinogènes :",
+              "text": "Hallucinogènes : ",
               "bold": true
+            },
+            {
+              "text": "Vous êtes agité et ne pouvez récupérer aucun point de Volonté pendant l’heure suivante.",
+              "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Sédatifs :",
+          "text": "Sédatifs : Vous subissez une pénalité de -5 aux défis basés sur les compétences Investigation ou Vigilance.",
           "spans": [
             {
-              "text": "Sédatifs :",
+              "text": "Sédatifs : ",
               "bold": true
+            },
+            {
+              "text": "Vous subissez une pénalité de -5 aux défis basés sur les compétences Investigation ou Vigilance.",
+              "bold": false
             }
           ]
         }

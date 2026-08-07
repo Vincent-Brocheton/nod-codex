@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T14:24:18.513Z",
+  "generatedAt": "2026-08-07T16:59:15.726Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Vigueur",
+      "slug": "vigueur",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-07T16:58:00.000Z"
+    },
+    {
+      "title": "Addiction",
+      "slug": "addiction",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-07T16:40:00.000Z"
+    },
     {
       "title": "Méthode de la folie",
       "slug": "methode-de-la-folie",
@@ -272,24 +290,6 @@
       "path": "/atouts",
       "icon": "star",
       "lastEditedTime": "2026-08-06T10:56:00.000Z"
-    },
-    {
-      "title": "Voie nécromantique supplémentaire ",
-      "slug": "voie-necromantique-supplementaire",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-05T07:50:00.000Z"
-    },
-    {
-      "title": "Adversaire de l'Infernal ",
-      "slug": "adversaire-de-l-infernal",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-04T14:06:00.000Z"
     }
   ]
 }
