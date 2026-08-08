@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-07T17:07:26.151Z",
+  "generatedAt": "2026-08-08T13:50:22.228Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Étape 4 : Répartir les Attributs de départ",
+      "slug": "etape-4-repartir-les-attributs-de-depart",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/creation",
+      "icon": "user",
+      "lastEditedTime": "2026-08-08T13:49:00.000Z"
+    },
+    {
+      "title": "Commandement",
+      "slug": "commandement",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-08T13:48:00.000Z"
+    },
     {
       "title": "Tests et Défis",
       "slug": "tests-et-defis",
@@ -272,24 +290,6 @@
       "path": "/atouts",
       "icon": "star",
       "lastEditedTime": "2026-08-06T10:58:00.000Z"
-    },
-    {
-      "title": "Elémentaire Nécrotique",
-      "slug": "elementaire-necrotique",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-06T10:57:00.000Z"
-    },
-    {
-      "title": "Sang classique",
-      "slug": "sang-classique",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-06T10:57:00.000Z"
     }
   ]
 }

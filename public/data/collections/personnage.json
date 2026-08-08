@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-08-07T17:07:26.133Z",
+  "generatedAt": "2026-08-08T13:50:22.212Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1921,7 +1921,7 @@
     {
       "id": "39a88b48-e48e-80b4-af5a-e3f6928352cf",
       "notionUrl": "https://app.notion.com/p/tape-4-R-partir-les-Attributs-de-d-part-39a88b48e48e80b4af5ae3f6928352cf",
-      "lastEditedTime": "2026-07-11T15:54:00.000Z",
+      "lastEditedTime": "2026-08-08T13:49:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -2633,18 +2633,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "utiliser son Esprit et Académie pour se souvenir précisément de la disposition des objets et déterminer ce qui manque ;",
+          "text": "utiliser son Astuce et Académie pour se souvenir précisément de la disposition des objets et déterminer ce qui manque ;",
           "spans": [
             {
-              "text": "utiliser son ",
-              "bold": false
-            },
-            {
-              "text": "Esprit",
-              "bold": true
-            },
-            {
-              "text": " et ",
+              "text": "utiliser son Astuce et ",
               "bold": false
             },
             {
@@ -3267,10 +3259,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Esprit",
+          "text": "Astuce",
           "spans": [
             {
-              "text": "Esprit",
+              "text": "Astuce",
               "bold": true
             }
           ]

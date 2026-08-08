@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-07T17:07:26.079Z",
+  "generatedAt": "2026-08-08T13:50:22.170Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -4650,6 +4650,134 @@
           "spans": [
             {
               "text": "Vous pouvez effectuer Cœur des ténèbres n'importe quelle nuit du mois, et le faire sur une cible qui ne veut pas, tant qu'elle est en torpeur.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-8020-90dd-d9db22ac5147",
+      "notionUrl": "https://app.notion.com/p/Commandement-39b88b48e48e802090ddd9db22ac5147",
+      "lastEditedTime": "2026-08-08T13:48:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Intelligence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "domination",
+              "title": "Domination",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Commandement"
+        }
+      },
+      "title": "Commandement",
+      "slug": "commandement",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La supériorité est inhérente au sang, à la vitae même qui confère la non-vie au vampire. Par un mot ou un geste, vous pouvez imposer votre volonté à un individu et le forcer à obéir. Un simple mot, même dissimulé dans une phrase, peut devenir un ordre impératif. Certains vampires utilisent ce pouvoir avec subtilité, tandis que d’autres prennent plaisir à contraindre publiquement autrui à se soumettre à l’autorité de leur sang.",
+          "spans": [
+            {
+              "text": "La supériorité est inhérente au sang, à la vitae même qui confère la non-vie au vampire. Par un mot ou un geste, vous pouvez imposer votre volonté à un individu et le forcer à obéir. Un simple mot, même dissimulé dans une phrase, peut devenir un ordre impératif. Certains vampires utilisent ce pouvoir avec subtilité, tandis que d’autres prennent plaisir à contraindre publiquement autrui à se soumettre à l’autorité de leur sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour utiliser Commandement sur un individu, dépensez une action standard et prononcez un ordre simple d’un seul mot (ou effectuez un geste bref) à l’attention de votre cible. Si vous remportez un défi opposé en utilisant la réserve de test de Domination, votre personnage force sa cible à obéir à sa volonté.\nL’ordre doit être immédiat ; la cible passera son prochain tour (et un seul tour) à tenter d’obéir à votre injonction.\nCes ordres doivent être clairs et directs : cours, accepte, tombe, bâille, saute, ris, arrête, avance, hurle ou suis sont de bons exemples. La cible d’un Commandement tentera de prendre le contexte en considération. Si vous pointez une porte en ordonnant à votre victime « Sors ! », elle essaiera de quitter les lieux par cette porte précise (plutôt que d’utiliser une autre sortie ou de sauter par une fenêtre).\nUn Commandement peut être intégré dans une phrase afin de masquer l’utilisation du pouvoir, par exemple : « Je crains de devoir vous demander de quitter cette maison immédiatement ! »\nSi un Commandement est confus ou ambigu, la cible peut réagir avec moins de précision ou accomplir la tâche maladroitement, cherchant à comprendre ce qui lui a été demandé. Commandement ne prive pas votre cible de sa capacité à se défendre.",
+          "spans": [
+            {
+              "text": "Pour utiliser Commandement sur un individu, dépensez une action standard et prononcez un ordre simple d’un seul mot (ou effectuez un geste bref) à l’attention de votre cible. Si vous remportez un défi opposé en utilisant la réserve de test de Domination, votre personnage force sa cible à obéir à sa volonté.\nL’ordre doit être immédiat ; la cible passera son prochain tour (et un seul tour) à tenter d’obéir à votre injonction.\nCes ordres doivent être clairs et directs : cours, accepte, tombe, bâille, saute, ris, arrête, avance, hurle ou suis sont de bons exemples. La cible d’un Commandement tentera de prendre le contexte en considération. Si vous pointez une porte en ordonnant à votre victime « Sors ! », elle essaiera de quitter les lieux par cette porte précise (plutôt que d’utiliser une autre sortie ou de sauter par une fenêtre).\nUn Commandement peut être intégré dans une phrase afin de masquer l’utilisation du pouvoir, par exemple : « Je crains de devoir vous demander de quitter cette maison immédiatement ! »\nSi un Commandement est confus ou ambigu, la cible peut réagir avec moins de précision ou accomplir la tâche maladroitement, cherchant à comprendre ce qui lui a été demandé. Commandement ne prive pas votre cible de sa capacité à se défendre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous obtenez un succès exceptionnel en utilisant Commandement, la cible ne réalise pas qu’elle a été Dominée.\nLes mortels rationaliseront simplement leur comportement étrange. Une créature surnaturelle sera momentanément confuse et ne comprendra pas qu’elle a été forcée d’agir contre sa volonté avant un délai de trois tours après la fin du Commandement. Une fois cette confusion dissipée, une victime surnaturelle peut comprendre qu’elle a été Dominée, si les circonstances le permettent.",
+          "spans": [
+            {
+              "text": "Si vous obtenez un succès exceptionnel en utilisant Commandement, la cible ne réalise pas qu’elle a été Dominée.\nLes mortels rationaliseront simplement leur comportement étrange. Une créature surnaturelle sera momentanément confuse et ne comprendra pas qu’elle a été forcée d’agir contre sa volonté avant un délai de trois tours après la fin du Commandement. Une fois cette confusion dissipée, une victime surnaturelle peut comprendre qu’elle a été Dominée, si les circonstances le permettent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un individu ayant subi avec succès un Commandement doit suivre votre ordre pendant trois tours (au lieu d’un seul).",
+          "spans": [
+            {
+              "text": "Un individu ayant subi avec succès un Commandement doit suivre votre ordre pendant trois tours (au lieu d’un seul).",
               "bold": false
             }
           ]
@@ -18504,134 +18632,6 @@
           "spans": [
             {
               "text": "Si 2 cibles (ou plus) sont à moins de trois pas, vous pouvez les enfermer dans le même cyclone.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "39b88b48-e48e-8020-90dd-d9db22ac5147",
-      "notionUrl": "https://app.notion.com/p/Ordre-39b88b48e48e802090ddd9db22ac5147",
-      "lastEditedTime": "2026-07-12T14:37:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Intelligence"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": "Instantanée"
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 1
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "domination",
-              "title": "Domination",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 0
-        },
-        "Name": {
-          "type": "text",
-          "value": "Ordre"
-        }
-      },
-      "title": "Ordre",
-      "slug": "ordre",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "La supériorité est inhérente au sang, à la vitae même qui confère la non-vie au vampire. Par un mot ou un geste, vous pouvez imposer votre volonté à un individu et le forcer à obéir. Un simple mot, même dissimulé dans une phrase, peut devenir un ordre impératif. Certains vampires utilisent ce pouvoir avec subtilité, tandis que d’autres prennent plaisir à contraindre publiquement autrui à se soumettre à l’autorité de leur sang.",
-          "spans": [
-            {
-              "text": "La supériorité est inhérente au sang, à la vitae même qui confère la non-vie au vampire. Par un mot ou un geste, vous pouvez imposer votre volonté à un individu et le forcer à obéir. Un simple mot, même dissimulé dans une phrase, peut devenir un ordre impératif. Certains vampires utilisent ce pouvoir avec subtilité, tandis que d’autres prennent plaisir à contraindre publiquement autrui à se soumettre à l’autorité de leur sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Pour utiliser Commandement sur un individu, dépensez une action standard et prononcez un ordre simple d’un seul mot (ou effectuez un geste bref) à l’attention de votre cible. Si vous remportez un défi opposé en utilisant la réserve de test de Domination, votre personnage force sa cible à obéir à sa volonté.\nL’ordre doit être immédiat ; la cible passera son prochain tour (et un seul tour) à tenter d’obéir à votre injonction.\nCes ordres doivent être clairs et directs : cours, accepte, tombe, bâille, saute, ris, arrête, avance, hurle ou suis sont de bons exemples. La cible d’un Commandement tentera de prendre le contexte en considération. Si vous pointez une porte en ordonnant à votre victime « Sors ! », elle essaiera de quitter les lieux par cette porte précise (plutôt que d’utiliser une autre sortie ou de sauter par une fenêtre).\nUn Commandement peut être intégré dans une phrase afin de masquer l’utilisation du pouvoir, par exemple : « Je crains de devoir vous demander de quitter cette maison immédiatement ! »\nSi un Commandement est confus ou ambigu, la cible peut réagir avec moins de précision ou accomplir la tâche maladroitement, cherchant à comprendre ce qui lui a été demandé. Commandement ne prive pas votre cible de sa capacité à se défendre.",
-          "spans": [
-            {
-              "text": "Pour utiliser Commandement sur un individu, dépensez une action standard et prononcez un ordre simple d’un seul mot (ou effectuez un geste bref) à l’attention de votre cible. Si vous remportez un défi opposé en utilisant la réserve de test de Domination, votre personnage force sa cible à obéir à sa volonté.\nL’ordre doit être immédiat ; la cible passera son prochain tour (et un seul tour) à tenter d’obéir à votre injonction.\nCes ordres doivent être clairs et directs : cours, accepte, tombe, bâille, saute, ris, arrête, avance, hurle ou suis sont de bons exemples. La cible d’un Commandement tentera de prendre le contexte en considération. Si vous pointez une porte en ordonnant à votre victime « Sors ! », elle essaiera de quitter les lieux par cette porte précise (plutôt que d’utiliser une autre sortie ou de sauter par une fenêtre).\nUn Commandement peut être intégré dans une phrase afin de masquer l’utilisation du pouvoir, par exemple : « Je crains de devoir vous demander de quitter cette maison immédiatement ! »\nSi un Commandement est confus ou ambigu, la cible peut réagir avec moins de précision ou accomplir la tâche maladroitement, cherchant à comprendre ce qui lui a été demandé. Commandement ne prive pas votre cible de sa capacité à se défendre.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Réussite Critique",
-          "spans": [
-            {
-              "text": "Réussite Critique",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si vous obtenez un succès exceptionnel en utilisant Commandement, la cible ne réalise pas qu’elle a été Dominée.\nLes mortels rationaliseront simplement leur comportement étrange. Une créature surnaturelle sera momentanément confuse et ne comprendra pas qu’elle a été forcée d’agir contre sa volonté avant un délai de trois tours après la fin du Commandement. Une fois cette confusion dissipée, une victime surnaturelle peut comprendre qu’elle a été Dominée, si les circonstances le permettent.",
-          "spans": [
-            {
-              "text": "Si vous obtenez un succès exceptionnel en utilisant Commandement, la cible ne réalise pas qu’elle a été Dominée.\nLes mortels rationaliseront simplement leur comportement étrange. Une créature surnaturelle sera momentanément confuse et ne comprendra pas qu’elle a été forcée d’agir contre sa volonté avant un délai de trois tours après la fin du Commandement. Une fois cette confusion dissipée, une victime surnaturelle peut comprendre qu’elle a été Dominée, si les circonstances le permettent.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Un individu ayant subi avec succès un Commandement doit suivre votre ordre pendant trois tours (au lieu d’un seul).",
-          "spans": [
-            {
-              "text": "Un individu ayant subi avec succès un Commandement doit suivre votre ordre pendant trois tours (au lieu d’un seul).",
               "bold": false
             }
           ]
