@@ -3,6 +3,10 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.4.2] - 2026-08-09
+
+- Atouts & Handicaps (catégorie "Clan") : un atout/handicap propre au clan mais absent de toutes les fiches de lignée nommée du clan affiche désormais "Réservé à la lignée de base des XXX" (ex. certains atouts Assamites et Kuei-Jin, non disponibles aux lignées Guerrier/Sorcier ou aux Cours)
+
 ## [1.4.1] - 2026-08-07
 
 - Précisions sur les Atouts/Handicaps : rappel de la limite de 7 points après la création de personnage, et nécessité de justifier RP tout ajout/retrait en jeu

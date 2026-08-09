@@ -105,14 +105,27 @@ function highlightFieldFor(typeValue) {
 // un atout qui y figure est disponible pour tout le clan (donc rien à
 // marquer, même s'il est aussi rattaché à une lignée) ; un atout qui n'y
 // figure pas mais porte une relation Lignées est réservé à cette lignée.
-function scopeNoteFor(item, ligneeClanMap, clanAtoutsMap) {
+//
+// À l'inverse, un atout du clan qui ne porte aucune relation "Lignées" n'est
+// pas forcément ouvert aux lignées nommées du clan : côté Notion, la fiche
+// de chaque lignée reliste dans ses propres "Atouts"/"Handicaps" tous les
+// atouts génériques auxquels elle a accès. Un atout absent de TOUTES les
+// fiches de lignée du clan (`clanLigneeAtoutsMap`, nom de clan -> slugs
+// couverts par au moins une de ses lignées) n'est donc accessible qu'aux
+// personnages de la lignée de base (sans lignée nommée particulière).
+function scopeNoteFor(item, ligneeClanMap, clanAtoutsMap, clanLigneeAtoutsMap) {
     const clan = clanOf(item, ligneeClanMap);
-    if (clan && clanAtoutsMap?.get(clan)?.has(item.slug)) return null;
-
     const ligneeRef = relationRef(item, "Lignées");
-    if (ligneeRef) return `Réservé à la lignée ${ligneeRef.title}`;
 
-    if (clan) return `Réservé au clan ${clan} sans lignée`;
+    if (ligneeRef) {
+        if (clan && clanAtoutsMap?.get(clan)?.has(item.slug)) return null;
+        return `Réservé à la lignée ${ligneeRef.title}`;
+    }
+
+    if (clan && clanLigneeAtoutsMap?.has(clan)) {
+        if (clanLigneeAtoutsMap.get(clan).has(item.slug)) return null;
+        return `Réservé à la lignée de base des ${clan}`;
+    }
 
     return null;
 }
@@ -218,6 +231,29 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
         return map;
     }, [clans]);
 
+    // Nom de clan -> union des slugs listés sur les fiches "Atouts"/
+    // "Handicaps" de toutes ses lignées nommées. Une entrée existe pour un
+    // clan dès qu'il a au moins une lignée (même sans atout dedans), ce qui
+    // sert aussi à distinguer "clan sans lignée nommée" (jamais de note) de
+    // "clan avec lignées, atout absent de toutes" (voir `scopeNoteFor`).
+    const clanLigneeAtoutsMap = useMemo(() => {
+        const map = new Map();
+        (lignees?.items || []).forEach(item => {
+            const clan = relationRef(item, "Clan")?.title;
+            if (!clan) return;
+
+            const slugsOf = (key) => {
+                const property = item.properties?.[key];
+                return property?.type === "relation" ? property.value.map(ref => ref.slug) : [];
+            };
+            const set = map.get(clan) || new Set();
+            slugsOf("Atouts").forEach(slug => set.add(slug));
+            slugsOf("Handicaps").forEach(slug => set.add(slug));
+            map.set(clan, set);
+        });
+        return map;
+    }, [lignees]);
+
     return (
         <GroupedRuleView
             wiki={wiki}
@@ -232,7 +268,7 @@ export default function MeritsFlawsView({ wiki, collectionKey, groupValue }) {
             itemSort={byClanThenCoutThenAlpha(ligneeClanMap)}
             itemSubGroup={(typeValue) => subGroupFor(typeValue, ligneeClanMap)}
             itemHighlightField={highlightFieldFor}
-            itemNote={(item) => scopeNoteFor(item, ligneeClanMap, clanAtoutsMap)}
+            itemNote={(item) => scopeNoteFor(item, ligneeClanMap, clanAtoutsMap, clanLigneeAtoutsMap)}
             hideGroupedProperties
             showGroupBadge={false}
             singleItemStatFields={SINGLE_STAT_FIELDS}
