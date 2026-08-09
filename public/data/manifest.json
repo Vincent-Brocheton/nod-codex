@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-09T09:08:13.146Z",
+  "generatedAt": "2026-08-09T09:10:55.839Z",
   "collections": [
     {
       "key": "disciplines",
@@ -112,6 +112,69 @@
   ],
   "recent": [
     {
+      "title": "Voie de l’Air",
+      "slug": "voie-de-l-air",
+      "collectionKey": "disciplines",
+      "collectionLabel": "Disciplines",
+      "path": "/disciplines",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Voie de l’Eau",
+      "slug": "voie-de-l-eau",
+      "collectionKey": "disciplines",
+      "collectionLabel": "Disciplines",
+      "path": "/disciplines",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Blocage aqueux",
+      "slug": "blocage-aqueux",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Œil du cyclone",
+      "slug": "il-du-cyclone",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Protection aquatique",
+      "slug": "protection-aquatique",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Ressentir l'Eau",
+      "slug": "ressentir-l-eau",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
+      "title": "Vents violents",
+      "slug": "vents-violents",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-09T09:10:00.000Z"
+    },
+    {
       "title": "Proximité du Maelstrom",
       "slug": "proximite-du-maelstrom",
       "collectionKey": "atouts",
@@ -137,24 +200,6 @@
       "path": "/disciplines",
       "icon": "droplet",
       "lastEditedTime": "2026-08-09T09:06:00.000Z"
-    },
-    {
-      "title": "Voie de l’Air",
-      "slug": "voie-de-l-air",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-09T09:05:00.000Z"
-    },
-    {
-      "title": "Voie de l’Eau",
-      "slug": "voie-de-l-eau",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-09T09:05:00.000Z"
     },
     {
       "title": "Étape 4 : Répartir les Attributs de départ",
@@ -245,51 +290,6 @@
       "path": "/regles",
       "icon": "book-open",
       "lastEditedTime": "2026-08-07T13:08:00.000Z"
-    },
-    {
-      "title": "De la Cour Dorée d’Asie du Sud-Est",
-      "slug": "de-la-cour-doree-d-asie-du-sud-est",
-      "collectionKey": "lignees",
-      "collectionLabel": "Lignées",
-      "path": "/lignees",
-      "icon": "shield-plus",
-      "lastEditedTime": "2026-08-06T12:22:00.000Z"
-    },
-    {
-      "title": "De la Cour du Tonnerre Infini d'Inde",
-      "slug": "de-la-cour-du-tonnerre-infini-d-inde",
-      "collectionKey": "lignees",
-      "collectionLabel": "Lignées",
-      "path": "/lignees",
-      "icon": "shield-plus",
-      "lastEditedTime": "2026-08-06T12:22:00.000Z"
-    },
-    {
-      "title": "De la Cour Verte de Corée",
-      "slug": "de-la-cour-verte-de-coree",
-      "collectionKey": "lignees",
-      "collectionLabel": "Lignées",
-      "path": "/lignees",
-      "icon": "shield-plus",
-      "lastEditedTime": "2026-08-06T12:22:00.000Z"
-    },
-    {
-      "title": "Visions d'Anthélios",
-      "slug": "visions-d-anthelios",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-06T11:00:00.000Z"
-    },
-    {
-      "title": "Breloques mortuaires",
-      "slug": "breloques-mortuaires",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-06T10:59:00.000Z"
     }
   ]
 }
