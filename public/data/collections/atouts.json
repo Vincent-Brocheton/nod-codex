@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-08T13:50:22.183Z",
+  "generatedAt": "2026-08-09T09:08:13.098Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -11412,7 +11412,7 @@
     {
       "id": "3b488b48-e48e-8075-b87a-f6fdd52dc954",
       "notionUrl": "https://app.notion.com/p/Proximit-du-Maelstrom-3b488b48e48e8075b87af6fdd52dc954",
-      "lastEditedTime": "2026-08-06T11:00:00.000Z",
+      "lastEditedTime": "2026-08-09T09:07:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -11457,6 +11457,62 @@
           "spans": [
             {
               "text": "Contrairement aux jeux de cour, vous le sentez arriver : le 6e Maelstrom est déjà là. Il amène avec lui l'arrivée du 6e Âge, et l'arrivée de toutes les catastrophes dont les anciennes prophéties parlent. Le monde autour de vous s'agite, et vous savez comment y réagir.\nA chaque session de jeu, vous pouvez utiliser une action standard pour ressentir l'énergie du monde autour de vous, et toucher du doigt l'énergie du Maelstrom. Ce faisant, vous débloquez un pouvoir parmi :\nEn plus de ce pouvoir, vous ressentez le Maelstrom, et tout ce qui implique derrière... Mais c'est pour une autre fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Relâcher le cinétisme : vos 5 prochaines actions de déplacement vous permettent de vous déplacer du double de pas.",
+          "spans": [
+            {
+              "text": "Relâcher le cinétisme",
+              "bold": true
+            },
+            {
+              "text": " : vos 5 prochaines actions de déplacement vous permettent de vous déplacer du double de pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Anesthésier la douleur : Vous retirez les malus liés au passage à l'Incapacité de votre jauge de santé ou de celle d'un allié pendant les 3 prochains tours.",
+          "spans": [
+            {
+              "text": "Anesthésier la douleur",
+              "bold": true
+            },
+            {
+              "text": " : Vous retirez les malus liés au passage à l'Incapacité de votre jauge de santé ou de celle d'un allié pendant les 3 prochains tours.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Affronter le Maelstrom : Vous désignez un adversaire qui s'emplit de l'énergie du Maelstrom. Les 3 prochaines fois où cet adversaire se prend des dégâts, il perd son action simple.",
+          "spans": [
+            {
+              "text": "Affronter le Maelstrom",
+              "bold": true
+            },
+            {
+              "text": " : Vous désignez un adversaire qui s'emplit de l'énergie du Maelstrom. Les 3 prochaines fois où cet adversaire se prend des dégâts, il perd son action simple.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Sacrifier l'Elémentaire (nécessite le niveau 3 de la Voie rattachée à l'Elémentaire) : Votre Elémentaire absorbe l'énergie du Maelstrom pour devenir une bombe qui explosera dans 2 tours et infligera 3 dégâts aggravés dans un rayon de 12 pas. Votre Elémentaire reviendra 7 nuits plus tard.",
+          "spans": [
+            {
+              "text": "Sacrifier l'Elémentaire (nécessite le niveau 3 de la Voie rattachée à l'Elémentaire)",
+              "bold": true
+            },
+            {
+              "text": " : Votre Elémentaire absorbe l'énergie du Maelstrom pour devenir une bombe qui explosera dans 2 tours et infligera 3 dégâts aggravés dans un rayon de 12 pas. Votre Elémentaire reviendra 7 nuits plus tard.",
               "bold": false
             }
           ]

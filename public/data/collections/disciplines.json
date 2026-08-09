@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-08T13:50:22.166Z",
+  "generatedAt": "2026-08-09T09:08:13.079Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -28,7 +28,8 @@
       "Erudition",
       "Furtivité",
       "Volonté",
-      "Physique"
+      "Physique",
+      "Esquive"
     ],
     "Jet d'attaque": [
       "Social",
@@ -46,7 +47,8 @@
       "Athlétisme",
       "Physique",
       "Survie",
-      "Occultisme"
+      "Occultisme",
+      "Voie"
     ],
     "Spécialité 1": [
       "Astuce",
@@ -5329,7 +5331,7 @@
     {
       "id": "39388b48-e48e-8004-87b4-c071f7b82eea",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39388b48e48e800487b4c071f7b82eea",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-09T09:05:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5341,7 +5343,10 @@
         },
         "Jet de défense": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Esquive"
+          ]
         },
         "Pouvoirs": {
           "type": "relation",
@@ -5390,11 +5395,14 @@
         },
         "Jet d'attaque": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Voie"
+          ]
         },
         "Spécialité 1": {
           "type": "select",
-          "value": ""
+          "value": "Dextérité"
         },
         "Techniques": {
           "type": "relation",
@@ -5624,11 +5632,11 @@
     {
       "id": "39388b48-e48e-8035-b703-db5062698197",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39388b48e48e8035b703db5062698197",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-09T09:05:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": ""
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -5636,7 +5644,10 @@
         },
         "Jet de défense": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Esquive"
+          ]
         },
         "Pouvoirs": {
           "type": "relation",
@@ -5685,11 +5696,14 @@
         },
         "Jet d'attaque": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Voie"
+          ]
         },
         "Spécialité 1": {
           "type": "select",
-          "value": ""
+          "value": "Dextérité"
         },
         "Techniques": {
           "type": "relation",
@@ -7085,11 +7099,11 @@
     {
       "id": "39388b48-e48e-80f4-87cb-ecb95089d48b",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39388b48e48e80f487cbecb95089d48b",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-09T09:06:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": ""
+          "value": "Vigueur"
         },
         "Visible": {
           "type": "checkbox",
@@ -7097,7 +7111,10 @@
         },
         "Jet de défense": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Esquive"
+          ]
         },
         "Pouvoirs": {
           "type": "relation",
@@ -7146,11 +7163,14 @@
         },
         "Jet d'attaque": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Voie"
+          ]
         },
         "Spécialité 1": {
           "type": "select",
-          "value": ""
+          "value": "Dextérité"
         },
         "Techniques": {
           "type": "relation",
@@ -8160,7 +8180,7 @@
     {
       "id": "39388b48-e48e-80a0-a267-f68582659b1c",
       "notionUrl": "https://app.notion.com/p/Voie-du-Feu-39388b48e48e80a0a267f68582659b1c",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-09T09:06:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -8172,7 +8192,10 @@
         },
         "Jet de défense": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Esquive"
+          ]
         },
         "Pouvoirs": {
           "type": "relation",
@@ -8221,11 +8244,14 @@
         },
         "Jet d'attaque": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Physique",
+            "Voie"
+          ]
         },
         "Spécialité 1": {
           "type": "select",
-          "value": ""
+          "value": "Dextérité"
         },
         "Techniques": {
           "type": "relation",
