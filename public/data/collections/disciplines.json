@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-09T09:10:55.785Z",
+  "generatedAt": "2026-08-10T17:00:05.806Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -5083,11 +5083,11 @@
     {
       "id": "38188b48-e48e-8008-9ded-eb7c177a735c",
       "notionUrl": "https://app.notion.com/p/Vicissitude-38188b48e48e80089dedeb7c177a735c",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-10T16:57:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Vigueur"
         },
         "Visible": {
           "type": "checkbox",
@@ -5152,7 +5152,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Dextérité"
         },
         "Techniques": {
           "type": "relation",
