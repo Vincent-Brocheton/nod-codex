@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-10T17:00:05.810Z",
+  "generatedAt": "2026-08-10T17:48:45.579Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -26,7 +26,8 @@
       "3 tours",
       "5 tours",
       "1 heure",
-      "1 tour"
+      "1 tour",
+      "1 nuit"
     ],
     "Durée": [
       "1 heure",
@@ -6062,6 +6063,675 @@
       ]
     },
     {
+      "id": "3b088b48-e48e-80fa-a654-cd8beaaefedb",
+      "notionUrl": "https://app.notion.com/p/Cr-ation-sanglante-3b088b48e48e80faa654cd8beaaefedb",
+      "lastEditedTime": "2026-08-10T17:06:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Dexterité"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "1 nuit"
+        },
+        "Durée": {
+          "type": "select",
+          "value": ""
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "vicissitude",
+              "title": "Vicissitude",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 5
+        },
+        "Name": {
+          "type": "text",
+          "value": "Création sanglante"
+        }
+      },
+      "title": "Création sanglante",
+      "slug": "creation-sanglante",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire ne se contente désormais plus de transformer les corps existants.",
+          "spans": [
+            {
+              "text": "Le vampire ne se contente désormais plus de transformer les corps existants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut créer.",
+          "spans": [
+            {
+              "text": "Il peut créer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À partir d'os, de muscles, d'organes, de peau et de sang, le Tzimisce peut assembler une masse biologique et lui donner une forme cohérente. Au terme d'une nuit entière de travail, cette chose peut s'éveiller et commencer à agir comme une créature vivante.",
+          "spans": [
+            {
+              "text": "À partir d'os, de muscles, d'organes, de peau et de sang, le Tzimisce peut assembler une masse biologique et lui donner une forme cohérente. Au terme d'une nuit entière de travail, cette chose peut s'éveiller et commencer à agir comme une créature vivante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle n'est pourtant pas véritablement vivante.",
+          "spans": [
+            {
+              "text": "Elle n'est pourtant pas véritablement vivante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Création sanglante ne possède pas une âme au sens traditionnel. Elle est animée par une empreinte surnaturelle de la vitae et de la Bête de son créateur.",
+          "spans": [
+            {
+              "text": "La Création sanglante ne possède pas une âme au sens traditionnel. Elle est animée par une empreinte surnaturelle de la vitae et de la Bête de son créateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle possède des instincts, une intelligence rudimentaire et peut apprendre, mais son existence reste fondamentalement liée au vampire qui l'a façonnée.",
+          "spans": [
+            {
+              "text": "Elle possède des instincts, une intelligence rudimentaire et peut apprendre, mais son existence reste fondamentalement liée au vampire qui l'a façonnée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le vampire doit disposer d'une quantité suffisante de matière organique, dépenser 5 pts de sang et passer une nuit entière à la conception de la création.",
+          "spans": [
+            {
+              "text": "Le vampire doit disposer d'une quantité suffisante de matière organique, dépenser 5 pts de sang et passer une nuit entière à la conception de la création.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il place cette matière au centre d'un sceau tracé avec son propre sang et travaille sans interruption pendant une nuit entière.",
+          "spans": [
+            {
+              "text": "Il place cette matière au centre d'un sceau tracé avec son propre sang et travaille sans interruption pendant une nuit entière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Résultat",
+          "spans": [
+            {
+              "text": "Résultat",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Échec",
+          "spans": [
+            {
+              "text": "Échec",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La création ne survit pas.",
+          "spans": [
+            {
+              "text": "La création ne survit pas.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La majorité des matériaux employés sont inutilisables.",
+          "spans": [
+            {
+              "text": "La majorité des matériaux employés sont inutilisables.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Réussite",
+          "spans": [
+            {
+              "text": "Réussite",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La créature s'éveille et fonctionne conformément aux intentions générales de son créateur.",
+          "spans": [
+            {
+              "text": "La créature s'éveille et fonctionne conformément aux intentions générales de son créateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Échec critique",
+          "spans": [
+            {
+              "text": "Échec critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La chose s'éveille incorrectement.",
+          "spans": [
+            {
+              "text": "La chose s'éveille incorrectement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut présenter des mutations incontrôlées, une intelligence anormale, une agressivité excessive ou une indépendance inquiétante.",
+          "spans": [
+            {
+              "text": "Elle peut présenter des mutations incontrôlées, une intelligence anormale, une agressivité excessive ou une indépendance inquiétante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les conséquences exactes sont déterminées par le Conteur.",
+          "spans": [
+            {
+              "text": "Les conséquences exactes sont déterminées par le Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Construction de la créature",
+          "spans": [
+            {
+              "text": "Construction de la créature",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Création sanglante possède un nombre maximal de points à dépenser dans les modifications égal au double du score de Vicissitude de son créateur.",
+          "spans": [
+            {
+              "text": "Une Création sanglante possède un nombre maximal de points à dépenser dans les modifications égal au double du score de Vicissitude de son créateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les modifications possibles sont listé ci-après",
+          "spans": [
+            {
+              "text": "Les modifications possibles sont listé ci-après",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une Création sanglante ne peut obtenir de Discipline ou de pouvoir surnaturel simplement grâce à une modification anatomique.",
+          "spans": [
+            {
+              "text": "Une Création sanglante ne peut obtenir de Discipline ou de pouvoir surnaturel simplement grâce à une modification anatomique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Lien sanglant",
+          "spans": [
+            {
+              "text": "Lien sanglant",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La création reconnaît instinctivement son créateur.",
+          "spans": [
+            {
+              "text": "La création reconnaît instinctivement son créateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle cherche à comprendre et exécuter ses ordres et ne se retourne normalement pas volontairement contre lui.",
+          "spans": [
+            {
+              "text": "Elle cherche à comprendre et exécuter ses ordres et ne se retourne normalement pas volontairement contre lui.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle ne possède cependant pas les connaissances, souvenirs ou Disciplines de son créateur.",
+          "spans": [
+            {
+              "text": "Elle ne possède cependant pas les connaissances, souvenirs ou Disciplines de son créateur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son esprit artificiel peut être affecté par les pouvoirs mentaux capables d'affecter une créature de sa nature.",
+          "spans": [
+            {
+              "text": "Son esprit artificiel peut être affecté par les pouvoirs mentaux capables d'affecter une créature de sa nature.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Sculpture parfaite",
+          "spans": [
+            {
+              "text": "Sculpture parfaite",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La maîtrise atteinte avec Création sanglante permet également au Tzimisce de dépasser l'une des dernières limitations de sa Discipline.",
+          "spans": [
+            {
+              "text": "La maîtrise atteinte avec Création sanglante permet également au Tzimisce de dépasser l'une des dernières limitations de sa Discipline.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il peut désormais convaincre le corps d'une victime que les transformations imposées par Vicissitude constituent sa forme naturelle.",
+          "spans": [
+            {
+              "text": "Il peut désormais convaincre le corps d'une victime que les transformations imposées par Vicissitude constituent sa forme naturelle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'il travaille sur une cible pendant une scène entière avec l'assistance d'une Création sanglante, le vampire peut rendre une modification permanente.",
+          "spans": [
+            {
+              "text": "Lorsqu'il travaille sur une cible pendant une scène entière avec l'assistance d'une Création sanglante, le vampire peut rendre une modification permanente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une transformation rendue permanente de cette manière :",
+          "spans": [
+            {
+              "text": "Une transformation rendue permanente de cette manière :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peut pas être supprimée par une dépense de Sang ;",
+          "spans": [
+            {
+              "text": "ne peut pas être supprimée par une dépense de Sang ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne disparaît pas avec la régénération vampirique ;",
+          "spans": [
+            {
+              "text": "ne disparaît pas avec la régénération vampirique ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ne peut pas être supprimée par le Challenge statique de Physique normalement utilisé contre Vicissitude.",
+          "spans": [
+            {
+              "text": "ne peut pas être supprimée par le Challenge statique de Physique normalement utilisé contre Vicissitude.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut cependant être corrigée par un personnage possédant Vicissitude 5.",
+          "spans": [
+            {
+              "text": "Elle peut cependant être corrigée par un personnage possédant Vicissitude 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Des pouvoirs surnaturels particulièrement puissants capables de remodeler directement la réalité, l'âme ou la nature physique d'un individu peuvent également être capables de l'annuler, à la discrétion du Conteur.",
+          "spans": [
+            {
+              "text": "Des pouvoirs surnaturels particulièrement puissants capables de remodeler directement la réalité, l'âme ou la nature physique d'un individu peuvent également être capables de l'annuler, à la discrétion du Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Tableau des modifications",
+          "spans": [
+            {
+              "text": "Tableau des modifications",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": false,
+          "rows": [
+            [
+              "Nom",
+              "Coût",
+              "Description"
+            ],
+            [
+              "Bouche supplémentaire",
+              "1",
+              "Une seconde bouche fonctionnelle peut être créée sur le corps. Elle permet notamment de mordre ou de parler indépendamment si son anatomie le permet."
+            ],
+            [
+              "Branchies",
+              "1",
+              "La créature peut respirer sous l'eau."
+            ],
+            [
+              "Corps compact",
+              "1",
+              "La créature peut comprimer et remodeler sa structure corporelle afin de passer dans des espaces anormalement étroits pour sa taille."
+            ],
+            [
+              "Membres allongés",
+              "1",
+              "Les membres de la créature sont particulièrement longs. Elle bénéficie d'un avantage narratif pour atteindre ou saisir des objets à distance courte."
+            ],
+            [
+              "Œil supplémentaire",
+              "1",
+              "Un œil supplémentaire procure un angle de vision inhabituel. Plusieurs yeux peuvent être placés à différents endroits du corps."
+            ],
+            [
+              "Oreille supplémentaire",
+              "1",
+              "Une oreille supplémentaire améliore la perception directionnelle et peut être placée à un endroit inhabituel du corps."
+            ],
+            [
+              "Tentacule",
+              "1",
+              "La créature possède un appendice préhensile pouvant saisir, tirer ou manipuler des objets. Il ne peut pas infliger de dégâts supplémentaires sans une modification d'arme naturelle. La création peut vous aider pour déplacer des objets lourds."
+            ],
+            [
+              "Carapace osseuse",
+              "2",
+              "La créature développe une couche d'os et de cartilage protectrice. Elle gagne 1 point d'Armure. Maximum 3 achats."
+            ],
+            [
+              "Corps flexible",
+              "2",
+              "Les articulations et le squelette sont extrêmement malléables. La créature peut se contorsionner et se dégager de contraintes physiques ordinaires. La Création à le droit à un restest gratuit/scène pour se sortir de la manoeuvre \"Aggriper\""
+            ],
+            [
+              "Épine dorsale",
+              "2",
+              "Des pointes osseuses protègent le dos et les épaules. Toute personne effectuant certaines attaques au corps à corps contre la créature peut subir des dégâts, selon les circonstances et l'arbitrage du Conteur."
+            ],
+            [
+              "Griffes / Crocs",
+              "2",
+              "La créature possède des griffes, crocs ou pointes osseuses. Elle est considérée comme armée et inflige +2 dégâts normaux."
+            ],
+            [
+              "Masse corporelle accrue",
+              "2",
+              "La créature augmente considérablement sa masse sans augmenter sa taille. Elle est plus difficile à déplacer ou renverser physiquement. La Création bénéficie d'un bonus de +3 contre une attaque visant à la faire tomber."
+            ],
+            [
+              "Membranes de planage",
+              "2",
+              "La créature peut planer et ralentir fortement une chute, mais ne peut pas réellement prendre de l'altitude."
+            ],
+            [
+              "Musculature renforcée",
+              "2",
+              "La structure musculaire de la créature est spécialement développée. Elle gagne 1 Focus Physique choisi lors de sa création."
+            ],
+            [
+              "Peau blindée",
+              "2",
+              "La peau devient particulièrement épaisse et résistante. Elle gagne 1 point d'Armure."
+            ],
+            [
+              "Peau camouflée",
+              "2",
+              "La créature peut modifier naturellement sa pigmentation pour se rapprocher de son environnement. Elle bénéficie d'un bonus de +3 pour éviter d'être detecté grâce à la vue."
+            ],
+            [
+              "Queue caudale",
+              "2",
+              "Une queue musculaire capable de frapper. Elle est considérée comme une arme naturelle et inflige +2 dégâts normaux."
+            ],
+            [
+              "Queue préhensile",
+              "2",
+              "Une queue capable de saisir et manipuler des objets simples. Elle peut également servir à maintenir une prise. La Créature peut avoir accès à la manoeuvre de combat \"Aggriper\" gratuitement une fois par combat."
+            ],
+            [
+              "Sens développé",
+              "2",
+              "Un sens naturel de la créature est particulièrement développé. Elle bénéficie d'un avantage narratif important avec ce sens et peut détecter des détails normalement difficiles à percevoir. La création à le droit a un restest gratuit/scène pour detecter quelques chose grâce à son sens développé."
+            ],
+            [
+              "Vision nocturne",
+              "2",
+              "La créature peut voir normalement dans une obscurité faible ou quasi totale. Elle ne permet cependant pas de voir à travers l'Obténébration ou toute autre obscurité surnaturelle."
+            ],
+            [
+              "Ailes",
+              "3",
+              "La créature développe une paire d'ailes fonctionnelles permettant le vol. Le déplacement aérien est soumis aux règles de déplacement du GN."
+            ],
+            [
+              "Bras-lame",
+              "3",
+              "Un membre est entièrement transformé en arme biologique. Il inflige +3 dégâts normaux au lieu du +2 d'une arme naturelle normale."
+            ],
+            [
+              "Cage renforcée",
+              "3",
+              "Le coeur de la créature est entourée d'une cage d'os et l'empêche d'être détruit 1 fois par combat. Il faudra cependant dépenser 2 pts de sang de la part d'un Vampire avec Vicissitude 5 pour lui permettre de recourir à nouveau à cela au prochain combat;"
+            ],
+            [
+              "Corps segmenté",
+              "3",
+              "La créature peut continuer à agir malgré la séparation temporaire de certaines parties non vitales de son corps."
+            ],
+            [
+              "Mâchoire monstrueuse",
+              "3",
+              "La créature possède une gueule extrêmement développée. Une attaque de morsure transforme les dégât normaux en aggraves."
+            ],
+            [
+              "Organe venimeux",
+              "3",
+              "La créature produit un venin biologique. Une attaque naturelle réussie peut transmettre le poison. Les effets exacts du poison doivent être définis avec le Conteur avant la création."
+            ],
+            [
+              "Sang toxique",
+              "3",
+              "Le sang de la créature devient dangereux pour quiconque entre directement en contact avec lui. Les effets doivent être définis lors de sa création."
+            ],
+            [
+              "Sécrétion corrosive",
+              "3",
+              "La créature peut produire une substance biologique corrosive. Elle peut endommager des matériaux ordinaires mais ne détruit pas automatiquement les objets ou équipements surnaturels."
+            ],
+            [
+              "Sensibilité aux vibrations",
+              "3",
+              "La créature peut percevoir les vibrations transmises par les surfaces solides. Elle peut ainsi détecter des mouvements à proximité même sans visibilité directe."
+            ],
+            [
+              "Système nerveux redondant",
+              "3",
+              "La créature possède une organisation nerveuse distribuée. Certaines blessures qui neutraliseraient normalement un membre ou une partie du corps ont des conséquences réduites."
+            ],
+            [
+              "Cœur secondaire",
+              "4",
+              "La créature possède un second cœur. La destruction du cœur principal ne suffit donc pas à la neutraliser immédiatement. Cette modification ne rend pas la créature immortelle et reste soumise aux règles normales de destruction."
+            ],
+            [
+              "Paire de bras supplémentaire",
+              "4",
+              "La créature possède deux bras supplémentaires pleinement fonctionnels. Ils permettent de manipuler plusieurs objets simultanément et facilitent les actions nécessitant plusieurs membres. Ils permettent également d'attaquer une seconde cible au corps à corps."
+            ]
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite exceptionnelle",
+          "spans": [
+            {
+              "text": "Réussite exceptionnelle",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La création est exceptionnelle.",
+          "spans": [
+            {
+              "text": "La création est exceptionnelle.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle est particulièrement stable et fidèle à la conception de son créateur. Le Conteur peut lui accorder une amélioration mineure appropriée à sa fonction ou augmenter l'efficacité de l'une de ses modifications.",
+          "spans": [
+            {
+              "text": "Elle est particulièrement stable et fidèle à la conception de son créateur. Le Conteur peut lui accorder une amélioration mineure appropriée à sa fonction ou augmenter l'efficacité de l'une de ses modifications.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le temps de création passe de une nuit à une scène. ",
+          "spans": [
+            {
+              "text": "Le temps de création passe de une nuit à une scène. ",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8037-87ad-d2352fa1e286",
       "notionUrl": "https://app.notion.com/p/Crypter-D-crypter-39b88b48e48e803787add2352fa1e286",
       "lastEditedTime": "2026-07-12T14:49:00.000Z",
@@ -10412,444 +11082,6 @@
           "spans": [
             {
               "text": "Ce malus s'applique toujours aux PNJ ne possédant pas de valeur de Volonté.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3b088b48-e48e-80fa-a654-cd8beaaefedb",
-      "notionUrl": "https://app.notion.com/p/Forme-Sanglante-3b088b48e48e80faa654cd8beaaefedb",
-      "lastEditedTime": "2026-08-10T16:58:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Dexterité"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": ""
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 5
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "vicissitude",
-              "title": "Vicissitude",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 1
-        },
-        "Name": {
-          "type": "text",
-          "value": "Forme Sanglante"
-        }
-      },
-      "title": "Forme Sanglante",
-      "slug": "forme-sanglante",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "En vous concentrant brièvement, vous pouvez liquéfier votre corps jusqu'à devenir une mare de sang.",
-          "spans": [
-            {
-              "text": "En vous concentrant brièvement, vous pouvez liquéfier votre corps jusqu'à devenir une mare de sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Sous cette forme, vous restez conscient et capable de percevoir le monde qui vous entoure. Vous êtes désormais une créature liquide évoluant dans un monde d'êtres prisonniers de leur forme solide.",
-          "spans": [
-            {
-              "text": "Sous cette forme, vous restez conscient et capable de percevoir le monde qui vous entoure. Vous êtes désormais une créature liquide évoluant dans un monde d'êtres prisonniers de leur forme solide.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en une mare de sang.",
-          "spans": [
-            {
-              "text": "Dépensez 1 point de Sang et utilisez 1 Action standard pour vous transformer en une mare de sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Sous Forme Sanglante, vous ne pouvez pas :",
-          "spans": [
-            {
-              "text": "Sous Forme Sanglante, vous ne pouvez pas :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "dépenser de Sang ;",
-          "spans": [
-            {
-              "text": "dépenser de Sang ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "parler ;",
-          "spans": [
-            {
-              "text": "parler ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "activer de pouvoirs ;",
-          "spans": [
-            {
-              "text": "activer de pouvoirs ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "effectuer d'attaques physiques.",
-          "spans": [
-            {
-              "text": "effectuer d'attaques physiques.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "En revanche, vous êtes immunisé contre les attaques Physiques, à l'exception de celles provenant du feu ou de la lumière du soleil.",
-          "spans": [
-            {
-              "text": "En revanche, vous êtes immunisé contre les attaques Physiques, à l'exception de celles provenant du feu ou de la lumière du soleil.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les attaques non Physiques peuvent toujours vous blesser.",
-          "spans": [
-            {
-              "text": "Les attaques non Physiques peuvent toujours vous blesser.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les armes enflammées, comme une torche ou une fusée de détresse, peuvent également vous infliger des dégâts. Les munitions incendiaires traversent cependant votre forme trop rapidement pour vous blesser.",
-          "spans": [
-            {
-              "text": "Les armes enflammées, comme une torche ou une fusée de détresse, peuvent également vous infliger des dégâts. Les munitions incendiaires traversent cependant votre forme trop rapidement pour vous blesser.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si vous êtes touché par une arme enflammée, vous pouvez dépenser 1 point de Sang afin d'éteindre immédiatement la flamme au moment où elle vous touche.",
-          "spans": [
-            {
-              "text": "Si vous êtes touché par une arme enflammée, vous pouvez dépenser 1 point de Sang afin d'éteindre immédiatement la flamme au moment où elle vous touche.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre forme est semi-gélatineuse, mais incapable de conserver une structure solide. Elle n'est pas humanoïde et ne peut ni marcher ni parler.",
-          "spans": [
-            {
-              "text": "Votre forme est semi-gélatineuse, mais incapable de conserver une structure solide. Elle n'est pas humanoïde et ne peut ni marcher ni parler.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Boire votre sang",
-          "spans": [
-            {
-              "text": "Boire votre sang",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les autres personnages peuvent tenter de boire directement votre Forme Sanglante.",
-          "spans": [
-            {
-              "text": "Les autres personnages peuvent tenter de boire directement votre Forme Sanglante.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "L'attaquant effectue un défi basé sur :",
-          "spans": [
-            {
-              "text": "L'attaquant effectue un défi basé sur :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Attribut Physique + Bagarre",
-          "spans": [
-            {
-              "text": "Attribut Physique + Bagarre",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "contre :",
-          "spans": [
-            {
-              "text": "contre :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "votre Attribut Physique + Esquive",
-          "spans": [
-            {
-              "text": "votre Attribut Physique + Esquive",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "En cas de réussite, l'attaquant boit 1 point de votre Sang.",
-          "spans": [
-            {
-              "text": "En cas de réussite, l'attaquant boit 1 point de votre Sang.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si votre réserve de Sang tombe à 0 sous cette forme, que ce soit parce qu'un personnage boit votre vitae ou en raison d'une dépense de Sang, vous subissez immédiatement la Mort Ultime.",
-          "spans": [
-            {
-              "text": "Si votre réserve de Sang tombe à 0 sous cette forme, que ce soit parce qu'un personnage boit votre vitae ou en raison d'une dépense de Sang, vous subissez immédiatement la Mort Ultime.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les personnages disposant de très peu de Sang doivent donc se montrer particulièrement prudents avant d'utiliser ce pouvoir.",
-          "spans": [
-            {
-              "text": "Les personnages disposant de très peu de Sang doivent donc se montrer particulièrement prudents avant d'utiliser ce pouvoir.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_3",
-          "text": "Déplacement",
-          "spans": [
-            {
-              "text": "Déplacement",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Sous Forme Sanglante, vous pouvez traverser toute fissure, ouverture ou passage qu'un liquide pourrait normalement franchir.",
-          "spans": [
-            {
-              "text": "Sous Forme Sanglante, vous pouvez traverser toute fissure, ouverture ou passage qu'un liquide pourrait normalement franchir.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne pouvez pas :",
-          "spans": [
-            {
-              "text": "Vous ne pouvez pas :",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "traverser des objets solides ;",
-          "spans": [
-            {
-              "text": "traverser des objets solides ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "franchir des passages hermétiques ;",
-          "spans": [
-            {
-              "text": "franchir des passages hermétiques ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "traverser une vitre ;",
-          "spans": [
-            {
-              "text": "traverser une vitre ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "voler.",
-          "spans": [
-            {
-              "text": "voler.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez cependant vous déplacer le long de surfaces inclinées ou verticales, notamment remonter un mur.",
-          "spans": [
-            {
-              "text": "Vous pouvez cependant vous déplacer le long de surfaces inclinées ou verticales, notamment remonter un mur.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne subissez aucun dégât de chute.",
-          "spans": [
-            {
-              "text": "Vous ne subissez aucun dégât de chute.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Votre vitae liquide possède toujours une présence physique tangible. Un personnage peut vous toucher en passant sa main à travers votre forme, et vous pouvez toucher quelqu'un en vous écoulant jusqu'à lui.",
-          "spans": [
-            {
-              "text": "Votre vitae liquide possède toujours une présence physique tangible. Un personnage peut vous toucher en passant sa main à travers votre forme, et vous pouvez toucher quelqu'un en vous écoulant jusqu'à lui.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Toucher quelqu'un ou éviter d'être touché peut nécessiter une attaque de Bagarre.",
-          "spans": [
-            {
-              "text": "Toucher quelqu'un ou éviter d'être touché peut nécessiter une attaque de Bagarre.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Forme Sanglante est un pouvoir de transformation et ne peut être combinée avec un autre pouvoir de transformation.",
-          "spans": [
-            {
-              "text": "Forme Sanglante est un pouvoir de transformation et ne peut être combinée avec un autre pouvoir de transformation.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Au lieu de prendre la forme d'une simple mare de sang, vous pouvez adopter une forme gélatineuse vaguement humanoïde.",
-          "spans": [
-            {
-              "text": "Au lieu de prendre la forme d'une simple mare de sang, vous pouvez adopter une forme gélatineuse vaguement humanoïde.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Cette forme peut rester debout, conserver sa cohésion en marchant, effectuer des activités simples et parler.",
-          "spans": [
-            {
-              "text": "Cette forme peut rester debout, conserver sa cohésion en marchant, effectuer des activités simples et parler.",
               "bold": false
             }
           ]

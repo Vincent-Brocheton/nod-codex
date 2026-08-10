@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:00:05.873Z",
+  "generatedAt": "2026-08-10T17:48:45.649Z",
   "collections": [
     {
       "key": "disciplines",
@@ -112,17 +112,26 @@
   ],
   "recent": [
     {
-      "title": "Forme Monstrueuse",
-      "slug": "forme-monstrueuse",
+      "title": "Maudit",
+      "slug": "maudit",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-10T17:48:00.000Z"
+    },
+    {
+      "title": "Création sanglante",
+      "slug": "creation-sanglante",
       "collectionKey": "pouvoirs",
       "collectionLabel": "Pouvoirs",
       "path": "/pouvoirs",
       "icon": "droplet",
-      "lastEditedTime": "2026-08-10T16:58:00.000Z"
+      "lastEditedTime": "2026-08-10T17:06:00.000Z"
     },
     {
-      "title": "Forme Sanglante",
-      "slug": "forme-sanglante",
+      "title": "Forme Monstrueuse",
+      "slug": "forme-monstrueuse",
       "collectionKey": "pouvoirs",
       "collectionLabel": "Pouvoirs",
       "path": "/pouvoirs",
@@ -281,15 +290,6 @@
       "path": "/regles",
       "icon": "book-open",
       "lastEditedTime": "2026-08-07T17:07:00.000Z"
-    },
-    {
-      "title": "Vigueur",
-      "slug": "vigueur",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-07T16:58:00.000Z"
     }
   ]
 }
