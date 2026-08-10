@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-10T18:40:17.694Z",
+  "generatedAt": "2026-08-10T19:30:44.960Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -346,11 +346,11 @@
     {
       "id": "38188b48-e48e-80be-9d6f-d753cb568367",
       "notionUrl": "https://app.notion.com/p/Animalisme-38188b48e48e80be9d6fd753cb568367",
-      "lastEditedTime": "2026-07-22T15:12:00.000Z",
+      "lastEditedTime": "2026-08-10T19:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Charisme"
         },
         "Visible": {
           "type": "checkbox",
@@ -417,7 +417,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -655,11 +655,11 @@
     {
       "id": "38188b48-e48e-800b-8e45-cb4052605c7f",
       "notionUrl": "https://app.notion.com/p/Auspex-38188b48e48e800b8e45cb4052605c7f",
-      "lastEditedTime": "2026-07-22T15:12:00.000Z",
+      "lastEditedTime": "2026-08-10T19:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Perception"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -726,7 +726,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Perception"
         },
         "Techniques": {
           "type": "relation",
@@ -1769,11 +1769,11 @@
     {
       "id": "38188b48-e48e-8033-aa12-f53c1385944a",
       "notionUrl": "https://app.notion.com/p/Dissimulation-38188b48e48e8033aa12f53c1385944a",
-      "lastEditedTime": "2026-07-22T15:12:00.000Z",
+      "lastEditedTime": "2026-08-10T19:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -1840,7 +1840,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Intelligence"
         },
         "Techniques": {
           "type": "relation",
@@ -3202,11 +3202,11 @@
     {
       "id": "38188b48-e48e-8044-9bb5-ec3250319ef2",
       "notionUrl": "https://app.notion.com/p/Obt-n-bration-38188b48e48e80449bb5ec3250319ef2",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-10T19:30:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Apparence"
         },
         "Visible": {
           "type": "checkbox",
@@ -3271,7 +3271,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Apparence"
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -4502,11 +4502,11 @@
     {
       "id": "38188b48-e48e-80af-a1da-c36fac6431b3",
       "notionUrl": "https://app.notion.com/p/Quietus-38188b48e48e80afa1dac36fac6431b3",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-10T19:30:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -4573,7 +4573,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Intelligence"
         },
         "Techniques": {
           "type": "relation",
@@ -4792,11 +4792,11 @@
     {
       "id": "38188b48-e48e-8023-a7e3-e62cfff445c4",
       "notionUrl": "https://app.notion.com/p/Serpentis-38188b48e48e8023a7e3e62cfff445c4",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-10T19:30:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Apparence"
         },
         "Visible": {
           "type": "checkbox",
@@ -4863,7 +4863,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Apparence"
+          "value": "Charisme"
         },
         "Techniques": {
           "type": "relation",
