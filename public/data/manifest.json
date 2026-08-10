@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-10T17:48:45.649Z",
+  "generatedAt": "2026-08-10T18:40:17.764Z",
   "collections": [
     {
       "key": "disciplines",
@@ -112,6 +112,33 @@
   ],
   "recent": [
     {
+      "title": "Création sanglante",
+      "slug": "creation-sanglante",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-10T18:39:00.000Z"
+    },
+    {
+      "title": "Domination",
+      "slug": "domination",
+      "collectionKey": "disciplines",
+      "collectionLabel": "Disciplines",
+      "path": "/disciplines",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-10T18:36:00.000Z"
+    },
+    {
+      "title": "Influence Absente",
+      "slug": "influence-absente",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-10T18:35:00.000Z"
+    },
+    {
       "title": "Maudit",
       "slug": "maudit",
       "collectionKey": "handicaps",
@@ -119,15 +146,6 @@
       "path": "/atouts",
       "icon": "star",
       "lastEditedTime": "2026-08-10T17:48:00.000Z"
-    },
-    {
-      "title": "Création sanglante",
-      "slug": "creation-sanglante",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-10T17:06:00.000Z"
     },
     {
       "title": "Forme Monstrueuse",
@@ -272,24 +290,6 @@
       "path": "/creation",
       "icon": "user",
       "lastEditedTime": "2026-08-08T13:49:00.000Z"
-    },
-    {
-      "title": "Commandement",
-      "slug": "commandement",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-08T13:48:00.000Z"
-    },
-    {
-      "title": "Tests et Défis",
-      "slug": "tests-et-defis",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-07T17:07:00.000Z"
     }
   ]
 }

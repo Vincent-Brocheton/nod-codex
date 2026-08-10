@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-10T17:48:45.579Z",
+  "generatedAt": "2026-08-10T18:40:17.698Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -6065,7 +6065,7 @@
     {
       "id": "3b088b48-e48e-80fa-a654-cd8beaaefedb",
       "notionUrl": "https://app.notion.com/p/Cr-ation-sanglante-3b088b48e48e80faa654cd8beaaefedb",
-      "lastEditedTime": "2026-08-10T17:06:00.000Z",
+      "lastEditedTime": "2026-08-10T18:39:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -6077,7 +6077,7 @@
         },
         "Durée": {
           "type": "select",
-          "value": ""
+          "value": "Jusqu'a désctruction ou choix de les détruire"
         },
         "Niveau": {
           "type": "number",
@@ -6185,6 +6185,24 @@
             {
               "text": "Système",
               "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Attention Limite : Vous ne pouvez posséder de manière simultanée qu’une création par point de Génération.",
+          "spans": [
+            {
+              "text": "Attention Limite",
+              "bold": true
+            },
+            {
+              "text": " : ",
+              "bold": false
+            },
+            {
+              "text": "Vous ne pouvez posséder de manière simultanée qu’une création par point de Génération.",
+              "bold": true
             }
           ]
         },
@@ -6600,7 +6618,7 @@
             [
               "Queue caudale",
               "2",
-              "Une queue musculaire capable de frapper. Elle est considérée comme une arme naturelle et inflige +2 dégâts normaux."
+              "Une queue musculaire capable de frapper. Elle est considérée comme une arme naturelle et inflige 2 dégâts normaux."
             ],
             [
               "Queue préhensile",
@@ -6625,7 +6643,7 @@
             [
               "Bras-lame",
               "3",
-              "Un membre est entièrement transformé en arme biologique. Il inflige +3 dégâts normaux au lieu du +2 d'une arme naturelle normale."
+              "Un membre est entièrement transformé en arme biologique. Il inflige 3 dégâts normaux au lieu du 2 d'une arme naturelle normale."
             ],
             [
               "Cage renforcée",
@@ -6668,14 +6686,14 @@
               "La créature possède une organisation nerveuse distribuée. Certaines blessures qui neutraliseraient normalement un membre ou une partie du corps ont des conséquences réduites."
             ],
             [
-              "Cœur secondaire",
-              "4",
-              "La créature possède un second cœur. La destruction du cœur principal ne suffit donc pas à la neutraliser immédiatement. Cette modification ne rend pas la créature immortelle et reste soumise aux règles normales de destruction."
-            ],
-            [
               "Paire de bras supplémentaire",
               "4",
               "La créature possède deux bras supplémentaires pleinement fonctionnels. Ils permettent de manipuler plusieurs objets simultanément et facilitent les actions nécessitant plusieurs membres. Ils permettent également d'attaquer une seconde cible au corps à corps."
+            ],
+            [
+              "Cœur secondaire",
+              "5",
+              "La créature possède un second cœur. La destruction du cœur principal ne suffit donc pas à la neutraliser immédiatement. Cette modification ne rend pas la créature immortelle et reste soumise aux règles normales de destruction."
             ]
           ]
         },
