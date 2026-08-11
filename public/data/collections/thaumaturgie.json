@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-80ce-b46b-dd1a2b4aebea",
-  "generatedAt": "2026-08-11T17:31:09.176Z",
+  "generatedAt": "2026-08-11T17:52:07.068Z",
   "propertyOptions": {
     "Ingrédients": [
       "1 pts de sang de la cible",
@@ -149,7 +149,7 @@
     {
       "id": "39888b48-e48e-8017-b21b-c88261a65536",
       "notionUrl": "https://app.notion.com/p/me-de-l-Homoncule-39888b48e48e8017b21bc88261a65536",
-      "lastEditedTime": "2026-07-26T13:40:00.000Z",
+      "lastEditedTime": "2026-08-11T17:51:00.000Z",
       "properties": {
         "Ingrédients": {
           "type": "multi_select",
@@ -260,13 +260,31 @@
           ]
         },
         {
-          "type": "code",
-          "text": "Homoncule Serviteur\n\nServiteur : 2 points\n\nSpécialités : Occulte, Mystères\n\nSanté utilisable : O O O O",
+          "type": "paragraph",
+          "text": "Serviteur Homoncule :",
           "spans": [
             {
-              "text": "Homoncule Serviteur\n\nServiteur : 2 points\n\nSpécialités : Occulte, Mystères\n\nSanté utilisable : O O O O",
-              "bold": false
+              "text": "Serviteur Homoncule :",
+              "bold": true
             }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": false,
+          "rows": [
+            [
+              "Serviteur ",
+              "2 points"
+            ],
+            [
+              "Spécialités ",
+              "Occulte, Mystères"
+            ],
+            [
+              "Santé utilisable",
+              "O O O O"
+            ]
           ]
         },
         {

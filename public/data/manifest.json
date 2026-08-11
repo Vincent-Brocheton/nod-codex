@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:31:09.205Z",
+  "generatedAt": "2026-08-11T17:52:07.095Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Âme de l’Homoncule",
+      "slug": "ame-de-l-homoncule",
+      "collectionKey": "thaumaturgie",
+      "collectionLabel": "Thaumaturgie",
+      "path": "/rituels",
+      "icon": "pentagram",
+      "lastEditedTime": "2026-08-11T17:51:00.000Z"
+    },
+    {
+      "title": "Doué en Thaumaturgie",
+      "slug": "doue-en-thaumaturgie",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-11T17:47:00.000Z"
+    },
     {
       "title": "Lâcher la Bête",
       "slug": "lacher-la-bete",
@@ -267,24 +285,6 @@
     {
       "title": "Voie de Mortis",
       "slug": "voie-de-mortis",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T07:32:00.000Z"
-    },
-    {
-      "title": "Voie des Cendres",
-      "slug": "voie-des-cendres",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T07:32:00.000Z"
-    },
-    {
-      "title": "Voie des Ossements",
-      "slug": "voie-des-ossements",
       "collectionKey": "disciplines",
       "collectionLabel": "Disciplines",
       "path": "/disciplines",
