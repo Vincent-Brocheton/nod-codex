@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:30:08.725Z",
+  "generatedAt": "2026-08-11T17:31:09.205Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Lâcher la Bête",
+      "slug": "lacher-la-bete",
+      "collectionKey": "pouvoirs",
+      "collectionLabel": "Pouvoirs",
+      "path": "/pouvoirs",
+      "icon": "droplet",
+      "lastEditedTime": "2026-08-11T17:30:00.000Z"
+    },
     {
       "title": "Lecture d’Âme",
       "slug": "lecture-d-ame",
@@ -281,15 +290,6 @@
       "path": "/disciplines",
       "icon": "droplet",
       "lastEditedTime": "2026-08-11T07:32:00.000Z"
-    },
-    {
-      "title": "Voie de la Puissance de Neptune",
-      "slug": "voie-de-la-puissance-de-neptune",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T07:31:00.000Z"
     }
   ]
 }
