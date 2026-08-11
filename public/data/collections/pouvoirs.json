@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-11T06:30:19.177Z",
+  "generatedAt": "2026-08-11T16:01:07.929Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -1533,11 +1533,11 @@
     {
       "id": "3a288b48-e48e-8072-8312-faad21e89d04",
       "notionUrl": "https://app.notion.com/p/Arsenal-d-Am-Riet-Les-lames-d-Erizzoth-3a288b48e48e80728312faad21e89d04",
-      "lastEditedTime": "2026-07-19T18:53:00.000Z",
+      "lastEditedTime": "2026-08-11T07:40:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "Dexterité"
+          "value": "Force"
         },
         "Type d'action": {
           "type": "select",
@@ -1783,11 +1783,11 @@
     {
       "id": "3a288b48-e48e-8041-aa9f-f56bc1838893",
       "notionUrl": "https://app.notion.com/p/Arsenal-de-Kazamar-Lance-d-Or-is-3a288b48e48e8041aa9ff56bc1838893",
-      "lastEditedTime": "2026-07-19T18:54:00.000Z",
+      "lastEditedTime": "2026-08-11T07:40:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "Dexterité"
+          "value": "Force"
         },
         "Type d'action": {
           "type": "select",
@@ -1882,154 +1882,6 @@
           "spans": [
             {
               "text": "La zone dure 5 tours et fait 5 pas de rayon.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "39b88b48-e48e-80dd-8722-e87dd2aa6568",
-      "notionUrl": "https://app.notion.com/p/Assimilation-39b88b48e48e80dd8722e87dd2aa6568",
-      "lastEditedTime": "2026-07-12T16:48:00.000Z",
-      "properties": {
-        "Focus": {
-          "type": "select",
-          "value": "Manipulation"
-        },
-        "Type d'action": {
-          "type": "select",
-          "value": "Action Standard"
-        },
-        "Durée": {
-          "type": "select",
-          "value": "Infini"
-        },
-        "Niveau": {
-          "type": "number",
-          "value": 5
-        },
-        "Discipline": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-emprisonnement-des-ames",
-              "title": "Voie de l’Emprisonnement des Âmes",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Couts en points de sang": {
-          "type": "number",
-          "value": 1
-        },
-        "Name": {
-          "type": "text",
-          "value": "Assimilation"
-        }
-      },
-      "title": "Assimilation",
-      "slug": "assimilation",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Description",
-          "spans": [
-            {
-              "text": "Description",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
-          "spans": [
-            {
-              "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Système",
-          "spans": [
-            {
-              "text": "Système",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
-          "spans": [
-            {
-              "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
-          "spans": [
-            {
-              "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
-          "spans": [
-            {
-              "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
-          "spans": [
-            {
-              "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
-          "spans": [
-            {
-              "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Focus",
-          "spans": [
-            {
-              "text": "Focus",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
-          "spans": [
-            {
-              "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
               "bold": false
             }
           ]
@@ -2197,11 +2049,11 @@
     {
       "id": "3a288b48-e48e-8003-bc4f-dcfae445286b",
       "notionUrl": "https://app.notion.com/p/Att-nuer-l-harmonie-3a288b48e48e8003bc4fdcfae445286b",
-      "lastEditedTime": "2026-07-19T19:11:00.000Z",
+      "lastEditedTime": "2026-08-11T07:25:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "???"
+          "value": "Manipulation"
         },
         "Type d'action": {
           "type": "select",
@@ -5202,11 +5054,11 @@
     {
       "id": "3a288b48-e48e-803a-961a-ce032dc16550",
       "notionUrl": "https://app.notion.com/p/Connectique-li-e-3a288b48e48e803a961ace032dc16550",
-      "lastEditedTime": "2026-07-19T19:12:00.000Z",
+      "lastEditedTime": "2026-08-11T07:25:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "???"
+          "value": "Charisme"
         },
         "Type d'action": {
           "type": "select",
@@ -11247,7 +11099,7 @@
     {
       "id": "3a288b48-e48e-80e2-8f59-f693aba4befb",
       "notionUrl": "https://app.notion.com/p/Fortification-3a288b48e48e80e28f59f693aba4befb",
-      "lastEditedTime": "2026-07-19T15:15:00.000Z",
+      "lastEditedTime": "2026-08-11T14:38:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -11322,10 +11174,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure classique.\nCette transformation dure 5 tours.",
+          "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure normale.\nCette transformation dure 5 tours.",
           "spans": [
             {
-              "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure classique.\nCette transformation dure 5 tours.",
+              "text": "Une partie du corps de l'Elémentaliste devient aussi solide qu'un roc et peut briser les matériaux fragiles.\nEn combat, cette partie renforcée peut absorber une blessure aggravée et la transformer en blessure normale.\nCette transformation dure 5 tours.",
               "bold": false
             }
           ]
@@ -11342,10 +11194,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures classiques.",
+          "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures normales.",
           "spans": [
             {
-              "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures classiques.",
+              "text": "La transformation dure une scène complète, et peut transformer 2 blessures aggravées en blessures normales.",
               "bold": false
             }
           ]
@@ -12818,7 +12670,7 @@
     {
       "id": "3af88b48-e48e-8036-8101-ed78218c9409",
       "notionUrl": "https://app.notion.com/p/Griffes-Bestiales-3af88b48e48e80368101ed78218c9409",
-      "lastEditedTime": "2026-08-01T11:33:00.000Z",
+      "lastEditedTime": "2026-08-11T14:36:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -12893,10 +12745,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Dépensez 1 point de sang et utilisez une action simple pour activer Griffes Bestiales. Vos ongles s'aiguisent, durcissent et s'allongent en Griffes Bestiales clairement visibles. Le fait de frapper un ennemi avec vos Griffes Bestiales inflige des dégâts aggravés (Si vous faisiez X dégâts léthaux sans les griffes, vous faites avec l’usage des griffes X dégâts aggravés). Vous pouvez rétracter vos Griffes bestiales à tout moment en dépensant une action simple. Un personnage attaquant avec Griffes Bestiales utilise son attribut Physique + Bagarre contre l'attribut physique de la cible + Esquive. Si vos griffes se brisent, vous pouvez les faire repousser en réactivant ce pouvoir.",
+          "text": "Dépensez 1 point de sang et utilisez une action simple pour activer Griffes Bestiales. Vos ongles s'aiguisent, durcissent et s'allongent en Griffes Bestiales clairement visibles. Le fait de frapper un ennemi avec vos Griffes Bestiales inflige des dégâts aggravés (Si vous faisiez X dégâts normaux sans les griffes, vous faites avec l’usage des griffes X dégâts aggravés). Vous pouvez rétracter vos Griffes bestiales à tout moment en dépensant une action simple. Un personnage attaquant avec Griffes Bestiales utilise son attribut Physique + Bagarre contre l'attribut physique de la cible + Esquive. Si vos griffes se brisent, vous pouvez les faire repousser en réactivant ce pouvoir.",
           "spans": [
             {
-              "text": "Dépensez 1 point de sang et utilisez une action simple pour activer Griffes Bestiales. Vos ongles s'aiguisent, durcissent et s'allongent en Griffes Bestiales clairement visibles. Le fait de frapper un ennemi avec vos Griffes Bestiales inflige des dégâts aggravés (Si vous faisiez X dégâts léthaux sans les griffes, vous faites avec l’usage des griffes X dégâts aggravés). Vous pouvez rétracter vos Griffes bestiales à tout moment en dépensant une action simple. Un personnage attaquant avec Griffes Bestiales utilise son attribut Physique + Bagarre contre l'attribut physique de la cible + Esquive. Si vos griffes se brisent, vous pouvez les faire repousser en réactivant ce pouvoir.",
+              "text": "Dépensez 1 point de sang et utilisez une action simple pour activer Griffes Bestiales. Vos ongles s'aiguisent, durcissent et s'allongent en Griffes Bestiales clairement visibles. Le fait de frapper un ennemi avec vos Griffes Bestiales inflige des dégâts aggravés (Si vous faisiez X dégâts normaux sans les griffes, vous faites avec l’usage des griffes X dégâts aggravés). Vous pouvez rétracter vos Griffes bestiales à tout moment en dépensant une action simple. Un personnage attaquant avec Griffes Bestiales utilise son attribut Physique + Bagarre contre l'attribut physique de la cible + Esquive. Si vos griffes se brisent, vous pouvez les faire repousser en réactivant ce pouvoir.",
               "bold": false
             }
           ]
@@ -24296,11 +24148,11 @@
     {
       "id": "3a288b48-e48e-8011-80f6-ff6769664235",
       "notionUrl": "https://app.notion.com/p/Renforcer-l-harmonie-3a288b48e48e801180f6ff6769664235",
-      "lastEditedTime": "2026-07-19T19:11:00.000Z",
+      "lastEditedTime": "2026-08-11T07:25:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "???"
+          "value": "Manipulation"
         },
         "Type d'action": {
           "type": "select",
@@ -25461,6 +25313,154 @@
           "spans": [
             {
               "text": "Vous pouvez utiliser ce pouvoir 2 fois/ nuit au lieu d’une seule fois.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39b88b48-e48e-80dd-8722-e87dd2aa6568",
+      "notionUrl": "https://app.notion.com/p/39b88b48e48e80dd8722e87dd2aa6568",
+      "lastEditedTime": "2026-08-11T07:29:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Infini"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-emprisonnement-des-ames",
+              "title": "Voie de l’Emprisonnement des Âmes",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": ""
+        }
+      },
+      "title": "Sans titre",
+      "slug": "sans-titre",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
+          "spans": [
+            {
+              "text": "Les fantômes et les âmes sont vitaux à l’économie des Giovanni mais sont bien plus utiles que simplement créer des réceptacles et des attirails. Pour un nécromancien talentueux, les fantômes peuvent être consommés, transformant leur pathos en sang et absorbant leur corpus dans vos propres chaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
+          "spans": [
+            {
+              "text": "Vous pouvez lier un fantôme à l’intérieur de vous à la place de cibler un objet. C’est une forme spécifique de possession dans laquelle vous conservez le contrôle sur l’entité à l’intérieur. Dépensez 1 point de sang et une action standard pour commencer l’asservissement, en ciblant un fantôme visible ou un fantôme lié à un réceptacle ou un attirail.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
+          "spans": [
+            {
+              "text": "Si le fantôme n’est pas consentant, vous devez effectuer un test en opposition. Si vous réussissez, le fantôme rendre dans votre corps et quitte donc tout objet qu’il occupait précédemment, les rendant inertes et vous pouvez choisir une des spécialisations de discipline du fantôme (si le fantôme n’a aucune spécialisation, tous les fantômes ont par défaut 2 points en Aliénation (Dementation). Vous pouvez utiliser n’importe quel niveau de la discipline pour la prochaine heure, après quoi le fantôme est libéré et le pouvoir prend fin. Vous devez néanmoins vous soumettre à toutes les restrictions liées à l’emploi de ce pouvoir, comme par exemple capter l’attention (Gaze and Focus) lors de l’utilisation de Regard D’effroi et ne pas pouvoir l’utiliser durant les rounds de Célérité. Vous et le fantôme devez payer le coût en Sang et en Pathos pour l’utilisation de la discipline. Si l’un de vous ne peut pas, vous ne pouvez pas utiliser le pouvoir en question.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
+          "spans": [
+            {
+              "text": "Si vous tombez en torpeur alors que ce pouvoir est actif, vous et le fantôme êtes plongés dans la Tourmente. Le conteur doit construire une scène à partir de votre passé. Cela peut impliquer que vous restez en torpeur plus longtemps que la simple session de jeu en cours. Durant cette période, vous perdez la conscience de votre corps, incluant l’utilisation de la compétence Vigilance et ne pouvez être réveillé tant que la Tourmente n’est pas résolue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
+          "spans": [
+            {
+              "text": "Cependant, votre corps peut être déplacé et détruit. Une fois la Tourmente terminée, vous entrez en état normal de torpeur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez utiliser ce pouvoir qu’une fois par soirée et ne pouvez avoir qu’un seul fantôme à l’intérieur de vous à la fois. Tant qu’elle est contenue dans votre corps, un fantôme ne peut pas s’échapper ou utiliser le pouvoir de possession.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser le pouvoir une deuxième fois par soirée, mais vous perdez alors le bénéfice de la première utilisation car le fantôme suivant remplace le premier.",
               "bold": false
             }
           ]
@@ -26730,11 +26730,11 @@
     {
       "id": "3a288b48-e48e-800c-836d-c14e8c438bae",
       "notionUrl": "https://app.notion.com/p/Sentir-les-liens-3a288b48e48e800c836dc14e8c438bae",
-      "lastEditedTime": "2026-07-19T19:10:00.000Z",
+      "lastEditedTime": "2026-08-11T07:25:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "???"
+          "value": "Charisme"
         },
         "Type d'action": {
           "type": "select",
@@ -29555,11 +29555,11 @@
     {
       "id": "3a288b48-e48e-807a-87ed-c804b6a59ab5",
       "notionUrl": "https://app.notion.com/p/Transfert-de-douleur-3a288b48e48e807a87edc804b6a59ab5",
-      "lastEditedTime": "2026-07-19T19:12:00.000Z",
+      "lastEditedTime": "2026-08-11T07:28:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
-          "value": "???"
+          "value": "Manipulation"
         },
         "Type d'action": {
           "type": "select",

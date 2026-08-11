@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-11T06:30:19.174Z",
+  "generatedAt": "2026-08-11T16:01:07.926Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -48,7 +48,8 @@
       "Physique",
       "Survie",
       "Occultisme",
-      "Voie"
+      "Voie",
+      "Harmonisation"
     ],
     "Spécialité 1": [
       "Astuce",
@@ -855,6 +856,14 @@
               "collectionKey": "techniques",
               "slug": "vision-de-la-forme-veritable",
               "title": "Vision de la Forme Véritable",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sonar-aqueux",
+              "title": "Sonar aqueux",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2900,6 +2909,14 @@
               "cout": null,
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "mur-aquatique",
+              "title": "Mur aquatique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3073,11 +3090,11 @@
     {
       "id": "39388b48-e48e-8076-a194-e6ec8753396b",
       "notionUrl": "https://app.notion.com/p/Harmonisation-39388b48e48e8076a194e6ec8753396b",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-11T13:49:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": ""
+          "value": "Charisme"
         },
         "Visible": {
           "type": "checkbox",
@@ -3085,7 +3102,10 @@
         },
         "Jet de défense": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Social",
+            "Volonté"
+          ]
         },
         "Pouvoirs": {
           "type": "relation",
@@ -3134,11 +3154,14 @@
         },
         "Jet d'attaque": {
           "type": "multi_select",
-          "value": []
+          "value": [
+            "Social",
+            "Harmonisation"
+          ]
         },
         "Spécialité 1": {
           "type": "select",
-          "value": ""
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -3197,7 +3220,28 @@
       },
       "title": "Harmonisation",
       "slug": "harmonisation",
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lorsque l'Avatar apporta l'Harmonisation aux Kuei-Jin, certains furent rebutés par ce nouveau pouvoir conçu par l'être qui maîtrisait les 4 Voies. Et pourtant, ce pouvoir a lié les Elémentalistes...dans tous les sens du terme.",
+          "spans": [
+            {
+              "text": "Lorsque l'Avatar apporta l'Harmonisation aux Kuei-Jin, certains furent rebutés par ce nouveau pouvoir conçu par l'être qui maîtrisait les 4 Voies. Et pourtant, ce pouvoir a lié les Elémentalistes...dans tous les sens du terme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir joue sur l'essence même de ce qui lie les Vampires entre eux : les Liens du Sang. Que ce soit pour en augmenter ou en réduire le niveau, savoir qui est lié à qui, les Liens du Sang deviennent aussi bien une défense rassurante qu'une arme dévastatrice. Car si votre ennemi devient lié à vous, qu'est-ce qui le poussera à vous attaquer ?",
+          "spans": [
+            {
+              "text": "Ce pouvoir joue sur l'essence même de ce qui lie les Vampires entre eux : les Liens du Sang. Que ce soit pour en augmenter ou en réduire le niveau, savoir qui est lié à qui, les Liens du Sang deviennent aussi bien une défense rassurante qu'une arme dévastatrice. Car si votre ennemi devient lié à vous, qu'est-ce qui le poussera à vous attaquer ?",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8044-9bb5-ec3250319ef2",
@@ -4333,6 +4377,14 @@
               "cout": null,
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "poing-de-pierre",
+              "title": "Poing de pierre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -5331,7 +5383,7 @@
     {
       "id": "39388b48-e48e-8004-87b4-c071f7b82eea",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Air-39388b48e48e800487b4c071f7b82eea",
-      "lastEditedTime": "2026-08-09T09:10:00.000Z",
+      "lastEditedTime": "2026-08-11T13:43:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5469,7 +5521,38 @@
       },
       "title": "Voie de l’Air",
       "slug": "voie-de-l-air",
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dans les plus hauts sommets se trouve le Plan de l'Air, véritable symbole de la liberté jamais entravée. Vous avez par le passé tissé un lien avec un Elémentaire provenant de ce plan, et vous sentez la légèreté que les vents vous procurent. Avec l'assistance des vents, et des aptitudes aériennes, vous êtes plus libre que jamais, et cela, nul ne vous l'enlèvera jamais.",
+          "spans": [
+            {
+              "text": "Dans les plus hauts sommets se trouve le Plan de l'Air, véritable symbole de la liberté jamais entravée. Vous avez par le passé tissé un lien avec un Elémentaire provenant de ce plan, et vous sentez la légèreté que les vents vous procurent. Avec l'assistance des vents, et des aptitudes aériennes, vous êtes plus libre que jamais, et cela, nul ne vous l'enlèvera jamais.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Elémentaire d'Air",
+          "spans": [
+            {
+              "text": "Elémentaire d'Air",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En prenant la Voie de l'Air, vous débloquez au niveau 1 un Elémentaire d'Air. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de l'Air mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire d'Air a un effet passif : il se déplace d'1 pas en plus lors de son mouvement.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "spans": [
+            {
+              "text": "En prenant la Voie de l'Air, vous débloquez au niveau 1 un Elémentaire d'Air. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de l'Air mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire d'Air a un effet passif : il se déplace d'1 pas en plus lors de son mouvement.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-8036-be4a-c31d527d4284",
@@ -5632,7 +5715,7 @@
     {
       "id": "39388b48-e48e-8035-b703-db5062698197",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Eau-39388b48e48e8035b703db5062698197",
-      "lastEditedTime": "2026-08-09T09:10:00.000Z",
+      "lastEditedTime": "2026-08-11T13:39:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -5707,7 +5790,24 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "mur-aquatique",
+              "title": "Mur aquatique",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "techniques",
+              "slug": "sonar-aqueux",
+              "title": "Sonar aqueux",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -5773,14 +5873,30 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Effet passif : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Eau\" dont le niveau augmente avec le niveau de \"Voie de l'Eau\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Eau\".",
+          "text": "Le Plan de l'Eau est connu pour son calme et sa sérénité, malgré le fait que ses secrets restent enfouis sous la surface ondulante. Vous avez tissé un lien avec un Elémentaire provenant de ce plan et ressentez les capacités de soutien que procure l'océan infini. Que ce soit avec des capacités d'analyse hors du commun, ou des aptitudes permettant de protéger vos alliés, vous arriverez à mener votre mission à bien.",
           "spans": [
             {
-              "text": "Effet passif",
-              "bold": true
-            },
+              "text": "Le Plan de l'Eau est connu pour son calme et sa sérénité, malgré le fait que ses secrets restent enfouis sous la surface ondulante. Vous avez tissé un lien avec un Elémentaire provenant de ce plan et ressentez les capacités de soutien que procure l'océan infini. Que ce soit avec des capacités d'analyse hors du commun, ou des aptitudes permettant de protéger vos alliés, vous arriverez à mener votre mission à bien.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Elémentaire de l'Eau",
+          "spans": [
             {
-              "text": " : Posséder ce pouvoir permet d'avoir un Servant \"Elémentaire d'Eau\" dont le niveau augmente avec le niveau de \"Voie de l'Eau\" possédé. L'Elémentaire ne peut pas avoir d'autres atouts que les niveaux de \"Voie de l'Eau\".",
+              "text": "Elémentaire de l'Eau",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En prenant la Voie de l'Eau, vous débloquez au niveau 1 un Elémentaire d'Eau. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de l'Eau mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de l'Eau a un effet passif : il repousse d'1 pas un ennemi en l’attaquant.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "spans": [
+            {
+              "text": "En prenant la Voie de l'Eau, vous débloquez au niveau 1 un Elémentaire d'Eau. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de l'Eau mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de l'Eau a un effet passif : il repousse d'1 pas un ennemi en l’attaquant.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
               "bold": false
             }
           ]
@@ -5790,11 +5906,11 @@
     {
       "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Emprisonnement-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-11T07:29:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Charisme"
         },
         "Visible": {
           "type": "checkbox",
@@ -5844,8 +5960,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "assimilation",
-              "title": "Assimilation",
+              "slug": "sans-titre",
+              "title": "Sans titre",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5861,7 +5977,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -5980,11 +6096,11 @@
     {
       "id": "38188b48-e48e-8065-a908-f248d46e24f1",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-11T07:30:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Perception"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -6051,7 +6167,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Perception"
         },
         "Techniques": {
           "type": "relation",
@@ -6822,11 +6938,11 @@
     {
       "id": "38188b48-e48e-80d3-a47f-cdf36949a5ed",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Puissance-de-Neptune-38188b48e48e80d3a47fcdf36949a5ed",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Perception"
+          "value": "Intelligence"
         },
         "Visible": {
           "type": "checkbox",
@@ -6893,7 +7009,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Perception"
         },
         "Techniques": {
           "type": "relation",
@@ -6960,11 +7076,11 @@
     {
       "id": "38188b48-e48e-808f-a4ec-cabd8fa19802",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Technomancie-38188b48e48e808fa4eccabd8fa19802",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:31:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -7031,7 +7147,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Intelligence"
         },
         "Techniques": {
           "type": "relation",
@@ -7099,7 +7215,7 @@
     {
       "id": "39388b48-e48e-80f4-87cb-ecb95089d48b",
       "notionUrl": "https://app.notion.com/p/Voie-de-la-Terre-39388b48e48e80f487cbecb95089d48b",
-      "lastEditedTime": "2026-08-09T09:06:00.000Z",
+      "lastEditedTime": "2026-08-11T13:46:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -7174,7 +7290,16 @@
         },
         "Techniques": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "techniques",
+              "slug": "poing-de-pierre",
+              "title": "Poing de pierre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Clans": {
           "type": "relation",
@@ -7240,10 +7365,30 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "L'une des Voies les plus prisées par les Kuei Jin, cette voie permet d'avoir une capacité d'entrave tout en se défendant efficacement. Les adeptes de la Voie de la Terre ont longtemps procédé à garder leurs traditions tout en les apprenant au plus grand nombre, aussi cette voie est restée la même des années durant.\nCette Voie se base sur la Dextérité et la Vigueur d'un Vampire",
+          "text": "Au plus profond de la montagne la plus grande se trouve le Plan de la Terre, véritable bastion de résilience. Vous avez tissé un lien avec un Elémentaire provenant de ce plan, et vous ressentez la difficulté de la tâche qui vous a été confiée : devoir protéger le monde. Votre résistance physique et votre persévérance s'allient parfaitement aux compétences de renforcement et de planification qui font de vous le dernier rempart face au mal qui approche.",
           "spans": [
             {
-              "text": "L'une des Voies les plus prisées par les Kuei Jin, cette voie permet d'avoir une capacité d'entrave tout en se défendant efficacement. Les adeptes de la Voie de la Terre ont longtemps procédé à garder leurs traditions tout en les apprenant au plus grand nombre, aussi cette voie est restée la même des années durant.\nCette Voie se base sur la Dextérité et la Vigueur d'un Vampire",
+              "text": "Au plus profond de la montagne la plus grande se trouve le Plan de la Terre, véritable bastion de résilience. Vous avez tissé un lien avec un Elémentaire provenant de ce plan, et vous ressentez la difficulté de la tâche qui vous a été confiée : devoir protéger le monde. Votre résistance physique et votre persévérance s'allient parfaitement aux compétences de renforcement et de planification qui font de vous le dernier rempart face au mal qui approche.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Elémentaire de Terre",
+          "spans": [
+            {
+              "text": "Elémentaire de Terre",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En prenant la Voie de la Terre, vous débloquez au niveau 1 un Elémentaire de Terre. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de la Terre mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de Terre a un effet passif : il encaisse 1 dégât normal / tour.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "spans": [
+            {
+              "text": "En prenant la Voie de la Terre, vous débloquez au niveau 1 un Elémentaire de Terre. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie de la Terre mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de Terre a un effet passif : il encaisse 1 dégât normal / tour.\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
               "bold": false
             }
           ]
@@ -7253,11 +7398,11 @@
     {
       "id": "38188b48-e48e-80ba-a0b1-cd7a36d0ee57",
       "notionUrl": "https://app.notion.com/p/Voie-de-Mortis-38188b48e48e80baa0b1cd7a36d0ee57",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:32:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Apparence"
         },
         "Visible": {
           "type": "checkbox",
@@ -7324,7 +7469,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Apparence"
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -7373,11 +7518,11 @@
     {
       "id": "38188b48-e48e-803a-b7a1-ff66349a805c",
       "notionUrl": "https://app.notion.com/p/Voie-des-Cendres-38188b48e48e803ab7a1ff66349a805c",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:32:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Manipulation"
+          "value": "Charisme"
         },
         "Visible": {
           "type": "checkbox",
@@ -7444,7 +7589,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Manipulation"
         },
         "Techniques": {
           "type": "relation",
@@ -7493,11 +7638,11 @@
     {
       "id": "38188b48-e48e-80e9-bee5-c14b66cc21ce",
       "notionUrl": "https://app.notion.com/p/Voie-des-Ossements-38188b48e48e80e9bee5c14b66cc21ce",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:32:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Charisme"
+          "value": "Apparence"
         },
         "Visible": {
           "type": "checkbox",
@@ -7564,7 +7709,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Apparence"
+          "value": "Charisme"
         },
         "Techniques": {
           "type": "relation",
@@ -7795,11 +7940,11 @@
     {
       "id": "38188b48-e48e-8046-bf4d-caf6c6199624",
       "notionUrl": "https://app.notion.com/p/Voie-du-Contr-le-du-Climat-38188b48e48e8046bf4dcaf6c6199624",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:33:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Perception"
+          "value": "Intelligence"
         },
         "Visible": {
           "type": "checkbox",
@@ -7866,7 +8011,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Perception"
         },
         "Techniques": {
           "type": "relation",
@@ -8180,11 +8325,11 @@
     {
       "id": "39388b48-e48e-80a0-a267-f68582659b1c",
       "notionUrl": "https://app.notion.com/p/Voie-du-Feu-39388b48e48e80a0a267f68582659b1c",
-      "lastEditedTime": "2026-08-09T09:06:00.000Z",
+      "lastEditedTime": "2026-08-11T13:38:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": ""
+          "value": "Force"
         },
         "Visible": {
           "type": "checkbox",
@@ -8318,7 +8463,38 @@
       },
       "title": "Voie du Feu",
       "slug": "voie-du-feu",
-      "content": []
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Dans les contrées reculées du Plan du Feu, la violence et le combat font rage. Vous qui avez dans votre passé tissé un lien avec un Elémentaire provenant de ce plan ressentez la soif de vaincre par n'importe quel moyen. Et pour cela, vous avez accès à un large panel d'armements vous permettant de réagir à n'importe quelle situation et de remporter la victoire.",
+          "spans": [
+            {
+              "text": "Dans les contrées reculées du Plan du Feu, la violence et le combat font rage. Vous qui avez dans votre passé tissé un lien avec un Elémentaire provenant de ce plan ressentez la soif de vaincre par n'importe quel moyen. Et pour cela, vous avez accès à un large panel d'armements vous permettant de réagir à n'importe quelle situation et de remporter la victoire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Elémentaire de Feu",
+          "spans": [
+            {
+              "text": "Elémentaire de Feu",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En prenant la Voie du Feu, vous débloquez au niveau 1 un Elémentaire de Feu. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie du Feu mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de Feu a un effet passif : il change 1 dégât normal qu’il inflige en 1 dégât aggravé\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "spans": [
+            {
+              "text": "En prenant la Voie du Feu, vous débloquez au niveau 1 un Elémentaire de Feu. Vous avez alors la possibilité d’invoquer l'élémentaire pour vous porter assistance.\n\nL'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de Voie du Feu mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines.\n\nCependant, l'Elémentaire de Feu a un effet passif : il change 1 dégât normal qu’il inflige en 1 dégât aggravé\n\nSi l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+              "bold": false
+            }
+          ]
+        }
+      ]
     },
     {
       "id": "38188b48-e48e-80fc-b1f9-dcc48a2b3ec4",
@@ -8599,11 +8775,11 @@
     {
       "id": "38188b48-e48e-8024-b3d1-c7475b10e765",
       "notionUrl": "https://app.notion.com/p/Voie-Verte-38188b48e48e8024b3d1c7475b10e765",
-      "lastEditedTime": "2026-07-22T15:14:00.000Z",
+      "lastEditedTime": "2026-08-11T07:34:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
-          "value": "Intelligence"
+          "value": "Astuce"
         },
         "Visible": {
           "type": "checkbox",
@@ -8670,7 +8846,7 @@
         },
         "Spécialité 1": {
           "type": "select",
-          "value": "Astuce"
+          "value": "Intelligence"
         },
         "Techniques": {
           "type": "relation",
