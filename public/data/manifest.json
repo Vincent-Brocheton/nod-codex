@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T16:01:07.971Z",
+  "generatedAt": "2026-08-11T16:03:08.311Z",
   "collections": [
     {
       "key": "disciplines",
@@ -112,6 +112,15 @@
   ],
   "recent": [
     {
+      "title": "Poing de pierre (Voie Élémentaire)",
+      "slug": "poing-de-pierre-voie-elementaire",
+      "collectionKey": "techniques",
+      "collectionLabel": "Techniques",
+      "path": "/techniques",
+      "icon": "swords",
+      "lastEditedTime": "2026-08-11T16:02:00.000Z"
+    },
+    {
       "title": "Fortification",
       "slug": "fortification",
       "collectionKey": "pouvoirs",
@@ -182,15 +191,6 @@
       "path": "/clans",
       "icon": "shield-plus",
       "lastEditedTime": "2026-08-11T13:24:00.000Z"
-    },
-    {
-      "title": "Poing de pierre",
-      "slug": "poing-de-pierre",
-      "collectionKey": "techniques",
-      "collectionLabel": "Techniques",
-      "path": "/techniques",
-      "icon": "swords",
-      "lastEditedTime": "2026-08-11T11:25:00.000Z"
     },
     {
       "title": "Sonar aqueux",

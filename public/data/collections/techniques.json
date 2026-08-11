@@ -4,7 +4,7 @@
   "group": "Techniques",
   "description": "Retrouvez l'ensemble des techniques accessibles à votre personnage en combinant ses disciplines.",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-08-11T06:30:19.205Z",
+  "generatedAt": "2026-08-11T16:03:08.283Z",
   "propertyOptions": {
     "Prerequis": [
       "Chimérie •",
@@ -63,7 +63,9 @@
       "Melpominée ••••",
       "Protéisme •",
       "Auspex •",
-      "Melpominée •"
+      "Melpominée •",
+      "Voie de l'Eau ••",
+      "Voie de la Terre ••"
     ]
   },
   "items": [
@@ -4947,6 +4949,119 @@
       ]
     },
     {
+      "id": "3b988b48-e48e-809a-8e9e-c00e0c4c463f",
+      "notionUrl": "https://app.notion.com/p/Mur-aquatique-3b988b48e48e809a8e9ec00e0c4c463f",
+      "lastEditedTime": "2026-08-11T11:18:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Force d'ame •••",
+            "Voie de l'Eau ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Mur aquatique"
+        }
+      },
+      "title": "Mur aquatique",
+      "slug": "mur-aquatique",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lors des tsunamis, l'océan crée des vagues immenses. Vous utilisez ce potentiel pour défendre vos allié.e.s.",
+          "spans": [
+            {
+              "text": "Lors des tsunamis, l'océan crée des vagues immenses. Vous utilisez ce potentiel pour défendre vos allié.e.s.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lors de vos utilisations de Blocage aqueux, vous pouvez dépenser votre action simple pour créer une zone aquatique de 6 pas de diamètre durant 3 tours à la place d'un jet d'eau.",
+          "spans": [
+            {
+              "text": "Lors de vos utilisations de ",
+              "bold": false
+            },
+            {
+              "text": "Blocage aqueux",
+              "bold": true
+            },
+            {
+              "text": ", vous pouvez dépenser votre action simple pour créer une zone aquatique de 6 pas de diamètre durant 3 tours à la place d'un jet d'eau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Si vous utilisez Protection aquatique, vous pouvez dépenser votre action simple pour pouvoir vous déplacer avec votre protection, mais celle-ci ne dure que 5 tours. Vous ne pouvez vous déplacer que de 2 pas / action simple. Si votre protection a été lancée, elle peut se déplacer de 1 pas dans la direction que vous le souhaitez à chaque tour.",
+          "spans": [
+            {
+              "text": "Si vous utilisez ",
+              "bold": false
+            },
+            {
+              "text": "Protection aquatique",
+              "bold": true
+            },
+            {
+              "text": ", vous pouvez dépenser votre action simple pour pouvoir vous déplacer avec votre protection, mais celle-ci ne dure que 5 tours. Vous ne pouvez vous déplacer que de 2 pas / action simple. Si votre protection a été lancée, elle peut se déplacer de 1 pas dans la direction que vous le souhaitez à chaque tour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3a288b48-e48e-80c4-8c71-d53f5e31baa9",
       "notionUrl": "https://app.notion.com/p/Nid-de-serpents-3a288b48e48e80c48c71d53f5e31baa9",
       "lastEditedTime": "2026-07-28T08:03:00.000Z",
@@ -5825,6 +5940,111 @@
           "spans": [
             {
               "text": "Lorsque vous frappez avec succès un adversaire avec une attaque Bagarre, vous pouvez choisir de renoncer à certains ou tous les dégâts que vous auriez normalement infligés en échange de le repousser au loin. Pour chaque point de dommage auquel vous renoncez, vous pouvez projeter votre cible à deux pas.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b988b48-e48e-8090-abd3-e36b8cec4902",
+      "notionUrl": "https://app.notion.com/p/Poing-de-pierre-Voie-l-mentaire-3b988b48e48e8090abd3e36b8cec4902",
+      "lastEditedTime": "2026-08-11T16:02:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Puissance ••",
+            "Voie de la Terre ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "puissance",
+              "title": "Puissance",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Poing de pierre (Voie Élémentaire)"
+        }
+      },
+      "title": "Poing de pierre (Voie Élémentaire)",
+      "slug": "poing-de-pierre-voie-elementaire",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre style de combat est défensif. Vos poings empêcheront vos adversaires d'approcher.",
+          "spans": [
+            {
+              "text": "Votre style de combat est défensif. Vos poings empêcheront vos adversaires d'approcher.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lorsque vous réussissez un jet de Bagarre, vous pouvez choisir de renoncer aux dégâts infligés pour repousser votre cible de 3 pas / dégât qui aurait dû être infligé.",
+          "spans": [
+            {
+              "text": "Lorsque vous réussissez un jet de ",
+              "bold": false
+            },
+            {
+              "text": "Bagarre",
+              "bold": true
+            },
+            {
+              "text": ", vous pouvez choisir de renoncer aux dégâts infligés pour repousser votre cible de 3 pas / dégât qui aurait dû être infligé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous interrompez tout pouvoir qui prend plusieurs tours à s'activer en repoussant votre cible.",
+          "spans": [
+            {
+              "text": "Vous interrompez tout pouvoir qui prend plusieurs tours à s'activer en repoussant votre cible.",
               "bold": false
             }
           ]
@@ -7180,6 +7400,135 @@
           "spans": [
             {
               "text": "Dépensez 1 point de sang et utilisez deux tours complets de concentration, ne permettant aucune autre action que le mouvement. En utilisant Second Souffle, vous pouvez convertir tous les dégâts aggravés que vous avez pris en dégâts normaux.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b988b48-e48e-8072-8f8d-c1ee8ada8e34",
+      "notionUrl": "https://app.notion.com/p/Sonar-aqueux-3b988b48e48e80728f8dc1ee8ada8e34",
+      "lastEditedTime": "2026-08-11T11:21:00.000Z",
+      "properties": {
+        "Prerequis": {
+          "type": "multi_select",
+          "value": [
+            "Auspex •",
+            "Voie de l'Eau ••"
+          ]
+        },
+        "Disciplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l’Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Sonar aqueux"
+        }
+      },
+      "title": "Sonar aqueux",
+      "slug": "sonar-aqueux",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne ressentez plus l'eau, vous êtes devenu l'Eau.",
+          "spans": [
+            {
+              "text": "Vous ne ressentez plus l'eau, vous êtes devenu l'Eau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Lors de vos utilisations de Ressentir l'eau, vous pouvez utiliser Sens aiguisés pour utiliser vos sens comme si vous étiez la source d'eau.",
+          "spans": [
+            {
+              "text": "Lors de vos utilisations de ",
+              "bold": false
+            },
+            {
+              "text": "Ressentir l'eau",
+              "bold": true
+            },
+            {
+              "text": ", vous pouvez utiliser ",
+              "bold": false
+            },
+            {
+              "text": "Sens aiguisés",
+              "bold": true
+            },
+            {
+              "text": " pour utiliser vos sens comme si vous étiez la source d'eau.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Vous pouvez également activer Sens aiguisés lors de vos utilisations de Vibrations de l'eau.",
+          "spans": [
+            {
+              "text": "Vous pouvez également activer ",
+              "bold": false
+            },
+            {
+              "text": "Sens aiguisés",
+              "bold": true
+            },
+            {
+              "text": " lors de vos utilisations de ",
+              "bold": false
+            },
+            {
+              "text": "Vibrations de l'eau",
+              "bold": true
+            },
+            {
+              "text": ".",
               "bold": false
             }
           ]
