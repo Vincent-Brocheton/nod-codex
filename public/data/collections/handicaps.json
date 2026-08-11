@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-11T18:17:07.205Z",
+  "generatedAt": "2026-08-11T18:55:06.192Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -5119,7 +5119,7 @@
     {
       "id": "39688b48-e48e-8096-9b10-e53eb7a82647",
       "notionUrl": "https://app.notion.com/p/Pr-sence-sinistre-39688b48e48e80969b10e53eb7a82647",
-      "lastEditedTime": "2026-07-09T15:48:00.000Z",
+      "lastEditedTime": "2026-08-11T18:54:00.000Z",
       "properties": {
         "Lignées": {
           "type": "relation",
@@ -5151,10 +5151,90 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Vous dégagez une aura surnaturelle qui provoque nervosité et malaise chez les personnes qui vous entourent.\nLa nature exacte de cette Présence Inquiétante est propre à chaque vampire et peut prendre de nombreuses formes.\nVous devriez discuter avec votre Conteur afin de déterminer précisément l’étrangeté conférée à votre personnage par cet Handicap, mais toutes les formes de Présence Inquiétante sont troublantes et peuvent constituer une violation de la Mascarade.\nVous pouvez prendre cet Handicap jusqu’à trois fois pour représenter différents aspects de votre étrangeté, mais chaque manifestation doit être distincte et indépendante des autres.\nVous ne pouvez pas prendre Présence Inquiétante deux fois pour déclarer que vos yeux sont violets et brillants. En revanche, vous pouvez le prendre deux fois pour dire que vos yeux brillent et que vous dégagez constamment une odeur de putréfaction.\nQuelques exemples possibles :\n• Des yeux brillants ou d’une couleur inhabituelle\n• Une brise glaciale qui suit le personnage\n• Une odeur surnaturelle de roses ou de terre fraîchement remuée\n• Des crocs permanents impossibles à rétracter\n• Une langue bifide ou une peau écailleuse\n• L’absence de reflet (comme la faiblesse de clan des Lasombra)\n• Les plantes se fanent à votre approche et meurent à votre contact",
+          "text": "Vous dégagez une aura surnaturelle qui provoque nervosité et malaise chez les personnes qui vous entourent.\nLa nature exacte de cette Présence Inquiétante est propre à chaque vampire et peut prendre de nombreuses formes.\nVous devriez discuter avec votre Conteur afin de déterminer précisément l’étrangeté conférée à votre personnage par cet Handicap, mais toutes les formes de Présence Inquiétante sont troublantes et peuvent constituer une violation de la Mascarade.\nVous pouvez prendre cet Handicap jusqu’à trois fois pour représenter différents aspects de votre étrangeté, mais chaque manifestation doit être distincte et indépendante des autres.\nVous ne pouvez pas prendre Présence Inquiétante deux fois pour déclarer que vos yeux sont violets et brillants. En revanche, vous pouvez le prendre deux fois pour dire que vos yeux brillent et que vous dégagez constamment une odeur de putréfaction.",
           "spans": [
             {
-              "text": "Vous dégagez une aura surnaturelle qui provoque nervosité et malaise chez les personnes qui vous entourent.\nLa nature exacte de cette Présence Inquiétante est propre à chaque vampire et peut prendre de nombreuses formes.\nVous devriez discuter avec votre Conteur afin de déterminer précisément l’étrangeté conférée à votre personnage par cet Handicap, mais toutes les formes de Présence Inquiétante sont troublantes et peuvent constituer une violation de la Mascarade.\nVous pouvez prendre cet Handicap jusqu’à trois fois pour représenter différents aspects de votre étrangeté, mais chaque manifestation doit être distincte et indépendante des autres.\nVous ne pouvez pas prendre Présence Inquiétante deux fois pour déclarer que vos yeux sont violets et brillants. En revanche, vous pouvez le prendre deux fois pour dire que vos yeux brillent et que vous dégagez constamment une odeur de putréfaction.\nQuelques exemples possibles :\n• Des yeux brillants ou d’une couleur inhabituelle\n• Une brise glaciale qui suit le personnage\n• Une odeur surnaturelle de roses ou de terre fraîchement remuée\n• Des crocs permanents impossibles à rétracter\n• Une langue bifide ou une peau écailleuse\n• L’absence de reflet (comme la faiblesse de clan des Lasombra)\n• Les plantes se fanent à votre approche et meurent à votre contact",
+              "text": "Vous dégagez une aura surnaturelle qui provoque nervosité et malaise chez les personnes qui vous entourent.\nLa nature exacte de cette Présence Inquiétante est propre à chaque vampire et peut prendre de nombreuses formes.\nVous devriez discuter avec votre Conteur afin de déterminer précisément l’étrangeté conférée à votre personnage par cet Handicap, mais toutes les formes de Présence Inquiétante sont troublantes et peuvent constituer une violation de la Mascarade.\nVous pouvez prendre cet Handicap jusqu’à trois fois pour représenter différents aspects de votre étrangeté, mais chaque manifestation doit être distincte et indépendante des autres.\nVous ne pouvez pas prendre Présence Inquiétante deux fois pour déclarer que vos yeux sont violets et brillants. En revanche, vous pouvez le prendre deux fois pour dire que vos yeux brillent et que vous dégagez constamment une odeur de putréfaction.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Quelques exemples possibles :",
+          "spans": [
+            {
+              "text": "Quelques exemples possibles :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Des yeux brillants ou d’une couleur inhabituelle",
+          "spans": [
+            {
+              "text": "Des yeux brillants ou d’une couleur inhabituelle",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une brise glaciale qui suit le personnage",
+          "spans": [
+            {
+              "text": "Une brise glaciale qui suit le personnage",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une odeur surnaturelle de roses ou de terre fraîchement remuée",
+          "spans": [
+            {
+              "text": "Une odeur surnaturelle de roses ou de terre fraîchement remuée",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Des crocs permanents impossibles à rétracter",
+          "spans": [
+            {
+              "text": "Des crocs permanents impossibles à rétracter",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Une langue bifide ou une peau écailleuse",
+          "spans": [
+            {
+              "text": "Une langue bifide ou une peau écailleuse",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "L’absence de reflet (comme la faiblesse de clan des Lasombra)",
+          "spans": [
+            {
+              "text": "L’absence de reflet (comme la faiblesse de clan des Lasombra)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Les plantes se fanent à votre approche et meurent à votre contact",
+          "spans": [
+            {
+              "text": "Les plantes se fanent à votre approche et meurent à votre contact",
               "bold": false
             }
           ]
