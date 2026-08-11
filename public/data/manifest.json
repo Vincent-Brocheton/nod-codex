@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-11T17:52:07.095Z",
+  "generatedAt": "2026-08-11T17:54:51.768Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Sorcier",
+      "slug": "sorcier",
+      "collectionKey": "lignees",
+      "collectionLabel": "Lignées",
+      "path": "/lignees",
+      "icon": "shield-plus",
+      "lastEditedTime": "2026-08-11T17:54:00.000Z"
+    },
     {
       "title": "Âme de l’Homoncule",
       "slug": "ame-de-l-homoncule",
@@ -281,15 +290,6 @@
       "path": "/disciplines",
       "icon": "droplet",
       "lastEditedTime": "2026-08-11T07:33:00.000Z"
-    },
-    {
-      "title": "Voie de Mortis",
-      "slug": "voie-de-mortis",
-      "collectionKey": "disciplines",
-      "collectionLabel": "Disciplines",
-      "path": "/disciplines",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T07:32:00.000Z"
     }
   ]
 }

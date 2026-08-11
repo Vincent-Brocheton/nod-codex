@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-11T17:52:07.057Z",
+  "generatedAt": "2026-08-11T17:54:51.729Z",
   "propertyOptions": {},
   "items": [
     {
@@ -2077,7 +2077,7 @@
     {
       "id": "39388b48-e48e-8041-ab7a-eea663f2f5c1",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-07-19T18:48:00.000Z",
+      "lastEditedTime": "2026-08-11T17:54:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2179,6 +2179,30 @@
               "collectionKey": "disciplines",
               "slug": "voie-du-cosmos",
               "title": "Voie du Cosmos",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-musique-des-spheres",
+              "title": "Voie de la Musique des Sphères",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-des-vents-du-chasseur",
+              "title": "Voie des Vents du Chasseur",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eveil-de-l-acier",
+              "title": "Voie de l'Éveil de l'Acier",
               "cout": null,
               "approbation": false,
               "complet": false

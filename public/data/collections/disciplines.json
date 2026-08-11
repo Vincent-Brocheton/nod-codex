@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-11T17:52:07.038Z",
+  "generatedAt": "2026-08-11T17:54:51.711Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -6323,7 +6323,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -6893,7 +6902,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -7847,7 +7865,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
