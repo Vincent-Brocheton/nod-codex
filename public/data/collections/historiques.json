@@ -4,13 +4,13 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-11T18:55:06.218Z",
+  "generatedAt": "2026-08-12T07:22:17.210Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39b88b48-e48e-8094-81ae-f701b5042562",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-04T07:11:00.000Z",
+      "lastEditedTime": "2026-08-12T06:36:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -652,20 +652,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire.",
+          "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire avec le même niveau et les mêmes compétences au bout de deux mois après sa disparition au lieu de <Niveau de l’allié> mois.",
           "spans": [
             {
-              "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Le nouvel Allié possède le même niveau et les mêmes compétences.",
-          "spans": [
-            {
-              "text": "Le nouvel Allié possède le ",
+              "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire avec le ",
               "bold": false
             },
             {
@@ -677,21 +667,11 @@
               "bold": false
             },
             {
-              "text": "mêmes compétences",
+              "text": "mêmes compétences ",
               "bold": true
             },
             {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Ce remplacement intervient au maximum deux mois après sa disparition.",
-          "spans": [
-            {
-              "text": "Ce remplacement intervient au maximum ",
+              "text": "au bout de ",
               "bold": false
             },
             {
@@ -699,7 +679,7 @@
               "bold": true
             },
             {
-              "text": " après sa disparition.",
+              "text": " après sa disparition au lieu de <Niveau de l’allié> mois.",
               "bold": false
             }
           ]
@@ -1138,20 +1118,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque point dans un Historique d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
+          "text": "Chaque point dans une spécialisation d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
           "spans": [
             {
-              "text": "Chaque point dans un Historique d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
+              "text": "Chaque point dans une spécialisation d’Influence confère à votre personnage une action d’Influence par mois. Si vous possédez une Influence Élite de 3 et une Influence Milieu criminel de 2, vous disposez de 5 actions d’Influence à utiliser durant le mois civil. Ces actions doivent être consignées séparément ; bien qu’elles soient parfois interchangeables, leur origine peut influencer leur utilisation.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences — les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
+          "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences - les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
           "spans": [
             {
-              "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences — les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
+              "text": "Il existe deux types d’actions d’Influence : les actions ciblées et les actions générales. Les actions ciblées affectent les Influences - les vôtres ou celles d’autres personnages. Les actions générales affectent le monde environnant, produisant des effets concrets ou provoquant (ou empêchant) des événements.",
               "bold": false
             }
           ]
@@ -1162,6 +1142,20 @@
           "spans": [
             {
               "text": "Les actions d’Influence ne peuvent pas être conservées d’un mois à l’autre. Un personnage doit être capable de dépenser l’intégralité des actions nécessaires à un effet donné au cours d’un même mois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes limité a une action d’influence par alliés par mois celle ci peut aller du niveau 1 à <Niveau d’influence> de l’alliés.",
+          "spans": [
+            {
+              "text": "Vous êtes limité a une action d’influence par alliés par mois celle ci peut aller du niveau 1 à <Niveau d’influence> de l’alliés",
+              "bold": true
+            },
+            {
+              "text": ".",
               "bold": false
             }
           ]
