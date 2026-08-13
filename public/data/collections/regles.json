@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-13T18:10:58.196Z",
+  "generatedAt": "2026-08-13T19:25:42.998Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -13270,7 +13270,7 @@
     {
       "id": "3a688b48-e48e-8026-af18-d9821956e445",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-08-13T18:09:00.000Z",
+      "lastEditedTime": "2026-08-13T18:32:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -13618,6 +13618,16 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les disciplines sont limitées a une montée de niveau par mois, pour toute les Disciplines. Vous ne pouvez pas montée plusieurs niveaux d’une meme Discipline, ni ",
+          "spans": [
+            {
+              "text": "Les disciplines sont limitées a une montée de niveau par mois, pour toute les Disciplines. Vous ne pouvez pas montée plusieurs niveaux d’une meme Discipline, ni ",
               "bold": false
             }
           ]
