@@ -3,6 +3,12 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.4.4] - 2026-08-13
+
+- Les titres de niveau 4 (h4) des fiches sont désormais affichés comme des titres (auparavant rendus en simple texte)
+- Les menus dépliants Notion ("toggle") sont maintenant affichés comme tels sur le site, avec leur contenu (auparavant perdu à la synchronisation)
+- Titres de niveau 3 et 4 restylés pour se distinguer plus nettement du texte en gras
+
 ## [1.4.3] - 2026-08-12
 
 - Corrections de terminologies dans certaines fiches

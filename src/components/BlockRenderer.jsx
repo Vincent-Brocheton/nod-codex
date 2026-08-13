@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
+import ContentBlocks from "./ContentBlocks";
 
 function renderSpans(block, onItemClick) {
     if (!block.spans) return block.text;
@@ -21,10 +22,19 @@ function renderSpans(block, onItemClick) {
     });
 }
 
-export default function Block({ block, onItemClick }) {
+export default function Block({ block, onItemClick, manifest }) {
     if (block.type === "heading_1") return <h1>{renderSpans(block, onItemClick)}</h1>;
     if (block.type === "heading_2") return <h2>{renderSpans(block, onItemClick)}</h2>;
     if (block.type === "heading_3") return <h3>{renderSpans(block, onItemClick)}</h3>;
+    if (block.type === "heading_4") return <h4>{renderSpans(block, onItemClick)}</h4>;
+    if (block.type === "toggle") {
+        return (
+            <details className="toggleBlock">
+                <summary>{renderSpans(block, onItemClick)}</summary>
+                <ContentBlocks content={block.children || []} manifest={manifest} />
+            </details>
+        );
+    }
     if (block.type === "quote") return <blockquote>{renderSpans(block, onItemClick)}</blockquote>;
     if (block.type === "bulleted_list_item") return <li>{renderSpans(block, onItemClick)}</li>;
     if (block.type === "numbered_list_item") return <li>{renderSpans(block, onItemClick)}</li>;

@@ -828,8 +828,31 @@ h1 {
 
 .contentBlocks h1,
 .contentBlocks h2,
-.contentBlocks h3 {
+.contentBlocks h3,
+.contentBlocks h4 {
   color: var(--text-heading);
+}
+
+/* h3/h4 par défaut du navigateur (1.17em / 1em) sont trop proches de la
+   taille du texte courant (19px, voir .contentBlocks p) pour se distinguer
+   nettement d'une simple phrase en gras : le serif d'apparat + une taille
+   franchement réduite entre niveaux règle l'ambiguïté. h4 bascule en
+   petites capitales colorées (façon kicker éditorial) plutôt qu'un ton sur
+   ton avec h3, puisqu'il n'a plus la place de descendre encore en taille. */
+.contentBlocks h3 {
+  font-family: var(--font-display);
+  font-size: 20px;
+  letter-spacing: 0.01em;
+  margin: 28px 0 10px;
+}
+
+.contentBlocks h4 {
+  color: var(--accent-strong);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  margin: 22px 0 8px;
+  text-transform: uppercase;
 }
 
 .contentBlocks p,
@@ -879,6 +902,48 @@ h1 {
 
 .contentBlocks li {
   margin-bottom: 6px;
+}
+
+/* Bloc "toggle" Notion (menu dépliant) : <details> natif plutôt qu'un état
+   React, pas de logique d'ouverture/fermeture à gérer ni de perte d'état au
+   changement de fiche. Pas d'encadrement : seul le contenu déplié s'indente
+   légèrement pour rester lisible comme un sous-niveau, sans créer un bloc à
+   part dans la fiche. */
+.toggleBlock {
+  margin: 0 0 16px;
+}
+
+.toggleBlock:last-child {
+  margin-bottom: 0;
+}
+
+.toggleBlock summary {
+  color: var(--text-heading);
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.toggleBlock[open] summary {
+  margin-bottom: 10px;
+}
+
+.toggleBlock .contentBlocks {
+  background: none;
+  border: none;
+  border-radius: 0;
+  max-width: none;
+  padding: 0 0 0 20px;
+}
+
+.toggleBlock .contentBlocks > :last-child {
+  margin-bottom: 0;
+}
+
+/* Pas de lettrine sur le premier paragraphe d'un toggle : elle est réservée
+   au tout premier paragraphe de la fiche (voir plus haut), pas à répéter à
+   chaque menu dépliant. */
+.toggleBlock .contentBlocks p:first-of-type::first-letter {
+  all: unset;
 }
 
 .contentBlocks li:last-child {

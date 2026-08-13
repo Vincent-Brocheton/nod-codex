@@ -9,7 +9,7 @@ const cacheDir = path.join(rootDir, "scripts", ".cache");
 // nouveau champ sur les blocs de contenu) : un cache d'une version
 // différente est ignoré (resync complet une fois), pour ne jamais resservir
 // une fiche dont la structure ne correspond plus à ce qu'attend le script.
-const CACHE_VERSION = 3;
+const CACHE_VERSION = 4;
 
 /**
  * Cache local (non versionné dans git) du résultat brut par fiche, pour

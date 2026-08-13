@@ -44,6 +44,20 @@ async function blockToContent(block) {
     };
   }
 
+  // Un bloc "toggle" (menu dépliant) affiche son propre texte comme
+  // déclencheur, mais son contenu réel vit dans ses blocs enfants (jamais
+  // renvoyés par le listing du parent) : il faut donc aller les chercher
+  // séparément, comme pour une table.
+  if (block.type === "toggle") {
+    const text = richTextToPlainText(value?.rich_text || []);
+    if (!text) return null;
+
+    const childBlocks = block.has_children ? await listBlockChildren(block.id) : [];
+    const children = (await Promise.all(childBlocks.map((child) => blockToContent(child)))).filter(Boolean);
+
+    return { type: "toggle", text, segments: richTextToSegments(value?.rich_text || []), children };
+  }
+
   // Un tableau Notion n'a pas de rich_text propre : chaque ligne est un bloc
   // "table_row" enfant, avec une cellule par colonne (elle-même un tableau
   // de rich_text). Il faut donc aller chercher ces lignes séparément.
@@ -287,24 +301,32 @@ function resolveRelations(items, registry) {
  * sera pas reconnu comme lien, limitation acceptée plutôt que de complexifier
  * la fusion pour un cas marginal. Doit tourner après `buildRegistry`.
  */
+function applyLinksToBlock(block, itemTargets) {
+  if (block.segments) {
+    block.spans = block.segments.flatMap((segment) => {
+      const linkSpans = resolveWikiLinks(segment.text, itemTargets);
+
+      if (!linkSpans) return [{ text: segment.text, bold: segment.bold }];
+
+      return linkSpans.map((span) => ({ ...span, bold: segment.bold }));
+    });
+
+    delete block.segments;
+  }
+
+  // Le contenu d'un "toggle" (menu dépliant) vit dans ses blocs enfants
+  // plutôt que dans `item.content` directement, cf. `blockToContent`.
+  if (block.children) {
+    for (const child of block.children) applyLinksToBlock(child, itemTargets);
+  }
+}
+
 function applyContentLinks(fetched, registry) {
   const itemTargets = buildItemTargets(registry);
 
   for (const { items } of fetched) {
     for (const item of items) {
-      for (const block of item.content) {
-        if (!block.segments) continue;
-
-        block.spans = block.segments.flatMap((segment) => {
-          const linkSpans = resolveWikiLinks(segment.text, itemTargets);
-
-          if (!linkSpans) return [{ text: segment.text, bold: segment.bold }];
-
-          return linkSpans.map((span) => ({ ...span, bold: segment.bold }));
-        });
-
-        delete block.segments;
-      }
+      for (const block of item.content) applyLinksToBlock(block, itemTargets);
     }
   }
 }

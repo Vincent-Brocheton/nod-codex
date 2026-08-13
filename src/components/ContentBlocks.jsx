@@ -42,7 +42,7 @@ export default function ContentBlocks({ content = [], manifest }) {
             {groups.map((group, groupIndex) => {
                 if (!group.listTag) {
                     const block = group.blocks[0];
-                    return <BlockRenderer key={`${block.type}-${groupIndex}`} block={block} onItemClick={onItemClick} />;
+                    return <BlockRenderer key={`${block.type}-${groupIndex}`} block={block} onItemClick={onItemClick} manifest={manifest} />;
                 }
 
                 const ListTag = group.listTag;
@@ -50,7 +50,7 @@ export default function ContentBlocks({ content = [], manifest }) {
                 return (
                     <ListTag key={`list-${groupIndex}`}>
                         {group.blocks.map((block, blockIndex) => (
-                            <BlockRenderer key={`${block.type}-${blockIndex}`} block={block} onItemClick={onItemClick} />
+                            <BlockRenderer key={`${block.type}-${blockIndex}`} block={block} onItemClick={onItemClick} manifest={manifest} />
                         ))}
                     </ListTag>
                 );
