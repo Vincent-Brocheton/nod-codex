@@ -4,13 +4,13 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-13T08:54:45.331Z",
+  "generatedAt": "2026-08-13T09:13:04.638Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39b88b48-e48e-8094-81ae-f701b5042562",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-13T08:54:00.000Z",
+      "lastEditedTime": "2026-08-13T09:12:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1161,7 +1161,7 @@
           ]
         },
         {
-          "type": "heading_2",
+          "type": "heading_3",
           "text": "Actions d’Influence ciblées",
           "spans": [
             {
@@ -1221,7 +1221,7 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "heading_4",
           "text": "Attaque",
           "spans": [
             {
@@ -1351,7 +1351,7 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "heading_4",
           "text": "Défense",
           "spans": [
             {
@@ -1391,7 +1391,7 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "heading_4",
           "text": "Blocage",
           "spans": [
             {
@@ -1441,7 +1441,7 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "heading_4",
           "text": "Renforcement",
           "spans": [
             {
@@ -1581,7 +1581,7 @@
           ]
         },
         {
-          "type": "paragraph",
+          "type": "heading_4",
           "text": "Attaques indirectes",
           "spans": [
             {
