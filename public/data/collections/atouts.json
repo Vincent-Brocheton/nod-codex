@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-13T09:13:04.612Z",
+  "generatedAt": "2026-08-13T18:10:58.168Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -1534,7 +1534,7 @@
     {
       "id": "3b488b48-e48e-8055-913a-e2d5360033e2",
       "notionUrl": "https://app.notion.com/p/Breloques-mortuaires-3b488b48e48e8055913ae2d5360033e2",
-      "lastEditedTime": "2026-08-06T10:59:00.000Z",
+      "lastEditedTime": "2026-08-13T17:27:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1559,7 +1559,7 @@
         },
         "Type": {
           "type": "select",
-          "value": ""
+          "value": "Clan"
         },
         "Clan": {
           "type": "relation",
@@ -1633,7 +1633,7 @@
     {
       "id": "39688b48-e48e-80af-9435-ec9d9f37e0ab",
       "notionUrl": "https://app.notion.com/p/Casse-cou-39688b48e48e80af9435ec9d9f37e0ab",
-      "lastEditedTime": "2026-07-09T13:53:00.000Z",
+      "lastEditedTime": "2026-08-13T17:27:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1665,10 +1665,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de +3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de +2 à vos réserves de tests défensifs Physiques.",
+          "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de 3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de 2 à vos réserves de tests défensifs Physiques.",
           "spans": [
             {
-              "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de +3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de +2 à vos réserves de tests défensifs Physiques.",
+              "text": "Vous excellez dans les prises de risque… et encore davantage dans l’art d’y survivre.\nLorsque vous tentez des actions Physiques particulièrement dangereuses, comme sauter d’une voiture en mouvement à une autre, votre réserve de test augmente de 3.\nSi vous affrontez plusieurs adversaires seul, vous bénéficiez d’un bonus de 2 à vos réserves de tests défensifs Physiques.",
               "bold": false
             }
           ]

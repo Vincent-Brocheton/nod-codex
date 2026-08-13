@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-13T09:13:04.631Z",
+  "generatedAt": "2026-08-13T18:10:58.196Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -6661,7 +6661,7 @@
     {
       "id": "39c88b48-e48e-8058-8607-cf6b79870ee6",
       "notionUrl": "https://app.notion.com/p/D-rangements-39c88b48e48e80588607cf6b79870ee6",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-13T16:51:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -7175,10 +7175,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Alors que la cour horrifiée observe son Humanité se fissurer, August disparaît sous Dissimulation en murmurant :",
+          "text": "Alors que la cour horrifiée observe son Humanité se fissurer, August disparaît sous Dissimulation.",
           "spans": [
             {
-              "text": "Alors que la cour horrifiée observe son Humanité se fissurer, August disparaît sous Dissimulation en murmurant :",
+              "text": "Alors que la cour horrifiée observe son Humanité se fissurer, August disparaît sous Dissimulation.",
               "bold": false
             }
           ]
@@ -13270,7 +13270,7 @@
     {
       "id": "3a688b48-e48e-8026-af18-d9821956e445",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-08-07T13:08:00.000Z",
+      "lastEditedTime": "2026-08-13T18:09:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -13727,34 +13727,34 @@
               "Temps de jeu"
             ],
             [
-              "0 - 72",
+              "0 - 108",
               "3 XP par mois de présence",
-              "24 mois",
-              "0 - 24 mois"
+              "36 mois",
+              "0 - 36 mois"
             ],
             [
-              "73 - 120",
+              "109 - 181",
               "2 XP par mois de présence",
-              "24 mois",
-              "24 - 48 mois"
+              "36 mois",
+              "37 - 72 mois"
             ],
             [
-              "121 – 216",
+              "182 – 278",
               "1 XP par mois de présence",
               "96 mois",
-              "48 - 144 mois"
+              "73 - 169 mois"
             ],
             [
-              "217 - 312",
+              "279 - 375",
               "1 XP par 2 mois de présence",
               "192 mois",
-              "144 - 336 mois"
+              "170 - 362 mois"
             ],
             [
-              "+ 312",
+              "+ 376",
               "1 XP par an de présence",
               "-----",
-              "336 mois et +"
+              "363 mois et +"
             ]
           ]
         }
