@@ -4,13 +4,13 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-12T07:22:17.210Z",
+  "generatedAt": "2026-08-13T08:26:51.344Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39b88b48-e48e-8094-81ae-f701b5042562",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-12T06:36:00.000Z",
+      "lastEditedTime": "2026-08-13T08:25:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1232,60 +1232,80 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous pouvez dépenser des actions d’Influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
+          "text": "Vous pouvez utiliser votre AIP d'influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
           "spans": [
             {
-              "text": "Vous pouvez dépenser des actions d’Influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Même catégorie : ",
-          "spans": [
-            {
-              "text": "Même catégorie : ",
+              "text": "Vous pouvez utiliser votre AIP d'influence pour attaquer et potentiellement réduire le niveau d’Influence d’un autre personnage.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "2 actions par point réduit",
+          "text": "Même catégorie : 2 niveau d'influence par point réduit",
           "spans": [
             {
-              "text": "2 actions par point réduit",
+              "text": "Même catégorie : 2 niveau d'influence par point réduit",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Catégorie opposée : 3 actions par point réduit",
+          "text": "Catégorie opposée : 3 niveau d'influence par point réduit",
           "spans": [
             {
-              "text": "Catégorie opposée : 3 actions par point réduit",
+              "text": "Catégorie opposée : 3 niveau d'influence par point réduit",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Exemple :",
+          "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Persephone.",
           "spans": [
             {
-              "text": "Exemple :",
-              "bold": true
+              "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Persephone.",
+              "bold": false
             }
           ]
         },
         {
-          "type": "paragraph",
-          "text": "Sariah possède une Influence Élite de 4 et souhaite affaiblir Persephone. Réduire l’Influence Élite de Persephone de 1 coûte 2 actions ; réduire son Influence Milieu criminel de 1 coûte 3 actions. Réduire son Influence Élite de 2 nécessite 4 actions. En revanche, réduire son Influence Milieu criminel de 2 nécessiterait 6 actions, ce que Sariah ne peut accomplir seule.",
+          "type": "bulleted_list_item",
+          "text": "Réduire l’Influence Élite de Persephone de 1 nécessite au total 2 niveaux d'influence ;",
           "spans": [
             {
-              "text": "Sariah possède une Influence Élite de 4 et souhaite affaiblir Persephone. Réduire l’Influence Élite de Persephone de 1 coûte 2 actions ; réduire son Influence Milieu criminel de 1 coûte 3 actions. Réduire son Influence Élite de 2 nécessite 4 actions. En revanche, réduire son Influence Milieu criminel de 2 nécessiterait 6 actions, ce que Sariah ne peut accomplir seule.",
+              "text": "Réduire l’Influence Élite de Persephone de 1 nécessite au total 2 niveaux d'influence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'influence ;",
+          "spans": [
+            {
+              "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'influence ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'influence.",
+          "spans": [
+            {
+              "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'influence, ce que Sarah ne peut accomplir seule.",
+          "spans": [
+            {
+              "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'influence, ce que Sarah ne peut accomplir seule.",
               "bold": false
             }
           ]
@@ -1302,21 +1322,31 @@
         },
         {
           "type": "paragraph",
-          "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent d’actions non dépensées. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+          "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
           "spans": [
             {
-              "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent d’actions non dépensées. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+              "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Les niveaux d’Influence perdus (ainsi que les actions associées) sont récupérés après deux parties ou un mois. Les actions perdues ne sont pas récupérées.",
+          "text": "Les niveaux d’Influence perdus sont récupérés après la prochaine session d'AIP.",
           "spans": [
             {
-              "text": "Les niveaux d’Influence perdus (ainsi que les actions associées) sont récupérés après deux parties ou un mois. Les actions perdues ne sont pas récupérées.",
+              "text": "Les niveaux d’Influence perdus sont récupérés après la prochaine session d'AIP.",
               "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple : J'attaque en Janvier, réduction en Février récupération en Mars.",
+          "spans": [
+            {
+              "text": "Exemple : J'attaque en Janvier, réduction en Février récupération en Mars.",
+              "bold": true
             }
           ]
         },
@@ -1342,10 +1372,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante.",
+          "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante. (Pègre ou Gotha)",
           "spans": [
             {
-              "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante.",
+              "text": "Une action de défense protège contre toutes les attaques du mois. Elle ne protège que la catégorie correspondante. (Pègre ou Gotha)",
               "bold": false
             }
           ]
@@ -1392,10 +1422,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à en dépenser 3 au total pour y parvenir.",
+          "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’influence au total pour y parvenir.",
           "spans": [
             {
-              "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à en dépenser 3 au total pour y parvenir.",
+              "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’influence au total pour y parvenir.",
               "bold": false
             }
           ]
@@ -1442,10 +1472,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Exemple : passer de 5 à 6 nécessite 5 actions.",
+          "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’influence.",
           "spans": [
             {
-              "text": "Exemple : passer de 5 à 6 nécessite 5 actions.",
+              "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’influence.",
               "bold": false
             }
           ]
@@ -1532,10 +1562,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si l’action correspond à une spécialisation, votre Influence est considérée comme supérieure de 1 niveau.",
+          "text": "Si l’Alliés utilisé à la spécialité Expert, votre Influence est considérée comme supérieure de 1 niveau.",
           "spans": [
             {
-              "text": "Si l’action correspond à une spécialisation, votre Influence est considérée comme supérieure de 1 niveau.",
+              "text": "Si l’Alliés utilisé à la spécialité Expert, votre Influence est considérée comme supérieure de 1 niveau.",
               "bold": false
             }
           ]
@@ -1652,10 +1682,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Durée : deux parties ou un mois.",
+          "text": "Durée : un mois.",
           "spans": [
             {
-              "text": "Durée : deux parties ou un mois.",
+              "text": "Durée : un mois.",
               "bold": false
             }
           ]
@@ -2352,10 +2382,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Obfuscation).",
+          "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Dissimulation).",
           "spans": [
             {
-              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Obfuscation).",
+              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (comme Dissimulation).",
               "bold": false
             }
           ]
