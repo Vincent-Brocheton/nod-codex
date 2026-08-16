@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-13T19:25:43.016Z",
+  "generatedAt": "2026-08-16T15:57:03.299Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,24 @@
     }
   ],
   "recent": [
+    {
+      "title": "Notoriété",
+      "slug": "notoriete",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-16T15:48:00.000Z"
+    },
+    {
+      "title": "Porteur de Maladie",
+      "slug": "porteur-de-maladie",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-16T15:47:00.000Z"
+    },
     {
       "title": "L’Expérience",
       "slug": "l-experience",
@@ -272,24 +290,6 @@
       "path": "/techniques",
       "icon": "swords",
       "lastEditedTime": "2026-08-11T16:02:00.000Z"
-    },
-    {
-      "title": "Fortification",
-      "slug": "fortification",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T14:38:00.000Z"
-    },
-    {
-      "title": "Griffes Bestiales",
-      "slug": "griffes-bestiales",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T14:36:00.000Z"
     }
   ]
 }
