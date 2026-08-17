@@ -124,5 +124,12 @@
     group: "Atouts de Lieux",
     envVar: "NOTION_DATABASE_ATOUTS_LIEUX",
     file: "/data/collections/atouts-lieux.json"
+  },
+  {
+    key: "mysteres",
+    label: "Mystères",
+    group: "Mystères",
+    envVar: "NOTION_DATABASE_MYSTERES",
+    file: "/data/collections/mysteres.json"
   }
 ];

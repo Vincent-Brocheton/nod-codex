@@ -1,10 +1,5 @@
 import { COLLECTIONS } from "./collections.js";
 
-// Ancienne catégorie Règles utilisée avant la base "Personnage" dédiée à
-// l'assistant de création : gardée pour ne pas faire réapparaître d'anciens
-// contenus non migrés dans la liste générale des Règles.
-const CHARACTER_CREATION_CATEGORY = "Création de personnage";
-
 export const navigation = [
     {
         id: "navigation",
@@ -168,6 +163,20 @@ export const navigation = [
             },
 
             {
+                id: "mysteres",
+                type: "collection",
+                label: "Mystères",
+                path: "/mysteres",
+                icon: "sparkles",
+
+                view: "list",
+
+                collections: [
+                    COLLECTIONS.MYSTERES,
+                ],
+            },
+
+            {
                 id: "pouvoirs",
                 type: "collection",
                 label: "Pouvoirs",
@@ -229,10 +238,10 @@ export const navigation = [
                 icon: "book-open",
 
                 view: "grouped-list",
-                groupFilter: { property: "Catégorie", exclude: [CHARACTER_CREATION_CATEGORY] },
 
                 collections: [
                     COLLECTIONS.REGLES,
+                    COLLECTIONS.PERSONNAGE,
                 ],
             },
 

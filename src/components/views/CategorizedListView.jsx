@@ -4,29 +4,29 @@ import ListPaneHeader from "../ListPaneHeader";
 import LoadingState from "../States/LoadingState";
 import { applyGroupFilter } from "../../utils/groupFilter";
 import groupByCategory from "../../utils/groupByCategory";
+import { mergeCollectionItems } from "../../utils/mergeCollectionItems";
 
 /**
- * Liste d'une collection groupée visuellement par une propriété select
+ * Liste, éventuellement de plusieurs collections fusionnées (voir
+ * `mergeCollectionItems`), groupée visuellement par une propriété select
  * (ex. les Règles par Catégorie), plutôt qu'une liste plate. Les groupes
  * sont triés par ordre alphabétique (voir `groupByCategory`) ; seules
  * les catégories qui ont au moins une fiche sont affichées.
  *
  * `activeNavigation.groupFilter` permet de restreindre les fiches visibles
- * (ex. n'afficher que la catégorie "Création de Personnage" sous /creation,
- * et l'exclure sous /regles) sans dupliquer ce composant.
+ * sans dupliquer ce composant.
  */
 export default function CategorizedListView({ wiki, groupProperty = "Catégorie" }) {
 
     const navigate = useNavigate();
-    const { loadedCollections, computed } = wiki.collections;
+    const { computed } = wiki.collections;
     const { activeNavigation } = wiki.navigation;
-    const { visibleItems, activeItem, loading } = computed;
+    const { activeCollections, activeItem, loading } = computed;
 
-    const collectionKey = activeNavigation.collections[0];
-    const collection = loadedCollections[collectionKey];
     const groupFilter = activeNavigation.groupFilter;
 
-    const filteredItems = applyGroupFilter(visibleItems, groupFilter);
+    const items = mergeCollectionItems(activeCollections, groupProperty);
+    const filteredItems = applyGroupFilter(items, groupFilter);
     const showGroupTitles = !(groupFilter?.only?.length === 1);
 
     const groups = groupByCategory(filteredItems, groupProperty);
@@ -35,7 +35,7 @@ export default function CategorizedListView({ wiki, groupProperty = "Catégorie"
         <section className="listPane">
 
             <ListPaneHeader
-                group={collection?.group}
+                group={activeCollections[0]?.group}
                 label={activeNavigation.label}
                 loading={loading}
                 count={filteredItems.length}

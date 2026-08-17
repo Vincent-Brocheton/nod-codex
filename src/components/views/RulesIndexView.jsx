@@ -4,25 +4,26 @@ import AppIcon from "../AppIcon";
 import LoadingState from "../States/LoadingState";
 import { applyGroupFilter } from "../../utils/groupFilter";
 import groupByCategory from "../../utils/groupByCategory";
+import { mergeCollectionItems } from "../../utils/mergeCollectionItems";
 
 /**
- * Page d'index d'une collection groupée par catégorie (ex. Règles), affichée
- * tant qu'aucune fiche n'est sélectionnée. Reprend le même regroupement que
- * la colonne de liste (`CategorizedListView`), mais en grille de cartes
- * pleine largeur plutôt qu'en liste compacte, plus adaptée à une page
- * d'accueil de section qu'à une barre latérale.
+ * Page d'index d'une collection (éventuellement plusieurs collections
+ * fusionnées, voir `mergeCollectionItems`) groupée par catégorie (ex.
+ * Règles), affichée tant qu'aucune fiche n'est sélectionnée. Reprend le même
+ * regroupement que la colonne de liste (`CategorizedListView`), mais en
+ * grille de cartes pleine largeur plutôt qu'en liste compacte, plus adaptée
+ * à une page d'accueil de section qu'à une barre latérale.
  */
 export default function RulesIndexView({ wiki, groupProperty = "Catégorie" }) {
 
     const { activeNavigation } = wiki.navigation;
-    const { loadedCollections, computed } = wiki.collections;
-    const { loading } = computed;
+    const { computed } = wiki.collections;
+    const { activeCollections, loading } = computed;
 
-    const collectionKey = activeNavigation.collections[0];
-    const collection = loadedCollections[collectionKey];
     const groupFilter = activeNavigation.groupFilter;
 
-    const filteredItems = applyGroupFilter(collection?.items || [], groupFilter);
+    const items = mergeCollectionItems(activeCollections, groupProperty);
+    const filteredItems = applyGroupFilter(items, groupFilter);
     const groups = groupByCategory(filteredItems, groupProperty);
 
     return (

@@ -1,4 +1,5 @@
 import { selectPropertyValue } from "./groupFilter";
+import { sortByOrdre } from "./ordre";
 
 const FALLBACK_CATEGORY = "Autres";
 
@@ -31,6 +32,6 @@ export default function groupByCategory(items, groupProperty) {
     return orderedCategories.map((category) => ({
         key: category,
         label: category,
-        items: items.filter((item) => categoryByItem.get(item) === category),
+        items: sortByOrdre(items.filter((item) => categoryByItem.get(item) === category)),
     }));
 }

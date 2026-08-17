@@ -4,7 +4,7 @@
   "group": "Atouts de Lieux",
   "description": "Atouts spécifiques pour les lieux d’intêret",
   "notionDatabaseId": "3ab88b48-e48e-80d6-9156-eb378ad6cd54",
-  "generatedAt": "2026-08-16T15:57:03.294Z",
+  "generatedAt": "2026-08-17T22:33:35.575Z",
   "propertyOptions": {
     "Catégorie": [
       "Surnaturel",
@@ -123,7 +123,7 @@
     {
       "id": "3b288b48-e48e-800f-bbf1-f19864528266",
       "notionUrl": "https://app.notion.com/p/Acceptation-Universelle-3b288b48e48e800fbbf1f19864528266",
-      "lastEditedTime": "2026-08-04T13:19:00.000Z",
+      "lastEditedTime": "2026-08-17T22:04:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -151,40 +151,6 @@
             },
             {
               "text": "toutes les Sectes vampiriques lui accordent le même respect",
-              "bold": true
-            },
-            {
-              "text": ".",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Toute violation d'un Élysium possédant la Qualité Acceptation Universelle entraîne systématiquement l'attribution du Statut négatif Disgracié au responsable par les officiers de sa propre Secte.",
-          "spans": [
-            {
-              "text": "Toute violation d'un Élysium possédant la Qualité ",
-              "bold": false
-            },
-            {
-              "text": "Acceptation Universelle",
-              "bold": true
-            },
-            {
-              "text": " entraîne systématiquement l'attribution du ",
-              "bold": false
-            },
-            {
-              "text": "Statut négatif Disgracié",
-              "bold": true
-            },
-            {
-              "text": " au responsable par les officiers de ",
-              "bold": false
-            },
-            {
-              "text": "sa propre Secte",
               "bold": true
             },
             {
@@ -3197,7 +3163,7 @@
     {
       "id": "3b288b48-e48e-80b9-9c01-fc49bdec631e",
       "notionUrl": "https://app.notion.com/p/Traditionnel-3b288b48e48e80b99c01fc49bdec631e",
-      "lastEditedTime": "2026-08-04T13:18:00.000Z",
+      "lastEditedTime": "2026-08-17T22:00:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -3229,32 +3195,6 @@
             },
             {
               "text": ". Être vu dans ce lieu revêt une importance particulière au sein de la société vampirique.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Tous les vampires participant à un rassemblement organisé dans cet Élysium gagnent le Statut éphémère Courtois une fois toutes les 3 parties.",
-          "spans": [
-            {
-              "text": "Tous les vampires participant à un rassemblement organisé dans cet Élysium gagnent le ",
-              "bold": false
-            },
-            {
-              "text": "Statut éphémère Courtois",
-              "bold": true
-            },
-            {
-              "text": " une fois toutes les ",
-              "bold": false
-            },
-            {
-              "text": "3 parties",
-              "bold": true
-            },
-            {
-              "text": ".",
               "bold": false
             }
           ]

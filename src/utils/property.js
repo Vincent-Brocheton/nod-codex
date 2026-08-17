@@ -54,7 +54,11 @@ export function propertyText(property) {
 // de jeu à afficher. "Approbation"/"Complet" sont déjà affichées comme
 // badges dédiés par `ItemFlags` partout où elles existent (voir
 // `RelatedGroups`, `ItemFlags`), donc redondantes dans ce tableau générique.
-const META_PROPERTY_NAMES = new Set(["nom", "name", "visible", "approbation", "complet"]);
+// "Ordre"/"Bouton" pilotent l'assistant de création de personnage (tri des
+// étapes, libellé du bouton "suivant", voir `CreationWizardView`) : une
+// donnée d'affichage de l'assistant, pas une propriété de jeu, donc hors de
+// ce tableau même quand ces fiches apparaissent ailleurs (ex. Règles générales).
+const META_PROPERTY_NAMES = new Set(["nom", "name", "visible", "approbation", "complet", "ordre", "bouton"]);
 
 /**
  * Propriétés d'une fiche prêtes à afficher : normalisées, sans les valeurs

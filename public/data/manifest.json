@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-16T15:57:03.299Z",
+  "generatedAt": "2026-08-17T22:33:35.590Z",
   "collections": [
     {
       "key": "disciplines",
@@ -108,188 +108,194 @@
       "label": "Atouts de Lieux",
       "group": "Atouts de Lieux",
       "file": "/data/collections/atouts-lieux.json"
+    },
+    {
+      "key": "mysteres",
+      "label": "Mystères",
+      "group": "Mystères",
+      "file": "/data/collections/mysteres.json"
     }
   ],
   "recent": [
     {
-      "title": "Notoriété",
-      "slug": "notoriete",
-      "collectionKey": "handicaps",
-      "collectionLabel": "Handicaps",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-16T15:48:00.000Z"
-    },
-    {
-      "title": "Porteur de Maladie",
-      "slug": "porteur-de-maladie",
-      "collectionKey": "handicaps",
-      "collectionLabel": "Handicaps",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-08-16T15:47:00.000Z"
-    },
-    {
-      "title": "L’Expérience",
-      "slug": "l-experience",
+      "title": "Tests et défi simplifié",
+      "slug": "tests-et-defi-simplifie",
       "collectionKey": "regles",
       "collectionLabel": "Règles",
       "path": "/regles",
       "icon": "book-open",
-      "lastEditedTime": "2026-08-13T18:32:00.000Z"
+      "lastEditedTime": "2026-08-17T22:19:00.000Z"
     },
     {
-      "title": "Breloques mortuaires",
-      "slug": "breloques-mortuaires",
+      "title": "Historiques",
+      "slug": "historiques",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-08-17T22:08:00.000Z"
+    },
+    {
+      "title": "Ancien de la Révolution",
+      "slug": "ancien-de-la-revolution",
       "collectionKey": "atouts",
       "collectionLabel": "Atouts",
       "path": "/atouts",
       "icon": "star",
-      "lastEditedTime": "2026-08-13T17:27:00.000Z"
+      "lastEditedTime": "2026-08-17T22:07:00.000Z"
     },
     {
-      "title": "Casse-cou",
-      "slug": "casse-cou",
+      "title": "Membre de l’Inquisition",
+      "slug": "membre-de-l-inquisition",
       "collectionKey": "atouts",
       "collectionLabel": "Atouts",
       "path": "/atouts",
       "icon": "star",
-      "lastEditedTime": "2026-08-13T17:27:00.000Z"
+      "lastEditedTime": "2026-08-17T22:07:00.000Z"
     },
     {
-      "title": "Présence sinistre",
-      "slug": "presence-sinistre",
+      "title": "Membre de la Main Noire",
+      "slug": "membre-de-la-main-noire",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:07:00.000Z"
+    },
+    {
+      "title": "Qualités négatives des Lieux d'intérêt",
+      "slug": "qualites-negatives-des-lieux-d-interet",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-08-17T22:07:00.000Z"
+    },
+    {
+      "title": "Gardien d’un texte Sacré",
+      "slug": "gardien-d-un-texte-sacre",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:06:00.000Z"
+    },
+    {
+      "title": "Sorcier amateur",
+      "slug": "sorcier-amateur",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:06:00.000Z"
+    },
+    {
+      "title": "Manque de confiance",
+      "slug": "manque-de-confiance",
       "collectionKey": "handicaps",
       "collectionLabel": "Handicaps",
       "path": "/atouts",
       "icon": "star",
-      "lastEditedTime": "2026-08-13T17:18:00.000Z"
+      "lastEditedTime": "2026-08-17T22:06:00.000Z"
     },
     {
-      "title": "Dérangements",
-      "slug": "derangements",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-13T16:51:00.000Z"
-    },
-    {
-      "title": "Alliés",
-      "slug": "allies",
-      "collectionKey": "historiques",
-      "collectionLabel": "Historiques",
-      "path": "/historiques",
-      "icon": "scroll",
-      "lastEditedTime": "2026-08-13T09:12:00.000Z"
-    },
-    {
-      "title": "Notions d’Approbation",
-      "slug": "notions-d-approbation",
-      "collectionKey": "regles",
-      "collectionLabel": "Règles",
-      "path": "/regles",
-      "icon": "book-open",
-      "lastEditedTime": "2026-08-12T06:38:00.000Z"
-    },
-    {
-      "title": "Converser avec la lame",
-      "slug": "converser-avec-la-lame",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T18:16:00.000Z"
-    },
-    {
-      "title": "Echos d’Anthelios",
-      "slug": "echos-d-anthelios",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T18:15:00.000Z"
-    },
-    {
-      "title": "Syzygie",
-      "slug": "syzygie",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T18:03:00.000Z"
-    },
-    {
-      "title": "Puit de gravité",
-      "slug": "puit-de-gravite",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T18:00:00.000Z"
-    },
-    {
-      "title": "Perturbation circadienne",
-      "slug": "perturbation-circadienne",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T17:59:00.000Z"
-    },
-    {
-      "title": "Sorcier",
-      "slug": "sorcier",
-      "collectionKey": "lignees",
-      "collectionLabel": "Lignées",
-      "path": "/lignees",
-      "icon": "shield-plus",
-      "lastEditedTime": "2026-08-11T17:54:00.000Z"
-    },
-    {
-      "title": "Âme de l’Homoncule",
-      "slug": "ame-de-l-homoncule",
-      "collectionKey": "thaumaturgie",
-      "collectionLabel": "Thaumaturgie",
-      "path": "/rituels",
-      "icon": "pentagram",
-      "lastEditedTime": "2026-08-11T17:51:00.000Z"
-    },
-    {
-      "title": "Doué en Thaumaturgie",
-      "slug": "doue-en-thaumaturgie",
+      "title": "Architecte de la Tour",
+      "slug": "architecte-de-la-tour",
       "collectionKey": "atouts",
       "collectionLabel": "Atouts",
       "path": "/atouts",
       "icon": "star",
-      "lastEditedTime": "2026-08-11T17:47:00.000Z"
+      "lastEditedTime": "2026-08-17T22:05:00.000Z"
     },
     {
-      "title": "Lâcher la Bête",
-      "slug": "lacher-la-bete",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T17:30:00.000Z"
+      "title": "Prodige social",
+      "slug": "prodige-social",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:05:00.000Z"
     },
     {
-      "title": "Lecture d’Âme",
-      "slug": "lecture-d-ame",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-11T17:28:00.000Z"
+      "title": "L’homme en noir",
+      "slug": "l-homme-en-noir",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:04:00.000Z"
     },
     {
-      "title": "Poing de pierre (Voie Élémentaire)",
-      "slug": "poing-de-pierre-voie-elementaire",
-      "collectionKey": "techniques",
-      "collectionLabel": "Techniques",
-      "path": "/techniques",
-      "icon": "swords",
-      "lastEditedTime": "2026-08-11T16:02:00.000Z"
+      "title": "Infant Bâtard",
+      "slug": "infant-batard",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:04:00.000Z"
+    },
+    {
+      "title": "Acceptation Universelle",
+      "slug": "acceptation-universelle",
+      "collectionKey": "atouts-lieux",
+      "collectionLabel": "Atouts de Lieux",
+      "path": "/atouts-lieux",
+      "icon": "map-pin",
+      "lastEditedTime": "2026-08-17T22:04:00.000Z"
+    },
+    {
+      "title": "Noblesse sociale",
+      "slug": "noblesse-sociale",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:03:00.000Z"
+    },
+    {
+      "title": "Réputation",
+      "slug": "reputation",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:03:00.000Z"
+    },
+    {
+      "title": "Sire prestigieux",
+      "slug": "sire-prestigieux",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:02:00.000Z"
+    },
+    {
+      "title": "Diablerie pardonnée",
+      "slug": "diablerie-pardonnee",
+      "collectionKey": "handicaps",
+      "collectionLabel": "Handicaps",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:02:00.000Z"
+    },
+    {
+      "title": "Affranchi",
+      "slug": "affranchi",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:00:00.000Z"
+    },
+    {
+      "title": "Emissaire à la Camarilla",
+      "slug": "emissaire-a-la-camarilla",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-17T22:00:00.000Z"
     }
   ]
 }

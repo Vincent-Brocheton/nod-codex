@@ -24,4 +24,6 @@ export const COLLECTIONS = {
     PERSONNAGE: "personnage",
     HISTORIQUES: "historiques",
     FAQ: "faq",
+
+    MYSTERES: "mysteres",
 };

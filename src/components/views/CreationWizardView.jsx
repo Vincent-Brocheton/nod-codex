@@ -3,15 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import ContentBlocks from "../ContentBlocks";
 import LoadingState from "../States/LoadingState";
 import EmptyState from "../States/EmptyState";
-
-function ordreOf(item) {
-    const value = item.properties?.Ordre?.value;
-    return typeof value === "number" ? value : Infinity;
-}
-
-function sortByOrdre(items) {
-    return [...items].sort((a, b) => ordreOf(a) - ordreOf(b));
-}
+import { sortByOrdre } from "../../utils/ordre";
 
 /**
  * Parcours guidé "Créer son personnage" : une base Notion d'étapes

@@ -3,6 +3,11 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.5.0] - 2026-08-18
+
+- Les étapes de l'assistant "Créer son personnage" apparaissent désormais aussi dans les Règles générales (nouvelle catégorie "Création de personnage"), en plus de rester accessibles via l'assistant guidé
+- Nouvelle section "Mystères" dans les Règles
+
 ## [1.4.4] - 2026-08-13
 
 - Les titres de niveau 4 (h4) des fiches sont désormais affichés comme des titres (auparavant rendus en simple texte)

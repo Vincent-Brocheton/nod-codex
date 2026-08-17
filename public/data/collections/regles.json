@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-16T15:57:03.283Z",
+  "generatedAt": "2026-08-17T22:33:35.561Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -12549,6 +12549,119 @@
       ]
     },
     {
+      "id": "3ba88b48-e48e-800a-9f49-c7a91fdc990b",
+      "notionUrl": "https://app.notion.com/p/Historiques-3ba88b48e48e800a9f49c7a91fdc990b",
+      "lastEditedTime": "2026-08-17T22:08:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Gestion de personnage"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Historiques"
+        }
+      },
+      "title": "Historiques",
+      "slug": "historiques",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les historiques permettent de définir dans une certaines proportion l’histoire d’un personnage. Celui ci est il riche, connu, ou as t-il des goules?",
+          "spans": [
+            {
+              "text": "Les historiques permettent de définir dans une certaines proportion l’histoire d’un personnage. Celui ci est il riche, connu, ou as t-il des goules?",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cela vous permet de dresser une liste d’élément que possède votre personnage pour vivre. ",
+          "spans": [
+            {
+              "text": "Cela vous permet de dresser une liste d’élément que possède votre personnage pour vivre. ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque historique peut être améliorer jusqu’au niveau 5. Il n’est pas possible, dans la plupart des cas, de monter au dessus du niveau 5 dans vos historiques.",
+          "spans": [
+            {
+              "text": "Chaque historique peut être améliorer jusqu’au niveau 5. Il n’est pas possible, dans la plupart des cas, de monter au dessus du niveau 5 dans vos historiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Améliorer mes historiques",
+          "spans": [
+            {
+              "text": "Améliorer mes historiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour améliorer vos historiques, cela se passe en suivant les règles d’Expérience décrite. L’amélioration est limité au niveau 5 de cette manière.",
+          "spans": [
+            {
+              "text": "Pour améliorer vos historiques, cela se passe en suivant les règles d’Expérience décrite. L’amélioration est limité au niveau 5 de cette manière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Perdre des historiques",
+          "spans": [
+            {
+              "text": "Perdre des historiques",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Conteurs peuvent vous retirer un historiques de manière permanente si les circonstances l’exigent. Par exemple, votre personnage simule sa mort et change de visage, vous perdrez surement définitivement votre renommée.",
+          "spans": [
+            {
+              "text": "Les Conteurs peuvent vous retirer un historiques de manière permanente si les circonstances l’exigent. Par exemple, votre personnage simule sa mort et change de visage, vous perdrez surement définitivement votre renommée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres joueurs peuvent impacter négativement vos historiques. Les attaques d’autres joueurs peuvent réduire vos historiques de manière temporaire que vous retrouverai sous un certains délai.",
+          "spans": [
+            {
+              "text": "Les autres joueurs peuvent impacter négativement vos historiques. Les attaques d’autres joueurs peuvent réduire vos historiques de manière temporaire que vous retrouverai sous un certains délai.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce délai est disposé de cette manière, vous retrouvez un point d’un historique perdu par mois. Par exemple, si on vous attaque et que vous perdez un allié de niveau 3 alors vous retrouverez un allié similaire au bout de 3 mois.",
+          "spans": [
+            {
+              "text": "Ce délai est disposé de cette manière, vous retrouvez un point d’un historique perdu par mois. Par exemple, si on vous attaque et que vous perdez un allié de niveau 3 alors vous retrouverez un allié similaire au bout de 3 mois.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-8006-aa1d-e41f89ec561f",
       "notionUrl": "https://app.notion.com/p/Humanit-39c88b48e48e8006aa1de41f89ec561f",
       "lastEditedTime": "2026-07-28T14:11:00.000Z",
@@ -21794,7 +21907,7 @@
     {
       "id": "3b288b48-e48e-80a2-a365-c4b507f8bc8d",
       "notionUrl": "https://app.notion.com/p/Qualit-s-n-gatives-des-Lieux-d-int-r-t-3b288b48e48e80a2a365c4b507f8bc8d",
-      "lastEditedTime": "2026-08-04T12:18:00.000Z",
+      "lastEditedTime": "2026-08-17T22:07:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -22536,32 +22649,6 @@
         },
         {
           "type": "paragraph",
-          "text": "Si ce lieu est un Élyséum, les personnages qui le fréquentent ne peuvent pas obtenir de Statut positif en assistant à la Cour qui s'y déroule.",
-          "spans": [
-            {
-              "text": "Si ce lieu est un ",
-              "bold": false
-            },
-            {
-              "text": "Élyséum",
-              "bold": true
-            },
-            {
-              "text": ", les personnages qui le fréquentent ne peuvent pas obtenir de ",
-              "bold": false
-            },
-            {
-              "text": "Statut positif",
-              "bold": true
-            },
-            {
-              "text": " en assistant à la Cour qui s'y déroule.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
           "text": "Rejeté ×3 : Le lieu possède désormais une réputation exécrable. Son propriétaire perd entièrement l'accès à son Historique Célébrité et ne peut plus dépenser d'XP afin d'augmenter ses Influences tant qu'il contrôle ce lieu.",
           "spans": [
             {
@@ -22613,7 +22700,7 @@
     {
       "id": "3ab88b48-e48e-8082-b3f0-d0f0e398c868",
       "notionUrl": "https://app.notion.com/p/Qu-tes-3ab88b48e48e8082b3f0d0f0e398c868",
-      "lastEditedTime": "2026-08-07T13:22:00.000Z",
+      "lastEditedTime": "2026-08-17T21:58:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -23033,16 +23120,6 @@
           "spans": [
             {
               "text": "dépenser une Action d'Interpartie ;",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "dépenser un Trait de Statut ;",
-          "spans": [
-            {
-              "text": "dépenser un Trait de Statut ;",
               "bold": false
             }
           ]
@@ -25687,6 +25764,823 @@
           "spans": [
             {
               "text": "Il n’est normalement pas possible de soigner plus de 1 point de dégâts aggravés par jour.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3bf88b48-e48e-80cb-9c85-c638cc108256",
+      "notionUrl": "https://app.notion.com/p/Tests-et-d-fi-simplifi-3bf88b48e48e80cb9c85c638cc108256",
+      "lastEditedTime": "2026-08-17T22:19:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Défi"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Tests et défi simplifié"
+        }
+      },
+      "title": "Tests et défi simplifié",
+      "slug": "tests-et-defi-simplifie",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage tente une action dont l'issue est incertaine, un Défi permet de déterminer le résultat.",
+          "spans": [
+            {
+              "text": "Lorsqu'un personnage tente une action dont l'issue est incertaine, un ",
+              "bold": false
+            },
+            {
+              "text": "Défi",
+              "bold": true
+            },
+            {
+              "text": " permet de déterminer le résultat.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il existe deux types de Défis :",
+          "spans": [
+            {
+              "text": "Il existe deux types de Défis :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Défi Statique : le personnage est confronté à une difficulté déterminée par le Conteur.",
+          "spans": [
+            {
+              "text": "Défi Statique",
+              "bold": true
+            },
+            {
+              "text": " : le personnage est confronté à une difficulté déterminée par le Conteur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Défi Opposé : deux personnages s'affrontent directement.",
+          "spans": [
+            {
+              "text": "Défi Opposé",
+              "bold": true
+            },
+            {
+              "text": " : deux personnages s'affrontent directement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans les deux cas, le résultat est déterminé par un Pierre-Papier-Ciseaux (PPC).",
+          "spans": [
+            {
+              "text": "Dans les deux cas, le résultat est déterminé par un ",
+              "bold": false
+            },
+            {
+              "text": "Pierre-Papier-Ciseaux (PPC)",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 1 - Déterminer le Score de Test",
+          "spans": [
+            {
+              "text": "Étape 1 - Déterminer le Score de Test",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Avant de réaliser le Défi, chaque participant détermine son Score de Test.",
+          "spans": [
+            {
+              "text": "Avant de réaliser le Défi, chaque participant détermine son ",
+              "bold": false
+            },
+            {
+              "text": "Score de Test",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Score de Test = Attribut + Compétence + Bonus éventuels",
+          "spans": [
+            {
+              "text": "Score de Test = Attribut + Compétence + Bonus éventuels",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Bonus peuvent provenir notamment d'une Discipline, d'un Atout, d'un équipement ou d'une situation particulière.",
+          "spans": [
+            {
+              "text": "Les Bonus peuvent provenir notamment d'une Discipline, d'un Atout, d'un équipement ou d'une situation particulière.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Exemple :",
+          "spans": [
+            {
+              "text": "Exemple :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jeanne possède Physique 3 et Athlétisme 4.",
+          "spans": [
+            {
+              "text": "Jeanne possède ",
+              "bold": false
+            },
+            {
+              "text": "Physique 3",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Athlétisme 4",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Son Score de Test est donc de 7.",
+          "spans": [
+            {
+              "text": "Son Score de Test est donc de ",
+              "bold": false
+            },
+            {
+              "text": "7",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 2 - Résoudre le Défi",
+          "spans": [
+            {
+              "text": "Étape 2 - Résoudre le Défi",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les participants effectuent simultanément un Pierre-Papier-Ciseaux.",
+          "spans": [
+            {
+              "text": "Les participants effectuent simultanément un ",
+              "bold": false
+            },
+            {
+              "text": "Pierre-Papier-Ciseaux",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pierre bat Ciseaux",
+          "spans": [
+            {
+              "text": "Pierre",
+              "bold": true
+            },
+            {
+              "text": " bat ",
+              "bold": false
+            },
+            {
+              "text": "Ciseaux",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Ciseaux bat Papier",
+          "spans": [
+            {
+              "text": "Ciseaux",
+              "bold": true
+            },
+            {
+              "text": " bat ",
+              "bold": false
+            },
+            {
+              "text": "Papier",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Papier bat Pierre",
+          "spans": [
+            {
+              "text": "Papier",
+              "bold": true
+            },
+            {
+              "text": " bat ",
+              "bold": false
+            },
+            {
+              "text": "Pierre",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "En cas de même symbole : égalité",
+          "spans": [
+            {
+              "text": "En cas de même symbole : ",
+              "bold": false
+            },
+            {
+              "text": "égalité",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le résultat du PPC détermine qui remporte le Défi.",
+          "spans": [
+            {
+              "text": "Le résultat du PPC détermine qui remporte le Défi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour l’étape 3 rapportez vous au type de défi engagé : ",
+          "spans": [
+            {
+              "text": "Pour l’étape 3 rapportez vous au type de défi engagé : ",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Contre l’Environnement Défi Statique",
+          "spans": [
+            {
+              "text": "Contre l’Environnement ",
+              "bold": false
+            },
+            {
+              "text": "Défi Statique",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Contre un PJ ou PNJ Défi Opposé",
+          "spans": [
+            {
+              "text": "Contre un PJ ou PNJ ",
+              "bold": false
+            },
+            {
+              "text": "Défi Opposé",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 3 - Défi Statique",
+          "spans": [
+            {
+              "text": "Étape 3 - Défi Statique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans un Défi Statique, le Conteur détermine une Difficulté.",
+          "spans": [
+            {
+              "text": "Dans un Défi Statique, le Conteur détermine une ",
+              "bold": false
+            },
+            {
+              "text": "Difficulté",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "table",
+          "hasColumnHeader": true,
+          "rows": [
+            [
+              "Difficulté",
+              "Score requis"
+            ],
+            [
+              "Facile",
+              "5"
+            ],
+            [
+              "Standard",
+              "8"
+            ],
+            [
+              "Difficile",
+              "15"
+            ],
+            [
+              "Éprouvant",
+              "20"
+            ],
+            [
+              "Épique",
+              "30"
+            ]
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le joueur effectue ensuite son PPC contre le Conteur ou selon la procédure indiquée par ce dernier.",
+          "spans": [
+            {
+              "text": "Le joueur effectue ensuite son PPC contre le Conteur ou selon la procédure indiquée par ce dernier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Réussite",
+          "spans": [
+            {
+              "text": "Réussite",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'action réussit.",
+          "spans": [
+            {
+              "text": "L'action réussit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score de Test supérieur à la Difficulté → Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Score de Test supérieur à la Difficulté",
+              "bold": true
+            },
+            {
+              "text": " → ",
+              "bold": false
+            },
+            {
+              "text": "Succès Exceptionnel",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score de Test égal ou inférieur à la Difficulté → Succès",
+          "spans": [
+            {
+              "text": "Score de Test égal ou inférieur à la Difficulté",
+              "bold": true
+            },
+            {
+              "text": " → ",
+              "bold": false
+            },
+            {
+              "text": "Succès",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Echec",
+          "spans": [
+            {
+              "text": "Echec",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'action échoue.",
+          "spans": [
+            {
+              "text": "L'action échoue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Égalité",
+          "spans": [
+            {
+              "text": "Égalité",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "On compare le Score de Test à la Difficulté :",
+          "spans": [
+            {
+              "text": "On compare le Score de Test à la Difficulté :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score supérieur à la Difficulté → Succès",
+          "spans": [
+            {
+              "text": "Score supérieur à la Difficulté",
+              "bold": true
+            },
+            {
+              "text": " → ",
+              "bold": false
+            },
+            {
+              "text": "Succès",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score égal ou inférieur à la Difficulté → Échec",
+          "spans": [
+            {
+              "text": "Score égal ou inférieur à la Difficulté",
+              "bold": true
+            },
+            {
+              "text": " → ",
+              "bold": false
+            },
+            {
+              "text": "Échec",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une égalité ne peut jamais produire de Succès Exceptionnel.",
+          "spans": [
+            {
+              "text": "Une égalité ne peut jamais produire de ",
+              "bold": false
+            },
+            {
+              "text": "Succès Exceptionnel",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 3 Bis - Défi Opposé",
+          "spans": [
+            {
+              "text": "Étape 3 Bis - Défi Opposé",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Défi Opposé oppose directement deux personnages.",
+          "spans": [
+            {
+              "text": "Un Défi Opposé oppose directement deux personnages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque participant détermine son Score de Test, puis les deux effectuent un PPC.",
+          "spans": [
+            {
+              "text": "Chaque participant détermine son Score de Test, puis les deux effectuent un PPC.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Réussite",
+          "spans": [
+            {
+              "text": "Réussite",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui remporte le PPC remporte le Défi.",
+          "spans": [
+            {
+              "text": "Le personnage qui remporte le PPC remporte le Défi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Égalité",
+          "spans": [
+            {
+              "text": "Égalité",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas d'égalité au PPC, les Scores de Test sont comparés :",
+          "spans": [
+            {
+              "text": "En cas d'égalité au PPC, les Scores de Test sont comparés :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score supérieur → Victoire",
+          "spans": [
+            {
+              "text": "Score supérieur → ",
+              "bold": false
+            },
+            {
+              "text": "Victoire",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Score égal ou inférieur → Défaite",
+          "spans": [
+            {
+              "text": "Score égal ou inférieur → ",
+              "bold": false
+            },
+            {
+              "text": "Défaite",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Succès Exceptionnel",
+          "spans": [
+            {
+              "text": "Succès Exceptionnel",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage obtient un Succès Exceptionnel lorsqu'il remporte le Défi et que son Score de Test est supérieur à celui de son adversaire.",
+          "spans": [
+            {
+              "text": "Un personnage obtient un ",
+              "bold": false
+            },
+            {
+              "text": "Succès Exceptionnel",
+              "bold": true
+            },
+            {
+              "text": " lorsqu'il remporte le Défi et que son Score de Test est supérieur à celui de son adversaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un Défi remporté uniquement grâce à une égalité de PPC ne peut jamais produire de Succès Exceptionnel.",
+          "spans": [
+            {
+              "text": "Un Défi remporté uniquement grâce à une égalité de PPC ne peut jamais produire de Succès Exceptionnel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 4 - Dépenser de la Volonté",
+          "spans": [
+            {
+              "text": "Étape 4 - Dépenser de la Volonté",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le personnage qui perd le premier PPC peut dépenser 1 point de Volonté afin de relancer le Défi.",
+          "spans": [
+            {
+              "text": "Le personnage qui ",
+              "bold": false
+            },
+            {
+              "text": "perd le premier PPC",
+              "bold": true
+            },
+            {
+              "text": " peut dépenser ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Volonté",
+              "bold": true
+            },
+            {
+              "text": " afin de relancer le Défi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le PPC est alors immédiatement rejoué.",
+          "spans": [
+            {
+              "text": "Le PPC est alors immédiatement rejoué.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le résultat de la seconde confrontation est définitif.",
+          "spans": [
+            {
+              "text": "Le résultat de la seconde confrontation est définitif.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La Volonté doit être dépensée après avoir perdu le premier test.",
+          "spans": [
+            {
+              "text": "La Volonté doit être dépensée ",
+              "bold": false
+            },
+            {
+              "text": "après avoir perdu le premier test",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Étape 5 - Surclassement",
+          "spans": [
+            {
+              "text": "Étape 5 - Surclassement",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsqu'un personnage possède un Score de Test au moins deux fois supérieur à celui de son adversaire, il bénéficie d'une relance supplémentaire.",
+          "spans": [
+            {
+              "text": "Lorsqu'un personnage possède un ",
+              "bold": false
+            },
+            {
+              "text": "Score de Test au moins deux fois supérieur",
+              "bold": true
+            },
+            {
+              "text": " à celui de son adversaire, il bénéficie d'une ",
+              "bold": false
+            },
+            {
+              "text": "relance supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette relance est distincte de celle obtenue grâce à la Volonté.",
+          "spans": [
+            {
+              "text": "Cette relance est distincte de celle obtenue grâce à la Volonté.",
               "bold": false
             }
           ]
