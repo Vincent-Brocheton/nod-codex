@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-24T15:53:17.584Z",
+  "generatedAt": "2026-08-24T16:26:44.951Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -1052,7 +1052,16 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -1495,7 +1504,16 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -4713,7 +4731,16 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",

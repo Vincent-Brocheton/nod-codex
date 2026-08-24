@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-24T15:53:17.559Z",
+  "generatedAt": "2026-08-24T16:26:44.920Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -975,6 +975,14 @@
               "collectionKey": "lignees",
               "slug": "chevalier-de-la-lune",
               "title": "Chevalier de la Lune",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3810,6 +3818,14 @@
               "collectionKey": "lignees",
               "slug": "vipere",
               "title": "Vipère",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8631,6 +8647,14 @@
         "Lignées": {
           "type": "relation",
           "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "telyav",
+              "title": "Telyav",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
             {
               "collectionKey": "lignees",
               "slug": "sorcier",

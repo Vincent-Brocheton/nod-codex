@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-24T15:53:17.578Z",
+  "generatedAt": "2026-08-24T16:26:44.943Z",
   "propertyOptions": {},
   "items": [
     {
@@ -2403,6 +2403,427 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39588b48-e48e-8094-9fbf-d86cc5ec5bf4",
+      "notionUrl": "https://app.notion.com/p/Telyav-39588b48e48e80949fbfd86cc5ec5bf4",
+      "lastEditedTime": "2026-08-24T16:25:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "compostantes-de-sorts",
+              "title": "Compostantes de sorts",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "pedant",
+              "title": "Pédant",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "deux-fois-lie-au-conseil",
+              "title": "Deux fois lié au Conseil",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sang",
+              "title": "Voie du Sang",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "contre-magie",
+              "title": "Contre-magie",
+              "cout": "4",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "expertise-thaumaturgique",
+              "title": "Expertise Thaumaturgique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-telyav",
+              "title": "Lignée : Telyav",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "talisman",
+              "title": "Talisman",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-ritualiste-tremere",
+              "title": "Maître Ritualiste (Tremere)",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "suprematie-ritualistique",
+              "title": "Suprématie ritualistique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "magie-rapide",
+              "title": "Magie rapide",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitrise-du-rituel",
+              "title": "Maîtrise du rituel",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lanceur-de-sort",
+              "title": "Lanceur de sort",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "forge-des-ames",
+              "title": "Forge des Âmes",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Telyav"
+        }
+      },
+      "title": "Telyav",
+      "slug": "telyav",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'époque où le clan Tremere s'imposait rapidement comme une puissance incontournable du monde vampirique, les Telyav constituaient un petit cercle de sorciers lituaniens Étreints pour leurs connaissances occultes et leur influence.",
+          "spans": [
+            {
+              "text": "À l'époque où le clan Tremere s'imposait rapidement comme une puissance incontournable du monde vampirique, les ",
+              "bold": false
+            },
+            {
+              "text": "Telyav",
+              "bold": true
+            },
+            {
+              "text": " constituaient un petit cercle de sorciers lituaniens Étreints pour leurs connaissances occultes et leur influence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur héritage reposait sur les anciennes croyances païennes de leur terre natale, notamment sur le culte de Telyavel, héros divin et protecteur des morts dans la mythologie lituanienne. Contrairement aux autres Tremere, les Telyav privilégiaient une magie animiste profondément liée aux esprits et aux forces de la nature plutôt que la rigueur de la tradition hermétique.",
+          "spans": [
+            {
+              "text": "Leur héritage reposait sur les anciennes croyances païennes de leur terre natale, notamment sur le culte de ",
+              "bold": false
+            },
+            {
+              "text": "Telyavel",
+              "bold": true
+            },
+            {
+              "text": ", héros divin et protecteur des morts dans la mythologie lituanienne. Contrairement aux autres Tremere, les Telyav privilégiaient une magie animiste profondément liée aux esprits et aux forces de la nature plutôt que la rigueur de la tradition hermétique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au cours du Moyen Âge, ils assistèrent avec horreur aux nombreuses atrocités commises par leur clan. Peu à peu, ils prirent leurs distances avec la Pyramide et rejetèrent son autorité.",
+          "spans": [
+            {
+              "text": "Au cours du Moyen Âge, ils assistèrent avec horreur aux nombreuses atrocités commises par leur clan. Peu à peu, ils prirent leurs distances avec la Pyramide et rejetèrent son autorité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En retour, les Tremere abandonnèrent les Telyav à leurs ennemis. Au XVIIᵉ siècle, la lignée semblait pratiquement éteinte.",
+          "spans": [
+            {
+              "text": "En retour, les Tremere abandonnèrent les Telyav à leurs ennemis. Au XVIIᵉ siècle, la lignée semblait pratiquement éteinte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En réalité, les derniers cabals profitèrent de cette situation pour disparaître volontairement. Ils laissèrent croire à leur extermination afin d'échapper définitivement au contrôle de la Pyramide.",
+          "spans": [
+            {
+              "text": "En réalité, les derniers cabals profitèrent de cette situation pour disparaître volontairement. Ils laissèrent croire à leur extermination afin d'échapper définitivement au contrôle de la Pyramide.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Aujourd'hui encore, les Telyav vivent dans la clandestinité. Ils savent que si leur existence venait à être révélée aux Tremere, la Pyramide mettrait tout en œuvre pour les éliminer jusqu'au dernier.",
+          "spans": [
+            {
+              "text": "Aujourd'hui encore, les Telyav vivent dans la clandestinité. Ils savent que si leur existence venait à être révélée aux Tremere, la Pyramide mettrait tout en œuvre pour les éliminer jusqu'au dernier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La quasi-totalité des membres connus de cette lignée se trouvent désormais au sein du Sabbat, où ils peuvent pratiquer leur sorcellerie loin du contrôle de leurs anciens maîtres.",
+          "spans": [
+            {
+              "text": "La quasi-totalité des membres connus de cette lignée se trouvent désormais au sein du ",
+              "bold": false
+            },
+            {
+              "text": "Sabbat",
+              "bold": true
+            },
+            {
+              "text": ", où ils peuvent pratiquer leur sorcellerie loin du contrôle de leurs anciens maîtres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Particularité de lignée",
+          "spans": [
+            {
+              "text": "Particularité de lignée",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Telyav conservent les mêmes disciplines et la même faiblesse de clan que les Tremere.",
+          "spans": [
+            {
+              "text": "Les Telyav conservent ",
+              "bold": false
+            },
+            {
+              "text": "les mêmes disciplines et la même faiblesse de clan que les Tremere",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur différence réside avant tout dans leur héritage culturel, leur pratique d'une thaumaturgie d'inspiration animiste et leur rupture définitive avec la Pyramide. Ils ne possèdent aucune faiblesse mécanique supplémentaire.",
+          "spans": [
+            {
+              "text": "Leur différence réside avant tout dans leur héritage culturel, leur pratique d'une thaumaturgie d'inspiration animiste et leur rupture définitive avec la Pyramide. Ils ne possèdent ",
+              "bold": false
+            },
+            {
+              "text": "aucune faiblesse mécanique supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Sang des Tremere présente une faiblesse unique qui les rend particulièrement vulnérables au Lien de Sang.",
+          "spans": [
+            {
+              "text": "Le Sang des Tremere présente une faiblesse unique qui les rend particulièrement vulnérables au ",
+              "bold": false
+            },
+            {
+              "text": "Lien de Sang",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où la plupart des vampires nécessitent trois prises de sang pour être totalement liés, les Tremere succombent beaucoup plus rapidement.",
+          "spans": [
+            {
+              "text": "Là où la plupart des vampires nécessitent ",
+              "bold": false
+            },
+            {
+              "text": "trois",
+              "bold": true
+            },
+            {
+              "text": " prises de sang pour être totalement liés, les Tremere succombent beaucoup plus rapidement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effets mécaniques :",
+          "spans": [
+            {
+              "text": "Effets mécaniques :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Pour un Tremere, la première prise de Sang vampirique compte comme deux étapes dans la création d'un Lien de Sang.",
+          "spans": [
+            {
+              "text": "Pour un Tremere, ",
+              "bold": false
+            },
+            {
+              "text": "la première prise de Sang vampirique compte comme deux étapes",
+              "bold": true
+            },
+            {
+              "text": " dans la création d'un Lien de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Par conséquent, deux prises de Sang suffisent à créer un Lien de Sang complet, au lieu des trois normalement nécessaires.",
+          "spans": [
+            {
+              "text": "Par conséquent, ",
+              "bold": false
+            },
+            {
+              "text": "deux prises de Sang suffisent à créer un Lien de Sang complet",
+              "bold": true
+            },
+            {
+              "text": ", au lieu des trois normalement nécessaires.",
               "bold": false
             }
           ]

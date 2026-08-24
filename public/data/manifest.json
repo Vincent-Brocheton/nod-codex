@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-24T15:53:17.619Z",
+  "generatedAt": "2026-08-24T16:26:44.998Z",
   "collections": [
     {
       "key": "disciplines",
@@ -117,6 +117,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Telyav",
+      "slug": "telyav",
+      "collectionKey": "lignees",
+      "collectionLabel": "Lignées",
+      "path": "/lignees",
+      "icon": "shield-plus",
+      "lastEditedTime": "2026-08-24T16:25:00.000Z"
+    },
     {
       "title": "Écart Agile",
       "slug": "ecart-agile",
@@ -287,15 +296,6 @@
       "path": "/mysteres",
       "icon": "sparkles",
       "lastEditedTime": "2026-08-24T10:50:00.000Z"
-    },
-    {
-      "title": "Baali",
-      "slug": "baali",
-      "collectionKey": "mysteres",
-      "collectionLabel": "Mystères",
-      "path": "/mysteres",
-      "icon": "sparkles",
-      "lastEditedTime": "2026-08-24T10:45:00.000Z"
     }
   ]
 }
