@@ -169,7 +169,8 @@ export const navigation = [
                 path: "/mysteres",
                 icon: "sparkles",
 
-                view: "list",
+                view: "grouped-list",
+                detail: "mystere",
 
                 collections: [
                     COLLECTIONS.MYSTERES,

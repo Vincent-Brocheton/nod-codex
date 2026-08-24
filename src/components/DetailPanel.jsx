@@ -4,6 +4,7 @@ import PowerDetailView from "./views/PowerDetailView";
 import ClanDetailView from "./views/ClanDetailView";
 import TechniqueDetailView from "./views/TechniqueDetailView";
 import LigneeDetailView from "./views/LigneeDetailView";
+import MystereDetailView from "./views/MystereDetailView";
 
 export default function DetailPanel({ wiki }) {
 
@@ -25,6 +26,9 @@ export default function DetailPanel({ wiki }) {
 
         case "lignee":
             return <LigneeDetailView wiki={wiki} />;
+
+        case "mystere":
+            return <MystereDetailView wiki={wiki} />;
 
         default:
             return <GenericDetailView wiki={wiki} />;

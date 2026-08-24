@@ -16,6 +16,7 @@ const RELATED_GROUPS = [
     { key: "Atouts de clan", label: "Atouts de clan", modal: true, modalStatFields: MODAL_STAT_FIELDS },
     { key: "Handicaps de Clan", label: "Handicaps de clan", modal: true, modalStatFields: MODAL_STAT_FIELDS },
     { key: "Lignées", label: "Lignées" },
+    { key: "Mystères", label: "Mystères" },
 ];
 
 export default function ClanDetailView({ wiki }) {

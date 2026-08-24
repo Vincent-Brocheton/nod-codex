@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-17T22:33:35.530Z",
+  "generatedAt": "2026-08-24T15:53:17.577Z",
   "propertyOptions": {},
   "items": [
     {
@@ -15,6 +15,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "assamite",
+              "title": "Assamite",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -515,6 +528,27 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "vrai-brujah",
+              "title": "Vrai-Brujah",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "mysteres",
+              "slug": "brujah",
+              "title": "Brujah",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -862,6 +896,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "caitiff",
+              "title": "Caitiff",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -1215,6 +1262,19 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "giovanni",
+              "title": "Giovanni",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -1544,6 +1604,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -2014,6 +2087,19 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "lasombra",
+              "title": "Lasombra",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -2357,6 +2443,27 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "malkavien",
+              "title": "Malkavien",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "mysteres",
+              "slug": "rlm",
+              "title": "RLM",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -2733,6 +2840,19 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "nosferatu",
+              "title": "Nosfératu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -3080,6 +3200,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "setite",
+              "title": "Setite",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -3544,6 +3677,19 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "toreador",
+              "title": "Toréador",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -3941,6 +4087,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",
@@ -4422,6 +4581,19 @@
           "type": "checkbox",
           "value": true
         },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "tzimices",
+              "title": "Tzimices",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
         "Handicaps de Clan": {
           "type": "relation",
           "value": [
@@ -4821,6 +4993,19 @@
         "Visible": {
           "type": "checkbox",
           "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "ventrue",
+              "title": "Ventrue",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
         },
         "Handicaps de Clan": {
           "type": "relation",

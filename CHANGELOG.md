@@ -3,6 +3,12 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.6.0] - 2026-08-24
+
+- Nouvelle section "Mystères" dans les Règles : les fiches sont désormais réparties par catégorie (Clan, Faction, Race, Surnaturel, Organisation)
+- Les fiches Clan et Lignées renvoient désormais vers leur(s) Mystère(s) associé(s) quand ils existent
+- Fiches de Mystères épurées : seuls le résumé et le contenu (paliers de connaissance) sont affichés, les informations techniques (catégorie, niveau max, clans, factions) sont masquées
+
 ## [1.5.0] - 2026-08-18
 
 - Les étapes de l'assistant "Créer son personnage" apparaissent désormais aussi dans les Règles générales (nouvelle catégorie "Création de personnage"), en plus de rester accessibles via l'assistant guidé
