@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-08-27T09:20:47.848Z",
+  "generatedAt": "2026-08-27T12:00:17.615Z",
   "propertyOptions": {},
   "items": [
     {
@@ -120,7 +120,7 @@
     {
       "id": "38288b48-e48e-806a-b639-e5d746157dbc",
       "notionUrl": "https://app.notion.com/p/Artisanat-38288b48e48e806ab639e5d746157dbc",
-      "lastEditedTime": "2026-07-06T11:08:00.000Z",
+      "lastEditedTime": "2026-08-27T09:39:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -166,6 +166,114 @@
           "spans": [
             {
               "text": "Un personnage possédant Artisanat peut augmenter temporairement ses Ressources en dépensant 2 actions d’intervalle (une pour créer l’objet, une pour le vendre). Cela augmente son Historique Ressources de 1 pendant un mois, même s’il n’en possède pas initialement, jusqu’à un maximum de 5.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Comment marche exactement la compétence artisanat ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+              "spans": [
+                {
+                  "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Artisanat (spécialité) 1 à 2 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.).",
+              "spans": [
+                {
+                  "text": "Artisanat (spécialité) 1 à 2 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+              "spans": [
+                {
+                  "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+              "spans": [
+                {
+                  "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
+              "spans": [
+                {
+                  "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question: Et pour la forge ?",
+              "spans": [
+                {
+                  "text": "Question:",
+                  "bold": true
+                },
+                {
+                  "text": " Et pour la forge ?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse: Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de la bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de la bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Comment marche exactement la compétence artisanat ?",
               "bold": false
             }
           ]
@@ -670,7 +778,7 @@
     {
       "id": "38288b48-e48e-80a5-8ff3-fb3c5d0430e5",
       "notionUrl": "https://app.notion.com/p/Informatique-38288b48e48e80a58ff3fb3c5d0430e5",
-      "lastEditedTime": "2026-07-06T11:12:00.000Z",
+      "lastEditedTime": "2026-08-27T09:39:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -716,6 +824,36 @@
           "spans": [
             {
               "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour annuler ou observer une action d’intervalle d’un autre personnage. Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Est-ce que je peux utiliser mon AIP informatique pour espionner un personnage d'une autre cité ou lui retirer une AIP ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui, mais avec une condition : Votre PJ devra obligatoirement être présent sur la même cité que sa cible pour la durée de cette AIP. Cette condition a été fixée par le Cercle des Conteurs afin d'harmoniser l'usage inter-cité de cette AIP.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui, mais avec une condition : Votre PJ devra obligatoirement être présent sur la même cité que sa cible pour la durée de cette AIP. Cette condition a été fixée par le Cercle des Conteurs afin d'harmoniser l'usage inter-cité de cette AIP.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Est-ce que je peux utiliser mon AIP informatique pour espionner un personnage d'une autre cité ou lui retirer une AIP ?",
               "bold": false
             }
           ]
@@ -1850,7 +1988,7 @@
     {
       "id": "38288b48-e48e-8027-a003-d0833c92301e",
       "notionUrl": "https://app.notion.com/p/Repr-sentation-38288b48e48e8027a003d0833c92301e",
-      "lastEditedTime": "2026-07-06T11:17:00.000Z",
+      "lastEditedTime": "2026-08-27T09:40:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1896,6 +2034,36 @@
           "spans": [
             {
               "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Comment marche exactement la compétence  représentation ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Comment marche exactement la compétence  représentation ?",
               "bold": false
             }
           ]
@@ -2153,7 +2321,7 @@
     {
       "id": "38288b48-e48e-807a-aa5d-d9b861343244",
       "notionUrl": "https://app.notion.com/p/Vigilance-38288b48e48e807aaa5dd9b861343244",
-      "lastEditedTime": "2026-07-06T11:18:00.000Z",
+      "lastEditedTime": "2026-08-27T09:40:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2199,6 +2367,36 @@
           "spans": [
             {
               "text": "Vigilance permet à un personnage d’avoir une chance de détecter l’utilisation de pouvoirs surnaturels à proximité.\nDe plus, lorsqu’un personnage doté de Vigilance est en torpeur, il peut contrôler ses pensées et utiliser les pouvoirs qui n’affectent que lui-même. Un personnage possédant Télépathie peut communiquer avec lui, son esprit restant pleinement actif malgré son état.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Est ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède vigilance?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui, les techniques sont ici considéré dans 'les pouvoirs'. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
+              "spans": [
+                {
+                  "text": "Réponse : ",
+                  "bold": true
+                },
+                {
+                  "text": "Oui, les techniques sont ici considéré dans 'les pouvoirs'. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Est ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède vigilance?",
               "bold": false
             }
           ]

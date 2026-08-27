@@ -4,7 +4,7 @@
   "group": "Techniques",
   "description": "Retrouvez l'ensemble des techniques accessibles à votre personnage en combinant ses disciplines.",
   "notionDatabaseId": "37e88b48-e48e-8064-b8e5-cf1f152dadf5",
-  "generatedAt": "2026-08-27T09:20:47.839Z",
+  "generatedAt": "2026-08-27T12:00:17.607Z",
   "propertyOptions": {
     "Prerequis": [
       "Chimérie •",
@@ -2986,7 +2986,7 @@
     {
       "id": "3a288b48-e48e-8019-adf6-c8230502c9dd",
       "notionUrl": "https://app.notion.com/p/Essaim-d-animaux-3a288b48e48e8019adf6c8230502c9dd",
-      "lastEditedTime": "2026-07-19T11:23:00.000Z",
+      "lastEditedTime": "2026-08-27T11:22:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
@@ -3144,6 +3144,36 @@
           "spans": [
             {
               "text": "Les animaux créés par ce pouvoir sont considérés comme une entité pour les pouvoirs qui modifient le comportement d’un individu. Si un animal est dominé, tous les animaux de l’essaim subissent les effets de ce pouvoir. Si un animal ne peut pas briser la Majesté d’un individu, aucun des animaux de l’essaim ne peut attaquer cet individu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: La technique Essaim d’animaux est-elle un pouvoir de transformation? Peut-elle être combinée avec l’atout du clan Gangrel Forme de la colère de la bête ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Essaim d’animaux modifie la discipline de Protéisme Forme de la bête, vous donnant la possibilité de vous transformer en plusieurs animaux plus petits. Comme Essaim d’Animaux ne modifie que Forme de la bête et que celle-ci reste clairement un pouvoir de transformation, vous ne pourrez pas combiner Essaim d'animaux avec Forme de la colère de la bête.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Essaim d’animaux modifie la discipline de Protéisme Forme de la bête, vous donnant la possibilité de vous transformer en plusieurs animaux plus petits. Comme Essaim d’Animaux ne modifie que Forme de la bête et que celle-ci reste clairement un pouvoir de transformation, vous ne pourrez pas combiner Essaim d'animaux avec Forme de la colère de la bête.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " La technique Essaim d’animaux est-elle un pouvoir de transformation? Peut-elle être combinée avec l’atout du clan Gangrel Forme de la colère de la bête ?",
               "bold": false
             }
           ]
@@ -4864,7 +4894,7 @@
     {
       "id": "3a288b48-e48e-8097-8373-d838e0cbbe6a",
       "notionUrl": "https://app.notion.com/p/Monologue-3a288b48e48e80978373d838e0cbbe6a",
-      "lastEditedTime": "2026-07-19T14:09:00.000Z",
+      "lastEditedTime": "2026-08-27T11:23:00.000Z",
       "properties": {
         "Prerequis": {
           "type": "multi_select",
@@ -4942,6 +4972,36 @@
           "spans": [
             {
               "text": "Dépensez 1 point de sang et commencez à parler pour activer Monologue. Monologue dure un tour complet pour chaque point de la compétence Subterfuge que vous possédez ou jusqu'à ce que vous cessiez de parler. Tant que ce pouvoir est actif, quiconque à l’intention de vous attaquer doit se lancer dans une conversation avec vous sans attaquer ou partir. Vous ne pouvez pas forcer les autres à vous aimer ou à divulguer des informations spécifiques, mais ils doivent s'engager dans la conversation tant que vous continuez de parler, ou jusqu'à ce que vous atteigniez la durée maximale permise par votre compétence Subterfuge. Une fois votre que monologue expire, les adversaires peuvent vous attaquer normalement, et vous ne pouvez pas activer ce pouvoir à nouveau durant l'heure suivante. Si vous attaquez, utilisez un pouvoir surnaturel qui cible un autre personnage, ou tentez de vous éloigner des agresseurs, Monologue se termine immédiatement. Monologue ne protège pas vos alliés. Les individus affectés par Monologue ne perdent pas la capacité d'attaquer, seulement la capacité de vous cibler avec une attaque.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Pouvez-vous expliquer comment vous avez voulu que le Monologue fonctionne ? Selon la façon dont vous lisez la Technique, soit elle dure au maximum 15 secondes (en supposant 5 points dans Subterfuge), soit elle dure aussi longtemps que vous continuez à parler.",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : La description de la technique dit que \" Monologue dure un tour complet pour chaque point de la compétence Subterfuge que vous possédez ou jusqu'à ce que vous cessiez de parler. \". Plus loin dans la description, il est dit \"... tant que vous continuez de parler, ou jusqu'à ce que vous atteigniez la durée maximale permise par votre compétence Subterfuge.\" Vous pouvez utiliser le Monologue tant que vous continuez à parler, jusqu'à la durée maximale autorisée par votre compétence de Subterfuge. Par conséquent, si vous avez le Subterfuge 5, vous pouvez utiliser le Monologue pendant cinq tours complets, ou vous pouvez choisir de cesser de l'utiliser avant la fin de ces cinq tours. Cependant, le Monologue ne peut pas reporter indéfiniment une action tant que vous continuez à parler.",
+              "spans": [
+                {
+                  "text": "Réponse : ",
+                  "bold": true
+                },
+                {
+                  "text": "La description de la technique dit que \" Monologue dure un tour complet pour chaque point de la compétence Subterfuge que vous possédez ou jusqu'à ce que vous cessiez de parler. \". Plus loin dans la description, il est dit \"... tant que vous continuez de parler, ou jusqu'à ce que vous atteigniez la durée maximale permise par votre compétence Subterfuge.\" Vous pouvez utiliser le Monologue tant que vous continuez à parler, jusqu'à la durée maximale autorisée par votre compétence de Subterfuge. Par conséquent, si vous avez le Subterfuge 5, vous pouvez utiliser le Monologue pendant cinq tours complets, ou vous pouvez choisir de cesser de l'utiliser avant la fin de ces cinq tours. Cependant, le Monologue ne peut pas reporter indéfiniment une action tant que vous continuez à parler.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Pouvez-vous expliquer comment vous avez voulu que le Monologue fonctionne ? Selon la façon dont vous lisez la Technique, soit elle dure au maximum 15 secondes (en supposant 5 points dans Subterfuge), soit elle dure aussi longtemps que vous continuez à parler.",
               "bold": false
             }
           ]

@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-08-27T09:20:47.815Z",
+  "generatedAt": "2026-08-27T12:00:17.586Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -5620,7 +5620,7 @@
     {
       "id": "39b88b48-e48e-803a-a709-e4adade99b63",
       "notionUrl": "https://app.notion.com/p/Convocation-39b88b48e48e803aa709e4adade99b63",
-      "lastEditedTime": "2026-08-25T09:07:00.000Z",
+      "lastEditedTime": "2026-08-27T11:10:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -5789,6 +5789,36 @@
           "spans": [
             {
               "text": "Vous pouvez convoquer sans dépenser de points de sang ni d'actions standard vos serviteurs, goules et tout individu lié à vous au sang. Vous pouvez utiliser cet aspect de la convocation même en étant pieuté ou en torpeur. Ceci est la seule exception à la règle qui empêche l'utilisation de pouvoir alors qu'un personnage est en torpeur ou pieuté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Quel niveau de lien de sang compte pour des pouvoirs comme la Furie pourpre et la Convocation?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: La Furie pourpre et le focus Manipulation de la Convocation fonctionnent sur un personnage qui est lié à vous par au moins un point. Un lien de sang de niveau 1 est suffisant pour déclencher un pouvoir qui nécessite un lien de sang, à moins que le texte ne spécifie un niveau plus élevé.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " La Furie pourpre et le focus Manipulation de la Convocation fonctionnent sur un personnage qui est lié à vous par au moins un point. Un lien de sang de niveau 1 est suffisant pour déclencher un pouvoir qui nécessite un lien de sang, à moins que le texte ne spécifie un niveau plus élevé.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Quel niveau de lien de sang compte pour des pouvoirs comme la Furie pourpre et la Convocation?",
               "bold": false
             }
           ]
@@ -9738,7 +9768,7 @@
     {
       "id": "39b88b48-e48e-802b-81fd-d9bdd6c589b5",
       "notionUrl": "https://app.notion.com/p/Force-de-la-Pierre-39b88b48e48e802b81fdd9bdd6c589b5",
-      "lastEditedTime": "2026-07-12T14:39:00.000Z",
+      "lastEditedTime": "2026-08-27T11:11:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -9848,6 +9878,36 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Pouvez-vous sentir une personne dissimulée dans le bâtiment avec Visceratika?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Visceratika ne perce pas directement l'effet de Dissimulation, mais vous permet de connaître le nombre de créatures présentes dans le bâtiment et leur emplacement général, même si elles sont dissimulées.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Visceratika ne perce pas directement l'effet de Dissimulation, mais vous permet de connaître le nombre de créatures présentes dans le bâtiment et leur emplacement général, même si elles sont dissimulées.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Pouvez-vous sentir une personne dissimulée dans le bâtiment avec Visceratika?",
               "bold": false
             }
           ]
@@ -12650,7 +12710,7 @@
     {
       "id": "3af88b48-e48e-8036-8101-ed78218c9409",
       "notionUrl": "https://app.notion.com/p/Griffes-Bestiales-3af88b48e48e80368101ed78218c9409",
-      "lastEditedTime": "2026-08-11T14:36:00.000Z",
+      "lastEditedTime": "2026-08-27T11:09:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -16543,7 +16603,7 @@
     {
       "id": "39b88b48-e48e-80ed-a57a-f7a0cbf5748a",
       "notionUrl": "https://app.notion.com/p/Majest-39b88b48e48e80eda57af7a0cbf5748a",
-      "lastEditedTime": "2026-08-25T09:08:00.000Z",
+      "lastEditedTime": "2026-08-27T11:10:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -16682,6 +16742,64 @@
           "spans": [
             {
               "text": "Tant que votre Majesté est activée, vous ignorez la Majesté des autres personnages.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Comment fonctionne le focus Apparence de Majesté lorsque j'attaque un autre personnage avec Majesté ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Le focus Apparence de la Majesté vous permet d'ignorer la Majesté des autres personnages lorsque votre Majesté est active. Si vous décidez d'attaquer quelqu'un, votre Majesté s’arrête pour ce personnage, mais votre Majesté est toujours considérée comme active, ce qui vous permet de continuer à profiter du focus Apparence.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Le focus Apparence de la Majesté vous permet d'ignorer la Majesté des autres personnages lorsque votre Majesté est active. Si vous décidez d'attaquer quelqu'un, votre Majesté s’arrête pour ce personnage, mais votre Majesté est toujours considérée comme active, ce qui vous permet de continuer à profiter du focus Apparence.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question : En MET, il existe une liste de plusieurs conséquences de ce qui se produit lorsque des personnes échouent à un test social pour briser la Majesté. Cette page répertorie également les pénalités imposées aux utilisateurs de Majesté qui attaquent quelqu'un et brisent leur Majesté. Cependant, il n'y a aucune information sur le temps pendant lequel la Majesté reste brisée pour que les personnes qui réussissent un test social pour la briser. Pouvez-vous fournir des éclaircissements à ce sujet ? Les personnes doivent-elles passer un test contre Majesté pour chaque attaque ? Est-ce que la Majesté se brise pendant une heure, comme quand l'utilisateur la casse ? Est-ce pour 10 minutes?",
+              "spans": [
+                {
+                  "text": "Question :",
+                  "bold": true
+                },
+                {
+                  "text": " En MET, il existe une liste de plusieurs conséquences de ce qui se produit lorsque des personnes échouent à un test social pour briser la Majesté. Cette page répertorie également les pénalités imposées aux utilisateurs de Majesté qui attaquent quelqu'un et brisent leur Majesté. Cependant, il n'y a aucune information sur le temps pendant lequel la Majesté reste brisée pour que les personnes qui réussissent un test social pour la briser. Pouvez-vous fournir des éclaircissements à ce sujet ? Les personnes doivent-elles passer un test contre Majesté pour chaque attaque ? Est-ce que la Majesté se brise pendant une heure, comme quand l'utilisateur la casse ? Est-ce pour 10 minutes?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse : Rompre la Majesté a le même effet, quelle que soit la manière dont elle est brisée. Lorsque la Majesté est brisée, que ce soit par un individu qui est capable de réussir un test social ou par son utilisateur, les personnes sont immunisées contre la Majesté de l'utilisateur pendant une heure. Celui qui brise la Majesté peut vous traiter comme elle le ferait normalement, et même vous attaquer.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Rompre la Majesté a le même effet, quelle que soit la manière dont elle est brisée. Lorsque la Majesté est brisée, que ce soit par un individu qui est capable de réussir un test social ou par son utilisateur, les personnes sont immunisées contre la Majesté de l'utilisateur pendant une heure. Celui qui brise la Majesté peut vous traiter comme elle le ferait normalement, et même vous attaquer.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Comment fonctionne le focus Apparence de Majesté lorsque j'attaque un autre personnage avec Majesté ?",
               "bold": false
             }
           ]
@@ -17323,7 +17441,7 @@
     {
       "id": "39b88b48-e48e-80a1-951b-e0329cc5c62a",
       "notionUrl": "https://app.notion.com/p/Masque-aux-mille-visages-39b88b48e48e80a1951be0329cc5c62a",
-      "lastEditedTime": "2026-07-12T13:53:00.000Z",
+      "lastEditedTime": "2026-08-27T11:07:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -17422,6 +17540,36 @@
           "spans": [
             {
               "text": "Vous pouvez modifier de manière spectaculaire l’apparence de votre garde-robe et de votre équipement. Vous êtes capable d’exploits tels que faire paraître un téléphone portable comme un fusil à pompe, ou transformer visuellement un sweat à capuche et un jean en robe de bal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Masque aux Milles Visages (Dissimulation 3) peut-t-il être ressenti/détecté si l’on se trouve a moins de 3m et que l’on possède Auspex 1?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Non",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Non",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Masque aux Milles Visages (Dissimulation 3) peut-t-il être ressenti/détecté si l’on se trouve a moins de 3m et que l’on possède Auspex 1?",
               "bold": false
             }
           ]
@@ -28269,7 +28417,7 @@
     {
       "id": "38288b48-e48e-80bc-a820-c30376e8846c",
       "notionUrl": "https://app.notion.com/p/T-l-pathie-38288b48e48e80bca820c30376e8846c",
-      "lastEditedTime": "2026-08-01T11:03:00.000Z",
+      "lastEditedTime": "2026-08-27T11:05:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -28501,13 +28649,43 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Combien de temps pouvez-vous maintenir un lien télépathique avec une cible réticente avant que le lien ne se rompt et que vous deviez relever un autre défi mental?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse:  Si vous réussissez, votre personnage peut envoyer une image ou un bref message (quelque chose qui pourrait être dit en moins de 10 secondes) à la cible.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": "  Si vous réussissez, votre personnage peut envoyer une image ou un bref message (quelque chose qui pourrait être dit en moins de 10 secondes) à la cible.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Combien de temps pouvez-vous maintenir un lien télépathique avec une cible réticente avant que le lien ne se rompt et que vous deviez relever un autre défi mental?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "39b88b48-e48e-80f3-85e4-c10220a88322",
       "notionUrl": "https://app.notion.com/p/T-l-travail-39b88b48e48e80f385e4c10220a88322",
-      "lastEditedTime": "2026-07-12T14:50:00.000Z",
+      "lastEditedTime": "2026-08-27T11:14:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -28606,6 +28784,36 @@
           "spans": [
             {
               "text": "La durée de Télétravail est de 1H.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Pouvez-vous détecter un appareil électronique dissimulé par Dissimulation avec Voie de la Technomancie?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Vous pouvez détecter un appareil électronique dans la zone générale, mais vous ne pouvez pas le localiser avant d'avoir trouvé un moyen de percer la Dissimulation.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Vous pouvez détecter un appareil électronique dans la zone générale, mais vous ne pouvez pas le localiser avant d'avoir trouvé un moyen de percer la Dissimulation.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Pouvez-vous détecter un appareil électronique dissimulé par Dissimulation avec Voie de la Technomancie?",
               "bold": false
             }
           ]
@@ -30560,7 +30768,7 @@
     {
       "id": "39b88b48-e48e-8008-a12a-ec2ff5484e90",
       "notionUrl": "https://app.notion.com/p/Voile-de-Nuit-39b88b48e48e8008a12aec2ff5484e90",
-      "lastEditedTime": "2026-07-13T12:25:00.000Z",
+      "lastEditedTime": "2026-08-27T11:13:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -30699,6 +30907,36 @@
           "spans": [
             {
               "text": "Votre Voile de Nuit manifeste un lien plus fort avec les énergies surnaturelles de l’Abîme. Les Morts-vivants restent immunisés aux effets de dommages de votre voile, mais les créatures vivantes perdent 3 points de dégâts au lieu d’1. Même les créatures qui ont un focus de Vigueur ne peuvent facilement se dérober aux effets ; ils prennent 2 points de dommages par tour passé dans le voile. De plus, tous les individus dans le voile souffrent d’une pénalité de -2 au Score de Test d’Attaque (Physique, Mental et Social). Les personnages utilisant des pouvoirs surnaturels pour se dérober à la cécité causée par votre voile ne sont pas immunisés à cette pénalité de -2. Les personnages utilisant les règles de Combat en Aveugle ne souffrent pas de cette pénalité de -2.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Est-ce que les balles incendiaires, le feu ou les attaques à base de feu fonctionnent dans Voile de la nuit ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui, ils fonctionnent. Voile de nuit n’inhibe pas l’effet néfaste du feu ou des balles incendiaires. Cependant, il obscurcit la lumière de ces attaques en son sein.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui, ils fonctionnent. Voile de nuit n’inhibe pas l’effet néfaste du feu ou des balles incendiaires. Cependant, il obscurcit la lumière de ces attaques en son sein.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Est-ce que les balles incendiaires, le feu ou les attaques à base de feu fonctionnent dans Voile de la nuit ?",
               "bold": false
             }
           ]

@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80ff-b7ea-e7d248d3ca4b",
-  "generatedAt": "2026-08-27T09:20:47.826Z",
+  "generatedAt": "2026-08-27T12:00:17.595Z",
   "propertyOptions": {},
   "items": [
     {
@@ -3250,7 +3250,7 @@
     {
       "id": "38188b48-e48e-8016-a3d5-ee9f659065a5",
       "notionUrl": "https://app.notion.com/p/Furie-Pourpre-38188b48e48e8016a3d5ee9f659065a5",
-      "lastEditedTime": "2026-08-03T20:37:00.000Z",
+      "lastEditedTime": "2026-08-27T11:18:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -3337,6 +3337,36 @@
           "spans": [
             {
               "text": "Si un autre personnage arrive à vous diabler, votre Bête survie en lui, déchirant son âme. Le diableriste meurt dans les trois prochaines nuits, alors que votre bête va lentement et douloureusement le déchirer de l'intérieur. Cet effet n'est pas passé à ceux qui vous sont liés au sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Quel niveau de lien de sang compte pour des pouvoirs comme la Furie pourpre et la Convocation?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: La Furie pourpre et le focus Manipulation de la Convocation fonctionnent sur un personnage qui est lié à vous par au moins un point. Un lien de sang de niveau 1 est suffisant pour déclencher un pouvoir qui nécessite un lien de sang, à moins que le texte ne spécifie un niveau plus élevé.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " La Furie pourpre et le focus Manipulation de la Convocation fonctionnent sur un personnage qui est lié à vous par au moins un point. Un lien de sang de niveau 1 est suffisant pour déclencher un pouvoir qui nécessite un lien de sang, à moins que le texte ne spécifie un niveau plus élevé.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Quel niveau de lien de sang compte pour des pouvoirs comme la Furie pourpre et la Convocation?",
               "bold": false
             }
           ]
@@ -5112,7 +5142,7 @@
     {
       "id": "39688b48-e48e-8082-8527-e3f7150b19e5",
       "notionUrl": "https://app.notion.com/p/Regard-du-Tyran-39688b48e48e80828527e3f7150b19e5",
-      "lastEditedTime": "2026-08-24T11:36:00.000Z",
+      "lastEditedTime": "2026-08-27T11:19:00.000Z",
       "properties": {
         "Niveau": {
           "type": "number",
@@ -5219,6 +5249,36 @@
           "spans": [
             {
               "text": "Le Regard du Tyran ne peut inverser des altérations physiques permanentes. Par exemple, le Regard du Tyran peut être utilisé pour lui retirer le pouvoir de Cœur des Ténèbres ou de Sculpture de la Chair, mais il ne peut pas défaire des instances existantes de sculpture de la chair ou faire revenir un cœur retiré.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : “Le Regard du Tyran peut être utilisé pour verrouiller le pouvoir d'une Discipline, Pouvoir d'Ancien, technique ou rituel.”. Comme il est écrit, l’atout “Contre-magie” n’appartient à aucune de ces catégories. Le Regard du Tyran peut-il empécher son utilisation ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Certains atouts, en particulier ceux nécessitant l'utilisation de points de sang, sont considérés comme des pouvoirs, mais ils ne sont pas considérés comme des “pouvoirs de discipline”, car ils ne font pas partie d'une discipline. Dans cette optique, le Regard de Tyrant ne peut pas affecter un atout.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Certains atouts, en particulier ceux nécessitant l'utilisation de points de sang, sont considérés comme des pouvoirs, mais ils ne sont pas considérés comme des “pouvoirs de discipline”, car ils ne font pas partie d'une discipline. Dans cette optique, le Regard de Tyrant ne peut pas affecter un atout.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question : “",
+              "bold": true
+            },
+            {
+              "text": "Le Regard du Tyran peut être utilisé pour verrouiller le pouvoir d'une Discipline, Pouvoir d'Ancien, technique ou rituel.”. Comme il est écrit, l’atout “Contre-magie” n’appartient à aucune de ces catégories. Le Regard du Tyran peut-il empécher son utilisation ?",
               "bold": false
             }
           ]

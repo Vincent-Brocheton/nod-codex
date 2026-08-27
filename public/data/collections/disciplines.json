@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-27T09:20:47.811Z",
+  "generatedAt": "2026-08-27T12:00:17.583Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -347,7 +347,7 @@
     {
       "id": "38188b48-e48e-80be-9d6f-d753cb568367",
       "notionUrl": "https://app.notion.com/p/Animalisme-38188b48e48e80be9d6fd753cb568367",
-      "lastEditedTime": "2026-08-10T19:29:00.000Z",
+      "lastEditedTime": "2026-08-27T11:03:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -650,13 +650,43 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Les pouvoirs d'animalisme affectent-ils les reptiles et les amphibiens ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Les pouvoirs d'animalisme affectent-ils les reptiles et les amphibiens ?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "38188b48-e48e-800b-8e45-cb4052605c7f",
       "notionUrl": "https://app.notion.com/p/Auspex-38188b48e48e800b8e45cb4052605c7f",
-      "lastEditedTime": "2026-08-10T19:29:00.000Z",
+      "lastEditedTime": "2026-08-27T11:04:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1019,6 +1049,36 @@
           "spans": [
             {
               "text": "Un prédateur doit posséder des sens extrêmement accrus pour pister ses proies dans la nuit. Les cinq sens : l'odorat, le toucher, le goût, la vue et l'ouïe s'aiguisent avec Auspex. Cette sensibilité améliorée peut aller au delà des sens physiques, s'étendant aux pouvoirs de concentration, de perception et de conscience-même de la vampire, au delà des capacités des mortels. Une sensibilité si fine parvient à saisir la texture des mouvements, comme celle des émotions, et transcende l'acuité mentale ordinaire. Auspex perce les divertions mentales et les illusions, comme celles créées par les disciplines Dissimulation et Chimérie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
               "bold": false
             }
           ]
@@ -1786,7 +1846,7 @@
     {
       "id": "38188b48-e48e-8033-aa12-f53c1385944a",
       "notionUrl": "https://app.notion.com/p/Dissimulation-38188b48e48e8033aa12f53c1385944a",
-      "lastEditedTime": "2026-08-10T19:29:00.000Z",
+      "lastEditedTime": "2026-08-27T11:06:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2244,13 +2304,43 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "38188b48-e48e-8066-9b99-cef01468ad90",
       "notionUrl": "https://app.notion.com/p/Domination-38188b48e48e80669b99cef01468ad90",
-      "lastEditedTime": "2026-08-10T18:36:00.000Z",
+      "lastEditedTime": "2026-08-27T11:07:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -2643,6 +2733,36 @@
           "spans": [
             {
               "text": "Pour utiliser Domination sur une cible, celle-ci doit avoir son regard ou son attention focalisés sur l’utilisateur de la Discipline.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Les pouvoirs qui modifient d'autres pouvoirs, tels que Disparition à la vue de l’esprit modifiant la Présence invisible, sont-ils actifs dans une situation où vous ne pouvez utiliser que des pouvoirs de niveaux un et deux, tels que la Projection astrale ou la Possession ?",
               "bold": false
             }
           ]
@@ -3943,7 +4063,7 @@
     {
       "id": "38188b48-e48e-805e-9d8f-f7d3bfcf3e04",
       "notionUrl": "https://app.notion.com/p/Prot-isme-38188b48e48e805e9d8ff7d3bfcf3e04",
-      "lastEditedTime": "2026-07-22T15:13:00.000Z",
+      "lastEditedTime": "2026-08-27T11:09:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",

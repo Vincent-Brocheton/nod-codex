@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-27T09:20:47.848Z",
+  "generatedAt": "2026-08-27T12:00:17.616Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -3360,7 +3360,7 @@
     {
       "id": "39c88b48-e48e-802b-8458-d9b9ef7fb7d4",
       "notionUrl": "https://app.notion.com/p/Armes-de-M-l-e-39c88b48e48e802b8458d9b9ef7fb7d4",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:31:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -4347,13 +4347,43 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Des gants lestés peuvent-ils avoir la qualité Brutale si l’attaquant utilise les deux mains ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Non. La règle stipule que « Les objets de cette qualité nécessitent le port des deux mains. » Les gants ne nécessitent pas deux mains pour les porter.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Non. La règle stipule que « Les objets de cette qualité nécessitent le port des deux mains. » Les gants ne nécessitent pas deux mains pour les porter.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Des gants lestés peuvent-ils avoir la qualité Brutale si l’attaquant utilise les deux mains ?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "39c88b48-e48e-80bf-9ef0-dc1ddd0ab72b",
       "notionUrl": "https://app.notion.com/p/Armures-39c88b48e48e80bf9ef0dc1ddd0ab72b",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:31:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -4910,13 +4940,99 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Si quelqu’un utilise une armure possédant les qualités Balistique ou Renforcé et que l'arme de son adversaire possède la qualité Perforation, la qualité Perforation supprime-t-elle le bonus conféré par les qualités Balistique ou Durcie pour se défendre contre cette attaque ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui, la qualité de Perforation d’armure annule le bonus conféré par ces qualités. La règle pour la qualité de Perforation d'armure stipule que « cette arme ignore les bonus et les capacités spéciales d'équipement de protection ». Par conséquent, le perforation d'armure annule les bonus d'armure renforcée et balistique.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui, la qualité de Perforation d’armure annule le bonus conféré par ces qualités. La règle pour la qualité de Perforation d'armure stipule que « cette arme ignore les bonus et les capacités spéciales d'équipement de protection ». Par conséquent, le perforation d'armure annule les bonus d'armure renforcée et balistique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question: Quand une armure a les qualités balistique et renforcée, leurs bonus s’ajoutent-ils de 3/1 et 1/3 à 3/3 ou à 4/4?",
+              "spans": [
+                {
+                  "text": "Question:",
+                  "bold": true
+                },
+                {
+                  "text": " Quand une armure a les qualités balistique et renforcée, leurs bonus s’ajoutent-ils de 3/1 et 1/3 à 3/3 ou à 4/4?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse: Les qualités balistique et durcie pour l'armure s’ajoutent à 4/4.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Les qualités balistique et durcie pour l'armure s’ajoutent à 4/4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question: Les qualités d’armure Balistique et Renforcée que vous obtenez avec le pouvoir Armure de Terra, s’ajoutent-elles avec les qualités de l'armure que vous portez ?",
+              "spans": [
+                {
+                  "text": "Question:",
+                  "bold": true
+                },
+                {
+                  "text": " Les qualités d’armure Balistique et Renforcée que vous obtenez avec le pouvoir Armure de Terra, s’ajoutent-elles avec les qualités de l'armure que vous portez ?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse: Non, les qualités d'armure ne s’ajoutent pas.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Non, les qualités d'armure ne s’ajoutent pas.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Si quelqu’un utilise une armure possédant les qualités Balistique ou Renforcé et que l'arme de son adversaire possède la qualité Perforation, la qualité Perforation supprime-t-elle le bonus conféré par les qualités Balistique ou Durcie pour se défendre contre cette attaque ?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "39888b48-e48e-8097-a0b9-f25574cd30fa",
       "notionUrl": "https://app.notion.com/p/Combat-de-masse-39888b48e48e8097a0b9f25574cd30fa",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:41:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -4990,6 +5106,36 @@
           "spans": [
             {
               "text": "Le combat a sa place : il renforce la tension, apporte du drame et contribue à rendre le Monde des Ténèbres brutal et dangereux. Mais n’oubliez jamais : il s’agit d’un jeu, et un jeu doit être plaisant pour tous les participants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Aider un Défenseur: Si j'ai été victime de deux attaques physiques au cours d'un combat de masse, puis-je utiliser l'action “Aider un Défenseur” pour annuler complètement une attaque physique contre quelqu’un d’autre, car je ne suis pas une cible valide ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Si vous choisissez d'accepter une attaque d'un autre attaquant, dépassant la limite normale de deux attaques physiques, vous pouvez subir les dégats de ces attaques supplémentaires.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Si vous choisissez d'accepter une attaque d'un autre attaquant, dépassant la limite normale de deux attaques physiques, vous pouvez subir les dégats de ces attaques supplémentaires.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Aider un Défenseur: Si j'ai été victime de deux attaques physiques au cours d'un combat de masse, puis-je utiliser l'action “Aider un Défenseur” pour annuler complètement une attaque physique contre quelqu’un d’autre, car je ne suis pas une cible valide ?",
               "bold": false
             }
           ]
@@ -6051,7 +6197,7 @@
     {
       "id": "39c88b48-e48e-806d-9c9e-efcf984c6ade",
       "notionUrl": "https://app.notion.com/p/Cr-ation-d-quipement-39c88b48e48e806d9c9eefcf984c6ade",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:30:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -6261,6 +6407,36 @@
           "spans": [
             {
               "text": "Les modifications particulièrement complexes peuvent nécessiter davantage de temps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Peut-on mettre deux la même qualité à un object ? Pourriez-vous créer une armure Balistique et Balistique ou une arme à feu Précise et Précise ? Y verriez-vous un avantage à faire les deux ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: En règle générale, vous ne pouvez rien acheter deux fois à moins que les règles ne le stipulent expressément. Dans ce cas, les éléments de vos exemples ne peuvent pas doubler ces qualités.",
+              "spans": [
+                {
+                  "text": "Réponse: ",
+                  "bold": true
+                },
+                {
+                  "text": "En règle générale, vous ne pouvez rien acheter deux fois à moins que les règles ne le stipulent expressément. Dans ce cas, les éléments de vos exemples ne peuvent pas doubler ces qualités.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Peut-on mettre deux la même qualité à un object ? Pourriez-vous créer une armure Balistique et Balistique ou une arme à feu Précise et Précise ? Y verriez-vous un avantage à faire les deux ?",
               "bold": false
             }
           ]
@@ -9900,7 +10076,7 @@
     {
       "id": "39c88b48-e48e-8046-ab59-df97a7049985",
       "notionUrl": "https://app.notion.com/p/Equipement-Divers-39c88b48e48e8046ab59df97a7049985",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:32:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -10877,13 +11053,43 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: L’équipement divers peut-il augmenter l’utilisation d’une discipline?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Les règles relatives aux équimements divers stipulent que “Les bonus fournis par des équipements divers ne peuvent pas être utilisés dans aucun type de combat”. Le mot “aucun type” et le fait que le combat est utilisé avec un petit “c” sont conçus pour empêcher ces règles de fonctionner dans la plupart des situations impliquant un joueur faisant quelque chose à un autre. Si les deux joueurs impliqués s'accordent pour dire que le défi ne consiste pas en “une sorte de combat”, foncez, mais nous pensons que cela n'arrivera pas très souvent.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Les règles relatives aux équimements divers stipulent que “Les bonus fournis par des équipements divers ne peuvent pas être utilisés dans aucun type de combat”. Le mot “aucun type” et le fait que le combat est utilisé avec un petit “c” sont conçus pour empêcher ces règles de fonctionner dans la plupart des situations impliquant un joueur faisant quelque chose à un autre. Si les deux joueurs impliqués s'accordent pour dire que le défi ne consiste pas en “une sorte de combat”, foncez, mais nous pensons que cela n'arrivera pas très souvent.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " L’équipement divers peut-il augmenter l’utilisation d’une discipline?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "39688b48-e48e-806d-b336-ed085bae903a",
       "notionUrl": "https://app.notion.com/p/Frenesie-39688b48e48e806db336ed085bae903a",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:39:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -12664,7 +12870,7 @@
     {
       "id": "39c88b48-e48e-8006-aa1d-e41f89ec561f",
       "notionUrl": "https://app.notion.com/p/Humanit-39c88b48e48e8006aa1de41f89ec561f",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:38:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -13018,6 +13224,116 @@
           "spans": [
             {
               "text": "L’Humanité permanente peut être rachetée au coût de 10 PX par point et doit faire l’objet d’un rôleplay significatif. Les personnages souhaitant regagner leur Humanité doivent consacrer du temps à expier les fautes ayant causé sa perte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Pouvez-vous expliquer la conception de votre système d’Humanité?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Voici une explication appronfondie de sa conception :",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Voici une explication appronfondie de sa conception :",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Thème et jeu de rôle",
+              "spans": [
+                {
+                  "text": "Thème et jeu de rôle",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les systèmes d’humanité antérieurs (à la fois en GN et sur table) ont tenté de représenter deux idées distinctes : la lutte entre un vampire et sa Bête et le fait que le vampire soit une bonne ou une mauvaise personne. Bien que ces deux éléments soient importants, il est difficile de représenter ces deux idées avec le même mécanisme. Après avoir considéré les aspects les plus importants de la mécanique de conception, nous avons décidé de nous concentrer presque entièrement sur la lutte du vampire pour tenir la Bête à distance et de permettre aux joueurs de déterminer eux-mêmes si leurs personnages sont “bons ou méchants”. La bête du vampire n'est pas un véritable indicateur du bien et du mal; une bonne personne peut être obligée de faire de mauvaises choses (nourrissant la Bête à chaque fois), tandis qu’une mauvaise personne peut utiliser des intermédiaires ou trouver des méthodes politiques pour mettre en œuvre ses vils stratagèmes sans renforcer directement sa Bête.",
+              "spans": [
+                {
+                  "text": "Les systèmes d’humanité antérieurs (à la fois en GN et sur table) ont tenté de représenter deux idées distinctes : la lutte entre un vampire et sa Bête et le fait que le vampire soit une bonne ou une mauvaise personne. Bien que ces deux éléments soient importants, il est difficile de représenter ces deux idées avec le même mécanisme. Après avoir considéré les aspects les plus importants de la mécanique de conception, nous avons décidé de nous concentrer presque entièrement sur la lutte du vampire pour tenir la Bête à distance et de permettre aux joueurs de déterminer eux-mêmes si leurs personnages sont “bons ou méchants”. La bête du vampire n'est pas un véritable indicateur du bien et du mal; une bonne personne peut être obligée de faire de mauvaises choses (nourrissant la Bête à chaque fois), tandis qu’une mauvaise personne peut utiliser des intermédiaires ou trouver des méthodes politiques pour mettre en œuvre ses vils stratagèmes sans renforcer directement sa Bête.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Cette lutte est l’un des thèmes centraux de Vampire. Nous nous sommes concentrés sur l'effort contre la Bête, car il s'agit d'un concept abstrait: cette créature semi-consciente agit en dehors des intentions du personnage (du joueur). A l’inverse, le concept d’être une bonne ou une mauvaise personne est quelque chose que nous pouvons tous facilement comprendre et qui est entièrement sous le contrôle du joueur.",
+              "spans": [
+                {
+                  "text": "Cette lutte est l’un des thèmes centraux de Vampire. Nous nous sommes concentrés sur l'effort contre la Bête, car il s'agit d'un concept abstrait: cette créature semi-consciente agit en dehors des intentions du personnage (du joueur). A l’inverse, le concept d’être une bonne ou une mauvaise personne est quelque chose que nous pouvons tous facilement comprendre et qui est entièrement sous le contrôle du joueur.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Dans les systèmes antérieurs, il existait des paliers où la mécanique de lutte contre la Bête n'avait plus d'importance ; les actions d'un personnage ne provoquaient plus la Bête, et le joueur pouvait presque ignorer le danger du wassail. Le système encourageait mécaniquement un personnage à passer à Humanité 2, où il n'aurait plus à gérer cet aspect de la condition vampirique. De l'avis de notre équipe de conception, il ne devrait pas exister de telle situation. La lutte d'un vampire avec sa Bête devrait toujours être une considération majeure de son existence, et nous avons choisi de refléter cet idéal dans la mécanique d’éthique MET: VTM .",
+              "spans": [
+                {
+                  "text": "Dans les systèmes antérieurs, il existait des paliers où la mécanique de lutte contre la Bête n'avait plus d'importance ; les actions d'un personnage ne provoquaient plus la Bête, et le joueur pouvait presque ignorer le danger du wassail. Le système encourageait mécaniquement un personnage à passer à Humanité 2, où il n'aurait plus à gérer cet aspect de la condition vampirique. De l'avis de notre équipe de conception, il ne devrait pas exister de telle situation. La lutte d'un vampire avec sa Bête devrait toujours être une considération majeure de son existence, et nous avons choisi de refléter cet idéal dans la mécanique d’éthique MET: VTM .",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réduire le hasard",
+              "spans": [
+                {
+                  "text": "Réduire le hasard",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Afin d'accroître le drame et de fournir des risques (et des conséquences) tangibles, la plupart des systèmes prévoient un certain degré d’aléatoire dans leur mécanisme de jeu. Cependant, faire reposer de lourds changements de personnalité (voire la destruction ultime) sur un seul test peut donner un caractère arbitraire au jeu et rendre les échecs inintéressants. Au lieu de cela, nous avons construit un système dans lequel un personnage doit gérer l’éthique et la Bête sous forme de concessions mutuelles, laissant le personnage prendre des risques et nourrir sa Bête par petites touches, tout en sachant quand freiner ou s'arrêter avant de risquer une perte permanente d’éthique. Cela encourage en outre un joueur à jouer la force actuelle de la Bête à mesure qu'elle se renforce au cours d'une nuit, ce qui permet une meilleure interprétation tout au long de la nuit.",
+              "spans": [
+                {
+                  "text": "Afin d'accroître le drame et de fournir des risques (et des conséquences) tangibles, la plupart des systèmes prévoient un certain degré d’aléatoire dans leur mécanisme de jeu. Cependant, faire reposer de lourds changements de personnalité (voire la destruction ultime) sur un seul test peut donner un caractère arbitraire au jeu et rendre les échecs inintéressants. Au lieu de cela, nous avons construit un système dans lequel un personnage doit gérer l’éthique et la Bête sous forme de concessions mutuelles, laissant le personnage prendre des risques et nourrir sa Bête par petites touches, tout en sachant quand freiner ou s'arrêter avant de risquer une perte permanente d’éthique. Cela encourage en outre un joueur à jouer la force actuelle de la Bête à mesure qu'elle se renforce au cours d'une nuit, ce qui permet une meilleure interprétation tout au long de la nuit.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Lorsqu'un vampire commet un péché, il rend sa Bête plus forte, la faisant sortir de sa torpeur. Une Bête éveillée et alerte a une meilleure capacité à prendre le contrôle des actions d'un vampire. Avant qu'un personnage ne commette des péchés, sa Bête est endormie et il n'y a aucune chance que le vampire n’entre en frénésie. Chaque fois que le vampire pèche dans la nuit, sa Bête devient plus puissante. Les chances de frénésie d'un personnage augmentent, et il se rapproche d'une perte permanente d’éthique. Les vampires peuvent sentir leur Bête se réveiller et ils savent combien elle est forte du fait de leurs actions. Cela signifie qu'un vampire doit soigneusement planifier ses péchés, en évitant ceux qui lui causeront une perte permanente et en s'efforçant activement de contenir la rage de la Bête au cours de la nuit.",
+              "spans": [
+                {
+                  "text": "Lorsqu'un vampire commet un péché, il rend sa Bête plus forte, la faisant sortir de sa torpeur. Une Bête éveillée et alerte a une meilleure capacité à prendre le contrôle des actions d'un vampire. Avant qu'un personnage ne commette des péchés, sa Bête est endormie et il n'y a aucune chance que le vampire n’entre en frénésie. Chaque fois que le vampire pèche dans la nuit, sa Bête devient plus puissante. Les chances de frénésie d'un personnage augmentent, et il se rapproche d'une perte permanente d’éthique. Les vampires peuvent sentir leur Bête se réveiller et ils savent combien elle est forte du fait de leurs actions. Cela signifie qu'un vampire doit soigneusement planifier ses péchés, en évitant ceux qui lui causeront une perte permanente et en s'efforçant activement de contenir la rage de la Bête au cours de la nuit.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Acquérir des traits de bête peut amener un personnage à modifier ses actions souhaitées pendant une partie. Le personnage devra peut-être éviter de tuer un ennemi haï - la nuit - car elle possède déjà les traits de la Bête et ne souhaite pas risquer de perdre la moralité. D'un autre côté, le vampire peut planifier à long terme de tuer son ennemi une nuit sans lui infliger de traits de bête (ou a préparé un moyen d'apaiser la bête malgré le meurtre). Ces stratégies de gestion des bêtes font partie de la vie vampirique; ils sont une considération fondamentale pour un personnage vivant de nuit à la nuit avec un esprit affreux, affamé et enragé qui infecte en permanence son âme.",
+              "spans": [
+                {
+                  "text": "Acquérir des traits de bête peut amener un personnage à modifier ses actions souhaitées pendant une partie. Le personnage devra peut-être éviter de tuer un ennemi haï - la nuit - car elle possède déjà les traits de la Bête et ne souhaite pas risquer de perdre la moralité. D'un autre côté, le vampire peut planifier à long terme de tuer son ennemi une nuit sans lui infliger de traits de bête (ou a préparé un moyen d'apaiser la bête malgré le meurtre). Ces stratégies de gestion des bêtes font partie de la vie vampirique; ils sont une considération fondamentale pour un personnage vivant de nuit à la nuit avec un esprit affreux, affamé et enragé qui infecte en permanence son âme.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Pouvez-vous expliquer la conception de votre système d’Humanité?",
               "bold": false
             }
           ]
@@ -23996,7 +24312,7 @@
     {
       "id": "39c88b48-e48e-8038-90c4-dca04b397b46",
       "notionUrl": "https://app.notion.com/p/Sant-et-D-g-ts-39c88b48e48e803890c4dca04b397b46",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -24377,6 +24693,36 @@
             {
               "text": "Types de dégâts",
               "bold": true
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Des sources de dégâts distinctes s'empilent-elles lorsqu'elles sont infligées en même temps ou lors d'une même attaque dans le but d'être réduites par la force (par exemple, Chair ardente et Armure personnelle) ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Si les dégâts sont simultanés (c'est-à-dire s’ils résultent de la même action), on considère qu’il s’agit d’une source de dégâts. Si vous avez utilisé une action standard pour frapper quelqu'un et que cette personne avait Chair Ardente et Armure personnelle actives, vous subirez les deux sources de dégâts en même temps et votre Force d'âme ne sera appliquée qu'une seule fois. Si j'ai utilisé mon action standard pour vous frapper, utilisé mon action simple pour activer une puissance qui augmente les dégâts, et utilisé mon action standard au tour suivant pour vous frapper à nouveau avec cette puissance activée, vous appliquerez votre Force d'âme à chaque source de dégâts.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Si les dégâts sont simultanés (c'est-à-dire s’ils résultent de la même action), on considère qu’il s’agit d’une source de dégâts. Si vous avez utilisé une action standard pour frapper quelqu'un et que cette personne avait Chair Ardente et Armure personnelle actives, vous subirez les deux sources de dégâts en même temps et votre Force d'âme ne sera appliquée qu'une seule fois. Si j'ai utilisé mon action standard pour vous frapper, utilisé mon action simple pour activer une puissance qui augmente les dégâts, et utilisé mon action standard au tour suivant pour vous frapper à nouveau avec cette puissance activée, vous appliquerez votre Force d'âme à chaque source de dégâts.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Des sources de dégâts distinctes s'empilent-elles lorsqu'elles sont infligées en même temps ou lors d'une même attaque dans le but d'être réduites par la force (par exemple, Chair ardente et Armure personnelle) ?",
+              "bold": false
             }
           ]
         },
@@ -25153,7 +25499,7 @@
     {
       "id": "39c88b48-e48e-8082-8c36-c1f3542672cb",
       "notionUrl": "https://app.notion.com/p/Se-Nourrir-39c88b48e48e80828c36c1f3542672cb",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-08-27T11:35:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -25323,10 +25669,40 @@
         },
         {
           "type": "paragraph",
-          "text": "La conservation de la vitae au-delà de cette durée nécessite l’utilisation de la compétence Médecine ou d’un pouvoir surnaturel, tel que Principal Focus of Vitae Infusion.",
+          "text": "La conservation de la vitae au-delà de cette durée nécessite l’utilisation de la compétence Médecine ou d’un pouvoir surnaturel.",
           "spans": [
             {
-              "text": "La conservation de la vitae au-delà de cette durée nécessite l’utilisation de la compétence Médecine ou d’un pouvoir surnaturel, tel que Principal Focus of Vitae Infusion.",
+              "text": "La conservation de la vitae au-delà de cette durée nécessite l’utilisation de la compétence Médecine ou d’un pouvoir surnaturel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Un vampire peut-il fusionner du sang avec du vin et de la nourriture?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Oui. Ce chapitre contient des règles relatives à la conservation du sang et à l'alimentation à partir de sang de moindre qualité. Vous pouvez utiliser ces règles pour représenter le sang infusé dans la nourriture ou la boisson.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Oui. Ce chapitre contient des règles relatives à la conservation du sang et à l'alimentation à partir de sang de moindre qualité. Vous pouvez utiliser ces règles pour représenter le sang infusé dans la nourriture ou la boisson.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Un vampire peut-il fusionner du sang avec du vin et de la nourriture?",
               "bold": false
             }
           ]
@@ -28046,6 +28422,269 @@
           "spans": [
             {
               "text": "Les descriptions des disciplines sont rédigées comme si les vampires utilisaient ces pouvoirs. Cependant, sauf mention explicite, elles incluent également les goules, les revenants ou tout autre personnage surnaturel capable de posséder et d’utiliser ces pouvoirs.\nDans les descriptions des disciplines, les personnages partiellement surnaturels (tels que les goules et les revenants) sont considérés comme des « mortels ». Si un pouvoir est décrit comme ayant un effet accru sur les mortels, cet effet accru s’applique également aux goules.\nLe pool de test de la discipline (indiqué dans la description initiale de celle-ci) s’applique à tous les pouvoirs de cette discipline, y compris les pouvoirs d’ancien. Il ne s’applique pas nécessairement aux techniques ; référez-vous à chaque technique pour déterminer son pool de test spécifique.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3c988b48-e48e-8098-84a7-df0c39cdbfdb",
+      "notionUrl": "https://app.notion.com/p/Voie-de-l-Illumination-3c988b48e48e809884a7df0c39cdbfdb",
+      "lastEditedTime": "2026-08-27T11:59:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Humanité"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie de l’Illumination"
+        }
+      },
+      "title": "Voie de l’Illumination",
+      "slug": "voie-de-l-illumination",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
+          "spans": [
+            {
+              "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Adhérent à une voie : (2 points d’atouts)",
+          "spans": [
+            {
+              "text": "Adhérent à une voie : (2 points d’atouts)",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Accord Honorable",
+          "spans": [
+            {
+              "text": "Voie de l'Accord Honorable",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de Caïn",
+          "spans": [
+            {
+              "text": "Voie de Caïn",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Cathares",
+          "spans": [
+            {
+              "text": "Voie des Cathares",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Chevalerie",
+          "spans": [
+            {
+              "text": "Voie de la Chevalerie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Cieux",
+          "spans": [
+            {
+              "text": "Voie des Cieux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Coeur Écorché",
+          "spans": [
+            {
+              "text": "Voie du Coeur Écorché",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Cœur Sauvage",
+          "spans": [
+            {
+              "text": "Voie du Cœur Sauvage",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l’Entéléchie",
+          "spans": [
+            {
+              "text": "Voie de l’Entéléchie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Extase",
+          "spans": [
+            {
+              "text": "Voie de l'Extase",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Harmonie",
+          "spans": [
+            {
+              "text": "Voie de l'Harmonie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de Lilith",
+          "spans": [
+            {
+              "text": "Voie de Lilith",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Métamorphoses",
+          "spans": [
+            {
+              "text": "Voie des Métamorphoses",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Mort et de l'Âme",
+          "spans": [
+            {
+              "text": "Voie de la Mort et de l'Âme",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Nuit",
+          "spans": [
+            {
+              "text": "Voie de la Nuit",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie d'Orion",
+          "spans": [
+            {
+              "text": "Voie d'Orion",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Paradoxe",
+          "spans": [
+            {
+              "text": "Voie du Paradoxe",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Pouvoir et de la Voix Intérieure",
+          "spans": [
+            {
+              "text": "Voie du Pouvoir et de la Voix Intérieure",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Révélations Démoniaque",
+          "spans": [
+            {
+              "text": "Voie des Révélations Démoniaque",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Rédemption nocturne",
+          "spans": [
+            {
+              "text": "Voie de la Rédemption nocturne",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Ruche",
+          "spans": [
+            {
+              "text": "Voie de la Ruche",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Sang",
+          "spans": [
+            {
+              "text": "Voie du Sang",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Typhon-Set",
+          "spans": [
+            {
+              "text": "Voie du Typhon-Set",
               "bold": false
             }
           ]

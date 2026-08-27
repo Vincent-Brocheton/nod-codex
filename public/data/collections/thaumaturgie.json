@@ -4,7 +4,7 @@
   "group": "Rituels",
   "description": "",
   "notionDatabaseId": "37e88b48-e48e-80ce-b46b-dd1a2b4aebea",
-  "generatedAt": "2026-08-27T09:20:47.841Z",
+  "generatedAt": "2026-08-27T12:00:17.610Z",
   "propertyOptions": {
     "Ingrédients": [
       "1 pts de sang de la cible",
@@ -2445,7 +2445,7 @@
     {
       "id": "39888b48-e48e-8093-a916-f78f39bb9c05",
       "notionUrl": "https://app.notion.com/p/Engager-le-Calice-de-Transfert-39888b48e48e8093a916f78f39bb9c05",
-      "lastEditedTime": "2026-07-09T17:21:00.000Z",
+      "lastEditedTime": "2026-08-27T11:15:00.000Z",
       "properties": {
         "Ingrédients": {
           "type": "multi_select",
@@ -2572,6 +2572,36 @@
           "spans": [
             {
               "text": "Utilisations courantes : créer un lien de sang à l’insu de la cible ou obtenir un échantillon de sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Lors de l’utilisation du rituel Engager le calice de transfert, quelle est la plus petite et la plus grande taille que le calice peut être en unités métriques?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: En convertissant la règle dans le système métrique, vous êtes autorisé à créer un récipient compris entre 240 millilitres (0,24 litre) et 4 litres.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " En convertissant la règle dans le système métrique, vous êtes autorisé à créer un récipient compris entre 240 millilitres (0,24 litre) et 4 litres.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question:",
+              "bold": true
+            },
+            {
+              "text": " Lors de l’utilisation du rituel Engager le calice de transfert, quelle est la plus petite et la plus grande taille que le calice peut être en unités métriques?",
               "bold": false
             }
           ]

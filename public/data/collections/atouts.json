@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-27T09:20:47.831Z",
+  "generatedAt": "2026-08-27T12:00:17.600Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -4040,7 +4040,7 @@
     {
       "id": "39688b48-e48e-80b5-85cb-cc96ca8db279",
       "notionUrl": "https://app.notion.com/p/Entrainement-en-N-cromancie-39688b48e48e80b585cbcc96ca8db279",
-      "lastEditedTime": "2026-07-30T22:37:00.000Z",
+      "lastEditedTime": "2026-08-27T09:35:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -4079,13 +4079,71 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Dois-je vraiment acquérir l’atout pour apprendre la Nécromancie?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui. Cette exigence est un aspect important de la conception du jeu. La magie du sang est potentiellement déséquilibrée et le coût du mérite oblige les joueurs à faire des choix difficiles en ce qui concerne leur personnage, plutôt que de simplement collecter des pouvoirs.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui. Cette exigence est un aspect important de la conception du jeu. La magie du sang est potentiellement déséquilibrée et le coût du mérite oblige les joueurs à faire des choix difficiles en ce qui concerne leur personnage, plutôt que de simplement collecter des pouvoirs.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question : Lorsqu'un atout offre « … une voie supplémentaire de Nécromancie de votre choix », cela signifie-t-il simplement qu'un personnage peut apprendre la voie ? Le personnage a-t-il encore besoin d'un mentor ? Achetez-vous la voie au prix d'une discipline de clan ou hors clan ?",
+              "spans": [
+                {
+                  "text": "Question :",
+                  "bold": true
+                },
+                {
+                  "text": " Lorsqu'un atout offre « … une voie supplémentaire de Nécromancie de votre choix », cela signifie-t-il simplement qu'un personnage peut apprendre la voie ? Le personnage a-t-il encore besoin d'un mentor ? Achetez-vous la voie au prix d'une discipline de clan ou hors clan ?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui, le personnage peut apprendre la voie sans mentor. Le coût est décrit dans la description de l’atout. Par exemple, Expertise en Nécromancie permet au personnage d’apprendre une voie supplémentaire de la magie du sang au prix d'une discipline de clan.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui, le personnage peut apprendre la voie sans mentor. Le coût est décrit dans la description de l’atout. Par exemple, Expertise en Nécromancie permet au personnage d’apprendre une voie supplémentaire de la magie du sang au prix d'une discipline de clan.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Dois-je vraiment acquérir l’atout pour apprendre la Nécromancie?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
     {
       "id": "39688b48-e48e-801b-a2f7-c2b906eda8fc",
       "notionUrl": "https://app.notion.com/p/Entrainement-en-Thaumaturgie-39688b48e48e801ba2f7c2b906eda8fc",
-      "lastEditedTime": "2026-07-30T22:37:00.000Z",
+      "lastEditedTime": "2026-08-27T09:35:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -4121,6 +4179,64 @@
           "spans": [
             {
               "text": "Les thaumaturges protègent jalousement leur savoir et ceux qui maîtrisent les secrets de la Thaumaturgie - comme les Tremere - partagent rarement leur art.\nD’une manière ou d’une autre, dans votre passé, vous avez été formé par un thaumaturge ou un sorcier, ou vous avez eu accès à des textes interdits, acquérant suffisamment de connaissances pour devenir compétent dans une voie de Thaumaturgie.\nGrâce à cet Atout, vous avez la capacité d’apprendre une unique voie de Thaumaturgie et d’acheter ses pouvoirs au coût hors clan.\nSi votre personnage connaît déjà cette Discipline dans son historique, cette formation doit être justifiée dans son background.\nSi vous souhaitez acheter la Thaumaturgie après l’entrée en jeu de votre personnage, vous devez d’abord acheter cet Atout.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Dois-je vraiment acquérir l’atout pour apprendre la Thaumaturgie?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui. Cette exigence est un aspect important de la conception du jeu. La magie du sang est potentiellement déséquilibrée et le coût du mérite oblige les joueurs à faire des choix difficiles en ce qui concerne leur personnage, plutôt que de simplement collecter des pouvoirs.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui. Cette exigence est un aspect important de la conception du jeu. La magie du sang est potentiellement déséquilibrée et le coût du mérite oblige les joueurs à faire des choix difficiles en ce qui concerne leur personnage, plutôt que de simplement collecter des pouvoirs.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question : Lorsqu'un atout offre « … une voie supplémentaire de Thaumaturgie de votre choix », cela signifie-t-il simplement qu'un personnage peut apprendre la voie ? Le personnage a-t-il encore besoin d'un mentor ? Achetez-vous la voie au prix d'une discipline de clan ou hors clan ?",
+              "spans": [
+                {
+                  "text": "Question :",
+                  "bold": true
+                },
+                {
+                  "text": " Lorsqu'un atout offre « … une voie supplémentaire de Thaumaturgie de votre choix », cela signifie-t-il simplement qu'un personnage peut apprendre la voie ? Le personnage a-t-il encore besoin d'un mentor ? Achetez-vous la voie au prix d'une discipline de clan ou hors clan ?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui, le personnage peut apprendre la voie sans mentor. Le coût est décrit dans la description de l’atout. Par exemple, Expertise Thaumaturgique permettent au personnage d’apprendre une voie supplémentaire de la magie du sang au prix d'une discipline de clan.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui, le personnage peut apprendre la voie sans mentor. Le coût est décrit dans la description de l’atout. Par exemple, Expertise Thaumaturgique permettent au personnage d’apprendre une voie supplémentaire de la magie du sang au prix d'une discipline de clan.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Dois-je vraiment acquérir l’atout pour apprendre la Thaumaturgie?",
               "bold": false
             }
           ]

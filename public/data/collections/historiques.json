@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-08-27T09:20:47.859Z",
+  "generatedAt": "2026-08-27T12:00:17.632Z",
   "propertyOptions": {},
   "items": [
     {
@@ -3076,7 +3076,7 @@
     {
       "id": "39b88b48-e48e-8039-bad8-c38d39db26a4",
       "notionUrl": "https://app.notion.com/p/G-n-ration-39b88b48e48e8039bad8c38d39db26a4",
-      "lastEditedTime": "2026-07-12T12:34:00.000Z",
+      "lastEditedTime": "2026-08-27T11:17:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -4433,6 +4433,36 @@
               "bold": false
             }
           ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Les bonus d'attribut fournis par l’historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Les points bonus d'attributs de l’historique génération augmentent uniquement le potentiel maximum pour l'attribut auquel ils sont attribués. Vous devez toujours dépenser des points d’expérience pour acheter des attributs jusqu’au nouveau maximum.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Les points bonus d'attributs de l’historique génération augmentent uniquement le potentiel maximum pour l'attribut auquel ils sont attribués. Vous devez toujours dépenser des points d’expérience pour acheter des attributs jusqu’au nouveau maximum.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Les bonus d'attribut fournis par l’historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
+              "bold": false
+            }
+          ]
         }
       ]
     },
@@ -5714,7 +5744,7 @@
     {
       "id": "39b88b48-e48e-8095-957b-de71ddd13735",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
-      "lastEditedTime": "2026-07-26T13:47:00.000Z",
+      "lastEditedTime": "2026-08-27T11:17:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -6934,6 +6964,64 @@
           "spans": [
             {
               "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfer soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, la Conteuse peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, elle peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question: Si un serviteur n'est pas une goule (par exemple, une Appartition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse: Outre les pouvoirs gratuits qu'ils obtiennent en fonction de leur type, oui, ils sont toujours liés par la règle disciplinaire unique.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Outre les pouvoirs gratuits qu'ils obtiennent en fonction de leur type, oui, ils sont toujours liés par la règle disciplinaire unique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Question: Si un serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
+              "spans": [
+                {
+                  "text": "Question:",
+                  "bold": true
+                },
+                {
+                  "text": " Si un serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Réponse: Non, votre personnage n'a pas besoin d'un niveau de discipline supérieur à celui de sa goule. Votre goule peut apprendre une discipline par elle-même tant qu'elle a du sang capable de la manifester. Par conséquent, dans votre exemple, la goule de Brujah peut avoir Célérité 3 même si son maître n'a que Célérité 1.",
+              "spans": [
+                {
+                  "text": "Réponse:",
+                  "bold": true
+                },
+                {
+                  "text": " Non, votre personnage n'a pas besoin d'un niveau de discipline supérieur à celui de sa goule. Votre goule peut apprendre une discipline par elle-même tant qu'elle a du sang capable de la manifester. Par conséquent, dans votre exemple, la goule de Brujah peut avoir Célérité 3 même si son maître n'a que Célérité 1.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question: ",
+              "bold": true
+            },
+            {
+              "text": "Si un serviteur n'est pas une goule (par exemple, une Appartition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
               "bold": false
             }
           ]
