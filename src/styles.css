@@ -893,9 +893,11 @@ h1 {
 }
 
 /* Sans ce clear, un float posé par ::first-letter déborde de son propre
-   paragraphe : s'il est plus court que la lettrine, les paragraphes
-   suivants viennent se coller contre elle au lieu de commencer dessous. */
-.detailCard .contentBlocks p:first-of-type ~ p {
+   paragraphe : s'il est plus court que la lettrine, les blocs suivants
+   (paragraphe, mais aussi heading, toggle, liste...) viennent se coller
+   contre elle au lieu de commencer dessous. `*` plutôt qu'un `p` isolé : le
+   premier paragraphe n'est pas forcément suivi d'un autre paragraphe. */
+.detailCard .contentBlocks p:first-of-type ~ * {
   clear: left;
 }
 
@@ -926,6 +928,20 @@ h1 {
   color: var(--text-heading);
   cursor: pointer;
   font-weight: 600;
+}
+
+/* Heading Notion "dépliant" (is_toggleable) : son h1-h4 est du contenu
+   block-level, ce qui force par défaut le triangle natif de <summary> sur
+   sa propre ligne, au-dessus du titre au lieu de le précéder. En inline, il
+   reprend sa place normale à droite du triangle, sans perdre le style de
+   couleur/taille/casse propre à chaque niveau de heading (non affecté par
+   display: inline). */
+.toggleBlock summary > h1,
+.toggleBlock summary > h2,
+.toggleBlock summary > h3,
+.toggleBlock summary > h4 {
+  display: inline;
+  margin: 0;
 }
 
 .toggleBlock[open] summary {

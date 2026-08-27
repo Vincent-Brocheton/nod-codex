@@ -23,11 +23,26 @@ function renderSpans(block, onItemClick) {
     });
 }
 
+const HEADING_TAGS = {
+    heading_1: "h1",
+    heading_2: "h2",
+    heading_3: "h3",
+    heading_4: "h4",
+};
+
 export default function Block({ block, onItemClick, manifest }) {
-    if (block.type === "heading_1") return <h1>{renderSpans(block, onItemClick)}</h1>;
-    if (block.type === "heading_2") return <h2>{renderSpans(block, onItemClick)}</h2>;
-    if (block.type === "heading_3") return <h3>{renderSpans(block, onItemClick)}</h3>;
-    if (block.type === "heading_4") return <h4>{renderSpans(block, onItemClick)}</h4>;
+    const HeadingTag = HEADING_TAGS[block.type];
+    if (HeadingTag) {
+        if (block.toggleable) {
+            return (
+                <details className="toggleBlock">
+                    <summary><HeadingTag>{renderSpans(block, onItemClick)}</HeadingTag></summary>
+                    <ContentBlocks content={block.children || []} manifest={manifest} />
+                </details>
+            );
+        }
+        return <HeadingTag>{renderSpans(block, onItemClick)}</HeadingTag>;
+    }
     if (block.type === "toggle") {
         return (
             <details className="toggleBlock">

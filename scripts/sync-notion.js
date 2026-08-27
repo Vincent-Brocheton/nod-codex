@@ -72,6 +72,19 @@ async function blockToContent(block) {
     return { type: "callout", text, segments: richTextToSegments(value?.rich_text || []), children };
   }
 
+  // Un heading Notion peut être marqué "dépliant" (is_toggleable) : il garde
+  // son apparence de titre mais cache du contenu enfant, jamais renvoyé par
+  // le listing du parent, comme pour un toggle ou un callout.
+  if (block.type.startsWith("heading_") && value?.is_toggleable) {
+    const text = richTextToPlainText(value?.rich_text || []);
+    if (!text) return null;
+
+    const childBlocks = block.has_children ? await listBlockChildren(block.id) : [];
+    const children = (await Promise.all(childBlocks.map((child) => blockToContent(child)))).filter(Boolean);
+
+    return { type: block.type, text, segments: richTextToSegments(value?.rich_text || []), toggleable: true, children };
+  }
+
   // Un tableau Notion n'a pas de rich_text propre : chaque ligne est un bloc
   // "table_row" enfant, avec une cellule par colonne (elle-même un tableau
   // de rich_text). Il faut donc aller chercher ces lignes séparément.

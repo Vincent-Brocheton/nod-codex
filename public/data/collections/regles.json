@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-08-27T12:00:17.616Z",
+  "generatedAt": "2026-08-27T18:21:39.064Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -19489,6 +19489,1462 @@
       ]
     },
     {
+      "id": "3c988b48-e48e-8098-84a7-df0c39cdbfdb",
+      "notionUrl": "https://app.notion.com/p/Liste-des-Voie-de-l-Illumination-3c988b48e48e809884a7df0c39cdbfdb",
+      "lastEditedTime": "2026-08-27T18:20:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Humanité"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Liste des Voie de l’Illumination"
+        }
+      },
+      "title": "Liste des Voie de l’Illumination",
+      "slug": "liste-des-voie-de-l-illumination",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
+          "spans": [
+            {
+              "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Adhérent à une voie",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Vous avez commencé un processus de transformation majeure, faisant vos premiers pas sur une voie de l’Illumination. En achetant adhérent à une voix, vous recevez les bonus d’une voie d’Illumination ainsi que l’apparence de quelqu’un qui suit une voie, mais vous ne recevez pas les bénéfices des Mécaniques de Voie Étendues ci-dessous. Cependant comme vous venez juste de commencer votre voie de l’Illumination, votre bête n’est pas aussi tranquille que celle d’un maître.",
+              "spans": [
+                {
+                  "text": "Vous avez commencé un processus de transformation majeure, faisant vos premiers pas sur une voie de l’Illumination. En achetant adhérent à une voix, vous recevez les bonus d’une voie d’Illumination ainsi que l’apparence de quelqu’un qui suit une voie, mais vous ne recevez pas les bénéfices des Mécaniques de Voie Étendues ci-dessous. Cependant comme vous venez juste de commencer votre voie de l’Illumination, votre bête n’est pas aussi tranquille que celle d’un maître.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Si vous commettez une action qui est considérée comme un péché niveau 1 par votre Voie de moralité, elle compte comme un niveau 2 à la place. Si vous commettez une action qui compte comme un niveau 4 par votre Voie de moralité, elle compte comme un niveau 5 à la place.",
+              "spans": [
+                {
+                  "text": "Si vous commettez une action qui est considérée comme un péché niveau 1 par votre Voie de moralité, elle compte comme un niveau 2 à la place. Si vous commettez une action qui compte comme un niveau 4 par votre Voie de moralité, elle compte comme un niveau 5 à la place.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "En supplément, quand vous achetez “Adhérent à une voie” vous appliquez n’importe quel rabais à cet achat que vous pourriez appliquer grâce à votre clan, lignée, secte, comme si vous achetiez l’atout de Voie de moralité correspondant. Par exemple, un Sabbatique peut acheter la Voie de Caïn avec un coût réduit de 2 vous pouvez acheter “l’Adhérent à une voie” pour la voie de Caïn avec la même réduction (donc un coût nul)",
+              "spans": [
+                {
+                  "text": "En supplément, quand vous achetez “Adhérent à une voie” vous appliquez n’importe quel rabais à cet achat que vous pourriez appliquer grâce à votre clan, lignée, secte, comme si vous achetiez l’atout de Voie de moralité correspondant. Par exemple, un Sabbatique peut acheter la Voie de Caïn avec un coût réduit de 2 vous pouvez acheter “l’Adhérent à une voie” pour la voie de Caïn avec la même réduction (donc un coût nul)",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Après avoir acheté cet atout, vous pouvez le changer pour l’atout complet de la voie de l’Illumination que vous suiviez en payant la différence de coût en XP, pour peu que ce nouvel achat ne dépasse pas la limite de 7 points d’atouts maximum autorisée. Vous devez dépenser également 6 actions inter-parties ou seulement 3 si vous apprenez d’un mentor.",
+              "spans": [
+                {
+                  "text": "Après avoir acheté cet atout, vous pouvez le changer pour l’atout complet de la voie de l’Illumination que vous suiviez en payant la différence de coût en XP, pour peu que ce nouvel achat ne dépasse pas la limite de 7 points d’atouts maximum autorisée. Vous devez dépenser également 6 actions inter-parties ou seulement 3 si vous apprenez d’un mentor.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Adhérent à une voie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Accord Honorable",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "“Les Trois Tours”",
+              "spans": [
+                {
+                  "text": "“Les Trois Tours”",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Comme la majorité des choses associées à l'Accord Honorable, les préceptes fondateurs de la voie sont simples. Il y a fort longtemps, ils étaient écrits dans un folio en triptyque appelé “Les Tours”.",
+              "spans": [
+                {
+                  "text": "Comme la majorité des choses associées à l'Accord Honorable, les préceptes fondateurs de la voie sont simples. Il y a fort longtemps, ils étaient écrits dans un folio en triptyque appelé “Les Tours”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Quand il a été traduit en anglais, il comptait 72 pages. Les trois chapitres sont la Tour du Devoir, la Tour de l'Honneur, et la Tour du Courage. La Tour du Devoir est une liste des règles de comportement. La Tour de l'Honneur est la partie spirituelle de ce codex, détaillant six histoires différentes - le conte du Sang, le Conte de l'Errant Solitaire, le conte de la Cour de Minuit, le conte du Bétail, le conte du Loup et le conte de l'Aube - qui décrivent l'adhésion à la logique, à la tyrannie, et à la complète autorité de la loi. La Tour du Courage est une allégorie du voyage d'un chevalier venant des ténèbres, traversant les horreurs de la guerre pour terminer dans un lieu de compréhension froide et atroce. Il est attendu des chevaliers qu'ils gardent une copie du code sur eux en toute circonstance Les suivants de la Voie de l'Accord Honorable sont extrêmement respectueux de la loi et suivent un code de commandement de trois préceptes : la Tour du Devoir, la Tour de l'Honneur et la Tour du Courage. Ils tordent ces règles à leur propre avantage en les utilisant pour empêtrer (et détruire) les autres dès que possible. Malgré le nom, ces Vampires ne sont pas honorables. Bien qu'ils soient souvent vertueux, ils ne sont en aucun cas bons.",
+              "spans": [
+                {
+                  "text": "Quand il a été traduit en anglais, il comptait 72 pages. Les trois chapitres sont la Tour du Devoir, la Tour de l'Honneur, et la Tour du Courage. La Tour du Devoir est une liste des règles de comportement. La Tour de l'Honneur est la partie spirituelle de ce codex, détaillant six histoires différentes - le conte du Sang, le Conte de l'Errant Solitaire, le conte de la Cour de Minuit, le conte du Bétail, le conte du Loup et le conte de l'Aube - qui décrivent l'adhésion à la logique, à la tyrannie, et à la complète autorité de la loi. La Tour du Courage est une allégorie du voyage d'un chevalier venant des ténèbres, traversant les horreurs de la guerre pour terminer dans un lieu de compréhension froide et atroce. Il est attendu des chevaliers qu'ils gardent une copie du code sur eux en toute circonstance Les suivants de la Voie de l'Accord Honorable sont extrêmement respectueux de la loi et suivent un code de commandement de trois préceptes : la Tour du Devoir, la Tour de l'Honneur et la Tour du Courage. Ils tordent ces règles à leur propre avantage en les utilisant pour empêtrer (et détruire) les autres dès que possible. Malgré le nom, ces Vampires ne sont pas honorables. Bien qu'ils soient souvent vertueux, ils ne sont en aucun cas bons.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Un tel vampire incarne la cruauté, l'intolérance, la tyrannie et l'autoritarisme absolu. En s'accrochant à ses lois, un adhérent à l'Accord Honorable cherche à s'améliorer - et à gouverner les autres. Un adepte de la Voie de l'Accord Honorable adhère rigoureusement aux lois de sa société, telles que les Traditions de la Camarilla, le Code de Milan du Sabbat, etc. Ainsi qu'aux commandements ou restrictions imposés à lui par un dirigeant dans cette société, comme les consignes d'un Prince ou les édits du Régent. Cette Voie n'est pas un code d'honneur. C'est l'obéissance absolue, sans équivoque et inflexible à l’État de droit, même lorsque ces lois sont intrinsèquement injustes.",
+              "spans": [
+                {
+                  "text": "Un tel vampire incarne la cruauté, l'intolérance, la tyrannie et l'autoritarisme absolu. En s'accrochant à ses lois, un adhérent à l'Accord Honorable cherche à s'améliorer - et à gouverner les autres. Un adepte de la Voie de l'Accord Honorable adhère rigoureusement aux lois de sa société, telles que les Traditions de la Camarilla, le Code de Milan du Sabbat, etc. Ainsi qu'aux commandements ou restrictions imposés à lui par un dirigeant dans cette société, comme les consignes d'un Prince ou les édits du Régent. Cette Voie n'est pas un code d'honneur. C'est l'obéissance absolue, sans équivoque et inflexible à l’État de droit, même lorsque ces lois sont intrinsèquement injustes.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les chevaliers n'ont aucun sens du pardon, émotions ni même d'intérêt autre que l'adhérence à la lettre absolue à leurs règles. Ils font attention à leurs mots parce que c'est un contrat, pas parce qu'ils ont un engagement émotionnel ; ils lient leur santé mentale au fait qu'une alliance, une fois faite, doit être obéie. Les émotions, la compassion, l'éthique et la morale n'ont aucun sens. Alors qu'un autre individu peut épargner quelqu'un qui a enfreint la loi par nécessité absolue, un adepte de cette voie n'a pas de pitié, aucune vertu et absolument aucun sens de l'équité. Il a la loi, et la loi est tout.",
+              "spans": [
+                {
+                  "text": "Les chevaliers n'ont aucun sens du pardon, émotions ni même d'intérêt autre que l'adhérence à la lettre absolue à leurs règles. Ils font attention à leurs mots parce que c'est un contrat, pas parce qu'ils ont un engagement émotionnel ; ils lient leur santé mentale au fait qu'une alliance, une fois faite, doit être obéie. Les émotions, la compassion, l'éthique et la morale n'ont aucun sens. Alors qu'un autre individu peut épargner quelqu'un qui a enfreint la loi par nécessité absolue, un adepte de cette voie n'a pas de pitié, aucune vertu et absolument aucun sens de l'équité. Il a la loi, et la loi est tout.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, aussi longtemps que vous commettez ce péché en suivant la lettre absolue de la loi. Si vous laissez volontairement passer une occasion de profiter d'une faille dans les règles, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous contrevenez volontairement à la loi, désobéissez à un ordre d'un supérieur hiérarchique, enfreignez votre parole, privilégiez des préoccupations personnelles par rapport au devoir, ou ne punissez pas sévèrement un transgresseur contre la loi, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, aussi longtemps que vous commettez ce péché en suivant la lettre absolue de la loi. Si vous laissez volontairement passer une occasion de profiter d'une faille dans les règles, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous contrevenez volontairement à la loi, désobéissez à un ordre d'un supérieur hiérarchique, enfreignez votre parole, privilégiez des préoccupations personnelles par rapport au devoir, ou ne punissez pas sévèrement un transgresseur contre la loi, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Chevaliers”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Chevaliers”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de l'Accord Honorable",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de Caïn",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de la Voie de Caïn sont des occultistes fanatiques, des experts en légendes, des historiens, obsédés par l’étude de Caïn et le mythe d'Enoch, la première cité. Ils recherchent les signes de la Géhenne et les révélations prédisant le retour de Caïn. En toute chose, ils acceptent leur nature Vampirique, refusant tout ce qui les forcerait à traiter avec l'Humanité ou à agir de manière humaine. Les préceptes fondateurs de cette Voie incluent la méditation et l'introspection, en parallèle d'une totale application à purger ses derniers vestiges d'humanité. Il est impératif que les individus sur la Voie de Caïn connaissent bien les mythes et l'histoire de Caïn et d’Enoch ; les personnages souhaitant poursuivre cette Voie devraient avoir un point en Mystères avec une spécialisation sur le Livre de Nod.",
+              "spans": [
+                {
+                  "text": "Les adeptes de la Voie de Caïn sont des occultistes fanatiques, des experts en légendes, des historiens, obsédés par l’étude de Caïn et le mythe d'Enoch, la première cité. Ils recherchent les signes de la Géhenne et les révélations prédisant le retour de Caïn. En toute chose, ils acceptent leur nature Vampirique, refusant tout ce qui les forcerait à traiter avec l'Humanité ou à agir de manière humaine. Les préceptes fondateurs de cette Voie incluent la méditation et l'introspection, en parallèle d'une totale application à purger ses derniers vestiges d'humanité. Il est impératif que les individus sur la Voie de Caïn connaissent bien les mythes et l'histoire de Caïn et d’Enoch ; les personnages souhaitant poursuivre cette Voie devraient avoir un point en Mystères avec une spécialisation sur le Livre de Nod.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant les Lois de Caïn telles qu'exprimées dans le Livre de Nod, ou lorsque vous obtenez des savoirs occultes. Si vous ignorez volontairement une opportunité d'étudier un savoir occulte, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement de façon humaine, interagissez avec les mortels autrement que tel du bétail, ou reniez vos besoins vampiriques, alors vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant les Lois de Caïn telles qu'exprimées dans le Livre de Nod, ou lorsque vous obtenez des savoirs occultes. Si vous ignorez volontairement une opportunité d'étudier un savoir occulte, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement de façon humaine, interagissez avec les mortels autrement que tel du bétail, ou reniez vos besoins vampiriques, alors vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de cette Voie sont appelés “Noddistes”.",
+              "spans": [
+                {
+                  "text": "Les adeptes de cette Voie sont appelés “Noddistes”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de Caïn",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Cathares",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La voie des Cathares dérive de l'hérésie Albigeoise (Cathare) du Moyen-âge, qui enseignait que Dieu est dualiste de nature. Ses adeptes croient que Dieu créa à la fois la Lumière (le Bien) et l'Obscurité (le Mal) ; Ils ont défini le bien comme spirituel et lié à l'âme et le mal comme le monde matériel dans lequel les âmes sont tentées et testées. Croyants en la réincarnation, les Albigeois croient que les Humains doivent être testés durant leur temps sur Terre et que les vampires se doivent d'accomplir ce devoir. Les suivants de cette Voie croient que Caïn donna à ses infants les moyens de régner sur le monde inique et de tester ses résidents mortels afin de voir s'ils méritent le répit. Ceux qui suivent la Voie des Cathares tentent les humains et les non-sabbatiques, séduisant par leur dépravation sexuelle, leur assurance et la décadence, autant que par des exutoires plus spirituels, essayant de devenir une créature sombre et inhumaine entièrement dévouée à son rôle vampirique",
+              "spans": [
+                {
+                  "text": "La voie des Cathares dérive de l'hérésie Albigeoise (Cathare) du Moyen-âge, qui enseignait que Dieu est dualiste de nature. Ses adeptes croient que Dieu créa à la fois la Lumière (le Bien) et l'Obscurité (le Mal) ; Ils ont défini le bien comme spirituel et lié à l'âme et le mal comme le monde matériel dans lequel les âmes sont tentées et testées. Croyants en la réincarnation, les Albigeois croient que les Humains doivent être testés durant leur temps sur Terre et que les vampires se doivent d'accomplir ce devoir. Les suivants de cette Voie croient que Caïn donna à ses infants les moyens de régner sur le monde inique et de tester ses résidents mortels afin de voir s'ils méritent le répit. Ceux qui suivent la Voie des Cathares tentent les humains et les non-sabbatiques, séduisant par leur dépravation sexuelle, leur assurance et la décadence, autant que par des exutoires plus spirituels, essayant de devenir une créature sombre et inhumaine entièrement dévouée à son rôle vampirique",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en amenant autrui à se livrer à ses plus bas instincts ou à se livrer à un nouveau vice encore inédit. Si vous permettez volontairement à quelqu'un d'autre de rester pur, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous tuez volontairement plutôt que de provoquer quelqu'un à s'interroger sur sa propre moralité ou vertu, encouragez autrui à faire preuve de retenue, ou niez vos propres vices, vous gagnez des traits de la Bête comme si vous vous commettiez un pêché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en amenant autrui à se livrer à ses plus bas instincts ou à se livrer à un nouveau vice encore inédit. Si vous permettez volontairement à quelqu'un d'autre de rester pur, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous tuez volontairement plutôt que de provoquer quelqu'un à s'interroger sur sa propre moralité ou vertu, encouragez autrui à faire preuve de retenue, ou niez vos propres vices, vous gagnez des traits de la Bête comme si vous vous commettiez un pêché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Albigeois”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Albigeois”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie des Cathares",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Chevalerie",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les Vampires ont créé la Voie de la Chevalerie durant le Moyen-âge, où l'honneur et la noblesse étaient des concepts plus tangibles que lors des nuits modernes. Depuis, des variations ont aussi été créées, telle la Voie de la Seigneurie ou la Voie des Rois. Ceux qui suivent cette Voie croient qu'ils sont des êtres supérieurs, un pinacle au-dessus des autres vampires, et beaucoup plus nobles que les simples humains. Ils affirment que les vampires sont nés pour régner sur l'humanité comme les hommes règnent sur les animaux.",
+              "spans": [
+                {
+                  "text": "Les Vampires ont créé la Voie de la Chevalerie durant le Moyen-âge, où l'honneur et la noblesse étaient des concepts plus tangibles que lors des nuits modernes. Depuis, des variations ont aussi été créées, telle la Voie de la Seigneurie ou la Voie des Rois. Ceux qui suivent cette Voie croient qu'ils sont des êtres supérieurs, un pinacle au-dessus des autres vampires, et beaucoup plus nobles que les simples humains. Ils affirment que les vampires sont nés pour régner sur l'humanité comme les hommes règnent sur les animaux.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en protégeant l’innocent ou en soutenant les vertus cardinales : charité, justice, tempérance et courage. Si vous attaquez un adversaire désarmé, manquez de respect à un supérieur, ou échouez à offrir l'hospitalité à quelqu'un dans le besoin, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous manquez à votre devoir, racontez un mensonge, ou montrez de la peur ou de la couardise, vous gagnez des traits de la Bête comme si vous vous commettiez un péché de niveau 4. C'est une ancienne Voie, précédant la plupart des autres.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en protégeant l’innocent ou en soutenant les vertus cardinales : charité, justice, tempérance et courage. Si vous attaquez un adversaire désarmé, manquez de respect à un supérieur, ou échouez à offrir l'hospitalité à quelqu'un dans le besoin, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous manquez à votre devoir, racontez un mensonge, ou montrez de la peur ou de la couardise, vous gagnez des traits de la Bête comme si vous vous commettiez un péché de niveau 4. C'est une ancienne Voie, précédant la plupart des autres.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Héritiers”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Héritiers”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de la Chevalerie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Cieux",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "D'après le mythe, les vampires sont des êtres maudits, créés lorsque Caïn tua son frère et défia les lois de Dieu. Certains acceptent ce fardeau et choisissent d'embrasser les ténèbres et le Mal. D'autres le voient comme un défi, luttant pour le salut et cherchant le pardon de Dieu non seulement pour leurs propres péchés, mais aussi pour ceux de Caïn. Les fidèles de la voie des Cieux voient la Bête comme un tentateur, une incarnation du Mal qui cherche à les attirer vers l'Enfer. Ils se tournent vers la religion - le Christianisme, le Judaïsme, l'Islam, le Bouddhisme ou autres institutions - pour les guider vers la paix éternelle. Beaucoup d'adeptes sont des prêtres, s'efforçant d'inspirer chez les autres l'espoir que Dieu n'a pas réellement abandonné la race vampirique.",
+              "spans": [
+                {
+                  "text": "D'après le mythe, les vampires sont des êtres maudits, créés lorsque Caïn tua son frère et défia les lois de Dieu. Certains acceptent ce fardeau et choisissent d'embrasser les ténèbres et le Mal. D'autres le voient comme un défi, luttant pour le salut et cherchant le pardon de Dieu non seulement pour leurs propres péchés, mais aussi pour ceux de Caïn. Les fidèles de la voie des Cieux voient la Bête comme un tentateur, une incarnation du Mal qui cherche à les attirer vers l'Enfer. Ils se tournent vers la religion - le Christianisme, le Judaïsme, l'Islam, le Bouddhisme ou autres institutions - pour les guider vers la paix éternelle. Beaucoup d'adeptes sont des prêtres, s'efforçant d'inspirer chez les autres l'espoir que Dieu n'a pas réellement abandonné la race vampirique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant activement les préceptes et commandements de votre Foi. Si vous commettez un péché contre votre Foi, échouez à prêcher votre Foi, ou échouez à vous prononcer contre la corruption et le péché tels que définis par votre Foi, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous permettez à quiconque de transgresser ces préceptes sans être puni, assassiner des innocents ou aider l'infernal (sciemment ou non), vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant activement les préceptes et commandements de votre Foi. Si vous commettez un péché contre votre Foi, échouez à prêcher votre Foi, ou échouez à vous prononcer contre la corruption et le péché tels que définis par votre Foi, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous permettez à quiconque de transgresser ces préceptes sans être puni, assassiner des innocents ou aider l'infernal (sciemment ou non), vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Fidèles”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Fidèles”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie des Cieux",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Coeur Écorché",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les adhérents de la Voie du Cœur Écorché croient que la Bête ne peut être contrôlée que par l'éradication systématique de chaque émotion. Ils admettent que le cœur est une faiblesse à l'état vampirique ; Il aurait dû mourir avec le reste de sa chair mortelle. Tous les mensonges et les faiblesses sont le produit des émotions et on ne peut atteindre la vérité qu'à travers la logique froide et l'érudition contrôlée. Le cœur ne doit pas être autorisé à gouverner les actions. La seule façon de vaincre la Bête est de transformer son cœur en cendres métaphoriques. Bien que les Phéniciens reconnaissent une distinction grossière entre les concepts de bien et de mal, ils ne voient que des avantages dans la pratique. Les disciples de cette voie considèrent la plupart des vampires comme des faibles, des simplistes émotionnels et les Phéniciens s'efforcent d'utiliser ces faiblesses contre leurs ennemis.",
+              "spans": [
+                {
+                  "text": "Les adhérents de la Voie du Cœur Écorché croient que la Bête ne peut être contrôlée que par l'éradication systématique de chaque émotion. Ils admettent que le cœur est une faiblesse à l'état vampirique ; Il aurait dû mourir avec le reste de sa chair mortelle. Tous les mensonges et les faiblesses sont le produit des émotions et on ne peut atteindre la vérité qu'à travers la logique froide et l'érudition contrôlée. Le cœur ne doit pas être autorisé à gouverner les actions. La seule façon de vaincre la Bête est de transformer son cœur en cendres métaphoriques. Bien que les Phéniciens reconnaissent une distinction grossière entre les concepts de bien et de mal, ils ne voient que des avantages dans la pratique. Les disciples de cette voie considèrent la plupart des vampires comme des faibles, des simplistes émotionnels et les Phéniciens s'efforcent d'utiliser ces faiblesses contre leurs ennemis.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez pleinement ce péché sans sentiment ou raisonnement émotionnel. Si vous placez les besoins d'autrui au-dessus des vôtres, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 1. Si vous agissez sous le coup de l'émotion, montrez de la confiance dans un autre, ou ne parvenez pas à appliquer la logique dans une crise, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez pleinement ce péché sans sentiment ou raisonnement émotionnel. Si vous placez les besoins d'autrui au-dessus des vôtres, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 1. Si vous agissez sous le coup de l'émotion, montrez de la confiance dans un autre, ou ne parvenez pas à appliquer la logique dans une crise, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Phéniciens”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Phéniciens”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Coeur Écorché",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Cœur Sauvage",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les vampires sont les prédateurs ultimes et ceux qui suivent la Voie du Cœur Sauvage embrassent leur nature animale, prédatrice. Barbares et sauvages, ils aiguisent leurs instincts et acceptent les pulsions bestiales qui accompagnent la nature vampirique. Un adepte de cette voie ressent la Bête comme une part naturelle de son existence, que le vampire devrait apprendre à accepter, et qu'il devrait même encourager ses fourbes et vicieux instincts. Ces vampires ont peu d’intérêt pour la civilisation, l'éducation, ou la technologie. Ils ne s'occupent pas de politique et passent leur existence à activement s'abstenir de tout ce qui pourrait s'immiscer entre eux et leur nature animale.",
+              "spans": [
+                {
+                  "text": "Les vampires sont les prédateurs ultimes et ceux qui suivent la Voie du Cœur Sauvage embrassent leur nature animale, prédatrice. Barbares et sauvages, ils aiguisent leurs instincts et acceptent les pulsions bestiales qui accompagnent la nature vampirique. Un adepte de cette voie ressent la Bête comme une part naturelle de son existence, que le vampire devrait apprendre à accepter, et qu'il devrait même encourager ses fourbes et vicieux instincts. Ces vampires ont peu d’intérêt pour la civilisation, l'éducation, ou la technologie. Ils ne s'occupent pas de politique et passent leur existence à activement s'abstenir de tout ce qui pourrait s'immiscer entre eux et leur nature animale.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant activement vos envies primitives ou en chassant votre proie. Si vous utilisez de la technologie ou participez à de la politique, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous faites preuve de peur ou de pitié, abandonnez une chasse, ou tuez hors de cette chasse, vous gagnez des traits de la Bête comme si commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en suivant activement vos envies primitives ou en chassant votre proie. Si vous utilisez de la technologie ou participez à de la politique, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous faites preuve de peur ou de pitié, abandonnez une chasse, ou tuez hors de cette chasse, vous gagnez des traits de la Bête comme si commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Bêtes”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Bêtes”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Cœur Sauvage",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l’Entéléchie",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La Voie de l’Entéléchie embrase l’ancien idéal de clan Brujah, autrement dit le besoin de protéger ce qui reste d’humanité dans chacun des vampires.",
+              "spans": [
+                {
+                  "text": "La Voie de l’Entéléchie embrase l’ancien idéal de clan Brujah, autrement dit le besoin de protéger ce qui reste d’humanité dans chacun des vampires.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Cette voie reconnait trois vérités : Enkratia, la Force Intérieure, Reie, le Courage et Saphrosyne, la Tempérance. En maîtrisant ces trois vérités, un Philosophe cherche à atteindre l’Entéléchie, un état de perfection personnelle. La luxure, la faim et les passions nourrissent la Bête et peuvent faire plonger dans un état de frénésie incontrôlée. La Bête n’est pas un élément naturel d’une personne, et ne doit donc pas être autorisée à influencer les actions d’un Vampire.",
+              "spans": [
+                {
+                  "text": "Cette voie reconnait trois vérités : Enkratia, la Force Intérieure, Reie, le Courage et Saphrosyne, la Tempérance. En maîtrisant ces trois vérités, un Philosophe cherche à atteindre l’Entéléchie, un état de perfection personnelle. La luxure, la faim et les passions nourrissent la Bête et peuvent faire plonger dans un état de frénésie incontrôlée. La Bête n’est pas un élément naturel d’une personne, et ne doit donc pas être autorisée à influencer les actions d’un Vampire.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adhérents à cette vois cherche constamment à se tester et à tester les autres pour résister aux pulsions qui peuvent faire agir leur Bête. Aider les autres à contrôler leur impulsion permet aux adhérents d’apprendre à mieux se contrôler. Ceux qui infligent de la douleur, ou qui succombent aux désirs de leur bête doivent être disciplinés. Autoriser de tels comportements sans punition est permettre à la Bête de grandir, et ne rien faire revient au même que si l’adhérent lui-même avait commis le crime.",
+              "spans": [
+                {
+                  "text": "Les adhérents à cette vois cherche constamment à se tester et à tester les autres pour résister aux pulsions qui peuvent faire agir leur Bête. Aider les autres à contrôler leur impulsion permet aux adhérents d’apprendre à mieux se contrôler. Ceux qui infligent de la douleur, ou qui succombent aux désirs de leur bête doivent être disciplinés. Autoriser de tels comportements sans punition est permettre à la Bête de grandir, et ne rien faire revient au même que si l’adhérent lui-même avait commis le crime.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché dans la mesure où ce péché permet d’apprendre sur vous-même ou peut mener les autres dans la quête d’un accomplissement plus grand. Si vous agissez sous une pulsion, commettez un vol, un saccage ou un acte de vandalisme, ou causez délibérément de la douleur à un mortel, vous gagnez des traits de Bête comme si vous aviez commis un péché de rang 1. Si vous autorisez les autres à succomber à leur bête, tuez un innocent ou autoriser un crime à être commis sans être puni, vous gagnez des traits de Bête comme si vous aviez commis un crime de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché dans la mesure où ce péché permet d’apprendre sur vous-même ou peut mener les autres dans la quête d’un accomplissement plus grand. Si vous agissez sous une pulsion, commettez un vol, un saccage ou un acte de vandalisme, ou causez délibérément de la douleur à un mortel, vous gagnez des traits de Bête comme si vous aviez commis un péché de rang 1. Si vous autorisez les autres à succomber à leur bête, tuez un innocent ou autoriser un crime à être commis sans être puni, vous gagnez des traits de Bête comme si vous aviez commis un crime de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Les Philosophes”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Les Philosophes”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du Clan Brujah et les lignées associées peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du Clan Brujah et les lignées associées peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de l’Entéléchie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Extase",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les pratiquants de cette voie se délectent dans la Luxure plutôt que dans la déchéance. Ils apaisent la Bête en rassasiant son appétit. Ils glorifient le plaisir, se délectant dans les extrêmes les plus décadents des sensations vampiriques. Les Disciples de Set ont créé initialement la Voie de l'Extase, car ils voient le plaisir comme un moyen de vénérer leur Antédiluvien et cette voie est inextricablement liée à la vénération de Set. Les adeptes de la Voie de l'Extase croient que la poursuite du plaisir est un engagement spirituel. Ceux qui rejettent la luxure et l’hédonisme sont dévoyés et doivent être éduqués ou contraints. Résister à la tentation c'est défier l'essence même de sa nature vampirique.",
+              "spans": [
+                {
+                  "text": "Les pratiquants de cette voie se délectent dans la Luxure plutôt que dans la déchéance. Ils apaisent la Bête en rassasiant son appétit. Ils glorifient le plaisir, se délectant dans les extrêmes les plus décadents des sensations vampiriques. Les Disciples de Set ont créé initialement la Voie de l'Extase, car ils voient le plaisir comme un moyen de vénérer leur Antédiluvien et cette voie est inextricablement liée à la vénération de Set. Les adeptes de la Voie de l'Extase croient que la poursuite du plaisir est un engagement spirituel. Ceux qui rejettent la luxure et l’hédonisme sont dévoyés et doivent être éduqués ou contraints. Résister à la tentation c'est défier l'essence même de sa nature vampirique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en pratiquant activement un plaisir hédoniste ou forçant quelqu'un d'autre à faire la même chose. Si vous ignorez volontairement une opportunité d'expérimenter une nouvelle sensation, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous montez volontairement du regret ou remord pour votre dépravation, ou permettez à un innocent de partir non souiller, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en pratiquant activement un plaisir hédoniste ou forçant quelqu'un d'autre à faire la même chose. Si vous ignorez volontairement une opportunité d'expérimenter une nouvelle sensation, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous montez volontairement du regret ou remord pour votre dépravation, ou permettez à un innocent de partir non souiller, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de cette Voie sont appelés “Astartites”.",
+              "spans": [
+                {
+                  "text": "Les adeptes de cette Voie sont appelés “Astartites”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du Clan Sétite peuvent acheter cet atout pour 2 points d’atout, au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du Clan Sétite peuvent acheter cet atout pour 2 points d’atout, au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de l'Extase",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de l'Harmonie",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La Voie de l'Harmonie est une Voie plus douce que la majorité des autres voies, épousant la nature animale du vampirisme - mais ses adeptes poursuivent un équilibre avec cette nature, plutôt qu'une domination totale. Ils tentent d'obtenir un équilibre entre l'intellect et les émotions de l'Humanité face à l'instinct et la sauvagerie de la Bête : l'équilibre du prédateur et de la proie. Un tel équilibre est extrêmement difficile à atteindre et bouleverser l'équilibre naturel -d'un vampire et de son environnement- va à l'encontre de ce code moral.",
+              "spans": [
+                {
+                  "text": "La Voie de l'Harmonie est une Voie plus douce que la majorité des autres voies, épousant la nature animale du vampirisme - mais ses adeptes poursuivent un équilibre avec cette nature, plutôt qu'une domination totale. Ils tentent d'obtenir un équilibre entre l'intellect et les émotions de l'Humanité face à l'instinct et la sauvagerie de la Bête : l'équilibre du prédateur et de la proie. Un tel équilibre est extrêmement difficile à atteindre et bouleverser l'équilibre naturel -d'un vampire et de son environnement- va à l'encontre de ce code moral.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en commettant un péché, tant que vous le commettez en essayant activement d'équilibrer votre nature. Si vous agissez de manière extrêmement émotionnelle ou extrêmement instinctivement, vous gagnez des traits de la Bête comme si vous commettez un péché de niveau 1. Si vous résistez volontairement à la frénésie, tuez sans autre raison que votre survie, ou ignorez vos besoins vampiriques pour le sang et la sécurité, vous gagnez des traits de la Bête comme si vous commettez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en commettant un péché, tant que vous le commettez en essayant activement d'équilibrer votre nature. Si vous agissez de manière extrêmement émotionnelle ou extrêmement instinctivement, vous gagnez des traits de la Bête comme si vous commettez un péché de niveau 1. Si vous résistez volontairement à la frénésie, tuez sans autre raison que votre survie, ou ignorez vos besoins vampiriques pour le sang et la sécurité, vous gagnez des traits de la Bête comme si vous commettez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de cette voie sont appelés “Harmonistes”.",
+              "spans": [
+                {
+                  "text": "Les adeptes de cette voie sont appelés “Harmonistes”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de l'Harmonie",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de Lilith",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La Voie de Lilith raconte que la première femme créée par Dieu n'était pas la gentille et soumise Eve ; C'était l'impétueuse, avisée et exigeante Lilith. Pour avoir insisté sur l'égalité avec Adam, elle fut chassée du Jardin d'Eden. Les adeptes de cette Voie vénèrent Lilith, tentant de suivre ses traces et d'apprendre de son exemple. Ils recherchent la sagesse au travers de la souffrance et du conflit et prônent la supériorité de Lilith sur Caïn. Évidemment, parce que cette Voie vénère Lilith à la place de Caïn, elle est à la limite de l'hérésie au sein du Sabbat. Parce que ces adeptes embrassent ouvertement la vénération d'une ancienne et les contes du Livre de Nod, la Camarilla les considère comme hérétiques également. Les adeptes de la Voie de Lilith sont bien avisés de se cacher, de crainte d'être détruits.",
+              "spans": [
+                {
+                  "text": "La Voie de Lilith raconte que la première femme créée par Dieu n'était pas la gentille et soumise Eve ; C'était l'impétueuse, avisée et exigeante Lilith. Pour avoir insisté sur l'égalité avec Adam, elle fut chassée du Jardin d'Eden. Les adeptes de cette Voie vénèrent Lilith, tentant de suivre ses traces et d'apprendre de son exemple. Ils recherchent la sagesse au travers de la souffrance et du conflit et prônent la supériorité de Lilith sur Caïn. Évidemment, parce que cette Voie vénère Lilith à la place de Caïn, elle est à la limite de l'hérésie au sein du Sabbat. Parce que ces adeptes embrassent ouvertement la vénération d'une ancienne et les contes du Livre de Nod, la Camarilla les considère comme hérétiques également. Les adeptes de la Voie de Lilith sont bien avisés de se cacher, de crainte d'être détruits.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en recherchant l'illumination ou la connaissance au travers de la souffrance. Si vous ignorez volontairement une opportunité de faire souffrir quelqu'un d'autre qui pourrait faire gagner du savoir ou permettre d'apprendre une leçon douloureusement, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous niez volontairement la supériorité de Lilith, vous appuyez sur autrui, ou ressentez des remords pour un individu qui souffre (ou a souffert), vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en recherchant l'illumination ou la connaissance au travers de la souffrance. Si vous ignorez volontairement une opportunité de faire souffrir quelqu'un d'autre qui pourrait faire gagner du savoir ou permettre d'apprendre une leçon douloureusement, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous niez volontairement la supériorité de Lilith, vous appuyez sur autrui, ou ressentez des remords pour un individu qui souffre (ou a souffert), vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de cette Voie sont appelés “Bahari”.",
+              "spans": [
+                {
+                  "text": "Les adeptes de cette Voie sont appelés “Bahari”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de Lilith",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Métamorphoses",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les adhérents de la Voie des Métamorphoses sont des créatures étranges et extraterrestres qui tentent de détruire toute caractéristique humaine reconnaissable en eux-mêmes, et veulent se transformer en quelque chose de plus profond. De toute les Voies, celle-ci est certainement la plus inhumaine, car ses disciples dédaignent et sont activement révulsés par tout ce qui concerne l'humain, l'humanité ou la condition humaine. Ces vampires sont froids, complètement inhumains et exactement scientifiques. Certains disent qu'ils sont solitaires, mais il est plus exact de dire qu'ils sont plus intéressés par la recherche et l'expérimentation que par la participation et l'exploration. Ce sont des scientifiques, mais ils sont aussi spiritualistes, se concentrant sur l'obtention d'un état d'être plus parfait. Un chercheur élimine d'abord les frontières de genre et physiques, puis travaille à réviser les contraintes mentales et sociales personnelles jusqu'à ce qu'il ne soit plus humainement reconnaissable. Cette voie a été développée et est pratiquée principalement par le Clan Tzimisce, mais d'autres vampires, notamment les Gangrel, se sont également retrouvés à suivre cette Voie.",
+              "spans": [
+                {
+                  "text": "Les adhérents de la Voie des Métamorphoses sont des créatures étranges et extraterrestres qui tentent de détruire toute caractéristique humaine reconnaissable en eux-mêmes, et veulent se transformer en quelque chose de plus profond. De toute les Voies, celle-ci est certainement la plus inhumaine, car ses disciples dédaignent et sont activement révulsés par tout ce qui concerne l'humain, l'humanité ou la condition humaine. Ces vampires sont froids, complètement inhumains et exactement scientifiques. Certains disent qu'ils sont solitaires, mais il est plus exact de dire qu'ils sont plus intéressés par la recherche et l'expérimentation que par la participation et l'exploration. Ce sont des scientifiques, mais ils sont aussi spiritualistes, se concentrant sur l'obtention d'un état d'être plus parfait. Un chercheur élimine d'abord les frontières de genre et physiques, puis travaille à réviser les contraintes mentales et sociales personnelles jusqu'à ce qu'il ne soit plus humainement reconnaissable. Cette voie a été développée et est pratiquée principalement par le Clan Tzimisce, mais d'autres vampires, notamment les Gangrel, se sont également retrouvés à suivre cette Voie.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête quand vous commettez un péché, aussi longtemps que vous commettez ce péché en effectuant une expérience scientifique ou en essayant activement de transformer votre chrysalide en quelque chose de nouveau. Si vous partagez volontairement des connaissances sans aucun bénéfice, vous gagnez des traits de la Bête comme si vous aviez commis un péché de niveau 1. Si vous ignorez une occasion de vous améliorer, de chercher l'apothéose ou d'effectuer une nouvelle expérience, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête quand vous commettez un péché, aussi longtemps que vous commettez ce péché en effectuant une expérience scientifique ou en essayant activement de transformer votre chrysalide en quelque chose de nouveau. Si vous partagez volontairement des connaissances sans aucun bénéfice, vous gagnez des traits de la Bête comme si vous aviez commis un péché de niveau 1. Si vous ignorez une occasion de vous améliorer, de chercher l'apothéose ou d'effectuer une nouvelle expérience, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Chercheurs”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Chercheurs”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du clan Tzimisce peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du clan Tzimisce peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie des Métamorphoses",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Mort et de l'Âme",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La Voie de la Mort et de l'Âme (aussi appelée Voie des Ossements) est dévouée à comprendre la nature de l'âme immortelle et à décrypter les mystères de la mort. Ses adeptes tentent d'en apprendre autant que possible sur le monde spirituel, dans le but de comprendre le sens de la vie, de la mort et de la non-mort. Ils croient que l'âme est stable et éternelle, subissant sans cesse un cycle de mort et de renaissance - un cycle auquel les vampires ont d'une façon ou d'un autre, inexplicablement, échappé. Pour comprendre la mort, ils doivent se priver des ornements de la vie.",
+              "spans": [
+                {
+                  "text": "La Voie de la Mort et de l'Âme (aussi appelée Voie des Ossements) est dévouée à comprendre la nature de l'âme immortelle et à décrypter les mystères de la mort. Ses adeptes tentent d'en apprendre autant que possible sur le monde spirituel, dans le but de comprendre le sens de la vie, de la mort et de la non-mort. Ils croient que l'âme est stable et éternelle, subissant sans cesse un cycle de mort et de renaissance - un cycle auquel les vampires ont d'une façon ou d'un autre, inexplicablement, échappé. Pour comprendre la mort, ils doivent se priver des ornements de la vie.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "L'émotion est l’ennemie de la logique. La mort n'a pas à être crainte.",
+              "spans": [
+                {
+                  "text": "L'émotion est l’ennemie de la logique. La mort n'a pas à être crainte.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en recherchant activement à comprendre les mystères de la mort ou de la nature de l'âme. Si vous ignorez volontairement une opportunité d'étudier la mort, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement par émotion, ou montrez des regrets, du remord, ou de l'empathie, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en recherchant activement à comprendre les mystères de la mort ou de la nature de l'âme. Si vous ignorez volontairement une opportunité d'étudier la mort, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement par émotion, ou montrez des regrets, du remord, ou de l'empathie, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Cette voie est aussi appelée Voie des Ossements et ses adeptes sont appelés “Fossoyeurs”.",
+              "spans": [
+                {
+                  "text": "Cette voie est aussi appelée Voie des Ossements et ses adeptes sont appelés “Fossoyeurs”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du Clan Giovanni peuvent prendre cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du Clan Giovanni peuvent prendre cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de la Mort et de l'Âme",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Nuit",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les vampires qui suivent la Voie de la Nuit embrassent un sombre et déterministe point de vue sur leur état de Damnés. Ils croient que les Vampires doivent tourmenter tous les agents du bien, promouvoir le mal et souiller toute innocence dans la mesure du possible. Leur intention est de rappeler à l'humanité qu'elle devrait avoir peur du vice et des créatures qui arpentent la nuit. Certains pratiquants de la Voie de la Nuit sont motivés par une ferveur religieuse, tandis que d'autre sont sincèrement nihilistes dans leur vision du bien et du mal. Quelques-uns vont même jusqu'à exécrer totalement le contact avec la lumière, se masquant de tissus ou d'ombres et même s'arrachant les yeux pour ne faire plus qu'un avec l'obscurité.",
+              "spans": [
+                {
+                  "text": "Les vampires qui suivent la Voie de la Nuit embrassent un sombre et déterministe point de vue sur leur état de Damnés. Ils croient que les Vampires doivent tourmenter tous les agents du bien, promouvoir le mal et souiller toute innocence dans la mesure du possible. Leur intention est de rappeler à l'humanité qu'elle devrait avoir peur du vice et des créatures qui arpentent la nuit. Certains pratiquants de la Voie de la Nuit sont motivés par une ferveur religieuse, tandis que d'autre sont sincèrement nihilistes dans leur vision du bien et du mal. Quelques-uns vont même jusqu'à exécrer totalement le contact avec la lumière, se masquant de tissus ou d'ombres et même s'arrachant les yeux pour ne faire plus qu'un avec l'obscurité.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en essayant de choquer autrui par votre malfaisance, en sapant l’autorité d'un autre, ou en transgressant de manière significative les ordres de quelqu'un qui pense être en charge de vous. Si vous négligez volontairement d'agir lors d'une opportunité pour répandre le Mal, de tenter autrui à la damnation, ou de terrifier l'incrédule, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous suivez volontairement les ordres d'un autre personnage, que vous vous repentez de votre malfaisance, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4. Cet Atout englobe tous les variantes roleplay de la Voie de la Nuit, incluant le la Voie de la Juste Nuit, des Alliés de la Nuit, etc.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en réalisant un péché, tant que vous le commettez en essayant de choquer autrui par votre malfaisance, en sapant l’autorité d'un autre, ou en transgressant de manière significative les ordres de quelqu'un qui pense être en charge de vous. Si vous négligez volontairement d'agir lors d'une opportunité pour répandre le Mal, de tenter autrui à la damnation, ou de terrifier l'incrédule, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous suivez volontairement les ordres d'un autre personnage, que vous vous repentez de votre malfaisance, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4. Cet Atout englobe tous les variantes roleplay de la Voie de la Nuit, incluant le la Voie de la Juste Nuit, des Alliés de la Nuit, etc.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les adeptes de cette Voie sont appelés “Nihilistes”.",
+              "spans": [
+                {
+                  "text": "Les adeptes de cette Voie sont appelés “Nihilistes”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres Sabbatique du clan Lasombra peuvent acheter cet atout pour 1 point d’atout au lieu de 3 tandis que les autres membres du clan peuvent l’acheter pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres Sabbatique du clan Lasombra peuvent acheter cet atout pour 1 point d’atout au lieu de 3 tandis que les autres membres du clan peuvent l’acheter pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de la Nuit",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie d'Orion",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Pour les vampires sur la Voie d'Orion, la nature humaine et la Bête de chacun sont des obstacles à la progression. L'espèce dans son ensemble ne progressera, disent-ils, que lorsque les vampires acceptent leur destin en tant que chasseurs, détruisant l'homme et la Bête de la même façon. Pour ces individus, l'existence des morts-vivants est une quête pour trouver et surmonter les plus grands défis, les ennemis les plus dangereux et finalement, se trouver soi-même. En faisant face et en détruisant les combattants les plus forts, un disciple de la Voie d'Orion trouve la purification. Ils savent qu'ils doivent non seulement vaincre leur propre Bête, mais aussi les Bêtes de tous les vampires.",
+              "spans": [
+                {
+                  "text": "Pour les vampires sur la Voie d'Orion, la nature humaine et la Bête de chacun sont des obstacles à la progression. L'espèce dans son ensemble ne progressera, disent-ils, que lorsque les vampires acceptent leur destin en tant que chasseurs, détruisant l'homme et la Bête de la même façon. Pour ces individus, l'existence des morts-vivants est une quête pour trouver et surmonter les plus grands défis, les ennemis les plus dangereux et finalement, se trouver soi-même. En faisant face et en détruisant les combattants les plus forts, un disciple de la Voie d'Orion trouve la purification. Ils savent qu'ils doivent non seulement vaincre leur propre Bête, mais aussi les Bêtes de tous les vampires.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez ce péché tout en poursuivant activement des ennemis ou des proies désignées pour être tuées. Si vous faites preuve de pitié ou sympathie, ou si vous chassez un ennemi plus faible que vous, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous ignorez volontairement une menace, refusez un défi, vous détournez d'une chasse digne de ce nom, ou si vous montrez de la lâcheté ou la faiblesse, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez ce péché tout en poursuivant activement des ennemis ou des proies désignées pour être tuées. Si vous faites preuve de pitié ou sympathie, ou si vous chassez un ennemi plus faible que vous, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous ignorez volontairement une menace, refusez un défi, vous détournez d'une chasse digne de ce nom, ou si vous montrez de la lâcheté ou la faiblesse, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Rabatteurs”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Rabatteurs”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie d'Orion",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Paradoxe",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Créée et principalement suivie par les membres du clan Ravnos, la Voie du Paradoxe enseigne que l'existence est fluide et malléable. Rien n'est réel, rien n'est statique et toutes choses peuvent être changées par un acte de volonté. Les Ravnos appellent cette voie « Mayaparisatya » et la voie doit beaucoup aux enseignements hindous. Selon cette voie ardue et exigeante, les mortels suivent un cycle de vie et de mort - un cycle qui a en quelque sorte échappé aux vampires. De ce fait, les morts-vivants ont perdu leur dharma et n'ont pas de véritable destinée. Ces vampires qui ignorent leur dharma doivent être éduqués et éclairés - ou détruits. Un vampire doit traverser les illusions de la réalité et voir la vérité cachée dessous, ou il ne trouvera jamais le salut. Cela revient accepter deux vérités contradictoires et trouver le sens ultime, dans le paradoxe entre ces vérités.",
+              "spans": [
+                {
+                  "text": "Créée et principalement suivie par les membres du clan Ravnos, la Voie du Paradoxe enseigne que l'existence est fluide et malléable. Rien n'est réel, rien n'est statique et toutes choses peuvent être changées par un acte de volonté. Les Ravnos appellent cette voie « Mayaparisatya » et la voie doit beaucoup aux enseignements hindous. Selon cette voie ardue et exigeante, les mortels suivent un cycle de vie et de mort - un cycle qui a en quelque sorte échappé aux vampires. De ce fait, les morts-vivants ont perdu leur dharma et n'ont pas de véritable destinée. Ces vampires qui ignorent leur dharma doivent être éduqués et éclairés - ou détruits. Un vampire doit traverser les illusions de la réalité et voir la vérité cachée dessous, ou il ne trouvera jamais le salut. Cela revient accepter deux vérités contradictoires et trouver le sens ultime, dans le paradoxe entre ces vérités.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en révélant une vérité à quelqu'un qui ignore cette information, ou quand vous effacez une dette karmique.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en révélant une vérité à quelqu'un qui ignore cette information, ou quand vous effacez une dette karmique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Si vous ignorez volontairement une opportunité de poursuivre une vérité cachée, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous empêchez le changement ou ne parvenez pas à promouvoir le chaos, ou que vous permettez à d'autres d'ignorer leur dharma et de stagner, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Si vous ignorez volontairement une opportunité de poursuivre une vérité cachée, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous empêchez le changement ou ne parvenez pas à promouvoir le chaos, ou que vous permettez à d'autres d'ignorer leur dharma et de stagner, vous gagnez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Rakshasa”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Rakshasa”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du Clan Ravnos peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du Clan Ravnos peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Paradoxe",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Pouvoir et de la Voix Intérieure",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Quand l'on possède l'immortalité, un talent surnaturel et une éternité à passer, la seule véritable acquisition est celle de l'autorité et de la domination sur les autres. Les disciples de cette voie croient que le pouvoir et le contrôle sont les seuls objectifs à poursuivre, et qu'en pliant le monde à sa volonté, un vampire crée l'ordre, la stabilité et remporte des victoires significatives. Dans certains cercles, cette voie est appelée « Voie de la domination », car ceux qui la suivent sont tyranniques et autoritaires - mais aussi étrangement protecteurs de ceux qui les servent. Les unificateurs demandent à être craints et respectés et ne tolèrent pas la faiblesse ou l'échec sans signification ; Être battu est une chose, simplement être incapable d'achever quelque chose en est une autre. Ce sont des politiciens et des stratèges chevronnés, prêts à tout pour obtenir l'autorité.",
+              "spans": [
+                {
+                  "text": "Quand l'on possède l'immortalité, un talent surnaturel et une éternité à passer, la seule véritable acquisition est celle de l'autorité et de la domination sur les autres. Les disciples de cette voie croient que le pouvoir et le contrôle sont les seuls objectifs à poursuivre, et qu'en pliant le monde à sa volonté, un vampire crée l'ordre, la stabilité et remporte des victoires significatives. Dans certains cercles, cette voie est appelée « Voie de la domination », car ceux qui la suivent sont tyranniques et autoritaires - mais aussi étrangement protecteurs de ceux qui les servent. Les unificateurs demandent à être craints et respectés et ne tolèrent pas la faiblesse ou l'échec sans signification ; Être battu est une chose, simplement être incapable d'achever quelque chose en est une autre. Ce sont des politiciens et des stratèges chevronnés, prêts à tout pour obtenir l'autorité.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez ce péché afin d'augmenter directement votre pouvoir personnel, physique ou politique, ou pour vous empêcher de perdre ce pouvoir. Si vous renoncez volontairement à l'autorité, permettez à vos adeptes d'être maltraités par quiconque autre que vous, défiez un supérieur que vous n'êtes pas disposé à contester directement, ou passez une occasion facile d'acquérir le pouvoir, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête quand vous commettez un péché, tant que vous commettez ce péché afin d'augmenter directement votre pouvoir personnel, physique ou politique, ou pour vous empêcher de perdre ce pouvoir. Si vous renoncez volontairement à l'autorité, permettez à vos adeptes d'être maltraités par quiconque autre que vous, défiez un supérieur que vous n'êtes pas disposé à contester directement, ou passez une occasion facile d'acquérir le pouvoir, vous gagnez des traits de Bête comme si vous avez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Unificateurs”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Unificateurs”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Pouvoir et de la Voix Intérieure",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie des Révélations Démoniaque",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Les sectateurs de la Voie des Révélations Démoniaque se complaisent complètement dans les ténèbres de l'état vampirique et croient que le rôle d'un Vampire est de promouvoir le malin ultime dans le monde physique. Ils débusquent et servent des entités infernales : démons, diables ou sombres esprits. En servant ces monstruosités, le Vampire s'établit une place dans la hiérarchie infernale en échange du sacrifice de leurs âmes et de leur servitude. En fin de compte, cette voie embrasse la malveillance comme un outil, pratiquant des rituels avilissant et déchaînant l'horreur sur le monde. Ces individus servent les désirs de leurs maîtres, et s'ils les accomplissent bien, ils sont récompensés avec de la magie noire et d'autres investissements de pouvoir démoniaque. Les autres Vampires haïssent et craignent les disciples de cette voie. A la fois la Camarilla et le Sabbat traquent et détruisent de tels pratiquants, forçant ceux sur la Voie des Révélations Démoniaque à être subtiles et à rester dans l'ombre, même s'ils cherchent des convertis - et des sacrifices - dans la société vampirique.",
+              "spans": [
+                {
+                  "text": "Les sectateurs de la Voie des Révélations Démoniaque se complaisent complètement dans les ténèbres de l'état vampirique et croient que le rôle d'un Vampire est de promouvoir le malin ultime dans le monde physique. Ils débusquent et servent des entités infernales : démons, diables ou sombres esprits. En servant ces monstruosités, le Vampire s'établit une place dans la hiérarchie infernale en échange du sacrifice de leurs âmes et de leur servitude. En fin de compte, cette voie embrasse la malveillance comme un outil, pratiquant des rituels avilissant et déchaînant l'horreur sur le monde. Ces individus servent les désirs de leurs maîtres, et s'ils les accomplissent bien, ils sont récompensés avec de la magie noire et d'autres investissements de pouvoir démoniaque. Les autres Vampires haïssent et craignent les disciples de cette voie. A la fois la Camarilla et le Sabbat traquent et détruisent de tels pratiquants, forçant ceux sur la Voie des Révélations Démoniaque à être subtiles et à rester dans l'ombre, même s'ils cherchent des convertis - et des sacrifices - dans la société vampirique.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de la Bête en accomplissant un péché, tant que vous fassiez ce péché en agissant au service de l'infernal. Si vous manifestez volontairement une véritable compassion ou ne réussissez pas à atteindre les buts de votre maître, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous défiez ou désobéissez volontairement à votre maître infernal, ou si vous partagez des secrets infernaux avec ceux qui ne sont pas dévoués à la volonté de votre maître, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de la Bête en accomplissant un péché, tant que vous fassiez ce péché en agissant au service de l'infernal. Si vous manifestez volontairement une véritable compassion ou ne réussissez pas à atteindre les buts de votre maître, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 1. Si vous défiez ou désobéissez volontairement à votre maître infernal, ou si vous partagez des secrets infernaux avec ceux qui ne sont pas dévoués à la volonté de votre maître, vous obtenez des traits de Bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les suivants de cette voie sont connus sous le nom de “Corrupteurs”.",
+              "spans": [
+                {
+                  "text": "Les suivants de cette voie sont connus sous le nom de “Corrupteurs”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie des Révélations Démoniaque",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Rédemption nocturne",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "A l’origine une voie du Sabbat, les disciples de la Voie de la Rédemption nocturne croient qu’il existe un pouvoir supérieur et que l’humanité n’a pas été à la hauteur. Ils trouvent des indices pour corroborer leur croyance dans les péchés et la dégradation qui fleurissent partout dans le monde. Les Vampires sont la réponse divine à cet échec; des anges noires qui existent dans un état de purgatoire permanent destinés à arpenter la terre comme fléau sur les pécheurs.",
+              "spans": [
+                {
+                  "text": "A l’origine une voie du Sabbat, les disciples de la Voie de la Rédemption nocturne croient qu’il existe un pouvoir supérieur et que l’humanité n’a pas été à la hauteur. Ils trouvent des indices pour corroborer leur croyance dans les péchés et la dégradation qui fleurissent partout dans le monde. Les Vampires sont la réponse divine à cet échec; des anges noires qui existent dans un état de purgatoire permanent destinés à arpenter la terre comme fléau sur les pécheurs.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "En tant qu’enfant de Cain, les vampires doivent chercher la rédemption, pas seulement pour l’échec de leur créateur, mais également pour leur propre faute. Bien que les suivants de cette voie ne s’embarrassent plus de moralité humaine, ils croient fermement que la condition vampirique est une représentation des sept péchés capitaux. En tant que passage de leur quête pour expérimenter à la fois la dépravation et la vertu, les disciples suivent un cycle de relâchement bestial et de rédemption auquel ils font référence comme étant la Marée Divine. En embrassant pleinement le flux et reflux du péché suivi par l’introspection et la méditation sur l’acte du péché, un disciple de la Marée Divine peut gagner une compréhension plus profonde, plus spirituelle de la condition vampirique. Par cette compréhension, il peut alors se racheter et à son tour être créateur, en guidant et recueillant les confessions de ceux qui ont perdu leur foi et ont succombé au péché.",
+              "spans": [
+                {
+                  "text": "En tant qu’enfant de Cain, les vampires doivent chercher la rédemption, pas seulement pour l’échec de leur créateur, mais également pour leur propre faute. Bien que les suivants de cette voie ne s’embarrassent plus de moralité humaine, ils croient fermement que la condition vampirique est une représentation des sept péchés capitaux. En tant que passage de leur quête pour expérimenter à la fois la dépravation et la vertu, les disciples suivent un cycle de relâchement bestial et de rédemption auquel ils font référence comme étant la Marée Divine. En embrassant pleinement le flux et reflux du péché suivi par l’introspection et la méditation sur l’acte du péché, un disciple de la Marée Divine peut gagner une compréhension plus profonde, plus spirituelle de la condition vampirique. Par cette compréhension, il peut alors se racheter et à son tour être créateur, en guidant et recueillant les confessions de ceux qui ont perdu leur foi et ont succombé au péché.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché tant que vous succombez ensuite à la Marée Divine en l’acceptant pleinement et en cherchant le pardon dans le but de comprendre la Bête et de trouver la rédemption. Si vous résistez à la Marée Divine en refusant de vous y soumettre, ou si vous ne réussissez pas à trouver des connaissances sur la Malédiction de Caïn alors que cela ne présente pas ou peu de risque pour vous, vous commettez un péché de niveau 1. Si vous refusez d’apprendre de ceux qui ont une meilleur compréhension que vous, que vous tuez un mortel touché par le divin sans d’abord lui offrir l'Étreinte, ou que vous refusez de vous confesser et de chercher la rédemption, vous gagnez des traits de bête équivalent à un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché tant que vous succombez ensuite à la Marée Divine en l’acceptant pleinement et en cherchant le pardon dans le but de comprendre la Bête et de trouver la rédemption. Si vous résistez à la Marée Divine en refusant de vous y soumettre, ou si vous ne réussissez pas à trouver des connaissances sur la Malédiction de Caïn alors que cela ne présente pas ou peu de risque pour vous, vous commettez un péché de niveau 1. Si vous refusez d’apprendre de ceux qui ont une meilleur compréhension que vous, que vous tuez un mortel touché par le divin sans d’abord lui offrir l'Étreinte, ou que vous refusez de vous confesser et de chercher la rédemption, vous gagnez des traits de bête équivalent à un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Martyres”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Martyres”.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de la Rédemption nocturne",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie de la Ruche",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Une ancienne voie originellement suivie par les Baali, les Abélites agissent comme bergers guidant et protégeant la création de ses véritables ennemis : les démons, les diables et les anges déchus, tous piégés dans la langueur par Celui Qui Est Au Dessus. Les enfants de ces horreurs lancinantes leur transmettent du pouvoir et risquent de les réveiller à chaque mention de leur nom.",
+              "spans": [
+                {
+                  "text": "Une ancienne voie originellement suivie par les Baali, les Abélites agissent comme bergers guidant et protégeant la création de ses véritables ennemis : les démons, les diables et les anges déchus, tous piégés dans la langueur par Celui Qui Est Au Dessus. Les enfants de ces horreurs lancinantes leur transmettent du pouvoir et risquent de les réveiller à chaque mention de leur nom.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples croient qu’Abel a été ressuscité en tant qu’ange immortel de la vengeance, chargé d’être le berger de son frère et d’épurer le troupeau de celui-ci pour réclamer le sang que son frère lui a pris. Les Abélites croient que tous les vampires sont des êtres de lumière et bénis par Celui Qui Est Au Dessus, guidant l’humanité et la protégeant contre les Enfants des Dormeurs.",
+              "spans": [
+                {
+                  "text": "Les disciples croient qu’Abel a été ressuscité en tant qu’ange immortel de la vengeance, chargé d’être le berger de son frère et d’épurer le troupeau de celui-ci pour réclamer le sang que son frère lui a pris. Les Abélites croient que tous les vampires sont des êtres de lumière et bénis par Celui Qui Est Au Dessus, guidant l’humanité et la protégeant contre les Enfants des Dormeurs.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "L’essaim a besoin de survivre, et pour ce faire les Enfants doivent rester emprisonnés. Les Disciples de Moloch étudient la goétie comme moyen d’arriver à leur fin, collectionnant de vastes quantités de savoirs interdits pour apprendre les obscurs Noms Véritables des Dormeurs, de manière à ce qu’ils soient plus facile à plonger dans leur rêve perpétuel. Les Abélites sont des occultistes renommés, et des thaumaturges incroyablement compétents qui se regroupent en Nid, avec aucune autorité centrale. La Voie en elle-même a été reconstruite pour épouser les préceptes de l’Ordre de Moloch et tous les suivants de la voie, sans exception, sont des membres de l’Ordre.",
+              "spans": [
+                {
+                  "text": "L’essaim a besoin de survivre, et pour ce faire les Enfants doivent rester emprisonnés. Les Disciples de Moloch étudient la goétie comme moyen d’arriver à leur fin, collectionnant de vastes quantités de savoirs interdits pour apprendre les obscurs Noms Véritables des Dormeurs, de manière à ce qu’ils soient plus facile à plonger dans leur rêve perpétuel. Les Abélites sont des occultistes renommés, et des thaumaturges incroyablement compétents qui se regroupent en Nid, avec aucune autorité centrale. La Voie en elle-même a été reconstruite pour épouser les préceptes de l’Ordre de Moloch et tous les suivants de la voie, sans exception, sont des membres de l’Ordre.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché dans la mesure où ce péché s’oppose aux actions et aux machinations des Dormeurs et de leurs enfants, ce qui inclut les autres Baali. Si vous jurez allégeance au Déchu, aux Dormeurs ou aux autres forces démoniaques, ou si vous échouez à tenir compte du conseil de l’Essaim et êtes déloyal aux autres Abélites, vous gagnez des traits de bêtes comme si vous aviez commis un péché de niveau 1. Si vous refusez de commettre des atrocités pour garder les Dormeurs endormis ou si vous utilisez vos connaissances dans un but égoïste pour gagner du pouvoir personnel, vous gagnez des traits de bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de traits de bête quand vous faites un péché dans la mesure où ce péché s’oppose aux actions et aux machinations des Dormeurs et de leurs enfants, ce qui inclut les autres Baali. Si vous jurez allégeance au Déchu, aux Dormeurs ou aux autres forces démoniaques, ou si vous échouez à tenir compte du conseil de l’Essaim et êtes déloyal aux autres Abélites, vous gagnez des traits de bêtes comme si vous aviez commis un péché de niveau 1. Si vous refusez de commettre des atrocités pour garder les Dormeurs endormis ou si vous utilisez vos connaissances dans un but égoïste pour gagner du pouvoir personnel, vous gagnez des traits de bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés “Abélites” ou “Enfants de Moloch”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés “Abélites” ou “Enfants de Moloch”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du Clan Baali peuvent acheter cet atout pour 2 points d’atout au lieu de 3. Les Baali qui ont acheté l’atout «Héritier de Moloch» peuvent acheter cet atout gratuitement.",
+              "spans": [
+                {
+                  "text": "Les membres du Clan Baali peuvent acheter cet atout pour 2 points d’atout au lieu de 3. Les Baali qui ont acheté l’atout «Héritier de Moloch» peuvent acheter cet atout gratuitement.",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "L’hérésie Abelite - Caïn, incapable de plaire à Dieu avec des offrandes terrestres, alla voir son frère pour de l’aide. Abel sacrifia sa chèvre la plus belle en offrande à Dieu et fut béni. Cain, ayant assisté à cela, sacrifia sa plus grande joie, son frère. Pour ce meurtre, Caïn et ses enfants furent maudits: ils ne pourraient pas se sustenter sans sacrifier de la joie pour leur labeur. L’hérésie Abelite continue l’histoire et enseigne qu’après avoir trouvé la mort de la main de son frère, Abel fut ramené à la vie en tant qu’Ange de Vengeance. Un Lucifer enragé maudit alors Abel, transformant le soleil en Némésis pour lui. Les vampires naquirent de Abel, non de Cain, et existent pour protéger l’humanité des forces des enfers.",
+              "spans": [
+                {
+                  "text": "L’hérésie Abelite",
+                  "bold": true
+                },
+                {
+                  "text": " - Caïn, incapable de plaire à Dieu avec des offrandes terrestres, alla voir son frère pour de l’aide. Abel sacrifia sa chèvre la plus belle en offrande à Dieu et fut béni. Cain, ayant assisté à cela, sacrifia sa plus grande joie, son frère. Pour ce meurtre, Caïn et ses enfants furent maudits: ils ne pourraient pas se sustenter sans sacrifier de la joie pour leur labeur. L’hérésie Abelite continue l’histoire et enseigne qu’après avoir trouvé la mort de la main de son frère, Abel fut ramené à la vie en tant qu’Ange de Vengeance. Un Lucifer enragé maudit alors Abel, transformant le soleil en Némésis pour lui. Les vampires naquirent de Abel, non de Cain, et existent pour protéger l’humanité des forces des enfers.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie de la Ruche",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Sang",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haquim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haquim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haquim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haquim.",
+              "spans": [
+                {
+                  "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haquim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haquim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haquim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haquim.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haquim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haquim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette Voie sont appelés “Derviches”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette Voie sont appelés “Derviches”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres du clan Assamite peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres du clan Assamite peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Sang",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_4",
+          "text": "Voie du Typhon-Set",
+          "toggleable": true,
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Aussi appelé Voie de Sutekh ou Voie du Typhon, les Disciples de Set ont créé cette voie comme un moyen de se libérer des tabous des mortels et de l'influence du monde matériel, de manière à mieux servir l'antédiluvien Set. Cette voie est religieuse, et prêche qu'un jour Set reviendra un jour pour purifier ses suivants de la Bête et façonner le monde à son image. Quand ce jour arrivera, les vrais suivants de Set connaîtront l'apothéose et seront bénis par leur dieu. Ceux qui adhèrent à cette voie croient que Set était vraiment un dieu de l'Egypte et que son immortalité leur est transmise, les portant au travers de la mort et leur accordant la non-vie vampirique. Ils refusent le mythe de Caïn et vénèrent Set de tout cœur. Ils cherchent à trouver Set et le faire revenir dans le monde ; convertir d'autres vampires à son service ; et corrompre et profaner l'espoir, l'innocence et la pureté partout où ils les découvrent.",
+              "spans": [
+                {
+                  "text": "Aussi appelé Voie de Sutekh ou Voie du Typhon, les Disciples de Set ont créé cette voie comme un moyen de se libérer des tabous des mortels et de l'influence du monde matériel, de manière à mieux servir l'antédiluvien Set. Cette voie est religieuse, et prêche qu'un jour Set reviendra un jour pour purifier ses suivants de la Bête et façonner le monde à son image. Quand ce jour arrivera, les vrais suivants de Set connaîtront l'apothéose et seront bénis par leur dieu. Ceux qui adhèrent à cette voie croient que Set était vraiment un dieu de l'Egypte et que son immortalité leur est transmise, les portant au travers de la mort et leur accordant la non-vie vampirique. Ils refusent le mythe de Caïn et vénèrent Set de tout cœur. Ils cherchent à trouver Set et le faire revenir dans le monde ; convertir d'autres vampires à son service ; et corrompre et profaner l'espoir, l'innocence et la pureté partout où ils les découvrent.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Système",
+              "spans": [
+                {
+                  "text": "Système",
+                  "bold": true
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Vous ne gagnez pas de Traits de la Bête quand vous réalisez un péché, tant que vous le faites activement au service de Set. Vous devez accomplir toutes les occasions de corrompre les vampires au service de Set, surtout ceux qui recherchent le Golconde, ou vous gagnez des traits de la bête comme si vous aviez commis un péché de niveau 1. Si vous échouez à prendre l'avantage de la faiblesse émotionnelle d'une personne ou échouez à acquérir toute information qui peut aider le retour de Set, vous gagnez des traits de la bête comme si vous aviez commis un péché de niveau 4.",
+              "spans": [
+                {
+                  "text": "Vous ne gagnez pas de Traits de la Bête quand vous réalisez un péché, tant que vous le faites activement au service de Set. Vous devez accomplir toutes les occasions de corrompre les vampires au service de Set, surtout ceux qui recherchent le Golconde, ou vous gagnez des traits de la bête comme si vous aviez commis un péché de niveau 1. Si vous échouez à prendre l'avantage de la faiblesse émotionnelle d'une personne ou échouez à acquérir toute information qui peut aider le retour de Set, vous gagnez des traits de la bête comme si vous aviez commis un péché de niveau 4.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les disciples de cette voie sont appelés les “Théophiles” ou “Gardiens du Temple”.",
+              "spans": [
+                {
+                  "text": "Les disciples de cette voie sont appelés les “Théophiles” ou “Gardiens du Temple”.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Les membres de la lignée des Vipères (et seulement cette lignée, pas tout le clan Sétite) peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+              "spans": [
+                {
+                  "text": "Les membres de la lignée des Vipères (et seulement cette lignée, pas tout le clan Sétite) peuvent acheter cet atout pour 2 points d’atout au lieu de 3.",
+                  "bold": true
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Voie du Typhon-Set",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39c88b48-e48e-80cf-9167-d794da6edcb7",
       "notionUrl": "https://app.notion.com/p/Man-uvre-de-Combat-39c88b48e48e80cf9167d794da6edcb7",
       "lastEditedTime": "2026-07-28T14:11:00.000Z",
@@ -28422,269 +29878,6 @@
           "spans": [
             {
               "text": "Les descriptions des disciplines sont rédigées comme si les vampires utilisaient ces pouvoirs. Cependant, sauf mention explicite, elles incluent également les goules, les revenants ou tout autre personnage surnaturel capable de posséder et d’utiliser ces pouvoirs.\nDans les descriptions des disciplines, les personnages partiellement surnaturels (tels que les goules et les revenants) sont considérés comme des « mortels ». Si un pouvoir est décrit comme ayant un effet accru sur les mortels, cet effet accru s’applique également aux goules.\nLe pool de test de la discipline (indiqué dans la description initiale de celle-ci) s’applique à tous les pouvoirs de cette discipline, y compris les pouvoirs d’ancien. Il ne s’applique pas nécessairement aux techniques ; référez-vous à chaque technique pour déterminer son pool de test spécifique.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3c988b48-e48e-8098-84a7-df0c39cdbfdb",
-      "notionUrl": "https://app.notion.com/p/Voie-de-l-Illumination-3c988b48e48e809884a7df0c39cdbfdb",
-      "lastEditedTime": "2026-08-27T11:59:00.000Z",
-      "properties": {
-        "Catégorie": {
-          "type": "select",
-          "value": "Humanité"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie de l’Illumination"
-        }
-      },
-      "title": "Voie de l’Illumination",
-      "slug": "voie-de-l-illumination",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
-          "spans": [
-            {
-              "text": "Les Voies de l’Illumination sont achetées pour un coût de 3 points d’atouts sauf Adhérent d'une voie pour un coût de 2 points d’atout.",
-              "bold": true
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Adhérent à une voie : (2 points d’atouts)",
-          "spans": [
-            {
-              "text": "Adhérent à une voie : (2 points d’atouts)",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de l'Accord Honorable",
-          "spans": [
-            {
-              "text": "Voie de l'Accord Honorable",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de Caïn",
-          "spans": [
-            {
-              "text": "Voie de Caïn",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie des Cathares",
-          "spans": [
-            {
-              "text": "Voie des Cathares",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de la Chevalerie",
-          "spans": [
-            {
-              "text": "Voie de la Chevalerie",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie des Cieux",
-          "spans": [
-            {
-              "text": "Voie des Cieux",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Coeur Écorché",
-          "spans": [
-            {
-              "text": "Voie du Coeur Écorché",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Cœur Sauvage",
-          "spans": [
-            {
-              "text": "Voie du Cœur Sauvage",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de l’Entéléchie",
-          "spans": [
-            {
-              "text": "Voie de l’Entéléchie",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de l'Extase",
-          "spans": [
-            {
-              "text": "Voie de l'Extase",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de l'Harmonie",
-          "spans": [
-            {
-              "text": "Voie de l'Harmonie",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de Lilith",
-          "spans": [
-            {
-              "text": "Voie de Lilith",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie des Métamorphoses",
-          "spans": [
-            {
-              "text": "Voie des Métamorphoses",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de la Mort et de l'Âme",
-          "spans": [
-            {
-              "text": "Voie de la Mort et de l'Âme",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de la Nuit",
-          "spans": [
-            {
-              "text": "Voie de la Nuit",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie d'Orion",
-          "spans": [
-            {
-              "text": "Voie d'Orion",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Paradoxe",
-          "spans": [
-            {
-              "text": "Voie du Paradoxe",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Pouvoir et de la Voix Intérieure",
-          "spans": [
-            {
-              "text": "Voie du Pouvoir et de la Voix Intérieure",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie des Révélations Démoniaque",
-          "spans": [
-            {
-              "text": "Voie des Révélations Démoniaque",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de la Rédemption nocturne",
-          "spans": [
-            {
-              "text": "Voie de la Rédemption nocturne",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie de la Ruche",
-          "spans": [
-            {
-              "text": "Voie de la Ruche",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Sang",
-          "spans": [
-            {
-              "text": "Voie du Sang",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_4",
-          "text": "Voie du Typhon-Set",
-          "spans": [
-            {
-              "text": "Voie du Typhon-Set",
               "bold": false
             }
           ]
