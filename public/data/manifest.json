@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-26T14:52:45.226Z",
+  "generatedAt": "2026-08-27T09:20:47.897Z",
   "collections": [
     {
       "key": "disciplines",
@@ -98,12 +98,6 @@
       "file": "/data/collections/historiques.json"
     },
     {
-      "key": "faq",
-      "label": "FAQ",
-      "group": "Ressources",
-      "file": "/data/collections/faq.json"
-    },
-    {
       "key": "atouts-lieux",
       "label": "Atouts de Lieux",
       "group": "Atouts de Lieux",
@@ -117,6 +111,42 @@
     }
   ],
   "recent": [
+    {
+      "title": "Aura de commandement",
+      "slug": "aura-de-commandement",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-27T09:13:00.000Z"
+    },
+    {
+      "title": "Expertise nécromantique",
+      "slug": "expertise-necromantique",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-27T09:12:00.000Z"
+    },
+    {
+      "title": "Sang addictif",
+      "slug": "sang-addictif",
+      "collectionKey": "atouts",
+      "collectionLabel": "Atouts",
+      "path": "/atouts",
+      "icon": "star",
+      "lastEditedTime": "2026-08-27T09:08:00.000Z"
+    },
+    {
+      "title": "Étape 8: Choisir les Atouts et les Handicaps",
+      "slug": "etape-8-choisir-les-atouts-et-les-handicaps",
+      "collectionKey": "personnage",
+      "collectionLabel": "Étapes de création",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-08-27T09:08:00.000Z"
+    },
     {
       "title": "Tests et défi simplifié",
       "slug": "tests-et-defi-simplifie",
@@ -260,42 +290,6 @@
       "path": "/pouvoirs",
       "icon": "droplet",
       "lastEditedTime": "2026-08-24T11:41:00.000Z"
-    },
-    {
-      "title": "Projectile",
-      "slug": "projectile",
-      "collectionKey": "pouvoirs-anciens",
-      "collectionLabel": "Pouvoirs d'Anciens",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-24T11:41:00.000Z"
-    },
-    {
-      "title": "Vitesse",
-      "slug": "vitesse",
-      "collectionKey": "pouvoirs-anciens",
-      "collectionLabel": "Pouvoirs d'Anciens",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-24T11:41:00.000Z"
-    },
-    {
-      "title": "Fluidité",
-      "slug": "fluidite",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-24T11:40:00.000Z"
-    },
-    {
-      "title": "Légéreté",
-      "slug": "legerete",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-08-24T11:40:00.000Z"
     }
   ]
 }

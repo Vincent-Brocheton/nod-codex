@@ -3,6 +3,11 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.7.0] - 2026-08-27
+
+- Les précisions ("callout" Notion) glissées dans une fiche sont désormais mises en valeur visuellement au lieu de se fondre dans le texte, et affichent leur réponse le cas échéant (question/réponse), auparavant perdue à la synchronisation
+- Suppression de la page FAQ : les précisions qu'elle contenait sont directement intégrées aux fiches concernées via les callouts ci-dessus
+
 ## [1.6.0] - 2026-08-24
 
 - Nouvelle section "Mystères" dans les Règles : les fiches sont désormais réparties par catégorie (Clan, Faction, Race, Surnaturel, Organisation)

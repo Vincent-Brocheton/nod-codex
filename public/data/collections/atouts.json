@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "37d88b48-e48e-80a8-a11b-c1e2657c837a",
-  "generatedAt": "2026-08-26T14:52:45.163Z",
+  "generatedAt": "2026-08-27T09:20:47.831Z",
   "propertyOptions": {
     "Coût": [
       "1",
@@ -1086,7 +1086,7 @@
     {
       "id": "39888b48-e48e-80bf-adb9-f34a99d241ca",
       "notionUrl": "https://app.notion.com/p/Aura-de-commandement-39888b48e48e80bfadb9f34a99d241ca",
-      "lastEditedTime": "2026-07-09T16:55:00.000Z",
+      "lastEditedTime": "2026-08-27T09:13:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -1140,6 +1140,36 @@
           "spans": [
             {
               "text": "En tant que noblesse de la société vampirique, les Ventrue ne tolèrent aucune désobéissance des simples mortels.\nLes mortels et les goules ne peuvent pas résister à vos pouvoirs de Présence et de Domination.\nLorsque vous ciblez un mortel avec ces pouvoirs, vous réussissez automatiquement : il ne peut pas constituer de réserve de défense.\nCet effet s’applique également aux techniques nécessitant Présence ou Domination.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Puis-je obtenir un succès exceptionnel avec Aura de commandement ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Aura de commandement accorde au Ventrue un succès automatique contre les mortels et les goules. Si le joueur veut tenter un succès exceptionnel, l’Aura de commandement lui permet de choisir de lancer un challenge comme d'habitude. Cependant, s’il rate son test, son Aura de commandement échouera totalement.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Aura de commandement accorde au Ventrue un succès automatique contre les mortels et les goules. Si le joueur veut tenter un succès exceptionnel, l’Aura de commandement lui permet de choisir de lancer un challenge comme d'habitude. Cependant, s’il rate son test, son Aura de commandement échouera totalement.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Puis-je obtenir un succès exceptionnel avec Aura de commandement ?",
               "bold": false
             }
           ]
@@ -4573,7 +4603,7 @@
     {
       "id": "39888b48-e48e-809d-903f-ca9a29005f40",
       "notionUrl": "https://app.notion.com/p/Expertise-n-cromantique-39888b48e48e809d903fca9a29005f40",
-      "lastEditedTime": "2026-07-09T14:46:00.000Z",
+      "lastEditedTime": "2026-08-27T09:12:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -4618,6 +4648,36 @@
           "spans": [
             {
               "text": "Vous pouvez acquérir une voie supplémentaire de Nécromancie, en plus de la Voie du Sépulcre (toute voie sauf la Voie Mortis, qui est exclue de cet Atout).\nCette voie supplémentaire est apprise sans enseignant et achetée au coût de discipline de clan, mais n’est pas considérée comme une discipline de clan.\nPar exemple, lors de l’utilisation du pouvoir de Domination Possession, ces voies de Nécromancie ne peuvent pas être emportées avec vous.\nVous pouvez acheter cet Atout plusieurs fois, ce qui vous permet d’apprendre plusieurs voies de Nécromancie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : J'interprète un Premascine. Puis-je acheter l'atout Expertise en Nécromancie ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui. Un personnage d'une lignée a la capacité d'acheter n'importe quel atout du clan parent, sauf interdiction expresse.",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui. Un personnage d'une lignée a la capacité d'acheter n'importe quel atout du clan parent, sauf interdiction expresse.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " J'interprète un Premascine. Puis-je acheter l'atout Expertise en Nécromancie ?",
               "bold": false
             }
           ]
@@ -12261,7 +12321,7 @@
     {
       "id": "39888b48-e48e-8080-96ea-d50830ea01c5",
       "notionUrl": "https://app.notion.com/p/Sang-addictif-39888b48e48e808096ead50830ea01c5",
-      "lastEditedTime": "2026-07-09T14:56:00.000Z",
+      "lastEditedTime": "2026-08-27T09:08:00.000Z",
       "properties": {
         "Coût": {
           "type": "select",
@@ -12323,6 +12383,17 @@
           "spans": [
             {
               "text": "Quiconque est assez imprudent pour goûter à votre Sang en devient dépendant.\nLa prochaine fois que cette créature aura l’occasion de boire votre Sang, elle devra dépenser 1 point de Volonté pour refuser. Cette dépense lui permet de résister à son addiction pendant 10 minutes sans dépense supplémentaire.\nAprès avoir résisté à votre Sang de cette manière cinq fois consécutives, l’addiction est brisée.\nSi vous possédez le pouvoir de Présence Fascination, toute personne buvant votre Sang devient également sous votre emprise pour le reste de la nuit.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Le sang addictif s'applique a toute consommation de sang, quel que soit la quantité, sauf si le contraire est explicitement précisé dans la règle.",
+          "children": [],
+          "spans": [
+            {
+              "text": "Le sang addictif s'applique a toute consommation de sang, quel que soit la quantité, sauf si le contraire est explicitement précisé dans la règle.",
               "bold": false
             }
           ]

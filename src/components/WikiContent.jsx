@@ -3,7 +3,6 @@ import DetailPanel from "./DetailPanel";
 import RitualsView from "./views/RitualsView";
 import MeritsFlawsView from "./views/MeritsFlawsView";
 import CreationWizardView from "./views/CreationWizardView";
-import FaqView from "./views/FaqView";
 import RulesIndexView from "./views/RulesIndexView";
 import ClansIndexView from "./views/ClansIndexView";
 import DisciplinesIndexView from "./views/DisciplinesIndexView";
@@ -46,10 +45,6 @@ export default function WikiContent({ wiki, collectionKey, groupValue, slug }) {
 
     if (activeNavigation.view === "wizard") {
         return <CreationWizardView wiki={wiki} />;
-    }
-
-    if (activeNavigation.view === "faq") {
-        return <FaqView wiki={wiki} slug={slug} />;
     }
 
     if (activeNavigation.view === "grouped-list" && !slug) {

@@ -40,9 +40,9 @@ function groupConsecutive(items, keyFn) {
 // `collapsible` (Rituels : un niveau peut compter jusqu'à 18 fiches) replie
 // chaque fiche par défaut derrière un bouton titre + accroche, plutôt que
 // tout dérouler d'un coup. L'état ouvert/fermé est local à chaque fiche
-// (pas remonté au parent) : plusieurs peuvent rester ouvertes en même temps
-// (contrairement à la FAQ qui n'en garde qu'une), et basculer l'une d'elles
-// ne re-rend qu'elle-même, pas tout le groupe. Atouts & Handicaps ne passe
+// (pas remonté au parent) : plusieurs peuvent rester ouvertes en même temps,
+// et basculer l'une d'elles ne re-rend qu'elle-même, pas tout le groupe.
+// Atouts & Handicaps ne passe
 // pas cette prop et garde le comportement d'origine, toujours déployé.
 function ItemEntry({
     item,

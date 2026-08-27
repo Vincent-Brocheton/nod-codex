@@ -162,27 +162,20 @@ export default function HomeView({ wiki }) {
                             </span>
                         </Link>
 
-                        <div className="startCard">
+                        <Link to="/regles" className="startCard">
                             <span className="startCardIcon">
                                 <AppIcon name="help-circle" size={22} />
                             </span>
 
                             <span>
                                 <strong>Besoin d'aide ?</strong>
-                                <p>Consultez la FAQ ou les règles générales pour répondre à vos questions.</p>
-
-                                <span className="startCardLinks">
-                                    <Link to="/faq">
-                                        Voir la FAQ
-                                        <ChevronRight size={14} aria-hidden="true" />
-                                    </Link>
-                                    <Link to="/regles">
-                                        Règles générales
-                                        <ChevronRight size={14} aria-hidden="true" />
-                                    </Link>
+                                <p>Consultez les règles générales pour répondre à vos questions.</p>
+                                <span className="startCardLink">
+                                    Règles générales
+                                    <ChevronRight size={14} aria-hidden="true" />
                                 </span>
                             </span>
-                        </div>
+                        </Link>
                     </section>
 
                 </div>

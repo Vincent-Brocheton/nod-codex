@@ -245,20 +245,6 @@ export const navigation = [
                     COLLECTIONS.PERSONNAGE,
                 ],
             },
-
-            {
-                id: "faq",
-                type: "collection",
-                label: "FAQ",
-                path: "/faq",
-                icon: "help-circle",
-
-                view: "faq",
-
-                collections: [
-                    COLLECTIONS.FAQ,
-                ],
-            },
         ],
     },
 ];

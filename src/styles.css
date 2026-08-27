@@ -870,10 +870,15 @@ h1 {
 
 /* Lettrine de dossier : réservée aux fiches singulières (Clan, Lignée,
    Discipline, Pouvoir, Technique...), qui passent toutes par .detailCard.
-   Les fiches empilées (Rituels, Atouts & Handicaps via .ritualEntry, FAQ
-   via .faqAnswer, popup via .modalPanel) définissent leur propre contexte
-   .contentBlocks et ne sont donc jamais concernées : une lettrine répétée
-   à chaque fiche dépliée deviendrait du bruit plutôt qu'un repère. */
+   Les fiches empilées (Rituels, Atouts & Handicaps via .ritualEntry, popup
+   via .modalPanel) définissent leur propre contexte .contentBlocks et ne
+   sont donc jamais concernées : une lettrine répétée
+   à chaque fiche dépliée deviendrait du bruit plutôt qu'un repère. Un
+   `:not()` ici pour exclure le callout casserait aussi l'annulation du
+   toggle plus bas (même spécificité tant qu'on n'ajoute pas de classe à
+   CETTE règle) : l'exclusion se fait plutôt via une règle de même
+   spécificité placée après, cf. `.toggleBlock` et `.calloutBlock`
+   ci-dessous. */
 .detailCard .contentBlocks p:first-of-type::first-letter {
   background: var(--brass-tint);
   border: 1px solid var(--brass);
@@ -986,6 +991,68 @@ h1 {
   font-style: italic;
   margin-left: 0;
   padding-left: 16px;
+}
+
+/* Bloc "callout" Notion : une précision/FAQ ponctuelle glissée dans une
+   fiche. Distinct du blockquote (citation) par un encadré complet plutôt
+   qu'une simple barre latérale, pour signaler "note à part" plutôt que
+   "passage cité". */
+.calloutBlock {
+  align-items: flex-start;
+  background: var(--brass-tint);
+  border: 1px solid var(--brass);
+  border-radius: 0.5rem;
+  display: flex;
+  gap: 0.6rem;
+  margin: 0 0 16px;
+  padding: 0.8rem 1rem;
+}
+
+.calloutBlock:last-child {
+  margin-bottom: 0;
+}
+
+.calloutIcon {
+  color: var(--brass);
+  flex-shrink: 0;
+  margin-top: 0.2rem;
+}
+
+.calloutContent {
+  min-width: 0;
+}
+
+.calloutText {
+  color: var(--text-body-muted);
+  font-weight: 600;
+  margin: 0;
+}
+
+/* Réponse d'un callout question/réponse (blocs enfants Notion imbriqués
+   sous le callout, cf. `blockToContent` côté sync) : rendue via un
+   `.contentBlocks` imbriqué comme pour un toggle, donc désencadrée pour ne
+   pas dupliquer la carte à l'intérieur du callout. */
+.calloutContent .contentBlocks {
+  background: none;
+  border: none;
+  border-radius: 0;
+  margin-top: 6px;
+  max-width: none;
+  padding: 0;
+}
+
+.calloutContent .contentBlocks > :last-child {
+  margin-bottom: 0;
+}
+
+/* Ni la question (.calloutText) ni le premier paragraphe de la réponse ne
+   doivent hériter de la lettrine de dossier : même spécificité que la règle
+   plus haut (`p` + `::first-letter` comptent, la classe en plus sur chaque
+   sélecteur compense celle de `.calloutBlock`), donc c'est l'ordre dans la
+   feuille qui tranche, comme pour `.toggleBlock` juste au-dessus. */
+.calloutBlock p.calloutText:first-of-type::first-letter,
+.calloutBlock .contentBlocks p:first-of-type::first-letter {
+  all: unset;
 }
 
 .contentBlocks table {
@@ -1584,8 +1651,7 @@ a.relationChip:hover {
   text-align: left;
 }
 
-.startCardLink,
-.startCardLinks a {
+.startCardLink {
   align-items: center;
   color: var(--accent-strong);
   display: inline-flex;
@@ -1595,15 +1661,8 @@ a.relationChip:hover {
   text-decoration: none;
 }
 
-.startCardLink:hover,
-.startCardLinks a:hover {
+.startCardLink:hover {
   color: var(--accent-hover);
-}
-
-.startCardLinks {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
 }
 
 /* Le texte de la carte "Créer son personnage" doit rester lisible sur la
@@ -2027,69 +2086,6 @@ img.clanEmblem {
 .listRowLabel {
   font-family: var(--font-display);
   font-size: 15px;
-}
-
-.faqList {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
-  margin-top: 8px;
-  max-width: 860px;
-}
-
-.faqEntry {
-  background: var(--bg-card);
-  border: 1px solid var(--border);
-  border-radius: 8px;
-  overflow: hidden;
-}
-
-/* Corps de lecture plutôt que le serif d'apparat : certaines questions
-   collées telles quelles font 300-500 caractères, et Cinzel (pensé pour un
-   titre court) devient lourd à lire une fois étalé sur plusieurs lignes. */
-.faqQuestion {
-  align-items: center;
-  background: none;
-  border: 0;
-  color: var(--text-heading);
-  cursor: pointer;
-  display: flex;
-  font-family: var(--font-body);
-  font-size: 17px;
-  font-weight: 700;
-  gap: 16px;
-  justify-content: space-between;
-  line-height: 1.4;
-  padding: 18px 22px;
-  text-align: left;
-  width: 100%;
-}
-
-.faqQuestion:hover {
-  color: var(--accent-hover);
-}
-
-.faqChevron {
-  color: var(--accent);
-  flex: 0 0 auto;
-  transition: transform 0.2s ease;
-}
-
-.faqEntry.open .faqChevron {
-  transform: rotate(180deg);
-}
-
-.faqAnswer {
-  border-top: 1px solid var(--border);
-  padding: 18px 22px 22px;
-}
-
-.faqAnswer .contentBlocks {
-  background: none;
-  border: none;
-  border-radius: 0;
-  max-width: none;
-  padding: 0;
 }
 
 .statBlock {

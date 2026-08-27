@@ -58,6 +58,20 @@ async function blockToContent(block) {
     return { type: "toggle", text, segments: richTextToSegments(value?.rich_text || []), children };
   }
 
+  // Un "callout" Notion peut porter une réponse sous forme de blocs enfants
+  // indentés dessous (ex. question dans le callout, réponse en paragraphe
+  // imbriqué) : jamais renvoyés par le listing du parent, comme pour un
+  // toggle, donc à aller chercher séparément.
+  if (block.type === "callout") {
+    const text = richTextToPlainText(value?.rich_text || []);
+    if (!text) return null;
+
+    const childBlocks = block.has_children ? await listBlockChildren(block.id) : [];
+    const children = (await Promise.all(childBlocks.map((child) => blockToContent(child)))).filter(Boolean);
+
+    return { type: "callout", text, segments: richTextToSegments(value?.rich_text || []), children };
+  }
+
   // Un tableau Notion n'a pas de rich_text propre : chaque ligne est un bloc
   // "table_row" enfant, avec une cellule par colonne (elle-même un tableau
   // de rich_text). Il faut donc aller chercher ces lignes séparément.

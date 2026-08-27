@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-08-26T14:52:45.191Z",
+  "generatedAt": "2026-08-27T09:20:47.857Z",
   "propertyOptions": {},
   "items": [
     {
@@ -5065,7 +5065,7 @@
     {
       "id": "39a88b48-e48e-80e8-87c5-d20ed0ec822e",
       "notionUrl": "https://app.notion.com/p/tape-8-Choisir-les-Atouts-et-les-Handicaps-39a88b48e48e80e887c5d20ed0ec822e",
-      "lastEditedTime": "2026-08-04T07:45:00.000Z",
+      "lastEditedTime": "2026-08-27T09:08:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -5493,6 +5493,36 @@
             },
             {
               "text": ", même s'ils continuent à affecter le personnage normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "callout",
+          "text": "Question : Suis-je vraiment limité à 7 points d’atouts ?",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Réponse : Oui. Le système d’atouts est conçu pour permettre à chaque personnage protagoniste d'être unique en obligeant les joueurs à faire des choix concernant les qualités spéciales de leurs personnages. La limitation des atouts permet une grande diversité de caractères et empêche la dérive de pouvoir dans les chroniques à long terme. ",
+              "spans": [
+                {
+                  "text": "Réponse :",
+                  "bold": true
+                },
+                {
+                  "text": " Oui. Le système d’atouts est conçu pour permettre à chaque personnage protagoniste d'être unique en obligeant les joueurs à faire des choix concernant les qualités spéciales de leurs personnages. La limitation des atouts permet une grande diversité de caractères et empêche la dérive de pouvoir dans les chroniques à long terme. ",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Question :",
+              "bold": true
+            },
+            {
+              "text": " Suis-je vraiment limité à 7 points d’atouts ?",
               "bold": false
             }
           ]

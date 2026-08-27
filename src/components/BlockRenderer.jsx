@@ -1,5 +1,6 @@
 import { Fragment } from "react";
 import { Link } from "react-router-dom";
+import { HelpCircle } from "lucide-react";
 import ContentBlocks from "./ContentBlocks";
 
 function renderSpans(block, onItemClick) {
@@ -36,6 +37,17 @@ export default function Block({ block, onItemClick, manifest }) {
         );
     }
     if (block.type === "quote") return <blockquote>{renderSpans(block, onItemClick)}</blockquote>;
+    if (block.type === "callout") {
+        return (
+            <aside className="calloutBlock">
+                <HelpCircle className="calloutIcon" size={18} aria-hidden="true" />
+                <div className="calloutContent">
+                    <p className="calloutText">{renderSpans(block, onItemClick)}</p>
+                    {block.children?.length ? <ContentBlocks content={block.children} manifest={manifest} /> : null}
+                </div>
+            </aside>
+        );
+    }
     if (block.type === "bulleted_list_item") return <li>{renderSpans(block, onItemClick)}</li>;
     if (block.type === "numbered_list_item") return <li>{renderSpans(block, onItemClick)}</li>;
     if (block.type === "divider") return <hr />;

@@ -112,13 +112,6 @@
     file: "/data/collections/historiques.json"
   },
   {
-    key: "faq",
-    label: "FAQ",
-    group: "Ressources",
-    envVar: "NOTION_DATABASE_FAQ",
-    file: "/data/collections/faq.json"
-  },
-  {
     key: "atouts-lieux",
     label: "Atouts de Lieux",
     group: "Atouts de Lieux",
