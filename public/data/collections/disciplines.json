@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-08-27T18:21:39.018Z",
+  "generatedAt": "2026-09-01T10:51:39.456Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -550,10 +550,26 @@
           "value": [
             {
               "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "clans",
               "slug": "nosferatu",
               "title": "Nosfératu",
               "cout": null,
               "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
               "complet": false
             },
             {
@@ -621,7 +637,24 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -913,6 +946,14 @@
             },
             {
               "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "clans",
               "slug": "tremere",
               "title": "Tremere",
               "cout": null,
@@ -995,6 +1036,14 @@
           "value": [
             {
               "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
               "cout": null,
@@ -1014,7 +1063,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             },
             {
@@ -1347,6 +1396,14 @@
           "value": [
             {
               "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
               "slug": "guerrier",
               "title": "Guerrier",
               "cout": null,
@@ -1602,7 +1659,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -2087,6 +2153,14 @@
               "title": "Sorcier",
               "cout": null,
               "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
               "complet": false
             },
             {
@@ -3053,6 +3127,14 @@
           "value": [
             {
               "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "clans",
               "slug": "ventrue",
               "title": "Ventrue",
               "cout": null,
@@ -3920,6 +4002,14 @@
           "value": [
             {
               "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
               "slug": "ananke",
               "title": "Ananke",
               "cout": null,
@@ -3947,7 +4037,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             },
             {
@@ -4229,7 +4319,16 @@
         },
         "Clans": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -4279,6 +4378,22 @@
         "Lignées": {
           "type": "relation",
           "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
             {
               "collectionKey": "lignees",
               "slug": "tlacique",
@@ -6924,7 +7039,16 @@
         },
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Nom": {
           "type": "text",
@@ -8772,7 +8896,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             },
             {

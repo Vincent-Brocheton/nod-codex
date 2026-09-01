@@ -4,9 +4,336 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-08-27T18:21:39.040Z",
+  "generatedAt": "2026-09-01T10:51:39.481Z",
   "propertyOptions": {},
   "items": [
+    {
+      "id": "39388b48-e48e-80db-87d3-e12b94a90fd6",
+      "notionUrl": "https://app.notion.com/p/Ahrimanes-39388b48e48e80db87d3e12b94a90fd6",
+      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "rat-en-cage",
+              "title": "Rat en cage",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "parole-d-espece",
+              "title": "Parole d’espèce",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "mort-vivant",
+              "title": "Mort-vivant",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-maitrise-elementaire",
+              "title": "Voie de la Maîtrise Elémentaire",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "forme-de-la-colere-de-la-bete",
+              "title": "Forme de la Colère de la Bête",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-ahrimanes",
+              "title": "Lignée : Ahrimanes",
+              "cout": "4",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-proteique",
+              "title": "Sang Protéique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voyageur-chevronne",
+              "title": "Voyageur chevronné",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "indulgence-sanguine",
+              "title": "Indulgence Sanguine",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "dechirement",
+              "title": "Déchirement",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Ahrimanes"
+        }
+      },
+      "title": "Ahrimanes",
+      "slug": "ahrimanes",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ahrimanes forment une lignée extrêmement rare de Gangrel exclusivement composée de femmes, originaire du sud des États-Unis.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Ahrimanes",
+              "bold": true
+            },
+            {
+              "text": " forment une lignée extrêmement rare de Gangrel exclusivement composée de femmes, originaire du sud des États-Unis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Profondément chamaniques, elles entretiennent un lien privilégié avec les esprits sous toutes leurs formes. Leur connaissance du monde spirituel rivalise avec leur réputation de discrétion et de violence.",
+          "spans": [
+            {
+              "text": "Profondément chamaniques, elles entretiennent un lien privilégié avec les esprits sous toutes leurs formes. Leur connaissance du monde spirituel rivalise avec leur réputation de discrétion et de violence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ahrimanes vivent dans le plus grand secret et n'accordent leur confiance qu'à un cercle très restreint d'initiées.",
+          "spans": [
+            {
+              "text": "Les Ahrimanes vivent dans le plus grand secret et n'accordent leur confiance qu'à un cercle très restreint d'initiées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Seuls les personnages féminins peuvent choisir cette lignée.",
+          "spans": [
+            {
+              "text": "Seuls les ",
+              "bold": false
+            },
+            {
+              "text": "personnages féminins",
+              "bold": true
+            },
+            {
+              "text": " peuvent choisir cette lignée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien qu'elles soient apparues au sein du Sabbat, leur extrême rareté fait qu'aucune secte ne peut véritablement revendiquer leur allégeance. La plupart choisissent de demeurer Autarkis.",
+          "spans": [
+            {
+              "text": "Bien qu'elles soient apparues au sein du Sabbat, leur extrême rareté fait qu'aucune secte ne peut véritablement revendiquer leur allégeance. La plupart choisissent de demeurer ",
+              "bold": false
+            },
+            {
+              "text": "Autarkis",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Gangrel possède en permanence un trait physique animal caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+          "spans": [
+            {
+              "text": "Chaque Gangrel possède en permanence ",
+              "bold": false
+            },
+            {
+              "text": "un trait physique animal",
+              "bold": true
+            },
+            {
+              "text": " caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois qu'un Gangrel entre en frénésie, il développe temporairement un trait animal supplémentaire.",
+          "spans": [
+            {
+              "text": "Chaque fois qu'un Gangrel entre en ",
+              "bold": false
+            },
+            {
+              "text": "frénésie",
+              "bold": true
+            },
+            {
+              "text": ", il développe ",
+              "bold": false
+            },
+            {
+              "text": "temporairement un trait animal supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "spans": [
+            {
+              "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
+              "bold": false
+            },
+            {
+              "text": "le trait animal permanent ne disparaît jamais",
+              "bold": true
+            },
+            {
+              "text": ". Il peut être dissimulé sous des vêtements, masqué grâce à ",
+              "bold": false
+            },
+            {
+              "text": "Occultation",
+              "bold": true
+            },
+            {
+              "text": " ou supprimé temporairement par des pouvoirs tels que ",
+              "bold": false
+            },
+            {
+              "text": "Vicissitude",
+              "bold": true
+            },
+            {
+              "text": ", mais il réapparaît systématiquement après le sommeil du vampire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "39588b48-e48e-800d-9846-c61bda685c85",
       "notionUrl": "https://app.notion.com/p/Ananke-39588b48e48e800d9846c61bda685c85",
@@ -793,6 +1120,331 @@
             },
             {
               "text": ", et jamais à 0, contrairement aux autres vampires.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-802e-a106-fcf9a637c8fc",
+      "notionUrl": "https://app.notion.com/p/Coyote-39388b48e48e802ea106fcf9a637c8fc",
+      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "rat-en-cage",
+              "title": "Rat en cage",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "parole-d-espece",
+              "title": "Parole d’espèce",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "mort-vivant",
+              "title": "Mort-vivant",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "celerite",
+              "title": "Célérité",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "forme-de-la-colere-de-la-bete",
+              "title": "Forme de la Colère de la Bête",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-coyote",
+              "title": "Lignée : Coyote",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-proteique",
+              "title": "Sang Protéique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voyageur-chevronne",
+              "title": "Voyageur chevronné",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "l-homme-en-noir",
+              "title": "L’homme en noir",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "indulgence-sanguine",
+              "title": "Indulgence Sanguine",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "la-chance-des-damnes",
+              "title": "La chance des damnés",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "dechirement",
+              "title": "Déchirement",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sournoiserie",
+              "title": "Sournoiserie",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Coyote"
+        }
+      },
+      "title": "Coyote",
+      "slug": "coyote",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Coyotes, plus communément appelés les Gangrel des villes, sont les prédateurs ultimes du milieu urbain.",
+          "spans": [
+            {
+              "text": "Les ",
+              "bold": false
+            },
+            {
+              "text": "Coyotes",
+              "bold": true
+            },
+            {
+              "text": ", plus communément appelés les ",
+              "bold": false
+            },
+            {
+              "text": "Gangrel des villes",
+              "bold": true
+            },
+            {
+              "text": ", sont les prédateurs ultimes du milieu urbain.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Bien que cette lignée existe depuis plusieurs siècles, elle ne prit véritablement son essor qu'au cours de la Révolution industrielle, lorsque l'expansion des villes et les progrès technologiques transformèrent profondément le monde.",
+          "spans": [
+            {
+              "text": "Bien que cette lignée existe depuis plusieurs siècles, elle ne prit véritablement son essor qu'au cours de la Révolution industrielle, lorsque l'expansion des villes et les progrès technologiques transformèrent profondément le monde.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarkis, les Anarchs et, plus rarement, au sein de la Camarilla.",
+          "spans": [
+            {
+              "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarkis, les Anarchs et, plus rarement, au sein de la Camarilla.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Contrairement à la majorité des Gangrel, ils se sentent parfaitement à leur place dans les environnements urbains. Ce sont principalement de jeunes vampires qui considèrent la ville comme leur territoire de chasse et repoussent sans cesse les limites de leurs capacités vampiriques.",
+          "spans": [
+            {
+              "text": "Contrairement à la majorité des Gangrel, ils se sentent parfaitement à leur place dans les environnements urbains. Ce sont principalement de jeunes vampires qui considèrent la ville comme leur territoire de chasse et repoussent sans cesse les limites de leurs capacités vampiriques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Gangrel possède en permanence un trait physique animal caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+          "spans": [
+            {
+              "text": "Chaque Gangrel possède en permanence ",
+              "bold": false
+            },
+            {
+              "text": "un trait physique animal",
+              "bold": true
+            },
+            {
+              "text": " caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois qu'un Gangrel entre en frénésie, il développe temporairement un trait animal supplémentaire.",
+          "spans": [
+            {
+              "text": "Chaque fois qu'un Gangrel entre en ",
+              "bold": false
+            },
+            {
+              "text": "frénésie",
+              "bold": true
+            },
+            {
+              "text": ", il développe ",
+              "bold": false
+            },
+            {
+              "text": "temporairement un trait animal supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "spans": [
+            {
+              "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
+              "bold": false
+            },
+            {
+              "text": "le trait animal permanent ne disparaît jamais",
+              "bold": true
+            },
+            {
+              "text": ". Il peut être dissimulé sous des vêtements, masqué grâce à ",
+              "bold": false
+            },
+            {
+              "text": "Occultation",
+              "bold": true
+            },
+            {
+              "text": " ou supprimé temporairement par des pouvoirs tels que ",
+              "bold": false
+            },
+            {
+              "text": "Vicissitude",
+              "bold": true
+            },
+            {
+              "text": ", mais il réapparaît systématiquement après le sommeil du vampire.",
               "bold": false
             }
           ]
@@ -2075,6 +2727,333 @@
       ]
     },
     {
+      "id": "39388b48-e48e-8077-9d38-ea0ece2f7724",
+      "notionUrl": "https://app.notion.com/p/Noiad-39388b48e48e80779d38ea0ece2f7724",
+      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "rat-en-cage",
+              "title": "Rat en cage",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "parole-d-espece",
+              "title": "Parole d’espèce",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "mort-vivant",
+              "title": "Mort-vivant",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "forme-de-la-colere-de-la-bete",
+              "title": "Forme de la Colère de la Bête",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-noiad",
+              "title": "Lignée : Noiad",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-proteique",
+              "title": "Sang Protéique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voyageur-chevronne",
+              "title": "Voyageur chevronné",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "predateur-aquatique",
+              "title": "Prédateur aquatique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "indulgence-sanguine",
+              "title": "Indulgence Sanguine",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "du-sang-dans-l-eau",
+              "title": "Du sang dans l’eau",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "dechirement",
+              "title": "Déchirement",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sorciere-des-mers",
+              "title": "Sorcière des mers",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Noiad"
+        }
+      },
+      "title": "Noiad",
+      "slug": "noiad",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Parmi toutes les lignées Gangrel, les énigmatiques Noiad sont probablement les plus rares.",
+          "spans": [
+            {
+              "text": "Parmi toutes les lignées Gangrel, les énigmatiques ",
+              "bold": false
+            },
+            {
+              "text": "Noiad",
+              "bold": true
+            },
+            {
+              "text": " sont probablement les plus rares.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leur lignée apparut en Finlande durant le Moyen Âge. À mesure que la civilisation progressait, leurs tribus mortelles migrèrent toujours plus au nord afin d'échapper à la modernisation et de préserver leurs traditions.",
+          "spans": [
+            {
+              "text": "Leur lignée apparut en Finlande durant le Moyen Âge. À mesure que la civilisation progressait, leurs tribus mortelles migrèrent toujours plus au nord afin d'échapper à la modernisation et de préserver leurs traditions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Noiad sont des mystiques et des prophètes. Ils affirment contempler l'avenir dans les lumières des aurores boréales.",
+          "spans": [
+            {
+              "text": "Les Noiad sont des mystiques et des prophètes. Ils affirment contempler l'avenir dans les lumières des aurores boréales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Installés dans les régions les plus septentrionales du monde, ils bénéficient de longues périodes durant lesquelles le soleil ne se lève pas. Ils consacrent alors ces mois d'obscurité à l'observation du ciel et à la recherche de prophéties.",
+          "spans": [
+            {
+              "text": "Installés dans les régions les plus septentrionales du monde, ils bénéficient de longues périodes durant lesquelles le soleil ne se lève pas. Ils consacrent alors ces mois d'obscurité à l'observation du ciel et à la recherche de prophéties.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres Gangrel viennent parfois solliciter leurs présages, mais les Noiad accueillent rarement les étrangers avec confiance et protègent farouchement leurs terres.",
+          "spans": [
+            {
+              "text": "Les autres Gangrel viennent parfois solliciter leurs présages, mais les Noiad accueillent rarement les étrangers avec confiance et protègent farouchement leurs terres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Gangrel possède en permanence un trait physique animal caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+          "spans": [
+            {
+              "text": "Chaque Gangrel possède en permanence ",
+              "bold": false
+            },
+            {
+              "text": "un trait physique animal",
+              "bold": true
+            },
+            {
+              "text": " caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois qu'un Gangrel entre en frénésie, il développe temporairement un trait animal supplémentaire.",
+          "spans": [
+            {
+              "text": "Chaque fois qu'un Gangrel entre en ",
+              "bold": false
+            },
+            {
+              "text": "frénésie",
+              "bold": true
+            },
+            {
+              "text": ", il développe ",
+              "bold": false
+            },
+            {
+              "text": "temporairement un trait animal supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "spans": [
+            {
+              "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
+              "bold": false
+            },
+            {
+              "text": "le trait animal permanent ne disparaît jamais",
+              "bold": true
+            },
+            {
+              "text": ". Il peut être dissimulé sous des vêtements, masqué grâce à ",
+              "bold": false
+            },
+            {
+              "text": "Occultation",
+              "bold": true
+            },
+            {
+              "text": " ou supprimé temporairement par des pouvoirs tels que ",
+              "bold": false
+            },
+            {
+              "text": "Vicissitude",
+              "bold": true
+            },
+            {
+              "text": ", mais il réapparaît systématiquement après le sommeil du vampire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-8041-ab7a-eea663f2f5c1",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
       "lastEditedTime": "2026-08-11T17:54:00.000Z",
@@ -2412,11 +3391,11 @@
     {
       "id": "39588b48-e48e-8094-9fbf-d86cc5ec5bf4",
       "notionUrl": "https://app.notion.com/p/Telyav-39588b48e48e80949fbfd86cc5ec5bf4",
-      "lastEditedTime": "2026-08-24T16:25:00.000Z",
+      "lastEditedTime": "2026-08-31T12:22:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
-          "value": false
+          "value": true
         },
         "Handicaps": {
           "type": "relation",

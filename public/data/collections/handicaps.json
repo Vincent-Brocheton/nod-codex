@@ -4,7 +4,7 @@
   "group": "Atouts et Handicaps",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80ff-94c5-f3b3d8c9e3bc",
-  "generatedAt": "2026-08-27T18:21:39.048Z",
+  "generatedAt": "2026-09-01T10:51:39.496Z",
   "propertyOptions": {
     "Type": [
       "Clan",
@@ -1058,7 +1058,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             }
           ]
@@ -1202,7 +1202,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",
@@ -1510,7 +1519,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             }
           ]
@@ -2328,7 +2337,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",
@@ -4259,7 +4277,32 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -4271,7 +4314,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",
@@ -4676,7 +4728,32 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -4688,7 +4765,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",
@@ -4737,7 +4823,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             }
           ]
@@ -5435,7 +5521,32 @@
       "properties": {
         "Lignées": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Approbation": {
           "type": "checkbox",
@@ -5447,7 +5558,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",
@@ -6554,7 +6674,16 @@
         },
         "Clan": {
           "type": "relation",
-          "value": []
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "ravnos",
+              "title": "Ravnos",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
         },
         "Coût": {
           "type": "select",

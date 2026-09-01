@@ -4,7 +4,7 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-08-27T18:21:39.038Z",
+  "generatedAt": "2026-09-01T10:51:39.478Z",
   "propertyOptions": {},
   "items": [
     {
@@ -1247,6 +1247,430 @@
             },
             {
               "text": " à d'autres personnages. Cette incapacité reflète l'absence de tradition, de méthode et de transmission propre à leur condition.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "39388b48-e48e-80dc-8ea8-ec6d9f6a024a",
+      "notionUrl": "https://app.notion.com/p/Gangrel-39388b48e48e80dc8ea8ec6d9f6a024a",
+      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "mysteres",
+              "slug": "gangrel",
+              "title": "Gangrel",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "mort-vivant",
+              "title": "Mort-vivant",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "parole-d-espece",
+              "title": "Parole d’espèce",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "rat-en-cage",
+              "title": "Rat en cage",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Hors la loi"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d’Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "proteisme",
+              "title": "Protéisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "forme-de-la-colere-de-la-bete",
+              "title": "Forme de la Colère de la Bête",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-ahrimanes",
+              "title": "Lignée : Ahrimanes",
+              "cout": "4",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-coyote",
+              "title": "Lignée : Coyote",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "lignee-noiad",
+              "title": "Lignée : Noiad",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "sang-proteique",
+              "title": "Sang Protéique",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voyageur-chevronne",
+              "title": "Voyageur chevronné",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "indulgence-sanguine",
+              "title": "Indulgence Sanguine",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "dechirement",
+              "title": "Déchirement",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "ahrimanes",
+              "title": "Ahrimanes",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "coyote",
+              "title": "Coyote",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            },
+            {
+              "collectionKey": "lignees",
+              "slug": "noiad",
+              "title": "Noiad",
+              "cout": null,
+              "approbation": true,
+              "complet": false
+            }
+          ]
+        },
+        "Accroche": {
+          "type": "text",
+          "value": "Prédateurs sauvages, proches de la nature et de la Bête."
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Gangrel"
+        }
+      },
+      "title": "Gangrel",
+      "slug": "gangrel",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les autres vampires considèrent souvent les Gangrel comme des créatures primitives. Ils confondent cependant le primitif avec le prédateur. Certes, les Gangrel peuvent se montrer sauvages, cruels et guidés par leurs instincts animaux, mais ils sont également des chasseurs patients, rusés et parfaitement capables de faire preuve de civilisation.",
+          "spans": [
+            {
+              "text": "Les autres vampires considèrent souvent les Gangrel comme des créatures primitives. Ils confondent cependant le primitif avec le prédateur. Certes, les Gangrel peuvent se montrer sauvages, cruels et guidés par leurs instincts animaux, mais ils sont également des chasseurs patients, rusés et parfaitement capables de faire preuve de civilisation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Naturellement méfiants et solitaires, les Gangrel se tiennent à l'écart des structures politiques et des hiérarchies vampiriques. Ils préfèrent vivre selon leurs propres règles plutôt que de se soumettre à celles des autres. Cet individualisme a favorisé l'apparition de nombreuses lignées, comme les Anda, les Mariners, les Noiad ou encore les Coyotes, dont les Disciplines diffèrent parfois de celles du clan originel. Malgré ces différences, tous sont reconnus comme de véritables Gangrel.",
+          "spans": [
+            {
+              "text": "Naturellement méfiants et solitaires, les Gangrel se tiennent à l'écart des structures politiques et des hiérarchies vampiriques. Ils préfèrent vivre selon leurs propres règles plutôt que de se soumettre à celles des autres. Cet individualisme a favorisé l'apparition de nombreuses lignées, comme les ",
+              "bold": false
+            },
+            {
+              "text": "Anda",
+              "bold": true
+            },
+            {
+              "text": ", les ",
+              "bold": false
+            },
+            {
+              "text": "Mariners",
+              "bold": true
+            },
+            {
+              "text": ", les ",
+              "bold": false
+            },
+            {
+              "text": "Noiad",
+              "bold": true
+            },
+            {
+              "text": " ou encore les ",
+              "bold": false
+            },
+            {
+              "text": "Coyotes",
+              "bold": true
+            },
+            {
+              "text": ", dont les Disciplines diffèrent parfois de celles du clan originel. Malgré ces différences, tous sont reconnus comme de véritables Gangrel.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Là où d'autres clans recherchent le pouvoir politique, les intrigues ou les richesses, les Gangrel privilégient la liberté, les voyages et la survie. Peu fréquentent durablement les cours vampiriques et ils accordent généralement peu d'importance aux alliances ou aux rivalités entre clans. Lorsqu'un Gangrel entre en conflit avec un autre vampire, il s'agit bien plus souvent d'une question de territoire ou de droits de chasse que d'enjeux politiques.",
+          "spans": [
+            {
+              "text": "Là où d'autres clans recherchent le pouvoir politique, les intrigues ou les richesses, les Gangrel privilégient la liberté, les voyages et la survie. Peu fréquentent durablement les cours vampiriques et ils accordent généralement peu d'importance aux alliances ou aux rivalités entre clans. Lorsqu'un Gangrel entre en conflit avec un autre vampire, il s'agit bien plus souvent d'une question de territoire ou de droits de chasse que d'enjeux politiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan ne juge pas davantage ses membres selon leur ancienneté. Contrairement à la plupart des autres lignées vampiriques, les Gangrel accordent leur respect en fonction de la valeur individuelle, du courage et des capacités de chacun. Les anciens exigent le respect, mais ils savent qu'il se mérite avant tout par les actes.",
+          "spans": [
+            {
+              "text": "Le clan ne juge pas davantage ses membres selon leur ancienneté. Contrairement à la plupart des autres lignées vampiriques, les Gangrel accordent leur respect en fonction de la valeur individuelle, du courage et des capacités de chacun. Les anciens exigent le respect, mais ils savent qu'il se mérite avant tout par les actes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La plupart des Gangrel arborent une apparence négligée, rude et marquée par les voyages. Leur mode de vie errant se reflète dans leurs vêtements, leur attitude et leur rapport au monde. Lorsqu'ils sombrent dans la frénésie, leur Bête se manifeste jusque dans leur apparence, leur faisant adopter des traits empruntés aux animaux.",
+          "spans": [
+            {
+              "text": "La plupart des Gangrel arborent une apparence négligée, rude et marquée par les voyages. Leur mode de vie errant se reflète dans leurs vêtements, leur attitude et leur rapport au monde. Lorsqu'ils sombrent dans la frénésie, leur Bête se manifeste jusque dans leur apparence, leur faisant adopter des traits empruntés aux animaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un infant, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
+          "spans": [
+            {
+              "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un infant, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation",
+          "spans": [
+            {
+              "text": "Organisation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À l'occasion, les Gangrel se réunissent afin d'échanger des nouvelles, de raconter leurs voyages ou de discuter des événements récents. Ces rassemblements demeurent informels, rarement planifiés et ne durent généralement que quelques nuits.",
+          "spans": [
+            {
+              "text": "À l'occasion, les Gangrel se réunissent afin d'échanger des nouvelles, de raconter leurs voyages ou de discuter des événements récents. Ces rassemblements demeurent informels, rarement planifiés et ne durent généralement que quelques nuits.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En dehors du lien entre sire et infant, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé - ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
+          "spans": [
+            {
+              "text": "En dehors du lien entre sire et infant, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé - ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Gangrel possède en permanence un trait physique animal caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+          "spans": [
+            {
+              "text": "Chaque Gangrel possède en permanence ",
+              "bold": false
+            },
+            {
+              "text": "un trait physique animal",
+              "bold": true
+            },
+            {
+              "text": " caractéristique. Il peut s'agir, par exemple, d'yeux de rapace, d'une peau écailleuse, d'une crinière léonine ou de tout autre attribut évoquant une bête.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois qu'un Gangrel entre en frénésie, il développe temporairement un trait animal supplémentaire.",
+          "spans": [
+            {
+              "text": "Chaque fois qu'un Gangrel entre en ",
+              "bold": false
+            },
+            {
+              "text": "frénésie",
+              "bold": true
+            },
+            {
+              "text": ", il développe ",
+              "bold": false
+            },
+            {
+              "text": "temporairement un trait animal supplémentaire",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "spans": [
+            {
+              "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
+              "bold": false
+            },
+            {
+              "text": "le trait animal permanent ne disparaît jamais",
+              "bold": true
+            },
+            {
+              "text": ". Il peut être dissimulé sous des vêtements, masqué grâce à ",
+              "bold": false
+            },
+            {
+              "text": "Occultation",
+              "bold": true
+            },
+            {
+              "text": " ou supprimé temporairement par des pouvoirs tels que ",
+              "bold": false
+            },
+            {
+              "text": "Vicissitude",
+              "bold": true
+            },
+            {
+              "text": ", mais il réapparaît systématiquement après le sommeil du vampire.",
               "bold": false
             }
           ]
@@ -3193,6 +3617,332 @@
       ]
     },
     {
+      "id": "39388b48-e48e-8087-be51-e7267217d422",
+      "notionUrl": "https://app.notion.com/p/Ravnos-39388b48e48e8087be51e7267217d422",
+      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "properties": {
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Mystères": {
+          "type": "relation",
+          "value": []
+        },
+        "Handicaps de Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "fausse-piste",
+              "title": "Fausse piste",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "svadharma-perdu",
+              "title": "Svadharma perdu",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "confusion-des-realites",
+              "title": "Confusion des réalités",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Surnoms": {
+          "type": "text",
+          "value": "Les Trompeurs"
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "animalisme",
+              "title": "Animalisme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "chimerie",
+              "title": "Chimerie",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts de clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "jeux-d-esprit",
+              "title": "jeux d’esprit",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "reve-eveille",
+              "title": "Rêve éveillé",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "transactions-louches",
+              "title": "Transactions louches",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "existence-blasee",
+              "title": "Existence blasée",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "roi-de-l-evasion",
+              "title": "Roi de l’évasion",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": []
+        },
+        "Accroche": {
+          "type": "text",
+          "value": "Nomades illusionnistes, épris de liberté et de tromperie."
+        },
+        "Complet": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Ravnos"
+        }
+      },
+      "title": "Ravnos",
+      "slug": "ravnos",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan Ravnos porte une réputation aussi ancienne que lourde à porter. Ses membres sont connus comme des escrocs, des voleurs, des illusionnistes et des vagabonds, préférant prendre ce qu'ils désirent avant de disparaître vers un nouvel horizon. Ils rejettent volontiers les autorités établies, se préoccupent peu des frontières entre les sectes et considèrent les lois comme autant d'obstacles à contourner.",
+          "spans": [
+            {
+              "text": "Le clan ",
+              "bold": false
+            },
+            {
+              "text": "Ravnos",
+              "bold": true
+            },
+            {
+              "text": " porte une réputation aussi ancienne que lourde à porter. Ses membres sont connus comme des escrocs, des voleurs, des illusionnistes et des vagabonds, préférant prendre ce qu'ils désirent avant de disparaître vers un nouvel horizon. Ils rejettent volontiers les autorités établies, se préoccupent peu des frontières entre les sectes et considèrent les lois comme autant d'obstacles à contourner.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Au cours des Nuits Récentes, une catastrophe frappa durement le clan durant la Semaine des Cauchemars, réduisant les Ravnos à une poignée de survivants. Depuis, ils s'efforcent lentement de reconstituer leurs rangs. La majorité des Ravnos actuels sont donc de jeunes Étreintes, encore peu familières avec les subtilités du monde vampirique, tandis que les anciens vivent reclus, craignant qu'une nouvelle purge ne vienne achever leur lignée. À l'image des anciens gourous, ils ne transmettent leur savoir qu'à ceux qu'ils jugent dignes de le recevoir.",
+          "spans": [
+            {
+              "text": "Au cours des Nuits Récentes, une catastrophe frappa durement le clan durant la ",
+              "bold": false
+            },
+            {
+              "text": "Semaine des Cauchemars",
+              "bold": true
+            },
+            {
+              "text": ", réduisant les Ravnos à une poignée de survivants. Depuis, ils s'efforcent lentement de reconstituer leurs rangs. La majorité des Ravnos actuels sont donc de jeunes Étreintes, encore peu familières avec les subtilités du monde vampirique, tandis que les anciens vivent reclus, craignant qu'une nouvelle purge ne vienne achever leur lignée. À l'image des anciens gourous, ils ne transmettent leur savoir qu'à ceux qu'ils jugent dignes de le recevoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette reconstruction place aujourd'hui le clan face à une profonde crise identitaire. Les jeunes Ravnos souhaitent rompre avec les traditions et embrasser le monde moderne, tandis que les anciens s'accrochent aux coutumes héritées d'une époque où le clan suivait encore une organisation fortement marquée par les castes de l'Inde ancienne. Entre ces deux générations s'opposent deux visions du futur : préserver les anciennes vérités ou accepter le changement.",
+          "spans": [
+            {
+              "text": "Cette reconstruction place aujourd'hui le clan face à une profonde crise identitaire. Les jeunes Ravnos souhaitent rompre avec les traditions et embrasser le monde moderne, tandis que les anciens s'accrochent aux coutumes héritées d'une époque où le clan suivait encore une organisation fortement marquée par les castes de l'Inde ancienne. Entre ces deux générations s'opposent deux visions du futur : préserver les anciennes vérités ou accepter le changement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à leur maîtrise de la Chimérie, les Ravnos excellent dans l'art de brouiller la frontière entre illusion et réalité. Les plus opportunistes utilisent ce pouvoir pour escroquer, manipuler ou obtenir des profits immédiats. Les plus sages y voient au contraire un chemin philosophique vers une compréhension supérieure de la nature de la vérité, étudiant les rapports entre perception, mensonge et réalité.",
+          "spans": [
+            {
+              "text": "Grâce à leur maîtrise de la ",
+              "bold": false
+            },
+            {
+              "text": "Chimérie",
+              "bold": true
+            },
+            {
+              "text": ", les Ravnos excellent dans l'art de brouiller la frontière entre illusion et réalité. Les plus opportunistes utilisent ce pouvoir pour escroquer, manipuler ou obtenir des profits immédiats. Les plus sages y voient au contraire un chemin philosophique vers une compréhension supérieure de la nature de la vérité, étudiant les rapports entre perception, mensonge et réalité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les jeunes Ravnos peuvent être issus de n'importe quelle culture ou nationalité. Le clan choisit principalement des individus capables de survivre en marge de la société : voyageurs, artistes itinérants, militants, marginaux, musiciens, fugueurs, membres de communautés nomades ou simples débrouillards. Les anciens, quant à eux, proviennent souvent de la caste brahmane de l'Inde, témoins d'une époque aujourd'hui révolue.",
+          "spans": [
+            {
+              "text": "Les jeunes Ravnos peuvent être issus de n'importe quelle culture ou nationalité. Le clan choisit principalement des individus capables de survivre en marge de la société : voyageurs, artistes itinérants, militants, marginaux, musiciens, fugueurs, membres de communautés nomades ou simples débrouillards. Les anciens, quant à eux, proviennent souvent de la caste brahmane de l'Inde, témoins d'une époque aujourd'hui révolue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le clan se trouve ainsi à la croisée des chemins, partagé entre le respect des traditions ancestrales et l'acceptation d'un monde en constante évolution.",
+          "spans": [
+            {
+              "text": "Le clan se trouve ainsi à la croisée des chemins, partagé entre le respect des traditions ancestrales et l'acceptation d'un monde en constante évolution.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Organisation",
+          "spans": [
+            {
+              "text": "Organisation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'autonomie constitue la valeur fondamentale des Ravnos.",
+          "spans": [
+            {
+              "text": "L'autonomie constitue la valeur fondamentale des Ravnos.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Leurs membres parcourent librement le monde et s'intéressent peu aux structures de la société vampirique. La plupart sont de jeunes vampires impulsifs, parfois égoïstes et guidés par des objectifs à court terme. Ceux qui survivent à cette période d'apprentissage deviendront les véritables bâtisseurs de l'avenir du clan.",
+          "spans": [
+            {
+              "text": "Leurs membres parcourent librement le monde et s'intéressent peu aux structures de la société vampirique. La plupart sont de jeunes vampires impulsifs, parfois égoïstes et guidés par des objectifs à court terme. Ceux qui survivent à cette période d'apprentissage deviendront les véritables bâtisseurs de l'avenir du clan.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Faiblesse de clan",
+          "spans": [
+            {
+              "text": "Faiblesse de clan",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Ravnos sont prisonniers de leurs propres vices.",
+          "spans": [
+            {
+              "text": "Les Ravnos sont prisonniers de leurs propres vices.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque Ravnos possède obligatoirement un Dérangement de type Compulsion, représentant une obsession ou un vice particulier, comme le mensonge, le vol, la cruauté, le jeu ou toute autre faiblesse comparable. Dès qu'une occasion se présente, il ressent un besoin irrésistible de satisfaire cette compulsion.",
+          "spans": [
+            {
+              "text": "Chaque Ravnos possède obligatoirement un ",
+              "bold": false
+            },
+            {
+              "text": "Dérangement de type Compulsion",
+              "bold": true
+            },
+            {
+              "text": ", représentant une obsession ou un vice particulier, comme le mensonge, le vol, la cruauté, le jeu ou toute autre faiblesse comparable. Dès qu'une occasion se présente, il ressent un besoin irrésistible de satisfaire cette compulsion.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce dérangement est inhérent au clan et n'accorde aucun point d'expérience au titre des défauts.",
+          "spans": [
+            {
+              "text": "Ce dérangement est inhérent au clan et ",
+              "bold": false
+            },
+            {
+              "text": "n'accorde aucun point d'expérience",
+              "bold": true
+            },
+            {
+              "text": " au titre des défauts.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-80d7-beef-fcf179f7022b",
       "notionUrl": "https://app.notion.com/p/Setite-39388b48e48e80d7beeffcf179f7022b",
       "lastEditedTime": "2026-07-22T14:50:00.000Z",
@@ -4316,7 +5066,7 @@
               "slug": "telyav",
               "title": "Telyav",
               "cout": null,
-              "approbation": false,
+              "approbation": true,
               "complet": false
             }
           ]
