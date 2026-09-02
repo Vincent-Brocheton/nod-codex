@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80c7-92da-ddd911503960",
-  "generatedAt": "2026-09-01T10:51:39.461Z",
+  "generatedAt": "2026-09-02T09:02:45.836Z",
   "propertyOptions": {
     "Focus": [
       "Intelligence",
@@ -27,7 +27,8 @@
       "5 tours",
       "1 heure",
       "1 tour",
-      "1 nuit"
+      "1 nuit",
+      "3 Actions Standard"
     ],
     "Durée": [
       "1 heure",
@@ -54,10 +55,661 @@
       "Jusqu'a annulation volontaire",
       "Jusqu'a ne plus pouvoir se nourrir ou destruction",
       "1 scène",
-      "brisez le contact visuel utilisez un autre pouvoir ou si la cible est attaquée blessée ou ciblée par des pouvoirs hostiles"
+      "brisez le contact visuel utilisez un autre pouvoir ou si la cible est attaquée blessée ou ciblée par des pouvoirs hostiles",
+      "1 tour",
+      "15 minutes",
+      "1 jour"
     ]
   },
   "items": [
+    {
+      "id": "3cf88b48-e48e-800a-a3a9-f0ae3b7f5103",
+      "notionUrl": "https://app.notion.com/p/Accepter-l-treinte-de-la-Mort-3cf88b48e48e800aa3a9f0ae3b7f5103",
+      "lastEditedTime": "2026-09-02T08:16:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-deuil",
+              "title": "Voie du Deuil",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Accepter l'Étreinte de la Mort"
+        }
+      },
+      "title": "Accepter l'Étreinte de la Mort",
+      "slug": "accepter-l-etreinte-de-la-mort",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour toute créature vivante ou non-vivante, la mort constitue une vérité inévitable.",
+          "spans": [
+            {
+              "text": "Pour toute créature vivante ou non-vivante, la mort constitue une vérité inévitable.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dernière étape du deuil, l'acceptation représente la prise de conscience de cette réalité : un état de libération où l'esprit se détache de l'ego et se prépare à ce qui l'attend au-delà.",
+          "spans": [
+            {
+              "text": "Dernière étape du deuil, l'acceptation représente la prise de conscience de cette réalité : un état de libération où l'esprit se détache de l'ego et se prépare à ce qui l'attend au-delà.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains décrivent cet état comme profondément libérateur, un bref instant de lucidité absolue durant lequel ils parviennent enfin à se comprendre eux-mêmes.",
+          "spans": [
+            {
+              "text": "Certains décrivent cet état comme profondément libérateur, un bref instant de lucidité absolue durant lequel ils parviennent enfin à se comprendre eux-mêmes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action standard en annonçant à votre cible que sa mort est imminente.",
+          "spans": [
+            {
+              "text": "Dépensez ",
+              "bold": false
+            },
+            {
+              "text": "1 point de Sang",
+              "bold": true
+            },
+            {
+              "text": " et effectuez une ",
+              "bold": false
+            },
+            {
+              "text": "action standard",
+              "bold": true
+            },
+            {
+              "text": " en annonçant à votre cible que sa mort est imminente.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez disposer de son Regard et de sa Concentration.",
+          "spans": [
+            {
+              "text": "Vous devez disposer de son ",
+              "bold": false
+            },
+            {
+              "text": "Regard et de sa Concentration",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effectuez ensuite un défi opposé.",
+          "spans": [
+            {
+              "text": "Effectuez ensuite un ",
+              "bold": false
+            },
+            {
+              "text": "défi opposé",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, pendant les 10 minutes suivantes, votre cible devient absolument convaincue que sa vie est sur le point de prendre fin.",
+          "spans": [
+            {
+              "text": "En cas de réussite, pendant les ",
+              "bold": false
+            },
+            {
+              "text": "10 minutes suivantes",
+              "bold": true
+            },
+            {
+              "text": ", votre cible devient absolument convaincue que sa vie est sur le point de prendre fin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle doit choisir la manière dont elle estime devoir affronter cette mort.",
+          "spans": [
+            {
+              "text": "Elle doit choisir la manière dont elle estime devoir affronter cette mort.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le joueur sélectionne secrètement l'une des trois restrictions suivantes et en informe le Conteur, sans vous révéler son choix.",
+          "spans": [
+            {
+              "text": "Le joueur sélectionne secrètement l'une des trois restrictions suivantes et en informe le ",
+              "bold": false
+            },
+            {
+              "text": "Conteur",
+              "bold": true
+            },
+            {
+              "text": ", sans vous révéler son choix.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible est attaquée ou menacée, cette restriction s'applique immédiatement.",
+          "spans": [
+            {
+              "text": "Si la cible est attaquée ou menacée, cette restriction s'applique immédiatement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Fuite désespérée",
+          "spans": [
+            {
+              "text": "Fuite désespérée",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible cherche avant tout à survivre en prenant la fuite.",
+          "spans": [
+            {
+              "text": "La cible cherche avant tout à survivre en prenant la fuite.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jusqu'à ce qu'elle meure ou qu'elle ait échappé à tous ses poursuivants, elle doit consacrer toutes ses actions à fuir ou à faciliter sa fuite.",
+          "spans": [
+            {
+              "text": "Jusqu'à ce qu'elle meure ou qu'elle ait échappé à tous ses poursuivants, elle doit consacrer ",
+              "bold": false
+            },
+            {
+              "text": "toutes ses actions à fuir ou à faciliter sa fuite",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle ne peut initier des défis opposés que s'ils contribuent directement à son évasion, par exemple en utilisant Mesmérisme pour ordonner à un garde de s'écarter.",
+          "spans": [
+            {
+              "text": "Elle ne peut initier des défis opposés que s'ils contribuent directement à son évasion, par exemple en utilisant ",
+              "bold": false
+            },
+            {
+              "text": "Mesmérisme",
+              "bold": true
+            },
+            {
+              "text": " pour ordonner à un garde de s'écarter.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si toute fuite est physiquement impossible, elle peut combattre jusqu'à ce qu'une nouvelle possibilité de fuite apparaisse.",
+          "spans": [
+            {
+              "text": "Si toute fuite est physiquement impossible, elle peut combattre jusqu'à ce qu'une nouvelle possibilité de fuite apparaisse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Dernier Combat",
+          "spans": [
+            {
+              "text": "Dernier Combat",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible décide d'affronter la mort de front et cherche une fin glorieuse.",
+          "spans": [
+            {
+              "text": "La cible décide d'affronter la mort de front et cherche une fin glorieuse.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Jusqu'à ce que tous ses attaquants soient morts ou aient pris la fuite, elle ne peut pas tenter de battre en retraite.",
+          "spans": [
+            {
+              "text": "Jusqu'à ce que tous ses attaquants soient morts ou aient pris la fuite, elle ne peut pas tenter de battre en retraite.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle doit consacrer toutes ses actions à neutraliser ses adversaires.",
+          "spans": [
+            {
+              "text": "Elle doit consacrer toutes ses actions à ",
+              "bold": false
+            },
+            {
+              "text": "neutraliser ses adversaires",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ceux-ci sont visibles mais hors de portée, elle doit se déplacer dans leur direction.",
+          "spans": [
+            {
+              "text": "Si ceux-ci sont visibles mais hors de portée, elle doit se déplacer dans leur direction.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut cependant :",
+          "spans": [
+            {
+              "text": "Elle peut cependant :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "chercher une position plus avantageuse ;",
+          "spans": [
+            {
+              "text": "chercher une position plus avantageuse ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "utiliser des couverts ou des passages étroits ;",
+          "spans": [
+            {
+              "text": "utiliser des couverts ou des passages étroits ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "activer des pouvoirs de combat ;",
+          "spans": [
+            {
+              "text": "activer des pouvoirs de combat ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "appeler à l'aide.",
+          "spans": [
+            {
+              "text": "appeler à l'aide.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si ses attaquants se rendent ou prennent la fuite, elle n'est pas obligée de les poursuivre.",
+          "spans": [
+            {
+              "text": "Si ses attaquants se rendent ou prennent la fuite, elle n'est pas obligée de les poursuivre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois tous les attaquants neutralisés, rendus ou hors de vue, elle peut agir normalement.",
+          "spans": [
+            {
+              "text": "Une fois tous les attaquants neutralisés, rendus ou hors de vue, elle peut agir normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Résolution Stoïque",
+          "spans": [
+            {
+              "text": "Résolution Stoïque",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible accepte sa fin avec dignité et n'oppose qu'une résistance limitée.",
+          "spans": [
+            {
+              "text": "La cible accepte sa fin avec dignité et n'oppose qu'une résistance limitée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut combattre ou fuir comme elle le souhaite, mais :",
+          "spans": [
+            {
+              "text": "Elle peut combattre ou fuir comme elle le souhaite, mais :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "elle ne peut pas dépenser de Sang pour se soigner ;",
+          "spans": [
+            {
+              "text": "elle ne peut pas dépenser de Sang pour se soigner ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "elle ne peut pas accepter la manœuvre Assister le Défenseur ;",
+          "spans": [
+            {
+              "text": "elle ne peut pas accepter la manœuvre ",
+              "bold": false
+            },
+            {
+              "text": "Assister le Défenseur",
+              "bold": true
+            },
+            {
+              "text": " ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "elle ne peut pas appeler à l'aide ;",
+          "spans": [
+            {
+              "text": "elle ne peut pas appeler à l'aide ;",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "elle ne peut pas consentir à l'utilisation de pouvoirs alliés destinés à l'aider.",
+          "spans": [
+            {
+              "text": "elle ne peut pas consentir à l'utilisation de pouvoirs alliés destinés à l'aider.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le joueur choisit librement cette option, mais le personnage ne fait pas consciemment ce choix.",
+          "spans": [
+            {
+              "text": "Le joueur choisit librement cette option, mais ",
+              "bold": false
+            },
+            {
+              "text": "le personnage ne fait pas consciemment ce choix",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Il est donc impossible de le contraindre à sélectionner une option précise au moyen de Domination ou d'un autre pouvoir.",
+          "spans": [
+            {
+              "text": "Il est donc impossible de le contraindre à sélectionner une option précise au moyen de ",
+              "bold": false
+            },
+            {
+              "text": "Domination",
+              "bold": true
+            },
+            {
+              "text": " ou d'un autre pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois le choix effectué, le personnage est immédiatement convaincu que sa vie est menacée. Il connaît sa propre restriction et peut agir préventivement pour tenter de préserver sa vie.",
+          "spans": [
+            {
+              "text": "Une fois le choix effectué, le personnage est immédiatement convaincu que sa vie est menacée. Il connaît sa propre restriction et peut agir préventivement pour tenter de préserver sa vie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un personnage affecté par ce pouvoir ne peut pas céder volontairement à un pouvoir qui l'obligerait à agir à l'encontre de sa restriction, comme Domination ou Regard Terrifiant.",
+          "spans": [
+            {
+              "text": "Un personnage affecté par ce pouvoir ne peut pas ",
+              "bold": false
+            },
+            {
+              "text": "céder volontairement",
+              "bold": true
+            },
+            {
+              "text": " à un pouvoir qui l'obligerait à agir à l'encontre de sa restriction, comme ",
+              "bold": false
+            },
+            {
+              "text": "Domination ",
+              "bold": true
+            },
+            {
+              "text": "ou ",
+              "bold": false
+            },
+            {
+              "text": "Regard Terrifiant",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ces pouvoirs peuvent toutefois toujours l'affecter normalement.",
+          "spans": [
+            {
+              "text": "Ces pouvoirs peuvent toutefois toujours l'affecter normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de situation bloquée, par exemple si la cible souhaite combattre mais que ses adversaires sont visibles et hors de portée, elle n'est pas obligée d'agir et peut se comporter normalement jusqu'à ce que la situation évolue.",
+          "spans": [
+            {
+              "text": "En cas de situation bloquée, par exemple si la cible souhaite combattre mais que ses adversaires sont visibles et hors de portée, elle n'est pas obligée d'agir et peut se comporter normalement jusqu'à ce que la situation évolue.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez supprimer l'une des trois options.",
+          "spans": [
+            {
+              "text": "Vous pouvez supprimer l'une des trois options.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Votre cible doit alors choisir parmi les deux restantes.",
+          "spans": [
+            {
+              "text": "Votre cible doit alors choisir parmi les deux restantes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur vous informe secrètement de l'option choisie par votre cible.",
+          "spans": [
+            {
+              "text": "Le Conteur vous informe secrètement de l'option choisie par votre cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez demander cette information discrètement au Conteur afin que la cible ignore que vous connaissez son choix.",
+          "spans": [
+            {
+              "text": "Vous pouvez demander cette information discrètement au Conteur afin que la cible ignore que vous connaissez son choix.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
     {
       "id": "39b88b48-e48e-8021-9374-c788f81ab319",
       "notionUrl": "https://app.notion.com/p/Acc-s-Distance-39b88b48e48e80219374c788f81ab319",
@@ -14729,6 +15381,214 @@
       ]
     },
     {
+      "id": "3cf88b48-e48e-80f7-bdcc-f10cf185798b",
+      "notionUrl": "https://app.notion.com/p/La-Faux-de-la-Mort-3cf88b48e48e80f7bdccf10cf185798b",
+      "lastEditedTime": "2026-09-02T07:55:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cimetiere",
+              "title": "Voie du Cimetière",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "La Faux de la Mort"
+        }
+      },
+      "title": "La Faux de la Mort",
+      "slug": "la-faux-de-la-mort",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'iconographie de la Mort portant une faux trouve son origine dans le dieu grec Chronos et Cronos, divinité mineure des récoltes qui portait une faucille utilisée pour couper les céréales.",
+          "spans": [
+            {
+              "text": "L'iconographie de la Mort portant une faux trouve son origine dans le dieu grec Chronos et Cronos, divinité mineure des récoltes qui portait une faucille utilisée pour couper les céréales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans la mythologie, Cronos dévorant ses enfants était une allégorie du temps dévorant toute chose. La faux devient ainsi l'image rappelant que la mort fauche les âmes des vivants comme un fermier récolte ses cultures dans les champs.",
+          "spans": [
+            {
+              "text": "Dans la mythologie, Cronos dévorant ses enfants était une allégorie du temps dévorant toute chose. La faux devient ainsi l'image rappelant que la mort fauche les âmes des vivants comme un fermier récolte ses cultures dans les champs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En manifestant votre pouvoir sur la mort, vous invoquez de terribles énergies nécromantiques et les façonnez sous la forme de l'arme la plus terrifiante de la Mort.",
+          "spans": [
+            {
+              "text": "En manifestant votre pouvoir sur la mort, vous invoquez de terribles énergies nécromantiques et les façonnez sous la forme de l'arme la plus terrifiante de la Mort.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour invoquer une faux éthérée baignée d'une flamme bleue glaciale.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour invoquer une faux éthérée baignée d'une flamme bleue glaciale.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous y avez accès, vous pouvez utiliser la manœuvre de combat Dégainer rapidement pour faire apparaître immédiatement l'arme au lieu d'effectuer une action simple. Vous devez toutefois payer le coût nécessaire à l'activation de cette manœuvre.",
+          "spans": [
+            {
+              "text": "Si vous y avez accès, vous pouvez utiliser la manœuvre de combat Dégainer rapidement pour faire apparaître immédiatement l'arme au lieu d'effectuer une action simple. Vous devez toutefois payer le coût nécessaire à l'activation de cette manœuvre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette arme est une extension de vos pouvoirs nécromantiques. Elle ne peut être donnée à un autre personnage ni améliorée par d'autres pouvoirs, comme Quietus.",
+          "spans": [
+            {
+              "text": "Cette arme est une extension de vos pouvoirs nécromantiques. Elle ne peut être donnée à un autre personnage ni améliorée par d'autres pouvoirs, comme Quietus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez effectuer une attaque de Mêlée réussie avec cette arme ; elle inflige 1 point de dégâts aggravés.",
+          "spans": [
+            {
+              "text": "Vous pouvez effectuer une attaque de Mêlée réussie avec cette arme ; elle inflige 1 point de dégâts aggravés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La faux possède les qualités d'arme Mortelle et Brutale. Elle fonctionne également avec tous les pouvoirs de Puissance dont vous disposez.",
+          "spans": [
+            {
+              "text": "La faux possède les qualités d'arme Mortelle et Brutale. Elle fonctionne également avec tous les pouvoirs de Puissance dont vous disposez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois créée, cette arme ne peut pas être brisée, même par des niveaux de Puissance appartenant aux Anciens. Elle ne peut pas non plus être retirée de vos mains au moyen de la manœuvre Désarmer.",
+          "spans": [
+            {
+              "text": "Une fois créée, cette arme ne peut pas être brisée, même par des niveaux de Puissance appartenant aux Anciens. Elle ne peut pas non plus être retirée de vos mains au moyen de la manœuvre Désarmer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle ne peut être remise à un autre personnage, ramassée ou utilisée par quelqu'un d'autre.",
+          "spans": [
+            {
+              "text": "Elle ne peut être remise à un autre personnage, ramassée ou utilisée par quelqu'un d'autre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois invoquée, la faux reste matérielle pendant 1 heure.",
+          "spans": [
+            {
+              "text": "Une fois invoquée, la faux reste matérielle pendant 1 heure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'énergie de votre faux prend une apparence véritablement terrifiante et lui confère la qualité d'arme Allonge.",
+          "spans": [
+            {
+              "text": "L'énergie de votre faux prend une apparence véritablement terrifiante et lui confère la qualité d'arme Allonge.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, en tant qu'icône de la mort, elle imprègne d'énergies nécrotiques un nombre de zombies sous votre contrôle égal à vos points en Occultisme, leur permettant d'infliger des dégâts aggravés avec leurs attaques de Bagarre à mains nues.",
+          "spans": [
+            {
+              "text": "De plus, en tant qu'icône de la mort, elle imprègne d'énergies nécrotiques un nombre de zombies sous votre contrôle égal à vos points en Occultisme, leur permettant d'infliger des dégâts aggravés avec leurs attaques de Bagarre à mains nues.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8043-964d-daa552364eab",
       "notionUrl": "https://app.notion.com/p/La-Quatri-me-Cavalier-39b88b48e48e8043964ddaa552364eab",
       "lastEditedTime": "2026-07-12T16:55:00.000Z",
@@ -15432,6 +16292,174 @@
           "spans": [
             {
               "text": "Lorsque vous utilisez la Langue de l'aspic, vous gagnez également un bonus de +1 aux tests basés sur le son de votre voix, y compris les compétences liées à la persuasion et les pouvoirs de Présence tels que Envoûtement (en supposant que vous parliez pour renforcer votre utilisation du pouvoir).",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cf88b48-e48e-8043-bdf2-c724097cda52",
+      "notionUrl": "https://app.notion.com/p/Le-d-de-la-Faucheuse-3cf88b48e48e8043bdf2c724097cda52",
+      "lastEditedTime": "2026-09-02T07:57:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cimetiere",
+              "title": "Voie du Cimetière",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 0
+        },
+        "Name": {
+          "type": "text",
+          "value": "Le dû de la Faucheuse"
+        }
+      },
+      "title": "Le dû de la Faucheuse",
+      "slug": "le-du-de-la-faucheuse",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les concepts archétypaux de la mort et de l'argent sont souvent étroitement liés. Des divinités telles qu'Hadès ou Baron Samedi exercent ainsi leur autorité aussi bien sur les richesses que sur l'au-delà.",
+          "spans": [
+            {
+              "text": "Les concepts archétypaux de la mort et de l'argent sont souvent étroitement liés. Des divinités telles qu'Hadès ou Baron Samedi exercent ainsi leur autorité aussi bien sur les richesses que sur l'au-delà.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pour ces figures, les âmes des morts leur appartiennent et doivent leur être remises, que ce soit par un accord volontaire ou en vertu de lois ancestrales.",
+          "spans": [
+            {
+              "text": "Pour ces figures, les âmes des morts leur appartiennent et doivent leur être remises, que ce soit par un accord volontaire ou en vertu de lois ancestrales.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En exploitant ces dettes, vous exercez votre pouvoir sur ceux qui se rapprochent de la mort, les accablant d'énergies nécrotiques.",
+          "spans": [
+            {
+              "text": "En exploitant ces dettes, vous exercez votre pouvoir sur ceux qui se rapprochent de la mort, les accablant d'énergies nécrotiques.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Effectuez une action simple pour désigner ostensiblement votre cible, faisant de sa mortalité l'objet de toute votre attention.",
+          "spans": [
+            {
+              "text": "Effectuez une action simple pour désigner ostensiblement votre cible, faisant de sa mortalité l'objet de toute votre attention.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès lors, chaque fois qu'elle dépense ou perd 1 point de Volonté en votre présence, vous gagnez un bonus de 1 aux défis offensifs contre elle pour chaque point de Volonté qu'elle a dépensé ou perdu au cours des 10 minutes suivantes, jusqu'à un maximum de 5 points.",
+          "spans": [
+            {
+              "text": "Dès lors, chaque fois qu'elle dépense ou perd 1 point de Volonté en votre présence, vous gagnez un bonus de 1 aux défis offensifs contre elle pour chaque point de Volonté qu'elle a dépensé ou perdu au cours des 10 minutes suivantes, jusqu'à un maximum de 5 points.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, elle reste soumise à votre Regard et Concentration pendant toute cette période.",
+          "spans": [
+            {
+              "text": "De plus, elle reste soumise à votre Regard et Concentration pendant toute cette période.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir qu'une seule cible désignée à la fois. Si vous désignez une nouvelle cible, tous les effets appliqués à votre cible précédente prennent fin et le compteur du nombre de fois où elle a dépensé de la Volonté en votre présence est réinitialisé.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir qu'une seule cible désignée à la fois. Si vous désignez une nouvelle cible, tous les effets appliqués à votre cible précédente prennent fin et le compteur du nombre de fois où elle a dépensé de la Volonté en votre présence est réinitialisé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En plus de l'effet précédent, si votre cible dépense 1 point de Volonté pour obtenir une relance lors d'un défi dans lequel vous êtes l'attaquant ou le défenseur, vous pouvez récupérer 1 point de Volonté dépensé.",
+          "spans": [
+            {
+              "text": "En plus de l'effet précédent, si votre cible dépense 1 point de Volonté pour obtenir une relance lors d'un défi dans lequel vous êtes l'attaquant ou le défenseur, vous pouvez récupérer 1 point de Volonté dépensé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez bénéficier de cet effet qu'une fois par tour.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez bénéficier de cet effet qu'une fois par tour.",
               "bold": false
             }
           ]
@@ -17313,7 +18341,7 @@
     {
       "id": "39b88b48-e48e-805b-ba48-ddfeda69b32e",
       "notionUrl": "https://app.notion.com/p/Marionnette-Macabre-39b88b48e48e805bba48ddfeda69b32e",
-      "lastEditedTime": "2026-07-12T16:41:00.000Z",
+      "lastEditedTime": "2026-09-02T08:35:00.000Z",
       "properties": {
         "Focus": {
           "type": "select",
@@ -17398,10 +18426,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
+          "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Quand vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang, mais vous pouvez utiliser la Puissance ou la Force d’Âme du Zombie. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
           "spans": [
             {
-              "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
+              "text": "Les corps n'ont aucunes disciplines et ne peuvent dépenser de sang. De plus, un personnage ne peut faire usage de ses propres disciplines quand il utilise Marionnette macabre. Tant qu'il possède ce corps, un personnage utilise ses propres attributs et focus mentaux, sociaux, compétences et historiques. Vous devez utiliser l’attribut physique du corps au lieu du votre. Si vous utilisez Marionnette Macabre sur un PNJ Type, le physique est égal au double de son niveau. Quand vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang, mais vous pouvez utiliser la Puissance ou la Force d’Âme du Zombie. Vous ne pouvez utiliser le Focus du corps possédé. Tant que vous possédez un zombie, vous ne pouvez pas dépenser de Points de Sang mais vous pouvez utiliser ses niveaux de Force d'Âme ou de Puissance.",
               "bold": false
             }
           ]
@@ -18356,6 +19384,224 @@
       ]
     },
     {
+      "id": "3cf88b48-e48e-8015-861a-f016b41d6b2b",
+      "notionUrl": "https://app.notion.com/p/Mort-parfaite-3cf88b48e48e8015861af016b41d6b2b",
+      "lastEditedTime": "2026-09-02T08:02:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Apparence"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Jusqu'a désctruction ou choix de les détruire"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 5
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cimetiere",
+              "title": "Voie du Cimetière",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Mort parfaite"
+        }
+      },
+      "title": "Mort parfaite",
+      "slug": "mort-parfaite",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vivre en tant que vampire revient à nier sa propre mortalité, en s'accrochant à la vie grâce au sang des vivants.",
+          "spans": [
+            {
+              "text": "Vivre en tant que vampire revient à nier sa propre mortalité, en s'accrochant à la vie grâce au sang des vivants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En vous enveloppant des énergies des Terres d'Ombre, vous transcendez l'état vampirique et embrassez pleinement l'inéluctabilité de la mort et le pouvoir qu'elle confère.",
+          "spans": [
+            {
+              "text": "En vous enveloppant des énergies des Terres d'Ombre, vous transcendez l'état vampirique et embrassez pleinement l'inéluctabilité de la mort et le pouvoir qu'elle confère.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous confronter revient à vous opposer à la mortalité elle-même : une épreuve terrifiante, même pour ceux que l'on appelle les Non-Morts.",
+          "spans": [
+            {
+              "text": "Vous confronter revient à vous opposer à la mortalité elle-même : une épreuve terrifiante, même pour ceux que l'on appelle les Non-Morts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette transformation est spectaculaire. Vous émergez comme une force implacable d'entropie, totalement dépourvue de vie.",
+          "spans": [
+            {
+              "text": "Cette transformation est spectaculaire. Vous émergez comme une force implacable d'entropie, totalement dépourvue de vie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour canaliser les énergies nécromantiques à travers votre corps.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour canaliser les énergies nécromantiques à travers votre corps.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous vous emplissez alors du pouvoir de l'entropie et vous transformez en une figure de mort parfaite, immédiatement reconnaissable et pourtant indéniablement puissante.",
+          "spans": [
+            {
+              "text": "Vous vous emplissez alors du pouvoir de l'entropie et vous transformez en une figure de mort parfaite, immédiatement reconnaissable et pourtant indéniablement puissante.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sous cette forme, la finalité et l'inflexibilité de la mort guident vos actions et votre volonté, vous rendant beaucoup plus difficile à contrôler ou influencer.",
+          "spans": [
+            {
+              "text": "Sous cette forme, la finalité et l'inflexibilité de la mort guident vos actions et votre volonté, vous rendant beaucoup plus difficile à contrôler ou influencer.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez utiliser votre Attribut Physique à la place de votre Attribut Mental ou Social lorsque vous vous défendez contre des défis Mentaux ou Sociaux.",
+          "spans": [
+            {
+              "text": "Vous pouvez utiliser votre Attribut Physique à la place de votre Attribut Mental ou Social lorsque vous vous défendez contre des défis Mentaux ou Sociaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également attiser les énergies nécrotiques afin de restaurer votre forme.",
+          "spans": [
+            {
+              "text": "Vous pouvez également attiser les énergies nécrotiques afin de restaurer votre forme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous dépensez 1 point de Volonté pour relancer un défi, vous pouvez immédiatement récupérer jusqu'à 3 niveaux de Santé, qu'ils soient normaux ou aggravés.",
+          "spans": [
+            {
+              "text": "Chaque fois que vous dépensez 1 point de Volonté pour relancer un défi, vous pouvez immédiatement récupérer jusqu'à 3 niveaux de Santé, qu'ils soient normaux ou aggravés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette capacité ne nécessite aucune action pour être activée. Elle peut être utilisée pendant les tours de Célérité et même en dehors de votre tour dans l'ordre d'initiative.",
+          "spans": [
+            {
+              "text": "Cette capacité ne nécessite aucune action pour être activée. Elle peut être utilisée pendant les tours de Célérité et même en dehors de votre tour dans l'ordre d'initiative.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez réellement dépenser le point de Volonté pour bénéficier de cet effet. Les capacités permettant d'éviter la dépense effective de Volonté, ne peuvent pas être utilisées conjointement à cette capacité.",
+          "spans": [
+            {
+              "text": "Vous devez réellement dépenser le point de Volonté pour bénéficier de cet effet. Les capacités permettant d'éviter la dépense effective de Volonté, ne peuvent pas être utilisées conjointement à cette capacité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir est un pouvoir de transformation majeure et ne peut pas être combiné avec d'autres transformations majeures.",
+          "spans": [
+            {
+              "text": "Ce pouvoir est un pouvoir de transformation majeure et ne peut pas être combiné avec d'autres transformations majeures.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque fois que vous dépensez 1 point de Volonté pour relancer un défi, vous bénéficiez d'un bonus de +2 à votre réserve de Traits pour cette tentative de relance.",
+          "spans": [
+            {
+              "text": "Chaque fois que vous dépensez 1 point de Volonté pour relancer un défi, vous bénéficiez d'un bonus de +2 à votre réserve de Traits pour cette tentative de relance.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39b88b48-e48e-8046-981c-cbbd7943bafb",
       "notionUrl": "https://app.notion.com/p/Mur-Fluide-39b88b48e48e8046981ccbbd7943bafb",
       "lastEditedTime": "2026-07-12T14:55:00.000Z",
@@ -18741,6 +19987,204 @@
       ]
     },
     {
+      "id": "3cf88b48-e48e-808b-96f4-fb376e83b578",
+      "notionUrl": "https://app.notion.com/p/Nier-l-Imminence-de-la-Mort-3cf88b48e48e808b96f4fb376e83b578",
+      "lastEditedTime": "2026-09-02T08:08:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 jour"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-deuil",
+              "title": "Voie du Deuil",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Nier l'Imminence de la Mort"
+        }
+      },
+      "title": "Nier l'Imminence de la Mort",
+      "slug": "nier-l-imminence-de-la-mort",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le déni est souvent la première réaction face au deuil. La personne mourante ou endeuillée refuse activement d'accepter la réalité de sa situation. Ce mécanisme permettrait notamment à l'esprit d'accumuler l'énergie émotionnelle nécessaire pour affronter la crise.",
+          "spans": [
+            {
+              "text": "Le déni est souvent la première réaction face au deuil. La personne mourante ou endeuillée refuse activement d'accepter la réalité de sa situation. Ce mécanisme permettrait notamment à l'esprit d'accumuler l'énergie émotionnelle nécessaire pour affronter la crise.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous êtes capable de provoquer artificiellement cet état de déni, plongeant vos victimes dans une confusion profonde.",
+          "spans": [
+            {
+              "text": "Vous êtes capable de provoquer artificiellement cet état de déni, plongeant vos victimes dans une confusion profonde.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour projeter des énergies nécrotiques dans un rayon de 15 pas autour de vous.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour projeter des énergies nécrotiques dans un rayon de 15 pas autour de vous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les personnes présentes dans cette zone perdent la capacité de comprendre et d'assimiler les menaces mortelles, préférant inconsciemment les nier.",
+          "spans": [
+            {
+              "text": "Les personnes présentes dans cette zone perdent la capacité de comprendre et d'assimiler les menaces mortelles, préférant inconsciemment les nier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les créatures surnaturelles ressentent cet effet et y sont immunisées. En revanche, la plupart des humains ordinaires ne peuvent pas y résister.",
+          "spans": [
+            {
+              "text": "Les créatures surnaturelles ressentent cet effet et y sont immunisées. En revanche, la plupart des humains ordinaires ne peuvent pas y résister.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les PNJ Standards de niveau 3 ou moins ignorent donc toute menace pesant sur leur sécurité tant qu'eux-mêmes ou quelqu'un d'autre ne subissent pas directement de dégâts. Ils continuent à agir comme si rien d'anormal ne se produisait.",
+          "spans": [
+            {
+              "text": "Les PNJ Standards de niveau 3 ou moins ignorent donc toute menace pesant sur leur sécurité tant qu'eux-mêmes ou quelqu'un d'autre ne subissent pas directement de dégâts. Ils continuent à agir comme si rien d'anormal ne se produisait.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "S'ils sont directement attaqués, ils réagissent normalement par la peur.",
+          "spans": [
+            {
+              "text": "S'ils sont directement attaqués, ils réagissent normalement par la peur.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple, si un Tzimisce sous Forme Horrible passe devant un PNJ Standard de niveau 3 affecté par ce pouvoir, celui-ci sera incapable de comprendre la menace et l'ignorera complètement.",
+          "spans": [
+            {
+              "text": "Par exemple, si un Tzimisce sous Forme Horrible passe devant un PNJ Standard de niveau 3 affecté par ce pouvoir, celui-ci sera incapable de comprendre la menace et l'ignorera complètement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir n'affecte pas les PNJ Standards de niveau 4 ou plus.",
+          "spans": [
+            {
+              "text": "Ce pouvoir n'affecte pas les PNJ Standards de niveau 4 ou plus.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette capacité peut également permettre de préserver la Mascarade. Les témoins ignorent les violences ou manifestations surnaturelles se déroulant sous leurs yeux. Ils les classent mentalement comme des événements sans importance, même lorsqu'ils seraient normalement considérés comme extraordinaires.",
+          "spans": [
+            {
+              "text": "Cette capacité peut également permettre de préserver la Mascarade. Les témoins ignorent les violences ou manifestations surnaturelles se déroulant sous leurs yeux. Ils les classent mentalement comme des événements sans importance, même lorsqu'ils seraient normalement considérés comme extraordinaires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ils n'agiront pas sur la base de ces événements et en oublieront rapidement les détails au cours des 24 heures suivantes, leurs souvenirs devenant progressivement flous.",
+          "spans": [
+            {
+              "text": "Ils n'agiront pas sur la base de ces événements et en oublieront rapidement les détails au cours des 24 heures suivantes, leurs souvenirs devenant progressivement flous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir affecte les PNJ Standards de niveau 5 ou moins.",
+          "spans": [
+            {
+              "text": "Ce pouvoir affecte les PNJ Standards de niveau 5 ou moins.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3a288b48-e48e-8067-be37-c8f32766f39a",
       "notionUrl": "https://app.notion.com/p/il-du-cyclone-3a288b48e48e8067be37c8f32766f39a",
       "lastEditedTime": "2026-08-09T09:10:00.000Z",
@@ -18862,6 +20306,414 @@
           "spans": [
             {
               "text": "Si 2 cibles (ou plus) sont à moins de trois pas, vous pouvez les enfermer dans le même cyclone.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cf88b48-e48e-8010-b835-f83f361ad0c8",
+      "notionUrl": "https://app.notion.com/p/Offre-Captivante-3cf88b48e48e8010b835f83f361ad0c8",
+      "lastEditedTime": "2026-09-02T08:12:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "3 Actions Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "Instantanée"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 3
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-deuil",
+              "title": "Voie du Deuil",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Offre Captivante"
+        }
+      },
+      "title": "Offre Captivante",
+      "slug": "offre-captivante",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La phase de marchandage représente la tentative de l'esprit de faire face à la mortalité et au deuil.",
+          "spans": [
+            {
+              "text": "La phase de marchandage représente la tentative de l'esprit de faire face à la mortalité et au deuil.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque la prise de conscience cède la place au désespoir, l'individu devient extrêmement malléable et cherche fébrilement toute solution susceptible d'éviter la catastrophe.",
+          "spans": [
+            {
+              "text": "Lorsque la prise de conscience cède la place au désespoir, l'individu devient extrêmement malléable et cherche fébrilement toute solution susceptible d'éviter la catastrophe.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à ce pouvoir, vous insufflez à votre cible une profonde anxiété liée à sa mortalité et exploitez cet état à votre avantage.",
+          "spans": [
+            {
+              "text": "Grâce à ce pouvoir, vous insufflez à votre cible une profonde anxiété liée à sa mortalité et exploitez cet état à votre avantage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et au moins 3 actions standards pour présenter une offre à votre cible.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et au moins 3 actions standards pour présenter une offre à votre cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez disposer de son Regard et de sa Concentration, et être capable de communiquer avec elle. Une communication télépathique convient parfaitement.",
+          "spans": [
+            {
+              "text": "Vous devez disposer de son Regard et de sa Concentration, et être capable de communiquer avec elle. Une communication télépathique convient parfaitement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois l'offre formulée, elle reste constamment présente dans l'esprit de la cible.",
+          "spans": [
+            {
+              "text": "Une fois l'offre formulée, elle reste constamment présente dans l'esprit de la cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tant qu'elle n'a pas pris de décision, elle ne peut entreprendre aucune action antagoniste à votre encontre, notamment vous attaquer ou utiliser un pouvoir hostile contre vous.",
+          "spans": [
+            {
+              "text": "Tant qu'elle n'a pas pris de décision, elle ne peut entreprendre aucune action antagoniste à votre encontre, notamment vous attaquer ou utiliser un pouvoir hostile contre vous.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle peut cependant tenter de négocier.",
+          "spans": [
+            {
+              "text": "Elle peut cependant tenter de négocier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De votre côté, vous pouvez agir normalement contre elle. Elle reste néanmoins obligée de considérer votre offre.",
+          "spans": [
+            {
+              "text": "De votre côté, vous pouvez agir normalement contre elle. Elle reste néanmoins obligée de considérer votre offre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez retirer votre offre en effectuant une action simple, mettant immédiatement fin au pouvoir.",
+          "spans": [
+            {
+              "text": "Vous pouvez retirer votre offre en effectuant une action simple, mettant immédiatement fin au pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible peut choisir l'une des options suivantes à tout moment :",
+          "spans": [
+            {
+              "text": "La cible peut choisir l'une des options suivantes à tout moment :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Rejeter l'offre",
+          "spans": [
+            {
+              "text": "Rejeter l'offre",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible peut dépenser 2 points de Volonté pour rejeter l'offre.",
+          "spans": [
+            {
+              "text": "La cible peut dépenser 2 points de Volonté pour rejeter l'offre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir prend immédiatement fin et elle peut agir normalement.",
+          "spans": [
+            {
+              "text": "Le pouvoir prend immédiatement fin et elle peut agir normalement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Accepter l'offre",
+          "spans": [
+            {
+              "text": "Accepter l'offre",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible peut accepter l'offre initiale ou les termes négociés sur lesquels vous vous êtes mutuellement accordés.",
+          "spans": [
+            {
+              "text": "La cible peut accepter l'offre initiale ou les termes négociés sur lesquels vous vous êtes mutuellement accordés.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une fois l'offre acceptée, elle ne peut plus entreprendre d'action hostile contre vous jusqu'à :",
+          "spans": [
+            {
+              "text": "Une fois l'offre acceptée, elle ne peut plus entreprendre d'action hostile contre vous jusqu'à :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la fin de la nuit",
+          "spans": [
+            {
+              "text": "la fin de la nuit",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "ou l'accomplissement des termes de l'accord,",
+          "spans": [
+            {
+              "text": "ou l'accomplissement des termes de l'accord,",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "selon ce qui survient en premier.",
+          "spans": [
+            {
+              "text": "selon ce qui survient en premier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous entreprenez vous-même une action hostile contre elle ou ne respectez pas votre part de l'accord, le pouvoir prend fin.",
+          "spans": [
+            {
+              "text": "Si vous entreprenez vous-même une action hostile contre elle ou ne respectez pas votre part de l'accord, le pouvoir prend fin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La cible ne peut violer l'accord qu'en dépensant 2 points de Volonté, ce qui met également fin au pouvoir.",
+          "spans": [
+            {
+              "text": "La cible ne peut violer l'accord qu'en dépensant 2 points de Volonté, ce qui met également fin au pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les offres ne peuvent pas être conçues de manière à mettre directement la vie de la cible en danger.",
+          "spans": [
+            {
+              "text": "Les offres ne peuvent pas être conçues de manière à mettre directement la vie de la cible en danger.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une offre peut être formulée de manière à se terminer rapidement ou, narrativement, à sembler devoir perdurer au-delà de la nuit. Cependant, les effets surnaturels du pouvoir prennent toujours fin lorsque l'offre expire ou à la fin de la nuit, selon ce qui survient en premier.",
+          "spans": [
+            {
+              "text": "Une offre peut être formulée de manière à se terminer rapidement ou, narrativement, à sembler devoir perdurer au-delà de la nuit. Cependant, les effets surnaturels du pouvoir prennent toujours fin lorsque l'offre expire ou à la fin de la nuit, selon ce qui survient en premier.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une cible ne peut être affectée par Offre Captivante qu'une seule fois par nuit. Toute nouvelle utilisation de ce pouvoir, par vous ou quelqu'un d'autre, échoue automatiquement.",
+          "spans": [
+            {
+              "text": "Une cible ne peut être affectée par Offre Captivante qu'une seule fois par nuit. Toute nouvelle utilisation de ce pouvoir, par vous ou quelqu'un d'autre, échoue automatiquement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez pas volontairement utiliser ce pouvoir sur un allié simplement pour lui conférer cette immunité. Le Conteur peut intervenir en cas d'abus manifeste.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez pas volontairement utiliser ce pouvoir sur un allié simplement pour lui conférer cette immunité. Le Conteur peut intervenir en cas d'abus manifeste.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez maintenir qu'une seule offre active à la fois. Si vous en formulez une autre, la précédente prend fin.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez maintenir qu'une seule offre active à la fois. Si vous en formulez une autre, la précédente prend fin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le pouvoir échoue également si l'offre est manifestement ridicule, insultante ou destinée à humilier la cible, notamment si elle implique des actes vulgaires ou dégradants.",
+          "spans": [
+            {
+              "text": "Le pouvoir échoue également si l'offre est manifestement ridicule, insultante ou destinée à humilier la cible, notamment si elle implique des actes vulgaires ou dégradants.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur reste seul juge de ce qui constitue une telle offre.",
+          "spans": [
+            {
+              "text": "Le Conteur reste seul juge de ce qui constitue une telle offre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez maintenir simultanément un nombre d'offres actives égal à vos points en Occultisme + 1",
+          "spans": [
+            {
+              "text": "Vous pouvez maintenir simultanément un nombre d'offres actives égal à vos points en Occultisme + 1",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute nouvelle offre dépassant cette limite vous oblige à choisir laquelle de vos offres actives prend fin.",
+          "spans": [
+            {
+              "text": "Toute nouvelle offre dépassant cette limite vous oblige à choisir laquelle de vos offres actives prend fin.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez également faire la même offre à plusieurs personnages simultanément, à condition de disposer du Regard et de la Concentration de chacun et de pouvoir communiquer avec eux.",
+          "spans": [
+            {
+              "text": "Vous pouvez également faire la même offre à plusieurs personnages simultanément, à condition de disposer du Regard et de la Concentration de chacun et de pouvoir communiquer avec eux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque cible compte séparément dans votre limite d'offres actives.",
+          "spans": [
+            {
+              "text": "Chaque cible compte séparément dans votre limite d'offres actives.",
               "bold": false
             }
           ]
@@ -23058,6 +24910,294 @@
       ]
     },
     {
+      "id": "3cf88b48-e48e-80f1-8f72-e94d0fd8d812",
+      "notionUrl": "https://app.notion.com/p/R-action-Violente-3cf88b48e48e80f18f72e94d0fd8d812",
+      "lastEditedTime": "2026-09-02T08:09:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Standard"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 heure"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 2
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-deuil",
+              "title": "Voie du Deuil",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Réaction Violente"
+        }
+      },
+      "title": "Réaction Violente",
+      "slug": "reaction-violente",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La deuxième étape du deuil est la colère, l'une des réactions les plus primitives face à une menace extérieure.",
+          "spans": [
+            {
+              "text": "La deuxième étape du deuil est la colère, l'une des réactions les plus primitives face à une menace extérieure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La poussée d'adrénaline qu'elle provoque permet au corps de se défendre, tandis que l'esprit se tourne vers l'agression. Dans d'autres circonstances, cette même colère devient un handicap, poussant un individu à agir violemment en l'absence de véritable menace.",
+          "spans": [
+            {
+              "text": "La poussée d'adrénaline qu'elle provoque permet au corps de se défendre, tandis que l'esprit se tourne vers l'agression. Dans d'autres circonstances, cette même colère devient un handicap, poussant un individu à agir violemment en l'absence de véritable menace.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans le cadre du deuil, la colère masque souvent des sentiments de vulnérabilité et de tristesse que l'esprit n'est pas encore capable d'affronter.",
+          "spans": [
+            {
+              "text": "Dans le cadre du deuil, la colère masque souvent des sentiments de vulnérabilité et de tristesse que l'esprit n'est pas encore capable d'affronter.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang, effectuez une action standard et réalisez un défi opposé tout en faisant une remarque à votre cible concernant sa mortalité.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang, effectuez une action standard et réalisez un défi opposé tout en faisant une remarque à votre cible concernant sa mortalité.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Par exemple :",
+          "spans": [
+            {
+              "text": "Par exemple :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "« Ton tempérament finira par t'attirer des ennuis. »\n« Ton imprudence te tuera un jour. »\nou simplement : « Memento Mori. »",
+          "spans": [
+            {
+              "text": "« Ton tempérament finira par t'attirer des ennuis. »\n« Ton imprudence te tuera un jour. »\nou simplement : « Memento Mori. »",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous devez disposer du Regard et de la Concentration de votre cible.",
+          "spans": [
+            {
+              "text": "Vous devez disposer du Regard et de la Concentration de votre cible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas de réussite, pendant 1 heure, votre cible est considérée comme possédant 3 Traits de Bête supplémentaires pour déterminer les déclencheurs d'une Frénésie de colère.",
+          "spans": [
+            {
+              "text": "En cas de réussite, pendant 1 heure, votre cible est considérée comme possédant 3 Traits de Bête supplémentaires pour déterminer les déclencheurs d'une Frénésie de colère.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même si elle ne possède aucun Trait de Bête, elle devient ainsi vulnérable à des déclencheurs supplémentaires. Elle doit notamment effectuer un test de Frénésie si elle subit 2 points de dégâts provenant d'une même source.",
+          "spans": [
+            {
+              "text": "Même si elle ne possède aucun Trait de Bête, elle devient ainsi vulnérable à des déclencheurs supplémentaires. Elle doit notamment effectuer un test de Frénésie si elle subit 2 points de dégâts provenant d'une même source.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette augmentation ne s'applique qu'à la Frénésie. Elle n'est pas prise en compte pour déterminer une éventuelle dégénérescence.",
+          "spans": [
+            {
+              "text": "Cette augmentation ne s'applique qu'à la Frénésie. Elle n'est pas prise en compte pour déterminer une éventuelle dégénérescence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle se cumule avec les autres modificateurs augmentant les Traits de Bête, comme la faiblesse du clan Brujah ou le Handicap Mèche Courte.",
+          "spans": [
+            {
+              "text": "Elle se cumule avec les autres modificateurs augmentant les Traits de Bête, comme la faiblesse du clan Brujah ou le Handicap Mèche Courte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, chaque fois que la cible subit une action pouvant raisonnablement être considérée comme modérément irrespectueuse, elle doit :",
+          "spans": [
+            {
+              "text": "De plus, chaque fois que la cible subit une action pouvant raisonnablement être considérée comme modérément irrespectueuse, elle doit :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "dépenser 1 point de Volonté ;\nou réagir immédiatement de manière visible.",
+          "spans": [
+            {
+              "text": "dépenser 1 point de Volonté ;\nou réagir immédiatement de manière visible.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Une réaction appropriée peut consister à attaquer quelqu'un, crier, briser un objet ou quitter brutalement la scène.",
+          "spans": [
+            {
+              "text": "Une réaction appropriée peut consister à attaquer quelqu'un, crier, briser un objet ou quitter brutalement la scène.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si elle dépense 1 point de Volonté, elle peut ignorer cette source d'irrespect ainsi que les provocations similaires pendant 5 minutes.",
+          "spans": [
+            {
+              "text": "Si elle dépense 1 point de Volonté, elle peut ignorer cette source d'irrespect ainsi que les provocations similaires pendant 5 minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir affecte également les créatures surnaturelles qui ne sont pas des vampires.",
+          "spans": [
+            {
+              "text": "Ce pouvoir affecte également les créatures surnaturelles qui ne sont pas des vampires.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Loups-Garous sont considérés comme possédant 3 niveaux de Rage supplémentaires pour déterminer leur Frénésie.",
+          "spans": [
+            {
+              "text": "Les Loups-Garous sont considérés comme possédant 3 niveaux de Rage supplémentaires pour déterminer leur Frénésie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Même si la cible ne possède pas de Bête, elle entre dans un état mental fonctionnant exactement comme une Frénésie de colère vampirique et attaque la source de sa rage.",
+          "spans": [
+            {
+              "text": "Même si la cible ne possède pas de Bête, elle entre dans un état mental fonctionnant exactement comme une Frénésie de colère vampirique et attaque la source de sa rage.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Réussite Critique",
+          "spans": [
+            {
+              "text": "Réussite Critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description de la réussite critique",
+          "spans": [
+            {
+              "text": "Description de la réussite critique",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Description du Focus",
+          "spans": [
+            {
+              "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38388b48-e48e-8075-95b7-cc969a88e139",
       "notionUrl": "https://app.notion.com/p/R-alit-monstrueuse-38388b48e48e807595b7cc969a88e139",
       "lastEditedTime": "2026-07-28T07:39:00.000Z",
@@ -23659,6 +25799,324 @@
           "spans": [
             {
               "text": "Vos spécimens sont particulièrement abondants. Vous gagnez 2 unités supplémentaires par récolte.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cf88b48-e48e-807f-89a2-fee7b245a7bc",
+      "notionUrl": "https://app.notion.com/p/R-colter-le-D-sespoir-3cf88b48e48e807f89a2fee7b245a7bc",
+      "lastEditedTime": "2026-09-02T08:14:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Manipulation"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "10 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-deuil",
+              "title": "Voie du Deuil",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Récolter le Désespoir"
+        }
+      },
+      "title": "Récolter le Désespoir",
+      "slug": "recolter-le-desespoir",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La dépression qui accompagne le deuil apporte avec elle un profond sentiment de futilité et de désespoir.",
+          "spans": [
+            {
+              "text": "La dépression qui accompagne le deuil apporte avec elle un profond sentiment de futilité et de désespoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dans cet état, l'esprit dépense de l'énergie sans parvenir à accomplir quoi que ce soit, saboté par ses propres efforts.",
+          "spans": [
+            {
+              "text": "Dans cet état, l'esprit dépense de l'énergie sans parvenir à accomplir quoi que ce soit, saboté par ses propres efforts.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Grâce à ce pouvoir, vous pouvez récolter cette énergie et la transformer en une forme de subsistance.",
+          "spans": [
+            {
+              "text": "Grâce à ce pouvoir, vous pouvez récolter cette énergie et la transformer en une forme de subsistance.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Certains Giovanni ont même appris à apprécier la vitae créée par cette magie, lui trouvant de délicates notes salées.",
+          "spans": [
+            {
+              "text": "Certains Giovanni ont même appris à apprécier la vitae créée par cette magie, lui trouvant de délicates notes salées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Pendant les 10 minutes suivantes, chaque fois que vous participez à un défi opposé contre une cible visible, vous pouvez annoncer l'utilisation de Récolter le Désespoir avant que les tests ne soient effectués.",
+          "spans": [
+            {
+              "text": "Pendant les 10 minutes suivantes, chaque fois que vous participez à un défi opposé contre une cible visible, vous pouvez annoncer l'utilisation de Récolter le Désespoir avant que les tests ne soient effectués.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous subissez alors un malus de 5 à votre réserve de test pour ce défi.",
+          "spans": [
+            {
+              "text": "Vous subissez alors un malus de 5 à votre réserve de test pour ce défi.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous remportez malgré tout le défi, votre adversaire est submergé par un sentiment de futilité et de désespoir tandis que des forces entropiques l'assaillent.",
+          "spans": [
+            {
+              "text": "Si vous remportez malgré tout le défi, votre adversaire est submergé par un sentiment de futilité et de désespoir tandis que des forces entropiques l'assaillent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Elle perd :",
+          "spans": [
+            {
+              "text": "Elle perd :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "1 point de Volonté",
+          "spans": [
+            {
+              "text": "1 point de Volonté",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "et jusqu'à 2 points de Sang.",
+          "spans": [
+            {
+              "text": "et jusqu'à 2 points de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous absorbez ces points afin de restaurer vos propres réserves dépensées.",
+          "spans": [
+            {
+              "text": "Vous absorbez ces points afin de restaurer vos propres réserves dépensées.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si votre cible n'est pas un vampire, elle perd la ressource correspondant à sa nature surnaturelle, par exemple :",
+          "spans": [
+            {
+              "text": "Si votre cible n'est pas un vampire, elle perd la ressource correspondant à sa nature surnaturelle, par exemple :",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "la Gnose pour un Loup-Garou ",
+          "spans": [
+            {
+              "text": "la Gnose pour un Loup-Garou ",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "le Glamour pour une Fée.",
+          "spans": [
+            {
+              "text": "le Glamour pour une Fée.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Cette énergie est convertie en Sang lorsque vous l'absorbez.",
+          "spans": [
+            {
+              "text": "Cette énergie est convertie en Sang lorsque vous l'absorbez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si la cible ne possède plus de Volonté ou s'il s'agit d'un PNJ Standard sans valeur de Volonté, elle doit immédiatement cesser de vous attaquer et ne peut plus recommencer jusqu'à la fin de la durée du pouvoir.",
+          "spans": [
+            {
+              "text": "Si la cible ne possède plus de Volonté ou s'il s'agit d'un PNJ Standard sans valeur de Volonté, elle doit immédiatement cesser de vous attaquer et ne peut plus recommencer jusqu'à la fin de la durée du pouvoir.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez bénéficier de cet effet qu'une fois par tour, mais vous pouvez annoncer son utilisation pendant les rounds de Célérité si le pouvoir a déjà été activé.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez bénéficier de cet effet qu'une fois par tour, mais vous pouvez annoncer son utilisation pendant les rounds de Célérité si le pouvoir a déjà été activé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Si vous utilisez le pouvoir mais perdez le défi, vous pouvez à nouveau tenter de l'utiliser lors d'un autre défi durant le même tour, jusqu'à ce que vous réussissiez.",
+          "spans": [
+            {
+              "text": "Si vous utilisez le pouvoir mais perdez le défi, vous pouvez à nouveau tenter de l'utiliser lors d'un autre défi durant le même tour, jusqu'à ce que vous réussissiez.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir ne fonctionne que contre une cible qui souhaite réellement vous faire du mal.",
+          "spans": [
+            {
+              "text": "Ce pouvoir ne fonctionne que contre une cible qui souhaite réellement vous faire du mal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez donc pas l'utiliser sur un allié consentant ni créer artificiellement une situation destinée à exploiter ses effets.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez donc pas l'utiliser sur un allié consentant ni créer artificiellement une situation destinée à exploiter ses effets.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Sang généré par ce pouvoir est considéré comme inerte et ne peut pas créer de Lien de Sang.",
+          "spans": [
+            {
+              "text": "Le Sang généré par ce pouvoir est considéré comme inerte et ne peut pas créer de Lien de Sang.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir n'est pas considéré comme une action hostile pour les pouvoirs tels que Envoûtement ou Majesté.",
+          "spans": [
+            {
+              "text": "Ce pouvoir n'est pas considéré comme une action hostile pour les pouvoirs tels que Envoûtement ou Majesté.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous utilisez ce pouvoir, le malus n'est que de 3 au lieu de 5.",
+          "spans": [
+            {
+              "text": "Lorsque vous utilisez ce pouvoir, le malus n'est que de 3 au lieu de 5.",
               "bold": false
             }
           ]
@@ -26394,6 +28852,410 @@
           "spans": [
             {
               "text": "Description du Focus",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cf88b48-e48e-80f1-8098-d487f62b7918",
+      "notionUrl": "https://app.notion.com/p/S-cr-tions-corporelles-3cf88b48e48e80f18098d487f62b7918",
+      "lastEditedTime": "2026-09-02T07:58:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "15 minutes"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 4
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cimetiere",
+              "title": "Voie du Cimetière",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Sécrétions corporelles"
+        }
+      },
+      "title": "Sécrétions corporelles",
+      "slug": "secretions-corporelles",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le processus de décomposition comporte cinq étapes.",
+          "spans": [
+            {
+              "text": "Le processus de décomposition comporte cinq étapes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La deuxième étape, le ballonnement, provoque l'accumulation de gaz dans un cadavre tandis que le corps continue de se décomposer. En exerçant votre domination sur la mort, vous remplissez votre corps de gaz nécrotiques, provoquant son gonflement et son ballonnement.",
+          "spans": [
+            {
+              "text": "La deuxième étape, le ballonnement, provoque l'accumulation de gaz dans un cadavre tandis que le corps continue de se décomposer. En exerçant votre domination sur la mort, vous remplissez votre corps de gaz nécrotiques, provoquant son gonflement et son ballonnement.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vos ennemis vous frappent, vos blessures éclatent, libérant les énergies drainantes de la décomposition dans une répugnante explosion d'air nauséabond et de carnage ectoplasmique.",
+          "spans": [
+            {
+              "text": "Lorsque vos ennemis vous frappent, vos blessures éclatent, libérant les énergies drainantes de la décomposition dans une répugnante explosion d'air nauséabond et de carnage ectoplasmique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour adopter une forme gonflée et putréfiée, emplissant vos entrailles d'un mélange purulent de sang et de cendres.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour adopter une forme gonflée et putréfiée, emplissant vos entrailles d'un mélange purulent de sang et de cendres.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne située à 2 pas ou moins de vous qui réussit une attaque de Bagarre ou de Mêlée contre vous subit 2 points de dégâts normaux, tandis que du pus et du sang jaillissent de la blessure infligée, la couvrant de viscères.",
+          "spans": [
+            {
+              "text": "Toute personne située à 2 pas ou moins de vous qui réussit une attaque de Bagarre ou de Mêlée contre vous subit 2 points de dégâts normaux, tandis que du pus et du sang jaillissent de la blessure infligée, la couvrant de viscères.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La magie nécrotique présente dans ces sécrétions empêche la cible de bénéficier de toute dissimulation surnaturelle, telle que Présence Invisible, jusqu'à ce qu'elle se soit débarrassée des viscères qui la recouvrent.",
+          "spans": [
+            {
+              "text": "La magie nécrotique présente dans ces sécrétions empêche la cible de bénéficier de toute dissimulation surnaturelle, telle que Présence Invisible, jusqu'à ce qu'elle se soit débarrassée des viscères qui la recouvrent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "La victime peut effectuer une action standard pour essuyer rapidement l'ectoplasme et se débarrasser de ses effets négatifs.",
+          "spans": [
+            {
+              "text": "La victime peut effectuer une action standard pour essuyer rapidement l'ectoplasme et se débarrasser de ses effets négatifs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "De plus, vous pouvez imprégner d'un effet moindre un nombre de zombies proches sous votre contrôle égal à vos points en Occultisme. Ces zombies explosent lorsqu'ils perdent tous leurs niveaux de santé.",
+          "spans": [
+            {
+              "text": "De plus, vous pouvez imprégner d'un effet moindre un nombre de zombies proches sous votre contrôle égal à vos points en Occultisme. Ces zombies explosent lorsqu'ils perdent tous leurs niveaux de santé.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Un zombie qui explose inflige 2 points de dégâts normaux à tous les personnages situés à 2 pas ou moins de lui.",
+          "spans": [
+            {
+              "text": "Un zombie qui explose inflige 2 points de dégâts normaux à tous les personnages situés à 2 pas ou moins de lui.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "L'explosion détruit complètement le corps du zombie, ne laissant derrière elle que des morceaux putréfiés et des viscères éparpillés dans la zone immédiate.",
+          "spans": [
+            {
+              "text": "L'explosion détruit complètement le corps du zombie, ne laissant derrière elle que des morceaux putréfiés et des viscères éparpillés dans la zone immédiate.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous et tous les zombies sous votre contrôle êtes immunisés aux dégâts de ces explosions.",
+          "spans": [
+            {
+              "text": "Vous et tous les zombies sous votre contrôle êtes immunisés aux dégâts de ces explosions.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Traitez chaque zombie qui explose comme une source de dégâts distincte, de la même manière qu'une explosion de bombe ou une Tempête de Feu.",
+          "spans": [
+            {
+              "text": "Traitez chaque zombie qui explose comme une source de dégâts distincte, de la même manière qu'une explosion de bombe ou une Tempête de Feu.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Sécrétions corporelles dure 15 minutes.",
+          "spans": [
+            {
+              "text": "Sécrétions corporelles dure 15 minutes.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir qu'une seule application de ce pouvoir active à la fois.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir qu'une seule application de ce pouvoir active à la fois.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Ce pouvoir est considéré comme un pouvoir de transformation mineure.",
+          "spans": [
+            {
+              "text": "Ce pouvoir est considéré comme un pouvoir de transformation mineure.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute personne qui vous touche avec une attaque de Bagarre ou de Mêlée subit 1 point de dégâts normaux supplémentaire, pour un total de 3 points.",
+          "spans": [
+            {
+              "text": "Toute personne qui vous touche avec une attaque de Bagarre ou de Mêlée subit 1 point de dégâts normaux supplémentaire, pour un total de 3 points.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos zombies affectés infligent également 3 points de dégâts normaux lorsqu'ils explosent.",
+          "spans": [
+            {
+              "text": "Vos zombies affectés infligent également 3 points de dégâts normaux lorsqu'ils explosent.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3cf88b48-e48e-807c-94eb-cf449bf23b7c",
+      "notionUrl": "https://app.notion.com/p/Seigneur-des-mouches-3cf88b48e48e807c94ebcf449bf23b7c",
+      "lastEditedTime": "2026-09-02T07:52:00.000Z",
+      "properties": {
+        "Focus": {
+          "type": "select",
+          "value": "Charisme"
+        },
+        "Type d'action": {
+          "type": "select",
+          "value": "Action Simple"
+        },
+        "Durée": {
+          "type": "select",
+          "value": "1 tour"
+        },
+        "Niveau": {
+          "type": "number",
+          "value": 1
+        },
+        "Discipline": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-cimetiere",
+              "title": "Voie du Cimetière",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Couts en points de sang": {
+          "type": "number",
+          "value": 1
+        },
+        "Name": {
+          "type": "text",
+          "value": "Seigneur des mouches"
+        }
+      },
+      "title": "Seigneur des mouches",
+      "slug": "seigneur-des-mouches",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Description",
+          "spans": [
+            {
+              "text": "Description",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dès l'instant où la mort survient, la vermine est attirée par le cadavre.",
+          "spans": [
+            {
+              "text": "Dès l'instant où la mort survient, la vermine est attirée par le cadavre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En expulsant de votre corps des énergies nécromantiques, vous attirez un épais essaim noir de mouches à viande. Elles sont rapidement rejointes par des mouches carnassières, des scarabées bousiers et des papillons de nuit, qui vous entourent d'un épais nuage d'insectes nécrophages affamés de chair morte.",
+          "spans": [
+            {
+              "text": "En expulsant de votre corps des énergies nécromantiques, vous attirez un épais essaim noir de mouches à viande. Elles sont rapidement rejointes par des mouches carnassières, des scarabées bousiers et des papillons de nuit, qui vous entourent d'un épais nuage d'insectes nécrophages affamés de chair morte.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Système",
+          "spans": [
+            {
+              "text": "Système",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Dépensez 1 point de Sang et effectuez une action simple pour invoquer un essaim d'insectes nécrophages qui vous enveloppe jusqu'à la fin du prochain tour. L'essaim vous dissimule à vos ennemis et vous rend impossible à cibler par des attaques à distance, des attaques de jet ou tout pouvoir nécessitant Regard et Concentration.",
+          "spans": [
+            {
+              "text": "Dépensez 1 point de Sang et effectuez une action simple pour invoquer un essaim d'insectes nécrophages qui vous enveloppe jusqu'à la fin du prochain tour. L'essaim vous dissimule à vos ennemis et vous rend impossible à cibler par des attaques à distance, des attaques de jet ou tout pouvoir nécessitant Regard et Concentration.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez cependant effectuer normalement des attaques à distance et utiliser des pouvoirs nécessitant Regard et Concentration.",
+          "spans": [
+            {
+              "text": "Vous pouvez cependant effectuer normalement des attaques à distance et utiliser des pouvoirs nécessitant Regard et Concentration.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous pouvez choisir le type d'insectes invoqués. Les pratiquants ayant des liens avec l'Égypte privilégient souvent les scarabées, tandis que ceux d'Amérique du Sud font fréquemment appel aux mouches à viande.",
+          "spans": [
+            {
+              "text": "Vous pouvez choisir le type d'insectes invoqués. Les pratiquants ayant des liens avec l'Égypte privilégient souvent les scarabées, tandis que ceux d'Amérique du Sud font fréquemment appel aux mouches à viande.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque le pouvoir prend fin, les insectes retournent à l'intérieur de votre corps, où ils sont consumés, vous faisant récupérer 1 point de dégâts normaux.",
+          "spans": [
+            {
+              "text": "Lorsque le pouvoir prend fin, les insectes retournent à l'intérieur de votre corps, où ils sont consumés, vous faisant récupérer 1 point de dégâts normaux.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Focus",
+          "spans": [
+            {
+              "text": "Focus",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Lorsque vous activez ce pouvoir, vous pouvez étendre ses effets à un nombre de zombies sous votre contrôle égal à vos points en Occultisme.",
+          "spans": [
+            {
+              "text": "Lorsque vous activez ce pouvoir, vous pouvez étendre ses effets à un nombre de zombies sous votre contrôle égal à vos ",
+              "bold": false
+            },
+            {
+              "text": "points en Occultisme",
+              "bold": true
+            },
+            {
+              "text": ".",
               "bold": false
             }
           ]
