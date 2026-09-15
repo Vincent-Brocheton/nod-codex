@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-09-15T17:04:43.239Z",
+  "generatedAt": "2026-09-15T17:06:29.349Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Serviteurs",
+      "slug": "serviteurs",
+      "collectionKey": "historiques",
+      "collectionLabel": "Historiques",
+      "path": "/historiques",
+      "icon": "scroll",
+      "lastEditedTime": "2026-09-15T17:05:00.000Z"
+    },
     {
       "title": "Accepter l'Étreinte de la Mort",
       "slug": "accepter-l-etreinte-de-la-mort",
@@ -281,15 +290,6 @@
       "path": "/pouvoirs",
       "icon": "droplet",
       "lastEditedTime": "2026-09-02T08:08:00.000Z"
-    },
-    {
-      "title": "Mort parfaite",
-      "slug": "mort-parfaite",
-      "collectionKey": "pouvoirs",
-      "collectionLabel": "Pouvoirs",
-      "path": "/pouvoirs",
-      "icon": "droplet",
-      "lastEditedTime": "2026-09-02T08:02:00.000Z"
     }
   ]
 }

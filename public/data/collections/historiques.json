@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-09-15T17:04:43.225Z",
+  "generatedAt": "2026-09-15T17:06:29.332Z",
   "propertyOptions": {},
   "items": [
     {
@@ -5744,7 +5744,7 @@
     {
       "id": "39b88b48-e48e-8095-957b-de71ddd13735",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
-      "lastEditedTime": "2026-08-27T11:17:00.000Z",
+      "lastEditedTime": "2026-09-15T17:05:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -6274,10 +6274,18 @@
         },
         {
           "type": "paragraph",
-          "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une Discipline de clan de son domitor.",
+          "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une seule Discipline de clan de son domitor.",
           "spans": [
             {
-              "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une Discipline ",
+              "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'",
+              "bold": false
+            },
+            {
+              "text": "une seule",
+              "bold": true
+            },
+            {
+              "text": " Discipline ",
               "bold": false
             },
             {
