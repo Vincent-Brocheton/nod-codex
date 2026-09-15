@@ -4,7 +4,7 @@
   "group": "Mystères",
   "description": "",
   "notionDatabaseId": "3bf88b48-e48e-809a-88a9-e3c1b6f0a625",
-  "generatedAt": "2026-09-02T09:02:45.891Z",
+  "generatedAt": "2026-09-15T17:04:43.228Z",
   "propertyOptions": {
     "Catégorie": [
       "Organisation",
@@ -4080,845 +4080,6 @@
       ]
     },
     {
-      "id": "3c088b48-e48e-80c4-b8fd-cb3e31bfbde1",
-      "notionUrl": "https://app.notion.com/p/Fant-me-3c088b48e48e80c4b8fdcb3e31bfbde1",
-      "lastEditedTime": "2026-08-24T10:50:00.000Z",
-      "properties": {
-        "Catégorie": {
-          "type": "select",
-          "value": "Surnaturel"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Niveau Max": {
-          "type": "number",
-          "value": 5
-        },
-        "Clans": {
-          "type": "relation",
-          "value": []
-        },
-        "Factions": {
-          "type": "select",
-          "value": ""
-        },
-        "Résumé": {
-          "type": "text",
-          "value": "Mystères sur les Fantômes"
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Fantôme"
-        }
-      },
-      "title": "Fantôme",
-      "slug": "fantome",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Niveau 1",
-          "spans": [
-            {
-              "text": "Niveau 1",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances communes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Ils hantent une maison parce qu'ils veulent retrouver leur amour ou se venger d’une personne. Ces hantises sont souvent accompagnées par des phénomènes de poltergeist.",
-              "spans": [
-                {
-                  "text": "Ils hantent une maison parce qu'ils veulent retrouver leur amour ou se venger d’une personne. Ces hantises sont souvent accompagnées par des phénomènes de poltergeist.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Certains disent que les fantômes sans repos sont en guerre entre eux, pour des raisons diverses.",
-              "spans": [
-                {
-                  "text": "Certains disent que les fantômes sans repos sont en guerre entre eux, pour des raisons diverses.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez des informations tirées de films récents (The Haunting, Ghost Ship, Lost Voyage.). Vous connaissez beaucoup de fausses rumeurs, un mélange de mythes et de folklore (essentiellement beaucoup de renseignements faux ou inexacts). Ils sont partout, à regarder et à attendre.",
-              "spans": [
-                {
-                  "text": "Vous avez des informations tirées de films récents (The Haunting, Ghost Ship, Lost Voyage.). Vous connaissez beaucoup de fausses rumeurs, un mélange de mythes et de folklore (essentiellement beaucoup de renseignements faux ou inexacts). Ils sont partout, à regarder et à attendre.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes sont les âmes de ceux qui sont morts avec « une tâche inachevé », et qu'ils ne peuvent pas trouver la paix jusqu'à ce qu'ils aient accompli leur but.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes sont les âmes de ceux qui sont morts avec « une tâche inachevé », et qu'ils ne peuvent pas trouver la paix jusqu'à ce qu'ils aient accompli leur but.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que certains fantômes sont nettement plus malveillants que d'autres, et que ceux-ci sont appelés spectres.",
-              "spans": [
-                {
-                  "text": "Vous savez que certains fantômes sont nettement plus malveillants que d'autres, et que ceux-ci sont appelés spectres.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances communes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances secrètes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes n'ont pas de corps physiques dans le même sens que les vivants, et que leurs corps sont faits à partir d'une substance connue sous le nom de \"Plasme\".",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes n'ont pas de corps physiques dans le même sens que les vivants, et que leurs corps sont faits à partir d'une substance connue sous le nom de \"Plasme\".",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes (ou Errants) sont des créatures liées aux émotions, et qu'ils recherchent des sentiments qui sont importantes pour eux.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes (ou Errants) sont des créatures liées aux émotions, et qu'ils recherchent des sentiments qui sont importantes pour eux.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que la plupart des fantômes que vous rencontrerez ont des artefacts liés à eux appelés \"Entraves\" (des objets qui étaient personnellement importants pour eux durant leur vie), et auxquels ils tiennent particulièrement.",
-              "spans": [
-                {
-                  "text": "Vous savez que la plupart des fantômes que vous rencontrerez ont des artefacts liés à eux appelés \"Entraves\" (des objets qui étaient personnellement importants pour eux durant leur vie), et auxquels ils tiennent particulièrement.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que quiconque détient une entrave possède un gros moyen de pression sur un fantôme.",
-              "spans": [
-                {
-                  "text": "Vous savez que quiconque détient une entrave possède un gros moyen de pression sur un fantôme.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez qu'il y a une barrière nommée « le Linceul» (ou Voile) qui sépare le monde des morts du monde des vivants, et que les fantômes ont souvent du mal à employer tous leurs pouvoirs pleinement dans le monde des vifs pour cette raison.",
-              "spans": [
-                {
-                  "text": "Vous savez qu'il y a une barrière nommée « le Linceul» (ou Voile) qui sépare le monde des morts du monde des vivants, et que les fantômes ont souvent du mal à employer tous leurs pouvoirs pleinement dans le monde des vifs pour cette raison.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que le Linceul a tendance à être plus faible dans les lieux imprégnés par la mort (les cimetières, sites de meurtre, Elyséum) et que les interactions avec les fantômes peuvent être moins difficile là-bas (des deux côtés).",
-              "spans": [
-                {
-                  "text": "Vous savez que le Linceul a tendance à être plus faible dans les lieux imprégnés par la mort (les cimetières, sites de meurtre, Elyséum) et que les interactions avec les fantômes peuvent être moins difficile là-bas (des deux côtés).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de quelques pouvoirs fantomatiques : apparaître aux vivants, poltergeist et possession.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de quelques pouvoirs fantomatiques : apparaître aux vivants, poltergeist et possession.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances secrètes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Niveau 2",
-          "spans": [
-            {
-              "text": "Niveau 2",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances communes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les bruits de coups sont l'un des premiers moyens de communication de l'esprit.",
-              "spans": [
-                {
-                  "text": "Vous savez que les bruits de coups sont l'un des premiers moyens de communication de l'esprit.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les rapports de perturbations de poltergeist citent des bruits, des lumières, des odeurs, des agressions physiques ou sexuelles et la sonnerie du téléphone. Une activité de Poltergeist s'arrête aussi soudainement qu’elle commence. Les activités peuvent durer de quelques heures à quelques années. Elles ont habituellement lieu quand un individu particulier est présent.",
-              "spans": [
-                {
-                  "text": "Vous savez que les rapports de perturbations de poltergeist citent des bruits, des lumières, des odeurs, des agressions physiques ou sexuelles et la sonnerie du téléphone. Une activité de Poltergeist s'arrête aussi soudainement qu’elle commence. Les activités peuvent durer de quelques heures à quelques années. Elles ont habituellement lieu quand un individu particulier est présent.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous pensez que les fantômes possèdent tous les mêmes pouvoirs.",
-              "spans": [
-                {
-                  "text": "Vous pensez que les fantômes possèdent tous les mêmes pouvoirs.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que parfois, ils sont accompagnés par les odeurs ou donnent des sensations de frisson. La plupart des apparitions semblent avoir un but, comme la communication d'un message.",
-              "spans": [
-                {
-                  "text": "Vous savez que parfois, ils sont accompagnés par les odeurs ou donnent des sensations de frisson. La plupart des apparitions semblent avoir un but, comme la communication d'un message.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que seules les personnes qui sont décédées en ayant une détermination importante peuvent se lier à des entraves (même au- delà la mort !) pour devenir des fantômes, et que ces personnes sont rares.",
-              "spans": [
-                {
-                  "text": "Vous savez que seules les personnes qui sont décédées en ayant une détermination importante peuvent se lier à des entraves (même au- delà la mort !) pour devenir des fantômes, et que ces personnes sont rares.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que tous les décédés sont loin de devenir des fantômes. Vous savez que les fantômes sont en chasse d'émotion brute, nommées \"Pathos\", et qu'ils peuvent en extraire à proximité de leurs Entraves, ou en la siphonnant aux personnes (vivants ou morts) qui ressentent l'émotion qu'ils désirent.",
-              "spans": [
-                {
-                  "text": "Vous savez que tous les décédés sont loin de devenir des fantômes. Vous savez que les fantômes sont en chasse d'émotion brute, nommées \"Pathos\", et qu'ils peuvent en extraire à proximité de leurs Entraves, ou en la siphonnant aux personnes (vivants ou morts) qui ressentent l'émotion qu'ils désirent.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que l'Outremonde est une version miroir du monde des vivants habité par les morts.",
-              "spans": [
-                {
-                  "text": "Vous savez que l'Outremonde est une version miroir du monde des vivants habité par les morts.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que l'Outremonde est relié au monde des vifs, et contient des objets ou des bâtiments ayant existé dans le monde des vivants et toujours présent dans les mémoires. Vous savez que la plupart des grandes villes ont des reflets voire des équivalents dans l'Outremonde et qu’ils sont nommés Nécropoles.",
-              "spans": [
-                {
-                  "text": "Vous savez que l'Outremonde est relié au monde des vifs, et contient des objets ou des bâtiments ayant existé dans le monde des vivants et toujours présent dans les mémoires. Vous savez que la plupart des grandes villes ont des reflets voire des équivalents dans l'Outremonde et qu’ils sont nommés Nécropoles.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes ne peuvent fréquenter l'Outremonde que s’ils ont encore des entraves existantes pour les tenir à proximité de la terre des vivants.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes ne peuvent fréquenter l'Outremonde que s’ils ont encore des entraves existantes pour les tenir à proximité de la terre des vivants.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes ne sont pas quelque chose qui devrait être pris à la légère. Si l'entité est ignorée, elle trouvera un moyen de se faire entendre ou sentir.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes ne sont pas quelque chose qui devrait être pris à la légère. Si l'entité est ignorée, elle trouvera un moyen de se faire entendre ou sentir.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances communes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances secrètes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que certains esprits ne semblent pas avoir de conscience et se contentent de rejouer éternellement leur mort. Ils sont appelés drones.",
-              "spans": [
-                {
-                  "text": "Vous savez que certains esprits ne semblent pas avoir de conscience et se contentent de rejouer éternellement leur mort. Ils sont appelés drones.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous connaissez l'existence de reliques, des objets qui contenaient suffisamment de résonance émotionnelle. Quand ils ont été détruits, ils sont apparus comme des éléments physiques dans l'Outremonde. Vous savez qu'ils sont très prisés dans la société fantomatique où les matériaux sont rares.",
-              "spans": [
-                {
-                  "text": "Vous connaissez l'existence de reliques, des objets qui contenaient suffisamment de résonance émotionnelle. Quand ils ont été détruits, ils sont apparus comme des éléments physiques dans l'Outremonde. Vous savez qu'ils sont très prisés dans la société fantomatique où les matériaux sont rares.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes ont une structure politique et hiérarchique et vous avez entendu parler de la Hiérarchie - l'organisme qui dirige la plupart des esprits que vous rencontrerez dans la civilisation européenne, bien que vous ne possédiez que très peu d'informations à ce sujet.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes ont une structure politique et hiérarchique et vous avez entendu parler de la Hiérarchie - l'organisme qui dirige la plupart des esprits que vous rencontrerez dans la civilisation européenne, bien que vous ne possédiez que très peu d'informations à ce sujet.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes ont une capacité innée à discerner la résonance émotionnelle et l'état de délabrement des choses. Les fantômes peuvent être en mesure de dire quand une personne est en colère ou triste. Ils peuvent également être en mesure de dire si une personne est proche de la mort ou si un bâtiment est proche de l'effondrement.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes ont une capacité innée à discerner la résonance émotionnelle et l'état de délabrement des choses. Les fantômes peuvent être en mesure de dire quand une personne est en colère ou triste. Ils peuvent également être en mesure de dire si une personne est proche de la mort ou si un bâtiment est proche de l'effondrement.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous connaissez les Arcanos (singulier : Arcanoï) les plus communs que les fantômes utilisent pour interagir avec les “skinlands\" (monde des vifs) comme ils les appellent. Vous savez que ces capacités se rapprochent de ce que certaines Disciplines peuvent faire. Les fantômes peuvent ainsi avoir la capacité de parler ou d’apparaître devant témoin, la capacité de provoquer et de manipuler, de jeter des objets physiques, de causer des effets surréalistes ou étranges (murs de saignement, le temps qui ralentit etc. ...), voire la capacité de posséder et de manipuler des hôtes mortels.",
-              "spans": [
-                {
-                  "text": "Vous connaissez les Arcanos (singulier : Arcanoï) les plus communs que les fantômes utilisent pour interagir avec les “skinlands\" (monde des vifs) comme ils les appellent. Vous savez que ces capacités se rapprochent de ce que certaines Disciplines peuvent faire. Les fantômes peuvent ainsi avoir la capacité de parler ou d’apparaître devant témoin, la capacité de provoquer et de manipuler, de jeter des objets physiques, de causer des effets surréalistes ou étranges (murs de saignement, le temps qui ralentit etc. ...), voire la capacité de posséder et de manipuler des hôtes mortels.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous êtes conscient que tous les fantômes possèdent un schisme au niveau de leur personnalité qui fait apparaître un double sombre, appelée une Ombre. Vous savez que cette personnalité secondaire peut parfois tenter de maîtriser les actions de l’esprit contre sa volonté. Vous savez que si cela se produit trop souvent le fantôme deviendra de plus en plus malveillant… jusqu’à se transformer en Spectre. Au bout du compte, le but d’une Ombre reste de faire échouer un fantôme, voire de le faire arrêter de lutter et de succomber au Néant (ou Oblivion/Oubli).",
-              "spans": [
-                {
-                  "text": "Vous êtes conscient que tous les fantômes possèdent un schisme au niveau de leur personnalité qui fait apparaître un double sombre, appelée une Ombre. Vous savez que cette personnalité secondaire peut parfois tenter de maîtriser les actions de l’esprit contre sa volonté. Vous savez que si cela se produit trop souvent le fantôme deviendra de plus en plus malveillant… jusqu’à se transformer en Spectre. Au bout du compte, le but d’une Ombre reste de faire échouer un fantôme, voire de le faire arrêter de lutter et de succomber au Néant (ou Oblivion/Oubli).",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances secrètes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Niveau 3",
-          "spans": [
-            {
-              "text": "Niveau 3",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances communes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que vous ne pouvez pas entendre un fantôme qui ne souhaite pas être entendu. Certains fantômes interagissant avec les enfants ne peuvent être vus que par ces derniers. Certaines personnes croient que ces fantômes ne sont que le fruit de l'imagination des enfants.",
-              "spans": [
-                {
-                  "text": "Vous savez que vous ne pouvez pas entendre un fantôme qui ne souhaite pas être entendu. Certains fantômes interagissant avec les enfants ne peuvent être vus que par ces derniers. Certaines personnes croient que ces fantômes ne sont que le fruit de l'imagination des enfants.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de la Tempête - une mer mouvante tentaculaire de magma, de cauchemars, d'acide, de plasma brûlant, et de bêtes horribles qui sous-tend l'Outremonde.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de la Tempête - une mer mouvante tentaculaire de magma, de cauchemars, d'acide, de plasma brûlant, et de bêtes horribles qui sous-tend l'Outremonde.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez qu'il est particulièrement dangereux de voyager, et que parfois des ouragans (connus sous le nom de Maelstroms) traversent la Tempête - ce qui la rend encore plus instable.",
-              "spans": [
-                {
-                  "text": "Vous savez qu'il est particulièrement dangereux de voyager, et que parfois des ouragans (connus sous le nom de Maelstroms) traversent la Tempête - ce qui la rend encore plus instable.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de Stygia, la grande Nécropole située dans la tempête et bastion de la Hiérarchie.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de Stygia, la grande Nécropole située dans la tempête et bastion de la Hiérarchie.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que la Hiérarchie aurait été fondée par une figure énigmatique connue comme Charon, et vous avez une idée approximative de ce que sont les Légions (au nombre de huit et qui semblent répartir les fantômes entre eux).",
-              "spans": [
-                {
-                  "text": "Vous savez que la Hiérarchie aurait été fondée par une figure énigmatique connue comme Charon, et vous avez une idée approximative de ce que sont les Légions (au nombre de huit et qui semblent répartir les fantômes entre eux).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler du Dictum Mortuum (ou Code de morts), un code juridique issu de la Hiérarchie interdisant les interactions entre les vivants et les morts. Vous vous rendez compte qu'en ayant ce niveau de connaissance, vous êtes probablement en violation dudit code.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler du Dictum Mortuum (ou Code de morts), un code juridique issu de la Hiérarchie interdisant les interactions entre les vivants et les morts. Vous vous rendez compte qu'en ayant ce niveau de connaissance, vous êtes probablement en violation dudit code.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances communes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances secrètes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu des rumeurs disant que quelque chose se trouve sous Stygia - quelque chose de cauchemardesque. Vous savez que quoi que cela puisse être, c'est en lien avec les spectres.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu des rumeurs disant que quelque chose se trouve sous Stygia - quelque chose de cauchemardesque. Vous savez que quoi que cela puisse être, c'est en lien avec les spectres.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez connaissance des deux factions politiques qui s'opposent à la Hiérarchie. Ce sont les Renégats (fantômes qui n'ont pas prêté allégeance à la Hiérarchie ou cherchent même activement à la détruire) et les Hérétiques (Ces esprits qui suivent diverses idéologies religieuses ou spirituelles dans l'espoir de transcender l’enfer).",
-              "spans": [
-                {
-                  "text": "Vous avez connaissance des deux factions politiques qui s'opposent à la Hiérarchie. Ce sont les Renégats (fantômes qui n'ont pas prêté allégeance à la Hiérarchie ou cherchent même activement à la détruire) et les Hérétiques (Ces esprits qui suivent diverses idéologies religieuses ou spirituelles dans l'espoir de transcender l’enfer).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler des Guildes, des organisations qui jadis offraient une instruction dans les arts des Arcanos.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler des Guildes, des organisations qui jadis offraient une instruction dans les arts des Arcanos.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous connaissez certains pouvoirs moins communs que les fantômes utilisent pour interagir avec les “Skinlands”, et même quelques-uns propres au monde des morts. Vous savez que les deux moitiés de l'esprit d’un fantôme sont la Psyché et l'Ombre.",
-              "spans": [
-                {
-                  "text": "Vous connaissez certains pouvoirs moins communs que les fantômes utilisent pour interagir avec les “Skinlands”, et même quelques-uns propres au monde des morts. Vous savez que les deux moitiés de l'esprit d’un fantôme sont la Psyché et l'Ombre.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de la notion de \"Déchirure\", dans lequel un fantôme est confronté à son Ombre pendant les périodes de détresse ou de souffrance physique. Vous êtes familier avec le concept de Néant - cette force nihiliste qui incarne l'essence même de l'entropie.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de la notion de \"Déchirure\", dans lequel un fantôme est confronté à son Ombre pendant les périodes de détresse ou de souffrance physique. Vous êtes familier avec le concept de Néant - cette force nihiliste qui incarne l'essence même de l'entropie.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que c’est cette force que les fantômes craignent le plus, et qu'ils croient que les Spectres y sont directement liés. Vous avez entendu parler de l'art de la forge d' me, durant lequel le corps d'un fantôme (Plasme) est chauffé jusqu'à devenir malléable et être forgé en un objet.",
-              "spans": [
-                {
-                  "text": "Vous savez que c’est cette force que les fantômes craignent le plus, et qu'ils croient que les Spectres y sont directement liés. Vous avez entendu parler de l'art de la forge d' me, durant lequel le corps d'un fantôme (Plasme) est chauffé jusqu'à devenir malléable et être forgé en un objet.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez qu'en dehors de reliques, ce processus horrible est l'un des seuls moyens d'obtenir des biens matériels dans le monde des morts, et que c'est un châtiment réservé aux criminels.",
-              "spans": [
-                {
-                  "text": "Vous savez qu'en dehors de reliques, ce processus horrible est l'un des seuls moyens d'obtenir des biens matériels dans le monde des morts, et que c'est un châtiment réservé aux criminels.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de Barghests - fantômes dont le corpus a été modifié pour prendre la forme d'un chien et qui servent à la traque. Vous en savez assez sur les fantômes pour savoir qu'un vampire, qui en aurait la volonté, pourrait les rejoindre après la Mort finale.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de Barghests - fantômes dont le corpus a été modifié pour prendre la forme d'un chien et qui servent à la traque. Vous en savez assez sur les fantômes pour savoir qu'un vampire, qui en aurait la volonté, pourrait les rejoindre après la Mort finale.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances secrètes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Niveau 4",
-          "spans": [
-            {
-              "text": "Niveau 4",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances communes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que les fantômes peuvent posséder des personnes mais aussi des animaux et même des machines.",
-              "spans": [
-                {
-                  "text": "Vous savez que les fantômes peuvent posséder des personnes mais aussi des animaux et même des machines.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu dire que Stygia et la Hiérarchie régissent les terres Occidentales de la mort (dénommé Sombre Royaume de Fer) - et vous avez entendu des rumeurs selon lesquelles d'autres cultures possèdent différentes formes de Hiérarchie / Royaumes.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu dire que Stygia et la Hiérarchie régissent les terres Occidentales de la mort (dénommé Sombre Royaume de Fer) - et vous avez entendu des rumeurs selon lesquelles d'autres cultures possèdent différentes formes de Hiérarchie / Royaumes.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler du Labyrinthe - une ruche de spectres qui se trouve sous Stygia, et vous avez sans doute entendu des histoires innommables à ce sujet. Vous savez que c'est dans ce paysage de cauchemar métaphysique que les \"Déchirures\" auraient lieu et que réside le Néant. Vous savez aussi que tous les spectres sont connectés à une sorte d'esprit collectif pour servir le Néant.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler du Labyrinthe - une ruche de spectres qui se trouve sous Stygia, et vous avez sans doute entendu des histoires innommables à ce sujet. Vous savez que c'est dans ce paysage de cauchemar métaphysique que les \"Déchirures\" auraient lieu et que réside le Néant. Vous savez aussi que tous les spectres sont connectés à une sorte d'esprit collectif pour servir le Néant.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que Charon ne règne plus sur Stygia (ayant disparu au début du 20e siècle), et que la structure la plus proche d'un gouvernement que la Hiérarchie possède encore sont les Seigneurs de la Mort qui dirigent les différentes Légions.",
-              "spans": [
-                {
-                  "text": "Vous savez que Charon ne règne plus sur Stygia (ayant disparu au début du 20e siècle), et que la structure la plus proche d'un gouvernement que la Hiérarchie possède encore sont les Seigneurs de la Mort qui dirigent les différentes Légions.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez un peu plus sur les Légions désormais et vous comprenez que chacune est composé de fantôme qui sont répartis des suites d’une mort semblable (la guerre, la maladie, le suicide, etc. ...).",
-              "spans": [
-                {
-                  "text": "Vous savez un peu plus sur les Légions désormais et vous comprenez que chacune est composé de fantôme qui sont répartis des suites d’une mort semblable (la guerre, la maladie, le suicide, etc. ...).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous connaissez les Passeurs, une organisation distincte de la Hiérarchie que Charon aurait fondée.",
-              "spans": [
-                {
-                  "text": "Vous connaissez les Passeurs, une organisation distincte de la Hiérarchie que Charon aurait fondée.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez qu’ils s’occupent du passage plus sûr à travers la Tempête et qu'ils sont censés être très puissants.",
-              "spans": [
-                {
-                  "text": "Vous savez qu’ils s’occupent du passage plus sûr à travers la Tempête et qu'ils sont censés être très puissants.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances communes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances secrètes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler des Rives Lointaines - des îles dans la Tempête que recherchent les cultes Hérétiques, et où l'on peut trouver toutes sortes de cieux et d'enfers pour ceux qui les cherchent. Vous savez que les guildes ont été déclarées illégales dans le passé, mais qu'une poignée survivent encore à ce jour.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler des Rives Lointaines - des îles dans la Tempête que recherchent les cultes Hérétiques, et où l'on peut trouver toutes sortes de cieux et d'enfers pour ceux qui les cherchent. Vous savez que les guildes ont été déclarées illégales dans le passé, mais qu'une poignée survivent encore à ce jour.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler de la plupart des guildes les plus éminentes qui restent encore publiques dans Stygia, même si leur légalité est parfois remise en question. Vous savez que la plupart des guildes spécialisées dans des Arcanos qui rompent la Dictum Mortuum (en clair : les Arcanoï que vous êtes susceptible de rencontrer) ont été soit dissoutes de façon permanente ou sont passées dans la clandestinité.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler de la plupart des guildes les plus éminentes qui restent encore publiques dans Stygia, même si leur légalité est parfois remise en question. Vous savez que la plupart des guildes spécialisées dans des Arcanos qui rompent la Dictum Mortuum (en clair : les Arcanoï que vous êtes susceptible de rencontrer) ont été soit dissoutes de façon permanente ou sont passées dans la clandestinité.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous savez que la principale raison de la friction entre la Hiérarchie et les Hérétiques réside dans le fait que la Hiérarchie a officiellement désavoué le concept de Transcendance (un état atteint lorsqu’un esprit remplit tout ce qu'il lui restait à faire).",
-              "spans": [
-                {
-                  "text": "Vous savez que la principale raison de la friction entre la Hiérarchie et les Hérétiques réside dans le fait que la Hiérarchie a officiellement désavoué le concept de Transcendance (un état atteint lorsqu’un esprit remplit tout ce qu'il lui restait à faire).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous êtes familier avec la plupart des Arcanos. Vous avez aussi entendu dire que les Spectres possèdent leurs propres arts sombres différents de ceux des fantômes et que certains Arcanos sont interdits par la loi Stygienne.",
-              "spans": [
-                {
-                  "text": "Vous êtes familier avec la plupart des Arcanos. Vous avez aussi entendu dire que les Spectres possèdent leurs propres arts sombres différents de ceux des fantômes et que certains Arcanos sont interdits par la loi Stygienne.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu des rumeurs de fantômes tellement motivés à atteindre leurs objectifs qu'ils réussissent à reprendre la main sur leurs cadavres et à revenir sur la terre des vivants, tels des zombies ! Vous savez que de telles choses, si elles existent, sont sans doute rares, et sûrement dangereuses à croiser.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu des rumeurs de fantômes tellement motivés à atteindre leurs objectifs qu'ils réussissent à reprendre la main sur leurs cadavres et à revenir sur la terre des vivants, tels des zombies ! Vous savez que de telles choses, si elles existent, sont sans doute rares, et sûrement dangereuses à croiser.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances secrètes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "heading_2",
-          "text": "Niveau 5",
-          "spans": [
-            {
-              "text": "Niveau 5",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances communes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous comprenez parfaitement désormais la dichotomie entre un fantôme et un Spectre mais vous ignorez quel est le but d'un spectre. Plus un fantôme est puissant, plus il peut cacher sa vraie nature aux vivants. Les plus faibles révèlent leur tromperie par un léger flou qui brouille leur image, tandis que les plus puissants n'offrent pas d'indices visuels. Ils drainent l'énergie des vivants, souvent à leur insu, par simple proximité. Seules les armes magiques peuvent libérer un fantôme de ses liens avec la terre, si son objectif est une personne, une arme, un trésor ou un lieu qui ne peut être localisé et détruit ou dispersé.",
-              "spans": [
-                {
-                  "text": "Vous comprenez parfaitement désormais la dichotomie entre un fantôme et un Spectre mais vous ignorez quel est le but d'un spectre. Plus un fantôme est puissant, plus il peut cacher sa vraie nature aux vivants. Les plus faibles révèlent leur tromperie par un léger flou qui brouille leur image, tandis que les plus puissants n'offrent pas d'indices visuels. Ils drainent l'énergie des vivants, souvent à leur insu, par simple proximité. Seules les armes magiques peuvent libérer un fantôme de ses liens avec la terre, si son objectif est une personne, une arme, un trésor ou un lieu qui ne peut être localisé et détruit ou dispersé.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler du Sombre Royaume de Jade (les terres qui régissent les âmes des morts asiatique), le Sombre Royaume d'Ivoire (les terres qui régissent les morts africains), le Sombre royaume d'Argile (les terres qui régissent les morts australiens), le Sombre Royaume d'Obsidienne (qui régissait jadis les terres des Amériques jusqu'à l'invasion Stygienne) et Swar (la ville des Morts du sous-continent Indien).",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler du Sombre Royaume de Jade (les terres qui régissent les âmes des morts asiatique), le Sombre Royaume d'Ivoire (les terres qui régissent les morts africains), le Sombre royaume d'Argile (les terres qui régissent les morts australiens), le Sombre Royaume d'Obsidienne (qui régissait jadis les terres des Amériques jusqu'à l'invasion Stygienne) et Swar (la ville des Morts du sous-continent Indien).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez peut-être entendu des rumeurs au sujet d'autres royaumes ou domaines, en fonction de votre intérêt et de votre région géographique. Vous pouvez également savoir que certains Wraith des autres pays possèdent des pouvoirs étranges et différents des Arcanoï occidentaux.",
-              "spans": [
-                {
-                  "text": "Vous avez peut-être entendu des rumeurs au sujet d'autres royaumes ou domaines, en fonction de votre intérêt et de votre région géographique. Vous pouvez également savoir que certains Wraith des autres pays possèdent des pouvoirs étranges et différents des Arcanoï occidentaux.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu des Grands Maelstroms qui ont balayé le Monde des Morts, vous savez qu'ils causent des dégâts considérables et qu'ils se produisent souvent en conjonction avec de grands bouleversements dans les “Skinlands” (ex: la peste noire, les guerres mondiales, etc. . .).",
-              "spans": [
-                {
-                  "text": "Vous avez entendu des Grands Maelstroms qui ont balayé le Monde des Morts, vous savez qu'ils causent des dégâts considérables et qu'ils se produisent souvent en conjonction avec de grands bouleversements dans les “Skinlands” (ex: la peste noire, les guerres mondiales, etc. . .).",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances communes",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "toggle",
-          "text": "Connaissances secrètes",
-          "children": [
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous êtes familier avec les huit légions. Il s'agit notamment de: La Légion de Fer (les victimes de la vieillesse), la Légion Décharnée (les victimes de la maladie et de la famine), la Légion Sinistre (les victimes de violence), la Légion des Pénitents (les victimes de la folie), la Légion d'Emeraude (les victimes d'accidents), la Légion Silencieuse (les victimes du désespoir et du suicide), la Légion des Pauvres (les victimes de circonstances mystérieuses et inconnues), et la Légion du Destin (victimes marquées par le destin).",
-              "spans": [
-                {
-                  "text": "Vous êtes familier avec les huit légions. Il s'agit notamment de: La Légion de Fer (les victimes de la vieillesse), la Légion Décharnée (les victimes de la maladie et de la famine), la Légion Sinistre (les victimes de violence), la Légion des Pénitents (les victimes de la folie), la Légion d'Emeraude (les victimes d'accidents), la Légion Silencieuse (les victimes du désespoir et du suicide), la Légion des Pauvres (les victimes de circonstances mystérieuses et inconnues), et la Légion du Destin (victimes marquées par le destin).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez une idée approximative des rangs civils et militaires au sein de chaque légion. Vous connaissez les trois Arcanos interdit de Stygia qui ont la capacité d’engendrer la désintégration dans les terres des vivants, de lire et de repérer les souvenirs ainsi que d'implanter des suggestions ou des ordres.",
-              "spans": [
-                {
-                  "text": "Vous avez une idée approximative des rangs civils et militaires au sein de chaque légion. Vous connaissez les trois Arcanos interdit de Stygia qui ont la capacité d’engendrer la désintégration dans les terres des vivants, de lire et de repérer les souvenirs ainsi que d'implanter des suggestions ou des ordres.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez une bonne connaissance des quinze guildes, y compris celles qui sont illégales ou interdites. Vous avez entendu parler des Malféens, qui sont sans doute les êtres les plus puissants du Royaume des Morts.  On raconte que leur puissance dépasse sans nul doute celles des Antédiluviens. Ce sont des êtres du néant engendrés par l'Oblivion lui-même. Vous savez que ces êtres sont à la tête de la hiérarchie du Labyrinthe, et qu'ils possèdent parfois des cultes chez les mortels.",
-              "spans": [
-                {
-                  "text": "Vous avez une bonne connaissance des quinze guildes, y compris celles qui sont illégales ou interdites. Vous avez entendu parler des Malféens, qui sont sans doute les êtres les plus puissants du Royaume des Morts.  On raconte que leur puissance dépasse sans nul doute celles des Antédiluviens. Ce sont des êtres du néant engendrés par l'Oblivion lui-même. Vous savez que ces êtres sont à la tête de la hiérarchie du Labyrinthe, et qu'ils possèdent parfois des cultes chez les mortels.",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez une idée vague de la structure sociale spectrale et connaissez certains types de spectres, y compris les Dopplegangers (qui conservent leur apparence de défunts, et qui ne sont pas défigurés par leur Ombre. Ils peuvent s’infiltrer facilement dans les Nécropoles et tromper leurs anciens alliés), les Ombres (spectres dont la Psyché a été détruit dans un Maelstrom ou hersage), les Débris (spectres plus puissants qui pourraient devenir Malfeans avec le temps), et les Mortifiés (fantômes qui sont morts dans de manières si violentes et traumatisantes qu'ils sont entrés dans l'Outremonde en tant que spectres).",
-              "spans": [
-                {
-                  "text": "Vous avez une idée vague de la structure sociale spectrale et connaissez certains types de spectres, y compris les Dopplegangers (qui conservent leur apparence de défunts, et qui ne sont pas défigurés par leur Ombre. Ils peuvent s’infiltrer facilement dans les Nécropoles et tromper leurs anciens alliés), les Ombres (spectres dont la Psyché a été détruit dans un Maelstrom ou hersage), les Débris (spectres plus puissants qui pourraient devenir Malfeans avec le temps), et les Mortifiés (fantômes qui sont morts dans de manières si violentes et traumatisantes qu'ils sont entrés dans l'Outremonde en tant que spectres).",
-                  "bold": false
-                }
-              ]
-            },
-            {
-              "type": "bulleted_list_item",
-              "text": "Vous avez entendu parler des Ressuscités, les fantômes qui forcent le chemin du retour dans leur corps et marchent parmi les vivants. Vous savez qu'ils n’ont pas de signes de vie et peuvent se faire passer pour des nouveau-nés Caïtiffs. Vous savez qu'ils sont extraordinairement difficiles à tuer, mais qu'ils ont souvent soit un genre de bijou ou un animal de compagnie, dont la destruction peut les perturber considérablement.",
-              "spans": [
-                {
-                  "text": "Vous avez entendu parler des Ressuscités, les fantômes qui forcent le chemin du retour dans leur corps et marchent parmi les vivants. Vous savez qu'ils n’ont pas de signes de vie et peuvent se faire passer pour des nouveau-nés Caïtiffs. Vous savez qu'ils sont extraordinairement difficiles à tuer, mais qu'ils ont souvent soit un genre de bijou ou un animal de compagnie, dont la destruction peut les perturber considérablement.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Connaissances secrètes",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "3c088b48-e48e-8052-8629-cb2311878fb5",
       "notionUrl": "https://app.notion.com/p/Gangrel-3c088b48e48e80528629cb2311878fb5",
       "lastEditedTime": "2026-08-24T10:55:00.000Z",
@@ -6498,7 +5659,7 @@
     {
       "id": "3c088b48-e48e-8029-acf5-c7da4c9d9288",
       "notionUrl": "https://app.notion.com/p/Giovanni-3c088b48e48e8029acf5c7da4c9d9288",
-      "lastEditedTime": "2026-08-24T11:01:00.000Z",
+      "lastEditedTime": "2026-09-03T08:29:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -7041,10 +6202,10 @@
             },
             {
               "type": "bulleted_list_item",
-              "text": "Concernant la stabilité du Clan et la mise en pratique de ces plans, vous savez qu’à la fin du XXème siècle, les choses avaient pris une mauvaise tournure. De mystérieux vampires, les Émissaires des Crânes, se vengèrent du Clan pour des raisons inconnues. Le Sixième Grand Maelström détruisit la société fantomatique et les événements apocalyptiques de la Semaine des Cauchemars anéantirent leurs ressources spirituelles.\nAlors que les dernières nuits s'écoulaient, les Giovanni ont commencé à se demander s'ils n'avaient pas fait une erreur. Peut-être que les Giovanni avait sous-estimé les Antédiluviens ? Peut-être que les morts deviendraient plus puissants si le Linceul était retiré ? Peut-être que Caïn était réel et qu'en fin de compte, tous ces jeux mesquins et ces coups de force n'avaient été qu'une diversion jusqu'à la Géhenne ?",
+              "text": "Concernant la stabilité du Clan et la mise en pratique de ces plans, vous savez qu’à la fin du XXème siècle, les choses avaient pris une mauvaise tournure. De mystérieux vampires, les Émissaires des Crânes, se vengèrent du Clan pour des raisons inconnues. Le Sixième Grand Maelström détruisit la société fantomatique et les événements apocalyptiques de la Semaine des Cauchemars anéantirent leurs ressources spirituelles.\nAlors que les dernières nuits s'écoulaient, les Giovanni ont commencé à se demander s'ils n'avaient pas fait une erreur. Peut-être que les Giovanni avait sous-estimé les Antédiluviens ? Peut-être que les morts deviendraient plus puissants si le Voile était retiré ? Peut-être que Caïn était réel et qu'en fin de compte, tous ces jeux mesquins et ces coups de force n'avaient été qu'une diversion jusqu'à la Géhenne ?",
               "spans": [
                 {
-                  "text": "Concernant la stabilité du Clan et la mise en pratique de ces plans, vous savez qu’à la fin du XXème siècle, les choses avaient pris une mauvaise tournure. De mystérieux vampires, les Émissaires des Crânes, se vengèrent du Clan pour des raisons inconnues. Le Sixième Grand Maelström détruisit la société fantomatique et les événements apocalyptiques de la Semaine des Cauchemars anéantirent leurs ressources spirituelles.\nAlors que les dernières nuits s'écoulaient, les Giovanni ont commencé à se demander s'ils n'avaient pas fait une erreur. Peut-être que les Giovanni avait sous-estimé les Antédiluviens ? Peut-être que les morts deviendraient plus puissants si le Linceul était retiré ? Peut-être que Caïn était réel et qu'en fin de compte, tous ces jeux mesquins et ces coups de force n'avaient été qu'une diversion jusqu'à la Géhenne ?",
+                  "text": "Concernant la stabilité du Clan et la mise en pratique de ces plans, vous savez qu’à la fin du XXème siècle, les choses avaient pris une mauvaise tournure. De mystérieux vampires, les Émissaires des Crânes, se vengèrent du Clan pour des raisons inconnues. Le Sixième Grand Maelström détruisit la société fantomatique et les événements apocalyptiques de la Semaine des Cauchemars anéantirent leurs ressources spirituelles.\nAlors que les dernières nuits s'écoulaient, les Giovanni ont commencé à se demander s'ils n'avaient pas fait une erreur. Peut-être que les Giovanni avait sous-estimé les Antédiluviens ? Peut-être que les morts deviendraient plus puissants si le Voile était retiré ? Peut-être que Caïn était réel et qu'en fin de compte, tous ces jeux mesquins et ces coups de force n'avaient été qu'une diversion jusqu'à la Géhenne ?",
                   "bold": false
                 }
               ]
@@ -7135,10 +6296,10 @@
             },
             {
               "type": "bulleted_list_item",
-              "text": "Vous savez qu'une fois devenu un Clan, le plan secret des Giovanni visait à détruire le Linceul (ou Voile). Ainsi, lors du début du vingtième siècle, vous comprenez qu’avec l’achèvement de leur troisième objectif ; à savoir éliminer les derniers Cappadociens et leurs protecteurs Lamia, ils se préparaient à déchirer le Linceul et à ramener les morts parmi les vivants.\nVous savez que ce plan fut défini par Augustus après avoir examiné le plan original de Cappadocius. Ainsi, si le Clan Giovanni tirait l'essentiel de son pouvoir de l'emprise qu'il exerçait sur les fantômes, il pourrait, en détruisant le Linceul, être en mesure d'accroître son pouvoir au-delà de toute conception. Augustus élabora des plans pour y parvenir, l'objectif le plus difficile étant l'acquisition d'un grand nombre d'âmes pour accomplir les rituels nécromantiques nécessaires.",
+              "text": "Vous savez qu'une fois devenu un Clan, le plan secret des Giovanni visait à détruire le Voile. Ainsi, lors du début du vingtième siècle, vous comprenez qu’avec l’achèvement de leur troisième objectif ; à savoir éliminer les derniers Cappadociens et leurs protecteurs Lamia, ils se préparaient à déchirer le Voile et à ramener les morts parmi les vivants.\nVous savez que ce plan fut défini par Augustus après avoir examiné le plan original de Cappadocius. Ainsi, si le Clan Giovanni tirait l'essentiel de son pouvoir de l'emprise qu'il exerçait sur les fantômes, il pourrait, en détruisant le Voile, être en mesure d'accroître son pouvoir au-delà de toute conception. Augustus élabora des plans pour y parvenir, l'objectif le plus difficile étant l'acquisition d'un grand nombre d'âmes pour accomplir les rituels nécromantiques nécessaires.",
               "spans": [
                 {
-                  "text": "Vous savez qu'une fois devenu un Clan, le plan secret des Giovanni visait à détruire le Linceul (ou Voile). Ainsi, lors du début du vingtième siècle, vous comprenez qu’avec l’achèvement de leur troisième objectif ; à savoir éliminer les derniers Cappadociens et leurs protecteurs Lamia, ils se préparaient à déchirer le Linceul et à ramener les morts parmi les vivants.\nVous savez que ce plan fut défini par Augustus après avoir examiné le plan original de Cappadocius. Ainsi, si le Clan Giovanni tirait l'essentiel de son pouvoir de l'emprise qu'il exerçait sur les fantômes, il pourrait, en détruisant le Linceul, être en mesure d'accroître son pouvoir au-delà de toute conception. Augustus élabora des plans pour y parvenir, l'objectif le plus difficile étant l'acquisition d'un grand nombre d'âmes pour accomplir les rituels nécromantiques nécessaires.",
+                  "text": "Vous savez qu'une fois devenu un Clan, le plan secret des Giovanni visait à détruire le Voile. Ainsi, lors du début du vingtième siècle, vous comprenez qu’avec l’achèvement de leur troisième objectif ; à savoir éliminer les derniers Cappadociens et leurs protecteurs Lamia, ils se préparaient à déchirer le Voile et à ramener les morts parmi les vivants.\nVous savez que ce plan fut défini par Augustus après avoir examiné le plan original de Cappadocius. Ainsi, si le Clan Giovanni tirait l'essentiel de son pouvoir de l'emprise qu'il exerçait sur les fantômes, il pourrait, en détruisant le Voile, être en mesure d'accroître son pouvoir au-delà de toute conception. Augustus élabora des plans pour y parvenir, l'objectif le plus difficile étant l'acquisition d'un grand nombre d'âmes pour accomplir les rituels nécromantiques nécessaires.",
                   "bold": false
                 }
               ]
@@ -13523,6 +12684,845 @@
       ]
     },
     {
+      "id": "3c088b48-e48e-80c4-b8fd-cb3e31bfbde1",
+      "notionUrl": "https://app.notion.com/p/Spectre-et-Outremonde-3c088b48e48e80c4b8fdcb3e31bfbde1",
+      "lastEditedTime": "2026-09-03T08:30:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": "Surnaturel"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Niveau Max": {
+          "type": "number",
+          "value": 5
+        },
+        "Clans": {
+          "type": "relation",
+          "value": []
+        },
+        "Factions": {
+          "type": "select",
+          "value": ""
+        },
+        "Résumé": {
+          "type": "text",
+          "value": "Mystères sur les Spectres et l’Outremonde"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Spectre et Outremonde"
+        }
+      },
+      "title": "Spectre et Outremonde",
+      "slug": "spectre-et-outremonde",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Niveau 1",
+          "spans": [
+            {
+              "text": "Niveau 1",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances communes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Ils hantent une maison parce qu'ils veulent retrouver leur amour ou se venger d’une personne. Ces hantises sont souvent accompagnées par des phénomènes de poltergeist.",
+              "spans": [
+                {
+                  "text": "Ils hantent une maison parce qu'ils veulent retrouver leur amour ou se venger d’une personne. Ces hantises sont souvent accompagnées par des phénomènes de poltergeist.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Certains disent que les fantômes sans repos sont en guerre entre eux, pour des raisons diverses.",
+              "spans": [
+                {
+                  "text": "Certains disent que les fantômes sans repos sont en guerre entre eux, pour des raisons diverses.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez des informations tirées de films récents (The Haunting, Ghost Ship, Lost Voyage.). Vous connaissez beaucoup de fausses rumeurs, un mélange de mythes et de folklore (essentiellement beaucoup de renseignements faux ou inexacts). Ils sont partout, à regarder et à attendre.",
+              "spans": [
+                {
+                  "text": "Vous avez des informations tirées de films récents (The Haunting, Ghost Ship, Lost Voyage.). Vous connaissez beaucoup de fausses rumeurs, un mélange de mythes et de folklore (essentiellement beaucoup de renseignements faux ou inexacts). Ils sont partout, à regarder et à attendre.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes sont les âmes de ceux qui sont morts avec « une tâche inachevé », et qu'ils ne peuvent pas trouver la paix jusqu'à ce qu'ils aient accompli leur but.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes sont les âmes de ceux qui sont morts avec « une tâche inachevé », et qu'ils ne peuvent pas trouver la paix jusqu'à ce qu'ils aient accompli leur but.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que certains fantômes sont nettement plus malveillants que d'autres, et que ceux-ci sont appelés spectres.",
+              "spans": [
+                {
+                  "text": "Vous savez que certains fantômes sont nettement plus malveillants que d'autres, et que ceux-ci sont appelés spectres.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances communes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances secrètes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes n'ont pas de corps physiques dans le même sens que les vivants, et que leurs corps sont faits à partir d'une substance connue sous le nom de \"Plasme\".",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes n'ont pas de corps physiques dans le même sens que les vivants, et que leurs corps sont faits à partir d'une substance connue sous le nom de \"Plasme\".",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes (ou Errants) sont des créatures liées aux émotions, et qu'ils recherchent des sentiments qui sont importantes pour eux.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes (ou Errants) sont des créatures liées aux émotions, et qu'ils recherchent des sentiments qui sont importantes pour eux.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que la plupart des fantômes que vous rencontrerez ont des artefacts liés à eux appelés \"Entraves\" (des objets qui étaient personnellement importants pour eux durant leur vie), et auxquels ils tiennent particulièrement.",
+              "spans": [
+                {
+                  "text": "Vous savez que la plupart des fantômes que vous rencontrerez ont des artefacts liés à eux appelés \"Entraves\" (des objets qui étaient personnellement importants pour eux durant leur vie), et auxquels ils tiennent particulièrement.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que quiconque détient une entrave possède un gros moyen de pression sur un fantôme.",
+              "spans": [
+                {
+                  "text": "Vous savez que quiconque détient une entrave possède un gros moyen de pression sur un fantôme.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez qu'il y a une barrière nommée “le Voile” qui sépare le monde des morts du monde des vivants, et que les fantômes ont souvent du mal à employer tous leurs pouvoirs pleinement dans le monde des vifs pour cette raison.",
+              "spans": [
+                {
+                  "text": "Vous savez qu'il y a une barrière nommée “le Voile” qui sépare le monde des morts du monde des vivants, et que les fantômes ont souvent du mal à employer tous leurs pouvoirs pleinement dans le monde des vifs pour cette raison.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que le Voile a tendance à être plus faible dans les lieux imprégnés par la mort (les cimetières, sites de meurtre, Elyséum) et que les interactions avec les fantômes peuvent être moins difficile là-bas (des deux côtés).",
+              "spans": [
+                {
+                  "text": "Vous savez que le Voile a tendance à être plus faible dans les lieux imprégnés par la mort (les cimetières, sites de meurtre, Elyséum) et que les interactions avec les fantômes peuvent être moins difficile là-bas (des deux côtés).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de quelques pouvoirs fantomatiques : apparaître aux vivants, poltergeist et possession.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de quelques pouvoirs fantomatiques : apparaître aux vivants, poltergeist et possession.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances secrètes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Niveau 2",
+          "spans": [
+            {
+              "text": "Niveau 2",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances communes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les bruits de coups sont l'un des premiers moyens de communication de l'esprit.",
+              "spans": [
+                {
+                  "text": "Vous savez que les bruits de coups sont l'un des premiers moyens de communication de l'esprit.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les rapports de perturbations de poltergeist citent des bruits, des lumières, des odeurs, des agressions physiques ou sexuelles et la sonnerie du téléphone. Une activité de Poltergeist s'arrête aussi soudainement qu’elle commence. Les activités peuvent durer de quelques heures à quelques années. Elles ont habituellement lieu quand un individu particulier est présent.",
+              "spans": [
+                {
+                  "text": "Vous savez que les rapports de perturbations de poltergeist citent des bruits, des lumières, des odeurs, des agressions physiques ou sexuelles et la sonnerie du téléphone. Une activité de Poltergeist s'arrête aussi soudainement qu’elle commence. Les activités peuvent durer de quelques heures à quelques années. Elles ont habituellement lieu quand un individu particulier est présent.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous pensez que les fantômes possèdent tous les mêmes pouvoirs.",
+              "spans": [
+                {
+                  "text": "Vous pensez que les fantômes possèdent tous les mêmes pouvoirs.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que parfois, ils sont accompagnés par les odeurs ou donnent des sensations de frisson. La plupart des apparitions semblent avoir un but, comme la communication d'un message.",
+              "spans": [
+                {
+                  "text": "Vous savez que parfois, ils sont accompagnés par les odeurs ou donnent des sensations de frisson. La plupart des apparitions semblent avoir un but, comme la communication d'un message.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que seules les personnes qui sont décédées en ayant une détermination importante peuvent se lier à des entraves (même au- delà la mort !) pour devenir des fantômes, et que ces personnes sont rares.",
+              "spans": [
+                {
+                  "text": "Vous savez que seules les personnes qui sont décédées en ayant une détermination importante peuvent se lier à des entraves (même au- delà la mort !) pour devenir des fantômes, et que ces personnes sont rares.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que tous les décédés sont loin de devenir des fantômes. Vous savez que les fantômes sont en chasse d'émotion brute, nommées \"Pathos\", et qu'ils peuvent en extraire à proximité de leurs Entraves, ou en la siphonnant aux personnes (vivants ou morts) qui ressentent l'émotion qu'ils désirent.",
+              "spans": [
+                {
+                  "text": "Vous savez que tous les décédés sont loin de devenir des fantômes. Vous savez que les fantômes sont en chasse d'émotion brute, nommées \"Pathos\", et qu'ils peuvent en extraire à proximité de leurs Entraves, ou en la siphonnant aux personnes (vivants ou morts) qui ressentent l'émotion qu'ils désirent.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que l'Outremonde est une version miroir du monde des vivants habité par les morts.",
+              "spans": [
+                {
+                  "text": "Vous savez que l'Outremonde est une version miroir du monde des vivants habité par les morts.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que l'Outremonde est relié au monde des vifs, et contient des objets ou des bâtiments ayant existé dans le monde des vivants et toujours présent dans les mémoires. Vous savez que la plupart des grandes villes ont des reflets voire des équivalents dans l'Outremonde et qu’ils sont nommés Nécropoles.",
+              "spans": [
+                {
+                  "text": "Vous savez que l'Outremonde est relié au monde des vifs, et contient des objets ou des bâtiments ayant existé dans le monde des vivants et toujours présent dans les mémoires. Vous savez que la plupart des grandes villes ont des reflets voire des équivalents dans l'Outremonde et qu’ils sont nommés Nécropoles.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes ne peuvent fréquenter l'Outremonde que s’ils ont encore des entraves existantes pour les tenir à proximité de la terre des vivants.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes ne peuvent fréquenter l'Outremonde que s’ils ont encore des entraves existantes pour les tenir à proximité de la terre des vivants.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes ne sont pas quelque chose qui devrait être pris à la légère. Si l'entité est ignorée, elle trouvera un moyen de se faire entendre ou sentir.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes ne sont pas quelque chose qui devrait être pris à la légère. Si l'entité est ignorée, elle trouvera un moyen de se faire entendre ou sentir.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances communes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances secrètes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que certains esprits ne semblent pas avoir de conscience et se contentent de rejouer éternellement leur mort. Ils sont appelés drones.",
+              "spans": [
+                {
+                  "text": "Vous savez que certains esprits ne semblent pas avoir de conscience et se contentent de rejouer éternellement leur mort. Ils sont appelés drones.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous connaissez l'existence de reliques, des objets qui contenaient suffisamment de résonance émotionnelle. Quand ils ont été détruits, ils sont apparus comme des éléments physiques dans l'Outremonde. Vous savez qu'ils sont très prisés dans la société fantomatique où les matériaux sont rares.",
+              "spans": [
+                {
+                  "text": "Vous connaissez l'existence de reliques, des objets qui contenaient suffisamment de résonance émotionnelle. Quand ils ont été détruits, ils sont apparus comme des éléments physiques dans l'Outremonde. Vous savez qu'ils sont très prisés dans la société fantomatique où les matériaux sont rares.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes ont une structure politique et hiérarchique et vous avez entendu parler de la Hiérarchie - l'organisme qui dirige la plupart des esprits que vous rencontrerez dans la civilisation européenne, bien que vous ne possédiez que très peu d'informations à ce sujet.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes ont une structure politique et hiérarchique et vous avez entendu parler de la Hiérarchie - l'organisme qui dirige la plupart des esprits que vous rencontrerez dans la civilisation européenne, bien que vous ne possédiez que très peu d'informations à ce sujet.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes ont une capacité innée à discerner la résonance émotionnelle et l'état de délabrement des choses. Les fantômes peuvent être en mesure de dire quand une personne est en colère ou triste. Ils peuvent également être en mesure de dire si une personne est proche de la mort ou si un bâtiment est proche de l'effondrement.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes ont une capacité innée à discerner la résonance émotionnelle et l'état de délabrement des choses. Les fantômes peuvent être en mesure de dire quand une personne est en colère ou triste. Ils peuvent également être en mesure de dire si une personne est proche de la mort ou si un bâtiment est proche de l'effondrement.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous connaissez les Arcanos (singulier : Arcanoï) les plus communs que les fantômes utilisent pour interagir avec les “skinlands\" (monde des vifs) comme ils les appellent. Vous savez que ces capacités se rapprochent de ce que certaines Disciplines peuvent faire. Les fantômes peuvent ainsi avoir la capacité de parler ou d’apparaître devant témoin, la capacité de provoquer et de manipuler, de jeter des objets physiques, de causer des effets surréalistes ou étranges (murs de saignement, le temps qui ralentit etc. ...), voire la capacité de posséder et de manipuler des hôtes mortels.",
+              "spans": [
+                {
+                  "text": "Vous connaissez les Arcanos (singulier : Arcanoï) les plus communs que les fantômes utilisent pour interagir avec les “skinlands\" (monde des vifs) comme ils les appellent. Vous savez que ces capacités se rapprochent de ce que certaines Disciplines peuvent faire. Les fantômes peuvent ainsi avoir la capacité de parler ou d’apparaître devant témoin, la capacité de provoquer et de manipuler, de jeter des objets physiques, de causer des effets surréalistes ou étranges (murs de saignement, le temps qui ralentit etc. ...), voire la capacité de posséder et de manipuler des hôtes mortels.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous êtes conscient que tous les fantômes possèdent un schisme au niveau de leur personnalité qui fait apparaître un double sombre, appelée une Ombre. Vous savez que cette personnalité secondaire peut parfois tenter de maîtriser les actions de l’esprit contre sa volonté. Vous savez que si cela se produit trop souvent le fantôme deviendra de plus en plus malveillant… jusqu’à se transformer en Spectre. Au bout du compte, le but d’une Ombre reste de faire échouer un fantôme, voire de le faire arrêter de lutter et de succomber au Néant (ou Oblivion/Oubli).",
+              "spans": [
+                {
+                  "text": "Vous êtes conscient que tous les fantômes possèdent un schisme au niveau de leur personnalité qui fait apparaître un double sombre, appelée une Ombre. Vous savez que cette personnalité secondaire peut parfois tenter de maîtriser les actions de l’esprit contre sa volonté. Vous savez que si cela se produit trop souvent le fantôme deviendra de plus en plus malveillant… jusqu’à se transformer en Spectre. Au bout du compte, le but d’une Ombre reste de faire échouer un fantôme, voire de le faire arrêter de lutter et de succomber au Néant (ou Oblivion/Oubli).",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances secrètes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Niveau 3",
+          "spans": [
+            {
+              "text": "Niveau 3",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances communes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que vous ne pouvez pas entendre un fantôme qui ne souhaite pas être entendu. Certains fantômes interagissant avec les enfants ne peuvent être vus que par ces derniers. Certaines personnes croient que ces fantômes ne sont que le fruit de l'imagination des enfants.",
+              "spans": [
+                {
+                  "text": "Vous savez que vous ne pouvez pas entendre un fantôme qui ne souhaite pas être entendu. Certains fantômes interagissant avec les enfants ne peuvent être vus que par ces derniers. Certaines personnes croient que ces fantômes ne sont que le fruit de l'imagination des enfants.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de la Tempête - une mer mouvante tentaculaire de magma, de cauchemars, d'acide, de plasma brûlant, et de bêtes horribles qui sous-tend l'Outremonde.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de la Tempête - une mer mouvante tentaculaire de magma, de cauchemars, d'acide, de plasma brûlant, et de bêtes horribles qui sous-tend l'Outremonde.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez qu'il est particulièrement dangereux de voyager, et que parfois des ouragans (connus sous le nom de Maelstroms) traversent la Tempête - ce qui la rend encore plus instable.",
+              "spans": [
+                {
+                  "text": "Vous savez qu'il est particulièrement dangereux de voyager, et que parfois des ouragans (connus sous le nom de Maelstroms) traversent la Tempête - ce qui la rend encore plus instable.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de Stygia, la grande Nécropole située dans la tempête et bastion de la Hiérarchie.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de Stygia, la grande Nécropole située dans la tempête et bastion de la Hiérarchie.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que la Hiérarchie aurait été fondée par une figure énigmatique connue comme Charon, et vous avez une idée approximative de ce que sont les Légions (au nombre de huit et qui semblent répartir les fantômes entre eux).",
+              "spans": [
+                {
+                  "text": "Vous savez que la Hiérarchie aurait été fondée par une figure énigmatique connue comme Charon, et vous avez une idée approximative de ce que sont les Légions (au nombre de huit et qui semblent répartir les fantômes entre eux).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler du Dictum Mortuum (ou Code de morts), un code juridique issu de la Hiérarchie interdisant les interactions entre les vivants et les morts. Vous vous rendez compte qu'en ayant ce niveau de connaissance, vous êtes probablement en violation dudit code.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler du Dictum Mortuum (ou Code de morts), un code juridique issu de la Hiérarchie interdisant les interactions entre les vivants et les morts. Vous vous rendez compte qu'en ayant ce niveau de connaissance, vous êtes probablement en violation dudit code.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances communes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances secrètes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu des rumeurs disant que quelque chose se trouve sous Stygia - quelque chose de cauchemardesque. Vous savez que quoi que cela puisse être, c'est en lien avec les spectres.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu des rumeurs disant que quelque chose se trouve sous Stygia - quelque chose de cauchemardesque. Vous savez que quoi que cela puisse être, c'est en lien avec les spectres.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez connaissance des deux factions politiques qui s'opposent à la Hiérarchie. Ce sont les Renégats (fantômes qui n'ont pas prêté allégeance à la Hiérarchie ou cherchent même activement à la détruire) et les Hérétiques (Ces esprits qui suivent diverses idéologies religieuses ou spirituelles dans l'espoir de transcender l’enfer).",
+              "spans": [
+                {
+                  "text": "Vous avez connaissance des deux factions politiques qui s'opposent à la Hiérarchie. Ce sont les Renégats (fantômes qui n'ont pas prêté allégeance à la Hiérarchie ou cherchent même activement à la détruire) et les Hérétiques (Ces esprits qui suivent diverses idéologies religieuses ou spirituelles dans l'espoir de transcender l’enfer).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler des Guildes, des organisations qui jadis offraient une instruction dans les arts des Arcanos.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler des Guildes, des organisations qui jadis offraient une instruction dans les arts des Arcanos.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous connaissez certains pouvoirs moins communs que les fantômes utilisent pour interagir avec les “Skinlands”, et même quelques-uns propres au monde des morts. Vous savez que les deux moitiés de l'esprit d’un fantôme sont la Psyché et l'Ombre.",
+              "spans": [
+                {
+                  "text": "Vous connaissez certains pouvoirs moins communs que les fantômes utilisent pour interagir avec les “Skinlands”, et même quelques-uns propres au monde des morts. Vous savez que les deux moitiés de l'esprit d’un fantôme sont la Psyché et l'Ombre.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de la notion de \"Déchirure\", dans lequel un fantôme est confronté à son Ombre pendant les périodes de détresse ou de souffrance physique. Vous êtes familier avec le concept de Néant - cette force nihiliste qui incarne l'essence même de l'entropie.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de la notion de \"Déchirure\", dans lequel un fantôme est confronté à son Ombre pendant les périodes de détresse ou de souffrance physique. Vous êtes familier avec le concept de Néant - cette force nihiliste qui incarne l'essence même de l'entropie.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que c’est cette force que les fantômes craignent le plus, et qu'ils croient que les Spectres y sont directement liés. Vous avez entendu parler de l'art de la forge d' me, durant lequel le corps d'un fantôme (Plasme) est chauffé jusqu'à devenir malléable et être forgé en un objet.",
+              "spans": [
+                {
+                  "text": "Vous savez que c’est cette force que les fantômes craignent le plus, et qu'ils croient que les Spectres y sont directement liés. Vous avez entendu parler de l'art de la forge d' me, durant lequel le corps d'un fantôme (Plasme) est chauffé jusqu'à devenir malléable et être forgé en un objet.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez qu'en dehors de reliques, ce processus horrible est l'un des seuls moyens d'obtenir des biens matériels dans le monde des morts, et que c'est un châtiment réservé aux criminels.",
+              "spans": [
+                {
+                  "text": "Vous savez qu'en dehors de reliques, ce processus horrible est l'un des seuls moyens d'obtenir des biens matériels dans le monde des morts, et que c'est un châtiment réservé aux criminels.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de Barghests - fantômes dont le corpus a été modifié pour prendre la forme d'un chien et qui servent à la traque. Vous en savez assez sur les fantômes pour savoir qu'un vampire, qui en aurait la volonté, pourrait les rejoindre après la Mort finale.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de Barghests - fantômes dont le corpus a été modifié pour prendre la forme d'un chien et qui servent à la traque. Vous en savez assez sur les fantômes pour savoir qu'un vampire, qui en aurait la volonté, pourrait les rejoindre après la Mort finale.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances secrètes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Niveau 4",
+          "spans": [
+            {
+              "text": "Niveau 4",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances communes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que les fantômes peuvent posséder des personnes mais aussi des animaux et même des machines.",
+              "spans": [
+                {
+                  "text": "Vous savez que les fantômes peuvent posséder des personnes mais aussi des animaux et même des machines.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu dire que Stygia et la Hiérarchie régissent les terres Occidentales de la mort (dénommé Sombre Royaume de Fer) - et vous avez entendu des rumeurs selon lesquelles d'autres cultures possèdent différentes formes de Hiérarchie / Royaumes.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu dire que Stygia et la Hiérarchie régissent les terres Occidentales de la mort (dénommé Sombre Royaume de Fer) - et vous avez entendu des rumeurs selon lesquelles d'autres cultures possèdent différentes formes de Hiérarchie / Royaumes.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler du Labyrinthe - une ruche de spectres qui se trouve sous Stygia, et vous avez sans doute entendu des histoires innommables à ce sujet. Vous savez que c'est dans ce paysage de cauchemar métaphysique que les \"Déchirures\" auraient lieu et que réside le Néant. Vous savez aussi que tous les spectres sont connectés à une sorte d'esprit collectif pour servir le Néant.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler du Labyrinthe - une ruche de spectres qui se trouve sous Stygia, et vous avez sans doute entendu des histoires innommables à ce sujet. Vous savez que c'est dans ce paysage de cauchemar métaphysique que les \"Déchirures\" auraient lieu et que réside le Néant. Vous savez aussi que tous les spectres sont connectés à une sorte d'esprit collectif pour servir le Néant.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que Charon ne règne plus sur Stygia (ayant disparu au début du 20e siècle), et que la structure la plus proche d'un gouvernement que la Hiérarchie possède encore sont les Seigneurs de la Mort qui dirigent les différentes Légions.",
+              "spans": [
+                {
+                  "text": "Vous savez que Charon ne règne plus sur Stygia (ayant disparu au début du 20e siècle), et que la structure la plus proche d'un gouvernement que la Hiérarchie possède encore sont les Seigneurs de la Mort qui dirigent les différentes Légions.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez un peu plus sur les Légions désormais et vous comprenez que chacune est composé de fantôme qui sont répartis des suites d’une mort semblable (la guerre, la maladie, le suicide, etc. ...).",
+              "spans": [
+                {
+                  "text": "Vous savez un peu plus sur les Légions désormais et vous comprenez que chacune est composé de fantôme qui sont répartis des suites d’une mort semblable (la guerre, la maladie, le suicide, etc. ...).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous connaissez les Passeurs, une organisation distincte de la Hiérarchie que Charon aurait fondée.",
+              "spans": [
+                {
+                  "text": "Vous connaissez les Passeurs, une organisation distincte de la Hiérarchie que Charon aurait fondée.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez qu’ils s’occupent du passage plus sûr à travers la Tempête et qu'ils sont censés être très puissants.",
+              "spans": [
+                {
+                  "text": "Vous savez qu’ils s’occupent du passage plus sûr à travers la Tempête et qu'ils sont censés être très puissants.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances communes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances secrètes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler des Rives Lointaines - des îles dans la Tempête que recherchent les cultes Hérétiques, et où l'on peut trouver toutes sortes de cieux et d'enfers pour ceux qui les cherchent. Vous savez que les guildes ont été déclarées illégales dans le passé, mais qu'une poignée survivent encore à ce jour.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler des Rives Lointaines - des îles dans la Tempête que recherchent les cultes Hérétiques, et où l'on peut trouver toutes sortes de cieux et d'enfers pour ceux qui les cherchent. Vous savez que les guildes ont été déclarées illégales dans le passé, mais qu'une poignée survivent encore à ce jour.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler de la plupart des guildes les plus éminentes qui restent encore publiques dans Stygia, même si leur légalité est parfois remise en question. Vous savez que la plupart des guildes spécialisées dans des Arcanos qui rompent la Dictum Mortuum (en clair : les Arcanoï que vous êtes susceptible de rencontrer) ont été soit dissoutes de façon permanente ou sont passées dans la clandestinité.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler de la plupart des guildes les plus éminentes qui restent encore publiques dans Stygia, même si leur légalité est parfois remise en question. Vous savez que la plupart des guildes spécialisées dans des Arcanos qui rompent la Dictum Mortuum (en clair : les Arcanoï que vous êtes susceptible de rencontrer) ont été soit dissoutes de façon permanente ou sont passées dans la clandestinité.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous savez que la principale raison de la friction entre la Hiérarchie et les Hérétiques réside dans le fait que la Hiérarchie a officiellement désavoué le concept de Transcendance (un état atteint lorsqu’un esprit remplit tout ce qu'il lui restait à faire).",
+              "spans": [
+                {
+                  "text": "Vous savez que la principale raison de la friction entre la Hiérarchie et les Hérétiques réside dans le fait que la Hiérarchie a officiellement désavoué le concept de Transcendance (un état atteint lorsqu’un esprit remplit tout ce qu'il lui restait à faire).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous êtes familier avec la plupart des Arcanos. Vous avez aussi entendu dire que les Spectres possèdent leurs propres arts sombres différents de ceux des fantômes et que certains Arcanos sont interdits par la loi Stygienne.",
+              "spans": [
+                {
+                  "text": "Vous êtes familier avec la plupart des Arcanos. Vous avez aussi entendu dire que les Spectres possèdent leurs propres arts sombres différents de ceux des fantômes et que certains Arcanos sont interdits par la loi Stygienne.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu des rumeurs de fantômes tellement motivés à atteindre leurs objectifs qu'ils réussissent à reprendre la main sur leurs cadavres et à revenir sur la terre des vivants, tels des zombies ! Vous savez que de telles choses, si elles existent, sont sans doute rares, et sûrement dangereuses à croiser.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu des rumeurs de fantômes tellement motivés à atteindre leurs objectifs qu'ils réussissent à reprendre la main sur leurs cadavres et à revenir sur la terre des vivants, tels des zombies ! Vous savez que de telles choses, si elles existent, sont sans doute rares, et sûrement dangereuses à croiser.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances secrètes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_2",
+          "text": "Niveau 5",
+          "spans": [
+            {
+              "text": "Niveau 5",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances communes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous comprenez parfaitement désormais la dichotomie entre un fantôme et un Spectre mais vous ignorez quel est le but d'un spectre. Plus un fantôme est puissant, plus il peut cacher sa vraie nature aux vivants. Les plus faibles révèlent leur tromperie par un léger flou qui brouille leur image, tandis que les plus puissants n'offrent pas d'indices visuels. Ils drainent l'énergie des vivants, souvent à leur insu, par simple proximité. Seules les armes magiques peuvent libérer un fantôme de ses liens avec la terre, si son objectif est une personne, une arme, un trésor ou un lieu qui ne peut être localisé et détruit ou dispersé.",
+              "spans": [
+                {
+                  "text": "Vous comprenez parfaitement désormais la dichotomie entre un fantôme et un Spectre mais vous ignorez quel est le but d'un spectre. Plus un fantôme est puissant, plus il peut cacher sa vraie nature aux vivants. Les plus faibles révèlent leur tromperie par un léger flou qui brouille leur image, tandis que les plus puissants n'offrent pas d'indices visuels. Ils drainent l'énergie des vivants, souvent à leur insu, par simple proximité. Seules les armes magiques peuvent libérer un fantôme de ses liens avec la terre, si son objectif est une personne, une arme, un trésor ou un lieu qui ne peut être localisé et détruit ou dispersé.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler du Sombre Royaume de Jade (les terres qui régissent les âmes des morts asiatique), le Sombre Royaume d'Ivoire (les terres qui régissent les morts africains), le Sombre royaume d'Argile (les terres qui régissent les morts australiens), le Sombre Royaume d'Obsidienne (qui régissait jadis les terres des Amériques jusqu'à l'invasion Stygienne) et Swar (la ville des Morts du sous-continent Indien).",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler du Sombre Royaume de Jade (les terres qui régissent les âmes des morts asiatique), le Sombre Royaume d'Ivoire (les terres qui régissent les morts africains), le Sombre royaume d'Argile (les terres qui régissent les morts australiens), le Sombre Royaume d'Obsidienne (qui régissait jadis les terres des Amériques jusqu'à l'invasion Stygienne) et Swar (la ville des Morts du sous-continent Indien).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez peut-être entendu des rumeurs au sujet d'autres royaumes ou domaines, en fonction de votre intérêt et de votre région géographique. Vous pouvez également savoir que certains Wraith des autres pays possèdent des pouvoirs étranges et différents des Arcanoï occidentaux.",
+              "spans": [
+                {
+                  "text": "Vous avez peut-être entendu des rumeurs au sujet d'autres royaumes ou domaines, en fonction de votre intérêt et de votre région géographique. Vous pouvez également savoir que certains Wraith des autres pays possèdent des pouvoirs étranges et différents des Arcanoï occidentaux.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu des Grands Maelstroms qui ont balayé le Monde des Morts, vous savez qu'ils causent des dégâts considérables et qu'ils se produisent souvent en conjonction avec de grands bouleversements dans les “Skinlands” (ex: la peste noire, les guerres mondiales, etc. . .).",
+              "spans": [
+                {
+                  "text": "Vous avez entendu des Grands Maelstroms qui ont balayé le Monde des Morts, vous savez qu'ils causent des dégâts considérables et qu'ils se produisent souvent en conjonction avec de grands bouleversements dans les “Skinlands” (ex: la peste noire, les guerres mondiales, etc. . .).",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances communes",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "toggle",
+          "text": "Connaissances secrètes",
+          "children": [
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous êtes familier avec les huit légions. Il s'agit notamment de: La Légion de Fer (les victimes de la vieillesse), la Légion Décharnée (les victimes de la maladie et de la famine), la Légion Sinistre (les victimes de violence), la Légion des Pénitents (les victimes de la folie), la Légion d'Emeraude (les victimes d'accidents), la Légion Silencieuse (les victimes du désespoir et du suicide), la Légion des Pauvres (les victimes de circonstances mystérieuses et inconnues), et la Légion du Destin (victimes marquées par le destin).",
+              "spans": [
+                {
+                  "text": "Vous êtes familier avec les huit légions. Il s'agit notamment de: La Légion de Fer (les victimes de la vieillesse), la Légion Décharnée (les victimes de la maladie et de la famine), la Légion Sinistre (les victimes de violence), la Légion des Pénitents (les victimes de la folie), la Légion d'Emeraude (les victimes d'accidents), la Légion Silencieuse (les victimes du désespoir et du suicide), la Légion des Pauvres (les victimes de circonstances mystérieuses et inconnues), et la Légion du Destin (victimes marquées par le destin).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez une idée approximative des rangs civils et militaires au sein de chaque légion. Vous connaissez les trois Arcanos interdit de Stygia qui ont la capacité d’engendrer la désintégration dans les terres des vivants, de lire et de repérer les souvenirs ainsi que d'implanter des suggestions ou des ordres.",
+              "spans": [
+                {
+                  "text": "Vous avez une idée approximative des rangs civils et militaires au sein de chaque légion. Vous connaissez les trois Arcanos interdit de Stygia qui ont la capacité d’engendrer la désintégration dans les terres des vivants, de lire et de repérer les souvenirs ainsi que d'implanter des suggestions ou des ordres.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez une bonne connaissance des quinze guildes, y compris celles qui sont illégales ou interdites. Vous avez entendu parler des Malféens, qui sont sans doute les êtres les plus puissants du Royaume des Morts.  On raconte que leur puissance dépasse sans nul doute celles des Antédiluviens. Ce sont des êtres du néant engendrés par l'Oblivion lui-même. Vous savez que ces êtres sont à la tête de la hiérarchie du Labyrinthe, et qu'ils possèdent parfois des cultes chez les mortels.",
+              "spans": [
+                {
+                  "text": "Vous avez une bonne connaissance des quinze guildes, y compris celles qui sont illégales ou interdites. Vous avez entendu parler des Malféens, qui sont sans doute les êtres les plus puissants du Royaume des Morts.  On raconte que leur puissance dépasse sans nul doute celles des Antédiluviens. Ce sont des êtres du néant engendrés par l'Oblivion lui-même. Vous savez que ces êtres sont à la tête de la hiérarchie du Labyrinthe, et qu'ils possèdent parfois des cultes chez les mortels.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez une idée vague de la structure sociale spectrale et connaissez certains types de spectres, y compris les Dopplegangers (qui conservent leur apparence de défunts, et qui ne sont pas défigurés par leur Ombre. Ils peuvent s’infiltrer facilement dans les Nécropoles et tromper leurs anciens alliés), les Ombres (spectres dont la Psyché a été détruit dans un Maelstrom ou hersage), les Débris (spectres plus puissants qui pourraient devenir Malfeans avec le temps), et les Mortifiés (fantômes qui sont morts dans de manières si violentes et traumatisantes qu'ils sont entrés dans l'Outremonde en tant que spectres).",
+              "spans": [
+                {
+                  "text": "Vous avez une idée vague de la structure sociale spectrale et connaissez certains types de spectres, y compris les Dopplegangers (qui conservent leur apparence de défunts, et qui ne sont pas défigurés par leur Ombre. Ils peuvent s’infiltrer facilement dans les Nécropoles et tromper leurs anciens alliés), les Ombres (spectres dont la Psyché a été détruit dans un Maelstrom ou hersage), les Débris (spectres plus puissants qui pourraient devenir Malfeans avec le temps), et les Mortifiés (fantômes qui sont morts dans de manières si violentes et traumatisantes qu'ils sont entrés dans l'Outremonde en tant que spectres).",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "bulleted_list_item",
+              "text": "Vous avez entendu parler des Ressuscités, les fantômes qui forcent le chemin du retour dans leur corps et marchent parmi les vivants. Vous savez qu'ils n’ont pas de signes de vie et peuvent se faire passer pour des nouveau-nés Caïtiffs. Vous savez qu'ils sont extraordinairement difficiles à tuer, mais qu'ils ont souvent soit un genre de bijou ou un animal de compagnie, dont la destruction peut les perturber considérablement.",
+              "spans": [
+                {
+                  "text": "Vous avez entendu parler des Ressuscités, les fantômes qui forcent le chemin du retour dans leur corps et marchent parmi les vivants. Vous savez qu'ils n’ont pas de signes de vie et peuvent se faire passer pour des nouveau-nés Caïtiffs. Vous savez qu'ils sont extraordinairement difficiles à tuer, mais qu'ils ont souvent soit un genre de bijou ou un animal de compagnie, dont la destruction peut les perturber considérablement.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Connaissances secrètes",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3c088b48-e48e-801a-abf5-ca6cf66ca8bf",
       "notionUrl": "https://app.notion.com/p/Tor-ador-3c088b48e48e801aabf5ca6cf66ca8bf",
       "lastEditedTime": "2026-08-24T08:14:00.000Z",
@@ -14889,7 +14889,7 @@
     {
       "id": "3c088b48-e48e-809f-8758-eafbb8c000c4",
       "notionUrl": "https://app.notion.com/p/Tzimices-3c088b48e48e809f8758eafbb8c000c4",
-      "lastEditedTime": "2026-08-24T07:51:00.000Z",
+      "lastEditedTime": "2026-09-06T16:43:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -15280,10 +15280,10 @@
             },
             {
               "type": "bulleted_list_item",
-              "text": "Bien que certains appellent ces Tzimisce le \"vieux clan\", il s'agit là d'une erreur d'appellation. Ces vampires vieillissants n'ont que faire des liens de secte, de Clan ou autres. Ils se souviennent très bien des nuits d'antan, lorsque chaque vampire était une loi en soi, et que tout autre vampire était un ennemi potentiel. (Notez que, comme d’anciens Lasombra non sabbatiques qui ont survécu, le Vieux Clan Tzimisce ne s'appelle pas lui-même \"antitribu\"). Certains d'entre eux se sont regroupés au sein d’une formation connue sous le nom de Ligue d'Oradea, afin de repousser les sectes qui menaçaient leur autonomie.\nEn conséquence, la société du Vieux Clan Tzimisce est structurée autour de lignées individuelles composées d'un père et d'un ou plusieurs infants liés par le sang. Pour l'Ancien Clan Tzimisce, les infants jouent le rôle d'amants, de membres de la famille, d'amis, de gardes du corps et de serviteurs. La maîtrise du lien du sang par les Tzimisce permet au père d'accorder les émotions de ses infants à la tonalité souhaitée. Ainsi, un amant vampire peut être lié au sang pour ressentir un désir dévorant pour son géniteur, un garde peut être lié au sang pour la loyauté, et un compagnon peut être \"programmé\" pour l'amour. Le fait que ces émotions soient artificielles et unilatérales dérange rarement le géniteur.",
+              "text": "Bien que certains appellent ces Tzimisce le \"vieux clan\", il s'agit là d'une erreur d'appellation. Ces vampires vieillissants n'ont que faire des liens de secte, de Clan ou autres. Ils se souviennent très bien des nuits d'antan, lorsque chaque vampire était une loi en soi, et que tout autre vampire était un ennemi potentiel. (Notez que, comme d’anciens Lasombra non sabbatiques qui ont survécu, le Vieux Clan Tzimisce ne s'appelle pas lui-même \"antitribu\"). Certains d'entre eux se sont regroupés au sein d’une formation connue sous le nom de Ligue d'Oradea, afin de repousser les sectes qui menaçaient leur autonomie.\nEn conséquence, la société du Vieux Clan Tzimisce est structurée autour de lignées individuelles composées d'un père et d'un ou plusieurs infants liés par le sang. Pour l'Ancien Clan Tzimisce, les infants jouent le rôle d'amants, de membres de la famille, d'amis, de gardes du corps et de serviteurs. La maîtrise du lien de sang par les Tzimisce permet au père d'accorder les émotions de ses infants à la tonalité souhaitée. Ainsi, un amant vampire peut être lié au sang pour ressentir un désir dévorant pour son géniteur, un garde peut être lié au sang pour la loyauté, et un compagnon peut être \"programmé\" pour l'amour. Le fait que ces émotions soient artificielles et unilatérales dérange rarement le géniteur.",
               "spans": [
                 {
-                  "text": "Bien que certains appellent ces Tzimisce le \"vieux clan\", il s'agit là d'une erreur d'appellation. Ces vampires vieillissants n'ont que faire des liens de secte, de Clan ou autres. Ils se souviennent très bien des nuits d'antan, lorsque chaque vampire était une loi en soi, et que tout autre vampire était un ennemi potentiel. (Notez que, comme d’anciens Lasombra non sabbatiques qui ont survécu, le Vieux Clan Tzimisce ne s'appelle pas lui-même \"antitribu\"). Certains d'entre eux se sont regroupés au sein d’une formation connue sous le nom de Ligue d'Oradea, afin de repousser les sectes qui menaçaient leur autonomie.\nEn conséquence, la société du Vieux Clan Tzimisce est structurée autour de lignées individuelles composées d'un père et d'un ou plusieurs infants liés par le sang. Pour l'Ancien Clan Tzimisce, les infants jouent le rôle d'amants, de membres de la famille, d'amis, de gardes du corps et de serviteurs. La maîtrise du lien du sang par les Tzimisce permet au père d'accorder les émotions de ses infants à la tonalité souhaitée. Ainsi, un amant vampire peut être lié au sang pour ressentir un désir dévorant pour son géniteur, un garde peut être lié au sang pour la loyauté, et un compagnon peut être \"programmé\" pour l'amour. Le fait que ces émotions soient artificielles et unilatérales dérange rarement le géniteur.",
+                  "text": "Bien que certains appellent ces Tzimisce le \"vieux clan\", il s'agit là d'une erreur d'appellation. Ces vampires vieillissants n'ont que faire des liens de secte, de Clan ou autres. Ils se souviennent très bien des nuits d'antan, lorsque chaque vampire était une loi en soi, et que tout autre vampire était un ennemi potentiel. (Notez que, comme d’anciens Lasombra non sabbatiques qui ont survécu, le Vieux Clan Tzimisce ne s'appelle pas lui-même \"antitribu\"). Certains d'entre eux se sont regroupés au sein d’une formation connue sous le nom de Ligue d'Oradea, afin de repousser les sectes qui menaçaient leur autonomie.\nEn conséquence, la société du Vieux Clan Tzimisce est structurée autour de lignées individuelles composées d'un père et d'un ou plusieurs infants liés par le sang. Pour l'Ancien Clan Tzimisce, les infants jouent le rôle d'amants, de membres de la famille, d'amis, de gardes du corps et de serviteurs. La maîtrise du lien de sang par les Tzimisce permet au père d'accorder les émotions de ses infants à la tonalité souhaitée. Ainsi, un amant vampire peut être lié au sang pour ressentir un désir dévorant pour son géniteur, un garde peut être lié au sang pour la loyauté, et un compagnon peut être \"programmé\" pour l'amour. Le fait que ces émotions soient artificielles et unilatérales dérange rarement le géniteur.",
                   "bold": false
                 }
               ]
