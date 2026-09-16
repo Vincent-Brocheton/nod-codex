@@ -16,6 +16,9 @@ dist-ssr
 # Cache local du sync Notion (voir scripts/notion/cache.js)
 scripts/.cache/
 
+# Notes/analyses locales, jamais commitées
+docs/
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json

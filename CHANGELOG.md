@@ -3,6 +3,11 @@
 Historique des changements de l'app Nod-Codex (hors mises à jour de contenu Notion,
 déjà suivies par la page "Dernières mises à jour" du wiki).
 
+## [1.7.1] - 2026-09-16
+
+- Les fiches longues (Clans, Disciplines...) sont désormais limitées à une largeur de lecture confortable, au lieu de s'étirer sur toute la largeur du panneau
+- La recherche fait désormais remonter en premier une fiche dont le titre correspond exactement au terme cherché (ex. chercher "Brujah" affiche d'abord le clan Brujah, avant les fiches qui le mentionnent simplement)
+
 ## [1.7.0] - 2026-08-27
 
 - Les précisions ("callout" Notion) glissées dans une fiche sont désormais mises en valeur visuellement au lieu de se fondre dans le texte, et affichent leur réponse le cas échéant (question/réponse), auparavant perdue à la synchronisation

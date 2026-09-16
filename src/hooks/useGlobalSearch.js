@@ -46,6 +46,17 @@ export default function useGlobalSearch(manifest, query) {
     const allLoaded = manifest.collections.length > 0 &&
         manifest.collections.every((config) => loadedCollections[config.key]);
 
+    // Une fiche dont le titre correspond au terme cherché passe avant une
+    // fiche qui ne le mentionne que dans son contenu, même si sa collection
+    // est déclarée plus loin dans la config (ex. chercher "brujah" doit
+    // faire remonter le clan Brujah avant les disciplines qui le citent).
+    function titleRank(item) {
+        const title = item.title.toLowerCase();
+        if (title.startsWith(normalizedQuery)) return 0;
+        if (title.includes(normalizedQuery)) return 1;
+        return 2;
+    }
+
     // Seules les collections rattachées à une section de navigation peuvent
     // être liées ; les autres sont ignorées (résultat sans destination).
     const results = !active ? [] : Object.values(loadedCollections)
@@ -58,7 +69,8 @@ export default function useGlobalSearch(manifest, query) {
                     collectionKey: collection.key,
                     collectionLabel: collection.label,
                 }))
-        );
+        )
+        .sort((a, b) => titleRank(a) - titleRank(b));
 
     return {
         active,
