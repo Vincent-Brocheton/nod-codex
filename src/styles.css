@@ -745,14 +745,17 @@ h1 {
 }
 
 /* Carte unique pour le corps d'une fiche (propriétés + contenu + fiches
-   liées) : même traitement que .ritualEntry et .modalPanel (pleine
-   largeur, pas de plafond de lecture), pour que StatBlock/ContentBlocks
-   ne forment pas des boîtes séparées empilées et que toutes les fiches
-   (simples ou empilées) partagent le même gabarit. */
+   liées), pour que StatBlock/ContentBlocks ne forment pas des boîtes
+   séparées empilées et que toutes les fiches (simples ou empilées)
+   partagent le même gabarit. Plafonnée à la même largeur de lecture que
+   son contenu (44rem) : sans ça, la carte (bordure + fond) s'étire sur
+   toute la largeur du panneau pendant que le texte reste à 44rem, ce qui
+   laisse un grand vide à droite du texte à l'intérieur de la carte. */
 .detailCard {
   background: var(--bg-card);
   border: 1px solid var(--border);
   border-radius: 8px;
+  max-width: 44rem;
   padding: clamp(20px, 4vw, 32px);
 }
 
@@ -774,7 +777,6 @@ h1 {
   background: none;
   border: none;
   border-radius: 0;
-  max-width: 44rem;
   padding: 0;
 }
 
