@@ -7,22 +7,21 @@
 - [x] WikiService
 - [x] useManifest
 - [x] useCollections
-- [ ] useSearch
-- [ ] useWiki final
+- [x] useSearch (`useGlobalSearch.js`)
+- [x] useWiki final
 
 ---
 
 ## Wiki
 
-- [ ] URL des fiches
-- [ ] Recherche globale
-- [ ] Relations
-- [ ] Breadcrumb
+- [x] URL des fiches
+- [x] Recherche globale
+- [x] Relations
+- [ ] Breadcrumb — partiel : chaque fiche affiche sa catégorie et un lien "Retour à la liste", mais pas de fil d'Ariane cliquable multi-niveaux (Accueil > Règles > Clans > Brujah)
 
 ---
 
 ## UX
 
 - [ ] Favoris
-- [ ] Historique
-- [ ] Responsive
+- [x] Responsive
