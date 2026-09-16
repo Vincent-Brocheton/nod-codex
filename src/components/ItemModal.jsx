@@ -18,6 +18,10 @@ export default function ItemModal({ manifest, collectionKey, slug, statFields, o
 
     const [item, setItem] = useState(null);
     const panelRef = useRef(null);
+    const onCloseRef = useRef(onClose);
+    useEffect(() => {
+        onCloseRef.current = onClose;
+    });
 
     useEffect(() => {
         const config = manifest.collections.find((entry) => entry.key === collectionKey);
@@ -40,13 +44,17 @@ export default function ItemModal({ manifest, collectionKey, slug, statFields, o
     // Piège le focus clavier dans la popup (Tab/Shift+Tab ne doivent pas
     // atteindre la page derrière) et le restitue à l'élément qui l'a ouverte
     // une fois fermée, plutôt que de le laisser au corps de la page.
+    // Dépend de [] (pas de onClose) : onClose est recréé à chaque render du
+    // parent (`onClose={() => setModalRef(null)}`, non mémoïsé), sinon cet
+    // effet se relançait à chaque render et restituait/reposait le focus en
+    // boucle pendant que la modale reste ouverte.
     useEffect(() => {
         const previouslyFocused = document.activeElement;
         panelRef.current?.focus();
 
         function handleKeyDown(event) {
             if (event.key === "Escape") {
-                onClose();
+                onCloseRef.current();
                 return;
             }
 
@@ -74,7 +82,7 @@ export default function ItemModal({ manifest, collectionKey, slug, statFields, o
             window.removeEventListener("keydown", handleKeyDown);
             if (previouslyFocused instanceof HTMLElement) previouslyFocused.focus();
         };
-    }, [onClose]);
+    }, []);
 
     return (
         <div className="modalBackdrop" onClick={onClose}>
