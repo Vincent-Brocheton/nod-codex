@@ -420,7 +420,7 @@ async function writeManifest(fetched) {
   await writeFile(path.join(outputDataDir, "manifest.json"), `${JSON.stringify(manifest, null, 2)}\n`, "utf8");
 }
 
-function validateUniqueSlugs(items, collectionLabel) {
+export function validateUniqueSlugs(items, collectionLabel) {
   const seen = new Map();
 
   for (const item of items) {
@@ -495,7 +495,13 @@ async function main() {
   console.log("Synchronisation Notion terminée.");
 }
 
-main().catch((error) => {
-  console.error(error.message);
-  process.exit(1);
-});
+// Exécute la synchro seulement quand le fichier est lancé directement
+// (`npm run sync`), pas quand il est importé (ex. les tests sur
+// `validateUniqueSlugs`), sans quoi l'import déclencherait de vrais appels
+// à l'API Notion.
+if (fileURLToPath(import.meta.url) === process.argv[1]) {
+  main().catch((error) => {
+    console.error(error.message);
+    process.exit(1);
+  });
+}
