@@ -2087,13 +2087,11 @@ img.clanEmblem {
    le libellé : sans ce bloc, elle et le texte se touchaient sans espace. */
 .indexGroup h2 {
   align-items: center;
-  border-bottom: 1px solid var(--border);
   color: var(--text-primary);
   display: flex;
   font-size: 15px;
   gap: 9px;
   margin: 0 0 14px;
-  padding-bottom: 8px;
 }
 
 .indexGroup h2 svg {
