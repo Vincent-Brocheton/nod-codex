@@ -73,6 +73,7 @@ export default function Sidebar({ wiki, open, onClose, theme, onToggleTheme }) {
                         value={query}
                         onChange={(event) => setQuery(event.target.value)}
                         placeholder="Rechercher..."
+                        aria-label="Rechercher"
                     />
 
                     <kbd className="searchShortcut">⌘K</kbd>
