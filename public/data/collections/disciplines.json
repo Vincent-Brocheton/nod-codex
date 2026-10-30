@@ -4,7 +4,7 @@
   "group": "Disciplines et Pouvoirs",
   "description": "Explorez les pouvoirs surnaturels des vampires, de leurs effets aux règles de leur utilisation.",
   "notionDatabaseId": "39088b48-e48e-80c9-84a2-d8406b3b97bc",
-  "generatedAt": "2026-09-15T17:06:29.286Z",
+  "generatedAt": "2026-10-29T08:53:56.761Z",
   "propertyOptions": {
     "Spécialité 2": [
       "Intelligence",
@@ -106,7 +106,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "hantise-psychique",
-              "title": "Hantise Psychique",
+              "title": "Hantise psychique",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -114,7 +114,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "vision-du-chaos",
-              "title": "Vision du Chaos",
+              "title": "Vision du chaos",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -130,7 +130,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "demence-absolue",
-              "title": "Démence Absolue",
+              "title": "Démence absolue",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -370,7 +370,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "murmures-sauvages",
-              "title": "Murmures Sauvages",
+              "title": "Murmures sauvages",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -394,15 +394,15 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "soumission-de-l-esprit",
-              "title": "Soumission de l’Esprit",
+              "title": "Soumission de l'esprit",
               "cout": null,
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "lacher-la-bete",
-              "title": "Lâcher la Bête",
+              "slug": "conquerir-la-bete",
+              "title": "Conquérir la Bête",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -741,16 +741,16 @@
           "value": [
             {
               "collectionKey": "pouvoirs",
-              "slug": "sens-aiguises",
-              "title": "Sens Aiguisés",
+              "slug": "sens-accrus",
+              "title": "Sens accrus",
               "cout": null,
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "lecture-d-ame",
-              "title": "Lecture d’Âme",
+              "slug": "perception-d-aura",
+              "title": "Perception d'aura",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -774,7 +774,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "projection-astrale",
-              "title": "Projection Astrale",
+              "title": "Projection astrale",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1158,8 +1158,8 @@
           "value": [
             {
               "collectionKey": "pouvoirs",
-              "slug": "alcarite",
-              "title": "Alcarité",
+              "slug": "alacrite",
+              "title": "Alacrité",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1183,7 +1183,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "legerete",
-              "title": "Légéreté",
+              "title": "Légèreté",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1554,8 +1554,8 @@
     },
     {
       "id": "38188b48-e48e-8064-a85d-e47e38304c23",
-      "notionUrl": "https://app.notion.com/p/Chimerie-38188b48e48e8064a85de47e38304c23",
-      "lastEditedTime": "2026-07-22T15:12:00.000Z",
+      "notionUrl": "https://app.notion.com/p/Chim-rie-38188b48e48e8064a85de47e38304c23",
+      "lastEditedTime": "2026-10-29T08:47:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1577,8 +1577,8 @@
           "value": [
             {
               "collectionKey": "pouvoirs",
-              "slug": "ignus-fatuus",
-              "title": "Ignus Fatuus",
+              "slug": "ignis-fatuus",
+              "title": "Ignis fatuus",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1610,7 +1610,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "fata-morgana",
-              "title": "Fata Morgana",
+              "title": "Fata morgana",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1721,10 +1721,10 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Chimerie"
+          "value": "Chimérie"
         }
       },
-      "title": "Chimerie",
+      "title": "Chimérie",
       "slug": "chimerie",
       "content": [
         {
@@ -1742,7 +1742,7 @@
     {
       "id": "38188b48-e48e-8019-b2ab-f5fc37ae8ec7",
       "notionUrl": "https://app.notion.com/p/Daemonium-38188b48e48e8019b2abf5fc37ae8ec7",
-      "lastEditedTime": "2026-07-22T15:12:00.000Z",
+      "lastEditedTime": "2026-10-29T07:47:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -1765,15 +1765,15 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sentir-le-peche",
-              "title": "Sentir le Péché",
+              "title": "Sentir le péché",
               "cout": null,
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "peur-du-vide-abyssale",
-              "title": "Peur du Vide abyssale",
+              "slug": "peur-du-vide-abyssal",
+              "title": "Peur du vide abyssal",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1899,10 +1899,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Subtile, puissant et entièrement démoniaque, Daemoniom est la discipline signature du clan Baali. Cette discipline à été perfectionner dans les fosses à sacrifices les plus profonde et les donjons de torture de l’Âge Sombre, elle a emporter ces horreurs dans le monde moderne. Voici les sombres dons du mal, arrachés aux langues des rois-sorciers et libérés au sein des cœurs vicieux et corrompus des traîtres.\nLes personnage apprenant Daemoniom s’ouvre aux murmures et aux persuasion inconsciente d’entité de nature infernal. Chaque pensé et objectifs deviennent suspect, il est même difficile pour ce personnage de savoir si il agit par sa propre volonté. Chaque point investie en Daemoniom corrompt l’âme de l’individue. Quan une discipline de daemoniom est utiliser, une tainte infernal recouvre l’aura de l’utilisateur et se dissipe.\nApprendre les quatre premier niveaux de Daemoniom indique que le personnage est corrompu par l’infernal, et il est incontestable qu’il utilise des pouvoirs entièrement lié aux démon. Un Personnage doit faire un pacte délibéré avec une créature infernal pour apprendre le cinquième niveau de daemoniom: soit en le conquérant et en devenant son maître, soit en rejoignant sa cause et en devenant un allié volontaire. Peut importe la manière dont le pacte est réaliser, le personnage devient de manière irréversible un infernaliste. Seul les individus ayant réaliser ce pacte peuvent acquérirent le cinquième niveau de Daemoniom.",
+          "text": "Subtile, puissant et entièrement démoniaque, Daemonium est la discipline signature du clan Baali. Cette discipline à été perfectionner dans les fosses à sacrifices les plus profonde et les donjons de torture de l’Âge Sombre, elle a emporter ces horreurs dans le monde moderne. Voici les sombres dons du mal, arrachés aux langues des rois-sorciers et libérés au sein des cœurs vicieux et corrompus des traîtres.\nLes personnage apprenant Daemonium s’ouvre aux murmures et aux persuasion inconsciente d’entité de nature infernal. Chaque pensé et objectifs deviennent suspect, il est même difficile pour ce personnage de savoir si il agit par sa propre volonté. Chaque point investie en Daemonium corrompt l’âme de l’individue. Quan une discipline de daemoniom est utiliser, une tainte infernal recouvre l’aura de l’utilisateur et se dissipe.\nApprendre les quatre premier niveaux de Daemonium indique que le personnage est corrompu par l’infernal, et il est incontestable qu’il utilise des pouvoirs entièrement lié aux démon. Un Personnage doit faire un pacte délibéré avec une créature infernal pour apprendre le cinquième niveau de daemoniom: soit en le conquérant et en devenant son maître, soit en rejoignant sa cause et en devenant un allié volontaire. Peut importe la manière dont le pacte est réaliser, le personnage devient de manière irréversible un infernaliste. Seul les individus ayant réaliser ce pacte peuvent acquérirent le cinquième niveau de Daemonium.",
           "spans": [
             {
-              "text": "Subtile, puissant et entièrement démoniaque, Daemoniom est la discipline signature du clan Baali. Cette discipline à été perfectionner dans les fosses à sacrifices les plus profonde et les donjons de torture de l’Âge Sombre, elle a emporter ces horreurs dans le monde moderne. Voici les sombres dons du mal, arrachés aux langues des rois-sorciers et libérés au sein des cœurs vicieux et corrompus des traîtres.\nLes personnage apprenant Daemoniom s’ouvre aux murmures et aux persuasion inconsciente d’entité de nature infernal. Chaque pensé et objectifs deviennent suspect, il est même difficile pour ce personnage de savoir si il agit par sa propre volonté. Chaque point investie en Daemoniom corrompt l’âme de l’individue. Quan une discipline de daemoniom est utiliser, une tainte infernal recouvre l’aura de l’utilisateur et se dissipe.\nApprendre les quatre premier niveaux de Daemoniom indique que le personnage est corrompu par l’infernal, et il est incontestable qu’il utilise des pouvoirs entièrement lié aux démon. Un Personnage doit faire un pacte délibéré avec une créature infernal pour apprendre le cinquième niveau de daemoniom: soit en le conquérant et en devenant son maître, soit en rejoignant sa cause et en devenant un allié volontaire. Peut importe la manière dont le pacte est réaliser, le personnage devient de manière irréversible un infernaliste. Seul les individus ayant réaliser ce pacte peuvent acquérirent le cinquième niveau de Daemoniom.",
+              "text": "Subtile, puissant et entièrement démoniaque, Daemonium est la discipline signature du clan Baali. Cette discipline à été perfectionner dans les fosses à sacrifices les plus profonde et les donjons de torture de l’Âge Sombre, elle a emporter ces horreurs dans le monde moderne. Voici les sombres dons du mal, arrachés aux langues des rois-sorciers et libérés au sein des cœurs vicieux et corrompus des traîtres.\nLes personnage apprenant Daemonium s’ouvre aux murmures et aux persuasion inconsciente d’entité de nature infernal. Chaque pensé et objectifs deviennent suspect, il est même difficile pour ce personnage de savoir si il agit par sa propre volonté. Chaque point investie en Daemonium corrompt l’âme de l’individue. Quan une discipline de daemoniom est utiliser, une tainte infernal recouvre l’aura de l’utilisateur et se dissipe.\nApprendre les quatre premier niveaux de Daemonium indique que le personnage est corrompu par l’infernal, et il est incontestable qu’il utilise des pouvoirs entièrement lié aux démon. Un Personnage doit faire un pacte délibéré avec une créature infernal pour apprendre le cinquième niveau de daemoniom: soit en le conquérant et en devenant son maître, soit en rejoignant sa cause et en devenant un allié volontaire. Peut importe la manière dont le pacte est réaliser, le personnage devient de manière irréversible un infernaliste. Seul les individus ayant réaliser ce pacte peuvent acquérirent le cinquième niveau de Daemonium.",
               "bold": false
             }
           ]
@@ -1959,7 +1959,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "disparition-a-la-vue-de-l-esprit",
-              "title": "Disparition à la vue de l'esprit",
+              "title": "Disparition à la vue de l'Esprit",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3477,8 +3477,8 @@
           "value": [
             {
               "collectionKey": "pouvoirs",
-              "slug": "jeu-d-ombres",
-              "title": "Jeu d’Ombres",
+              "slug": "jeux-d-ombres",
+              "title": "Jeux d'ombres",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3486,7 +3486,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "voile-de-nuit",
-              "title": "Voile de Nuit",
+              "title": "Voile de nuit",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3502,7 +3502,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sombre-metamorphose",
-              "title": "Sombre Métamorphose",
+              "title": "Sombre métamorphose",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3510,7 +3510,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-tenebreuse",
-              "title": "Forme Ténébreuse",
+              "title": "Forme ténébreuse",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -4175,7 +4175,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "yeux-de-la-bete",
-              "title": "Yeux de la bête",
+              "title": "Yeux de la Bête",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -4199,7 +4199,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-de-la-bete",
-              "title": "Forme de la Bête",
+              "title": "Forme de la bête",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -4828,7 +4828,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "silence-de-la-mort",
-              "title": "Silence de la Mort",
+              "title": "Silence de la mort",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -4836,7 +4836,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "le-toucher-du-scorpion",
-              "title": "Le Toucher du Scorpion",
+              "title": "Le Toucher du scorpion",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5142,7 +5142,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-du-cobra",
-              "title": "Forme du Cobra",
+              "title": "Forme du cobra",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5416,7 +5416,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sculpture-de-la-chair",
-              "title": "Sculpture de la chair",
+              "title": "Sculpture de la Chair",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5424,7 +5424,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "sculpture-des-os",
-              "title": "Sculpture des os",
+              "title": "Sculpture des Os",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5432,7 +5432,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-monstrueuse",
-              "title": "Forme Monstrueuse",
+              "title": "Forme monstrueuse",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5989,7 +5989,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "blocage-aqueux",
-              "title": "Blocage aqueux",
+              "title": "Blocage Aqueux",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6013,7 +6013,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "protection-aquatique",
-              "title": "Protection aquatique",
+              "title": "Protection Aquatique",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6157,7 +6157,7 @@
     {
       "id": "38188b48-e48e-806d-8e13-ef6cea6c01c0",
       "notionUrl": "https://app.notion.com/p/Voie-de-l-Emprisonnement-des-mes-38188b48e48e806d8e13ef6cea6c01c0",
-      "lastEditedTime": "2026-08-11T07:29:00.000Z",
+      "lastEditedTime": "2026-10-29T08:49:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -6187,8 +6187,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "attirail-mortel",
-              "title": "Attirail Mortel",
+              "slug": "appareil-funeste",
+              "title": "Appareil Funeste",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6196,7 +6196,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "metal-tordu",
-              "title": "Métal Tordu",
+              "title": "Métal tordu",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6211,8 +6211,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "sans-titre",
-              "title": "Sans titre",
+              "slug": "assimilation",
+              "title": "Assimilation",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6274,10 +6274,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Réceptacles obscurs et attirails mortels : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil mortel. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les attirails mortels sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux attirails mortels.",
+          "text": "Réceptacles obscurs et appareils funestes : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil funeste. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les appareils funestes sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux appareils funestes.",
           "spans": [
             {
-              "text": "Réceptacles obscurs et attirails mortels : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil mortel. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les attirails mortels sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux attirails mortels.",
+              "text": "Réceptacles obscurs et appareils funestes : la voie de l’emprisonnement des âmes permet à un nécromancien de créer un réceptacle obscure et un appareil funeste. Les réceptacles obscures sont des petites babioles ou bijoux (des objets qui ne s’équipent pas) qui contiennent l’essence captive d’un fantôme. Avec une action simple, le réceptacle peut être brisé pour créer une variété d’effets comme décrits ci-dessous. Les appareils funestes sont des éléments d’équipements, armures ou armes, qui sont améliorés par l’essence captive d’un fantôme. Les améliorations que peut apporter un nécromancien sont décrites ci-dessous. En plus, et comme expliqué après, il y a certains éléments qui sont communs aux réceptacles obscures et aux appareils funestes.",
               "bold": false
             }
           ]
@@ -6294,10 +6294,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un attirail mortel, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
+          "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un appareil funeste, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
           "spans": [
             {
-              "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un attirail mortel, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
+              "text": "Les fantômes asservis peuvent sentir les environs immédiats de l’objet qu’ils occupent mais ne peuvent pas communiquer avec le monde extérieur. Ils ne peuvent pas utiliser de compétence ou de pouvoir tant qu’ils ne sont pas libérés. Cet emprisonnement dure 6 mois, moins le niveau de grade ou de servitude du fantôme. Vous pouvez renouveler le lien en dépensant le coût en point de sang à nouveau. Le faire ne nécessite pas d’avoir l’objet en sa possession. Si le lien arrive à expiration naturellement, vous devez recommencer le processus en récupérant le contrôle du fantôme et la possession de l’objet. Les nécromanciens qui possèdent au moins 1 point dans cette voie peuvent libérer sans difficulté et sans danger les fantômes via une action simple. Tant qu’elle est emprisonnée dans un réceptacle obscure ou un appareil funeste, l’âme est considérée comme étant contrôlée pour ce qui est du pouvoir Invoquer une âme de la voie du Sépulcre. Etant donné qu’un fantôme est déjà lié à un réceptacle ou un appareil, il ne peut donc pas être lié à un emplacement différent via le pouvoir de la voie du Sépulcre Liaison d’âme. A moins que ça ne soit explicitement dit, les autres pouvoirs et rituels comme Balise à Esprit qui affectent les fantômes n’affectent pas ceux qui sont emprisonnés dans des appareils ou des réceptacles.",
               "bold": false
             }
           ]
@@ -6324,10 +6324,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque Tourmente a un objectif que le spectre doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
+          "text": "Chaque Tourmente a un objectif que le fantôme doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
           "spans": [
             {
-              "text": "Chaque Tourmente a un objectif que le spectre doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
+              "text": "Chaque Tourmente a un objectif que le fantôme doit découvrir puis essayer d’atteindre, bien que celui-ci soit très souvent nébuleux. Par exemple, une tourmente peut représenter une scène avec un voleur prêt à blesser un parent tandis que le fantôme regarde la scène terrorisée, incarnant le reflet de sa propre condition d’enfant. Une arme à feu dans les mains du fantôme lui donne une solution facile pour résoudre le problème : tuer le voleur avant qu’il ne fasse du mal à ses parents, ou bien il peut également tenter de l’arrêter sans violence et ainsi mettre un terme au cycle de douleur et de mort. Réussite ou échec, c’est entièrement dépendant de l’histoire du fantôme et de l’enseignement tiré de la Tourmente.",
               "bold": false
             }
           ]
@@ -6338,144 +6338,6 @@
           "spans": [
             {
               "text": "Une fois que l’esprit a complété la tâche de sa Tourmente - réussi ou non- il est éjecté près d’une de ses ancres avec 1 point de Pathos et 1 point de Corpus. Une Tourmente dure au moins un mois, mais elles peuvent être plus longues selon la difficulté de la situation. Si un fantôme échoue trop de Tourmente, il se retrouve coincé dans l’Oubli et devient alors un spectre",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "38188b48-e48e-8065-a908-f248d46e24f1",
-      "notionUrl": "https://app.notion.com/p/Voie-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
-      "lastEditedTime": "2026-08-11T07:30:00.000Z",
-      "properties": {
-        "Spécialité 2": {
-          "type": "select",
-          "value": "Astuce"
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Jet de défense": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Volonté"
-          ]
-        },
-        "Pouvoirs": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "poussee-de-force",
-              "title": "Poussée de Force",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "manipuler",
-              "title": "Manipuler",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "vol",
-              "title": "Vol",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "repulsion",
-              "title": "Répulsion",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "pouvoirs",
-              "slug": "controle",
-              "title": "Contrôle",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Jet d'attaque": {
-          "type": "multi_select",
-          "value": [
-            "Mental",
-            "Occultisme"
-          ]
-        },
-        "Spécialité 1": {
-          "type": "select",
-          "value": "Perception"
-        },
-        "Techniques": {
-          "type": "relation",
-          "value": []
-        },
-        "Clans": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "tremere",
-              "title": "Tremere",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Pouvoirs d’Anciens": {
-          "type": "relation",
-          "value": []
-        },
-        "Type": {
-          "type": "select",
-          "value": "Thaumaturgie"
-        },
-        "Lignées": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "lignees",
-              "slug": "sorcier",
-              "title": "Sorcier",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Nom": {
-          "type": "text",
-          "value": "Voie de l’Esprit"
-        }
-      },
-      "title": "Voie de l’Esprit",
-      "slug": "voie-de-l-esprit",
-      "content": [
-        {
-          "type": "paragraph",
-          "text": "Les pratiquants de la voie de l'esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la voie de l'esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
-          "spans": [
-            {
-              "text": "Les pratiquants de la voie de l'esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la voie de l'esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
               "bold": false
             }
           ]
@@ -6675,7 +6537,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "inverser-la-conjuration",
-              "title": "Inverser la Conjuration",
+              "title": "Inverser la conjuration",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6683,7 +6545,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "pouvoir-sur-la-vie",
-              "title": "Pouvoir sur la Vie",
+              "title": "Pouvoir Sur la Vie",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6958,7 +6820,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "force-elementaire",
-              "title": "Force Elémentaire",
+              "title": "Force Élémentaire",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6966,7 +6828,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "langue-de-bois",
-              "title": "Langue de Bois",
+              "title": "Langue de bois",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6982,7 +6844,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "forme-elementaire",
-              "title": "Forme Elementaire",
+              "title": "Forme Élémentaire",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -6990,7 +6852,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "invoquer-les-elementaires",
-              "title": "Invoquer les Elementaires",
+              "title": "Invoquer les Élémentaires",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -7239,7 +7101,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "maitrise-de-l-eau",
-              "title": "Maîtrise de l’eau",
+              "title": "Maîtrise de l'Eau",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -7730,8 +7592,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "la-quatrieme-cavalier",
-              "title": "La Quatrième Cavalier",
+              "slug": "le-quatrieme-cavalier",
+              "title": "Le Quatrième Cavalier",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -7819,7 +7681,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "perception-au-dela-du-voile",
-              "title": "Perception au-delà du Voile",
+              "title": "Perception au-delà du voile",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -7947,7 +7809,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "detruire-la-coquille",
-              "title": "Détruire la Coquille",
+              "title": "Détruire la coquille",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8190,7 +8052,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "la-faux-de-la-mort",
-              "title": "La Faux de la Mort",
+              "title": "La faux de la Mort",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8206,7 +8068,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "secretions-corporelles",
-              "title": "Sécrétions corporelles",
+              "title": "Sécrétions Corporelles",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8214,7 +8076,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "mort-parfaite",
-              "title": "Mort parfaite",
+              "title": "Mort Parfaite",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8404,7 +8266,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "eclairs",
-              "title": "Eclairs",
+              "title": "Éclairs",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8528,8 +8390,8 @@
             },
             {
               "collectionKey": "pouvoirs",
-              "slug": "puit-de-gravite",
-              "title": "Puit de gravité",
+              "slug": "puits-de-gravite",
+              "title": "Puits de Gravité",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8537,7 +8399,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "perturbation-circadienne",
-              "title": "Perturbation circadienne",
+              "title": "Perturbation Circadienne",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8553,7 +8415,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "echos-d-anthelios",
-              "title": "Echos d’Anthelios",
+              "title": "Échos d’Anthelios",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8689,7 +8551,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "nier-l-imminence-de-la-mort",
-              "title": "Nier l'Imminence de la Mort",
+              "title": "Nier l'imminence de la mort",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8697,7 +8559,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "reaction-violente",
-              "title": "Réaction Violente",
+              "title": "Réaction violente",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -8966,6 +8828,144 @@
       ]
     },
     {
+      "id": "38188b48-e48e-8065-a908-f248d46e24f1",
+      "notionUrl": "https://app.notion.com/p/Voie-du-Mouvement-de-l-Esprit-38188b48e48e8065a908f248d46e24f1",
+      "lastEditedTime": "2026-10-29T08:50:00.000Z",
+      "properties": {
+        "Spécialité 2": {
+          "type": "select",
+          "value": "Astuce"
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Jet de défense": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Volonté"
+          ]
+        },
+        "Pouvoirs": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "poussee-de-force",
+              "title": "Poussée de Force",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "manipuler",
+              "title": "Manipuler",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "vol",
+              "title": "Vol",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "repulsion",
+              "title": "Répulsion",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "pouvoirs",
+              "slug": "controle",
+              "title": "Contrôle",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Jet d'attaque": {
+          "type": "multi_select",
+          "value": [
+            "Mental",
+            "Occultisme"
+          ]
+        },
+        "Spécialité 1": {
+          "type": "select",
+          "value": "Perception"
+        },
+        "Techniques": {
+          "type": "relation",
+          "value": []
+        },
+        "Clans": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "tremere",
+              "title": "Tremere",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Pouvoirs d’Anciens": {
+          "type": "relation",
+          "value": []
+        },
+        "Type": {
+          "type": "select",
+          "value": "Thaumaturgie"
+        },
+        "Lignées": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "lignees",
+              "slug": "sorcier",
+              "title": "Sorcier",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voie du Mouvement de l'Esprit"
+        }
+      },
+      "title": "Voie du Mouvement de l'Esprit",
+      "slug": "voie-du-mouvement-de-l-esprit",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Les pratiquants de la Voie du Mouvement de l'Esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la Voie du Mouvement de l'Esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
+          "spans": [
+            {
+              "text": "Les pratiquants de la Voie du Mouvement de l'Esprit se sont entraîné mystiquement a la télékinésie pour déplacer, pousser ou attraper des objets ou des personnes. Si vous voyez une cible, vous pouvez la soulever ou la manipuler comme si vous le faisiez physiquement. Un contrôle télékinétique d'un objet par la Voie du Mouvement de l'Esprit ne vous donne pas de sensation tactile et donc, vous ne pouvez savoir si un objet est chaud, rugueux ou glissant à distance.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "38188b48-e48e-80fc-b1f9-dcc48a2b3ec4",
       "notionUrl": "https://app.notion.com/p/Voie-du-Sang-38188b48e48e80fcb1f9dcc48a2b3ec4",
       "lastEditedTime": "2026-07-22T15:14:00.000Z",
@@ -8999,7 +8999,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "rage-de-sang",
-              "title": "Rage de Sang",
+              "title": "Rage de sang",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9015,7 +9015,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "vol-de-sang",
-              "title": "Vol de Sang",
+              "title": "Vol de sang",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9023,7 +9023,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "chaudron-de-sang",
-              "title": "Chaudron de Sang",
+              "title": "Chaudron de sang",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9113,8 +9113,8 @@
     },
     {
       "id": "38188b48-e48e-80db-9f82-cc7350ecdb53",
-      "notionUrl": "https://app.notion.com/p/Voie-du-Sepulcre-38188b48e48e80db9f82cc7350ecdb53",
-      "lastEditedTime": "2026-09-02T08:29:00.000Z",
+      "notionUrl": "https://app.notion.com/p/Voie-du-S-pulcre-38188b48e48e80db9f82cc7350ecdb53",
+      "lastEditedTime": "2026-10-29T08:50:00.000Z",
       "properties": {
         "Spécialité 2": {
           "type": "select",
@@ -9153,7 +9153,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "invocation-d-ame",
-              "title": "Invocation d’Âme",
+              "title": "Invocation d'âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9161,7 +9161,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "lier-une-ame",
-              "title": "Lier une Âme",
+              "title": "Lier une âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9169,7 +9169,7 @@
             {
               "collectionKey": "pouvoirs",
               "slug": "vol-d-ame",
-              "title": "Vol d’Âme",
+              "title": "Vol d'âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -9231,28 +9231,28 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Voie du Sepulcre"
+          "value": "Voie du Sépulcre"
         }
       },
-      "title": "Voie du Sepulcre",
+      "title": "Voie du Sépulcre",
       "slug": "voie-du-sepulcre",
       "content": [
         {
           "type": "paragraph",
-          "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les spectres, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes, les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
+          "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les fantômes, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes et les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
           "spans": [
             {
-              "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les spectres, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes, les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
+              "text": "La Voie du Sépulcre inclue l'étude des esprits, des fantômes et des entités intangibles. A travers la pratique de cette Voie, un vampire peut invoquer et contrôler les fantômes, les obligeant à obéir à la volonté du Nécromancien. Sauf exception indiquée, les pouvoirs qui affectent les fantômes et les spectres ne peuvent être utilisés que sur les esprits des morts. Ces pouvoirs ne peuvent pas être utilisés sur des projections psychiques, Umbrales ou d'autres entités intangibles.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_3",
-          "text": "Spectres",
+          "text": "Fantômes",
           "spans": [
             {
-              "text": "Spectres",
+              "text": "Fantômes",
               "bold": false
             }
           ]
@@ -9287,10 +9287,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Tous les mortels ne deviennent pas des spectres après leur mort, mais ceux qui persistent sont profondément ancrés dans le monde. Ils demeurent en raison de leurs Passions, des émotions qui continuent de les animer au-delà de la mort et de leurs Entraves, des personnes, des lieux ou des objets qui revêtaient une importance capitale de leur vivant.",
+          "text": "Tous les mortels ne deviennent pas des fantômes après leur mort, mais ceux qui persistent sont profondément ancrés dans le monde. Ils demeurent en raison de leurs Passions, des émotions qui continuent de les animer au-delà de la mort et de leurs Entraves, des personnes, des lieux ou des objets qui revêtaient une importance capitale de leur vivant.",
           "spans": [
             {
-              "text": "Tous les mortels ne deviennent pas des spectres après leur mort, mais ceux qui persistent sont profondément ",
+              "text": "Tous les mortels ne deviennent pas des fantômes après leur mort, mais ceux qui persistent sont profondément ",
               "bold": false
             },
             {
@@ -9321,10 +9321,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La plupart du temps, les spectres sont confinés dans une sombre et décadente réflexion du monde des vivants connue sous le nom de Terres d'Ombre.",
+          "text": "La plupart du temps, les fantômes sont confinés dans une sombre et décadente réflexion du monde des vivants connue sous le nom de Terres d'Ombre.",
           "spans": [
             {
-              "text": "La plupart du temps, les spectres sont confinés dans une sombre et décadente réflexion du monde des vivants connue sous le nom de ",
+              "text": "La plupart du temps, les fantômes sont confinés dans une sombre et décadente réflexion du monde des vivants connue sous le nom de ",
               "bold": false
             },
             {
@@ -9367,10 +9367,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Dans ce paysage tumultueux, les spectres luttent pour se souvenir de leur raison d'être et tenter de l'accomplir, espérant toujours trouver la paix et transcender la mort vers l'inconnu.",
+          "text": "Dans ce paysage tumultueux, les fantômes luttent pour se souvenir de leur raison d'être et tenter de l'accomplir, espérant toujours trouver la paix et transcender la mort vers l'inconnu.",
           "spans": [
             {
-              "text": "Dans ce paysage tumultueux, les spectres luttent pour se souvenir de leur raison d'être et tenter de l'accomplir, espérant toujours trouver la paix et transcender la mort vers l'inconnu.",
+              "text": "Dans ce paysage tumultueux, les fantômes luttent pour se souvenir de leur raison d'être et tenter de l'accomplir, espérant toujours trouver la paix et transcender la mort vers l'inconnu.",
               "bold": false
             }
           ]
@@ -9403,20 +9403,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Les spectres sont des êtres intangibles de nature spirituelle, mais avec suffisamment d'efforts, ils peuvent se manifester dans le monde physique.",
+          "text": "Les fantômes sont des êtres intangibles de nature spirituelle, mais avec suffisamment d'efforts, ils peuvent se manifester dans le monde physique.",
           "spans": [
             {
-              "text": "Les spectres sont des êtres intangibles de nature spirituelle, mais avec suffisamment d'efforts, ils peuvent se manifester dans le monde physique.",
+              "text": "Les fantômes sont des êtres intangibles de nature spirituelle, mais avec suffisamment d'efforts, ils peuvent se manifester dans le monde physique.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Chaque spectre est également affligé d'un noyau obscur, une Ombre tapie en lui, semblable à la Bête d'un vampire. Lorsque cette Ombre prend le contrôle, le spectre devient impuissant, contraint de subir les terribles passions qui animent son esprit intérieur.",
+          "text": "Chaque fantôme est également affligé d'un noyau obscur, une Ombre tapie en lui, semblable à la Bête d'un vampire. Lorsque cette Ombre prend le contrôle, le fantôme devient impuissant, contraint de subir les terribles passions qui animent son esprit intérieur.",
           "spans": [
             {
-              "text": "Chaque spectre est également affligé d'un noyau obscur, une ",
+              "text": "Chaque fantôme est également affligé d'un noyau obscur, une ",
               "bold": false
             },
             {
@@ -9424,7 +9424,7 @@
               "bold": true
             },
             {
-              "text": " tapie en lui, semblable à la Bête d'un vampire. Lorsque cette Ombre prend le contrôle, le spectre devient impuissant, contraint de subir les terribles passions qui animent son esprit intérieur.",
+              "text": " tapie en lui, semblable à la Bête d'un vampire. Lorsque cette Ombre prend le contrôle, le fantôme devient impuissant, contraint de subir les terribles passions qui animent son esprit intérieur.",
               "bold": false
             }
           ]
@@ -9449,7 +9449,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Le clan Giovanni et les autres nécromanciens entretiennent de nombreux rapports avec les spectres et sont connus pour les asservir et les torturer. Cela pousse la plupart des spectres à détester, voire à haïr, les vampires dans leur ensemble, tout en craignant leur pouvoir et en le défiant.",
+          "text": "Le clan Giovanni et les autres nécromanciens entretiennent de nombreux rapports avec les fantômes et sont connus pour les asservir et les torturer. Cela pousse la plupart des fantômes à détester, voire à haïr, les vampires dans leur ensemble, tout en craignant leur pouvoir et en le défiant.",
           "spans": [
             {
               "text": "Le clan ",
@@ -9460,41 +9460,41 @@
               "bold": true
             },
             {
-              "text": " et les autres nécromanciens entretiennent de nombreux rapports avec les spectres et sont connus pour les asservir et les torturer. Cela pousse la plupart des spectres à détester, voire à haïr, les vampires dans leur ensemble, tout en craignant leur pouvoir et en le défiant.",
+              "text": " et les autres nécromanciens entretiennent de nombreux rapports avec les fantômes et sont connus pour les asservir et les torturer. Cela pousse la plupart des fantômes à détester, voire à haïr, les vampires dans leur ensemble, tout en craignant leur pouvoir et en le défiant.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Les lieux hantés sont rarement accueillants pour les vampires, et les spectres disposent d'une puissance spirituelle terrifiante pour faire respecter leurs volontés.",
+          "text": "Les lieux hantés sont rarement accueillants pour les vampires, et les fantômes disposent d'une puissance spirituelle terrifiante pour faire respecter leurs volontés.",
           "spans": [
             {
-              "text": "Les lieux hantés sont rarement accueillants pour les vampires, et les spectres disposent d'une puissance spirituelle terrifiante pour faire respecter leurs volontés.",
+              "text": "Les lieux hantés sont rarement accueillants pour les vampires, et les fantômes disposent d'une puissance spirituelle terrifiante pour faire respecter leurs volontés.",
               "bold": false
             }
           ]
         },
         {
           "type": "heading_3",
-          "text": "Règles spéciales : Spectres",
+          "text": "Règles spéciales : Fantômes",
           "spans": [
             {
-              "text": "Règles spéciales : Spectres",
+              "text": "Règles spéciales : Fantômes",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Le Conteur peut utiliser les règles suivantes pour représenter approximativement les pouvoirs des PNJ Spectres.",
+          "text": "Le Conteur peut utiliser les règles suivantes pour représenter approximativement les pouvoirs des PNJ Fantômes.",
           "spans": [
             {
               "text": "Le Conteur peut utiliser les règles suivantes pour représenter approximativement les pouvoirs des ",
               "bold": false
             },
             {
-              "text": "PNJ Spectres",
+              "text": "PNJ Fantômes",
               "bold": true
             },
             {
@@ -9505,10 +9505,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Les spectres sont considérés comme des créatures surnaturelles, et non comme des mortels. Les pouvoirs bénéficiant d'un effet accru contre les mortels ne bénéficient donc pas de cet effet contre un spectre.",
+          "text": "Les fantômes sont considérés comme des créatures surnaturelles, et non comme des mortels. Les pouvoirs bénéficiant d'un effet accru contre les mortels ne bénéficient donc pas de cet effet contre un fantôme.",
           "spans": [
             {
-              "text": "Les spectres sont considérés comme des ",
+              "text": "Les fantômes sont considérés comme des ",
               "bold": false
             },
             {
@@ -9516,17 +9516,17 @@
               "bold": true
             },
             {
-              "text": ", et non comme des mortels. Les pouvoirs bénéficiant d'un effet accru contre les mortels ne bénéficient donc pas de cet effet contre un spectre.",
+              "text": ", et non comme des mortels. Les pouvoirs bénéficiant d'un effet accru contre les mortels ne bénéficient donc pas de cet effet contre un fantôme.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Les PNJ Spectres utilisent une ressource appelée Pathos. Le Pathos permet d'alimenter leurs Disciplines et de se soigner, de la même manière que les vampires utilisent leur Sang pour ces effets. Tous les spectres possèdent une Réserve de Pathos de 10. Ils peuvent dépenser jusqu'à 3 Pathos par tour et récupèrent automatiquement 1 Pathos toutes les 10 minutes.",
+          "text": "Les PNJ Fantômes utilisent une ressource appelée Pathos. Le Pathos permet d'alimenter leurs Disciplines et de se soigner, de la même manière que les vampires utilisent leur Sang pour ces effets. Tous les fantômes possèdent une Réserve de Pathos de 10. Ils peuvent dépenser jusqu'à 3 Pathos par tour et récupèrent automatiquement 1 Pathos toutes les 10 minutes.",
           "spans": [
             {
-              "text": "Les PNJ Spectres utilisent une ressource appelée ",
+              "text": "Les PNJ Fantômes utilisent une ressource appelée ",
               "bold": false
             },
             {
@@ -9534,7 +9534,7 @@
               "bold": true
             },
             {
-              "text": ". Le Pathos permet d'alimenter leurs Disciplines et de se soigner, de la même manière que les vampires utilisent leur Sang pour ces effets. Tous les spectres possèdent une ",
+              "text": ". Le Pathos permet d'alimenter leurs Disciplines et de se soigner, de la même manière que les vampires utilisent leur Sang pour ces effets. Tous les fantômes possèdent une ",
               "bold": false
             },
             {
@@ -9565,10 +9565,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Tous les spectres disposent automatiquement des 2 premiers niveaux de Démence. Un spectre qui acquiert également la spécialisation Démence peut accéder aux pouvoirs de Démence au-delà de ces deux premiers niveaux.",
+          "text": "Tous les fantômes disposent automatiquement des 2 premiers niveaux de Démence. Un fantôme qui acquiert également la spécialisation Démence peut accéder aux pouvoirs de Démence au-delà de ces deux premiers niveaux.",
           "spans": [
             {
-              "text": "Tous les spectres disposent automatiquement des ",
+              "text": "Tous les fantômes disposent automatiquement des ",
               "bold": false
             },
             {
@@ -9576,7 +9576,7 @@
               "bold": true
             },
             {
-              "text": ". Un spectre qui acquiert également la spécialisation ",
+              "text": ". Un fantôme qui acquiert également la spécialisation ",
               "bold": false
             },
             {
@@ -9591,10 +9591,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Les spectres résident généralement dans les Terres d'Ombre, depuis lesquelles ils peuvent observer le monde réel sans pouvoir interagir avec lui. À l'exception des 2 premiers niveaux de Démence, qui peuvent cibler et affecter des individus « à travers le Voile », un spectre ne peut attaquer ou utiliser de pouvoirs sur une personne présente dans le monde réel tant qu'il ne s'est pas manifesté.",
+          "text": "Les fantômes résident généralement dans les Terres d'Ombre, depuis lesquelles ils peuvent observer le monde réel sans pouvoir interagir avec lui. À l'exception des 2 premiers niveaux de Démence, qui peuvent cibler et affecter des individus « à travers le Voile », un fantôme ne peut attaquer ou utiliser de pouvoirs sur une personne présente dans le monde réel tant qu'il ne s'est pas manifesté.",
           "spans": [
             {
-              "text": "Les spectres résident généralement dans les ",
+              "text": "Les fantômes résident généralement dans les ",
               "bold": false
             },
             {
@@ -9610,17 +9610,17 @@
               "bold": true
             },
             {
-              "text": ", qui peuvent cibler et affecter des individus « à travers le Voile », un spectre ne peut attaquer ou utiliser de pouvoirs sur une personne présente dans le monde réel tant qu'il ne s'est pas manifesté.",
+              "text": ", qui peuvent cibler et affecter des individus « à travers le Voile », un fantôme ne peut attaquer ou utiliser de pouvoirs sur une personne présente dans le monde réel tant qu'il ne s'est pas manifesté.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Un spectre peut dépenser du Pathos pour se manifester dans le monde physique pendant 1 heure. Une fois manifesté, il peut attaquer ou utiliser ses pouvoirs sur les individus du monde physique comme n'importe quelle autre créature présente sur ce plan.",
+          "text": "Un fantôme peut dépenser du Pathos pour se manifester dans le monde physique pendant 1 heure. Une fois manifesté, il peut attaquer ou utiliser ses pouvoirs sur les individus du monde physique comme n'importe quelle autre créature présente sur ce plan.",
           "spans": [
             {
-              "text": "Un spectre peut dépenser du ",
+              "text": "Un fantôme peut dépenser du ",
               "bold": false
             },
             {
@@ -9635,10 +9635,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Tant qu'un spectre ne s'est pas manifesté, il ne peut interagir d'aucune manière avec le monde physique. Il peut donc avoir de grandes difficultés à se déplacer, puisqu'il ne peut pas utiliser les véhicules physiques.",
+          "text": "Tant qu'un fantôme ne s'est pas manifesté, il ne peut interagir d'aucune manière avec le monde physique. Il peut donc avoir de grandes difficultés à se déplacer, puisqu'il ne peut pas utiliser les véhicules physiques.",
           "spans": [
             {
-              "text": "Tant qu'un spectre ne s'est pas manifesté, il ",
+              "text": "Tant qu'un fantôme ne s'est pas manifesté, il ",
               "bold": false
             },
             {
@@ -9653,10 +9653,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Les spectres peuvent acheter des spécialisations dans les pouvoirs suivants :",
+          "text": "Les fantômes peuvent acheter des spécialisations dans les pouvoirs suivants :",
           "spans": [
             {
-              "text": "Les spectres peuvent acheter des ",
+              "text": "Les fantômes peuvent acheter des ",
               "bold": false
             },
             {
