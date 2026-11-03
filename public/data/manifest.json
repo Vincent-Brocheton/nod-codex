@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T13:31:37.106Z",
+  "generatedAt": "2026-11-03T13:34:40.112Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "Format des AIPs",
+      "slug": "format-des-aips",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-11-03T13:34:00.000Z"
+    },
     {
       "title": "Sentir le Vivant (Obéah)",
       "slug": "sentir-le-vivant-obeah",
@@ -276,15 +285,6 @@
     {
       "title": "Artisan Viscéral",
       "slug": "artisan-visceral",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-11-03T09:15:00.000Z"
-    },
-    {
-      "title": "Athénée de la Ruche",
-      "slug": "athenee-de-la-ruche",
       "collectionKey": "atouts",
       "collectionLabel": "Atouts",
       "path": "/atouts",
