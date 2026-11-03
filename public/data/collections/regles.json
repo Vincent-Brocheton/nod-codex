@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-10-29T08:53:56.786Z",
+  "generatedAt": "2026-11-03T13:31:37.086Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -1220,7 +1220,7 @@
     {
       "id": "39c88b48-e48e-80f2-89d6-c57b05661ebf",
       "notionUrl": "https://app.notion.com/p/AIPs-39c88b48e48e80f289d6c57b05661ebf",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-10-30T22:58:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1318,10 +1318,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Se nourrir :",
+          "text": "Nourriture :",
           "spans": [
             {
-              "text": "Se nourrir :",
+              "text": "Nourriture :",
               "bold": true
             }
           ]
@@ -1368,10 +1368,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Investigation :",
+          "text": "Enquête :",
           "spans": [
             {
-              "text": "Investigation :",
+              "text": "Enquête :",
               "bold": true
             }
           ]
@@ -1382,6 +1382,46 @@
           "spans": [
             {
               "text": "Les intrigues s’étendent souvent sur plusieurs sessions. Un joueur peut utiliser une action pour enquêter sur des pistes, des ennemis ou des phénomènes étranges, ou pour effectuer des recherches. Cela nécessite l’utilisation d’aptitudes ou d’Historiques appropriés. Un défi statique ou opposé peut être requis.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Science :",
+          "spans": [
+            {
+              "text": "Science :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous décidez d’utiliser vos compétences pour étudier quelque chose (un livre, un examen, etc.) via vos domaines de connaissance scientifiques ou d’érudition. Cette action doit obligatoirement être liée à un domaine que vous possédez, et n’est pas forcément liée à une éventuelle AIP offerte par la compétence Science.",
+          "spans": [
+            {
+              "text": "Vous décidez d’utiliser vos compétences pour étudier quelque chose (un livre, un examen, etc.) via vos domaines de connaissance scientifiques ou d’érudition. Cette action doit obligatoirement être liée à un domaine que vous possédez, et n’est pas forcément liée à une éventuelle AIP offerte par la compétence Science.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Représentation :",
+          "spans": [
+            {
+              "text": "Représentation :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous dépensez une action pour effectuer un acte lié à votre compétence Représentation. Un défi statique peut être requis, à la discrétion du Conteur.",
+          "spans": [
+            {
+              "text": "Vous dépensez une action pour effectuer un acte lié à votre compétence Représentation. Un défi statique peut être requis, à la discrétion du Conteur.",
               "bold": false
             }
           ]
@@ -1428,10 +1468,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Au-delà de ses moyens :",
+          "text": "Au-delà de vos moyens :",
           "spans": [
             {
-              "text": "Au-delà de ses moyens :",
+              "text": "Au-delà de vos moyens :",
               "bold": true
             }
           ]
@@ -1442,6 +1482,26 @@
           "spans": [
             {
               "text": "Si votre personnage ne possède aucun point en Ressources mais souhaite acquérir un objet coûteux (par exemple un fusil de précision), le Conteur peut exiger des actions d’intervalle pour l’obtenir. Le personnage devra payer en avance, par des services ou en gagnant de l’argent.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Emplacement type :",
+          "spans": [
+            {
+              "text": "Emplacement type :",
+              "bold": true
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À venir.",
+          "spans": [
+            {
+              "text": "À venir.",
               "bold": false
             }
           ]
@@ -1471,7 +1531,7 @@
     {
       "id": "3a688b48-e48e-8041-b24c-eb8e068dc28c",
       "notionUrl": "https://app.notion.com/p/AIPs-suppl-mentaires-3a688b48e48e8041b24ceb8e068dc28c",
-      "lastEditedTime": "2026-07-28T14:11:00.000Z",
+      "lastEditedTime": "2026-10-30T22:58:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1593,10 +1653,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Espionnage numérique",
+          "text": "Espionnage",
           "spans": [
             {
-              "text": "Espionnage numérique",
+              "text": "Espionnage",
               "bold": false
             }
           ]
@@ -1649,10 +1709,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Sabotage numérique",
+          "text": "Entrave",
           "spans": [
             {
-              "text": "Sabotage numérique",
+              "text": "Entrave",
               "bold": false
             }
           ]
@@ -1699,6 +1759,26 @@
           "spans": [
             {
               "text": "La réussite dépend des capacités respectives des protagonistes et de l'arbitrage des Conteurs.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "heading_3",
+          "text": "Recherche",
+          "spans": [
+            {
+              "text": "Recherche",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous utilisez l’outil informatique pour mener des recherches en ligne. Il peut s’agir d’une enquête en ligne, de recherches sur le passé de quelqu’un, ou encore des fluctuations du marché du Bitcoin : vous savez comment chercher et quels sites consulter.",
+          "spans": [
+            {
+              "text": "Vous utilisez l’outil informatique pour mener des recherches en ligne. Il peut s’agir d’une enquête en ligne, de recherches sur le passé de quelqu’un, ou encore des fluctuations du marché du Bitcoin : vous savez comment chercher et quels sites consulter.",
               "bold": false
             }
           ]
@@ -19491,7 +19571,7 @@
     {
       "id": "3c988b48-e48e-8098-84a7-df0c39cdbfdb",
       "notionUrl": "https://app.notion.com/p/Liste-des-Voie-de-l-Illumination-3c988b48e48e809884a7df0c39cdbfdb",
-      "lastEditedTime": "2026-08-27T18:20:00.000Z",
+      "lastEditedTime": "2026-10-29T18:47:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -20823,10 +20903,10 @@
           "children": [
             {
               "type": "paragraph",
-              "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haquim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haquim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haquim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haquim.",
+              "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haqim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haqim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haqim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haqim.",
               "spans": [
                 {
-                  "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haquim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haquim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haquim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haquim.",
+                  "text": "La Voie du Sang est pratiquée presque exclusivement par les Assamites, en particulier ceux qui résident dans la montagne d'Alamut. Le principe fondateur de cette Voie stipule que les enfants de l'Antédiluvien Assamite, Haqim, doivent rendre un jugement de Sang à l'encontre de tous les autres vampires. Les adeptes de la Voie du sang tentent de convertir les autres à leur code, croyant que les vampires peuvent seulement se racheter dans la sagesse d'Haqim. Cette Voie reste rare, même parmi les Assamites ; Car on peut suivre les croyances d'Haqim et se racheter sans vraiment adopter la Voie. Les disciples de la Voie du Sang sont dangereux, souvent accrocs à la diablerie, prêts à tuer des vampires et à juger durement les mortels à la moindre provocation, tant que cela profite aux Enfants d'Haqim.",
                   "bold": false
                 }
               ]
@@ -20843,10 +20923,10 @@
             },
             {
               "type": "paragraph",
-              "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haquim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+              "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haqim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
               "spans": [
                 {
-                  "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haquim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
+                  "text": "Vous n'obtenez pas de traits de la Bête en commettant un péché, tant que vous le commettez en vous efforçant de suivre les enseignements d'Haqim, l'Antédiluvien Assamite, ou lors d'une tentative directe de convertir autrui à la Voie du Sang. Si vous ignorez volontairement une opportunité d'améliorer votre génération, vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 1. Si vous agissez volontairement contre un autre Assamite - ou si vous permettez à un autre Assamite qu'on lui nuise, d'être blessé ou vaincu- vous gagnez des traits de la Bête comme si vous commettiez un péché de niveau 4.",
                   "bold": false
                 }
               ]

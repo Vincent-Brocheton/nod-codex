@@ -4,7 +4,7 @@
   "group": "Attributs et Compétences",
   "description": "Consultez les compétences de votre personnage et découvrez les domaines dans lesquels il excelle ou doit progresser.",
   "notionDatabaseId": "39088b48-e48e-80dd-a3f6-cf2409675a06",
-  "generatedAt": "2026-10-29T08:53:56.785Z",
+  "generatedAt": "2026-11-03T13:31:37.085Z",
   "propertyOptions": {},
   "items": [
     {
@@ -120,7 +120,7 @@
     {
       "id": "38288b48-e48e-806a-b639-e5d746157dbc",
       "notionUrl": "https://app.notion.com/p/Artisanat-38288b48e48e806ab639e5d746157dbc",
-      "lastEditedTime": "2026-08-27T09:39:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -142,10 +142,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous êtes doué pour la création artistique ou la fabrication d’objets. Vous pouvez produire des œuvres belles et parfois précieuses. Lors de l’acquisition de cette compétence, vous devez choisir un domaine spécifique (horlogerie, forge, calligraphie, poésie, etc.). Certaines disciplines artistiques relèvent davantage de la compétence Représentation. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente.",
+          "text": "Vous êtes doué pour la création artistique ou la fabrication d’objets. Vous pouvez produire des œuvres belles et parfois précieuses. Lors de l’acquisition de cette compétence, vous devez choisir un domaine spécifique (horlogerie, forge, calligraphie, poésie, etc.). Certains domaines artistiques relèvent davantage de la compétence Représentation. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente.",
           "spans": [
             {
-              "text": "Vous êtes doué pour la création artistique ou la fabrication d’objets. Vous pouvez produire des œuvres belles et parfois précieuses. Lors de l’acquisition de cette compétence, vous devez choisir un domaine spécifique (horlogerie, forge, calligraphie, poésie, etc.). Certaines disciplines artistiques relèvent davantage de la compétence Représentation. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente.",
+              "text": "Vous êtes doué pour la création artistique ou la fabrication d’objets. Vous pouvez produire des œuvres belles et parfois précieuses. Lors de l’acquisition de cette compétence, vous devez choisir un domaine spécifique (horlogerie, forge, calligraphie, poésie, etc.). Certains domaines artistiques relèvent davantage de la compétence Représentation. Cette compétence peut être achetée plusieurs fois, chaque fois avec une spécialisation différente.",
               "bold": false
             }
           ]
@@ -176,24 +176,24 @@
           "children": [
             {
               "type": "paragraph",
-              "text": "Réponse: Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+              "text": "Réponse: Elle permet de créer des objets et de leur attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
               "spans": [
                 {
                   "text": "Réponse:",
                   "bold": true
                 },
                 {
-                  "text": " Elle permet de créer des objets et de leurs attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
+                  "text": " Elle permet de créer des objets et de leur attribuer certains traits, chaque objet pouvant en avoir jusqu'à deux et certaines compétences permettant d'y ajouter d'autres traits.",
                   "bold": false
                 }
               ]
             },
             {
               "type": "paragraph",
-              "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+              "text": "L'effet exact de la compétence artisanat dépend du nombre de points que vous avez investi :",
               "spans": [
                 {
-                  "text": "L'effet exact de la compétence artisanat dépends du nombre de point que vous avez investi :",
+                  "text": "L'effet exact de la compétence artisanat dépend du nombre de points que vous avez investi :",
                   "bold": false
                 }
               ]
@@ -210,30 +210,30 @@
             },
             {
               "type": "bulleted_list_item",
-              "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+              "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un défi avec perte des égalités.",
               "spans": [
                 {
-                  "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec perte des égalités.",
+                  "text": "Artisanat (spécialité) 3 à 4 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un défi avec perte des égalités.",
                   "bold": false
                 }
               ]
             },
             {
               "type": "bulleted_list_item",
-              "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+              "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un défi avec gain des égalités ou 'chef-d'œuvre' sur un défi avec perte des égalités.",
               "spans": [
                 {
-                  "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un challenge avec gain des égalités ou 'chef d'œuvre' sur un challenge avec perte des égalités.",
+                  "text": "Artisanat (spécialité) 5 à 6 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' sur un défi avec gain des égalités ou 'chef-d'œuvre' sur un défi avec perte des égalités.",
                   "bold": false
                 }
               ]
             },
             {
               "type": "bulleted_list_item",
-              "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
+              "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef-d'œuvre' sur un défi avec gain des égalités.",
               "spans": [
                 {
-                  "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef d'œuvre' sur un challenge avec gain des égalités.",
+                  "text": "Artisanat (spécialité) 7 : Vous pouvez créer des objets dépendant de votre artisanat pour 1 AIP, leur attribuant les deux traits de votre choix hors traits spécifiques (antique, œuvre d'art, etc.) et essayer d'y ajouter le trait 'œuvre d'art' ou 'chef-d'œuvre' sur un défi avec gain des égalités.",
                   "bold": false
                 }
               ]
@@ -254,14 +254,14 @@
             },
             {
               "type": "paragraph",
-              "text": "Réponse: Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de la bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
+              "text": "Réponse: Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de Bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
               "spans": [
                 {
                   "text": "Réponse:",
                   "bold": true
                 },
                 {
-                  "text": " Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de la bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
+                  "text": " Il suffit, pour pouvoir approcher la forge, de ne pas avoir obtenu de traits de Bête avant par ses actions (physique, ou autre) afin de ne pas risquer de frénésie de peur.",
                   "bold": false
                 }
               ]
@@ -338,7 +338,7 @@
     {
       "id": "38288b48-e48e-80d4-8477-de1827d947b0",
       "notionUrl": "https://app.notion.com/p/Bagarre-38288b48e48e80d48477de1827d947b0",
-      "lastEditedTime": "2026-07-06T11:09:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -380,10 +380,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les personnages possédant Bagarre peuvent utiliser des manœuvres de combat appropriées en combat à mains nues",
+          "text": "Les personnages possédant Bagarre peuvent utiliser des manœuvres de combat appropriées en combat à mains nues.",
           "spans": [
             {
-              "text": "Les personnages possédant Bagarre peuvent utiliser des manœuvres de combat appropriées en combat à mains nues",
+              "text": "Les personnages possédant Bagarre peuvent utiliser des manœuvres de combat appropriées en combat à mains nues.",
               "bold": false
             }
           ]
@@ -393,7 +393,7 @@
     {
       "id": "38288b48-e48e-8052-a367-edff40b22126",
       "notionUrl": "https://app.notion.com/p/Commandement-38288b48e48e8052a367edff40b22126",
-      "lastEditedTime": "2026-07-06T11:09:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -435,10 +435,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les PNJ standards suivant vos ordres bénéficient d’un bonus de +2 à toute action qu’ils sont capables d’accomplir.\nDe plus, pour chaque point de Commandement, vous pouvez apprendre une information spécifique sur le statut d’un autre vampire, une fois par nuit.",
+          "text": "Les PNJ génériques suivant vos ordres bénéficient d’un bonus de +2 à toute action qu’ils sont capables d’accomplir.\nDe plus, pour chaque point de Commandement, vous pouvez connaître le détail d’un trait de statut précis d’un autre vampire, une fois par nuit.",
           "spans": [
             {
-              "text": "Les PNJ standards suivant vos ordres bénéficient d’un bonus de +2 à toute action qu’ils sont capables d’accomplir.\nDe plus, pour chaque point de Commandement, vous pouvez apprendre une information spécifique sur le statut d’un autre vampire, une fois par nuit.",
+              "text": "Les PNJ génériques suivant vos ordres bénéficient d’un bonus de +2 à toute action qu’ils sont capables d’accomplir.\nDe plus, pour chaque point de Commandement, vous pouvez connaître le détail d’un trait de statut précis d’un autre vampire, une fois par nuit.",
               "bold": false
             }
           ]
@@ -448,7 +448,7 @@
     {
       "id": "38288b48-e48e-804f-b160-d205110dd76c",
       "notionUrl": "https://app.notion.com/p/Conduite-38288b48e48e804fb160d205110dd76c",
-      "lastEditedTime": "2026-07-06T11:09:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -470,10 +470,10 @@
         },
         {
           "type": "paragraph",
-          "text": "La plupart des gens savent conduire, mais vous possédez les connaissances et l’entraînement nécessaires pour réaliser des manœuvres complexes et dangereuses au volant. Le premier point en Conduite vous rend compétent pour conduire des voitures. Chaque point supplémentaire vous rend compétent dans une autre catégorie de véhicules : calèches, chars, motos, voiliers, bateaux à moteur, navires, avions, avions de ligne ou hélicoptères. D’autres catégories peuvent être choisies avec l’accord du Conteur.\nSans la compétence Conduite, un personnage ne peut utiliser qu’un véhicule automatique de manière basique. Il ne peut pas gérer un embrayage ni rouler en toute sécurité à grande vitesse. Il est également incapable d’utiliser d’autres types de véhicules. Pour un esprit ancien, ces machines restent dangereuses et déroutantes.",
+          "text": "La plupart des gens savent conduire, mais vous possédez les connaissances et l’entraînement nécessaires pour réaliser des manœuvres complexes et dangereuses au volant. Le premier point en Conduite vous rend compétent pour conduire des voitures. Chaque point supplémentaire vous rend compétent dans une autre catégorie de véhicules : calèches, chars, motos, voiliers, bateaux à moteur, grands navires, avions à voilure fixe, avions de ligne ou hélicoptères. D’autres catégories peuvent être choisies avec l’accord du Conteur.\nSans la compétence Conduite, un personnage ne peut utiliser qu’un véhicule automatique de manière basique. Il ne peut pas gérer un embrayage ni rouler en toute sécurité à plus de 105 km/h (65 mph). Il est également incapable d’utiliser d’autres types de véhicules (y compris les motos et les engins de chantier). Pour un esprit ancien, ces machines restent dangereuses et déroutantes.",
           "spans": [
             {
-              "text": "La plupart des gens savent conduire, mais vous possédez les connaissances et l’entraînement nécessaires pour réaliser des manœuvres complexes et dangereuses au volant. Le premier point en Conduite vous rend compétent pour conduire des voitures. Chaque point supplémentaire vous rend compétent dans une autre catégorie de véhicules : calèches, chars, motos, voiliers, bateaux à moteur, navires, avions, avions de ligne ou hélicoptères. D’autres catégories peuvent être choisies avec l’accord du Conteur.\nSans la compétence Conduite, un personnage ne peut utiliser qu’un véhicule automatique de manière basique. Il ne peut pas gérer un embrayage ni rouler en toute sécurité à grande vitesse. Il est également incapable d’utiliser d’autres types de véhicules. Pour un esprit ancien, ces machines restent dangereuses et déroutantes.",
+              "text": "La plupart des gens savent conduire, mais vous possédez les connaissances et l’entraînement nécessaires pour réaliser des manœuvres complexes et dangereuses au volant. Le premier point en Conduite vous rend compétent pour conduire des voitures. Chaque point supplémentaire vous rend compétent dans une autre catégorie de véhicules : calèches, chars, motos, voiliers, bateaux à moteur, grands navires, avions à voilure fixe, avions de ligne ou hélicoptères. D’autres catégories peuvent être choisies avec l’accord du Conteur.\nSans la compétence Conduite, un personnage ne peut utiliser qu’un véhicule automatique de manière basique. Il ne peut pas gérer un embrayage ni rouler en toute sécurité à plus de 105 km/h (65 mph). Il est également incapable d’utiliser d’autres types de véhicules (y compris les motos et les engins de chantier). Pour un esprit ancien, ces machines restent dangereuses et déroutantes.",
               "bold": false
             }
           ]
@@ -558,7 +558,7 @@
     {
       "id": "38288b48-e48e-80fc-9394-caf6cbb1b285",
       "notionUrl": "https://app.notion.com/p/rudition-38288b48e48e80fc9394caf6cbb1b285",
-      "lastEditedTime": "2026-07-06T11:10:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -580,10 +580,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous possédez un niveau d’instruction et de culture générale supérieur à celui de l’enseignement primaire. Cette compétence reflète une éducation approfondie. Grâce à Erudition, vous pouvez formuler des critiques artistiques, commenter les classiques, débattre de philosophie et participer à des discussions culturelles.\nUn joueur peut préciser le domaine d’expertise de son personnage en choisissant une spécialité pour chaque point investi, comme les mathématiques, la littérature, l’histoire, le journalisme, la théologie ou tout autre champ relevant d’une formation académique classique.",
+          "text": "Vous possédez un niveau d’instruction et de culture générale supérieur à celui de l’enseignement primaire. Cette compétence reflète une éducation approfondie. Grâce à Érudition, vous pouvez formuler des critiques artistiques, commenter les classiques, débattre de philosophie et participer à des discussions culturelles.\nUn joueur peut préciser le domaine d’expertise de son personnage en choisissant une spécialité pour chaque point investi, comme les mathématiques, la littérature, l’histoire, le journalisme, la théologie ou tout autre champ relevant d’une formation académique classique.",
           "spans": [
             {
-              "text": "Vous possédez un niveau d’instruction et de culture générale supérieur à celui de l’enseignement primaire. Cette compétence reflète une éducation approfondie. Grâce à Erudition, vous pouvez formuler des critiques artistiques, commenter les classiques, débattre de philosophie et participer à des discussions culturelles.\nUn joueur peut préciser le domaine d’expertise de son personnage en choisissant une spécialité pour chaque point investi, comme les mathématiques, la littérature, l’histoire, le journalisme, la théologie ou tout autre champ relevant d’une formation académique classique.",
+              "text": "Vous possédez un niveau d’instruction et de culture générale supérieur à celui de l’enseignement primaire. Cette compétence reflète une éducation approfondie. Grâce à Érudition, vous pouvez formuler des critiques artistiques, commenter les classiques, débattre de philosophie et participer à des discussions culturelles.\nUn joueur peut préciser le domaine d’expertise de son personnage en choisissant une spécialité pour chaque point investi, comme les mathématiques, la littérature, l’histoire, le journalisme, la théologie ou tout autre champ relevant d’une formation académique classique.",
               "bold": false
             }
           ]
@@ -600,10 +600,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Une fois par nuit, un personnage doté d'Erudition peut consacrer 10 minutes à l’étude. Par la suite, elle peut relancer un défi statique (hors combat) sans dépenser de Volonté. Cette relance doit être liée à l’un des domaines d'Erudition du personnage.",
+          "text": "Une fois par nuit, un personnage doté d’Érudition peut consacrer 10 minutes à l’étude. Par la suite, il peut relancer un défi statique (hors combat) sans dépenser de Volonté. Cette relance doit être liée à l’un des domaines d’Érudition du personnage.",
           "spans": [
             {
-              "text": "Une fois par nuit, un personnage doté d'Erudition peut consacrer 10 minutes à l’étude. Par la suite, elle peut relancer un défi statique (hors combat) sans dépenser de Volonté. Cette relance doit être liée à l’un des domaines d'Erudition du personnage.",
+              "text": "Une fois par nuit, un personnage doté d’Érudition peut consacrer 10 minutes à l’étude. Par la suite, il peut relancer un défi statique (hors combat) sans dépenser de Volonté. Cette relance doit être liée à l’un des domaines d’Érudition du personnage.",
               "bold": false
             }
           ]
@@ -723,7 +723,7 @@
     {
       "id": "38288b48-e48e-804d-abd9-d1ea87f17ee4",
       "notionUrl": "https://app.notion.com/p/Furtivit-38288b48e48e804dabd9d1ea87f17ee4",
-      "lastEditedTime": "2026-07-12T12:06:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -765,10 +765,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Un personnage doté de Discrétion peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble.",
+          "text": "Un personnage doté de Furtivité peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble.",
           "spans": [
             {
-              "text": "Un personnage doté de Discrétion peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble.",
+              "text": "Un personnage doté de Furtivité peut se fondre automatiquement dans un groupe s’il dispose d’éléments appropriés (vêtements, accessoires, contexte). Il peut ainsi se faire passer pour un type de personne précis (policier, client d’un club, etc.). Cela ne le rend pas méconnaissable et ne trompe pas ceux qui savent déjà à quoi il ressemble.",
               "bold": false
             }
           ]
@@ -778,7 +778,7 @@
     {
       "id": "38288b48-e48e-80a5-8ff3-fb3c5d0430e5",
       "notionUrl": "https://app.notion.com/p/Informatique-38288b48e48e80a58ff3fb3c5d0430e5",
-      "lastEditedTime": "2026-08-27T09:39:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -820,40 +820,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour annuler ou observer une action d’intervalle d’un autre personnage. Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions.",
+          "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour observer (Espionnage) ou annuler (Entrave) une action d’intervalle d’un autre personnage, ou pour mener des recherches en ligne (Recherche). Voir « AIPs supplémentaires ». Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions.",
           "spans": [
             {
-              "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour annuler ou observer une action d’intervalle d’un autre personnage. Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "callout",
-          "text": "Question: Est-ce que je peux utiliser mon AIP informatique pour espionner un personnage d'une autre cité ou lui retirer une AIP ?",
-          "children": [
-            {
-              "type": "paragraph",
-              "text": "Réponse: Oui, mais avec une condition : Votre PJ devra obligatoirement être présent sur la même cité que sa cible pour la durée de cette AIP. Cette condition a été fixée par le Cercle des Conteurs afin d'harmoniser l'usage inter-cité de cette AIP.",
-              "spans": [
-                {
-                  "text": "Réponse:",
-                  "bold": true
-                },
-                {
-                  "text": " Oui, mais avec une condition : Votre PJ devra obligatoirement être présent sur la même cité que sa cible pour la durée de cette AIP. Cette condition a été fixée par le Cercle des Conteurs afin d'harmoniser l'usage inter-cité de cette AIP.",
-                  "bold": false
-                }
-              ]
-            }
-          ],
-          "spans": [
-            {
-              "text": "Question:",
-              "bold": true
-            },
-            {
-              "text": " Est-ce que je peux utiliser mon AIP informatique pour espionner un personnage d'une autre cité ou lui retirer une AIP ?",
+              "text": "Un personnage possédant Informatique bénéficie d’une action d’intervalle supplémentaire entre chaque session. Cette action peut être utilisée normalement ou pour observer (Espionnage) ou annuler (Entrave) une action d’intervalle d’un autre personnage, ou pour mener des recherches en ligne (Recherche). Voir « AIPs supplémentaires ». Cela reflète la capacité du personnage à exploiter les réseaux d’information, manipuler les systèmes informatiques et perturber les infrastructures numériques.\nAucun personnage ne peut être réduit à moins d’une action d’intervalle entre deux sessions.",
               "bold": false
             }
           ]
@@ -863,7 +833,7 @@
     {
       "id": "39588b48-e48e-8026-8152-dcc1f918a4e3",
       "notionUrl": "https://app.notion.com/p/Intimidation-39588b48e48e80268152dcc1f918a4e3",
-      "lastEditedTime": "2026-07-06T11:15:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -905,10 +875,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Un personnage doté d’Intimidation est particulièrement effrayant. Les PNJ standards (y compris les Serviteurs) avec un score de 1 ou 2 n’attaqueront pas un tel personnage. S’il adopte une attitude agressive, ces PNJ fuient. Cela ne s’applique pas aux entités dénuées d’esprit, comme certains êtres animés par la magie ou les morts-vivants sans conscience.",
+          "text": "Un personnage doté d’Intimidation est particulièrement effrayant. Les PNJ génériques (y compris les Serviteurs) avec un score de 1 ou 2 n’attaqueront pas un tel personnage. S’il adopte une attitude agressive, ces PNJ fuient. Cela ne s’applique pas aux entités dénuées d’esprit, comme certains êtres animés par la magie ou les morts-vivants sans conscience.",
           "spans": [
             {
-              "text": "Un personnage doté d’Intimidation est particulièrement effrayant. Les PNJ standards (y compris les Serviteurs) avec un score de 1 ou 2 n’attaqueront pas un tel personnage. S’il adopte une attitude agressive, ces PNJ fuient. Cela ne s’applique pas aux entités dénuées d’esprit, comme certains êtres animés par la magie ou les morts-vivants sans conscience.",
+              "text": "Un personnage doté d’Intimidation est particulièrement effrayant. Les PNJ génériques (y compris les Serviteurs) avec un score de 1 ou 2 n’attaqueront pas un tel personnage. S’il adopte une attitude agressive, ces PNJ fuient. Cela ne s’applique pas aux entités dénuées d’esprit, comme certains êtres animés par la magie ou les morts-vivants sans conscience.",
               "bold": false
             }
           ]
@@ -918,7 +888,7 @@
     {
       "id": "39588b48-e48e-80d0-887a-f4dd1b7720c3",
       "notionUrl": "https://app.notion.com/p/Investigation-39588b48e48e80d0887af4dd1b7720c3",
-      "lastEditedTime": "2026-07-06T11:14:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -960,10 +930,10 @@
         },
         {
           "type": "paragraph",
-          "text": "En utilisant une action standard, vous pouvez examiner visuellement un individu à courte distance. En dépensant trois actions standards, vous pouvez fouiller une pièce ou une petite zone.\nVous détectez automatiquement les armes dissimulées (même sous les vêtements), les explosifs et les objets cachés. Les objets dotés de la propriété Dissimulable ne sont détectés automatiquement qu’en cas de fouille physique.",
+          "text": "En utilisant une action standard, vous pouvez examiner visuellement un individu à moins de trois pas. En dépensant trois actions standards, vous pouvez fouiller une pièce ou une petite zone.\nVous détectez automatiquement les armes dissimulées (même sous les vêtements), les explosifs et les objets cachés. Les objets dotés de la qualité Dissimulable ne sont détectés automatiquement qu’en cas de fouille physique.",
           "spans": [
             {
-              "text": "En utilisant une action standard, vous pouvez examiner visuellement un individu à courte distance. En dépensant trois actions standards, vous pouvez fouiller une pièce ou une petite zone.\nVous détectez automatiquement les armes dissimulées (même sous les vêtements), les explosifs et les objets cachés. Les objets dotés de la propriété Dissimulable ne sont détectés automatiquement qu’en cas de fouille physique.",
+              "text": "En utilisant une action standard, vous pouvez examiner visuellement un individu à moins de trois pas. En dépensant trois actions standards, vous pouvez fouiller une pièce ou une petite zone.\nVous détectez automatiquement les armes dissimulées (même sous les vêtements), les explosifs et les objets cachés. Les objets dotés de la qualité Dissimulable ne sont détectés automatiquement qu’en cas de fouille physique.",
               "bold": false
             }
           ]
@@ -973,7 +943,7 @@
     {
       "id": "38288b48-e48e-80d8-8a29-ed936b85e70f",
       "notionUrl": "https://app.notion.com/p/Linguistique-38288b48e48e80d88a29ed936b85e70f",
-      "lastEditedTime": "2026-08-07T13:09:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1015,20 +985,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Grâce au don \"Don pour les langues\" il parle alors 2 langues supplémentaire par point de Linguistique en plus de sa langue maternelle.",
+          "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Avec l’atout « Don pour les langues », il parle 2 langues supplémentaires par point de Linguistique, en plus de sa langue maternelle.",
           "spans": [
             {
-              "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Grâce au don \"Don pour les langues\" il parle alors 2 langues supplémentaire par point de Linguistique en plus de sa langue maternelle.",
+              "text": "Pour chaque point de Linguistique (y compris le premier), votre personnage parle couramment une langue supplémentaire en plus de sa langue maternelle. Avec l’atout « Don pour les langues », il parle 2 langues supplémentaires par point de Linguistique, en plus de sa langue maternelle.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèse de cette manière \"Langue Natale (Français)”",
+          "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèses, de cette manière \"Langue Natale (Français)”",
           "spans": [
             {
-              "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèse de cette manière \"Langue Natale (Français)”",
+              "text": "Attention : La première langue connue est forcément votre langue natale, pour cela sur la fiche à côté de \"Langue Natale\" saisissez la langue en question entre parenthèses, de cette manière \"Langue Natale (Français)”",
               "bold": true
             }
           ]
@@ -1038,7 +1008,7 @@
     {
       "id": "38288b48-e48e-80c5-9b45-e5e3ea0c7ecc",
       "notionUrl": "https://app.notion.com/p/M-decine-38288b48e48e80c59b45e5e3ea0c7ecc",
-      "lastEditedTime": "2026-07-06T11:16:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1060,10 +1030,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous possédez des connaissances en anatomie humaine, ainsi qu’en diagnostic et traitement des blessures et maladies.",
+          "text": "Vous possédez des connaissances en anatomie humaine et en médicaments, ainsi qu’en diagnostic et traitement des blessures et maladies.",
           "spans": [
             {
-              "text": "Vous possédez des connaissances en anatomie humaine, ainsi qu’en diagnostic et traitement des blessures et maladies.",
+              "text": "Vous possédez des connaissances en anatomie humaine et en médicaments, ainsi qu’en diagnostic et traitement des blessures et maladies.",
               "bold": false
             }
           ]
@@ -1093,7 +1063,7 @@
     {
       "id": "38288b48-e48e-8015-8344-db584fe23a49",
       "notionUrl": "https://app.notion.com/p/M-l-e-38288b48e48e80158344db584fe23a49",
-      "lastEditedTime": "2026-07-12T12:02:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1135,10 +1105,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les personnages posséda Mêlée peuvent utiliser des manœuvres de combat appropriées lors des affrontements au corps à corps.",
+          "text": "Les personnages possédant Mêlée peuvent utiliser des manœuvres de combat appropriées lors des affrontements au corps à corps.",
           "spans": [
             {
-              "text": "Les personnages posséda Mêlée peuvent utiliser des manœuvres de combat appropriées lors des affrontements au corps à corps.",
+              "text": "Les personnages possédant Mêlée peuvent utiliser des manœuvres de combat appropriées lors des affrontements au corps à corps.",
               "bold": false
             }
           ]
@@ -1148,7 +1118,7 @@
     {
       "id": "38288b48-e48e-8095-a1fc-e6f54f4f1b7c",
       "notionUrl": "https://app.notion.com/p/Myst-re-38288b48e48e8095a1fce6f54f4f1b7c",
-      "lastEditedTime": "2026-07-26T13:38:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1682,10 +1652,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ce niveau correspond aux connaissances d'un infant récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
+          "text": "Ce niveau correspond aux connaissances d'un rejeton récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
           "spans": [
             {
-              "text": "Ce niveau correspond aux connaissances d'un infant récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
+              "text": "Ce niveau correspond aux connaissances d'un rejeton récemment libéré ou d'un individu n'ayant reçu qu'un enseignement très limité.",
               "bold": false
             }
           ]
@@ -1933,7 +1903,7 @@
     {
       "id": "38288b48-e48e-8076-8716-c892c55e1679",
       "notionUrl": "https://app.notion.com/p/Occultisme-38288b48e48e80768716c892c55e1679",
-      "lastEditedTime": "2026-08-03T18:37:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -1975,10 +1945,10 @@
         },
         {
           "type": "paragraph",
-          "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir Historique Havre ). Cet avantage ne peut s’appliquer qu’à son propre havre.",
+          "text": "En utilisant une action standard pour observer un individu à moins de trois pas, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie ou si les rituels ont été lancés par quelqu’un d’autre.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir l’Historique Havre). Cet avantage ne peut s’appliquer qu’à son propre havre.",
           "spans": [
             {
-              "text": "En utilisant une action standard pour observer un individu à courte distance, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir Historique Havre ). Cet avantage ne peut s’appliquer qu’à son propre havre.",
+              "text": "En utilisant une action standard pour observer un individu à moins de trois pas, vous détectez automatiquement les signes révélateurs de rituels actifs ou d’objets magiques qu’il porte.\nCela ne permet pas d’identifier les effets précis, ni de détecter des pouvoirs non actifs, ni de savoir si l’individu pratique la Thaumaturgie ou si les rituels ont été lancés par quelqu’un d’autre.\nDe plus, un personnage possédant Occultisme peut acquérir l’avantage Occulte pour son Havre (voir l’Historique Havre). Cet avantage ne peut s’appliquer qu’à son propre havre.",
               "bold": false
             }
           ]
@@ -1988,7 +1958,7 @@
     {
       "id": "38288b48-e48e-8027-a003-d0833c92301e",
       "notionUrl": "https://app.notion.com/p/Repr-sentation-38288b48e48e8027a003d0833c92301e",
-      "lastEditedTime": "2026-08-27T09:40:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2030,28 +2000,28 @@
         },
         {
           "type": "paragraph",
-          "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5",
+          "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5.",
           "spans": [
             {
-              "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5",
+              "text": "Un personnage possédant Représentation peut augmenter temporairement sa Renommée en dépensant 2 actions d’intervalle (une pour promouvoir la performance, une pour l’exécuter).\nCela augmente son Historique Renommée de 1 pendant un mois, même s’il ne possède aucun point dans cet Historique, jusqu’à un maximum de 5.",
               "bold": false
             }
           ]
         },
         {
           "type": "callout",
-          "text": "Question: Comment marche exactement la compétence  représentation ?",
+          "text": "Question: Comment fonctionne exactement la compétence Représentation ?",
           "children": [
             {
               "type": "paragraph",
-              "text": "Réponse: Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+              "text": "Réponse: Elle permet de créer, dans les mêmes conditions de défi que l'Artisanat, des œuvres d'art ou des chefs-d'œuvre temporaires (une seule utilisation) lors d'une représentation, au même coût (1 AIP).",
               "spans": [
                 {
                   "text": "Réponse:",
                   "bold": true
                 },
                 {
-                  "text": " Cela permet de créer sous les mêmes conditions de challenge que l'artisanat des œuvres d'arts ou des chefs d'œuvres temporaires (une seule utilisation) , lors d'une représentation et au même coût (1 AIP).",
+                  "text": " Elle permet de créer, dans les mêmes conditions de défi que l'Artisanat, des œuvres d'art ou des chefs-d'œuvre temporaires (une seule utilisation) lors d'une représentation, au même coût (1 AIP).",
                   "bold": false
                 }
               ]
@@ -2063,7 +2033,7 @@
               "bold": true
             },
             {
-              "text": " Comment marche exactement la compétence  représentation ?",
+              "text": " Comment fonctionne exactement la compétence Représentation ?",
               "bold": false
             }
           ]
@@ -2073,7 +2043,7 @@
     {
       "id": "38288b48-e48e-80af-bc5e-dec6f5d16dc0",
       "notionUrl": "https://app.notion.com/p/Sciences-38288b48e48e80afbc5edec6f5d16dc0",
-      "lastEditedTime": "2026-08-03T21:08:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2125,7 +2095,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, un personnage possédant Science : Mathématiques peut dépenser cette  Action Inter Partie supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une  Action Inter Partie supplémentaire pour enquêter sur une maison sinistre.",
+          "text": "Par exemple, un personnage possédant Science : Mathématiques peut dépenser cette AIP supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une AIP supplémentaire pour enquêter sur une maison sinistre.",
           "spans": [
             {
               "text": "Par exemple, un personnage possédant ",
@@ -2136,17 +2106,17 @@
               "bold": true
             },
             {
-              "text": " peut dépenser cette  Action Inter Partie supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une  Action Inter Partie supplémentaire pour enquêter sur une maison sinistre.",
+              "text": " peut dépenser cette AIP supplémentaire pour résoudre une équation, ou un personnage avec Science : Botanique pourrait être capable d'assembler génétiquement deux plantes. Cependant, aucune de ces deux compétences n'entraînerait une AIP supplémentaire pour enquêter sur une maison sinistre.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensé que pour une tâche en rapport avec l'un de ses domaines d'étude.",
+          "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensée que pour une tâche en rapport avec l'un de ses domaines d'étude.",
           "spans": [
             {
-              "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensé que pour une tâche en rapport avec l'un de ses domaines d'étude.",
+              "text": "Pour chaque domaine d'étude supplémentaire que le personnage possède avec une valeur de 3 points ou plus, il gagne une autre AIP bonus, qui ne peut être dépensée que pour une tâche en rapport avec l'un de ses domaines d'étude.",
               "bold": false
             }
           ]
@@ -2156,7 +2126,7 @@
     {
       "id": "38288b48-e48e-80b4-91c8-f4e3f5041a20",
       "notionUrl": "https://app.notion.com/p/S-curit-38288b48e48e80b491c8f4e3f5041a20",
-      "lastEditedTime": "2026-08-03T18:37:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2198,10 +2168,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
+          "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Havre d’un autre personnage pendant un an.",
           "spans": [
             {
-              "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Refuge d’un autre personnage pendant un an.",
+              "text": "Vous pouvez crocheter une serrure ou dissimuler un petit objet en action simple plutôt qu’en action standard.\nLes personnages possédant Sécurité bénéficient gratuitement de l’avantage Sécurité pour leur Historique Havre. Ils peuvent également dépenser une AIP pour appliquer cet avantage au Havre d’un autre personnage pendant un an.",
               "bold": false
             }
           ]
@@ -2211,7 +2181,7 @@
     {
       "id": "38288b48-e48e-8028-ae16-d9f8e3641512",
       "notionUrl": "https://app.notion.com/p/Subterfuge-38288b48e48e8028ae16d9f8e3641512",
-      "lastEditedTime": "2026-07-06T11:18:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2253,10 +2223,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Une fois par partie, si votre personnage est surpris en train d’utiliser un pouvoir surnaturel, il semble à la place qu’un autre personnage de votre choix situé à proximité en soit l’auteur.\nCela ne fonctionne pas pour les pouvoirs ayant une source évidente, comme certains effets visuellement manifestes.",
+          "text": "Une fois par partie, si votre personnage est surpris en train d’utiliser un pouvoir surnaturel, il semble à la place qu’un autre personnage de votre choix situé à moins de trois pas en soit l’auteur.\nCela ne fonctionne pas pour les pouvoirs ayant une source évidente, comme certains effets visuellement manifestes.",
           "spans": [
             {
-              "text": "Une fois par partie, si votre personnage est surpris en train d’utiliser un pouvoir surnaturel, il semble à la place qu’un autre personnage de votre choix situé à proximité en soit l’auteur.\nCela ne fonctionne pas pour les pouvoirs ayant une source évidente, comme certains effets visuellement manifestes.",
+              "text": "Une fois par partie, si votre personnage est surpris en train d’utiliser un pouvoir surnaturel, il semble à la place qu’un autre personnage de votre choix situé à moins de trois pas en soit l’auteur.\nCela ne fonctionne pas pour les pouvoirs ayant une source évidente, comme certains effets visuellement manifestes.",
               "bold": false
             }
           ]
@@ -2266,7 +2236,7 @@
     {
       "id": "38288b48-e48e-804f-8696-f858a277484f",
       "notionUrl": "https://app.notion.com/p/Survie-38288b48e48e804f8696f858a277484f",
-      "lastEditedTime": "2026-07-06T11:18:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2288,10 +2258,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous connaissez les lois de la nature et vous vous sentez à l’aise dans les environnements sauvages. Vous savez vous orienter sur divers types de terrains, trouver un abri et subsister dans des conditions hostiles. Habitué aux épreuves, vous êtes capable de maîtriser vos réactions et de faire preuve de sang-froid et de retenue, même face à l’adversité. Vos instincts de survie prennent rarement le dessus de manière incontrôlée, même dans les situations les plus critiques.",
+          "text": "Vous connaissez les secrets de la vie sauvage et vous vous sentez à l’aise dans les environnements sauvages. Vous savez vous orienter sur divers types de terrains, trouver un abri et subsister dans des conditions hostiles. Habitué aux épreuves, vous êtes capable de maîtriser vos réactions et de faire preuve de sang-froid et de retenue, même face à l’adversité. Vos instincts de survie sont rarement ignorés, même face à la pire provocation.",
           "spans": [
             {
-              "text": "Vous connaissez les lois de la nature et vous vous sentez à l’aise dans les environnements sauvages. Vous savez vous orienter sur divers types de terrains, trouver un abri et subsister dans des conditions hostiles. Habitué aux épreuves, vous êtes capable de maîtriser vos réactions et de faire preuve de sang-froid et de retenue, même face à l’adversité. Vos instincts de survie prennent rarement le dessus de manière incontrôlée, même dans les situations les plus critiques.",
+              "text": "Vous connaissez les secrets de la vie sauvage et vous vous sentez à l’aise dans les environnements sauvages. Vous savez vous orienter sur divers types de terrains, trouver un abri et subsister dans des conditions hostiles. Habitué aux épreuves, vous êtes capable de maîtriser vos réactions et de faire preuve de sang-froid et de retenue, même face à l’adversité. Vos instincts de survie sont rarement ignorés, même face à la pire provocation.",
               "bold": false
             }
           ]
@@ -2321,7 +2291,7 @@
     {
       "id": "38288b48-e48e-807a-aa5d-d9b861343244",
       "notionUrl": "https://app.notion.com/p/Vigilance-38288b48e48e807aaa5dd9b861343244",
-      "lastEditedTime": "2026-08-27T09:40:00.000Z",
+      "lastEditedTime": "2026-10-30T23:04:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2373,18 +2343,18 @@
         },
         {
           "type": "callout",
-          "text": "Question: Est ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède vigilance?",
+          "text": "Question: Est-ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède Vigilance ?",
           "children": [
             {
               "type": "paragraph",
-              "text": "Réponse : Oui, les techniques sont ici considéré dans 'les pouvoirs'. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
+              "text": "Réponse : Oui, les techniques sont ici considérées comme des pouvoirs. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
               "spans": [
                 {
                   "text": "Réponse : ",
                   "bold": true
                 },
                 {
-                  "text": "Oui, les techniques sont ici considéré dans 'les pouvoirs'. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
+                  "text": "Oui, les techniques sont ici considérées comme des pouvoirs. Vous pouvez donc utiliser les techniques qui n'affectent que vous même.",
                   "bold": false
                 }
               ]
@@ -2396,7 +2366,7 @@
               "bold": true
             },
             {
-              "text": " Est ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède vigilance?",
+              "text": " Est-ce qu'il est possible d'utiliser des Techniques en étant en torpeur si l'on possède Vigilance ?",
               "bold": false
             }
           ]

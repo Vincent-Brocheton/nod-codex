@@ -1,81 +1,115 @@
-// L'API Notion tolère mal un trop grand nombre de requêtes simultanées.
-// Ce limiteur borne le nombre d'appels HTTP réellement en vol à tout
-// instant, quel que soit le niveau de parallélisme exprimé par le code
-// appelant (bases et fiches traitées avec Promise.all).
-function createLimiter(concurrency) {
-  let active = 0;
-  const queue = [];
-
-  function runNext() {
-    if (active >= concurrency || queue.length === 0) return;
-
-    active++;
-    const { fn, resolve, reject } = queue.shift();
-
-    fn()
-      .then(resolve, reject)
-      .finally(() => {
-        active--;
-        runNext();
-      });
-  }
-
-  return function limit(fn) {
-    return new Promise((resolve, reject) => {
-      queue.push({ fn, resolve, reject });
-      runNext();
-    });
-  };
-}
-
-const limitNotionRequest = createLimiter(6);
 
 function sleep(ms) {
   return new Promise((resolve) => setTimeout(resolve, ms));
 }
 
-// Erreurs ponctuelles côté Notion/Cloudflare (surcharge, redémarrage...),
-// sans rapport avec la requête elle-même : on les retente après un délai
-// croissant plutôt que de faire échouer toute la synchro pour un aléa réseau.
-const RETRYABLE_STATUSES = new Set([502, 503, 504]);
+// Limiteur global : une seule requête à la fois,
+// avec un intervalle minimum de 400 ms entre les appels.
+function createRateLimiter(minIntervalMs) {
+  let queue = Promise.resolve();
+  let lastRequestAt = 0;
 
-/**
- * Appelle l'API Notion avec limitation de concurrence et relance
- * automatique (avec délai) sur une réponse 429 (trop de requêtes) ou une
- * erreur serveur ponctuelle (502/503/504).
- */
-export async function notionRequest(endpoint, options = {}) {
-  for (let attempt = 0; attempt < 5; attempt++) {
-    const response = await limitNotionRequest(() =>
-      fetch(`https://api.notion.com/v1${endpoint}`, {
-        ...options,
-        headers: {
-          Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
-          "Notion-Version": process.env.NOTION_VERSION || "2022-06-28",
-          "Content-Type": "application/json",
-          ...(options.headers || {})
-        }
-      })
-    );
+  return function limit(fn) {
+    const request = queue.then(async () => {
+      const elapsed = Date.now() - lastRequestAt;
+      const wait = Math.max(0, minIntervalMs - elapsed);
 
-    if (response.status === 429) {
-      const retryAfter = Number(response.headers.get("retry-after")) || 1;
-      await sleep(retryAfter * 1000);
-      continue;
+      if (wait > 0) {
+        await sleep(wait);
+      }
+
+      lastRequestAt = Date.now();
+      return fn();
+    });
+
+    // Une erreur ne doit pas bloquer les requêtes suivantes.
+    queue = request.catch(() => {});
+
+    return request;
+  };
+}
+
+const limitNotionRequest = createRateLimiter(400);
+
+const RETRYABLE_STATUSES = new Set([429, 502, 503, 504]);
+
+const MAX_ATTEMPTS = 5;
+
+function getRetryDelay(response, attempt) {
+  if (response.status === 429) {
+    const retryAfter = response.headers.get("retry-after");
+
+    if (retryAfter) {
+      const seconds = Number(retryAfter);
+
+      if (Number.isFinite(seconds) && seconds >= 0) {
+        return seconds * 1000;
+      }
+
+      const date = Date.parse(retryAfter);
+
+      if (Number.isFinite(date)) {
+        return Math.max(0, date - Date.now());
+      }
     }
-
-    if (RETRYABLE_STATUSES.has(response.status)) {
-      await sleep(2 ** attempt * 1000);
-      continue;
-    }
-
-    if (!response.ok) {
-      const body = await response.text();
-      throw new Error(`Erreur Notion ${response.status} sur ${endpoint}: ${body}`);
-    }
-
-    return response.json();
   }
 
-  throw new Error(`Erreur Notion: trop de tentatives après des réponses répétées sur ${endpoint}`);
+  // Backoff exponentiel avec jitter.
+  const baseDelay = 1000 * (2 ** attempt);
+  return baseDelay + Math.random() * 500;
+}
+
+export async function notionRequest(endpoint, options = {}) {
+  let lastError = null;
+
+  for (let attempt = 0; attempt < MAX_ATTEMPTS; attempt++) {
+    const response = await limitNotionRequest(() =>
+        fetch(`https://api.notion.com/v1${endpoint}`, {
+          ...options,
+          headers: {
+            Authorization: `Bearer ${process.env.NOTION_TOKEN}`,
+            "Notion-Version":
+                process.env.NOTION_VERSION || "2022-06-28",
+            "Content-Type": "application/json",
+            ...(options.headers || {})
+          }
+        })
+    );
+
+    if (response.ok) {
+      return response.json();
+    }
+
+    const body = await response.text();
+
+    lastError = {
+      status: response.status,
+      body
+    };
+
+    if (!RETRYABLE_STATUSES.has(response.status)) {
+      throw new Error(
+          `Erreur Notion ${response.status} sur ${endpoint}: ${body}`
+      );
+    }
+
+    if (attempt < MAX_ATTEMPTS - 1) {
+      const delay = getRetryDelay(response, attempt);
+
+      console.warn(
+          `[Notion] HTTP ${response.status} sur ${endpoint}. ` +
+          `Tentative ${attempt + 1}/${MAX_ATTEMPTS}. ` +
+          `Nouvel essai dans ${Math.ceil(delay)} ms.`
+      );
+
+      await sleep(delay);
+    }
+  }
+
+  throw new Error(
+      `Erreur Notion après ${MAX_ATTEMPTS} tentatives. ` +
+      `Dernier statut HTTP : ${lastError.status}. ` +
+      `Endpoint : ${endpoint}. ` +
+      `Réponse : ${lastError.body}`
+  );
 }

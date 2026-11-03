@@ -4,13 +4,13 @@
   "group": "Clans et Lignées",
   "description": "",
   "notionDatabaseId": "39088b48-e48e-80f1-8c9f-ca7657722f8f",
-  "generatedAt": "2026-10-29T08:53:56.769Z",
+  "generatedAt": "2026-11-03T13:31:37.070Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39388b48-e48e-80db-87d3-e12b94a90fd6",
       "notionUrl": "https://app.notion.com/p/Ahrimanes-39388b48e48e80db87d3e12b94a90fd6",
-      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -22,7 +22,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "rat-en-cage",
-              "title": "Rat en cage",
+              "title": "Rat en Cage",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -30,7 +30,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "parole-d-espece",
-              "title": "Parole d’espèce",
+              "title": "Parole d’Espèce",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -71,7 +71,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
-              "title": "Voie de la Maîtrise Elémentaire",
+              "title": "Voie de la Maîtrise Élémentaire",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -104,14 +104,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-ahrimanes",
-              "title": "Lignée : Ahrimanes",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-proteique",
               "title": "Sang Protéique",
               "cout": "1",
@@ -121,7 +113,7 @@
             {
               "collectionKey": "atouts",
               "slug": "voyageur-chevronne",
-              "title": "Voyageur chevronné",
+              "title": "Voyageur Chevronné",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -130,7 +122,7 @@
               "collectionKey": "atouts",
               "slug": "indulgence-sanguine",
               "title": "Indulgence Sanguine",
-              "cout": "2",
+              "cout": "3",
               "approbation": false,
               "complet": false
             },
@@ -138,7 +130,7 @@
               "collectionKey": "atouts",
               "slug": "dechirement",
               "title": "Déchirement",
-              "cout": "3",
+              "cout": "2",
               "approbation": false,
               "complet": false
             },
@@ -228,14 +220,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Bien qu'elles soient apparues au sein du Sabbat, leur extrême rareté fait qu'aucune secte ne peut véritablement revendiquer leur allégeance. La plupart choisissent de demeurer Autarkis.",
+          "text": "Bien qu'elles soient apparues au sein du Sabbat, leur extrême rareté fait qu'aucune secte ne peut véritablement revendiquer leur allégeance. La plupart choisissent de demeurer Autarks.",
           "spans": [
             {
               "text": "Bien qu'elles soient apparues au sein du Sabbat, leur extrême rareté fait qu'aucune secte ne peut véritablement revendiquer leur allégeance. La plupart choisissent de demeurer ",
               "bold": false
             },
             {
-              "text": "Autarkis",
+              "text": "Autarks",
               "bold": true
             },
             {
@@ -300,7 +292,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Dissimulation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
           "spans": [
             {
               "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
@@ -315,7 +307,7 @@
               "bold": false
             },
             {
-              "text": "Occultation",
+              "text": "Dissimulation",
               "bold": true
             },
             {
@@ -337,7 +329,7 @@
     {
       "id": "39588b48-e48e-800d-9846-c61bda685c85",
       "notionUrl": "https://app.notion.com/p/Ananke-39588b48e48e800d9846c61bda685c85",
-      "lastEditedTime": "2026-07-07T11:34:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -349,7 +341,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fetiche-alimentaire",
-              "title": "Fétiche alimentaire",
+              "title": "Fétiche Alimentaire",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -357,7 +349,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fan-numero-un",
-              "title": "Fan numéro un",
+              "title": "Fan Numéro Un",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -424,7 +416,7 @@
             {
               "collectionKey": "atouts",
               "slug": "conscience-etendue",
-              "title": "Conscience Etendue",
+              "title": "Conscience Étendue",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -439,16 +431,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-ananke",
-              "title": "Lignée : Ananke",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sophistique",
-              "title": "Sophistiqué",
+              "title": "Sophistique",
               "cout": "4",
               "approbation": false,
               "complet": false
@@ -456,7 +440,7 @@
             {
               "collectionKey": "atouts",
               "slug": "force-de-la-folie",
-              "title": "Force de la folie",
+              "title": "Force de la Folie",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -464,7 +448,7 @@
             {
               "collectionKey": "atouts",
               "slug": "objet-de-pouvoir",
-              "title": "Objet de pouvoir",
+              "title": "Objet de Pouvoir",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -488,15 +472,15 @@
             {
               "collectionKey": "atouts",
               "slug": "methode-de-la-folie",
-              "title": "Méthode de la folie",
+              "title": "Méthode de la Folie",
               "cout": "3",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "death-become-you",
-              "title": "Death become you",
+              "slug": "death-becomes-you",
+              "title": "Death Becomes You",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -653,10 +637,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ceci vient s’ajouter au malus de base du clan Malkavien : ",
+          "text": "Ceci vient s’ajouter à la faiblesse de base du clan Malkavien : ",
           "spans": [
             {
-              "text": "Ceci vient s’ajouter au malus de base du clan Malkavien : ",
+              "text": "Ceci vient s’ajouter à la faiblesse de base du clan Malkavien : ",
               "bold": false
             }
           ]
@@ -701,7 +685,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage.",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
           "spans": [
             {
               "text": "Ce dérangement initial ne rapporte ",
@@ -712,7 +696,7 @@
               "bold": true
             },
             {
-              "text": " lors de la création du personnage.",
+              "text": " lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
               "bold": false
             }
           ]
@@ -748,7 +732,7 @@
     {
       "id": "39588b48-e48e-8089-add2-c082b0f8e0c3",
       "notionUrl": "https://app.notion.com/p/Chevalier-de-la-Lune-39588b48e48e8089add2c082b0f8e0c3",
-      "lastEditedTime": "2026-07-07T11:34:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -760,7 +744,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fetiche-alimentaire",
-              "title": "Fétiche alimentaire",
+              "title": "Fétiche Alimentaire",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -768,7 +752,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fan-numero-un",
-              "title": "Fan numéro un",
+              "title": "Fan Numéro Un",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -805,6 +789,14 @@
               "cout": null,
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "dissimulation",
+              "title": "Dissimulation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -827,7 +819,7 @@
             {
               "collectionKey": "atouts",
               "slug": "conscience-etendue",
-              "title": "Conscience Etendue",
+              "title": "Conscience Étendue",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -842,16 +834,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-chevalier-de-la-lune",
-              "title": "Lignée : Chevalier de la Lune",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sophistique",
-              "title": "Sophistiqué",
+              "title": "Sophistique",
               "cout": "4",
               "approbation": false,
               "complet": false
@@ -859,15 +843,15 @@
             {
               "collectionKey": "atouts",
               "slug": "force-de-la-folie",
-              "title": "Force de la folie",
+              "title": "Force de la Folie",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "quixotic",
-              "title": "Quixotic",
+              "slug": "quichottesque",
+              "title": "Quichottesque",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -882,8 +866,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "vigilence-surnaturel",
-              "title": "Vigilence Surnaturel",
+              "slug": "vigilance-surnaturelle",
+              "title": "Vigilance Surnaturelle",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -891,7 +875,7 @@
             {
               "collectionKey": "atouts",
               "slug": "methode-de-la-folie",
-              "title": "Méthode de la folie",
+              "title": "Méthode de la Folie",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -899,7 +883,7 @@
             {
               "collectionKey": "atouts",
               "slug": "chasseur-de-folie",
-              "title": "Chasseur de folie",
+              "title": "Chasseur de Folie",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -944,14 +928,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Ils représentent plutôt une anomalie extrêmement rare au sein du clan Malkavien : pour une raison inconnue, ces vampires ne développent jamais la discipline de Démence, même lorsque leur sire la maîtrise parfaitement.",
+          "text": "Ils représentent plutôt une anomalie extrêmement rare au sein du clan Malkavien : pour une raison inconnue, ces vampires ne développent jamais la Discipline Aliénation, même lorsque leur sire la maîtrise parfaitement.",
           "spans": [
             {
-              "text": "Ils représentent plutôt une anomalie extrêmement rare au sein du clan Malkavien : pour une raison inconnue, ces vampires ne développent jamais la discipline de ",
+              "text": "Ils représentent plutôt une anomalie extrêmement rare au sein du clan Malkavien : pour une raison inconnue, ces vampires ne développent jamais la Discipline ",
               "bold": false
             },
             {
-              "text": "Démence",
+              "text": "Aliénation",
               "bold": true
             },
             {
@@ -982,14 +966,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Chevaliers de la Lune remplacent la discipline Démence par Domination parmi leurs disciplines de clan.",
+          "text": "Les Chevaliers de la Lune remplacent la Discipline Aliénation par Domination parmi leurs Disciplines de clan.",
           "spans": [
             {
-              "text": "Les Chevaliers de la Lune remplacent la discipline ",
+              "text": "Les Chevaliers de la Lune remplacent la Discipline ",
               "bold": false
             },
             {
-              "text": "Démence",
+              "text": "Aliénation",
               "bold": true
             },
             {
@@ -1001,14 +985,14 @@
               "bold": true
             },
             {
-              "text": " parmi leurs disciplines de clan.",
+              "text": " parmi leurs Disciplines de clan.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Ils restent néanmoins pleinement soumis à la faiblesse des Malkaviens et possèdent toujours un dérangement permanent et incurable, malgré l'absence de la discipline Démence. Aucune faiblesse supplémentaire ne s'ajoute à celle de leur clan d'origine.",
+          "text": "Ils restent néanmoins pleinement soumis à la faiblesse des Malkaviens et possèdent toujours un dérangement permanent et incurable, malgré l'absence de la Discipline Aliénation. Aucune faiblesse supplémentaire ne s'ajoute à celle de leur clan d'origine.",
           "spans": [
             {
               "text": "Ils restent néanmoins pleinement soumis à la ",
@@ -1027,7 +1011,7 @@
               "bold": true
             },
             {
-              "text": ", malgré l'absence de la discipline Démence. Aucune faiblesse supplémentaire ne s'ajoute à celle de leur clan d'origine.",
+              "text": ", malgré l'absence de la Discipline Aliénation. Aucune faiblesse supplémentaire ne s'ajoute à celle de leur clan d'origine.",
               "bold": false
             }
           ]
@@ -1082,7 +1066,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage.",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
           "spans": [
             {
               "text": "Ce dérangement initial ne rapporte ",
@@ -1093,7 +1077,7 @@
               "bold": true
             },
             {
-              "text": " lors de la création du personnage.",
+              "text": " lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
               "bold": false
             }
           ]
@@ -1127,9 +1111,594 @@
       ]
     },
     {
+      "id": "3b288b48-e48e-8039-b769-cda159a60a3d",
+      "notionUrl": "https://app.notion.com/p/Cour-Dor-e-3b288b48e48e8039b769cda159a60a3d",
+      "lastEditedTime": "2026-10-30T22:03:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Élémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "force-d-ame",
+              "title": "Force d'Âme",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l'Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l'Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "adversaire-de-l-infernal",
+              "title": "Adversaire de l'Infernal",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "volonte-de-vaincre",
+              "title": "Volonté de Vaincre",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "elementaire-fortifie",
+              "title": "Élémentaire fortifié",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cour Dorée"
+        }
+      },
+      "title": "Cour Dorée",
+      "slug": "cour-doree",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'Âme, Harmonisation, Voie Élémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'Âme, Harmonisation, Voie Élémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-80a8-a092-d90074c88bb5",
+      "notionUrl": "https://app.notion.com/p/Cour-du-Tonnerre-Infini-3b288b48e48e80a8a092d90074c88bb5",
+      "lastEditedTime": "2026-10-30T22:03:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": false
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Élémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "harmonisation",
+              "title": "Harmonisation",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "presence",
+              "title": "Présence",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l'Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l'Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "diplomate",
+              "title": "Diplomate",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "entoure-d-un-reseau",
+              "title": "Entouré d'un réseau",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "visions-d-anthelios",
+              "title": "Visions d'Anthélios",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cour du Tonnerre Infini"
+        }
+      },
+      "title": "Cour du Tonnerre Infini",
+      "slug": "cour-du-tonnerre-infini",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Élémentaire.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Élémentaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "3b288b48-e48e-8004-87ed-f73917b5c33f",
+      "notionUrl": "https://app.notion.com/p/Cour-Verte-3b288b48e48e800487edf73917b5c33f",
+      "lastEditedTime": "2026-10-30T22:03:00.000Z",
+      "properties": {
+        "Approbation": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Handicaps": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "handicaps",
+              "slug": "double-faiblesse",
+              "title": "Double Faiblesse",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "elementaire-incomplet",
+              "title": "Élémentaire incomplet",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "demon-interieur",
+              "title": "Démon intérieur",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Visible": {
+          "type": "checkbox",
+          "value": true
+        },
+        "Discplines": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "disciplines",
+              "slug": "auspex",
+              "title": "Auspex",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-sepulcre",
+              "title": "Voie du Sépulcre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-la-terre",
+              "title": "Voie de la Terre",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-eau",
+              "title": "Voie de l'Eau",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-du-feu",
+              "title": "Voie du Feu",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
+              "slug": "voie-de-l-air",
+              "title": "Voie de l'Air",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Clan": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "clans",
+              "slug": "kuei-jin",
+              "title": "Kuei-Jin",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Atouts": {
+          "type": "relation",
+          "value": [
+            {
+              "collectionKey": "atouts",
+              "slug": "initie-spirituel",
+              "title": "Initié spirituel",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "voie-necromantique-supplementaire",
+              "title": "Voie nécromantique supplémentaire",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "paix-interieure",
+              "title": "Paix intérieure",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "elementaire-necrotique",
+              "title": "Élémentaire nécrotique",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "par-dela-les-plans",
+              "title": "Par delà les Plans",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "breloques-mortuaires",
+              "title": "Breloques mortuaires",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            }
+          ]
+        },
+        "Name": {
+          "type": "text",
+          "value": "Cour Verte"
+        }
+      },
+      "title": "Cour Verte",
+      "slug": "cour-verte",
+      "content": [
+        {
+          "type": "heading_2",
+          "text": "Présentation",
+          "spans": [
+            {
+              "text": "Présentation",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous venez de la Cour Verte, une cour de marchands aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
+          "spans": [
+            {
+              "text": "Vous venez de la Cour Verte, une cour de marchands aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Élémentaire.",
+          "spans": [
+            {
+              "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Élémentaire.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Vous ne pouvez avoir que 2 Voies de Nécromancie au maximum, une Voie primaire et une Voie secondaire. Il faut obligatoirement un Mentor pour monter la Voie primaire au-delà du niveau 3, et un Mentor pour vous apprendre la Voie secondaire.",
+          "spans": [
+            {
+              "text": "Vous ne pouvez avoir que 2 Voies de Nécromancie au maximum, une Voie primaire et une Voie secondaire. Il faut obligatoirement un Mentor pour monter la Voie primaire au-delà du niveau 3, et un Mentor pour vous apprendre la Voie secondaire.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "39388b48-e48e-802e-a106-fcf9a637c8fc",
       "notionUrl": "https://app.notion.com/p/Coyote-39388b48e48e802ea106fcf9a637c8fc",
-      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1141,7 +1710,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "rat-en-cage",
-              "title": "Rat en cage",
+              "title": "Rat en Cage",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -1149,7 +1718,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "parole-d-espece",
-              "title": "Parole d’espèce",
+              "title": "Parole d’Espèce",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -1223,14 +1792,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-coyote",
-              "title": "Lignée : Coyote",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-proteique",
               "title": "Sang Protéique",
               "cout": "1",
@@ -1240,7 +1801,7 @@
             {
               "collectionKey": "atouts",
               "slug": "voyageur-chevronne",
-              "title": "Voyageur chevronné",
+              "title": "Voyageur Chevronné",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1248,7 +1809,7 @@
             {
               "collectionKey": "atouts",
               "slug": "l-homme-en-noir",
-              "title": "L’homme en noir",
+              "title": "L’homme en Noir",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1257,7 +1818,7 @@
               "collectionKey": "atouts",
               "slug": "indulgence-sanguine",
               "title": "Indulgence Sanguine",
-              "cout": "2",
+              "cout": "3",
               "approbation": false,
               "complet": false
             },
@@ -1273,7 +1834,7 @@
               "collectionKey": "atouts",
               "slug": "dechirement",
               "title": "Déchirement",
-              "cout": "3",
+              "cout": "2",
               "approbation": false,
               "complet": false
             },
@@ -1343,10 +1904,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarkis, les Anarchs et, plus rarement, au sein de la Camarilla.",
+          "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarks, les Anarchs et, plus rarement, au sein de la Camarilla.",
           "spans": [
             {
-              "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarkis, les Anarchs et, plus rarement, au sein de la Camarilla.",
+              "text": "Autrefois presque exclusivement présents au sein du Sabbat, les Coyotes se rencontrent désormais parmi les Autarks, les Anarchs et, plus rarement, au sein de la Camarilla.",
               "bold": false
             }
           ]
@@ -1417,7 +1978,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Dissimulation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
           "spans": [
             {
               "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
@@ -1432,7 +1993,7 @@
               "bold": false
             },
             {
-              "text": "Occultation",
+              "text": "Dissimulation",
               "bold": true
             },
             {
@@ -1454,7 +2015,7 @@
     {
       "id": "39588b48-e48e-80d9-b2da-de128f1618cd",
       "notionUrl": "https://app.notion.com/p/Crois-39588b48e48e80d9b2dade128f1618cd",
-      "lastEditedTime": "2026-07-26T13:40:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -1465,8 +2026,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "non-serviram",
-              "title": "Non-serviram",
+              "slug": "non-serviam",
+              "title": "Non-Serviam",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -1482,7 +2043,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "vieux-jeu",
-              "title": "Vieux jeu",
+              "title": "Vieux Jeu",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1515,7 +2076,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme",
+              "title": "Force d'Âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1548,14 +2109,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-croise",
-              "title": "Lignée : Croisé",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "parangon",
               "title": "Parangon",
               "cout": "3",
@@ -1572,8 +2125,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "le-devoir-des-rois",
-              "title": "Le devoir des rois",
+              "slug": "devoir-des-rois",
+              "title": "Devoir des Rois",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1597,7 +2150,7 @@
             {
               "collectionKey": "atouts",
               "slug": "force-d-honneur",
-              "title": "Force d’honneur",
+              "title": "Force d’Honneur",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -1605,15 +2158,15 @@
             {
               "collectionKey": "atouts",
               "slug": "primaute-du-sang",
-              "title": "Primauté du sang",
+              "title": "Primauté du Sang",
               "cout": "3",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "dur-comme-de-l-acier",
-              "title": "Dur comme de l’acier",
+              "slug": "dur-comme-l-acier",
+              "title": "Dur comme l’Acier",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -1774,14 +2327,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun Point de Sang.",
+          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun point de Sang.",
           "spans": [
             {
               "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ",
               "bold": false
             },
             {
-              "text": "ne procure aucun Point de Sang",
+              "text": "ne procure aucun point de Sang",
               "bold": true
             },
             {
@@ -1828,10 +2381,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une AIP supplémentaire pour commencer la partie avec une réserve de Sang complète.",
+          "text": "Lorsqu'il est contraint de se nourrir en territoire inconnu, un Ventrue doit dépenser une AIP supplémentaire pour commencer la partie avec une réserve de Sang complète.",
           "spans": [
             {
-              "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit ",
+              "text": "Lorsqu'il est contraint de se nourrir en territoire inconnu, un Ventrue doit ",
               "bold": false
             },
             {
@@ -1847,618 +2400,9 @@
       ]
     },
     {
-      "id": "3b288b48-e48e-8039-b769-cda159a60a3d",
-      "notionUrl": "https://app.notion.com/p/De-la-Cour-Dor-e-d-Asie-du-Sud-Est-3b288b48e48e8039b769cda159a60a3d",
-      "lastEditedTime": "2026-08-06T12:22:00.000Z",
-      "properties": {
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Handicaps": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "handicaps",
-              "slug": "double-faiblesse",
-              "title": "Double Faiblesse",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "elementaire-incomplet",
-              "title": "Elémentaire incomplet",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "demon-interieur",
-              "title": "Démon intérieur",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "force-d-ame",
-              "title": "Force d’Âme",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "harmonisation",
-              "title": "Harmonisation",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "kuei-jin",
-              "title": "Kuei-Jin",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-doree-d-asie-du-sud-est",
-              "title": "Lignée : De la Cour Dorée d’Asie du Sud-Est",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "initie-spirituel",
-              "title": "Initié spirituel",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "adversaire-de-l-infernal",
-              "title": "Adversaire de l'Infernal ",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "volonte-de-vaincre",
-              "title": "Volonté de vaincre",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "par-dela-les-plans",
-              "title": "Par delà les Plans",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "elementaire-fortifie",
-              "title": "Elémentaire fortifié",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Name": {
-          "type": "text",
-          "value": "De la Cour Dorée d’Asie du Sud-Est"
-        }
-      },
-      "title": "De la Cour Dorée d’Asie du Sud-Est",
-      "slug": "de-la-cour-doree-d-asie-du-sud-est",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation",
-          "spans": [
-            {
-              "text": "Présentation",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
-          "spans": [
-            {
-              "text": "Vous venez de la Cour Dorée, une cour matriarcale affrontant des infernalistes et à laquelle vous avez appris à résister.\nVos disciplines de clan sont : Force d'âme, Harmonisation, Voie Elémentaire.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3b288b48-e48e-80a8-a092-d90074c88bb5",
-      "notionUrl": "https://app.notion.com/p/De-la-Cour-du-Tonnerre-Infini-d-Inde-3b288b48e48e80a8a092d90074c88bb5",
-      "lastEditedTime": "2026-08-06T12:22:00.000Z",
-      "properties": {
-        "Approbation": {
-          "type": "checkbox",
-          "value": false
-        },
-        "Handicaps": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "handicaps",
-              "slug": "double-faiblesse",
-              "title": "Double Faiblesse",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "elementaire-incomplet",
-              "title": "Elémentaire incomplet",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "demon-interieur",
-              "title": "Démon intérieur",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "harmonisation",
-              "title": "Harmonisation",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "presence",
-              "title": "Présence",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "kuei-jin",
-              "title": "Kuei-Jin",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-du-tonnerre-infini-d-inde",
-              "title": "Lignée : De la Cour du Tonnerre Infini d’Inde",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "initie-spirituel",
-              "title": "Initié spirituel",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "diplomate",
-              "title": "Diplomate",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "paix-interieure",
-              "title": "Paix intérieure",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "entoure-d-un-reseau",
-              "title": "Entouré d'un réseau",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "par-dela-les-plans",
-              "title": "Par delà les Plans",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "visions-d-anthelios",
-              "title": "Visions d'Anthélios",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Name": {
-          "type": "text",
-          "value": "De la Cour du Tonnerre Infini d'Inde"
-        }
-      },
-      "title": "De la Cour du Tonnerre Infini d'Inde",
-      "slug": "de-la-cour-du-tonnerre-infini-d-inde",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation",
-          "spans": [
-            {
-              "text": "Présentation",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
-          "spans": [
-            {
-              "text": "Vous venez de la Cour du Tonnerre Infini, une cour marquée par la diplomatie et le respect des religions.\nVos disciplines de clan sont : Harmonisation, Présence, Voie Elémentaire.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "id": "3b288b48-e48e-8004-87ed-f73917b5c33f",
-      "notionUrl": "https://app.notion.com/p/De-la-Cour-Verte-de-Cor-e-3b288b48e48e800487edf73917b5c33f",
-      "lastEditedTime": "2026-08-11T06:29:00.000Z",
-      "properties": {
-        "Approbation": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Handicaps": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "handicaps",
-              "slug": "double-faiblesse",
-              "title": "Double Faiblesse",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "elementaire-incomplet",
-              "title": "Elémentaire incomplet",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "handicaps",
-              "slug": "demon-interieur",
-              "title": "Démon intérieur",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Visible": {
-          "type": "checkbox",
-          "value": true
-        },
-        "Discplines": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "disciplines",
-              "slug": "auspex",
-              "title": "Auspex",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-sepulcre",
-              "title": "Voie du Sépulcre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-la-terre",
-              "title": "Voie de la Terre",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-du-feu",
-              "title": "Voie du Feu",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
-              "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Clan": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "clans",
-              "slug": "kuei-jin",
-              "title": "Kuei-Jin",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Atouts": {
-          "type": "relation",
-          "value": [
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-verte-de-coree",
-              "title": "Lignée : De la Cour Verte de Corée",
-              "cout": "4",
-              "approbation": true,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "initie-spirituel",
-              "title": "Initié spirituel",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "voie-necromantique-supplementaire",
-              "title": "Voie nécromantique supplémentaire ",
-              "cout": "1",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "paix-interieure",
-              "title": "Paix intérieure",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "elementaire-necrotique",
-              "title": "Elémentaire Nécrotique",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "par-dela-les-plans",
-              "title": "Par delà les Plans",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "breloques-mortuaires",
-              "title": "Breloques mortuaires",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            }
-          ]
-        },
-        "Name": {
-          "type": "text",
-          "value": "De la Cour Verte de Corée"
-        }
-      },
-      "title": "De la Cour Verte de Corée",
-      "slug": "de-la-cour-verte-de-coree",
-      "content": [
-        {
-          "type": "heading_2",
-          "text": "Présentation",
-          "spans": [
-            {
-              "text": "Présentation",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous venez de la Cour Verte, une cour de marchands aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
-          "spans": [
-            {
-              "text": "Vous venez de la Cour Verte, une cour de marchands aux portes du Voile lui-même, anéantissant tout espoir d'Harmonisation.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
-          "spans": [
-            {
-              "text": "Vos disciplines de clan sont : Auspex, Nécromancie : Voie du Sépulcre, Voie Elémentaire.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
-          "spans": [
-            {
-              "text": "Vous ne pouvez avoir que 2 voies de Nécromancie au maximum, une voie primaire et une voie secondaire. Il faut obligatoirement un mentor pour monter la voie primaire au-delà du niveau 3, et un mentor pour vous apprendre la voie secondaire.",
-              "bold": false
-            }
-          ]
-        }
-      ]
-    },
-    {
       "id": "3b188b48-e48e-8096-8d24-f5efbf40c403",
       "notionUrl": "https://app.notion.com/p/Guerrier-3b188b48e48e80968d24f5efbf40c403",
-      "lastEditedTime": "2026-08-03T20:22:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2560,8 +2504,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "toile-de-couteaux",
-              "title": "Toile de couteaux",
+              "slug": "toile-des-couteaux",
+              "title": "Toile des couteaux",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -2579,14 +2523,6 @@
               "slug": "reveil-de-l-acier",
               "title": "Réveil de l’Acier",
               "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-guerrier",
-              "title": "Lignée : Guerrier",
-              "cout": "2",
               "approbation": false,
               "complet": false
             }
@@ -2612,10 +2548,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Dans le passé, les Assamites n’étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
+          "text": "Dans le passé, les Assamites n’Étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment Étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
           "spans": [
             {
-              "text": "Dans le passé, les Assamites n’étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
+              "text": "Dans le passé, les Assamites n’Étreignaient que les mâles issus du Moyen-Orient et profondément croyants. Désormais, les femmes ainsi que les occidentaux rejoignent les rangs. Les compétences martiales et les penchants meurtriers jouent désormais un rôle plus important que l’héritage. Assassins, mercenaires, terroristes, membres de gang sont couramment Étreints, mais ceux-ci doivent s’attendre à entreprendre une formation rigoureuse et un endoctrinement porté sur l’histoire et les préceptes du clan. Ces fida’i (apprentis) sont étroitement encadrés, mais le clan leur permet de progresser en fonction de leur propre valeur. De nombreux fida’i se rassemblent en petits groupes appelés falaqi, chassant les autres vampires pour le sang et l’exercice.",
               "bold": false
             }
           ]
@@ -2729,7 +2665,7 @@
     {
       "id": "39388b48-e48e-8077-9d38-ea0ece2f7724",
       "notionUrl": "https://app.notion.com/p/Noiad-39388b48e48e80779d38ea0ece2f7724",
-      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -2741,7 +2677,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "rat-en-cage",
-              "title": "Rat en cage",
+              "title": "Rat en Cage",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -2749,7 +2685,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "parole-d-espece",
-              "title": "Parole d’espèce",
+              "title": "Parole d’Espèce",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -2823,14 +2759,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-noiad",
-              "title": "Lignée : Noiad",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-proteique",
               "title": "Sang Protéique",
               "cout": "1",
@@ -2840,7 +2768,7 @@
             {
               "collectionKey": "atouts",
               "slug": "voyageur-chevronne",
-              "title": "Voyageur chevronné",
+              "title": "Voyageur Chevronné",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2848,7 +2776,7 @@
             {
               "collectionKey": "atouts",
               "slug": "predateur-aquatique",
-              "title": "Prédateur aquatique",
+              "title": "Prédateur Aquatique",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2857,7 +2785,7 @@
               "collectionKey": "atouts",
               "slug": "indulgence-sanguine",
               "title": "Indulgence Sanguine",
-              "cout": "2",
+              "cout": "3",
               "approbation": false,
               "complet": false
             },
@@ -2873,7 +2801,7 @@
               "collectionKey": "atouts",
               "slug": "dechirement",
               "title": "Déchirement",
-              "cout": "3",
+              "cout": "2",
               "approbation": false,
               "complet": false
             },
@@ -3019,7 +2947,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Dissimulation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
           "spans": [
             {
               "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
@@ -3034,7 +2962,7 @@
               "bold": false
             },
             {
-              "text": "Occultation",
+              "text": "Dissimulation",
               "bold": true
             },
             {
@@ -3056,7 +2984,7 @@
     {
       "id": "39388b48-e48e-8041-ab7a-eea663f2f5c1",
       "notionUrl": "https://app.notion.com/p/Sorcier-39388b48e48e8041ab7aeea663f2f5c1",
-      "lastEditedTime": "2026-08-11T17:54:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -3117,7 +3045,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
-              "title": "Voie de l’Attrait des Flammes",
+              "title": "Voie de l'Attrait des Flammes",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3214,14 +3142,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-sorcier",
-              "title": "Lignée : Sorcier",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "attaque-surprise",
               "title": "Attaque Surprise",
               "cout": "1",
@@ -3238,8 +3158,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "la-resilience-du-juge",
-              "title": "La résilience du juge",
+              "slug": "resilience-du-juge",
+              "title": "Résilience du Juge",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3274,10 +3194,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Sorciers constituent la caste mystique des Assamites. Pendant des siècles, ils consacrèrent leur immortalité à l'étude de la magie, de la philosophie religieuse et des connaissances occultes.",
+          "text": "Les Sorciers constituent la caste mystique des Assamites. Pendant des siècles, ils consacrèrent leur immortalité à l'étude de la magie, de la philosophie religieuse et des connaissances intellectuelles.",
           "spans": [
             {
-              "text": "Les Sorciers constituent la caste mystique des Assamites. Pendant des siècles, ils consacrèrent leur immortalité à l'étude de la magie, de la philosophie religieuse et des connaissances occultes.",
+              "text": "Les Sorciers constituent la caste mystique des Assamites. Pendant des siècles, ils consacrèrent leur immortalité à l'étude de la magie, de la philosophie religieuse et des connaissances intellectuelles.",
               "bold": false
             }
           ]
@@ -3354,14 +3274,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Les personnages qui tentent de percer leur Occultation reçoivent un bonus générique de +1 à leurs réserves de test d'Auspex.",
+          "text": "Les personnages qui tentent de percer leur Dissimulation reçoivent un bonus joker de +1 à leurs réserves de test d'Auspex.",
           "spans": [
             {
               "text": "Les personnages qui tentent de percer leur ",
               "bold": false
             },
             {
-              "text": "Occultation",
+              "text": "Dissimulation",
               "bold": true
             },
             {
@@ -3369,7 +3289,7 @@
               "bold": false
             },
             {
-              "text": "bonus générique de +1",
+              "text": "bonus joker de +1",
               "bold": true
             },
             {
@@ -3391,7 +3311,7 @@
     {
       "id": "39588b48-e48e-8094-9fbf-d86cc5ec5bf4",
       "notionUrl": "https://app.notion.com/p/Telyav-39588b48e48e80949fbfd86cc5ec5bf4",
-      "lastEditedTime": "2026-08-31T12:22:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Approbation": {
           "type": "checkbox",
@@ -3402,8 +3322,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "compostantes-de-sorts",
-              "title": "Compostantes de sorts",
+              "slug": "composant-de-sort",
+              "title": "Composant de Sort",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3419,7 +3339,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "deux-fois-lie-au-conseil",
-              "title": "Deux fois lié au Conseil",
+              "title": "Deux Fois lié au Conseil",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3493,14 +3413,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-telyav",
-              "title": "Lignée : Telyav",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "talisman",
               "title": "Talisman",
               "cout": "3",
@@ -3518,7 +3430,7 @@
             {
               "collectionKey": "atouts",
               "slug": "suprematie-ritualistique",
-              "title": "Suprématie ritualistique",
+              "title": "Suprématie Ritualistique",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3526,7 +3438,7 @@
             {
               "collectionKey": "atouts",
               "slug": "magie-rapide",
-              "title": "Magie rapide",
+              "title": "Magie Rapide",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3534,7 +3446,7 @@
             {
               "collectionKey": "atouts",
               "slug": "maitrise-du-rituel",
-              "title": "Maîtrise du rituel",
+              "title": "Maîtrise du Rituel",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3542,7 +3454,7 @@
             {
               "collectionKey": "atouts",
               "slug": "lanceur-de-sort",
-              "title": "Lanceur de sort",
+              "title": "Lanceur de Sort",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3681,18 +3593,42 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Telyav conservent les mêmes disciplines et la même faiblesse de clan que les Tremere.",
+          "text": "Les Telyav conservent la même faiblesse de clan que les Tremere et deux de leurs trois disciplines (Auspex et Voie du Sang) ; Présence remplace Domination.",
           "spans": [
             {
               "text": "Les Telyav conservent ",
               "bold": false
             },
             {
-              "text": "les mêmes disciplines et la même faiblesse de clan que les Tremere",
+              "text": "la même faiblesse de clan que les Tremere",
               "bold": true
             },
             {
-              "text": ".",
+              "text": " et deux de leurs trois disciplines (",
+              "bold": false
+            },
+            {
+              "text": "Auspex",
+              "bold": true
+            },
+            {
+              "text": " et ",
+              "bold": false
+            },
+            {
+              "text": "Voie du Sang",
+              "bold": true
+            },
+            {
+              "text": ") ; ",
+              "bold": false
+            },
+            {
+              "text": "Présence",
+              "bold": true
+            },
+            {
+              "text": " remplace Domination.",
               "bold": false
             }
           ]
@@ -3832,7 +3768,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "temperament-de-tempete",
-              "title": "Tempérament de tempête",
+              "title": "Tempérament de Tempête",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3840,7 +3776,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "physiologie-serpentine",
-              "title": "Physiologie serpentine",
+              "title": "Physiologie Serpentine",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3906,16 +3842,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-tlacique",
-              "title": "Lignée : Tlacique",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-addictif",
-              "title": "Sang addictif",
+              "title": "Sang Addictif",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3931,7 +3859,7 @@
             {
               "collectionKey": "atouts",
               "slug": "fleau-des-eons",
-              "title": "Fléau des éons",
+              "title": "Fléau des Éons",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3939,7 +3867,7 @@
             {
               "collectionKey": "atouts",
               "slug": "mue-du-serpent",
-              "title": "Mue du serpent",
+              "title": "Mue du Serpent",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -4135,7 +4063,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "temperament-de-tempete",
-              "title": "Tempérament de tempête",
+              "title": "Tempérament de Tempête",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -4143,7 +4071,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "physiologie-serpentine",
-              "title": "Physiologie serpentine",
+              "title": "Physiologie Serpentine",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4209,16 +4137,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-vipere",
-              "title": "Lignée : Vipère",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-addictif",
-              "title": "Sang addictif",
+              "title": "Sang Addictif",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4234,7 +4154,7 @@
             {
               "collectionKey": "atouts",
               "slug": "fleau-des-eons",
-              "title": "Fléau des éons",
+              "title": "Fléau des Éons",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4242,7 +4162,7 @@
             {
               "collectionKey": "atouts",
               "slug": "etreinte-serpentine",
-              "title": "Etreinte Serpentine",
+              "title": "Étreinte Serpentine",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4250,15 +4170,15 @@
             {
               "collectionKey": "atouts",
               "slug": "mue-du-serpent",
-              "title": "Mue du serpent",
+              "title": "Mue du Serpent",
               "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "ecailles-de-fer",
-              "title": "Ecailles de fer",
+              "slug": "ecaille-de-fer",
+              "title": "Écaille de Fer",
               "cout": "2",
               "approbation": false,
               "complet": false

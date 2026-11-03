@@ -4,13 +4,13 @@
   "group": "Création de personnage",
   "description": "Ce que possède votre personnage grace a ses activités ou son passé",
   "notionDatabaseId": "39b88b48-e48e-8081-a14b-f3e182d885d5",
-  "generatedAt": "2026-10-29T08:53:56.798Z",
+  "generatedAt": "2026-11-03T13:31:37.095Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "39b88b48-e48e-8094-81ae-f701b5042562",
       "notionUrl": "https://app.notion.com/p/Alli-s-39b88b48e48e809481aef701b5042562",
-      "lastEditedTime": "2026-08-13T09:12:00.000Z",
+      "lastEditedTime": "2026-10-30T22:25:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -460,14 +460,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal au niveau de l'Influence +1, dans la limite des règles du système.",
+          "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence égal à son niveau d'Influence +1, dans la limite des règles du système.",
           "spans": [
             {
               "text": "Lorsqu'il réalise une action d'Influence relevant de son domaine d'expertise, il peut utiliser un niveau d'Influence ",
               "bold": false
             },
             {
-              "text": "égal au niveau de l'Influence +1",
+              "text": "égal à son niveau d'Influence +1",
               "bold": true
             },
             {
@@ -478,10 +478,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, un Allié avec un niveau d’influence de niveau 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
+          "text": "Par exemple, un Allié avec un niveau d’Influence de 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
           "spans": [
             {
-              "text": "Par exemple, un Allié avec un niveau d’influence de niveau 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
+              "text": "Par exemple, un Allié avec un niveau d’Influence de 2 pourra réaliser une action de niveau 3 dans son domaine d'expertise.",
               "bold": false
             }
           ]
@@ -560,42 +560,42 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 2 : actions d'Influence de niveau 2 maximum. (Coute un niveau de spé Alliés)",
+          "text": "Influent 2 : actions d'Influence de niveau 2 maximum. (coûte un niveau de spécialisation d'Alliés)",
           "spans": [
             {
               "text": "Influent 2",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 2 maximum. (Coute un niveau de spé Alliés)",
+              "text": " : actions d'Influence de niveau 2 maximum. (coûte un niveau de spécialisation d'Alliés)",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 4 : actions d'Influence de niveau 4 maximum. (Coute deux niveau de spé Alliés)",
+          "text": "Influent 4 : actions d'Influence de niveau 4 maximum. (coûte deux niveaux de spécialisation d'Alliés)",
           "spans": [
             {
               "text": "Influent 4",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 4 maximum. (Coute deux niveau de spé Alliés)",
+              "text": " : actions d'Influence de niveau 4 maximum. (coûte deux niveaux de spécialisation d'Alliés)",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Influent 5 : actions d'Influence de niveau 5 maximum. (Coute trois niveau de spé Alliés)",
+          "text": "Influent 5 : actions d'Influence de niveau 5 maximum. (coûte trois niveaux de spécialisation d'Alliés)",
           "spans": [
             {
               "text": "Influent 5",
               "bold": true
             },
             {
-              "text": " : actions d'Influence de niveau 5 maximum. (Coute trois niveau de spé Alliés)",
+              "text": " : actions d'Influence de niveau 5 maximum. (coûte trois niveaux de spécialisation d'Alliés)",
               "bold": false
             }
           ]
@@ -652,7 +652,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire avec le même niveau et les mêmes compétences au bout de deux mois après sa disparition au lieu de <Niveau de l’allié> mois.",
+          "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire avec le même niveau et les mêmes compétences deux mois après sa disparition au lieu de <Niveau de l’allié> mois.",
           "spans": [
             {
               "text": "Si votre Allié disparaît définitivement (mort, trahison, arrestation, etc.), il est remplacé par une autre personne remplissant un rôle similaire avec le ",
@@ -667,15 +667,7 @@
               "bold": false
             },
             {
-              "text": "mêmes compétences ",
-              "bold": true
-            },
-            {
-              "text": "au bout de ",
-              "bold": false
-            },
-            {
-              "text": "deux mois",
+              "text": "mêmes compétences deux mois",
               "bold": true
             },
             {
@@ -1148,10 +1140,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous êtes limité a une action d’influence par alliés par mois celle ci peut aller du niveau 1 à <Niveau d’influence> de l’alliés.",
+          "text": "Vous êtes limité à une action d’Influence par Allié et par mois ; celle-ci peut aller du niveau 1 au <Niveau d’Influence> de l’Allié.",
           "spans": [
             {
-              "text": "Vous êtes limité a une action d’influence par alliés par mois celle ci peut aller du niveau 1 à <Niveau d’influence> de l’alliés",
+              "text": "Vous êtes limité à une action d’Influence par Allié et par mois ; celle-ci peut aller du niveau 1 au <Niveau d’Influence> de l’Allié",
               "bold": true
             },
             {
@@ -1242,70 +1234,70 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Même catégorie : 2 niveau d'influence par point réduit",
+          "text": "Même catégorie : 2 niveaux d'Influence par point réduit",
           "spans": [
             {
-              "text": "Même catégorie : 2 niveau d'influence par point réduit",
+              "text": "Même catégorie : 2 niveaux d'Influence par point réduit",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Catégorie opposée : 3 niveau d'influence par point réduit",
+          "text": "Catégorie opposée : 3 niveaux d'Influence par point réduit",
           "spans": [
             {
-              "text": "Catégorie opposée : 3 niveau d'influence par point réduit",
+              "text": "Catégorie opposée : 3 niveaux d'Influence par point réduit",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Persephone.",
+          "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Perséphone.",
           "spans": [
             {
-              "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Persephone.",
+              "text": "Exemple : Sarah possède une Influence Élite de 4 et souhaite affaiblir Perséphone.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Réduire l’Influence Élite de Persephone de 1 nécessite au total 2 niveaux d'influence ;",
+          "text": "Réduire l’Influence Élite de Perséphone de 1 nécessite au total 2 niveaux d'Influence ;",
           "spans": [
             {
-              "text": "Réduire l’Influence Élite de Persephone de 1 nécessite au total 2 niveaux d'influence ;",
+              "text": "Réduire l’Influence Élite de Perséphone de 1 nécessite au total 2 niveaux d'Influence ;",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'influence ;",
+          "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'Influence ;",
           "spans": [
             {
-              "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'influence ;",
+              "text": "Réduire son Influence Milieu criminel de 1 nécessite au total 3 niveaux d'Influence ;",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'influence.",
+          "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'Influence ;",
           "spans": [
             {
-              "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'influence.",
+              "text": "Réduire son Influence Élite de 2 nécessite au total 4 niveaux d'Influence ;",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'influence, ce que Sarah ne peut accomplir seule.",
+          "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'Influence, ce que Sarah ne peut accomplir seule.",
           "spans": [
             {
-              "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'influence, ce que Sarah ne peut accomplir seule.",
+              "text": "En revanche, réduire son Influence Milieu criminel de 2 nécessite au total 6 niveaux d'Influence, ce que Sarah ne peut accomplir seule.",
               "bold": false
             }
           ]
@@ -1322,10 +1314,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+          "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'Influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
           "spans": [
             {
-              "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
+              "text": "Si votre Influence est réduite, vous perdez également un nombre équivalent de niveaux d'Influence non dépensés. Si vous en avez moins, vous perdez tout ce qu’il vous reste. Les actions déjà utilisées ne sont pas affectées.",
               "bold": false
             }
           ]
@@ -1342,10 +1334,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Exemple : J'attaque en Janvier, réduction en Février récupération en Mars.",
+          "text": "Exemple : j'attaque en janvier, réduction en février, récupération en mars.",
           "spans": [
             {
-              "text": "Exemple : J'attaque en Janvier, réduction en Février récupération en Mars.",
+              "text": "Exemple : j'attaque en janvier, réduction en février, récupération en mars.",
               "bold": true
             }
           ]
@@ -1422,10 +1414,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’influence au total pour y parvenir.",
+          "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’Influence au total pour y parvenir.",
           "spans": [
             {
-              "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’influence au total pour y parvenir.",
+              "text": "Exemple : bloquer l’acquisition d’armes à feu avec 2 actions oblige à dépenser 3 niveaux d’Influence au total pour y parvenir.",
               "bold": false
             }
           ]
@@ -1472,10 +1464,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’influence.",
+          "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’Influence.",
           "spans": [
             {
-              "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’influence.",
+              "text": "Exemple : passer de 5 à 6 nécessite 5 niveaux d’Influence.",
               "bold": false
             }
           ]
@@ -1562,10 +1554,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si l’Alliés utilisé à la spécialité Expert, votre Influence est considérée comme supérieure de 1 niveau.",
+          "text": "Si l’Allié utilisé possède la compétence Expert, votre Influence est considérée comme supérieure de 1 niveau.",
           "spans": [
             {
-              "text": "Si l’Alliés utilisé à la spécialité Expert, votre Influence est considérée comme supérieure de 1 niveau.",
+              "text": "Si l’Allié utilisé possède la compétence Expert, votre Influence est considérée comme supérieure de 1 niveau.",
               "bold": false
             }
           ]
@@ -1922,10 +1914,10 @@
             },
             {
               "type": "paragraph",
-              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Obfuscation).",
+              "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Dissimulation).",
               "spans": [
                 {
-                  "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Obfuscation).",
+                  "text": "Les survols sont interdits et les intrusions impossibles sans pouvoirs surnaturels (ex : Dissimulation).",
                   "bold": false
                 }
               ]
@@ -2182,10 +2174,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Influence - Pègre",
+          "text": "Actions d’Influence - Pègre",
           "spans": [
             {
-              "text": "Influence - Pègre",
+              "text": "Actions d’Influence - Pègre",
               "bold": true
             }
           ]
@@ -2332,10 +2324,10 @@
             },
             {
               "type": "paragraph",
-              "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ standard (niveau 4 ou inférieur).",
+              "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ générique (niveau 4 ou inférieur).",
               "spans": [
                 {
-                  "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ standard (niveau 4 ou inférieur).",
+                  "text": "Vous pouvez déclencher une guerre de gangs, orchestrer une série d’incendies, détourner des ressources médicales, ou faire assassiner un PNJ générique (niveau 4 ou inférieur).",
                   "bold": false
                 }
               ]
@@ -2641,7 +2633,7 @@
     {
       "id": "39b88b48-e48e-8071-9305-cf1c617afd85",
       "notionUrl": "https://app.notion.com/p/Fausse-Identit-39b88b48e48e80719305cf1c617afd85",
-      "lastEditedTime": "2026-08-04T08:05:00.000Z",
+      "lastEditedTime": "2026-10-30T22:27:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -2719,14 +2711,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Pour déterminer si un personnage utilise une Fausse Identité, vous pouvez choisir de dépenser un certain nombre d'Actions Inter-Parties afin d'enquêter sur un personnage que vous soupçonnez d'utiliser une telle identité et de vérifier l'authenticité de son passé.",
+          "text": "Pour déterminer si un personnage utilise une Fausse Identité, vous pouvez choisir de dépenser un certain nombre d'AIP afin d'enquêter sur un personnage que vous soupçonnez d'utiliser une telle identité et de vérifier l'authenticité de son passé.",
           "spans": [
             {
               "text": "Pour déterminer si un personnage utilise une Fausse Identité, vous pouvez choisir de dépenser un certain nombre d'",
               "bold": false
             },
             {
-              "text": "Actions Inter-Parties",
+              "text": "AIP",
               "bold": true
             },
             {
@@ -2737,10 +2729,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Après avoir dépensé le nombre d'Actions Inter-Parties de votre choix, effectuez un défi :",
+          "text": "Après avoir dépensé le nombre d'AIP de votre choix, effectuez un défi :",
           "spans": [
             {
-              "text": "Après avoir dépensé le nombre d'Actions Inter-Parties de votre choix, effectuez un défi :",
+              "text": "Après avoir dépensé le nombre d'AIP de votre choix, effectuez un défi :",
               "bold": false
             }
           ]
@@ -2777,7 +2769,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Si vous réussissez ce défi et que vous avez dépensé un nombre d'Actions Inter-Parties supérieur ou égal au niveau de la Fausse Identité de votre cible, vous découvrez sa véritable identité.",
+          "text": "Si vous réussissez ce défi et que vous avez dépensé un nombre d'AIP supérieur ou égal au niveau de la Fausse Identité de votre cible, vous découvrez sa véritable identité.",
           "spans": [
             {
               "text": "Si vous réussissez ce défi ",
@@ -2788,7 +2780,7 @@
               "bold": true
             },
             {
-              "text": " que vous avez dépensé un nombre d'Actions Inter-Parties ",
+              "text": " que vous avez dépensé un nombre d'AIP ",
               "bold": false
             },
             {
@@ -2803,10 +2795,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'Actions Inter-Parties par rapport au niveau de son Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, l'identité vous paraît parfaitement légitime.",
+          "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'AIP par rapport au niveau de sa Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, l'identité vous paraît parfaitement légitime.",
           "spans": [
             {
-              "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'Actions Inter-Parties par rapport au niveau de son Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, ",
+              "text": "Si vous échouez au défi, si vous n'avez pas dépensé suffisamment d'AIP par rapport au niveau de sa Fausse Identité, ou si votre cible n'utilise tout simplement pas de Fausse Identité, ",
               "bold": false
             },
             {
@@ -2831,10 +2823,10 @@
         },
         {
           "type": "paragraph",
-          "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'Actions Inter-Parties seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
+          "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'AIP seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
           "spans": [
             {
-              "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'Actions Inter-Parties seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
+              "text": "De même, le Conteur ne devrait jamais indiquer à l'avance combien d'AIP seront nécessaires pour enquêter suffisamment en profondeur sur quelqu'un, ni même révéler si une telle enquête est réellement justifiée.",
               "bold": false
             }
           ]
@@ -3076,7 +3068,7 @@
     {
       "id": "39b88b48-e48e-8039-bad8-c38d39db26a4",
       "notionUrl": "https://app.notion.com/p/G-n-ration-39b88b48e48e8039bad8c38d39db26a4",
-      "lastEditedTime": "2026-08-27T11:17:00.000Z",
+      "lastEditedTime": "2026-10-30T22:27:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -3306,14 +3298,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Leur sang est trop faible pour soutenir les Pouvoirs Anciens, mais sa souplesse leur permet d'apprendre les Techniques avec une grande facilité.",
+          "text": "Leur sang est trop faible pour soutenir les Pouvoirs d'Ancien, mais sa souplesse leur permet d'apprendre les Techniques avec une grande facilité.",
           "spans": [
             {
               "text": "Leur sang est trop faible pour soutenir les ",
               "bold": false
             },
             {
-              "text": "Pouvoirs Anciens",
+              "text": "Pouvoirs d'Ancien",
               "bold": true
             },
             {
@@ -3360,10 +3352,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Vous pouvez, si le Conteur l'autorise, choisir un Handicap permettant de commencer en 12e ou 13e génération. Ces deux générations sont toujours considérées comme des Nouveau-nés.",
+          "text": "Vous pouvez choisir un Handicap permettant de commencer en 12e ou 13e génération. Ces deux générations sont toujours considérées comme des Nouveau-nés.",
           "spans": [
             {
-              "text": "Vous pouvez, si le Conteur l'autorise, choisir un Handicap permettant de commencer en ",
+              "text": "Vous pouvez choisir un Handicap permettant de commencer en ",
               "bold": false
             },
             {
@@ -3450,10 +3442,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Nouveau-nés bénéficient également d'un apprentissage plus rapide des compétences acquises durant leur existence moderne.",
+          "text": "Les Nouveau-nés achètent les Compétences et les Historiques à coût réduit : nouveau niveau × 1 au lieu du coût standard de nouveau niveau × 2.",
           "spans": [
             {
-              "text": "Les Nouveau-nés bénéficient également d'un apprentissage plus rapide des compétences acquises durant leur existence moderne.",
+              "text": "Les Nouveau-nés achètent les Compétences et les Historiques à coût réduit : nouveau niveau × 1 au lieu du coût standard de nouveau niveau × 2.",
               "bold": false
             }
           ]
@@ -3470,10 +3462,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Ancillae possèdent une Vitae plus puissante que celle des Nouveau-nés, sans être suffisamment pure pour accéder aux Pouvoirs Anciens.",
+          "text": "Les Ancillae possèdent une Vitae plus puissante que celle des Nouveau-nés, sans être suffisamment pure pour accéder aux Pouvoirs d'Ancien.",
           "spans": [
             {
-              "text": "Les Ancillae possèdent une Vitae plus puissante que celle des Nouveau-nés, sans être suffisamment pure pour accéder aux Pouvoirs Anciens.",
+              "text": "Les Ancillae possèdent une Vitae plus puissante que celle des Nouveau-nés, sans être suffisamment pure pour accéder aux Pouvoirs d'Ancien.",
               "bold": false
             }
           ]
@@ -3617,6 +3609,16 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Les Ancillae achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+          "spans": [
+            {
+              "text": "Les Ancillae achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "heading_2",
           "text": "●●● Génération (Apprenti Ancien)",
           "spans": [
@@ -3628,14 +3630,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Le sang d'un Apprenti Ancien est suffisamment puissant pour soutenir un unique Pouvoir Ancien.",
+          "text": "Le sang d'un Apprenti Ancien est suffisamment puissant pour soutenir un unique Pouvoir d'Ancien.",
           "spans": [
             {
               "text": "Le sang d'un Apprenti Ancien est suffisamment puissant pour soutenir un ",
               "bold": false
             },
             {
-              "text": "unique Pouvoir Ancien",
+              "text": "unique Pouvoir d'Ancien",
               "bold": true
             },
             {
@@ -3766,18 +3768,28 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "peut acquérir un seul Pouvoir Ancien, qu'il soit de clan ou hors-clan, au coût normal.",
+          "text": "peut acquérir un seul Pouvoir d'Ancien, qu'il soit de clan ou hors-clan, au coût normal.",
           "spans": [
             {
               "text": "peut acquérir ",
               "bold": false
             },
             {
-              "text": "un seul Pouvoir Ancien",
+              "text": "un seul Pouvoir d'Ancien",
               "bold": true
             },
             {
               "text": ", qu'il soit de clan ou hors-clan, au coût normal.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Apprentis Anciens achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+          "spans": [
+            {
+              "text": "Les Apprentis Anciens achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
               "bold": false
             }
           ]
@@ -3804,10 +3816,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Leur Vitae est devenue extrêmement pure et leur permet d'apprendre plusieurs Pouvoirs Anciens.",
+          "text": "Leur Vitae est devenue extrêmement pure et leur permet d'apprendre plusieurs Pouvoirs d'Ancien.",
           "spans": [
             {
-              "text": "Leur Vitae est devenue extrêmement pure et leur permet d'apprendre plusieurs Pouvoirs Anciens.",
+              "text": "Leur Vitae est devenue extrêmement pure et leur permet d'apprendre plusieurs Pouvoirs d'Ancien.",
               "bold": false
             }
           ]
@@ -3898,14 +3910,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "peut apprendre autant de Pouvoirs Anciens qu'il le souhaite, qu'ils soient de clan ou hors-clan.",
+          "text": "peut apprendre autant de Pouvoirs d'Ancien qu'il le souhaite, qu'ils soient de clan ou hors-clan.",
           "spans": [
             {
               "text": "peut apprendre autant de ",
               "bold": false
             },
             {
-              "text": "Pouvoirs Anciens",
+              "text": "Pouvoirs d'Ancien",
               "bold": true
             },
             {
@@ -3943,6 +3955,16 @@
           ]
         },
         {
+          "type": "paragraph",
+          "text": "Les Anciens achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+          "spans": [
+            {
+              "text": "Les Anciens achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "heading_2",
           "text": "●●●●● Génération (Ancien Confirmé)",
           "spans": [
@@ -3954,10 +3976,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Anciens Confirmé figurent parmi les vampires les plus redoutables encore actifs.",
+          "text": "Les Anciens Confirmés figurent parmi les vampires les plus redoutables encore actifs.",
           "spans": [
             {
-              "text": "Les Anciens Confirmé figurent parmi les vampires les plus redoutables encore actifs.",
+              "text": "Les Anciens Confirmés figurent parmi les vampires les plus redoutables encore actifs.",
               "bold": false
             }
           ]
@@ -3974,10 +3996,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Cette puissance leur permet de maîtriser les plus grands Pouvoirs Anciens, mais leur Vitae est devenue si spécialisée qu'elle assimile difficilement les Disciplines étrangères à leur lignée.",
+          "text": "Cette puissance leur permet de maîtriser les plus grands Pouvoirs d'Ancien, mais leur Vitae est devenue si spécialisée qu'elle assimile difficilement les Disciplines étrangères à leur clan.",
           "spans": [
             {
-              "text": "Cette puissance leur permet de maîtriser les plus grands Pouvoirs Anciens, mais leur Vitae est devenue si spécialisée qu'elle assimile difficilement les Disciplines étrangères à leur lignée.",
+              "text": "Cette puissance leur permet de maîtriser les plus grands Pouvoirs d'Ancien, mais leur Vitae est devenue si spécialisée qu'elle assimile difficilement les Disciplines étrangères à leur clan.",
               "bold": false
             }
           ]
@@ -4058,14 +4080,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "peut apprendre autant de Pouvoirs Anciens qu'il le souhaite.",
+          "text": "peut apprendre autant de Pouvoirs d'Ancien qu'il le souhaite.",
           "spans": [
             {
               "text": "peut apprendre autant de ",
               "bold": false
             },
             {
-              "text": "Pouvoirs Anciens",
+              "text": "Pouvoirs d'Ancien",
               "bold": true
             },
             {
@@ -4122,7 +4144,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "toutes les Disciplines hors-clan, y compris leurs Pouvoirs Anciens, coûtent Nouveau niveau × 5 PX au lieu de Nouveau niveau × 4 PX.",
+          "text": "toutes les Disciplines hors-clan, y compris leurs Pouvoirs d'Ancien, coûtent Nouveau niveau × 5 PX au lieu de Nouveau niveau × 4 PX.",
           "spans": [
             {
               "text": "toutes les Disciplines ",
@@ -4133,7 +4155,7 @@
               "bold": true
             },
             {
-              "text": ", y compris leurs Pouvoirs Anciens, coûtent ",
+              "text": ", y compris leurs Pouvoirs d'Ancien, coûtent ",
               "bold": false
             },
             {
@@ -4150,6 +4172,16 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Les Anciens Confirmés achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
+          "spans": [
+            {
+              "text": "Les Anciens Confirmés achètent les Compétences et les Historiques au coût standard (nouveau niveau × 2).",
               "bold": false
             }
           ]
@@ -4436,18 +4468,18 @@
         },
         {
           "type": "callout",
-          "text": "Question : Les bonus d'attribut fournis par l’historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
+          "text": "Question : Les bonus d'Attribut fournis par l'Historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
           "children": [
             {
               "type": "paragraph",
-              "text": "Réponse : Les points bonus d'attributs de l’historique génération augmentent uniquement le potentiel maximum pour l'attribut auquel ils sont attribués. Vous devez toujours dépenser des points d’expérience pour acheter des attributs jusqu’au nouveau maximum.",
+              "text": "Réponse : Les points de bonus d'Attribut de l'Historique Génération augmentent uniquement le maximum de l'Attribut auquel ils sont attribués. Vous devez toujours dépenser des PX pour acheter les Attributs jusqu'au nouveau maximum.",
               "spans": [
                 {
                   "text": "Réponse :",
                   "bold": true
                 },
                 {
-                  "text": " Les points bonus d'attributs de l’historique génération augmentent uniquement le potentiel maximum pour l'attribut auquel ils sont attribués. Vous devez toujours dépenser des points d’expérience pour acheter des attributs jusqu’au nouveau maximum.",
+                  "text": " Les points de bonus d'Attribut de l'Historique Génération augmentent uniquement le maximum de l'Attribut auquel ils sont attribués. Vous devez toujours dépenser des PX pour acheter les Attributs jusqu'au nouveau maximum.",
                   "bold": false
                 }
               ]
@@ -4459,7 +4491,7 @@
               "bold": true
             },
             {
-              "text": " Les bonus d'attribut fournis par l’historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
+              "text": " Les bonus d'Attribut fournis par l'Historique Génération sont-ils réellement ajoutés aux caractéristiques ou augmentent-ils uniquement le potentiel maximum ?",
               "bold": false
             }
           ]
@@ -4469,7 +4501,7 @@
     {
       "id": "39b88b48-e48e-80d8-a571-c35c900f934c",
       "notionUrl": "https://app.notion.com/p/Havre-39b88b48e48e80d8a571c35c900f934c",
-      "lastEditedTime": "2026-07-12T12:39:00.000Z",
+      "lastEditedTime": "2026-10-30T22:28:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -4491,10 +4523,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Il peut s'agir d'une demeure luxueuse, d'un appartement discret, d'un manoir abandonné, d'un tunnel dans les égouts ou de tout autre lieu où le personnage peut raisonnablement survivre à l'abri du soleil et des intrusions.",
+          "text": "Il peut s'agir d'une suite d'hôtel luxueuse, d'un manoir, d'un parc de caravanes, d'un tunnel caché dans les égouts ou de tout autre lieu où le personnage peut raisonnablement survivre à l'abri du soleil et des intrusions.",
           "spans": [
             {
-              "text": "Il peut s'agir d'une demeure luxueuse, d'un appartement discret, d'un manoir abandonné, d'un tunnel dans les égouts ou de tout autre lieu où le personnage peut raisonnablement survivre à l'abri du soleil et des intrusions.",
+              "text": "Il peut s'agir d'une suite d'hôtel luxueuse, d'un manoir, d'un parc de caravanes, d'un tunnel caché dans les égouts ou de tout autre lieu où le personnage peut raisonnablement survivre à l'abri du soleil et des intrusions.",
               "bold": false
             }
           ]
@@ -4595,10 +4627,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ces vigiles ne quittent jamais le Havre . Si vous souhaitez disposer de serviteurs capables de vous accompagner, utilisez plutôt l'Historique Serviteurs.",
+          "text": "Ces vigiles ne quittent jamais le Havre. Si vous souhaitez disposer de Serviteurs capables de vous accompagner, utilisez plutôt l'Historique Serviteurs.",
           "spans": [
             {
-              "text": "Ces vigiles ne quittent jamais le Havre . Si vous souhaitez disposer de serviteurs capables de vous accompagner, utilisez plutôt l'Historique ",
+              "text": "Ces vigiles ne quittent jamais le Havre. Si vous souhaitez disposer de Serviteurs capables de vous accompagner, utilisez plutôt l'Historique ",
               "bold": false
             },
             {
@@ -4633,7 +4665,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Après avoir passé une heure à effectuer des recherches, vous bénéficiez d'un bonus de +3 à votre prochain test de Recherche ou de Connaissances.",
+          "text": "Après avoir passé une heure à effectuer des recherches, vous bénéficiez d'un bonus de +3 à votre prochain test de Recherche ou de Mystère.",
           "spans": [
             {
               "text": "Après avoir passé ",
@@ -4664,7 +4696,7 @@
               "bold": false
             },
             {
-              "text": "Connaissances",
+              "text": "Mystère",
               "bold": true
             },
             {
@@ -4713,10 +4745,10 @@
         },
         {
           "type": "paragraph",
-          "text": "De plus, vous bénéficiez naturellement des avantages liés à ce type de quartier : interventions rapides des secours, services publics de qualité, voisinage influent, etc.",
+          "text": "De plus, vous bénéficiez naturellement de plusieurs avantages narratifs : la police intervient rapidement lorsque vous l'appelez, vos routes sont dégagées en priorité par mauvais temps, etc.",
           "spans": [
             {
-              "text": "De plus, vous bénéficiez naturellement des avantages liés à ce type de quartier : interventions rapides des secours, services publics de qualité, voisinage influent, etc.",
+              "text": "De plus, vous bénéficiez naturellement de plusieurs avantages narratifs : la police intervient rapidement lorsque vous l'appelez, vos routes sont dégagées en priorité par mauvais temps, etc.",
               "bold": false
             }
           ]
@@ -4733,30 +4765,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Votre Havre est richement aménagé.",
+          "text": "Votre Havre est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs ou œuvres d'art.",
           "spans": [
             {
-              "text": "Votre Havre est richement aménagé.",
+              "text": "Votre Havre est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs ou œuvres d'art.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Œuvres d'art, mobilier prestigieux, équipements modernes et confort exceptionnel impressionnent tous les visiteurs.",
+          "text": "Vous bénéficiez d'un bonus de +3 aux tests d'Attribut Social contre des mortels lorsqu'ils se trouvent dans votre Havre.",
           "spans": [
             {
-              "text": "Œuvres d'art, mobilier prestigieux, équipements modernes et confort exceptionnel impressionnent tous les visiteurs.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "paragraph",
-          "text": "Les tests Sociaux contre des mortels effectués à l'intérieur de votre Havre bénéficient d'un bonus de +3.",
-          "spans": [
-            {
-              "text": "Les tests Sociaux contre des mortels effectués à l'intérieur de votre Havre bénéficient d'un ",
+              "text": "Vous bénéficiez d'un ",
               "bold": false
             },
             {
@@ -4764,7 +4786,7 @@
               "bold": true
             },
             {
-              "text": ".",
+              "text": " aux tests d'Attribut Social contre des mortels lorsqu'ils se trouvent dans votre Havre.",
               "bold": false
             }
           ]
@@ -4791,14 +4813,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Toute tentative d'intrusion ou de dissimulation à l'intérieur du Havre subit un malus de –3.",
+          "text": "Tout défi visant à s'introduire dans le Havre ou à échapper à la détection subit une pénalité de –3.",
           "spans": [
             {
-              "text": "Toute tentative d'intrusion ou de dissimulation à l'intérieur du Havre subit un ",
+              "text": "Tout défi visant à s'introduire dans le Havre ou à échapper à la détection subit une ",
               "bold": false
             },
             {
-              "text": "malus de –3",
+              "text": "pénalité de –3",
               "bold": true
             },
             {
@@ -4855,10 +4877,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Votre Havre est particulièrement vaste.",
+          "text": "Votre Havre est immense et compte des dizaines de pièces.",
           "spans": [
             {
-              "text": "Votre Havre est particulièrement vaste.",
+              "text": "Votre Havre est immense et compte des dizaines de pièces.",
               "bold": false
             }
           ]
@@ -4913,7 +4935,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Ils ne combattent normalement pas. Si les circonstances les y contraignent, considérez-les comme des Serviteurs de niveau 1 sans spécialité martiale.",
+          "text": "Ils ne combattent normalement pas. Si les circonstances les y contraignent, considérez-les comme des Serviteurs de niveau 1 sans spécialisation applicable au combat.",
           "spans": [
             {
               "text": "Ils ne combattent normalement pas. Si les circonstances les y contraignent, considérez-les comme des ",
@@ -4924,7 +4946,7 @@
               "bold": true
             },
             {
-              "text": " sans spécialité martiale.",
+              "text": " sans spécialisation applicable au combat.",
               "bold": false
             }
           ]
@@ -4961,18 +4983,18 @@
         },
         {
           "type": "paragraph",
-          "text": "Les PNJ surnaturels simplifiés ne peuvent pénétrer dans votre Havre sans y être invités.",
+          "text": "Les PNJ génériques surnaturels ne peuvent pénétrer dans votre Havre sans y être invités.",
           "spans": [
             {
               "text": "Les ",
               "bold": false
             },
             {
-              "text": "PNJ surnaturels simplifiés",
+              "text": "PNJ génériques",
               "bold": true
             },
             {
-              "text": " ne peuvent pénétrer dans votre Havre sans y être invités.",
+              "text": " surnaturels ne peuvent pénétrer dans votre Havre sans y être invités.",
               "bold": false
             }
           ]
@@ -5010,7 +5032,7 @@
     {
       "id": "39b88b48-e48e-8081-ab3d-e3d460b94fc8",
       "notionUrl": "https://app.notion.com/p/Renomm-e-39b88b48e48e8081ab3de3d460b94fc8",
-      "lastEditedTime": "2026-08-03T18:36:00.000Z",
+      "lastEditedTime": "2026-10-30T22:27:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -5042,17 +5064,17 @@
         },
         {
           "type": "paragraph",
-          "text": "Lors de l'achat de cet Historique, déterminez la raison de cette renommée.",
+          "text": "Lors de l'achat de cet Historique, déterminez la raison de cette renommée. Le nombre de points achetés détermine l'étendue de la notoriété du personnage auprès des mortels : par exemple, un peintre avec 1 point de Renommée n'est connu que dans les cercles artistiques, tandis qu'un acteur avec 5 points est une célébrité nationale.",
           "spans": [
             {
-              "text": "Lors de l'achat de cet Historique, déterminez la raison de cette renommée.",
+              "text": "Lors de l'achat de cet Historique, déterminez la raison de cette renommée. Le nombre de points achetés détermine l'étendue de la notoriété du personnage auprès des mortels : par exemple, un peintre avec 1 point de Renommée n'est connu que dans les cercles artistiques, tandis qu'un acteur avec 5 points est une célébrité nationale.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Lorsqu'un mortel reconnaît votre personnage, celui-ci bénéficie d'un bonus de +5 à tous ses tests Sociaux non surnaturels.",
+          "text": "Lorsqu'un mortel reconnaît votre personnage, celui-ci bénéficie d'un bonus de +5 à tous ses défis Sociaux non surnaturels.",
           "spans": [
             {
               "text": "Lorsqu'un mortel reconnaît votre personnage, celui-ci bénéficie d'un ",
@@ -5063,7 +5085,7 @@
               "bold": true
             },
             {
-              "text": " à tous ses tests Sociaux ",
+              "text": " à tous ses défis Sociaux ",
               "bold": false
             },
             {
@@ -5088,20 +5110,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, une célébrité pourra plus facilement obtenir une suite d'hôtel, convaincre un policier de fermer les yeux ou persuader des témoins qu'un événement étrange n'était qu'un tournage de cinéma.",
+          "text": "Par exemple, une célébrité pourra plus facilement obtenir une suite d'hôtel, emprunter la voiture de quelqu'un ou persuader des témoins qu'un événement étrange n'était qu'un tournage de cinéma.",
           "spans": [
             {
-              "text": "Par exemple, une célébrité pourra plus facilement obtenir une suite d'hôtel, convaincre un policier de fermer les yeux ou persuader des témoins qu'un événement étrange n'était qu'un tournage de cinéma.",
+              "text": "Par exemple, une célébrité pourra plus facilement obtenir une suite d'hôtel, emprunter la voiture de quelqu'un ou persuader des témoins qu'un événement étrange n'était qu'un tournage de cinéma.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "En contrepartie, toute utilisation de cette notoriété attire l'attention. Les médias, les réseaux sociaux ou les journalistes pourront rapidement s'intéresser aux circonstances de votre apparition.",
+          "text": "En contrepartie, chaque fois que vous faites appel à votre Renommée, les circonstances deviennent vite de notoriété publique au sein de votre sphère de célébrité. Si un peintre célèbre demande qu'on le raccompagne gratuitement de l'aéroport, la nouvelle fera le tour des médias et chacun s'interrogera sur ses raisons.",
           "spans": [
             {
-              "text": "En contrepartie, toute utilisation de cette notoriété attire l'attention. Les médias, les réseaux sociaux ou les journalistes pourront rapidement s'intéresser aux circonstances de votre apparition.",
+              "text": "En contrepartie, chaque fois que vous faites appel à votre Renommée, les circonstances deviennent vite de notoriété publique au sein de votre sphère de célébrité. Si un peintre célèbre demande qu'on le raccompagne gratuitement de l'aéroport, la nouvelle fera le tour des médias et chacun s'interrogera sur ses raisons.",
               "bold": false
             }
           ]
@@ -5181,7 +5203,7 @@
     {
       "id": "39b88b48-e48e-809b-a056-f1fb261ceb8d",
       "notionUrl": "https://app.notion.com/p/Ressources-39b88b48e48e809ba056f1fb261ceb8d",
-      "lastEditedTime": "2026-07-12T12:57:00.000Z",
+      "lastEditedTime": "2026-10-30T22:27:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -5307,6 +5329,16 @@
           "spans": [
             {
               "text": "Discutez avec votre Conteur de l'origine exacte de cette fortune.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Le Conteur devrait adapter les détails de cet Historique à son cadre et à sa chronique : le niveau de vie varie fortement d'une région à l'autre, et ce qui est considéré comme « Confortable » dans une communauté peut n'être que « Suffisant » dans une autre.",
+          "spans": [
+            {
+              "text": "Le Conteur devrait adapter les détails de cet Historique à son cadre et à sa chronique : le niveau de vie varie fortement d'une région à l'autre, et ce qui est considéré comme « Confortable » dans une communauté peut n'être que « Suffisant » dans une autre.",
               "bold": false
             }
           ]
@@ -5583,6 +5615,16 @@
         },
         {
           "type": "paragraph",
+          "text": "Les banques, le fisc et les autres administrations surveillent de près la façon dont vous convertissez votre argent en liquidités.",
+          "spans": [
+            {
+              "text": "Les banques, le fisc et les autres administrations surveillent de près la façon dont vous convertissez votre argent en liquidités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
           "text": "Vous pouvez dépenser jusqu'à 250 000 € par mois sans attirer d'attention particulière.",
           "spans": [
             {
@@ -5601,10 +5643,10 @@
         },
         {
           "type": "heading_3",
-          "text": "Au délà de vos Moyens",
+          "text": "Au-delà de vos Moyens",
           "spans": [
             {
-              "text": "Au délà de vos Moyens",
+              "text": "Au-delà de vos Moyens",
               "bold": false
             }
           ]
@@ -5673,7 +5715,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Lorsqu'un personnage surcharge ses Ressources, son Historique Ressources est réduit de 2 points (minimum 0) pendant les six parties suivantes.",
+          "text": "Lorsqu'un personnage surcharge ses Ressources, son Historique Ressources est réduit de 2 niveaux (minimum 0) pendant les six parties suivantes ou trois mois (la durée la plus longue l'emportant).",
           "spans": [
             {
               "text": "Lorsqu'un personnage surcharge ses ",
@@ -5696,7 +5738,7 @@
               "bold": false
             },
             {
-              "text": "2 points",
+              "text": "2 niveaux",
               "bold": true
             },
             {
@@ -5712,25 +5754,25 @@
               "bold": false
             },
             {
-              "text": "six parties suivantes",
+              "text": "six parties suivantes ou trois mois",
               "bold": true
             },
             {
-              "text": ".",
+              "text": " (la durée la plus longue l'emportant).",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Le personnage peut réduire cette durée de récupération de moitié en consacrant 3 actions d'Interpartie à la gestion active de ses investissements et au rétablissement de sa situation financière.",
+          "text": "Le personnage peut réduire cette durée de récupération de moitié en consacrant 3 AIP à la gestion active de ses investissements et au rétablissement de sa situation financière.",
           "spans": [
             {
               "text": "Le personnage peut réduire cette durée de récupération de moitié en consacrant ",
               "bold": false
             },
             {
-              "text": "3 actions d'Interpartie",
+              "text": "3 AIP",
               "bold": true
             },
             {
@@ -5744,7 +5786,7 @@
     {
       "id": "39b88b48-e48e-8095-957b-de71ddd13735",
       "notionUrl": "https://app.notion.com/p/Serviteurs-39b88b48e48e8095957bde71ddd13735",
-      "lastEditedTime": "2026-09-15T17:05:00.000Z",
+      "lastEditedTime": "2026-10-30T22:28:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -5864,14 +5906,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Serviteurs utilisent les règles des PNJ simplifiés. Ils peuvent accomplir toutes les actions normalement accessibles à ce type de personnage.",
+          "text": "Les Serviteurs utilisent les règles des PNJ génériques. Ils peuvent accomplir toutes les actions normalement accessibles à ce type de personnage.",
           "spans": [
             {
               "text": "Les Serviteurs utilisent les règles des ",
               "bold": false
             },
             {
-              "text": "PNJ simplifiés",
+              "text": "PNJ génériques",
               "bold": true
             },
             {
@@ -6274,10 +6316,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une seule Discipline de clan de son domitor.",
+          "text": "Les personnages ayant accès à des Serviteurs vampiriques ou spectraux peuvent leur attribuer une spécialisation de Discipline. Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'une seule Discipline de clan de son domitor.",
           "spans": [
             {
-              "text": "Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'",
+              "text": "Les personnages ayant accès à des Serviteurs vampiriques ou spectraux peuvent leur attribuer une spécialisation de Discipline. Un Serviteur peut consacrer une de ses spécialisations à l'apprentissage d'",
               "bold": false
             },
             {
@@ -6422,10 +6464,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Ils ne peuvent donc jamais effectuer de relance grâce à la Volonté, sauf lorsqu'ils disposent d'une règle spécifique leur permettant de surenchérir.",
+          "text": "Ils ne peuvent donc pas refaire un test échoué, sauf s'ils peuvent surenchérir.",
           "spans": [
             {
-              "text": "Ils ne peuvent donc jamais effectuer de relance grâce à la Volonté, sauf lorsqu'ils disposent d'une règle spécifique leur permettant de surenchérir.",
+              "text": "Ils ne peuvent donc pas refaire un test échoué, sauf s'ils peuvent surenchérir.",
               "bold": false
             }
           ]
@@ -6608,10 +6650,10 @@
         },
         {
           "type": "paragraph",
-          "text": "X partie par point investi dans ce Serviteur avant de pouvoir le remplacer.",
+          "text": "une partie ou deux semaines (la durée la plus longue) par point investi dans ce Serviteur avant de pouvoir le remplacer.",
           "spans": [
             {
-              "text": "X partie par point investi dans ce Serviteur ",
+              "text": "une partie ou deux semaines (la durée la plus longue) par point investi dans ce Serviteur ",
               "bold": true
             },
             {
@@ -6642,14 +6684,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Il faudra attendre 4 parties avant qu'un nouveau Serviteur équivalent puisse être trouvé.",
+          "text": "Il faudra attendre 4 parties ou 8 semaines (la durée la plus longue) avant qu'un nouveau Serviteur équivalent puisse être trouvé.",
           "spans": [
             {
               "text": "Il faudra attendre ",
               "bold": false
             },
             {
-              "text": "4 parties ",
+              "text": "4 parties ou 8 semaines (la durée la plus longue) ",
               "bold": true
             },
             {
@@ -6690,38 +6732,38 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce Serviteur soit un animal ou un mortel standard. Les Serviteur animaux sont intrinsèquement limités dans les actions qu'ils peuvent entreprendre en votre nom en raison de leur incapacité à servir de manière fiable lorsqu'ils interagissent avec des mortels, mais ils n'en sont pas moins dignes de confiance et loyaux envers vous. Lorsque vous choisissez de prendre un Serviteur animal, utilisez les règles relatives aux PNJ type Serviteur pour le construire. De plus, vous pouvez choisir un certain nombre d'avantages pour ce Serviteur dans la liste ci-dessous, jusqu'au nombre de points dans le background du Serviteur que vous avez acheté.\nQualités à 1 point",
+          "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce Serviteur soit un animal ou un mortel standard. Les Serviteurs animaux sont intrinsèquement limités dans les actions qu'ils peuvent entreprendre en votre nom en raison de leur incapacité à servir de manière fiable lorsqu'ils interagissent avec des mortels, mais ils n'en sont pas moins dignes de confiance et loyaux envers vous. Lorsque vous choisissez de prendre un Serviteur animal, utilisez les règles relatives aux PNJ génériques pour le construire. De plus, vous pouvez choisir un certain nombre d'avantages pour ce Serviteur dans la liste ci-dessous, jusqu'au nombre de points dans l'Historique du Serviteur que vous avez acheté.\nQualités à 1 point",
           "spans": [
             {
-              "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce Serviteur soit un animal ou un mortel standard. Les Serviteur animaux sont intrinsèquement limités dans les actions qu'ils peuvent entreprendre en votre nom en raison de leur incapacité à servir de manière fiable lorsqu'ils interagissent avec des mortels, mais ils n'en sont pas moins dignes de confiance et loyaux envers vous. Lorsque vous choisissez de prendre un Serviteur animal, utilisez les règles relatives aux PNJ type Serviteur pour le construire. De plus, vous pouvez choisir un certain nombre d'avantages pour ce Serviteur dans la liste ci-dessous, jusqu'au nombre de points dans le background du Serviteur que vous avez acheté.\nQualités à 1 point",
+              "text": "Chaque fois que vous achetez un Serviteur, vous pouvez choisir que ce Serviteur soit un animal ou un mortel standard. Les Serviteurs animaux sont intrinsèquement limités dans les actions qu'ils peuvent entreprendre en votre nom en raison de leur incapacité à servir de manière fiable lorsqu'ils interagissent avec des mortels, mais ils n'en sont pas moins dignes de confiance et loyaux envers vous. Lorsque vous choisissez de prendre un Serviteur animal, utilisez les règles relatives aux PNJ génériques pour le construire. De plus, vous pouvez choisir un certain nombre d'avantages pour ce Serviteur dans la liste ci-dessous, jusqu'au nombre de points dans l'Historique du Serviteur que vous avez acheté.\nQualités à 1 point",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Courageux : Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ.",
+          "text": "Courageux : Votre Serviteur peut porter un nombre d'objets pouvant aller jusqu'au double de son niveau de PNJ générique.",
           "spans": [
             {
               "text": "Courageux ",
               "bold": true
             },
             {
-              "text": ": Votre Serviteur peut porter un poids égal à son poids corporel, ou tirer avec une force égale à son poids corporel multiplié par sa valeur PNJ.",
+              "text": ": Votre Serviteur peut porter un nombre d'objets pouvant aller jusqu'au double de son niveau de PNJ générique.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Féroce : Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
+          "text": "Féroce : Une fois par scène, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
           "spans": [
             {
               "text": "Féroce ",
               "bold": true
             },
             {
-              "text": ": Une fois par heure, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
+              "text": ": Une fois par scène, votre Serviteur peut utiliser une manœuvre de combat Féral sans dépenser de Volonté.",
               "bold": false
             }
           ]
@@ -6756,14 +6798,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Imposant : Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
+          "text": "Imposant : Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ génériques de niveau inférieur à celui de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
           "spans": [
             {
               "text": "Imposant ",
               "bold": true
             },
             {
-              "text": ": Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ Type ayant une valeur inférieure à celle de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
+              "text": ": Les animaux comme les humains trouvent votre Serviteur particulièrement intimidant. Les PNJ génériques de niveau inférieur à celui de ce Serviteur ne peuvent pas l'attaquer ou interférer avec lui, à moins d'y être contraints par une force surnaturelle.",
               "bold": false
             }
           ]
@@ -6783,6 +6825,20 @@
           ]
         },
         {
+          "type": "bulleted_list_item",
+          "text": "Endurci : Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses réserves de test défensives lorsqu'il résiste à des attaques de Bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses réserves de test défensives lorsqu'il résiste à des attaques à distance.",
+          "spans": [
+            {
+              "text": "Endurci ",
+              "bold": true
+            },
+            {
+              "text": ": Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses réserves de test défensives lorsqu'il résiste à des attaques de Bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses réserves de test défensives lorsqu'il résiste à des attaques à distance.",
+              "bold": false
+            }
+          ]
+        },
+        {
           "type": "paragraph",
           "text": "Qualités à 2 points",
           "spans": [
@@ -6794,14 +6850,28 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Combattant aquatique : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre.",
+          "text": "Combattant aquatique : Votre Serviteur peut nager à sa vitesse de déplacement normale, mais sa vitesse sur terre est réduite à un pas par action ou, à la discrétion du Conteur, il ne peut pas se déplacer sur terre. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus joker de +2 aux réserves de test d'attaque basées sur la compétence Bagarre.",
           "spans": [
             {
               "text": "Combattant aquatique",
               "bold": true
             },
             {
-              "text": " : Votre Serviteur peut nager à sa vitesse de déplacement normale. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus de +2 aux challenges d'attaque basés sur les compétences de Bagarre.",
+              "text": " : Votre Serviteur peut nager à sa vitesse de déplacement normale, mais sa vitesse sur terre est réduite à un pas par action ou, à la discrétion du Conteur, il ne peut pas se déplacer sur terre. Lorsqu'il est immergé, votre Serviteur bénéficie d'un bonus joker de +2 aux réserves de test d'attaque basées sur la compétence Bagarre.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Venimeux : Les individus mordus par le Serviteur doivent résister à un poison de virilité 10.",
+          "spans": [
+            {
+              "text": "Venimeux ",
+              "bold": true
+            },
+            {
+              "text": ": Les individus mordus par le Serviteur doivent résister à un poison de virilité 10.",
               "bold": false
             }
           ]
@@ -6836,28 +6906,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Grappin : Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
+          "text": "Grappin : Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Agrippé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
           "spans": [
             {
               "text": "Grappin ",
               "bold": true
             },
             {
-              "text": ": Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Aggripé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
-              "bold": false
-            }
-          ]
-        },
-        {
-          "type": "bulleted_list_item",
-          "text": "Endurci : Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance.",
-          "spans": [
-            {
-              "text": "Endurci ",
-              "bold": true
-            },
-            {
-              "text": ": Que ce soit par une carapace chitineuse, des écailles durcies ou une peau épaisse, votre Serviteur gagne un bonus de +3 à ses challenges défensifs lorsqu'il résiste à des attaques de bagarre ou de mêlée. De plus, il applique un bonus de +1 à ses challenges défensifs lorsqu'il résiste à des attaques à distance.",
+              "text": ": Qu'il ait les mâchoires d'un alligator ou la capacité d'écraser d'un python, votre animal est capable de s'accrocher aux choses et de ne pas les lâcher. Il peut utiliser les manœuvres de combat Agrippé ou Désarmer de votre choix une fois par heure sans avoir à dépenser de Volonté pour le faire.",
               "bold": false
             }
           ]
@@ -6888,28 +6944,42 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Prédateur d'embuscade : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence.",
+          "text": "Vol : Votre Serviteur gagne un bonus joker de +3 aux réserves de test défensives basées sur la compétence Esquive et peut voler à sa vitesse de déplacement normale.",
           "spans": [
             {
-              "text": "Prédateur d'embuscade",
+              "text": "Vol",
               "bold": true
             },
             {
-              "text": " : Votre Serviteur gagne un bonus de +2 aux challenges s'il attaque un adversaire qui n'était pas conscient de sa présence.",
+              "text": " : Votre Serviteur gagne un bonus joker de +3 aux réserves de test défensives basées sur la compétence Esquive et peut voler à sa vitesse de déplacement normale.",
               "bold": false
             }
           ]
         },
         {
           "type": "bulleted_list_item",
-          "text": "Monture de combat : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur.",
+          "text": "Prédateur d'embuscade : Votre Serviteur gagne un bonus joker de +2 aux réserves de test Physiques dans les scènes où il attaque un adversaire qui n'était pas conscient de sa présence.",
           "spans": [
             {
-              "text": "Monture de combat",
+              "text": "Prédateur d'embuscade",
               "bold": true
             },
             {
-              "text": " : Votre Serviteur est capable de servir de monture fonctionnelle au combat, et il peut initier des attaques lors des rounds où il a des actions. Sans cette capacité, votre Serviteur peut vous porter, mais il ne peut à la fois vous porter et initier des attaques. Pour choisir cette qualité, votre serviteur doit être de taille suffisante pour servir de monture, à la discrétion du Conteur.",
+              "text": " : Votre Serviteur gagne un bonus joker de +2 aux réserves de test Physiques dans les scènes où il attaque un adversaire qui n'était pas conscient de sa présence.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "bulleted_list_item",
+          "text": "Monture : Votre Serviteur peut porter un nombre supplémentaire d'objets égal à son niveau et peut servir de monture. Le Serviteur doit posséder l'avantage Courageux pour posséder également l'avantage Monture.",
+          "spans": [
+            {
+              "text": "Monture",
+              "bold": true
+            },
+            {
+              "text": " : Votre Serviteur peut porter un nombre supplémentaire d'objets égal à son niveau et peut servir de monture. Le Serviteur doit posséder l'avantage Courageux pour posséder également l'avantage Monture.",
               "bold": false
             }
           ]
@@ -6944,14 +7014,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Espèce Alpha : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
+          "text": "Espèce Alpha : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ générique égal ou inférieur d'un point à celui de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
           "spans": [
             {
               "text": "Espèce Alpha",
               "bold": true
             },
             {
-              "text": " : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ type égale ou inférieure d'un point à celle de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
+              "text": " : Votre Serviteur attire deux créatures supplémentaires du même type, à condition qu'il réside dans un lieu situé à moins d'un kilomètre d'eux. Ces créatures supplémentaires ont un niveau de PNJ générique égal ou inférieur d'un point à celui de votre Serviteur, et vous pouvez les acheter comme Serviteur supplémentaires si vous le souhaitez. Elles ne suivent pas vos ordres directs sans contrainte surnaturelle, mais elles considèrent votre Serviteur comme leur chef et suivent son exemple. Si un ou plusieurs de ces animaux sont perdus ou tués (ou achetés en tant que Serviteur), de nouveaux animaux arrivent à un rythme égal à un par mois. Les créatures non naturelles qui acquièrent des qualités animales (comme les Vozhd) ne peuvent pas prendre cette qualité.",
               "bold": false
             }
           ]
@@ -6968,17 +7038,17 @@
         },
         {
           "type": "paragraph",
-          "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfer soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, la Conteuse peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, elle peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci.",
+          "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfers soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, le Conteur peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, il peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci.",
           "spans": [
             {
-              "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfer soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, la Conteuse peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, elle peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci.",
+              "text": "Notez que les avantages des Serviteurs Animaux énumérés ci-dessus représentent des caractéristiques exceptionnelles de l'animal. A la discrétion du Conteur, votre Serviteur peut faire une variété de choses sans posséder ces avantages, et ils peuvent avoir des limitations supplémentaires placées sur eux aussi.\n\nPar exemple, une tortue de mer goulifiée peut nager et un cheval goulifié peut porter un cavalier. Un requin goulifié a toujours besoin d'eau pour respirer et n'est pas très efficace sur terre. Un ours Serviteur sans la qualité Imposant est toujours terrifiant.\n\nCes caractéristiques représentent des caractéristiques exceptionnelles ou des astuces supplémentaires qui apportent des bonus tangibles. Si vous voulez que votre chien des enfers soit un nageur-secouriste ou qu'il ait la capacité de creuser des tunnels, vous pouvez prendre des avantages pour refléter ces capacités. Dans certains cas, le Conteur peut choisir de refuser certaines qualités si elles sont peu plausibles. De plus, il peut attribuer les avantages de votre Serviteur pour vous s'ils sont vraiment inhérents à une créature particulière. Par exemple, un mamba noir devrait certainement avoir la qualité Venimeux, et un Serviteur éléphant devrait avoir Endurci.",
               "bold": false
             }
           ]
         },
         {
           "type": "callout",
-          "text": "Question: Si un serviteur n'est pas une goule (par exemple, une Appartition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
+          "text": "Question: Si un Serviteur n'est pas une goule (par exemple, une Apparition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
           "children": [
             {
               "type": "paragraph",
@@ -6996,14 +7066,14 @@
             },
             {
               "type": "paragraph",
-              "text": "Question: Si un serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
+              "text": "Question: Si un Serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un Serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
               "spans": [
                 {
                   "text": "Question:",
                   "bold": true
                 },
                 {
-                  "text": " Si un serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
+                  "text": " Si un Serviteur est une goule, dois-je avoir un niveau de discipline plus élevé que la goule pour que la goule se spécialise pleinement dans cette discipline ? Prenons, par exemple, un Brujah avec Célérité 1 qui achète un Serviteur goule à 3 points. Cette goule peut-elle avoir Célérité 3 ?",
                   "bold": false
                 }
               ]
@@ -7029,7 +7099,7 @@
               "bold": true
             },
             {
-              "text": "Si un serviteur n'est pas une goule (par exemple, une Appartition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
+              "text": "Si un Serviteur n'est pas une goule (par exemple, une Apparition Giovanni), est-il toujours lié par la règle disciplinaire unique ? Cela ne semble pas être le cas pour les Apparitions données en exemple.",
               "bold": false
             }
           ]
@@ -7039,7 +7109,7 @@
     {
       "id": "39b88b48-e48e-8053-9f76-ed5fbd4c21e7",
       "notionUrl": "https://app.notion.com/p/Troupeau-39b88b48e48e80539f76ed5fbd4c21e7",
-      "lastEditedTime": "2026-07-12T12:40:00.000Z",
+      "lastEditedTime": "2026-10-30T22:28:00.000Z",
       "properties": {
         "Nom": {
           "type": "text",
@@ -7189,10 +7259,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les points excédentaires peuvent être utilisés pour permettre à d'autres personnages de se nourrir auprès de votre Troupeau.",
+          "text": "Les points excédentaires peuvent être utilisés pour permettre à d'autres personnages de se nourrir auprès de votre Troupeau, en complément de leurs AIP et de la même manière.",
           "spans": [
             {
-              "text": "Les points excédentaires peuvent être utilisés pour permettre à d'autres personnages de se nourrir auprès de votre Troupeau.",
+              "text": "Les points excédentaires peuvent être utilisés pour permettre à d'autres personnages de se nourrir auprès de votre Troupeau, en complément de leurs AIP et de la même manière.",
               "bold": false
             }
           ]

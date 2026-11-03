@@ -4,13 +4,13 @@
   "group": "Clans et Lignées",
   "description": "Découvrez les différentes lignées vampiriques, leur histoire, leurs Disciplines et leurs malédictions.",
   "notionDatabaseId": "37d88b48-e48e-806a-9c05-d4a44d045154",
-  "generatedAt": "2026-10-29T08:53:56.767Z",
+  "generatedAt": "2026-11-03T13:31:37.069Z",
   "propertyOptions": {},
   "items": [
     {
       "id": "38f88b48-e48e-8083-882e-fe263e4e7ae4",
       "notionUrl": "https://app.notion.com/p/Assamites-38f88b48e48e8083882efe263e4e7ae4",
-      "lastEditedTime": "2026-08-03T20:34:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -117,7 +117,7 @@
             {
               "collectionKey": "atouts",
               "slug": "etude-obsessionnelle",
-              "title": "Etude obsessionnelle",
+              "title": "Étude Obsessionnelle",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -125,32 +125,56 @@
             {
               "collectionKey": "atouts",
               "slug": "secret-du-sang",
-              "title": "Secret du sang",
+              "title": "Secret du Sang",
               "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "epreuves-du-sang",
-              "title": "Epreuves du Sang",
+              "slug": "epreuve-du-sang",
+              "title": "Épreuve du Sang",
               "cout": "3",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-sorcier",
-              "title": "Lignée : Sorcier",
-              "cout": "4",
+              "slug": "resilience-du-juge",
+              "title": "Résilience du Juge",
+              "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-guerrier",
-              "title": "Lignée : Guerrier",
+              "slug": "toile-des-couteaux",
+              "title": "Toile des couteaux",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "le-chuchoteur-de-lame",
+              "title": "Le chuchoteur de lame",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "benediction-de-bane",
+              "title": "Bénédiction de Bane",
               "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "fabricant-de-talisman",
+              "title": "Fabricant de Talisman",
+              "cout": "3",
               "approbation": false,
               "complet": false
             }
@@ -277,10 +301,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Autrefois, les Assamites étaient célèbres pour leur pratique systématique de la diablerie. Ce n'est qu'après que les Tremere, agissant à la demande du Cercle Intérieur de la Camarilla, eurent lancé une puissante malédiction contre eux qu'ils furent contraints d'y renoncer. Cette malédiction rendait le sang vampirique toxique pour les Assamites, brûlant leurs veines à chaque ingestion. Depuis cette époque, les Assamites - en particulier les plus anciens - nourrissent une haine profonde envers les Tremere.",
+          "text": "Autrefois, les Assamites étaient célèbres pour leur pratique systématique de la diablerie. Ce n'est qu'après que les Tremere, agissant à la demande du Cercle Intérieur de la Camarilla, eurent lancé une puissante malédiction contre eux qu'ils furent contraints d'y renoncer. Cette malédiction rendait le sang vampirique toxique pour les Assamites, brûlant leurs veines à chaque ingestion. Depuis cette époque, les Assamites — en particulier les plus anciens — nourrissent une haine profonde envers les Tremere.",
           "spans": [
             {
-              "text": "Autrefois, les Assamites étaient célèbres pour leur pratique systématique de la diablerie. Ce n'est qu'après que les Tremere, agissant à la demande du Cercle Intérieur de la Camarilla, eurent lancé une puissante malédiction contre eux qu'ils furent contraints d'y renoncer. Cette malédiction rendait le sang vampirique toxique pour les Assamites, brûlant leurs veines à chaque ingestion. Depuis cette époque, les Assamites - en particulier les plus anciens - nourrissent une haine profonde envers les Tremere.",
+              "text": "Autrefois, les Assamites étaient célèbres pour leur pratique systématique de la diablerie. Ce n'est qu'après que les Tremere, agissant à la demande du Cercle Intérieur de la Camarilla, eurent lancé une puissante malédiction contre eux qu'ils furent contraints d'y renoncer. Cette malédiction rendait le sang vampirique toxique pour les Assamites, brûlant leurs veines à chaque ingestion. Depuis cette époque, les Assamites — en particulier les plus anciens — nourrissent une haine profonde envers les Tremere.",
               "bold": false
             }
           ]
@@ -475,7 +499,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Vizirs souffrent automatiquement du dérangement Obsession, dont le déclencheur est « Connaissance inconnue ».",
+          "text": "Les Vizirs souffrent automatiquement du dérangement Obsession, dont le déclencheur est « Savoir inconnu ».",
           "spans": [
             {
               "text": "Les Vizirs souffrent automatiquement du dérangement ",
@@ -490,7 +514,7 @@
               "bold": false
             },
             {
-              "text": "« Connaissance inconnue »",
+              "text": "« Savoir inconnu »",
               "bold": true
             },
             {
@@ -522,7 +546,7 @@
     {
       "id": "39388b48-e48e-8012-a4d0-f789e9f94d47",
       "notionUrl": "https://app.notion.com/p/Brujah-39388b48e48e8012a4d0f789e9f94d47",
-      "lastEditedTime": "2026-07-22T14:49:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -555,7 +579,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "froidement-logique",
-              "title": "Froidement logique",
+              "title": "Froidement Logique",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -563,7 +587,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "bete-lache",
-              "title": "Bête lâche",
+              "title": "Bête Lâche",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -636,14 +660,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-vrai-brujah",
-              "title": "Lignée : Vrai-Brujah",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "fraternite",
               "title": "Fraternité",
               "cout": "1",
@@ -660,8 +676,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "coeur-de-fer",
-              "title": "Coeur de Fer",
+              "slug": "c-ur-de-fer",
+              "title": "Cœur de Fer",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -796,10 +812,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les anciens Brujah servent davantage de modèles que de chefs. Chaque membre est censé prouver sa propre valeur plutôt que de s'en remettre aux anciens pour résoudre ses problèmes. La hiérarchie du clan demeure donc particulièrement souple.",
+          "text": "Les Brujah expérimentés servent davantage de modèles que de chefs. Chaque membre est censé prouver sa propre valeur plutôt que de s'en remettre aux anciens pour résoudre ses problèmes. La hiérarchie du clan demeure donc particulièrement souple.",
           "spans": [
             {
-              "text": "Les anciens Brujah servent davantage de modèles que de chefs. Chaque membre est censé prouver sa propre valeur plutôt que de s'en remettre aux anciens pour résoudre ses problèmes. La hiérarchie du clan demeure donc particulièrement souple.",
+              "text": "Les Brujah expérimentés servent davantage de modèles que de chefs. Chaque membre est censé prouver sa propre valeur plutôt que de s'en remettre aux anciens pour résoudre ses problèmes. La hiérarchie du clan demeure donc particulièrement souple.",
               "bold": false
             }
           ]
@@ -891,7 +907,7 @@
     {
       "id": "39388b48-e48e-8078-8c8b-de632bfd877e",
       "notionUrl": "https://app.notion.com/p/Caitiff-39388b48e48e80788c8bde632bfd877e",
-      "lastEditedTime": "2026-07-22T14:49:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -932,7 +948,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "aura-noircie",
-              "title": "Aura noircie",
+              "title": "Aura Noircie",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -985,7 +1001,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme",
+              "title": "Force d'Âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1030,15 +1046,15 @@
             {
               "collectionKey": "atouts",
               "slug": "sang-eclipse",
-              "title": "Sang éclipsé",
+              "title": "Sang Éclipsé",
               "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "vestige-de-la-grandeur",
-              "title": "Vestige de la Grandeur",
+              "slug": "vestiges-de-la-grandeur",
+              "title": "Vestiges de la Grandeur",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -1054,8 +1070,8 @@
             {
               "collectionKey": "atouts",
               "slug": "fragment-restant",
-              "title": "Fragment restant",
-              "cout": "2",
+              "title": "Fragment Restant",
+              "cout": "3",
               "approbation": false,
               "complet": false
             },
@@ -1063,7 +1079,7 @@
               "collectionKey": "atouts",
               "slug": "incepteur",
               "title": "Incepteur",
-              "cout": "3",
+              "cout": "2",
               "approbation": false,
               "complet": false
             }
@@ -1139,10 +1155,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les autres vampires évitent généralement les Caitiffs, y compris ceux qui se montrent habituellement tolérants. Depuis des siècles, de nombreuses superstitions entourent leur existence. Certains prétendent que leur condition est contagieuse et qu'un vampire fréquentant trop longtemps des Caitiffs risque de produire lui-même un rejeton sans clan lors de sa prochaine Étreinte. D'autres y voient une malédiction infligée par Dieu, Caïn ou une puissance plus ancienne encore. Les légendes les plus sombres affirment enfin que leur multiplication annonce les Temps de la Fin : un signe que le Sang des Caïnites s'affaiblit et que le monde approche de sa destruction.",
+          "text": "Les autres vampires évitent généralement les Caitiffs, y compris ceux qui se montrent habituellement tolérants. Depuis des siècles, de nombreuses superstitions entourent leur existence. Certains prétendent que leur condition est contagieuse et qu'un vampire fréquentant trop longtemps des Caitiffs risque de produire lui-même un rejeton sans clan lors de sa prochaine Étreinte. D'autres y voient une malédiction infligée par Dieu, Caïn ou quelque autre force éternelle. Les légendes les plus sombres affirment enfin que leur multiplication annonce les Temps de la Fin : un signe que le Sang des Caïnites s'affaiblit et que le monde sera bientôt détruit par le feu.",
           "spans": [
             {
-              "text": "Les autres vampires évitent généralement les Caitiffs, y compris ceux qui se montrent habituellement tolérants. Depuis des siècles, de nombreuses superstitions entourent leur existence. Certains prétendent que leur condition est contagieuse et qu'un vampire fréquentant trop longtemps des Caitiffs risque de produire lui-même un rejeton sans clan lors de sa prochaine Étreinte. D'autres y voient une malédiction infligée par Dieu, Caïn ou une puissance plus ancienne encore. Les légendes les plus sombres affirment enfin que leur multiplication annonce les Temps de la Fin : un signe que le Sang des Caïnites s'affaiblit et que le monde approche de sa destruction.",
+              "text": "Les autres vampires évitent généralement les Caitiffs, y compris ceux qui se montrent habituellement tolérants. Depuis des siècles, de nombreuses superstitions entourent leur existence. Certains prétendent que leur condition est contagieuse et qu'un vampire fréquentant trop longtemps des Caitiffs risque de produire lui-même un rejeton sans clan lors de sa prochaine Étreinte. D'autres y voient une malédiction infligée par Dieu, Caïn ou quelque autre force éternelle. Les légendes les plus sombres affirment enfin que leur multiplication annonce les Temps de la Fin : un signe que le Sang des Caïnites s'affaiblit et que le monde sera bientôt détruit par le feu.",
               "bold": false
             }
           ]
@@ -1256,7 +1272,7 @@
     {
       "id": "39388b48-e48e-80dc-8ea8-ec6d9f6a024a",
       "notionUrl": "https://app.notion.com/p/Gangrel-39388b48e48e80dc8ea8ec6d9f6a024a",
-      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -1289,7 +1305,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "parole-d-espece",
-              "title": "Parole d’espèce",
+              "title": "Parole d’Espèce",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -1297,8 +1313,16 @@
             {
               "collectionKey": "handicaps",
               "slug": "rat-en-cage",
-              "title": "Rat en cage",
+              "title": "Rat en Cage",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "faiblesse-de-lignee-anda",
+              "title": "Faiblesse de Lignée Anda",
+              "cout": null,
               "approbation": false,
               "complet": false
             }
@@ -1326,7 +1350,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme",
+              "title": "Force d'Âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -1354,30 +1378,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-ahrimanes",
-              "title": "Lignée : Ahrimanes",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-coyote",
-              "title": "Lignée : Coyote",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-noiad",
-              "title": "Lignée : Noiad",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-proteique",
               "title": "Sang Protéique",
               "cout": "1",
@@ -1387,7 +1387,7 @@
             {
               "collectionKey": "atouts",
               "slug": "voyageur-chevronne",
-              "title": "Voyageur chevronné",
+              "title": "Voyageur Chevronné",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1396,7 +1396,7 @@
               "collectionKey": "atouts",
               "slug": "indulgence-sanguine",
               "title": "Indulgence Sanguine",
-              "cout": "2",
+              "cout": "3",
               "approbation": false,
               "complet": false
             },
@@ -1404,6 +1404,38 @@
               "collectionKey": "atouts",
               "slug": "dechirement",
               "title": "Déchirement",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "du-sang-dans-l-eau",
+              "title": "Du sang dans l’eau",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "poussiere-dans-le-vent",
+              "title": "Poussière dans le Vent",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "tous-les-meilleurs-jouets",
+              "title": "Tous les Meilleurs Jouets",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "la-bete-qui-sommeille-en-nous",
+              "title": "La Bête qui Sommeille en Nous",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -1549,10 +1581,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un infant, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
+          "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un rejeton, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
           "spans": [
             {
-              "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un infant, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
+              "text": "Les Gangrel dorment là où ils le souhaitent, souvent directement dans la terre, sans se soucier du regard des autres. Ils Étreignent rarement. Avant de choisir un rejeton, ils le traquent souvent comme une proie afin d'éprouver sa valeur. Après l'Étreinte, il n'est pas rare qu'un sire abandonne volontairement son nouveau-né afin qu'il apprenne seul les règles de la survie. Ce n'est qu'une fois cette épreuve réussie qu'il revient lui présenter la société vampirique et le clan.",
               "bold": false
             }
           ]
@@ -1579,10 +1611,10 @@
         },
         {
           "type": "paragraph",
-          "text": "En dehors du lien entre sire et infant, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé - ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
+          "text": "En dehors du lien entre sire et rejeton, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé — ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
           "spans": [
             {
-              "text": "En dehors du lien entre sire et infant, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé - ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
+              "text": "En dehors du lien entre sire et rejeton, le clan possède très peu d'organisation interne. Son autorité repose essentiellement sur le prestige personnel. Les Gangrel ayant récemment accompli des exploits remarquables sont naturellement écoutés et respectés, tandis que ceux dont les hauts faits appartiennent au passé — ou qui ont récemment subi un échec humiliant - voient rapidement leur influence décliner.",
               "bold": false
             }
           ]
@@ -1643,7 +1675,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Occultation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
+          "text": "Les traits temporaires disparaissent après une journée complète de repos, mais le trait animal permanent ne disparaît jamais. Il peut être dissimulé sous des vêtements, masqué grâce à Dissimulation ou supprimé temporairement par des pouvoirs tels que Vicissitude, mais il réapparaît systématiquement après le sommeil du vampire.",
           "spans": [
             {
               "text": "Les traits temporaires disparaissent après une journée complète de repos, mais ",
@@ -1658,7 +1690,7 @@
               "bold": false
             },
             {
-              "text": "Occultation",
+              "text": "Dissimulation",
               "bold": true
             },
             {
@@ -1779,23 +1811,15 @@
             {
               "collectionKey": "atouts",
               "slug": "expertise-necromantique",
-              "title": "Expertise nécromantique",
+              "title": "Expertise Nécromantique",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-premascine",
-              "title": "Lignée : Premascine",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "serviteur-fantome",
-              "title": "Serviteur Fantôme",
+              "title": "Serviteur fantôme",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -1803,7 +1827,7 @@
             {
               "collectionKey": "atouts",
               "slug": "maitre-ritualiste-giovanni",
-              "title": "Maître ritualiste (Giovanni)",
+              "title": "Maître Ritualiste (Giovanni)",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -1811,7 +1835,7 @@
             {
               "collectionKey": "atouts",
               "slug": "courtier-en-puissance",
-              "title": "Courtier en puissance",
+              "title": "Courtier en Puissance",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -1819,7 +1843,7 @@
             {
               "collectionKey": "atouts",
               "slug": "economie-des-ames",
-              "title": "Economie des Âmes",
+              "title": "Économie des Âmes",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -2023,7 +2047,7 @@
     {
       "id": "39388b48-e48e-8036-b45f-dcff0d7575c5",
       "notionUrl": "https://app.notion.com/p/Kuei-Jin-39388b48e48e8036b45fdcff0d7575c5",
-      "lastEditedTime": "2026-08-11T13:24:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -2056,7 +2080,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "elementaire-incomplet",
-              "title": "Elémentaire incomplet",
+              "title": "Élémentaire incomplet",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -2109,7 +2133,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-l-eau",
-              "title": "Voie de l’Eau",
+              "title": "Voie de l'Eau",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2117,7 +2141,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-l-air",
-              "title": "Voie de l’Air",
+              "title": "Voie de l'Air",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2135,30 +2159,6 @@
         "Atouts de clan": {
           "type": "relation",
           "value": [
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-du-tonnerre-infini-d-inde",
-              "title": "Lignée : De la Cour du Tonnerre Infini d’Inde",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-doree-d-asie-du-sud-est",
-              "title": "Lignée : De la Cour Dorée d’Asie du Sud-Est",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-de-la-cour-verte-de-coree",
-              "title": "Lignée : De la Cour Verte de Corée",
-              "cout": "4",
-              "approbation": true,
-              "complet": false
-            },
             {
               "collectionKey": "atouts",
               "slug": "initie-spirituel",
@@ -2214,24 +2214,24 @@
           "value": [
             {
               "collectionKey": "lignees",
-              "slug": "de-la-cour-verte-de-coree",
-              "title": "De la Cour Verte de Corée",
+              "slug": "cour-verte",
+              "title": "Cour Verte",
               "cout": null,
               "approbation": true,
               "complet": false
             },
             {
               "collectionKey": "lignees",
-              "slug": "de-la-cour-doree-d-asie-du-sud-est",
-              "title": "De la Cour Dorée d’Asie du Sud-Est",
+              "slug": "cour-doree",
+              "title": "Cour Dorée",
               "cout": null,
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "lignees",
-              "slug": "de-la-cour-du-tonnerre-infini-d-inde",
-              "title": "De la Cour du Tonnerre Infini d'Inde",
+              "slug": "cour-du-tonnerre-infini",
+              "title": "Cour du Tonnerre Infini",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -2266,10 +2266,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnite et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
+          "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnites et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
           "spans": [
             {
-              "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnite et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
+              "text": "Les Kuei-Jin sont une lignée de vampires originaire d'Asie. Bien qu'ils partagent la même condition vampirique que les autres Caïnites et se nourrissent de sang, ils ont développé une culture, des traditions et une philosophie qui leur sont propres.",
               "bold": false
             }
           ]
@@ -2382,40 +2382,40 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Kuei-jin sont connu pour leurs lien avec les éléments et notamment la personnification de ceux-ci. ",
+          "text": "Les Kuei-Jin sont connus pour leur lien avec les éléments et notamment la personnification de ceux-ci. ",
           "spans": [
             {
-              "text": "Les Kuei-jin sont connu pour leurs lien avec les éléments et notamment la personnification de ceux-ci. ",
+              "text": "Les Kuei-Jin sont connus pour leur lien avec les éléments et notamment la personnification de ceux-ci. ",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "A partir du premier niveau de voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
+          "text": "À partir du premier niveau de Voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
           "spans": [
             {
-              "text": "A partir du premier niveau de voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
+              "text": "À partir du premier niveau de Voie acquis pour chaque élément, le Caïnite se retrouve dans la possibilité d’invoquer un élémentaire pour lui porter assistance. ",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "L'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de voie mais ne peut apprendre aucune spécialisation. Son niveau servira a déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
+          "text": "L'Élémentaire est un Serviteur. Celui-ci augmente avec votre niveau de Voie mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
           "spans": [
             {
-              "text": "L'Élémentaire est un Serviteur. Celui ci augmente avec votre niveau de voie mais ne peut apprendre aucune spécialisation. Son niveau servira a déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
+              "text": "L'Élémentaire est un Serviteur. Celui-ci augmente avec votre niveau de Voie mais ne peut apprendre aucune spécialisation. Son niveau servira à déterminer ses statistiques mais il ne pourra utiliser aucune de vos Disciplines. ",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci à un effet passif :",
+          "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci a un effet passif :",
           "spans": [
             {
-              "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci à un effet passif :",
+              "text": "Cependant, suivant le type de l'élémentaire présent, celui-ci a un effet passif :",
               "bold": false
             }
           ]
@@ -2462,10 +2462,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+          "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparaît.",
           "spans": [
             {
-              "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparait.",
+              "text": "Si l’Élémentaliste tombe en Torpeur, quelle qu’elle soit (Diurne, de dégât, de sang,…), l’Élémentaire disparaît.",
               "bold": false
             }
           ]
@@ -2482,20 +2482,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Chaque Kuei-Jin à une affiliation à un élément entre Bois et Métal et une faiblesse face à l’autre.",
+          "text": "Chaque Kuei-Jin a une affiliation à un élément entre Bois et Métal et une faiblesse face à l’autre.",
           "spans": [
             {
-              "text": "Chaque Kuei-Jin à une affiliation à un élément entre Bois et Métal et une faiblesse face à l’autre.",
+              "text": "Chaque Kuei-Jin a une affiliation à un élément entre Bois et Métal et une faiblesse face à l’autre.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "A chaque fois que vous subissez des dégâts provenant d'une source de votre élément faible parmi Bois ou Métal, vous subissez 1 blessure aggravée supplémentaire.",
+          "text": "A chaque fois que vous subissez des dégâts provenant d'une source de votre élément faible parmi Bois ou Métal, vous subissez 1 dégât aggravé supplémentaire.",
           "spans": [
             {
-              "text": "A chaque fois que vous subissez des dégâts provenant d'une source de votre élément faible parmi Bois ou Métal, vous subissez 1 blessure aggravée supplémentaire.",
+              "text": "A chaque fois que vous subissez des dégâts provenant d'une source de votre élément faible parmi Bois ou Métal, vous subissez 1 dégât aggravé supplémentaire.",
               "bold": false
             }
           ]
@@ -2505,7 +2505,7 @@
     {
       "id": "39388b48-e48e-80fe-9a2a-dbf1aa7f1c2e",
       "notionUrl": "https://app.notion.com/p/Lasombra-39388b48e48e80fe9a2adbf1aa7f1c2e",
-      "lastEditedTime": "2026-07-30T22:19:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -2529,8 +2529,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "reflet-de-mort",
-              "title": "Reflet de mort",
+              "slug": "reflet-de-la-mort",
+              "title": "Reflet de la Mort",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2595,14 +2595,6 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "lignee-kiasyd",
-              "title": "Lignée : Kiasyd",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "parcours-l-abysse",
               "title": "Parcours l’Abysse",
               "cout": "3",
@@ -2611,8 +2603,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "ne-dans-l-ombre",
-              "title": "Né dans l’ombre",
+              "slug": "ne-dans-les-ombres",
+              "title": "Né dans les Ombres",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -2628,7 +2620,7 @@
             {
               "collectionKey": "atouts",
               "slug": "elite-sociale",
-              "title": "Elite sociale",
+              "title": "Élite Sociale",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2636,8 +2628,32 @@
             {
               "collectionKey": "atouts",
               "slug": "confesseur-de-confiance",
-              "title": "Confesseur de confiance",
+              "title": "Confesseur de Confiance",
               "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "adrenaline-de-la-bataille",
+              "title": "Adrénaline de la bataille",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "pourparlers",
+              "title": "Pourparlers",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "horreur-abyssale",
+              "title": "Horreur abyssale",
+              "cout": "3",
               "approbation": false,
               "complet": false
             }
@@ -2775,7 +2791,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Au sommet de cette hiérarchie siège un cercle secret connu sous le nom des Amici Noctis (”Amis de la Nuit”). Cette assemblée définit les grandes orientations du clan et exerce son autorité sur tous les Lasombra, quelles que soient leur secte ou leurs alliances personnelles.",
+          "text": "Au sommet de cette hiérarchie siège un cercle secret connu sous le nom des Amici Noctis (« Amis de la Nuit »). Cette assemblée définit les grandes orientations du clan et exerce son autorité sur tous les Lasombra, quelles que soient leur secte ou leurs alliances personnelles.",
           "spans": [
             {
               "text": "Au sommet de cette hiérarchie siège un cercle secret connu sous le nom des ",
@@ -2786,7 +2802,7 @@
               "bold": true
             },
             {
-              "text": " (”Amis de la Nuit”). Cette assemblée définit les grandes orientations du clan et exerce son autorité sur tous les Lasombra, quelles que soient leur secte ou leurs alliances personnelles.",
+              "text": " (« Amis de la Nuit »). Cette assemblée définit les grandes orientations du clan et exerce son autorité sur tous les Lasombra, quelles que soient leur secte ou leurs alliances personnelles.",
               "bold": false
             }
           ]
@@ -2862,7 +2878,7 @@
     {
       "id": "39088b48-e48e-8067-8798-d933c5240fbc",
       "notionUrl": "https://app.notion.com/p/Malkavien-39088b48e48e80678798d933c5240fbc",
-      "lastEditedTime": "2026-07-22T15:02:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -2895,7 +2911,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fetiche-alimentaire",
-              "title": "Fétiche alimentaire",
+              "title": "Fétiche Alimentaire",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2903,7 +2919,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fan-numero-un",
-              "title": "Fan numéro un",
+              "title": "Fan Numéro Un",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -2961,7 +2977,7 @@
             {
               "collectionKey": "atouts",
               "slug": "conscience-etendue",
-              "title": "Conscience Etendue",
+              "title": "Conscience Étendue",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -2976,24 +2992,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-ananke",
-              "title": "Lignée : Ananke",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-chevalier-de-la-lune",
-              "title": "Lignée : Chevalier de la Lune",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sophistique",
-              "title": "Sophistiqué",
+              "title": "Sophistique",
               "cout": "4",
               "approbation": false,
               "complet": false
@@ -3001,7 +3001,7 @@
             {
               "collectionKey": "atouts",
               "slug": "force-de-la-folie",
-              "title": "Force de la folie",
+              "title": "Force de la Folie",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3017,8 +3017,24 @@
             {
               "collectionKey": "atouts",
               "slug": "methode-de-la-folie",
-              "title": "Méthode de la folie",
+              "title": "Méthode de la Folie",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "chasseur-de-folie",
+              "title": "Chasseur de Folie",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "objet-de-pouvoir",
+              "title": "Objet de Pouvoir",
+              "cout": "1",
               "approbation": false,
               "complet": false
             }
@@ -3103,10 +3119,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Malkaviens choisissent leurs infantés sans distinction d'origine sociale, de culture ou de profession. Leur apparence reflète souvent leur trouble principal : certains sont négligés et sales, tandis que d'autres développent une obsession maladive pour la propreté, l'ordre ou d'autres comportements compulsifs.",
+          "text": "Les Malkaviens choisissent leurs rejetons sans distinction d'origine sociale, de culture ou de profession. Leur apparence reflète souvent leur trouble principal : certains sont négligés et sales, tandis que d'autres développent une obsession maladive pour la propreté, l'ordre ou d'autres comportements compulsifs.",
           "spans": [
             {
-              "text": "Les Malkaviens choisissent leurs infantés sans distinction d'origine sociale, de culture ou de profession. Leur apparence reflète souvent leur trouble principal : certains sont négligés et sales, tandis que d'autres développent une obsession maladive pour la propreté, l'ordre ou d'autres comportements compulsifs.",
+              "text": "Les Malkaviens choisissent leurs rejetons sans distinction d'origine sociale, de culture ou de profession. Leur apparence reflète souvent leur trouble principal : certains sont négligés et sales, tandis que d'autres développent une obsession maladive pour la propreté, l'ordre ou d'autres comportements compulsifs.",
               "bold": false
             }
           ]
@@ -3211,7 +3227,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage.",
+          "text": "Ce dérangement initial ne rapporte aucun point de handicap lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
           "spans": [
             {
               "text": "Ce dérangement initial ne rapporte ",
@@ -3222,7 +3238,7 @@
               "bold": true
             },
             {
-              "text": " lors de la création du personnage.",
+              "text": " lors de la création du personnage, alors que les dérangements supplémentaires en rapportent normalement.",
               "bold": false
             }
           ]
@@ -3257,8 +3273,8 @@
     },
     {
       "id": "39388b48-e48e-8015-a98b-f6ff61cf19c4",
-      "notionUrl": "https://app.notion.com/p/Nosf-ratu-39388b48e48e8015a98bf6ff61cf19c4",
-      "lastEditedTime": "2026-07-30T22:19:00.000Z",
+      "notionUrl": "https://app.notion.com/p/Nosferatu-39388b48e48e8015a98bf6ff61cf19c4",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -3270,7 +3286,7 @@
             {
               "collectionKey": "mysteres",
               "slug": "nosferatu",
-              "title": "Nosfératu",
+              "title": "Nosferatu",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3282,8 +3298,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "anosomie",
-              "title": "Anosomie",
+              "slug": "anosmie",
+              "title": "Anosmie",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3291,7 +3307,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "sang-fetide",
-              "title": "Sang fétide",
+              "title": "Sang Fétide",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3299,8 +3315,16 @@
             {
               "collectionKey": "handicaps",
               "slug": "infestation-parasitaire",
-              "title": "Infestation parasitaire",
+              "title": "Infestation Parasitaire",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "faiblesse-de-lignee-creeps",
+              "title": "Faiblesse de Lignée Creeps",
+              "cout": null,
               "approbation": false,
               "complet": false
             }
@@ -3348,8 +3372,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "adaptation-non-naturel",
-              "title": "Adaptation non naturel",
+              "slug": "adaptation-non-naturelle",
+              "title": "Adaptation Non-Naturelle",
               "cout": "4",
               "approbation": false,
               "complet": false
@@ -3357,23 +3381,23 @@
             {
               "collectionKey": "atouts",
               "slug": "avantage-cache",
-              "title": "Avantage caché",
+              "title": "Avantage Caché",
               "cout": "2",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "l-oeil-aveugle",
-              "title": "L’Oeil Aveugle",
+              "slug": "l-il-aveugle",
+              "title": "L’Œil Aveugle",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "sang-maleable",
-              "title": "Sang Maléable",
+              "slug": "sang-malleable",
+              "title": "Sang Malléable",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3401,6 +3425,30 @@
               "cout": "3",
               "approbation": false,
               "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "perception-extrasensorielle",
+              "title": "Perception extrasensorielle",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "instillation-de-la-peur",
+              "title": "Instillation de la peur",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "violette-timide",
+              "title": "Violette Timide",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
             }
           ]
         },
@@ -3418,10 +3466,10 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Nosfératu"
+          "value": "Nosferatu"
         }
       },
-      "title": "Nosfératu",
+      "title": "Nosferatu",
       "slug": "nosferatu",
       "content": [
         {
@@ -3598,14 +3646,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Un Nosferatu ne peut jamais choisir l'Apparence comme Focus de son Attribut Social.",
+          "text": "Un Nosferatu ne peut jamais choisir l'Apparence comme focus de son attribut Social.",
           "spans": [
             {
               "text": "Un Nosferatu ",
               "bold": false
             },
             {
-              "text": "ne peut jamais choisir l'Apparence comme Focus de son Attribut Social",
+              "text": "ne peut jamais choisir l'Apparence comme focus de son attribut Social",
               "bold": true
             },
             {
@@ -3619,7 +3667,7 @@
     {
       "id": "39388b48-e48e-8087-be51-e7267217d422",
       "notionUrl": "https://app.notion.com/p/Ravnos-39388b48e48e8087be51e7267217d422",
-      "lastEditedTime": "2026-08-31T11:35:00.000Z",
+      "lastEditedTime": "2026-10-30T22:03:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -3635,7 +3683,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "fausse-piste",
-              "title": "Fausse piste",
+              "title": "Fausse Piste",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3643,7 +3691,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "svadharma-perdu",
-              "title": "Svadharma perdu",
+              "title": "Svadharma Perdu",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3651,7 +3699,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "confusion-des-realites",
-              "title": "Confusion des réalités",
+              "title": "Confusion des Réalités",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3679,8 +3727,8 @@
             },
             {
               "collectionKey": "disciplines",
-              "slug": "auspex",
-              "title": "Auspex",
+              "slug": "force-d-ame",
+              "title": "Force d'Âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -3701,7 +3749,7 @@
             {
               "collectionKey": "atouts",
               "slug": "jeux-d-esprit",
-              "title": "jeux d’esprit",
+              "title": "Jeux d’Esprit",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -3709,15 +3757,15 @@
             {
               "collectionKey": "atouts",
               "slug": "reve-eveille",
-              "title": "Rêve éveillé",
+              "title": "Rêve Éveillé",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "transactions-louches",
-              "title": "Transactions louches",
+              "slug": "transaction-louche",
+              "title": "Transaction Louche",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3725,7 +3773,7 @@
             {
               "collectionKey": "atouts",
               "slug": "existence-blasee",
-              "title": "Existence blasée",
+              "title": "Existence Blasée",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -3735,6 +3783,22 @@
               "slug": "roi-de-l-evasion",
               "title": "Roi de l’évasion",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "percer-le-voile",
+              "title": "Percer le Voile",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "conscience-abstraite",
+              "title": "Conscience Abstraite",
+              "cout": "1",
               "approbation": false,
               "complet": false
             }
@@ -3945,7 +4009,7 @@
     {
       "id": "39388b48-e48e-80d7-beef-fcf179f7022b",
       "notionUrl": "https://app.notion.com/p/Setite-39388b48e48e80d7beeffcf179f7022b",
-      "lastEditedTime": "2026-07-22T14:50:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -3978,7 +4042,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "temperament-de-tempete",
-              "title": "Tempérament de tempête",
+              "title": "Tempérament de Tempête",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -3986,7 +4050,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "physiologie-serpentine",
-              "title": "Physiologie serpentine",
+              "title": "Physiologie Serpentine",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4043,24 +4107,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-tlacique",
-              "title": "Lignée : Tlacique",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-vipere",
-              "title": "Lignée : Vipère",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "sang-addictif",
-              "title": "Sang addictif",
+              "title": "Sang Addictif",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4076,7 +4124,7 @@
             {
               "collectionKey": "atouts",
               "slug": "fleau-des-eons",
-              "title": "Fléau des éons",
+              "title": "Fléau des Éons",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4084,7 +4132,7 @@
             {
               "collectionKey": "atouts",
               "slug": "mue-du-serpent",
-              "title": "Mue du serpent",
+              "title": "Mue du Serpent",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -4094,6 +4142,14 @@
               "slug": "maitre-vodou",
               "title": "Maître Vodou",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "ecaille-de-fer",
+              "title": "Écaille de Fer",
+              "cout": "2",
               "approbation": false,
               "complet": false
             }
@@ -4236,10 +4292,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Originaires d'Afrique du Nord, nombre de leurs anciens prétendent avoir été prêtres dans l'Égypte antique, utilisant cette ascendance prestigieuse pour asseoir leur autorité au sein du clan. De nos nuits, les Disciples de Set Étreignent des individus de toutes origines, privilégiant avant tout le charisme, la détermination et l'éloquence. La plupart sont d'abord initiés au culte de Set avant de recevoir l'Étreinte comme un don sacré destiné à servir leur dieu. Certains nouveaux-nés rejettent cependant cet enseignement et fuient les temples. Quelques-uns rejoignent alors le Mouvement Anarch, où ils recherchent la liberté vis-à-vis de leurs anciens — y compris la liberté de choisir leur propre foi.",
+          "text": "Originaires d'Afrique du Nord, nombre de leurs anciens prétendent avoir été prêtres dans l'Égypte antique, utilisant cette ascendance prestigieuse pour asseoir leur autorité au sein du clan. De nos nuits, les Disciples de Set Étreignent des individus de toutes origines, privilégiant avant tout le charisme, la détermination et l'éloquence. La plupart sont d'abord initiés au culte de Set avant de recevoir l'Étreinte comme un sombre don destiné à servir leur dieu. Certains nouveaux-nés rejettent cependant cet enseignement et fuient les temples. Quelques-uns rejoignent alors le Mouvement Anarch, où ils recherchent la liberté vis-à-vis de leurs anciens — y compris la liberté de choisir leur propre foi.",
           "spans": [
             {
-              "text": "Originaires d'Afrique du Nord, nombre de leurs anciens prétendent avoir été prêtres dans l'Égypte antique, utilisant cette ascendance prestigieuse pour asseoir leur autorité au sein du clan. De nos nuits, les Disciples de Set Étreignent des individus de toutes origines, privilégiant avant tout le charisme, la détermination et l'éloquence. La plupart sont d'abord initiés au culte de Set avant de recevoir l'Étreinte comme un don sacré destiné à servir leur dieu. Certains nouveaux-nés rejettent cependant cet enseignement et fuient les temples. Quelques-uns rejoignent alors le Mouvement Anarch, où ils recherchent la liberté vis-à-vis de leurs anciens — y compris la liberté de choisir leur propre foi.",
+              "text": "Originaires d'Afrique du Nord, nombre de leurs anciens prétendent avoir été prêtres dans l'Égypte antique, utilisant cette ascendance prestigieuse pour asseoir leur autorité au sein du clan. De nos nuits, les Disciples de Set Étreignent des individus de toutes origines, privilégiant avant tout le charisme, la détermination et l'éloquence. La plupart sont d'abord initiés au culte de Set avant de recevoir l'Étreinte comme un sombre don destiné à servir leur dieu. Certains nouveaux-nés rejettent cependant cet enseignement et fuient les temples. Quelques-uns rejoignent alors le Mouvement Anarch, où ils recherchent la liberté vis-à-vis de leurs anciens — y compris la liberté de choisir leur propre foi.",
               "bold": false
             }
           ]
@@ -4421,7 +4477,7 @@
     {
       "id": "39088b48-e48e-806a-a6f8-dc92c296cd5d",
       "notionUrl": "https://app.notion.com/p/Tor-ador-39088b48e48e806aa6f8dc92c296cd5d",
-      "lastEditedTime": "2026-07-22T14:50:00.000Z",
+      "lastEditedTime": "2026-10-30T22:04:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -4446,7 +4502,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "sans-art",
-              "title": "Sans art",
+              "title": "Sans Art",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4462,7 +4518,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "art-vivant",
-              "title": "Art vivant",
+              "title": "Art Vivant",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4471,7 +4527,7 @@
         },
         "Surnoms": {
           "type": "text",
-          "value": "Le clan de la Rose"
+          "value": "Les Dégénérés"
         },
         "Approbation": {
           "type": "checkbox",
@@ -4519,24 +4575,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-ishtarri",
-              "title": "Lignée : Ishtarri",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-volgirre",
-              "title": "Lignée : Volgirre",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "beaute-immorale",
-              "title": "Beauté immorale",
+              "title": "Beauté Immorale",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4544,7 +4584,7 @@
             {
               "collectionKey": "atouts",
               "slug": "couleurs-plus-vives",
-              "title": "Couleurs plus vives",
+              "title": "Couleurs Plus Vives",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -4560,7 +4600,7 @@
             {
               "collectionKey": "atouts",
               "slug": "rhapsodie-ephemere",
-              "title": "Rhapsodie éphémère",
+              "title": "Rhapsodie Éphémère",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4568,8 +4608,24 @@
             {
               "collectionKey": "atouts",
               "slug": "la-grace-du-danseur",
-              "title": "La grâce du Danseur",
+              "title": "La Grâce du Danseur",
               "cout": "4",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "prodige-de-la-chair",
+              "title": "Prodige de la Chair",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "vieilles-habitudes",
+              "title": "Vieilles Habitudes",
+              "cout": "3",
               "approbation": false,
               "complet": false
             }
@@ -4687,7 +4743,7 @@
         },
         {
           "type": "paragraph",
-          "text": "La société toréador repose sur un réseau complexe de mécènes, de protégés et de cercles artistiques.",
+          "text": "La société toréador repose sur un réseau complexe de mécènes, de protégés et de guildes.",
           "spans": [
             {
               "text": "La société toréador repose sur un réseau complexe de ",
@@ -4710,7 +4766,7 @@
               "bold": false
             },
             {
-              "text": "cercles artistiques",
+              "text": "guildes",
               "bold": true
             },
             {
@@ -4832,7 +4888,7 @@
     {
       "id": "39388b48-e48e-8020-bbe9-c00213d83f59",
       "notionUrl": "https://app.notion.com/p/Tremere-39388b48e48e8020bbe9c00213d83f59",
-      "lastEditedTime": "2026-07-22T15:02:00.000Z",
+      "lastEditedTime": "2026-10-30T22:10:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -4856,8 +4912,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "compostantes-de-sorts",
-              "title": "Compostantes de sorts",
+              "slug": "composant-de-sort",
+              "title": "Composant de Sort",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -4873,7 +4929,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "deux-fois-lie-au-conseil",
-              "title": "Deux fois lié au Conseil",
+              "title": "Deux Fois lié au Conseil",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -4949,14 +5005,6 @@
             },
             {
               "collectionKey": "disciplines",
-              "slug": "voie-verte",
-              "title": "Voie Verte",
-              "cout": null,
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "disciplines",
               "slug": "voie-du-controle-du-climat",
               "title": "Voie du Contrôle du Climat",
               "cout": null,
@@ -4965,8 +5013,16 @@
             },
             {
               "collectionKey": "disciplines",
+              "slug": "voie-verte",
+              "title": "Voie Verte",
+              "cout": null,
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "disciplines",
               "slug": "voie-de-l-attrait-des-flammes",
-              "title": "Voie de l’Attrait des Flammes",
+              "title": "Voie de l'Attrait des Flammes",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -4990,7 +5046,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "voie-de-la-maitrise-elementaire",
-              "title": "Voie de la Maîtrise Elémentaire",
+              "title": "Voie de la Maîtrise Élémentaire",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5018,14 +5074,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-telyav",
-              "title": "Lignée : Telyav",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "talisman",
               "title": "Talisman",
               "cout": "3",
@@ -5043,7 +5091,7 @@
             {
               "collectionKey": "atouts",
               "slug": "magie-rapide",
-              "title": "Magie rapide",
+              "title": "Magie Rapide",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -5051,7 +5099,23 @@
             {
               "collectionKey": "atouts",
               "slug": "lanceur-de-sort",
-              "title": "Lanceur de sort",
+              "title": "Lanceur de Sort",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitrise-du-rituel",
+              "title": "Maîtrise du Rituel",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "forge-des-ames",
+              "title": "Forge des Âmes",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -5333,8 +5397,8 @@
     },
     {
       "id": "39388b48-e48e-8075-82c1-e9bf4f4f8736",
-      "notionUrl": "https://app.notion.com/p/Tzimices-39388b48e48e807582c1e9bf4f4f8736",
-      "lastEditedTime": "2026-07-22T14:50:00.000Z",
+      "notionUrl": "https://app.notion.com/p/Tzimisce-39388b48e48e807582c1e9bf4f4f8736",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -5345,8 +5409,8 @@
           "value": [
             {
               "collectionKey": "mysteres",
-              "slug": "tzimices",
-              "title": "Tzimices",
+              "slug": "tzimisce",
+              "title": "Tzimisce",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5359,7 +5423,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "humble-jardinier",
-              "title": "Humble jardinier",
+              "title": "Humble Jardinier",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -5367,7 +5431,7 @@
             {
               "collectionKey": "handicaps",
               "slug": "faiblesse-de-famille-revenant",
-              "title": "Faiblesse de famille revenant",
+              "title": "Faiblesse de Famille Revenant",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -5375,8 +5439,16 @@
             {
               "collectionKey": "handicaps",
               "slug": "tissu-cicatriciel",
-              "title": "Tissu cicatriciel",
+              "title": "Tissu Cicatriciel",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "faiblesse-de-lignee-bratovitch",
+              "title": "Faiblesse de Lignée Bratovitch",
+              "cout": null,
               "approbation": false,
               "complet": false
             }
@@ -5384,7 +5456,7 @@
         },
         "Surnoms": {
           "type": "text",
-          "value": "Les Fiélons"
+          "value": "Les Démons"
         },
         "Approbation": {
           "type": "checkbox",
@@ -5403,8 +5475,8 @@
             },
             {
               "collectionKey": "disciplines",
-              "slug": "domination",
-              "title": "Domination",
+              "slug": "auspex",
+              "title": "Auspex",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5424,24 +5496,8 @@
           "value": [
             {
               "collectionKey": "atouts",
-              "slug": "lignee-carpathien",
-              "title": "Lignée : Carpathien",
-              "cout": "3",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "lignee-koldun",
-              "title": "Lignée : Koldun",
-              "cout": "4",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
-              "slug": "sang-du-tzimices",
-              "title": "Sang du Tzimices",
+              "slug": "sang-du-tzimisce",
+              "title": "Sang du Tzimisce",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -5457,15 +5513,15 @@
             {
               "collectionKey": "atouts",
               "slug": "comportement-polymorphe",
-              "title": "Comportement polymorphe",
+              "title": "Comportement Polymorphe",
               "cout": "1",
               "approbation": false,
               "complet": false
             },
             {
               "collectionKey": "atouts",
-              "slug": "la-vacuite-de-la-foi",
-              "title": "La vacuité de la foi",
+              "slug": "vacuite-de-la-foi",
+              "title": "Vacuité de la Foi",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -5474,6 +5530,30 @@
               "collectionKey": "atouts",
               "slug": "vozhd",
               "title": "Vozhd",
+              "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "legende-locale",
+              "title": "Légende locale",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "maitre-de-la-meute",
+              "title": "Maître de la meute",
+              "cout": "2",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "devenir-le-tueur",
+              "title": "Devenir le tueur",
               "cout": "3",
               "approbation": false,
               "complet": false
@@ -5494,11 +5574,11 @@
         },
         "Nom": {
           "type": "text",
-          "value": "Tzimices"
+          "value": "Tzimisce"
         }
       },
-      "title": "Tzimices",
-      "slug": "tzimices",
+      "title": "Tzimisce",
+      "slug": "tzimisce",
       "content": [
         {
           "type": "heading_2",
@@ -5512,20 +5592,20 @@
         },
         {
           "type": "paragraph",
-          "text": "Depuis une époque antérieure à toute histoire écrite, les Tzimisces règnent sur les montagnes et les forteresses de l'Ancien Monde. Ils se tiennent volontairement à l'écart des sociétés mortelles, considérant les humains comme un simple bétail destiné à les nourrir ou à servir leurs expériences.",
+          "text": "Depuis une époque antérieure à toute histoire écrite, les Tzimisce règnent sur les montagnes et les forteresses de l'Ancien Monde. Ils se tiennent volontairement à l'écart des sociétés mortelles, considérant les humains comme un simple bétail destiné à les nourrir ou à servir leurs expériences.",
           "spans": [
             {
-              "text": "Depuis une époque antérieure à toute histoire écrite, les Tzimisces règnent sur les montagnes et les forteresses de l'Ancien Monde. Ils se tiennent volontairement à l'écart des sociétés mortelles, considérant les humains comme un simple bétail destiné à les nourrir ou à servir leurs expériences.",
+              "text": "Depuis une époque antérieure à toute histoire écrite, les Tzimisce règnent sur les montagnes et les forteresses de l'Ancien Monde. Ils se tiennent volontairement à l'écart des sociétés mortelles, considérant les humains comme un simple bétail destiné à les nourrir ou à servir leurs expériences.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Seigneurs absolus de leurs domaines, les Tzimisces entretiennent un lien profond avec leurs terres et les anciennes forces mystiques qui les imprègnent. Jaloux et possessifs, ils défendent férocement leurs territoires contre toute intrusion. Leur société est organisée autour de lignées familiales, composées d'un sire et de ses descendants, où les Liens de Sang sont manipulés avec une cruauté et une maîtrise exceptionnelles.",
+          "text": "Seigneurs absolus de leurs domaines, les Tzimisce entretiennent un lien profond avec leurs terres et les anciennes forces mystiques qui les imprègnent. Jaloux et possessifs, ils défendent férocement leurs territoires contre toute intrusion. Leur société est organisée autour de lignées familiales, composées d'un sire et de ses descendants, où les Liens de Sang sont manipulés avec une cruauté et une maîtrise exceptionnelles.",
           "spans": [
             {
-              "text": "Seigneurs absolus de leurs domaines, les Tzimisces entretiennent un lien profond avec leurs terres et les anciennes forces mystiques qui les imprègnent. Jaloux et possessifs, ils défendent férocement leurs territoires contre toute intrusion. Leur société est organisée autour de lignées familiales, composées d'un sire et de ses descendants, où les Liens de Sang sont manipulés avec une cruauté et une maîtrise exceptionnelles.",
+              "text": "Seigneurs absolus de leurs domaines, les Tzimisce entretiennent un lien profond avec leurs terres et les anciennes forces mystiques qui les imprègnent. Jaloux et possessifs, ils défendent férocement leurs territoires contre toute intrusion. Leur société est organisée autour de lignées familiales, composées d'un sire et de ses descendants, où les Liens de Sang sont manipulés avec une cruauté et une maîtrise exceptionnelles.",
               "bold": false
             }
           ]
@@ -5558,10 +5638,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Détachés, méthodiques et profondément inhumains, les Tzimisces utilisent les mortels comme sujets d'expérimentation autant que comme source de nourriture. Une fois leur utilité épuisée, ils les abandonnent sans le moindre remords.",
+          "text": "Détachés, méthodiques et profondément inhumains, les Tzimisce utilisent les mortels comme sujets d'expérimentation autant que comme source de nourriture. Une fois leur utilité épuisée, ils les abandonnent sans le moindre remords.",
           "spans": [
             {
-              "text": "Détachés, méthodiques et profondément inhumains, les Tzimisces utilisent les mortels comme sujets d'expérimentation autant que comme source de nourriture. Une fois leur utilité épuisée, ils les abandonnent sans le moindre remords.",
+              "text": "Détachés, méthodiques et profondément inhumains, les Tzimisce utilisent les mortels comme sujets d'expérimentation autant que comme source de nourriture. Une fois leur utilité épuisée, ils les abandonnent sans le moindre remords.",
               "bold": false
             }
           ]
@@ -5586,10 +5666,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Tzimisces méprisent les autres clans, qu'ils jugent faibles et indignes. Pour afficher cette supériorité, beaucoup transforment leur propre corps en véritables œuvres d'art monstrueuses, se parant de cornes, d'excroissances osseuses ou de vêtements façonnés dans la chair vivante.",
+          "text": "Les Tzimisce méprisent les autres clans, qu'ils jugent faibles et indignes. Pour afficher cette supériorité, beaucoup transforment leur propre corps en véritables œuvres d'art monstrueuses, se parant de cornes, d'excroissances osseuses ou de vêtements façonnés dans la chair vivante.",
           "spans": [
             {
-              "text": "Les Tzimisces méprisent les autres clans, qu'ils jugent faibles et indignes. Pour afficher cette supériorité, beaucoup transforment leur propre corps en véritables œuvres d'art monstrueuses, se parant de cornes, d'excroissances osseuses ou de vêtements façonnés dans la chair vivante.",
+              "text": "Les Tzimisce méprisent les autres clans, qu'ils jugent faibles et indignes. Pour afficher cette supériorité, beaucoup transforment leur propre corps en véritables œuvres d'art monstrueuses, se parant de cornes, d'excroissances osseuses ou de vêtements façonnés dans la chair vivante.",
               "bold": false
             }
           ]
@@ -5606,10 +5686,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Tzimisces accordent très difficilement leur confiance aux autres vampires. Convaincus que tous convoitent leurs secrets, ils vivent en petits groupes familiaux solidement soudés.",
+          "text": "Les Tzimisce accordent très difficilement leur confiance aux autres vampires. Convaincus que tous convoitent leurs secrets, ils vivent en petits groupes familiaux solidement soudés.",
           "spans": [
             {
-              "text": "Les Tzimisces accordent très difficilement leur confiance aux autres vampires. Convaincus que tous convoitent leurs secrets, ils vivent en petits groupes familiaux solidement soudés.",
+              "text": "Les Tzimisce accordent très difficilement leur confiance aux autres vampires. Convaincus que tous convoitent leurs secrets, ils vivent en petits groupes familiaux solidement soudés.",
               "bold": false
             }
           ]
@@ -5654,10 +5734,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Les Tzimisces sont mystiquement liés à leur terre d'origine.",
+          "text": "Les Tzimisce sont mystiquement liés à leur terre d'origine.",
           "spans": [
             {
-              "text": "Les Tzimisces sont mystiquement liés à leur terre d'origine.",
+              "text": "Les Tzimisce sont mystiquement liés à leur terre d'origine.",
               "bold": false
             }
           ]
@@ -5692,7 +5772,7 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Chaque nuit passée sans ce contact avec leur terre natale leur inflige un malus cumulatif de -1 à tous leurs tests d'attaque, jusqu'à un maximum de 5.",
+          "text": "Chaque nuit passée sans ce contact avec leur terre natale leur inflige un malus cumulatif de -1 à toutes leurs réserves de test d'attaque, jusqu'à un maximum de -5.",
           "spans": [
             {
               "text": "Chaque nuit passée sans ce contact avec leur terre natale leur inflige un ",
@@ -5703,11 +5783,11 @@
               "bold": true
             },
             {
-              "text": " à tous leurs ",
+              "text": " à toutes leurs ",
               "bold": false
             },
             {
-              "text": "tests d'attaque",
+              "text": "réserves de test d'attaque",
               "bold": true
             },
             {
@@ -5715,7 +5795,7 @@
               "bold": false
             },
             {
-              "text": "5",
+              "text": "-5",
               "bold": true
             },
             {
@@ -5747,7 +5827,7 @@
     {
       "id": "39088b48-e48e-803c-aa13-c539b82a9a8e",
       "notionUrl": "https://app.notion.com/p/Ventrue-39088b48e48e803caa13c539b82a9a8e",
-      "lastEditedTime": "2026-07-26T13:37:00.000Z",
+      "lastEditedTime": "2026-10-30T22:02:00.000Z",
       "properties": {
         "Visible": {
           "type": "checkbox",
@@ -5771,8 +5851,8 @@
           "value": [
             {
               "collectionKey": "handicaps",
-              "slug": "non-serviram",
-              "title": "Non-serviram",
+              "slug": "non-serviam",
+              "title": "Non-Serviam",
               "cout": "2",
               "approbation": false,
               "complet": false
@@ -5788,7 +5868,15 @@
             {
               "collectionKey": "handicaps",
               "slug": "vieux-jeu",
-              "title": "Vieux jeu",
+              "title": "Vieux Jeu",
+              "cout": "1",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "handicaps",
+              "slug": "chemise-empaillee",
+              "title": "Chemise Empaillée",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -5809,7 +5897,7 @@
             {
               "collectionKey": "disciplines",
               "slug": "force-d-ame",
-              "title": "Force d’Âme",
+              "title": "Force d'Âme",
               "cout": null,
               "approbation": false,
               "complet": false
@@ -5845,14 +5933,6 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "lignee-croise",
-              "title": "Lignée : Croisé",
-              "cout": "2",
-              "approbation": false,
-              "complet": false
-            },
-            {
-              "collectionKey": "atouts",
               "slug": "parangon",
               "title": "Parangon",
               "cout": "3",
@@ -5869,8 +5949,8 @@
             },
             {
               "collectionKey": "atouts",
-              "slug": "le-devoir-des-rois",
-              "title": "Le devoir des rois",
+              "slug": "devoir-des-rois",
+              "title": "Devoir des Rois",
               "cout": "1",
               "approbation": false,
               "complet": false
@@ -5886,8 +5966,16 @@
             {
               "collectionKey": "atouts",
               "slug": "primaute-du-sang",
-              "title": "Primauté du sang",
+              "title": "Primauté du Sang",
               "cout": "3",
+              "approbation": false,
+              "complet": false
+            },
+            {
+              "collectionKey": "atouts",
+              "slug": "force-d-honneur",
+              "title": "Force d’Honneur",
+              "cout": "2",
               "approbation": false,
               "complet": false
             }
@@ -6010,10 +6098,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le clan choisit soigneusement ses infantés parmi ceux qui ont déjà démontré leur capacité à diriger : chefs militaires, dirigeants d'entreprise, hauts fonctionnaires, investisseurs, grandes fortunes ou figures politiques rejoignent ainsi les anciens rois et reines dans les rangs du clan.",
+          "text": "Le clan choisit soigneusement ses rejetons parmi ceux qui ont déjà démontré leur capacité à diriger : chefs militaires, dirigeants d'entreprise, hauts fonctionnaires, investisseurs, grandes fortunes ou figures politiques rejoignent ainsi les anciens rois et reines dans les rangs du clan.",
           "spans": [
             {
-              "text": "Le clan choisit soigneusement ses infantés parmi ceux qui ont déjà démontré leur capacité à diriger : chefs militaires, dirigeants d'entreprise, hauts fonctionnaires, investisseurs, grandes fortunes ou figures politiques rejoignent ainsi les anciens rois et reines dans les rangs du clan.",
+              "text": "Le clan choisit soigneusement ses rejetons parmi ceux qui ont déjà démontré leur capacité à diriger : chefs militaires, dirigeants d'entreprise, hauts fonctionnaires, investisseurs, grandes fortunes ou figures politiques rejoignent ainsi les anciens rois et reines dans les rangs du clan.",
               "bold": false
             }
           ]
@@ -6126,14 +6214,14 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun Point de Sang.",
+          "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ne procure aucun point de Sang.",
           "spans": [
             {
               "text": "Le sang de tout autre mortel, ainsi que celui des animaux, ",
               "bold": false
             },
             {
-              "text": "ne procure aucun Point de Sang",
+              "text": "ne procure aucun point de Sang",
               "bold": true
             },
             {
@@ -6180,10 +6268,10 @@
         },
         {
           "type": "bulleted_list_item",
-          "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit dépenser une AIP supplémentaire pour commencer la partie avec une réserve de Sang complète.",
+          "text": "Lorsqu'il est contraint de se nourrir en territoire inconnu, un Ventrue doit dépenser une AIP supplémentaire pour commencer la partie avec une réserve de Sang complète.",
           "spans": [
             {
-              "text": "Lorsqu'il chasse dans un territoire où ses proies habituelles sont difficiles à trouver, un Ventrue doit ",
+              "text": "Lorsqu'il est contraint de se nourrir en territoire inconnu, un Ventrue doit ",
               "bold": false
             },
             {

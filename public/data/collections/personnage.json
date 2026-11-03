@@ -4,7 +4,7 @@
   "group": "Création de personnage",
   "description": "",
   "notionDatabaseId": "39988b48-e48e-8080-a605-d9e734cfcbd8",
-  "generatedAt": "2026-10-29T08:53:56.797Z",
+  "generatedAt": "2026-11-03T13:31:37.093Z",
   "propertyOptions": {},
   "items": [
     {
@@ -293,7 +293,7 @@
     {
       "id": "39988b48-e48e-80e5-ba69-f7daf0f88f01",
       "notionUrl": "https://app.notion.com/p/tape-1-L-inspiration-39988b48e48e80e5ba69f7daf0f88f01",
-      "lastEditedTime": "2026-07-26T13:27:00.000Z",
+      "lastEditedTime": "2026-10-30T22:36:00.000Z",
       "properties": {
         "Ordre": {
           "type": "number",
@@ -343,10 +343,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Lors de la création de votre personnage, il est important qu'il s'intègre naturellement au cadre de jeu proposé par les conteurs et qu'il puisse évoluer aux côtés des autres personnages.",
+          "text": "Lors de la création de votre personnage, il est important qu'il s'intègre naturellement au cadre de jeu proposé par les Conteurs et qu'il puisse évoluer aux côtés des autres personnages.",
           "spans": [
             {
-              "text": "Lors de la création de votre personnage, il est important qu'il s'intègre naturellement au cadre de jeu proposé par les conteurs et qu'il puisse évoluer aux côtés des autres personnages.",
+              "text": "Lors de la création de votre personnage, il est important qu'il s'intègre naturellement au cadre de jeu proposé par les Conteurs et qu'il puisse évoluer aux côtés des autres personnages.",
               "bold": false
             }
           ]
@@ -473,10 +473,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Choisir un archétype permet aux conteurs et aux autres joueurs de comprendre rapidement quel type de personnage vous incarnez. Il ne s'agit pas d'une personnalité rigide, mais de la caractéristique dominante de votre personnage.",
+          "text": "Choisir un archétype permet aux Conteurs et aux autres joueurs de comprendre rapidement quel type de personnage vous incarnez. Il ne s'agit pas d'une personnalité rigide, mais de la caractéristique dominante de votre personnage. Cette liste n’est pas exhaustive : joueurs et Conteurs peuvent créer d’autres archétypes qui décrivent mieux un personnage donné.",
           "spans": [
             {
-              "text": "Choisir un archétype permet aux conteurs et aux autres joueurs de comprendre rapidement quel type de personnage vous incarnez. Il ne s'agit pas d'une personnalité rigide, mais de la caractéristique dominante de votre personnage.",
+              "text": "Choisir un archétype permet aux Conteurs et aux autres joueurs de comprendre rapidement quel type de personnage vous incarnez. Il ne s'agit pas d'une personnalité rigide, mais de la caractéristique dominante de votre personnage. Cette liste n’est pas exhaustive : joueurs et Conteurs peuvent créer d’autres archétypes qui décrivent mieux un personnage donné.",
               "bold": false
             }
           ]
@@ -513,10 +513,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Cette relance ne coûte aucun point de Volonté, mais remplace la relance de Volonté habituelle. Il est impossible de cumuler cette relance avec une relance obtenue en dépensant un point de Volonté.",
+          "text": "Cette relance ne coûte aucun point de Volonté, mais remplace la relance de Volonté habituelle. Il est impossible d’utiliser à la fois l’archétype et la Volonté pour relancer le même test.",
           "spans": [
             {
-              "text": "Cette relance ne coûte aucun point de Volonté, mais remplace la relance de Volonté habituelle. Il est impossible de cumuler cette relance avec une relance obtenue en dépensant un point de Volonté.",
+              "text": "Cette relance ne coûte aucun point de Volonté, mais remplace la relance de Volonté habituelle. Il est impossible d’utiliser à la fois l’archétype et la Volonté pour relancer le même test.",
               "bold": false
             }
           ]
@@ -530,7 +530,7 @@
               "Description"
             ],
             [
-              "Ange-Gardien",
+              "Ange-gardien",
               "Vous protégez le faible, cultivez l’ignorant et faites des pieds et des mains pour les autres."
             ],
             [
@@ -563,7 +563,7 @@
             ],
             [
               "Curieux",
-              "Vous êtes indiscret, y compris à votre dépens et vous ne pouvez abandonner un puzzle inachevé."
+              "Vous êtes indiscret, y compris à vos dépens et vous ne pouvez abandonner un puzzle inachevé."
             ],
             [
               "Danger public",
@@ -579,7 +579,7 @@
             ],
             [
               "Escroc",
-              "Vous êtes un filou, un menteur et un tricheur. Parfois, c’est une raison de vivre − et d’autres fois c’est un art."
+              "Vous êtes un filou, un menteur et un tricheur. Parfois, c’est un gagne-pain — et d’autres fois c’est un art."
             ],
             [
               "Esprit libre",
@@ -591,7 +591,7 @@
             ],
             [
               "Filou",
-              "Vous êtes un imposteur, un espiègle personnage qui préfère gagner au travers de la ruse."
+              "Vous êtes un imposteur, un personnage espiègle qui préfère gagner par la ruse."
             ],
             [
               "Flatteur",
@@ -643,7 +643,7 @@
             ],
             [
               "Noble",
-              "Vous êtes une personne royale, meilleur qu’autrui de manière innée et vous acceptez la responsabilité allant de pair avec votre position."
+              "Vous êtes un noble, meilleur qu’autrui de manière innée, et vous acceptez les responsabilités qui vont de pair avec votre rang."
             ],
             [
               "Pénitent",
@@ -655,11 +655,11 @@
             ],
             [
               "Perturbateur",
-              "Vous aimez défier l’autorité, pousser à la rébellion et à l’inciter à la désobéissance."
+              "Vous aimez défier l’autorité, pousser à la rébellion et inciter à la désobéissance."
             ],
             [
               "Professeur",
-              "Transmettre le savoir à autrui vous réjouis et vous vous attendez à être reconnu comme une pointure dans votre domaine."
+              "Transmettre le savoir à autrui vous réjouit et vous vous attendez à être reconnu comme une pointure dans votre domaine."
             ],
             [
               "Protecteur",
@@ -667,7 +667,7 @@
             ],
             [
               "Râleur",
-              "Le doute, la critique et le mépris sont vos armes. Rien de vous ennuie plus que la confiance."
+              "Le doute, la critique et le mépris sont vos armes. Rien ne vous agace autant que la confiance."
             ],
             [
               "Rationaliste",
@@ -675,11 +675,11 @@
             ],
             [
               "Solitaire",
-              "Vous n’êtes pas un engrenage du système. Vous vous attendez à être rejeté et préférez travailler seul."
+              "Vous ne pouvez pas travailler au sein du système. Vous vous attendez à être rejeté et préférez travailler seul."
             ],
             [
               "Survivant",
-              "Vous ferez tout ce qu’il faut, peu importe l’avilissement ou qui vous devrez trahir pour rester en vie."
+              "Vous ferez tout ce qu’il faut, peu importe l’avilissement ou qui vous devez trahir pour rester en vie."
             ],
             [
               "Tordu",
@@ -687,7 +687,7 @@
             ],
             [
               "Autre (Préciser)",
-              "Remplir la case \"archétype personalisé\" à Droite"
+              "Remplir la case « archétype personnalisé » à droite"
             ]
           ]
         }

@@ -4,7 +4,7 @@
   "group": "Atouts de Lieux",
   "description": "Atouts spécifiques pour les lieux d’intêret",
   "notionDatabaseId": "3ab88b48-e48e-80d6-9156-eb378ad6cd54",
-  "generatedAt": "2026-10-29T08:53:56.800Z",
+  "generatedAt": "2026-11-03T13:31:37.096Z",
   "propertyOptions": {
     "Catégorie": [
       "Surnaturel",
@@ -12,14 +12,15 @@
       "Standard"
     ],
     "Spécifique": [
-      "Elysium"
+      "Elysium",
+      "Spazio Creativo"
     ]
   },
   "items": [
     {
       "id": "3b288b48-e48e-8005-b6cd-c559db0243cf",
       "notionUrl": "https://app.notion.com/p/la-pointe-de-la-technologie-3b288b48e48e8005b6cdc559db0243cf",
-      "lastEditedTime": "2026-08-04T11:15:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -49,10 +50,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non spécialisé du pouvoir Analyse de la Voie de Technomancie.",
+          "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non focalisé du pouvoir Analyse de la Voie de Technomancie.",
           "spans": [
             {
-              "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non spécialisé du pouvoir Analyse de la Voie de Technomancie.",
+              "text": "Tant qu'il se trouve dans ce lieu, le personnage qui le contrôle bénéficie d'un équivalent technologique et non focalisé du pouvoir Analyse de la Voie de Technomancie.",
               "bold": false
             }
           ]
@@ -123,7 +124,7 @@
     {
       "id": "3b288b48-e48e-800f-bbf1-f19864528266",
       "notionUrl": "https://app.notion.com/p/Acceptation-Universelle-3b288b48e48e800fbbf1f19864528266",
-      "lastEditedTime": "2026-08-17T22:04:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -155,6 +156,24 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toute violation d'un Élysium doté d'Acceptation Universelle entraîne systématiquement, pour le contrevenant, l'attribution du Trait de statut négatif Disgracié par les officiers de sa propre Secte.",
+          "spans": [
+            {
+              "text": "Toute violation d'un Élysium doté d'Acceptation Universelle entraîne systématiquement, pour le contrevenant, l'attribution du ",
+              "bold": false
+            },
+            {
+              "text": "Trait de statut négatif Disgracié",
+              "bold": true
+            },
+            {
+              "text": " par les officiers de sa propre Secte.",
               "bold": false
             }
           ]
@@ -344,7 +363,7 @@
     {
       "id": "3b288b48-e48e-80f3-a911-e090e986b942",
       "notionUrl": "https://app.notion.com/p/Artistique-3b288b48e48e80f3a911e090e986b942",
-      "lastEditedTime": "2026-08-04T11:13:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -374,10 +393,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le personnage qui contrôle ce Lieu d'intérêt bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
+          "text": "Le personnage qui contrôle ce lieu bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
           "spans": [
             {
-              "text": "Le personnage qui contrôle ce Lieu d'intérêt bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
+              "text": "Le personnage qui contrôle ce lieu bénéficie d'1 point supplémentaire dans l'Historique Renommée, tant qu'il est publiquement connu comme étant celui qui contrôle le lieu.",
               "bold": false
             }
           ]
@@ -474,7 +493,7 @@
     {
       "id": "3b288b48-e48e-801d-aa2d-de6097c71fe9",
       "notionUrl": "https://app.notion.com/p/Biblioth-que-3b288b48e48e801daa2dde6097c71fe9",
-      "lastEditedTime": "2026-08-04T11:34:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -504,10 +523,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Avant d'effectuer un test d’Erudition, un personnage peut passer 1 heure à effectuer des recherches dans la bibliothèque afin de recevoir un bonus générique de +3 à son groupement de test.",
+          "text": "Avant d'effectuer un test d'Érudition, un personnage peut passer 1 heure à effectuer des recherches dans la bibliothèque afin de recevoir un bonus générique de +3 à sa réserve de test.",
           "spans": [
             {
-              "text": "Avant d'effectuer un test d’Erudition, un personnage peut passer ",
+              "text": "Avant d'effectuer un test d'Érudition, un personnage peut passer ",
               "bold": false
             },
             {
@@ -523,7 +542,7 @@
               "bold": true
             },
             {
-              "text": " à son groupement de test.",
+              "text": " à sa réserve de test.",
               "bold": false
             }
           ]
@@ -618,7 +637,7 @@
     {
       "id": "3b288b48-e48e-8079-a203-f7ddedb6b417",
       "notionUrl": "https://app.notion.com/p/Cercle-de-l-lite-3b288b48e48e8079a203f7ddedb6b417",
-      "lastEditedTime": "2026-08-04T13:17:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -638,7 +657,7 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Cet Élysium a délibérément été établi à proximité des sphères de la haute société mortelle. Il peut, par exemple, s'agir d'une loge maçonnique, d'un musée prestigieux ou d'une autre institution fréquentée par l'élite.",
+          "text": "Cet Élysium a délibérément été établi à proximité des sphères de la haute société mortelle. Il peut, par exemple, s'agir d'une loge maçonnique ou d'un musée respecté.",
           "spans": [
             {
               "text": "Cet Élysium a délibérément été établi à proximité des sphères de la haute société mortelle. Il peut, par exemple, s'agir d'une ",
@@ -649,14 +668,14 @@
               "bold": true
             },
             {
-              "text": ", d'un musée prestigieux ou d'une autre institution fréquentée par l'élite.",
+              "text": " ou d'un musée respecté.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Si l'intégralité de la soirée se déroule sans aucun incident lié à la Mascarade, tous les participants gagnent 1 point supplémentaire dans l'Historique Célébrité pendant 1 mois ou 2 parties, selon la durée la plus longue.",
+          "text": "Si l'intégralité de la soirée se déroule sans aucun incident lié à la Mascarade, tous les participants gagnent 1 point supplémentaire dans l'Historique Renommée pendant 1 mois ou 2 parties, selon la durée la plus longue.",
           "spans": [
             {
               "text": "Si l'intégralité de la soirée se déroule ",
@@ -671,7 +690,7 @@
               "bold": false
             },
             {
-              "text": "1 point supplémentaire dans l'Historique Célébrité",
+              "text": "1 point supplémentaire dans l'Historique Renommée",
               "bold": true
             },
             {
@@ -1031,7 +1050,7 @@
     {
       "id": "3b288b48-e48e-807d-9943-cebce56b540e",
       "notionUrl": "https://app.notion.com/p/Goulet-3b288b48e48e807d9943cebce56b540e",
-      "lastEditedTime": "2026-08-04T11:52:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1061,10 +1080,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Le temps nécessaire pour traverser le Voile est doublé dans ce lieu.",
+          "text": "Le temps nécessaire pour traverser le Voile, indiqué dans le Tableau du Voile : Entrer dans l'Umbra (Mind's Eye Theatre : Werewolf the Apocalypse, page 585), est doublé dans ce lieu.",
           "spans": [
             {
-              "text": "Le temps nécessaire pour traverser le Voile est ",
+              "text": "Le temps nécessaire pour traverser le Voile, indiqué dans le Tableau du Voile : Entrer dans l'Umbra (Mind's Eye Theatre : Werewolf the Apocalypse, page 585), est ",
               "bold": false
             },
             {
@@ -1073,6 +1092,65 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40988b48-e48e-816d-aaf2-cc2d87c30a9a",
+      "notionUrl": "https://app.notion.com/p/Grande-Biblioth-que-40988b48e48e816daaf2cc2d87c30a9a",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Spazio Creativo"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Grande Bibliothèque"
+        }
+      },
+      "title": "Grande Bibliothèque",
+      "slug": "grande-bibliotheque",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu abrite un inventaire soigneusement sélectionné de grimoires occultes et de composants rituels.",
+          "spans": [
+            {
+              "text": "Ce lieu abrite un inventaire soigneusement sélectionné de grimoires occultes et de composants rituels.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Consacrer une Action Inter-Parties à étudier les bibliothèques occultes et à pratiquer de petits rituels sur place confère un bonus générique de +2 aux réserves de test du personnage utilisant la compétence Occultisme pendant la partie suivante.",
+          "spans": [
+            {
+              "text": "Consacrer une ",
+              "bold": false
+            },
+            {
+              "text": "Action Inter-Parties",
+              "bold": true
+            },
+            {
+              "text": " à étudier les bibliothèques occultes et à pratiquer de petits rituels sur place confère un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +2",
+              "bold": true
+            },
+            {
+              "text": " aux réserves de test du personnage utilisant la compétence Occultisme pendant la partie suivante.",
               "bold": false
             }
           ]
@@ -1456,7 +1534,7 @@
     {
       "id": "3b288b48-e48e-80c8-be0f-deb4620ec1ee",
       "notionUrl": "https://app.notion.com/p/Lieu-de-Rencontre-3b288b48e48e80c8be0fdeb4620ec1ee",
-      "lastEditedTime": "2026-08-04T11:36:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1486,24 +1564,24 @@
         },
         {
           "type": "paragraph",
-          "text": "Le personnage qui le contrôle bénéficie d'un Contact dans le domaine du lieux d'intérêt.",
+          "text": "Le personnage qui le contrôle bénéficie d'une instance supplémentaire de l'Historique Contacts à 1 point.",
           "spans": [
             {
-              "text": "Le personnage qui le contrôle bénéficie d'un Contact dans le domaine du lieux d'intérêt.",
+              "text": "Le personnage qui le contrôle bénéficie d'une instance supplémentaire de l'Historique Contacts à 1 point.",
               "bold": false
             }
           ]
         },
         {
           "type": "paragraph",
-          "text": "Cet avantage n'augmente pas le niveau d'un Historique Allié déjà possédé : il est considéré comme un Contact distinct.",
+          "text": "Cet avantage n'augmente pas le niveau des Contacts déjà possédés par le personnage : il est considéré comme un Historique distinct.",
           "spans": [
             {
-              "text": "Cet avantage n'augmente pas le niveau d'un Historique Allié déjà possédé : il est considéré comme ",
+              "text": "Cet avantage n'augmente pas le niveau des Contacts déjà possédés par le personnage : il est considéré comme ",
               "bold": false
             },
             {
-              "text": "un Contact distinct",
+              "text": "un Historique distinct",
               "bold": true
             },
             {
@@ -1517,7 +1595,7 @@
     {
       "id": "3b288b48-e48e-8027-9a4e-fe898581c4a2",
       "notionUrl": "https://app.notion.com/p/Luxe-3b288b48e48e80279a4efe898581c4a2",
-      "lastEditedTime": "2026-08-04T11:36:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1537,10 +1615,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs, œuvres d'art ou autres installations luxueuses.",
+          "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs ou œuvres d'art.",
           "spans": [
             {
-              "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs, œuvres d'art ou autres installations luxueuses.",
+              "text": "Le lieu est rempli d'équipements confortables et coûteux : télévisions, fauteuils automatisés, ordinateurs ou œuvres d'art.",
               "bold": false
             }
           ]
@@ -1672,7 +1750,7 @@
     {
       "id": "3b288b48-e48e-8017-a90b-d785e99235fe",
       "notionUrl": "https://app.notion.com/p/Pare-Feu-3b288b48e48e8017a90bd785e99235fe",
-      "lastEditedTime": "2026-08-04T11:18:00.000Z",
+      "lastEditedTime": "2026-10-30T15:27:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1720,7 +1798,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Un personnage possédant la compétence Informatique et ayant acheté l'Historique Havre pour ce lieu bénéficie gratuitement de la Qualité Pare-feu.",
+          "text": "Un personnage possédant la compétence Informatique et ayant acheté l'Historique Havre pour ce lieu bénéficie gratuitement de la Qualité Pare-Feu.",
           "spans": [
             {
               "text": "Un personnage possédant la compétence ",
@@ -1739,7 +1817,7 @@
               "bold": true
             },
             {
-              "text": " pour ce lieu bénéficie gratuitement de la Qualité Pare-feu.",
+              "text": " pour ce lieu bénéficie gratuitement de la Qualité Pare-Feu.",
               "bold": false
             }
           ]
@@ -1818,7 +1896,7 @@
     {
       "id": "3b288b48-e48e-806f-89f2-c4ad111a5d04",
       "notionUrl": "https://app.notion.com/p/Perturbant-3b288b48e48e806f89f2c4ad111a5d04",
-      "lastEditedTime": "2026-08-04T11:17:00.000Z",
+      "lastEditedTime": "2026-10-30T15:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -1848,14 +1926,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Les pouvoirs Sens Accrus, Sens du Loup, ainsi que tout autre pouvoir comparable améliorant les sens, ne fonctionnent pas dans ce lieu, y compris pour le personnage qui le contrôle.",
+          "text": "Les pouvoirs Sens accrus, Sens du Loup, ainsi que tout autre pouvoir comparable améliorant les sens, ne fonctionnent pas dans ce lieu, y compris pour le personnage qui le contrôle.",
           "spans": [
             {
               "text": "Les pouvoirs ",
               "bold": false
             },
             {
-              "text": "Sens Accrus",
+              "text": "Sens accrus",
               "bold": true
             },
             {
@@ -2240,7 +2318,7 @@
     {
       "id": "3b288b48-e48e-8095-8f34-c692cf8e04e3",
       "notionUrl": "https://app.notion.com/p/Renomm-e-Mondiale-3b288b48e48e80958f34c692cf8e04e3",
-      "lastEditedTime": "2026-08-04T11:48:00.000Z",
+      "lastEditedTime": "2026-10-30T15:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -2288,7 +2366,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Par exemple, la Bibliothèque du Congrès est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de Célébrité.",
+          "text": "Par exemple, la Bibliothèque du Congrès est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de l'Historique Renommée.",
           "spans": [
             {
               "text": "Par exemple, la ",
@@ -2299,7 +2377,7 @@
               "bold": true
             },
             {
-              "text": " est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de Célébrité.",
+              "text": " est l'une des bibliothèques les plus prestigieuses au monde et bénéficie d'accords d'échange avec des bibliothèques du monde entier. Exploiter ce lieu afin d'obtenir des manuscrits rares ou inhabituels peut donc être réalisé grâce à l'Influence, sans nécessiter l'utilisation de l'Historique Renommée.",
               "bold": false
             }
           ]
@@ -2369,6 +2447,126 @@
             },
             {
               "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40988b48-e48e-81d0-b219-f3d670805f44",
+      "notionUrl": "https://app.notion.com/p/R-serv-aux-Membres-40988b48e48e81d0b219f3d670805f44",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Spazio Creativo"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Réservé aux Membres"
+        }
+      },
+      "title": "Réservé aux Membres",
+      "slug": "reserve-aux-membres",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu a été spécialement enchanté afin de lancer une malédiction invalidante sur tout invité non convié.",
+          "spans": [
+            {
+              "text": "Ce lieu a été spécialement enchanté afin de lancer une malédiction invalidante sur tout invité non convié.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "À chaque partie, lorsqu'un vampire qui n'est pas membre de l'Alliance Indépendante pénètre pour la première fois dans le lieu, il doit réussir un défi statique Éprouvant (difficulté 20) utilisant son Attribut Mental ou Social (le plus élevé) + sa compétence Occultisme.",
+          "spans": [
+            {
+              "text": "À chaque partie, lorsqu'un vampire qui n'est pas membre de l'Alliance Indépendante pénètre pour la première fois dans le lieu, il doit réussir un ",
+              "bold": false
+            },
+            {
+              "text": "défi statique Éprouvant (difficulté 20)",
+              "bold": true
+            },
+            {
+              "text": " utilisant son Attribut Mental ou Social (le plus élevé) + sa compétence Occultisme.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "En cas d'échec, il subit le Handicap Sensibilité à la magie pour le reste de la partie.",
+          "spans": [
+            {
+              "text": "En cas d'échec, il subit le Handicap ",
+              "bold": false
+            },
+            {
+              "text": "Sensibilité à la magie",
+              "bold": true
+            },
+            {
+              "text": " pour le reste de la partie.",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "40988b48-e48e-81d6-a407-d0dda4173d3d",
+      "notionUrl": "https://app.notion.com/p/R-sonance-Arcanique-40988b48e48e81d6a407d0dda4173d3d",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Spazio Creativo"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Résonance Arcanique"
+        }
+      },
+      "title": "Résonance Arcanique",
+      "slug": "resonance-arcanique",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Que ce soit grâce à un réseau de runes magiques gravées dans l'ensemble du bâtiment ou à son emplacement sur un nœud de ligne tellurique, de multiples facteurs rendent ce lieu particulièrement propice à la magie rituelle de la Thaumaturgie et de la Nécromancie.",
+          "spans": [
+            {
+              "text": "Que ce soit grâce à un réseau de runes magiques gravées dans l'ensemble du bâtiment ou à son emplacement sur un nœud de ligne tellurique, de multiples facteurs rendent ce lieu particulièrement propice à la magie rituelle de la Thaumaturgie et de la Nécromancie.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Toutes les réserves de test de rituel reçoivent un bonus générique de +3 si le rituel est accompli dans un Spazio Creativo.",
+          "spans": [
+            {
+              "text": "Toutes les réserves de test de rituel reçoivent un ",
+              "bold": false
+            },
+            {
+              "text": "bonus générique de +3",
+              "bold": true
+            },
+            {
+              "text": " si le rituel est accompli dans un Spazio Creativo.",
               "bold": false
             }
           ]
@@ -2465,7 +2663,7 @@
     {
       "id": "3b288b48-e48e-804e-bbc7-cf37da5dd125",
       "notionUrl": "https://app.notion.com/p/Salle-de-Spectacle-3b288b48e48e804ebbc7cf37da5dd125",
-      "lastEditedTime": "2026-08-04T11:41:00.000Z",
+      "lastEditedTime": "2026-10-30T15:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -2531,10 +2729,10 @@
         },
         {
           "type": "paragraph",
-          "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de spectacle, mais chaque acquisition doit concerner une spécialisation de Représentation différente.",
+          "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de Spectacle, mais chaque acquisition doit concerner une spécialisation de Représentation différente.",
           "spans": [
             {
-              "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de spectacle, mais ",
+              "text": "Un lieu peut posséder plusieurs fois la Qualité Salle de Spectacle, mais ",
               "bold": false
             },
             {
@@ -2552,7 +2750,7 @@
     {
       "id": "3b288b48-e48e-80c1-ab60-f1c6562bfe06",
       "notionUrl": "https://app.notion.com/p/S-curit-3b288b48e48e80c1ab60f1c6562bfe06",
-      "lastEditedTime": "2026-08-04T11:39:00.000Z",
+      "lastEditedTime": "2026-10-30T15:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -2572,10 +2770,10 @@
       "content": [
         {
           "type": "paragraph",
-          "text": "Le lieu dispose d'un système de sécurité standard.",
+          "text": "Le lieu dispose d'un système de sécurité de base.",
           "spans": [
             {
-              "text": "Le lieu dispose d'un système de sécurité standard.",
+              "text": "Le lieu dispose d'un système de sécurité de base.",
               "bold": false
             }
           ]
@@ -2657,7 +2855,7 @@
     {
       "id": "3b288b48-e48e-8063-8ecd-d69cf1b4a7fa",
       "notionUrl": "https://app.notion.com/p/S-lectif-3b288b48e48e80638ecdd69cf1b4a7fa",
-      "lastEditedTime": "2026-08-04T13:19:00.000Z",
+      "lastEditedTime": "2026-10-30T15:28:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -2713,7 +2911,7 @@
         },
         {
           "type": "paragraph",
-          "text": "Le Conteur détermine les mécaniques exactes de cette Qualité. Il peut par exemple appliquer une augmentation progressive de la Banalité aux Fées ou une perte de Gnose provoquée par l'argent aux Changeformes.",
+          "text": "Le Conteur détermine les mécaniques exactes de cette Qualité. Il peut par exemple appliquer une augmentation progressive de la Banalité aux Changelins ou une perte de Gnose provoquée par l'argent aux Changeformes.",
           "spans": [
             {
               "text": "Le Conteur détermine les mécaniques exactes de cette Qualité. Il peut par exemple appliquer une augmentation progressive de la ",
@@ -2724,7 +2922,7 @@
               "bold": true
             },
             {
-              "text": " aux Fées ou une perte de ",
+              "text": " aux Changelins ou une perte de ",
               "bold": false
             },
             {
@@ -2922,7 +3120,7 @@
     {
       "id": "3b288b48-e48e-8015-bee9-c6f8c5935cbb",
       "notionUrl": "https://app.notion.com/p/Tentaculaire-3b288b48e48e8015bee9c6f8c5935cbb",
-      "lastEditedTime": "2026-08-04T11:40:00.000Z",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -2970,14 +3168,14 @@
         },
         {
           "type": "paragraph",
-          "text": "De plus, les personnages qui ne contrôlent pas ce Lieu d'intérêt ne peuvent pas déclarer de Fuite Équitable tant qu'ils s'y trouvent.",
+          "text": "De plus, les personnages qui ne contrôlent pas ce lieu ne peuvent pas déclarer de fuite équitable tant qu'ils s'y trouvent.",
           "spans": [
             {
-              "text": "De plus, les personnages qui ne contrôlent pas ce Lieu d'intérêt ",
+              "text": "De plus, les personnages qui ne contrôlent pas ce lieu ",
               "bold": false
             },
             {
-              "text": "ne peuvent pas déclarer de Fuite Équitable tant qu'ils s'y trouvent",
+              "text": "ne peuvent pas déclarer de fuite équitable tant qu'ils s'y trouvent",
               "bold": true
             },
             {
@@ -3076,7 +3274,7 @@
     {
       "id": "3b288b48-e48e-8098-969b-c5756ef677fc",
       "notionUrl": "https://app.notion.com/p/Terre-sacr-e-3b288b48e48e8098969bc5756ef677fc",
-      "lastEditedTime": "2026-08-04T13:16:00.000Z",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -3142,14 +3340,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Cette Qualité déclenche également les effets du Handicap Repoussé par la Religion.",
+          "text": "Cette Qualité déclenche également les effets du Handicap Repoussé par la religion.",
           "spans": [
             {
               "text": "Cette Qualité déclenche également les effets du Handicap ",
               "bold": false
             },
             {
-              "text": "Repoussé par la Religion",
+              "text": "Repoussé par la religion",
               "bold": true
             },
             {
@@ -3163,7 +3361,7 @@
     {
       "id": "3b288b48-e48e-80b9-9c01-fc49bdec631e",
       "notionUrl": "https://app.notion.com/p/Traditionnel-3b288b48e48e80b99c01fc49bdec631e",
-      "lastEditedTime": "2026-08-17T22:00:00.000Z",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -3195,6 +3393,24 @@
             },
             {
               "text": ". Être vu dans ce lieu revêt une importance particulière au sein de la société vampirique.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Tous les vampires qui assistent à un rassemblement ici gagnent le Trait de statut éphémère Courtois une fois toutes les trois parties.",
+          "spans": [
+            {
+              "text": "Tous les vampires qui assistent à un rassemblement ici gagnent le ",
+              "bold": false
+            },
+            {
+              "text": "Trait de statut éphémère Courtois",
+              "bold": true
+            },
+            {
+              "text": " une fois toutes les trois parties.",
               "bold": false
             }
           ]
@@ -3271,9 +3487,76 @@
       ]
     },
     {
+      "id": "40988b48-e48e-81b2-b8d4-f4991f3f37eb",
+      "notionUrl": "https://app.notion.com/p/Voile-D-clinant-40988b48e48e81b2b8d4f4991f3f37eb",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
+      "properties": {
+        "Catégorie": {
+          "type": "select",
+          "value": ""
+        },
+        "Spécifique": {
+          "type": "select",
+          "value": "Spazio Creativo"
+        },
+        "Nom": {
+          "type": "text",
+          "value": "Voile Déclinant"
+        }
+      },
+      "title": "Voile Déclinant",
+      "slug": "voile-declinant",
+      "content": [
+        {
+          "type": "paragraph",
+          "text": "Ce lieu dispense le nécromancien d'abaisser le Voile autour de lui avant de tenter de traiter avec les morts agités.",
+          "spans": [
+            {
+              "text": "Ce lieu dispense le nécromancien d'abaisser le ",
+              "bold": false
+            },
+            {
+              "text": "Voile",
+              "bold": true
+            },
+            {
+              "text": " autour de lui avant de tenter de traiter avec les morts agités.",
+              "bold": false
+            }
+          ]
+        },
+        {
+          "type": "paragraph",
+          "text": "Chaque mois lunaire, le niveau du Voile de ce lieu baisse d'un cran, jusqu'à un minimum de faible.",
+          "spans": [
+            {
+              "text": "Chaque mois lunaire, le niveau du Voile de ce lieu ",
+              "bold": false
+            },
+            {
+              "text": "baisse d'un cran",
+              "bold": true
+            },
+            {
+              "text": ", jusqu'à un minimum de ",
+              "bold": false
+            },
+            {
+              "text": "faible",
+              "bold": true
+            },
+            {
+              "text": ".",
+              "bold": false
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "3b288b48-e48e-80f7-b079-ebb10da04f10",
       "notionUrl": "https://app.notion.com/p/Zone-morte-3b288b48e48e80f7b079ebb10da04f10",
-      "lastEditedTime": "2026-08-04T11:16:00.000Z",
+      "lastEditedTime": "2026-10-30T15:29:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -3313,14 +3596,14 @@
         },
         {
           "type": "paragraph",
-          "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler ou de perturber la technologie, comme la Voie de Technomancie de la magie du sang ou le Don des Loups-Garous Brouillage Technologique.",
+          "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler la technologie, comme la Voie de la Technomancie de la magie du sang ou le Don des Loups-Garous Brouillage Technologique.",
           "spans": [
             {
-              "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler ou de perturber la technologie, comme la ",
+              "text": "Cette zone est également immunisée contre les pouvoirs mystiques permettant de contrôler la technologie, comme la ",
               "bold": false
             },
             {
-              "text": "Voie de Technomancie",
+              "text": "Voie de la Technomancie",
               "bold": true
             },
             {
