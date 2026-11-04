@@ -4,7 +4,7 @@
   "group": "Règles",
   "description": "Toutes les règles",
   "notionDatabaseId": "39488b48-e48e-80a4-a575-d8e9957a3ec4",
-  "generatedAt": "2026-11-03T16:01:46.685Z",
+  "generatedAt": "2026-11-04T11:19:58.316Z",
   "propertyOptions": {
     "Catégorie": [
       "Lieux d'intérêts",
@@ -13988,7 +13988,7 @@
     {
       "id": "3a688b48-e48e-8026-af18-d9821956e445",
       "notionUrl": "https://app.notion.com/p/L-Exp-rience-3a688b48e48e8026af18d9821956e445",
-      "lastEditedTime": "2026-08-13T18:32:00.000Z",
+      "lastEditedTime": "2026-11-04T11:19:00.000Z",
       "properties": {
         "Catégorie": {
           "type": "select",
@@ -14006,6 +14006,48 @@
       "title": "L’Expérience",
       "slug": "l-experience",
       "content": [
+        {
+          "type": "callout",
+          "text": "Toute dépense d’expérience se fait sur le mois n+1.",
+          "children": [
+            {
+              "type": "paragraph",
+              "text": "Exemple : ",
+              "spans": [
+                {
+                  "text": "Exemple : ",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Roger veut passer Dom 3 à 4 pendant son mois d’AIP de Janvier, Dom 4 ne sera utilisable qu’a partir du mois de Février.",
+              "spans": [
+                {
+                  "text": "Roger veut passer Dom 3 à 4 pendant son mois d’AIP de Janvier, Dom 4 ne sera utilisable qu’a partir du mois de Février.",
+                  "bold": false
+                }
+              ]
+            },
+            {
+              "type": "paragraph",
+              "text": "Ceci est valable pour TOUTE dépense d’XP.",
+              "spans": [
+                {
+                  "text": "Ceci est valable pour TOUTE dépense d’XP.",
+                  "bold": false
+                }
+              ]
+            }
+          ],
+          "spans": [
+            {
+              "text": "Toute dépense d’expérience se fait sur le mois n+1.",
+              "bold": false
+            }
+          ]
+        },
         {
           "type": "heading_2",
           "text": "Coût des améliorations",

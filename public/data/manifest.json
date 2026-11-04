@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-03T16:01:46.715Z",
+  "generatedAt": "2026-11-04T11:19:58.347Z",
   "collections": [
     {
       "key": "disciplines",
@@ -111,6 +111,15 @@
     }
   ],
   "recent": [
+    {
+      "title": "L’Expérience",
+      "slug": "l-experience",
+      "collectionKey": "regles",
+      "collectionLabel": "Règles",
+      "path": "/regles",
+      "icon": "book-open",
+      "lastEditedTime": "2026-11-04T11:19:00.000Z"
+    },
     {
       "title": "Malkav Time",
       "slug": "malkav-time",
@@ -276,15 +285,6 @@
     {
       "title": "Arcane",
       "slug": "arcane",
-      "collectionKey": "atouts",
-      "collectionLabel": "Atouts",
-      "path": "/atouts",
-      "icon": "star",
-      "lastEditedTime": "2026-11-03T09:15:00.000Z"
-    },
-    {
-      "title": "Architecte de la Tour",
-      "slug": "architecte-de-la-tour",
       "collectionKey": "atouts",
       "collectionLabel": "Atouts",
       "path": "/atouts",
